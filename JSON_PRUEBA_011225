@@ -1,0 +1,512 @@
+[
+  {
+    "id": "CEPPRU1SD",
+    "question": "Encuentra la derivada de la función $f(x) = 3x^5 - 2x^4 + 7$",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
+    "options": [
+      { "text": "$f'(x) = 15x^4 - 8x^3$", "correct": true },
+      { "text": "$f'(x) = 5x^4 - 4x^3$", "correct": false },
+      { "text": "$f'(x) = 15x^5 - 8x^4 + 7$", "correct": false },
+      { "text": "$f'(x) = 3x^4 - 2x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Aplica la regla de la potencia para derivadas: $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+    "explanation": "Al derivar término por término, la derivada de $3x^5$ es $15x^4$ y la de $-2x^4$ es $-8x^3$. La derivada de una constante (7) es 0.",
+    "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
+    "collapsible_text": "Este es un texto de prueba"
+  },
+  {
+    "id": "CEPPRU1SE",
+    "question": "La constante de Planck (h) es aproximadamente $6.626 \\times 10^{-34} \\text{ J·s}$. ¿Cuál sería el valor de $h^2$?",
+    "image": null,
+    "options": [
+      { "text": "$4.39 \\times 10^{-67} \\text{ J}^2\\text{·s}^2$", "correct": true },
+      { "text": "$1.32 \\times 10^{-33} \\text{ J}^2\\text{·s}^2$", "correct": false },
+      { "text": "$4.39 \\times 10^{-68} \\text{ J}^2\\text{·s}^2$", "correct": false },
+      { "text": "$6.626 \\times 10^{-68} \\text{ J}^2\\text{·s}^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Para elevar una notación científica al cuadrado, eleva el coeficiente al cuadrado y multiplica el exponente por 2.",
+    "explanation": "Se calcula $(6.626)^2 \\approx 43.9$ y se multiplica el exponente: $10^{-34 \\times 2} = 10^{-68}$. El resultado es $43.9 \\times 10^{-68}$, que se normaliza a $4.39 \\times 10^{-67}$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU4SD",
+    "question": "La ley de los gases ideales es $PV = nRT$. Si la presión (P) es proporcional a $T^4$ (ley de Stefan-Boltzmann), ¿cómo se relaciona V con T si n y R son constantes?",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
+    "options": [
+      { "text": "V es proporcional a $T^{-3}$", "correct": true },
+      { "text": "V es proporcional a $T^5$", "correct": false },
+      { "text": "V es proporcional a $T^4$", "correct": false },
+      { "text": "V es proporcional a $T^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Sustituye P en la ley de los gases ideales y despeja V en términos de T.",
+    "explanation": "Si $P = k \\cdot T^4$, entonces $(k \\cdot T^4)V = nRT$. Despejando V, obtenemos $V = \\frac{nR}{k} \\cdot \\frac{T}{T^4} = (\\text{constante}) \\cdot T^{1-4} = (\\text{constante}) \\cdot T^{-3}$. Por lo tanto, V es proporcional a $T^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU1SF",
+    "question": "Calcula la integral indefinida de $\\int 6x^5 \\,dx$.",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$x^6 + C$", "correct": true },
+      { "text": "$30x^4 + C$", "correct": false },
+      { "text": "$6x^6 + C$", "correct": false },
+      { "text": "$x^5 + C$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la regla de la potencia para integrales: $\\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C$.",
+    "explanation": "Aplicando la regla, la integral de $6x^5$ es $6 \\cdot \\frac{x^{5+1}}{5+1} + C = 6 \\cdot \\frac{x^6}{6} + C = x^6 + C$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU1PD",
+    "question": "¿Cuál es la fórmula química del sulfato de amonio?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$(NH_4)_2SO_4$", "correct": true },
+      { "text": "$NH_4(SO_4)_2$", "correct": false },
+      { "text": "$NH_3SO_4$", "correct": false },
+      { "text": "$AmS$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El ion amonio es $NH_4^+$ y el ion sulfato es $SO_4^{2-}$. Necesitas balancear las cargas.",
+    "explanation": "Se necesitan dos iones de amonio (carga +1 cada uno) para balancear la carga -2 del ion sulfato, resultando en la fórmula $(NH_4)_2SO_4$.",
+    "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU1QD",
+    "question": "La intensidad de una onda esférica disminuye con el inverso del cuadrado de la distancia ($r^{-2}$). Si la intensidad a 2 metros es $I_0$, ¿cuál es la intensidad a 8 metros?",
+    "image": null,
+    "options": [
+      { "text": "$I_0 / 16$", "correct": true },
+      { "text": "$I_0 / 4$", "correct": false },
+      { "text": "$I_0 / 8$", "correct": false },
+      { "text": "$I_0 / 64$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La distancia se cuadruplicó (de 2 a 8 m). ¿Cómo afecta esto a la intensidad si la relación es $r^{-2}$?",
+    "explanation": "La intensidad es proporcional a $1/r^2$. Si la distancia se multiplica por 4, la intensidad se divide por $4^2 = 16$. Por lo tanto, la nueva intensidad es $I_0/16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU7SD",
+    "question": "Simplifica la expresión $(2a^4b^{-2})^3$.",
+    "image": null,
+    "options": [
+      { "text": "$8a^{12}b^{-6}$", "correct": true },
+      { "text": "$6a^7b^1$", "correct": false },
+      { "text": "$8a^7b^{-6}$", "correct": false },
+      { "text": "$2a^{12}b^{-6}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Eleva cada factor dentro del paréntesis a la potencia de 3. Recuerda que $(x^m)^n = x^{m \\cdot n}$.",
+    "explanation": "Se calcula $2^3 = 8$. Para las variables, se multiplican los exponentes: $(a^4)^3 = a^{12}$ y $(b^{-2})^3 = b^{-6}$. El resultado es $8a^{12}b^{-6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU1SC",
+    "question": "Para la reacción $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$, ¿cuál es la expresión de la constante de equilibrio $K_c$?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$K_c = \\frac{[SO_3]^2}{[SO_2]^2[O_2]}$", "correct": true },
+      { "text": "$K_c = \\frac{[SO_2]^2[O_2]}{[SO_3]^2}$", "correct": false },
+      { "text": "$K_c = \\frac{[SO_3]}{[SO_2][O_2]}$", "correct": false },
+      { "text": "$K_c = \\frac{2[SO_3]}{2[SO_2][O_2]}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La constante de equilibrio es la concentración de los productos elevada a sus coeficientes, dividida por la de los reactivos elevada a los suyos.",
+    "explanation": "Los productos (derecha) van en el numerador y los reactivos (izquierda) en el denominador. Los coeficientes estequiométricos se usan como exponentes para cada especie.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU1ID",
+    "question": "La Ley de Enfriamiento de Newton se modela con $T(t) = T_a + (T_0 - T_a)e^{-kt}$. Si $T_0=100°C$, $T_a=20°C$ y $k=0.05$, ¿cuál es la temperatura a los 10 segundos?",
+    "image": null,
+    "options": [
+      { "text": "$68.5 °C$", "correct": true },
+      { "text": "$48.5 °C$", "correct": false },
+      { "text": "$20 °C$", "correct": false },
+      { "text": "$80 °C$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Sustituye los valores en la fórmula. Necesitarás calcular $e^{-0.5}$.",
+    "explanation": "$T(10) = 20 + (100 - 20)e^{-0.05 \\cdot 10} = 20 + 80e^{-0.5} \\approx 20 + 80(0.6065) \\approx 20 + 48.52 = 68.52°C$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU1SA",
+    "question": "Desarrolla el binomio $(x + 2)^4$.",
+    "image": null,
+    "options": [
+      { "text": "$x^4 + 8x^3 + 24x^2 + 32x + 16$", "correct": true },
+      { "text": "$x^4 + 16$", "correct": false },
+      { "text": "$x^4 + 8x^3 + 16$", "correct": false },
+      { "text": "$4x + 8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa el Teorema del Binomio o los coeficientes del Triángulo de Pascal (1, 4, 6, 4, 1).",
+    "explanation": "Los términos son: $1(x^4)(2^0) + 4(x^3)(2^1) + 6(x^2)(2^2) + 4(x^1)(2^3) + 1(x^0)(2^4) = x^4 + 8x^3 + 24x^2 + 32x + 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU8SD",
+    "question": "Si una solución tiene una concentración de iones hidronio $[H_3O^+]$ de $1.0 \\times 10^{-9} \\text{ M}$, ¿cuál es su pH?",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "-9", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "$1 \\times 10^9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La fórmula del pH es: $pH = -\\log[H_3O^+]$.",
+    "explanation": "$pH = -\\log(1.0 \\times 10^{-9}) = -(-9) = 9$. La solución es básica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU7ED",
+    "question": "La energía cinética relativista es $E_k = (\\gamma - 1)m_0c^2$, donde $\\gamma = (1 - v^2/c^2)^{-1/2}$. ¿Qué pasa con $\\gamma$ cuando $v \\to c$?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$\\gamma$ tiende a infinito", "correct": true },
+      { "text": "$\\gamma$ tiende a 0", "correct": false },
+      { "text": "$\\gamma$ tiende a 1", "correct": false },
+      { "text": "$\\gamma$ tiende a -1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Analiza el denominador $(1 - v^2/c^2)^{1/2}$ cuando $v \\to c$.",
+    "explanation": "Cuando $v$ se acerca a $c$, el cociente $v^2/c^2$ se acerca a 1. El término $(1 - v^2/c^2)$ se acerca a 0. El inverso de un número que tiende a cero es infinito. Por lo tanto, $\\gamma$ tiende a infinito.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU6SA",
+    "question": "Resuelve para x: $2^{x+3} = 128$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = 5$", "correct": false },
+      { "text": "$x = 7$", "correct": false },
+      { "text": "$x = 10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Expresa 128 como una potencia de 2.",
+    "explanation": "128 es $2^7$. Por lo tanto, la ecuación se convierte en $2^{x+3} = 2^7$. Igualando los exponentes, tenemos $x + 3 = 7$, lo que da $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU6SB",
+    "question": "La configuración electrónica del Argón (Ar, Z=18) es:",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
+    "options": [
+      { "text": "$1s^22s^22p^63s^23p^6$", "correct": true },
+      { "text": "$1s^22s^22p^63s^23p^44s^2$", "correct": false },
+      { "text": "$1s^22s^22p^63s^2$", "correct": false },
+      { "text": "$1s^22s^22p^63s^23p^54s^1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Llena los orbitales en orden de energía (1s, 2s, 2p, 3s, 3p...) hasta sumar 18 electrones.",
+    "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e-), p (máx 6e-). Sumando los electrones: $2+2+6+2+6 = 18$.",
+    "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU6SD",
+    "question": "La energía de los niveles en el átomo de hidrógeno viene dada por $E_n = -\\frac{13.6 \\text{ eV}}{n^2}$. ¿Cuál es la energía del nivel $n=4$?",
+    "image": null,
+    "options": [
+      { "text": "$-0.85 \\text{ eV}$", "correct": true },
+      { "text": "$-3.4 \\text{ eV}$", "correct": false },
+      { "text": "$-1.51 \\text{ eV}$", "correct": false },
+      { "text": "$-13.6 \\text{ eV}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Sustituye n=4 en la fórmula y calcula el resultado.",
+    "explanation": "$E_4 = -\\frac{13.6 \\text{ eV}}{4^2} = -\\frac{13.6 \\text{ eV}}{16} = -0.85 \\text{ eV}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU6SE",
+    "question": "Simplifica la expresión con exponentes fraccionarios: $(16y^8)^{3/4}$",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
+    "options": [
+      { "text": "$8y^6$", "correct": true },
+      { "text": "$12y^6$", "correct": false },
+      { "text": "$8y^8$", "correct": false },
+      { "text": "$16y^6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda que $x^{m/n} = (\\sqrt[n]{x})^m$. Aplica la potencia a cada factor.",
+    "explanation": "Primero, la raíz cuarta: $\\sqrt[4]{16} = 2$ y $\\sqrt[4]{y^8} = y^2$. Luego, elevamos al cubo: $(2y^2)^3 = 2^3(y^2)^3 = 8y^6$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU6SF",
+    "question": "Balancea la ecuación de combustión del butano: $C_4H_{10} + O_2 \\to CO_2 + H_2O$",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$2C_4H_{10} + 13O_2 \\to 8CO_2 + 10H_2O$", "correct": true },
+      { "text": "$C_4H_{10} + 6O_2 \\to 4CO_2 + 5H_2O$", "correct": false },
+      { "text": "$C_4H_{10} + O_2 \\to C_4O_2 + H_{10}$", "correct": false },
+      { "text": "$4C_4H_{10} + 20O_2 \\to 16CO_2 + 20H_2O$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Balancea primero los Carbonos, luego los Hidrógenos y finalmente los Oxígenos.",
+    "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 $CO_2$ y 10 $H_2O$. Esto da un total de $(8 \\cdot 2 + 10 \\cdot 1) = 26$ átomos de O. Para tener 26 O en los reactivos, necesitas 13 $O_2$. La ecuación balanceada es $2C_4H_{10} + 13O_2 \\to 8CO_2 + 10H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU6SG",
+    "question": "La Ley de Gravitación Universal de Newton es $F = G\\frac{m_1m_2}{r^2}$. Si la distancia 'r' se reduce a la mitad, ¿cómo cambia la fuerza F?",
+    "image": null,
+    "options": [
+      { "text": "Se cuadruplica (4F)", "correct": true },
+      { "text": "Se duplica (2F)", "correct": false },
+      { "text": "Se reduce a la mitad (F/2)", "correct": false },
+      { "text": "Se reduce a la cuarta parte (F/4)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "IPN"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La fuerza es inversamente proporcional al cuadrado de la distancia. Analiza qué pasa si r se convierte en r/2.",
+    "explanation": "La nueva fuerza $F' = G\\frac{m_1m_2}{(r/2)^2} = G\\frac{m_1m_2}{r^2/4} = 4 \\cdot \\left[G\\frac{m_1m_2}{r^2}\\right] = 4F$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU6Sh",
+    "question": "Si $\\log_b(x^5) = 10$, ¿cuál es el valor de $\\log_b(x)$?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "0.5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la propiedad de los logaritmos: $\\log(a^n) = n \\cdot \\log(a)$.",
+    "explanation": "Aplicando la propiedad, tenemos $5 \\cdot \\log_b(x) = 10$. Dividiendo ambos lados por 5, obtenemos $\\log_b(x) = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU6Si",
+    "question": "La ley de velocidad para una reacción es: $Velocidad = k[A]^2[B]$. Si la concentración de A se triplica y la de B se duplica, ¿cómo cambia la velocidad?",
+    "image": null,
+    "options": [
+      { "text": "Se multiplica por 18", "correct": true },
+      { "text": "Se multiplica por 6", "correct": false },
+      { "text": "Se multiplica por 12", "correct": false },
+      { "text": "Se multiplica por 9", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sustituye $[3A]$ en lugar de $[A]$ y $[2B]$ en lugar de $[B]$ en la ecuación de velocidad.",
+    "explanation": "La nueva velocidad = $k[3A]^2[2B] = k(9[A]^2)(2[B]) = 18 \\cdot (k[A]^2[B])$. La velocidad se multiplica por 18.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_MTH_01",
+    "question": "¿Cuál es la solución de la ecuación cuadrática $2x^2 - 5x + 3 = 0$ usando la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$?",
+    "image": null,
+    "options": [
+      { "text": "$x=1, x=\\frac{3}{2}$", "correct": true },
+      { "text": "$x=-1, x=-\\frac{3}{2}$", "correct": false },
+      { "text": "$x=2, x=3$", "correct": false },
+      { "text": "$x=\\frac{1}{2}, x=3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Identifica a=2, b=-5 y c=3 y sustitúyelos en la fórmula cuadrática.",
+    "explanation": "Sustituyendo: $x = \\frac{-(-5) \\pm \\sqrt{(-5)^2-4(2)(3)}}{2(2)} = \\frac{5 \\pm \\sqrt{25-24}}{4} = \\frac{5 \\pm 1}{4}$. Las dos soluciones son $x_1 = \\frac{6}{4} = \\frac{3}{2}$ y $x_2 = \\frac{4}{4} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_PHY_01",
+    "question": "Un objeto es lanzado con una velocidad inicial $v_0$ a un ángulo $\\theta$. La altura máxima $H$ que alcanza está dada por:",
+    "image": null,
+    "options": [
+      { "text": "$$H = \\frac{v_0^2 \\sin^2(\\theta)}{2g}$$", "correct": true },
+      { "text": "$$H = \\frac{v_0 \\sin(\\theta)}{g}$$", "correct": false },
+      { "text": "$$H = \\frac{v_0^2 \\cos^2(\\theta)}{2g}$$", "correct": false },
+      { "text": "$$H = \\sqrt{\\frac{v_0 \\sin(\\theta)}{2g}}$$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La altura máxima se alcanza cuando la componente vertical de la velocidad es cero. Usa la ecuación $v_f^2 = v_i^2 + 2ad$.",
+    "explanation": "La componente vertical de la velocidad inicial es $v_{0y} = v_0 \\sin(\\theta)$. En la altura máxima, $v_{fy} = 0$. Usando la ecuación de cinemática $v_{fy}^2 = v_{0y}^2 - 2gH$, tenemos $0 = (v_0 \\sin(\\theta))^2 - 2gH$. Despejando H se obtiene la fórmula correcta.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_CHM_01",
+    "question": "La Ley de los Gases Ideales se expresa como $PV=nRT$. ¿Cuál es la fórmula para la densidad ($\\rho$) de un gas ideal?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      { "text": "$$\\rho = \\frac{PM}{RT}$$", "correct": true },
+      { "text": "$$\\rho = \\frac{nRT}{V}$$", "correct": false },
+      { "text": "$$\\rho = \\frac{RT}{PM}$$", "correct": false },
+      { "text": "$$\\rho = \\frac{PV}{n M}$$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda que la densidad es masa/volumen ($\\rho = m/V$) y el número de moles es masa/Masa Molar ($n = m/M$).",
+    "explanation": "Partimos de $PV=nRT$. Sustituimos $n = m/M$: $PV = \\frac{m}{M}RT$. Reordenamos para obtener $\\frac{m}{V}$: $\\frac{P M}{RT} = \\frac{m}{V}$. Como $\\rho = \\frac{m}{V}$, entonces $\\rho = \\frac{PM}{RT}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU_MTH_02",
+    "question": "¿Cuál es el valor de la integral definida $\\int_{0}^{2} (3x^2 - 2x) \\,dx$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primero encuentra la antiderivada de la función y luego evalúala en los límites de integración usando el Teorema Fundamental del Cálculo.",
+    "explanation": "La antiderivada de $3x^2 - 2x$ es $x^3 - x^2$. Evaluando en los límites: $[(2)^3 - (2)^2] - [(0)^3 - (0)^2] = [8 - 4] - [0] = 4$.",
+    "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU_PHY_02",
+    "question": "La segunda ley de Newton establece que la fuerza neta sobre un objeto es igual a la tasa de cambio de su momento lineal. ¿Cuál es su expresión más famosa?",
+    "image": null,
+    "options": [
+      { "text": "$$\\sum F = ma$$", "correct": true },
+      { "text": "$$E = mc^2$$", "correct": false },
+      { "text": "$$F = G \\frac{m_1 m_2}{r^2}$$", "correct": false },
+      { "text": "$$\\Delta p = F \\Delta t$$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Esta es la ecuación fundamental de la dinámica clásica.",
+    "explanation": "La suma de todas las fuerzas ($\\sum F$) que actúan sobre un objeto es igual al producto de su masa ($m$) por su aceleración ($a$). Esta es la forma más común de la segunda ley de Newton para una masa constante.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_CHM_02",
+    "question": "La ecuación de Arrhenius relaciona la constante de velocidad de una reacción ($k$) con la temperatura ($T$): $k = Ae^{-E_a/RT}$. ¿Qué representa $E_a$?",
+    "image": null,
+    "options": [
+      { "text": "Energía de activación", "correct": true },
+      { "text": "Entalpía de la reacción", "correct": false },
+      { "text": "Energía libre de Gibbs", "correct": false },
+      { "text": "Factor pre-exponencial", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es la energía mínima requerida para que los reactivos se transformen en productos.",
+    "explanation": "En la ecuación de Arrhenius, $E_a$ es la energía de activación, que representa la barrera de energía que debe superarse para que ocurra una reacción química.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEPPRU_MTH_03",
+    "question": "Calcula el límite: $\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "Indefinido", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La sustitución directa da 0/0. Factoriza el numerador para simplificar la expresión.",
+    "explanation": "Factorizando la diferencia de cuadrados en el numerador: $\\frac{x^2 - 9}{x - 3} = \\frac{(x-3)(x+3)}{x-3}$. Se cancela el término $(x-3)$, quedando $x+3$. Ahora evaluamos el límite: $\\lim_{x \\to 3} (x+3) = 3+3=6$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_PHY_03",
+    "question": "La energía de un fotón está dada por la ecuación de Planck, $E=hf$. Usando la relación $c = \\lambda f$, ¿cómo se expresa la energía en términos de la longitud de onda $\\lambda$?",
+    "image": null,
+    "options": [
+      { "text": "$$E = \\frac{hc}{\\lambda}$$", "correct": true },
+      { "text": "$$E = hc\\lambda$$", "correct": false },
+      { "text": "$$E = \\frac{h\\lambda}{c}$$", "correct": false },
+      { "text": "$$E = \\frac{c\\lambda}{h}$$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja la frecuencia $f$ de la ecuación de la velocidad de la luz y sustitúyela en la ecuación de Planck.",
+    "explanation": "De $c = \\lambda f$, despejamos $f = c/\\lambda$. Sustituyendo esto en $E=hf$, obtenemos $E = h(\\frac{c}{\\lambda}) = \\frac{hc}{\\lambda}$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_MTH_04",
+    "question": "La derivada de la función $f(x) = \\sin(x^2)$ es:",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cos(x^2)$", "correct": true },
+      { "text": "$\\cos(x^2)$", "correct": false },
+      { "text": "$-2x \\cos(x^2)$", "correct": false },
+      { "text": "$2 \\sin(x) \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la regla de la cadena: La derivada de $f(g(x))$ es $f'(g(x)) \\cdot g'(x)$.",
+    "explanation": "La función externa es $\\sin(u)$ y la interna es $u=x^2$. La derivada de la externa es $\\cos(u)$ y la de la interna es $2x$. Aplicando la regla de la cadena, la derivada es $\\cos(x^2) \\cdot 2x = 2x \\cos(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  },
+  {
+    "id": "CEPPRU_PHY_04",
+    "question": "Según la Ley de Ohm, la diferencia de potencial ($V$) en un resistor es directamente proporcional a la corriente ($I$) que pasa por él. La constante de proporcionalidad es la resistencia ($R$). ¿Cuál es la fórmula?",
+    "image": null,
+    "options": [
+      { "text": "$V = IR$", "correct": true },
+      { "text": "$I = VR$", "correct": false },
+      { "text": "$R = VI$", "correct": false },
+      { "text": "$V = \\frac{R}{I}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Voltaje es igual a Corriente por Resistencia.",
+    "explanation": "La Ley de Ohm se expresa matemáticamente como $V = IR$, donde V se mide en voltios, I en amperios y R en ohmios ($\\Omega$).",
+    "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
+    "collapsible_text": "Hermanos: En otro tiempo ustedes estaban alejados de Dios y en su corazón eran enemigos de él a causa de las malas acciones de ustedes; pero él los ha reconciliado ahora consigo por medio de la muerte que Cristo sufrió en su cuerpo mortal, para hacerlos santos, puros e irreprochables a sus ojos. Sin embargo, es necesario que permanezcan firmemente cimentados en la fe y no se dejen apartar de la esperanza que les dio el Evangelio que escucharon, el cual ha sido predicado en todas partes y a cuyo servicio yo, Pablo, he sido destinado."
+  }
+]
