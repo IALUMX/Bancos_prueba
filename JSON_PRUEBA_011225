@@ -10,7 +10,7 @@
       { "text": "$f'(x) = 3x^4 - 2x^3$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Aplica la regla de la potencia para derivadas: $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
     "explanation": "Al derivar término por término, la derivada de $3x^5$ es $15x^4$ y la de $-2x^4$ es $-8x^3$. La derivada de una constante (7) es 0.",
     "explanative_video": "https://www.youtube.com/watch?v=uGA_pwwKg9E",
@@ -27,7 +27,7 @@
       { "text": "$6.626 \\times 10^{-68} \\text{ J}^2\\text{·s}^2$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Para elevar una notación científica al cuadrado, eleva el coeficiente al cuadrado y multiplica el exponente por 2.",
     "explanation": "Se calcula $(6.626)^2 \\approx 43.9$ y se multiplica el exponente: $10^{-34 \\times 2} = 10^{-68}$. El resultado es $43.9 \\times 10^{-68}$, que se normaliza a $4.39 \\times 10^{-67}$.",
     "explanative_video": null,
@@ -44,7 +44,7 @@
       { "text": "V es proporcional a $T^3$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Sustituye P en la ley de los gases ideales y despeja V en términos de T.",
     "explanation": "Si $P = k \\cdot T^4$, entonces $(k \\cdot T^4)V = nRT$. Despejando V, obtenemos $V = \\frac{nR}{k} \\cdot \\frac{T}{T^4} = (\\text{constante}) \\cdot T^{1-4} = (\\text{constante}) \\cdot T^{-3}$. Por lo tanto, V es proporcional a $T^{-3}$.",
     "explanative_video": null,
@@ -61,7 +61,7 @@
       { "text": "$x^5 + C$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Usa la regla de la potencia para integrales: $\\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C$.",
     "explanation": "Aplicando la regla, la integral de $6x^5$ es $6 \\cdot \\frac{x^{5+1}}{5+1} + C = 6 \\cdot \\frac{x^6}{6} + C = x^6 + C$.",
     "explanative_video": null,
@@ -78,7 +78,7 @@
       { "text": "D", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO", "REAL"],
+    "level_tag": ["BÁSICO", "REAL"],
     "hint": "Identifica varias dimensiones",
     "explanation": "Contorno y rectangulos de 3x1, 2x1 y 1x1",
     "explanative_video": null,
@@ -95,7 +95,7 @@
       { "text": "$AmS$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "El ion amonio es $NH_4^+$ y el ion sulfato es $SO_4^{2-}$. Necesitas balancear las cargas.",
     "explanation": "Se necesitan dos iones de amonio (carga +1 cada uno) para balancear la carga -2 del ion sulfato, resultando en la fórmula $(NH_4)_2SO_4$.",
     "explanative_video": null,
@@ -112,7 +112,7 @@
       { "text": "$I_0 / 64$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "La distancia se cuadruplicó (de 2 a 8 m). ¿Cómo afecta esto a la intensidad si la relación es $r^{-2}$?",
     "explanation": "La intensidad es proporcional a $1/r^2$. Si la distancia se multiplica por 4, la intensidad se divide por $4^2 = 16$. Por lo tanto, la nueva intensidad es $I_0/16$.",
     "explanative_video": null,
@@ -129,7 +129,7 @@
       { "text": "$2a^{12}b^{-6}$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Eleva cada factor dentro del paréntesis a la potencia de 3. Recuerda que $(x^m)^n = x^{m \\cdot n}$.",
     "explanation": "Se calcula $2^3 = 8$. Para las variables, se multiplican los exponentes: $(a^4)^3 = a^{12}$ y $(b^{-2})^3 = b^{-6}$. El resultado es $8a^{12}b^{-6}$.",
     "explanative_video": null,
@@ -146,7 +146,7 @@
       { "text": "$K_c = \\frac{2[SO_3]}{2[SO_2][O_2]}$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "La constante de equilibrio es la concentración de los productos elevada a sus coeficientes, dividida por la de los reactivos elevada a los suyos.",
     "explanation": "Los productos (derecha) van en el numerador y los reactivos (izquierda) en el denominador. Los coeficientes estequiométricos se usan como exponentes para cada especie.",
     "explanative_video": null,
@@ -163,7 +163,7 @@
       { "text": "$80 °C$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Sustituye los valores en la fórmula. Necesitarás calcular $e^{-0.5}$.",
     "explanation": "$T(10) = 20 + (100 - 20)e^{-0.05 \\cdot 10} = 20 + 80e^{-0.5} \\approx 20 + 80(0.6065) \\approx 20 + 48.52 = 68.52°C$.",
     "explanative_video": null,
@@ -180,7 +180,7 @@
       { "text": "$4x + 8$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Usa el Teorema del Binomio o los coeficientes del Triángulo de Pascal (1, 4, 6, 4, 1).",
     "explanation": "Los términos son: $1(x^4)(2^0) + 4(x^3)(2^1) + 6(x^2)(2^2) + 4(x^1)(2^3) + 1(x^0)(2^4) = x^4 + 8x^3 + 24x^2 + 32x + 16$.",
     "explanative_video": null,
@@ -197,7 +197,7 @@
       { "text": "$1 \\times 10^9$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "La fórmula del pH es: $pH = -\\log[H_3O^+]$.",
     "explanation": "$pH = -\\log(1.0 \\times 10^{-9}) = -(-9) = 9$. La solución es básica.",
     "explanative_video": null,
@@ -214,7 +214,7 @@
       { "text": "$\\gamma$ tiende a -1", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Analiza el denominador $(1 - v^2/c^2)^{1/2}$ cuando $v \\to c$.",
     "explanation": "Cuando $v$ se acerca a $c$, el cociente $v^2/c^2$ se acerca a 1. El término $(1 - v^2/c^2)$ se acerca a 0. El inverso de un número que tiende a cero es infinito. Por lo tanto, $\\gamma$ tiende a infinito.",
     "explanative_video": null,
@@ -231,7 +231,7 @@
       { "text": "$x = 10$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Expresa 128 como una potencia de 2.",
     "explanation": "128 es $2^7$. Por lo tanto, la ecuación se convierte en $2^{x+3} = 2^7$. Igualando los exponentes, tenemos $x + 3 = 7$, lo que da $x = 4$.",
     "explanative_video": null,
@@ -248,7 +248,7 @@
       { "text": "$1s^22s^22p^63s^23p^54s^1$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Llena los orbitales en orden de energía (1s, 2s, 2p, 3s, 3p...) hasta sumar 18 electrones.",
     "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e-), p (máx 6e-). Sumando los electrones: $2+2+6+2+6 = 18$.",
     "explanative_video": null,
@@ -265,7 +265,7 @@
       { "text": "$-13.6 \\text{ eV}$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Sustituye n=4 en la fórmula y calcula el resultado.",
     "explanation": "$E_4 = -\\frac{13.6 \\text{ eV}}{4^2} = -\\frac{13.6 \\text{ eV}}{16} = -0.85 \\text{ eV}$.",
     "explanative_video": null,
@@ -282,7 +282,7 @@
       { "text": "$16y^6$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM", "IPN"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Recuerda que $x^{m/n} = (\\sqrt[n]{x})^m$. Aplica la potencia a cada factor.",
     "explanation": "Primero, la raíz cuarta: $\\sqrt[4]{16} = 2$ y $\\sqrt[4]{y^8} = y^2$. Luego, elevamos al cubo: $(2y^2)^3 = 2^3(y^2)^3 = 8y^6$.",
     "explanative_video": null,
@@ -299,7 +299,7 @@
       { "text": "$4C_4H_{10} + 20O_2 \\to 16CO_2 + 20H_2O$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM", "IPN"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Balancea primero los Carbonos, luego los Hidrógenos y finalmente los Oxígenos.",
     "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 $CO_2$ y 10 $H_2O$. Esto da un total de $(8 \\cdot 2 + 10 \\cdot 1) = 26$ átomos de O. Para tener 26 O en los reactivos, necesitas 13 $O_2$. La ecuación balanceada es $2C_4H_{10} + 13O_2 \\to 8CO_2 + 10H_2O$.",
     "explanative_video": null,
@@ -333,7 +333,7 @@
       { "text": "0.5", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Usa la propiedad de los logaritmos: $\\log(a^n) = n \\cdot \\log(a)$.",
     "explanation": "Aplicando la propiedad, tenemos $5 \\cdot \\log_b(x) = 10$. Dividiendo ambos lados por 5, obtenemos $\\log_b(x) = 2$.",
     "explanative_video": null,
@@ -367,7 +367,7 @@
       { "text": "$x=\\frac{1}{2}, x=3$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Identifica a=2, b=-5 y c=3 y sustitúyelos en la fórmula cuadrática.",
     "explanation": "Sustituyendo: $x = \\frac{-(-5) \\pm \\sqrt{(-5)^2-4(2)(3)}}{2(2)} = \\frac{5 \\pm \\sqrt{25-24}}{4} = \\frac{5 \\pm 1}{4}$. Las dos soluciones son $x_1 = \\frac{6}{4} = \\frac{3}{2}$ y $x_2 = \\frac{4}{4} = 1$.",
     "explanative_video": null,
@@ -384,7 +384,7 @@
       { "text": "$$H = \\sqrt{\\frac{v_0 \\sin(\\theta)}{2g}}$$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "La altura máxima se alcanza cuando la componente vertical de la velocidad es cero. Usa la ecuación $v_f^2 = v_i^2 + 2ad$.",
     "explanation": "La componente vertical de la velocidad inicial es $v_{0y} = v_0 \\sin(\\theta)$. En la altura máxima, $v_{fy} = 0$. Usando la ecuación de cinemática $v_{fy}^2 = v_{0y}^2 - 2gH$, tenemos $0 = (v_0 \\sin(\\theta))^2 - 2gH$. Despejando H se obtiene la fórmula correcta.",
     "explanative_video": null,
@@ -401,7 +401,7 @@
       { "text": "$$\\rho = \\frac{PV}{n M}$$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Recuerda que la densidad es masa/volumen ($\\rho = m/V$) y el número de moles es masa/Masa Molar ($n = m/M$).",
     "explanation": "Partimos de $PV=nRT$. Sustituimos $n = m/M$: $PV = \\frac{m}{M}RT$. Reordenamos para obtener $\\frac{m}{V}$: $\\frac{P M}{RT} = \\frac{m}{V}$. Como $\\rho = \\frac{m}{V}$, entonces $\\rho = \\frac{PM}{RT}$.",
     "explanative_video": null,
@@ -418,7 +418,7 @@
       { "text": "2", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Primero encuentra la antiderivada de la función y luego evalúala en los límites de integración usando el Teorema Fundamental del Cálculo.",
     "explanation": "La antiderivada de $3x^2 - 2x$ es $x^3 - x^2$. Evaluando en los límites: $[(2)^3 - (2)^2] - [(0)^3 - (0)^2] = [8 - 4] - [0] = 4$.",
     "explanative_video": "https://www.youtube.com/watch?v=aJafvGW0kIw",
@@ -435,7 +435,7 @@
       { "text": "$$\\Delta p = F \\Delta t$$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Esta es la ecuación fundamental de la dinámica clásica.",
     "explanation": "La suma de todas las fuerzas ($\\sum F$) que actúan sobre un objeto es igual al producto de su masa ($m$) por su aceleración ($a$). Esta es la forma más común de la segunda ley de Newton para una masa constante.",
     "explanative_video": null,
@@ -452,7 +452,7 @@
       { "text": "Factor pre-exponencial", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Es la energía mínima requerida para que los reactivos se transformen en productos.",
     "explanation": "En la ecuación de Arrhenius, $E_a$ es la energía de activación, que representa la barrera de energía que debe superarse para que ocurra una reacción química.",
     "explanative_video": null,
@@ -469,7 +469,7 @@
       { "text": "9", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "La sustitución directa da 0/0. Factoriza el numerador para simplificar la expresión.",
     "explanation": "Factorizando la diferencia de cuadrados en el numerador: $\\frac{x^2 - 9}{x - 3} = \\frac{(x-3)(x+3)}{x-3}$. Se cancela el término $(x-3)$, quedando $x+3$. Ahora evaluamos el límite: $\\lim_{x \\to 3} (x+3) = 3+3=6$.",
     "explanative_video": null,
@@ -486,7 +486,7 @@
       { "text": "$$E = \\frac{c\\lambda}{h}$$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Despeja la frecuencia $f$ de la ecuación de la velocidad de la luz y sustitúyela en la ecuación de Planck.",
     "explanation": "De $c = \\lambda f$, despejamos $f = c/\\lambda$. Sustituyendo esto en $E=hf$, obtenemos $E = h(\\frac{c}{\\lambda}) = \\frac{hc}{\\lambda}$.",
     "explanative_video": null,
@@ -503,7 +503,7 @@
       { "text": "$2 \\sin(x) \\cos(x)$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Usa la regla de la cadena: La derivada de $f(g(x))$ es $f'(g(x)) \\cdot g'(x)$.",
     "explanation": "La función externa es $\\sin(u)$ y la interna es $u=x^2$. La derivada de la externa es $\\cos(u)$ y la de la interna es $2x$. Aplicando la regla de la cadena, la derivada es $\\cos(x^2) \\cdot 2x = 2x \\cos(x^2)$.",
     "explanative_video": null,
@@ -520,7 +520,7 @@
       { "text": "$V = \\frac{R}{I}$", "correct": false }
     ],
     "uni_tags": ["GENERAL", "UNAM"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "hint": "Voltaje es igual a Corriente por Resistencia.",
     "explanation": "La Ley de Ohm se expresa matemáticamente como $V = IR$, donde V se mide en voltios, I en amperios y R en ohmios ($\\Omega$).",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0",
