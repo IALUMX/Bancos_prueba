@@ -2038,5 +2038,862 @@
     "explanation": "$a^4+4a^2+4 - a^2 = (a^2+2)^2 - a^2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00EQ",
+    "question": "Simplifica la expresión: $\\frac{15x^5}{3x^2}$",
+    "image": null,
+    "options": [
+      { "text": "$5x^3$", "correct": true },
+      { "text": "$5x^2$", "correct": false },
+      { "text": "$12x^3$", "correct": false },
+      { "text": "$3x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide los coeficientes y resta los exponentes de las variables iguales ($x^a/x^b = x^{a-b}$).",
+    "explanation": "$15/3 = 5$ y $x^5/x^2 = x^{5-2} = x^3$. Resultado: $5x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ER",
+    "question": "Simplifica el cociente: $\\frac{8a^3b^2}{4ab}$",
+    "image": null,
+    "options": [
+      { "text": "$2a^2b$", "correct": true },
+      { "text": "$2ab$", "correct": false },
+      { "text": "$4a^2b$", "correct": false },
+      { "text": "$2a^3b$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide coeficientes y simplifica cada variable por separado.",
+    "explanation": "$8/4 = 2$, $a^3/a = a^2$, $b^2/b = b$. Resultado: $2a^2b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "Simplifica: $\\frac{x^2 - 9}{x + 3}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 3$", "correct": true },
+      { "text": "$x + 3$", "correct": false },
+      { "text": "$x - 9$", "correct": false },
+      { "text": "$x + 9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza el numerador como una diferencia de cuadrados.",
+    "explanation": "Numerador: $(x+3)(x-3)$. Al dividir entre $(x+3)$, se cancelan los términos. Queda $x-3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "Reduce la expresión: $\\frac{4x + 12}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 3$", "correct": true },
+      { "text": "$x + 12$", "correct": false },
+      { "text": "$4x + 3$", "correct": false },
+      { "text": "$x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza el numerador por factor común.",
+    "explanation": "Numerador: $4(x+3)$. Dividido entre 4, se cancela el 4. Queda $x+3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "Simplifica: $\\frac{5x^2 - 5x}{5x}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x - 5$", "correct": false },
+      { "text": "$5x - 1$", "correct": false },
+      { "text": "$x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza $5x$ en el numerador.",
+    "explanation": "$5x(x-1) / 5x = x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "Simplifica la fracción: $\\frac{x^2 + 2x}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$x^2 + 2$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Extrae factor común $x$ arriba.",
+    "explanation": "$x(x+2) / x = x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "Simplifica: $\\frac{a^2 - b^2}{a - b}$",
+    "image": null,
+    "options": [
+      { "text": "$a + b$", "correct": true },
+      { "text": "$a - b$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$a^2 + b^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El numerador es una diferencia de cuadrados.",
+    "explanation": "$(a+b)(a-b) / (a-b) = a+b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "Reduce: $\\frac{3x^3 - 6x^2}{3x^2}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 2$", "correct": true },
+      { "text": "$3x - 2$", "correct": false },
+      { "text": "$x - 6$", "correct": false },
+      { "text": "$x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común $3x^2$ en el numerador.",
+    "explanation": "$3x^2(x-2) / 3x^2 = x-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Simplifica: $\\frac{x^2 + 4x + 4}{x + 2}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x + 4$", "correct": false },
+      { "text": "$(x + 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El numerador es un Trinomio Cuadrado Perfecto.",
+    "explanation": "$(x+2)^2 / (x+2) = x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Simplifica: $\\frac{m^5n^3}{m^2n^2}$",
+    "image": null,
+    "options": [
+      { "text": "$m^3n$", "correct": true },
+      { "text": "$m^3n^2$", "correct": false },
+      { "text": "$m^2n$", "correct": false },
+      { "text": "$mn$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resta exponentes de bases iguales.",
+    "explanation": "$5-2=3$ para m, $3-2=1$ para n.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "Simplifica: $\\frac{2x - 4}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 2$", "correct": true },
+      { "text": "$x - 4$", "correct": false },
+      { "text": "$2x - 2$", "correct": false },
+      { "text": "$x + 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide cada término del numerador por 2.",
+    "explanation": "$2x/2 = x$, $-4/2 = -2$. Resultado $x-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "Reduce: $\\frac{x^2 - 1}{x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 1$", "correct": true },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$x^2 + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados en el numerador.",
+    "explanation": "$(x-1)(x+1) / (x-1) = x+1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "Simplifica: $\\frac{y^3 + y^2}{y}$",
+    "image": null,
+    "options": [
+      { "text": "$y^2 + y$", "correct": true },
+      { "text": "$y^2 + 1$", "correct": false },
+      { "text": "$y^3 + y$", "correct": false },
+      { "text": "$y + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza $y$ en el numerador.",
+    "explanation": "$y(y^2+y) / y = y^2+y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "Simplifica: $\\frac{-12x^4}{3x}$",
+    "image": null,
+    "options": [
+      { "text": "$-4x^3$", "correct": true },
+      { "text": "$-4x^4$", "correct": false },
+      { "text": "$4x^3$", "correct": false },
+      { "text": "$-9x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "División de monomios con signo negativo.",
+    "explanation": "$-12/3 = -4$. $x^4/x = x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Simplifica: $\\frac{(x+2)(x-3)}{x+2}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 3$", "correct": true },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$x^2 - 6$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Cancela el factor común en numerador y denominador.",
+    "explanation": "Se elimina $(x+2)$ arriba y abajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "Reduce: $\\frac{6a^2 + 2a}{2a}$",
+    "image": null,
+    "options": [
+      { "text": "$3a + 1$", "correct": true },
+      { "text": "$3a$", "correct": false },
+      { "text": "$3a + 2$", "correct": false },
+      { "text": "$6a + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común $2a$ en el numerador.",
+    "explanation": "$2a(3a+1) / 2a = 3a+1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "Simplifica: $\\frac{x^2 - 25}{x - 5}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 5$", "correct": true },
+      { "text": "$x - 5$", "correct": false },
+      { "text": "$x + 25$", "correct": false },
+      { "text": "$5x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "$(x-5)(x+5) / (x-5) = x+5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "Simplifica: $\\frac{3x^2}{6x^3}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2x}$", "correct": true },
+      { "text": "$2x$", "correct": false },
+      { "text": "$\\frac{x}{2}$", "correct": false },
+      { "text": "$\\frac{1}{3x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica la fracción numérica y resta exponentes (el mayor está abajo).",
+    "explanation": "$3/6 = 1/2$. $x^2/x^3 = 1/x$. Resultado $1/(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "Reduce: $\\frac{a + ab}{a}$",
+    "image": null,
+    "options": [
+      { "text": "$1 + b$", "correct": true },
+      { "text": "$1 + ab$", "correct": false },
+      { "text": "$b$", "correct": false },
+      { "text": "$a + b$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza $a$ en el numerador.",
+    "explanation": "$a(1+b) / a = 1+b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "Simplifica: $\\frac{100 - x^2}{10 - x}$",
+    "image": null,
+    "options": [
+      { "text": "$10 + x$", "correct": true },
+      { "text": "$10 - x$", "correct": false },
+      { "text": "$x - 10$", "correct": false },
+      { "text": "$100 + x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados $(10-x)(10+x)$.",
+    "explanation": "$(10-x)(10+x) / (10-x) = 10+x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "Simplifica la fracción algebraica: $\\frac{x^2 + 5x + 6}{x + 3}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x + 3$", "correct": false },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza el trinomio de la forma $x^2+bx+c$.",
+    "explanation": "Numerador: $(x+3)(x+2)$. Dividiendo por $(x+3)$, queda $x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "Reduce: $\\frac{x^2 - 5x + 6}{x^2 - 4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x - 3}{x + 2}$", "correct": true },
+      { "text": "$\\frac{x - 3}{x - 2}$", "correct": false },
+      { "text": "$\\frac{x + 3}{x + 2}$", "correct": false },
+      { "text": "$x - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza numerador (trinomio) y denominador (diferencia de cuadrados).",
+    "explanation": "Num: $(x-3)(x-2)$. Den: $(x+2)(x-2)$. Cancelando $(x-2)$, queda $(x-3)/(x+2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "Simplifica: $\\frac{2x^2 + 10x}{x^2 + 5x}$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$x$", "correct": false },
+      { "text": "$2x$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza $2x$ arriba y $x$ abajo.",
+    "explanation": "$2x(x+5) / x(x+5)$. Se cancelan $(x+5)$ y $x$. Queda 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "Simplifica: $\\frac{x^2 - 6x + 9}{x^2 - 9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x - 3}{x + 3}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{x + 3}{x - 3}$", "correct": false },
+      { "text": "$x - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El numerador es un TCP y el denominador una diferencia de cuadrados.",
+    "explanation": "$(x-3)^2 / (x+3)(x-3) = (x-3)/(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FO",
+    "question": "Reduce: $\\frac{x^3 - x}{x^2 + x}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$x(x - 1)$", "correct": false },
+      { "text": "$x^2 - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factor común primero en ambos, luego diferencia de cuadrados arriba.",
+    "explanation": "Num: $x(x^2-1)=x(x+1)(x-1)$. Den: $x(x+1)$. Cancelando $x(x+1)$, queda $x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FP",
+    "question": "Simplifica: $\\frac{3x - 6}{x^2 - 4} \\cdot \\frac{x + 2}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$\\frac{1}{x - 2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza y multiplica fracciones.",
+    "explanation": "$\\frac{3(x-2)}{(x+2)(x-2)} \\cdot \\frac{x+2}{3}$. Todo se cancela.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FQ",
+    "question": "Simplifica: $\\frac{a^2 + 2ab + b^2}{a^2 - b^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a + b}{a - b}$", "correct": true },
+      { "text": "$\\frac{a - b}{a + b}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$a + b$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "TCP arriba, diferencia de cuadrados abajo.",
+    "explanation": "$(a+b)^2 / (a+b)(a-b) = (a+b)/(a-b)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FR",
+    "question": "Simplifica: $\\frac{x^2 - x - 12}{x^2 - 9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x - 4}{x - 3}$", "correct": true },
+      { "text": "$\\frac{x + 4}{x + 3}$", "correct": false },
+      { "text": "$\\frac{x - 4}{x + 3}$", "correct": false },
+      { "text": "$x - 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza ambos trinomios.",
+    "explanation": "Num: $(x-4)(x+3)$. Den: $(x-3)(x+3)$. Resultado $(x-4)/(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FS",
+    "question": "Simplifica: $\\frac{5x + 15}{x^2 + 8x + 15}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{x + 5}$", "correct": true },
+      { "text": "$\\frac{5}{x + 3}$", "correct": false },
+      { "text": "$5(x + 5)$", "correct": false },
+      { "text": "$\\frac{1}{x + 5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factor común arriba, trinomio abajo.",
+    "explanation": "$5(x+3) / (x+5)(x+3) = 5/(x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FT",
+    "question": "Simplifica: $\\frac{y^2 - y}{y^2 - 1} \\div \\frac{y}{y + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$y$", "correct": false },
+      { "text": "$\\frac{1}{y}$", "correct": false },
+      { "text": "$y - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte la división en multiplicación invirtiendo la segunda fracción.",
+    "explanation": "$\\frac{y(y-1)}{(y+1)(y-1)} \\cdot \\frac{y+1}{y} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FU",
+    "question": "Reduce: $\\frac{4 - x^2}{x^2 + 2x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2 - x}{x}$", "correct": true },
+      { "text": "$\\frac{x - 2}{x}$", "correct": false },
+      { "text": "$\\frac{2 + x}{x}$", "correct": false },
+      { "text": "$2 - x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cuidado con el signo en la diferencia de cuadrados $(2-x)(2+x)$.",
+    "explanation": "$(2-x)(2+x) / x(x+2)$. Se cancela $(2+x)$ con $(x+2)$. Queda $(2-x)/x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FV",
+    "question": "Simplifica: $\\frac{2x^2 - 8}{x + 2}$",
+    "image": null,
+    "options": [
+      { "text": "$2(x - 2)$", "correct": true },
+      { "text": "$2(x + 2)$", "correct": false },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$2x - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factor común 2 y luego diferencia de cuadrados.",
+    "explanation": "$2(x^2-4)/(x+2) = 2(x+2)(x-2)/(x+2) = 2(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FW",
+    "question": "Simplifica: $\\frac{x^3 - 8}{x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 2x + 4$", "correct": true },
+      { "text": "$x^2 - 2x + 4$", "correct": false },
+      { "text": "$x^2 + 4$", "correct": false },
+      { "text": "$(x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Diferencia de cubos en el numerador.",
+    "explanation": "$(x-2)(x^2+2x+4) / (x-2) = x^2+2x+4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FX",
+    "question": "Simplifica: $\\frac{x^2 - 5x + 6}{2x - 6}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x - 2}{2}$", "correct": true },
+      { "text": "$\\frac{x - 3}{2}$", "correct": false },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$\\frac{x + 2}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza trinomio arriba y factor común abajo.",
+    "explanation": "$(x-3)(x-2) / 2(x-3) = (x-2)/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FY",
+    "question": "Simplifica: $\\frac{3x^2 - 3}{x + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$3(x - 1)$", "correct": true },
+      { "text": "$3(x + 1)$", "correct": false },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$3x - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factor común 3, luego diferencia de cuadrados.",
+    "explanation": "$3(x^2-1)/(x+1) = 3(x+1)(x-1)/(x+1) = 3(x-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FZ",
+    "question": "Simplifica: $\\frac{x^2 + 7x + 12}{x^2 + 6x + 8}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 3}{x + 2}$", "correct": true },
+      { "text": "$\\frac{x + 4}{x + 2}$", "correct": false },
+      { "text": "$\\frac{x + 3}{x + 4}$", "correct": false },
+      { "text": "$\\frac{x + 2}{x + 3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza ambos trinomios. Tienen un factor común $(x+4)$.",
+    "explanation": "$(x+4)(x+3) / (x+4)(x+2) = (x+3)/(x+2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GA",
+    "question": "Simplifica: $\\frac{x^3 + 27}{x + 3}$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 3x + 9$", "correct": true },
+      { "text": "$x^2 + 3x + 9$", "correct": false },
+      { "text": "$x^2 - 9$", "correct": false },
+      { "text": "$(x + 3)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma de cubos.",
+    "explanation": "$(x+3)(x^2-3x+9) / (x+3) = x^2-3x+9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GB",
+    "question": "Simplifica: $\\frac{2a^2 - 2b^2}{4a + 4b}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a - b}{2}$", "correct": true },
+      { "text": "$\\frac{a + b}{2}$", "correct": false },
+      { "text": "$a - b$", "correct": false },
+      { "text": "$\\frac{a - b}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza completamente numerador y denominador.",
+    "explanation": "$2(a^2-b^2) / 4(a+b) = 2(a+b)(a-b) / 4(a+b) = (a-b)/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GC",
+    "question": "Simplifica: $\\frac{ax + ay + bx + by}{x + y}$",
+    "image": null,
+    "options": [
+      { "text": "$a + b$", "correct": true },
+      { "text": "$a - b$", "correct": false },
+      { "text": "$x + y$", "correct": false },
+      { "text": "$ax + by$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factorización por agrupación en el numerador.",
+    "explanation": "$(a+b)(x+y) / (x+y) = a+b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GD",
+    "question": "Simplifica: $\\frac{x^2 - 81}{x^2 - 18x + 81}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 9}{x - 9}$", "correct": true },
+      { "text": "$\\frac{x - 9}{x + 9}$", "correct": false },
+      { "text": "$\\frac{x + 9}{x + 9}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Diferencia de cuadrados arriba, TCP abajo.",
+    "explanation": "$(x+9)(x-9) / (x-9)^2 = (x+9)/(x-9)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GE",
+    "question": "Simplifica la fracción compleja: $\\frac{\\frac{1}{x} + \\frac{1}{y}}{\\frac{1}{x} - \\frac{1}{y}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{y + x}{y - x}$", "correct": true },
+      { "text": "$\\frac{x + y}{x - y}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Encuentra el común denominador en numerador y denominador.",
+    "explanation": "Num: $(y+x)/xy$. Den: $(y-x)/xy$. Al dividir, se cancelan los $xy$. Queda $(y+x)/(y-x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GF",
+    "question": "Simplifica: $\\frac{x^4 - 16}{x^2 + 4} \\cdot \\frac{1}{x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x^2 - 4$", "correct": false },
+      { "text": "$x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Diferencia de cuadrados repetida en $x^4-16$.",
+    "explanation": "$(x^2+4)(x^2-4) / (x^2+4) \\cdot 1/(x-2) = (x^2-4)/(x-2) = (x+2)(x-2)/(x-2) = x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GG",
+    "question": "Simplifica: $\\frac{a^3 - b^3}{a^2 - b^2} \\div \\frac{a^2 + ab + b^2}{a + b}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$a + b$", "correct": false },
+      { "text": "$\\frac{a - b}{a + b}$", "correct": false },
+      { "text": "$a - b$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza cubos y cuadrados, luego invierte la segunda fracción.",
+    "explanation": "$\\frac{(a-b)(a^2+ab+b^2)}{(a-b)(a+b)} \\cdot \\frac{a+b}{a^2+ab+b^2}$. Todo se cancela.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GH",
+    "question": "Simplifica: $\\frac{x^2 - 5x + 6}{x^2 - 4} \\cdot \\frac{x^2 + 3x + 2}{x^2 - 2x - 3}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{x - 2}{x + 2}$", "correct": false },
+      { "text": "$\\frac{x - 3}{x + 1}$", "correct": false },
+      { "text": "$\\frac{x + 1}{x - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza los 4 polinomios y simplifica.",
+    "explanation": "$\\frac{(x-3)(x-2)}{(x-2)(x+2)} \\cdot \\frac{(x+2)(x+1)}{(x-3)(x+1)}$. Todos los términos se cancelan.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GI",
+    "question": "Simplifica: $\\frac{1 - x^2}{x^3 - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{x + 1}{x^2 + x + 1}$", "correct": true },
+      { "text": "$\\frac{x + 1}{x^2 + x + 1}$", "correct": false },
+      { "text": "$-\\frac{1}{x - 1}$", "correct": false },
+      { "text": "$\\frac{1 - x}{x^2 - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza $-(x^2-1)$ para alinear signos.",
+    "explanation": "$-(x-1)(x+1) / (x-1)(x^2+x+1) = -(x+1)/(x^2+x+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GJ",
+    "question": "Simplifica: $\\left( x - \\frac{1}{x} \\right) \\div \\left( 1 + \\frac{1}{x} \\right)$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$\\frac{x - 1}{x}$", "correct": false },
+      { "text": "$\\frac{1}{x - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Realiza las restas y sumas de fracciones primero.",
+    "explanation": "$\\frac{x^2-1}{x} \\div \\frac{x+1}{x} = \\frac{(x-1)(x+1)}{x} \\cdot \\frac{x}{x+1} = x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GK",
+    "question": "Simplifica: $\\frac{x^4 - 1}{x^2 + 1} \\cdot \\frac{1}{x^2 - 2x + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 1}{x - 1}$", "correct": true },
+      { "text": "$\\frac{x - 1}{x + 1}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{x^2 - 1}{x - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza $x^4-1$ completamente y el TCP.",
+    "explanation": "$\\frac{(x^2+1)(x+1)(x-1)}{x^2+1} \\cdot \\frac{1}{(x-1)^2} = \\frac{(x+1)(x-1)}{(x-1)^2} = \\frac{x+1}{x-1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GL",
+    "question": "Simplifica: $\\frac{x^3 - 3x^2 + 3x - 1}{x^2 - 2x + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$(x - 1)^2$", "correct": false },
+      { "text": "$\\frac{1}{x - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Numerador es cubo perfecto, denominador es cuadrado perfecto.",
+    "explanation": "$(x-1)^3 / (x-1)^2 = x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GM",
+    "question": "Simplifica: $\\frac{ax + ay - bx - by}{a^2 - b^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + y}{a + b}$", "correct": true },
+      { "text": "$\\frac{x - y}{a + b}$", "correct": false },
+      { "text": "$\\frac{x + y}{a - b}$", "correct": false },
+      { "text": "$x + y$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Agrupación en el numerador.",
+    "explanation": "$\\frac{x(a+b)-y(a+b) \u2192 ERROR de tipeo en Hint? No, x(a-b)? Revisar signo}$. Recalculando: $x(a-b)+y(a-b)$ si fuera $ax-bx+ay-by$. Pero es $ax+ay-bx-by = a(x+y)-b(x+y) = (a-b)(x+y)$. Den: $(a-b)(a+b)$. Resultado: $(x+y)/(a+b)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GN",
+    "question": "Simplifica: $\\frac{2x^2 + 5x + 2}{2x^2 - x - 1} \\div \\frac{x^2 + 4x + 4}{x^2 - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{x - 1}{x + 2}$", "correct": false },
+      { "text": "$\\frac{x + 1}{x - 1}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza trinomios de la forma $ax^2+bx+c$ y multiplica por el recíproco.",
+    "explanation": "$\\frac{(2x+1)(x+2)}{(2x+1)(x-1)} \\cdot \\frac{(x-1)(x+1)}{(x+2)^2} \\to$ Simplificando: $\\frac{x+2}{x-1} \\cdot \\frac{(x-1)(x+1)}{(x+2)^2} = \\frac{x+1}{x+2}$. **Corrección en revisión**: El ejercicio da 1 solo si los términos coinciden. Revisemos: Num1: $(2x+1)(x+2)$. Den1: $(2x+1)(x-1)$. Num2 (invertido): $(x-1)(x+1)$. Den2 (invertido): $(x+2)^2$. Producto: $\\frac{x+2}{x-1} \\cdot \\frac{(x-1)(x+1)}{(x+2)(x+2)} = \\frac{x+1}{x+2}$. La opción correcta debería ser esa. Modificaré la opción correcta A para que sea congruente o cambiaré el ejercicio. **Mejor ajuste**: Cambiar Den2 a $x^2+3x+2=(x+2)(x+1)$. Entonces $\\frac{x+2}{x-1} \\cdot \\frac{(x-1)(x+1)}{(x+2)(x+1)} = 1$. Asumiré que la opción correcta es 1 y el ejercicio original tenía $x^2+3x+2$ en el divisor. Pero para no alterar el JSON final con dudas, pondré la respuesta matemática exacta del planteamiento actual: $\\frac{x+1}{x+2}$. Cambio la opción A.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 1}{x + 2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{x - 1}{x + 2}$", "correct": false },
+      { "text": "$\\frac{2x + 1}{x - 1}$", "correct": false }
+    ],
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
