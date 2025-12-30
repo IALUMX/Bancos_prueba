@@ -1018,5 +1018,1025 @@
     "explanation": "Agrupación o Ruffini. Se observa que $a=5$ y $a=-5$ son raíces.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Factoriza la expresión mediante factor común: $4m^5 - 12m^3$",
+    "image": null,
+    "options": [
+      { "text": "$4m^3(m^2 - 3)$", "correct": true },
+      { "text": "$4m^2(m^3 - 3)$", "correct": false },
+      { "text": "$4m(m^4 - 3m^2)$", "correct": false },
+      { "text": "$12m^3(m - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca el MCD de 4 y 12, y la variable con el menor exponente.",
+    "explanation": "El MCD de 4 y 12 es 4. La variable con menor exponente es $m^3$. Al dividir, obtenemos $m^2 - 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Identifica la factorización de la diferencia de cuadrados: $y^2 - 100$",
+    "image": null,
+    "options": [
+      { "text": "$(y + 10)(y - 10)$", "correct": true },
+      { "text": "$(y - 10)^2$", "correct": false },
+      { "text": "$(y + 50)(y - 2)$", "correct": false },
+      { "text": "$(y + 100)(y - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Extrae la raíz cuadrada de ambos términos y forma binomios conjugados.",
+    "explanation": "Raíz de $y^2$ es $y$, raíz de 100 es 10. Resultado: $(y+10)(y-10)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Factoriza el Trinomio Cuadrado Perfecto: $x^2 + 14x + 49$",
+    "image": null,
+    "options": [
+      { "text": "$(x + 7)^2$", "correct": true },
+      { "text": "$(x - 7)^2$", "correct": false },
+      { "text": "$(x + 49)(x + 1)$", "correct": false },
+      { "text": "$(x + 14)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Verifica que el término central sea $2 \\cdot x \\cdot 7$.",
+    "explanation": "Raíz de $x^2=x$, raíz de $49=7$. Doble producto $2(7x)=14x$. Es $(x+7)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Factoriza el trinomio $x^2 + 8x + 15$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x + 3)$", "correct": true },
+      { "text": "$(x + 8)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)(x - 3)$", "correct": false },
+      { "text": "$(x + 15)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca dos números que sumados den 8 y multiplicados den 15.",
+    "explanation": "Los números 5 y 3 cumplen que $5+3=8$ y $5 \\times 3=15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Factoriza la expresión $3a^2 - 6a$.",
+    "image": null,
+    "options": [
+      { "text": "$3a(a - 2)$", "correct": true },
+      { "text": "$3a(a + 2)$", "correct": false },
+      { "text": "$3(a^2 - 2)$", "correct": false },
+      { "text": "$a(3a - 6)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Extrae el factor común $3a$.",
+    "explanation": "El factor común es $3a$. Dividiendo: $3a^2/3a=a$, $-6a/3a=-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Factoriza $z^2 - 36$.",
+    "image": null,
+    "options": [
+      { "text": "$(z + 6)(z - 6)$", "correct": true },
+      { "text": "$(z - 6)^2$", "correct": false },
+      { "text": "$(z + 36)(z - 1)$", "correct": false },
+      { "text": "$(z + 4)(z - 9)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados: $\\sqrt{36}=6$.",
+    "explanation": "Se forman binomios conjugados con las raíces: $(z+6)(z-6)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Factoriza $x^2 - 12x + 36$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 6)^2$", "correct": true },
+      { "text": "$(x + 6)^2$", "correct": false },
+      { "text": "$(x - 12)(x - 3)$", "correct": false },
+      { "text": "$(x - 9)(x - 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un TCP con signo negativo en el término lineal.",
+    "explanation": "Raíz de 36 es 6. Doble producto $2(6)x = 12x$. Signo menos: $(x-6)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Encuentra la factorización de $x^2 + 5x - 14$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 7)(x - 2)$", "correct": true },
+      { "text": "$(x - 7)(x + 2)$", "correct": false },
+      { "text": "$(x + 14)(x - 1)$", "correct": false },
+      { "text": "$(x + 5)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Números que multipliquen -14 y sumen +5.",
+    "explanation": "Los números son +7 y -2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Factoriza $8x^4 + 2x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$2x^2(4x^2 + 1)$", "correct": true },
+      { "text": "$2x^2(4x^2 - 1)$", "correct": false },
+      { "text": "$2x(4x^3 + x)$", "correct": false },
+      { "text": "$8x^2(x^2 + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común $2x^2$.",
+    "explanation": "Dividiendo cada término por $2x^2$ resulta en $(4x^2+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Factoriza $49 - w^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(7 - w)(7 + w)$", "correct": true },
+      { "text": "$(w - 7)(w + 7)$", "correct": false },
+      { "text": "$(7 - w)^2$", "correct": false },
+      { "text": "$(49 - w)(1 + w)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Mantén el orden de la resta en la diferencia de cuadrados.",
+    "explanation": "Raíz de 49 es 7, raíz de $w^2$ es $w$. Resultado $(7-w)(7+w)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Factoriza $m^2 + 20m + 100$.",
+    "image": null,
+    "options": [
+      { "text": "$(m + 10)^2$", "correct": true },
+      { "text": "$(m - 10)^2$", "correct": false },
+      { "text": "$(m + 20)(m + 5)$", "correct": false },
+      { "text": "$(m + 50)(m + 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Verifica si es un cuadrado perfecto.",
+    "explanation": "Raíz de 100 es 10. $2(10)m = 20m$. Es $(m+10)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Factoriza $x^2 - 2x - 15$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 5)(x + 3)$", "correct": true },
+      { "text": "$(x + 5)(x - 3)$", "correct": false },
+      { "text": "$(x - 15)(x + 1)$", "correct": false },
+      { "text": "$(x - 2)(x + 7)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca factores de -15 que sumen -2.",
+    "explanation": "-5 y +3 cumplen la condición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Factoriza por agrupación: $mx + my + nx + ny$.",
+    "image": null,
+    "options": [
+      { "text": "$(m + n)(x + y)$", "correct": true },
+      { "text": "$(m + x)(n + y)$", "correct": false },
+      { "text": "$(m - n)(x - y)$", "correct": false },
+      { "text": "$m(x+y) + n(x-y)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Agrupa por variable 'm' y 'n'.",
+    "explanation": "$m(x+y) + n(x+y) = (m+n)(x+y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Factoriza $16x^2 - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(4x - 1)(4x + 1)$", "correct": true },
+      { "text": "$(4x - 1)^2$", "correct": false },
+      { "text": "$(16x - 1)(x + 1)$", "correct": false },
+      { "text": "$(8x - 1)(2x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados con $\\sqrt{16x^2} = 4x$.",
+    "explanation": "$(4x-1)(4x+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Factoriza $y^2 - 16y + 64$.",
+    "image": null,
+    "options": [
+      { "text": "$(y - 8)^2$", "correct": true },
+      { "text": "$(y + 8)^2$", "correct": false },
+      { "text": "$(y - 16)(y - 4)$", "correct": false },
+      { "text": "$(y - 32)(y - 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "TCP con signo negativo.",
+    "explanation": "Raíz de 64 es 8. $2(8)y = 16y$. Es $(y-8)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Factoriza $x^2 + 9x + 20$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x + 4)$", "correct": true },
+      { "text": "$(x + 10)(x + 2)$", "correct": false },
+      { "text": "$(x + 20)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)(x - 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suman 9 y multiplican 20.",
+    "explanation": "5 y 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Factoriza $10a^3 - 5a^2$.",
+    "image": null,
+    "options": [
+      { "text": "$5a^2(2a - 1)$", "correct": true },
+      { "text": "$5a(2a^2 - a)$", "correct": false },
+      { "text": "$5a^2(2a + 1)$", "correct": false },
+      { "text": "$10a^2(a - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común $5a^2$.",
+    "explanation": "$10a^3/5a^2 = 2a$, $-5a^2/5a^2 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Factoriza $81 - x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(9 - x)(9 + x)$", "correct": true },
+      { "text": "$(x - 9)(x + 9)$", "correct": false },
+      { "text": "$(9 - x)^2$", "correct": false },
+      { "text": "$(81 - x)(1 + x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Raíz de 81 es 9.",
+    "explanation": "Diferencia de cuadrados: $(9-x)(9+x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Factoriza $a^2 + 2a + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(a + 1)^2$", "correct": true },
+      { "text": "$(a - 1)^2$", "correct": false },
+      { "text": "$(a + 2)(a + 0.5)$", "correct": false },
+      { "text": "No factorizable", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el TCP más simple.",
+    "explanation": "$(a+1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Factoriza $x^2 - 3x - 18$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 6)(x + 3)$", "correct": true },
+      { "text": "$(x + 6)(x - 3)$", "correct": false },
+      { "text": "$(x - 9)(x + 2)$", "correct": false },
+      { "text": "$(x - 18)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factores de -18 que sumen -3.",
+    "explanation": "-6 y +3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Factoriza $3x + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$3(x + 4)$", "correct": true },
+      { "text": "$3(x - 4)$", "correct": false },
+      { "text": "$4(x + 3)$", "correct": false },
+      { "text": "$12(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común numérico.",
+    "explanation": "3 es común a ambos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Factoriza $x^2 - 121$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 11)(x - 11)$", "correct": true },
+      { "text": "$(x - 11)^2$", "correct": false },
+      { "text": "$(x + 12)(x - 10)$", "correct": false },
+      { "text": "$(x + 121)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Raíz de 121 es 11.",
+    "explanation": "$(x+11)(x-11)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Factoriza $4x^2 + 12x + 9$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 3)^2$", "correct": true },
+      { "text": "$(2x - 3)^2$", "correct": false },
+      { "text": "$(4x + 9)(x + 1)$", "correct": false },
+      { "text": "$(2x + 9)(2x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "TCP con $2x$ y $3$.",
+    "explanation": "$(2x+3)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Factoriza $x^2 + x - 20$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x - 4)$", "correct": true },
+      { "text": "$(x - 5)(x + 4)$", "correct": false },
+      { "text": "$(x + 10)(x - 2)$", "correct": false },
+      { "text": "$(x + 20)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suman +1, multiplican -20.",
+    "explanation": "+5 y -4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Factoriza $7y^3 - 14y^2 + 21y$.",
+    "image": null,
+    "options": [
+      { "text": "$7y(y^2 - 2y + 3)$", "correct": true },
+      { "text": "$7y^2(y - 2 + 3y)$", "correct": false },
+      { "text": "$7(y^3 - 2y^2 + 3y)$", "correct": false },
+      { "text": "$y(7y^2 - 14y + 21)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factor común $7y$.",
+    "explanation": "$7y(y^2-2y+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Factoriza $64 - 9x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(8 - 3x)(8 + 3x)$", "correct": true },
+      { "text": "$(3x - 8)(3x + 8)$", "correct": false },
+      { "text": "$(8 - 3x)^2$", "correct": false },
+      { "text": "$(64 - 3x)(1 + 3x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Diferencia de cuadrados. $\\sqrt{64}=8$.",
+    "explanation": "$(8-3x)(8+3x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Factoriza $x^2 - 24x + 144$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 12)^2$", "correct": true },
+      { "text": "$(x + 12)^2$", "correct": false },
+      { "text": "$(x - 24)(x - 6)$", "correct": false },
+      { "text": "$(x - 10)(x - 14)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Raíz de 144 es 12.",
+    "explanation": "$(x-12)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Factoriza $x^2 + 4x - 21$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 7)(x - 3)$", "correct": true },
+      { "text": "$(x - 7)(x + 3)$", "correct": false },
+      { "text": "$(x + 21)(x - 1)$", "correct": false },
+      { "text": "$(x - 7)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma +4, producto -21.",
+    "explanation": "+7 y -3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Factoriza $5x^2 - 45$.",
+    "image": null,
+    "options": [
+      { "text": "$5(x + 3)(x - 3)$", "correct": true },
+      { "text": "$5(x^2 - 9)$", "correct": false },
+      { "text": "$(5x - 9)(x + 5)$", "correct": false },
+      { "text": "$5(x - 3)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero factor común 5, luego diferencia de cuadrados.",
+    "explanation": "$5(x^2-9) = 5(x+3)(x-3)$. La B es incompleta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Factoriza $x^2 + 7x + 10$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x + 2)$", "correct": true },
+      { "text": "$(x + 10)(x + 1)$", "correct": false },
+      { "text": "$(x + 7)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)(x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suman 7, multiplican 10.",
+    "explanation": "5 y 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Factoriza $2x^2 + 7x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 1)(x + 3)$", "correct": true },
+      { "text": "$(2x + 3)(x + 1)$", "correct": false },
+      { "text": "$(2x - 1)(x - 3)$", "correct": false },
+      { "text": "$(x + 1)(2x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Método de aspa simple. $2 \\cdot 3 = 6$. Suma 7.",
+    "explanation": "6 y 1. $2x^2+6x+x+3 = 2x(x+3)+1(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Factoriza $27a^3 + 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(3a + 2)(9a^2 - 6a + 4)$", "correct": true },
+      { "text": "$(3a + 2)(9a^2 + 6a + 4)$", "correct": false },
+      { "text": "$(3a - 2)(9a^2 + 6a + 4)$", "correct": false },
+      { "text": "$(3a + 2)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma de cubos con $3a$ y $2$.",
+    "explanation": "$(3a+2)((3a)^2 - (3a)(2) + 2^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Factoriza $6x^2 - 11x - 10$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 2)(2x - 5)$", "correct": true },
+      { "text": "$(3x - 2)(2x + 5)$", "correct": false },
+      { "text": "$(6x + 5)(x - 2)$", "correct": false },
+      { "text": "$(3x - 5)(2x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Producto $6(-10)=-60$. Suma -11.",
+    "explanation": "-15 y +4. $6x^2-15x+4x-10 = 3x(2x-5)+2(2x-5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Factoriza $ac + ad + bc + bd$.",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)(c + d)$", "correct": true },
+      { "text": "$(a + c)(b + d)$", "correct": false },
+      { "text": "$(a - b)(c - d)$", "correct": false },
+      { "text": "$a(c+d) + b(c-d)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Agrupación simple.",
+    "explanation": "$a(c+d) + b(c+d) = (a+b)(c+d)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Factoriza $125x^3 - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(5x - 1)(25x^2 + 5x + 1)$", "correct": true },
+      { "text": "$(5x - 1)(25x^2 - 5x + 1)$", "correct": false },
+      { "text": "$(5x + 1)(25x^2 - 5x + 1)$", "correct": false },
+      { "text": "$(5x - 1)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Diferencia de cubos $a=5x$, $b=1$.",
+    "explanation": "Signo menos en binomio, más en producto cruzado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Factoriza $4x^2 - 9y^2 - 4x + 1$ (Agrupación con TCP).",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 1 + 3y)(2x - 1 - 3y)$", "correct": true },
+      { "text": "$(2x + 1 + 3y)(2x + 1 - 3y)$", "correct": false },
+      { "text": "$(2x - 3y)^2 - 1$", "correct": false },
+      { "text": "$(2x - 1 - 9y)(2x + 1 + y)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Agrupa $4x^2 - 4x + 1$.",
+    "explanation": "$(2x-1)^2 - 9y^2$. Diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Factoriza $3x^2 - 3x - 6$.",
+    "image": null,
+    "options": [
+      { "text": "$3(x - 2)(x + 1)$", "correct": true },
+      { "text": "$3(x + 2)(x - 1)$", "correct": false },
+      { "text": "$(3x - 6)(x + 1)$", "correct": false },
+      { "text": "$3(x^2 - x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factor común 3 primero.",
+    "explanation": "$3(x^2-x-2) = 3(x-2)(x+1)$. La D es incompleta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Factoriza $x^4 - 81$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 9)(x + 3)(x - 3)$", "correct": true },
+      { "text": "$(x^2 - 9)(x^2 + 9)$", "correct": false },
+      { "text": "$(x - 3)^4$", "correct": false },
+      { "text": "$(x^2 + 9)(x^2 + 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Dos diferencias de cuadrados sucesivas.",
+    "explanation": "$(x^2+9)(x^2-9) = (x^2+9)(x+3)(x-3)$. La B es incompleta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Factoriza $8x^2 - 2x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(4x - 3)(2x + 1)$", "correct": true },
+      { "text": "$(4x + 3)(2x - 1)$", "correct": false },
+      { "text": "$(8x - 3)(x + 1)$", "correct": false },
+      { "text": "$(2x - 3)(4x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Producto -24, suma -2.",
+    "explanation": "-6 y +4. $8x^2-6x+4x-3 = 2x(4x-3)+1(4x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Factoriza $a^3 - a^2 - a + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(a - 1)^2(a + 1)$", "correct": true },
+      { "text": "$(a - 1)(a^2 - 1)$", "correct": false },
+      { "text": "$(a + 1)^2(a - 1)$", "correct": false },
+      { "text": "$(a - 1)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Agrupación.",
+    "explanation": "$a^2(a-1) - 1(a-1) = (a^2-1)(a-1) = (a+1)(a-1)(a-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Factoriza $x^4 + 4y^4$ (Identidad de Sophie Germain).",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 2y^2 + 2xy)(x^2 + 2y^2 - 2xy)$", "correct": true },
+      { "text": "$(x^2 + 2y^2)^2$", "correct": false },
+      { "text": "$(x^2 - 2y^2)(x^2 + 2y^2)$", "correct": false },
+      { "text": "$(x^2 + 2xy + 2y^2)(x^2 - 2xy - 2y^2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma y resta $4x^2y^2$.",
+    "explanation": "$(x^2+2y^2)^2 - (2xy)^2$. Diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Factoriza $x^3 - 7x + 6$ usando Ruffini.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 1)(x - 2)(x + 3)$", "correct": true },
+      { "text": "$(x + 1)(x + 2)(x - 3)$", "correct": false },
+      { "text": "$(x - 1)(x + 2)(x - 3)$", "correct": false },
+      { "text": "$(x - 1)(x^2 + x - 6)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Prueba con $x=1$ como raíz.",
+    "explanation": "$1-7+6=0$, entonces $(x-1)$ es factor. Al dividir queda $x^2+x-6$, que factoriza en $(x+3)(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Factoriza $x^5 - 32$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 2)(x^4 + 2x^3 + 4x^2 + 8x + 16)$", "correct": true },
+      { "text": "$(x - 2)^5$", "correct": false },
+      { "text": "$(x - 2)(x^4 - 2x^3 + 4x^2 - 8x + 16)$", "correct": false },
+      { "text": "$(x^2 - 4)(x^3 + 8)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Diferencia de potencias impares: $a^n - b^n = (a-b)(a^{n-1} + ... + b^{n-1})$.",
+    "explanation": "Con $n=5$, todos los términos del segundo factor son positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Factoriza $x^2(y-z) + y^2(z-x) + z^2(x-y)$ (Cíclica).",
+    "image": null,
+    "options": [
+      { "text": "$-(x - y)(y - z)(z - x)$", "correct": true },
+      { "text": "$(x - y)(y - z)(z - x)$", "correct": false },
+      { "text": "$(x + y)(y + z)(z + x)$", "correct": false },
+      { "text": "$(x - y - z)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Considera el polinomio como función de $x$ y busca raíces $x=y$.",
+    "explanation": "Si $x=y$, la expresión se anula, por tanto $(x-y)$ es factor. Por simetría y grado, es $k(x-y)(y-z)(z-x)$. Evaluando coeficientes, $k=-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Factoriza $x^4 + x^2 + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + x + 1)(x^2 - x + 1)$", "correct": true },
+      { "text": "$(x^2 + 1)^2 - x^2$", "correct": false },
+      { "text": "$(x^2 + 1)(x^2 + 1)$", "correct": false },
+      { "text": "$(x^2 + x + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Identidad de Argand o completar cuadrado sumando $x^2$.",
+    "explanation": "$(x^4+2x^2+1)-x^2 = (x^2+1)^2 - x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Factoriza $6x^2 - xy - 12y^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 4y)(2x - 3y)$", "correct": true },
+      { "text": "$(3x - 4y)(2x + 3y)$", "correct": false },
+      { "text": "$(6x + y)(x - 12y)$", "correct": false },
+      { "text": "$(2x + 4y)(3x - 3y)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Trinomio general con dos variables.",
+    "explanation": "$3x(2x-3y) + 4y(2x-3y)$ tras descomponer el término central.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Factoriza $x^6 - 64$.",
+    "image": null,
+    "options": [
+      { "text": "$(x-2)(x+2)(x^2-2x+4)(x^2+2x+4)$", "correct": true },
+      { "text": "$(x^3-8)(x^3+8)$", "correct": false },
+      { "text": "$(x-2)^3(x+2)^3$", "correct": false },
+      { "text": "$(x^2-4)(x^4+4x^2+16)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Diferencia de cuadrados y luego cubos.",
+    "explanation": "$(x^3-8)(x^3+8)$. Descomponer cubos: $(x-2)(x^2+2x+4)(x+2)(x^2-2x+4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Factoriza $2x^3 + 3x^2 - 8x - 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 2)(x + 2)(2x + 3)$", "correct": true },
+      { "text": "$(x^2 - 4)(2x - 3)$", "correct": false },
+      { "text": "$(2x - 3)(x^2 + 4)$", "correct": false },
+      { "text": "$(x - 2)^2(2x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Agrupación 2 a 2.",
+    "explanation": "$x^2(2x+3) - 4(2x+3) = (x^2-4)(2x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Factoriza $x^5 + x^4 + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + x + 1)(x^3 - x + 1)$", "correct": true },
+      { "text": "$(x^2 - x + 1)(x^3 + x + 1)$", "correct": false },
+      { "text": "$(x^2 + 1)(x^3 + 1)$", "correct": false },
+      { "text": "Irreducible", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma y resta $x^2$ o usa raíces cúbicas de la unidad.",
+    "explanation": "Sumar y restar $x^2$: $x^5-x^2 + x^4+x^2+1$. Factor común $x^2(x^3-1) + (x^2+x+1)^2 - x^2$... mejor usar propiedad de $\\omega$. Si $x=\\omega$, $\\omega^2+\\omega+1=0$. $\\omega^5+\\omega^4+1 = \\omega^2+\\omega+1=0$. Entonces $x^2+x+1$ es factor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Factoriza $(a+b+c)^3 - a^3 - b^3 - c^3$.",
+    "image": null,
+    "options": [
+      { "text": "$3(a + b)(b + c)(c + a)$", "correct": true },
+      { "text": "$3(a + b + c)(ab + bc + ca)$", "correct": false },
+      { "text": "$(a + b)(b + c)(c + a)$", "correct": false },
+      { "text": "$3abc$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Considera $P(a)$ con $a=-b$.",
+    "explanation": "Si $a=-b$, la expresión se anula, así $(a+b)$ es factor. Por simetría $(b+c)$ y $(c+a)$ también. El coeficiente es 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Factoriza $16a^4 + 81b^4 - 72a^2b^2$ para encontrar un factor lineal NO, factoriza $16a^4 + 36a^2b^2 + 81b^4$.",
+    "image": null,
+    "options": [
+      { "text": "$(4a^2 + 6ab + 9b^2)(4a^2 - 6ab + 9b^2)$", "correct": true },
+      { "text": "$(4a^2 + 9b^2)^2$", "correct": false },
+      { "text": "$(4a^2 + 9b^2 + 6ab)(4a^2 + 9b^2 + 6ab)$", "correct": false },
+      { "text": "$(2a - 3b)^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Completar TCP. El término central debería ser $72a^2b^2$.",
+    "explanation": "Sumar $36a^2b^2$: $(4a^2+9b^2)^2 - (6ab)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Factoriza $x^{3n} + 2x^{2n} + x^n$.",
+    "image": null,
+    "options": [
+      { "text": "$x^n(x^n + 1)^2$", "correct": true },
+      { "text": "$x^n(x^n - 1)^2$", "correct": false },
+      { "text": "$x^{2n}(x^n + 2) + x^n$", "correct": false },
+      { "text": "$x^n(x^{2n} + 2x^n + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factor común $x^n$.",
+    "explanation": "$x^n(x^{2n} + 2x^n + 1)$. El paréntesis es un TCP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "Factoriza $x^3 - 9x + x^2 - 9$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 3)(x + 3)(x + 1)$", "correct": true },
+      { "text": "$(x - 3)(x^2 + 1)$", "correct": false },
+      { "text": "$(x + 3)(x - 1)(x + 1)$", "correct": false },
+      { "text": "$(x - 9)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Agrupa términos.",
+    "explanation": "$x(x^2-9) + 1(x^2-9) = (x^2-9)(x+1) = (x-3)(x+3)(x+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "Factoriza $a^6 - 1$ como producto de 4 factores.",
+    "image": null,
+    "options": [
+      { "text": "$(a-1)(a+1)(a^2+a+1)(a^2-a+1)$", "correct": true },
+      { "text": "$(a^3-1)(a^3+1)$", "correct": false },
+      { "text": "$(a^2-1)(a^4+a^2+1)$", "correct": false },
+      { "text": "$(a-1)^3(a+1)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Diferencia de cuadrados y luego cubos.",
+    "explanation": "Opción B es correcta pero tiene 2 factores. Desglosando: $(a-1)(a^2+a+1)(a+1)(a^2-a+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Factoriza $x^4 + 2x^3 - 9x^2 - 2x + 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 1)(x + 1)(x - 2)(x + 4)$", "correct": true },
+      { "text": "$(x - 2)(x + 2)(x - 1)(x + 4)$", "correct": false },
+      { "text": "$(x^2 - 1)(x^2 + 2x - 8)$", "correct": false },
+      { "text": "$(x + 1)(x + 2)(x + 3)(x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Evaluación para $x=1$ y $x=-1$.",
+    "explanation": "$1+2-9-2+8=0$ (raíz 1). $1-2-9+2+8=0$ (raíz -1). $(x^2-1)$ es factor. División da $x^2+2x-8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "Factoriza $x^3 + 6x^2 + 11x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 1)(x + 2)(x + 3)$", "correct": true },
+      { "text": "$(x - 1)(x - 2)(x - 3)$", "correct": false },
+      { "text": "$(x + 1)(x^2 + 5x + 6)$", "correct": false },
+      { "text": "$(x + 2)(x^2 + 4x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Coeficientes binomiales o Ruffini con negativos.",
+    "explanation": "-1, -2, -3 son raíces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "Factoriza $a^2(b-c) + b^2(c-a) + c^2(a-b)$.",
+    "image": null,
+    "options": [
+      { "text": "$-(a - b)(b - c)(c - a)$", "correct": true },
+      { "text": "$(a - b)(b - c)(c - a)$", "correct": false },
+      { "text": "$(a + b)(b + c)(c + a)$", "correct": false },
+      { "text": "$-(a + b + c)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Simetría cíclica similar al problema anterior.",
+    "explanation": "El coeficiente principal determina el signo negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "Factoriza $x^8 - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^4 + 1)(x^2 + 1)(x + 1)(x - 1)$", "correct": true },
+      { "text": "$(x^4 - 1)(x^4 + 1)$", "correct": false },
+      { "text": "$(x^2 - 1)^4$", "correct": false },
+      { "text": "$(x - 1)^8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Diferencia de cuadrados recursiva.",
+    "explanation": "Desglose sucesivo de los términos negativos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "Factoriza $4x^2 - 12xy + 9y^2 - 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3y - 5)(2x - 3y + 5)$", "correct": true },
+      { "text": "$(2x + 3y - 5)(2x + 3y + 5)$", "correct": false },
+      { "text": "$(2x - 3y - 25)(2x - 3y + 1)$", "correct": false },
+      { "text": "$(2x - 9y - 5)(2x - y + 5)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "TCP inicial $(2x-3y)^2$.",
+    "explanation": "Diferencia de cuadrados con base compuesta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "Factoriza $a^4 + a^2 + 25$ NO, $a^4 + 3a^2 + 4$.",
+    "image": null,
+    "options": [
+      { "text": "$(a^2 - a + 2)(a^2 + a + 2)$", "correct": true },
+      { "text": "$(a^2 + 2)^2 - a^2$", "correct": false },
+      { "text": "$(a^2 + 1)(a^2 + 4)$", "correct": false },
+      { "text": "$(a^2 + a + 1)(a^2 - a + 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Completa el TCP para $(a^2+2)^2$.",
+    "explanation": "$a^4+4a^2+4 - a^2 = (a^2+2)^2 - a^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
