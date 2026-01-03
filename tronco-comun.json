@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Seleccione el valor numérico que debe colocarse en el recuadro de la potencia para que la igualdad sea verdadera: $((q)^9)^7)^2 = ((q)^9)^{\\square}$",
+    "image": null,
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "49", "correct": false },
+      { "text": "18", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda la ley de los exponentes para la potencia de una potencia: $(x^a)^b = x^{a \\cdot b}$.",
+    "explanation": "Se multiplican los exponentes exteriores: $7 \\times 2 = 14$. Por lo tanto, la expresión queda $((q)^9)^{14}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "¿Qué conjunto de números presenta una desviación estándar mayor?",
+    "image": null,
+    "options": [
+      { "text": "{13, 10, 24, 8, 15, 20}", "correct": true },
+      { "text": "{16, 16, 9, 12, 12, 16}", "correct": false },
+      { "text": "{19, 14, 17, 15, 18, 16}", "correct": false },
+      { "text": "{15, 15, 15, 15, 15, 15}", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La desviación estándar mide qué tan dispersos están los datos respecto a su promedio. Observa el rango (dato mayor menos dato menor) como una aproximación rápida.",
+    "explanation": "El primer conjunto tiene el rango más amplio ($24 - 8 = 16$) y sus datos están más alejados de la media en comparación con los otros conjuntos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Complete la oración con el valor faltante. Un árbol frutal crece en promedio _______ por año. Si el árbol mide $6.3 \\text{ m}$, significa que actualmente tiene $10.5 \\text{ años}$.",
+    "image": null,
+    "options": [
+      { "text": "$0.60 \\text{ m}$", "correct": true },
+      { "text": "$0.60 \\text{ cm}$", "correct": false },
+      { "text": "$1.66 \\text{ cm}$", "correct": false },
+      { "text": "$1.66 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide la altura total entre la edad para obtener la tasa de crecimiento anual: $v = \\frac{d}{t}$.",
+    "explanation": "Se divide $6.3 \\text{ m} / 10.5 \\text{ años} = 0.6 \\text{ m/año}$. La unidad correcta es metros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "¿Qué opción es equivalente a la expresión $4(2m + n)(2m + n)$?",
+    "image": null,
+    "options": [
+      { "text": "$(4m + 2n)^2$", "correct": true },
+      { "text": "$(8m + 4n)^2$", "correct": false },
+      { "text": "$(8m + n)^2$", "correct": false },
+      { "text": "$(2m + 2n)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Expresa el 4 como $2^2$ e incorpóralo dentro del cuadrado del binomio: $a \\cdot b^2 = (\\sqrt{a} \\cdot b)^2$.",
+    "explanation": "La expresión es $4(2m+n)^2$. Al meter el 4 dentro del cuadrado como 2, queda $(2(2m+n))^2 = (4m+2n)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Al lanzar 2 dados, la probabilidad de que la suma de sus caras superiores sea 10 es _______ la probabilidad de que la suma de dichas caras sea 5.",
+    "image": null,
+    "options": [
+      { "text": "menor que", "correct": true },
+      { "text": "mayor que", "correct": false },
+      { "text": "igual a", "correct": false },
+      { "text": "el doble de", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Cuenta cuántas combinaciones suman 10 (ej. 5+5) y cuántas suman 5 (ej. 1+4).",
+    "explanation": "Suma 10: (4,6), (5,5), (6,4) $\\rightarrow$ 3 casos. Suma 5: (1,4), (2,3), (3,2), (4,1) $\\rightarrow$ 4 casos. $3 < 4$, por lo tanto es menor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Un estudiante del CEPREDIX analiza dos relojes: uno con radio de $5 \\text{ cm}$ y otro de $25 \\text{ cm}$. Gira la manecilla del primero de 1:00 a 5:00 horas y la del segundo de 10:00 a 3:00 horas. ¿Cuál afirmación es correcta?",
+    "image": null,
+    "options": [
+      { "text": "La manecilla del primer reloj realiza un menor giro porque cubre un ángulo menor (4 horas vs 5 horas).", "correct": true },
+      { "text": "La manecilla del primer reloj realiza un menor giro porque su radio es 5 veces menor.", "correct": false },
+      { "text": "En el primer reloj la manecilla realiza un mayor giro, ya que avanzó más horas.", "correct": false },
+      { "text": "Ambas manecillas realizan el mismo giro angular independientemente de las horas.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El giro angular depende de las horas transcurridas, no del tamaño (radio) del reloj.",
+    "explanation": "El primer reloj recorre 4 horas (1 a 5). El segundo recorre 5 horas (10 a 3). 4 horas representan un ángulo menor que 5 horas ($120^\\circ$ vs $150^\\circ$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Silvia compra una blusa de $\\$171.30$ con $25\\%$ de descuento y pantalones de $\\$400.25$ con $70\\%$ de rebaja. En caja le aplican un $25\\%$ extra a las blusas sobre el precio rebajado. ¿Cuánto pagará en total (redondeado)?",
+    "image": null,
+    "options": [
+      { "text": "$\\$217.00$", "correct": true },
+      { "text": "$\\$206.00$", "correct": false },
+      { "text": "$\\$291.00$", "correct": false },
+      { "text": "$\\$250.00$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula los descuentos sucesivos para la blusa: Precio $\\times 0.75 \\times 0.75$.",
+    "explanation": "Blusa: $171.3 \\times 0.75 \\times 0.75 \\approx \\$96.36$. Pantalón: $400.25 \\times 0.30 \\approx \\$120.07$. Suma: $96.36 + 120.07 = 216.43$, redondeado a $\\$217$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "¿Cuál es una posible solución de la ecuación lineal $4q - r = 12$?",
+    "image": null,
+    "options": [
+      { "text": "$q = 1, r = -8$", "correct": true },
+      { "text": "No tiene solución", "correct": false },
+      { "text": "La única solución es $q = 1, r = -8$", "correct": false },
+      { "text": "$q = 0, r = 0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sustituye los valores en la ecuación para verificar la igualdad.",
+    "explanation": "Sustituyendo $q=1$ y $r=-8$: $4(1) - (-8) = 4 + 8 = 12$. Es una solución válida entre infinitas posibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Identifique la inecuación que describe: 'Una persona debe laborar como máximo $7.5 \\text{ horas}$ diarias'.",
+    "image": null,
+    "options": [
+      { "text": "$x \\le 7.5$", "correct": true },
+      { "text": "$x = 7.5$", "correct": false },
+      { "text": "$x \\ge 7.5$", "correct": false },
+      { "text": "$x < 7.5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "\"Como máximo\" incluye el límite, indicando que puede ser igual o menor.",
+    "explanation": "La frase 'como máximo' implica que el valor no puede exceder 7.5, pero sí puede ser 7.5, por lo tanto se usa el símbolo $\\le$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "En un juego de feria se utiliza un dado modificado donde es dos veces más probable que salga un número par que uno impar. ¿Cuál es la probabilidad de que salga el número 5?",
+    "image": null,
+    "options": [
+      { "text": "$1/9$", "correct": true },
+      { "text": "$1/6$", "correct": false },
+      { "text": "$1/18$", "correct": false },
+      { "text": "$1/3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula primero la probabilidad total de los impares. $P(\\text{par}) = 2P(\\text{impar})$.",
+    "explanation": "Como $P(\\text{par}) = 2/3$ y $P(\\text{impar}) = 1/3$, y hay 3 números impares (1, 3, 5), la probabilidad de uno específico (el 5) es $(1/3) / 3 = 1/9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Si $\\sec \\alpha = 5/4$, calcule $\\tan \\alpha$.",
+    "image": null,
+    "options": [
+      { "text": "$3/4$", "correct": true },
+      { "text": "$4/5$", "correct": false },
+      { "text": "$4/3$", "correct": false },
+      { "text": "$5/3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa el teorema de Pitágoras. $\\sec = \\text{Hipotenusa} / \\text{Adyacente}$.",
+    "explanation": "Hipotenusa = 5, Adyacente = 4. Cateto opuesto = $\\sqrt{5^2 - 4^2} = 3$. $\\tan \\alpha = \\text{Opuesto} / \\text{Adyacente} = 3/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Un problema del examen diagnóstico CEPREDIX pide simplificar: $A + 2B - C$, dado $A = x - 3$, $B = 3x^3 - x^2$, $C = -4x^2 + 2x$.",
+    "image": null,
+    "options": [
+      { "text": "$6x^3 + 2x^2 - x - 3$", "correct": true },
+      { "text": "$6x^3 + 3x^2 + 3x - 3$", "correct": false },
+      { "text": "$6x^3 - 6x^2 - 3x - 3$", "correct": false },
+      { "text": "$6x^3 - 2x^2 + x - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sustituye los polinomios y ten cuidado con el signo negativo al restar C.",
+    "explanation": "$x - 3 + 2(3x^3 - x^2) - (-4x^2 + 2x) = x - 3 + 6x^3 - 2x^2 + 4x^2 - 2x = 6x^3 + 2x^2 - x - 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Seleccione la opción que completa correctamente: 'La nueva camioneta tiene 250 caballos de fuerza; _______, una potencia única en el mercado'.",
+    "image": null,
+    "options": [
+      { "text": "es decir", "correct": true },
+      { "text": "mejor dicho", "correct": false },
+      { "text": "más bien", "correct": false },
+      { "text": "sin embargo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca un conector explicativo o de reformulación.",
+    "explanation": "'Es decir' introduce una explicación o aclaración de lo dicho anteriormente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Identifique la palabra que está escrita correctamente en el siguiente listado.",
+    "image": null,
+    "options": [
+      { "text": "Excentricidades", "correct": true },
+      { "text": "Lécsico", "correct": false },
+      { "text": "Éxsodo", "correct": false },
+      { "text": "Eccentricidades", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La combinación fonética /ks/ entre vocales se escribe generalmente con 'x'.",
+    "explanation": "Excentricidades es correcta. Léxico y Éxodo se escriben con 'x', no 'cs' ni 'xs'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿En qué oración se establece una relación de concordancia correcta?",
+    "image": null,
+    "options": [
+      { "text": "La mitad de las mesas se encontraba desocupada", "correct": true },
+      { "text": "Un saco de patatas se desparramaron por el suelo", "correct": false },
+      { "text": "Existía infinidad de cosillas urgidas de un arreglo", "correct": false },
+      { "text": "La mayoría de los estudiantes aprobó el examen", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los sustantivos cuantificadores como 'mitad' seguidos de 'de + plural' admiten concordancia en singular o plural, pero el verbo debe coincidir.",
+    "explanation": "'La mitad' concuerda en singular con 'se encontraba'. En 'un saco', el verbo debe ser singular 'se desparramó'. 'Infinidad' exige plural 'existían'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Elija la palabra que debe llevar tilde.",
+    "image": null,
+    "options": [
+      { "text": "Casuística", "correct": true },
+      { "text": "Ruido", "correct": false },
+      { "text": "Veintiun", "correct": false },
+      { "text": "Constituida", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Identifica la palabra esdrújula.",
+    "explanation": "'Casuística' es esdrújula y lleva tilde en la vocal débil tónica del diptongo. 'Ruido' y 'Constituida' son graves terminadas en vocal (ui es diptongo aquí), no llevan tilde.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "¿En cuál oración las palabras tienen una relación correcta de género?",
+    "image": null,
+    "options": [
+      { "text": "Clara Campoamor es una de las defensoras más brillantes", "correct": true },
+      { "text": "La persona que escribió es una de los ambientalistas más notables", "correct": false },
+      { "text": "Violeta Parra es una de los cantautores más importantes", "correct": false },
+      { "text": "Ella es uno de los arquitectos del proyecto", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La concordancia en construcciones partitivas ('una de las...') debe respetar el género del sujeto.",
+    "explanation": "Al ser Clara mujer, se debe usar 'una de las defensoras' (femenino).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "En el manual del CEPREDIX se pide completar con grafías correctas: 'Es lí___ito y signo de sensate___ que los especialistas se cer___ioren del parente___co'.",
+    "image": null,
+    "options": [
+      { "text": "c - z - c - s", "correct": true },
+      { "text": "s - z - s - z", "correct": false },
+      { "text": "z - s - c - s", "correct": false },
+      { "text": "c - s - c - z", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Lícito (ley), Sensatez (cualidad), Cerciorar (cierto), Parentesco (sufijo -esco).",
+    "explanation": "Lícito (c), Sensatez (z final), Cercioren (c), Parentesco (s).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Cuál oración usa correctamente el partitivo?",
+    "image": null,
+    "options": [
+      { "text": "La doceava parte de las ganancias", "correct": true },
+      { "text": "El quinceavo cumpleaños de Mariana", "correct": false },
+      { "text": "El diecinueveavo piso de la torre", "correct": false },
+      { "text": "El onceavo corredor en llegar", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los terminados en -avo son para fracciones (partes), no para orden (pisos o aniversarios).",
+    "explanation": "'Doceava' es correcto para fracción. Para cumpleaños y pisos se deben usar ordinales (quimoquinto, decimonoveno).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "¿Cuál de los siguientes textos es adecuado como prólogo para una novela?",
+    "image": null,
+    "options": [
+      { "text": "Dupont considera que Retina fue una de sus obras más difíciles... indica que tuvo que adentrarse en sus miedos...", "correct": true },
+      { "text": "Del autor de Un romance llega Retina... No te la puedes perder...", "correct": false },
+      { "text": "Retina se concibe como una de las más representativas... pasando de novela rosa a policiaca...", "correct": false },
+      { "text": "La novela Retina cuesta $200 y tiene 300 páginas...", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Un prólogo suele explicar el contexto, la intención del autor o el proceso creativo antes de la obra.",
+    "explanation": "La primera opción aborda el proceso creativo y temático desde la perspectiva del autor/editor, típico de un prólogo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Elija el antónimo de la palabra 'viejo' en el contexto: 'El diccionario es viejo y sus definiciones obsoletas'.",
+    "image": null,
+    "options": [
+      { "text": "Actual", "correct": true },
+      { "text": "Inédito", "correct": false },
+      { "text": "Bisoño", "correct": false },
+      { "text": "Antiguo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca una palabra que signifique vigente o del tiempo presente.",
+    "explanation": "En este contexto, lo opuesto a viejo/obsoleto es 'actual' (vigente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Seleccione el sinónimo de 'pila' en: 'Espero que mi tarea no se pierda en la pila de trabajos'.",
+    "image": null,
+    "options": [
+      { "text": "El montón", "correct": true },
+      { "text": "La batería", "correct": false },
+      { "text": "La fuente", "correct": false },
+      { "text": "La celda", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Se refiere a un conjunto de cosas apiladas sin mucho orden.",
+    "explanation": "'Montón' es el sinónimo adecuado para un conjunto de objetos acumulados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "¿Cuál fragmento corresponde a un artículo de opinión sobre educación financiera?",
+    "image": null,
+    "options": [
+      { "text": "Según datos, miles desconocen cómo funcionan... considero necesario difundir la educación financiera...", "correct": true },
+      { "text": "El incremento de la inflación ha impactado... 56.9% realiza el pago total...", "correct": false },
+      { "text": "La educación financiera es una herramienta necesaria. El libro Cuentas claras plantea que...", "correct": false },
+      { "text": "Ahorre ahora con nuestra nueva cuenta de inversión al 10% anual...", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca el uso de la primera persona o expresiones de postura personal ('considero', 'mi punto de vista').",
+    "explanation": "El primer texto expresa una postura personal ('considero necesario') frente a una problemática, rasgo distintivo del artículo de opinión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "El profesor del CEPREDIX explica la acentuación de palabras compuestas. ¿Cuál opción está acentuada correctamente?",
+    "image": null,
+    "options": [
+      { "text": "Diciéndoselos", "correct": true },
+      { "text": "Estáte", "correct": false },
+      { "text": "Pónlas", "correct": false },
+      { "text": "Dáme", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las formas verbales con pronombres enclíticos siguen las reglas generales. Busca la sobresdrújula.",
+    "explanation": "'Diciéndoselos' es sobresdrújula, por lo que siempre lleva tilde. 'Estate' y 'Ponlas' son graves terminadas en vocal/s, no deben llevar tilde.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Una tripulación de 70 personas tiene comida para 18 días (3 comidas/día). Si la tripulación aumenta en 15 personas y se reducen a 2 comidas/día, ¿cuántos días durará el alimento?",
+    "image": null,
+    "options": [
+      { "text": "22.23", "correct": true },
+      { "text": "21.85", "correct": false },
+      { "text": "32.78", "correct": false },
+      { "text": "25.00", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa una regla de tres compuesta: (Personas1 $\\cdot$ Comidas1 $\\cdot$ Días1) = (Personas2 $\\cdot$ Comidas2 $\\cdot$ Días2).",
+    "explanation": "$70 \\cdot 3 \\cdot 18 = 3780$ raciones totales. Nueva demanda diaria: $(70+15) \\cdot 2 = 170$. Días = $3780 / 170 \\approx 22.23$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Una cisterna de $6,045 \\text{ L}$ se llena a razón de $65 \\text{ L}$ cada 3 minutos. ¿Cuántos minutos tardará en llenarse?",
+    "image": null,
+    "options": [
+      { "text": "279", "correct": true },
+      { "text": "31", "correct": false },
+      { "text": "93", "correct": false },
+      { "text": "100", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula primero la velocidad de llenado en L/min o usa regla de tres directa.",
+    "explanation": "Tasa = $65 \\text{ L} / 3 \\text{ min}$. Tiempo = $6045 / (65/3) = 6045 \\cdot 3 / 65 = 279 \\text{ min}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "En la comunidad CEPREDIX hay 20 personas (8 menores). Los adultos hacen guardia de 21:00 a 06:00. ¿Cuántas horas de guardia hace cada adulto en 360 días si se turnan equitativamente?",
+    "image": null,
+    "options": [
+      { "text": "270", "correct": true },
+      { "text": "162", "correct": false },
+      { "text": "405", "correct": false },
+      { "text": "300", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula horas por noche, total de horas en 360 días y divide entre el número de adultos ($20-8$).",
+    "explanation": "Adultos: 12. Horas/noche: 9. Total horas año: $360 \\times 9 = 3240$. Horas por adulto: $3240 / 12 = 270$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Identifique la expresión que utiliza correctamente los símbolos de agrupación para: $3 - \\{7[4(5 - 9) - 3(-5)]\\}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 - \\{7[4(5 - 9) - 3(-5)]\\}$", "correct": true },
+      { "text": "$3 - (7 + [4(5 - 9) - 3(-5)])$", "correct": false },
+      { "text": "$3 - \\{7 + [4(5 - 9) - 3(-5)\\}$", "correct": false },
+      { "text": "$3 - [7\\{4(5 - 9) - 3(-5)\\}]$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El orden estándar de anidación es: paréntesis (), corchetes [], llaves {}.",
+    "explanation": "La opción correcta muestra la jerarquía estándar: paréntesis adentro, corchetes en medio y llaves afuera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Si $v = 6 \\times 10^7 \\text{ m/s}$ y $d = 6.432 \\times 10^{13} \\text{ m}$, calcule el tiempo en segundos ($t=d/v$).",
+    "image": null,
+    "options": [
+      { "text": "$1.072 \\times 10^6$", "correct": true },
+      { "text": "$1.072 \\times 10^{-6}$", "correct": false },
+      { "text": "$1.072 \\times 10^{20}$", "correct": false },
+      { "text": "$1.072 \\times 10^7$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide los coeficientes y resta los exponentes de la base 10 ($10^a / 10^b = 10^{a-b}$).",
+    "explanation": "$6.432 / 6 = 1.072$. Exponentes: $13 - 7 = 6$. Resultado: $1.072 \\times 10^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Identifique los factores primos del número 350.",
+    "image": null,
+    "options": [
+      { "text": "2, 5, 7", "correct": true },
+      { "text": "2, 3, 7", "correct": false },
+      { "text": "5, 7, 13", "correct": false },
+      { "text": "2, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Descompón el número dividiendo sucesivamente por primos ($350 = 35 \\times 10$).",
+    "explanation": "$350 = 2 \\times 175 = 2 \\times 5 \\times 35 = 2 \\times 5 \\times 5 \\times 7$. Factores únicos: 2, 5, 7.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Un aparato requiere $24 \\text{ V}$. Si cada batería proporciona $3 \\text{ V}$, ¿cuántas baterías en serie se necesitan?",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En serie los voltajes se suman. Divide el voltaje total entre el voltaje unitario.",
+    "explanation": "$24 \\text{ V} / 3 \\text{ V/batería} = 8$ baterías.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "En una población hay 8 infectados iniciales. La infección crece multiplicándose por 2 cada 6 días. ¿Cuántos infectados habrá después de 36 días (al finalizar el sexto periodo)?",
+    "image": null,
+    "options": [
+      { "text": "256", "correct": true },
+      { "text": "96", "correct": false },
+      { "text": "512", "correct": false },
+      { "text": "128", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula de progresión geométrica: $a_n = a_1 \\cdot r^{n-1}$. Aquí hay 6 periodos (del día 6 al 36).",
+    "explanation": "Se consideran 5 intervalos de crecimiento tras el inicial: $8 \\times 2^5 = 256$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "El CEPREDIX tiene 5 departamentos. El costo telefónico ($\\$28,412.00$) se reparte proporcionalmente a las extensiones. Si en total hay 21 extensiones y Ventas tiene 3, ¿cuánto paga Ventas?",
+    "image": null,
+    "options": [
+      { "text": "$\\$4,058.86$", "correct": true },
+      { "text": "$\\$5,682.40$", "correct": false },
+      { "text": "$\\$9,470.67$", "correct": false },
+      { "text": "$\\$3,000.00$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula el costo por extensión (Costo Total / Total Extensiones) y multiplica por las de Ventas.",
+    "explanation": "Costo por extensión: $28,412 / 21 \\approx 1352.95$. Ventas: $1352.95 \\times 3 = 4058.857$, redondeado a $\\$4,058.86$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "En un almacén había $5,000 \\text{ kg}$ de frijol. Se hicieron 3 compras de $725.32 \\text{ kg}$, 5 ventas de $333.333 \\text{ kg}$ y 8 ventas de $240.45 \\text{ kg}$. ¿Cuánto queda (redondeado)?",
+    "image": null,
+    "options": [
+      { "text": "$3,585.70 \\text{ kg}$", "correct": true },
+      { "text": "$5,151.54 \\text{ kg}$", "correct": false },
+      { "text": "$6,414.31 \\text{ kg}$", "correct": false },
+      { "text": "$4,000.00 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma las compras al inventario inicial y resta todas las ventas.",
+    "explanation": "$5000 + (3 \\times 725.32) - (5 \\times 333.333) - (8 \\times 240.45) = 5000 + 2175.96 - 1666.665 - 1923.6 = 3585.695$, redondeado a $3585.70$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Identifique la representación en lenguaje común de $7^{4/3}$.",
+    "image": null,
+    "options": [
+      { "text": "Raíz cúbica de siete elevado a la cuarta potencia", "correct": true },
+      { "text": "Raíz cuarta de siete elevado al cubo", "correct": false },
+      { "text": "Tercera parte de siete elevado a la cuarta potencia", "correct": false },
+      { "text": "Siete elevado a cuatro tercios", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En el exponente fraccionario $x^{m/n}$, $m$ es la potencia y $n$ es la raíz.",
+    "explanation": "El denominador 3 indica raíz cúbica y el numerador 4 indica la potencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Identifique la solución de: $72 \\div 8 + 3 - 4 \\times 5 + 4 \\times 2^2 \\div 2 - 6$.",
+    "image": null,
+    "options": [
+      { "text": "-6", "correct": true },
+      { "text": "-1", "correct": false },
+      { "text": "82", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sigue la jerarquía: 1) Potencias, 2) Multiplicación/División, 3) Suma/Resta.",
+    "explanation": "$9 + 3 - 20 + (4 \\times 4 / 2) - 6 = 12 - 20 + 8 - 6 = -6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "El perímetro de un rectángulo es de $50 \\text{ cm}$. Si el largo es $5 \\text{ cm}$ mayor que el ancho, ¿cuáles son las dimensiones?",
+    "image": null,
+    "options": [
+      { "text": "Ancho: $10 \\text{ cm}$, Largo: $15 \\text{ cm}$", "correct": true },
+      { "text": "Ancho: $15 \\text{ cm}$, Largo: $20 \\text{ cm}$", "correct": false },
+      { "text": "Ancho: $5 \\text{ cm}$, Largo: $10 \\text{ cm}$", "correct": false },
+      { "text": "Ancho: $12 \\text{ cm}$, Largo: $17 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Plantea un sistema: $2x + 2y = 50$ y $y = x + 5$.",
+    "explanation": "Si $x$ es el ancho, $2x + 2(x+5) = 50 \\rightarrow 4x + 10 = 50 \\rightarrow 4x = 40 \\rightarrow x = 10$. El largo es 15.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Complete la oración correctamente: 'El _______ de la película fue tan impactante que el público quedó en _______'.",
+    "image": null,
+    "options": [
+      { "text": "desenlace - silencio", "correct": true },
+      { "text": "decenlace - cilencio", "correct": false },
+      { "text": "desenlaze - silencio", "correct": false },
+      { "text": "desenlace - cilencio", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Presta atención a la ortografía de palabras con s, c y z.",
+    "explanation": "'Desenlace' proviene de lazar (lazo), pero cambia a 'c' antes de 'e'. 'Silencio' se escribe con 's' inicial y 'c' intermedia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Un estudiante del CEPREDIX resuelve la inecuación $-3x + 5 \\le 14$. ¿Cuál es el conjunto solución?",
+    "image": null,
+    "options": [
+      { "text": "$x \\ge -3$", "correct": true },
+      { "text": "$x \\le -3$", "correct": false },
+      { "text": "$x \\ge 3$", "correct": false },
+      { "text": "$x \\le 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Al dividir o multiplicar una inecuación por un número negativo, el sentido de la desigualdad se invierte.",
+    "explanation": "$-3x \\le 9$. Dividiendo por -3: $x \\ge -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Elija la oración que utiliza correctamente el conector lógico.",
+    "image": null,
+    "options": [
+      { "text": "Estudió mucho para el examen; sin embargo, no obtuvo la calificación deseada.", "correct": true },
+      { "text": "Estudió mucho para el examen; además, no obtuvo la calificación deseada.", "correct": false },
+      { "text": "Estudió mucho para el examen; es decir, no obtuvo la calificación deseada.", "correct": false },
+      { "text": "Estudió mucho para el examen; por lo tanto, no obtuvo la calificación deseada.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Busca un conector de oposición o contraste.",
+    "explanation": "'Sin embargo' introduce una contraposición a lo esperado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Calcule el valor de $x$ en el triángulo rectángulo si la hipotenusa es 13 y un cateto es 12.",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa el Teorema de Pitágoras: $c^2 = a^2 + b^2$.",
+    "explanation": "$x = \\sqrt{13^2 - 12^2} = \\sqrt{169 - 144} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "¿Cuál es la factorización correcta de $x^2 - 9$?",
+    "image": null,
+    "options": [
+      { "text": "$(x - 3)(x + 3)$", "correct": true },
+      { "text": "$(x - 3)^2$", "correct": false },
+      { "text": "$(x - 9)(x + 1)$", "correct": false },
+      { "text": "$(x + 3)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es una diferencia de cuadrados: $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La raíz de $x^2$ es $x$ y la de 9 es 3. Se factoriza como binomios conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Identifique el vicio del lenguaje en: 'Subir para arriba'.",
+    "image": null,
+    "options": [
+      { "text": "Pleonasmo", "correct": true },
+      { "text": "Barbarismo", "correct": false },
+      { "text": "Cacofonía", "correct": false },
+      { "text": "Solecismo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Consiste en usar palabras innecesarias que no añaden significado nuevo.",
+    "explanation": "'Subir' ya implica ir hacia arriba, por lo que la redundancia es un pleonasmo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Si $f(x) = 2x^2 + 3x - 1$, encuentre $f(-2)$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "-15", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Sustituye $x$ por -2 en la ecuación.",
+    "explanation": "$2(-2)^2 + 3(-2) - 1 = 2(4) - 6 - 1 = 8 - 6 - 1 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "En un grupo del CEPREDIX de 50 alumnos, el $60\\%$ son mujeres. ¿Cuántos hombres hay en el grupo?",
+    "image": null,
+    "options": [
+      { "text": "20", "correct": true },
+      { "text": "30", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Si el $60\\%$ son mujeres, el $40\\%$ son hombres.",
+    "explanation": "$50 \\times 0.40 = 20$. O bien, mujeres son 30, entonces hombres $50-30=20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Seleccione la palabra aguda en la lista.",
+    "image": null,
+    "options": [
+      { "text": "Pared", "correct": true },
+      { "text": "Mesa", "correct": false },
+      { "text": "Lápiz", "correct": false },
+      { "text": "Música", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las palabras agudas tienen la sílaba tónica en la última posición.",
+    "explanation": "Pa-red (tónica en red). Mesa (grave), Lápiz (grave), Música (esdrújula).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Resuelve para $y$: $3y - 7 = 2y + 5$.",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "-2", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Agrupa los términos con $y$ de un lado y las constantes del otro.",
+    "explanation": "$3y - 2y = 5 + 7 \\rightarrow y = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Identifique el tipo de oración: '¡Ojalá llueva pronto!'",
+    "image": null,
+    "options": [
+      { "text": "Desiderativa", "correct": true },
+      { "text": "Dubitativa", "correct": false },
+      { "text": "Imperativa", "correct": false },
+      { "text": "Exclamativa pura", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Expresa un deseo.",
+    "explanation": "Las oraciones desiderativas expresan deseo o anhelo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "¿Cuál es la pendiente de la recta que pasa por los puntos $(2, 3)$ y $(4, 7)$?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "0.5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Fórmula de la pendiente: $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Complete: 'La _______ de los diputados _______ a favor de la ley'.",
+    "image": null,
+    "options": [
+      { "text": "mayoría - votó", "correct": true },
+      { "text": "mayoría - votaron", "correct": false },
+      { "text": "mayoria - voto", "correct": false },
+      { "text": "mayoría - botó", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "'Mayoría' es singular y el verbo debe concordar con el núcleo del sujeto.",
+    "explanation": "El núcleo es 'mayoría' (singular), por lo que 'votó' es preferible, aunque 'votaron' se acepta en ciertos contextos, la opción 'votó' es la concordancia estricta. 'Botó' es de arrojar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Un artículo cuesta $\\$500$. Si se aumenta un $10\\%$ y luego se descuenta un $10\\%$, ¿cuál es el precio final?",
+    "image": null,
+    "options": [
+      { "text": "$\\$495$", "correct": true },
+      { "text": "$\\$500$", "correct": false },
+      { "text": "$\\$490$", "correct": false },
+      { "text": "$\\$510$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Calcula paso a paso. El descuento se aplica sobre el precio *ya aumentado*.",
+    "explanation": "Aumento: $500 \\times 1.10 = 550$. Descuento: $550 \\times 0.90 = 495$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "En un estudio del CEPREDIX, se determinó que la suma de tres números consecutivos es 63. ¿Cuál es el número mayor?",
+    "image": null,
+    "options": [
+      { "text": "22", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "23", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Plantea la ecuación $x + (x+1) + (x+2) = 63$.",
+    "explanation": "$3x + 3 = 63 \\rightarrow 3x = 60 \\rightarrow x = 20$. Los números son 20, 21, 22. El mayor es 22.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "¿Cuál es el antónimo de 'efímero'?",
+    "image": null,
+    "options": [
+      { "text": "Duradero", "correct": true },
+      { "text": "Breve", "correct": false },
+      { "text": "Pasajero", "correct": false },
+      { "text": "Fugaz", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Efímero significa que dura muy poco.",
+    "explanation": "Lo contrario de algo que dura poco es algo 'duradero' o 'eterno'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Simplifique la expresión algebraica: $\\frac{x^2 - 4}{x - 2}$.",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x + 4$", "correct": false },
+      { "text": "$x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza el numerador como diferencia de cuadrados.",
+    "explanation": "$\\frac{(x-2)(x+2)}{x-2} = x + 2$ (para $x \\ne 2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Elija la grafía correcta para completar: 'La e___uberancia del paisaje era impresionante'.",
+    "image": null,
+    "options": [
+      { "text": "x", "correct": true },
+      { "text": "s", "correct": false },
+      { "text": "cs", "correct": false },
+      { "text": "z", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Palabras que empiezan con ex- seguido de vocal o h.",
+    "explanation": "Se escribe 'exuberancia' con x.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Calcule el área de un círculo con diámetro de $10 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$25\\pi \\text{ cm}^2$", "correct": true },
+      { "text": "$100\\pi \\text{ cm}^2$", "correct": false },
+      { "text": "$50\\pi \\text{ cm}^2$", "correct": false },
+      { "text": "$10\\pi \\text{ cm}^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El radio es la mitad del diámetro. Área = $\\pi r^2$.",
+    "explanation": "$r = 5$. Área $= \\pi (5)^2 = 25\\pi$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Determine el valor de $\\log_{10}(1000)$.",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "¿A qué potencia debes elevar 10 para obtener 1000?",
+    "explanation": "$10^3 = 1000$, por lo tanto el logaritmo es 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Investigadores del CEPREDIX analizan un texto. ¿Qué función de la lengua predomina en: '¡Cierra la puerta ahora mismo!'?",
+    "image": null,
+    "options": [
+      { "text": "Apelativa", "correct": true },
+      { "text": "Referencial", "correct": false },
+      { "text": "Poética", "correct": false },
+      { "text": "Fática", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca influir en la conducta del receptor.",
+    "explanation": "La función apelativa o conativa se centra en el receptor para dar órdenes o peticiones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Si $a = 3$ y $b = -2$, evalúe $a^2 - 2ab + b^2$.",
+    "image": null,
+    "options": [
+      { "text": "25", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "13", "correct": false },
+      { "text": "7", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Esto es equivalente a $(a-b)^2$.",
+    "explanation": "$(3 - (-2))^2 = (3+2)^2 = 5^2 = 25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Identifique la oración con verbo transitivo.",
+    "image": null,
+    "options": [
+      { "text": "Juan compró manzanas.", "correct": true },
+      { "text": "El bebé lloró.", "correct": false },
+      { "text": "Ella corre rápido.", "correct": false },
+      { "text": "Nosotros caminamos.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Los verbos transitivos requieren un objeto directo para completar su sentido.",
+    "explanation": "'Compró' exige '¿qué compró?'. 'Manzanas' es el objeto directo. Los otros son intransitivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "En una urna hay 3 bolas rojas y 2 azules. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea azul?",
+    "image": null,
+    "options": [
+      { "text": "2/5", "correct": true },
+      { "text": "3/5", "correct": false },
+      { "text": "1/2", "correct": false },
+      { "text": "1/5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Casos favorables entre casos totales.",
+    "explanation": "Hay 2 azules de un total de 5 bolas. $P = 2/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Resuelva la desigualdad cuadrática: $x^2 - 5x + 6 < 0$.",
+    "image": null,
+    "options": [
+      { "text": "$2 < x < 3$", "correct": true },
+      { "text": "$x < 2$ o $x > 3$", "correct": false },
+      { "text": "$x < 2$", "correct": false },
+      { "text": "$x > 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Factoriza $(x-2)(x-3)$ y analiza los signos en los intervalos.",
+    "explanation": "Las raíces son 2 y 3. La parábola abre hacia arriba, por lo que es negativa entre las raíces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "¿Cuál es la forma correcta del plural de 'carácter'?",
+    "image": null,
+    "options": [
+      { "text": "Caracteres", "correct": true },
+      { "text": "Carácteres", "correct": false },
+      { "text": "Caracters", "correct": false },
+      { "text": "Caracateres", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El acento prosódico cambia de sílaba en el plural.",
+    "explanation": "En singular es 'ca-rác-ter', pero en plural el acento se desplaza: 'ca-rac-te-res'. No lleva tilde.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "El manual del CEPREDIX define a la mediana estadística como:",
+    "image": null,
+    "options": [
+      { "text": "El valor que divide al conjunto de datos ordenados en dos partes iguales.", "correct": true },
+      { "text": "El valor que más se repite en el conjunto.", "correct": false },
+      { "text": "La suma de todos los datos dividida por el número de datos.", "correct": false },
+      { "text": "La diferencia entre el dato mayor y el menor.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Implica orden y posición central.",
+    "explanation": "La mediana es el valor central de una distribución ordenada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Calcula la distancia entre los puntos $A(1, 2)$ y $B(4, 6)$.",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Fórmula de distancia: $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$.",
+    "explanation": "$d = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Identifique la figura retórica: 'Sus cabellos de oro'.",
+    "image": null,
+    "options": [
+      { "text": "Metáfora", "correct": true },
+      { "text": "Símil", "correct": false },
+      { "text": "Hipérbaton", "correct": false },
+      { "text": "Anáfora", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Sustituye un término real por uno imaginario por semejanza.",
+    "explanation": "Sustituye 'rubio' por 'oro' sin usar nexos comparativos como 'como'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Si $\\sin \\theta = 0.5$, ¿cuál es el valor de $\\theta$ en el primer cuadrante?",
+    "image": null,
+    "options": [
+      { "text": "$30^\\circ$", "correct": true },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$45^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda los triángulos notables.",
+    "explanation": "El seno de 30 grados es un medio (0.5).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "¿Qué palabra completa la serie? Primero, segundo, tercero, _______.",
+    "image": null,
+    "options": [
+      { "text": "cuarto", "correct": true },
+      { "text": "cuatro", "correct": false },
+      { "text": "cuadrante", "correct": false },
+      { "text": "cuaternario", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un número ordinal.",
+    "explanation": "Indica orden. Cuarto sigue a tercero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Resuelva el sistema de ecuaciones:\n$x + y = 10$\n$x - y = 2$",
+    "image": null,
+    "options": [
+      { "text": "$x = 6, y = 4$", "correct": true },
+      { "text": "$x = 5, y = 5$", "correct": false },
+      { "text": "$x = 8, y = 2$", "correct": false },
+      { "text": "$x = 4, y = 6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma ambas ecuaciones para eliminar $y$.",
+    "explanation": "$2x = 12 \\rightarrow x = 6$. Sustituyendo: $6 + y = 10 \\rightarrow y = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Un informe del CEPREDIX menciona la 'cohesión textual'. ¿A qué se refiere?",
+    "image": null,
+    "options": [
+      { "text": "A la conexión gramatical y léxica entre las partes del texto.", "correct": true },
+      { "text": "A la relación del texto con el contexto.", "correct": false },
+      { "text": "A la originalidad de las ideas.", "correct": false },
+      { "text": "A la ortografía correcta de las palabras.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Tiene que ver con 'unir' o 'pegar' las oraciones mediante conectores y referencias.",
+    "explanation": "La cohesión asegura que las frases estén bien conectadas lingüísticamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "El dominio de la función $f(x) = \\sqrt{x - 5}$ es:",
+    "image": null,
+    "options": [
+      { "text": "$[5, \\infty)$", "correct": true },
+      { "text": "$(5, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, 5]$", "correct": false },
+      { "text": "$(-\\infty, \\infty)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Lo que está dentro de la raíz cuadrada debe ser mayor o igual a cero.",
+    "explanation": "$x - 5 \\ge 0 \\rightarrow x \\ge 5$. Intervalo cerrado en 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "¿Cuál oración presenta un error de concordancia verbal?",
+    "image": null,
+    "options": [
+      { "text": "La gente caminaban por la calle.", "correct": true },
+      { "text": "El grupo de estudiantes llegó tarde.", "correct": false },
+      { "text": "La jauría corrió hacia el bosque.", "correct": false },
+      { "text": "La familia cenó unida.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "'Gente' es un sustantivo colectivo singular.",
+    "explanation": "'Gente' requiere verbo en singular: 'caminaba'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Cuál es el volumen de un cubo de arista $4 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$64 \\text{ cm}^3$", "correct": true },
+      { "text": "$16 \\text{ cm}^3$", "correct": false },
+      { "text": "$96 \\text{ cm}^3$", "correct": false },
+      { "text": "$12 \\text{ cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El volumen es lado al cubo ($l^3$).",
+    "explanation": "$4^3 = 4 \\times 4 \\times 4 = 64$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Identifique el sinónimo de 'prolijo'.",
+    "image": null,
+    "options": [
+      { "text": "Detallado", "correct": true },
+      { "text": "Corto", "correct": false },
+      { "text": "Simple", "correct": false },
+      { "text": "Descuidado", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Se refiere a algo hecho con mucho cuidado o excesivamente extenso.",
+    "explanation": "Prolijo significa cuidadoso, esmerado o también extenso y dilatado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Si $3^x = 81$, ¿cuánto vale $x$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "27", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Expresa 81 como potencia de 3.",
+    "explanation": "$3 \\times 3 \\times 3 \\times 3 = 81$, por lo tanto $3^4 = 81$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "En la oración 'Se venden casas', ¿qué función cumple 'se'?",
+    "image": null,
+    "options": [
+      { "text": "Marca de pasiva refleja", "correct": true },
+      { "text": "Pronombre reflexivo", "correct": false },
+      { "text": "Objeto indirecto", "correct": false },
+      { "text": "Marca de impersonalidad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "El sujeto (casas) concuerda con el verbo, pero no realiza la acción.",
+    "explanation": "Es pasiva refleja porque hay concordancia (Se vende casa / Se venden casas) y el sujeto paciente recibe la acción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Una encuesta del CEPREDIX muestra que la media de 5 números es 10. Si sumamos un sexto número igual a 16, ¿cuál es la nueva media?",
+    "image": null,
+    "options": [
+      { "text": "11", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "13", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma original = Media $\\times$ Cantidad. Calcula la nueva suma y divide entre 6.",
+    "explanation": "Suma original $= 5 \\times 10 = 50$. Nueva suma $= 50 + 16 = 66$. Nueva media $= 66 / 6 = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "¿Cuántos cm hay en $2.5 \\text{ metros}$?",
+    "image": null,
+    "options": [
+      { "text": "250", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "2500", "correct": false },
+      { "text": "0.25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "1 metro tiene 100 centímetros.",
+    "explanation": "$2.5 \\times 100 = 250$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "¿Cuál de las siguientes palabras es esdrújula?",
+    "image": null,
+    "options": [
+      { "text": "Héroe", "correct": true },
+      { "text": "Heroico", "correct": false },
+      { "text": "Heroicidad", "correct": false },
+      { "text": "Héroes", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La sílaba tónica es la antepenúltima.",
+    "explanation": "Hé-ro-e. La 'e' final es hiato, contando sílabas: hé-ro-e (3 sílabas, acento en la antepenúltima). 'Héroes' es sobresdrújula si consideramos el hiato o esdrújula común, pero 'Héroe' es el ejemplo clásico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Calcule la derivada de $f(x) = 5x^3 - 2x$.",
+    "image": null,
+    "options": [
+      { "text": "$15x^2 - 2$", "correct": true },
+      { "text": "$15x^2 - x$", "correct": false },
+      { "text": "$5x^2 - 2$", "correct": false },
+      { "text": "$x^3 - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Regla de la potencia: $nx^{n-1}$.",
+    "explanation": "$3 \\times 5x^{3-1} - 2(1) = 15x^2 - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Complete con la preposición correcta: 'Voy _______ pie a la escuela'.",
+    "image": null,
+    "options": [
+      { "text": "a", "correct": true },
+      { "text": "en", "correct": false },
+      { "text": "con", "correct": false },
+      { "text": "por", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es una locución fija que indica el medio de transporte 'caminando'.",
+    "explanation": "La forma normativa es 'a pie'. 'En pie' significa estar parado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "En un triángulo equilátero de lado 6, ¿cuál es su altura?",
+    "image": null,
+    "options": [
+      { "text": "$3\\sqrt{3}$", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "$6\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Divide el triángulo en dos rectángulos. Hipotenusa 6, base 3. Pitágoras.",
+    "explanation": "$h = \\sqrt{6^2 - 3^2} = \\sqrt{36 - 9} = \\sqrt{27} = 3\\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "El CEPREDIX organiza un debate. ¿Qué parte del discurso se encarga de presentar el tema y captar la atención?",
+    "image": null,
+    "options": [
+      { "text": "Exordio", "correct": true },
+      { "text": "Desarrollo", "correct": false },
+      { "text": "Conclusión", "correct": false },
+      { "text": "Refutación", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Es la introducción en la retórica clásica.",
+    "explanation": "El exordio busca preparar el ánimo del oyente e introducir el discurso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "¿Cuál es el resultado de $|-5| + |3|$?",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "-2", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-8", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El valor absoluto convierte el número en positivo.",
+    "explanation": "$5 + 3 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
