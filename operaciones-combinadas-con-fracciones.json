@@ -2446,5 +2446,821 @@
     "explanation": "La secuencia de valores ascendente es: $3/2, 2/3, 5/3, 3/5, 8/5, 5/8, 13/8, 8/13$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00FO",
+    "question": "Simplifica la expresión algebraica: $\\frac{4x}{8}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{2}$", "correct": true },
+      { "text": "$2x$", "correct": false },
+      { "text": "$\\frac{x}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide tanto el numerador como el denominador entre el máximo común divisor (4).",
+    "explanation": "Dividimos 4 y 8 entre 4: $4/4 = 1$ y $8/4 = 2$. Queda $\\frac{1x}{2}$ o $\\frac{x}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FP",
+    "question": "Realiza la suma de fracciones algebraicas: $\\frac{x}{5} + \\frac{2x}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3x}{5}$", "correct": true },
+      { "text": "$\\frac{3x}{10}$", "correct": false },
+      { "text": "$\\frac{2x^2}{5}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como los denominadores son iguales, suma directamente los numeradores.",
+    "explanation": "$x + 2x = 3x$. El denominador se mantiene. Resultado: $\\frac{3x}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FQ",
+    "question": "Resuelve para y: $\\frac{y}{3} = 5$",
+    "image": null,
+    "options": [
+      { "text": "$y = 15$", "correct": true },
+      { "text": "$y = \\frac{5}{3}$", "correct": false },
+      { "text": "$y = 8$", "correct": false },
+      { "text": "$y = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica ambos lados de la ecuación por 3 para despejar la y.",
+    "explanation": "$y = 5 \\times 3 = 15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FR",
+    "question": "Multiplica: $\\frac{x}{2} \\cdot \\frac{4}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{4x}{2x}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica numeradores y denominadores. Observa que las x se cancelan.",
+    "explanation": "$\\frac{x \\cdot 4}{2 \\cdot x} = \\frac{4x}{2x} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FS",
+    "question": "Simplifica la fracción: $\\frac{3a^2}{6a}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a}{2}$", "correct": true },
+      { "text": "$\\frac{2}{a}$", "correct": false },
+      { "text": "$2a$", "correct": false },
+      { "text": "$\\frac{a^2}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide los coeficientes (3/6) y aplica la ley de exponentes ($a^2/a$).",
+    "explanation": "$3/6 = 1/2$. $a^2/a = a$. Resultado: $\\frac{1a}{2} = \\frac{a}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FT",
+    "question": "Resta las fracciones: $\\frac{5b}{7} - \\frac{2b}{7}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3b}{7}$", "correct": true },
+      { "text": "$\\frac{3b}{0}$", "correct": false },
+      { "text": "$\\frac{7b}{7}$", "correct": false },
+      { "text": "$3b$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resta los numeradores y mantén el denominador común.",
+    "explanation": "$5b - 2b = 3b$. Denominador 7. Resultado: $\\frac{3b}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FU",
+    "question": "Encuentra el valor de x: $\\frac{2x}{3} = 4$",
+    "image": null,
+    "options": [
+      { "text": "$x = 6$", "correct": true },
+      { "text": "$x = 12$", "correct": false },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = \\frac{12}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica por 3 y luego divide entre 2.",
+    "explanation": "$2x = 4 \\times 3 = 12$. $x = 12 / 2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FV",
+    "question": "Realiza la división: $\\frac{x}{3} \\div 2$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{6}$", "correct": true },
+      { "text": "$\\frac{2x}{3}$", "correct": false },
+      { "text": "$\\frac{x}{1}$", "correct": false },
+      { "text": "$\\frac{3x}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que dividir entre 2 es multiplicar por $\\frac{1}{2}$.",
+    "explanation": "$\\frac{x}{3} \\times \\frac{1}{2} = \\frac{x \\cdot 1}{3 \\cdot 2} = \\frac{x}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FW",
+    "question": "Simplifica: $\\frac{10xy}{5x}$",
+    "image": null,
+    "options": [
+      { "text": "$2y$", "correct": true },
+      { "text": "$5y$", "correct": false },
+      { "text": "$2x$", "correct": false },
+      { "text": "$\\frac{y}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide 10 entre 5 y simplifica la x del numerador con la del denominador.",
+    "explanation": "$10/5 = 2$. $x/x = 1$. Queda $2y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FX",
+    "question": "Suma: $\\frac{1}{2x} + \\frac{1}{2x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x}$", "correct": true },
+      { "text": "$\\frac{2}{4x}$", "correct": false },
+      { "text": "$\\frac{1}{4x}$", "correct": false },
+      { "text": "$\\frac{2}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma los numeradores y mantén el denominador $2x$. Luego simplifica.",
+    "explanation": "$\\frac{1+1}{2x} = \\frac{2}{2x}$. Simplificando el 2: $\\frac{1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FY",
+    "question": "Resuelve la ecuación: $\\frac{3}{x} = 6$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{2}$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 18$", "correct": false },
+      { "text": "$x = \\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Despeja x multiplicando ambos lados por x y luego dividiendo por 6.",
+    "explanation": "$3 = 6x$. $x = \\frac{3}{6} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FZ",
+    "question": "Calcula el producto: $3 \\cdot \\frac{x}{6}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{2}$", "correct": true },
+      { "text": "$\\frac{3x}{6}$", "correct": false },
+      { "text": "$2x$", "correct": false },
+      { "text": "$\\frac{x}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica el entero por el numerador y simplifica la fracción resultante.",
+    "explanation": "$\\frac{3x}{6}$. Simplificando tercia: $\\frac{x}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GA",
+    "question": "Simplifica usando leyes de exponentes: $\\frac{x^3}{x^2}$",
+    "image": null,
+    "options": [
+      { "text": "$x$", "correct": true },
+      { "text": "$x^5$", "correct": false },
+      { "text": "$\\frac{1}{x}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resta los exponentes: $3 - 2$.",
+    "explanation": "$x^{3-2} = x^1 = x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GB",
+    "question": "Despeja la variable $a$ de la fórmula de la segunda ley de Newton $F = ma$, expresándola como una fracción.",
+    "image": null,
+    "options": [
+      { "text": "$a = \\frac{F}{m}$", "correct": true },
+      { "text": "$a = Fm$", "correct": false },
+      { "text": "$a = \\frac{m}{F}$", "correct": false },
+      { "text": "$a = F - m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La $m$ está multiplicando a la $a$, así que pasa al otro lado dividiendo.",
+    "explanation": "Para dejar $a$ sola, dividimos ambos lados entre $m$: $a = \\frac{F}{m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GC",
+    "question": "Resta: $\\frac{4}{x} - \\frac{1}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{x}$", "correct": true },
+      { "text": "$\\frac{3}{0}$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{5}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los denominadores son iguales, opera solo con los numeradores.",
+    "explanation": "$\\frac{4-1}{x} = \\frac{3}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GD",
+    "question": "Resuelve para x: $\\frac{x+1}{2} = 3$",
+    "image": null,
+    "options": [
+      { "text": "$x = 5$", "correct": true },
+      { "text": "$x = 7$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica por 2 primero, luego resta 1.",
+    "explanation": "$x+1 = 3 \\times 2 = 6$. $x = 6 - 1 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GE",
+    "question": "¿Cómo se expresa el producto de $\\frac{a}{b} \\cdot \\frac{c}{d}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{ac}{bd}$", "correct": true },
+      { "text": "$\\frac{ad}{bc}$", "correct": false },
+      { "text": "$\\frac{a+c}{b+d}$", "correct": false },
+      { "text": "$\\frac{ab}{cd}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La multiplicación de fracciones es lineal (numerador con numerador, denominador con denominador).",
+    "explanation": "Multiplicamos los términos superiores entre sí y los inferiores entre sí: $\\frac{ac}{bd}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GF",
+    "question": "¿Cuál es la regla para dividir $\\frac{a}{b} \\div \\frac{c}{d}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{ad}{bc}$", "correct": true },
+      { "text": "$\\frac{ac}{bd}$", "correct": false },
+      { "text": "$\\frac{b}{a} \\cdot \\frac{c}{d}$", "correct": false },
+      { "text": "$\\frac{ab}{cd}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica cruzado o multiplica por el recíproco de la segunda fracción.",
+    "explanation": "$\\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{ad}{bc}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GG",
+    "question": "Simplifica la expresión: $\\frac{2x + 4}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$2x + 2$", "correct": false },
+      { "text": "$x + 4$", "correct": false },
+      { "text": "$2x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Factoriza el 2 en el numerador antes de simplificar.",
+    "explanation": "$\\frac{2(x+2)}{2} = x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GH",
+    "question": "Suma: $\\frac{a}{2} + \\frac{a}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3a}{4}$", "correct": true },
+      { "text": "$\\frac{2a}{6}$", "correct": false },
+      { "text": "$\\frac{a^2}{8}$", "correct": false },
+      { "text": "$\\frac{a}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte $\\frac{a}{2}$ a cuartos multiplicando por 2.",
+    "explanation": "$\\frac{2a}{4} + \\frac{a}{4} = \\frac{3a}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GI",
+    "question": "Simplifica la fracción algebraica racional: $\\frac{x^2-9}{x-3}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 3$", "correct": true },
+      { "text": "$x - 3$", "correct": false },
+      { "text": "$x + 9$", "correct": false },
+      { "text": "$x^2 + 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza el numerador como una diferencia de cuadrados $(x^2 - a^2)$.",
+    "explanation": "$\\frac{(x-3)(x+3)}{x-3}$. Cancelando el término $(x-3)$, queda $x+3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GJ",
+    "question": "Suma las fracciones con diferente denominador: $\\frac{2}{x} + \\frac{3}{y}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2y + 3x}{xy}$", "correct": true },
+      { "text": "$\\frac{5}{x+y}$", "correct": false },
+      { "text": "$\\frac{5}{xy}$", "correct": false },
+      { "text": "$\\frac{2x + 3y}{xy}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Encuentra el común denominador, que es el producto $xy$.",
+    "explanation": "Multiplicamos cruzado: $\\frac{2(y) + 3(x)}{xy} = \\frac{2y + 3x}{xy}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GK",
+    "question": "Resuelve la ecuación racional: $\\frac{1}{x} + \\frac{1}{2} = \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = \\frac{1}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $\\frac{1}{x}$ restando $\\frac{1}{2}$ a $\\frac{3}{4}$.",
+    "explanation": "$\\frac{1}{x} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$. Por lo tanto, $x=4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GL",
+    "question": "Multiplica y simplifica: $\\frac{x+1}{2} \\cdot \\frac{4}{x+1}$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{x+1}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cancela los términos $(x+1)$ que aparecen en numerador y denominador.",
+    "explanation": "$\\frac{(x+1)4}{2(x+1)} = \\frac{4}{2} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GM",
+    "question": "Divide: $\\frac{x^2}{y} \\div \\frac{x}{y^2}$",
+    "image": null,
+    "options": [
+      { "text": "$xy$", "correct": true },
+      { "text": "$\\frac{x}{y}$", "correct": false },
+      { "text": "$\\frac{y}{x}$", "correct": false },
+      { "text": "$x^3y^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Multiplica por el recíproco $\\frac{y^2}{x}$ y simplifica exponentes.",
+    "explanation": "$\\frac{x^2}{y} \\cdot \\frac{y^2}{x} = \\frac{x^2 y^2}{xy} = x^{2-1}y^{2-1} = xy$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GN",
+    "question": "Despeja $t$ de la fórmula de velocidad $v = \\frac{d}{t}$",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{d}{v}$", "correct": true },
+      { "text": "$t = dv$", "correct": false },
+      { "text": "$t = \\frac{v}{d}$", "correct": false },
+      { "text": "$t = v - d$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Intercambia la posición de $v$ y $t$.",
+    "explanation": "Multiplicamos por $t$: $vt = d$. Dividimos entre $v$: $t = \\frac{d}{v}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GO",
+    "question": "Simplifica el trinomio cuadrado perfecto: $\\frac{x^2 + 2x + 1}{x+1}$",
+    "image": null,
+    "options": [
+      { "text": "$x + 1$", "correct": true },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza el numerador como $(x+1)^2$.",
+    "explanation": "$\\frac{(x+1)(x+1)}{x+1} = x+1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GP",
+    "question": "Suma las fracciones: $\\frac{1}{x+1} + \\frac{1}{x-1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2x}{x^2-1}$", "correct": true },
+      { "text": "$\\frac{2}{x^2-1}$", "correct": false },
+      { "text": "$\\frac{2x}{2x}$", "correct": false },
+      { "text": "$\\frac{x^2-1}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El denominador común es $(x+1)(x-1) = x^2-1$.",
+    "explanation": "$\\frac{(x-1) + (x+1)}{(x+1)(x-1)} = \\frac{2x}{x^2-1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GQ",
+    "question": "Resuelve la ecuación: $\\frac{x}{2} + \\frac{x}{3} = 10$",
+    "image": null,
+    "options": [
+      { "text": "$x = 12$", "correct": true },
+      { "text": "$x = 10$", "correct": false },
+      { "text": "$x = 6$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma las fracciones del lado izquierdo (común denominador 6) o multiplica toda la ecuación por 6.",
+    "explanation": "Multiplicando por 6: $3x + 2x = 60 \\to 5x = 60 \\to x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GR",
+    "question": "Simplifica el producto: $\\frac{a^2-b^2}{ab} \\cdot \\frac{b}{a-b}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a+b}{a}$", "correct": true },
+      { "text": "$\\frac{a-b}{b}$", "correct": false },
+      { "text": "$a+b$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza $a^2-b^2$ como $(a-b)(a+b)$ y cancela términos.",
+    "explanation": "$\\frac{(a-b)(a+b)}{ab} \\cdot \\frac{b}{a-b}$. Se cancelan $(a-b)$ y $b$. Queda $\\frac{a+b}{a}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GS",
+    "question": "Divide: $\\frac{1}{x} \\div x$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x^2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Multiplica $\\frac{1}{x}$ por el recíproco de $x$, que es $\\frac{1}{x}$.",
+    "explanation": "$\\frac{1}{x} \\cdot \\frac{1}{x} = \\frac{1}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GT",
+    "question": "Despeja $m$ de la fórmula de energía cinética $E = \\frac{1}{2}mv^2$.",
+    "image": null,
+    "options": [
+      { "text": "$m = \\frac{2E}{v^2}$", "correct": true },
+      { "text": "$m = \\frac{E}{2v^2}$", "correct": false },
+      { "text": "$m = 2Ev^2$", "correct": false },
+      { "text": "$m = \\sqrt{2E}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Multiplica por 2 y luego divide por $v^2$.",
+    "explanation": "$2E = mv^2 \\to m = \\frac{2E}{v^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GU",
+    "question": "Simplifica factorizando el denominador: $\\frac{2x}{x^2+x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{x+1}$", "correct": true },
+      { "text": "$\\frac{2}{x}$", "correct": false },
+      { "text": "$\\frac{x}{x+1}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza $x$ en el denominador: $x(x+1)$.",
+    "explanation": "$\\frac{2x}{x(x+1)}$. Cancelamos la $x$: $\\frac{2}{x+1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GV",
+    "question": "Resta: $\\frac{3}{x} - \\frac{1}{2x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{2x}$", "correct": true },
+      { "text": "$\\frac{2}{x}$", "correct": false },
+      { "text": "$\\frac{2}{2x}$", "correct": false },
+      { "text": "$\\frac{1}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El denominador común es $2x$. Convierte la primera fracción multiplicando por 2/2.",
+    "explanation": "$\\frac{6}{2x} - \\frac{1}{2x} = \\frac{5}{2x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GW",
+    "question": "Resuelve para x: $\\frac{2}{x-1} = 4$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{3}{2}$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = \\frac{1}{2}$", "correct": false },
+      { "text": "$x = 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Pasa $(x-1)$ multiplicando al lado derecho.",
+    "explanation": "$2 = 4(x-1) \\to 2 = 4x - 4 \\to 6 = 4x \\to x = 6/4 = 3/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GX",
+    "question": "Simplifica el producto: $(\\frac{x}{y})^2 \\cdot \\frac{y}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{y}$", "correct": true },
+      { "text": "$\\frac{y}{x}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$xy$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Eleva al cuadrado primero: $\\frac{x^2}{y^2}$.",
+    "explanation": "$\\frac{x^2}{y^2} \\cdot \\frac{y}{x} = \\frac{x^2 y}{y^2 x} = \\frac{x}{y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GY",
+    "question": "Divide: $\\frac{x+y}{z} \\div (x+y)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{z}$", "correct": true },
+      { "text": "$z$", "correct": false },
+      { "text": "$(x+y)^2$", "correct": false },
+      { "text": "$\\frac{x+y}{z}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda que $(x+y)$ es lo mismo que $\\frac{x+y}{1}$. Multiplica por el recíproco.",
+    "explanation": "$\\frac{x+y}{z} \\cdot \\frac{1}{x+y}$. Se cancela $(x+y)$. Queda $\\frac{1}{z}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GZ",
+    "question": "Despeja $R$ de la Ley de Ohm: $I = \\frac{V}{R}$",
+    "image": null,
+    "options": [
+      { "text": "$R = \\frac{V}{I}$", "correct": true },
+      { "text": "$R = VI$", "correct": false },
+      { "text": "$R = \\frac{I}{V}$", "correct": false },
+      { "text": "$R = V - I$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Intercambia la posición de $R$ y $I$.",
+    "explanation": "$R$ pasa multiplicando ($IR=V$) y luego $I$ pasa dividiendo: $R = \\frac{V}{I}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HA",
+    "question": "Simplifica usando exponentes positivos: $\\frac{x^{-1}}{y^{-1}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{y}{x}$", "correct": true },
+      { "text": "$\\frac{x}{y}$", "correct": false },
+      { "text": "$xy$", "correct": false },
+      { "text": "$-xy$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda que $x^{-n} = \\frac{1}{x^n}$. Mueve las variables de numerador a denominador y viceversa.",
+    "explanation": "$x^{-1}$ baja como $x^1$ y $y^{-1}$ sube como $y^1$. Queda $\\frac{y}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HB",
+    "question": "Expresa como una sola fracción: $1 + \\frac{1}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x+1}{x}$", "correct": true },
+      { "text": "$\\frac{1}{x+1}$", "correct": false },
+      { "text": "$\\frac{2}{x}$", "correct": false },
+      { "text": "$\\frac{x}{x+1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el 1 a $\\frac{x}{x}$.",
+    "explanation": "$\\frac{x}{x} + \\frac{1}{x} = \\frac{x+1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HC",
+    "question": "Resuelve: $\\frac{3x}{4} - \\frac{x}{2} = 1$",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte $\\frac{x}{2}$ a cuartos ($\\frac{2x}{4}$) para restar.",
+    "explanation": "$\\frac{3x}{4} - \\frac{2x}{4} = 1 \\to \\frac{x}{4} = 1 \\to x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HD",
+    "question": "Multiplica y simplifica: $\\frac{2a}{3b} \\cdot \\frac{9b^2}{4a^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3b}{2a}$", "correct": true },
+      { "text": "$\\frac{3a}{2b}$", "correct": false },
+      { "text": "$\\frac{2a}{3b}$", "correct": false },
+      { "text": "$\\frac{6b}{a}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Simplifica coeficientes (18/12) y variables antes o después de multiplicar.",
+    "explanation": "$\\frac{18ab^2}{12a^2b}$. Simplificando coeficientes ($3/2$) y variables ($b/a$): $\\frac{3b}{2a}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HE",
+    "question": "Divide y simplifica: $\\frac{x^2-4}{2} \\div (x+2)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x-2}{2}$", "correct": true },
+      { "text": "$\\frac{x+2}{2}$", "correct": false },
+      { "text": "$x-2$", "correct": false },
+      { "text": "$2(x-2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza $x^2-4$ como $(x-2)(x+2)$ y multiplica por $\\frac{1}{x+2}$.",
+    "explanation": "$\\frac{(x-2)(x+2)}{2} \\cdot \\frac{1}{x+2} = \\frac{x-2}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HF",
+    "question": "Despeja $h$ de la fórmula del área del triángulo $A = \\frac{bh}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "$h = \\frac{2A}{b}$", "correct": true },
+      { "text": "$h = \\frac{A}{2b}$", "correct": false },
+      { "text": "$h = 2Ab$", "correct": false },
+      { "text": "$h = \\frac{b}{2A}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Pasa el 2 multiplicando y la $b$ dividiendo.",
+    "explanation": "$2A = bh \\to h = \\frac{2A}{b}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HG",
+    "question": "Simplifica la expresión compleja: $(1 - \\frac{1}{x}) \\div (1 - \\frac{1}{x^2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{x+1}$", "correct": true },
+      { "text": "$\\frac{x}{x-1}$", "correct": false },
+      { "text": "$x+1$", "correct": false },
+      { "text": "$x-1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Factoriza el segundo término como diferencia de cuadrados o realiza las restas primero.",
+    "explanation": "$\\frac{x-1}{x} \\div \\frac{x^2-1}{x^2} = \\frac{x-1}{x} \\cdot \\frac{x^2}{(x-1)(x+1)} = \\frac{x}{x+1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HH",
+    "question": "Resta: $\\frac{x}{x+2} - \\frac{2}{x+2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x-2}{x+2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{x}{x+2}$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Combina los numeradores.",
+    "explanation": "El denominador se mantiene. Numerador: $x-2$. Resultado: $\\frac{x-2}{x+2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HI",
+    "question": "Resuelve la proporción: $\\frac{5}{x} = \\frac{10}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{3}{2}$", "correct": true },
+      { "text": "$x = \\frac{2}{3}$", "correct": false },
+      { "text": "$x = 15$", "correct": false },
+      { "text": "$x = 6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa productos cruzados: $5 \\cdot 3 = 10 \\cdot x$.",
+    "explanation": "$15 = 10x \\to x = 15/10 = 3/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HJ",
+    "question": "Calcula el producto triple: $\\frac{x}{2} \\cdot \\frac{x}{3} \\cdot \\frac{6}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$x$", "correct": true },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$\\frac{x}{6}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Multiplica todos los numeradores y todos los denominadores, luego simplifica.",
+    "explanation": "$\\frac{6x^2}{6x} = x$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
