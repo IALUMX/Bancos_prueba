@@ -1,0 +1,2450 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Resuelve la siguiente suma de fracciones propias: $\\frac{1}{4} + \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{2}{6}$", "correct": false },
+      { "text": "$\\frac{1}{8}$", "correct": false },
+      { "text": "$\\frac{2}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte $\\frac{1}{2}$ a cuartos multiplicando numerador y denominador por 2. La fórmula base es $\\frac{a}{b} + \\frac{c}{d}$.",
+    "explanation": "Convertimos $\\frac{1}{2}$ a $\\frac{2}{4}$. Sumamos $\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "¿Cuál es el resultado de la resta $\\frac{5}{6} - \\frac{1}{3}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{4}{6}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El mínimo común múltiplo de 6 y 3 es 6. Expresa la segunda fracción en sextos.",
+    "explanation": "Convertimos $\\frac{1}{3}$ a $\\frac{2}{6}$. Restamos: $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6}$, que simplificado es $\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Calcula el producto de un entero por una fracción: $4 \\times \\frac{2}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{5}$", "correct": true },
+      { "text": "$\\frac{8}{20}$", "correct": false },
+      { "text": "$\\frac{6}{5}$", "correct": false },
+      { "text": "$\\frac{2}{20}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que un entero $n$ se puede escribir como $\\frac{n}{1}$. Multiplica directo: numerador por numerador.",
+    "explanation": "Multiplicamos el entero por el numerador: $\\frac{4 \\times 2}{5} = \\frac{8}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Realiza la siguiente división de fracciones: $\\frac{3}{7} \\div \frac{2}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{15}{14}$", "correct": true },
+      { "text": "$\\frac{6}{35}$", "correct": false },
+      { "text": "$\\frac{14}{15}$", "correct": false },
+      { "text": "$\\frac{5}{14}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para dividir, multiplica la primera fracción por el recíproco de la segunda (multiplicación cruzada). Fórmula: $\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a \\cdot d}{b \\cdot c}$.",
+    "explanation": "Multiplicamos cruzado: $3 \\times 5 = 15$ (numerador) y $7 \\times 2 = 14$ (denominador). Resultado: $\\frac{15}{14}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Convierte la fracción mixta $2 \\frac{1}{3}$ a una fracción impropia.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{3}$", "correct": true },
+      { "text": "$\\frac{5}{3}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{6}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica el entero por el denominador y suma el numerador. Mantén el mismo denominador. Fórmula: $\\frac{a \\cdot c + b}{c}$.",
+    "explanation": "Multiplicamos $2 \\times 3 = 6$. Sumamos el numerador: $6 + 1 = 7$. El denominador se mantiene: $\\frac{7}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Un estudiante del CEPREDIX tiene una barra de chocolate y decide comerse $\\frac{2}{5}$ de ella por la mañana y $\\frac{1}{5}$ por la tarde. ¿Qué fracción de la barra le queda para la noche?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{5}$", "correct": true },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false },
+      { "text": "$\\frac{4}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma lo que se comió y réstalo del total (la unidad, $\\frac{5}{5}$).",
+    "explanation": "Total comido: $\\frac{2}{5} + \\frac{1}{5} = \\frac{3}{5}$. Restante: $\\frac{5}{5} - \\frac{3}{5} = \\frac{2}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "¿Cuál es el resultado simplificado de sumar $\\frac{1}{3} + \\frac{1}{6}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{2}{9}$", "correct": false },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte $\\frac{1}{3}$ a sextos antes de sumar.",
+    "explanation": "$\\frac{1}{3} = \\frac{2}{6}$. Sumamos $\\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6}$. Simplificando (dividiendo entre 3) obtenemos $\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Selecciona la opción que contiene únicamente fracciones impropias.",
+    "options": [
+      { "text": "$\\frac{5}{4}, \\frac{7}{2}, \\frac{10}{3}$", "correct": true },
+      { "text": "$\\frac{1}{2}, \\frac{3}{4}, \\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{5}{4}, \\frac{1}{2}, \\frac{7}{3}$", "correct": false },
+      { "text": "$\\frac{2}{3}, \\frac{4}{5}, \\frac{8}{7}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Una fracción impropia es aquella donde el numerador es mayor o igual que el denominador.",
+    "explanation": "En la opción correcta, todos los numeradores (5, 7, 10) son mayores que sus respectivos denominadores (4, 2, 3).",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Para sumar fracciones con diferente denominador, primero se debe encontrar el ______ de los denominadores y luego convertir las fracciones a ______ equivalentes.",
+    "options": [
+      { "text": "Mínimo Común Múltiplo, fracciones", "correct": true },
+      { "text": "Máximo Común Divisor, enteros", "correct": false },
+      { "text": "Producto, decimales", "correct": false },
+      { "text": "Cociente, mixtas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el proceso estándar para homogeneizar los denominadores.",
+    "explanation": "Se busca el Mínimo Común Múltiplo (MCM) para tener un denominador común y así operar con fracciones equivalentes.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "En una fracción $\\frac{a}{b}$, el número 'a' se llama ______ y representa las partes que se toman, mientras que 'b' se llama ______ y representa el total de partes.",
+    "options": [
+      { "text": "Numerador, denominador", "correct": true },
+      { "text": "Denominador, numerador", "correct": false },
+      { "text": "Cociente, residuo", "correct": false },
+      { "text": "Factor, producto", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El número de arriba 'numera' y el de abajo 'denomina' o da nombre a la fracción.",
+    "explanation": "El numerador es la parte superior y el denominador la inferior en una fracción común.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "El inverso multiplicativo (o recíproco) de una fracción $\\frac{a}{b}$ es ______ y al multiplicarlos el resultado es ______.",
+    "options": [
+      { "text": "$\\frac{b}{a}$, 1", "correct": true },
+      { "text": "$-\\frac{a}{b}$, 0", "correct": false },
+      { "text": "$\\frac{a}{b}$, 2", "correct": false },
+      { "text": "$\\frac{1}{b}$, a", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Si inviertes la posición del numerador y denominador obtienes el recíproco.",
+    "explanation": "El recíproco de $\\frac{a}{b}$ es $\\frac{b}{a}$. Su producto es $\\frac{ab}{ba} = 1$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Un profesor del CEPREDIX pide relacionar correctamente las operaciones con su resultado simplificado: A) $\\frac{1}{2} + \\frac{1}{2}$, B) $\\frac{3}{4} - \\frac{1}{4}$, C) $\\frac{1}{3} \\times 3$; I) $\\frac{1}{2}$, II) $1$, III) $1$",
+    "options": [
+      { "text": "A-II; B-I; C-III", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve cada operación por separado. Nota que A y C dan el mismo resultado entero.",
+    "explanation": "A) $\\frac{2}{2} = 1$ (II o III). B) $\\frac{2}{4} = \\frac{1}{2}$ (I). C) $\\frac{3}{3} = 1$ (II o III).",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Resuelve la multiplicación: $\\frac{3}{5} \\times \\frac{10}{9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{30}{45}$", "correct": false },
+      { "text": "$\\frac{13}{14}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Puedes simplificar antes de multiplicar (el 10 con el 5 y el 3 con el 9) o simplificar el resultado final.",
+    "explanation": "$\\frac{3 \\times 10}{5 \\times 9} = \\frac{30}{45}$. Dividiendo ambos entre 15, obtenemos $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Cuánto es $1 - \\frac{3}{8}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{8}$", "correct": true },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{1}{8}$", "correct": false },
+      { "text": "$\\frac{4}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte el entero 1 en octavos ($\\frac{8}{8}$)",
+    "explanation": "$1 = \\frac{8}{8}$. Restamos: $\\frac{8}{8} - \\frac{3}{8} = \\frac{5}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Calcula el resultado de $\\frac{7}{9} + \\frac{2}{9} + \\frac{4}{9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{13}{9}$", "correct": true },
+      { "text": "$\\frac{13}{27}$", "correct": false },
+      { "text": "$\\frac{11}{9}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como los denominadores son iguales, solo suma los numeradores.",
+    "explanation": "Sumamos numeradores: $7+2+4 = 13$. El denominador se mantiene: $\\frac{13}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Encuentra el valor de $x$ si $\\frac{x}{4} = \\frac{3}{12}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica la fracción de la derecha o usa productos cruzados ($12x = 12$).",
+    "explanation": "Simplificando $\\frac{3}{12}$ obtenemos $\\frac{1}{4}$. Por lo tanto, $x=1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Divide la fracción mixta: $1 \\frac{1}{2} \\div \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero convierte la fracción mixta a impropia ($1 \\frac{1}{2} = \\frac{3}{2}$).",
+    "explanation": "$\\frac{3}{2} \\div \\frac{1}{2} = \\frac{3 \\times 2}{2 \\times 1} = \\frac{6}{2} = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "En una competencia organizada por el CEPREDIX, un corredor ha completado $\\frac{5}{6}$ de la carrera. Si otro corredor ha completado $\\frac{1}{3}$ de la misma carrera, ¿cuánto más ha corrido el primero respecto al segundo?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$ de la carrera", "correct": true },
+      { "text": "$\\frac{4}{3}$ de la carrera", "correct": false },
+      { "text": "$\\frac{1}{6}$ de la carrera", "correct": false },
+      { "text": "$\\frac{2}{3}$ de la carrera", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Debes realizar una resta: $\\frac{5}{6} - \\frac{1}{3}$.",
+    "explanation": "Convertimos $\\frac{1}{3}$ a $\\frac{2}{6}$. Restamos: $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Calcula $\\frac{3}{8} \\times 4$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{2}$", "correct": true },
+      { "text": "$\\frac{3}{32}$", "correct": false },
+      { "text": "$\\frac{12}{32}$", "correct": false },
+      { "text": "$\\frac{7}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica el numerador por el entero y simplifica la fracción resultante.",
+    "explanation": "$\\frac{3 \\times 4}{8} = \\frac{12}{8}$. Simplificando (dividiendo entre 4) obtenemos $\\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Identifica cuáles de las siguientes fracciones son equivalentes a un entero.",
+    "options": [
+      { "text": "$\\frac{4}{4}, \\frac{10}{2}$", "correct": true },
+      { "text": "$\\frac{5}{2}, \\frac{3}{3}$", "correct": false },
+      { "text": "$\\frac{8}{4}, \\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{7}{1}, \\frac{2}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide el numerador entre el denominador. Si el residuo es 0, es equivalente a un entero.",
+    "explanation": "$\\frac{4}{4} = 1$ y $\\frac{10}{2} = 5$. Ambas resultan en números enteros.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Al simplificar la fracción $\\frac{18}{24}$, se obtiene $\\frac{3}{4}$ dividiendo numerador y denominador entre ______.",
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca el Máximo Común Divisor de 18 y 24.",
+    "explanation": "18 entre 6 es 3; 24 entre 6 es 4. El factor común es 6.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Una fracción ______ es aquella cuyo numerador es menor que su denominador, mientras que una fracción ______ tiene un numerador mayor o igual a su denominador.",
+    "options": [
+      { "text": "propia, impropia", "correct": true },
+      { "text": "impropia, propia", "correct": false },
+      { "text": "mixta, decimal", "correct": false },
+      { "text": "equivalente, nula", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Piensa en 'propia' como 'propiamente una fracción' (parte de un todo).",
+    "explanation": "Definición básica de tipos de fracciones según la relación entre sus términos.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Para restar $3 - \\frac{1}{4}$, convertimos el entero 3 en la fracción impropia ______ y luego restamos para obtener ______.",
+    "options": [
+      { "text": "$\\frac{12}{4}$, $\\frac{11}{4}$", "correct": true },
+      { "text": "$\\frac{3}{4}$, $\\frac{2}{4}$", "correct": false },
+      { "text": "$\\frac{4}{4}$, $\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{12}{1}$, $\\frac{11}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica el entero 3 por el denominador 4 para obtener el nuevo numerador.",
+    "explanation": "$3 = \\frac{12}{4}$. Restamos $\\frac{12}{4} - \\frac{1}{4} = \\frac{11}{4}$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Relaciona la fracción impropia con su número mixto correspondiente: A) $\\frac{5}{2}$, B) $\\frac{4}{3}$, C) $\\frac{9}{4}$; I) $2 \\frac{1}{4}$, II) $2 \\frac{1}{2}$, III) $1 \\frac{1}{3}$",
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide el numerador entre el denominador. El cociente es el entero y el residuo es el nuevo numerador.",
+    "explanation": "A) $5 \\div 2 = 2$ sobra 1 ($2 \\frac{1}{2}$). B) $4 \\div 3 = 1$ sobra 1 ($1 \\frac{1}{3}$). C) $9 \\div 4 = 2$ sobra 1 ($2 \\frac{1}{4}$).",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Calcula el cuadrado de la fracción $\\frac{2}{3}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{9}$", "correct": true },
+      { "text": "$\\frac{4}{6}$", "correct": false },
+      { "text": "$\\frac{2}{9}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Eleva al cuadrado tanto el numerador como el denominador: $(\\frac{a}{b})^2 = \\frac{a^2}{b^2}$.",
+    "explanation": "Numerador: $2^2=4$. Denominador: $3^2=9$. Resultado: $\\frac{4}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Resuelve: $\\frac{7}{10} - \\frac{2}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{10}$", "correct": true },
+      { "text": "$\\frac{5}{5}$", "correct": false },
+      { "text": "$\\frac{5}{10}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte $\\frac{2}{5}$ a décimos multiplicando por 2.",
+    "explanation": "$\\frac{2}{5} = \\frac{4}{10}$. Restamos $\\frac{7}{10} - \\frac{4}{10} = \\frac{3}{10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Si multiplicas $\\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{4}$, ¿cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{24}$", "correct": true },
+      { "text": "$\\frac{3}{24}$", "correct": false },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{1}{12}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica todos los numeradores entre sí y todos los denominadores entre sí.",
+    "explanation": "$1 \\times 1 \\times 1 = 1$. $2 \\times 3 \\times 4 = 24$. Resultado: $\\frac{1}{24}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "¿Cuál es la fracción irreducible de $\\frac{50}{100}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{5}{10}$", "correct": false },
+      { "text": "$\\frac{25}{50}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide numerador y denominador por su máximo común divisor (50).",
+    "explanation": "$\\frac{50}{100}$ simplificado es $\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Suma la fracción mixta y el entero: $1 \\frac{1}{4} + 2$",
+    "image": null,
+    "options": [
+      { "text": "$3 \\frac{1}{4}$", "correct": true },
+      { "text": "$2 \\frac{1}{4}$", "correct": false },
+      { "text": "$3 \\frac{2}{4}$", "correct": false },
+      { "text": "$\\frac{13}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma primero los enteros ($1+2$) y mantén la fracción.",
+    "explanation": "$1 + 2 = 3$. Agregamos la fracción $\\frac{1}{4}$ para obtener $3 \\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Un tanque de agua del CEPREDIX está lleno hasta $\\frac{3}{4}$ de su capacidad. Si se consume $\\frac{1}{2}$ de la capacidad total del tanque, ¿qué fracción del tanque queda con agua?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}$", "correct": true },
+      { "text": "$\\frac{2}{4}$", "correct": false },
+      { "text": "$\\frac{1}{8}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resta $\\frac{1}{2}$ de $\\frac{3}{4}$. Convierte $\\frac{1}{2}$ a cuartos.",
+    "explanation": "$\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Calcula: $\\frac{5}{6} \\div 5$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{6}$", "correct": true },
+      { "text": "$\\frac{25}{6}$", "correct": false },
+      { "text": "$\\frac{5}{30}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Dividir por 5 es lo mismo que multiplicar por $\\frac{1}{5}$.",
+    "explanation": "$\\frac{5}{6} \\times \\frac{1}{5} = \\frac{5}{30} = \\frac{1}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Identifica el grupo que contiene solo fracciones equivalentes a $\\frac{1}{3}$.",
+    "options": [
+      { "text": "$\\frac{2}{6}, \\frac{3}{9}, \\frac{4}{12}$", "correct": true },
+      { "text": "$\\frac{2}{6}, \\frac{4}{9}, \\frac{5}{15}$", "correct": false },
+      { "text": "$\\frac{1}{2}, \\frac{1}{6}, \\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{3}{1}, \\frac{6}{2}, \\frac{9}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica cada fracción. Todas deben resultar en $\\frac{1}{3}$.",
+    "explanation": "$\\frac{2}{6}=\\frac{1}{3}$, $\\frac{3}{9}=\\frac{1}{3}$, $\\frac{4}{12}=\\frac{1}{3}$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Si tenemos $\\frac{a}{b} \\times \\frac{c}{d}$, el procedimiento es multiplicar ______ por ______ y ______ por ______.",
+    "options": [
+      { "text": "numerador, numerador, denominador, denominador", "correct": true },
+      { "text": "numerador, denominador, denominador, numerador", "correct": false },
+      { "text": "extremo, extremo, medio, medio", "correct": false },
+      { "text": "numerador, uno, denominador, uno", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La multiplicación de fracciones es lineal o directa.",
+    "explanation": "Se multiplica $a \\times c$ y $b \\times d$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "El número mixto $3 \\frac{2}{5}$ se lee como 'tres enteros y ______ quintos' y equivale a la fracción impropia ______.",
+    "options": [
+      { "text": "dos, $\\frac{17}{5}$", "correct": true },
+      { "text": "cinco, $\\frac{15}{2}$", "correct": false },
+      { "text": "tres, $\\frac{13}{5}$", "correct": false },
+      { "text": "dos, $\\frac{6}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica $3 \\times 5$ y suma 2 para obtener el numerador impropio.",
+    "explanation": "$3 \\times 5 + 2 = 17$. La fracción es $\\frac{17}{5}$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Al sumar dos fracciones con el mismo denominador, se ______ los numeradores y se ______ el denominador.",
+    "options": [
+      { "text": "suman, mantiene", "correct": true },
+      { "text": "multiplican, suma", "correct": false },
+      { "text": "suman, suma", "correct": false },
+      { "text": "restan, elimina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Piensa en $\\frac{1}{4} + \\frac{2}{4}$. ¿Qué pasa con el 4?",
+    "explanation": "El denominador común se conserva y solo se opera con los numeradores.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Un alumno del CEPREDIX debe relacionar las fracciones con su representación decimal: A) $\\frac{1}{2}$, B) $\\frac{1}{4}$, C) $\\frac{3}{4}$; I) $0.25$, II) $0.75$, III) $0.5$",
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza la división o recuerda las equivalencias básicas de mitades y cuartos.",
+    "explanation": "$\\frac{1}{2} = 0.5$, $\\frac{1}{4} = 0.25$, $\\frac{3}{4} = 0.75$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Resuelve: $\\frac{8}{5} - 1$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{13}{5}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Expresa el 1 como $\\frac{5}{5}$.",
+    "explanation": "$\\frac{8}{5} - \\frac{5}{5} = \\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Calcula el resultado de $\\frac{2}{3} + \\frac{4}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{22}{15}$", "correct": true },
+      { "text": "$\\frac{6}{8}$", "correct": false },
+      { "text": "$\\frac{6}{15}$", "correct": false },
+      { "text": "$\\frac{8}{15}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa el método de la 'carita feliz' o encuentra el denominador común (15).",
+    "explanation": "Denominador común: 15. $\\frac{10}{15} + \\frac{12}{15} = \\frac{22}{15}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "¿Cuál es el recíproco de 4?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{4}{1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El recíproco es el número que multiplicado por el original da 1.",
+    "explanation": "El entero 4 se escribe como $\\frac{4}{1}$. Al invertirlo, queda $\\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Efectúa la operación: $\\frac{7}{8} \\times \\frac{8}{7}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{56}{56}$", "correct": false },
+      { "text": "$\\frac{49}{64}$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Estás multiplicando una fracción por su recíproco.",
+    "explanation": "El producto de un número por su inverso multiplicativo siempre es 1. También $\\frac{56}{56}=1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "¿Qué fracción resulta de dividir $\\frac{1}{2} \\div 4$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{8}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{4}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del sándwich o multiplica por el recíproco de 4.",
+    "explanation": "$\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "En el CEPREDIX se tiene un contenedor con $10 \\frac{1}{2}$ litros de reactivo. Si se usan frascos de $\\frac{1}{2}$ litro, ¿cuántos frascos se pueden llenar?",
+    "image": null,
+    "options": [
+      { "text": "$21$", "correct": true },
+      { "text": "$20$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$11$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide el total de litros entre la capacidad de cada frasco. Convierte el mixto a impropio primero.",
+    "explanation": "$10 \\frac{1}{2} = \\frac{21}{2}$. Luego, $\\frac{21}{2} \\div \\frac{1}{2} = 21$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Calcula la suma: $1 \\frac{1}{3} + 1 \\frac{1}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$2 \\frac{2}{3}$", "correct": true },
+      { "text": "$2 \\frac{1}{6}$", "correct": false },
+      { "text": "$1 \\frac{2}{3}$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma los enteros y las fracciones por separado.",
+    "explanation": "$1+1=2$ y $\\frac{1}{3} + \\frac{1}{3} = \\frac{2}{3}$. Total: $2 \\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Selecciona la lista que está ordenada de menor a mayor.",
+    "options": [
+      { "text": "$\\frac{1}{4}, \\frac{1}{2}, \\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{1}{2}, \\frac{1}{4}, \\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{3}{4}, \\frac{1}{2}, \\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{1}{4}, \\frac{3}{4}, \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte a decimales o imagina las porciones de un pastel.",
+    "explanation": "$0.25 < 0.5 < 0.75$.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "El Mínimo Común Múltiplo (MCM) de los denominadores 4 y 6 es ______ y se utiliza para ______ las fracciones antes de sumar o restar.",
+    "options": [
+      { "text": "12, homogeneizar", "correct": true },
+      { "text": "24, multiplicar", "correct": false },
+      { "text": "10, simplificar", "correct": false },
+      { "text": "2, dividir", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca el múltiplo más pequeño que comparten el 4 y el 6.",
+    "explanation": "Múltiplos de 4: 4, 8, 12... Múltiplos de 6: 6, 12... El menor es 12. Sirve para tener un común denominador.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Al convertir la fracción impropia $\\frac{7}{2}$ a número mixto, el residuo de la división $7 \\div 2$ se convierte en el ______ de la fracción del número mixto.",
+    "options": [
+      { "text": "numerador", "correct": true },
+      { "text": "denominador", "correct": false },
+      { "text": "entero", "correct": false },
+      { "text": "exponente", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El cociente es el entero, el divisor el denominador, ¿qué es el residuo?",
+    "explanation": "El residuo indica las partes que sobran y no completan un entero, por lo que van al numerador.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Para simplificar una fracción hasta su mínima expresión, debemos dividir numerador y denominador por su ______.",
+    "options": [
+      { "text": "Máximo Común Divisor (MCD)", "correct": true },
+      { "text": "Mínimo Común Múltiplo (MCM)", "correct": false },
+      { "text": "Producto", "correct": false },
+      { "text": "Potencia", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el número más grande que divide a ambos exactamente.",
+    "explanation": "Dividir por el MCD asegura que no haya más factores comunes.",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Relaciona el problema del CEPREDIX con la operación necesaria para resolverlo: A) Repartir $\\frac{1}{2}$ pastel entre 3, B) Juntar $\\frac{1}{3}$ de taza de agua con $\\frac{1}{3}$ de aceite, C) Calcular la mitad de $\\frac{1}{4}$; I) Suma, II) División, III) Multiplicación",
+    "options": [
+      { "text": "A-II; B-I; C-III", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Repartir implica dividir, juntar implica sumar, y 'la mitad de' o 'parte de' implica multiplicar por una fracción.",
+    "explanation": "A) Repartir es dividir. B) Juntar es sumar. C) 'La mitad de' es $\\frac{1}{2} \\times \\frac{1}{4}$ (multiplicación).",
+    "image": null,
+    "collapsible_text": null,
+    "explanative_video": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Resuelve la siguiente operación combinada: $\\frac{1}{2} + \\frac{1}{3} \\times \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{5}{12}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda la jerarquía de operaciones: primero se realiza la multiplicación y luego la suma.",
+    "explanation": "Primero multiplicamos: $\\frac{1}{3} \\times \\frac{3}{4} = \\frac{3}{12} = \\frac{1}{4}$. Luego sumamos: $\\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Calcula el resultado de: $(\\frac{3}{4} - \\frac{1}{2}) \\times 4$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve primero la operación dentro del paréntesis.",
+    "explanation": "Dentro del paréntesis: $\\frac{3}{4} - \\frac{1}{2} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$. Luego multiplicamos: $\\frac{1}{4} \\times 4 = \\frac{4}{4} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "¿Cuál es el valor de $2 - (\\frac{1}{4} + \\frac{1}{2})$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{4}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{7}{4}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero realiza la suma dentro del paréntesis y luego resta ese resultado del entero 2.",
+    "explanation": "Suma del paréntesis: $\\frac{1}{4} + \\frac{1}{2} = \\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$. Resta: $2 - \\frac{3}{4} = \\frac{8}{4} - \\frac{3}{4} = \\frac{5}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Resuelve: $\\frac{3}{5} \\times \\frac{5}{6} - \\frac{1}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{10}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza primero la multiplicación y simplifica el resultado antes de restar.",
+    "explanation": "Multiplicación: $\\frac{3}{5} \\times \\frac{5}{6} = \\frac{15}{30} = \\frac{1}{2}$. Resta: $\\frac{1}{2} - \\frac{1}{4} = \\frac{2}{4} - \\frac{1}{4} = \\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Calcula: $(\\frac{1}{2} + \\frac{1}{4}) \\div \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{9}{16}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma las fracciones del paréntesis primero. Para dividir, multiplica por el recíproco.",
+    "explanation": "Paréntesis: $\\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$. División: $\\frac{3}{4} \\div \\frac{3}{4} = \\frac{3}{4} \\times \\frac{4}{3} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Resuelve: $\\frac{2}{3} \\times (1 - \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{5}{12}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve la resta dentro del paréntesis primero, recordando que $1 = \\frac{4}{4}$.",
+    "explanation": "Paréntesis: $1 - \\frac{1}{4} = \\frac{4}{4} - \\frac{1}{4} = \\frac{3}{4}$. Multiplicación: $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{6}{12} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Cuál es el resultado de $\\frac{1}{2} \\div 2 + \\frac{1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero realiza la división (dividir entre 2 es multiplicar por 1/2) y luego suma.",
+    "explanation": "División: $\\frac{1}{2} \\div 2 = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Suma: $\\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Resuelve: $(2 - \\frac{1}{2}) \\times \\frac{1}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Convierte el entero 2 a medios antes de restar dentro del paréntesis.",
+    "explanation": "Paréntesis: $2 - \\frac{1}{2} = \\frac{4}{2} - \\frac{1}{2} = \\frac{3}{2}$. Multiplicación: $\\frac{3}{2} \\times \\frac{1}{3} = \\frac{3}{6} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Calcula: $1 + \\frac{1}{2} \\times \\frac{4}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{5}$", "correct": true },
+      { "text": "$\\frac{9}{5}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{6}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Por jerarquía, realiza primero la multiplicación.",
+    "explanation": "Multiplicación: $\\frac{1}{2} \\times \\frac{4}{5} = \\frac{4}{10} = \\frac{2}{5}$. Suma: $1 + \\frac{2}{5} = \\frac{5}{5} + \\frac{2}{5} = \\frac{7}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Resuelve: $(\\frac{3}{8} + \\frac{1}{4}) \\times 8$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Encuentra un denominador común para sumar las fracciones dentro del paréntesis.",
+    "explanation": "Paréntesis: $\\frac{3}{8} + \\frac{1}{4} = \\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$. Multiplicación: $\\frac{5}{8} \\times 8 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Cuál es el resultado de $\\frac{3}{4} - \\frac{1}{2} \\times \\frac{1}{2}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza primero la multiplicación.",
+    "explanation": "Multiplicación: $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Resta: $\\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Resuelve: $(1 + \\frac{1}{3}) \\div \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{3}$", "correct": true },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma el entero y la fracción primero, luego divide multiplicando por el recíproco.",
+    "explanation": "Paréntesis: $1 + \\frac{1}{3} = \\frac{3}{3} + \\frac{1}{3} = \\frac{4}{3}$. División: $\\frac{4}{3} \\div \\frac{1}{2} = \\frac{4}{3} \\times \\frac{2}{1} = \\frac{8}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Calcula: $\\frac{5}{6} \\times (2 - \\frac{4}{5})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{6}{5}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve la resta dentro del paréntesis convirtiendo el 2 a quintos.",
+    "explanation": "Paréntesis: $2 - \\frac{4}{5} = \\frac{10}{5} - \\frac{4}{5} = \\frac{6}{5}$. Multiplicación: $\\frac{5}{6} \\times \\frac{6}{5} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Resuelve: $\\frac{1}{4} + \\frac{3}{4} \\div 2$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{8}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{7}{8}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero realiza la división.",
+    "explanation": "División: $\\frac{3}{4} \\div 2 = \\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$. Suma: $\\frac{1}{4} + \\frac{3}{8} = \\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Calcula el resultado de: $(1 - \\frac{3}{5}) \\times (1 + \\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{2}{5}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve cada paréntesis por separado y luego multiplica los resultados.",
+    "explanation": "Primer paréntesis: $1 - \\frac{3}{5} = \\frac{5}{5} - \\frac{3}{5} = \\frac{2}{5}$. Segundo paréntesis: $1 + \\frac{1}{2} = \\frac{2}{2} + \\frac{1}{2} = \\frac{3}{2}$. Multiplicación: $\\frac{2}{5} \\times \\frac{3}{2} = \\frac{6}{10} = \\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Resuelve: $\\frac{2}{3} \\div (1 - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{4}{9}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve la resta del denominador primero.",
+    "explanation": "Paréntesis: $1 - \\frac{1}{3} = \\frac{3}{3} - \\frac{1}{3} = \\frac{2}{3}$. División: $\\frac{2}{3} \\div \\frac{2}{3} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Calcula: $\\frac{1}{5} \\times 10 - \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{2}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero multiplica la fracción por el entero.",
+    "explanation": "Multiplicación: $\\frac{1}{5} \\times 10 = \\frac{10}{5} = 2$. Resta: $2 - \\frac{1}{2} = \\frac{4}{2} - \\frac{1}{2} = \\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Resuelve: $(\\frac{3}{4} - \\frac{1}{8}) \\div \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{4}$", "correct": true },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{5}{16}$", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Encuentra un denominador común para la resta en el paréntesis.",
+    "explanation": "Paréntesis: $\\frac{3}{4} - \\frac{1}{8} = \\frac{6}{8} - \\frac{1}{8} = \\frac{5}{8}$. División: $\\frac{5}{8} \\div \\frac{1}{2} = \\frac{5}{8} \\times \\frac{2}{1} = \\frac{10}{8} = \\frac{5}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Calcula: $4 \\times \\frac{1}{8} + \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza primero la multiplicación.",
+    "explanation": "Multiplicación: $4 \\times \\frac{1}{8} = \\frac{4}{8} = \\frac{1}{2}$. Suma: $\\frac{1}{2} + \\frac{1}{2} = \\frac{2}{2} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Resuelve: $(\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}) \\times 3$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El mínimo común múltiplo de 2, 3 y 6 es 6. Suma las fracciones primero.",
+    "explanation": "Paréntesis: $\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{6}{6} = 1$. Multiplicación: $1 \\times 3 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Calcula el valor de: $1 - \\frac{2}{3} \\times \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza primero la multiplicación, puedes simplificar antes de multiplicar.",
+    "explanation": "Multiplicación: $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{2}{4} = \\frac{1}{2}$. Resta: $1 - \\frac{1}{2} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Resuelve: $(\\frac{2}{5} + \\frac{3}{10}) \\div \\frac{7}{10}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{7}{10}$", "correct": false },
+      { "text": "$\\frac{49}{100}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma las fracciones dentro del paréntesis usando un denominador común.",
+    "explanation": "Paréntesis: $\\frac{2}{5} + \\frac{3}{10} = \\frac{4}{10} + \\frac{3}{10} = \\frac{7}{10}$. División: $\\frac{7}{10} \\div \\frac{7}{10} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Calcula: $3 \\times (\\frac{1}{2} - \\frac{1}{6})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza la resta dentro del paréntesis primero.",
+    "explanation": "Paréntesis: $\\frac{1}{2} - \\frac{1}{6} = \\frac{3}{6} - \\frac{1}{6} = \\frac{2}{6} = \\frac{1}{3}$. Multiplicación: $3 \\times \\frac{1}{3} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Resuelve: $\\frac{1}{3} \\div 3 + \\frac{1}{9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{9}$", "correct": true },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que dividir por 3 es lo mismo que multiplicar por 1/3.",
+    "explanation": "División: $\\frac{1}{3} \\div 3 = \\frac{1}{3} \\times \\frac{1}{3} = \\frac{1}{9}$. Suma: $\\frac{1}{9} + \\frac{1}{9} = \\frac{2}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Resuelve la siguiente operación: $\\frac{2}{5}(10) - \\frac{3}{4}(\\frac{8}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Realiza las multiplicaciones por separado y luego resta los resultados.",
+    "explanation": "Primera parte: $\\frac{2}{5} \\times 10 = \\frac{20}{5} = 4$. Segunda parte: $\\frac{3}{4} \\times \\frac{8}{3} = \\frac{24}{12} = 2$. Resta: $4 - 2 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Calcula el resultado de: $\\frac{3}{7}(14) + 1\\frac{2}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{23}{3}$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$\\frac{20}{3}$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Realiza la multiplicación y convierte el número mixto a fracción impropia antes de sumar.",
+    "explanation": "Multiplicación: $\\frac{3}{7} \\times 14 = 3 \\times 2 = 6$. Número mixto: $1\\frac{2}{3} = \\frac{3\\times1+2}{3} = \\frac{5}{3}$. Suma: $6 + \\frac{5}{3} = \\frac{18}{3} + \\frac{5}{3} = \\frac{23}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Resuelve: $\\frac{4}{9}(5-2) + \\frac{1}{6}(4-1)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{11}{6}$", "correct": true },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve los paréntesis, luego las multiplicaciones y finalmente suma.",
+    "explanation": "Paréntesis: $5-2=3$ y $4-1=3$. Operación: $\\frac{4}{9}(3) + \\frac{1}{6}(3) = \\frac{12}{9} + \\frac{3}{6}$. Simplificando: $\\frac{4}{3} + \\frac{1}{2}$. Común denominador (6): $\\frac{8}{6} + \\frac{3}{6} = \\frac{11}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Calcula: $(\\frac{2}{3})(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{12}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma las fracciones dentro del paréntesis usando el mínimo común múltiplo (8).",
+    "explanation": "Suma del paréntesis: $\\frac{4}{8} + \\frac{2}{8} + \\frac{1}{8} = \\frac{7}{8}$. Multiplicación: $\\frac{2}{3} \\times \\frac{7}{8} = \\frac{14}{24}$. Simplificando: $\\frac{7}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Resuelve: $(\\frac{3}{4})(\\frac{2}{3} - \\frac{1}{6} + \\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Utiliza 6 como denominador común para las operaciones dentro del paréntesis.",
+    "explanation": "Paréntesis: $\\frac{4}{6} - \\frac{1}{6} + \\frac{3}{6} = \\frac{6}{6} = 1$. Multiplicación: $\\frac{3}{4} \\times 1 = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Calcula el resultado de: $(\\frac{5}{6})(3 - \\frac{1}{2} - 1\\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{35}{36}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{25}{36}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto a fracción impropia y usa 6 como denominador común en el paréntesis.",
+    "explanation": "Mixto: $1\\frac{1}{3} = \\frac{4}{3}$. Paréntesis: $\\frac{18}{6} - \\frac{3}{6} - \\frac{8}{6} = \\frac{7}{6}$. Multiplicación: $\\frac{5}{6} \\times \\frac{7}{6} = \\frac{35}{36}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Resuelve: $(2 - \\frac{1}{4})(3 - 1\\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{21}{8}$", "correct": true },
+      { "text": "$\\frac{15}{8}$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{7}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve cada paréntesis por separado, convirtiendo el número mixto a impropia.",
+    "explanation": "Primer paréntesis: $2 - \\frac{1}{4} = \\frac{8}{4} - \\frac{1}{4} = \\frac{7}{4}$. Segundo paréntesis: $3 - \\frac{3}{2} = \\frac{6}{2} - \\frac{3}{2} = \\frac{3}{2}$. Multiplicación: $\\frac{7}{4} \\times \\frac{3}{2} = \\frac{21}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Calcula: $(2\\frac{1}{3})(1 - \\frac{2}{7})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{3}$", "correct": true },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto a fracción impropia y resuelve la resta.",
+    "explanation": "Mixto: $2\\frac{1}{3} = \\frac{7}{3}$. Resta: $1 - \\frac{2}{7} = \\frac{7}{7} - \\frac{2}{7} = \\frac{5}{7}$. Multiplicación: $\\frac{7}{3} \\times \\frac{5}{7} = \\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Resuelve la operación: $(\\frac{3}{5})(\\frac{5}{6})(\\frac{1}{2} - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{12}$", "correct": true },
+      { "text": "$\\frac{1}{6}$", "correct": false },
+      { "text": "$\\frac{1}{10}$", "correct": false },
+      { "text": "$\\frac{3}{10}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Puedes simplificar la multiplicación de las dos primeras fracciones y resolver la resta del paréntesis.",
+    "explanation": "Multiplicación inicial: $\\frac{3}{5} \\times \\frac{5}{6} = \\frac{3}{6} = \\frac{1}{2}$. Resta: $\\frac{1}{2} - \\frac{1}{3} = \\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}$. Multiplicación final: $\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Calcula: $(\\frac{1}{4} + \\frac{1}{3})(2 - \\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{8}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve cada paréntesis y luego multiplica los resultados.",
+    "explanation": "Primer paréntesis: $\\frac{3}{12} + \\frac{4}{12} = \\frac{7}{12}$. Segundo paréntesis: $\\frac{4}{2} - \\frac{1}{2} = \\frac{3}{2}$. Multiplicación: $\\frac{7}{12} \\times \\frac{3}{2} = \\frac{21}{24}$. Simplificando (dividiendo entre 3): $\\frac{7}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Resuelve: $(\\frac{2}{3} + \\frac{1}{6} + \\frac{1}{2}) \\div \\frac{4}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{3}$", "correct": true },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma las fracciones usando 6 como denominador común y luego realiza la división.",
+    "explanation": "Suma: $\\frac{4}{6} + \\frac{1}{6} + \\frac{3}{6} = \\frac{8}{6} = \\frac{4}{3}$. División: $\\frac{4}{3} \\div \\frac{4}{5} = \\frac{4}{3} \\times \\frac{5}{4} = \\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Calcula: $(1\\frac{1}{2}) \\div (3 - 1\\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{6}{7}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{4}{7}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte los números mixtos a fracciones impropias antes de operar.",
+    "explanation": "Mixtos a impropias: $1\\frac{1}{2} = \\frac{3}{2}$ y $1\\frac{1}{4} = \\frac{5}{4}$. Resta: $3 - \\frac{5}{4} = \\frac{12}{4} - \\frac{5}{4} = \\frac{7}{4}$. División: $\\frac{3}{2} \\div \\frac{7}{4} = \\frac{3}{2} \\times \\frac{4}{7} = \\frac{12}{14} = \\frac{6}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Resuelve: $(\\frac{3}{4} + 2) \\div (1 - \\frac{1}{5})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{55}{16}$", "correct": true },
+      { "text": "$\\frac{11}{4}$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{45}{16}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve las operaciones dentro de cada paréntesis primero.",
+    "explanation": "Primer paréntesis: $\\frac{3}{4} + \\frac{8}{4} = \\frac{11}{4}$. Segundo paréntesis: $\\frac{5}{5} - \\frac{1}{5} = \\frac{4}{5}$. División: $\\frac{11}{4} \\div \\frac{4}{5} = \\frac{11}{4} \\times \\frac{5}{4} = \\frac{55}{16}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Calcula el resultado de: $(1 - \\frac{2}{5}) \\div (\\frac{1}{2} + \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{5}$", "correct": true },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la resta y la suma en los paréntesis antes de dividir.",
+    "explanation": "Resta: $1 - \\frac{2}{5} = \\frac{3}{5}$. Suma: $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$. División: $\\frac{3}{5} \\div \\frac{3}{4} = \\frac{3}{5} \\times \\frac{4}{3} = \\frac{4}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Resuelve: $\\frac{5}{8}(4) - \\frac{1}{3}(6)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Realiza las multiplicaciones primero y luego la resta.",
+    "explanation": "Multiplicaciones: $\\frac{5}{8} \\times 4 = \\frac{20}{8} = \\frac{5}{2}$ y $\\frac{1}{3} \\times 6 = 2$. Resta: $\\frac{5}{2} - 2 = \\frac{5}{2} - \\frac{4}{2} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Calcula: $\\frac{2}{3}(5 - 2) + \\frac{1}{4}(6 - 2)$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false },
+      { "text": "$\\frac{7}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve los paréntesis, luego multiplica y finalmente suma.",
+    "explanation": "Paréntesis: $5-2=3$ y $6-2=4$. Operación: $\\frac{2}{3}(3) + \\frac{1}{4}(4) = 2 + 1 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Resuelve: $(\\frac{3}{5})(\\frac{1}{3} + \\frac{1}{2} - \\frac{1}{6})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{5}$", "correct": true },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{4}{15}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa 6 como denominador común para las operaciones dentro del paréntesis.",
+    "explanation": "Paréntesis: $\\frac{2}{6} + \\frac{3}{6} - \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$. Multiplicación: $\\frac{3}{5} \\times \\frac{2}{3} = \\frac{2}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Calcula: $(1 - \\frac{3}{8})(2 - 1\\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{15}{32}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve cada paréntesis, recordando convertir el número mixto.",
+    "explanation": "Primer paréntesis: $1 - \\frac{3}{8} = \\frac{5}{8}$. Segundo paréntesis: $2 - \\frac{5}{4} = \\frac{8}{4} - \\frac{5}{4} = \\frac{3}{4}$. Multiplicación: $\\frac{5}{8} \\times \\frac{3}{4} = \\frac{15}{32}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Resuelve: $(3\\frac{1}{2})(1 - \\frac{5}{7})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto y resuelve la resta antes de multiplicar.",
+    "explanation": "Mixto: $3\\frac{1}{2} = \\frac{7}{2}$. Resta: $1 - \\frac{5}{7} = \\frac{2}{7}$. Multiplicación: $\\frac{7}{2} \\times \\frac{2}{7} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Calcula: $(\\frac{4}{9})(\\frac{3}{8})(2 - \\frac{2}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{9}$", "correct": true },
+      { "text": "$\\frac{1}{6}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{4}{9}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Simplifica la multiplicación de las primeras dos fracciones y resuelve el paréntesis.",
+    "explanation": "Multiplicación inicial: $\\frac{4}{9} \\times \\frac{3}{8} = \\frac{12}{72} = \\frac{1}{6}$. Paréntesis: $2 - \\frac{2}{3} = \\frac{6}{3} - \\frac{2}{3} = \\frac{4}{3}$. Multiplicación final: $\\frac{1}{6} \\times \\frac{4}{3} = \\frac{4}{18} = \\frac{2}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Resuelve: $(\\frac{1}{5} + \\frac{3}{10})(2 - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{6}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{2}{10} + \\frac{3}{10} = \\frac{5}{10} = \\frac{1}{2}$. Resta: $\\frac{6}{3} - \\frac{1}{3} = \\frac{5}{3}$. Multiplicación: $\\frac{1}{2} \\times \\frac{5}{3} = \\frac{5}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Calcula: $(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}) \\div \\frac{7}{8}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{7}{8}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{8}{7}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma las fracciones del paréntesis usando 8 como denominador común.",
+    "explanation": "Suma: $\\frac{4}{8} + \\frac{2}{8} + \\frac{1}{8} = \\frac{7}{8}$. División: $\\frac{7}{8} \\div \\frac{7}{8} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Resuelve: $(2\\frac{1}{4}) \\div (3 - 2\\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{9}{2}$", "correct": true },
+      { "text": "$\\frac{9}{4}$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{7}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte los números mixtos y resuelve la resta antes de dividir.",
+    "explanation": "Mixtos: $2\\frac{1}{4} = \\frac{9}{4}$ y $2\\frac{1}{2} = \\frac{5}{2}$. Resta: $3 - \\frac{5}{2} = \\frac{6}{2} - \\frac{5}{2} = \\frac{1}{2}$. División: $\\frac{9}{4} \\div \\frac{1}{2} = \\frac{9}{4} \\times 2 = \\frac{18}{4} = \\frac{9}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Calcula: $(\\frac{5}{6} - \\frac{1}{3}) \\div (1 - \\frac{3}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve las restas en ambos paréntesis antes de realizar la división.",
+    "explanation": "Primera resta: $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$. Segunda resta: $1 - \\frac{3}{4} = \\frac{1}{4}$. División: $\\frac{1}{2} \\div \\frac{1}{4} = \\frac{1}{2} \\times 4 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Resuelve: $\\frac{3}{4} \\times \\frac{8}{9} - \\frac{1}{6} \\times 3$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{6}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Realiza las multiplicaciones primero, simplificando si es posible.",
+    "explanation": "Multiplicaciones: $\\frac{3}{4} \\times \\frac{8}{9} = \\frac{24}{36} = \\frac{2}{3}$ y $\\frac{1}{6} \\times 3 = \\frac{3}{6} = \\frac{1}{2}$. Resta: $\\frac{2}{3} - \\frac{1}{2} = \\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Calcula: $(\\frac{3}{4})(\\frac{1}{2} + \\frac{2}{3} + \\frac{5}{6})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa 6 como denominador común para sumar las fracciones dentro del paréntesis.",
+    "explanation": "Suma: $\\frac{3}{6} + \\frac{4}{6} + \\frac{5}{6} = \\frac{12}{6} = 2$. Multiplicación: $\\frac{3}{4} \\times 2 = \\frac{6}{4} = \\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Resuelve: $(4 - 1\\frac{1}{3})(2 - \\frac{3}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{10}{3}$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve cada paréntesis convirtiendo el mixto a impropia.",
+    "explanation": "Primer paréntesis: $4 - \\frac{4}{3} = \\frac{12}{3} - \\frac{4}{3} = \\frac{8}{3}$. Segundo paréntesis: $2 - \\frac{3}{4} = \\frac{8}{4} - \\frac{3}{4} = \\frac{5}{4}$. Multiplicación: $\\frac{8}{3} \\times \\frac{5}{4} = \\frac{40}{12} = \\frac{10}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Calcula: $(1\\frac{2}{5})(1 - \\frac{4}{7})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{4}{5}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto y resuelve la resta.",
+    "explanation": "Mixto: $1\\frac{2}{5} = \\frac{7}{5}$. Resta: $1 - \\frac{4}{7} = \\frac{3}{7}$. Multiplicación: $\\frac{7}{5} \\times \\frac{3}{7} = \\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Resuelve: $(\\frac{2}{3})(\\frac{3}{4})(\\frac{1}{2} + \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{12}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Simplifica la multiplicación de las dos primeras fracciones y resuelve la suma.",
+    "explanation": "Multiplicación inicial: $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{2}{4} = \\frac{1}{2}$. Suma: $\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. Multiplicación final: $\\frac{1}{2} \\times \\frac{5}{6} = \\frac{5}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Calcula: $(\\frac{3}{8} + \\frac{1}{4})(1 - \\frac{1}{5})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{2}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$. Resta: $1 - \\frac{1}{5} = \\frac{4}{5}$. Multiplicación: $\\frac{5}{8} \\times \\frac{4}{5} = \\frac{4}{8} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Resuelve: $(1 + \\frac{1}{3} + \\frac{1}{6}) \\div \\frac{3}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma el entero y las fracciones del paréntesis usando 6 como denominador.",
+    "explanation": "Suma: $1 + \\frac{2}{6} + \\frac{1}{6} = 1 + \\frac{3}{6} = 1 + \\frac{1}{2} = \\frac{3}{2}$. División: $\\frac{3}{2} \\div \\frac{3}{2} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Calcula: $(3\\frac{1}{3}) \\div (2 - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$\\frac{5}{3}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto y resuelve la resta antes de dividir.",
+    "explanation": "Mixto: $3\\frac{1}{3} = \\frac{10}{3}$. Resta: $2 - \\frac{1}{3} = \\frac{6}{3} - \\frac{1}{3} = \\frac{5}{3}$. División: $\\frac{10}{3} \\div \\frac{5}{3} = \\frac{10}{3} \\times \\frac{3}{5} = \\frac{10}{5} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Resuelve: $(\\frac{4}{5} + 1) \\div (3 - \\frac{1}{5})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{9}{14}$", "correct": true },
+      { "text": "$\\frac{5}{7}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{4}{5} + \\frac{5}{5} = \\frac{9}{5}$. Resta: $\\frac{15}{5} - \\frac{1}{5} = \\frac{14}{5}$. División: $\\frac{9}{5} \\div \\frac{14}{5} = \\frac{9}{5} \\times \\frac{5}{14} = \\frac{9}{14}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Calcula: $(1 - \\frac{2}{3}) \\div (\\frac{3}{4} - \\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{3}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve las restas en ambos paréntesis antes de dividir.",
+    "explanation": "Primera resta: $1 - \\frac{2}{3} = \\frac{1}{3}$. Segunda resta: $\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$. División: $\\frac{1}{3} \\div \\frac{1}{4} = \\frac{1}{3} \\times 4 = \\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Resuelve: $\\frac{1}{2}(3 - 1) + \\frac{1}{3}(4 - 1)$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{5}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve los paréntesis, multiplica y luego suma.",
+    "explanation": "Paréntesis: $3-1=2$ y $4-1=3$. Operación: $\\frac{1}{2}(2) + \\frac{1}{3}(3) = 1 + 1 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Calcula: $(\\frac{5}{8})(\\frac{2}{3} - \\frac{1}{2} + \\frac{1}{6})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{24}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{1}{6}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa 6 como denominador común para las operaciones del paréntesis.",
+    "explanation": "Paréntesis: $\\frac{4}{6} - \\frac{3}{6} + \\frac{1}{6} = \\frac{2}{6} = \\frac{1}{3}$. Multiplicación: $\\frac{5}{8} \\times \\frac{1}{3} = \\frac{5}{24}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Resuelve: $(2 - \\frac{3}{5})(1 + \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{4}$", "correct": true },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la resta y la suma en los paréntesis primero.",
+    "explanation": "Resta: $2 - \\frac{3}{5} = \\frac{10}{5} - \\frac{3}{5} = \\frac{7}{5}$. Suma: $1 + \\frac{1}{4} = \\frac{5}{4}$. Multiplicación: $\\frac{7}{5} \\times \\frac{5}{4} = \\frac{7}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Calcula: $(1\\frac{1}{4})(1 - \\frac{1}{5})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{4}{5}$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto y resuelve la resta.",
+    "explanation": "Mixto: $1\\frac{1}{4} = \\frac{5}{4}$. Resta: $1 - \\frac{1}{5} = \\frac{4}{5}$. Multiplicación: $\\frac{5}{4} \\times \\frac{4}{5} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Resuelve: $(\\frac{1}{3})(\\frac{3}{4})(2 - \\frac{1}{2})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{8}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{5}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Simplifica la multiplicación inicial y resuelve el paréntesis.",
+    "explanation": "Multiplicación inicial: $\\frac{1}{3} \\times \\frac{3}{4} = \\frac{1}{4}$. Paréntesis: $2 - \\frac{1}{2} = \\frac{3}{2}$. Multiplicación final: $\\frac{1}{4} \\times \\frac{3}{2} = \\frac{3}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Calcula: $(\\frac{1}{6} + \\frac{1}{3})(2 - \\frac{3}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{8}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{7}{8}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{1}{6} + \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$. Resta: $2 - \\frac{3}{4} = \\frac{8}{4} - \\frac{3}{4} = \\frac{5}{4}$. Multiplicación: $\\frac{1}{2} \\times \\frac{5}{4} = \\frac{5}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "Resuelve: $(\\frac{1}{2} + \\frac{3}{4} + 1) \\div \\frac{3}{8}$",
+    "image": null,
+    "options": [
+      { "text": "$6$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{9}{2}$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma los términos del paréntesis usando 4 como denominador común.",
+    "explanation": "Suma: $\\frac{2}{4} + \\frac{3}{4} + \\frac{4}{4} = \\frac{9}{4}$. División: $\\frac{9}{4} \\div \\frac{3}{8} = \\frac{9}{4} \\times \\frac{8}{3} = \\frac{72}{12} = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "Calcula: $(2\\frac{1}{2}) \\div (1 - \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{10}{3}$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte el número mixto y resuelve la resta antes de dividir.",
+    "explanation": "Mixto: $2\\frac{1}{2} = \\frac{5}{2}$. Resta: $1 - \\frac{1}{4} = \\frac{3}{4}$. División: $\\frac{5}{2} \\div \\frac{3}{4} = \\frac{5}{2} \\times \\frac{4}{3} = \\frac{20}{6} = \\frac{10}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Resuelve: $(\\frac{2}{3} + 1) \\div (1 - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{2}$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{2}{3} + \\frac{3}{3} = \\frac{5}{3}$. Resta: $1 - \\frac{1}{3} = \\frac{2}{3}$. División: $\\frac{5}{3} \\div \\frac{2}{3} = \\frac{5}{3} \\times \\frac{3}{2} = \\frac{5}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "Calcula: $(1 - \\frac{5}{6}) \\div (\\frac{1}{2} - \\frac{1}{3})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve las restas en ambos paréntesis antes de realizar la división.",
+    "explanation": "Primera resta: $1 - \\frac{5}{6} = \\frac{1}{6}$. Segunda resta: $\\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}$. División: $\\frac{1}{6} \\div \\frac{1}{6} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "Resuelve: $\\frac{4}{5} \\times \\frac{10}{3} - \\frac{1}{2} \\times \\frac{4}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$\\frac{5}{3}$", "correct": false },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Realiza las multiplicaciones primero, simplificando si es posible, y luego resta.",
+    "explanation": "Multiplicaciones: $\\frac{4}{5} \\times \\frac{10}{3} = \\frac{40}{15} = \\frac{8}{3}$ y $\\frac{1}{2} \\times \\frac{4}{3} = \\frac{4}{6} = \\frac{2}{3}$. Resta: $\\frac{8}{3} - \\frac{2}{3} = \\frac{6}{3} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "Calcula: $(\\frac{2}{5})( \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6} + 1)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{5}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{2}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma los términos del paréntesis usando 6 como denominador común.",
+    "explanation": "Suma: $\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} + \\frac{6}{6} = \\frac{12}{6} = 2$. Multiplicación: $\\frac{2}{5} \\times 2 = \\frac{4}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "Resuelve: $(1\\frac{1}{2})(1\\frac{1}{3})(1 - \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{2}$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte los mixtos y resuelve la resta antes de multiplicar.",
+    "explanation": "Mixtos: $1\\frac{1}{2} = \\frac{3}{2}$, $1\\frac{1}{3} = \\frac{4}{3}$. Resta: $1 - \\frac{1}{4} = \\frac{3}{4}$. Multiplicación: $\\frac{3}{2} \\times \\frac{4}{3} \\times \\frac{3}{4} = \\frac{3 \\times 4 \\times 3}{2 \\times 3 \\times 4} = \\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "Calcula: $(\\frac{1}{2} + \\frac{1}{4}) \\div (1 - \\frac{1}{4})$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve la suma y la resta en los paréntesis primero.",
+    "explanation": "Suma: $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$. Resta: $1 - \\frac{1}{4} = \\frac{3}{4}$. División: $\\frac{3}{4} \\div \\frac{3}{4} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EQ",
+    "question": "Resuelve la siguiente fracción compleja: $\\frac{1}{2 + \\frac{1}{3}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{7}$", "correct": true },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve la suma en el denominador primero: $2 + \\frac{1}{3}$.",
+    "explanation": "Sumamos el denominador: $2 + \\frac{1}{3} = \\frac{6}{3} + \\frac{1}{3} = \\frac{7}{3}$. Luego dividimos: $1 \\div \\frac{7}{3} = \\frac{3}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ER",
+    "question": "Calcula el valor de: $1 + \\frac{1}{1 + \\frac{1}{2}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{3}$", "correct": true },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Comienza resolviendo de abajo hacia arriba: primero $1 + \\frac{1}{2}$.",
+    "explanation": "$1 + \\frac{1}{2} = \\frac{3}{2}$. Luego, $1 \\div \\frac{3}{2} = \\frac{2}{3}$. Finalmente, $1 + \\frac{2}{3} = \\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "Resuelve: $2 + \\frac{1}{3 + \\frac{1}{2}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{16}{7}$", "correct": true },
+      { "text": "$\\frac{15}{7}$", "correct": false },
+      { "text": "$\\frac{9}{2}$", "correct": false },
+      { "text": "$\\frac{7}{16}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma el denominador inferior: $3 + \\frac{1}{2}$.",
+    "explanation": "$3 + \\frac{1}{2} = \\frac{7}{2}$. El inverso es $\\frac{2}{7}$. Finalmente, $2 + \\frac{2}{7} = \\frac{14}{7} + \\frac{2}{7} = \\frac{16}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "Calcula: $\\frac{1}{1 - \\frac{1}{1 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Sigue el orden de operaciones desde la fracción más pequeña: $1 + \\frac{1}{2}$.",
+    "explanation": "$1 + \\frac{1}{2} = \\frac{3}{2}$. Inverso: $\\frac{2}{3}$. Resta: $1 - \\frac{2}{3} = \\frac{1}{3}$. Inverso final: $1 \\div \\frac{1}{3} = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "Resuelve: $1 + \\frac{1}{2 - \\frac{1}{3}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{5}$", "correct": true },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false },
+      { "text": "$\\frac{5}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve la resta en el denominador: $2 - \\frac{1}{3}$.",
+    "explanation": "$2 - \\frac{1}{3} = \\frac{5}{3}$. Inverso: $\\frac{3}{5}$. Suma final: $1 + \\frac{3}{5} = \\frac{8}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "Calcula el resultado de: $\\frac{2}{1 + \\frac{2}{1 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{6}{7}$", "correct": true },
+      { "text": "$\\frac{7}{6}$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve de abajo hacia arriba. $1 + \\frac{1}{2} = \\frac{3}{2}$.",
+    "explanation": "$1 + \\frac{1}{2} = \\frac{3}{2}$. Luego $2 \\div \\frac{3}{2} = \\frac{4}{3}$. Sumamos $1 + \\frac{4}{3} = \\frac{7}{3}$. Finalmente $2 \\div \\frac{7}{3} = \\frac{6}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "Resuelve: $3 - \\frac{2}{1 + \\frac{1}{4}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{5}$", "correct": true },
+      { "text": "$\\frac{8}{5}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma primero $1 + \\frac{1}{4}$.",
+    "explanation": "$1 + \\frac{1}{4} = \\frac{5}{4}$. División: $2 \\div \\frac{5}{4} = \\frac{8}{5}$. Resta: $3 - \\frac{8}{5} = \\frac{15}{5} - \\frac{8}{5} = \\frac{7}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "Calcula: $\\frac{1}{1 + \\frac{1}{1 + \\frac{1}{3}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{7}$", "correct": true },
+      { "text": "$\\frac{7}{4}$", "correct": false },
+      { "text": "$\\frac{3}{7}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Empieza con $1 + \\frac{1}{3}$.",
+    "explanation": "$1 + \\frac{1}{3} = \\frac{4}{3}$. Inverso: $\\frac{3}{4}$. Suma: $1 + \\frac{3}{4} = \\frac{7}{4}$. Inverso final: $\\frac{4}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Resuelve: $2 + \\frac{3}{1 + \\frac{2}{3}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{19}{5}$", "correct": true },
+      { "text": "$\\frac{9}{5}$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{14}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma $1 + \\frac{2}{3}$ para obtener el denominador.",
+    "explanation": "$1 + \\frac{2}{3} = \\frac{5}{3}$. División: $3 \\div \\frac{5}{3} = \\frac{9}{5}$. Suma final: $2 + \\frac{9}{5} = \\frac{10}{5} + \\frac{9}{5} = \\frac{19}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Calcula: $\\frac{1}{2 + \\frac{1}{2 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{12}$", "correct": true },
+      { "text": "$\\frac{12}{5}$", "correct": false },
+      { "text": "$\\frac{2}{5}$", "correct": false },
+      { "text": "$\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve de abajo hacia arriba comenzando con $2 + \\frac{1}{2}$.",
+    "explanation": "$2 + \\frac{1}{2} = \\frac{5}{2}$. Inverso: $\\frac{2}{5}$. Suma: $2 + \\frac{2}{5} = \\frac{12}{5}$. Inverso final: $\\frac{5}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "Resuelve: $1 - \\frac{1}{1 - \\frac{1}{2}}$",
+    "image": null,
+    "options": [
+      { "text": "$-1$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Cuidado con los signos al restar.",
+    "explanation": "$1 - \\frac{1}{2} = \\frac{1}{2}$. Inverso: $2$. Resta final: $1 - 2 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "Calcula: $\\frac{5}{2 + \\frac{1}{3 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{35}{16}$", "correct": true },
+      { "text": "$\\frac{16}{35}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Primero suma $3 + \\frac{1}{2}$.",
+    "explanation": "$3 + \\frac{1}{2} = \\frac{7}{2}$. Inverso: $\\frac{2}{7}$. Suma: $2 + \\frac{2}{7} = \\frac{16}{7}$. División final: $5 \\div \\frac{16}{7} = \\frac{35}{16}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "Resuelve: $4 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{5}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{50}{11}$", "correct": true },
+      { "text": "$\\frac{45}{11}$", "correct": false },
+      { "text": "$\\frac{11}{50}$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve en escalera ascendente.",
+    "explanation": "$1 + \\frac{1}{5} = \\frac{6}{5}$. Inverso: $\\frac{5}{6}$. Suma: $1 + \\frac{5}{6} = \\frac{11}{6}$. Inverso: $\\frac{6}{11}$. Suma final: $4 + \\frac{6}{11} = \\frac{50}{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "Calcula: $\\frac{1}{3 - \\frac{1}{3 - \\frac{1}{3}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{21}$", "correct": true },
+      { "text": "$\\frac{21}{8}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve la resta más profunda primero.",
+    "explanation": "$3 - \\frac{1}{3} = \\frac{8}{3}$. Inverso: $\\frac{3}{8}$. Resta: $3 - \\frac{3}{8} = \\frac{21}{8}$. Inverso final: $\\frac{8}{21}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Resuelve: $\\frac{2}{1 + \\frac{3}{2 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{10}{11}$", "correct": true },
+      { "text": "$\\frac{11}{10}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Comienza sumando $2 + \\frac{1}{2}$.",
+    "explanation": "$2 + \\frac{1}{2} = \\frac{5}{2}$. División: $3 \\div \\frac{5}{2} = \\frac{6}{5}$. Suma: $1 + \\frac{6}{5} = \\frac{11}{5}$. División final: $2 \\div \\frac{11}{5} = \\frac{10}{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "Calcula: $1 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{1 + 1}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{5}$", "correct": true },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{5}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Esta es una fracción continua que se aproxima a la proporción áurea.",
+    "explanation": "$1+1=2 \\to 1/2 \\to 1+1/2=3/2 \\to 2/3 \\to 1+2/3=5/3 \\to 3/5 \\to 1+3/5=8/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "Resuelve: $2 + \\frac{1}{4 + \\frac{1}{6}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{56}{25}$", "correct": true },
+      { "text": "$\\frac{25}{56}$", "correct": false },
+      { "text": "$\\frac{9}{4}$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Suma el denominador inferior primero.",
+    "explanation": "$4 + \\frac{1}{6} = \\frac{25}{6}$. Inverso: $\\frac{6}{25}$. Suma final: $2 + \\frac{6}{25} = \\frac{56}{25}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "Calcula: $\\frac{3}{1 - \\frac{1}{2 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$\\frac{15}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve de abajo hacia arriba.",
+    "explanation": "$2 + \\frac{1}{2} = \\frac{5}{2}$. Inverso: $\\frac{2}{5}$. Resta: $1 - \\frac{2}{5} = \\frac{3}{5}$. División final: $3 \\div \\frac{3}{5} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "Resuelve: $5 - \\frac{1}{1 + \\frac{1}{2 + \\frac{1}{3}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{43}{10}$", "correct": true },
+      { "text": "$\\frac{37}{10}$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{10}{43}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Empieza con $2 + \\frac{1}{3}$.",
+    "explanation": "$2 + \\frac{1}{3} = \\frac{7}{3}$. Inverso: $\\frac{3}{7}$. Suma: $1 + \\frac{3}{7} = \\frac{10}{7}$. Inverso: $\\frac{7}{10}$. Resta final: $5 - \\frac{7}{10} = \\frac{43}{10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "Calcula: $\\frac{1}{1 + \\frac{1}{1 - \\frac{1}{4}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{7}$", "correct": true },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$\\frac{4}{7}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Cuidado con la resta $1 - \\frac{1}{4}$.",
+    "explanation": "$1 - \\frac{1}{4} = \\frac{3}{4}$. Inverso: $\\frac{4}{3}$. Suma: $1 + \\frac{4}{3} = \\frac{7}{3}$. Inverso final: $\\frac{3}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "Resuelve: $1 + \\frac{2}{1 + \\frac{3}{1 + \\frac{4}{5}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{4}$", "correct": true },
+      { "text": "$\\frac{4}{7}$", "correct": false },
+      { "text": "$\\frac{5}{4}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve paso a paso desde abajo.",
+    "explanation": "$1 + \\frac{4}{5} = \\frac{9}{5}$. División: $3 \\div \\frac{9}{5} = \\frac{5}{3}$. Suma: $1 + \\frac{5}{3} = \\frac{8}{3}$. División: $2 \\div \\frac{8}{3} = \\frac{3}{4}$. Suma final: $1 + \\frac{3}{4} = \\frac{7}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "Calcula: $\\frac{10}{2 + \\frac{1}{2 + \\frac{1}{2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{25}{6}$", "correct": true },
+      { "text": "$\\frac{6}{25}$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\frac{24}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve el denominador complejo primero.",
+    "explanation": "$2 + \\frac{1}{2} = \\frac{5}{2}$. Inverso: $\\frac{2}{5}$. Suma: $2 + \\frac{2}{5} = \\frac{12}{5}$. División final: $10 \\div \\frac{12}{5} = \\frac{50}{12} = \\frac{25}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "Resuelve: $2 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{2 + 2}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{23}{9}$", "correct": true },
+      { "text": "$\\frac{18}{7}$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Empieza sumando $2 + 2$.",
+    "explanation": "$2+2=4 \\to 1/4$. $1+1/4=5/4 \\to 4/5$. $1+4/5=9/5 \\to 5/9$. $2+5/9=23/9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "Calcula el resultado de la siguiente fracción continua: $\\frac{1}{1 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{1 + \\frac{1}{2}}}}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{13}$", "correct": true },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{13}{8}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Es una sucesión de inversos y sumas.",
+    "explanation": "La secuencia de valores ascendente es: $3/2, 2/3, 5/3, 3/5, 8/5, 5/8, 13/8, 8/13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
