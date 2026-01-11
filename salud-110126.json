@@ -1018,5 +1018,1433 @@
     "explanation": "El ATP almacena energía en sus enlaces fosfato y la libera para que la célula trabaje.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "El sistema amortiguador de bicarbonato es fundamental para el pH sanguíneo. La reacción es: $CO_2 + H_2O \\rightleftharpoons H_2CO_3 \\rightleftharpoons H^+ + HCO_3^-$. Si un paciente tiene hipoventilación (retiene $CO_2$), ¿qué ocurre con el pH sanguíneo y hacia dónde se desplaza el equilibrio?",
+    "image": null,
+    "options": [
+      { "text": "El equilibrio se desplaza a la derecha, aumentan los $H^+$ y el pH disminuye (Acidosis).", "correct": true },
+      { "text": "El equilibrio se desplaza a la izquierda, disminuyen los $H^+$ y el pH aumenta (Alcalosis).", "correct": false },
+      { "text": "El equilibrio se desplaza a la derecha, disminuyen los $H^+$ y el pH aumenta.", "correct": false },
+      { "text": "El $CO_2$ no afecta el equilibrio del bicarbonato.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Aplica el Principio de Le Chatelier: si aumentas un reactivo ($CO_2$), el sistema busca consumirlo produciendo más productos.",
+    "explanation": "Al aumentar el $CO_2$, la reacción se desplaza hacia la formación de protones ($H^+$), lo que acidifica la sangre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Durante el parto, la presión de la cabeza del bebé sobre el cuello uterino estimula la liberación de oxitocina, lo que provoca contracciones más fuertes, empujando más al bebé. ¿Cómo se clasifica este mecanismo y por qué?",
+    "image": null,
+    "options": [
+      { "text": "Retroalimentación positiva, porque la respuesta refuerza el estímulo inicial.", "correct": true },
+      { "text": "Retroalimentación negativa, porque busca detener las contracciones.", "correct": false },
+      { "text": "Control anticipado, porque el cuerpo se prepara antes del evento.", "correct": false },
+      { "text": "Homeostasis estática, porque mantiene el útero sin cambios.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El ciclo se repite con mayor intensidad hasta que finaliza el evento (nacimiento).",
+    "explanation": "Es positiva porque el producto de la reacción (contracción) aumenta el estímulo (presión), alejando al sistema del equilibrio original para completar un proceso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "En un ambiente frío, el cuerpo humano activa mecanismos para conservar calor. Identifica la respuesta fisiológica correcta mediada por el sistema nervioso simpático:",
+    "image": null,
+    "options": [
+      { "text": "Vasoconstricción periférica y piloerección.", "correct": true },
+      { "text": "Vasodilatación cutánea y sudoración.", "correct": false },
+      { "text": "Relajación muscular y disminución del metabolismo.", "correct": false },
+      { "text": "Aumento de la frecuencia respiratoria (jadeo).", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El cuerpo necesita alejar la sangre de la piel fría y acercarla a los órganos vitales.",
+    "explanation": "La vasoconstricción reduce el flujo sanguíneo a la piel para minimizar la pérdida de calor por radiación y convección.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Un paciente presenta poliuria (mucha orina) y polidipsia (mucha sed). Sus niveles de glucosa son altos, pero sus niveles de insulina también son normales o altos. ¿Qué condición homeostática falla y cuál es la causa probable?",
+    "image": null,
+    "options": [
+      { "text": "Diabetes Tipo 2; resistencia de los receptores celulares a la insulina.", "correct": true },
+      { "text": "Diabetes Tipo 1; destrucción autoinmune de células beta pancreáticas.", "correct": false },
+      { "text": "Diabetes Insípida; falta de hormona antidiurética.", "correct": false },
+      { "text": "Hipoglucemia reactiva; exceso de producción de insulina.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Si hay insulina pero no funciona, el problema está en quien la recibe (la célula).",
+    "explanation": "En la Diabetes Tipo 2, el páncreas produce insulina, pero las células no responden adecuadamente (resistencia a la insulina), impidiendo la entrada de glucosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Un estudiante del CEPREDIX corre un maratón y se deshidrata. Su osmolaridad plasmática aumenta. ¿Qué hormona se libera principalmente para corregir esto y cuál es su órgano blanco?",
+    "image": null,
+    "options": [
+      { "text": "Hormona Antidiurética (ADH) o Vasopresina - Riñones (túbulos colectores).", "correct": true },
+      { "text": "Aldosterona - Hígado.", "correct": false },
+      { "text": "Insulina - Músculos esqueléticos.", "correct": false },
+      { "text": "Adrenalina - Corazón.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El cuerpo necesita retener agua, no orinarla. 'Anti-diurética'.",
+    "explanation": "La ADH aumenta la permeabilidad al agua en los túbulos renales, reabsorbiendo agua hacia la sangre para disminuir la osmolaridad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Si se coloca un glóbulo rojo (osmolaridad interna $300 \\text{ mOsm}$) en una solución salina hipertónica de $500 \\text{ mOsm}$, ¿qué fenómeno celular ocurre?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Osmotic_pressure_on_blood_cells_diagram_es.svg/330px-Osmotic_pressure_on_blood_cells_diagram_es.svg.png",
+    "options": [
+      { "text": "Crenación (la célula se arruga al perder agua).", "correct": true },
+      { "text": "Hemólisis (la célula explota al ganar agua).", "correct": false },
+      { "text": "Turgencia (la célula se hincha pero no explota).", "correct": false },
+      { "text": "Equilibrio dinámico sin cambios de volumen.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El agua se mueve hacia donde hay más sal (soluto).",
+    "explanation": "En un medio hipertónico, el agua sale de la célula por ósmosis tratando de diluir el exterior, provocando que la célula se deshidrate y arrugue (crenación).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Los barorreceptores del seno carotídeo detectan una caída brusca en la presión arterial al levantarse rápido. ¿Cuál es la respuesta compensatoria inmediata?",
+    "image": null,
+    "options": [
+      { "text": "Aumento de la frecuencia cardíaca y vasoconstricción.", "correct": true },
+      { "text": "Disminución de la frecuencia cardíaca y vasodilatación.", "correct": false },
+      { "text": "Aumento de la filtración renal para eliminar líquidos.", "correct": false },
+      { "text": "Inhibición del sistema simpático.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Si la presión baja, la bomba (corazón) debe trabajar más rápido y las tuberías (vasos) deben apretarse.",
+    "explanation": "El reflejo barorreceptor activa el sistema simpático para subir el gasto cardíaco y la resistencia vascular, restaurando la presión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Calcula la concentración de iones hidrógeno $[H^+]$ en una solución si su pH es 4. Recuerda que $pH = -\\log[H^+]$.",
+    "image": null,
+    "options": [
+      { "text": "$1 \\times 10^{-4} \\text{ M}$", "correct": true },
+      { "text": "$4 \\times 10^{-1} \\text{ M}$", "correct": false },
+      { "text": "$1 \\times 10^{4} \\text{ M}$", "correct": false },
+      { "text": "$-4 \\text{ M}$", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $[H^+]$ usando la base 10: $[H^+] = 10^{-pH}$.",
+    "explanation": "Si $pH = 4$, entonces $[H^+] = 10^{-4}$, lo que equivale a $0.0001 \\text{ M}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Una persona sufre un ataque de pánico y comienza a hiperventilar (respirar muy rápido y profundo). ¿Qué alteración del equilibrio ácido-base es probable que desarrolle?",
+    "image": null,
+    "options": [
+      { "text": "Alcalosis respiratoria por pérdida excesiva de $CO_2$.", "correct": true },
+      { "text": "Acidosis respiratoria por retención de $CO_2$.", "correct": false },
+      { "text": "Acidosis metabólica por producción de ácido láctico.", "correct": false },
+      { "text": "Alcalosis metabólica por vómito.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Al respirar rápido 'lavas' el dióxido de carbono de la sangre. Menos ácido ($CO_2$) significa...",
+    "explanation": "La eliminación rápida de $CO_2$ reduce la cantidad de ácido carbónico en sangre, elevando el pH (alcalosis).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "¿Cuál es la diferencia fisiológica entre hipertermia (golpe de calor) y fiebre?",
+    "image": null,
+    "options": [
+      { "text": "En la fiebre cambia el 'punto de ajuste' del hipotálamo; en la hipertermia fallan los mecanismos de enfriamiento.", "correct": true },
+      { "text": "La fiebre es causada por virus y la hipertermia por bacterias.", "correct": false },
+      { "text": "En la hipertermia el cuerpo siente frío y en la fiebre siente calor.", "correct": false },
+      { "text": "No hay diferencia, son sinónimos.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "En la fiebre, el cerebro 'quiere' estar caliente para combatir infecciones.",
+    "explanation": "En la fiebre, el hipotálamo reajusta la temperatura a un nivel más alto. En la hipertermia, el cuerpo quiere enfriarse pero no puede (fallo de termorregulación).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Si los niveles de calcio en sangre descienden (hipocalcemia), las glándulas paratiroides secretan PTH. ¿Qué efecto tiene esta hormona sobre los huesos?",
+    "image": null,
+    "options": [
+      { "text": "Estimula a los osteoclastos para liberar calcio del hueso a la sangre.", "correct": true },
+      { "text": "Estimula a los osteoblastos para depositar calcio en el hueso.", "correct": false },
+      { "text": "Inhibe la absorción intestinal de calcio.", "correct": false },
+      { "text": "Promueve la excreción de calcio en la orina.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El hueso es el 'banco' de calcio. Si falta dinero (calcio) en el bolsillo (sangre), sacas del banco.",
+    "explanation": "La PTH busca elevar el calcio sanguíneo, por lo que activa la resorción ósea (degradación) para liberar calcio almacenado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "La aldosterona es una hormona esteroidea que regula los electrolitos. ¿Cuál es su acción principal en el nefrón renal?",
+    "image": null,
+    "options": [
+      { "text": "Reabsorbe sodio ($Na^+$) y excreta potasio ($K^+$).", "correct": true },
+      { "text": "Excreta sodio ($Na^+$) y reabsorbe potasio ($K^+$).", "correct": false },
+      { "text": "Reabsorbe glucosa y aminoácidos.", "correct": false },
+      { "text": "Bloquea la reabsorción de agua.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda la frase 'El agua sigue al sodio'. La aldosterona ayuda a subir la presión reteniendo sal.",
+    "explanation": "La aldosterona actúa conservando sodio (y con él agua) y eliminando el exceso de potasio en la orina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Un caso analizado en el CEPREDIX muestra a un paciente con metabolismo basal muy bajo, sensación de frío constante y aumento de peso. Los análisis muestran TSH elevada y T3/T4 bajas. ¿Qué falla homeostática se presenta?",
+    "image": null,
+    "options": [
+      { "text": "Hipotiroidismo primario (falla en la glándula tiroides).", "correct": true },
+      { "text": "Hipertiroidismo secundario (falla en la hipófisis).", "correct": false },
+      { "text": "Hipotiroidismo secundario (falla en la hipófisis).", "correct": false },
+      { "text": "Resistencia a la hormona de crecimiento.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La TSH (hormona estimulante) está alta porque el cerebro 'grita' a la tiroides que trabaje, pero esta no responde (T3/T4 bajas).",
+    "explanation": "El patrón TSH alta + T4 baja indica que la hipófisis funciona (detecta la falta y ordena más), pero la tiroides no puede producir las hormonas (origen primario).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "¿Qué efecto tiene la activación del sistema nervioso parasimpático sobre la homeostasis visceral?",
+    "image": null,
+    "options": [
+      { "text": "Promueve funciones de 'descanso y digestión' (bradicardia, peristalsis).", "correct": true },
+      { "text": "Prepara para la 'lucha o huida' (taquicardia, dilatación pupilar).", "correct": false },
+      { "text": "Inhibe la secreción de saliva y jugos gástricos.", "correct": false },
+      { "text": "Dilata los bronquios para aumentar la oxigenación.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Actúa después de comer o al dormir.",
+    "explanation": "El parasimpático conserva energía, disminuye la frecuencia cardíaca y favorece la digestión y absorción de nutrientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "La tasa de filtración glomerular (TFG) es vital para limpiar la sangre. Si la presión arterial sistémica cae drásticamente (choque), ¿qué mecanismo local del riñón intenta mantener la filtración?",
+    "image": null,
+    "options": [
+      { "text": "Vasodilatación de la arteriola aferente.", "correct": true },
+      { "text": "Vasoconstricción de la arteriola aferente.", "correct": false },
+      { "text": "Vasodilatación de la arteriola eferente.", "correct": false },
+      { "text": "Cierre completo de los glomérulos.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Para mantener el flujo en una manguera si baja la presión del grifo, debes abrir más la llave de entrada.",
+    "explanation": "Al dilatar la arteriola de entrada (aferente), llega más sangre al glomérulo, compensando la baja presión sistémica para seguir filtrando.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Además de la termorregulación y protección, ¿qué función homeostática crucial realiza la piel relacionada con el metabolismo del calcio?",
+    "image": null,
+    "options": [
+      { "text": "Síntesis de precursores de Vitamina D ante luz UV.", "correct": true },
+      { "text": "Almacenamiento de calcio en la epidermis.", "correct": false },
+      { "text": "Excreción de calcio a través del sudor.", "correct": false },
+      { "text": "Producción de calcitonina en los melanocitos.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es la 'vitamina del sol', necesaria para absorber calcio en el intestino.",
+    "explanation": "La radiación UV transforma el colesterol en la piel en una forma inactiva de Vitamina D, esencial para la homeostasis del calcio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Durante el ayuno prolongado, el hígado mantiene la homeostasis de la glucosa mediante la ______ y la ______.",
+    "image": null,
+    "options": [
+      { "text": "glucogenólisis, gluconeogénesis", "correct": true },
+      { "text": "glucólisis, lipogénesis", "correct": false },
+      { "text": "síntesis de proteínas, fermentación", "correct": false },
+      { "text": "glucogénesis, glucólisis", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primero rompe lo guardado (glucógeno) y luego crea glucosa nueva a partir de otros compuestos.",
+    "explanation": "La glucogenólisis libera glucosa del glucógeno almacenado. La gluconeogénesis crea nueva glucosa a partir de aminoácidos o lípidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "En la formación de edema (hinchazón) por desnutrición severa, ¿cuál es el factor físico-químico alterado en los capilares?",
+    "image": null,
+    "options": [
+      { "text": "Disminución de la presión oncótica (coloidosmótica) del plasma.", "correct": true },
+      { "text": "Aumento de la presión hidrostática capilar.", "correct": false },
+      { "text": "Bloqueo del drenaje linfático.", "correct": false },
+      { "text": "Exceso de ingesta de agua.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Las proteínas en la sangre actúan como esponjas que retienen el agua. Si no comes proteínas...",
+    "explanation": "La falta de proteínas (albúmina) reduce la presión oncótica, que normalmente 'jala' agua hacia adentro del vaso. Sin ella, el agua se escapa al tejido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "¿Qué distingue al concepto de 'Alostasis' del de 'Homeostasis'?",
+    "image": null,
+    "options": [
+      { "text": "La alostasis es la adaptación a través del cambio (predicción), con un coste energético a largo plazo.", "correct": true },
+      { "text": "La alostasis se refiere solo al equilibrio de sales minerales.", "correct": false },
+      { "text": "La homeostasis implica variabilidad constante y la alostasis rigidez.", "correct": false },
+      { "text": "Son términos idénticos sin diferencia científica.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La homeostasis mantiene constante; la alostasis cambia el punto de ajuste para adaptarse al estrés crónico.",
+    "explanation": "La alostasis describe cómo el cuerpo logra estabilidad cambiando sus parámetros internos ante demandas externas, lo cual genera 'carga alostática' (desgaste).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "En un choque hipovolémico (pérdida masiva de sangre), ¿cuál de los siguientes NO es un mecanismo compensatorio inmediato?",
+    "image": null,
+    "options": [
+      { "text": "Aumento de la diuresis (producción de orina).", "correct": true },
+      { "text": "Taquicardia (aumento frecuencia cardíaca).", "correct": false },
+      { "text": "Vasoconstricción periférica (palidez).", "correct": false },
+      { "text": "Liberación de catecolaminas (adrenalina).", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Si pierdes líquido, ¿tu cuerpo querría perder aún más?",
+    "explanation": "El cuerpo trata de retener todo el líquido posible para mantener la presión. Aumentar la orina sería contraproducente y fatal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Según el modelo de Leavell y Clark, ¿a qué nivel de prevención corresponde la cloración del agua potable para evitar enfermedades gastrointestinales en una comunidad?",
+    "image": null,
+    "options": [
+      { "text": "Protección Específica (Prevención Primaria).", "correct": true },
+      { "text": "Promoción de la Salud (Prevención Primaria).", "correct": false },
+      { "text": "Diagnóstico Precoz (Prevención Secundaria).", "correct": false },
+      { "text": "Limitación del Daño (Prevención Secundaria).", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es una medida dirigida a un riesgo concreto (patógenos en agua) antes de que enfermen.",
+    "explanation": "La protección específica incluye medidas técnicas directas contra agentes causales específicos en el periodo prepatogénico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "El periodo prodromal de una enfermedad infecciosa se caracteriza por:",
+    "image": null,
+    "options": [
+      { "text": "Síntomas generales e inespecíficos (malestar, febrícula) previos al cuadro clínico típico.", "correct": true },
+      { "text": "Ausencia total de síntomas aunque hay replicación del agente.", "correct": false },
+      { "text": "La aparición clara de signos patognomónicos (exclusivos de la enfermedad).", "correct": false },
+      { "text": "La recuperación y desaparición de síntomas.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es cuando dices 'creo que me voy a enfermar' pero no sabes de qué todavía.",
+    "explanation": "Los pródromos son las primeras manifestaciones vagas que indican el inicio de la enfermedad clínica, superando el horizonte clínico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "¿Cuál es la diferencia clave entre 'Promoción de la Salud' y 'Protección Específica'?",
+    "image": null,
+    "options": [
+      { "text": "La promoción es general para el bienestar; la protección va contra una enfermedad concreta.", "correct": true },
+      { "text": "La promoción es secundaria y la protección es primaria.", "correct": false },
+      { "text": "La protección es educativa y la promoción es médica.", "correct": false },
+      { "text": "No hay diferencia, ambas son vacunación.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Comer bien es promoción; vacunarse contra sarampión es protección.",
+    "explanation": "La promoción mejora la salud global (nutrición, ejercicio). La protección específica bloquea causas particulares (vacunas, EPP, condones).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Un caso clínico del CEPREDIX describe a una mujer de 40 años asintomática que acude a realizarse una mastografía y se le detecta un tumor *in situ* (muy pequeño). ¿Qué se logró con esta acción?",
+    "image": null,
+    "options": [
+      { "text": "Diagnóstico precoz en el periodo patogénico subclínico.", "correct": true },
+      { "text": "Prevención primaria evitando la aparición del cáncer.", "correct": false },
+      { "text": "Rehabilitación temprana.", "correct": false },
+      { "text": "Protección específica contra el cáncer.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La enfermedad ya existe, pero no se siente. La prueba la encontró a tiempo.",
+    "explanation": "Al detectar la enfermedad antes de que cause síntomas graves, se aplica prevención secundaria para un tratamiento oportuno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Un paciente que sufrió un infarto cerebral recibe terapia de lenguaje para recuperar el habla. ¿A qué nivel de prevención corresponde esta acción?",
+    "image": null,
+    "options": [
+      { "text": "Prevención Terciaria (Rehabilitación).", "correct": true },
+      { "text": "Prevención Secundaria (Limitación del daño).", "correct": false },
+      { "text": "Prevención Primaria (Promoción).", "correct": false },
+      { "text": "Nivel Cuaternario (Evitar sobremedicación).", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El daño ya ocurrió y se estabilizó; ahora se busca recuperar la función perdida.",
+    "explanation": "La rehabilitación busca reintegrar al individuo a su vida normal maximizando sus capacidades residuales tras el daño.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "En la cadena de transmisión de infecciones, ¿cuál es el eslabón que conecta la 'puerta de salida' del reservorio con la 'puerta de entrada' del huésped susceptible?",
+    "image": null,
+    "options": [
+      { "text": "Mecanismo de transmisión.", "correct": true },
+      { "text": "Agente causal.", "correct": false },
+      { "text": "Reservorio.", "correct": false },
+      { "text": "Huésped.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es la forma en que el bicho viaja (aire, agua, contacto).",
+    "explanation": "El mecanismo de transmisión (directo o indirecto) es el vehículo o vía que lleva al agente de un lado a otro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Diferencia entre un vector mecánico y uno biológico:",
+    "image": null,
+    "options": [
+      { "text": "En el biológico el agente se reproduce o cambia de fase dentro del vector; en el mecánico solo lo transporta pasivamente.", "correct": true },
+      { "text": "El mecánico es un mosquito y el biológico una mosca.", "correct": false },
+      { "text": "El biológico solo transporta bacterias y el mecánico virus.", "correct": false },
+      { "text": "El mecánico pica y el biológico muerde.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La mosca lleva suciedad en sus patas (mecánico). El mosquito del dengue incuba el virus en su interior (biológico).",
+    "explanation": "El vector biológico es parte esencial del ciclo de vida del parásito/virus. El mecánico es solo un transporte accidental.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "¿Cuál es la diferencia entre patogenicidad y virulencia?",
+    "image": null,
+    "options": [
+      { "text": "Patogenicidad es la capacidad de causar enfermedad; virulencia es el grado de severidad o daño que causa.", "correct": true },
+      { "text": "Patogenicidad es la velocidad de contagio; virulencia es la mortalidad.", "correct": false },
+      { "text": "Son sinónimos exactos.", "correct": false },
+      { "text": "Virulencia es la capacidad de entrar y patogenicidad de salir.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Un virus puede enfermar a todos (alta patogenicidad) pero matar a pocos (baja virulencia).",
+    "explanation": "Patogenicidad es cualitativa (¿enferma o no?), virulencia es cuantitativa (¿qué tan grave es el daño?).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "El concepto del 'Iceberg Epidemiológico' sugiere que:",
+    "image": "https://p3.aprimocdn.net/ion/a58797f1-7c0d-4589-9e8a-86718818f4a6.png",
+    "options": [
+      { "text": "Los casos clínicos visibles son solo una pequeña parte; la mayoría son casos subclínicos o asintomáticos.", "correct": true },
+      { "text": "Las enfermedades frías son más peligrosas.", "correct": false },
+      { "text": "Solo se debe tratar lo que se ve.", "correct": false },
+      { "text": "Las enfermedades desaparecen bajo el agua.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Lo que ves sobre el agua es poco comparado con lo que hay debajo.",
+    "explanation": "En salud pública, los casos diagnosticados son la punta del iceberg; la base son los portadores y enfermos no detectados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "En la historia natural de una enfermedad crónica degenerativa (ej. diabetes), ¿cuál es una característica distintiva del periodo patogénico?",
+    "image": null,
+    "options": [
+      { "text": "Un periodo de latencia o subclínico muy largo (años) antes de los síntomas.", "correct": true },
+      { "text": "Un inicio súbito y resolución rápida.", "correct": false },
+      { "text": "La ausencia de complicaciones.", "correct": false },
+      { "text": "La dependencia exclusiva de agentes biológicos.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El daño se acumula silenciosamente durante mucho tiempo.",
+    "explanation": "Las enfermedades crónicas suelen tener una evolución lenta donde el daño tisular progresa años antes de manifestarse.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Si te expones al virus de la varicela hoy y los síntomas aparecen en 14 días. ¿Qué ocurre biológicamente durante esos 14 días?",
+    "image": null,
+    "options": [
+      { "text": "El virus se reproduce y disemina en el cuerpo sin alcanzar el umbral para causar síntomas (Periodo de Incubación).", "correct": true },
+      { "text": "El sistema inmune elimina al virus completamente.", "correct": false },
+      { "text": "El virus está dormido y no hace nada.", "correct": false },
+      { "text": "El paciente ya es altamente contagioso con tos y estornudos.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es la calma antes de la tormenta. El agente está ganando terreno.",
+    "explanation": "Durante la incubación, el agente se multiplica activamente hasta que la carga viral/bacteriana es suficiente para dañar tejidos y producir síntomas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "En un análisis del CEPREDIX sobre vacunación, se explica la 'Inmunidad de Rebaño'. ¿Cuál es el fundamento de esta protección indirecta?",
+    "image": null,
+    "options": [
+      { "text": "Al haber muchos inmunes, se rompe la cadena de transmisión protegiendo a los no vacunados.", "correct": true },
+      { "text": "Las vacunas se transmiten de persona a persona por el aire.", "correct": false },
+      { "text": "Los vacunados curan a los enfermos con su contacto.", "correct": false },
+      { "text": "El virus decide no atacar a grupos grandes.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Si el virus no encuentra a quién saltar, el brote se apaga.",
+    "explanation": "Si una alta proporción de la población es inmune, el agente infeccioso no encuentra huéspedes susceptibles y la epidemia se detiene.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "¿Qué es un fómite?",
+    "image": null,
+    "options": [
+      { "text": "Un objeto inanimado contaminado capaz de transmitir un agente infeccioso (ej. un juguete, perilla).", "correct": true },
+      { "text": "Un insecto que pica.", "correct": false },
+      { "text": "Un alimento en descomposición.", "correct": false },
+      { "text": "Una partícula de polvo en el aire.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "No tiene vida, pero si lo tocas te puedes enfermar.",
+    "explanation": "Los fómites son superficies o utensilios que actúan como vehículos pasivos para patógenos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "La rabia es una enfermedad que se transmite de animales vertebrados al ser humano. ¿Cómo se clasifica este tipo de enfermedades?",
+    "image": null,
+    "options": [
+      { "text": "Zoonosis", "correct": true },
+      { "text": "Antroponosis", "correct": false },
+      { "text": "Pandemia", "correct": false },
+      { "text": "Enfermedad autoinmune", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Viene de 'zoo' (animal).",
+    "explanation": "Las zoonosis son enfermedades infecciosas transmisibles naturalmente desde animales vertebrados al ser humano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Para que ocurra una infección respiratoria como la Influenza, ¿cuál es la puerta de entrada típica en el huésped?",
+    "image": null,
+    "options": [
+      { "text": "Mucosas de nariz y boca (Vía respiratoria).", "correct": true },
+      { "text": "Piel intacta.", "correct": false },
+      { "text": "Vía parenteral (sangre).", "correct": false },
+      { "text": "Vía digestiva (comer el virus).", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El virus viaja en gotitas de saliva que inhalas.",
+    "explanation": "Los agentes respiratorios requieren entrar por el tracto respiratorio superior para infectar las células epiteliales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "En la triada ecológica, la susceptibilidad del huésped puede verse afectada por factores genéticos. ¿Cuál es un ejemplo de esto?",
+    "image": null,
+    "options": [
+      { "text": "Una mutación que protege contra la malaria (anemia falciforme).", "correct": true },
+      { "text": "No lavarse las manos.", "correct": false },
+      { "text": "Vivir en una zona con muchos mosquitos.", "correct": false },
+      { "text": "Estar vacunado.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es algo que heredas en tu ADN, no algo que haces o donde vives.",
+    "explanation": "Ciertos rasgos genéticos hacen a las personas más resistentes o susceptibles a ciertos agentes biológicos de manera innata.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "¿Qué se entiende por 'Determinantes Sociales de la Salud' dentro del factor Medio Ambiente?",
+    "image": null,
+    "options": [
+      { "text": "Las condiciones en que las personas nacen, crecen, viven, trabajan y envejecen (pobreza, educación).", "correct": true },
+      { "text": "El clima y la temperatura del lugar.", "correct": false },
+      { "text": "La cantidad de hospitales en la ciudad.", "correct": false },
+      { "text": "La genética de la población.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Tu código postal a veces predice tu salud mejor que tu código genético.",
+    "explanation": "Son factores socioeconómicos que influyen directamente en la exposición a riesgos y vulnerabilidad ante enfermedades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "¿Cuál es la relación entre el horizonte clínico y las pruebas de tamizaje (screening)?",
+    "image": null,
+    "options": [
+      { "text": "El tamizaje busca detectar la enfermedad DEBAJO del horizonte clínico (antes de síntomas).", "correct": true },
+      { "text": "El tamizaje se hace SOBRE el horizonte clínico (cuando ya hay síntomas).", "correct": false },
+      { "text": "El tamizaje eleva el horizonte clínico.", "correct": false },
+      { "text": "No tienen relación.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El objetivo es encontrar lo invisible.",
+    "explanation": "Las pruebas de detección buscan identificar la patología en la fase subclínica para mejorar el pronóstico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Diferencia entre secuela y complicación:",
+    "image": null,
+    "options": [
+      { "text": "La complicación es un evento agudo durante la enfermedad; la secuela es un daño permanente post-enfermedad.", "correct": true },
+      { "text": "La secuela ocurre al principio y la complicación al final.", "correct": false },
+      { "text": "La complicación es crónica y la secuela aguda.", "correct": false },
+      { "text": "Son lo mismo.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Una neumonía durante la gripe es complicación. Una cicatriz pulmonar que queda de por vida es secuela.",
+    "explanation": "Complicación agrava el cuadro actual. Secuela es la marca o discapacidad residual una vez que la fase activa terminó.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "¿Cuál es la diferencia epidemiológica entre eliminación y erradicación?",
+    "image": null,
+    "options": [
+      { "text": "Eliminación es cero casos en una zona geográfica; erradicación es cero casos a nivel mundial y fin del agente.", "correct": true },
+      { "text": "Erradicación es local y eliminación es mundial.", "correct": false },
+      { "text": "Eliminación es matar al vector y erradicación es matar a la bacteria.", "correct": false },
+      { "text": "No hay diferencia.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La viruela está erradicada (no existe en el mundo). La polio está eliminada en América (pero existe en otros lados).",
+    "explanation": "Erradicación implica la extinción del agente o cese total de transmisión global permanente. Eliminación es regional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Un paciente del CEPREDIX sufre una amputación de pierna por diabetes. Se le diseña una prótesis y se le entrena para caminar. ¿Qué tipo de prevención es?",
+    "image": null,
+    "options": [
+      { "text": "Prevención Terciaria (Rehabilitación física y social).", "correct": true },
+      { "text": "Prevención Secundaria (Tratamiento oportuno).", "correct": false },
+      { "text": "Prevención Primaria (Protección específica).", "correct": false },
+      { "text": "Medicina Paliativa.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La pérdida ya ocurrió. Ahora se busca que la persona funcione lo mejor posible.",
+    "explanation": "Es rehabilitación: busca reducir el impacto de la discapacidad y reintegrar al paciente a su vida diaria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Si colocas una célula vegetal en una solución hipertónica, la membrana se separa de la pared celular. ¿Cómo se llama este fenómeno?",
+    "image": null,
+    "options": [
+      { "text": "Plasmólisis", "correct": true },
+      { "text": "Turgencia", "correct": false },
+      { "text": "Lisis", "correct": false },
+      { "text": "Apoptosis", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El citoplasma se encoge y se 'despega' de la pared rígida.",
+    "explanation": "La pérdida de agua reduce el volumen del citoplasma, causando que la membrana plasmática se retraiga de la pared celular (plasmólisis).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "¿Cuál es la diferencia entre transporte activo primario y secundario?",
+    "image": null,
+    "options": [
+      { "text": "El primario usa ATP directamente; el secundario usa la energía de un gradiente electroquímico creado previamente.", "correct": true },
+      { "text": "El primario mueve 1 molécula y el secundario 2.", "correct": false },
+      { "text": "El primario es rápido y el secundario lento.", "correct": false },
+      { "text": "El primario saca cosas y el secundario mete cosas.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primario paga en efectivo (ATP). Secundario aprovecha que alguien más pagó (gradiente).",
+    "explanation": "El transporte secundario (cotransporte) utiliza la energía potencial de un gradiente (ej. sodio) generado por una bomba primaria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "¿Qué evidencia principal apoya la Teoría Endosimbiótica sobre el origen de las mitocondrias?",
+    "image": null,
+    "options": [
+      { "text": "Tienen su propio ADN circular y ribosomas tipo bacteriano (70S).", "correct": true },
+      { "text": "Tienen pared celular de peptidoglicano.", "correct": false },
+      { "text": "Pueden vivir fuera de la célula eucariota.", "correct": false },
+      { "text": "Realizan fotosíntesis.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Parecen bacterias atrapadas dentro de la célula.",
+    "explanation": "La presencia de ADN propio y maquinaria de síntesis proteica similar a bacterias sugiere que fueron organismos independientes fagocitados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "El citoesqueleto da forma y movimiento a la célula. ¿Qué componente forma los cilios, flagelos y el huso mitótico?",
+    "image": null,
+    "options": [
+      { "text": "Microtúbulos (Tubulina)", "correct": true },
+      { "text": "Microfilamentos (Actina)", "correct": false },
+      { "text": "Filamentos intermedios (Queratina)", "correct": false },
+      { "text": "Colágeno", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Son como tubos huecos que sirven de 'rieles' de transporte.",
+    "explanation": "Los microtúbulos son estructuras dinámicas que organizan el movimiento celular interno y externo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Un caso genético del CEPREDIX describe una enfermedad mitocondrial que afecta la producción de energía. ¿Por qué esta enfermedad se hereda exclusivamente de la madre?",
+    "image": null,
+    "options": [
+      { "text": "Las mitocondrias del cigoto provienen casi exclusivamente del óvulo; las del espermatozoide no entran o se degradan.", "correct": true },
+      { "text": "El cromosoma Y destruye las mitocondrias.", "correct": false },
+      { "text": "Es un gen ligado al cromosoma X.", "correct": false },
+      { "text": "Las mitocondrias paternas son recesivas.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El espermatozoide es pequeño y solo aporta núcleo. El óvulo es gigante y pone todo el citoplasma.",
+    "explanation": "La herencia mitocondrial es materna porque el citoplasma del cigoto (donde están las mitocondrias) lo aporta el óvulo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Además de la síntesis de lípidos, ¿qué función crucial realiza el Retículo Endoplasmático Liso (REL) en las células del hígado?",
+    "image": null,
+    "options": [
+      { "text": "Detoxificación de fármacos y venenos.", "correct": true },
+      { "text": "Síntesis de proteínas de exportación.", "correct": false },
+      { "text": "Digestión de organelos viejos.", "correct": false },
+      { "text": "Producción de ATP.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Ayuda a limpiar la sangre de sustancias tóxicas.",
+    "explanation": "El REL contiene enzimas que modifican sustancias tóxicas para hacerlas solubles y eliminables.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Durante el ciclo celular, ¿en qué fase ocurre la replicación del ADN?",
+    "image": null,
+    "options": [
+      { "text": "Fase S (Síntesis) de la Interfase.", "correct": true },
+      { "text": "Fase G1 de la Interfase.", "correct": false },
+      { "text": "Profase de la Mitosis.", "correct": false },
+      { "text": "Citocinesis.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Debe duplicarse el manual de instrucciones antes de dividir la célula.",
+    "explanation": "En la Fase S se duplica el material genético para que cada célula hija reciba una copia completa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Identifica la fase de la mitosis donde las cromátidas hermanas se separan y son arrastradas hacia polos opuestos.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mitosis_stages_es.svg/400px-Mitosis_stages_es.svg.png",
+    "options": [
+      { "text": "Anafase", "correct": true },
+      { "text": "Metafase", "correct": false },
+      { "text": "Profase", "correct": false },
+      { "text": "Telofase", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "'Ana' significa hacia arriba o atrás. Las cromátidas se alejan.",
+    "explanation": "Durante la anafase, el acortamiento de los microtúbulos del huso separa los cromosomas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "¿Cuál es la importancia biológica del entrecruzamiento (crossing-over) en la Meiosis I?",
+    "image": null,
+    "options": [
+      { "text": "Aumenta la variabilidad genética al intercambiar fragmentos entre cromosomas homólogos.", "correct": true },
+      { "text": "Asegura que las células hijas sean idénticas.", "correct": false },
+      { "text": "Reduce el número de cromosomas a la mitad.", "correct": false },
+      { "text": "Repara daños en el ADN.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es barajar las cartas antes de repartirlas.",
+    "explanation": "El crossing-over crea nuevas combinaciones de alelos, generando diversidad en la descendencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "En las células eucariotas, la ______ ocurre en el núcleo produciendo ARNm, y la ______ ocurre en el citoplasma (ribosomas) produciendo proteínas.",
+    "image": null,
+    "options": [
+      { "text": "transcripción, traducción", "correct": true },
+      { "text": "traducción, transcripción", "correct": false },
+      { "text": "replicación, transcripción", "correct": false },
+      { "text": "traducción, replicación", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primero copias el texto (transcribir) y luego cambias de idioma nucleótido a aminoácido (traducir).",
+    "explanation": "El ADN se transcribe a ARN en el núcleo. El ARN sale y se traduce a proteína en el citoplasma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Si un codón del ARNm es 5'-AUG-3', ¿cuál es el anticodón correspondiente en el ARNt?",
+    "image": null,
+    "options": [
+      { "text": "3'-UAC-5'", "correct": true },
+      { "text": "3'-TAC-5'", "correct": false },
+      { "text": "3'-AUG-5'", "correct": false },
+      { "text": "3'-GUA-5'", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda el emparejamiento de bases en ARN: A con U, G con C. Y la dirección antiparalela.",
+    "explanation": "A se une con U, U con A, G con C. El anticodón es complementario al codón.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "¿Qué enzima es responsable de romper los puentes de hidrógeno y 'abrir' la doble hélice de ADN durante la replicación?",
+    "image": null,
+    "options": [
+      { "text": "Helicasa", "correct": true },
+      { "text": "ADN Polimerasa", "correct": false },
+      { "text": "Ligasa", "correct": false },
+      { "text": "Primasa", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Su nombre suena a 'hélice'.",
+    "explanation": "La helicasa desenrolla y separa las hebras de ADN para permitir la copia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "En un estudio enzimático del CEPREDIX, se añade un inhibidor que se une al sitio activo de la enzima, compitiendo con el sustrato. ¿Qué tipo de inhibición es y cómo se puede revertir?",
+    "image": null,
+    "options": [
+      { "text": "Inhibición competitiva; se revierte aumentando la concentración de sustrato.", "correct": true },
+      { "text": "Inhibición no competitiva; no se puede revertir con sustrato.", "correct": false },
+      { "text": "Inhibición alostérica; cambiando el pH.", "correct": false },
+      { "text": "Desnaturalización; enfriando la muestra.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es como el juego de las sillas: si hay muchas más personas (sustrato) que inhibidores, las personas ganan.",
+    "explanation": "Al competir por el mismo sitio, si añades mucho sustrato, este desplaza al inhibidor por probabilidad estadística.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "¿Cuál es el balance neto de energía producido en la glucólisis por cada molécula de glucosa?",
+    "image": null,
+    "options": [
+      { "text": "2 ATP y 2 NADH", "correct": true },
+      { "text": "4 ATP y 2 NADH", "correct": false },
+      { "text": "36 ATP", "correct": false },
+      { "text": "2 ATP y 2 $FADH_2$", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Se invierten 2 ATP y se generan 4 ATP.",
+    "explanation": "La ganancia bruta es 4, pero se gastan 2 al inicio, dejando una ganancia neta de 2 ATP y poder reductor (NADH).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "¿Dónde ocurre el Ciclo de Krebs en las células eucariotas y cuál es su principal función?",
+    "image": null,
+    "options": [
+      { "text": "Matriz mitocondrial; generar transportadores de electrones (NADH, $FADH_2$).", "correct": true },
+      { "text": "Citoplasma; romper la glucosa.", "correct": false },
+      { "text": "Membrana interna mitocondrial; producir ATP directo.", "correct": false },
+      { "text": "Cloroplasto; fijar carbono.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Ocurre en lo más profundo de la mitocondria. Carga las 'baterías' para la siguiente etapa.",
+    "explanation": "El ciclo de Krebs oxida el Acetil-CoA para cargar moléculas (NADH/FADH2) que llevarán energía a la cadena de transporte.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "En la fosforilación oxidativa, ¿qué fuerza impulsa directamente la síntesis de ATP por la ATP sintasa?",
+    "image": null,
+    "options": [
+      { "text": "El flujo de protones ($H^+$) a favor de su gradiente electroquímico.", "correct": true },
+      { "text": "La ruptura de la molécula de oxígeno.", "correct": false },
+      { "text": "La hidrólisis de GTP.", "correct": false },
+      { "text": "La transferencia de electrones entre citocromos.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es como una presa hidroeléctrica: el agua (protones) cae y mueve la turbina.",
+    "explanation": "La cadena de electrones bombea protones creando un gradiente. Al regresar los protones por la ATP sintasa, activan la producción de ATP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "Cuando hacemos ejercicio intenso y falta oxígeno, nuestras células musculares realizan fermentación ______, produciendo ______.",
+    "image": null,
+    "options": [
+      { "text": "láctica, lactato", "correct": true },
+      { "text": "alcohólica, etanol", "correct": false },
+      { "text": "aeróbica, $CO_2$", "correct": false },
+      { "text": "acética, vinagre", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es lo que supuestamente causa dolor muscular (aunque es un mito parcial). No nos emborrachamos al correr.",
+    "explanation": "Las células animales regeneran NAD+ mediante fermentación láctica en ausencia de oxígeno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "En el cloroplasto, la fase luminosa de la fotosíntesis ocurre en ______ y la fase oscura (Ciclo de Calvin) en ______.",
+    "image": null,
+    "options": [
+      { "text": "los tilacoides, el estroma", "correct": true },
+      { "text": "el estroma, los tilacoides", "correct": false },
+      { "text": "la membrana externa, la interna", "correct": false },
+      { "text": "el citoplasma, la mitocondria", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La luz golpea las 'monedas' verdes apiladas. El azúcar se hace en el líquido alrededor.",
+    "explanation": "Los tilacoides contienen la clorofila para captar luz. El estroma es el fluido donde se fija el $CO_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "¿Cuál es la función de un receptor de membrana acoplado a proteína G?",
+    "image": null,
+    "options": [
+      { "text": "Recibir una señal externa (ligando) y activar una cascada de señalización interna.", "correct": true },
+      { "text": "Transportar iones directamente al núcleo.", "correct": false },
+      { "text": "Digestar bacterias.", "correct": false },
+      { "text": "Crear estructura rígida para la célula.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es como un timbre: tocas afuera y suena adentro.",
+    "explanation": "Transduce señales del exterior al interior celular, activando segundos mensajeros para generar una respuesta fisiológica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EQ",
+    "question": "Un paciente presenta una gasometría arterial con los siguientes valores: pH 7.25, $PaCO_2$ 60 mmHg y $HCO_3^-$ 26 mEq/L. De acuerdo con la ecuación de Henderson-Hasselbalch $pH = pK_a + \\log(\\frac{[A^-]}{[HA]})$, ¿cuál es el trastorno primario y qué mecanismo compensatorio debería activarse a largo plazo?",
+    "image": null,
+    "options": [
+      { "text": "Acidosis respiratoria; el riñón retendrá bicarbonato y excretará protones.", "correct": true },
+      { "text": "Acidosis metabólica; los pulmones hiperventilarán.", "correct": false },
+      { "text": "Alcalosis respiratoria; el riñón excretará bicarbonato.", "correct": false },
+      { "text": "Acidosis respiratoria; los pulmones hipoventilarán más.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "El pH bajo indica acidosis. El $CO_2$ alto indica causa respiratoria. La compensación siempre es por el sistema opuesto (renal).",
+    "explanation": "El aumento de $CO_2$ (ácido volátil) baja el pH. El riñón compensa lentamente aumentando la reabsorción de $HCO_3^-$ para elevar el pH hacia la normalidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ER",
+    "question": "En un estudio del CEPREDIX sobre función renal, se calcula el 'Clearance' o depuración de una sustancia X. Si la concentración en orina es $U_x = 100 \\text{ mg/dL}$, el flujo urinario es $V = 2 \\text{ mL/min}$ y la concentración plasmática es $P_x = 2 \\text{ mg/dL}$. ¿Cuál es la tasa de depuración ($C_x$)?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ mL/min}$", "correct": true },
+      { "text": "$50 \\text{ mL/min}$", "correct": false },
+      { "text": "$200 \\text{ mL/min}$", "correct": false },
+      { "text": "$10 \\text{ mL/min}$", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La fórmula es $C = \\frac{U \\cdot V}{P}$. Asegúrate de que las unidades sean consistentes.",
+    "explanation": "Sustituyendo: $C = \\frac{100 \\cdot 2}{2} = 100 \\text{ mL/min}$. Esto sugiere que la sustancia se filtra libremente, similar a la inulina o creatinina estimada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "La osmolaridad plasmática efectiva se estima con la fórmula: $2[Na^+] + \\frac{Glucosa}{18}$. Si un paciente diabético tiene $[Na^+] = 135 \\text{ mEq/L}$ y Glucosa $= 900 \\text{ mg/dL}$, ¿cuál es su osmolaridad calculada y qué efecto tiene en las células cerebrales?",
+    "image": null,
+    "options": [
+      { "text": "$320 \\text{ mOsm/L}$; causa deshidratación celular (crenación).", "correct": true },
+      { "text": "$270 \\text{ mOsm/L}$; causa edema celular.", "correct": false },
+      { "text": "$290 \\text{ mOsm/L}$; estado isotónico.", "correct": false },
+      { "text": "$185 \\text{ mOsm/L}$; causa lisis celular.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Divide la glucosa entre 18 y suma el doble del sodio.",
+    "explanation": "$2(135) + 900/18 = 270 + 50 = 320 \\text{ mOsm/L}$. El valor normal es aprox. 285-295. Es un estado hiperosmolar que saca agua de las células.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "El Efecto Bohr describe cómo la afinidad de la hemoglobina por el oxígeno disminuye cuando aumenta la concentración de $CO_2$ y protones ($H^+$). ¿Hacia dónde se desplaza la curva de disociación de la oxihemoglobina en un tejido metabólicamente activo (ácido)?",
+    "image": null,
+    "options": [
+      { "text": "Hacia la derecha, facilitando la liberación de $O_2$.", "correct": true },
+      { "text": "Hacia la izquierda, aumentando la retención de $O_2$.", "correct": false },
+      { "text": "No se desplaza, solo cambia la saturación máxima.", "correct": false },
+      { "text": "Hacia arriba, aumentando la capacidad total.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Si el tejido trabaja mucho, produce ácido y necesita oxígeno. La hemoglobina debe 'soltarlo' más fácil.",
+    "explanation": "El desplazamiento a la derecha (Efecto Bohr) reduce la afinidad, permitiendo que el oxígeno se descargue donde más se necesita (tejidos ácidos/activos).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "El sistema Renina-Angiotensina-Aldosterona (SRAA) regula la presión arterial a largo plazo. Si se administra un inhibidor de la Enzima Convertidora de Angiotensina (IECA), ¿cuál es el efecto fisiológico esperado en los niveles de Angiotensina II y Aldosterona?",
+    "image": null,
+    "options": [
+      { "text": "Disminución de Angiotensina II y disminución de Aldosterona.", "correct": true },
+      { "text": "Aumento de Angiotensina II y disminución de Aldosterona.", "correct": false },
+      { "text": "Disminución de Angiotensina II y aumento de Aldosterona.", "correct": false },
+      { "text": "Aumento de ambas hormonas por retroalimentación.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La ECA convierte Angiotensina I en II. Si bloqueas la enzima, el producto (Ang II) baja.",
+    "explanation": "Al bloquear la conversión, baja la Angiotensina II. Como la Ang II estimula la secreción de Aldosterona, esta última también disminuye, reduciendo la presión arterial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "Para determinar la causa de una acidosis metabólica, se calcula el 'Anion Gap' (Brecha Aniónica) usando la fórmula: $AG = [Na^+] - ([Cl^-] + [HCO_3^-])$. ¿Qué indica un Anion Gap elevado ($>12 \\text{ mEq/L}$)?",
+    "image": null,
+    "options": [
+      { "text": "Presencia de ácidos no medibles (lactato, cetonas, tóxicos).", "correct": true },
+      { "text": "Pérdida de bicarbonato (diarrea o acidosis tubular renal).", "correct": false },
+      { "text": "Exceso de cloro (hipercloremia).", "correct": false },
+      { "text": "Disminución de albúmina sérica.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La suma de cargas debe ser cero. Si faltan negativos 'medibles', hay negativos 'ocultos' (ácidos extraños).",
+    "explanation": "Un AG elevado significa que hay aniones ácidos extras en la sangre (normoclorémica), como en cetoacidosis, acidosis láctica o insuficiencia renal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "La Ley de Frank-Starling del corazón establece que, dentro de límites fisiológicos, el corazón bombea toda la sangre que le llega. ¿Qué relación describe este mecanismo intrínseco de regulación?",
+    "image": null,
+    "options": [
+      { "text": "A mayor volumen telediastólico (precarga), mayor fuerza de contracción sistólica.", "correct": true },
+      { "text": "A mayor resistencia vascular (postcarga), mayor volumen sistólico.", "correct": false },
+      { "text": "La frecuencia cardíaca es inversamente proporcional al retorno venoso.", "correct": false },
+      { "text": "El corazón se contrae con fuerza constante independientemente del llenado.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Piensa en una liga o resorte: cuanto más la estiras (llenado), con más fuerza rebota.",
+    "explanation": "El estiramiento de las fibras miocárdicas (aumento de precarga) optimiza la superposición de actina-miosina, aumentando la fuerza de contracción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "Un alpinista asciende rápidamente a 5000 metros. Sufre alcalosis respiratoria. ¿Cuál es la adaptación renal que ocurre días después para restablecer el pH sanguíneo?",
+    "image": null,
+    "options": [
+      { "text": "Disminución de la reabsorción de $HCO_3^-$ y disminución de la excreción de $H^+$.", "correct": true },
+      { "text": "Aumento de la reabsorción de $HCO_3^-$ para amortiguar.", "correct": false },
+      { "text": "Aumento de la producción de amonio ($NH_4^+$).", "correct": false },
+      { "text": "Inhibición de la anhidrasa carbónica pulmonar.", "correct": false }
+    ],
+    "uni_tags": ["HOMEOSTASIS"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Si la sangre está alcalina (poco ácido), el riñón debe tirar la base (bicarbonato) y guardar el ácido.",
+    "explanation": "Para compensar la alcalosis respiratoria, el riñón elimina bicarbonato en la orina (bicarbonaturia) y retiene protones, bajando el pH hacia lo normal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "En una prueba de tamizaje para una nueva enfermedad viral, se obtienen los siguientes datos: Verdaderos Positivos = 80, Falsos Negativos = 20. ¿Cuál es la Sensibilidad de la prueba calculada como $\\frac{VP}{VP + FN}$?",
+    "image": null,
+    "options": [
+      { "text": "$80\\%$", "correct": true },
+      { "text": "$20\\%$", "correct": false },
+      { "text": "$90\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La sensibilidad mide la capacidad de detectar a los enfermos. El total de enfermos es $80 + 20$.",
+    "explanation": "Total de enfermos = 100. Detectados correctamente = 80. Sensibilidad = $80/100 = 0.8$ o $80\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Se realiza un estudio de cohortes para evaluar el tabaquismo y cáncer. Incidencia en fumadores = 20/1000. Incidencia en no fumadores = 5/1000. Calcula el Riesgo Relativo ($RR = \\frac{I_e}{I_o}$) e interpreta.",
+    "image": null,
+    "options": [
+      { "text": "$RR = 4$; los fumadores tienen 4 veces más riesgo de cáncer que los no fumadores.", "correct": true },
+      { "text": "$RR = 0.25$; el tabaquismo protege contra el cáncer.", "correct": false },
+      { "text": "$RR = 15$; el riesgo atribuible es alto.", "correct": false },
+      { "text": "$RR = 400$; error de cálculo.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Divide la incidencia del grupo expuesto entre la del grupo no expuesto.",
+    "explanation": "$RR = 0.020 / 0.005 = 4$. Un RR mayor a 1 indica factor de riesgo. En este caso, el riesgo se cuadruplica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "El número básico de reproducción ($R_0$) de una cepa de sarampión es 18. ¿Qué porcentaje mínimo de la población debe vacunarse para lograr la inmunidad de rebaño, usando la fórmula $U_c = 1 - \\frac{1}{R_0}$?",
+    "image": null,
+    "options": [
+      { "text": "$94.4\\%$ aproximadamente.", "correct": true },
+      { "text": "$50\\%$ aproximadamente.", "correct": false },
+      { "text": "$80.5\\%$ aproximadamente.", "correct": false },
+      { "text": "$18\\%$ aproximadamente.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Calcula el inverso de 18 y réstalo de 1. Luego convierte a porcentaje.",
+    "explanation": "$1 - (1/18) = 1 - 0.055 = 0.944$. Se requiere vacunar al $94.4\\%$ de la población para detener la transmisión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "El concepto de 'Prevención Cuaternaria' se refiere a:",
+    "image": null,
+    "options": [
+      { "text": "Acciones que evitan o atenúan las consecuencias de la intervención médica excesiva o innecesaria (iatrogenia).", "correct": true },
+      { "text": "Cuidados paliativos en fase terminal.", "correct": false },
+      { "text": "Prevención de enfermedades mentales.", "correct": false },
+      { "text": "Uso de tecnología de cuarta generación en cirugía.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Es el principio de 'Primero no hacer daño' aplicado a la sobremedicación.",
+    "explanation": "Busca proteger al paciente de diagnósticos y tratamientos innecesarios que pueden causar más daño que beneficio (sobrediagnóstico).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "En un brote de intoxicación alimentaria en una boda, asistieron 200 personas. 150 comieron pastel y de ellos 90 enfermaron. 50 no comieron pastel y 5 enfermaron. ¿Cuál es la Tasa de Ataque Específica para los que comieron pastel?",
+    "image": null,
+    "options": [
+      { "text": "$60\\%$", "correct": true },
+      { "text": "$45\\%$", "correct": false },
+      { "text": "$90\\%$", "correct": false },
+      { "text": "$30\\%$", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La tasa de ataque es (Enfermos expuestos / Total expuestos) x 100.",
+    "explanation": "$90$ enfermos / $150$ expuestos $= 0.6$. Multiplicado por 100 da $60\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "La relación entre Prevalencia ($P$), Incidencia ($I$) y Duración media de la enfermedad ($D$) en situación de estado estacionario se expresa como:",
+    "image": null,
+    "options": [
+      { "text": "$P \\approx I \\times D$", "correct": true },
+      { "text": "$I \\approx P \\times D$", "correct": false },
+      { "text": "$D \\approx P + I$", "correct": false },
+      { "text": "$P \\approx I / D$", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La prevalencia es como el agua en una bañera: depende de cuánto entra (incidencia) y cuánto tiempo se queda (duración).",
+    "explanation": "La prevalencia aumenta si hay nuevos casos (Incidencia) o si la enfermedad dura mucho tiempo (cronicidad).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Al evaluar una prueba diagnóstica, el Valor Predictivo Positivo (VPP) depende fuertemente de:",
+    "image": null,
+    "options": [
+      { "text": "La prevalencia de la enfermedad en la población estudiada.", "correct": true },
+      { "text": "La especificidad únicamente.", "correct": false },
+      { "text": "El costo de la prueba.", "correct": false },
+      { "text": "La gravedad de la enfermedad.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Es la probabilidad de que si das positivo, realmente tengas la enfermedad. Si la enfermedad es muy rara, es más probable que sea un falso positivo.",
+    "explanation": "Aunque una prueba sea buena, si la prevalencia es muy baja, el VPP disminuye drásticamente (aumentan los falsos positivos proporcionales).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "En el modelo de Transición Epidemiológica, ¿qué caracteriza a la etapa de 'enfermedades degenerativas y producidas por el hombre'?",
+    "image": null,
+    "options": [
+      { "text": "Disminución de la mortalidad infantil por infecciones y aumento de enfermedades crónicas (cáncer, diabetes).", "correct": true },
+      { "text": "Alta mortalidad por pandemias y hambrunas.", "correct": false },
+      { "text": "Equilibrio entre natalidad y mortalidad alta.", "correct": false },
+      { "text": "Resurgimiento de enfermedades infecciosas exclusivamente.", "correct": false }
+    ],
+    "uni_tags": ["HISTORIA NAT ENF"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Ocurre cuando la población envejece y adopta estilos de vida sedentarios.",
+    "explanation": "Es el cambio de un perfil de salud dominado por infecciones agudas a uno dominado por enfermedades crónico-degenerativas debido a mayor esperanza de vida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "La ecuación de energía libre de Gibbs es $\\Delta G = \\Delta H - T\\Delta S$. ¿Qué condiciones garantizan que una reacción celular sea espontánea (exergónica)?",
+    "image": null,
+    "options": [
+      { "text": "$\\Delta G < 0$ (negativo).", "correct": true },
+      { "text": "$\\Delta G > 0$ (positivo).", "correct": false },
+      { "text": "$\\Delta H > 0$ y $\\Delta S < 0$.", "correct": false },
+      { "text": "$\\Delta G = 0$.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La energía libre debe disminuir para que el proceso ocurra sin aporte externo.",
+    "explanation": "Si $\\Delta G$ es negativo, la reacción libera energía útil y ocurre espontáneamente. Si es positivo, requiere energía (endergónica).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "En un análisis cinético enzimático del CEPREDIX, se observa que un inhibidor aumenta el valor de $K_m$ pero no altera la $V_{max}$. ¿Qué tipo de inhibidor es?",
+    "image": null,
+    "options": [
+      { "text": "Inhibidor Competitivo.", "correct": true },
+      { "text": "Inhibidor No Competitivo.", "correct": false },
+      { "text": "Inhibidor Acompetitivo.", "correct": false },
+      { "text": "Inhibidor Irreversible.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Compite por el sitio activo. Si pones mucho sustrato, alcanzas la misma velocidad máxima, pero necesitas más sustrato (menor afinidad aparente).",
+    "explanation": "El inhibidor competitivo ocupa el sitio activo, requiriendo más sustrato para llegar a la mitad de $V_{max}$ (aumenta $K_m$), pero la $V_{max}$ es alcanzable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "La Reacción en Cadena de la Polimerasa (PCR) amplifica ADN exponencialmente. Si partimos de una molécula de ADN bicatenario, ¿cuántas moléculas teóricas habrá después de 30 ciclos? Fórmula: $2^n$.",
+    "image": null,
+    "options": [
+      { "text": "$2^{30}$ (aprox. mil millones).", "correct": true },
+      { "text": "$30 \\times 2 = 60$.", "correct": false },
+      { "text": "$30^2 = 900$.", "correct": false },
+      { "text": "$2 \\times 10^{30}$.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "El crecimiento es exponencial, duplicándose en cada ciclo.",
+    "explanation": "En cada ciclo se duplica el número. Tras 30 ciclos: $2^{30} \\approx 1.07 \\times 10^9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "En la regulación del Operón Lac, ¿qué sucede molecularmente cuando hay Lactosa presente pero NO hay Glucosa?",
+    "image": null,
+    "options": [
+      { "text": "El represor se inactiva, aumentan los niveles de AMPc, se une CAP y la transcripción es máxima.", "correct": true },
+      { "text": "El represor está unido al operador y no hay transcripción.", "correct": false },
+      { "text": "Hay transcripción basal baja porque falta el activador CAP.", "correct": false },
+      { "text": "La ARN polimerasa es degradada.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Sin glucosa, la célula tiene 'hambre' y activa la señal de AMPc para usar otras fuentes con urgencia.",
+    "explanation": "La lactosa quita el freno (represor). La falta de glucosa sube el AMPc, activando CAP (acelerador). Resultado: máxima expresión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "El 2,4-dinitrofenol (DNP) actúa como un desacoplante de la fosforilación oxidativa al hacer permeable la membrana mitocondrial interna a los protones. ¿Cuál es el efecto fisiológico?",
+    "image": null,
+    "options": [
+      { "text": "Disminuye la síntesis de ATP, aumenta el consumo de oxígeno y se genera mucho calor (hipertermia).", "correct": true },
+      { "text": "Aumenta la síntesis de ATP y disminuye el calor.", "correct": false },
+      { "text": "Se detiene el transporte de electrones completamente.", "correct": false },
+      { "text": "Se inhibe el Ciclo de Krebs.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La energía del gradiente de protones no se usa para mover la turbina de ATP, sino que se disipa.",
+    "explanation": "Al disipar el gradiente de protones sin pasar por la ATP sintasa, la energía se libera como calor en lugar de almacenarse como ATP. La célula quema combustible frenéticamente tratando de compensar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "El gen *TP53* codifica para la proteína p53, conocida como el 'guardián del genoma'. ¿Cuál es su función principal en el punto de control G1/S?",
+    "image": null,
+    "options": [
+      { "text": "Detectar daño en el ADN y detener el ciclo celular para reparar o inducir apoptosis.", "correct": true },
+      { "text": "Acelerar la entrada a la mitosis.", "correct": false },
+      { "text": "Fosforilar la proteína Rb para liberar E2F.", "correct": false },
+      { "text": "Sintetizar histonas.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Si el ADN está roto, esta proteína impide que la célula lo copie.",
+    "explanation": "p53 activa p21, que inhibe las CDKs, deteniendo el ciclo. Si el daño es irreparable, p53 activa la muerte celular programada para evitar cáncer.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "Durante la traducción de proteínas, la formación de cada enlace peptídico y la translocación del ribosoma requieren energía. ¿Qué molécula aporta esta energía y cuántos enlaces de alta energía se consumen por cada aminoácido añadido (en elongación)?",
+    "image": null,
+    "options": [
+      { "text": "GTP; se consumen 2 GTP (1 para acomodar el ARNt, 1 para translocación).", "correct": true },
+      { "text": "ATP; se consume 1 ATP.", "correct": false },
+      { "text": "ATP; se consumen 3 ATP.", "correct": false },
+      { "text": "UTP; se consumen 2 UTP.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "En la síntesis de proteínas, el GTP es el rey, no el ATP.",
+    "explanation": "Se requiere hidrólisis de GTP por los factores de elongación (EF-Tu y EF-G en procariotas) para asegurar precisión y movimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "En la vía de señalización del receptor $\\beta$-adrenérgico, la activación de la proteína Gs estimula a la enzima ______ para producir el segundo mensajero ______.",
+    "image": null,
+    "options": [
+      { "text": "Adenilato ciclasa, AMP cíclico (AMPc).", "correct": true },
+      { "text": "Fosfolipasa C, $IP_3$.", "correct": false },
+      { "text": "Tirosina quinasa, GMPc.", "correct": false },
+      { "text": "Guaniato ciclasa, Calcio.", "correct": false }
+    ],
+    "uni_tags": ["BIO CEL Y MOL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Es la vía clásica de la adrenalina. El ATP se convierte en un mensajero cíclico.",
+    "explanation": "La subunidad alfa de la proteína Gs activa la Adenilato ciclasa, que convierte ATP en AMPc. El AMPc activa la Proteína Quinasa A (PKA).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
