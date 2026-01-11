@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "En una campaña de salud pública, se aplicaron 1,500 vacunas contra la influenza en una comunidad de 6,000 habitantes. Si la meta es cubrir al 80% de la población para alcanzar la inmunidad de rebaño, ¿cuántas vacunas faltan por aplicar y a qué nivel de prevención corresponde esta acción?",
+    "image": null,
+    "options": [
+      { "text": "3,300 vacunas y Prevención Primaria", "correct": true },
+      { "text": "3,300 vacunas y Prevención Secundaria", "correct": false },
+      { "text": "4,800 vacunas y Prevención Primaria", "correct": false },
+      { "text": "1,500 vacunas y Prevención Terciaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Calcula el 80% de 6,000 y resta las ya aplicadas. La vacunación es protección específica.",
+    "explanation": "El 80% de 6,000 es 4,800. Faltan 4,800 - 1,500 = 3,300. La vacunación ocurre en el periodo prepatogénico (Prevención Primaria).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Un cultivo de bacterias *Salmonella typhi* inicia con 100 microorganismos y se duplica cada 30 minutos. Si no se aplican medidas de control, ¿cuántas bacterias habrá al cabo de 3 horas y qué término describe la capacidad de este agente para producir enfermedad?",
+    "image": null,
+    "options": [
+      { "text": "6,400 bacterias y Patogenicidad", "correct": true },
+      { "text": "3,200 bacterias y Virulencia", "correct": false },
+      { "text": "6,400 bacterias y Antigenicidad", "correct": false },
+      { "text": "600 bacterias y Patogenicidad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Usa la fórmula N = N_inicial * 2^n. En 3 horas hay 6 periodos de 30 minutos.",
+    "explanation": "100 * 2^6 = 6,400. La patogenicidad es la capacidad del agente biológico para producir enfermedad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Un paciente de 80 kg requiere una dosis de antibiótico de 15 mg/kg/día, dividida en 3 tomas. ¿Cuántos mg debe ingerir en cada toma y qué célula sanguínea combate principalmente a las bacterias?",
+    "image": null,
+    "options": [
+      { "text": "400 mg y Neutrófilos", "correct": true },
+      { "text": "1,200 mg y Eritrocitos", "correct": false },
+      { "text": "400 mg y Plaquetas", "correct": false },
+      { "text": "600 mg y Basófilos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Calcula la dosis total diaria y divídela entre 3. Los granulocitos fagocitan bacterias.",
+    "explanation": "Dosis total: 80 * 15 = 1,200 mg. Por toma: 1,200 / 3 = 400 mg. Los neutrófilos son la primera línea de defensa contra bacterias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "El hígado produce 800 ml de bilis al día, pero por una obstrucción solo se libera el 65% al duodeno. ¿Cuántos ml se retienen y qué estructura almacena y concentra la bilis?",
+    "image": null,
+    "options": [
+      { "text": "280 ml y la Vesícula biliar", "correct": true },
+      { "text": "520 ml y el Páncreas", "correct": false },
+      { "text": "280 ml y el Hígado", "correct": false },
+      { "text": "520 ml y la Vesícula biliar", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Si se libera el 65%, se retiene el 35%.",
+    "explanation": "800 * 0.35 = 280 ml retenidos. La vesícula biliar almacena la bilis producida por el hígado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "En la hemofilia (ligada al cromosoma X), si un padre enfermo y una madre portadora tienen 4 hijos varones, estadísticamente ¿cuántos se espera que estén enfermos y qué factor de coagulación suele faltar?",
+    "image": null,
+    "options": [
+      { "text": "2 hijos (50%) y Factor VIII", "correct": true },
+      { "text": "1 hijo (25%) y Albúmina", "correct": false },
+      { "text": "4 hijos (100%) y Hemoglobina", "correct": false },
+      { "text": "0 hijos (0%) y Fibrinógeno", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "El padre da Y, la madre da X (sano o portador). Probabilidad 50/50.",
+    "explanation": "De la madre portadora, hay 50% chance de heredar el gen defectuoso. 50% de 4 es 2. La hemofilia A es déficit del Factor VIII.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Convierte 39.5 °C a Fahrenheit para un reporte internacional ($F = 1.8C + 32$). ¿Cuál es el resultado y qué término médico describe esta temperatura elevada?",
+    "image": null,
+    "options": [
+      { "text": "103.1 °F e Hipertermia/Fiebre", "correct": true },
+      { "text": "101.5 °F e Hipotermia", "correct": false },
+      { "text": "98.6 °F y Febrícula", "correct": false },
+      { "text": "71.1 °F e Hipertermia/Fiebre", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Multiplica por 1.8 y suma 32.",
+    "explanation": "39.5 * 1.8 = 71.1; 71.1 + 32 = 103.1. Temperatura > 38°C se considera fiebre o hipertermia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "La oxidación de una molécula de glucosa genera teóricamente 38 ATP. Si se consumen 25 moléculas, ¿cuántos ATP se producen y en qué organelo ocurre el ciclo de Krebs?",
+    "image": null,
+    "options": [
+      { "text": "950 ATP y Mitocondria", "correct": true },
+      { "text": "50 ATP y Citoplasma", "correct": false },
+      { "text": "950 ATP y Ribosoma", "correct": false },
+      { "text": "380 ATP y Mitocondria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Multiplicación directa: 25 por 38.",
+    "explanation": "25 * 38 = 950 ATP. La mitocondria es la central energética donde ocurre la respiración celular aerobia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Un hipertenso debe consumir máx 2g de sodio al día. Si la sal (NaCl) tiene 40% de sodio, ¿cuántos gramos de sal puede comer y qué nivel de prevención es este cambio de dieta?",
+    "image": null,
+    "options": [
+      { "text": "5 gramos y Prevención Secundaria", "correct": true },
+      { "text": "2 gramos y Prevención Primaria", "correct": false },
+      { "text": "8 gramos y Prevención Terciaria", "correct": false },
+      { "text": "5 gramos y Prevención Primaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Regla de tres: 0.4x = 2g. O divide 2 entre 0.4.",
+    "explanation": "2 / 0.4 = 5g de sal. El tratamiento y control de una enfermedad ya diagnosticada es Prevención Secundaria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "El volumen sanguíneo es el 7% del peso corporal. En una persona de 70 kg que pierde el 20% de su sangre, ¿cuántos litros pierde y qué célula es la más abundante en el fluido perdido?",
+    "image": null,
+    "options": [
+      { "text": "0.98 litros y Eritrocitos", "correct": true },
+      { "text": "1.4 litros y Leucocitos", "correct": false },
+      { "text": "4.9 litros y Plaquetas", "correct": false },
+      { "text": "0.98 litros y Adipocitos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Volemia = 70 * 0.07. Pérdida = Volemia * 0.20.",
+    "explanation": "4.9 L * 0.20 = 0.98 L. Los eritrocitos son las células más abundantes de la sangre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Un impulso nervioso viaja a 100 m/s. En un axón de 1.2 m, ¿cuánto tarda en llegar (t=d/v) y qué sustancia transmite la señal en la sinapsis neuromuscular?",
+    "image": null,
+    "options": [
+      { "text": "0.012 s y Acetilcolina", "correct": true },
+      { "text": "0.12 s y Adrenalina", "correct": false },
+      { "text": "120 ms y Dopamina", "correct": false },
+      { "text": "0.012 s e Insulina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Divide distancia entre velocidad.",
+    "explanation": "1.2 / 100 = 0.012 segundos. La acetilcolina es el neurotransmisor de la placa motora.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Calcula el IMC de un paciente de 90 kg y 1.50 m ($IMC = kg/m^2$) e indica su clasificación según la OMS.",
+    "image": null,
+    "options": [
+      { "text": "40 kg/m² y Obesidad Grado III", "correct": true },
+      { "text": "30 kg/m² y Sobrepeso", "correct": false },
+      { "text": "60 kg/m² y Obesidad Mórbida", "correct": false },
+      { "text": "26.6 kg/m² y Normal", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Eleva 1.5 al cuadrado y divide 90 entre ese resultado.",
+    "explanation": "1.5 * 1.5 = 2.25. 90 / 2.25 = 40. IMC >= 40 es Obesidad Grado III (Mórbida).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "La glucosa basal de 80 mg/dL sube un 60% tras comer. ¿Cuál es el nivel final y qué hormona pancreática debe reducirlo?",
+    "image": null,
+    "options": [
+      { "text": "128 mg/dL e Insulina", "correct": true },
+      { "text": "140 mg/dL y Glucagón", "correct": false },
+      { "text": "48 mg/dL e Insulina", "correct": false },
+      { "text": "128 mg/dL y Cortisol", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Calcula el incremento (80 * 0.6) y suma.",
+    "explanation": "80 + 48 = 128. La insulina (células beta) disminuye la glucemia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Si la frecuencia respiratoria máxima normal es 20 rpm y un paciente tiene un 50% extra (taquipnea), ¿cuál es su frecuencia y dónde ocurre el intercambio de gases?",
+    "image": null,
+    "options": [
+      { "text": "30 rpm y Alvéolos", "correct": true },
+      { "text": "25 rpm y Bronquios", "correct": false },
+      { "text": "30 rpm y Tráquea", "correct": false },
+      { "text": "10 rpm y Alvéolos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "El 50% de 20 es 10. Súmalo.",
+    "explanation": "20 + 10 = 30 rpm. La hematosis ocurre en la membrana alveolocapilar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Para preparar 2 litros de solución salina al 0.9% (0.9g/100ml), ¿cuántos gramos de NaCl se necesitan y qué órgano regula los electrolitos?",
+    "image": null,
+    "options": [
+      { "text": "18 g y Riñón", "correct": true },
+      { "text": "9 g y Hígado", "correct": false },
+      { "text": "180 g y Páncreas", "correct": false },
+      { "text": "1.8 g y Piel", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "2 litros son 2000 ml. Hay 20 veces 100ml.",
+    "explanation": "0.9 * 20 = 18g. El riñón es el principal regulador hidroelectrolítico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Gasto Cardíaco = Frecuencia * Volumen Sistólico. Si FC=70 lpm y VS=70 ml, ¿cuál es el gasto en litros/min y qué cavidad bombea a la aorta?",
+    "image": null,
+    "options": [
+      { "text": "4.9 L/min y Ventrículo Izquierdo", "correct": true },
+      { "text": "49 L/min y Aurícula Derecha", "correct": false },
+      { "text": "5.6 L/min y Ventrículo Derecho", "correct": false },
+      { "text": "4.9 L/min y Aorta", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Multiplica y divide entre 1000 para litros.",
+    "explanation": "70 * 70 = 4900 ml = 4.9 L. El ventrículo izquierdo eyecta sangre a la circulación sistémica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "De 206 huesos, el 39% son axiales. ¿Cuántos son apendiculares (el resto) y cuál es una función del sistema esquelético?",
+    "image": null,
+    "options": [
+      { "text": "Aprox 126 y Soporte/Protección", "correct": true },
+      { "text": "Aprox 80 y Transmisión nerviosa", "correct": false },
+      { "text": "Aprox 100 y Termorregulación", "correct": false },
+      { "text": "Aprox 150 y Digestión", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "El complemento de 39% es 61%. O resta los axiales del total.",
+    "explanation": "El esqueleto apendicular son aprox 126 huesos. El esqueleto protege órganos y da soporte.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "La fiebre de 41°C reduce la actividad enzimática un 20% por cada grado arriba de 38°C. ¿Qué actividad resta y qué son las enzimas?",
+    "image": null,
+    "options": [
+      { "text": "40% y Proteínas", "correct": true },
+      { "text": "60% y Lípidos", "correct": false },
+      { "text": "0% y Carbohidratos", "correct": false },
+      { "text": "80% y Proteínas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "41 - 38 = 3 grados. 3 * 20% = 60% perdido.",
+    "explanation": "Queda 40% de actividad. Las enzimas son catalizadores de naturaleza proteica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Si el 25% de 1,200 estudiantes tiene miopía, ¿cuántos son y qué tipo de lente corrige este defecto?",
+    "image": null,
+    "options": [
+      { "text": "300 y Lente Divergente (Cóncavo)", "correct": true },
+      { "text": "400 y Lente Convergente (Convexo)", "correct": false },
+      { "text": "300 y Lente Bifocal", "correct": false },
+      { "text": "250 y Lente Cilíndrico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Un cuarto de 1200.",
+    "explanation": "300 estudiantes. La miopía se corrige con lentes divergentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Si hay 50 células en 0.5 mm², ¿cuántas habrá en 2 cm² (200 mm²) asumiendo densidad constante y qué tejido tiene contracción involuntaria?",
+    "image": null,
+    "options": [
+      { "text": "20,000 y Músculo Liso", "correct": true },
+      { "text": "200 y Músculo Estriado", "correct": false },
+      { "text": "2,000 y Epitelio", "correct": false },
+      { "text": "10,000 y Músculo Liso", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Densidad = 100 cel/mm². Multiplica por 200.",
+    "explanation": "20,000 células. El músculo liso (visceral) es involuntario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "La presión arterial de oxígeno de 95 mmHg cae un 40% en hipoxia. ¿Cuál es el valor final y qué proteína transporta el O2?",
+    "image": null,
+    "options": [
+      { "text": "57 mmHg y Hemoglobina", "correct": true },
+      { "text": "38 mmHg y Albúmina", "correct": false },
+      { "text": "57 mmHg y Insulina", "correct": false },
+      { "text": "80 mmHg y Hemoglobina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "El 60% de 95 permanece.",
+    "explanation": "95 * 0.60 = 57 mmHg. La hemoglobina transporta el oxígeno en los eritrocitos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Probabilidad de fenotipo recesivo es 1/4. Probabilidad de que 4 hijos seguidos sean recesivos (eventos independientes): ¿Cuál es y qué ley de Mendel aplica?",
+    "image": null,
+    "options": [
+      { "text": "1/256 y Ley de Segregación", "correct": true },
+      { "text": "1/4 y Ley de Dominancia", "correct": false },
+      { "text": "1/16 y Ley de Uniformidad", "correct": false },
+      { "text": "1/64 y Ley de Segregación", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO", "SALUD"],
+    "hint": "(1/4)^4.",
+    "explanation": "1/256. La segregación de alelos permite la reaparición del recesivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Diluir el jugo gástrico (pH 2) 100 veces aumenta el pH en 2 unidades (escala log). ¿Cuál es el pH final y qué enzima actúa en el estómago?",
+    "image": null,
+    "options": [
+      { "text": "pH 4 y Pepsina", "correct": true },
+      { "text": "pH 0 y Amilasa", "correct": false },
+      { "text": "pH 7 y Lipasa", "correct": false },
+      { "text": "pH 4 y Tripsina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "2 + 2 = 4.",
+    "explanation": "pH 4. La pepsina digiere proteínas en medio ácido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Administrar 500 ml en 4 horas con equipo de 20 gotas/ml. ¿Gotas por minuto y vía de administración?",
+    "image": null,
+    "options": [
+      { "text": "42 gotas/min e Intravenosa", "correct": true },
+      { "text": "20 gotas/min e Intramuscular", "correct": false },
+      { "text": "125 gotas/min y Subcutánea", "correct": false },
+      { "text": "84 gotas/min e Intravenosa", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "(500 * 20) / 240 minutos.",
+    "explanation": "10000 / 240 = 41.6. Vía intravenosa (venoclisis).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "15,000 leucocitos, 80% son neutrófilos. ¿Cuántos neutrófilos hay y qué indica la neutrofilia?",
+    "image": null,
+    "options": [
+      { "text": "12,000 y Infección Bacteriana", "correct": true },
+      { "text": "8,000 y Infección Viral", "correct": false },
+      { "text": "3,000 y Alergia", "correct": false },
+      { "text": "12,000 y Parasitosis", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "80% de 15,000.",
+    "explanation": "12,000 neutrófilos. Su elevación sugiere infección bacteriana aguda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Entrada de agua: 2800 ml. Salidas conocidas: 2000 ml. ¿Cuánto debe ser el sudor para balance cero y qué órgano filtra la sangre?",
+    "image": null,
+    "options": [
+      { "text": "800 ml y Riñón", "correct": true },
+      { "text": "500 ml y Hígado", "correct": false },
+      { "text": "1,200 ml y Pulmón", "correct": false },
+      { "text": "800 ml y Páncreas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Resta salidas conocidas a las entradas.",
+    "explanation": "2800 - 2000 = 800 ml. El riñón filtra y excreta orina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Una célula tumoral se duplica 10 veces ($2^{10}$). ¿Cuántas células resultan y qué división celular usan las células somáticas?",
+    "image": null,
+    "options": [
+      { "text": "1,024 y Mitosis", "correct": true },
+      { "text": "100 y Meiosis", "correct": false },
+      { "text": "2,048 y Mitosis", "correct": false },
+      { "text": "512 y Fisión binaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "Potencia de 2 a la 10.",
+    "explanation": "1024 células. Las células somáticas se dividen por mitosis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Existen 4 bases nitrogenadas y codones de 3 letras ($4^3$). ¿Cuántas combinaciones hay y qué ácido nucleico lleva el mensaje?",
+    "image": null,
+    "options": [
+      { "text": "64 combinaciones y ARNm", "correct": true },
+      { "text": "16 combinaciones y ADN", "correct": false },
+      { "text": "64 combinaciones y ARNt", "correct": false },
+      { "text": "20 combinaciones y ARNm", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "4 * 4 * 4.",
+    "explanation": "64 codones. El ARN mensajero (ARNm) lleva la información.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "De 32 dientes, 12 son molares. ¿Qué porcentaje son y dónde inicia la digestión química?",
+    "image": null,
+    "options": [
+      { "text": "37.5% y en la Boca", "correct": true },
+      { "text": "25% y en el Estómago", "correct": false },
+      { "text": "50% y en el Intestino", "correct": false },
+      { "text": "12% y en el Esófago", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "12/32 * 100.",
+    "explanation": "37.5%. La amilasa salival inicia la digestión química en la boca.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Para un gasto de 25,000 ml/min con un volumen de 125 ml/latido, ¿qué frecuencia se requiere y qué es la sístole?",
+    "image": null,
+    "options": [
+      { "text": "200 lpm y Contracción", "correct": true },
+      { "text": "150 lpm y Relajación", "correct": false },
+      { "text": "200 lpm y Relajación", "correct": false },
+      { "text": "100 lpm y Contracción", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "25000 / 125.",
+    "explanation": "200 latidos por minuto. Sístole es la fase de contracción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Perder 1 kg de grasa (7,700 kcal) con un déficit diario de 1,100 kcal. ¿Cuántos días toma y qué proceso degrada grasas?",
+    "image": null,
+    "options": [
+      { "text": "7 días y Beta-oxidación", "correct": true },
+      { "text": "14 días y Glucólisis", "correct": false },
+      { "text": "5 días y Lipogénesis", "correct": false },
+      { "text": "7 días y Gluconeogénesis", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "7700 / 1100.",
+    "explanation": "7 días. La beta-oxidación cataboliza ácidos grasos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Quemaduras: Brazo der (9%) + Brazo izq (9%) + Mitad tronco (9%). ¿Total quemado y cuál es la capa más externa de la piel?",
+    "image": null,
+    "options": [
+      { "text": "27% y Epidermis", "correct": true },
+      { "text": "36% y Dermis", "correct": false },
+      { "text": "18% y Hipodermis", "correct": false },
+      { "text": "27% y Dermis", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "Suma simple.",
+    "explanation": "27%. La epidermis es la capa superficial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "400 mg de fármaco con vida media de 6 horas. Tras 18 horas (3 vidas medias), ¿cuánto queda y dónde se metaboliza?",
+    "image": null,
+    "options": [
+      { "text": "50 mg e Hígado", "correct": true },
+      { "text": "100 mg y Riñón", "correct": false },
+      { "text": "25 mg e Hígado", "correct": false },
+      { "text": "50 mg y Estómago", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "400 -> 200 -> 100 -> 50.",
+    "explanation": "50 mg. El hígado es el principal sitio de biotransformación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "La potencia óptica del cristalino cambia de 20 a 24 dioptrías. ¿Cuál es el % de incremento y qué capa del ojo es fotosensible?",
+    "image": null,
+    "options": [
+      { "text": "20% y Retina", "correct": true },
+      { "text": "4% y Córnea", "correct": false },
+      { "text": "16% y Retina", "correct": false },
+      { "text": "20% y Iris", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "4 es el 20% de 20.",
+    "explanation": "20% de aumento. La retina capta la luz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "De 15 kcal consumidas, solo el 20% es trabajo (eficiencia). ¿Cuántas kcal son trabajo y qué filamento es grueso en el sarcómero?",
+    "image": null,
+    "options": [
+      { "text": "3 kcal y Miosina", "correct": true },
+      { "text": "12 kcal y Actina", "correct": false },
+      { "text": "3 kcal y Troponina", "correct": false },
+      { "text": "30 kcal y Miosina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "SALUD"],
+    "hint": "20% de 15.",
+    "explanation": "3 kcal. La miosina forma los filamentos gruesos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Padre AB x Madre O. Probabilidad de hijo O y qué tipo de sangre es el receptor universal?",
+    "image": null,
+    "options": [
+      { "text": "0% y AB positivo", "correct": true },
+      { "text": "25% y O negativo", "correct": false },
+      { "text": "50% y AB negativo", "correct": false },
+      { "text": "100% y O positivo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "AB no tiene alelo i (O) para dar.",
+    "explanation": "0% probabilidad. AB+ recibe de todos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Cada infectado contagia a 4 ($R0=4$). En la 3ra generación (1 -> 4 -> 16 -> ?), ¿cuántos hay y qué componente es el virus?",
+    "image": null,
+    "options": [
+      { "text": "64 y Agente", "correct": true },
+      { "text": "16 y Huésped", "correct": false },
+      { "text": "64 y Ambiente", "correct": false },
+      { "text": "256 y Agente", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "SALUD"],
+    "hint": "4 al cubo.",
+    "explanation": "64 infectados. El virus es el Agente causal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Durante el 'Milagro Mexicano' (1940-1970), el PIB creció un promedio anual del 6%. Si el PIB de un año base hipotético fue de 500 mil millones, ¿cuál sería el PIB estimado al año siguiente y cómo se le denominó a la política económica de esta etapa caracterizada por la estabilidad?",
+    "image": null,
+    "options": [
+      { "text": "530 mil millones y Desarrollo Estabilizador", "correct": true },
+      { "text": "506 mil millones y Neoliberalismo", "correct": false },
+      { "text": "800 mil millones y Desarrollo Compartido", "correct": false },
+      { "text": "530 mil millones y Sustitución de Importaciones", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Calcula el 6% de 500 y súmalo. Esta etapa buscaba estabilidad de precios y cambio.",
+    "explanation": "500 * 0.06 = 30. 500 + 30 = 530. El Desarrollo Estabilizador fue el modelo económico del Milagro Mexicano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "La Primera Guerra Mundial comenzó en 1914 tras el asesinato del Archiduque Francisco Fernando. Si el conflicto duró aproximadamente 1,560 días, ¿cuántos años y meses (considerando meses de 30 días) duró el conflicto y qué alianza integraba Alemania?",
+    "image": null,
+    "options": [
+      { "text": "4 años y 4 meses; Potencias Centrales (Triple Alianza)", "correct": true },
+      { "text": "5 años y 2 meses; Triple Entente", "correct": false },
+      { "text": "3 años y 8 meses; El Eje", "correct": false },
+      { "text": "4 años y 4 meses; Los Aliados", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Divide 1560 entre 360 (aprox año comercial) o calcula años de 365 días. Alemania lideraba las Potencias Centrales.",
+    "explanation": "1560 / 360 = 4.33 años (4 años y 4 meses). Alemania y Austria-Hungría formaban las Potencias Centrales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "En 1898, la explosión del Maine precipitó la guerra Hispano-Estadounidense. Si de una tripulación de 350 marineros fallecieron 260, ¿qué fracción simplificada de la tripulación sobrevivió y qué colonia española logró su independencia tras este conflicto?",
+    "image": null,
+    "options": [
+      { "text": "9/35 y Cuba", "correct": true },
+      { "text": "26/35 y Puerto Rico", "correct": false },
+      { "text": "1/4 y Filipinas", "correct": false },
+      { "text": "9/35 y La Florida", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Resta los fallecidos al total para hallar sobrevivientes (90). Simplifica 90/350. Cuba se independizó de España.",
+    "explanation": "350 - 260 = 90 sobrevivientes. Fracción 90/350 = 9/35. El Tratado de París otorgó la independencia a Cuba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "A finales del siglo XIX, la industria de EE.UU. creció gracias a la mano de obra inmigrante. Si en una fábrica de 1,200 obreros, el 60% eran inmigrantes y de ellos la mitad eran irlandeses, ¿cuántos obreros irlandeses había y qué característica técnica favoreció su contratación?",
+    "image": null,
+    "options": [
+      { "text": "360 obreros y Simplificación de procesos (Taylorismo)", "correct": true },
+      { "text": "720 obreros y Uso de esclavos", "correct": false },
+      { "text": "360 obreros y Alta especialización artesanal", "correct": false },
+      { "text": "600 obreros y Automatización robótica", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Calcula el 60% de 1200 y luego divide entre 2. La producción en serie requería poca especialización.",
+    "explanation": "1200 * 0.6 = 720 inmigrantes. 720 / 2 = 360 irlandeses. La simplificación productiva permitía contratar mano de obra no calificada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "En las elecciones presidenciales de México del año 2000, hubo una alternancia política. Si el padrón electoral era de 60 millones y votó el 64%, ¿cuántos ciudadanos votaron y qué partido ganó la presidencia por primera vez en 71 años?",
+    "image": null,
+    "options": [
+      { "text": "38.4 millones y PAN (Vicente Fox)", "correct": true },
+      { "text": "38.4 millones y PRD (Cuauhtémoc Cárdenas)", "correct": false },
+      { "text": "40 millones y PRI (Francisco Labastida)", "correct": false },
+      { "text": "21.6 millones y PAN (Vicente Fox)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Multiplica 60 por 0.64. El PAN rompió la hegemonía del PRI.",
+    "explanation": "60 * 0.64 = 38.4 millones. Vicente Fox del PAN ganó la presidencia, marcando la transición democrática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Los Juicios de Núremberg (1945-1946) procesaron a 24 líderes nazis principales. Si 12 fueron condenados a muerte, 3 a cadena perpetua y el resto a penas menores o absueltos, ¿qué porcentaje fue condenado a muerte y qué precedente legal establecieron estos juicios?",
+    "image": null,
+    "options": [
+      { "text": "50% y Crímenes contra la humanidad", "correct": true },
+      { "text": "25% y Derecho de autodeterminación", "correct": false },
+      { "text": "75% y Leyes de Reforma", "correct": false },
+      { "text": "50% y Doctrina Monroe", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "12 es la mitad de 24. Núremberg juzgó el Holocausto y crímenes de guerra.",
+    "explanation": "12/24 = 0.5 = 50%. Se tipificaron los crímenes contra la humanidad y de guerra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "En 1921 se creó la SEP. Si José Vasconcelos ordenó editar 100,000 ejemplares de clásicos universales y se distribuyeron equitativamente en 500 bibliotecas, ¿cuántos libros recibió cada una y cuál era el objetivo cultural?",
+    "image": null,
+    "options": [
+      { "text": "200 libros y Alfabetización/Nacionalismo", "correct": true },
+      { "text": "2,000 libros y Educación Socialista", "correct": false },
+      { "text": "200 libros y Privatización educativa", "correct": false },
+      { "text": "50 libros y Enseñanza religiosa", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Divide 100,000 entre 500. Vasconcelos buscaba educar y unificar culturalmente.",
+    "explanation": "100,000 / 500 = 200. La SEP buscaba combatir el analfabetismo y promover la cultura nacional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "La Constitución de 1824 y la de 1857 son fundamentales. Si han pasado X años entre la promulgación de ambas, halla X. Además, ¿qué diferencia religiosa clave existe entre ellas?",
+    "image": null,
+    "options": [
+      { "text": "33 años; La de 1824 establecía el catolicismo como único", "correct": true },
+      { "text": "23 años; La de 1857 prohibía la religión", "correct": false },
+      { "text": "33 años; La de 1857 era monárquica", "correct": false },
+      { "text": "43 años; La de 1824 era laica", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Resta 1857 - 1824. La primera constitución federal protegía la religión católica.",
+    "explanation": "1857 - 1824 = 33 años. La Constitución de 1824 mantenía la intolerancia religiosa (catolicismo único), mientras que la de 1857 fue liberal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Según la teoría de Paul Rivet, pobladores llegaron a América desde Oceanía cruzando el Pacífico. Si recorrieron 12,000 km en balsas a una velocidad promedio de 40 km/día, ¿cuántos días duró el viaje y qué herramienta cultural compartida apoya esta teoría?",
+    "image": null,
+    "options": [
+      { "text": "300 días y la Cerbatana", "correct": true },
+      { "text": "400 días y el Arco", "correct": false },
+      { "text": "300 días y la Rueda", "correct": false },
+      { "text": "120 días y la Cerámica", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Tiempo = Distancia / Velocidad. Rivet comparó elementos como hamacas y cerbatanas.",
+    "explanation": "12,000 / 40 = 300 días. La teoría oceánica se sustenta en similitudes lingüísticas y culturales como el uso de la cerbatana.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "El 'Halconazo' ocurrió el 10 de junio de 1971. Si habían pasado X días desde la matanza de Tlatelolco (2 de octubre de 1968), asumiendo años de 365 días (sin bisiestos para simplificar), calcula X aproximado y la causa de la protesta.",
+    "image": null,
+    "options": [
+      { "text": "Aprox 981 días y Apoyo a la UANL", "correct": true },
+      { "text": "Aprox 365 días y Rechazo a las Olimpiadas", "correct": false },
+      { "text": "Aprox 2000 días y Aumento al transporte", "correct": false },
+      { "text": "Aprox 500 días y Liberación de presos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "De oct 1968 a junio 1971 hay 2 años completos y unos 8 meses. La marcha apoyaba a estudiantes de Nuevo León.",
+    "explanation": "2 años (730) + oct-junio (~251) ≈ 981 días. La manifestación exigía autonomía universitaria y apoyo a la UANL.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "En la Primera Guerra Mundial se usó gas mostaza. Si un cilindro dispersa gas en un radio de 50 metros, ¿cuál es el área afectada ($A = \\pi r^2$, usa $\\pi=3.14$) y qué bando introdujo masivamente estas armas químicas?",
+    "image": null,
+    "options": [
+      { "text": "7,850 m² y Alemania", "correct": true },
+      { "text": "157 m² y Francia", "correct": false },
+      { "text": "2,500 m² y Rusia", "correct": false },
+      { "text": "7,850 m² y Estados Unidos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Eleva 50 al cuadrado (2500) y multiplica por 3.14. Alemania fue pionera en guerra química.",
+    "explanation": "50^2 = 2,500. 2,500 * 3.14 = 7,850. Alemania utilizó gases tóxicos como el cloro y mostaza.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "La independencia de la India (1947) causó la migración masiva de 14 millones de personas. Si el 60% eran musulmanes yendo a Pakistán, ¿cuántos millones eran y qué método de lucha promovió Gandhi?",
+    "image": null,
+    "options": [
+      { "text": "8.4 millones y Resistencia civil pacífica", "correct": true },
+      { "text": "5.6 millones y Guerrilla urbana", "correct": false },
+      { "text": "8.4 millones y Terrorismo", "correct": false },
+      { "text": "7 millones y Huelga armada", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Multiplica 14 por 0.6. Gandhi abogó por la no violencia (Ahimsa).",
+    "explanation": "14 * 0.6 = 8.4 millones. La resistencia civil pacífica fue clave en la descolonización india.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Durante la Guerra de Vietnam, EE.UU. desplegó 500,000 soldados en el punto máximo. Si el 10% falleció en combate (cifra aprox), ¿cuántas bajas hubo y cuál era el objetivo geopolítico de EE.UU.?",
+    "image": null,
+    "options": [
+      { "text": "50,000 y Contención del comunismo", "correct": true },
+      { "text": "5,000 y Expansión colonial", "correct": false },
+      { "text": "100,000 y Obtención de petróleo", "correct": false },
+      { "text": "50,000 y Unificación de Corea", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Calcula el 10% de 500k. La Doctrina Truman buscaba frenar la expansión roja.",
+    "explanation": "500,000 * 0.10 = 50,000. EE.UU. intervino para evitar que Vietnam del Sur cayera bajo el comunismo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "La globalización incrementó el comercio mundial. Si el volumen de exportaciones pasó de 5 billones a 25 billones de dólares en dos décadas, ¿cuál fue el incremento porcentual y qué consecuencia social negativa puede traer este proceso?",
+    "image": null,
+    "options": [
+      { "text": "400% e Incremento de inequidades", "correct": true },
+      { "text": "500% y Homogeneización cultural total", "correct": false },
+      { "text": "200% y Paz mundial absoluta", "correct": false },
+      { "text": "400% y Aumento de aranceles", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Diferencia es 20. Divide 20 entre 5 y haz porcentaje. La globalización puede marginar sectores.",
+    "explanation": "(25-5)/5 = 20/5 = 4. 4 * 100 = 400%. La globalización puede aumentar la brecha entre ricos y pobres.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "El modelo neoliberal propone reducir aranceles. Si un producto importado costaba $100 más un arancel del 20%, y el arancel se elimina por completo, ¿cuánto paga ahora el consumidor (precio final) y qué organismo internacional promueve estas políticas?",
+    "image": null,
+    "options": [
+      { "text": "$100 y Fondo Monetario Internacional (FMI)", "correct": true },
+      { "text": "$80 y ONU", "correct": false },
+      { "text": "$120 y Pacto de Varsovia", "correct": false },
+      { "text": "$100 y La Iglesia", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "El precio base es 100. Con arancel era 120. Sin él, vuelve a 100. El FMI/Banco Mundial impulsan el neoliberalismo.",
+    "explanation": "Al eliminar el arancel de $20, el precio baja a $100. El FMI promueve la apertura de mercados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Los liberales del siglo XIX buscaban un Estado laico. Si en un congreso de 100 diputados, 3/4 eran liberales y el resto conservadores, ¿cuántos diputados defendían la separación Iglesia-Estado y qué constitución lograron promulgar?",
+    "image": null,
+    "options": [
+      { "text": "75 diputados y Constitución de 1857", "correct": true },
+      { "text": "25 diputados y Las Siete Leyes", "correct": false },
+      { "text": "75 diputados y Constitución de 1824", "correct": false },
+      { "text": "50 diputados y Plan de Iguala", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Calcula 3/4 de 100. La constitución liberal por excelencia fue la de 1857.",
+    "explanation": "100 * 0.75 = 75. Los liberales promulgaron la Constitución de 1857 separando asuntos civiles y religiosos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "En 1821, el Ejército Trigarante entró a la Ciudad de México con 16,000 hombres. Si las fuerzas realistas remanentes eran solo el 15% de ese número, ¿cuántos soldados realistas quedaban y qué plan unificó a ambos bandos?",
+    "image": null,
+    "options": [
+      { "text": "2,400 soldados y Plan de Iguala", "correct": true },
+      { "text": "1,600 soldados y Plan de Ayutla", "correct": false },
+      { "text": "3,000 soldados y Tratados de Córdoba", "correct": false },
+      { "text": "2,400 soldados y Plan de Casa Mata", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "10% de 16k es 1600, 5% es 800. Suma. El Plan de Iguala fundó las tres garantías.",
+    "explanation": "16,000 * 0.15 = 2,400. El Plan de Iguala unió a insurgentes y realistas formando el Trigarante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "En 1829, Isidro Barradas intentó reconquistar México con 3,000 soldados. Si Santa Anna lo derrotó con una fuerza que era 2/3 de la invasora (aprovechando enfermedades), ¿cuántos soldados mexicanos combatieron y qué consecuencia tuvo esta victoria?",
+    "image": null,
+    "options": [
+      { "text": "2,000 soldados y Consolidación de la Independencia", "correct": true },
+      { "text": "4,500 soldados y Pérdida de Texas", "correct": false },
+      { "text": "2,000 soldados y Invasión Francesa", "correct": false },
+      { "text": "1,000 soldados y Caída de Iturbide", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Divide 3000 entre 3 y multiplica por 2. La victoria reafirmó la soberanía.",
+    "explanation": "(3000 / 3) * 2 = 2000. La derrota de Barradas significó el fin de los intentos españoles de reconquista.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "La Segunda Guerra Mundial en Europa terminó en mayo de 1945. Si inició en septiembre de 1939, ¿cuántos meses completos duró el conflicto y qué países lideraban a los Aliados?",
+    "image": null,
+    "options": [
+      { "text": "68 meses; Reino Unido, URSS, EE.UU.", "correct": true },
+      { "text": "72 meses; Alemania, Italia, Japón", "correct": false },
+      { "text": "50 meses; Francia, Polonia, España", "correct": false },
+      { "text": "60 meses; Reino Unido y Alemania", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "De sept 39 a sept 44 son 5 años (60 meses). Suma hasta mayo 45 (8 meses).",
+    "explanation": "5 años y 8 meses = 60 + 8 = 68 meses. Los Aliados principales fueron Gran Bretaña, Unión Soviética y Estados Unidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "El horizonte Clásico mesoamericano abarca aprox. del 200 al 900 d.C. ¿Cuántos siglos duró este periodo y qué característica urbana destaca?",
+    "image": null,
+    "options": [
+      { "text": "7 siglos y Planificación de centros ceremoniales", "correct": true },
+      { "text": "9 siglos y Uso de metales", "correct": false },
+      { "text": "5 siglos y Nómadas cazadores", "correct": false },
+      { "text": "7 siglos y Formación de imperios militares", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Resta 900 - 200. Convierte años a siglos. El urbanismo (Teotihuacán, Palenque) floreció.",
+    "explanation": "700 años equivalen a 7 siglos. El Clásico se define por el urbanismo, comercio y teocracia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Un encomendero recibe tributo de 50 indígenas. Si cada uno debe entregar 2 kg de maíz a la semana, ¿cuántas toneladas de maíz recibe el encomendero en un año (50 semanas) y qué implicaba la encomienda?",
+    "image": null,
+    "options": [
+      { "text": "5 toneladas y Tutelaje/Evangelización", "correct": true },
+      { "text": "50 toneladas y Esclavitud legal", "correct": false },
+      { "text": "2.5 toneladas y Trabajo asalariado", "correct": false },
+      { "text": "5 toneladas y Reparto de utilidades", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "50 personas * 2 kg * 50 semanas. Convierte kg a toneladas (1000kg = 1t).",
+    "explanation": "50 * 2 * 50 = 5,000 kg = 5 toneladas. La encomienda asignaba indígenas para trabajo a cambio de supuesta protección religiosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "En la Convención de Aguascalientes (1914) participaron villistas y zapatistas. Si de 150 delegados, la razón de villistas a zapatistas era 3:2, ¿cuántos zapatistas había y qué buscaba esta convención?",
+    "image": null,
+    "options": [
+      { "text": "60 zapatistas y Unificar a las facciones revolucionarias", "correct": true },
+      { "text": "90 zapatistas y Apoyar a Carranza", "correct": false },
+      { "text": "40 zapatistas y Derrocar a Díaz", "correct": false },
+      { "text": "60 zapatistas y Redactar la Constitución de 1917", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Total partes: 3+2=5. Divide 150/5 = 30. Zapatistas son 2 partes.",
+    "explanation": "150/5 = 30. 30 * 2 = 60. La convención intentó conciliar a los revolucionarios, adoptando el Plan de Ayala.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Lázaro Cárdenas repartió cerca de 18 millones de hectáreas. Si un ejido colectivo recibió 1,200 hectáreas para 60 familias, ¿cuántas hectáreas corresponden teóricamente por familia y qué orientación educativa impulsó Cárdenas?",
+    "image": null,
+    "options": [
+      { "text": "20 hectáreas y Educación Socialista", "correct": true },
+      { "text": "50 hectáreas y Educación Religiosa", "correct": false },
+      { "text": "20 hectáreas y Educación Neoliberal", "correct": false },
+      { "text": "12 hectáreas y Educación Positivista", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Divide 1200 entre 60. Cárdenas modificó el art. 3 para ser socialista.",
+    "explanation": "1200 / 60 = 20. El cardenismo promovió el ejido y la educación socialista.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "En la huelga de Cananea (1906), los mineros mexicanos ganaban 3 pesos mientras los estadounidenses ganaban 7 dólares (al cambio 2x1, eran 14 pesos). ¿Cuál era la diferencia en pesos y qué demandaban los huelguistas?",
+    "image": null,
+    "options": [
+      { "text": "11 pesos y Salario justo/Igualdad", "correct": true },
+      { "text": "4 pesos y Vacaciones pagadas", "correct": false },
+      { "text": "11 pesos y Derecho a voto", "correct": false },
+      { "text": "7 pesos y Reparto de utilidades", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "7 dólares = 14 pesos. Resta 3. Cananea pedía 'a trabajo igual, salario igual'.",
+    "explanation": "14 - 3 = 11 pesos de diferencia. La huelga exigía mejores condiciones y fin de la discriminación salarial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Si durante el Desarrollo Estabilizador la inflación se mantuvo en 3% anual, ¿cuánto aumentó el costo de una canasta básica de $100 después de 2 años (interés compuesto) y quién fue un artífice de esta política?",
+    "image": null,
+    "options": [
+      { "text": "$106.09 y Antonio Ortiz Mena", "correct": true },
+      { "text": "$106.00 y Porfirio Díaz", "correct": false },
+      { "text": "$160.00 y Lázaro Cárdenas", "correct": false },
+      { "text": "$103.00 y José López Portillo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "100 * 1.03 * 1.03. Ortiz Mena fue secretario de Hacienda.",
+    "explanation": "100 * 1.03 = 103. 103 * 1.03 = 106.09. Ortiz Mena dirigió la economía en este periodo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "La Batalla de Verdún (WWI) duró 300 días y causó 700,000 bajas. ¿Cuál fue el promedio diario de bajas (redondeado) y qué tipo de guerra caracterizó este frente?",
+    "image": null,
+    "options": [
+      { "text": "2,333 bajas/día y Guerra de Trincheras", "correct": true },
+      { "text": "1,000 bajas/día y Guerra Relámpago", "correct": false },
+      { "text": "5,000 bajas/día y Guerra Aérea", "correct": false },
+      { "text": "2,333 bajas/día y Guerra de Movimientos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Divide 700k entre 300. Las trincheras definieron el frente occidental.",
+    "explanation": "700,000 / 300 = 2,333.3. La inmovilidad y desgaste en trincheras fue la norma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "La distancia entre La Habana y Florida es de aprox. 150 km. Si una balsa improvisada viaja a 5 km/h, ¿cuántas horas tarda en cruzar y qué evento histórico de 1959 impulsó la migración cubana?",
+    "image": null,
+    "options": [
+      { "text": "30 horas y Revolución Cubana", "correct": true },
+      { "text": "15 horas y Crisis de los Misiles", "correct": false },
+      { "text": "50 horas y Independencia de España", "correct": false },
+      { "text": "30 horas y Bloqueo Naval", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "HISTORIA"],
+    "hint": "T = D/V. Fidel Castro tomó el poder en 1959.",
+    "explanation": "150 / 5 = 30 horas. El triunfo de la Revolución Cubana inició el éxodo hacia EE.UU.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "La población de EE.UU. en 1860 era de 31 millones. Para 1900, gracias a la inmigración e industria, subió a 76 millones. ¿Cuál fue el aumento total y qué recurso natural fue clave para la industria (acero)?",
+    "image": null,
+    "options": [
+      { "text": "45 millones y Carbón/Hierro", "correct": true },
+      { "text": "30 millones y Petróleo", "correct": false },
+      { "text": "45 millones y Oro", "correct": false },
+      { "text": "55 millones y Uranio", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "76 - 31. El acero requiere hierro y carbón.",
+    "explanation": "76 - 31 = 45 millones. La industria pesada dependía del hierro y carbón.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "En 1989, el PAN ganó su primera gubernatura (Baja California). Si el PRI había gobernado por 60 años ininterrumpidos (desde la fundación del PNR en 1929), ¿qué fracción de siglo representa ese dominio y quién fue el candidato ganador?",
+    "image": null,
+    "options": [
+      { "text": "3/5 de siglo y Ernesto Ruffo", "correct": true },
+      { "text": "1/2 siglo y Manuel Clouthier", "correct": false },
+      { "text": "3/4 de siglo y Vicente Fox", "correct": false },
+      { "text": "3/5 de siglo y Cuauhtémoc Cárdenas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "60 años de 100 es 60/100. Simplifica. Ruffo Appel fue el primer gobernador opositor.",
+    "explanation": "60/100 = 3/5. Ernesto Ruffo Appel rompió la hegemonía del PRI en los estados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "La ONU se fundó en 1945 con 51 estados. Hoy tiene 193. ¿Cuántos se sumaron desde entonces y cuál es el documento fundacional?",
+    "image": null,
+    "options": [
+      { "text": "142 estados y Carta de San Francisco", "correct": true },
+      { "text": "150 estados y Tratado de Versalles", "correct": false },
+      { "text": "142 estados y Declaración de Derechos Humanos", "correct": false },
+      { "text": "100 estados y Carta del Atlántico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "HISTORIA"],
+    "hint": "Resta 193 - 51. Se firmó en San Francisco.",
+    "explanation": "193 - 51 = 142. La Carta de las Naciones Unidas (San Francisco) estableció la organización.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Si el presupuesto educativo en 1921 era de 15 millones y Vasconcelos logró que para 1924 fuera de 25 millones, ¿cuál fue el aumento porcentual y qué creó Vasconcelos?",
+    "image": null,
+    "options": [
+      { "text": "66.6% y La SEP", "correct": true },
+      { "text": "50% y La UNAM", "correct": false },
+      { "text": "40% y El IPN", "correct": false },
+      { "text": "66.6% y El INBA", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Aumento es 10. Divide 10/15. Vasconcelos fundó la Secretaría de Educación Pública.",
+    "explanation": "10/15 = 2/3 = 66.6%. Vasconcelos fue el primer secretario de la SEP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "México perdió más de la mitad de su territorio en 1848. Si tenía 4 millones de km² y perdió 2.4 millones, ¿cuánto le quedó y qué tratado formalizó esto?",
+    "image": null,
+    "options": [
+      { "text": "1.6 millones km² y Guadalupe Hidalgo", "correct": true },
+      { "text": "2.0 millones km² y Velasco", "correct": false },
+      { "text": "1.6 millones km² y Tratados de Córdoba", "correct": false },
+      { "text": "1.4 millones km² y La Mesilla", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "Resta 4.0 - 2.4. El tratado puso fin a la guerra con EE.UU.",
+    "explanation": "4 - 2.4 = 1.6. El Tratado de Guadalupe Hidalgo cedió Alta California y Nuevo México.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Una vasija del Preclásico tiene 3000 años de antigüedad. Si estamos en el año 2000 d.C., ¿en qué año a.C. fue fabricada y qué cultura es la 'madre' de este periodo?",
+    "image": null,
+    "options": [
+      { "text": "1000 a.C. y Olmeca", "correct": true },
+      { "text": "3000 a.C. y Maya", "correct": false },
+      { "text": "500 a.C. y Zapoteca", "correct": false },
+      { "text": "1000 a.C. y Azteca", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "HISTORIA"],
+    "hint": "Resta 2000 al total de antigüedad. Los Olmecas son la cultura madre.",
+    "explanation": "3000 - 2000 = 1000 a.C. La cultura Olmeca floreció en el Preclásico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Si en la marcha del 10 de junio de 1971 participaron 10,000 estudiantes y los 'Halcones' eran un grupo de choque de 1,000 paramilitares, ¿cuál era la proporción estudiantes/paramilitares y qué presidente gobernaba?",
+    "image": null,
+    "options": [
+      { "text": "10 a 1 y Luis Echeverría", "correct": true },
+      { "text": "5 a 1 y Díaz Ordaz", "correct": false },
+      { "text": "20 a 1 y López Mateos", "correct": false },
+      { "text": "10 a 1 y Miguel Alemán", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO", "HISTORIA"],
+    "hint": "10000 / 1000. Echeverría sucedió a Díaz Ordaz.",
+    "explanation": "10,000/1,000 = 10. Luis Echeverría Álvarez era presidente durante el Halconazo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "El gas cloro es letal a 1000 ppm (partes por millón). Si en una trinchera hay 1 millón de litros de aire, ¿cuántos litros de gas cloro se necesitan para volverla letal y qué efecto causaba en los soldados?",
+    "image": null,
+    "options": [
+      { "text": "1,000 litros y Asfixia/Quemaduras", "correct": true },
+      { "text": "100 litros y Ceguera temporal", "correct": false },
+      { "text": "10,000 litros y Parálisis", "correct": false },
+      { "text": "1,000 litros y Sueño", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "1000 partes en 1 millón es lo mismo que 1000 litros en 1 millón de litros.",
+    "explanation": "1000 ppm = 1000/1,000,000. Se requieren 1,000 L. Los gases provocaban asfixia y daños pulmonares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Pakistán se separó de la India en 1947. Si la frontera común es de 3,300 km y se establecieron puestos de control cada 15 km, ¿cuántos puestos hubo y qué religión predominaba en Pakistán?",
+    "image": null,
+    "options": [
+      { "text": "220 puestos y el Islam", "correct": true },
+      { "text": "300 puestos y el Hinduismo", "correct": false },
+      { "text": "220 puestos y el Budismo", "correct": false },
+      { "text": "150 puestos y el Islam", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO", "HISTORIA"],
+    "hint": "3300 entre 15. Pakistán se creó como estado musulmán.",
+    "explanation": "3300 / 15 = 220. La partición separó a la mayoría musulmana en Pakistán de la hindú en India.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
