@@ -1,0 +1,1294 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Un automóvil parte del reposo y acelera uniformemente a razón de $3 \, m/s^2$. ¿Cuál será su velocidad final después de $5 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$15 \, m/s$", "correct": true },
+      { "text": "$8 \, m/s$", "correct": false },
+      { "text": "$3 \, m/s$", "correct": false },
+      { "text": "$12 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como parte del reposo, la velocidad inicial $V_i$ es $0$. Utiliza la fórmula $V_f = V_i + a \cdot t$.",
+    "explanation": "Sustituyendo los valores en la fórmula: $V_f = 0 \, m/s + (3 \, m/s^2)(5 \, s) = 15 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Un ciclista se mueve con una velocidad inicial de $4 \, m/s$ y acelera a $2 \, m/s^2$ durante $6 \, s$. ¿Cuál es su velocidad final?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$16 \, m/s$", "correct": true },
+      { "text": "$12 \, m/s$", "correct": false },
+      { "text": "$24 \, m/s$", "correct": false },
+      { "text": "$10 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Identifica la velocidad inicial $V_i$, la aceleración $a$ y el tiempo $t$. Aplica la fórmula $V_f = V_i + a \cdot t$.",
+    "explanation": "Usando la fórmula: $V_f = 4 \, m/s + (2 \, m/s^2)(6 \, s) = 4 \, m/s + 12 \, m/s = 16 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "En el movimiento rectilíneo uniformemente acelerado (MRUA), ¿qué variable permanece constante?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "La aceleración", "correct": true },
+      { "text": "La velocidad", "correct": false },
+      { "text": "El tiempo", "correct": false },
+      { "text": "La posición", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El nombre del movimiento lo indica: 'uniformemente acelerado'.",
+    "explanation": "Por definición, en el MRUA la aceleración es constante, lo que significa que la velocidad cambia a una tasa constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Un tren que parte del reposo alcanza una velocidad de $20 \, m/s$ en $10 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$20 \, m/s^2$", "correct": false },
+      { "text": "$10 \, m/s^2$", "correct": false },
+      { "text": "$0.5 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula para la aceleración partiendo del reposo: $a = \frac{V_f}{t}$.",
+    "explanation": "Sustituyendo los datos: $a = \frac{20 \, m/s}{10 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Un corredor aumenta su velocidad de $2 \, m/s$ a $8 \, m/s$ en un tiempo de $3 \, s$. Calcula su aceleración media.",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$3 \, m/s^2$", "correct": false },
+      { "text": "$6 \, m/s^2$", "correct": false },
+      { "text": "$4 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Utiliza la fórmula general de la aceleración: $a = \frac{V_f - V_i}{t}$.",
+    "explanation": "Aplicando la fórmula: $a = \frac{8 \, m/s - 2 \, m/s}{3 \, s} = \frac{6 \, m/s}{3 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "¿Qué expresión representa correctamente el despeje de la velocidad inicial ($V_i$) de la fórmula $V_f = V_i + a \cdot t$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$V_i = V_f - a \cdot t$", "correct": true },
+      { "text": "$V_i = V_f + a \cdot t$", "correct": false },
+      { "text": "$V_i = \frac{V_f}{a \cdot t}$", "correct": false },
+      { "text": "$V_i = V_f \cdot a \cdot t$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para dejar $V_i$ sola, debes restar el término $a \cdot t$ de ambos lados de la ecuación.",
+    "explanation": "Partiendo de $V_f = V_i + a \cdot t$, restamos $a \cdot t$ a ambos lados: $V_f - a \cdot t = V_i$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Un avión parte del reposo y acelera a $4 \, m/s^2$. ¿Cuánto tiempo tarda en alcanzar una velocidad de $40 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$10 \, s$", "correct": true },
+      { "text": "$4 \, s$", "correct": false },
+      { "text": "$160 \, s$", "correct": false },
+      { "text": "$40 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula del tiempo despejada: $t = \frac{V_f - V_i}{a}$. Recuerda que $V_i = 0$.",
+    "explanation": "Como parte del reposo, $V_i=0$. Entonces $t = \frac{40 \, m/s}{4 \, m/s^2} = 10 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Un conductor viaja a $15 \, m/s$ y acelera a $3 \, m/s^2$. ¿Cuánto tiempo necesita para alcanzar los $30 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$15 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$3 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Emplea la fórmula del tiempo: $t = \frac{V_f - V_i}{a}$.",
+    "explanation": "Sustituyendo los valores: $t = \frac{30 \, m/s - 15 \, m/s}{3 \, m/s^2} = \frac{15 \, m/s}{3 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "¿Cuál es la unidad de medida de la aceleración en el Sistema Internacional?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$m/s^2$", "correct": true },
+      { "text": "$m/s$", "correct": false },
+      { "text": "$s^2/m$", "correct": false },
+      { "text": "$m \cdot s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La aceleración es el cambio de velocidad ($m/s$) dividido por el tiempo ($s$).",
+    "explanation": "La aceleración se define como $\frac{\Delta V}{\Delta t}$, por lo que sus unidades son $\frac{m/s}{s} = m/s^2$ (metros por segundo al cuadrado).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Un vehículo alcanza una velocidad final de $25 \, m/s$ después de acelerar a $2 \, m/s^2$ durante $10 \, s$. ¿Cuál era su velocidad inicial?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, m/s$", "correct": true },
+      { "text": "$45 \, m/s$", "correct": false },
+      { "text": "$20 \, m/s$", "correct": false },
+      { "text": "$0 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Utiliza la fórmula despejada para la velocidad inicial: $V_i = V_f - a \cdot t$.",
+    "explanation": "Calculamos: $V_i = 25 \, m/s - (2 \, m/s^2)(10 \, s) = 25 \, m/s - 20 \, m/s = 5 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Un camión que viaja a $20 \, m/s$ frena hasta detenerse en $5 \, s$. ¿Cuál es la magnitud de su desaceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$4 \, m/s^2$", "correct": true },
+      { "text": "$5 \, m/s^2$", "correct": false },
+      { "text": "$20 \, m/s^2$", "correct": false },
+      { "text": "$100 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Frenar hasta detenerse significa que $V_f = 0$. Usa la fórmula de aceleración. El resultado será negativo, la magnitud es el valor positivo.",
+    "explanation": "$a = \frac{V_f - V_i}{t} = \frac{0 \, m/s - 20 \, m/s}{5 \, s} = \frac{-20 \, m/s}{5 \, s} = -4 \, m/s^2$. La magnitud es $4 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Si la aceleración de un objeto es negativa ($a < 0$) y su velocidad es positiva ($V > 0$), ¿qué le sucede al objeto?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "Está frenando (disminuyendo su velocidad)", "correct": true },
+      { "text": "Está acelerando (aumentando su velocidad)", "correct": false },
+      { "text": "Se mueve a velocidad constante", "correct": false },
+      { "text": "Está en reposo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La aceleración negativa se opone a la velocidad positiva.",
+    "explanation": "Cuando la aceleración tiene signo opuesto a la velocidad, actúa reduciendo la magnitud de la velocidad, es decir, el objeto frena.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Se deja caer una piedra desde un edificio. Usando $g = 10 \, m/s^2$, ¿cuál es su velocidad después de $4 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$40 \, m/s$", "correct": true },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$4 \, m/s$", "correct": false },
+      { "text": "$20 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un caso de MRUA partiendo del reposo ($V_i=0$) con aceleración $a = g = 10 \, m/s^2$.",
+    "explanation": "Usamos $V_f = a \cdot t$. Sustituyendo: $V_f = (10 \, m/s^2)(4 \, s) = 40 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Un objeto se lanza verticalmente hacia abajo con una velocidad inicial de $5 \, m/s$. Usando $g = 10 \, m/s^2$, ¿cuál es su velocidad después de $2 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$25 \, m/s$", "correct": true },
+      { "text": "$20 \, m/s$", "correct": false },
+      { "text": "$15 \, m/s$", "correct": false },
+      { "text": "$10 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aquí $V_i$ no es cero. La aceleración es $g$. Usa $V_f = V_i + a \cdot t$.",
+    "explanation": "Considerando la dirección hacia abajo como positiva: $V_f = 5 \, m/s + (10 \, m/s^2)(2 \, s) = 5 \, m/s + 20 \, m/s = 25 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿Qué fórmula utilizarías para calcular la velocidad final ($V_f$) si conoces la velocidad inicial ($V_i$), la aceleración ($a$) y el tiempo ($t$)?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$V_f = V_i + a \cdot t$", "correct": true },
+      { "text": "$V_f = \frac{V_i}{a \cdot t}$", "correct": false },
+      { "text": "$V_f = V_i - a \cdot t$", "correct": false },
+      { "text": "$V_f = a \cdot t$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca la fórmula que relaciona estas cuatro variables linealmente.",
+    "explanation": "La primera ecuación del movimiento rectilíneo uniformemente acelerado relaciona la velocidad final con la inicial, la aceleración y el tiempo de forma lineal: $V_f = V_i + a \cdot t$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Un motociclista parte del reposo con una aceleración constante de $4 \, m/s^2$. ¿Cuál es su velocidad después de $3 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$12 \, m/s$", "correct": true },
+      { "text": "$7 \, m/s$", "correct": false },
+      { "text": "$4 \, m/s$", "correct": false },
+      { "text": "$0.75 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como parte del reposo, $V_i = 0$. Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (4 \, m/s^2)(3 \, s) = 12 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Un auto aumenta su velocidad de $10 \, m/s$ a $22 \, m/s$ en $4 \, s$. Calcula su aceleración.",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$3 \, m/s^2$", "correct": true },
+      { "text": "$12 \, m/s^2$", "correct": false },
+      { "text": "$4 \, m/s^2$", "correct": false },
+      { "text": "$8 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula $a = \frac{V_f - V_i}{t}$.",
+    "explanation": "$a = \frac{22 \, m/s - 10 \, m/s}{4 \, s} = \frac{12 \, m/s}{4 \, s} = 3 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "¿Qué expresión representa el despeje del tiempo ($t$) de la fórmula $V_f = V_i + a \cdot t$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$t = \frac{V_f - V_i}{a}$", "correct": true },
+      { "text": "$t = \frac{V_f + V_i}{a}$", "correct": false },
+      { "text": "$t = (V_f - V_i) \cdot a$", "correct": false },
+      { "text": "$t = V_f - V_i - a$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero resta $V_i$ de ambos lados, luego divide por $a$.",
+    "explanation": "De $V_f = V_i + a \cdot t$, primero obtenemos $V_f - V_i = a \cdot t$. Luego, dividiendo por $a$, tenemos $t = \frac{V_f - V_i}{a}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Un objeto que parte del reposo alcanza una velocidad de $18 \, m/s$ con una aceleración de $6 \, m/s^2$. ¿Cuánto tiempo le tomó?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$3 \, s$", "correct": true },
+      { "text": "$12 \, s$", "correct": false },
+      { "text": "$108 \, s$", "correct": false },
+      { "text": "$2 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como $V_i=0$, la fórmula del tiempo se simplifica a $t = \frac{V_f}{a}$.",
+    "explanation": "$t = \frac{18 \, m/s}{6 \, m/s^2} = 3 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Un tren frena con una desaceleración de $2 \, m/s^2$. Si su velocidad inicial era de $30 \, m/s$, ¿cuánto tiempo tarda en detenerse?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$15 \, s$", "correct": true },
+      { "text": "$60 \, s$", "correct": false },
+      { "text": "$30 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Detenerse significa $V_f = 0$. La aceleración es negativa: $a = -2 \, m/s^2$. Usa la fórmula del tiempo.",
+    "explanation": "$t = \frac{V_f - V_i}{a} = \frac{0 \, m/s - 30 \, m/s}{-2 \, m/s^2} = \frac{-30 \, m/s}{-2 \, m/s^2} = 15 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "La frase 'partiendo del reposo' en un problema de MRUA indica que:",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "La velocidad inicial es cero ($V_i = 0$)", "correct": true },
+      { "text": "La velocidad final es cero ($V_f = 0$)", "correct": false },
+      { "text": "La aceleración es cero ($a = 0$)", "correct": false },
+      { "text": "El tiempo inicial es cero ($t_i = 0$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reposo significa que el objeto no se está moviendo al inicio.",
+    "explanation": "Partir del reposo significa que el objeto estaba quieto al comienzo del intervalo de tiempo considerado, por lo tanto, su velocidad inicial es $0 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Un cohete parte del reposo y acelera a $20 \, m/s^2$. ¿Cuál es su velocidad después de $5 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$100 \, m/s$", "correct": true },
+      { "text": "$25 \, m/s$", "correct": false },
+      { "text": "$4 \, m/s$", "correct": false },
+      { "text": "$50 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$ ya que $V_i = 0$.",
+    "explanation": "$V_f = (20 \, m/s^2)(5 \, s) = 100 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Un lancha cambia su velocidad de $5 \, m/s$ a $15 \, m/s$ en $5 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$10 \, m/s^2$", "correct": false },
+      { "text": "$5 \, m/s^2$", "correct": false },
+      { "text": "$3 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica $a = \frac{V_f - V_i}{t}$.",
+    "explanation": "$a = \frac{15 \, m/s - 5 \, m/s}{5 \, s} = \frac{10 \, m/s}{5 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "En la fórmula $a = \frac{\Delta V}{\Delta t}$, ¿qué representa $\Delta V$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "El cambio de velocidad ($V_f - V_i$)", "correct": true },
+      { "text": "La velocidad promedio", "correct": false },
+      { "text": "La velocidad final", "correct": false },
+      { "text": "La suma de velocidades ($V_f + V_i$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El símbolo delta ($\Delta$) generalmente indica un cambio o diferencia.",
+    "explanation": "$\Delta V$ representa la variación de la velocidad, que se calcula como la velocidad final menos la velocidad inicial ($V_f - V_i$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Un corredor parte del reposo y acelera a $3 \, m/s^2$. ¿Cuánto tiempo le toma alcanzar una velocidad de $12 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$4 \, s$", "correct": true },
+      { "text": "$36 \, s$", "correct": false },
+      { "text": "$9 \, s$", "correct": false },
+      { "text": "$0.25 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = \frac{V_f}{a}$ pues $V_i=0$.",
+    "explanation": "$t = \frac{12 \, m/s}{3 \, m/s^2} = 4 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Un auto frena de $25 \, m/s$ a $5 \, m/s$ en $4 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-5 \, m/s^2$", "correct": true },
+      { "text": "$5 \, m/s^2$", "correct": false },
+      { "text": "$-20 \, m/s^2$", "correct": false },
+      { "text": "$7.5 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que $V_f$ es menor que $V_i$, por lo que la aceleración será negativa.",
+    "explanation": "$a = \frac{5 \, m/s - 25 \, m/s}{4 \, s} = \frac{-20 \, m/s}{4 \, s} = -5 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "¿Cuál es la velocidad final de un objeto que parte con $10 \, m/s$ y acelera a $3 \, m/s^2$ durante $5 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$25 \, m/s$", "correct": true },
+      { "text": "$15 \, m/s$", "correct": false },
+      { "text": "$13 \, m/s$", "correct": false },
+      { "text": "$30 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la fórmula $V_f = V_i + a \cdot t$.",
+    "explanation": "$V_f = 10 \, m/s + (3 \, m/s^2)(5 \, s) = 10 \, m/s + 15 \, m/s = 25 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Si se deja caer una maceta desde un balcón, ¿cuánto tiempo tarda en alcanzar una velocidad de $30 \, m/s$? (Usa $g=10 \, m/s^2$)",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$3 \, s$", "correct": true },
+      { "text": "$300 \, s$", "correct": false },
+      { "text": "$0.3 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es caída libre partiendo del reposo. Usa $t = \frac{V_f}{g}$.",
+    "explanation": "$t = \frac{30 \, m/s}{10 \, m/s^2} = 3 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Qué representa el término $a \cdot t$ en la ecuación $V_f = V_i + a \cdot t$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "El aumento o cambio de velocidad debido a la aceleración", "correct": true },
+      { "text": "La velocidad inicial", "correct": false },
+      { "text": "La velocidad final", "correct": false },
+      { "text": "La distancia recorrida", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Analiza las unidades: $(m/s^2) \cdot s = m/s$, que es unidad de velocidad.",
+    "explanation": "El producto de la aceleración por el tiempo representa cuánto ha cambiado la velocidad durante ese intervalo de tiempo debido a la aceleración constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Un tren parte del reposo y alcanza $24 \, m/s$ con una aceleración de $2 \, m/s^2$. ¿Cuánto tiempo tardó?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$12 \, s$", "correct": true },
+      { "text": "$48 \, s$", "correct": false },
+      { "text": "$2 \, s$", "correct": false },
+      { "text": "$22 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = \frac{V_f}{a}$ pues $V_i=0$.",
+    "explanation": "$t = \frac{24 \, m/s}{2 \, m/s^2} = 12 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Un objeto es lanzado hacia abajo con $2 \, m/s$. Si $g=10 \, m/s^2$, ¿cuál es su velocidad a los $3 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$32 \, m/s$", "correct": true },
+      { "text": "$30 \, m/s$", "correct": false },
+      { "text": "$28 \, m/s$", "correct": false },
+      { "text": "$12 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = V_i + g \cdot t$ con $V_i$ positiva hacia abajo.",
+    "explanation": "$V_f = 2 \, m/s + (10 \, m/s^2)(3 \, s) = 2 \, m/s + 30 \, m/s = 32 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Un vehículo que viaja a $35 \, m/s$ frena y se detiene en $7 \, s$. ¿Cuál fue su desaceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, m/s^2$", "correct": true },
+      { "text": "$-5 \, m/s^2$", "correct": false },
+      { "text": "$35 \, m/s^2$", "correct": false },
+      { "text": "$7 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Se pide la desaceleración, que es la magnitud de la aceleración negativa. $V_f=0$.",
+    "explanation": "$a = \frac{0 - 35}{7} = -5 \, m/s^2$. La desaceleración es la magnitud, es decir, $5 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "¿Qué fórmula es correcta para calcular la aceleración cuando un objeto parte del reposo ($V_i = 0$)?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$a = \frac{V_f}{t}$", "correct": true },
+      { "text": "$a = \frac{t}{V_f}$", "correct": false },
+      { "text": "$a = V_f \cdot t$", "correct": false },
+      { "text": "$a = V_f + t$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La fórmula general es $a = \frac{V_f - V_i}{t}$. Sustituye $V_i = 0$.",
+    "explanation": "Si $V_i = 0$, la fórmula $a = \frac{V_f - V_i}{t}$ se simplifica a $a = \frac{V_f - 0}{t} = \frac{V_f}{t}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Un auto parte del reposo con aceleración de $5 \, m/s^2$. ¿Qué velocidad alcanza en $4 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$20 \, m/s$", "correct": true },
+      { "text": "$5 \, m/s$", "correct": false },
+      { "text": "$9 \, m/s$", "correct": false },
+      { "text": "$25 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$ ya que $V_i = 0$.",
+    "explanation": "$V_f = (5 \, m/s^2)(4 \, s) = 20 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Un camión reduce su velocidad de $24 \, m/s$ a $12 \, m/s$ en $3 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-4 \, m/s^2$", "correct": true },
+      { "text": "$4 \, m/s^2$", "correct": false },
+      { "text": "$12 \, m/s^2$", "correct": false },
+      { "text": "$-12 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula de aceleración. El resultado debe ser negativo porque frena.",
+    "explanation": "$a = \frac{12 \, m/s - 24 \, m/s}{3 \, s} = \frac{-12 \, m/s}{3 \, s} = -4 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Una pelota se lanza hacia arriba y alcanza su punto más alto en $3 \, s$. Si $g=10 \, m/s^2$, ¿con qué velocidad inicial fue lanzada?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$30 \, m/s$", "correct": true },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$3 \, m/s$", "correct": false },
+      { "text": "$0 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En el punto más alto $V_f=0$. La gravedad actúa en contra, por lo que $a = -10 \, m/s^2$. Despeja $V_i$.",
+    "explanation": "Usando $V_f = V_i + a \cdot t$, tenemos $0 = V_i + (-10 \, m/s^2)(3 \, s)$. Por lo tanto, $V_i = 30 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Un motociclista viaja a $10 \, m/s$ y decide acelerar a $2 \, m/s^2$. ¿Cuánto tiempo le tomará llegar a $22 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$6 \, s$", "correct": true },
+      { "text": "$12 \, s$", "correct": false },
+      { "text": "$5 \, s$", "correct": false },
+      { "text": "$2 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Utiliza la fórmula para el tiempo: $t = \frac{V_f - V_i}{a}$.",
+    "explanation": "$t = \frac{22 \, m/s - 10 \, m/s}{2 \, m/s^2} = \frac{12 \, m/s}{2 \, m/s^2} = 6 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "¿Qué expresión representa el despeje de la aceleración ($a$) de la fórmula $V_f = V_i + a \cdot t$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$a = \frac{V_f - V_i}{t}$", "correct": true },
+      { "text": "$a = \frac{V_f + V_i}{t}$", "correct": false },
+      { "text": "$a = (V_f - V_i) \cdot t$", "correct": false },
+      { "text": "$a = V_f - V_i - t$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resta $V_i$ de ambos lados y luego divide por $t$.",
+    "explanation": "De $V_f = V_i + a \cdot t$, restamos $V_i$: $V_f - V_i = a \cdot t$. Luego dividimos por $t$: $a = \frac{V_f - V_i}{t}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Un tren aumenta su velocidad de $5 \, m/s$ a $25 \, m/s$ en $10 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$20 \, m/s^2$", "correct": false },
+      { "text": "$3 \, m/s^2$", "correct": false },
+      { "text": "$2.5 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula el cambio de velocidad y divídelo por el tiempo.",
+    "explanation": "$a = \frac{25 \, m/s - 5 \, m/s}{10 \, s} = \frac{20 \, m/s}{10 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Un objeto parte del reposo y acelera a $6 \, m/s^2$. ¿Cuál es su velocidad al cabo de $3 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$18 \, m/s$", "correct": true },
+      { "text": "$9 \, m/s$", "correct": false },
+      { "text": "$2 \, m/s$", "correct": false },
+      { "text": "$6 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (6 \, m/s^2)(3 \, s) = 18 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Un auto frena uniformemente de $30 \, m/s$ a $10 \, m/s$ en $5 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-4 \, m/s^2$", "correct": true },
+      { "text": "$4 \, m/s^2$", "correct": false },
+      { "text": "$-20 \, m/s^2$", "correct": false },
+      { "text": "$8 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La velocidad disminuye, la aceleración debe ser negativa.",
+    "explanation": "$a = \frac{10 \, m/s - 30 \, m/s}{5 \, s} = \frac{-20 \, m/s}{5 \, s} = -4 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "¿Cuál de las siguientes afirmaciones es FALSA sobre el MRUA?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "La velocidad es constante.", "correct": true },
+      { "text": "La aceleración es constante.", "correct": false },
+      { "text": "La velocidad cambia linealmente con el tiempo.", "correct": false },
+      { "text": "Si la aceleración y velocidad tienen signos opuestos, el objeto frena.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda la definición de 'acelerado'.",
+    "explanation": "En un movimiento acelerado, la velocidad no puede ser constante; por definición, la velocidad cambia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Un corredor parte del reposo y alcanza $10 \, m/s$ en $2 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, m/s^2$", "correct": true },
+      { "text": "$10 \, m/s^2$", "correct": false },
+      { "text": "$2 \, m/s^2$", "correct": false },
+      { "text": "$20 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula simplificada $a = V_f / t$.",
+    "explanation": "$a = \frac{10 \, m/s}{2 \, s} = 5 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Un tren viaja a $15 \, m/s$ y acelera a $1 \, m/s^2$. ¿Cuál es su velocidad después de $10 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$25 \, m/s$", "correct": true },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$15 \, m/s$", "correct": false },
+      { "text": "$250 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula general de velocidad final.",
+    "explanation": "$V_f = 15 \, m/s + (1 \, m/s^2)(10 \, s) = 15 \, m/s + 10 \, m/s = 25 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Un auto se mueve a $20 \, m/s$ y comienza a frenar con $a = -4 \, m/s^2$. ¿Cuánto tiempo tarda en detenerse?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$4 \, s$", "correct": false },
+      { "text": "$80 \, s$", "correct": false },
+      { "text": "$20 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Detenerse significa $V_f=0$. Usa la fórmula del tiempo.",
+    "explanation": "$t = \frac{0 \, m/s - 20 \, m/s}{-4 \, m/s^2} = \frac{-20 \, m/s}{-4 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Si un objeto en caída libre ($g=10 \, m/s^2$) tiene una velocidad de $50 \, m/s$, ¿cuánto tiempo ha estado cayendo desde el reposo?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$50 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$500 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / g$ ya que $V_i = 0$.",
+    "explanation": "$t = \frac{50 \, m/s}{10 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Un cohete acelera desde el reposo a $30 \, m/s^2$ durante $4 \, s$. ¿Cuál es su velocidad final?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$120 \, m/s$", "correct": true },
+      { "text": "$30 \, m/s$", "correct": false },
+      { "text": "$1200 \, m/s$", "correct": false },
+      { "text": "$7.5 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (30 \, m/s^2)(4 \, s) = 120 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Un auto aumenta su velocidad de $12 \, m/s$ a $24 \, m/s$ en $6 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$12 \, m/s^2$", "correct": false },
+      { "text": "$4 \, m/s^2$", "correct": false },
+      { "text": "$6 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la fórmula de la aceleración.",
+    "explanation": "$a = \frac{24 \, m/s - 12 \, m/s}{6 \, s} = \frac{12 \, m/s}{6 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Un vehículo frena con una desaceleración de $3 \, m/s^2$. Si se detiene en $8 \, s$, ¿cuál era su velocidad inicial?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$24 \, m/s$", "correct": true },
+      { "text": "$3 \, m/s$", "correct": false },
+      { "text": "$8 \, m/s$", "correct": false },
+      { "text": "$11 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "$V_f = 0$, $a = -3 \, m/s^2$. Despeja $V_i$ de $V_f = V_i + a \cdot t$.",
+    "explanation": "$0 = V_i + (-3 \, m/s^2)(8 \, s) \Rightarrow 0 = V_i - 24 \, m/s \Rightarrow V_i = 24 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Si un objeto parte del reposo y su aceleración es de $10 \, m/s^2$, ¿qué velocidad tendrá después de $7 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$70 \, m/s$", "correct": true },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$7 \, m/s$", "correct": false },
+      { "text": "$1.4 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (10 \, m/s^2)(7 \, s) = 70 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Un tren reduce su velocidad de $40 \, m/s$ a $10 \, m/s$ en $6 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-5 \, m/s^2$", "correct": true },
+      { "text": "$5 \, m/s^2$", "correct": false },
+      { "text": "$-30 \, m/s^2$", "correct": false },
+      { "text": "$30 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La velocidad disminuye, por lo que la aceleración es negativa.",
+    "explanation": "$a = \frac{10 \, m/s - 40 \, m/s}{6 \, s} = \frac{-30 \, m/s}{6 \, s} = -5 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Un objeto se lanza hacia abajo con una velocidad de $10 \, m/s$. Usando $g=10 \, m/s^2$, ¿qué velocidad tendrá después de $4 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$50 \, m/s$", "correct": true },
+      { "text": "$40 \, m/s$", "correct": false },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$14 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = V_i + g \cdot t$ con $V_i$ y $g$ positivos hacia abajo.",
+    "explanation": "$V_f = 10 \, m/s + (10 \, m/s^2)(4 \, s) = 10 \, m/s + 40 \, m/s = 50 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Un auto parte del reposo y alcanza $36 \, m/s$ con una aceleración de $3 \, m/s^2$. ¿Cuánto tiempo le tomó?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$12 \, s$", "correct": true },
+      { "text": "$3 \, s$", "correct": false },
+      { "text": "$36 \, s$", "correct": false },
+      { "text": "$108 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / a$ pues $V_i = 0$.",
+    "explanation": "$t = \frac{36 \, m/s}{3 \, m/s^2} = 12 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Un motociclista viaja a $8 \, m/s$ y acelera a $4 \, m/s^2$. ¿Cuál será su velocidad después de $3 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$20 \, m/s$", "correct": true },
+      { "text": "$12 \, m/s$", "correct": false },
+      { "text": "$32 \, m/s$", "correct": false },
+      { "text": "$15 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica $V_f = V_i + a \cdot t$.",
+    "explanation": "$V_f = 8 \, m/s + (4 \, m/s^2)(3 \, s) = 8 \, m/s + 12 \, m/s = 20 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Un vehículo que se mueve a $30 \, m/s$ frena y se detiene en $10 \, s$. ¿Cuál fue su desaceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$3 \, m/s^2$", "correct": true },
+      { "text": "$-3 \, m/s^2$", "correct": false },
+      { "text": "$30 \, m/s^2$", "correct": false },
+      { "text": "$10 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Se pide la magnitud de la aceleración negativa. $V_f=0$.",
+    "explanation": "$a = \frac{0 - 30}{10} = -3 \, m/s^2$. La desaceleración es la magnitud: $3 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Si un objeto cae libremente desde el reposo, ¿cuál será su velocidad a los $6 \, s$? (Usa $g=10 \, m/s^2$)",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$60 \, m/s$", "correct": true },
+      { "text": "$10 \, m/s$", "correct": false },
+      { "text": "$6 \, m/s$", "correct": false },
+      { "text": "$0.6 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = g \cdot t$.",
+    "explanation": "$V_f = (10 \, m/s^2)(6 \, s) = 60 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Un auto parte del reposo y acelera a $5 \, m/s^2$. ¿Cuánto tiempo le toma alcanzar los $40 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$8 \, s$", "correct": true },
+      { "text": "$5 \, s$", "correct": false },
+      { "text": "$40 \, s$", "correct": false },
+      { "text": "$200 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / a$ pues $V_i = 0$.",
+    "explanation": "$t = \frac{40 \, m/s}{5 \, m/s^2} = 8 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Un corredor aumenta su velocidad de $4 \, m/s$ a $14 \, m/s$ en $5 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$10 \, m/s^2$", "correct": false },
+      { "text": "$5 \, m/s^2$", "correct": false },
+      { "text": "$2.8 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la fórmula de aceleración.",
+    "explanation": "$a = \frac{14 \, m/s - 4 \, m/s}{5 \, s} = \frac{10 \, m/s}{5 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Un tren frena con una desaceleración de $4 \, m/s^2$. Si su velocidad inicial era de $20 \, m/s$, ¿cuánto tiempo tarda en detenerse?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$4 \, s$", "correct": false },
+      { "text": "$80 \, s$", "correct": false },
+      { "text": "$20 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Detenerse implica $V_f=0$. La aceleración es $a = -4 \, m/s^2$.",
+    "explanation": "$t = \frac{0 \, m/s - 20 \, m/s}{-4 \, m/s^2} = \frac{-20 \, m/s}{-4 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Si se lanza una pelota hacia arriba con $V_i = 20 \, m/s$, ¿cuánto tiempo tarda en alcanzar su punto más alto? (Usa $g=10 \, m/s^2$)",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, s$", "correct": true },
+      { "text": "$20 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$0.5 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En el punto más alto $V_f=0$. La gravedad se opone al movimiento inicial, $a = -10 \, m/s^2$.",
+    "explanation": "$t = \frac{V_f - V_i}{a} = \frac{0 \, m/s - 20 \, m/s}{-10 \, m/s^2} = \frac{-20 \, m/s}{-10 \, m/s^2} = 2 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Un auto parte del reposo y acelera a $8 \, m/s^2$. ¿Cuál es su velocidad después de $5 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$40 \, m/s$", "correct": true },
+      { "text": "$8 \, m/s$", "correct": false },
+      { "text": "$5 \, m/s$", "correct": false },
+      { "text": "$13 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (8 \, m/s^2)(5 \, s) = 40 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Un vehículo viaja a $15 \, m/s$ y acelera a $3 \, m/s^2$ durante $4 \, s$. ¿Cuál es su velocidad final?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$27 \, m/s$", "correct": true },
+      { "text": "$12 \, m/s$", "correct": false },
+      { "text": "$15 \, m/s$", "correct": false },
+      { "text": "$19 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica $V_f = V_i + a \cdot t$.",
+    "explanation": "$V_f = 15 \, m/s + (3 \, m/s^2)(4 \, s) = 15 \, m/s + 12 \, m/s = 27 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Un tren reduce su velocidad de $50 \, m/s$ a $20 \, m/s$ en $10 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-3 \, m/s^2$", "correct": true },
+      { "text": "$3 \, m/s^2$", "correct": false },
+      { "text": "$-30 \, m/s^2$", "correct": false },
+      { "text": "$30 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La velocidad disminuye, la aceleración debe ser negativa.",
+    "explanation": "$a = \frac{20 \, m/s - 50 \, m/s}{10 \, s} = \frac{-30 \, m/s}{10 \, s} = -3 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Un objeto en caída libre ($g=10 \, m/s^2$) tiene una velocidad de $40 \, m/s$. ¿Cuánto tiempo ha estado cayendo desde el reposo?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$4 \, s$", "correct": true },
+      { "text": "$40 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$400 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / g$.",
+    "explanation": "$t = \frac{40 \, m/s}{10 \, m/s^2} = 4 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Un auto parte del reposo y acelera a $6 \, m/s^2$. ¿Cuánto tiempo le toma alcanzar los $30 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$6 \, s$", "correct": false },
+      { "text": "$30 \, s$", "correct": false },
+      { "text": "$180 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / a$.",
+    "explanation": "$t = \frac{30 \, m/s}{6 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Un corredor aumenta su velocidad de $6 \, m/s$ a $18 \, m/s$ en $4 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$3 \, m/s^2$", "correct": true },
+      { "text": "$12 \, m/s^2$", "correct": false },
+      { "text": "$4 \, m/s^2$", "correct": false },
+      { "text": "$6 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la fórmula de aceleración.",
+    "explanation": "$a = \frac{18 \, m/s - 6 \, m/s}{4 \, s} = \frac{12 \, m/s}{4 \, s} = 3 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Un tren frena con una desaceleración de $5 \, m/s^2$. Si su velocidad inicial era de $35 \, m/s$, ¿cuánto tiempo tarda en detenerse?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$7 \, s$", "correct": true },
+      { "text": "$5 \, s$", "correct": false },
+      { "text": "$35 \, s$", "correct": false },
+      { "text": "$175 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Detenerse implica $V_f=0$. $a = -5 \, m/s^2$.",
+    "explanation": "$t = \frac{0 \, m/s - 35 \, m/s}{-5 \, m/s^2} = \frac{-35 \, m/s}{-5 \, m/s^2} = 7 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Si se lanza una piedra hacia arriba con $V_i = 40 \, m/s$, ¿cuánto tiempo tarda en alcanzar su punto más alto? (Usa $g=10 \, m/s^2$)",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$4 \, s$", "correct": true },
+      { "text": "$40 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$0.25 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En el punto más alto $V_f=0$. $a = -10 \, m/s^2$.",
+    "explanation": "$t = \frac{0 \, m/s - 40 \, m/s}{-10 \, m/s^2} = \frac{-40 \, m/s}{-10 \, m/s^2} = 4 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Un auto parte del reposo y acelera a $7 \, m/s^2$. ¿Cuál es su velocidad después de $4 \, s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$28 \, m/s$", "correct": true },
+      { "text": "$7 \, m/s$", "correct": false },
+      { "text": "$4 \, m/s$", "correct": false },
+      { "text": "$11 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $V_f = a \cdot t$.",
+    "explanation": "$V_f = (7 \, m/s^2)(4 \, s) = 28 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Un vehículo viaja a $12 \, m/s$ y acelera a $4 \, m/s^2$ durante $5 \, s$. ¿Cuál es su velocidad final?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$32 \, m/s$", "correct": true },
+      { "text": "$20 \, m/s$", "correct": false },
+      { "text": "$12 \, m/s$", "correct": false },
+      { "text": "$16 \, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica $V_f = V_i + a \cdot t$.",
+    "explanation": "$V_f = 12 \, m/s + (4 \, m/s^2)(5 \, s) = 12 \, m/s + 20 \, m/s = 32 \, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Un tren reduce su velocidad de $60 \, m/s$ a $30 \, m/s$ en $10 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$-3 \, m/s^2$", "correct": true },
+      { "text": "$3 \, m/s^2$", "correct": false },
+      { "text": "$-30 \, m/s^2$", "correct": false },
+      { "text": "$30 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La velocidad disminuye, la aceleración debe ser negativa.",
+    "explanation": "$a = \frac{30 \, m/s - 60 \, m/s}{10 \, s} = \frac{-30 \, m/s}{10 \, s} = -3 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Un objeto en caída libre ($g=10 \, m/s^2$) tiene una velocidad de $70 \, m/s$. ¿Cuánto tiempo ha estado cayendo desde el reposo?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$7 \, s$", "correct": true },
+      { "text": "$70 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$700 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / g$.",
+    "explanation": "$t = \frac{70 \, m/s}{10 \, m/s^2} = 7 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Un auto parte del reposo y acelera a $9 \, m/s^2$. ¿Cuánto tiempo le toma alcanzar los $45 \, m/s$?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$9 \, s$", "correct": false },
+      { "text": "$45 \, s$", "correct": false },
+      { "text": "$405 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa $t = V_f / a$.",
+    "explanation": "$t = \frac{45 \, m/s}{9 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Un corredor aumenta su velocidad de $5 \, m/s$ a $25 \, m/s$ en $10 \, s$. ¿Cuál es su aceleración?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$2 \, m/s^2$", "correct": true },
+      { "text": "$20 \, m/s^2$", "correct": false },
+      { "text": "$10 \, m/s^2$", "correct": false },
+      { "text": "$5 \, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la fórmula de aceleración.",
+    "explanation": "$a = \frac{25 \, m/s - 5 \, m/s}{10 \, s} = \frac{20 \, m/s}{10 \, s} = 2 \, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Un tren frena con una desaceleración de $2 \, m/s^2$. Si su velocidad inicial era de $40 \, m/s$, ¿cuánto tiempo tarda en detenerse?",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$20 \, s$", "correct": true },
+      { "text": "$2 \, s$", "correct": false },
+      { "text": "$40 \, s$", "correct": false },
+      { "text": "$80 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Detenerse implica $V_f=0$. $a = -2 \, m/s^2$.",
+    "explanation": "$t = \frac{0 \, m/s - 40 \, m/s}{-2 \, m/s^2} = \frac{-40 \, m/s}{-2 \, m/s^2} = 20 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Si se lanza una piedra hacia arriba con $V_i = 50 \, m/s$, ¿cuánto tiempo tarda en alcanzar su punto más alto? (Usa $g=10 \, m/s^2$)",
+    "image": "https://2cm.es/1mKie",
+    "options": [
+      { "text": "$5 \, s$", "correct": true },
+      { "text": "$50 \, s$", "correct": false },
+      { "text": "$10 \, s$", "correct": false },
+      { "text": "$0.5 \, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En el punto más alto $V_f=0$. $a = -10 \, m/s^2$.",
+    "explanation": "$t = \frac{0 \, m/s - 50 \, m/s}{-10 \, m/s^2} = \frac{-50 \, m/s}{-10 \, m/s^2} = 5 \, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
