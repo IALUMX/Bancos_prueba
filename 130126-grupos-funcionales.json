@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "¿Qué característica estructural define principalmente a los alcanos en la química orgánica?",
+    "image": null,
+    "options": [
+      { "text": "Enlaces sencillos carbono-carbono", "correct": true },
+      { "text": "Enlaces dobles carbono-carbono", "correct": false },
+      { "text": "Presencia de un grupo hidroxilo", "correct": false },
+      { "text": "Enlaces triples carbono-carbono", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Su fórmula general es $C_nH_{2n+2}$ y se conocen como hidrocarburos saturados.",
+    "explanation": "Los alcanos son hidrocarburos saturados que solo contienen enlaces sencillos entre los átomos de carbono ($C-C$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Identifica la fórmula general que corresponde a los alquenos (olefinas) con una sola insaturación.",
+    "image": null,
+    "options": [
+      { "text": "$C_nH_{2n}$", "correct": true },
+      { "text": "$C_nH_{2n+2}$", "correct": false },
+      { "text": "$C_nH_{2n-2}$", "correct": false },
+      { "text": "$R-OH$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Tienen dos hidrógenos menos que los alcanos debido al doble enlace.",
+    "explanation": "Los alquenos monoinsaturados cumplen con la fórmula $C_nH_{2n}$, indicando la presencia de un doble enlace.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "¿Cuál es el grupo funcional característico de los alcoholes?",
+    "image": null,
+    "options": [
+      { "text": "Hidroxilo ($-OH$)", "correct": true },
+      { "text": "Carbonilo ($C=O$)", "correct": false },
+      { "text": "Carboxilo ($-COOH$)", "correct": false },
+      { "text": "Amino ($-NH_2$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el mismo grupo que se encuentra en el etanol, presente en bebidas alcohólicas.",
+    "explanation": "El grupo funcional de los alcoholes es el grupo hidroxilo ($-OH$) unido a un átomo de carbono saturado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "En la nomenclatura IUPAC, ¿qué sufijo se utiliza para nombrar a las cetonas?",
+    "image": null,
+    "options": [
+      { "text": "-ona", "correct": true },
+      { "text": "-ol", "correct": false },
+      { "text": "-al", "correct": false },
+      { "text": "-oico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Piensa en el componente principal del quitaesmalte (acetona).",
+    "explanation": "Las cetonas se nombran sustituyendo la terminación del hidrocarburo por el sufijo '-ona'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "¿Qué tipo de enlace carbono-carbono distingue a los alquinos?",
+    "image": null,
+    "options": [
+      { "text": "Triple enlace", "correct": true },
+      { "text": "Doble enlace", "correct": false },
+      { "text": "Enlace sencillo", "correct": false },
+      { "text": "Enlace iónico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El acetileno es el alquino más simple y se usa en sopletes.",
+    "explanation": "Los alquinos se caracterizan por tener al menos un triple enlace carbono-carbono ($-C \\equiv C-$) en su estructura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Un estudiante del CEPREDIX analiza una muestra desconocida y observa que presenta un anillo de seis carbonos con enlaces dobles alternados deslocalizados. ¿A qué grupo pertenece este compuesto?",
+    "image": null,
+    "options": [
+      { "text": "Aromáticos", "correct": true },
+      { "text": "Alquinos", "correct": false },
+      { "text": "Alcoholes", "correct": false },
+      { "text": "Aldehídos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El benceno es el representante más simple de este grupo.",
+    "explanation": "Los compuestos aromáticos contienen anillos estables con electrones deslocalizados, típicamente basados en la estructura del benceno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "¿Cuál es la estructura general de un éter?",
+    "image": null,
+    "options": [
+      { "text": "$R-O-R'$", "correct": true },
+      { "text": "$R-OH$", "correct": false },
+      { "text": "$R-CO-R'$", "correct": false },
+      { "text": "$R-COO-R'$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Consiste en un átomo de oxígeno unido a dos radicales alquilo o arilo.",
+    "explanation": "Los éteres tienen un átomo de oxígeno puenteando dos cadenas de carbono, representado como $R-O-R'$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Selecciona la lista que contiene únicamente grupos funcionales que poseen un átomo de oxígeno en su estructura.",
+    "image": null,
+    "options": [
+      { "text": "Alcohol, Aldehído, Cetona", "correct": true },
+      { "text": "Alcano, Alqueno, Amina", "correct": false },
+      { "text": "Amina, Amida, Nitrilo", "correct": false },
+      { "text": "Alquino, Aromático, Haluro", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca los grupos oxigenados y descarta los que solo tienen nitrógeno o solo carbono e hidrógeno.",
+    "explanation": "Los alcoholes ($R-OH$), aldehídos ($R-CHO$) y cetonas ($R-CO-R$) son todos compuestos oxigenados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Los ______ se caracterizan por tener el grupo carbonilo en un extremo de la cadena carbonada, mientras que las ______ lo tienen en una posición intermedia.",
+    "image": null,
+    "options": [
+      { "text": "Aldehídos, cetonas", "correct": true },
+      { "text": "Alcoholes, éteres", "correct": false },
+      { "text": "Ácidos, ésteres", "correct": false },
+      { "text": "Alquenos, alquinos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El aldehído va 'Al' final, la cetona va en el centro.",
+    "explanation": "El grupo funcional aldehído ($-CHO$) es terminal, mientras que el grupo funcional cetona ($C=O$) se encuentra entre dos carbonos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Un ______ es un compuesto derivado del amoniaco ($NH_3$) donde se sustituyen hidrógenos por radicales alquilo, clasificándose como ______ si tiene un solo sustituyente.",
+    "image": null,
+    "options": [
+      { "text": "Amina, primaria", "correct": true },
+      { "text": "Amida, secundaria", "correct": false },
+      { "text": "Alcohol, terciaria", "correct": false },
+      { "text": "Éter, cuaternaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El grupo funcional contiene nitrógeno básico.",
+    "explanation": "Las aminas son derivadas del amoniaco. Si se sustituye un solo hidrógeno del $NH_3$ por un grupo R, se obtiene una amina primaria ($R-NH_2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "El grupo funcional ______ está formado por un grupo carbonilo ($C=O$) y un grupo hidroxilo ($-OH$) en el mismo carbono, formando el grupo ______.",
+    "image": null,
+    "options": [
+      { "text": "Ácido carboxílico, carboxilo", "correct": true },
+      { "text": "Aldehído, formilo", "correct": false },
+      { "text": "Amida, amino", "correct": false },
+      { "text": "Éster, alcoxi", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Son compuestos ácidos débiles, como el vinagre.",
+    "explanation": "Los ácidos carboxílicos poseen el grupo carboxilo ($-COOH$), que combina las estructuras del carbonilo y el hidroxilo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Relaciona correctamente el grupo funcional con su representación general. A) Ácido Carboxílico, B) Amina, C) Alqueno; I) $R-NH_2$, II) $C=C$, III) $R-COOH$",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Ácido termina en H, Amina tiene N, Alqueno tiene doble enlace.",
+    "explanation": "El ácido carboxílico es $R-COOH$, la amina se caracteriza por el nitrógeno ($R-NH_2$) y el alqueno por el doble enlace ($C=C$).",
+    "explanative_video": null,
+    "collapsible_text": "Este ejercicio requiere identificar estructuras básicas."
+  },
+  {
+    "id": "CEP00AM",
+    "question": "¿Cómo se clasifica el carbono unido al grupo -OH en la estructura $CH_3-CH_2-OH$?",
+    "image": null,
+    "options": [
+      { "text": "Carbono primario", "correct": true },
+      { "text": "Carbono secundario", "correct": false },
+      { "text": "Carbono terciario", "correct": false },
+      { "text": "Carbono cuaternario", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Observa a cuántos otros carbonos está unido el carbono que sostiene al grupo hidroxilo.",
+    "explanation": "El carbono enlazado al $-OH$ está unido solamente a un átomo de carbono (el del grupo metilo), por lo tanto, es un alcohol primario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Cuál es el nombre IUPAC del compuesto $HCHO$ (el aldehído más simple)?",
+    "image": null,
+    "options": [
+      { "text": "Metanal", "correct": true },
+      { "text": "Metanol", "correct": false },
+      { "text": "Metanona", "correct": false },
+      { "text": "Ácido metanoico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Proviene del alcano de un solo carbono (metano) y usa el sufijo de aldehído.",
+    "explanation": "Al tener un solo carbono, el prefijo es 'met-'. Al ser un aldehído, el sufijo es '-al'. Nombre: Metanal (comúnmente formol).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿Qué grupo funcional resulta de la reacción entre un ácido carboxílico y un alcohol?",
+    "image": null,
+    "options": [
+      { "text": "Éster", "correct": true },
+      { "text": "Éter", "correct": false },
+      { "text": "Aldehído", "correct": false },
+      { "text": "Amina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Esta reacción se llama esterificación y produce compuestos con olores frutales.",
+    "explanation": "La reacción de esterificación une un ácido y un alcohol liberando agua, formando un éster ($R-COO-R'$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "En la molécula de eteno ($CH_2=CH_2$), ¿qué hibridación presentan los átomos de carbono?",
+    "image": null,
+    "options": [
+      { "text": "$sp^2$", "correct": true },
+      { "text": "$sp^3$", "correct": false },
+      { "text": "$sp$", "correct": false },
+      { "text": "$s^2p^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La hibridación está asociada a la geometría trigonal plana y la formación de un doble enlace.",
+    "explanation": "Los carbonos que forman un doble enlace presentan hibridación $sp^2$, dejando un orbital p puro para formar el enlace pi.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "¿Cuál de los siguientes compuestos es una amida?",
+    "image": null,
+    "options": [
+      { "text": "$CH_3-CONH_2$", "correct": true },
+      { "text": "$CH_3-NH_2$", "correct": false },
+      { "text": "$CH_3-COOH$", "correct": false },
+      { "text": "$CH_3-COO-CH_3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Busca el grupo carbonilo unido directamente a un nitrógeno.",
+    "explanation": "Las amidas tienen la estructura $R-CO-NR'_2$. La opción correcta muestra el grupo carbonilo unido al grupo amino.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Un laboratorio del CEPREDIX está sintetizando plásticos. El monómero utilizado tiene la fórmula $CH_2=CHCl$. ¿Qué grupo funcional halogenado está presente?",
+    "image": null,
+    "options": [
+      { "text": "Haluro de alquilo (o alquenilo)", "correct": true },
+      { "text": "Haluro de ácido", "correct": false },
+      { "text": "Amina", "correct": false },
+      { "text": "Aldehído", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El cloro es un halógeno unido a una cadena de carbonos.",
+    "explanation": "La presencia de un halógeno (Cl) sustituyendo un hidrógeno en una cadena carbonada clasifica al compuesto como un haluro orgánico (en este caso, cloruro de vinilo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Qué sufijo se utiliza para nombrar a los ácidos carboxílicos en el sistema IUPAC?",
+    "image": null,
+    "options": [
+      { "text": "-oico", "correct": true },
+      { "text": "-ico", "correct": false },
+      { "text": "-ilo", "correct": false },
+      { "text": "-ato", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Ejemplo: Ácido etan...",
+    "explanation": "La nomenclatura IUPAC para ácidos carboxílicos utiliza la palabra 'Ácido' seguida del nombre del hidrocarburo con la terminación '-oico'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Selecciona los grupos funcionales que contienen nitrógeno en su estructura.",
+    "image": null,
+    "options": [
+      { "text": "Aminas y Amidas", "correct": true },
+      { "text": "Alcoholes y Éteres", "correct": false },
+      { "text": "Aldehídos y Cetonas", "correct": false },
+      { "text": "Ácidos carboxílicos y Ésteres", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Son grupos básicos o derivados de ácidos con amoniaco.",
+    "explanation": "Tanto las aminas ($R-NH_2$) como las amidas ($R-CONH_2$) son compuestos nitrogenados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "El benceno es un compuesto ______ que tiene la fórmula molecular ______.",
+    "image": null,
+    "options": [
+      { "text": "Aromático, $C_6H_6$", "correct": true },
+      { "text": "Alqueno, $C_6H_{12}$", "correct": false },
+      { "text": "Cicloalcano, $C_6H_{12}$", "correct": false },
+      { "text": "Alquino, $C_6H_{10}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el anillo más estable con tres dobles enlaces resonantes.",
+    "explanation": "El benceno ($C_6H_6$) es el compuesto modelo de la aromaticidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "La hibridación $sp$ es característica de los enlaces ______ presentes en los ______.",
+    "image": null,
+    "options": [
+      { "text": "Triples, alquinos", "correct": true },
+      { "text": "Dobles, alquenos", "correct": false },
+      { "text": "Sencillos, alcanos", "correct": false },
+      { "text": "Deslocalizados, aromáticos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Geometría lineal, ángulo de 180 grados.",
+    "explanation": "Los carbonos unidos por un triple enlace poseen hibridación $sp$, característica de los alquinos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "La fórmula $R-CO-X$, donde X es un halógeno (Cl, Br, I), corresponde a:",
+    "image": null,
+    "options": [
+      { "text": "Haluro de ácido (o de acilo)", "correct": true },
+      { "text": "Haluro de alquilo", "correct": false },
+      { "text": "Cetona halogenada", "correct": false },
+      { "text": "Ácido carboxílico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un derivado de ácido carboxílico donde el -OH se reemplaza por un halógeno.",
+    "explanation": "Al sustituir el grupo hidroxilo de un ácido carboxílico por un halógeno, se forma un haluro de acilo ($R-COX$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Relaciona el compuesto con su familia química: A) Propanona, B) Metanol, C) Etino; I) Alcohol, II) Alquino, III) Cetona.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Terminaciones: -ona, -ol, -ino.",
+    "explanation": "Propanona termina en -ona (Cetona), Metanol termina en -ol (Alcohol), Etino termina en -ino (Alquino).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "¿Cuál es la característica principal de los hidrocarburos saturados?",
+    "image": null,
+    "options": [
+      { "text": "Tienen el máximo número de átomos de hidrógeno posible", "correct": true },
+      { "text": "Contienen al menos un doble enlace", "correct": false },
+      { "text": "Contienen anillos bencénicos", "correct": false },
+      { "text": "Son altamente reactivos con agua", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Saturado significa 'lleno', en este caso, de hidrógenos.",
+    "explanation": "Los alcanos son saturados porque sus carbonos están unidos a cuatro átomos (el máximo posible), sin enlaces múltiples.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "¿Qué grupo funcional está presente en el vinagre (ácido acético)?",
+    "image": null,
+    "options": [
+      { "text": "Carboxilo", "correct": true },
+      { "text": "Hidroxilo", "correct": false },
+      { "text": "Carbonilo", "correct": false },
+      { "text": "Amino", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Su nombre químico sistemático es ácido etanoico.",
+    "explanation": "El ácido acético es un ácido carboxílico, por lo que su grupo funcional principal es el carboxilo ($-COOH$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "¿Cuál es la fórmula condensada del etano?",
+    "image": null,
+    "options": [
+      { "text": "$C_2H_6$", "correct": true },
+      { "text": "$C_2H_4$", "correct": false },
+      { "text": "$CH_4$", "correct": false },
+      { "text": "$C_3H_8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un alcano con 2 carbonos. Usa $C_nH_{2n+2}$.",
+    "explanation": "Para $n=2$ en un alcano ($C_nH_{2n+2}$), la fórmula es $C_2H_{2(2)+2} = C_2H_6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "¿Qué compuesto tiene la fórmula $CH_3-O-CH_3$?",
+    "image": null,
+    "options": [
+      { "text": "Dimetil éter", "correct": true },
+      { "text": "Etanol", "correct": false },
+      { "text": "Propanona", "correct": false },
+      { "text": "Etanal", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Tiene un oxígeno en el centro y dos grupos metilo a los lados.",
+    "explanation": "La estructura $R-O-R$ corresponde a un éter. Al tener dos grupos metilo, es el dimetil éter.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Qué sufijo indica la presencia de un doble enlace en la nomenclatura de hidrocarburos?",
+    "image": null,
+    "options": [
+      { "text": "-eno", "correct": true },
+      { "text": "-ano", "correct": false },
+      { "text": "-ino", "correct": false },
+      { "text": "-ilo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Como en 'eteno' o 'propeno'.",
+    "explanation": "El sufijo '-eno' se utiliza en la nomenclatura IUPAC para designar a los alquenos (hidrocarburos con dobles enlaces).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Un estudiante del CEPREDIX debe identificar un compuesto que presenta olor a pescado podrido y reacciona como una base débil. ¿De qué grupo funcional se trata probablemente?",
+    "image": null,
+    "options": [
+      { "text": "Amina", "correct": true },
+      { "text": "Alcohol", "correct": false },
+      { "text": "Cetona", "correct": false },
+      { "text": "Éster", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivado del amoniaco, conocido por esos olores característicos.",
+    "explanation": "Las aminas de bajo peso molecular suelen tener olores desagradables (a pescado) y actúan como bases de Lewis debido al par de electrones libres del nitrógeno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "¿Cuál es el grupo funcional presente en $CH_3-CH_2-CHO$?",
+    "image": null,
+    "options": [
+      { "text": "Aldehído", "correct": true },
+      { "text": "Cetona", "correct": false },
+      { "text": "Ácido carboxílico", "correct": false },
+      { "text": "Alcohol", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El grupo funcional está al final de la cadena y tiene un hidrógeno unido al carbonilo.",
+    "explanation": "La terminación $-CHO$ es la forma condensada de representar al grupo aldehído.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Selecciona los compuestos que son hidrocarburos alifáticos (no aromáticos).",
+    "image": null,
+    "options": [
+      { "text": "Alcanos, Alquenos, Alquinos", "correct": true },
+      { "text": "Benceno, Fenol, Tolueno", "correct": false },
+      { "text": "Alcoholes, Aldehídos, Cetonas", "correct": false },
+      { "text": "Aminas, Amidas, Nitrilos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Alifático significa cadena abierta o cíclica que no cumple con la aromaticidad.",
+    "explanation": "Los hidrocarburos alifáticos incluyen a los alcanos, alquenos y alquinos (y sus análogos cíclicos no aromáticos), diferenciándose de los compuestos aromáticos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "La reacción de hidratación de un alqueno (adición de agua) en medio ácido produce principalmente un:",
+    "image": null,
+    "options": [
+      { "text": "Alcohol", "correct": true },
+      { "text": "Alcano", "correct": false },
+      { "text": "Aldehído", "correct": false },
+      { "text": "Ácido carboxílico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Rompes el doble enlace y agregas H y OH.",
+    "explanation": "La adición de agua ($H-OH$) a un doble enlace $C=C$ genera un alcohol ($H-C-C-OH$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Los ______ son isómeros de función de los alcoholes, ya que ambos comparten la fórmula general $C_nH_{2n+2}O$ pero difieren en su estructura.",
+    "image": null,
+    "options": [
+      { "text": "Éteres", "correct": true },
+      { "text": "Aldehídos", "correct": false },
+      { "text": "Ácidos", "correct": false },
+      { "text": "Ésteres", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El etanol y el dimetil éter tienen la misma cantidad de átomos pero conectividad diferente.",
+    "explanation": "Los alcoholes y éteres saturados son isómeros funcionales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "¿Cuál es la fórmula general de los ésteres?",
+    "image": null,
+    "options": [
+      { "text": "$R-COO-R'$", "correct": true },
+      { "text": "$R-COOH$", "correct": false },
+      { "text": "$R-O-R'$", "correct": false },
+      { "text": "$R-CHO$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Similar a un ácido, pero el hidrógeno final es reemplazado por otro grupo alquilo.",
+    "explanation": "Los ésteres resultan de sustituir el hidrógeno del grupo carboxilo por un grupo alquilo, dando $R-COO-R'$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Relaciona el número de carbonos con el prefijo IUPAC correcto: A) 1 Carbono, B) 2 Carbonos, C) 3 Carbonos, D) 4 Carbonos; I) Et-, II) But-, III) Met-, IV) Prop-",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-IV, D-II", "correct": true },
+      { "text": "A-I, B-III, C-II, D-IV", "correct": false },
+      { "text": "A-III, B-IV, C-I, D-II", "correct": false },
+      { "text": "A-IV, B-III, C-II, D-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Metano, Etano, Propano, Butano.",
+    "explanation": "1C: Met-, 2C: Et-, 3C: Prop-, 4C: But-.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "¿Qué compuesto es el principal componente del gas natural?",
+    "image": null,
+    "options": [
+      { "text": "Metano ($CH_4$)", "correct": true },
+      { "text": "Etano ($C_2H_6$)", "correct": false },
+      { "text": "Propano ($C_3H_8$)", "correct": false },
+      { "text": "Butano ($C_4H_{10}$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el alcano más simple.",
+    "explanation": "El metano es el alcano más sencillo y componente mayoritario del gas natural.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "¿Cuál es la geometría molecular alrededor de un carbono con hibridación $sp^3$ (como en los alcanos)?",
+    "image": null,
+    "options": [
+      { "text": "Tetraédrica", "correct": true },
+      { "text": "Trigonal plana", "correct": false },
+      { "text": "Lineal", "correct": false },
+      { "text": "Octaédrica", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Forma una pirámide de base triangular con ángulos de 109.5 grados.",
+    "explanation": "Los carbonos $sp^3$ (4 enlaces simples) tienen geometría tetraédrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "¿Qué grupo funcional se caracteriza por tener un átomo de nitrógeno unido a un grupo carbonilo?",
+    "image": null,
+    "options": [
+      { "text": "Amida", "correct": true },
+      { "text": "Amina", "correct": false },
+      { "text": "Nitrilo", "correct": false },
+      { "text": "Cetona", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el enlace peptídico en las proteínas.",
+    "explanation": "La amida ($R-CONH_2$) combina carbonilo y nitrógeno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "En nomenclatura, si un compuesto tiene un doble y un triple enlace, ¿cuál suele tener prioridad en la numeración si están en posiciones equivalentes?",
+    "image": null,
+    "options": [
+      { "text": "El doble enlace (-eno)", "correct": true },
+      { "text": "El triple enlace (-ino)", "correct": false },
+      { "text": "Es indiferente", "correct": false },
+      { "text": "Depende de los halógenos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Por orden alfabético 'e' va antes que 'i'.",
+    "explanation": "Según la IUPAC, si hay ambigüedad en la numeración, el doble enlace recibe el número más bajo sobre el triple enlace.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "¿Qué nombre recibe el grupo $-C_6H_5$ cuando el benceno actúa como sustituyente?",
+    "image": null,
+    "options": [
+      { "text": "Fenilo", "correct": true },
+      { "text": "Bencilo", "correct": false },
+      { "text": "Ciclohexilo", "correct": false },
+      { "text": "Aritilo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "No confundir con bencilo que tiene un $CH_2$ extra.",
+    "explanation": "El radical derivado de remover un hidrógeno al benceno se llama Fenilo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "En un examen del CEPREDIX se pregunta por la solubilidad. Los alcanos de cadena larga son ______ en agua debido a que son moléculas ______.",
+    "image": null,
+    "options": [
+      { "text": "Insolubles, apolares", "correct": true },
+      { "text": "Solubles, polares", "correct": false },
+      { "text": "Solubles, iónicas", "correct": false },
+      { "text": "Insolubles, ácidas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El aceite (alcano) y el agua no se mezclan.",
+    "explanation": "Los alcanos son apolares (hidrofóbicos) y no se disuelven en agua (polar).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "¿Qué es un polímero de adición?",
+    "image": null,
+    "options": [
+      { "text": "Una macromolécula formada por la unión de alquenos rompiendo el doble enlace", "correct": true },
+      { "text": "Una mezcla de alcanos y agua", "correct": false },
+      { "text": "Un compuesto con muchos grupos alcohol", "correct": false },
+      { "text": "Una sal de ácido carboxílico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El polietileno se hace a partir de etileno.",
+    "explanation": "Los polímeros de adición se forman cuando monómeros insaturados (como alquenos) se enlazan entre sí sin perder átomos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "¿Cuál de los siguientes es un ácido dicarboxílico?",
+    "image": null,
+    "options": [
+      { "text": "$HOOC-COOH$ (Ácido oxálico)", "correct": true },
+      { "text": "$CH_3-COOH$", "correct": false },
+      { "text": "$CH_3-CH_2-OH$", "correct": false },
+      { "text": "$CH_3-CHO$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Debe tener dos grupos -COOH.",
+    "explanation": "El ácido oxálico (etanodioico) tiene dos grupos carboxilo, uno en cada extremo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Las cetonas y los aldehídos son isómeros de función. ¿Cuál de las siguientes parejas representa esto?",
+    "image": null,
+    "options": [
+      { "text": "Propanal y Propanona", "correct": true },
+      { "text": "Etanol y Etanal", "correct": false },
+      { "text": "Metano y Metanol", "correct": false },
+      { "text": "Ácido acético y Acetona", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deben tener el mismo número de carbonos y ser aldehído/cetona.",
+    "explanation": "El propanal ($C_3H_6O$) y la propanona ($C_3H_6O$) tienen la misma fórmula molecular pero diferente grupo funcional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "El grupo funcional $R-X$ (donde X es F, Cl, Br, I) se denomina:",
+    "image": null,
+    "options": [
+      { "text": "Haloalcano", "correct": true },
+      { "text": "Haloácido", "correct": false },
+      { "text": "Nitrilo", "correct": false },
+      { "text": "Tiol", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Un halógeno unido a un alcano.",
+    "explanation": "Los haloalcanos o haluros de alquilo resultan de sustituir hidrógenos de un alcano por halógenos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "La oxidación suave de un alcohol primario produce un:",
+    "image": null,
+    "options": [
+      { "text": "Aldehído", "correct": true },
+      { "text": "Cetona", "correct": false },
+      { "text": "Éter", "correct": false },
+      { "text": "Alqueno", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El hidroxilo terminal pierde hidrógenos para formar un carbonilo terminal.",
+    "explanation": "Los alcoholes primarios ($R-CH_2-OH$) se oxidan inicialmente a aldehídos ($R-CHO$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Relaciona la fórmula con el nombre común: A) $CH_3COCH_3$, B) $HCHO$, C) $HCOOH$; I) Ácido fórmico, II) Acetona, III) Formaldehído.",
+    "image": null,
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Acetona es disolvente, Formol preserva, Ácido fórmico es de hormigas.",
+    "explanation": "Acetona (dimetilcetona), Formaldehído (metanal), Ácido fórmico (metanoico).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "¿Qué propiedad física aumenta generalmente al aumentar el peso molecular de los alcanos lineales?",
+    "image": null,
+    "options": [
+      { "text": "Punto de ebullición", "correct": true },
+      { "text": "Solubilidad en agua", "correct": false },
+      { "text": "Volatilidad", "correct": false },
+      { "text": "Reactividad ácida", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Más grande la molécula, más difícil de pasar a gas.",
+    "explanation": "Al aumentar la cadena, aumentan las fuerzas de Van der Waals, elevando el punto de ebullición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "¿Cómo se llama el alquino de dos carbonos?",
+    "image": null,
+    "options": [
+      { "text": "Etino", "correct": true },
+      { "text": "Eteno", "correct": false },
+      { "text": "Etano", "correct": false },
+      { "text": "Metino", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa prefijo de 2 carbonos y sufijo de triple enlace.",
+    "explanation": "El etino (comúnmente acetileno) es el alquino más pequeño ($HC \\equiv CH$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Los jabones son sales de sodio o potasio de:",
+    "image": null,
+    "options": [
+      { "text": "Ácidos grasos (Ácidos carboxílicos de cadena larga)", "correct": true },
+      { "text": "Aldehídos aromáticos", "correct": false },
+      { "text": "Alcoholes polihidroxilados", "correct": false },
+      { "text": "Aminas complejas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Provienen de la saponificación de grasas.",
+    "explanation": "Los jabones se forman al neutralizar ácidos grasos (ácidos carboxílicos largos) con una base fuerte.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "En el CEPREDIX se estudia la fermentación. El producto principal de la fermentación alcohólica de azúcares es el ______.",
+    "image": null,
+    "options": [
+      { "text": "Etanol", "correct": true },
+      { "text": "Metanol", "correct": false },
+      { "text": "Propanol", "correct": false },
+      { "text": "Butanol", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el alcohol presente en vinos y cervezas.",
+    "explanation": "La fermentación por levaduras convierte glucosa en etanol y dióxido de carbono.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "¿Qué grupo funcional contienen los CFC (Clorofluorocarbonos), conocidos por dañar la capa de ozono?",
+    "image": null,
+    "options": [
+      { "text": "Haluro de alquilo", "correct": true },
+      { "text": "Aldehído", "correct": false },
+      { "text": "Amina", "correct": false },
+      { "text": "Éster", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Su nombre indica Cloro, Flúor y Carbono.",
+    "explanation": "Los CFC son alcanos halogenados (haloalcanos) donde los hidrógenos son sustituidos por Cl y F.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "El grupo funcional principal en la urea ($NH_2-CO-NH_2$) es:",
+    "image": null,
+    "options": [
+      { "text": "Amida", "correct": true },
+      { "text": "Amina", "correct": false },
+      { "text": "Cetona", "correct": false },
+      { "text": "Ácido", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aunque tiene dos grupos amino, están unidos a un carbonilo, formando una diamida.",
+    "explanation": "La urea es una diamida del ácido carbónico (carbubamida). El grupo funcional clave es la amida ($N-C=O$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Los tioles son análogos azufrados de los alcoholes. Su fórmula general es:",
+    "image": null,
+    "options": [
+      { "text": "$R-SH$", "correct": true },
+      { "text": "$R-OH$", "correct": false },
+      { "text": "$R-S-R$", "correct": false },
+      { "text": "$R-SO-R$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sustituye el oxígeno del alcohol por azufre.",
+    "explanation": "El grupo sulfhidrilo ($-SH$) define a los tioles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Identifica los compuestos que pueden formar puentes de hidrógeno consigo mismos.",
+    "image": null,
+    "options": [
+      { "text": "Alcoholes y Ácidos Carboxílicos", "correct": true },
+      { "text": "Éteres y Cetonas", "correct": false },
+      { "text": "Alcanos y Alquenos", "correct": false },
+      { "text": "Haloalcanos y Aromáticos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Necesitan un hidrógeno unido a un átomo electronegativo (O o N).",
+    "explanation": "Los alcoholes y ácidos tienen grupos $-OH$ que permiten formar enlaces de hidrógeno intermoleculares fuertes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "El ______ es un gas que actúa como hormona vegetal madurando frutas y es el alqueno más simple.",
+    "image": null,
+    "options": [
+      { "text": "Eteno (Etileno)", "correct": true },
+      { "text": "Metano", "correct": false },
+      { "text": "Benceno", "correct": false },
+      { "text": "Etino", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Se usa para madurar plátanos artificialmente.",
+    "explanation": "El eteno ($C_2H_4$) es una fitohormona gaseosa responsable de la maduración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Relaciona el grupo funcional con su estructura en la imagen proporcionada al inicio (o conocimiento general): A) Fenol, B) Anhídrido, C) Éster; I) Anillo bencénico con -OH, II) $R-CO-O-CO-R$, III) $R-COO-R'$.",
+    "image": null,
+    "options": [
+      { "text": "A-I, B-II, C-III", "correct": true },
+      { "text": "A-II, B-III, C-I", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-I, B-III, C-II", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Fenol es alcohol aromático. Anhídrido son dos ácidos sin agua.",
+    "explanation": "Fenol es $Ar-OH$. Anhídrido es la unión de dos grupos acilo con un oxígeno ($RCO-O-OCR$). Éster es $RCOOR'$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Cuál es la terminación para los aldehídos en nomenclatura IUPAC?",
+    "image": null,
+    "options": [
+      { "text": "-al", "correct": true },
+      { "text": "-ol", "correct": false },
+      { "text": "-ona", "correct": false },
+      { "text": "-ilo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las dos primeras letras de 'aldehído'.",
+    "explanation": "La IUPAC asigna el sufijo '-al' a los aldehídos (ej. etanal).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "En un estudio del CEPREDIX, se pide identificar un compuesto con la fórmula $R-O-R$ que se usaba antiguamente como anestésico.",
+    "image": null,
+    "options": [
+      { "text": "Éter dietílico", "correct": true },
+      { "text": "Etanol", "correct": false },
+      { "text": "Cloroformo", "correct": false },
+      { "text": "Acetona", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un éter común.",
+    "explanation": "El éter dietílico ($CH_3CH_2-O-CH_2CH_3$) fue un anestésico general muy utilizado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "¿Qué grupo funcional se obtiene al oxidar un alcohol secundario?",
+    "image": null,
+    "options": [
+      { "text": "Cetona", "correct": true },
+      { "text": "Aldehído", "correct": false },
+      { "text": "Ácido carboxílico", "correct": false },
+      { "text": "Éster", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El hidroxilo está en medio de la cadena, al oxidarse forma un doble enlace con el oxígeno ahí mismo.",
+    "explanation": "La oxidación de alcoholes secundarios ($R-CH(OH)-R'$) produce cetonas ($R-CO-R'$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "¿Qué es un radical alquilo?",
+    "image": null,
+    "options": [
+      { "text": "Un alcano que ha perdido un átomo de hidrógeno", "correct": true },
+      { "text": "Un alcano con un oxígeno extra", "correct": false },
+      { "text": "Un alqueno con dos dobles enlaces", "correct": false },
+      { "text": "Un compuesto aromático", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Ejemplo: Metilo ($CH_3-$) viene del Metano ($CH_4$).",
+    "explanation": "Los radicales alquilo (simbolizados como $R-$) son fragmentos moleculares derivados de la eliminación de un hidrógeno de un alcano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "La fórmula general $C_nH_{2n}$ corresponde a dos tipos de isómeros. ¿Cuáles son?",
+    "image": null,
+    "options": [
+      { "text": "Alquenos y Cicloalcanos", "correct": true },
+      { "text": "Alquinos y Alquenos", "correct": false },
+      { "text": "Alcanos y Cicloalquenos", "correct": false },
+      { "text": "Alcoholes y Éteres", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Ambos tienen 2 hidrógenos menos que un alcano, uno por doble enlace y el otro por cerrar el ciclo.",
+    "explanation": "Los alquenos monoinsaturados y los cicloalcanos comparten la fórmula general $C_nH_{2n}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Identifica la estructura del clorobenceno.",
+    "image": null,
+    "options": [
+      { "text": "Un anillo de benceno con un átomo de cloro sustituyente", "correct": true },
+      { "text": "Un ciclohexano con un cloro", "correct": false },
+      { "text": "Una cadena lineal de 6 carbonos con cloro", "correct": false },
+      { "text": "Un benceno con un grupo $CH_2Cl$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un haluro aromático (arilo).",
+    "explanation": "El clorobenceno consta de un anillo aromático ($C_6H_5-$) unido directamente a un átomo de cloro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "¿Cuál es el grupo funcional prioritario en el ácido 2-hidroxipropanoico (ácido láctico)?",
+    "image": null,
+    "options": [
+      { "text": "Ácido carboxílico", "correct": true },
+      { "text": "Alcohol", "correct": false },
+      { "text": "Cetona", "correct": false },
+      { "text": "Aldehído", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El nombre principal lo dice todo.",
+    "explanation": "En nomenclatura, el ácido carboxílico tiene prioridad sobre el alcohol (hidroxi) y otros grupos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Un compuesto con la fórmula $CH_3-COO-CH_2-CH_3$ recibe el nombre de:",
+    "image": null,
+    "options": [
+      { "text": "Etanoato de etilo (Acetato de etilo)", "correct": true },
+      { "text": "Ácido butanoico", "correct": false },
+      { "text": "Metanoato de propilo", "correct": false },
+      { "text": "Etanol propílico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Parte del ácido (2C) termina en -ato, parte del alcohol (2C) termina en -ilo.",
+    "explanation": "La parte del ácido tiene 2 carbonos (Etanoato/Acetato) y la parte alquílica unida al oxígeno tiene 2 carbonos (Etilo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "¿Cuál es la característica de una amina terciaria?",
+    "image": null,
+    "options": [
+      { "text": "El nitrógeno está unido a tres grupos alquilo y no tiene hidrógenos", "correct": true },
+      { "text": "El nitrógeno tiene dos hidrógenos", "correct": false },
+      { "text": "El nitrógeno está unido a tres hidrógenos", "correct": false },
+      { "text": "Es un alcohol con tres grupos OH", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Sustitución total de los hidrógenos del amoniaco.",
+    "explanation": "En las aminas terciarias ($R_3N$), los tres hidrógenos del amoniaco original han sido reemplazados por grupos orgánicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Los ______ son responsables de muchos aromas de frutas y flores.",
+    "image": null,
+    "options": [
+      { "text": "Ésteres", "correct": true },
+      { "text": "Ácidos carboxílicos", "correct": false },
+      { "text": "Aminas", "correct": false },
+      { "text": "Haloalcanos", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Se usan en saborizantes artificiales.",
+    "explanation": "Los ésteres de bajo peso molecular son volátiles y poseen olores agradables y afrutados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "¿Qué grupo funcional está presente en $CH_3-C \\equiv N$?",
+    "image": null,
+    "options": [
+      { "text": "Nitrilo (Cianuro)", "correct": true },
+      { "text": "Amina", "correct": false },
+      { "text": "Amida", "correct": false },
+      { "text": "Alquino", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Triple enlace Carbono-Nitrógeno.",
+    "explanation": "El grupo funcional ciano ($-C \\equiv N$) define a los nitrilos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Relaciona el término con su descripción: A) Saturado, B) Insaturado; I) Solo enlaces simples, II) Presencia de enlaces dobles o triples.",
+    "image": null,
+    "options": [
+      { "text": "A-I, B-II", "correct": true },
+      { "text": "A-II, B-I", "correct": false },
+      { "text": "A-I y B-I", "correct": false },
+      { "text": "A-II y B-II", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Saturado está 'lleno' de hidrógenos.",
+    "explanation": "Saturado implica máxima hidrogenación (enlaces simples). Insaturado implica deficiencia de hidrógenos (enlaces múltiples).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "¿Cuál es el compuesto aromático más simple?",
+    "image": null,
+    "options": [
+      { "text": "Benceno", "correct": true },
+      { "text": "Naftaleno", "correct": false },
+      { "text": "Antraceno", "correct": false },
+      { "text": "Tolueno", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Un solo anillo de 6 carbonos.",
+    "explanation": "El benceno es la unidad fundamental de los compuestos aromáticos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "En el CEPREDIX se analiza la aspirina. Este fármaco contiene un grupo ácido carboxílico y un grupo éster. ¿Qué tipo de compuesto es funcionalmente?",
+    "image": null,
+    "options": [
+      { "text": "Polifuncional", "correct": true },
+      { "text": "Hidrocarburo puro", "correct": false },
+      { "text": "Inorgánico", "correct": false },
+      { "text": "Amina simple", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Tiene más de una función química.",
+    "explanation": "Al tener grupos carboxilo y éster, presenta múltiples funciones, siendo un compuesto polifuncional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
