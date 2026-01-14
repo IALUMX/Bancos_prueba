@@ -1,1 +1,1022 @@
-
+[
+  {
+    "id": "CEP00AA",
+    "question": "Identifica la oración que utiliza correctamente las mayúsculas en sobrenombres.",
+    "image": null,
+    "options": [
+      { "text": "La policía detuvo a el Chapo Guzmán cerca de la frontera.", "correct": true },
+      { "text": "La policía detuvo a El Chapo Guzmán cerca de la frontera.", "correct": false },
+      { "text": "La policía detuvo a el chapo Guzmán cerca de la frontera.", "correct": false },
+      { "text": "La policía detuvo A el Chapo Guzmán cerca de la frontera.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que el artículo que antecede al apodo no forma parte del nombre propio.",
+    "explanation": "Según la regla I, los apodos llevan mayúscula inicial (Chapo), pero el artículo que los antecede debe ir en minúscula (el), a menos que inicie la oración.",
+    "explanative_video": null,
+    "collapsible_text": "Regla I: Los apodos llevan mayúscula, pero el artículo que los antecede va en minúscula (a menos que inicie la oración)."
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Selecciona la opción escrita correctamente en relación con nombres de instituciones.",
+    "image": null,
+    "options": [
+      { "text": "Mi prima estudia en la Universidad Nacional Autónoma de México.", "correct": true },
+      { "text": "Mi prima estudia en la Universidad nacional autónoma de México.", "correct": false },
+      { "text": "Mi prima estudia en la universidad Nacional Autónoma de México.", "correct": false },
+      { "text": "Mi prima estudia en la Universidad Nacional Autónoma De México.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Todas las palabras significativas del nombre de la institución deben ir en mayúscula.",
+    "explanation": "En los nombres de instituciones, todas las palabras significativas (sustantivos y adjetivos) van con mayúscula. Las preposiciones y artículos (de, la) van en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla II: Todas las palabras significativas (sustantivos y adjetivos) que componen el nombre de una entidad deben ir en mayúscula. No se capitalizan preposiciones ni artículos internos."
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Completa la oración con la forma correcta: El ______ López Obrador dio una conferencia matutina.",
+    "image": null,
+    "options": [
+      { "text": "presidente", "correct": true },
+      { "text": "Presidente", "correct": false },
+      { "text": "PRESIDENTE", "correct": false },
+      { "text": "Pdte.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los cargos o títulos que acompañan al nombre propio se escriben con minúscula.",
+    "explanation": "Los cargos como 'presidente', 'director' o 'doctor' se escriben con minúscula cuando acompañan al nombre propio o se usan de forma genérica (Regla III).",
+    "explanative_video": null,
+    "collapsible_text": "Regla III: Los cargos van en minúscula, independientemente de su rango, cuando acompañan al nombre propio o se usan de forma genérica."
+  },
+  {
+    "id": "CEP00AD",
+    "question": "¿Cuál de las siguientes oraciones respeta la regla de mayúsculas para ciencias y asignaturas?",
+    "image": null,
+    "options": [
+      { "text": "Reprobó el examen de Cálculo Integral.", "correct": true },
+      { "text": "La Química es una ciencia fascinante.", "correct": false },
+      { "text": "Reprobó el examen de cálculo integral.", "correct": false },
+      { "text": "Me gusta mucho estudiar Historia y Geografía por las tardes.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Distingue entre la ciencia en general (minúscula) y el nombre de una materia específica (mayúscula).",
+    "explanation": "Cuando se refiere al nombre de una asignatura o materia específica en un contexto curricular ('examen de Cálculo Integral'), se usan mayúsculas. Las ciencias en general van en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla IV: Si hablas de la ciencia en general, usa minúsculas. Si hablas de la clase o el departamento (contexto curricular), usa mayúsculas."
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Identifica la opción que aplica correctamente la mayúscula en premios.",
+    "image": null,
+    "options": [
+      { "text": "Ganó el Premio Ariel a la mejor película.", "correct": true },
+      { "text": "Ganó el premio ariel a la mejor película.", "correct": false },
+      { "text": "Ganó el Premio Ariel a la Mejor Película.", "correct": false },
+      { "text": "Ganó el premio Ariel a la mejor película.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El nombre del galardón lleva mayúsculas en sus palabras significativas.",
+    "explanation": "Se escriben con mayúscula las palabras significativas que forman el nombre del premio ('Premio Ariel'). La categoría ('mejor película') va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla V: Se escriben con mayúscula las palabras significativas que forman el nombre del premio."
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Un alumno del CEPREDIX está escribiendo un ensayo sobre literatura. Completa su oración: 'Mi novela favorita es ______ de Gabriel García Márquez'.",
+    "image": null,
+    "options": [
+      { "text": "Cien años de soledad", "correct": true },
+      { "text": "Cien Años de Soledad", "correct": false },
+      { "text": "Cien Años De Soledad", "correct": false },
+      { "text": "cien años de soledad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En los títulos de obras en español, solo la primera letra lleva mayúscula (salvo nombres propios).",
+    "explanation": "A diferencia del inglés, en español solo se escribe con mayúscula la primera letra del título de una obra creativa, el resto va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VI: Primera letra en mayúscula, el resto en minúscula para títulos de obras (libros, películas, canciones)."
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Elige la oración escrita correctamente respecto a los días y meses.",
+    "image": null,
+    "options": [
+      { "text": "Nació el lunes 12 de agosto.", "correct": true },
+      { "text": "Nació el Lunes 12 de Agosto.", "correct": false },
+      { "text": "Nació el Lunes 12 de agosto.", "correct": false },
+      { "text": "Nació el lunes 12 de Agosto.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los días y meses no son nombres propios en español.",
+    "explanation": "Los días de la semana y los meses del año siempre se escriben con minúscula, a menos que sean el inicio de una oración o parte de una fecha festiva.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VII: En español, los días de la semana, los meses del año y las estaciones siempre van en minúscula."
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Selecciona las opciones que presentan un uso INCORRECTO de las mayúsculas:\n1. El Rey Felipe visitó el museo.\n2. Me gusta la clase de Historia del Arte.\n3. Hoy es Viernes.\n4. Leí la novela Pedro Páramo.",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Revisa las reglas de cargos (rey) y días de la semana (viernes).",
+    "explanation": "1 es incorrecto porque 'rey' va en minúscula. 3 es incorrecto porque 'viernes' va en minúscula. 2 y 4 son correctos.",
+    "explanative_video": null,
+    "collapsible_text": "Regla III (Cargos en minúscula) y Regla VII (Días en minúscula)."
+  },
+  {
+    "id": "CEP00AI",
+    "question": "El edificio donde se presentan óperas y conciertos en la CDMX es el ______.",
+    "image": null,
+    "options": [
+      { "text": "Palacio de Bellas Artes", "correct": true },
+      { "text": "Palacio De Bellas Artes", "correct": false },
+      { "text": "palacio de bellas artes", "correct": false },
+      { "text": "Palacio de bellas artes", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un edificio público, mayúsculas en palabras significativas.",
+    "explanation": "Los nombres de edificios públicos llevan mayúscula en sustantivos y adjetivos. Las preposiciones 'de' van en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla II: Todas las palabras significativas que componen el nombre de un edificio público deben ir en mayúscula."
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Identifica la palabra que debe llevar tilde a pesar de estar en mayúsculas.",
+    "image": null,
+    "options": [
+      { "text": "ÁLVARO", "correct": true },
+      { "text": "ALVARO", "correct": false },
+      { "text": "MExICO", "correct": false },
+      { "text": "PUEBLA", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las reglas de acentuación se aplican igual para mayúsculas y minúsculas.",
+    "explanation": "El uso de mayúsculas no exime de poner la tilde. 'Álvaro' es esdrújula y siempre se acentúa, incluso en mayúsculas.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VIII: El uso de mayúsculas no exime de poner la tilde si la regla de acentuación lo exige."
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Completa con los términos correctos: 'Ayer vimos jugar al ______ Hernández, conocido por su apodo'.",
+    "image": null,
+    "options": [
+      { "text": "Chicharito", "correct": true },
+      { "text": "chicharito", "correct": false },
+      { "text": "CHICHARITO", "correct": false },
+      { "text": "\"Chicharito\"", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los apodos funcionan como nombres propios.",
+    "explanation": "Los apodos se escriben con mayúscula inicial por funcionar como nombres propios.",
+    "explanative_video": null,
+    "collapsible_text": "Regla I: Se escriben con mayúscula inicial los apodos y seudónimos."
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Relaciona el tipo de regla con el ejemplo correcto:\nA) Títulos de Obras\nB) Festividades\nC) Cargos",
+    "image": null,
+    "options": [
+      { "text": "A-Amores perros; B-16 de Septiembre; C-papa Francisco", "correct": true },
+      { "text": "A-Amores Perros; B-16 de septiembre; C-Papa Francisco", "correct": false },
+      { "text": "A-Amores perros; B-16 de septiembre; C-Papa Francisco", "correct": false },
+      { "text": "A-amores perros; B-16 de Septiembre; C-papa Francisco", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Obras: solo la primera mayúscula. Festividades: mayúsculas. Cargos: minúscula.",
+    "explanation": "Títulos de obras solo llevan mayúscula inicial. Fechas históricas/festividades llevan mayúscula. Cargos junto al nombre llevan minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Reglas VI, VII y III respectivamente."
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Un profesor del CEPREDIX explicó que la ______ y la ______ son ramas fundamentales de las ciencias sociales.",
+    "image": null,
+    "options": [
+      { "text": "sociología - antropología", "correct": true },
+      { "text": "Sociología - Antropología", "correct": false },
+      { "text": "Sociología - antropología", "correct": false },
+      { "text": "sociología - Antropología", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aquí se habla de las ciencias en general, no de una materia específica.",
+    "explanation": "Cuando se habla de ciencias o disciplinas en sentido general, se escriben con minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla IV: Si hablas de la ciencia en general, usa minúsculas."
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Qué oración usa correctamente las mayúsculas en estaciones del año?",
+    "image": null,
+    "options": [
+      { "text": "Hará mucho frío este invierno.", "correct": true },
+      { "text": "Hará mucho frío este Invierno.", "correct": false },
+      { "text": "Hará mucho frío Este Invierno.", "correct": false },
+      { "text": "Hará mucho frío este INVIERNO.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las estaciones siguen la misma regla que los días de la semana.",
+    "explanation": "Las estaciones del año (primavera, verano, otoño, invierno) se escriben con minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VII: Las estaciones siempre van en minúscula."
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Identifica la escritura correcta del nombre de la siguiente institución gubernamental.",
+    "image": null,
+    "options": [
+      { "text": "Secretaría de Educación Pública", "correct": true },
+      { "text": "Secretaría de educación pública", "correct": false },
+      { "text": "Secretaría De Educación Pública", "correct": false },
+      { "text": "secretaría de educación pública", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Capitaliza sustantivos y adjetivos, no la preposición.",
+    "explanation": "Las palabras significativas 'Secretaría', 'Educación' y 'Pública' llevan mayúscula. La preposición 'de' va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla II: No se capitalizan las preposiciones ni los artículos dentro del nombre de la institución."
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Completa la frase: 'El ______ visitó varios países de América Latina'.",
+    "image": null,
+    "options": [
+      { "text": "papa Francisco", "correct": true },
+      { "text": "Papa Francisco", "correct": false },
+      { "text": "Papa francisco", "correct": false },
+      { "text": "papa francisco", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El cargo religioso va en minúscula, el nombre propio en mayúscula.",
+    "explanation": "El título 'papa' va en minúscula cuando acompaña al nombre. El nombre 'Francisco' siempre va en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla III: Cargos como 'papa' se escriben con minúscula."
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Selecciona la opción correcta sobre acentuación en mayúsculas.",
+    "image": null,
+    "options": [
+      { "text": "MÉXICO ganó el partido.", "correct": true },
+      { "text": "MEXICO ganó el partido.", "correct": false },
+      { "text": "MExICO ganó el partido.", "correct": false },
+      { "text": "Mexico ganó el partido.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La tilde es obligatoria siempre.",
+    "explanation": "México es una palabra esdrújula y lleva tilde, la cual debe mantenerse incluso si la palabra está escrita completamente en mayúsculas.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VIII: Las mayúsculas sí se acentúan."
+  },
+  {
+    "id": "CEP00AR",
+    "question": "¿Cuál de los siguientes títulos de películas está escrito correctamente según la RAE?",
+    "image": null,
+    "options": [
+      { "text": "La vida es bella", "correct": true },
+      { "text": "La Vida es Bella", "correct": false },
+      { "text": "La Vida Es Bella", "correct": false },
+      { "text": "La vida es Bella", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Solo la primera palabra lleva mayúscula inicial.",
+    "explanation": "En títulos de obras, solo la primera palabra inicia con mayúscula. El resto va en minúscula salvo nombres propios.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VI: Primera letra en mayúscula, el resto en minúscula."
+  },
+  {
+    "id": "CEP00AS",
+    "question": "En la frase 'El ______ Hidalgo es considerado el Padre de la Patria', la palabra faltante es:",
+    "image": null,
+    "options": [
+      { "text": "cura", "correct": true },
+      { "text": "Cura", "correct": false },
+      { "text": "CURA", "correct": false },
+      { "text": "Curá", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un cargo o profesión genérica acompañando al nombre.",
+    "explanation": "'Cura' es un cargo/profesión y al anteceder al apellido Hidalgo, debe escribirse con minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla III: Cargos y profesiones van en minúscula."
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Son ejemplos de festividades que requieren mayúscula en todos sus términos significativos:",
+    "image": null,
+    "options": [
+      { "text": "Año Nuevo, Día de la Independencia", "correct": true },
+      { "text": "año nuevo, día de la independencia", "correct": false },
+      { "text": "Año nuevo, Día de la independencia", "correct": false },
+      { "text": "Año Nuevo, día de la independencia", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las festividades son excepciones a la regla de días/meses.",
+    "explanation": "Las festividades y fechas históricas se escriben con mayúscula en sus palabras significativas.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VII: Excepción para fechas históricas o festividades."
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Un aspirante revisa la oferta académica del CEPREDIX y lee el nombre de la materia: 'Introducción al ______'.",
+    "image": null,
+    "options": [
+      { "text": "Derecho", "correct": true },
+      { "text": "derecho", "correct": false },
+      { "text": "DERECHO", "correct": false },
+      { "text": "DerechO", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es el nombre específico de una asignatura o materia.",
+    "explanation": "Al ser el nombre de una materia o cátedra específica, se escribe con mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla IV: Si hablas de la clase o el departamento, usa mayúsculas."
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Relaciona correctamente la columna de la izquierda con la derecha sobre el uso de mayúsculas.\nI. Mario Moreno\nII. Cantinflas\nIII. el",
+    "image": null,
+    "options": [
+      { "text": "I-Nombre Propio; II-Apodo; III-Artículo", "correct": true },
+      { "text": "I-Apodo; II-Nombre Propio; III-Sustantivo", "correct": false },
+      { "text": "I-Nombre Propio; II-Artículo; III-Apodo", "correct": false },
+      { "text": "I-Sustantivo; II-Apodo; III-Nombre Propio", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Analiza las partes del nombre 'Mario Moreno, el Cantinflas'.",
+    "explanation": "Mario Moreno es el nombre real, Cantinflas es el apodo (Mayúscula) y 'el' es el artículo (minúscula).",
+    "explanative_video": null,
+    "collapsible_text": "Regla I: Nombres y apodos con mayúscula, artículos en minúscula."
+  },
+  {
+    "id": "CEP00AW",
+    "question": "¿Cuál es la forma correcta de escribir el premio que recibió Alfonso Cuarón?",
+    "image": null,
+    "options": [
+      { "text": "Óscar", "correct": true },
+      { "text": "óscar", "correct": false },
+      { "text": "oscar", "correct": false },
+      { "text": "Oscar (sin tilde)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El nombre del premio lleva mayúscula y si aplica, tilde.",
+    "explanation": "El nombre del premio va en mayúscula. Además, Óscar lleva tilde por ser llana terminada en 'r', y las mayúsculas se acentúan.",
+    "explanative_video": null,
+    "collapsible_text": "Regla V y Regla VIII."
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Identifica la frase correcta con respecto a un título nobiliario.",
+    "image": null,
+    "options": [
+      { "text": "El rey de España vendrá mañana.", "correct": true },
+      { "text": "El Rey de España vendrá mañana.", "correct": false },
+      { "text": "El Rey De España vendrá mañana.", "correct": false },
+      { "text": "El rey De España vendrá mañana.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Los cargos o títulos van en minúscula.",
+    "explanation": "'Rey' es un cargo/título y se escribe en minúscula cuando se usa de forma genérica o referencial.",
+    "explanative_video": null,
+    "collapsible_text": "Regla III: Cargos como 'rey' se escriben con minúscula."
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Completa la oración: 'La canción ______ es muy popular en México'.",
+    "image": null,
+    "options": [
+      { "text": "La incondicional", "correct": true },
+      { "text": "La Incondicional", "correct": false },
+      { "text": "la incondicional", "correct": false },
+      { "text": "La IncondicionaL", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es un título de obra, solo la primera mayúscula.",
+    "explanation": "En títulos de canciones, libros o películas, solo la primera palabra lleva mayúscula inicial.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VI: Primera letra en mayúscula, el resto en minúscula."
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "El nombre correcto de la facultad donde se estudia leyes es:",
+    "image": null,
+    "options": [
+      { "text": "Facultad de Derecho", "correct": true },
+      { "text": "Facultad de derecho", "correct": false },
+      { "text": "facultad de derecho", "correct": false },
+      { "text": "Facultad De Derecho", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Es una entidad/departamento específico.",
+    "explanation": "Al ser el nombre de una facultad (institución/departamento), 'Facultad' y 'Derecho' van en mayúscula. La preposición 'de' va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla II y Regla IV (Contexto curricular/institucional)."
+  },
+  {
+    "id": "CEP00BA",
+    "question": "En el contexto de un premio, ¿cuándo se permite usar la minúscula?",
+    "image": null,
+    "options": [
+      { "text": "Cuando nos referimos al objeto físico (un óscar).", "correct": true },
+      { "text": "Nunca, siempre debe ser mayúscula.", "correct": false },
+      { "text": "Cuando el premio es poco importante.", "correct": false },
+      { "text": "Cuando se escribe el nombre completo del premio.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Distingue entre el nombre propio del premio y la estatuilla u objeto.",
+    "explanation": "Si se refiere al objeto físico o a la persona que lo recibió de manera genérica ('un nobel', 'un óscar'), se puede usar minúscula.",
+    "explanative_video": null,
+    "collapsible_text": "Regla V: Si se refiere al objeto físico... se puede usar minúscula."
+  },
+  {
+    "id": "CEP00BB",
+    "question": "¿Cómo se debe escribir el nombre de los meses en la frase: 'El examen será en ______'?",
+    "image": null,
+    "options": [
+      { "text": "octubre", "correct": true },
+      { "text": "Octubre", "correct": false },
+      { "text": "OCTUBRE", "correct": false },
+      { "text": "\"Octubre\"", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "No imites la regla del inglés.",
+    "explanation": "Los meses del año se escriben siempre en minúscula en español.",
+    "explanative_video": null,
+    "collapsible_text": "Regla VII: Meses del año siempre van en minúscula."
+  },
+  {
+    "id": "CEP00BC",
+    "question": "En la frase 'Me inscribí en la clase de Biología Molecular', el uso de mayúsculas es:",
+    "image": null,
+    "options": [
+      { "text": "Correcto, porque es el nombre de la asignatura.", "correct": true },
+      { "text": "Incorrecto, porque es una ciencia.", "correct": false },
+      { "text": "Incorrecto, debería ser todo mayúsculas.", "correct": false },
+      { "text": "Incorrecto, 'Molecular' debería ir en minúscula.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Analiza si es ciencia general o materia específica.",
+    "explanation": "Es correcto porque se refiere al nombre específico de la clase/asignatura, no a la ciencia en general.",
+    "explanative_video": null,
+    "collapsible_text": "Regla IV: Si hablas de la clase o asignatura, usa mayúsculas."
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Un estudiante del CEPREDIX lee: 'El ______ López atenderá a los pacientes'. ¿Qué palabra falta?",
+    "image": null,
+    "options": [
+      { "text": "doctor", "correct": true },
+      { "text": "Doctor", "correct": false },
+      { "text": "Dr", "correct": false },
+      { "text": "DOCTOR", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Profesión antes del apellido.",
+    "explanation": "'doctor' va en minúscula al ser un cargo/profesión antepuesto al apellido.",
+    "explanative_video": null,
+    "collapsible_text": "Regla III: 'doctor' se escribe con minúscula."
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Identifica el error en la siguiente oración: 'El Presidente Municipal inauguró la obra'.",
+    "image": null,
+    "options": [
+      { "text": "Presidente Municipal (debería ser minúscula)", "correct": true },
+      { "text": "inauguró (falta mayúscula)", "correct": false },
+      { "text": "obra (debería ser mayúscula)", "correct": false },
+      { "text": "No hay error.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Recuerda la regla sobre cargos públicos.",
+    "explanation": "Los cargos públicos como 'presidente municipal' se escriben con minúscula, independientemente de su jerarquía.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Selecciona la opción que completa correctamente el texto: 'El famoso narcotraficante, alias ______, fue capturado'.",
+    "image": null,
+    "options": [
+      { "text": "el Chapo", "correct": true },
+      { "text": "El Chapo", "correct": false },
+      { "text": "El chapo", "correct": false },
+      { "text": "el chapo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El artículo va en minúscula porque está en medio de la oración.",
+    "explanation": "Al estar en medio de la oración, el artículo 'el' va en minúscula, mientras que el apodo 'Chapo' conserva su mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Analiza la oración: 'La Física y la Química son difíciles, pero aprobé mi examen de Física Cuántica'.",
+    "image": null,
+    "options": [
+      { "text": "Incorrecta: 'Física' y 'Química' al inicio deberían ir en minúscula.", "correct": true },
+      { "text": "Correcta: Todas las ciencias llevan mayúscula.", "correct": false },
+      { "text": "Incorrecta: 'Física Cuántica' debería ir en minúscula.", "correct": false },
+      { "text": "Correcta: Solo los exámenes llevan mayúscula.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La primera parte habla de las ciencias en general.",
+    "explanation": "En la primera parte, 'física' y 'química' se usan como ciencias generales y deben ir en minúscula. En la segunda parte, 'Física Cuántica' es correcto porque es el nombre de la asignatura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Elige la oración que usa correctamente las mayúsculas en instituciones y preposiciones.",
+    "image": null,
+    "options": [
+      { "text": "Trabaja en la Secretaría de Salud y Bienestar.", "correct": true },
+      { "text": "Trabaja en la Secretaría De Salud Y Bienestar.", "correct": false },
+      { "text": "Trabaja en la secretaría de salud y bienestar.", "correct": false },
+      { "text": "Trabaja en la Secretaría de Salud y bienestar.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Solo sustantivos y adjetivos del nombre propio llevan mayúscula.",
+    "explanation": "Las preposiciones 'de' y conjunciones 'y' dentro del nombre de la institución deben ir en minúscula. Los sustantivos 'Secretaría', 'Salud', 'Bienestar' van en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Identifica cuál de las siguientes opciones sobre premios es correcta.",
+    "image": null,
+    "options": [
+      { "text": "Le otorgaron el Premio Nobel de la Paz.", "correct": true },
+      { "text": "Le otorgaron el premio Nobel de la paz.", "correct": false },
+      { "text": "Le otorgaron el Premio nobel de la Paz.", "correct": false },
+      { "text": "Le otorgaron el premio nobel de la paz.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El nombre del premio es 'Premio Nobel de la Paz'.",
+    "explanation": "Todas las palabras significativas del nombre del premio deben ir en mayúscula ('Premio', 'Nobel', 'Paz').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "En un reporte del CEPREDIX se lee: 'La ______ es una obra maestra del cine mexicano'.",
+    "image": null,
+    "options": [
+      { "text": "película Amores perros", "correct": true },
+      { "text": "película Amores Perros", "correct": false },
+      { "text": "Película Amores perros", "correct": false },
+      { "text": "película amores perros", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Título de obra: solo la primera letra. 'Película' es sustantivo común.",
+    "explanation": "'película' va en minúscula (común). El título 'Amores perros' solo lleva mayúscula en la primera letra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Determina si la siguiente frase es correcta: 'El próximo 16 de Septiembre celebraremos la independencia'.",
+    "image": null,
+    "options": [
+      { "text": "Es correcta, porque es una fecha festiva nacional.", "correct": true },
+      { "text": "Es incorrecta, 'Septiembre' siempre va en minúscula.", "correct": false },
+      { "text": "Es incorrecta, 'independencia' debería ir en mayúscula.", "correct": false },
+      { "text": "Es correcta, pero 'independencia' debe ir en mayúscula.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Las fechas históricas o festividades son la excepción a la regla de los meses.",
+    "explanation": "Al referirse a la festividad nacional específica, '16 de Septiembre' lleva mayúscula. Si fuera una fecha cualquiera, sería minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Selecciona la opción con la puntuación y uso de mayúsculas correctos para acentos.",
+    "image": null,
+    "options": [
+      { "text": "Atención en el área de ADMINISTRACIÓN.", "correct": true },
+      { "text": "Atención en el área de ADMINISTRACION.", "correct": false },
+      { "text": "Atención en el area de ADMINISTRACIÓN.", "correct": false },
+      { "text": "Atención en el área de administracion.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Todas las palabras deben respetar las reglas de acentuación.",
+    "explanation": "Tanto 'área' (minúscula) como 'ADMINISTRACIÓN' (mayúscula) deben llevar tilde según las reglas ortográficas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "¿Cuál es la forma correcta de referirse a la máxima autoridad de la iglesia católica junto a su nombre?",
+    "image": null,
+    "options": [
+      { "text": "El papa Francisco visitó México.", "correct": true },
+      { "text": "El Papa Francisco visitó México.", "correct": false },
+      { "text": "El papa francisco visitó México.", "correct": false },
+      { "text": "El Papa francisco visitó México.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cargo minúscula, nombre mayúscula.",
+    "explanation": "La norma indica que los cargos (papa, rey, presidente) van en minúscula cuando acompañan al nombre propio (Francisco).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Identifica la opción correcta que combina reglas de cargos y edificios.",
+    "image": null,
+    "options": [
+      { "text": "El presidente trabaja en el Palacio Nacional.", "correct": true },
+      { "text": "El Presidente trabaja en el Palacio Nacional.", "correct": false },
+      { "text": "El presidente trabaja en el Palacio nacional.", "correct": false },
+      { "text": "El Presidente trabaja en el Palacio nacional.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cargo genérico (minúscula) y edificio propio (mayúsculas).",
+    "explanation": "'presidente' es un cargo genérico (minúscula). 'Palacio Nacional' es el nombre propio del edificio (mayúsculas).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Selecciona la oración correcta sobre asignaturas.",
+    "image": null,
+    "options": [
+      { "text": "Tengo examen de Historia de México el lunes.", "correct": true },
+      { "text": "Tengo examen de historia de México el Lunes.", "correct": false },
+      { "text": "Tengo examen de Historia de México el Lunes.", "correct": false },
+      { "text": "Tengo examen de historia de méxico el lunes.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Materia específica vs día de la semana.",
+    "explanation": "'Historia de México' va en mayúscula por ser asignatura. 'lunes' va en minúscula por ser día de la semana.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Un artículo del CEPREDIX menciona a 'Joaquín Guzmán Loera, alias ______'.",
+    "image": null,
+    "options": [
+      { "text": "el Chapo", "correct": true },
+      { "text": "El Chapo", "correct": false },
+      { "text": "\"El Chapo\"", "correct": false },
+      { "text": "el chapo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El alias va al final de la frase, el artículo no inicia oración.",
+    "explanation": "El artículo 'el' va en minúscula al no iniciar la frase. El apodo 'Chapo' va en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Elige la opción que utiliza correctamente las mayúsculas en títulos de libros.",
+    "image": null,
+    "options": [
+      { "text": "Aura es una novela corta.", "correct": true },
+      { "text": "Aura es una Novela Corta.", "correct": false },
+      { "text": "AURA es una novela corta.", "correct": false },
+      { "text": "\"Aura\" es una Novela corta.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Título corto, primera letra mayúscula.",
+    "explanation": "'Aura' lleva mayúscula inicial. El resto de la oración sigue las reglas generales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Identifica la opción correcta respecto a instituciones educativas.",
+    "image": null,
+    "options": [
+      { "text": "El Instituto Politécnico Nacional ofrece varias carreras.", "correct": true },
+      { "text": "El instituto politécnico nacional ofrece varias carreras.", "correct": false },
+      { "text": "El Instituto Politécnico nacional ofrece varias carreras.", "correct": false },
+      { "text": "El Instituto politécnico Nacional ofrece varias carreras.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Todas las palabras significativas en mayúscula.",
+    "explanation": "Instituto, Politécnico y Nacional son sustantivos/adjetivos del nombre propio, todos deben ir en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "¿Cuál frase es correcta si hablamos de una estación del año en sentido general?",
+    "image": null,
+    "options": [
+      { "text": "Me gusta el otoño por sus colores.", "correct": true },
+      { "text": "Me gusta el Otoño por sus colores.", "correct": false },
+      { "text": "Me gusta el OTOÑO por sus colores.", "correct": false },
+      { "text": "Me gusta El Otoño por sus colores.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Las estaciones van en minúscula.",
+    "explanation": "Las estaciones del año siempre se escriben con minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Selecciona la opción con la escritura correcta del premio cinematográfico.",
+    "image": null,
+    "options": [
+      { "text": "Este año no hubo entrega del Óscar.", "correct": true },
+      { "text": "Este año no hubo entrega del Oscar.", "correct": false },
+      { "text": "Este año no hubo entrega del óscar.", "correct": false },
+      { "text": "Este año no hubo entrega Del Óscar.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Nombre del premio con tilde.",
+    "explanation": "'Óscar' va con mayúscula por ser el nombre del premio y con tilde por regla ortográfica. 'del' va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Analiza la oración: 'El Licenciado Pérez y la Doctora Martínez llegaron tarde'.",
+    "image": null,
+    "options": [
+      { "text": "Incorrecta: 'Licenciado' y 'Doctora' deben ir en minúscula.", "correct": true },
+      { "text": "Correcta: Son títulos de respeto.", "correct": false },
+      { "text": "Incorrecta: Solo 'Licenciado' debe ir en minúscula.", "correct": false },
+      { "text": "Correcta: Acompañan a nombres propios.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Los cargos o títulos antepuestos a nombres van en minúscula.",
+    "explanation": "La regla indica que 'licenciado' y 'doctora' deben ir en minúscula al acompañar los apellidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "En el CEPREDIX se organizó una lectura de '______'.",
+    "image": null,
+    "options": [
+      { "text": "El laberinto de la soledad", "correct": true },
+      { "text": "El Laberinto de la Soledad", "correct": false },
+      { "text": "El Laberinto De La Soledad", "correct": false },
+      { "text": "El laberinto de la Soledad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Solo la primera letra del título.",
+    "explanation": "En títulos de obras, solo la primera palabra ('El') lleva mayúscula inicial. El resto va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Elige la opción que usa correctamente las mayúsculas en nombres de lugares y cargos.",
+    "image": null,
+    "options": [
+      { "text": "El rey vive en el Palacio Real de Madrid.", "correct": true },
+      { "text": "El Rey vive en el Palacio Real de Madrid.", "correct": false },
+      { "text": "El rey vive en el Palacio real de Madrid.", "correct": false },
+      { "text": "El Rey vive en el Palacio Real De Madrid.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cargo genérico, edificio propio.",
+    "explanation": "'rey' (cargo) en minúscula. 'Palacio Real de Madrid' (edificio) con mayúsculas en palabras significativas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "¿Cuál es el error en: 'La Historia estudia el pasado, pero reprobé historia universal'?",
+    "image": null,
+    "options": [
+      { "text": "Historia (ciencia) debe ser minúscula; Historia Universal (materia) mayúscula.", "correct": true },
+      { "text": "Ambas deben ser mayúsculas.", "correct": false },
+      { "text": "Ambas deben ser minúsculas.", "correct": false },
+      { "text": "Solo 'pasado' debe ser mayúscula.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Invierte el uso que se le dio en la oración.",
+    "explanation": "La ciencia ('historia') va en minúscula. La asignatura específica ('Historia Universal') va en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Selecciona la oración correcta sobre días feriados.",
+    "image": null,
+    "options": [
+      { "text": "El 1 de Mayo es el Día del Trabajo.", "correct": true },
+      { "text": "El 1 de mayo es el Día del trabajo.", "correct": false },
+      { "text": "El 1 de Mayo es el día del trabajo.", "correct": false },
+      { "text": "El 1 de mayo es el día del Trabajo.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Mayo (festividad) y nombre de la festividad en mayúsculas.",
+    "explanation": "Al ser parte de la fecha festiva, 'Mayo' puede ir en mayúscula (aunque la RAE prefiere minúscula en el mes, el nombre de la festividad 'Día del Trabajo' sí debe llevar mayúsculas). En el contexto de 'fechas históricas/festividades' de la guía, se capitaliza.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Identifica la opción correcta: 'El ______ es un insecto'. 'Conozco a ______ Pérez'.",
+    "image": null,
+    "options": [
+      { "text": "grillo / el Grillo", "correct": true },
+      { "text": "Grillo / El Grillo", "correct": false },
+      { "text": "grillo / el grillo", "correct": false },
+      { "text": "Grillo / el Grillo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Nombre común vs Apodo.",
+    "explanation": "'grillo' animal es común (minúscula). 'Grillo' como apodo es propio (mayúscula). El artículo 'el' va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Un documento del CEPREDIX dice: 'Otorgaron el ______ a Mario Vargas Llosa'.",
+    "image": null,
+    "options": [
+      { "text": "Premio Nobel de Literatura", "correct": true },
+      { "text": "premio Nobel de Literatura", "correct": false },
+      { "text": "Premio Nobel de literatura", "correct": false },
+      { "text": "Premio nobel de literatura", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Nombre completo del premio.",
+    "explanation": "Todas las palabras significativas del nombre del galardón ('Premio', 'Nobel', 'Literatura') deben ir en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Evalúa: 'La secretaría de Marina ayuda en desastres'.",
+    "image": null,
+    "options": [
+      { "text": "Incorrecto, 'Secretaría' debe ir en mayúscula.", "correct": true },
+      { "text": "Correcto, es un uso genérico.", "correct": false },
+      { "text": "Incorrecto, 'Marina' debe ir en minúscula.", "correct": false },
+      { "text": "Correcto, así se escribe en prensa.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Es el nombre propio de la institución.",
+    "explanation": "Al referirse a la institución específica 'Secretaría de Marina', ambas palabras significativas deben ir en mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Cuál es la escritura correcta para la asignatura de matemáticas avanzadas?",
+    "image": null,
+    "options": [
+      { "text": "Cálculo Diferencial e Integral", "correct": true },
+      { "text": "Cálculo diferencial e integral", "correct": false },
+      { "text": "Cálculo Diferencial E Integral", "correct": false },
+      { "text": "cálculo diferencial e integral", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Nombre de asignatura, mayúsculas en palabras clave.",
+    "explanation": "Como nombre de asignatura, 'Cálculo', 'Diferencial' e 'Integral' van en mayúscula. La conjunción 'e' va en minúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Selecciona la opción correcta: 'El ______ visitó la ______'.",
+    "image": null,
+    "options": [
+      { "text": "director / Facultad de Medicina", "correct": true },
+      { "text": "Director / Facultad de Medicina", "correct": false },
+      { "text": "director / facultad de medicina", "correct": false },
+      { "text": "Director / facultad de medicina", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cargo minúscula, Institución mayúscula.",
+    "explanation": "'director' es un cargo (minúscula). 'Facultad de Medicina' es una institución (mayúsculas).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Identifica el uso correcto de mayúsculas en apellidos con preposición al inicio de frase: '______ llegó temprano'.",
+    "image": null,
+    "options": [
+      { "text": "De la Rosa", "correct": true },
+      { "text": "de la Rosa", "correct": false },
+      { "text": "De La Rosa", "correct": false },
+      { "text": "de La Rosa", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Al iniciar oración, la preposición se capitaliza.",
+    "explanation": "Si el apellido comienza con preposición y no se menciona el nombre de pila, o si inicia la oración, la preposición se escribe con mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Completa: 'La película ______ ganó muchos premios'.",
+    "image": null,
+    "options": [
+      { "text": "Roma", "correct": true },
+      { "text": "roma", "correct": false },
+      { "text": "\"ROMA\"", "correct": false },
+      { "text": "ROMA", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Título de obra. Primera letra mayúscula.",
+    "explanation": "Como título de obra, lleva mayúscula inicial. Al ser un nombre propio de ciudad (o colonia en este caso), también se justifica la mayúscula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "En el CEPREDIX debaten: ¿Cuál es correcta sobre 'Álvaro Obregón'?",
+    "image": null,
+    "options": [
+      { "text": "Fue un presidente de México.", "correct": true },
+      { "text": "Fue un Presidente de México.", "correct": false },
+      { "text": "Fue un presidente de méxico.", "correct": false },
+      { "text": "Fue un Presidente De México.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cargo genérico y nombre de país.",
+    "explanation": "'presidente' es cargo (minúscula). 'México' es país (mayúscula).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Relaciona:\n1. Ciencia\n2. Asignatura\n3. Institución",
+    "image": null,
+    "options": [
+      { "text": "1. biología; 2. Biología Marina; 3. Instituto de Biología", "correct": true },
+      { "text": "1. Biología; 2. biología marina; 3. instituto de biología", "correct": false },
+      { "text": "1. Biología; 2. Biología Marina; 3. Instituto De Biología", "correct": false },
+      { "text": "1. biología; 2. biología marina; 3. Instituto de Biología", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Ciencia general (min), Materia (May), Institución (May).",
+    "explanation": "Ciencia general en minúscula. Asignatura y Institución con mayúsculas iniciales en palabras significativas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
