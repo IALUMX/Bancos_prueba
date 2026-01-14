@@ -1290,5 +1290,617 @@
     "explanation": "$t = \\frac{0 \\, m/s - 50 \\, m/s}{-10 \\, m/s^2} = \\frac{-50 \\, m/s}{-10 \\, m/s^2} = 5 \\, s$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Un vehículo que viaja a $20 \\, m/s$ aplica los frenos y se detiene después de recorrer $50 \\, m$. ¿Cuál fue la magnitud de su desaceleración?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\, m/s^2$", "correct": true },
+      { "text": "$8 \\, m/s^2$", "correct": false },
+      { "text": "$2 \\, m/s^2$", "correct": false },
+      { "text": "$10 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Utiliza la ecuación de Torricelli: $V_f^2 = V_i^2 + 2a \\cdot d$.",
+    "explanation": "Como se detiene, $V_f=0$. Despejando $a$: $0 = (20)^2 + 2a(50) \\Rightarrow -400 = 100a \\Rightarrow a = -4 \\, m/s^2$. La magnitud es $4 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Un corredor parte del reposo y acelera a $3 \\, m/s^2$ durante $4 \\, s$. ¿Qué distancia recorrió en ese intervalo?",
+    "image": null,
+    "options": [
+      { "text": "$24 \\, m$", "correct": true },
+      { "text": "$12 \\, m$", "correct": false },
+      { "text": "$48 \\, m$", "correct": false },
+      { "text": "$6 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula de posición: $d = V_i \\cdot t + \\frac{1}{2} a \\cdot t^2$.",
+    "explanation": "Como $V_i=0$, la fórmula queda $d = \\frac{1}{2}(3)(4)^2 = 0.5 \\cdot 3 \\cdot 16 = 24 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Se deja caer un objeto desde una torre. Si tarda $4 \\, s$ en tocar el suelo, ¿cuál es la altura de la torre? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$80 \\, m$", "correct": true },
+      { "text": "$40 \\, m$", "correct": false },
+      { "text": "$160 \\, m$", "correct": false },
+      { "text": "$20 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "En caída libre, la distancia se calcula despejando $h$ de: $V_f^2 = V_i^2 + 2gh$ o usando $h = V_i t + \\frac{1}{2}gt^2$.",
+    "explanation": "Con $V_i=0$, usamos $h = \\frac{1}{2}gt^2 = 0.5(10)(4)^2 = 5 \\cdot 16 = 80 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Un móvil parte del reposo y recorre una distancia de $100 \\, m$ con una aceleración constante de $2 \\, m/s^2$. ¿Cuánto tiempo tardó en recorrer esa distancia?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\, s$", "correct": true },
+      { "text": "$50 \\, s$", "correct": false },
+      { "text": "$5 \\, s$", "correct": false },
+      { "text": "$20 \\, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Debes despejar el tiempo de la ecuación de desplazamiento: $d = V_i \\cdot t + \\frac{1}{2} a \\cdot t^2$.",
+    "explanation": "Como $V_i=0$, $d = \\frac{1}{2}at^2 \\Rightarrow 100 = \\frac{1}{2}(2)t^2 \\Rightarrow 100 = t^2 \\Rightarrow t = 10 \\, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Un auto viaja a $72 \\, km/h$ y frena uniformemente hasta detenerse en $10 \\, s$. ¿Qué distancia recorrió durante el frenado?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\, m$", "correct": true },
+      { "text": "$200 \\, m$", "correct": false },
+      { "text": "$50 \\, m$", "correct": false },
+      { "text": "$720 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primero convierte la velocidad a $m/s$. Luego usa la fórmula que relaciona distancia con el promedio de velocidades: $d = (\\frac{V_f + V_i}{2})t$.",
+    "explanation": "$72 \\, km/h = 20 \\, m/s$. Usando la media: $d = (\\frac{0 + 20}{2})10 = 10 \\cdot 10 = 100 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Se lanza una pelota verticalmente hacia arriba con una velocidad de $30 \\, m/s$. ¿Cuál es la altura máxima que alcanza? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$45 \\, m$", "correct": true },
+      { "text": "$90 \\, m$", "correct": false },
+      { "text": "$30 \\, m$", "correct": false },
+      { "text": "$15 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "En la altura máxima $V_f=0$. Despeja la altura de $V_f^2 = V_i^2 - 2gh$.",
+    "explanation": "$0 = (30)^2 - 2(10)h \\Rightarrow 900 = 20h \\Rightarrow h = 45 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Un objeto acelera uniformemente desde $10 \\, m/s$ hasta $20 \\, m/s$ recorriendo una distancia de $30 \\, m$. ¿Cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\, m/s^2$", "correct": true },
+      { "text": "$10 \\, m/s^2$", "correct": false },
+      { "text": "$3.33 \\, m/s^2$", "correct": false },
+      { "text": "$15 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Utiliza la ecuación independiente del tiempo: $V_f^2 = V_i^2 + 2a \\cdot d$.",
+    "explanation": "$(20)^2 = (10)^2 + 2a(30) \\Rightarrow 400 = 100 + 60a \\Rightarrow 300 = 60a \\Rightarrow a = 5 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Un camión parte del reposo y recorre $200 \\, m$ en $10 \\, s$. ¿Cuál fue su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\, m/s^2$", "correct": true },
+      { "text": "$2 \\, m/s^2$", "correct": false },
+      { "text": "$20 \\, m/s^2$", "correct": false },
+      { "text": "$40 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $a$ de la fórmula de desplazamiento: $d = V_i t + \frac{1}{2}at^2$.",
+    "explanation": "$200 = 0 + \\frac{1}{2}a(10)^2 \\Rightarrow 200 = 50a \\Rightarrow a = 4 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Dos autos A y B están separados por $1000 \\, m$ y se mueven en línea recta uno hacia el otro con velocidades constantes de $20 \\, m/s$ y $30 \\, m/s$ respectivamente. ¿En cuánto tiempo se encontrarán?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, s$", "correct": true },
+      { "text": "$50 \\, s$", "correct": false },
+      { "text": "$33.3 \\, s$", "correct": false },
+      { "text": "$25 \\, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "En MRU, para objetos que se encuentran, el tiempo es: $t = \\frac{d}{V_A + V_B}$.",
+    "explanation": "$t = \\frac{1000}{20 + 30} = \\frac{1000}{50} = 20 \\, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Un motociclista que viaja a $10 \\, m/s$ acelera a razón de $2 \\, m/s^2$. ¿Qué distancia recorrerá en los próximos $5 \\, s$?",
+    "image": null,
+    "options": [
+      { "text": "$75 \\, m$", "correct": true },
+      { "text": "$50 \\, m$", "correct": false },
+      { "text": "$25 \\, m$", "correct": false },
+      { "text": "$100 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula completa de desplazamiento: $d = V_i \\cdot t + \\frac{1}{2} a \\cdot t^2$.",
+    "explanation": "$d = (10)(5) + \\frac{1}{2}(2)(5)^2 = 50 + 25 = 75 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Un cuerpo cae libremente desde el reposo. Si al llegar al suelo su velocidad es de $40 \\, m/s$, ¿desde qué altura cayó? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$80 \\, m$", "correct": true },
+      { "text": "$40 \\, m$", "correct": false },
+      { "text": "$160 \\, m$", "correct": false },
+      { "text": "$100 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $h$ de la ecuación de Torricelli para caída libre: $V_f^2 = 2gh$.",
+    "explanation": "$(40)^2 = 2(10)h \\Rightarrow 1600 = 20h \\Rightarrow h = 80 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Un auto A persigue a un auto B. El auto A viaja a $30 \\, m/s$ y el B a $20 \\, m/s$ en la misma dirección. Si están separados inicialmente por $200 \\, m$, ¿cuánto tarda A en alcanzar a B?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, s$", "correct": true },
+      { "text": "$10 \\, s$", "correct": false },
+      { "text": "$40 \\, s$", "correct": false },
+      { "text": "$5 \\, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Para tiempo de alcance en MRU: $t = \\frac{d}{V_A - V_B}$.",
+    "explanation": "$t = \\frac{200}{30 - 20} = \\frac{200}{10} = 20 \\, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Un objeto lanzado hacia abajo desde un edificio con una velocidad inicial de $5 \\, m/s$ llega al suelo en $3 \\, s$. ¿Cuál es la altura del edificio? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$60 \\, m$", "correct": true },
+      { "text": "$45 \\, m$", "correct": false },
+      { "text": "$15 \\, m$", "correct": false },
+      { "text": "$50 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula de desplazamiento con velocidad inicial: $h = V_i t + \\frac{1}{2}gt^2$.",
+    "explanation": "$h = (5)(3) + \\frac{1}{2}(10)(3)^2 = 15 + 5(9) = 15 + 45 = 60 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Un avión toca la pista de aterrizaje a $60 \\, m/s$ y frena uniformemente hasta detenerse en $12 \\, s$. ¿Qué distancia recorrió en la pista?",
+    "image": null,
+    "options": [
+      { "text": "$360 \\, m$", "correct": true },
+      { "text": "$720 \\, m$", "correct": false },
+      { "text": "$180 \\, m$", "correct": false },
+      { "text": "$60 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la relación del promedio de velocidades para hallar la distancia: $d = (\\frac{V_i + V_f}{2})t$.",
+    "explanation": "$d = (\\frac{60 + 0}{2})12 = 30 \\cdot 12 = 360 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Se dispara una flecha verticalmente hacia arriba y regresa al punto de partida en $6 \\, s$. ¿Con qué velocidad fue lanzada? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$30 \\, m/s$", "correct": true },
+      { "text": "$60 \\, m/s$", "correct": false },
+      { "text": "$15 \\, m/s$", "correct": false },
+      { "text": "$10 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El tiempo de subida es la mitad del tiempo total. En el punto más alto $V_f=0$. Despeja $V_i$ de $V_f = V_i - gt$.",
+    "explanation": "Tiempo subida = $3 \\, s$. $0 = V_i - (10)(3) \\Rightarrow V_i = 30 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Un auto acelera de $10 \\, m/s$ a $20 \\, m/s$ con una aceleración de $2 \\, m/s^2$. ¿Qué distancia recorrió durante este cambio?",
+    "image": null,
+    "options": [
+      { "text": "$75 \\, m$", "correct": true },
+      { "text": "$100 \\, m$", "correct": false },
+      { "text": "$50 \\, m$", "correct": false },
+      { "text": "$25 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $d$ de la fórmula: $V_f^2 = V_i^2 + 2ad$.",
+    "explanation": "$(20)^2 = (10)^2 + 2(2)d \\Rightarrow 400 = 100 + 4d \\Rightarrow 300 = 4d \\Rightarrow d = 75 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Un ciclista recorre $40 \\, m$ en $4 \\, s$ partiendo de una velocidad inicial de $4 \\, m/s$. ¿Cuál fue su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\, m/s^2$", "correct": true },
+      { "text": "$5 \\, m/s^2$", "correct": false },
+      { "text": "$2 \\, m/s^2$", "correct": false },
+      { "text": "$1.5 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $a$ de la ecuación cuadrática de distancia: $d = V_i t + \\frac{1}{2}at^2$.",
+    "explanation": "$40 = (4)(4) + \\frac{1}{2}a(4)^2 \\Rightarrow 40 = 16 + 8a \\Rightarrow 24 = 8a \\Rightarrow a = 3 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Si un objeto se lanza hacia arriba con una velocidad de $50 \\, m/s$, ¿a qué altura se encuentra después de $3 \\, s$? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$105 \\, m$", "correct": true },
+      { "text": "$150 \\, m$", "correct": false },
+      { "text": "$45 \\, m$", "correct": false },
+      { "text": "$95 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula de altura en función del tiempo: $h = V_i t - \\frac{1}{2}gt^2$.",
+    "explanation": "$h = (50)(3) - 0.5(10)(3)^2 = 150 - 5(9) = 150 - 45 = 105 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Un auto se mueve a $30 \\, m/s$ cuando el conductor ve un obstáculo y frena tras un tiempo de reacción de $0.5 \\, s$. Si el auto desacelera a $5 \\, m/s^2$, ¿cuál es la distancia total recorrida desde que vio el obstáculo hasta detenerse?",
+    "image": null,
+    "options": [
+      { "text": "$105 \\, m$", "correct": true },
+      { "text": "$90 \\, m$", "correct": false },
+      { "text": "$15 \\, m$", "correct": false },
+      { "text": "$120 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Suma la distancia MRU durante la reacción ($d_1 = v \\cdot t$) y la distancia MRUA de frenado ($V_f^2 = V_i^2 + 2ad_2$).",
+    "explanation": "Reacción: $d_1 = 30(0.5) = 15 \\, m$. Frenado: $0 = 30^2 + 2(-5)d_2 \\Rightarrow 900 = 10d_2 \\Rightarrow d_2 = 90 \\, m$. Total: $15 + 90 = 105 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Un tren que viaja a $90 \\, km/h$ reduce su velocidad a $54 \\, km/h$ en $5 \\, s$. ¿Cuál es su aceleración en $m/s^2$?",
+    "image": null,
+    "options": [
+      { "text": "$-2 \\, m/s^2$", "correct": true },
+      { "text": "$-7.2 \\, m/s^2$", "correct": false },
+      { "text": "$2 \\, m/s^2$", "correct": false },
+      { "text": "$-4 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Convierte primero las velocidades a $m/s$ (dividiendo entre 3.6) y usa $a = \\frac{V_f - V_i}{t}$.",
+    "explanation": "$V_i = 90/3.6 = 25 \\, m/s$. $V_f = 54/3.6 = 15 \\, m/s$. $a = \\frac{15 - 25}{5} = -2 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Desde el borde de un acantilado se lanza una piedra hacia abajo con $V_i = 10 \\, m/s$. Si impacta el agua a $50 \\, m/s$, ¿cuál es la altura del acantilado? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$120 \\, m$", "correct": true },
+      { "text": "$125 \\, m$", "correct": false },
+      { "text": "$240 \\, m$", "correct": false },
+      { "text": "$60 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $h$ de $V_f^2 = V_i^2 + 2gh$.",
+    "explanation": "$(50)^2 = (10)^2 + 2(10)h \\Rightarrow 2500 = 100 + 20h \\Rightarrow 2400 = 20h \\Rightarrow h = 120 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Un cuerpo parte del reposo con aceleración constante. Si en el primer segundo recorre $D$ metros, ¿qué distancia recorrerá en el segundo siguiente (entre $t=1$ y $t=2$)?",
+    "image": null,
+    "options": [
+      { "text": "$3D$", "correct": true },
+      { "text": "$D$", "correct": false },
+      { "text": "$4D$", "correct": false },
+      { "text": "$2D$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Calcula $d(2) - d(1)$ usando $d = 0.5at^2$ y compara con $d(1)$.",
+    "explanation": "$d(1) = 0.5a(1)^2 = 0.5a$. $d(2) = 0.5a(2)^2 = 2a$. La distancia en el segundo intervalo es $2a - 0.5a = 1.5a$. Como $D = 0.5a$, entonces $1.5a = 3D$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Un auto acelera uniformemente y aumenta su velocidad de $10 \\, m/s$ a $30 \\, m/s$ en una distancia de $200 \\, m$. ¿Cuánto tiempo duró esta aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\, s$", "correct": true },
+      { "text": "$20 \\, s$", "correct": false },
+      { "text": "$5 \\, s$", "correct": false },
+      { "text": "$40 \\, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula de distancia basada en el promedio de velocidades para despejar el tiempo: $d = (\\frac{V_i + V_f}{2})t$.",
+    "explanation": "$200 = (\\frac{10 + 30}{2})t \\Rightarrow 200 = 20t \\Rightarrow t = 10 \\, s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Un objeto se lanza verticalmente hacia arriba y alcanza una altura máxima de $20 \\, m$. ¿Con qué velocidad inicial fue lanzado? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, m/s$", "correct": true },
+      { "text": "$400 \\, m/s$", "correct": false },
+      { "text": "$10 \\, m/s$", "correct": false },
+      { "text": "$14.1 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "En altura máxima $V_f=0$. Despeja $V_i$ de $V_f^2 = V_i^2 - 2gh$.",
+    "explanation": "$0 = V_i^2 - 2(10)(20) \\Rightarrow V_i^2 = 400 \\Rightarrow V_i = 20 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Un guepardo parte del reposo y alcanza $24 \\, m/s$ en $3 \\, s$. Mantiene esa velocidad por $5 \\, s$. ¿Qué distancia total recorrió?",
+    "image": null,
+    "options": [
+      { "text": "$156 \\, m$", "correct": true },
+      { "text": "$120 \\, m$", "correct": false },
+      { "text": "$192 \\, m$", "correct": false },
+      { "text": "$36 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Calcula la distancia de aceleración (MRUA) y súmala a la distancia a velocidad constante (MRU).",
+    "explanation": "Fase 1 (MRUA): $a = 24/3 = 8$. $d_1 = 0.5(8)(3)^2 = 36 \\, m$. Fase 2 (MRU): $d_2 = 24 \\cdot 5 = 120 \\, m$. Total: $156 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Se dispara una bala horizontalmente y tarda $0.4 \\, s$ en impactar un blanco. Si la distancia al blanco es $200 \\, m$, ¿cuál era la velocidad de la bala (suponiendo MRU horizontal)?",
+    "image": null,
+    "options": [
+      { "text": "$500 \\, m/s$", "correct": true },
+      { "text": "$80 \\, m/s$", "correct": false },
+      { "text": "$200 \\, m/s$", "correct": false },
+      { "text": "$800 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja la velocidad de la fórmula básica de MRU: $v = d/t$.",
+    "explanation": "$v = 200 \\, m / 0.4 \\, s = 500 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Un cohete despega verticalmente con aceleración neta de $20 \\, m/s^2$ (además de vencer la gravedad). ¿Qué altura alcanza en $10 \\, s$ partiendo del reposo?",
+    "image": null,
+    "options": [
+      { "text": "$1000 \\, m$", "correct": true },
+      { "text": "$2000 \\, m$", "correct": false },
+      { "text": "$500 \\, m$", "correct": false },
+      { "text": "$100 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La aceleración neta ya está dada ($20 \\, m/s^2$). Usa $h = 0.5at^2$.",
+    "explanation": "$h = 0.5(20)(10)^2 = 10 \\cdot 100 = 1000 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Un auto que viaja a $30 \\, m/s$ reduce su velocidad a $10 \\, m/s$ recorriendo $80 \\, m$. ¿Cuál fue su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$-5 \\, m/s^2$", "correct": true },
+      { "text": "$-2.5 \\, m/s^2$", "correct": false },
+      { "text": "$-10 \\, m/s^2$", "correct": false },
+      { "text": "$5 \\, m/s^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $a$ de $V_f^2 = V_i^2 + 2ad$.",
+    "explanation": "$(10)^2 = (30)^2 + 2a(80) \\Rightarrow 100 = 900 + 160a \\Rightarrow -800 = 160a \\Rightarrow a = -5 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Un globo aerostático asciende a velocidad constante de $5 \\, m/s$. Si se deja caer un saco de arena desde el globo, ¿cuál es la velocidad inicial del saco para el movimiento de caída libre?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\, m/s$ hacia arriba", "correct": true },
+      { "text": "$0 \\, m/s$", "correct": false },
+      { "text": "$5 \\, m/s$ hacia abajo", "correct": false },
+      { "text": "$10 \\, m/s$ hacia abajo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Por inercia, el objeto conserva la velocidad del sistema del cual se desprende en el instante inicial.",
+    "explanation": "Aunque se 'deja caer', el saco lleva la velocidad inicial del globo ($5 \\, m/s$ hacia arriba) antes de empezar a ser acelerado hacia abajo por la gravedad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Un cuerpo cae libremente y recorre una distancia $H$ en el tiempo $T$. ¿Qué distancia recorre en un tiempo $2T$ partiendo del reposo?",
+    "image": null,
+    "options": [
+      { "text": "$4H$", "correct": true },
+      { "text": "$2H$", "correct": false },
+      { "text": "$3H$", "correct": false },
+      { "text": "$H^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "La distancia es proporcional al cuadrado del tiempo ($d \\propto t^2$). Si $t$ se duplica, ¿qué pasa con $t^2$?",
+    "explanation": "$H = 0.5gT^2$. Nueva distancia $H' = 0.5g(2T)^2 = 0.5g(4T^2) = 4(0.5gT^2) = 4H$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Un auto parte del reposo y recorre $50 \\, m$ en $5 \\, s$. ¿Qué velocidad lleva en ese instante?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, m/s$", "correct": true },
+      { "text": "$10 \\, m/s$", "correct": false },
+      { "text": "$25 \\, m/s$", "correct": false },
+      { "text": "$5 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Puedes encontrar $a$ primero o usar la fórmula $d = (V_f/2)t$ (ya que $V_i=0$).",
+    "explanation": "$50 = (V_f/2)(5) \\Rightarrow 100 = 5V_f \\Rightarrow V_f = 20 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Dos trenes parten del mismo punto en direcciones opuestas. Uno viaja a $20 \\, m/s$ y el otro a $15 \\, m/s$. ¿A qué distancia estarán uno del otro después de $10 \\, s$?",
+    "image": null,
+    "options": [
+      { "text": "$350 \\, m$", "correct": true },
+      { "text": "$50 \\, m$", "correct": false },
+      { "text": "$35 \\, m$", "correct": false },
+      { "text": "$200 \\, m$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Calcula la distancia de cada uno y súmalas, o usa la velocidad relativa de separación ($V_A + V_B$).",
+    "explanation": "$d = (20 + 15) \\times 10 = 35 \\times 10 = 350 \\, m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Un objeto se deja caer desde $80 \\, m$. ¿Cuál es su velocidad $1 \\, s$ antes de tocar el suelo? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$30 \\, m/s$", "correct": true },
+      { "text": "$40 \\, m/s$", "correct": false },
+      { "text": "$20 \\, m/s$", "correct": false },
+      { "text": "$10 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Primero encuentra el tiempo total de caída con $h=0.5gt^2$. Luego calcula la velocidad en $t_{total}-1$.",
+    "explanation": "$80 = 5t^2 \\Rightarrow 16 = t^2 \\Rightarrow t_{total} = 4 \\, s$. Un segundo antes es $t=3 \\, s$. $V = gt = 10(3) = 30 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Un auto frena y se detiene en $4 \\, s$ recorriendo $40 \\, m$. ¿Cuál era su velocidad inicial?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, m/s$", "correct": true },
+      { "text": "$10 \\, m/s$", "correct": false },
+      { "text": "$160 \\, m/s$", "correct": false },
+      { "text": "$40 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Usa la fórmula de distancia con promedio de velocidades ($V_f=0$): $d = (V_i/2)t$.",
+    "explanation": "$40 = (V_i/2)(4) \\Rightarrow 40 = 2V_i \\Rightarrow V_i = 20 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Una piedra lanzada hacia abajo con velocidad inicial de $2 \\, m/s$ recorre $24 \\, m$. ¿Cuál es su velocidad final? (Usa $g=10 \\, m/s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$22 \\, m/s$", "correct": true },
+      { "text": "$48 \\, m/s$", "correct": false },
+      { "text": "$10 \\, m/s$", "correct": false },
+      { "text": "$26 \\, m/s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Despeja $V_f$ de $V_f^2 = V_i^2 + 2gh$.",
+    "explanation": "$V_f^2 = (2)^2 + 2(10)(24) = 4 + 480 = 484$. $V_f = \\sqrt{484} = 22 \\, m/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Un cuerpo acelera de $4 \\, m/s$ a $12 \\, m/s$ en una distancia de $32 \\, m$. ¿Cuál es la aceleración y el tiempo empleado?",
+    "image": null,
+    "options": [
+      { "text": "$a=2 \\, m/s^2, t=4 \\, s$", "correct": true },
+      { "text": "$a=4 \\, m/s^2, t=2 \\, s$", "correct": false },
+      { "text": "$a=1 \\, m/s^2, t=8 \\, s$", "correct": false },
+      { "text": "$a=2 \\, m/s^2, t=2 \\, s$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Calcula primero el tiempo usando la velocidad promedio y la distancia ($d = v_{prom} \\cdot t$), luego halla la aceleración.",
+    "explanation": "$v_{prom} = (4+12)/2 = 8 \\, m/s$. $t = 32/8 = 4 \\, s$. $a = (12-4)/4 = 2 \\, m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
