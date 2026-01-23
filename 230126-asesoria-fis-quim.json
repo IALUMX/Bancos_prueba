@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "¿Cuál de las siguientes opciones representa una unidad fundamental del Sistema Internacional de Unidades (SI)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Metro ($m$)", "correct": true },
+      { "text": "Newton ($N$)", "correct": false },
+      { "text": "Joule ($J$)", "correct": false },
+      { "text": "Watt ($W$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una de las siete unidades base de las que derivan las demás.",
+    "explanation": "El metro ($m$) es la unidad fundamental de longitud en el SI. Las otras son unidades derivadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Dada la fórmula de densidad $\\rho = \\frac{m}{V}$, despeja la variable de volumen ($V$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$V = \\frac{m}{\\rho}$", "correct": true },
+      { "text": "$V = m\\rho$", "correct": false },
+      { "text": "$V = \\frac{\\rho}{m}$", "correct": false },
+      { "text": "$V = m - \\rho$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la ecuación linealizada $m = \\rho V$.",
+    "explanation": "Para despejar $V$, multiplicamos ambos lados por $V$ y luego dividimos entre $\\rho$, obteniendo $V = \\frac{m}{\\rho}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Identifica cuáles de las siguientes magnitudes son derivadas:\n1. Velocidad\n2. Tiempo\n3. Fuerza\n4. Longitud",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las magnitudes derivadas se obtienen mediante operaciones matemáticas de las fundamentales.",
+    "explanation": "La velocidad ($m/s$) y la fuerza ($kg \\cdot m/s^2$) se componen de unidades fundamentales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Completa el enunciado: La unidad de ______ en el Sistema Internacional es el ______.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Corriente eléctrica, Ampere", "correct": true },
+      { "text": "Temperatura, Celsius", "correct": false },
+      { "text": "Masa, Gramo", "correct": false },
+      { "text": "Tiempo, Hora", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La unidad de temperatura es el Kelvin y la de masa es el Kilogramo.",
+    "explanation": "El Ampere ($A$) es la unidad fundamental para medir la intensidad de corriente eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Relaciona la magnitud física con su unidad en el SI:\nA) Tiempo\nB) Masa\nC) Temperatura\n\nI) Kilogramo ($kg$)\nII) Segundo ($s$)\nIII) Kelvin ($K$)",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "A-II, B-I, C-III", "correct": true },
+      { "text": "A-III, B-II, C-I", "correct": false },
+      { "text": "A-I, B-III, C-II", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El kilogramo es para masa.",
+    "explanation": "Tiempo: segundo ($s$); Masa: kilogramo ($kg$); Temperatura: Kelvin ($K$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "En la fórmula de los gases ideales $PV = nRT$, un estudiante del CEPREDIX necesita calcular la temperatura ($T$). ¿Cuál es el despeje correcto?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$T = \\frac{PV}{nR}$", "correct": true },
+      { "text": "$T = \\frac{nR}{PV}$", "correct": false },
+      { "text": "$T = PV - nR$", "correct": false },
+      { "text": "$T = \\frac{Pn}{RV}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Considera la ecuación despejada para presión: $P = \\frac{nRT}{V}$.",
+    "explanation": "Para dejar sola a $T$, dividimos ambos lados entre $nR$: $T = \\frac{PV}{nR}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Determina la dimensión física de la aceleración.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$L T^{-2}$", "correct": true },
+      { "text": "$L T^{-1}$", "correct": false },
+      { "text": "$M L T^{-2}$", "correct": false },
+      { "text": "$L^2 T^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La aceleración es el cambio de velocidad ($L/T$) por unidad de tiempo.",
+    "explanation": "Dimensionalmente: $\\frac{L}{T} \\cdot \\frac{1}{T} = \\frac{L}{T^2} = L T^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "En la fórmula de energía cinética $E_k = \\frac{1}{2}mv^2$, ¿cómo se despeja la masa ($m$)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$m = \\frac{2E_k}{v^2}$", "correct": true },
+      { "text": "$m = \\frac{E_k}{2v^2}$", "correct": false },
+      { "text": "$m = \\sqrt{\\frac{2E_k}{v}}$", "correct": false },
+      { "text": "$m = 2E_k v^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $v = \\sqrt{\\frac{2E_k}{m}}$, eleva al cuadrado y despeja $m$.",
+    "explanation": "Multiplicamos por 2: $2E_k = mv^2$. Dividimos entre $v^2$: $m = \\frac{2E_k}{v^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "¿Qué magnitud física se mide en moles ($mol$)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Cantidad de sustancia", "correct": true },
+      { "text": "Masa molecular", "correct": false },
+      { "text": "Intensidad luminosa", "correct": false },
+      { "text": "Concentración", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una de las 7 unidades fundamentales del SI, usada comúnmente en química.",
+    "explanation": "El mol mide la cantidad de sustancia (número de entidades elementales).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Selecciona las unidades que corresponden a la magnitud de Presión:\n1. Pascal ($Pa$)\n2. Joule ($J$)\n3. Atmósfera ($atm$)\n4. Newton ($N$)",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El Joule es energía y el Newton es fuerza.",
+    "explanation": "Pascal y Atmósfera son unidades de presión. $1 \\text{ Pa} = 1 \\text{ N}/m^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Completa el enunciado: La fórmula del peso es $w = mg$, donde $w$ se mide en ______ y la masa en ______.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Newtons, Kilogramos", "correct": true },
+      { "text": "Kilogramos, Newtons", "correct": false },
+      { "text": "Joules, Gramos", "correct": false },
+      { "text": "Dinas, Libras", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El peso es una fuerza.",
+    "explanation": "En el SI, la fuerza (peso) se mide en Newtons ($N$) y la masa en kilogramos ($kg$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Relaciona la variable química con su símbolo común:\nA) Número de moles\nB) Masa molar\nC) Presión\n\nI) $P$\nII) $n$\nIII) $MM$ o $M$",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$P$ se usa para la fuerza por unidad de área.",
+    "explanation": "Moles ($n$), Masa molar ($MM$), Presión ($P$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Un alumno del CEPREDIX está analizando la Segunda Ley de Newton $F = ma$. Si desea encontrar la aceleración ($a$), ¿cuál es la expresión correcta?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$a = \\frac{F}{m}$", "correct": true },
+      { "text": "$a = Fm$", "correct": false },
+      { "text": "$a = \\frac{m}{F}$", "correct": false },
+      { "text": "$a = F - m$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que $m = \\frac{F}{a}$.",
+    "explanation": "Para despejar $a$, pasamos la masa $m$ dividiendo al otro lado: $a = F/m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Cuál es la unidad derivada de la frecuencia en el SI?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Hertz ($Hz$)", "correct": true },
+      { "text": "Segundo ($s$)", "correct": false },
+      { "text": "Joule ($J$)", "correct": false },
+      { "text": "Watt ($W$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Equivale a ciclos por segundo ($s^{-1}$).",
+    "explanation": "El Hertz ($Hz$) mide la frecuencia y es equivalente a $1/s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "En la fórmula de Molaridad $M = \\frac{n}{V_{L}}$, despeja el número de moles ($n$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$n = M \\times V_{L}$", "correct": true },
+      { "text": "$n = \\frac{M}{V_{L}}$", "correct": false },
+      { "text": "$n = \\frac{V_{L}}{M}$", "correct": false },
+      { "text": "$n = M + V_{L}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $V_L = \\frac{n}{M}$.",
+    "explanation": "El volumen está dividiendo, pasa multiplicando: $n = M V_L$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Identifica las magnitudes que son vectoriales (tienen dirección y sentido):\n1. Velocidad\n2. Rapidez\n3. Desplazamiento\n4. Distancia",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La rapidez y la distancia solo tienen magnitud (escalares).",
+    "explanation": "La velocidad y el desplazamiento son vectores porque requieren dirección y sentido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Completa: La ecuación $x = v t$ es dimensionalmente correcta porque longitud ($L$) es igual a velocidad ($LT^{-1}$) por ______ ($T$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Tiempo", "correct": true },
+      { "text": "Masa", "correct": false },
+      { "text": "Aceleración", "correct": false },
+      { "text": "Fuerza", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las unidades de tiempo cancelan el denominador de la velocidad.",
+    "explanation": "$L = (L/T) \\times T$. Se cancela $T$ y queda $L = L$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Relaciona el prefijo del SI con su factor multiplicativo:\nA) Kilo\nB) Mili\nC) Centi\n\nI) $10^{-3}$\nII) $10^{3}$\nIII) $10^{-2}$",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "A-II, B-I, C-III", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Kilo significa mil veces.",
+    "explanation": "Kilo ($10^3$), Mili ($10^{-3}$), Centi ($10^{-2}$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Si tenemos la fórmula de velocidad final $v_f = v_i + at$, ¿cómo despejamos el tiempo ($t$)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$t = \\frac{v_f - v_i}{a}$", "correct": true },
+      { "text": "$t = \\frac{v_f + v_i}{a}$", "correct": false },
+      { "text": "$t = a(v_f - v_i)$", "correct": false },
+      { "text": "$t = v_f - v_i - a$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero resta $v_i$ de ambos lados, luego divide por $a$. Recuerda que $a = \\frac{v_f - v_i}{t}$.",
+    "explanation": "Restamos $v_i$: $v_f - v_i = at$. Dividimos entre $a$: $t = \\frac{v_f - v_i}{a}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "¿Cuál es la unidad del SI para la Energía?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Joule ($J$)", "correct": true },
+      { "text": "Watt ($W$)", "correct": false },
+      { "text": "Newton ($N$)", "correct": false },
+      { "text": "Pascal ($Pa$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la misma unidad que se usa para el Trabajo.",
+    "explanation": "El Joule ($J$) mide energía, trabajo y calor en el SI.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "En química, para calcular la masa ($m$) usando el número de moles ($n$) y la masa molar ($MM$), usamos la fórmula:",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$m = n \\times MM$", "correct": true },
+      { "text": "$m = \\frac{n}{MM}$", "correct": false },
+      { "text": "$m = \\frac{MM}{n}$", "correct": false },
+      { "text": "$m = n + MM$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $n = m / MM$.",
+    "explanation": "Despejando $m$ de la fórmula de moles, $m = n \\times MM$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Para preparar una solución en el laboratorio del CEPREDIX, se usa la fórmula de porcentaje masa-masa $\\%m/m = \\frac{m_{soluto}}{m_{solucion}} \\times 100$. Despeja la masa del soluto ($m_{soluto}$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$m_{soluto} = \\frac{\\%m/m \\times m_{solucion}}{100}$", "correct": true },
+      { "text": "$m_{soluto} = \\frac{\\%m/m \\times 100}{m_{solucion}}$", "correct": false },
+      { "text": "$m_{soluto} = \\%m/m \\times m_{solucion} \\times 100$", "correct": false },
+      { "text": "$m_{soluto} = \\frac{m_{solucion}}{\\%m/m \\times 100}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "El 100 pasa dividiendo y la masa de la solución pasa multiplicando.",
+    "explanation": "Primero dividimos entre 100 y luego multiplicamos por $m_{solucion}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "¿Qué unidad fundamental mide la Intensidad Luminosa?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Candela ($cd$)", "correct": true },
+      { "text": "Lumen ($lm$)", "correct": false },
+      { "text": "Lux ($lx$)", "correct": false },
+      { "text": "Watt ($W$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre se asemeja a una 'vela' en inglés o español antiguo.",
+    "explanation": "La Candela ($cd$) es la unidad base del SI para intensidad luminosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "De la ecuación de onda $v = \\lambda f$, despeja la longitud de onda ($\\lambda$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$\\lambda = \\frac{v}{f}$", "correct": true },
+      { "text": "$\\lambda = v f$", "correct": false },
+      { "text": "$\\lambda = \\frac{f}{v}$", "correct": false },
+      { "text": "$\\lambda = v - f$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $f = v/\\lambda$.",
+    "explanation": "La frecuencia $f$ está multiplicando, pasa dividiendo: $\\lambda = v/f$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "¿Cuál es la equivalencia correcta de $1 \\text{ Litro}$ en $cm^3$?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$1000 \\text{ cm}^3$", "correct": true },
+      { "text": "$100 \\text{ cm}^3$", "correct": false },
+      { "text": "$10 \\text{ cm}^3$", "correct": false },
+      { "text": "$10000 \\text{ cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un cubo de $10 \\text{ cm}$ de lado hace un litro.",
+    "explanation": "$1 \\text{ Litro} = 1 \\text{ dm}^3 = (10 \\text{ cm})^3 = 1000 \\text{ cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "En la fórmula de la Ley de Ohm $V = I R$, despeja la resistencia ($R$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$R = \\frac{V}{I}$", "correct": true },
+      { "text": "$R = V I$", "correct": false },
+      { "text": "$R = \\frac{I}{V}$", "correct": false },
+      { "text": "$R = V - I$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $I = V/R$.",
+    "explanation": "La intensidad $I$ multiplica a $R$, por lo que pasa dividiendo al voltaje $V$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Identifica las unidades que NO pertenecen al Sistema Internacional (SI) pero son de uso común:\n1. Segundo\n2. Litro\n3. Metro\n4. Hora",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "2 y 4", "correct": true },
+      { "text": "1 y 3", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El segundo y el metro son la base del SI.",
+    "explanation": "Litro y Hora son aceptados para uso con el SI, pero las unidades SI oficiales son metro cúbico y segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Completa: La densidad se define como la relación entre ______ y ______.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Masa, Volumen", "correct": true },
+      { "text": "Peso, Área", "correct": false },
+      { "text": "Fuerza, Volumen", "correct": false },
+      { "text": "Masa, Área", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sus unidades comunes son $g/cm^3$ o $kg/m^3$.",
+    "explanation": "Densidad $\\rho = m/V$ (masa entre volumen).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Relaciona la fórmula con la variable despejada:\nA) $F = ma$\nB) $v = d/t$\nC) $\\rho = m/V$\n\nI) $m = \\rho V$\nII) $m = F/a$\nIII) $d = vt$",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa las variables involucradas en cada par.",
+    "explanation": "De $F=ma$ sacamos $m=F/a$. De $v=d/t$ sacamos $d=vt$. De $\\rho=m/V$ sacamos $m=\\rho V$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Si la fórmula de calor es $Q = m C_e \\Delta T$, ¿cómo despejas el calor específico ($C_e$)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$C_e = \\frac{Q}{m \\Delta T}$", "correct": true },
+      { "text": "$C_e = \\frac{m \\Delta T}{Q}$", "correct": false },
+      { "text": "$C_e = Q - m \\Delta T$", "correct": false },
+      { "text": "$C_e = Q m \\Delta T$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $\\Delta T = \\frac{Q}{m C_e}$.",
+    "explanation": "El producto $m \\Delta T$ multiplica a $C_e$, por lo que pasa dividiendo a $Q$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Un investigador del CEPREDIX calcula la energía potencial gravitatoria usando $E_p = mgh$. Si quiere hallar la altura ($h$), ¿qué expresión debe usar?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$h = \\frac{E_p}{mg}$", "correct": true },
+      { "text": "$h = E_p mg$", "correct": false },
+      { "text": "$h = \\frac{mg}{E_p}$", "correct": false },
+      { "text": "$h = E_p - mg$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que $m = \\frac{E_p}{gh}$.",
+    "explanation": "$m$ y $g$ multiplican a $h$, así que pasan dividiendo al otro lado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "¿Qué unidad del SI es equivalente a $Newton \\cdot metro$ ($N \\cdot m$) cuando hablamos de energía?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Joule", "correct": true },
+      { "text": "Watt", "correct": false },
+      { "text": "Pascal", "correct": false },
+      { "text": "Volt", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la unidad de Trabajo.",
+    "explanation": "Trabajo = Fuerza x Distancia ($N \\cdot m$), lo cual se define como Joule ($J$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "En la escala Kelvin, ¿cuál es la temperatura del cero absoluto?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$0 \\text{ K}$", "correct": true },
+      { "text": "$-273 \\text{ K}$", "correct": false },
+      { "text": "$273 \\text{ K}$", "correct": false },
+      { "text": "$100 \\text{ K}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En Celsius equivale a $-273.15 ^{\\circ}C$.",
+    "explanation": "El cero absoluto es el punto de partida de la escala Kelvin, por lo tanto es $0 \\text{ K}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Despeja el radio ($r$) de la fórmula del área del círculo $A = \\pi r^2$.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{A}{\\pi}}$", "correct": true },
+      { "text": "$r = \\frac{A}{2\\pi}$", "correct": false },
+      { "text": "$r = \\frac{\\sqrt{A}}{\\pi}$", "correct": false },
+      { "text": "$r = A^2 \\pi$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa $\\pi$ dividiendo y luego elimina el cuadrado.",
+    "explanation": "$r^2 = A/\\pi$, entonces $r = \\sqrt{A/\\pi}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Si $1 \\text{ hora} = 3600 \\text{ s}$, ¿cuántos segundos hay en $2.5 \\text{ horas}$?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$9000 \\text{ s}$", "correct": true },
+      { "text": "$7200 \\text{ s}$", "correct": false },
+      { "text": "$5000 \\text{ s}$", "correct": false },
+      { "text": "$8600 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el valor en horas por el factor de conversión.",
+    "explanation": "$2.5 \\text{ h} \\times 3600 \\text{ s/h} = 9000 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "En la fórmula de presión hidrostática $P = \\rho g h$, despeja la densidad ($\\rho$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$\\rho = \\frac{P}{gh}$", "correct": true },
+      { "text": "$\\rho = Pgh$", "correct": false },
+      { "text": "$\\rho = \\frac{gh}{P}$", "correct": false },
+      { "text": "$\\rho = P - gh$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $h = \\frac{P}{\\rho g}$.",
+    "explanation": "$g$ y $h$ están multiplicando a $\\rho$, por lo que pasan dividiendo a $P$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "¿Cuál es la unidad de la Potencia eléctrica?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Watt ($W$)", "correct": true },
+      { "text": "Joule ($J$)", "correct": false },
+      { "text": "Ampere ($A$)", "correct": false },
+      { "text": "Volt ($V$)", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Equivale a Joules por segundo ($J/s$).",
+    "explanation": "El Watt es la unidad de potencia en el SI.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "En la fórmula $pH = -\\log[H^+]$, si queremos conocer la concentración $[H^+]$, ¿cuál es el despeje?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$[H^+] = 10^{-pH}$", "correct": true },
+      { "text": "$[H^+] = -pH^{10}$", "correct": false },
+      { "text": "$[H^+] = \\frac{1}{\\log(pH)}$", "correct": false },
+      { "text": "$[H^+] = 10^{pH}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la definición de logaritmo base 10: si $y = \\log x$, entonces $x = 10^y$.",
+    "explanation": "Multiplicamos por -1: $-pH = \\log[H^+]$. Aplicamos antilogaritmo: $[H^+] = 10^{-pH}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Identifica la unidad que corresponde a la Aceleración:\n1. $m/s$\n2. $m/s^2$\n3. $km/h$\n4. $ft/min$",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe tener unidades de tiempo al cuadrado en el denominador.",
+    "explanation": "$m/s^2$ es la unidad de aceleración en el SI.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Un estudiante del CEPREDIX resuelve la ecuación $V_2 = V_1 \\frac{T_2}{T_1}$ (Ley de Charles). Despeja $T_2$.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$T_2 = \\frac{V_2 T_1}{V_1}$", "correct": true },
+      { "text": "$T_2 = \\frac{V_1 T_1}{V_2}$", "correct": false },
+      { "text": "$T_2 = V_2 V_1 T_1$", "correct": false },
+      { "text": "$T_2 = \\frac{V_2}{V_1 T_1}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Considera que $T_1 = \\frac{V_1 T_2}{V_2}$.",
+    "explanation": "Pasamos $T_1$ multiplicando y $V_1$ dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Completa: $1 \\text{ kilogramo}$ equivale a ______ $\\text{gramos}$.",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "1000", "correct": true },
+      { "text": "100", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "10000", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo kilo significa mil.",
+    "explanation": "Kilo = $10^3 = 1000$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Relaciona la unidad con la magnitud:\nA) Joule ($J$)\nB) Watt ($W$)\nC) Pascal ($Pa$)\n\nI) Presión\nII) Energía\nIII) Potencia",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Watt se usa en focos (potencia).",
+    "explanation": "Joule (Energía), Watt (Potencia), Pascal (Presión).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "En la fórmula de distancia $d = v t$, despeja la velocidad ($v$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$v = \\frac{d}{t}$", "correct": true },
+      { "text": "$v = d t$", "correct": false },
+      { "text": "$v = \\frac{t}{d}$", "correct": false },
+      { "text": "$v = d - t$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $t = d/v$.",
+    "explanation": "El tiempo está multiplicando, pasa dividiendo: $v = d/t$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "¿Cuál es la unidad de Carga Eléctrica en el SI?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "Coulomb ($C$)", "correct": true },
+      { "text": "Ampere ($A$)", "correct": false },
+      { "text": "Volt ($V$)", "correct": false },
+      { "text": "Ohm ($\\Omega$)", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se define como Amperes por segundo ($A \\cdot s$).",
+    "explanation": "El Coulomb ($C$) es la unidad de carga eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Dada la ecuación de Einstein $E = mc^2$, despeja la velocidad de la luz ($c$).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$c = \\sqrt{\\frac{E}{m}}$", "correct": true },
+      { "text": "$c = \\frac{E}{2m}$", "correct": false },
+      { "text": "$c = \\frac{\\sqrt{E}}{m}$", "correct": false },
+      { "text": "$c = E m^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero despeja $c^2 = E/m$.",
+    "explanation": "Sacamos raíz cuadrada a ambos lados: $c = \\sqrt{E/m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Para calcular el número de Avogadro ($N_A$) en un problema del CEPREDIX, se usa la relación $n = \\frac{N}{N_A}$. Despeja $N$ (número de partículas).",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$N = n \\times N_A$", "correct": true },
+      { "text": "$N = \\frac{n}{N_A}$", "correct": false },
+      { "text": "$N = \\frac{N_A}{n}$", "correct": false },
+      { "text": "$N = n + N_A$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que $n$ representa los moles.",
+    "explanation": "$N_A$ está dividiendo, pasa multiplicando: $N = n N_A$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "¿Qué par de unidades son equivalentes para medir volumen?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$ml$ y $cm^3$", "correct": true },
+      { "text": "$L$ y $m^3$", "correct": false },
+      { "text": "$ml$ y $mm^3$", "correct": false },
+      { "text": "$L$ y $cm^3$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "1 Litro son 1000 de estas unidades.",
+    "explanation": "Un mililitro ($ml$) es exactamente igual a un centímetro cúbico ($cm^3$ o $cc$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "En la fórmula de trabajo $W = F d$, si conoces el trabajo y la distancia, ¿cómo hallas la fuerza ($F$)?",
+    "image": "https://miblogcolegioherma.wordpress.com/wp-content/uploads/2016/09/magnitudes_fundamentales_y_derivadas11.png",
+    "options": [
+      { "text": "$F = \\frac{W}{d}$", "correct": true },
+      { "text": "$F = W d$", "correct": false },
+      { "text": "$F = \\frac{d}{W}$", "correct": false },
+      { "text": "$F = W - d$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $d = W/F$.",
+    "explanation": "La distancia $d$ multiplica a $F$, pasa dividiendo: $F = W/d$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Para convertir una velocidad de $km/h$ a $m/s$, ¿por qué factor se debe multiplicar?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1000}{3600}$", "correct": true },
+      { "text": "$\\frac{3600}{1000}$", "correct": false },
+      { "text": "$1000 \\times 3600$", "correct": false },
+      { "text": "$\\frac{1}{1000}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Hay 1000 metros en un km y 3600 segundos en una hora.",
+    "explanation": "Multiplicamos por $1000 m/1 km$ y dividimos entre $3600 s/1 h$, resultando en factor $5/18$ o $1000/3600$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Dada la Ley Combinada de los Gases $\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}$, despeja la temperatura inicial ($T_1$).",
+    "image": null,
+    "options": [
+      { "text": "$T_1 = \\frac{P_1 V_1 T_2}{P_2 V_2}$", "correct": true },
+      { "text": "$T_1 = \\frac{P_2 V_2 T_2}{P_1 V_1}$", "correct": false },
+      { "text": "$T_1 = \\frac{P_1 V_1}{P_2 V_2 T_2}$", "correct": false },
+      { "text": "$T_1 = \\frac{P_2 V_2}{P_1 V_1 T_2}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cruza los términos para linealizar: $P_1 V_1 T_2 = P_2 V_2 T_1$.",
+    "explanation": "Al despejar $T_1$, el producto $P_2 V_2$ pasa dividiendo al término $P_1 V_1 T_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "¿Cuál es la ecuación dimensional de la Energía Cinética ($E_k$)?",
+    "image": null,
+    "options": [
+      { "text": "$M L^2 T^{-2}$", "correct": true },
+      { "text": "$M L T^{-2}$", "correct": false },
+      { "text": "$M L T^{-1}$", "correct": false },
+      { "text": "$M^2 L^2 T^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Energía tiene unidades de masa por velocidad al cuadrado ($kg \\cdot (m/s)^2$).",
+    "explanation": "$M \\cdot (L/T)^2 = M L^2 T^{-2}$. Coincide con la dimensión de Trabajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Realiza la operación con notación científica: $(3 \\times 10^5) \\times (2 \\times 10^{-3})$.",
+    "image": null,
+    "options": [
+      { "text": "$6 \\times 10^2$", "correct": true },
+      { "text": "$6 \\times 10^8$", "correct": false },
+      { "text": "$5 \\times 10^2$", "correct": false },
+      { "text": "$1.5 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los coeficientes y suma los exponentes: $5 + (-3)$.",
+    "explanation": "$3 \\times 2 = 6$ y $10^{5-3} = 10^2$. Resultado: $6 \\times 10^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "De la fórmula de distancia en MRUA $d = v_i t + \\frac{1}{2} a t^2$, despeja la velocidad inicial ($v_i$).",
+    "image": null,
+    "options": [
+      { "text": "$v_i = \\frac{d - \\frac{1}{2}at^2}{t}$", "correct": true },
+      { "text": "$v_i = \\frac{d}{t} - \\frac{1}{2}at$", "correct": false },
+      { "text": "$v_i = d - \\frac{1}{2}at$", "correct": false },
+      { "text": "$v_i = \\frac{d + \\frac{1}{2}at^2}{t}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero resta el término de aceleración y luego divide todo entre el tiempo.",
+    "explanation": "Restando $\\frac{1}{2}at^2$ queda $d - \\frac{1}{2}at^2 = v_i t$. Dividiendo entre $t$ obtenemos la respuesta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Si la densidad del agua es $1000 \\text{ kg/m}^3$, ¿cuál es su valor en $\\text{g/cm}^3$?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ g/cm}^3$", "correct": true },
+      { "text": "$10 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$0.1 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$100 \\text{ g/cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Divide entre 1000 dos veces: una por kg a g (x1000) y otra por m3 a cm3 (/1,000,000). O usa el factor directo 1000 kg/m3 = 1 g/cm3.",
+    "explanation": "$1000 \\frac{kg}{m^3} \\times \\frac{1000g}{1kg} \\times \\frac{1m^3}{10^6 cm^3} = 1 \\text{ g/cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Calcula la magnitud del vector resultante si sus componentes son $F_x = 3 \\text{ N}$ y $F_y = 4 \\text{ N}$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ N}$", "correct": true },
+      { "text": "$7 \\text{ N}$", "correct": false },
+      { "text": "$1 \\text{ N}$", "correct": false },
+      { "text": "$25 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el Teorema de Pitágoras: $R = \\sqrt{F_x^2 + F_y^2}$.",
+    "explanation": "$R = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "La potencia se mide en Watts ($W$). ¿A qué equivale un Watt en unidades fundamentales?",
+    "image": null,
+    "options": [
+      { "text": "$kg \\cdot m^2 \\cdot s^{-3}$", "correct": true },
+      { "text": "$kg \\cdot m \\cdot s^{-2}$", "correct": false },
+      { "text": "$kg \\cdot m^2 \\cdot s^{-2}$", "correct": false },
+      { "text": "$kg \\cdot m \\cdot s^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Potencia es Energía/Tiempo. Energía es $kg \\cdot m^2/s^2$. Divide entre $s$.",
+    "explanation": "$W = J/s = (N \\cdot m)/s = (kg \\cdot m/s^2 \\cdot m)/s = kg \\cdot m^2 \\cdot s^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "De la Ley de Gravitación Universal $F = G \\frac{m_1 m_2}{r^2}$, despeja la distancia ($r$).",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{G m_1 m_2}{F}}$", "correct": true },
+      { "text": "$r = \\frac{G m_1 m_2}{F}$", "correct": false },
+      { "text": "$r = \\sqrt{G m_1 m_2 F}$", "correct": false },
+      { "text": "$r = \\frac{F}{G m_1 m_2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Intercambia $F$ con $r^2$ y luego saca raíz cuadrada.",
+    "explanation": "$r^2 = \\frac{G m_1 m_2}{F}$, entonces $r = \\sqrt{\\frac{G m_1 m_2}{F}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Un estudiante del CEPREDIX prepara una dilución usando $C_1 V_1 = C_2 V_2$. Despeja el volumen inicial necesario ($V_1$).",
+    "image": null,
+    "options": [
+      { "text": "$V_1 = \\frac{C_2 V_2}{C_1}$", "correct": true },
+      { "text": "$V_1 = \\frac{C_1 V_2}{C_2}$", "correct": false },
+      { "text": "$V_1 = C_2 V_2 - C_1$", "correct": false },
+      { "text": "$V_1 = \\frac{C_1}{C_2 V_2}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "La concentración inicial $C_1$ está multiplicando, pasa dividiendo.",
+    "explanation": "$V_1 = \\frac{C_2 V_2}{C_1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Cuál es la ecuación dimensional de la Presión?",
+    "image": null,
+    "options": [
+      { "text": "$M L^{-1} T^{-2}$", "correct": true },
+      { "text": "$M L T^{-2}$", "correct": false },
+      { "text": "$M L^2 T^{-2}$", "correct": false },
+      { "text": "$M L^{-2} T^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Presión = Fuerza/Área. Fuerza es $M L T^{-2}$ y Área es $L^2$.",
+    "explanation": "$\\frac{M L T^{-2}}{L^2} = M L^{1-2} T^{-2} = M L^{-1} T^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "La conversión de Fahrenheit a Celsius es $C = \\frac{F - 32}{1.8}$. Despeja los grados Fahrenheit ($F$).",
+    "image": null,
+    "options": [
+      { "text": "$F = 1.8C + 32$", "correct": true },
+      { "text": "$F = \\frac{C}{1.8} + 32$", "correct": false },
+      { "text": "$F = 1.8(C + 32)$", "correct": false },
+      { "text": "$F = 1.8C - 32$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El 1.8 pasa multiplicando y luego el 32 sumando.",
+    "explanation": "$1.8C = F - 32 \\Rightarrow F = 1.8C + 32$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "En caída libre $h = \\frac{1}{2} g t^2$ (partiendo del reposo). Despeja el tiempo ($t$).",
+    "image": null,
+    "options": [
+      { "text": "$t = \\sqrt{\\frac{2h}{g}}$", "correct": true },
+      { "text": "$t = \\frac{2h}{g}$", "correct": false },
+      { "text": "$t = \\sqrt{2hg}$", "correct": false },
+      { "text": "$t = \\frac{h}{2g}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El 2 pasa multiplicando, $g$ dividiendo y luego raíz cuadrada.",
+    "explanation": "$2h = gt^2 \\Rightarrow t^2 = 2h/g \\Rightarrow t = \\sqrt{2h/g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Calcula la masa molar del Sulfato de Aluminio $Al_2(SO_4)_3$. ($Al=27, S=32, O=16$).",
+    "image": null,
+    "options": [
+      { "text": "$342 \\text{ g/mol}$", "correct": true },
+      { "text": "$150 \\text{ g/mol}$", "correct": false },
+      { "text": "$315 \\text{ g/mol}$", "correct": false },
+      { "text": "$278 \\text{ g/mol}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma: $2(27) + 3[32 + 4(16)]$.",
+    "explanation": "$54 + 3[32+64] = 54 + 3[96] = 54 + 288 = 342$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "¿Cuántas veces es más grande un Giga ($10^9$) que un Micro ($10^{-6}$)?",
+    "image": null,
+    "options": [
+      { "text": "$10^{15}$ veces", "correct": true },
+      { "text": "$10^{3}$ veces", "correct": false },
+      { "text": "$10^{12}$ veces", "correct": false },
+      { "text": "$10^{9}$ veces", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta los exponentes: $9 - (-6)$.",
+    "explanation": "La diferencia de órdenes de magnitud es $9 - (-6) = 15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "En la fórmula de calor $Q = m C_e (T_f - T_i)$, despeja la temperatura inicial ($T_i$).",
+    "image": null,
+    "options": [
+      { "text": "$T_i = T_f - \\frac{Q}{m C_e}$", "correct": true },
+      { "text": "$T_i = \\frac{Q}{m C_e} - T_f$", "correct": false },
+      { "text": "$T_i = T_f + \\frac{Q}{m C_e}$", "correct": false },
+      { "text": "$T_i = \\frac{Q}{m C_e (T_f)}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide $Q$ entre $mC_e$, luego mueve $T_i$ al lado positivo.",
+    "explanation": "$\\frac{Q}{mC_e} = T_f - T_i \\Rightarrow T_i = T_f - \\frac{Q}{mC_e}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Si un vector $A$ apunta al Norte y un vector $B$ apunta al Sur con la misma magnitud, ¿cuál es el vector suma $A+B$?",
+    "image": null,
+    "options": [
+      { "text": "Cero (Vector Nulo)", "correct": true },
+      { "text": "2A hacia el Norte", "correct": false },
+      { "text": "2B hacia el Sur", "correct": false },
+      { "text": "Un vector al Este", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Son vectores opuestos y colineales.",
+    "explanation": "Al tener la misma magnitud pero dirección opuesta ($180^\\circ$), se anulan.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "La ecuación de estado se puede escribir como $PV = \\frac{m}{MM}RT$. Despeja la Masa Molar ($MM$).",
+    "image": null,
+    "options": [
+      { "text": "$MM = \\frac{mRT}{PV}$", "correct": true },
+      { "text": "$MM = \\frac{PV}{mRT}$", "correct": false },
+      { "text": "$MM = \\frac{mPV}{RT}$", "correct": false },
+      { "text": "$MM = mRT - PV$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Intercambia $MM$ (denominador) con el producto $PV$ (numerador del otro lado implícito).",
+    "explanation": "$MM$ sube multiplicando y $PV$ baja dividiendo: $MM = \\frac{mRT}{PV}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "¿Cuál es la dimensión física de la Fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$M L T^{-2}$", "correct": true },
+      { "text": "$M L T^{-1}$", "correct": false },
+      { "text": "$M L^{-1} T^{-2}$", "correct": false },
+      { "text": "$M^2 L T^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Newton = Masa x Aceleración.",
+    "explanation": "$F = m a \\rightarrow M \\cdot (L T^{-2}) = M L T^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "De la fórmula de Energía Cinética $E_c = \\frac{1}{2} m v^2$, despeja la velocidad ($v$).",
+    "image": null,
+    "options": [
+      { "text": "$v = \\sqrt{\\frac{2E_c}{m}}$", "correct": true },
+      { "text": "$v = \\frac{2E_c}{m}$", "correct": false },
+      { "text": "$v = \\sqrt{2E_c m}$", "correct": false },
+      { "text": "$v = \\frac{\\sqrt{E_c}}{2m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El 2 pasa multiplicando, la masa dividiendo, y finalizas con raíz.",
+    "explanation": "$2E_c = mv^2 \\Rightarrow v^2 = 2E_c/m \\Rightarrow v = \\sqrt{2E_c/m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "¿A cuántos metros cúbicos ($m^3$) equivale $1,000,000 \\text{ cm}^3$?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ m}^3$", "correct": true },
+      { "text": "$100 \\text{ m}^3$", "correct": false },
+      { "text": "$0.1 \\text{ m}^3$", "correct": false },
+      { "text": "$10 \\text{ m}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor es $(100 \\text{ cm})^3 = 1,000,000 \\text{ cm}^3 = 1 \\text{ m}^3$.",
+    "explanation": "$1 \\text{ m} = 100 \\text{ cm}$. Al cubo: $1 \\text{ m}^3 = 10^6 \\text{ cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "La potencia eléctrica también se expresa como $P = \\frac{V^2}{R}$. Despeja el voltaje ($V$).",
+    "image": null,
+    "options": [
+      { "text": "$V = \\sqrt{P R}$", "correct": true },
+      { "text": "$V = P R$", "correct": false },
+      { "text": "$V = \\frac{P}{R}$", "correct": false },
+      { "text": "$V = \\sqrt{\\frac{P}{R}}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa $R$ multiplicando y aplica raíz.",
+    "explanation": "$V^2 = P R \\Rightarrow V = \\sqrt{P R}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "¿Cuáles son las unidades de la constante de Coulomb ($k$) en la fórmula $F = k \\frac{q_1 q_2}{r^2}$?",
+    "image": null,
+    "options": [
+      { "text": "$N \\cdot m^2 / C^2$", "correct": true },
+      { "text": "$N \\cdot m / C$", "correct": false },
+      { "text": "$N \\cdot C^2 / m^2$", "correct": false },
+      { "text": "$J \\cdot m / C^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $k$: $k = F r^2 / (q_1 q_2)$. Sustituye unidades.",
+    "explanation": "$F$ es $N$, $r^2$ es $m^2$, $q$ es $C$. Resultado: $N m^2 / C^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Si $pH + pOH = 14$, ¿cómo calculas el $pOH$ si conoces el $pH$?",
+    "image": null,
+    "options": [
+      { "text": "$pOH = 14 - pH$", "correct": true },
+      { "text": "$pOH = 14 + pH$", "correct": false },
+      { "text": "$pOH = pH - 14$", "correct": false },
+      { "text": "$pOH = \\frac{14}{pH}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una resta simple.",
+    "explanation": "El $pH$ está sumando, pasa restando al 14.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Determina la dimensión de la velocidad angular ($\\omega = \\frac{\\theta}{t}$), donde $\\theta$ es adimensional.",
+    "image": null,
+    "options": [
+      { "text": "$T^{-1}$", "correct": true },
+      { "text": "$L T^{-1}$", "correct": false },
+      { "text": "$T$", "correct": false },
+      { "text": "$L^{-1} T$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El ángulo no tiene dimensión física ($1$), el tiempo es $T$.",
+    "explanation": "$1/T = T^{-1}$. Se mide en radianes/segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "En la ecuación de Torricelli $v_f^2 = v_i^2 + 2ad$, despeja la distancia ($d$).",
+    "image": null,
+    "options": [
+      { "text": "$d = \\frac{v_f^2 - v_i^2}{2a}$", "correct": true },
+      { "text": "$d = \\frac{v_f^2 + v_i^2}{2a}$", "correct": false },
+      { "text": "$d = \\frac{v_f - v_i}{2a}$", "correct": false },
+      { "text": "$d = 2a(v_f^2 - v_i^2)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $v_i^2$ y luego divide entre $2a$.",
+    "explanation": "$v_f^2 - v_i^2 = 2ad$. Dividimos entre $2a$ para despejar $d$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Al mezclar dos líquidos con volúmenes iguales pero diferentes densidades $\\rho_1$ y $\\rho_2$, la densidad de la mezcla es:",
+    "image": null,
+    "options": [
+      { "text": "El promedio aritmético $\\frac{\\rho_1 + \\rho_2}{2}$", "correct": true },
+      { "text": "La suma $\\rho_1 + \\rho_2$", "correct": false },
+      { "text": "La diferencia $\\rho_1 - \\rho_2$", "correct": false },
+      { "text": "El producto $\\rho_1 \\rho_2$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Densidad mezcla = Masa total / Volumen total. Si $V_1=V_2$, $V_{total}=2V$.",
+    "explanation": "$\\rho_{mix} = \\frac{\\rho_1 V + \\rho_2 V}{2V} = \\frac{V(\\rho_1 + \\rho_2)}{2V} = \\frac{\\rho_1 + \\rho_2}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "La unidad CGS de viscosidad es el Poise ($P$). Si $1 \\text{ P} = 0.1 \\text{ Pa} \\cdot s$, ¿a cuántos Poise equivalen $10 \\text{ Pa} \\cdot s$?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ P}$", "correct": true },
+      { "text": "$1 \\text{ P}$", "correct": false },
+      { "text": "$10 \\text{ P}$", "correct": false },
+      { "text": "$0.1 \\text{ P}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide 10 entre 0.1.",
+    "explanation": "$10 \\text{ Pa} \\cdot s \\times \\frac{1 \\text{ P}}{0.1 \\text{ Pa} \\cdot s} = 100 \\text{ P}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "De la ley de gases ideales $PV=nRT$, ¿cuáles son las unidades de la constante $R$ si despejamos?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{Energía} / (\\text{mol} \\cdot K)$", "correct": true },
+      { "text": "$\\text{Presión} / \\text{Volumen}$", "correct": false },
+      { "text": "$\\text{Fuerza} \\cdot K / \\text{mol}$", "correct": false },
+      { "text": "$\\text{Masa} / \\text{Volumen}$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$R = PV / nT$. $PV$ es energía (Trabajo).",
+    "explanation": "$R$ tiene unidades de $J/(mol \\cdot K)$ o $L \\cdot atm / (mol \\cdot K)$. Dimensionalmente es Energía por mol por Kelvin.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "En la Ley de Hooke $F = kx$, ¿cuál es la dimensión de la constante del resorte $k$?",
+    "image": null,
+    "options": [
+      { "text": "$M T^{-2}$", "correct": true },
+      { "text": "$M L T^{-2}$", "correct": false },
+      { "text": "$M L^{-1}$", "correct": false },
+      { "text": "$L T^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$k = F/x$. Divide fuerza ($MLT^{-2}$) entre longitud ($L$).",
+    "explanation": "$\\frac{M L T^{-2}}{L} = M T^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Si $1 \\text{ atm} = 101,325 \\text{ Pa}$, ¿cuántos Pascales hay aproximadamente en $2 \\text{ atm}$?",
+    "image": null,
+    "options": [
+      { "text": "$202,650 \\text{ Pa}$", "correct": true },
+      { "text": "$50,000 \\text{ Pa}$", "correct": false },
+      { "text": "$100,000 \\text{ Pa}$", "correct": false },
+      { "text": "$300,000 \\text{ Pa}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 2.",
+    "explanation": "$2 \\times 101,325 = 202,650$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "En la hidrostática, la presión absoluta es $P = P_{atm} + \\rho g h$. Despeja la altura ($h$).",
+    "image": null,
+    "options": [
+      { "text": "$h = \\frac{P - P_{atm}}{\\rho g}$", "correct": true },
+      { "text": "$h = \\frac{P + P_{atm}}{\\rho g}$", "correct": false },
+      { "text": "$h = P - P_{atm} - \\rho g$", "correct": false },
+      { "text": "$h = \\frac{\\rho g}{P - P_{atm}}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa restando la presión atmosférica.",
+    "explanation": "$P - P_{atm} = \\rho g h$. Dividiendo entre $\\rho g$ obtenemos $h$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "La potencia eléctrica es $P = V I$. Si queremos hallar la corriente ($I$) conociendo Potencia y Voltaje, ¿qué expresión usamos?",
+    "image": null,
+    "options": [
+      { "text": "$I = \\frac{P}{V}$", "correct": true },
+      { "text": "$I = P V$", "correct": false },
+      { "text": "$I = \\frac{V}{P}$", "correct": false },
+      { "text": "$I = P - V$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El voltaje multiplica a la corriente, pasa dividiendo.",
+    "explanation": "$I = P/V$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "La capacidad calorífica ($C$) es extensiva, mientras que el calor específico ($C_e$) es intensivo. ¿Cómo se relacionan?",
+    "image": null,
+    "options": [
+      { "text": "$C = m C_e$", "correct": true },
+      { "text": "$C = \\frac{C_e}{m}$", "correct": false },
+      { "text": "$C_e = m C$", "correct": false },
+      { "text": "$C = m + C_e$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Capacidad calorífica es para todo el cuerpo (masa), calor específico es por unidad de masa.",
+    "explanation": "$C$ (total) = masa $\\times$ calor específico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "La velocidad de una onda en una cuerda es $v = \\sqrt{\\frac{T}{\\mu}}$. Despeja la tensión ($T$).",
+    "image": null,
+    "options": [
+      { "text": "$T = v^2 \\mu$", "correct": true },
+      { "text": "$T = \\frac{v^2}{\\mu}$", "correct": false },
+      { "text": "$T = \\sqrt{v \\mu}$", "correct": false },
+      { "text": "$T = \\frac{\\mu}{v^2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cuadrado y pasa $\\mu$ multiplicando.",
+    "explanation": "$v^2 = T/\\mu \\Rightarrow T = v^2 \\mu$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "El torque ($\\tau$) se calcula como Fuerza por Distancia. ¿Cuál es su dimensión física?",
+    "image": null,
+    "options": [
+      { "text": "$M L^2 T^{-2}$", "correct": true },
+      { "text": "$M L T^{-2}$", "correct": false },
+      { "text": "$M L^{-1} T^{-2}$", "correct": false },
+      { "text": "$M T^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es dimensionalmente igual a la Energía o Trabajo.",
+    "explanation": "$F \\cdot d = (M L T^{-2}) \\cdot L = M L^2 T^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
