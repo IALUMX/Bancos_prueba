@@ -1,0 +1,866 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Realiza la siguiente operación y expresa el resultado en notación científica: $(4.5 \\times 10^3) + (2.3 \\times 10^3)$.",
+    "image": null,
+    "options": [
+      { "text": "$6.8 \\times 10^3$", "correct": true },
+      { "text": "$6.8 \\times 10^6$", "correct": false },
+      { "text": "$1.035 \\times 10^7$", "correct": false },
+      { "text": "$6.8 \\times 10^0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para sumar potencias de diez con el mismo exponente, utiliza la propiedad distributiva: $a \\cdot 10^n + b \\cdot 10^n = (a + b) \\cdot 10^n$.",
+    "explanation": "Sumamos los coeficientes: $4.5 + 2.3 = 6.8$. Manteniendo la potencia de base 10: $6.8 \\times 10^3$.",
+    "explanative_video": null,
+    "collapsible_text": "En el nivel básico de notación científica, la clave es asegurar que los exponentes sean iguales antes de proceder con la suma o resta aritmética de los coeficientes."
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Identifica la opción que contiene los resultados correctos de las siguientes distancias calculadas en un experimento: 1) $(2.0 \\times 10^2) \\times (3.0 \\times 10^3)$ y 2) $(8.0 \\times 10^8) / (4.0 \\times 10^5)$.",
+    "image": null,
+    "options": [
+      { "text": "1) $6.0 \\times 10^5$; 2) $2.0 \\times 10^3$", "correct": true },
+      { "text": "1) $6.0 \\times 10^6$; 2) $2.0 \\times 10^{13}$", "correct": false },
+      { "text": "1) $5.0 \\times 10^5$; 2) $4.0 \\times 10^3$", "correct": false },
+      { "text": "1) $6.0 \\times 10^1$; 2) $2.0 \\times 10^{40}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para multiplicar, usa $10^m \\cdot 10^n = 10^{m+n}$. Para dividir, usa $10^m / 10^n = 10^{m-n}$.",
+    "explanation": "1) $(2.0 \\cdot 3.0) \\times 10^{2+3} = 6.0 \\times 10^5$. 2) $(8.0 / 4.0) \\times 10^{8-5} = 2.0 \\times 10^3$.",
+    "explanative_video": null,
+    "collapsible_text": "Este ejercicio requiere manejar simultáneamente las leyes de los exponentes para productos y cocientes, habilidades fundamentales para el examen de admisión."
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Un reactor diseñado por el CEPREDIX procesa un volumen inicial de $5.0 \\times 10^4 \\text{ cm}^3$. Si este volumen se incrementa en $2.5 \\times 10^{-1} \\text{ m}^3$, el volumen total final en $\\text{m}^3$ es de ______.",
+    "image": null,
+    "options": [
+      { "text": "$0.3 \\text{ m}^3$", "correct": true },
+      { "text": "$0.075 \\text{ m}^3$", "correct": false },
+      { "text": "$3.0 \\text{ m}^3$", "correct": false },
+      { "text": "$0.2505 \\text{ m}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor de conversión: $1 \\text{ m}^3 = 10^6 \\text{ cm}^3$. Primero convierte el volumen inicial a metros cúbicos.",
+    "explanation": "Volumen inicial: $5.0 \\times 10^4 \\text{ cm}^3 \\cdot (1 \\text{ m}^3 / 10^6 \\text{ cm}^3) = 0.05 \\text{ m}^3$. Suma: $0.05 \\text{ m}^3 + 0.25 \\text{ m}^3 = 0.3 \\text{ m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": "Los problemas avanzados integran el análisis de unidades. El CEPREDIX enfatiza que no se pueden sumar magnitudes con unidades o escalas diferentes."
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Relaciona correctamente la operación con su resultado final:\nI. $(2 \\times 10^{-3}) \\times (4 \\times 10^{-2})$\nII. $\\sqrt{1.6 \\times 10^7}$\nIII. $(3 \\times 10^2)^3$\n\nA. $2.7 \\times 10^7$\nB. $8.0 \\times 10^{-5}$\nC. $4.0 \\times 10^3$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para potencias, $(a \\cdot 10^n)^m = a^m \\cdot 10^{n \\cdot m}$. Para raíces, $\\sqrt{a \\cdot 10^n} = \\sqrt{a} \\cdot 10^{n/2}$.",
+    "explanation": "I: $2 \\cdot 4 = 8$; $10^{-3-2} = 10^{-5}$. II: $\\sqrt{16 \\times 10^6} = 4 \\times 10^3$. III: $3^3 = 27$; $10^{2 \\cdot 3} = 10^6 \\rightarrow 2.7 \\times 10^7$.",
+    "explanative_video": null,
+    "collapsible_text": "La relación de conceptos ayuda a consolidar el manejo de las leyes de los exponentes aplicadas a la notación científica."
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Una célula bacteriana tiene una masa aproximada de $1.2 \\times 10^{-12} \\text{ g}$. Si en un cultivo hay $5.0 \\times 10^8$ bacterias, ¿cuál es la masa total del cultivo en gramos?",
+    "image": null,
+    "options": [
+      { "text": "$6.0 \\times 10^{-4} \\text{ g}$", "correct": true },
+      { "text": "$6.0 \\times 10^{-20} \\text{ g}$", "correct": false },
+      { "text": "$6.2 \\times 10^{-4} \\text{ g}$", "correct": false },
+      { "text": "$6.0 \\times 10^4 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la masa individual por el número de individuos. Recuerda: $10^m \\cdot 10^n = 10^{m+n}$.",
+    "explanation": "Masa total: $(1.2 \\times 5.0) \\times 10^{-12 + 8} = 6.0 \\times 10^{-4} \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": "Este tipo de problemas es común en el área de Ciencias de la Salud, donde la escala microscópica requiere precisión en el manejo de potencias negativas."
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Un estudiante del CEPREDIX calcula la densidad de una muestra metálica. Si la masa es de $4.5 \\times 10^2 \\text{ mg}$ y el volumen es de $5.0 \\times 10^{-2} \\text{ cm}^3$, la densidad en $\\text{kg/m}^3$ es de ______.",
+    "image": null,
+    "options": [
+      { "text": "$9,000 \\text{ kg/m}^3$", "correct": true },
+      { "text": "$900 \\text{ kg/m}^3$", "correct": false },
+      { "text": "$9 \\text{ kg/m}^3$", "correct": false },
+      { "text": "$0.009 \\text{ kg/m}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factores: $1 \\text{ kg} = 10^6 \\text{ mg}$ y $1 \\text{ m}^3 = 10^6 \\text{ cm}^3$. Usa $\\rho = m/V$.",
+    "explanation": "Masa: $4.5 \\times 10^2 \\text{ mg} \\cdot (1 \\text{ kg} / 10^6 \\text{ mg}) = 4.5 \\times 10^{-4} \\text{ kg}$. Volumen: $5.0 \\times 10^{-2} \\text{ cm}^3 \\cdot (1 \\text{ m}^3 / 10^6 \\text{ cm}^3) = 5.0 \\times 10^{-8} \\text{ m}^3$. $\\rho = (4.5 / 5.0) \\times 10^{-4 - (-8)} = 0.9 \\times 10^4 = 9,000 \\text{ kg/m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": "La densidad en el SI requiere conversiones de masa y volumen simultáneas, un reto clásico para carreras de ingeniería."
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Realiza el siguiente cálculo: $(1.2 \\times 10^5) \\times (2.0 \\times 10^{-2}) / (4.0 \\times 10^1)$.",
+    "image": null,
+    "options": [
+      { "text": "$6.0 \\times 10^1$", "correct": true },
+      { "text": "$6.0 \\times 10^2$", "correct": false },
+      { "text": "$6.0 \\times 10^4$", "correct": false },
+      { "text": "$1.5 \\times 10^1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sigue el orden de operaciones: primero multiplica en el numerador y luego divide.",
+    "explanation": "Numerador: $(1.2 \\cdot 2.0) \\times 10^{5-2} = 2.4 \\times 10^3$. División: $(2.4 / 4.0) \\times 10^{3-1} = 0.6 \\times 10^2 = 6.0 \\times 10^1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Un satélite viaja a una velocidad constante de $2.8 \\times 10^4 \\text{ km/h}$. Si el satélite debe recorrer una distancia de $1.4 \\times 10^6 \\text{ km}$, el tiempo requerido es de ______ $\\text{h}$, que expresado en notación científica es ______ $\\text{h}$.",
+    "image": null,
+    "options": [
+      { "text": "50; $5.0 \\times 10^1$", "correct": true },
+      { "text": "500; $5.0 \\times 10^2$", "correct": false },
+      { "text": "0.5; $5.0 \\times 10^{-1}$", "correct": false },
+      { "text": "5,000; $5.0 \\times 10^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula del tiempo $t = d/v$.",
+    "explanation": "$t = (1.4 \\times 10^6) / (2.8 \\times 10^4) = 0.5 \\times 10^2 = 50 = 5.0 \\times 10^1 \\text{ h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "En un análisis espectroscópico del CEPREDIX, se determina que la longitud de onda de un fotón es de $4.5 \\times 10^2 \\text{ nm}$. Calcula la frecuencia de dicho fotón en $\\text{Hz}$ sabiendo que la velocidad de la luz es $c = 3.0 \\times 10^8 \\text{ m/s}$.",
+    "image": null,
+    "options": [
+      { "text": "$6.67 \\times 10^{14} \\text{ Hz}$", "correct": true },
+      { "text": "$1.35 \\times 10^{11} \\text{ Hz}$", "correct": false },
+      { "text": "$6.67 \\times 10^{15} \\text{ Hz}$", "correct": false },
+      { "text": "$6.67 \\times 10^{-1} \\text{ Hz}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor: $1 \\text{ nm} = 10^{-9} \\text{ m}$. La fórmula que relaciona estas magnitudes es $c = \\lambda \\cdot f$.",
+    "explanation": "Longitud de onda en metros: $4.5 \\times 10^2 \\cdot 10^{-9} = 4.5 \\times 10^{-7} \\text{ m}$. Frecuencia: $f = (3.0 \\times 10^8) / (4.5 \\times 10^{-7}) = 0.666... \\times 10^{15} \\approx 6.67 \\times 10^{14} \\text{ Hz}$.",
+    "explanative_video": null,
+    "collapsible_text": "La física moderna utiliza prefijos como nano, micro y pico. Dominar sus potencias es crucial para entender el espectro electromagnético."
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Expresa el número $0.0000000345$ en notación científica.",
+    "image": null,
+    "options": [
+      { "text": "$3.45 \\times 10^{-8}$", "correct": true },
+      { "text": "$3.45 \\times 10^{-7}$", "correct": false },
+      { "text": "$3.45 \\times 10^{-9}$", "correct": false },
+      { "text": "$34.5 \\times 10^{-9}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuenta los lugares que debe recorrer el punto decimal hacia la derecha hasta que el coeficiente esté entre 1 y 10.",
+    "explanation": "El punto se desplaza 8 lugares a la derecha, por lo que el exponente es $-8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Un capacitor tiene una capacitancia de $2.5 \\times 10^{-6} \\text{ F}$ y se le aplica un voltaje de $4.0 \\times 10^2 \\text{ V}$. La carga almacenada es de ______ $\\text{C}$ y esto equivale a ______ $\\text{mC}$.",
+    "image": null,
+    "options": [
+      { "text": "$1.0 \\times 10^{-3}$; $1.0$", "correct": true },
+      { "text": "$1.0 \\times 10^{-4}$; $0.1$", "correct": false },
+      { "text": "$1.0 \\times 10^{-8}$; $10^{-5}$", "correct": false },
+      { "text": "$10 \\times 10^{-4}$; $10.0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La relación de carga es $C = Q/V$.",
+    "explanation": "$Q = C \\cdot V = (2.5 \\times 10^{-6}) \\cdot (4.0 \\times 10^2) = 10 \\times 10^{-4} = 1.0 \\times 10^{-3} \\text{ C}$. Para mC: $1.0 \\times 10^{-3} \\text{ C} \\cdot (10^3 \\text{ mC} / 1 \\text{ C}) = 1.0 \\text{ mC}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Relaciona el factor de conversión con su respectiva potencia de base 10:\nI. Micro ($\\mu$)\nII. Gigas (G)\nIII. Pico (p)\n\nA. $10^{-12}$\nB. $10^{-6}$\nC. $10^9$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Los prefijos SI son fundamentales. Gigas es positivo (grande), micro y pico son negativos (pequeños).",
+    "explanation": "Micro $= 10^{-6}$, Giga $= 10^9$, Pico $= 10^{-12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Identifica cuáles de los siguientes números están correctamente expresados en notación científica:\n1) $0.5 \\times 10^4$\n2) $3.2 \\times 10^{-2}$\n3) $12.5 \\times 10^5$\n4) $1.0 \\times 10^0$",
+    "image": null,
+    "options": [
+      { "text": "2 y 4", "correct": true },
+      { "text": "1 y 3", "correct": false },
+      { "text": "Todas son correctas", "correct": false },
+      { "text": "Solo 2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la notación científica estándar $a \\times 10^n$, el coeficiente $a$ debe cumplir que $1 \\le |a| < 10$.",
+    "explanation": "1) $0.5 < 1$, incorrecto. 2) $1 \\le 3.2 < 10$, correcto. 3) $12.5 > 10$, incorrecto. 4) $1 \\le 1.0 < 10$, correcto.",
+    "explanative_video": null,
+    "collapsible_text": "Este es un error común: confundir una potencia de diez con la notación científica estandarizada."
+  },
+  {
+    "id": "CEP00AN",
+    "question": "En un laboratorio del CEPREDIX se mide la fuerza de atracción entre dos cargas. Si el resultado es $1.8 \\times 10^4 \\text{ dyn}$ (dinas), expresa este valor en Newtons sabiendo que $1 \\text{ N} = 10^5 \\text{ dyn}$.",
+    "image": null,
+    "options": [
+      { "text": "$1.8 \\times 10^{-1} \\text{ N}$", "correct": true },
+      { "text": "$1.8 \\times 10^9 \\text{ N}$", "correct": false },
+      { "text": "$1.8 \\times 10^1 \\text{ N}$", "correct": false },
+      { "text": "$1.8 \\times 10^{-2} \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el valor en dinas entre el factor de conversión $10^5$.",
+    "explanation": "$1.8 \\times 10^4 / 10^5 = 1.8 \\times 10^{4-5} = 1.8 \\times 10^{-1} \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Calcula el volumen de una esfera metálica si su radio es $R = 3.0 \\times 10^{-2} \\text{ m}$. Considera $\\pi \\approx 3.0$ para simplificar el cálculo y la fórmula $V = \\frac{4}{3} \\pi R^3$.",
+    "image": null,
+    "options": [
+      { "text": "$1.08 \\times 10^{-4} \\text{ m}^3$", "correct": true },
+      { "text": "$3.6 \\times 10^{-4} \\text{ m}^3$", "correct": false },
+      { "text": "$1.08 \\times 10^{-2} \\text{ m}^3$", "correct": false },
+      { "text": "$1.08 \\times 10^{-6} \\text{ m}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero eleva el radio al cubo: $(3.0 \\times 10^{-2})^3 = 27 \\times 10^{-6}$. Luego multiplica por $\\frac{4}{3} \\pi$.",
+    "explanation": "$V = \\frac{4}{3} (3.0) (3.0 \\times 10^{-2})^3 = 4 \\cdot (27 \\times 10^{-6}) = 108 \\times 10^{-6} = 1.08 \\times 10^{-4} \\text{ m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Calcula el resultado de la siguiente resta: $(8.4 \\times 10^5) - (2.1 \\times 10^4)$.",
+    "image": null,
+    "options": [
+      { "text": "$8.19 \\times 10^5$", "correct": true },
+      { "text": "$6.3 \\times 10^1$", "correct": false },
+      { "text": "$6.3 \\times 10^4$", "correct": false },
+      { "text": "$8.19 \\times 10^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para restar, iguala los exponentes. Convierte $2.1 \\times 10^4$ a $0.21 \\times 10^5$.",
+    "explanation": "$(8.4 - 0.21) \\times 10^5 = 8.19 \\times 10^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Un tanque de combustible tiene una capacidad de $2.5 \\times 10^2 \\text{ litros}$. Si el combustible tiene una densidad de $8.0 \\times 10^{-1} \\text{ kg/L}$, ¿cuál es la masa total de combustible en kg?",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ kg}$", "correct": true },
+      { "text": "$20 \\text{ kg}$", "correct": false },
+      { "text": "$312.5 \\text{ kg}$", "correct": false },
+      { "text": "$2.0 \\times 10^3 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula de la densidad despejada para masa: $m = \\rho \\cdot V$.",
+    "explanation": "$m = (8.0 \\times 10^{-1} \\text{ kg/L}) \\cdot (2.5 \\times 10^2 \\text{ L}) = 20 \\times 10^1 = 200 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "El CEPREDIX estudia la presión en el fondo de un recipiente. La presión es $P = \\rho g h$. Si $\\rho = 1.0 \\times 10^3 \\text{ kg/m}^3$, $g = 1.0 \\times 10^1 \\text{ m/s}^2$ y $h = 2.5 \\times 10^1 \\text{ cm}$, el resultado en Pascales es de ______.",
+    "image": null,
+    "options": [
+      { "text": "$2.5 \\times 10^3 \\text{ Pa}$", "correct": true },
+      { "text": "$2.5 \\times 10^5 \\text{ Pa}$", "correct": false },
+      { "text": "$2.5 \\times 10^4 \\text{ Pa}$", "correct": false },
+      { "text": "$0.25 \\text{ Pa}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor de conversión: $1 \\text{ m} = 10^2 \\text{ cm}$. Asegúrate de que todas las unidades estén en el SI.",
+    "explanation": "$h = 2.5 \\times 10^1 \\text{ cm} = 0.25 \\text{ m} = 2.5 \\times 10^{-1} \\text{ m}$. $P = (10^3) \\cdot (10^1) \\cdot (2.5 \\times 10^{-1}) = 2.5 \\times 10^3 \\text{ Pa}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Calcula el resultado de elevar al cuadrado $(5 \\times 10^{-4})^2$ y exprésalo en notación científica.",
+    "image": null,
+    "options": [
+      { "text": "$2.5 \\times 10^{-7}$", "correct": true },
+      { "text": "$2.5 \\times 10^{-8}$", "correct": false },
+      { "text": "$25 \\times 10^{-8}$", "correct": false },
+      { "text": "$2.5 \\times 10^8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla $(a \\cdot 10^n)^m = a^m \\cdot 10^{n \\cdot m}$.",
+    "explanation": "$5^2 = 25$; $10^{-4 \\cdot 2} = 10^{-8}$. Notación científica: $25 \\times 10^{-8} = 2.5 \\times 10^{-7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Un procesador realiza $3.2 \\times 10^9$ operaciones por segundo. ¿Cuántas operaciones realizará en un minuto?",
+    "image": null,
+    "options": [
+      { "text": "$1.92 \\times 10^{11}$", "correct": true },
+      { "text": "$3.2 \\times 10^{10}$", "correct": false },
+      { "text": "$1.92 \\times 10^{10}$", "correct": false },
+      { "text": "$1.92 \\times 10^{12}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la tasa de operaciones por 60 segundos.",
+    "explanation": "$(3.2 \\times 10^9) \\cdot 60 = 192 \\times 10^9 = 1.92 \\times 10^{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Calcula el valor de la expresión: $\\frac{(1.5 \\times 10^8) \\times (4.0 \\times 10^{-3})}{2.0 \\times 10^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$3.0 \\times 10^3$", "correct": true },
+      { "text": "$3.0 \\times 10^5$", "correct": false },
+      { "text": "$1.2 \\times 10^3$", "correct": false },
+      { "text": "$3.0 \\times 10^1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica primero el producto en el numerador.",
+    "explanation": "Numerador: $6.0 \\times 10^5$. División: $(6.0 / 2.0) \\times 10^{5-2} = 3.0 \\times 10^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Identifica cuáles de los siguientes valores corresponden a $0.005$ expresado en diferentes escalas:\n1) $5 \\times 10^{-3}$\n2) $50 \\times 10^{-4}$\n3) $0.5 \\times 10^{-2}$",
+    "image": null,
+    "options": [
+      { "text": "Todos son correctos", "correct": true },
+      { "text": "Solo 1", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "Ninguno es correcto", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve el punto decimal y ajusta la potencia para verificar la igualdad.",
+    "explanation": "1) $0.005$, 2) $0.0050$, 3) $0.005$. Todos representan el mismo valor numérico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Un cable de fibra óptica tiene un diámetro de $1.25 \\times 10^{-4} \\text{ m}$. Si se tiene un rollo con $8.0 \\times 10^3$ de estos cables en paralelo, el ancho total del haz es de ______ $\\text{m}$.",
+    "image": null,
+    "options": [
+      { "text": "$1.0 \\text{ m}$", "correct": true },
+      { "text": "$10.0 \\text{ m}$", "correct": false },
+      { "text": "$0.1 \\text{ m}$", "correct": false },
+      { "text": "$1.0 \\times 10^{-7} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el diámetro unitario por la cantidad de cables.",
+    "explanation": "$(1.25 \\times 10^{-4}) \\cdot (8.0 \\times 10^3) = 10 \\times 10^{-1} = 1.0 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Una muestra química del CEPREDIX contiene $2.0 \\times 10^{-3} \\text{ moles}$ de una sustancia. Si la masa molar es de $1.5 \\times 10^2 \\text{ g/mol}$, la masa total en miligramos (mg) es de ______.",
+    "image": null,
+    "options": [
+      { "text": "$300 \\text{ mg}$", "correct": true },
+      { "text": "$0.3 \\text{ mg}$", "correct": false },
+      { "text": "$3,000 \\text{ mg}$", "correct": false },
+      { "text": "$30 \\text{ mg}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor: $1 \\text{ g} = 10^3 \\text{ mg}$. Usa la fórmula $m = n \\cdot MM$.",
+    "explanation": "$m = (2.0 \\times 10^{-3} \\text{ mol}) \\cdot (1.5 \\times 10^2 \\text{ g/mol}) = 3.0 \\times 10^{-1} \\text{ g}$. Conversión: $0.3 \\text{ g} \\cdot 10^3 = 300 \\text{ mg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Calcula el producto: $(7.5 \\times 10^{-8}) \\times (4.0 \\times 10^{-5})$.",
+    "image": null,
+    "options": [
+      { "text": "$3.0 \\times 10^{-12}$", "correct": true },
+      { "text": "$3.0 \\times 10^{-13}$", "correct": false },
+      { "text": "$30 \\times 10^{-13}$", "correct": false },
+      { "text": "$1.15 \\times 10^{-12}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica coeficientes y suma algebraicamente los exponentes.",
+    "explanation": "$7.5 \\cdot 4.0 = 30$; $10^{-8-5} = 10^{-13} \\rightarrow 3.0 \\times 10^{-12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Rellena el espacio en blanco: El resultado de dividir $1.0 \\times 10^2$ entre $4.0 \\times 10^5$ es ______, que en notación científica se escribe como ______.",
+    "image": null,
+    "options": [
+      { "text": "0.00025; $2.5 \\times 10^{-4}$", "correct": true },
+      { "text": "0.0025; $2.5 \\times 10^{-3}$", "correct": false },
+      { "text": "0.25; $2.5 \\times 10^{-1}$", "correct": false },
+      { "text": "250; $2.5 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la división y luego desplaza el punto decimal.",
+    "explanation": "$1/4 = 0.25$; $10^{2-5} = 10^{-3}$. Resultado $0.25 \\times 10^{-3} = 2.5 \\times 10^{-4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "En un mapa a escala, una distancia de $5.0 \\times 10^{-2} \\text{ m}$ representa $2.5 \\times 10^3 \\text{ m}$ reales. ¿Cuál es el factor de escala?",
+    "image": null,
+    "options": [
+      { "text": "$5.0 \\times 10^4$", "correct": true },
+      { "text": "$5.0 \\times 10^5$", "correct": false },
+      { "text": "$2.0 \\times 10^{-5}$", "correct": false },
+      { "text": "$1.25 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide la distancia real entre la distancia en el mapa.",
+    "explanation": "$(2.5 \\times 10^3) / (5.0 \\times 10^{-2}) = 0.5 \\times 10^5 = 5.0 \\times 10^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Un investigador del CEPREDIX determina que el área de una sección transversal es de $2.0 \\times 10^2 \\text{ mm}^2$. Expresa esta área en $\\text{m}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^{-4} \\text{ m}^2$", "correct": true },
+      { "text": "$2.0 \\times 10^{-6} \\text{ m}^2$", "correct": false },
+      { "text": "$0.000002 \\text{ m}^2$", "correct": false },
+      { "text": "$2.0 \\times 10^4 \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor: $1 \\text{ m}^2 = 10^6 \\text{ mm}^2$.",
+    "explanation": "$2.0 \\times 10^2 / 10^6 = 2.0 \\times 10^{-4} \\text{ m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Relaciona la operación con su resultado:\nI. $(10^2)^2 \\cdot 10^3$\nII. $10^8 / 10^2$\nIII. $(10^{-3})^{-2}$\n\nA. $10^6$\nB. $10^7$\nC. $10^6$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica leyes de exponentes secuencialmente.",
+    "explanation": "I: $10^4 \\cdot 10^3 = 10^7$. II: $10^{8-2} = 10^6$. III: $10^{-3 \\cdot -2} = 10^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Una piscina contiene $1.5 \\times 10^5 \\text{ litros}$. Si se evapora el $2\\%$ del agua por día, ¿cuántos litros se pierden en un día?",
+    "image": null,
+    "options": [
+      { "text": "$3.0 \\times 10^3 \\text{ L}$", "correct": true },
+      { "text": "$3.0 \\times 10^2 \\text{ L}$", "correct": false },
+      { "text": "$3.0 \\times 10^4 \\text{ L}$", "correct": false },
+      { "text": "$7.5 \\times 10^6 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el volumen por $0.02$ (que es $2.0 \\times 10^{-2}$).",
+    "explanation": "$(1.5 \\times 10^5) \\cdot (2.0 \\times 10^{-2}) = 3.0 \\times 10^3 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Calcula la resistencia de un material si $V = 1.2 \\times 10^2 \\text{ V}$ e $I = 4.0 \\times 10^{-3} \\text{ A}$. Expresa el resultado en Ohms ($\\Omega$) usando notación científica.",
+    "image": null,
+    "options": [
+      { "text": "$3.0 \\times 10^4 \\, \\Omega$", "correct": true },
+      { "text": "$3.0 \\times 10^1 \\, \\Omega$", "correct": false },
+      { "text": "$4.8 \\times 10^{-1} \\, \\Omega$", "correct": false },
+      { "text": "$3.0 \\times 10^{-1} \\, \\Omega$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ley de Ohm: $R = V/I$.",
+    "explanation": "$R = (1.2 \\times 10^2) / (4.0 \\times 10^{-3}) = 0.3 \\times 10^5 = 3.0 \\times 10^4 \\, \\Omega$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Un nanorobot del CEPREDIX mide $5.0 \\times 10^{-9} \\text{ m}$. Si se desea construir una cadena de $1.0 \\text{ mm}$ de longitud, ¿cuántos nanorobots se necesitan?",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^5$", "correct": true },
+      { "text": "$2.0 \\times 10^6$", "correct": false },
+      { "text": "$5.0 \\times 10^5$", "correct": false },
+      { "text": "$2.0 \\times 10^{12}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor: $1 \\text{ mm} = 10^{-3} \\text{ m}$. Divide la longitud total entre la medida del robot.",
+    "explanation": "$10^{-3} / (5.0 \\times 10^{-9}) = 0.2 \\times 10^6 = 2.0 \\times 10^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Realiza la operación: $(6.0 \\times 10^4) / (1.5 \\times 10^{-2})$.",
+    "image": null,
+    "options": [
+      { "text": "$4.0 \\times 10^6$", "correct": true },
+      { "text": "$4.0 \\times 10^2$", "correct": false },
+      { "text": "$4.0 \\times 10^{-2}$", "correct": false },
+      { "text": "$9.0 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta el exponente del denominador al del numerador: $4 - (-2)$.",
+    "explanation": "$6.0 / 1.5 = 4.0$. Exponente: $4 - (-2) = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "En un reactor nuclear, una masa de $2.0 \\times 10^{-9} \\text{ kg}$ se convierte en energía. Calcula la energía producida en Joules ($E = mc^2$) usando $c = 3.0 \\times 10^8 \\text{ m/s}$.",
+    "image": null,
+    "options": [
+      { "text": "$1.8 \\times 10^8 \\text{ J}$", "correct": true },
+      { "text": "$1.8 \\times 10^{17} \\text{ J}$", "correct": false },
+      { "text": "$6.0 \\times 10^{-1} \\text{ J}$", "correct": false },
+      { "text": "$1.8 \\times 10^7 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva $c$ al cuadrado antes de multiplicar por $m$.",
+    "explanation": "$c^2 = 9.0 \\times 10^{16}$. $E = (2.0 \\times 10^{-9}) \\cdot (9.0 \\times 10^{16}) = 18.0 \\times 10^7 = 1.8 \\times 10^8 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Calcula el número de segundos que hay en un día de 24 horas y exprésalo en notación científica.",
+    "image": null,
+    "options": [
+      { "text": "$8.64 \\times 10^4 \\text{ s}$", "correct": true },
+      { "text": "$8.64 \\times 10^3 \\text{ s}$", "correct": false },
+      { "text": "$86.4 \\times 10^3 \\text{ s}$", "correct": false },
+      { "text": "$3.6 \\times 10^3 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $24 \\cdot 60 \\cdot 60$.",
+    "explanation": "$24 \\cdot 3600 = 86,400 = 8.64 \\times 10^4 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Si una hormiga tiene una masa de $5.0 \\times 10^{-3} \\text{ g}$, ¿cuántas hormigas se necesitan para igualar la masa de un objeto de $1.0 \\text{ kg}$?",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^5$", "correct": true },
+      { "text": "$2.0 \\times 10^2$", "correct": false },
+      { "text": "$5.0 \\times 10^3$", "correct": false },
+      { "text": "$2.0 \\times 10^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte $1 \\text{ kg}$ a gramos ($10^3 \\text{ g}$) y divide.",
+    "explanation": "$1000 / (5.0 \\times 10^{-3}) = 0.2 \\times 10^6 = 2.0 \\times 10^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Un estudiante del CEPREDIX resuelve: $\\sqrt[3]{8.0 \\times 10^{12}} \\times (2.0 \\times 10^{-2})^2$. El resultado es ______.",
+    "image": null,
+    "options": [
+      { "text": "$8.0 \\times 10^0$", "correct": true },
+      { "text": "$8.0 \\times 10^2$", "correct": false },
+      { "text": "$4.0 \\times 10^1$", "correct": false },
+      { "text": "$8.0 \\times 10^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La raíz cúbica divide el exponente entre 3; la potencia al cuadrado multiplica el exponente por 2.",
+    "explanation": "Raíz: $2.0 \\times 10^4$. Potencia: $4.0 \\times 10^{-4}$. Producto: $(2.0 \\cdot 4.0) \\times 10^{4-4} = 8.0 \\times 10^0 = 8.0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Rellena el espacio: El valor de $(2.5 \\times 10^3) + (7.5 \\times 10^2)$ es igual a ______, que expresado en notación científica es ______.",
+    "image": null,
+    "options": [
+      { "text": "3250; $3.25 \\times 10^3$", "correct": true },
+      { "text": "10000; $1.0 \\times 10^4$", "correct": false },
+      { "text": "3250; $3.25 \\times 10^2$", "correct": false },
+      { "text": "32.5; $3.25 \\times 10^1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala exponentes a $10^3$: $7.5 \\times 10^2 = 0.75 \\times 10^3$.",
+    "explanation": "$2.5 + 0.75 = 3.25$. Resultado $3.25 \\times 10^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Calcula la fuerza gravitatoria entre dos masas de $1.0 \\text{ kg}$ separadas por $1.0 \\text{ m}$. Considera $G = 6.67 \\times 10^{-11} \\text{ N m}^2/\\text{kg}^2$ y la fórmula $F = G \\frac{m_1 m_2}{r^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$6.67 \\times 10^{-11} \\text{ N}$", "correct": true },
+      { "text": "$6.67 \\times 10^{-10} \\text{ N}$", "correct": false },
+      { "text": "$1.0 \\times 10^0 \\text{ N}$", "correct": false },
+      { "text": "$6.67 \\times 10^{-12} \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye los valores unitarios en la ecuación de Newton.",
+    "explanation": "$F = (6.67 \\times 10^{-11}) \\cdot (1 \\cdot 1 / 1^2) = 6.67 \\times 10^{-11} \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Un láser emite fotones con una energía de $3.2 \\times 10^{-19} \\text{ J}$. Si el láser emite $5.0 \\times 10^{15}$ fotones por milisegundo, la potencia total del láser en Watts (W) es de ______.",
+    "image": null,
+    "options": [
+      { "text": "$1.6 \\text{ W}$", "correct": true },
+      { "text": "$1.6 \\times 10^3 \\text{ W}$", "correct": false },
+      { "text": "$1.6 \\times 10^{-3} \\text{ W}$", "correct": false },
+      { "text": "$1.6 \\times 10^{-6} \\text{ W}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factor: $1 \\text{ ms} = 10^{-3} \\text{ s}$. Potencia $P = \\text{Energía total} / \\text{tiempo}$.",
+    "explanation": "Energía en 1 ms: $(3.2 \\times 10^{-19}) \\cdot (5.0 \\times 10^{15}) = 16.0 \\times 10^{-4} = 1.6 \\times 10^{-3} \\text{ J}$. Potencia: $(1.6 \\times 10^{-3} \\text{ J}) / (10^{-3} \\text{ s}) = 1.6 \\text{ W}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Calcula el valor de: $(2 \\times 10^4)^2 / (8 \\times 10^5)$.",
+    "image": null,
+    "options": [
+      { "text": "$5.0 \\times 10^2$", "correct": true },
+      { "text": "$5.0 \\times 10^1$", "correct": false },
+      { "text": "$0.5 \\times 10^3$", "correct": false },
+      { "text": "$5.0 \\times 10^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero eleva al cuadrado el numerador.",
+    "explanation": "Numerador: $4 \\times 10^8$. División: $4/8 = 0.5$; $10^{8-5} = 10^3$. Resultado $0.5 \\times 10^3 = 5.0 \\times 10^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Si la distancia entre la Tierra y el Sol es de $1.5 \\times 10^8 \\text{ km}$, expresa esta distancia en metros.",
+    "image": null,
+    "options": [
+      { "text": "$1.5 \\times 10^{11} \\text{ m}$", "correct": true },
+      { "text": "$1.5 \\times 10^5 \\text{ m}$", "correct": false },
+      { "text": "$1.5 \\times 10^{10} \\text{ m}$", "correct": false },
+      { "text": "$150 \\times 10^9 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por $10^3$.",
+    "explanation": "$1.5 \\times 10^8 \\cdot 10^3 = 1.5 \\times 10^{11} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Un proyectil del CEPREDIX alcanza una altura de $4.0 \\times 10^3 \\text{ m}$. Si la energía potencial es $E_p = mgh$, calcula la masa si $E_p = 8.0 \\times 10^5 \\text{ J}$ y $g = 1.0 \\times 10^1 \\text{ m/s}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^1 \\text{ kg}$", "correct": true },
+      { "text": "$2.0 \\times 10^2 \\text{ kg}$", "correct": false },
+      { "text": "$2.0 \\times 10^0 \\text{ kg}$", "correct": false },
+      { "text": "$5.0 \\times 10^{-1} \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la masa: $m = E_p / (gh)$.",
+    "explanation": "$m = (8.0 \\times 10^5) / (10 \\cdot 4.0 \\times 10^3) = (8.0 \\times 10^5) / (4.0 \\times 10^4) = 2.0 \\times 10^1 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Calcula el área de un círculo cuyo diámetro es $D = 2.0 \\times 10^{-3} \\text{ m}$. Usa $\\pi \\approx 3.14$.",
+    "image": null,
+    "options": [
+      { "text": "$3.14 \\times 10^{-6} \\text{ m}^2$", "correct": true },
+      { "text": "$1.256 \\times 10^{-5} \\text{ m}^2$", "correct": false },
+      { "text": "$3.14 \\times 10^{-3} \\text{ m}^2$", "correct": false },
+      { "text": "$3.14 \\times 10^{-5} \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Radio $R = D/2$. Área $A = \\pi R^2$.",
+    "explanation": "$R = 1.0 \\times 10^{-3} \\text{ m}$. $A = 3.14 \\cdot (1.0 \\times 10^{-3})^2 = 3.14 \\times 10^{-6} \\text{ m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Realiza la operación combinada: $(2 \\times 10^3)^2 + (6 \\times 10^7) / (2 \\times 10^1)$.",
+    "image": null,
+    "options": [
+      { "text": "$7.0 \\times 10^6$", "correct": true },
+      { "text": "$4.0 \\times 10^6$", "correct": false },
+      { "text": "$3.0 \\times 10^6$", "correct": false },
+      { "text": "$7.0 \\times 10^{13}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve cada término por separado antes de sumar.",
+    "explanation": "Término 1: $4 \\times 10^6$. Término 2: $3 \\times 10^6$. Suma: $7 \\times 10^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "En un segundo, la luz recorre $3.0 \\times 10^8 \\text{ m}$. ¿Qué distancia recorre en un microsegundo ($\\mu s$)?",
+    "image": null,
+    "options": [
+      { "text": "$3.0 \\times 10^2 \\text{ m}$", "correct": true },
+      { "text": "$3.0 \\times 10^14 \\text{ m}$", "correct": false },
+      { "text": "$3.0 \\times 10^6 \\text{ m}$", "correct": false },
+      { "text": "$3.0 \\times 10^{-2} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la velocidad por $10^{-6} \\text{ s}$.",
+    "explanation": "$(3.0 \\times 10^8) \\cdot 10^{-6} = 3.0 \\times 10^2 \\text{ m}$ (300 metros).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Calcula el flujo magnético $\\Phi = B \\cdot A$ si $B = 5.0 \\times 10^{-2} \\text{ T}$ y el área es un cuadrado de lado $L = 2.0 \\times 10^{-1} \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^{-3} \\text{ Wb}$", "correct": true },
+      { "text": "$1.0 \\times 10^{-2} \\text{ Wb}$", "correct": false },
+      { "text": "$2.0 \\times 10^{-4} \\text{ Wb}$", "correct": false },
+      { "text": "$1.0 \\times 10^{-1} \\text{ Wb}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Área $A = L^2$.",
+    "explanation": "$A = 4.0 \\times 10^{-2} \\text{ m}^2$. $\\Phi = (5.0 \\times 10^{-2}) \\cdot (4.0 \\times 10^{-2}) = 20 \\times 10^{-4} = 2.0 \\times 10^{-3} \\text{ Wb}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Un depósito tiene una fuga de $1.2 \\times 10^{-4} \\text{ m}^3/\\text{s}$. ¿Cuántos litros de agua se pierden en una hora?",
+    "image": null,
+    "options": [
+      { "text": "$432 \\text{ L}$", "correct": true },
+      { "text": "$0.432 \\text{ L}$", "correct": false },
+      { "text": "$4,320 \\text{ L}$", "correct": false },
+      { "text": "$120 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factores: $1 \\text{ m}^3 = 10^3 \\text{ L}$ y $1 \\text{ h} = 3600 \\text{ s}$.",
+    "explanation": "Flujo en L/s: $0.12 \\text{ L/s}$. En una hora: $0.12 \\cdot 3600 = 432 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
