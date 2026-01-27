@@ -1,1 +1,632 @@
-
+[
+  {
+    "id": "CEP00AA",
+    "question": "Desarrolla el siguiente binomio al cuadrado: $(x + 4)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 8x + 16$", "correct": true },
+      { "text": "$x^2 + 16$", "correct": false },
+      { "text": "$x^2 + 4x + 16$", "correct": false },
+      { "text": "$x^2 + 8x + 8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula $(a+b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "El cuadrado del primer término es $x^2$, el doble del primero por el segundo es $2(x)(4) = 8x$, y el cuadrado del segundo es $4^2 = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Resuelve el producto de binomios conjugados: $(x - 7)(x + 7)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 49$", "correct": true },
+      { "text": "$x^2 + 49$", "correct": false },
+      { "text": "$x^2 - 14x + 49$", "correct": false },
+      { "text": "$x^2 - 14$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $(a-b)(a+b) = a^2 - b^2$.",
+    "explanation": "Es una diferencia de cuadrados: el cuadrado del primer término ($x^2$) menos el cuadrado del segundo término ($7^2 = 49$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Dada la ecuación de la recta $y = 3x - 5$, determina el valor de la pendiente ($m$) y la ordenada al origen ($b$).",
+    "image": null,
+    "options": [
+      { "text": "$m = 3, b = -5$", "correct": true },
+      { "text": "$m = -5, b = 3$", "correct": false },
+      { "text": "$m = 3, b = 5$", "correct": false },
+      { "text": "$m = -3, b = -5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Compara la ecuación con la forma $y = mx + b$.",
+    "explanation": "El coeficiente que acompaña a la $x$ es la pendiente ($3$) y el término independiente es la ordenada al origen ($-5$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Evalúa la función cuadrática $f(x) = x^2 - 2x + 1$ cuando $x = 3$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "7", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye el valor de $3$ en cada lugar donde aparezca la $x$.",
+    "explanation": "$f(3) = (3)^2 - 2(3) + 1 = 9 - 6 + 1 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Calcula el siguiente límite: $\\lim_{x \\to 2} (4x + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustitución directa: reemplaza $x$ por $2$.",
+    "explanation": "$4(2) + 1 = 8 + 1 = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Simplifica la expresión utilizando las leyes de los exponentes: $x^3 \\cdot x^5$.",
+    "image": null,
+    "options": [
+      { "text": "$x^8$", "correct": true },
+      { "text": "$x^{15}$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$2x^8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la multiplicación de bases iguales, los exponentes se suman.",
+    "explanation": "$x^{3+5} = x^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Determina el radio de la circunferencia dada por la ecuación $x^2 + y^2 = 36$.",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "18", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación tiene la forma $x^2 + y^2 = r^2$. Calcula la raíz cuadrada del término independiente.",
+    "explanation": "$r = \\sqrt{36} = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Simplifica la expresión: $(2x^2)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$8x^6$", "correct": true },
+      { "text": "$6x^6$", "correct": false },
+      { "text": "$8x^5$", "correct": false },
+      { "text": "$2x^6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva el coeficiente al cubo y multiplica los exponentes: $(a^m)^n = a^{m \\cdot n}$.",
+    "explanation": "$2^3 = 8$ y $(x^2)^3 = x^{2 \\cdot 3} = x^6$. Resultado: $8x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Identifica cuál de las siguientes ecuaciones corresponde a una hipérbola.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^2}{4} - \\frac{y^2}{9} = 1$", "correct": true },
+      { "text": "$\\frac{x^2}{4} + \\frac{y^2}{9} = 1$", "correct": false },
+      { "text": "$x^2 + y^2 = 4$", "correct": false },
+      { "text": "$y = x^2 + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la ecuación con dos términos cuadráticos de signos opuestos.",
+    "explanation": "La ecuación de la hipérbola se caracteriza por la resta entre los términos cuadráticos: $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Dada la elipse $\\frac{x^2}{25} + \\frac{y^2}{16} = 1$, ¿cuál es el valor del semieje mayor ($a$)?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El semieje mayor corresponde a la raíz cuadrada del denominador más grande.",
+    "explanation": "El denominador mayor es $25$, por lo tanto $a^2 = 25$ y $a = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Encuentra la pendiente de la recta que pasa por los puntos $A(1, 2)$ y $B(3, 8)$.",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "1/3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{8 - 2}{3 - 1} = \\frac{6}{2} = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Desarrolla $(3x - 2)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$9x^2 - 12x + 4$", "correct": true },
+      { "text": "$9x^2 - 4$", "correct": false },
+      { "text": "$9x^2 + 12x + 4$", "correct": false },
+      { "text": "$3x^2 - 12x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica $(a-b)^2 = a^2 - 2ab + b^2$ con $a=3x$ y $b=2$.",
+    "explanation": "$(3x)^2 - 2(3x)(2) + (2)^2 = 9x^2 - 12x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Calcula el límite: $\\lim_{x \\to 0} \\frac{2x^2 + x}{x}$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "Indefinido", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza una $x$ en el numerador y simplifica antes de evaluar.",
+    "explanation": "$\\lim_{x \\to 0} \\frac{x(2x + 1)}{x} = \\lim_{x \\to 0} (2x + 1) = 2(0) + 1 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Cuál es el vértice de la parábola $y = (x - 2)^2 + 3$?",
+    "image": null,
+    "options": [
+      { "text": "$(2, 3)$", "correct": true },
+      { "text": "$(-2, 3)$", "correct": false },
+      { "text": "$(2, -3)$", "correct": false },
+      { "text": "$(-2, -3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la forma vértice $y = a(x - h)^2 + k$, el vértice es $(h, k)$.",
+    "explanation": "Comparando con la fórmula, $h = 2$ y $k = 3$. Vértice: $(2, 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Simplifica la fracción algebraica utilizando leyes de exponentes: $\\frac{x^7}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^5$", "correct": true },
+      { "text": "$x^9$", "correct": false },
+      { "text": "$x^{14}$", "correct": false },
+      { "text": "$x^{3.5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al dividir potencias de la misma base, se restan los exponentes.",
+    "explanation": "$x^{7-2} = x^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Determina el centro de la circunferencia: $(x + 5)^2 + (y - 3)^2 = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$(-5, 3)$", "correct": true },
+      { "text": "$(5, -3)$", "correct": false },
+      { "text": "$(5, 3)$", "correct": false },
+      { "text": "$(-5, -3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los signos de las coordenadas del centro son contrarios a los que aparecen en los paréntesis.",
+    "explanation": "El centro está en $(h, k)$. Si tenemos $(x+5)$ entonces $h=-5$, y si tenemos $(y-3)$ entonces $k=3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Si $f(x) = 2x^2 + 3$, ¿hacia dónde abre la parábola?",
+    "image": null,
+    "options": [
+      { "text": "Hacia arriba", "correct": true },
+      { "text": "Hacia abajo", "correct": false },
+      { "text": "Hacia la derecha", "correct": false },
+      { "text": "Hacia la izquierda", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el signo del coeficiente de $x^2$.",
+    "explanation": "El coeficiente es $2$ (positivo), por lo tanto, la parábola abre hacia arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Calcula el resultado de $(5x + 3)(5x - 3)$.",
+    "image": null,
+    "options": [
+      { "text": "$25x^2 - 9$", "correct": true },
+      { "text": "$25x^2 + 9$", "correct": false },
+      { "text": "$5x^2 - 9$", "correct": false },
+      { "text": "$25x^2 - 30x + 9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son binomios conjugados, el resultado es el cuadrado del primero menos el cuadrado del segundo.",
+    "explanation": "$(5x)^2 - (3)^2 = 25x^2 - 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Evalúa el límite constante: $\\lim_{x \\to 5} 7$.",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "35", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El límite de una constante es la constante misma.",
+    "explanation": "Como la función no depende de $x$, el valor se mantiene constante en 7.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "¿Cuál es la ecuación de la recta con pendiente $m = -2$ e intersección con el eje $y$ en $b = 4$?",
+    "image": null,
+    "options": [
+      { "text": "$y = -2x + 4$", "correct": true },
+      { "text": "$y = 4x - 2$", "correct": false },
+      { "text": "$y = -2x - 4$", "correct": false },
+      { "text": "$y = 2x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye los valores en la forma pendiente-intersección $y = mx + b$.",
+    "explanation": "Reemplazando $m$ y $b$: $y = -2x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Simplifica $(x^4)^0$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$x^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier cantidad (distinta de cero) elevada a la potencia cero es 1.",
+    "explanation": "$x^{4 \\cdot 0} = x^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "En la elipse $\\frac{x^2}{9} + \\frac{y^2}{25} = 1$, ¿dónde se ubican los focos?",
+    "image": null,
+    "options": [
+      { "text": "En el eje vertical ($y$)", "correct": true },
+      { "text": "En el eje horizontal ($x$)", "correct": false },
+      { "text": "En el origen", "correct": false },
+      { "text": "Fuera de la elipse", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El eje mayor está sobre la variable que tiene el denominador más grande.",
+    "explanation": "Como el denominador de $y^2$ es mayor ($25 > 9$), la elipse es vertical y los focos están en el eje $y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Resuelve: $(y - 5)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$y^2 - 10y + 25$", "correct": true },
+      { "text": "$y^2 + 25$", "correct": false },
+      { "text": "$y^2 - 25$", "correct": false },
+      { "text": "$y^2 - 5y + 25$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Binomio al cuadrado con resta: $a^2 - 2ab + b^2$.",
+    "explanation": "$y^2 - 2(y)(5) + 5^2 = y^2 - 10y + 25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Calcula el valor numérico de $3x^0 + (3x)^0$ para $x \\neq 0$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $x^0 = 1$. Aplica la jerarquía de operaciones.",
+    "explanation": "$3(x^0) + (3x)^0 = 3(1) + 1 = 3 + 1 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "¿Cuál es la ordenada al origen de la recta $2y = 4x + 8$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $y$ para obtener la forma $y = mx + b$.",
+    "explanation": "Dividiendo toda la ecuación entre 2: $y = 2x + 4$. La ordenada al origen es 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Si una hipérbola tiene la ecuación $x^2 - y^2 = 16$, ¿cuál es su tipo?",
+    "image": null,
+    "options": [
+      { "text": "Equilátera", "correct": true },
+      { "text": "Vertical", "correct": false },
+      { "text": "Fuera del origen", "correct": false },
+      { "text": "Imaginaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando los coeficientes de $x^2$ y $y^2$ son iguales en magnitud, los semiejes son iguales ($a=b$).",
+    "explanation": "Al dividir entre 16 queda $\\frac{x^2}{16} - \\frac{y^2}{16} = 1$. Como $a = b$, es una hipérbola equilátera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AA",
+    "question": "Simplifica utilizando exponentes negativos: $\\frac{1}{x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^{-3}$", "correct": true },
+      { "text": "$x^3$", "correct": false },
+      { "text": "$-x^3$", "correct": false },
+      { "text": "$x^{1/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La propiedad es $\\frac{1}{a^n} = a^{-n}$.",
+    "explanation": "Pasar el denominador al numerador invierte el signo del exponente: $x^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AB",
+    "question": "Encuentra las raíces de la función $f(x) = x^2 - 9$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 0, x = 9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a cero y despeja $x$, o factoriza como diferencia de cuadrados.",
+    "explanation": "$x^2 - 9 = 0 \\Rightarrow x^2 = 9 \\Rightarrow x = \\pm \\sqrt{9} = \\pm 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AC",
+    "question": "Calcula el límite: $\\lim_{x \\to 3} (x^2 - x + 2)$.",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $x = 3$.",
+    "explanation": "$(3)^2 - 3 + 2 = 9 - 3 + 2 = 6 + 2 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AD",
+    "question": "Determina el centro de la elipse $\\frac{(x-2)^2}{9} + \\frac{(y+1)^2}{4} = 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(2, -1)$", "correct": true },
+      { "text": "$(-2, 1)$", "correct": false },
+      { "text": "$(2, 1)$", "correct": false },
+      { "text": "$(-2, -1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El centro es $(h, k)$ tomando los valores contrarios de los paréntesis.",
+    "explanation": "De $(x-2)$ obtenemos $h=2$ y de $(y+1)$ obtenemos $k=-1$. Centro: $(2, -1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AE",
+    "question": "Desarrolla $(a^2 + 3)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$a^4 + 6a^2 + 9$", "correct": true },
+      { "text": "$a^4 + 9$", "correct": false },
+      { "text": "$a^2 + 6a + 9$", "correct": false },
+      { "text": "$a^4 + 3a^2 + 9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El primer término es $a^2$, al elevarlo al cuadrado queda $a^4$.",
+    "explanation": "$(a^2)^2 + 2(a^2)(3) + 3^2 = a^4 + 6a^2 + 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AF",
+    "question": "¿Qué valor debe tener $k$ para que la recta $y = kx + 2$ sea paralela a $y = 5x - 1$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "-5", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "1/5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las rectas paralelas tienen la misma pendiente.",
+    "explanation": "La pendiente de la segunda recta es 5, por lo tanto $k$ debe ser 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AG",
+    "question": "Simplifica la expresión $\\frac{x^5}{x^5}$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$x^{10}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier cantidad dividida por sí misma es 1, o usa resta de exponentes.",
+    "explanation": "$x^{5-5} = x^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AH",
+    "question": "En la función $f(x) = -x^2 + 4$, ¿el vértice representa un máximo o un mínimo?",
+    "image": null,
+    "options": [
+      { "text": "Máximo", "correct": true },
+      { "text": "Mínimo", "correct": false },
+      { "text": "Punto de inflexión", "correct": false },
+      { "text": "Asíntota", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Como el coeficiente de $x^2$ es negativo, la parábola abre hacia abajo.",
+    "explanation": "Al abrir hacia abajo, el punto más alto de la gráfica es el vértice, por lo tanto es un máximo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AI",
+    "question": "Calcula $\\lim_{x \\to -1} (x^3 + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "-2", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva -1 al cubo y suma 1.",
+    "explanation": "$(-1)^3 + 1 = -1 + 1 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
