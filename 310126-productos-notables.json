@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "¿Cuál es el resultado de desarrollar el binomio al cuadrado $(x + 5)^2$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 10x + 25$", "correct": true },
+      { "text": "$x^2 + 25$", "correct": false },
+      { "text": "$x^2 + 5x + 25$", "correct": false },
+      { "text": "$x^2 + 10x + 10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $(a+b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "El cuadrado del primer término ($x^2$) más el doble del primero por el segundo ($2 \\cdot x \\cdot 5 = 10x$) más el cuadrado del segundo ($5^2=25$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Identifica la factorización correcta de la diferencia de cuadrados $x^2 - 81$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 9)(x - 9)$", "correct": true },
+      { "text": "$(x - 9)^2$", "correct": false },
+      { "text": "$(x + 9)^2$", "correct": false },
+      { "text": "$(x + 81)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $a^2 - b^2 = (a+b)(a-b)$.",
+    "explanation": "La raíz cuadrada de $x^2$ es $x$ y la de $81$ es $9$. Se forman binomios conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Un estudiante del CEPREDIX necesita factorizar el trinomio $x^2 + 6x + 9$. ¿Qué expresión obtiene?",
+    "image": null,
+    "options": [
+      { "text": "$(x + 3)^2$", "correct": true },
+      { "text": "$(x - 3)^2$", "correct": false },
+      { "text": "$(x + 3)(x - 3)$", "correct": false },
+      { "text": "$(x + 9)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si es un Trinomio Cuadrado Perfecto: ¿el término central es $2(x)(3)$?",
+    "explanation": "Es un TCP donde la raíz del primero es $x$ y la del tercero es $3$. Como el signo central es positivo, queda $(x+3)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Completa el enunciado: 'El producto de dos binomios conjugados $(a+b)(a-b)$ es siempre igual a una ______.'",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cuadrados", "correct": true },
+      { "text": "Suma de cubos", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false },
+      { "text": "Ecuación lineal", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El resultado es $a^2 - b^2$.",
+    "explanation": "Al multiplicar conjugados, los términos centrales se cancelan, dejando solo la resta de los cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Relaciona el producto notable con su nombre:\nI. $(x+a)^2$\nII. $(x+a)(x-a)$\nIII. $(x+a)(x+b)$",
+    "image": null,
+    "options": [
+      { "text": "I-Binomio al cuadrado, II-Binomios conjugados, III-Binomios con término común", "correct": true },
+      { "text": "I-Binomios conjugados, II-Binomio al cubo, III-Binomio al cuadrado", "correct": false },
+      { "text": "I-Binomio al cubo, II-Binomios con término común, III-Binomios conjugados", "correct": false },
+      { "text": "I-Binomio al cuadrado, II-Binomios con término común, III-Binomios conjugados", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El cuadrado tiene exponente 2, los conjugados tienen signos opuestos, y el término común comparte una letra.",
+    "explanation": "Definiciones estándar de productos notables.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Selecciona cuáles de las siguientes expresiones son Trinomios Cuadrados Perfectos:\n1. $x^2 + 2x + 1$\n2. $x^2 + 5x + 6$\n3. $a^2 - 4a + 4$\n4. $x^2 - 9$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El término central debe ser el doble producto de las raíces de los extremos.",
+    "explanation": "En 1: $2(x)(1)=2x$ (Sí). En 3: $2(a)(2)=4a$ (Sí). La 2 no cumple y la 4 es diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Desarrolla el producto de binomios con término común: $(x + 4)(x + 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 6x + 8$", "correct": true },
+      { "text": "$x^2 + 8x + 6$", "correct": false },
+      { "text": "$x^2 + 6x + 6$", "correct": false },
+      { "text": "$x^2 + 2x + 8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuadrado del común + (suma de no comunes)x + producto de no comunes.",
+    "explanation": "$x^2 + (4+2)x + (4)(2) = x^2 + 6x + 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Factoriza la expresión $4x^2 - 12x + 9$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3)^2$", "correct": true },
+      { "text": "$(2x + 3)^2$", "correct": false },
+      { "text": "$(4x - 3)(x - 3)$", "correct": false },
+      { "text": "$(2x - 9)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíz de $4x^2$ es $2x$, raíz de $9$ es $3$. Verifica el signo central.",
+    "explanation": "$2(2x)(3) = 12x$. Al tener signo negativo en medio, es $(2x-3)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "En el desarrollo de $(2a - 3b)^2$, ¿cuál es el término central?",
+    "image": null,
+    "options": [
+      { "text": "$-12ab$", "correct": true },
+      { "text": "$12ab$", "correct": false },
+      { "text": "$-6ab$", "correct": false },
+      { "text": "$-12a^2b^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $2(primer \\ término)(segundo \\ término)$.",
+    "explanation": "$2(2a)(-3b) = -12ab$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Un profesor del CEPREDIX escribe en el pizarrón: $x^3 + 3x^2 + 3x + 1$. ¿A qué producto notable corresponde?",
+    "image": null,
+    "options": [
+      { "text": "$(x + 1)^3$", "correct": true },
+      { "text": "$(x - 1)^3$", "correct": false },
+      { "text": "$(x + 1)^2$", "correct": false },
+      { "text": "$(x^2 + 1)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un cubo perfecto. Revisa los coeficientes 1, 3, 3, 1.",
+    "explanation": "Corresponde al desarrollo de $(a+b)^3$ con $a=x, b=1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Completa el espacio faltante para que sea un Trinomio Cuadrado Perfecto: $x^2 + \\_\\_\\_ + 16$.",
+    "image": null,
+    "options": [
+      { "text": "$8x$", "correct": true },
+      { "text": "$4x$", "correct": false },
+      { "text": "$16x$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El término central es $2 \\cdot \\text{raíz}(1^{\\circ}) \\cdot \\text{raíz}(3^{\\circ})$.",
+    "explanation": "$2 \\cdot (x) \\cdot (4) = 8x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Calcula el resultado de $(3x + 2)(3x - 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$9x^2 - 4$", "correct": true },
+      { "text": "$9x^2 + 4$", "correct": false },
+      { "text": "$9x^2 - 12x + 4$", "correct": false },
+      { "text": "$3x^2 - 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son binomios conjugados: cuadrado del primero menos cuadrado del segundo.",
+    "explanation": "$(3x)^2 - (2)^2 = 9x^2 - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Identifica los binomios que tienen término común:\n1. $(x+2)(x+3)$\n2. $(x+2)(y+2)$\n3. $(x+5)(x-2)$\n4. $(a+b)(a-b)$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "1 y 2", "correct": false },
+      { "text": "2 y 4", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Deben tener una variable o término idéntico en la misma posición y el otro diferente.",
+    "explanation": "En 1 y 3, la 'x' se repite como primer término. La 4 son conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Resuelve $(x - 7)(x + 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 5x - 14$", "correct": true },
+      { "text": "$x^2 + 5x - 14$", "correct": false },
+      { "text": "$x^2 - 9x - 14$", "correct": false },
+      { "text": "$x^2 - 5x + 14$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma de no comunes: $-7+2$. Producto: $(-7)(2)$.",
+    "explanation": "$x^2 + (-5)x + (-14) = x^2 - 5x - 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Factoriza la suma de cubos $x^3 + 27$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 3)(x^2 - 3x + 9)$", "correct": true },
+      { "text": "$(x - 3)(x^2 + 3x + 9)$", "correct": false },
+      { "text": "$(x + 3)^3$", "correct": false },
+      { "text": "$(x + 3)(x^2 + 3x + 9)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula: $a^3+b^3 = (a+b)(a^2-ab+b^2)$.",
+    "explanation": "Aquí $a=x, b=3$. El segundo factor lleva signo menos en el término central.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "En el CEPREDIX se plantea el problema: Si el área de un cuadrado está dada por $A = x^2 + 20x + 100$, ¿cuánto mide su lado?",
+    "image": null,
+    "options": [
+      { "text": "$x + 10$", "correct": true },
+      { "text": "$x + 20$", "correct": false },
+      { "text": "$x + 50$", "correct": false },
+      { "text": "$x - 10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el TCP. El área de un cuadrado es $L^2$.",
+    "explanation": "$x^2 + 20x + 100 = (x+10)^2$. Por tanto, el lado es $x+10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Relaciona la factorización con su expresión original:\nI. $(x-5)^2$\nII. $(x-5)(x+5)$\nIII. $(x-5)(x+4)$",
+    "image": null,
+    "options": [
+      { "text": "I-$x^2-10x+25$, II-$x^2-25$, III-$x^2-x-20$", "correct": true },
+      { "text": "I-$x^2-25$, II-$x^2-10x+25$, III-$x^2-x-20$", "correct": false },
+      { "text": "I-$x^2-10x+25$, II-$x^2-25$, III-$x^2+x-20$", "correct": false },
+      { "text": "I-$x^2+25$, II-$x^2-25$, III-$x^2-9x-20$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "I es TCP con negativo. II es diferencia de cuadrados. III es término común con suma negativa.",
+    "explanation": "Cálculos directos de productos notables.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Desarrolla $(2x + 1)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$8x^3 + 12x^2 + 6x + 1$", "correct": true },
+      { "text": "$8x^3 + 1$", "correct": false },
+      { "text": "$4x^2 + 4x + 1$", "correct": false },
+      { "text": "$8x^3 + 6x^2 + 3x + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa coeficientes 1, 3, 3, 1 multiplicando las potencias de $2x$ y $1$.",
+    "explanation": "$(2x)^3 + 3(2x)^2(1) + 3(2x)(1)^2 + 1^3 = 8x^3 + 12x^2 + 6x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Completa la fórmula de la diferencia de cubos: $a^3 - b^3 = (a - b)(\\text{\\_\\_\\_})$.",
+    "image": null,
+    "options": [
+      { "text": "$a^2 + ab + b^2$", "correct": true },
+      { "text": "$a^2 - ab + b^2$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2$", "correct": false },
+      { "text": "$a^2 - b^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En la diferencia de cubos, el trinomio resultante tiene todos los signos positivos.",
+    "explanation": "La regla establece que el segundo factor es el cuadrado del primero, más el producto, más el cuadrado del segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "¿Cuál es el desarrollo de $(x + 5)(x - 3)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 2x - 15$", "correct": true },
+      { "text": "$x^2 - 2x - 15$", "correct": false },
+      { "text": "$x^2 + 8x - 15$", "correct": false },
+      { "text": "$x^2 - 15$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma: $5 + (-3) = 2$. Producto: $5(-3) = -15$.",
+    "explanation": "Aplicando la regla de término común: $x^2 + (5-3)x + (5)(-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Identifica qué expresión es equivalente a $m^2 - 100$.",
+    "image": null,
+    "options": [
+      { "text": "$(m + 10)(m - 10)$", "correct": true },
+      { "text": "$(m - 10)^2$", "correct": false },
+      { "text": "$(m - 50)(m + 2)$", "correct": false },
+      { "text": "$(m + 100)(m - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una diferencia de cuadrados perfectos.",
+    "explanation": "Raíz de $m^2$ es $m$, raíz de 100 es 10. Se factoriza como binomios conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "En un examen del CEPREDIX, se pide expandir $(a^2 + 3)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$a^4 + 6a^2 + 9$", "correct": true },
+      { "text": "$a^4 + 9$", "correct": false },
+      { "text": "$a^4 + 3a^2 + 9$", "correct": false },
+      { "text": "$a^2 + 6a + 9$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El primer término es $a^2$, al elevarlo al cuadrado se multiplican los exponentes.",
+    "explanation": "$(a^2)^2 + 2(a^2)(3) + 3^2 = a^4 + 6a^2 + 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Factoriza el trinomio $y^2 - 14y + 49$.",
+    "image": null,
+    "options": [
+      { "text": "$(y - 7)^2$", "correct": true },
+      { "text": "$(y + 7)^2$", "correct": false },
+      { "text": "$(y - 7)(y + 7)$", "correct": false },
+      { "text": "$(y - 49)(y - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "TCP con término central negativo.",
+    "explanation": "Raíz de 49 es 7. $2(y)(7)=14y$. Signo negativo $\\to (y-7)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Completa: Para que el binomio $(x+\\_\\_)(x-4)$ resulte en $x^2 + x - 20$, el número faltante es:",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "-5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Buscas un número que sumado a -4 de +1.",
+    "explanation": "$5 + (-4) = 1$. $5(-4) = -20$. El número es 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Calcula $(x^3 - 2)(x^3 + 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^6 - 4$", "correct": true },
+      { "text": "$x^9 - 4$", "correct": false },
+      { "text": "$x^6 - 4x^3 - 4$", "correct": false },
+      { "text": "$x^5 - 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Conjugados con exponentes. Los exponentes se multiplican al elevar potencia de potencia.",
+    "explanation": "$(x^3)^2 - 2^2 = x^{3 \\cdot 2} - 4 = x^6 - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Selecciona las expansiones correctas de cubos:\n1. $(x+1)^3 = x^3+3x^2+3x+1$\n2. $(x-1)^3 = x^3-3x^2-3x-1$\n3. $(x-2)^3 = x^3-6x^2+12x-8$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "1 y 2", "correct": false },
+      { "text": "2 y 3", "correct": false },
+      { "text": "Solo 1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En el cubo de una resta, los signos se alternan: +, -, +, -.",
+    "explanation": "La 2 es incorrecta porque el tercer término debería ser positivo ($+3x$) y el último es correcto (-1). La 1 y 3 son correctas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Relaciona el término faltante para completar el TCP:\nI. $x^2 + \\_\\_ + 25$\nII. $x^2 - 14x + \\_\\_$\nIII. $4x^2 + \\_\\_ + 1$",
+    "image": null,
+    "options": [
+      { "text": "I-$10x$, II-49, III-$4x$", "correct": true },
+      { "text": "I-$5x$, II-7, III-$2x$", "correct": false },
+      { "text": "I-$10x$, II-49, III-$2x$", "correct": false },
+      { "text": "I-$25x$, II-196, III-$8x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $2ab$ para el centro y $b^2$ para el extremo.",
+    "explanation": "I: $2(x)(5)=10x$. II: $(14/2)^2=49$. III: $2(2x)(1)=4x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "En el CEPREDIX se pide simplificar $(x+3)(x-3) - (x-3)^2$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$6x - 18$", "correct": true },
+      { "text": "$x^2 - 9$", "correct": false },
+      { "text": "$6x$", "correct": false },
+      { "text": "$-18$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla primero: $(x^2-9)$ y $(x^2-6x+9)$. Resta con cuidado los signos.",
+    "explanation": "$(x^2-9) - (x^2-6x+9) = x^2 - 9 - x^2 + 6x - 9 = 6x - 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Factoriza $16x^2 - 25y^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(4x + 5y)(4x - 5y)$", "correct": true },
+      { "text": "$(4x - 5y)^2$", "correct": false },
+      { "text": "$(16x - 25y)(x + y)$", "correct": false },
+      { "text": "$(8x + 5y)(2x - 5y)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Diferencia de cuadrados con dos variables.",
+    "explanation": "Raíz de $16x^2=4x$, raíz de $25y^2=5y$. Conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Identifica qué producto produce $x^2 - 9x + 14$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 7)(x - 2)$", "correct": true },
+      { "text": "$(x + 7)(x + 2)$", "correct": false },
+      { "text": "$(x - 14)(x + 1)$", "correct": false },
+      { "text": "$(x + 7)(x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Buscas dos números que sumados den -9 y multiplicados den 14.",
+    "explanation": "$-7 - 2 = -9$ y $(-7)(-2) = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Desarrolla $(5m - 2n)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$25m^2 - 20mn + 4n^2$", "correct": true },
+      { "text": "$25m^2 - 10mn + 4n^2$", "correct": false },
+      { "text": "$25m^2 - 4n^2$", "correct": false },
+      { "text": "$25m^2 + 20mn + 4n^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Doble del primero por el segundo: $2(5m)(-2n)$.",
+    "explanation": "$25m^2 - 20mn + 4n^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "¿Cuál es el factor común en $3x^2 + 6x$?",
+    "image": null,
+    "options": [
+      { "text": "$3x$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$6x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el máximo común divisor de 3 y 6, y la variable con menor exponente.",
+    "explanation": "$3x$ divide a ambos términos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Un alumno del CEPREDIX resuelve: $(x+4)(x-4) = x^2 - 8$. ¿Cuál es el error?",
+    "image": null,
+    "options": [
+      { "text": "No elevó el segundo término al cuadrado (debió ser 16).", "correct": true },
+      { "text": "Debió sumar los términos (debió ser 8x).", "correct": false },
+      { "text": "El signo es incorrecto (debió ser +).", "correct": false },
+      { "text": "No hay error, es correcto.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Diferencia de cuadrados es $a^2 - b^2$.",
+    "explanation": "$4^2$ es 16, no 8 (que sería $4 \\times 2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Factoriza $a^2 + 10a + 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(a + 5)^2$", "correct": true },
+      { "text": "$(a - 5)^2$", "correct": false },
+      { "text": "$(a + 10)(a + 2)$", "correct": false },
+      { "text": "$(a + 25)(a + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un TCP positivo.",
+    "explanation": "Raíz de 25 es 5. $2(5)=10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Desarrolla $(x - 1)(x^2 + x + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^3 - 1$", "correct": true },
+      { "text": "$x^3 + 1$", "correct": false },
+      { "text": "$x^3 - x^2 - 1$", "correct": false },
+      { "text": "$x^3 + x^2 - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la factorización de una diferencia de cubos.",
+    "explanation": "El producto de un binomio resta por su trinomio conjugado positivo da diferencia de cubos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Completa: La expresión $x^2 - y^2$ se conoce como ______.",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cuadrados", "correct": true },
+      { "text": "Binomio al cuadrado", "correct": false },
+      { "text": "Suma de cubos", "correct": false },
+      { "text": "Trinomio cuadrado", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una resta de dos números elevados a la potencia 2.",
+    "explanation": "Definición directa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Relaciona la expansión con el binomio al cubo:\nI. $x^3+3x^2+3x+1$\nII. $x^3+6x^2+12x+8$\nIII. $x^3+9x^2+27x+27$",
+    "image": null,
+    "options": [
+      { "text": "I-$(x+1)^3$, II-$(x+2)^3$, III-$(x+3)^3$", "correct": true },
+      { "text": "I-$(x+1)^3$, II-$(x+3)^3$, III-$(x+2)^3$", "correct": false },
+      { "text": "I-$(x+2)^3$, II-$(x+1)^3$, III-$(x+3)^3$", "correct": false },
+      { "text": "I-$(x+3)^3$, II-$(x+2)^3$, III-$(x+1)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el último término: $1^3=1$, $2^3=8$, $3^3=27$.",
+    "explanation": "Verificación del cubo del segundo término.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Calcula el término independiente de $(x - 6)(x - 4)$.",
+    "image": null,
+    "options": [
+      { "text": "24", "correct": true },
+      { "text": "-24", "correct": false },
+      { "text": "-10", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los términos no comunes (los números).",
+    "explanation": "$(-6) \\times (-4) = +24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "¿Qué binomio al cuadrado da como resultado $x^2 - 16x + 64$?",
+    "image": null,
+    "options": [
+      { "text": "$(x - 8)^2$", "correct": true },
+      { "text": "$(x + 8)^2$", "correct": false },
+      { "text": "$(x - 4)^2$", "correct": false },
+      { "text": "$(x - 32)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíz de 64 es 8. Signo central negativo.",
+    "explanation": "Es un TCP que proviene de $(x-8)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Factoriza completamente $2x^2 - 18$.",
+    "image": null,
+    "options": [
+      { "text": "$2(x + 3)(x - 3)$", "correct": true },
+      { "text": "$2(x - 3)^2$", "correct": false },
+      { "text": "$(2x - 9)(x + 2)$", "correct": false },
+      { "text": "$(x + 3)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero saca factor común 2, luego factoriza la diferencia de cuadrados.",
+    "explanation": "$2(x^2 - 9) = 2(x+3)(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "En el CEPREDIX, se pide el área de un rectángulo con base $(x+5)$ y altura $(x-2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 3x - 10$", "correct": true },
+      { "text": "$x^2 - 3x - 10$", "correct": false },
+      { "text": "$x^2 + 7x - 10$", "correct": false },
+      { "text": "$x^2 + 3x + 10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los binomios con término común.",
+    "explanation": "Suma: $5-2=3$. Producto: $5(-2)=-10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Identifica la opción incorrecta sobre productos notables.",
+    "image": null,
+    "options": [
+      { "text": "$(a+b)^2 = a^2+b^2$", "correct": true },
+      { "text": "$(a+b)(a-b) = a^2-b^2$", "correct": false },
+      { "text": "$(x+a)(x+b) = x^2+(a+b)x+ab$", "correct": false },
+      { "text": "$(a-b)^2 = a^2-2ab+b^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el término central en el binomio al cuadrado.",
+    "explanation": "Falta el término $2ab$. $(a+b)^2 \\neq a^2+b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Factoriza $x^2 + x - 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 4)(x - 3)$", "correct": true },
+      { "text": "$(x - 4)(x + 3)$", "correct": false },
+      { "text": "$(x + 6)(x - 2)$", "correct": false },
+      { "text": "$(x + 12)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Números que multiplicados den -12 y sumados den +1.",
+    "explanation": "$4 + (-3) = 1$. $4(-3) = -12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Calcula el coeficiente de $x^2$ en $(x - 5)^3$.",
+    "image": null,
+    "options": [
+      { "text": "-15", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "-5", "correct": false },
+      { "text": "75", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El segundo término es $3(x)^2(-5)$.",
+    "explanation": "$3(-5) = -15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Completa el TCP: $9x^2 + \\_\\_ + 4$.",
+    "image": null,
+    "options": [
+      { "text": "$12x$", "correct": true },
+      { "text": "$6x$", "correct": false },
+      { "text": "$36x$", "correct": false },
+      { "text": "$18x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíz de $9x^2$ es $3x$. Raíz de 4 es 2. Calcula el doble producto.",
+    "explanation": "$2(3x)(2) = 12x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Desarrolla $(\\frac{1}{2}x + 4)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}x^2 + 4x + 16$", "correct": true },
+      { "text": "$\\frac{1}{4}x^2 + 2x + 16$", "correct": false },
+      { "text": "$\\frac{1}{2}x^2 + 4x + 16$", "correct": false },
+      { "text": "$\\frac{1}{4}x^2 + 16$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuadrado de 1/2 es 1/4. Doble de (1/2 por 4) es $2(2) = 4$.",
+    "explanation": "$(\\frac{1}{2}x)^2 + 2(\\frac{1}{2}x)(4) + 4^2 = \\frac{1}{4}x^2 + 4x + 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Relaciona las expresiones equivalentes:\nI. $(x+3)(x-2)$\nII. $(x-3)(x+2)$\nIII. $(x-3)(x-2)$",
+    "image": null,
+    "options": [
+      { "text": "I-$x^2+x-6$, II-$x^2-x-6$, III-$x^2-5x+6$", "correct": true },
+      { "text": "I-$x^2-x-6$, II-$x^2+x-6$, III-$x^2-5x+6$", "correct": false },
+      { "text": "I-$x^2+5x-6$, II-$x^2-x-6$, III-$x^2-5x+6$", "correct": false },
+      { "text": "I-$x^2+x-6$, II-$x^2-x-6$, III-$x^2+5x+6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuida los signos en la suma y el producto.",
+    "explanation": "Cálculo directo de binomios con término común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "¿Cuál es el resultado de $(x+1)(x-1)(x^2+1)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^4 - 1$", "correct": true },
+      { "text": "$x^4 + 1$", "correct": false },
+      { "text": "$x^4 - 2x^2 + 1$", "correct": false },
+      { "text": "$x^3 - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero multiplica los dos primeros binomios (conjugados), luego el resultado con el tercero.",
+    "explanation": "$(x^2-1)(x^2+1) = (x^2)^2 - 1^2 = x^4 - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Un grupo de estudio del CEPREDIX determina que $(a+b+c)^2$ es igual a:",
+    "image": null,
+    "options": [
+      { "text": "$a^2+b^2+c^2+2ab+2ac+2bc$", "correct": true },
+      { "text": "$a^2+b^2+c^2+ab+ac+bc$", "correct": false },
+      { "text": "$a^2+b^2+c^2$", "correct": false },
+      { "text": "$a^3+b^3+c^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el cuadrado de un trinomio: suma de cuadrados + suma de dobles productos.",
+    "explanation": "Fórmula estándar de trinomio al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Factoriza $x^2 - 144$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 12)(x - 12)$", "correct": true },
+      { "text": "$(x - 12)^2$", "correct": false },
+      { "text": "$(x + 12)^2$", "correct": false },
+      { "text": "$(x + 144)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Diferencia de cuadrados. Raíz de 144 es 12.",
+    "explanation": "$(x+12)(x-12)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Identifica cuál NO es un trinomio cuadrado perfecto.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 5x + 25$", "correct": true },
+      { "text": "$x^2 + 10x + 25$", "correct": false },
+      { "text": "$x^2 - 2x + 1$", "correct": false },
+      { "text": "$4x^2 + 4x + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En el primero, $2 \\cdot x \\cdot 5$ debería ser $10x$, no $5x$.",
+    "explanation": "$x^2+5x+25$ no cumple la regla del doble producto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Desarrolla $(3a - 5b)(3a + 5b)$.",
+    "image": null,
+    "options": [
+      { "text": "$9a^2 - 25b^2$", "correct": true },
+      { "text": "$9a^2 + 25b^2$", "correct": false },
+      { "text": "$9a^2 - 30ab + 25b^2$", "correct": false },
+      { "text": "$3a^2 - 5b^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Binomios conjugados: $(3a)^2 - (5b)^2$.",
+    "explanation": "$9a^2 - 25b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Factoriza $x^2 - 13x + 36$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 9)(x - 4)$", "correct": true },
+      { "text": "$(x - 12)(x - 3)$", "correct": false },
+      { "text": "$(x - 36)(x - 1)$", "correct": false },
+      { "text": "$(x + 9)(x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que sumen -13 y multipliquen 36.",
+    "explanation": "$-9 + (-4) = -13$ y $(-9)(-4) = 36$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Completa el desarrollo de $(x+10)^2 = x^2 + \\_\\_ + 100$.",
+    "image": null,
+    "options": [
+      { "text": "$20x$", "correct": true },
+      { "text": "$10x$", "correct": false },
+      { "text": "$100x$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Doble producto de $x$ y 10.",
+    "explanation": "$2 \\cdot x \\cdot 10 = 20x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "En el CEPREDIX se estudia la expresión $(x^2 - 1)(x^2 + 3)$. Su expansión es:",
+    "image": null,
+    "options": [
+      { "text": "$x^4 + 2x^2 - 3$", "correct": true },
+      { "text": "$x^4 - 2x^2 - 3$", "correct": false },
+      { "text": "$x^4 + 4x^2 - 3$", "correct": false },
+      { "text": "$x^4 - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Variable común $x^2$. Suma: $-1+3=2$.",
+    "explanation": "$(x^2)^2 + (3-1)x^2 + (-1)(3) = x^4 + 2x^2 - 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Factoriza $25 - x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(5 + x)(5 - x)$", "correct": true },
+      { "text": "$(x + 5)(x - 5)$", "correct": false },
+      { "text": "$(5 - x)^2$", "correct": false },
+      { "text": "$(25 - x)(1 + x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número va primero. Diferencia de cuadrados.",
+    "explanation": "Raíz de 25 es 5, raíz de $x^2$ es $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Relaciona:\nI. $a^2-b^2$\nII. $a^2+2ab+b^2$\nIII. $a^2-2ab+b^2$",
+    "image": null,
+    "options": [
+      { "text": "I-Conjugados, II-Cuadrado de suma, III-Cuadrado de resta", "correct": true },
+      { "text": "I-Cuadrado de resta, II-Cuadrado de suma, III-Conjugados", "correct": false },
+      { "text": "I-Conjugados, II-Cuadrado de resta, III-Cuadrado de suma", "correct": false },
+      { "text": "I-Término común, II-Cuadrado de suma, III-Cuadrado de resta", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Reconoce las formas desarrolladas básicas.",
+    "explanation": "Definiciones fundamentales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Calcula el cubo de $(x+4)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^3 + 12x^2 + 48x + 64$", "correct": true },
+      { "text": "$x^3 + 64$", "correct": false },
+      { "text": "$x^3 + 4x^2 + 16x + 64$", "correct": false },
+      { "text": "$x^3 + 12x^2 + 12x + 64$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$3(x^2)(4) = 12x^2$ y $3(x)(16) = 48x$.",
+    "explanation": "$x^3 + 12x^2 + 48x + 64$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Factoriza $x^2 + 3x - 10$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x - 2)$", "correct": true },
+      { "text": "$(x - 5)(x + 2)$", "correct": false },
+      { "text": "$(x + 10)(x - 1)$", "correct": false },
+      { "text": "$(x + 5)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma +3, Producto -10.",
+    "explanation": "$5 + (-2) = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "¿Cuál es el resultado de $(7x - 2)(7x + 2)$?",
+    "image": null,
+    "options": [
+      { "text": "$49x^2 - 4$", "correct": true },
+      { "text": "$49x^2 + 4$", "correct": false },
+      { "text": "$14x^2 - 4$", "correct": false },
+      { "text": "$49x^2 - 28x + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Conjugados. Cuadrado de $7x$.",
+    "explanation": "$(7x)^2 - 2^2 = 49x^2 - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "En el CEPREDIX, un estudiante factoriza $x^3 - 8$ como $(x-2)(x^2 + 2x + 4)$. ¿Es correcto?",
+    "image": null,
+    "options": [
+      { "text": "Sí, es correcto.", "correct": true },
+      { "text": "No, el segundo término debería ser $4x$.", "correct": false },
+      { "text": "No, el segundo factor debería ser $(x^2 - 2x + 4)$.", "correct": false },
+      { "text": "No, es $(x-2)^3$.", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula $a^3-b^3$. El trinomio lleva signos positivos.",
+    "explanation": "La factorización es correcta siguiendo la regla de diferencia de cubos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Selecciona los binomios cuyo producto es $x^2 - 7x + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 4)(x - 3)$", "correct": true },
+      { "text": "$(x + 4)(x + 3)$", "correct": false },
+      { "text": "$(x - 6)(x - 2)$", "correct": false },
+      { "text": "$(x + 6)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma negativa (-7), producto positivo (12). Ambos negativos.",
+    "explanation": "$(-4)+(-3)=-7$. $(-4)(-3)=12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Completa: $(x-9)(x+3) = x^2 \\_\\_ - 27$.",
+    "image": null,
+    "options": [
+      { "text": "$-6x$", "correct": true },
+      { "text": "$+6x$", "correct": false },
+      { "text": "$-12x$", "correct": false },
+      { "text": "$-27x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma $-9+3$.",
+    "explanation": "$-6x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Desarrolla $(3x - 1)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$9x^2 - 6x + 1$", "correct": true },
+      { "text": "$9x^2 - 1$", "correct": false },
+      { "text": "$3x^2 - 6x + 1$", "correct": false },
+      { "text": "$9x^2 + 6x + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Doble producto de $3x$ y 1 es $6x$. Signo menos.",
+    "explanation": "$9x^2 - 6x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Factoriza $49x^2 + 70x + 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(7x + 5)^2$", "correct": true },
+      { "text": "$(7x - 5)^2$", "correct": false },
+      { "text": "$(7x + 5)(7x - 5)$", "correct": false },
+      { "text": "$(49x + 5)(x + 5)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíz de $49x^2$ y $25$. Verifica el centro $2(7x)(5)$.",
+    "explanation": "$70x$ coincide con el doble producto. Es TCP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Calcula $(x^2 + y^2)(x^2 - y^2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x^4 - y^4$", "correct": true },
+      { "text": "$x^4 + y^4$", "correct": false },
+      { "text": "$x^4 - 2x^2y^2 + y^4$", "correct": false },
+      { "text": "$x^2 - y^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Conjugados de cuadrados.",
+    "explanation": "$(x^2)^2 - (y^2)^2 = x^4 - y^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Un problema del CEPREDIX plantea: Factoriza $x^4 - 1$ completamente.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 1)(x + 1)(x - 1)$", "correct": true },
+      { "text": "$(x^2 + 1)(x^2 - 1)$", "correct": false },
+      { "text": "$(x - 1)^4$", "correct": false },
+      { "text": "$(x + 1)^2(x - 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero diferencia de cuadrados $(x^2+1)(x^2-1)$. Luego factoriza el segundo paréntesis.",
+    "explanation": "$(x^2+1)$ no se factoriza en reales. $(x^2-1)$ se vuelve $(x+1)(x-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Relaciona:\nI. $(a+b)(a^2-ab+b^2)$\nII. $(a-b)(a^2+ab+b^2)$",
+    "image": null,
+    "options": [
+      { "text": "I-Suma de cubos, II-Diferencia de cubos", "correct": true },
+      { "text": "I-Diferencia de cubos, II-Suma de cubos", "correct": false },
+      { "text": "I-Cubo de suma, II-Cubo de resta", "correct": false },
+      { "text": "I-Binomio al cubo, II-Binomio conjugado", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El signo del binomio corto define si es suma o diferencia de cubos.",
+    "explanation": "Identidades de factorización cúbica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "¿Qué número completa el trinomio $x^2 + 18x + \\_\\_$ para ser un TCP?",
+    "image": null,
+    "options": [
+      { "text": "81", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "18", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Mitad de 18 al cuadrado.",
+    "explanation": "$(18/2)^2 = 9^2 = 81$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Desarrolla $(5 - x)(5 + x)$.",
+    "image": null,
+    "options": [
+      { "text": "$25 - x^2$", "correct": true },
+      { "text": "$x^2 - 25$", "correct": false },
+      { "text": "$25 + x^2$", "correct": false },
+      { "text": "$25 - 10x + x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El orden importa en la resta de cuadrados.",
+    "explanation": "$5^2 - x^2 = 25 - x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Factoriza $6x^2 - 7x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 1)(2x - 3)$", "correct": true },
+      { "text": "$(3x - 1)(2x + 3)$", "correct": false },
+      { "text": "$(6x + 1)(x - 3)$", "correct": false },
+      { "text": "$(3x + 3)(2x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica extremos $(3x)(2x)=6x^2$ y $(1)(-3)=-3$. Verifica medios: $-9x + 2x = -7x$.",
+    "explanation": "Método de aspa o prueba y error. $(3x+1)(2x-3)$ funciona.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "En el CEPREDIX, ¿cómo se factoriza $1 - x^2$?",
+    "image": null,
+    "options": [
+      { "text": "$(1 + x)(1 - x)$", "correct": true },
+      { "text": "$(x + 1)(x - 1)$", "correct": false },
+      { "text": "$(1 - x)^2$", "correct": false },
+      { "text": "$-(x + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Diferencia de cuadrados, respeta el orden del 1.",
+    "explanation": "Raíz de 1 es 1. $(1+x)(1-x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
