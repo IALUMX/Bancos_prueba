@@ -4231,25 +4231,19 @@
   },
   {
     "id": "CEP00J1",
-    "question": "¿Qué estudia la Cinética en Física?",
+    "question": "¿Cuál es la fórmula de la Segunda Ley de Newton?",
     "image": null,
     "options": [
-      { "text": "Las causas del movimiento", "correct": false },
-      { "text": "La descripción del movimiento sin atender causas", "correct": false },
-      { "text": "La energía en movimiento", "correct": false },
-      { "text": "Nota: Pregunta corregida a Cinemática o Dinámica según contexto. Asumimos Dinámica por opciones.", "correct": false }
+      { "text": "$F = m \\cdot a$", "correct": true },
+      { "text": "$F = m / a$", "correct": false },
+      { "text": "$F = a / m$", "correct": false },
+      { "text": "$F = m + a$", "correct": false }
     ],
     "uni_tags": ["FÍSICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Pregunta de reemplazo: ¿Fórmula de la segunda ley de Newton?",
-    "explanation": "F = m * a (Fuerza es igual a masa por aceleración).",
-    "options": [
-      { "text": "F = m * a", "correct": true },
-      { "text": "F = m / a", "correct": false },
-      { "text": "F = a / m", "correct": false },
-      { "text": "F = m + a", "correct": false }
-    ],
+    "hint": "La fuerza es el producto de la masa por la aceleración.",
+    "explanation": "La Segunda Ley de Newton establece que $F = m \\cdot a$.",
     "explanative_video": null,
     "collapsible_text": null
   },
