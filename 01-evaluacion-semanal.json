@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "De acuerdo con la mnemotecnia 'Coca-Coca-Hielo-Hielo', ¿cuál es la razón trigonométrica que corresponde a la división del Cateto Opuesto entre la Hipotenusa?",
+    "image": null,
+    "options": [
+      { "text": "Seno", "correct": true },
+      { "text": "Coseno", "correct": false },
+      { "text": "Tangente", "correct": false },
+      { "text": "Secante", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la primera razón de la lista usual.",
+    "explanation": "La función Seno se define como la razón entre el cateto opuesto y la hipotenusa en un triángulo rectángulo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "En la tabla de ángulos notables para razones trigonométricas, ¿cuál es el valor de $\\sin(30^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el segundo valor en la columna de seno, después de 0 grados.",
+    "explanation": "El seno de 30 grados es un medio ($0.5$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Si se desea calcular una función trigonométrica de un ángulo mayor a $360^\\circ$, como $\\tan(840^\\circ)$, ¿cuál es el primer paso del procedimiento?",
+    "image": null,
+    "options": [
+      { "text": "Dividir el ángulo entre 360 para encontrar el número de ciclos enteros.", "correct": true },
+      { "text": "Restar 180 grados directamente al ángulo.", "correct": false },
+      { "text": "Multiplicar el ángulo por $\\pi/180$.", "correct": false },
+      { "text": "Buscar el ángulo en la tabla de ángulos notables directamente.", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Necesitas saber cuántas vueltas completas dio.",
+    "explanation": "Primero se determina cuántos ciclos completos de $360^\\circ$ caben en el ángulo para trabajar con el residuo (ángulo coterminal).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Identifica la clasificación de la siguiente oración: 'El perro verde regaló flores a María ayer'.",
+    "image": null,
+    "options": [
+      { "text": "Oración simple, enunciativa, afirmativa y activa.", "correct": true },
+      { "text": "Oración compuesta, dubitativa y pasiva.", "correct": false },
+      { "text": "Oración simple, imperativa y refleja.", "correct": false },
+      { "text": "Oración yuxtapuesta, interrogativa y activa.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Tiene un solo verbo conjugado y el sujeto realiza la acción.",
+    "explanation": "Es simple por tener un solo verbo (regaló), enunciativa afirmativa porque afirma un hecho, y activa porque el sujeto (el perro) ejecuta la acción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "¿Qué par de vitaminas liposolubles son fundamentales para la vista y la fijación de calcio respectivamente?",
+    "image": null,
+    "options": [
+      { "text": "Vitamina A y Vitamina D", "correct": true },
+      { "text": "Vitamina C y Vitamina E", "correct": false },
+      { "text": "Vitamina B12 y Vitamina K", "correct": false },
+      { "text": "Vitamina E y Vitamina A", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La primera también se llama retinol.",
+    "explanation": "La Vitamina A (retinol) es clave para la vista, y la Vitamina D ayuda a la fijación del calcio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Calcula la fuerza resultante de un sistema donde dos vectores de fuerza opuestos sobre el mismo eje tienen la misma magnitud.",
+    "image": null,
+    "options": [
+      { "text": "0 Newtons", "correct": true },
+      { "text": "La suma de ambas magnitudes", "correct": false },
+      { "text": "El doble de una magnitud", "correct": false },
+      { "text": "La mitad de la magnitud", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en 'perros jalando un trapo' con la misma fuerza en direcciones contrarias.",
+    "explanation": "Si dos vectores tienen la misma magnitud pero dirección opuesta ($180^\\circ$), se anulan entre sí, resultando en cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "¿Qué contaminante primario se genera por la combustión incompleta del carbono y tiene la capacidad de desplazar al oxígeno en la sangre?",
+    "image": null,
+    "options": [
+      { "text": "Monóxido de carbono ($CO$)", "correct": true },
+      { "text": "Dióxido de carbono ($CO_2$)", "correct": false },
+      { "text": "Óxido de nitrógeno ($NO$)", "correct": false },
+      { "text": "Ozono ($O_3$)", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El carbono no completa sus 4 enlaces con oxígeno, solo 2.",
+    "explanation": "El monóxido de carbono es producto de una oxidación incompleta y es tóxico por su afinidad con la hemoglobina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Relaciona el tipo de ángulo con su medida en grados:\n\nI. Ángulo Recto\nII. Ángulo Llano\nIII. Ángulo Agudo\n\nA. Menor a $90^\\circ$\nB. $90^\\circ$\nC. $180^\\circ$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El recto forma una 'L' perfecta.",
+    "explanation": "Recto es exactamente $90^\\circ$, Llano es $180^\\circ$ y Agudo es menor de $90^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "¿Qué disciplina estudia el significado de las palabras, oraciones y discursos?",
+    "image": null,
+    "options": [
+      { "text": "Semántica", "correct": true },
+      { "text": "Sintaxis", "correct": false },
+      { "text": "Morfología", "correct": false },
+      { "text": "Fonética", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Tiene que ver con el sentido o interpretación.",
+    "explanation": "La semántica se encarga del estudio del significado en los diferentes niveles del lenguaje.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "En el contexto de la contaminación por metales pesados, ¿con qué elemento biológico esencial se confunde el plomo ($Pb$) dentro del organismo?",
+    "image": null,
+    "options": [
+      { "text": "Calcio ($Ca$)", "correct": true },
+      { "text": "Hierro ($Fe$)", "correct": false },
+      { "text": "Potasio ($K$)", "correct": false },
+      { "text": "Sodio ($Na$)", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este metal esencial es vital para los huesos y la contracción muscular.",
+    "explanation": "El plomo imita al calcio debido a su carga y radio iónico, acumulándose en huesos y bloqueando enzimas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Calcula la hipotenusa de un triángulo rectángulo cuyos catetos miden 3 y 4 unidades.",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el triángulo rectángulo más común de sucesión continua.",
+    "explanation": "Aplicando el Teorema de Pitágoras: $\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Si se tiene la oración 'Aunque llueva, iré al cine', ¿qué tipo de nexo es 'aunque'?",
+    "image": null,
+    "options": [
+      { "text": "Nexo concesivo / adversativo", "correct": true },
+      { "text": "Nexo copulativo", "correct": false },
+      { "text": "Nexo disyuntivo", "correct": false },
+      { "text": "Nexo causal", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Indica una objeción o dificultad que no impide la acción.",
+    "explanation": "'Aunque' funciona como un nexo subordinante que expresa una concesión o una adversidad parcial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "¿Cuál es la función principal de los enterocitos en el sistema digestivo?",
+    "image": null,
+    "options": [
+      { "text": "Absorción de nutrientes mediante microvellosidades", "correct": true },
+      { "text": "Producción de ácido clorhídrico", "correct": false },
+      { "text": "Almacenamiento de bilis", "correct": false },
+      { "text": "Filtración de la sangre", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Son las células que recubren las vellosidades intestinales.",
+    "explanation": "Los enterocitos son las células epiteliales del intestino encargadas de absorber los nutrientes de la luz intestinal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Un estudiante del CEPREDIX resuelve un problema de vectores. Si un vector tiene componentes $F_x = 30$ y $F_y = 40$, ¿cuál es la magnitud del vector resultante?",
+    "image": null,
+    "options": [
+      { "text": "50", "correct": true },
+      { "text": "70", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "1200", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el Teorema de Pitágoras: $\\sqrt{F_x^2 + F_y^2}$.",
+    "explanation": "$\\sqrt{30^2 + 40^2} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Identifica los segmentos del intestino delgado en orden correcto descendente (desde el estómago):",
+    "image": null,
+    "options": [
+      { "text": "Duodeno, Yeyuno, Íleon", "correct": true },
+      { "text": "Íleon, Duodeno, Yeyuno", "correct": false },
+      { "text": "Colon, Yeyuno, Duodeno", "correct": false },
+      { "text": "Yeyuno, Íleon, Duodeno", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El duodeno es el segmento corto que conecta con el estómago.",
+    "explanation": "El orden anatómico es: Duodeno (donde llegan los jugos), Yeyuno (absorción principal) e Íleon (conexión con el colon).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "¿A cuántos grados sexagesimales equivale $\\pi$ radianes?",
+    "image": null,
+    "options": [
+      { "text": "$180^\\circ$", "correct": true },
+      { "text": "$360^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false },
+      { "text": "$60^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es media vuelta a la circunferencia.",
+    "explanation": "En el sistema de radianes, $\\pi$ rad equivale a media circunferencia, es decir, $180^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "En gramática, ¿cuál es la diferencia principal entre una preposición y una conjunción?",
+    "image": null,
+    "options": [
+      { "text": "La preposición une elementos dentro de la oración indicando relación; la conjunción une palabras u oraciones coordinando o subordinando.", "correct": true },
+      { "text": "La preposición siempre lleva tilde y la conjunción no.", "correct": false },
+      { "text": "La conjunción indica lugar y la preposición indica acción.", "correct": false },
+      { "text": "No hay diferencia, son sinónimos.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una indica posición/relación (a, ante, bajo...), la otra es un nexo (y, o, que...).",
+    "explanation": "Las preposiciones (como 'a', 'de') establecen relaciones de dependencia dentro de la oración. Las conjunciones actúan como nexos lógicos entre oraciones o sintagmas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "¿Cuál es la fórmula para calcular la aceleración según la Segunda Ley de Newton?",
+    "image": null,
+    "options": [
+      { "text": "$a = F/m$", "correct": true },
+      { "text": "$a = F \\cdot m$", "correct": false },
+      { "text": "$a = m/F$", "correct": false },
+      { "text": "$a = F - m$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $F = ma$, despeja $a$.",
+    "explanation": "La aceleración es directamente proporcional a la fuerza e inversamente proporcional a la masa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Completa el enunciado: 'La ______ es un fenómeno en el cual una sustancia tóxica, como el plomo, se almacena en los tejidos de un organismo al no poder ser metabolizada.'",
+    "image": null,
+    "options": [
+      { "text": "Bioacumulación", "correct": true },
+      { "text": "Biodegradación", "correct": false },
+      { "text": "Biomasa", "correct": false },
+      { "text": "Bioquímica", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Implica que la sustancia se queda 'acumulada' dentro del ser vivo.",
+    "explanation": "La bioacumulación ocurre cuando un organismo absorbe una sustancia a una tasa mayor de la que la excreta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Relaciona correctamente los nexos con su tipo:\n\nI. Y, e, ni\nII. O, u\nIII. Pero, mas, sino\n\nA. Adversativos\nB. Disyuntivos\nC. Copulativos",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "'Y' suma (copula), 'O' da opción (disyunción), 'Pero' opone (adversidad).",
+    "explanation": "Copulativos unen (C), Disyuntivos dan opciones (B), Adversativos contraponen (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "¿Qué valor tiene la tangente de $45^\\circ$?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "$\\sqrt{3}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{3}}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En un triángulo de 45-45-90, los catetos son iguales.",
+    "explanation": "$\\tan(45^\\circ) = \\frac{\\text{cateto opuesto}}{\\text{cateto adyacente}}$. Como son iguales, el resultado es 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "¿Qué son los quilomicrones?",
+    "image": null,
+    "options": [
+      { "text": "Lipoproteínas grandes que transportan lípidos desde el intestino.", "correct": true },
+      { "text": "Enzimas que degradan proteínas en el estómago.", "correct": false },
+      { "text": "Células del sistema inmune en el intestino.", "correct": false },
+      { "text": "Vitaminas solubles en agua.", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "'Quilo' viene de grasa/jugo lechoso. Son transportadores.",
+    "explanation": "Los quilomicrones son estructuras de lipoproteínas que empaquetan los lípidos absorbidos para transportarlos vía linfática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "En el Teorema de Tales, si tenemos un triángulo dentro de otro triángulo más grande y comparten un ángulo común y lados paralelos, ¿qué relación se establece entre sus lados?",
+    "image": null,
+    "options": [
+      { "text": "Son proporcionales.", "correct": true },
+      { "text": "Son iguales.", "correct": false },
+      { "text": "La suma de los lados es constante.", "correct": false },
+      { "text": "No tienen relación.", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se puede aplicar una regla de tres.",
+    "explanation": "El Teorema de Tales establece la proporcionalidad entre los lados de triángulos semejantes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Identifica la reacción química que produce lluvia ácida a partir del trióxido de azufre ($SO_3$).",
+    "image": null,
+    "options": [
+      { "text": "$SO_3 + H_2O \\to H_2SO_4$", "correct": true },
+      { "text": "$SO_2 + O_2 \\to SO_3$", "correct": false },
+      { "text": "$C + O_2 \\to CO_2$", "correct": false },
+      { "text": "$N_2 + O_2 \\to 2NO$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El óxido reacciona con agua para formar ácido sulfúrico.",
+    "explanation": "El trióxido de azufre al reaccionar con el agua de la atmósfera forma ácido sulfúrico ($H_2SO_4$), principal componente de la lluvia ácida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Si una oración usa una coma para separar dos ideas independientes en lugar de un nexo, ¿cómo se le clasifica?",
+    "image": null,
+    "options": [
+      { "text": "Yuxtapuesta", "correct": true },
+      { "text": "Coordinada", "correct": false },
+      { "text": "Subordinada", "correct": false },
+      { "text": "Adjetiva", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Yuxtaponer significa poner una cosa junto a la otra sin enlace.",
+    "explanation": "Las oraciones yuxtapuestas se unen mediante signos de puntuación (coma, punto y coma) y no tienen nexos gramaticales explícitos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Un objeto de $5 \\text{ kg}$ pesa $50 \\text{ N}$ en un lugar donde la gravedad es $10 \\text{ m/s}^2$. Si se le aplica una fuerza neta horizontal de $100 \\text{ N}$, ¿cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ m/s}^2$", "correct": true },
+      { "text": "$10 \\text{ m/s}^2$", "correct": false },
+      { "text": "$2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$500 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $a = F/m$. Ya tienes la masa ($5 \\text{ kg}$) y la fuerza aplicada ($100 \\text{ N}$).",
+    "explanation": "$a = 100 \\text{ N} / 5 \\text{ kg} = 20 \\text{ m/s}^2$. El peso es un dato para confirmar la masa, pero la fuerza que acelera es la horizontal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "¿Qué vitamina ayuda a la coagulación sanguínea?",
+    "image": null,
+    "options": [
+      { "text": "Vitamina K", "correct": true },
+      { "text": "Vitamina C", "correct": false },
+      { "text": "Vitamina A", "correct": false },
+      { "text": "Vitamina E", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es liposoluble y su deficiencia puede agravar hemorragias.",
+    "explanation": "La vitamina K es esencial para la síntesis de factores de coagulación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Resuelve la siguiente analogía: 'Semántica es a significado como Sintaxis es a ______'.",
+    "image": null,
+    "options": [
+      { "text": "Orden", "correct": true },
+      { "text": "Sonido", "correct": false },
+      { "text": "Ortografía", "correct": false },
+      { "text": "Sinónimo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La sintaxis estudia cómo se acomodan las palabras.",
+    "explanation": "Así como la semántica estudia el significado, la sintaxis estudia el orden y la relación de las palabras en la oración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "En el contexto de vectores, si un vector tiene magnitud 100 y un ángulo de $45^\\circ$, ¿cuál es el valor de su componente en X ($F_x$)?",
+    "image": null,
+    "options": [
+      { "text": "$50\\sqrt{2}$", "correct": true },
+      { "text": "50", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "$100\\sqrt{2}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$F_x = F \\cdot \\cos(\\theta)$. Recuerda que $\\cos(45^\\circ) = \\frac{\\sqrt{2}}{2}$.",
+    "explanation": "$100 \\times \\frac{\\sqrt{2}}{2} = 50\\sqrt{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "¿Cuál es el resultado de $\\csc(30^\\circ)$ sabiendo que es la recíproca del seno?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\sqrt{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $\\sin(30^\\circ) = 1/2$, la cosecante es el inverso multiplicativo.",
+    "explanation": "$\\csc(30^\\circ) = \\frac{1}{\\sin(30^\\circ)} = \\frac{1}{1/2} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "¿Qué enfermedad pulmonar obstructiva crónica se menciona como relacionada con partículas en suspensión y contaminación?",
+    "image": null,
+    "options": [
+      { "text": "EPOC", "correct": true },
+      { "text": "Asma", "correct": false },
+      { "text": "Tuberculosis", "correct": false },
+      { "text": "Neumonía", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sus siglas significan Enfermedad Pulmonar Obstructiva Crónica.",
+    "explanation": "El EPOC es una enfermedad directamente agravada por contaminantes primarios y partículas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Si dos ángulos son complementarios y uno mide $30^\\circ$, ¿cuánto mide el otro?",
+    "image": null,
+    "options": [
+      { "text": "$60^\\circ$", "correct": true },
+      { "text": "$150^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false },
+      { "text": "$45^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los ángulos complementarios suman $90^\\circ$.",
+    "explanation": "$90^\\circ - 30^\\circ = 60^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "¿Cuál es la característica principal de una reacción REDOX?",
+    "image": null,
+    "options": [
+      { "text": "Transferencia de electrones (ganancia y pérdida).", "correct": true },
+      { "text": "Formación de precipitados sólidos.", "correct": false },
+      { "text": "Liberación de calor únicamente.", "correct": false },
+      { "text": "Cambio de estado físico.", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Uno se oxida y otro se reduce.",
+    "explanation": "En las reacciones de óxido-reducción (REDOX), una especie pierde electrones (oxidación) y otra los gana (reducción).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "En la frase 'Mi mamá me mima', ¿qué figura retórica o vicio del lenguaje (si no es intencional) está presente debido a la repetición de sonidos?",
+    "image": null,
+    "options": [
+      { "text": "Aliteración / Cacofonía", "correct": true },
+      { "text": "Metáfora", "correct": false },
+      { "text": "Hipérbaton", "correct": false },
+      { "text": "Pleonasmo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Repetición del sonido 'm'.",
+    "explanation": "La repetición de sonidos cercanos se llama aliteración (si es artística) o cacofonía (si es un sonido desagradable o error).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Si tienes un triángulo rectángulo con hipotenusa $5$ y un cateto $3$, ¿cuánto mide el otro cateto?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el triángulo 3-4-5.",
+    "explanation": "$Cateto = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Relaciona los tipos de colesterol:\n\nI. HDL\nII. LDL\n\nA. Colesterol 'malo' (baja densidad)\nB. Colesterol 'bueno' (alta densidad)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "High Density (Alto/Bueno), Low Density (Bajo/Malo).",
+    "explanation": "HDL es de alta densidad y limpia arterias; LDL es de baja densidad y las obstruye.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "En el análisis sintáctico, ¿qué parte de la oración contiene al verbo conjugado?",
+    "image": null,
+    "options": [
+      { "text": "Predicado", "correct": true },
+      { "text": "Sujeto", "correct": false },
+      { "text": "Vocativo", "correct": false },
+      { "text": "Interjección", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es lo que se dice del sujeto.",
+    "explanation": "El predicado (sintagma verbal) es la parte de la oración cuyo núcleo es el verbo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "¿Qué número de oxidación tiene un elemento en estado puro (sin combinar)?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "+1", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "Depende del grupo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al no haber transferencia de electrones con otro elemento, su carga es neutra.",
+    "explanation": "Todo elemento libre o en estado puro tiene número de oxidación cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Si $\\cos(60^\\circ) = 1/2$, ¿cuál es el valor de $\\sec(60^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "$\\sqrt{3}$", "correct": false },
+      { "text": "$\\frac{2\\sqrt{3}}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La secante es la inversa del coseno ($1/\\cos$).",
+    "explanation": "El inverso de $1/2$ es $2/1 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Un estudiante del CEPREDIX observa que un nexo como 'sino' requiere una estructura específica. ¿Qué tipo de oración forma el nexo 'sino'?",
+    "image": null,
+    "options": [
+      { "text": "Coordinada adversativa", "correct": true },
+      { "text": "Subordinada temporal", "correct": false },
+      { "text": "Coordinada copulativa", "correct": false },
+      { "text": "Subordinada condicional", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Indica oposición o corrección.",
+    "explanation": "'Sino' es una conjunción adversativa que contrapone un concepto a otro afirmativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "¿Cuál es la función del 'Factor Intrínseco' en el sistema digestivo?",
+    "image": null,
+    "options": [
+      { "text": "Permitir la absorción de Vitamina B12", "correct": true },
+      { "text": "Digerir las grasas", "correct": false },
+      { "text": "Neutralizar el ácido estomacal", "correct": false },
+      { "text": "Transportar oxígeno", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una proteína que 'secuestra' una vitamina del complejo B para que no se pierda.",
+    "explanation": "El factor intrínseco se une a la vitamina B12 para que pueda ser absorbida en el íleon, evitando la anemia perniciosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Si un triángulo tiene lados proporcionales a otro (ej. 2, 3, 4 y 4, 6, 8), ¿qué criterio de semejanza se cumple?",
+    "image": null,
+    "options": [
+      { "text": "Lado-Lado-Lado (LLL)", "correct": true },
+      { "text": "Ángulo-Ángulo (AA)", "correct": false },
+      { "text": "Lado-Ángulo-Lado (LAL)", "correct": false },
+      { "text": "Hipotenusa-Cateto", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Solo conocemos la medida de los tres lados.",
+    "explanation": "Si los tres lados son proporcionales, los triángulos son semejantes por el criterio LLL.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "En la oración 'Unos llegaron temprano', ¿qué función gramatical cumple la palabra 'Unos'?",
+    "image": null,
+    "options": [
+      { "text": "Pronombre", "correct": true },
+      { "text": "Determinante", "correct": false },
+      { "text": "Adjetivo", "correct": false },
+      { "text": "Verbo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No acompaña a un sustantivo, sustituye a las personas.",
+    "explanation": "Al no acompañar a un sustantivo ('Unos niños'), sino sustituirlo y conjugarse con el verbo 'llegaron', actúa como pronombre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "¿Qué número de oxidación tiene el Hidrógeno cuando se combina con metales (hidruros)?",
+    "image": null,
+    "options": [
+      { "text": "-1", "correct": true },
+      { "text": "+1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "+2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El metal es positivo, así que el hidrógeno debe ser el negativo.",
+    "explanation": "Aunque usualmente es +1, frente a metales el hidrógeno trabaja con -1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "En un sistema de fuerzas concurrentes, si la suma de fuerzas en X es 0 y en Y es 0, ¿qué se puede afirmar del cuerpo?",
+    "image": null,
+    "options": [
+      { "text": "Está en equilibrio (reposo o velocidad constante).", "correct": true },
+      { "text": "Está acelerando.", "correct": false },
+      { "text": "Tiene una fuerza neta positiva.", "correct": false },
+      { "text": "Se mueve en círculos.", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primera Ley de Newton.",
+    "explanation": "Si la fuerza resultante es cero, la aceleración es cero, lo que implica equilibrio traslacional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "¿Cuál es la función principal del intestino grueso (colon)?",
+    "image": null,
+    "options": [
+      { "text": "Reabsorción de agua y electrolitos", "correct": true },
+      { "text": "Digestión de proteínas", "correct": false },
+      { "text": "Absorción de lípidos", "correct": false },
+      { "text": "Secreción de insulina", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Compacta los desechos recuperando líquidos.",
+    "explanation": "El colon se encarga de recuperar agua y sales minerales, formando las heces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Calcula $\\cos(300^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$-\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false },
+      { "text": "$-\\frac{\\sqrt{3}}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Está en el cuarto cuadrante. El ángulo de referencia es $60^\\circ$ ($360-300$). El coseno en el IV cuadrante es positivo.",
+    "explanation": "$\\cos(300) = \\cos(60) = 1/2$. En el cuarto cuadrante el coseno es positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Completa el refrán/vicio del lenguaje: '______ arriba'.",
+    "image": null,
+    "options": [
+      { "text": "Subir", "correct": true },
+      { "text": "Bajar", "correct": false },
+      { "text": "Entrar", "correct": false },
+      { "text": "Salir", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un pleonasmo común.",
+    "explanation": "'Subir arriba' es un pleonasmo, ya que subir implica ir hacia arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "¿Qué estructura celular NO debería estar presente en la microbiota humana normal?",
+    "image": null,
+    "options": [
+      { "text": "Algas", "correct": true },
+      { "text": "Bacterias", "correct": false },
+      { "text": "Arqueas", "correct": false },
+      { "text": "Fagos (virus)", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Organismos fotosintéticos acuáticos.",
+    "explanation": "Las algas no forman parte de la microbiota intestinal humana normal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Si un vector tiene componentes $(3, 4)$ y otro vector es $(-3, -4)$, ¿cuál es su suma?",
+    "image": null,
+    "options": [
+      { "text": "$(0, 0)$", "correct": true },
+      { "text": "$(6, 8)$", "correct": false },
+      { "text": "$(0, 8)$", "correct": false },
+      { "text": "$(9, 16)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma componente a componente.",
+    "explanation": "$3 + (-3) = 0$ y $4 + (-4) = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Identifica qué tipo de digestión realiza el ácido clorhídrico en el estómago:",
+    "image": null,
+    "options": [
+      { "text": "Digestión química", "correct": true },
+      { "text": "Digestión mecánica", "correct": false },
+      { "text": "Digestión enzimática", "correct": false },
+      { "text": "Absorción", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No usa enzimas ni movimiento físico, sino una sustancia ácida.",
+    "explanation": "El ácido clorhídrico realiza una digestión química al desnaturalizar proteínas por acidez.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "¿Qué es la 'luz intestinal'?",
+    "image": null,
+    "options": [
+      { "text": "El espacio hueco dentro del tubo digestivo por donde pasa el alimento.", "correct": true },
+      { "text": "Una enzima que ilumina el intestino.", "correct": false },
+      { "text": "La energía que absorben las vellosidades.", "correct": false },
+      { "text": "La parte final del colon.", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Técnicamente es parte del medio ambiente externo aunque esté dentro de ti.",
+    "explanation": "La luz (lumen) es el espacio interior de una estructura tubular, como el intestino.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Relaciona el término gramatical con su definición:\n\nI. Lexema\nII. Morfología\nIII. Fonema\n\nA. Raíz de la palabra\nB. Estudio de la estructura de la palabra\nC. Unidad mínima de sonido",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Lexema es lo que no cambia (raíz), Morfo es forma.",
+    "explanation": "Lexema es la raíz (A), Morfología estudia la forma/estructura (B), Fonema es sonido (C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "En la suma de ángulos suplementarios, el resultado siempre es:",
+    "image": null,
+    "options": [
+      { "text": "$180^\\circ$", "correct": true },
+      { "text": "$90^\\circ$", "correct": false },
+      { "text": "$360^\\circ$", "correct": false },
+      { "text": "$270^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la 'S' de Suplementario y asóciala con el número mayor ($180$).",
+    "explanation": "Los ángulos suplementarios suman $180$ grados (ángulo llano).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Qué vitamina es conocida como ácido fólico y es vital para el desarrollo del feto?",
+    "image": null,
+    "options": [
+      { "text": "Vitamina B9", "correct": true },
+      { "text": "Vitamina C", "correct": false },
+      { "text": "Vitamina A", "correct": false },
+      { "text": "Vitamina K", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pertenece al complejo B.",
+    "explanation": "El ácido fólico corresponde a la vitamina B9 y previene defectos del tubo neural.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Si $\\sin(\\theta) = 3/5$, ¿cuánto vale el cateto opuesto si la hipotenusa es 5?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Seno = Opuesto / Hipotenusa.",
+    "explanation": "Por definición de seno, el numerador es el cateto opuesto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "¿Qué tipo de energía se libera rápidamente en la combustión pero lentamente en la oxidación celular?",
+    "image": null,
+    "options": [
+      { "text": "Energía química / Calor", "correct": true },
+      { "text": "Energía nuclear", "correct": false },
+      { "text": "Energía eólica", "correct": false },
+      { "text": "Energía potencial gravitatoria", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La combustión es una oxidación rápida.",
+    "explanation": "Ambos procesos liberan la energía de los enlaces químicos, pero la combustión lo hace violentamente en forma de calor y luz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "En el análisis sintáctico, ¿qué función cumple 'ayer' en: 'Estudiaremos ayer'?",
+    "image": null,
+    "options": [
+      { "text": "Complemento Circunstancial de Tiempo", "correct": true },
+      { "text": "Complemento Directo", "correct": false },
+      { "text": "Sujeto", "correct": false },
+      { "text": "Complemento Indirecto", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Responde a la pregunta ¿Cuándo?",
+    "explanation": "Indica el momento en que ocurre la acción, por lo tanto es circunstancial de tiempo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Calcula la aceleración de un cuerpo de $5 \\text{ kg}$ si se le aplica una fuerza de $20 \\text{ N}$.",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$100 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.25 \\text{ m/s}^2$", "correct": false },
+      { "text": "$15 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$a = F/m$.",
+    "explanation": "$20 / 5 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Completa la serie de ángulos notables en grados: $0, 30, 45, \\_\n\\_, 90$.",
+    "image": null,
+    "options": [
+      { "text": "60", "correct": true },
+      { "text": "50", "correct": false },
+      { "text": "75", "correct": false },
+      { "text": "80", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el ángulo cuyo coseno es $1/2$.",
+    "explanation": "El ángulo faltante en la tabla estándar es $60^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "¿Cuál es la densidad aproximada del agua para usarla de referencia con metales pesados?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ g/cm}^3$", "correct": true },
+      { "text": "$5 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$10 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$0.5 \\text{ g/cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la base de la densidad relativa.",
+    "explanation": "La densidad del agua es $1 \\text{ g/cm}^3$. Los metales pesados tienen densidades mucho mayores (>$5 \\text{ g/cm}^3$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "En el sistema linfático, ¿qué estructuras intestinales son clave para la absorción de grasas?",
+    "image": null,
+    "options": [
+      { "text": "Placas de Peyer", "correct": true },
+      { "text": "Amígdalas", "correct": false },
+      { "text": "Timo", "correct": false },
+      { "text": "Bazo", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Se encuentran en el revestimiento del íleon.",
+    "explanation": "Las placas de Peyer son tejido linfoide en el intestino que participa en la inmunidad y transporte linfático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Si el nexo 'que' introduce una oración que depende de la principal, es un nexo:",
+    "image": null,
+    "options": [
+      { "text": "Subordinante", "correct": true },
+      { "text": "Coordinante", "correct": false },
+      { "text": "Disyuntivo", "correct": false },
+      { "text": "Adversativo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Crea una jerarquía entre oraciones.",
+    "explanation": "El 'que' es el nexo subordinante por excelencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "¿Qué representa la hipotenusa en un diagrama de suma vectorial (método del triángulo)?",
+    "image": null,
+    "options": [
+      { "text": "El vector resultante", "correct": true },
+      { "text": "La componente en X", "correct": false },
+      { "text": "La componente en Y", "correct": false },
+      { "text": "La fuerza de fricción", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el vector que une el inicio del primero con el final del último.",
+    "explanation": "El vector resultante cierra el triángulo y corresponde a la hipotenusa si las componentes son perpendiculares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Relaciona la vitamina con su función:\n\nI. Vitamina A\nII. Vitamina E\nIII. Vitamina K\n\nA. Coagulación\nB. Vista\nC. Antioxidante",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A=Ojos, E=Antiedad, K=Sangre.",
+    "explanation": "Vitamina A (Vista), E (Antioxidante), K (Coagulación).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "¿Cuál es el valor de $\\cot(45^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "$\\sqrt{3}$", "correct": false },
+      { "text": "Indeterminado", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la inversa de la tangente de 45 (que es 1).",
+    "explanation": "$1/1 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "En el teorema de Tales, si la sombra de un árbol es de 12m y la de un poste de 2m de altura es de 3m, ¿cuánto mide el árbol?",
+    "image": null,
+    "options": [
+      { "text": "8m", "correct": true },
+      { "text": "6m", "correct": false },
+      { "text": "18m", "correct": false },
+      { "text": "4m", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa proporción: $\\frac{\\text{Altura Árbol}}{\\text{Sombra Árbol}} = \\frac{\\text{Altura Poste}}{\\text{Sombra Poste}}$.",
+    "explanation": "$H/12 = 2/3 \\Rightarrow H = (2 \\times 12) / 3 = 24/3 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "¿Qué fenómeno evita que los rayos del sol reboten y salgan de la atmósfera, elevando la temperatura?",
+    "image": null,
+    "options": [
+      { "text": "Efecto Invernadero", "correct": true },
+      { "text": "Lluvia Ácida", "correct": false },
+      { "text": "Inversión Térmica", "correct": false },
+      { "text": "Eutrofización", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Causado por gases como el $CO_2$.",
+    "explanation": "Los gases de efecto invernadero atrapan el calor en la atmósfera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "¿Qué tipo de palabra es 'feliz' en 'El niño feliz'?",
+    "image": null,
+    "options": [
+      { "text": "Adjetivo", "correct": true },
+      { "text": "Sustantivo", "correct": false },
+      { "text": "Verbo", "correct": false },
+      { "text": "Adverbio", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Califica o describe al niño.",
+    "explanation": "Es un adjetivo calificativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Calcula el trabajo si no hay desplazamiento ($d=0$).",
+    "image": null,
+    "options": [
+      { "text": "0 Joules", "correct": true },
+      { "text": "Infinito", "correct": false },
+      { "text": "Igual a la fuerza", "correct": false },
+      { "text": "Negativo", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$W = F \\cdot d$.",
+    "explanation": "Si la distancia es cero, el trabajo es cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "¿Cuál es la función del factor intrínseco secretado en el estómago?",
+    "image": null,
+    "options": [
+      { "text": "Proteger y transportar la Vitamina B12", "correct": true },
+      { "text": "Digerir carbohidratos", "correct": false },
+      { "text": "Eliminar bacterias", "correct": false },
+      { "text": "Absorber agua", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es vital para evitar anemia.",
+    "explanation": "El factor intrínseco se une a la vitamina B12 para permitir su absorción posterior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Si $\\cos(\\theta) = \\frac{\\text{cateto adyacente}}{\\text{hipotenusa}}$ y el ángulo es $0^\\circ$, ¿cuál es el valor?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "Indeterminado", "correct": false },
+      { "text": "0.5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En el círculo unitario, en 0 grados, la coordenada x es máxima.",
+    "explanation": "$\\cos(0^\\circ) = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Qué es la anfibología?",
+    "image": null,
+    "options": [
+      { "text": "Un vicio del lenguaje que provoca doble interpretación.", "correct": true },
+      { "text": "Una figura retórica de repetición.", "correct": false },
+      { "text": "El estudio de los anfibios.", "correct": false },
+      { "text": "El uso correcto de los verbos.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: 'Vi a Juan comiendo'. ¿Quién comía?",
+    "explanation": "La anfibología es la ambigüedad en el lenguaje.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "En el modelo enzima-sustrato, ¿cómo se llama el lugar específico donde encaja el sustrato?",
+    "image": null,
+    "options": [
+      { "text": "Sitio activo", "correct": true },
+      { "text": "Sitio alostérico", "correct": false },
+      { "text": "Complejo activado", "correct": false },
+      { "text": "Cofactor", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es donde ocurre la acción.",
+    "explanation": "El sitio activo es la región de la enzima donde se une el sustrato para reaccionar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "¿Qué isótopo radiactivo se utiliza para datar la edad de la Tierra (rocas primigenias)?",
+    "image": null,
+    "options": [
+      { "text": "Uranio-238", "correct": true },
+      { "text": "Carbono-14", "correct": false },
+      { "text": "Yodo-131", "correct": false },
+      { "text": "Plomo-204", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Decae en Plomo a lo largo de millones de años.",
+    "explanation": "El Uranio-238 tiene una vida media muy larga, adecuada para datar la edad del planeta, a diferencia del Carbono-14 que es para restos orgánicos recientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Calcula $\\sec(0^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "Indeterminado", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Inverso de coseno de 0.",
+    "explanation": "$1 / \\cos(0) = 1/1 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "En la oración 'O estudias o trabajas', el nexo 'o' es:",
+    "image": null,
+    "options": [
+      { "text": "Disyuntivo", "correct": true },
+      { "text": "Copulativo", "correct": false },
+      { "text": "Adversativo", "correct": false },
+      { "text": "Explicativo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ofrece opciones.",
+    "explanation": "La 'o' indica elección o disyunción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "¿Qué ocurre con el vector resultante si sumas un vector de 50N al Norte y otro de 120N al Sur?",
+    "image": null,
+    "options": [
+      { "text": "70N al Sur", "correct": true },
+      { "text": "70N al Norte", "correct": false },
+      { "text": "170N al Sur", "correct": false },
+      { "text": "130N al Norte", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Signos contrarios se restan y gana el mayor.",
+    "explanation": "$120 - 50 = 70$. Como el mayor va al Sur, el resultado es al Sur.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "¿Cómo se llama la primera porción del intestino delgado?",
+    "image": null,
+    "options": [
+      { "text": "Duodeno", "correct": true },
+      { "text": "Yeyuno", "correct": false },
+      { "text": "Íleon", "correct": false },
+      { "text": "Ciego", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es donde se vierten la bilis y el jugo pancreático.",
+    "explanation": "El duodeno conecta el estómago con el yeyuno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Si un metal pesado tiene una densidad de $11.36 \\text{ g/cm}^3$, ¿es más o menos denso que el agua?",
+    "image": null,
+    "options": [
+      { "text": "Mucho más denso", "correct": true },
+      { "text": "Menos denso", "correct": false },
+      { "text": "Igual de denso", "correct": false },
+      { "text": "Ligeramente más denso", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Agua = 1.",
+    "explanation": "$11.36$ es mucho mayor que 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "¿Cuál es el valor de $\\sin(210^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "$-1/2$", "correct": true },
+      { "text": "$1/2$", "correct": false },
+      { "text": "$-\\sqrt{3}/2$", "correct": false },
+      { "text": "$\\sqrt{3}/2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Tercer cuadrante (seno negativo). Ángulo referencia $30^\\circ$.",
+    "explanation": "$210 - 180 = 30$. $\\sin(30) = 1/2$. En tercer cuadrante es negativo: $-1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "La 'colitis' es la inflamación de:",
+    "image": null,
+    "options": [
+      { "text": "Colon", "correct": true },
+      { "text": "Estómago", "correct": false },
+      { "text": "Hígado", "correct": false },
+      { "text": "Páncreas", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El sufijo -itis significa inflamación.",
+    "explanation": "Colitis = Inflamación del colon.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Identifica cuál es un nexo coordinante copulativo:",
+    "image": null,
+    "options": [
+      { "text": "e", "correct": true },
+      { "text": "o", "correct": false },
+      { "text": "pero", "correct": false },
+      { "text": "aunque", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Variante de 'y'.",
+    "explanation": "'e' sustituye a 'y' antes de palabras que empiezan con 'i', sumando elementos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Calcula el peso de una masa de $10 \\text{ kg}$ ($g = 10 \\text{ m/s}^2$).",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ N}$", "correct": true },
+      { "text": "$10 \\text{ N}$", "correct": false },
+      { "text": "$1 \\text{ N}$", "correct": false },
+      { "text": "$98 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$W = m \\cdot g$.",
+    "explanation": "$10 \\times 10 = 100$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Relaciona la función trigonométrica con su inverso multiplicativo:\n\nI. Seno\nII. Coseno\nIII. Tangente\n\nA. Cotangente\nB. Cosecante\nC. Secante",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Seno va con Cosecante, Coseno con Secante.",
+    "explanation": "Seno $\\leftrightarrow$ Cosecante, Coseno $\\leftrightarrow$ Secante, Tangente $\\leftrightarrow$ Cotangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "¿Qué es la 'microbiota'?",
+    "image": null,
+    "options": [
+      { "text": "Conjunto de microorganismos que habitan en el cuerpo.", "correct": true },
+      { "text": "Un tipo de célula pequeña.", "correct": false },
+      { "text": "Vitaminas pequeñas.", "correct": false },
+      { "text": "Una enfermedad bacteriana.", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Antes llamada flora intestinal.",
+    "explanation": "La microbiota son los organismos vivos (bacterias, etc.) residentes en el cuerpo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "En la reacción de formación del $NO_2$ a partir de $N_2$ y $O_2$, ¿qué tipo de contaminante se considera al $NO_x$ emitido directamente por un auto?",
+    "image": null,
+    "options": [
+      { "text": "Contaminante Primario", "correct": true },
+      { "text": "Contaminante Secundario", "correct": false },
+      { "text": "Contaminante Terciario", "correct": false },
+      { "text": "Gas noble", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sale directo de la fuente.",
+    "explanation": "Si se emite directamente de la fuente (escape), es primario. Si reacciona en el aire (como la lluvia ácida), es secundario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Identifica qué elementos son necesarios para que funcione el Teorema de Pitágoras.",
+    "image": null,
+    "options": [
+      { "text": "Triángulo rectángulo", "correct": true },
+      { "text": "Triángulo equilátero", "correct": false },
+      { "text": "Círculo", "correct": false },
+      { "text": "Cualquier polígono", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe tener un ángulo de 90 grados.",
+    "explanation": "Aplica exclusivamente en triángulos rectángulos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "¿Qué significa 'epigenética'?",
+    "image": null,
+    "options": [
+      { "text": "Factores que controlan la genética por encima de la secuencia de ADN (ambientales).", "correct": true },
+      { "text": "El estudio de la piel.", "correct": false },
+      { "text": "Genética de los virus.", "correct": false },
+      { "text": "Mutaciones letales.", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Prefijo 'Epi' = sobre/encima.",
+    "explanation": "Cambios en la expresión génica sin alterar la secuencia de ADN.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Si un nexo lleva una coma antes y otra después (ej. ', sin embargo, '), ¿qué tipo de coma es?",
+    "image": null,
+    "options": [
+      { "text": "Coma conjuntiva", "correct": true },
+      { "text": "Coma vocativa", "correct": false },
+      { "text": "Coma enumerativa", "correct": false },
+      { "text": "Coma elíptica", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Se asocia al nexo o conjunción.",
+    "explanation": "La coma conjuntiva aísla conectores o nexos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Calcula la masa de un cuerpo si su peso es $500 \\text{ N}$ ($g=10$).",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ kg}$", "correct": true },
+      { "text": "$5000 \\text{ kg}$", "correct": false },
+      { "text": "$5 \\text{ kg}$", "correct": false },
+      { "text": "$0.5 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$m = W/g$.",
+    "explanation": "$500 / 10 = 50$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "¿Qué vitamina actúa principalmente como antioxidante?",
+    "image": null,
+    "options": [
+      { "text": "Vitamina E", "correct": true },
+      { "text": "Vitamina D", "correct": false },
+      { "text": "Vitamina K", "correct": false },
+      { "text": "Vitamina B1", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evita el envejecimiento celular.",
+    "explanation": "La vitamina E (tocoferol) protege las membranas celulares de la oxidación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "¿Qué es un lexema?",
+    "image": null,
+    "options": [
+      { "text": "La raíz de la palabra que aporta el significado principal.", "correct": true },
+      { "text": "La terminación que indica género y número.", "correct": false },
+      { "text": "Un tipo de verbo.", "correct": false },
+      { "text": "Un signo de puntuación.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: PAN en panadero.",
+    "explanation": "El lexema es la parte invariable que contiene el significado léxico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Si tenemos un ángulo de $45^\\circ$ en el primer cuadrante, ¿cuáles son los signos de Seno y Coseno?",
+    "image": null,
+    "options": [
+      { "text": "Positivo, Positivo", "correct": true },
+      { "text": "Positivo, Negativo", "correct": false },
+      { "text": "Negativo, Positivo", "correct": false },
+      { "text": "Negativo, Negativo", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primer cuadrante (todo es positivo).",
+    "explanation": "En el cuadrante I, tanto x (cos) como y (sen) son positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "En la reacción $2C + O_2 \\to 2CO$, el carbono cambia de oxidación $0$ a $+2$. ¿Qué le ocurrió?",
+    "image": null,
+    "options": [
+      { "text": "Se oxidó (perdió electrones).", "correct": true },
+      { "text": "Se redujo (ganó electrones).", "correct": false },
+      { "text": "Se neutralizó.", "correct": false },
+      { "text": "No cambió.", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aumentar el número de oxidación es oxidarse.",
+    "explanation": "Pasar de 0 a +2 implica pérdida de electrones, u oxidación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Completa la oración: 'Los ______ son las válvulas musculares que regulan el paso en el sistema digestivo.'",
+    "image": null,
+    "options": [
+      { "text": "Esfínteres", "correct": true },
+      { "text": "Tendones", "correct": false },
+      { "text": "Ligamentos", "correct": false },
+      { "text": "Ventriculos", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: Pilórico, Anal.",
+    "explanation": "Los esfínteres son anillos musculares que controlan el flujo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "¿Cuánto vale $\\tan(60^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{3}$", "correct": true },
+      { "text": "$\\frac{\\sqrt{3}}{3}$", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Seno 60 / Coseno 60.",
+    "explanation": "$\\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Relaciona el vicio del lenguaje con su ejemplo:\n\nI. Pleonasmo\nII. Cacofonía\n\nA. 'Súbete para arriba'\nB. 'Pepe pecas pica papas' (sonidos repetitivos)",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Pleonasmo es redundancia.",
+    "explanation": "Subir arriba es redundante (Pleonasmo). La repetición de 'p' es cacofonía.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Si un vector tiene dirección de $180^\\circ$, ¿hacia dónde apunta?",
+    "image": null,
+    "options": [
+      { "text": "Izquierda (Oeste)", "correct": true },
+      { "text": "Derecha (Este)", "correct": false },
+      { "text": "Arriba (Norte)", "correct": false },
+      { "text": "Abajo (Sur)", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El eje X negativo.",
+    "explanation": "$180^\\circ$ corresponde al eje X negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "¿Qué vitamina liposoluble se almacena y su exceso puede ser tóxico (hipervitaminosis)?",
+    "image": null,
+    "options": [
+      { "text": "Vitamina A", "correct": true },
+      { "text": "Vitamina C", "correct": false },
+      { "text": "Vitamina B1", "correct": false },
+      { "text": "Vitamina B12", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las liposolubles se acumulan en grasa.",
+    "explanation": "La vitamina A, al ser liposoluble, se acumula en el hígado y tejido graso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Calcula el valor de $\\sin(0^\\circ) + \\cos(90^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "0.5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos valen 0.",
+    "explanation": "$0 + 0 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "¿Qué nombre recibe el ácido $HNO_3$ formado por la reacción de óxidos de nitrógeno con agua?",
+    "image": null,
+    "options": [
+      { "text": "Ácido nítrico", "correct": true },
+      { "text": "Ácido nitroso", "correct": false },
+      { "text": "Amoníaco", "correct": false },
+      { "text": "Ácido sulfúrico", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Terminación -ico para el mayor estado de oxidación.",
+    "explanation": "$HNO_3$ es ácido nítrico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "En la frase 'El cielo estaba estrellado', si cambiamos el orden a 'Estrellado el cielo estaba', ¿qué figura retórica usamos?",
+    "image": null,
+    "options": [
+      { "text": "Hipérbaton", "correct": true },
+      { "text": "Metáfora", "correct": false },
+      { "text": "Símil", "correct": false },
+      { "text": "Oxímoron", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Alteración del orden lógico.",
+    "explanation": "El hipérbaton consiste en alterar el orden sintáctico habitual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "¿Qué es la digestión mecánica?",
+    "image": null,
+    "options": [
+      { "text": "Rompimiento físico (masticación, peristalsis).", "correct": true },
+      { "text": "Uso de enzimas.", "correct": false },
+      { "text": "Uso de ácidos.", "correct": false },
+      { "text": "Absorción de agua.", "correct": false }
+    ],
+    "uni_tags": ["SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Implica movimiento.",
+    "explanation": "La digestión mecánica tritura y mezcla el alimento físicamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Si $f(x) = \\cos x$, ¿en qué cuadrante es positiva?",
+    "image": null,
+    "options": [
+      { "text": "I y IV", "correct": true },
+      { "text": "I y II", "correct": false },
+      { "text": "II y III", "correct": false },
+      { "text": "III y IV", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Coseno es la coordenada X.",
+    "explanation": "X es positiva a la derecha (Cuadrantes I y IV).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "¿Qué es un ángulo coterminal?",
+    "image": null,
+    "options": [
+      { "text": "Ángulos que terminan en la misma posición (difieren en $360^\\circ$).", "correct": true },
+      { "text": "Ángulos que suman 90.", "correct": false },
+      { "text": "Ángulos opuestos por el vértice.", "correct": false },
+      { "text": "Ángulos negativos.", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: 30 y 390.",
+    "explanation": "Son ángulos que comparten el mismo lado terminal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Identifica los contaminantes antropogénicos:",
+    "image": null,
+    "options": [
+      { "text": "Producidos por actividad humana (industria, autos).", "correct": true },
+      { "text": "Producidos por volcanes.", "correct": false },
+      { "text": "Producidos por plantas.", "correct": false },
+      { "text": "Producidos por el sol.", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Antropos = Hombre.",
+    "explanation": "Antropogénico se refiere al origen humano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Si un estudiante del CEPREDIX usa la regla 'Coca-Coca-Hielo-Hielo' para Tangente, ¿qué obtiene?",
+    "image": null,
+    "options": [
+      { "text": "Cateto Opuesto / Cateto Adyacente", "correct": true },
+      { "text": "Hipotenusa / Cateto Opuesto", "correct": false },
+      { "text": "Cateto Adyacente / Hipotenusa", "correct": false },
+      { "text": "Cateto Adyacente / Cateto Opuesto", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la tercera razón.",
+    "explanation": "Tangente = Coca (Cateto Opuesto / Cateto Adyacente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
