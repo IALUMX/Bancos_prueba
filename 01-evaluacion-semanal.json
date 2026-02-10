@@ -4696,5 +4696,653 @@
     "explanation": "Las proteínas globulares tienen formas esféricas y funciones metabólicas activas.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00KC",
+    "question": "Calcula la magnitud de la fuerza necesaria para acelerar un cuerpo de $10 \\text{ kg}$ a razón de $5 \\text{ m/s}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$", "correct": true },
+      { "text": "$2 \\text{ N}$", "correct": false },
+      { "text": "$0.5 \\text{ N}$", "correct": false },
+      { "text": "$15 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la Segunda Ley de Newton: $F = ma$.",
+    "explanation": "Sustituyendo los valores: $F = (10 \\text{ kg})(5 \\text{ m/s}^2) = 50 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KD",
+    "question": "Determina la componente horizontal ($F_x$) de un vector fuerza de $100 \\text{ N}$ aplicado con un ángulo de $0^\\circ$ respecto a la horizontal.",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ N}$", "correct": true },
+      { "text": "$0 \\text{ N}$", "correct": false },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$70.7 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El coseno de $0^\\circ$ es 1. La fórmula es $F_x = F \\cos \\theta$.",
+    "explanation": "$F_x = 100 \\cos(0^\\circ) = 100(1) = 100 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KE",
+    "question": "Si un cuerpo tiene una masa de $50 \\text{ kg}$, ¿cuál es su peso considerando $g = 9.8 \\text{ m/s}^2$?",
+    "image": null,
+    "options": [
+      { "text": "$490 \\text{ N}$", "correct": true },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$5.1 \\text{ N}$", "correct": false },
+      { "text": "$4900 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El peso se calcula como $w = mg$.",
+    "explanation": "$w = (50)(9.8) = 490 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KF",
+    "question": "¿Cuál es la magnitud del vector resultante de la suma de dos fuerzas colineales que apuntan en la misma dirección, una de $40 \\text{ N}$ y otra de $30 \\text{ N}$?",
+    "image": null,
+    "options": [
+      { "text": "$70 \\text{ N}$", "correct": true },
+      { "text": "$10 \\text{ N}$", "correct": false },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$1200 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al ser colineales y del mismo sentido, las magnitudes se suman algebraicamente.",
+    "explanation": "$R = 40 + 30 = 70 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KG",
+    "question": "Un objeto es empujado con una fuerza neta de $200 \\text{ N}$ y adquiere una aceleración de $4 \\text{ m/s}^2$. ¿Cuál es la masa del objeto?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ kg}$", "correct": true },
+      { "text": "$800 \\text{ kg}$", "correct": false },
+      { "text": "$0.02 \\text{ kg}$", "correct": false },
+      { "text": "$204 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la masa de la fórmula $F = ma$.",
+    "explanation": "$m = F/a = 200 / 4 = 50 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KH",
+    "question": "Calcula la magnitud del vector $\\vec{V} = (3 \\text{ m}, 4 \\text{ m})$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m}$", "correct": true },
+      { "text": "$7 \\text{ m}$", "correct": false },
+      { "text": "$12 \\text{ m}$", "correct": false },
+      { "text": "$1 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el Teorema de Pitágoras: $|V| = \\sqrt{x^2 + y^2}$. Es un triángulo notable 3-4-5.",
+    "explanation": "$|V| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KI",
+    "question": "¿Cuál es la componente vertical ($F_y$) de una fuerza de $50 \\text{ N}$ aplicada a $90^\\circ$ (hacia arriba)?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$", "correct": true },
+      { "text": "$0 \\text{ N}$", "correct": false },
+      { "text": "$25 \\text{ N}$", "correct": false },
+      { "text": "$-50 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El seno de $90^\\circ$ es 1. La fuerza está totalmente sobre el eje Y.",
+    "explanation": "$F_y = 50 \\sin(90^\\circ) = 50(1) = 50 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KJ",
+    "question": "Calcula la aceleración de un bloque de $20 \\text{ kg}$ al que se le aplica una fuerza de $60 \\text{ N}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ m/s}^2$", "correct": true },
+      { "text": "$1200 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.33 \\text{ m/s}^2$", "correct": false },
+      { "text": "$40 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la aceleración de $F=ma$.",
+    "explanation": "$a = F/m = 60 / 20 = 3 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KK",
+    "question": "Si la masa de un objeto es de $100 \\text{ kg}$, ¿cuál es la magnitud de su peso en la Tierra ($g \\approx 10 \\text{ m/s}^2$)?",
+    "image": null,
+    "options": [
+      { "text": "$1000 \\text{ N}$", "correct": true },
+      { "text": "$10 \\text{ N}$", "correct": false },
+      { "text": "$100 \\text{ N}$", "correct": false },
+      { "text": "$0.1 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la masa por la gravedad.",
+    "explanation": "$w = 100 \\times 10 = 1000 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KL",
+    "question": "¿Cuál es la resultante de dos vectores de fuerza opuestos, uno de $15 \\text{ N}$ a la derecha y otro de $5 \\text{ N}$ a la izquierda?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$ a la derecha", "correct": true },
+      { "text": "$20 \\text{ N}$ a la derecha", "correct": false },
+      { "text": "$10 \\text{ N}$ a la izquierda", "correct": false },
+      { "text": "$20 \\text{ N}$ a la izquierda", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta las magnitudes manteniendo el sentido del vector mayor.",
+    "explanation": "$15 \\text{ N} - 5 \\text{ N} = 10 \\text{ N}$ en la dirección del mayor (derecha).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KM",
+    "question": "Un cuerpo de $12 \\text{ kg}$ es acelerado a un ritmo de $1.8 \\text{ m/s}^2$. Calcula la magnitud de la fuerza que lo acelera.",
+    "image": null,
+    "options": [
+      { "text": "$21.6 \\text{ N}$", "correct": true },
+      { "text": "$216 \\text{ N}$", "correct": false },
+      { "text": "$6.66 \\text{ N}$", "correct": false },
+      { "text": "$2.16 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $F=ma$. Realiza la multiplicación de $12 \\times 1.8$.",
+    "explanation": "$F = 12 \\times 1.8 = 21.6 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KN",
+    "question": "Sobre una masa de $50 \\text{ kg}$ actúa una fuerza de $200 \\text{ N}$. ¿Qué aceleración le proporciona dicha fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$100 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.25 \\text{ m/s}^2$", "correct": false },
+      { "text": "$250 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide la fuerza entre la masa.",
+    "explanation": "$a = 200 / 50 = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KO",
+    "question": "Se aplica una fuerza de $1000 \\text{ N}$ para acelerar una caja a un ritmo de $25 \\text{ m/s}^2$. ¿Cuál es la masa de la caja?",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ kg}$", "correct": true },
+      { "text": "$400 \\text{ kg}$", "correct": false },
+      { "text": "$25,000 \\text{ kg}$", "correct": false },
+      { "text": "$0.025 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la masa de $F=ma$ como $m=F/a$.",
+    "explanation": "$m = 1000 / 25 = 40 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KP",
+    "question": "Si el peso de un objeto en un planeta es de $800 \\text{ N}$ y la gravedad es $10 \\text{ m/s}^2$, ¿cuál es su masa?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ kg}$", "correct": true },
+      { "text": "$8000 \\text{ kg}$", "correct": false },
+      { "text": "$8 \\text{ kg}$", "correct": false },
+      { "text": "$0.08 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $m = w/g$.",
+    "explanation": "$m = 800 / 10 = 80 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KQ",
+    "question": "Determina las componentes de una fuerza $F = 50 \\text{ N}$ con ángulo de $180^\\circ$.",
+    "image": null,
+    "options": [
+      { "text": "$F_x = -50 \\text{ N}, F_y = 0 \\text{ N}$", "correct": true },
+      { "text": "$F_x = 50 \\text{ N}, F_y = 0 \\text{ N}$", "correct": false },
+      { "text": "$F_x = 0 \\text{ N}, F_y = -50 \\text{ N}$", "correct": false },
+      { "text": "$F_x = 0 \\text{ N}, F_y = 50 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El ángulo de $180^\\circ$ apunta completamente hacia la izquierda en el eje X.",
+    "explanation": "$\\\\cos(180^\\circ) = -1$, $\\sin(180^\\circ) = 0$. $F_x = -50$, $F_y = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KR",
+    "question": "Determina las componentes de una fuerza $F = 20 \\text{ N}$ con ángulo de $270^\\circ$.",
+    "image": null,
+    "options": [
+      { "text": "$F_x = 0 \\text{ N}, F_y = -20 \\text{ N}$", "correct": true },
+      { "text": "$F_x = -20 \\text{ N}, F_y = 0 \\text{ N}$", "correct": false },
+      { "text": "$F_x = 0 \\text{ N}, F_y = 20 \\text{ N}$", "correct": false },
+      { "text": "$F_x = 20 \\text{ N}, F_y = 0 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El ángulo de $270^\\circ$ apunta completamente hacia abajo en el eje Y.",
+    "explanation": "$\\cos(270^\\circ) = 0$, $\\sin(270^\\circ) = -1$. $F_x = 0$, $F_y = -20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KS",
+    "question": "¿Cuál es la magnitud del vector $\\vec{A} = (-6 \\text{ m}, -8 \\text{ m})$?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": true },
+      { "text": "$14 \\text{ m}$", "correct": false },
+      { "text": "$-10 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las magnitudes siempre son positivas. Usa Pitágoras: $\\sqrt{(-6)^2 + (-8)^2}$.",
+    "explanation": "$\\sqrt{36 + 64} = \\sqrt{100} = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KT",
+    "question": "La unidad de fuerza 'Newton' ($N$) es equivalente a:",
+    "image": null,
+    "options": [
+      { "text": "$kg \\cdot m/s^2$", "correct": true },
+      { "text": "$kg \\cdot m/s$", "correct": false },
+      { "text": "$kg^2 \\cdot m/s^2$", "correct": false },
+      { "text": "$kg \\cdot m^2/s^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Viene de la fórmula $F = ma$ (masa por aceleración).",
+    "explanation": "Masa ($kg$) multiplicada por aceleración ($m/s^2$) da como resultado $kg \\cdot m/s^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KU",
+    "question": "Calcula la componente vertical ($F_y$) de una fuerza de $100 \\text{ N}$ aplicada a un ángulo de $30^\\circ$ con respecto a la horizontal.",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$", "correct": true },
+      { "text": "$86.6 \\text{ N}$", "correct": false },
+      { "text": "$100 \\text{ N}$", "correct": false },
+      { "text": "$70.7 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $F_y = F \\sin \\theta$. Recuerda que $\\sin(30^\\circ) = 0.5$.",
+    "explanation": "$F_y = 100 \\sin(30^\\circ) = 100(0.5) = 50 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KV",
+    "question": "Calcula la componente horizontal ($F_x$) de una fuerza de $200 \\text{ N}$ aplicada a un ángulo de $60^\\circ$ con respecto a la horizontal.",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ N}$", "correct": true },
+      { "text": "$173.2 \\text{ N}$", "correct": false },
+      { "text": "$200 \\text{ N}$", "correct": false },
+      { "text": "$141.4 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $F_x = F \\cos \\theta$. Recuerda que $\\cos(60^\\circ) = 0.5$.",
+    "explanation": "$F_x = 200 \\cos(60^\\circ) = 200(0.5) = 100 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KW",
+    "question": "Encuentra la magnitud de la fuerza resultante de dos vectores perpendiculares: $F_1 = 30 \\text{ N}$ (en X) y $F_2 = 40 \\text{ N}$ (en Y).",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$", "correct": true },
+      { "text": "$70 \\text{ N}$", "correct": false },
+      { "text": "$10 \\text{ N}$", "correct": false },
+      { "text": "$1200 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Al ser perpendiculares, usa el Teorema de Pitágoras.",
+    "explanation": "$R = \\sqrt{30^2 + 40^2} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KX",
+    "question": "Determina la componente horizontal ($F_x$) de una fuerza $F = 10\\sqrt{2} \\text{ N}$ a $45^\\circ$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$10\\sqrt{2} \\text{ N}$", "correct": false },
+      { "text": "$20 \\text{ N}$", "correct": false },
+      { "text": "$5 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "$\\cos(45^\\circ) = 1/\\sqrt{2}$ o $\\sqrt{2}/2$.",
+    "explanation": "$F_x = 10\\sqrt{2} \\times (1/\\sqrt{2}) = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KY",
+    "question": "Sobre un cuerpo actúan dos fuerzas: $F_1 = (150 \\text{ N}, 90^\\circ)$ y $F_2 = (80 \\text{ N}, 0^\\circ)$. ¿Cuál es la magnitud de la fuerza resultante?",
+    "image": null,
+    "options": [
+      { "text": "$170 \\text{ N}$", "correct": true },
+      { "text": "$230 \\text{ N}$", "correct": false },
+      { "text": "$70 \\text{ N}$", "correct": false },
+      { "text": "$80 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Las fuerzas son perpendiculares entre sí (una en Y, otra en X).",
+    "explanation": "$R = \\sqrt{150^2 + 80^2} = \\sqrt{22500 + 6400} = \\sqrt{28900} = 170 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KZ",
+    "question": "Un bloque de masa $m$ se desliza sin fricción por un plano inclinado a $30^\\circ$. ¿Cuál es la magnitud de la fuerza paralela al plano que lo hace descender?",
+    "image": null,
+    "options": [
+      { "text": "$0.5 mg$", "correct": true },
+      { "text": "$0.866 mg$", "correct": false },
+      { "text": "$mg$", "correct": false },
+      { "text": "$2 mg$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La componente del peso paralela al plano es $w_x = mg \\sin \\theta$.",
+    "explanation": "$F = mg \\sin(30^\\circ) = 0.5 mg$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LA",
+    "question": "Calcula la fuerza normal que ejerce un plano inclinado a $60^\\circ$ sobre un bloque de masa $m$.",
+    "image": null,
+    "options": [
+      { "text": "$0.5 mg$", "correct": true },
+      { "text": "$0.866 mg$", "correct": false },
+      { "text": "$mg$", "correct": false },
+      { "text": "$2 mg$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La normal equilibra a la componente perpendicular del peso: $w_y = mg \\cos \\theta$.",
+    "explanation": "$N = mg \\cos(60^\\circ) = 0.5 mg$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LB",
+    "question": "Sobre un cuerpo de masa $m$ actúa una fuerza $F$ generando una aceleración de $6 \\text{ m/s}^2$. Si la fuerza se duplica ($2F$) y la masa se reduce a la mitad ($m/2$), ¿cuál es la nueva aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$24 \\text{ m/s}^2$", "correct": true },
+      { "text": "$12 \\text{ m/s}^2$", "correct": false },
+      { "text": "$6 \\text{ m/s}^2$", "correct": false },
+      { "text": "$3 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Relación proporcional: $a = F/m$. Nueva $a' = (2F) / (m/2)$.",
+    "explanation": "$a' = 2F / (0.5m) = 4(F/m) = 4a$. Si $a=6$, entonces $4 \\times 6 = 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LC",
+    "question": "Un cuerpo es acelerado por una fuerza $F$. Si triplicamos la masa del cuerpo manteniendo la fuerza constante, ¿qué sucede con la aceleración?",
+    "image": null,
+    "options": [
+      { "text": "Se reduce a la tercera parte", "correct": true },
+      { "text": "Se triplica", "correct": false },
+      { "text": "Se mantiene igual", "correct": false },
+      { "text": "Se reduce a la novena parte", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La aceleración es inversamente proporcional a la masa ($a = F/m$).",
+    "explanation": "$a' = F / (3m) = (1/3) (F/m) = a/3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LD",
+    "question": "Un bloque de $10 \\text{ kg}$ descansa sobre una superficie horizontal con coeficiente de fricción cinético $\\mu_k = 0.2$. ¿Cuál es la magnitud de la fuerza de fricción que actúa si el bloque se mueve?",
+    "image": null,
+    "options": [
+      { "text": "$19.6 \\text{ N}$", "correct": true },
+      { "text": "$98 \\text{ N}$", "correct": false },
+      { "text": "$2 \\text{ N}$", "correct": false },
+      { "text": "$0.2 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Fuerza de fricción $f_k = \\mu_k N$. En superficie horizontal $N = mg = 10 \\times 9.8$.",
+    "explanation": "$N = 98 \\text{ N}$. $f_k = 0.2 \\times 98 = 19.6 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LE",
+    "question": "Para mover un bloque de $5 \\text{ kg}$ a velocidad constante sobre una superficie horizontal con $\\mu_k = 0.4$, ¿qué fuerza horizontal se debe aplicar? ($g=10 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ N}$", "correct": true },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$2 \\text{ N}$", "correct": false },
+      { "text": "$5 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "A velocidad constante, la aceleración es 0, por lo tanto $F_{aplicada} = F_{fricción}$.",
+    "explanation": "$N = mg = 5 \\times 10 = 50 \\text{ N}$. $F_f = \\mu N = 0.4 \\times 50 = 20 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LF",
+    "question": "Dados los vectores $\\vec{A} = (2, 5)$ y $\\vec{B} = (4, -2)$, calcula la magnitud del vector resultante $\\vec{R} = \\vec{A} + \\vec{B}$.",
+    "image": null,
+    "options": [
+      { "text": "$3\\sqrt{5}$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$45$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma componente a componente: $R_x = 2+4$, $R_y = 5-2$. Luego calcula la magnitud.",
+    "explanation": "$\\vec{R} = (6, 3)$. Magnitud = $\\sqrt{6^2 + 3^2} = \\sqrt{36 + 9} = \\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LG",
+    "question": "Si $\\vec{F}_1 = (10 \\text{ N}, 30^\\circ)$ y $\\vec{F}_2 = (10 \\text{ N}, 150^\\circ)$, ¿cuál es la magnitud de la fuerza resultante?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$20 \\text{ N}$", "correct": false },
+      { "text": "$10\\sqrt{3} \\text{ N}$", "correct": false },
+      { "text": "$0 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Nota la simetría. Las componentes en X se cancelan ($10\\cos30$ y $10\\cos150 = -10\\cos30$). Las componentes en Y se suman.",
+    "explanation": "$F_x = 0$. $F_y = 10\\sin30 + 10\\sin150 = 10(0.5) + 10(0.5) = 5 + 5 = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LH",
+    "question": "¿Cuál es el ángulo de un vector cuyas componentes son $F_x = 10 \\text{ N}$ y $F_y = 10 \\text{ N}$?",
+    "image": null,
+    "options": [
+      { "text": "$45^\\circ$", "correct": true },
+      { "text": "$30^\\circ$", "correct": false },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $\\tan \\theta = F_y / F_x$.",
+    "explanation": "$\\tan \\theta = 10/10 = 1$. El ángulo cuya tangente es 1 es $45^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LI",
+    "question": "¿Cuál es el ángulo de un vector con componentes $F_x = 10\\sqrt{3} \\text{ N}$ y $F_y = 10 \\text{ N}$?",
+    "image": null,
+    "options": [
+      { "text": "$30^\\circ$", "correct": true },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$45^\\circ$", "correct": false },
+      { "text": "$120^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la tangente: $10 / (10\\sqrt{3}) = 1/\\sqrt{3}$.",
+    "explanation": "La tangente vale $1/\\sqrt{3}$ (o $\\sqrt{3}/3$) para $30^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LJ",
+    "question": "Tres fuerzas actúan sobre un cuerpo en equilibrio. Si $F_1 = 50 \\text{ N}$ a la derecha y $F_2 = 30 \\text{ N}$ a la izquierda, ¿cuánto vale la tercera fuerza $F_3$?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ N}$ a la izquierda", "correct": true },
+      { "text": "$20 \\text{ N}$ a la derecha", "correct": false },
+      { "text": "$80 \\text{ N}$ a la izquierda", "correct": false },
+      { "text": "$80 \\text{ N}$ a la derecha", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que esté en equilibrio, la suma vectorial debe ser cero.",
+    "explanation": "Resultante actual = $50 - 30 = 20 \\text{ N}$ (derecha). Se necesita una fuerza de $20 \\text{ N}$ a la izquierda para cancelar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LK",
+    "question": "Un elevador de $1000 \\text{ kg}$ sube acelerando a $2 \\text{ m/s}^2$. ¿Cuál es la tensión en el cable? ($g=10 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$12,000 \\text{ N}$", "correct": true },
+      { "text": "$8,000 \\text{ N}$", "correct": false },
+      { "text": "$10,000 \\text{ N}$", "correct": false },
+      { "text": "$2,000 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La tensión debe vencer el peso y además acelerar la masa: $T = mg + ma = m(g+a)$.",
+    "explanation": "$T = 1000(10 + 2) = 1000(12) = 12,000 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LL",
+    "question": "Un elevador de $1000 \\text{ kg}$ baja acelerando a $2 \\text{ m/s}^2$. ¿Cuál es la tensión en el cable? ($g=10 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$8,000 \\text{ N}$", "correct": true },
+      { "text": "$12,000 \\text{ N}$", "correct": false },
+      { "text": "$10,000 \\text{ N}$", "correct": false },
+      { "text": "$2,000 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Al bajar acelerando, la tensión es menor que el peso: $mg - T = ma \\Rightarrow T = m(g-a)$.",
+    "explanation": "$T = 1000(10 - 2) = 1000(8) = 8,000 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
