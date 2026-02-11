@@ -1,0 +1,1805 @@
+{
+  "file_name": "banco_ejercicios_acredita_bach.json",
+  "content": [
+    {
+      "id": "CEP00AA",
+      "question": "¿Cuál es el resultado de la operación aritmética $5 + (3 \\times 4) - 2$?",
+      "image": null,
+      "options": [
+        { "text": "15", "correct": true },
+        { "text": "30", "correct": false },
+        { "text": "10", "correct": false },
+        { "text": "20", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Recuerda la jerarquía de operaciones: primero paréntesis y multiplicaciones, luego sumas y restas.",
+      "explanation": "Primero multiplicamos $3 \\times 4 = 12$. Luego sumamos y restamos: $5 + 12 - 2 = 15$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AB",
+      "question": "Si un pantalón cuesta $\\$200$ y tiene un descuento del $20\\%$, ¿cuánto se paga por él?",
+      "image": null,
+      "options": [
+        { "text": "$160", "correct": true },
+        { "text": "$180", "correct": false },
+        { "text": "$40", "correct": false },
+        { "text": "$140", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Calcula primero cuánto dinero representa el $20\\%$ de $200$.",
+      "explanation": "El $10\\%$ de $200$ es $20$, por lo que el $20\\%$ es $40$. Restamos el descuento al precio original: $200 - 40 = 160$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AC",
+      "question": "¿Cuál es el valor de $x$ en la ecuación lineal $2x - 4 = 10$?",
+      "image": null,
+      "options": [
+        { "text": "7", "correct": true },
+        { "text": "3", "correct": false },
+        { "text": "14", "correct": false },
+        { "text": "6", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Despeja la incógnita sumando 4 a ambos lados y luego dividiendo entre 2.",
+      "explanation": "$2x = 10 + 4 \\rightarrow 2x = 14 \\rightarrow x = 14/2 \\rightarrow x = 7$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AD",
+      "question": "Calcula el área de un rectángulo que tiene una base de $10 \\text{ m}$ y una altura de $5 \\text{ m}$.",
+      "image": null,
+      "options": [
+        { "text": "$50 \\text{ m}^2$", "correct": true },
+        { "text": "$30 \\text{ m}^2$", "correct": false },
+        { "text": "$15 \\text{ m}^2$", "correct": false },
+        { "text": "$25 \\text{ m}^2$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "La fórmula del área del rectángulo es $A = \\text{base} \\times \\text{altura}$.",
+      "explanation": "Multiplicamos la base por la altura: $10 \\times 5 = 50$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AE",
+      "question": "En estadística, ¿cómo se llama al valor que más se repite en un conjunto de datos?",
+      "image": null,
+      "options": [
+        { "text": "Moda", "correct": true },
+        { "text": "Media", "correct": false },
+        { "text": "Mediana", "correct": false },
+        { "text": "Promedio", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el dato con mayor frecuencia absoluta.",
+      "explanation": "La moda es el estadístico que representa el elemento más frecuente en una distribución de datos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AF",
+      "question": "¿Cuál es la expresión algebraica para 'el doble de un número más cinco'?",
+      "image": null,
+      "options": [
+        { "text": "$2x + 5$", "correct": true },
+        { "text": "$x^2 + 5$", "correct": false },
+        { "text": "$2(x + 5)$", "correct": false },
+        { "text": "$x + 10$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Representa el número desconocido con una letra, multiplícalo por dos y suma cinco.",
+      "explanation": "'El doble de un número' es $2x$, y 'más cinco' agrega $+5$. Resultado: $2x + 5$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AG",
+      "question": "Si lanzas una moneda al aire, ¿cuál es la probabilidad de que caiga águila?",
+      "image": null,
+      "options": [
+        { "text": "$50\\%$", "correct": true },
+        { "text": "$25\\%$", "correct": false },
+        { "text": "$100\\%$", "correct": false },
+        { "text": "$75\\%$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Hay dos resultados posibles y solo uno favorable.",
+      "explanation": "La probabilidad es 1 de 2, es decir $1/2$ o $0.5$, que equivale al $50\\%$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AH",
+      "question": "¿Cuál es el perímetro de un cuadrado cuyo lado mide $4 \\text{ cm}$?",
+      "image": null,
+      "options": [
+        { "text": "$16 \\text{ cm}$", "correct": true },
+        { "text": "$8 \\text{ cm}$", "correct": false },
+        { "text": "$12 \\text{ cm}$", "correct": false },
+        { "text": "$20 \\text{ cm}$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "El perímetro es la suma de todos los lados. Un cuadrado tiene 4 lados iguales.",
+      "explanation": "Multiplicamos la medida del lado por 4: $4 \\times 4 = 16$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AI",
+      "question": "Resuelve la siguiente suma de fracciones: $\\frac{1}{2} + \\frac{1}{4}$.",
+      "image": null,
+      "options": [
+        { "text": "$\\frac{3}{4}$", "correct": true },
+        { "text": "$\\frac{2}{6}$", "correct": false },
+        { "text": "$\\frac{1}{6}$", "correct": false },
+        { "text": "$\\frac{2}{4}$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Convierte $\\frac{1}{2}$ a cuartos para tener el mismo denominador.",
+      "explanation": "$\\frac{1}{2}$ es igual a $\\frac{2}{4}$. Entonces $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AJ",
+      "question": "¿Qué establece el Teorema de Pitágoras para un triángulo rectángulo con catetos $a$, $b$ e hipotenusa $c$?",
+      "image": null,
+      "options": [
+        { "text": "$c^2 = a^2 + b^2$", "correct": true },
+        { "text": "$c = a + b$", "correct": false },
+        { "text": "$c^2 = a^2 - b^2$", "correct": false },
+        { "text": "$a^2 = b^2 + c^2$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "La suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa.",
+      "explanation": "La relación fundamental en triángulos rectángulos es que el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AK",
+      "question": "Identifica cuál de los siguientes números es un número primo.",
+      "image": null,
+      "options": [
+        { "text": "7", "correct": true },
+        { "text": "4", "correct": false },
+        { "text": "9", "correct": false },
+        { "text": "15", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es un número que solo tiene dos divisores: el 1 y él mismo.",
+      "explanation": "El 7 solo puede dividirse de forma exacta entre 1 y 7. Los demás tienen más divisores.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AL",
+      "question": "¿Cómo se representa el punto $(3, -2)$ en el plano cartesiano?",
+      "image": null,
+      "options": [
+        { "text": "3 unidades a la derecha y 2 hacia abajo", "correct": true },
+        { "text": "3 unidades a la izquierda y 2 hacia arriba", "correct": false },
+        { "text": "3 unidades a la derecha y 2 hacia arriba", "correct": false },
+        { "text": "3 unidades a la izquierda y 2 hacia abajo", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "El primer número es el eje X (horizontal) y el segundo el eje Y (vertical).",
+      "explanation": "El valor positivo en X indica derecha, el valor negativo en Y indica abajo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AM",
+      "question": "Calcula el valor de $3^3$.",
+      "image": null,
+      "options": [
+        { "text": "27", "correct": true },
+        { "text": "9", "correct": false },
+        { "text": "6", "correct": false },
+        { "text": "18", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Multiplica la base por sí misma el número de veces que indica el exponente: $3 \\times 3 \\times 3$.",
+      "explanation": "$3 \\times 3 = 9$, y $9 \\times 3 = 27$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AN",
+      "question": "¿Cuál es la raíz cuadrada de $64$?",
+      "image": null,
+      "options": [
+        { "text": "8", "correct": true },
+        { "text": "32", "correct": false },
+        { "text": "16", "correct": false },
+        { "text": "6", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Busca un número que multiplicado por sí mismo dé 64.",
+      "explanation": "$8 \\times 8 = 64$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AO",
+      "question": "Si $y = 2x + 1$, ¿cuál es el valor de $y$ cuando $x = 0$?",
+      "image": null,
+      "options": [
+        { "text": "1", "correct": true },
+        { "text": "0", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Sustituye la $x$ por $0$ en la ecuación.",
+      "explanation": "$y = 2(0) + 1 = 0 + 1 = 1$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AP",
+      "question": "Simplifica la expresión: $3a + 2b - a$.",
+      "image": null,
+      "options": [
+        { "text": "$2a + 2b$", "correct": true },
+        { "text": "$2a - 2b$", "correct": false },
+        { "text": "$4a + 2b$", "correct": false },
+        { "text": "$3a + b$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Agrupa los términos semejantes (los que tienen la letra 'a').",
+      "explanation": "$3a - a = 2a$. El término $2b$ queda igual. Resultado: $2a + 2b$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AQ",
+      "question": "¿Cuántos grados suman los ángulos internos de un triángulo?",
+      "image": null,
+      "options": [
+        { "text": "$180^\\circ$", "correct": true },
+        { "text": "$360^\\circ$", "correct": false },
+        { "text": "$90^\\circ$", "correct": false },
+        { "text": "$270^\\circ$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es una propiedad fundamental de todos los triángulos planos.",
+      "explanation": "La suma de los ángulos internos de cualquier triángulo es siempre $180^\\circ$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AR",
+      "question": "Convierte la fracción $\\frac{3}{5}$ a decimal.",
+      "image": null,
+      "options": [
+        { "text": "0.6", "correct": true },
+        { "text": "0.3", "correct": false },
+        { "text": "0.5", "correct": false },
+        { "text": "0.75", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Divide el numerador (3) entre el denominador (5).",
+      "explanation": "$3 \\div 5 = 0.6$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AS",
+      "question": "En la expresión $x^5$, ¿qué nombre recibe el número 5?",
+      "image": null,
+      "options": [
+        { "text": "Exponente", "correct": true },
+        { "text": "Base", "correct": false },
+        { "text": "Coeficiente", "correct": false },
+        { "text": "Variable", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el número pequeño arriba a la derecha que indica cuántas veces se multiplica la base.",
+      "explanation": "En una potencia, el número superior es el exponente y el inferior es la base.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AT",
+      "question": "¿Cuál es el resultado de la multiplicación de signos: $(-5) \\times (-3)$?",
+      "image": null,
+      "options": [
+        { "text": "15", "correct": true },
+        { "text": "-15", "correct": false },
+        { "text": "-8", "correct": false },
+        { "text": "8", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Recuerda la ley de signos: menos por menos da más.",
+      "explanation": "El producto de dos números negativos es positivo. $5 \\times 3 = 15$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AU",
+      "question": "Calcula el volumen de un cubo que tiene $3 \\text{ m}$ de lado.",
+      "image": null,
+      "options": [
+        { "text": "$27 \\text{ m}^3$", "correct": true },
+        { "text": "$9 \\text{ m}^3$", "correct": false },
+        { "text": "$18 \\text{ m}^3$", "correct": false },
+        { "text": "$12 \\text{ m}^3$", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "El volumen del cubo es lado por lado por lado ($L^3$).",
+      "explanation": "$3 \\times 3 \\times 3 = 27$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AV",
+      "question": "¿Qué es una variable en álgebra?",
+      "image": null,
+      "options": [
+        { "text": "Una letra que representa un valor desconocido", "correct": true },
+        { "text": "Un número fijo", "correct": false },
+        { "text": "El resultado de una suma", "correct": false },
+        { "text": "Un símbolo de operación", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Suele representarse con letras como $x$, $y$ o $z$.",
+      "explanation": "Las variables son símbolos (generalmente letras) que se usan para representar números cuyo valor puede cambiar o es desconocido.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AW",
+      "question": "Resuelve la regla de tres simple: Si 2 kilos de manzanas cuestan $\\$40$, ¿cuánto cuestan 5 kilos?",
+      "image": null,
+      "options": [
+        { "text": "$100", "correct": true },
+        { "text": "$80", "correct": false },
+        { "text": "$120", "correct": false },
+        { "text": "$200", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Primero encuentra el precio de un kilo dividiendo 40 entre 2.",
+      "explanation": "Cada kilo cuesta $\\$20$. Multiplicamos $20 \\times 5 = 100$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AX",
+      "question": "En el número $3.1416$, ¿qué lugar ocupa el número 4?",
+      "image": null,
+      "options": [
+        { "text": "Centésimas", "correct": true },
+        { "text": "Décimas", "correct": false },
+        { "text": "Milésimas", "correct": false },
+        { "text": "Unidades", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es la segunda posición después del punto decimal.",
+      "explanation": "El 1 está en décimas, el 4 en centésimas, el 1 en milésimas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AY",
+      "question": "¿Cuál es la media (promedio) de los siguientes datos: 2, 4, 6, 8?",
+      "image": null,
+      "options": [
+        { "text": "5", "correct": true },
+        { "text": "4", "correct": false },
+        { "text": "6", "correct": false },
+        { "text": "20", "correct": false }
+      ],
+      "uni_tags": ["MATEMÁTICAS"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Suma todos los números y divide entre la cantidad de datos (4).",
+      "explanation": "Suma: $2+4+6+8 = 20$. División: $20 / 4 = 5$.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00AZ",
+      "question": "¿Cuál es la unidad básica de la vida?",
+      "image": null,
+      "options": [
+        { "text": "La célula", "correct": true },
+        { "text": "El tejido", "correct": false },
+        { "text": "El órgano", "correct": false },
+        { "text": "El átomo", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es la estructura funcional y anatómica más pequeña de los seres vivos.",
+      "explanation": "La célula es la unidad fundamental de estructura y función de todos los seres vivos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BA",
+      "question": "¿Qué partícula subatómica tiene carga positiva?",
+      "image": null,
+      "options": [
+        { "text": "Protón", "correct": true },
+        { "text": "Electrón", "correct": false },
+        { "text": "Neutrón", "correct": false },
+        { "text": "Fotón", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Se encuentra en el núcleo del átomo.",
+      "explanation": "Los protones tienen carga positiva, los electrones negativa y los neutrones no tienen carga.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BB",
+      "question": "En física, ¿cómo se define la velocidad?",
+      "image": null,
+      "options": [
+        { "text": "Distancia recorrida por unidad de tiempo", "correct": true },
+        { "text": "Cambio de velocidad por tiempo", "correct": false },
+        { "text": "Masa por aceleración", "correct": false },
+        { "text": "Fuerza por distancia", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su fórmula es $v = d/t$.",
+      "explanation": "La velocidad mide cuánto se desplaza un objeto en un tiempo determinado.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BC",
+      "question": "¿Cuál es el símbolo químico del Oxígeno?",
+      "image": null,
+      "options": [
+        { "text": "O", "correct": true },
+        { "text": "Ox", "correct": false },
+        { "text": "Og", "correct": false },
+        { "text": "On", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es la primera letra de su nombre.",
+      "explanation": "El símbolo químico del oxígeno es la letra O mayúscula.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BD",
+      "question": "¿Qué organelo celular se encarga de la producción de energía (respiración celular)?",
+      "image": null,
+      "options": [
+        { "text": "Mitocondria", "correct": true },
+        { "text": "Ribosoma", "correct": false },
+        { "text": "Lisosoma", "correct": false },
+        { "text": "Aparato de Golgi", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Se le conoce como la 'central energética' de la célula.",
+      "explanation": "Las mitocondrias generan la mayor parte del suministro de adenosina trifosfato (ATP), la fuente de energía química.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BE",
+      "question": "En la escala de pH, ¿qué valor se considera neutro?",
+      "image": null,
+      "options": [
+        { "text": "7", "correct": true },
+        { "text": "0", "correct": false },
+        { "text": "14", "correct": false },
+        { "text": "10", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el punto medio de la escala que va de 0 a 14.",
+      "explanation": "El pH 7 se considera neutro (como el agua pura). Menor a 7 es ácido y mayor a 7 es base.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BF",
+      "question": "La Ley de la Inercia corresponde a la:",
+      "image": null,
+      "options": [
+        { "text": "Primera Ley de Newton", "correct": true },
+        { "text": "Segunda Ley de Newton", "correct": false },
+        { "text": "Tercera Ley de Newton", "correct": false },
+        { "text": "Ley de Ohm", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Establece que todo cuerpo permanece en reposo o movimiento rectilíneo uniforme a menos que una fuerza actúe sobre él.",
+      "explanation": "La Primera Ley de Newton es conocida como la Ley de la Inercia.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BG",
+      "question": "¿Qué es la fotosíntesis?",
+      "image": null,
+      "options": [
+        { "text": "Proceso por el cual las plantas producen su alimento usando luz solar", "correct": true },
+        { "text": "La respiración de los animales", "correct": false },
+        { "text": "La reproducción celular", "correct": false },
+        { "text": "La descomposición de materia orgánica", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Involucra clorofila y la conversión de energía luminosa en química.",
+      "explanation": "Es el proceso bioquímico mediante el cual las plantas convierten dióxido de carbono y agua en glucosa y oxígeno utilizando luz.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BH",
+      "question": "Identifica un cambio de estado físico de sólido a líquido.",
+      "image": null,
+      "options": [
+        { "text": "Fusión", "correct": true },
+        { "text": "Evaporación", "correct": false },
+        { "text": "Condensación", "correct": false },
+        { "text": "Sublimación", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Ocurre cuando el hielo se derrite.",
+      "explanation": "La fusión es el paso de una sustancia del estado sólido al estado líquido por acción del calor.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BI",
+      "question": "¿Cuál es la unidad de medida de la fuerza en el Sistema Internacional?",
+      "image": null,
+      "options": [
+        { "text": "Newton", "correct": true },
+        { "text": "Joule", "correct": false },
+        { "text": "Watt", "correct": false },
+        { "text": "Pascal", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Lleva el apellido del físico que formuló las leyes del movimiento.",
+      "explanation": "El Newton (N) es la unidad de fuerza.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BJ",
+      "question": "En una mezcla homogénea:",
+      "image": null,
+      "options": [
+        { "text": "No se distinguen sus componentes a simple vista", "correct": true },
+        { "text": "Se pueden separar sus componentes con la mano", "correct": false },
+        { "text": "Se distinguen claramente las fases", "correct": false },
+        { "text": "Sus componentes reaccionan químicamente", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Un ejemplo es el agua con sal disuelta.",
+      "explanation": "Las mezclas homogéneas tienen una apariencia uniforme y sus componentes no son visibles individualmente.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BK",
+      "question": "¿Qué molécula contiene la información genética en la mayoría de los seres vivos?",
+      "image": null,
+      "options": [
+        { "text": "ADN", "correct": true },
+        { "text": "ARN", "correct": false },
+        { "text": "Proteína", "correct": false },
+        { "text": "Lípido", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Son las siglas de Ácido Desoxirribonucleico.",
+      "explanation": "El ADN almacena las instrucciones genéticas usadas en el desarrollo y funcionamiento de los organismos vivos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BL",
+      "question": "El agua ($H_2O$) es un ejemplo de:",
+      "image": null,
+      "options": [
+        { "text": "Compuesto", "correct": true },
+        { "text": "Elemento", "correct": false },
+        { "text": "Mezcla", "correct": false },
+        { "text": "Átomo", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Está formada por la unión química de dos elementos diferentes.",
+      "explanation": "Un compuesto es una sustancia formada por la unión de dos o más elementos en proporciones fijas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BM",
+      "question": "¿Qué estudia la Ecología?",
+      "image": null,
+      "options": [
+        { "text": "Las relaciones entre los seres vivos y su entorno", "correct": true },
+        { "text": "La estructura interna de la Tierra", "correct": false },
+        { "text": "Los cuerpos celestes y el universo", "correct": false },
+        { "text": "La composición química de las rocas", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Viene de 'oikos' que significa casa.",
+      "explanation": "La ecología es la rama de la biología que estudia las interacciones de los seres vivos entre sí y con su medio ambiente.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BN",
+      "question": "¿Cuál es el planeta más cercano al Sol?",
+      "image": null,
+      "options": [
+        { "text": "Mercurio", "correct": true },
+        { "text": "Venus", "correct": false },
+        { "text": "Tierra", "correct": false },
+        { "text": "Marte", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el planeta más pequeño del sistema solar.",
+      "explanation": "Mercurio es el primer planeta del sistema solar en orden de distancia al Sol.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BO",
+      "question": "La energía cinética es la energía asociada a:",
+      "image": null,
+      "options": [
+        { "text": "El movimiento", "correct": true },
+        { "text": "La altura", "correct": false },
+        { "text": "El calor", "correct": false },
+        { "text": "La electricidad", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Depende de la velocidad del objeto.",
+      "explanation": "La energía cinética es aquella que posee un cuerpo debido a su movimiento.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BP",
+      "question": "¿Qué gas es indispensable para la respiración de los seres humanos?",
+      "image": null,
+      "options": [
+        { "text": "Oxígeno", "correct": true },
+        { "text": "Nitrógeno", "correct": false },
+        { "text": "Dióxido de carbono", "correct": false },
+        { "text": "Helio", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Lo obtenemos del aire al inhalar.",
+      "explanation": "El oxígeno es vital para la respiración celular y la producción de energía en el cuerpo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BQ",
+      "question": "¿Cómo se llama el proceso de división celular que produce células sexuales (gametos)?",
+      "image": null,
+      "options": [
+        { "text": "Meiosis", "correct": true },
+        { "text": "Mitosis", "correct": false },
+        { "text": "Fisión binaria", "correct": false },
+        { "text": "Gemación", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Reduce el número de cromosomas a la mitad.",
+      "explanation": "La meiosis es el proceso de división celular que da lugar a células con la mitad de la carga genética (haploides).",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BR",
+      "question": "¿Qué instrumento se utiliza para medir la temperatura?",
+      "image": null,
+      "options": [
+        { "text": "Termómetro", "correct": true },
+        { "text": "Barómetro", "correct": false },
+        { "text": "Anemómetro", "correct": false },
+        { "text": "Cronómetro", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su nombre contiene la raíz 'termo' que significa calor.",
+      "explanation": "El termómetro es el instrumento diseñado para medir la temperatura.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BS",
+      "question": "En la tabla periódica, ¿qué son los grupos o familias?",
+      "image": null,
+      "options": [
+        { "text": "Las columnas verticales", "correct": true },
+        { "text": "Las filas horizontales", "correct": false },
+        { "text": "Los elementos metálicos", "correct": false },
+        { "text": "Los gases nobles únicamente", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Son las líneas que van de arriba hacia abajo.",
+      "explanation": "Los grupos son las columnas verticales de la tabla periódica y contienen elementos con propiedades químicas similares.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BT",
+      "question": "¿Qué es la materia?",
+      "image": null,
+      "options": [
+        { "text": "Todo lo que tiene masa y ocupa un lugar en el espacio", "correct": true },
+        { "text": "Solo los objetos sólidos", "correct": false },
+        { "text": "La energía pura", "correct": false },
+        { "text": "El vacío", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es de lo que están hechas todas las cosas tangibles.",
+      "explanation": "Materia es cualquier cosa que tenga masa y volumen.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BU",
+      "question": "¿Cuál es la función principal de los glóbulos rojos?",
+      "image": null,
+      "options": [
+        { "text": "Transportar oxígeno", "correct": true },
+        { "text": "Defender al cuerpo de infecciones", "correct": false },
+        { "text": "Coagular la sangre", "correct": false },
+        { "text": "Digirir alimentos", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Contienen hemoglobina que se une al oxígeno.",
+      "explanation": "Los glóbulos rojos o eritrocitos transportan oxígeno desde los pulmones a los tejidos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BV",
+      "question": "¿Qué establece la ley de la conservación de la materia?",
+      "image": null,
+      "options": [
+        { "text": "La materia no se crea ni se destruye, solo se transforma", "correct": true },
+        { "text": "La materia desaparece en las reacciones químicas", "correct": false },
+        { "text": "La materia se crea de la nada", "correct": false },
+        { "text": "La materia siempre aumenta su masa", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS EXPERIMENTALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Atribuida a Lavoisier.",
+      "explanation": "En una reacción química ordinaria, la masa total de los reactivos es igual a la masa total de los productos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BW",
+      "question": "¿Cuál es la capital de los Estados Unidos Mexicanos?",
+      "image": null,
+      "options": [
+        { "text": "Ciudad de México", "correct": true },
+        { "text": "Guadalajara", "correct": false },
+        { "text": "Monterrey", "correct": false },
+        { "text": "Puebla", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es la sede de los poderes de la Unión.",
+      "explanation": "La Ciudad de México (CDMX) es la capital y sede de los poderes federales de México.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BX",
+      "question": "¿Quién inició la lucha por la Independencia de México en 1810?",
+      "image": null,
+      "options": [
+        { "text": "Miguel Hidalgo y Costilla", "correct": true },
+        { "text": "Benito Juárez", "correct": false },
+        { "text": "Porfirio Díaz", "correct": false },
+        { "text": "Francisco I. Madero", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es conocido como el 'Padre de la Patria' y dio el Grito de Dolores.",
+      "explanation": "Miguel Hidalgo inició el movimiento de independencia la madrugada del 16 de septiembre de 1810.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BY",
+      "question": "¿Qué documento establece las leyes fundamentales de México?",
+      "image": null,
+      "options": [
+        { "text": "Constitución Política de los Estados Unidos Mexicanos", "correct": true },
+        { "text": "El Plan de Iguala", "correct": false },
+        { "text": "El Código Civil", "correct": false },
+        { "text": "Los Sentimientos de la Nación", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "La actual fue promulgada en 1917.",
+      "explanation": "La Constitución Política es la norma suprema que rige al país.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00BZ",
+      "question": "¿En cuántos poderes se divide la Federación en México?",
+      "image": null,
+      "options": [
+        { "text": "3 (Ejecutivo, Legislativo y Judicial)", "correct": true },
+        { "text": "2 (Ejecutivo y Judicial)", "correct": false },
+        { "text": "4 (Ejecutivo, Legislativo, Judicial y Electoral)", "correct": false },
+        { "text": "1 (Presidencial)", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Son los encargados de gobernar, hacer leyes y administrar justicia.",
+      "explanation": "El poder público se divide en Ejecutivo, Legislativo y Judicial.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CA",
+      "question": "¿Qué estudia la Historia?",
+      "image": null,
+      "options": [
+        { "text": "Los hechos del pasado de la humanidad", "correct": true },
+        { "text": "La superficie terrestre", "correct": false },
+        { "text": "El comportamiento de la mente humana", "correct": false },
+        { "text": "Las leyes de la física", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Analiza acontecimientos ocurridos en tiempos anteriores.",
+      "explanation": "La Historia es la ciencia social que estudia el pasado de la humanidad.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CB",
+      "question": "¿Qué civilización prehispánica construyó Chichén Itzá?",
+      "image": null,
+      "options": [
+        { "text": "Maya", "correct": true },
+        { "text": "Azteca", "correct": false },
+        { "text": "Olmeca", "correct": false },
+        { "text": "Tolteca", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Se desarrolló principalmente en la península de Yucatán.",
+      "explanation": "Los mayas construyeron Chichén Itzá, una de las ciudades más importantes de su cultura.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CC",
+      "question": "¿Qué evento marcó el inicio de la Revolución Mexicana en 1910?",
+      "image": null,
+      "options": [
+        { "text": "El llamado de Francisco I. Madero con el Plan de San Luis", "correct": true },
+        { "text": "La promulgación de la Constitución de 1917", "correct": false },
+        { "text": "La expropiación petrolera", "correct": false },
+        { "text": "La muerte de Benito Juárez", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su lema era 'Sufragio efectivo, no reelección'.",
+      "explanation": "Francisco I. Madero convocó al levantamiento armado el 20 de noviembre de 1910 contra Porfirio Díaz.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CD",
+      "question": "¿Qué es la democracia?",
+      "image": null,
+      "options": [
+        { "text": "Sistema donde el poder reside en el pueblo", "correct": true },
+        { "text": "Gobierno de una sola persona", "correct": false },
+        { "text": "Gobierno de los militares", "correct": false },
+        { "text": "Sistema sin leyes", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Significa 'gobierno del pueblo'.",
+      "explanation": "La democracia es una forma de gobierno donde las decisiones colectivas son adoptadas por el pueblo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CE",
+      "question": "¿Quién fue el presidente de México que decretó la expropiación petrolera en 1938?",
+      "image": null,
+      "options": [
+        { "text": "Lázaro Cárdenas", "correct": true },
+        { "text": "Porfirio Díaz", "correct": false },
+        { "text": "Venustiano Carranza", "correct": false },
+        { "text": "Álvaro Obregón", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es uno de los presidentes más populares del siglo XX, conocido como 'El Tata'.",
+      "explanation": "Lázaro Cárdenas del Río decretó la expropiación petrolera el 18 de marzo de 1938.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CF",
+      "question": "¿Qué continente se descubrió para los europeos en 1492?",
+      "image": null,
+      "options": [
+        { "text": "América", "correct": true },
+        { "text": "África", "correct": false },
+        { "text": "Oceanía", "correct": false },
+        { "text": "Asia", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Fue el viaje liderado por Cristóbal Colón.",
+      "explanation": "Cristóbal Colón llegó a América en 1492, aunque él creía haber llegado a las Indias.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CG",
+      "question": "¿Qué estudia la geografía?",
+      "image": null,
+      "options": [
+        { "text": "La descripción de la Tierra y sus habitantes", "correct": true },
+        { "text": "Los huesos de los dinosaurios", "correct": false },
+        { "text": "La composición de los átomos", "correct": false },
+        { "text": "Las leyes jurídicas", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su nombre significa 'descripción de la tierra'.",
+      "explanation": "La geografía es la ciencia que estudia la superficie terrestre y la relación de los seres humanos con ella.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CH",
+      "question": "¿Cuál es la función del Poder Legislativo?",
+      "image": null,
+      "options": [
+        { "text": "Elaborar y modificar las leyes", "correct": true },
+        { "text": "Juzgar a los delincuentes", "correct": false },
+        { "text": "Administrar los recursos del país", "correct": false },
+        { "text": "Dirigir el ejército", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Está conformado por Diputados y Senadores.",
+      "explanation": "El Poder Legislativo se encarga de crear, reformar y derogar leyes.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CI",
+      "question": "¿Qué es el Producto Interno Bruto (PIB)?",
+      "image": null,
+      "options": [
+        { "text": "El valor total de bienes y servicios producidos por un país en un tiempo determinado", "correct": true },
+        { "text": "La cantidad de dinero impreso por el banco", "correct": false },
+        { "text": "El total de impuestos recaudados", "correct": false },
+        { "text": "El número de habitantes de un país", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el principal indicador de la economía de un país.",
+      "explanation": "El PIB mide la riqueza generada por la producción de bienes y servicios en un periodo (generalmente un año).",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CJ",
+      "question": "¿Qué conflicto mundial ocurrió entre 1939 y 1945?",
+      "image": null,
+      "options": [
+        { "text": "Segunda Guerra Mundial", "correct": true },
+        { "text": "Primera Guerra Mundial", "correct": false },
+        { "text": "Guerra Fría", "correct": false },
+        { "text": "Guerra de Vietnam", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Involucró a los Aliados contra las Potencias del Eje.",
+      "explanation": "La Segunda Guerra Mundial fue un conflicto militar global que se desarrolló entre 1939 y 1945.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CK",
+      "question": "¿Qué es un derecho humano?",
+      "image": null,
+      "options": [
+        { "text": "Derechos inherentes a todos los seres humanos sin distinción alguna", "correct": true },
+        { "text": "Privilegios que da el gobierno a algunos", "correct": false },
+        { "text": "Reglas que solo aplican a los ciudadanos", "correct": false },
+        { "text": "Premios por buena conducta", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Son universales e inalienables.",
+      "explanation": "Los derechos humanos son normas que reconocen y protegen la dignidad de todos los seres humanos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CL",
+      "question": "¿Qué cultura construyó las cabezas colosales?",
+      "image": null,
+      "options": [
+        { "text": "Olmeca", "correct": true },
+        { "text": "Maya", "correct": false },
+        { "text": "Zapoteca", "correct": false },
+        { "text": "Mixteca", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es considerada la 'Cultura Madre' de Mesoamérica.",
+      "explanation": "Los olmecas son famosos por esculpir cabezas colosales de piedra.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CM",
+      "question": "¿Cuál es la lengua indígena más hablada en México?",
+      "image": null,
+      "options": [
+        { "text": "Náhuatl", "correct": true },
+        { "text": "Maya", "correct": false },
+        { "text": "Zapoteco", "correct": false },
+        { "text": "Mixteco", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Era la lengua del imperio azteca.",
+      "explanation": "El náhuatl es la lengua indígena con mayor número de hablantes en México.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CN",
+      "question": "¿Qué significa la soberanía?",
+      "image": null,
+      "options": [
+        { "text": "La capacidad de un pueblo para decidir su propio gobierno sin injerencia externa", "correct": true },
+        { "text": "El poder de los reyes", "correct": false },
+        { "text": "La riqueza de un país", "correct": false },
+        { "text": "El territorio nacional", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el poder supremo que tiene el Estado.",
+      "explanation": "La soberanía reside esencial y originariamente en el pueblo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CO",
+      "question": "¿Cuál fue el periodo de gobierno de Porfirio Díaz?",
+      "image": null,
+      "options": [
+        { "text": "El Porfiriato", "correct": true },
+        { "text": "La Reforma", "correct": false },
+        { "text": "El Maximato", "correct": false },
+        { "text": "El Virreinato", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Duró más de 30 años.",
+      "explanation": "El Porfiriato es el periodo histórico en el que Porfirio Díaz gobernó México de manera dictatorial.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CP",
+      "question": "¿Qué es la inflación económica?",
+      "image": null,
+      "options": [
+        { "text": "El aumento generalizado y sostenido de los precios", "correct": true },
+        { "text": "La bajada de precios", "correct": false },
+        { "text": "El aumento de salarios", "correct": false },
+        { "text": "La creación de nuevos empleos", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Cuando el dinero vale menos y las cosas cuestan más.",
+      "explanation": "La inflación es el proceso económico provocado por el desequilibrio entre la producción y la demanda; causa una subida continuada de los precios.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CQ",
+      "question": "¿Qué institución se encarga de organizar las elecciones federales en México?",
+      "image": null,
+      "options": [
+        { "text": "INE (Instituto Nacional Electoral)", "correct": true },
+        { "text": "SEP (Secretaría de Educación Pública)", "correct": false },
+        { "text": "SAT (Servicio de Administración Tributaria)", "correct": false },
+        { "text": "CNDH (Comisión Nacional de los Derechos Humanos)", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Antes se llamaba IFE.",
+      "explanation": "El INE es el organismo público autónomo encargado de organizar las elecciones federales.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CR",
+      "question": "¿Qué fue la Revolución Industrial?",
+      "image": null,
+      "options": [
+        { "text": "Transformación económica y tecnológica que introdujo maquinaria en la producción", "correct": true },
+        { "text": "Una guerra entre industrias", "correct": false },
+        { "text": "La invención de la agricultura", "correct": false },
+        { "text": "Un movimiento artístico", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Inició en Inglaterra con la máquina de vapor.",
+      "explanation": "Marcó el paso de una economía agraria y artesanal a otra dominada por la industria y la manufactura mecanizada.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CS",
+      "question": "¿Cuál es la moneda oficial de la Unión Europea?",
+      "image": null,
+      "options": [
+        { "text": "Euro", "correct": true },
+        { "text": "Dólar", "correct": false },
+        { "text": "Libra", "correct": false },
+        { "text": "Peso", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su símbolo es €.",
+      "explanation": "El euro es la moneda utilizada por las instituciones de la Unión Europea y la moneda oficial de la eurozona.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CT",
+      "question": "¿Qué línea imaginaria divide a la Tierra en hemisferio norte y sur?",
+      "image": null,
+      "options": [
+        { "text": "Ecuador", "correct": true },
+        { "text": "Meridiano de Greenwich", "correct": false },
+        { "text": "Trópico de Cáncer", "correct": false },
+        { "text": "Círculo Polar Ártico", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el paralelo 0.",
+      "explanation": "El ecuador es la línea imaginaria equidistante a los polos que divide al planeta en dos hemisferios.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CU",
+      "question": "¿Qué factor provocó la caída de Tenochtitlán en 1521?",
+      "image": null,
+      "options": [
+        { "text": "La conquista española y sus aliados indígenas", "correct": true },
+        { "text": "Un terremoto", "correct": false },
+        { "text": "Una sequía prolongada", "correct": false },
+        { "text": "Una guerra civil interna", "correct": false }
+      ],
+      "uni_tags": ["CIENCIAS SOCIALES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Fue liderada por Hernán Cortés.",
+      "explanation": "La caída de Tenochtitlán fue resultado del asedio español y la alianza con pueblos indígenas enemigos de los aztecas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CV",
+      "question": "¿Qué estudia la Filosofía?",
+      "image": null,
+      "options": [
+        { "text": "Las causas supremas de todas las cosas por medio de la razón", "correct": true },
+        { "text": "Los astros y el universo", "correct": false },
+        { "text": "Los números y figuras geométricas", "correct": false },
+        { "text": "La estructura del cuerpo humano", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Significa 'amor a la sabiduría'.",
+      "explanation": "La filosofía busca responder preguntas fundamentales sobre la existencia, el conocimiento, la verdad y la moral.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CW",
+      "question": "¿Qué rama de la filosofía estudia la moral y la conducta humana?",
+      "image": null,
+      "options": [
+        { "text": "Ética", "correct": true },
+        { "text": "Lógica", "correct": false },
+        { "text": "Estética", "correct": false },
+        { "text": "Ontología", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Distingue entre el bien y el mal.",
+      "explanation": "La ética es la disciplina filosófica que estudia el bien y el mal y sus relaciones con la moral y el comportamiento humano.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CX",
+      "question": "¿Qué es la lógica?",
+      "image": null,
+      "options": [
+        { "text": "Ciencia que estudia las formas y principios del pensamiento correcto", "correct": true },
+        { "text": "El estudio de los sentimientos", "correct": false },
+        { "text": "La historia del arte", "correct": false },
+        { "text": "El estudio de la belleza", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Ayuda a distinguir un razonamiento válido de uno incorrecto.",
+      "explanation": "La lógica analiza la estructura de los argumentos para determinar su validez.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CY",
+      "question": "¿Qué es un valor moral?",
+      "image": null,
+      "options": [
+        { "text": "Cualidad que se considera positiva y guía la conducta", "correct": true },
+        { "text": "El precio de un objeto", "correct": false },
+        { "text": "Un dato estadístico", "correct": false },
+        { "text": "Una ley de la física", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Ejemplos son la honestidad, el respeto y la responsabilidad.",
+      "explanation": "Los valores morales son principios que permiten a los seres humanos orientar su comportamiento en función de realizarse como personas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00CZ",
+      "question": "¿Qué rama de la filosofía estudia la belleza y el arte?",
+      "image": null,
+      "options": [
+        { "text": "Estética", "correct": true },
+        { "text": "Ética", "correct": false },
+        { "text": "Epistemología", "correct": false },
+        { "text": "Metafísica", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Se relaciona con lo que percibimos como bello o feo.",
+      "explanation": "La estética es la rama de la filosofía que estudia la esencia y la percepción de la belleza.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DA",
+      "question": "¿Qué significa ser autónomo moralmente?",
+      "image": null,
+      "options": [
+        { "text": "Actuar según principios propios y no por imposición externa", "correct": true },
+        { "text": "Hacer lo que uno quiera sin importar los demás", "correct": false },
+        { "text": "Obedecer ciegamente las leyes", "correct": false },
+        { "text": "No tener ninguna regla", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Viene de 'auto' (propio) y 'nomos' (ley).",
+      "explanation": "La autonomía moral es la capacidad de un individuo para darse normas a sí mismo sin influencia de presiones externas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DB",
+      "question": "¿Qué es una falacia?",
+      "image": null,
+      "options": [
+        { "text": "Un razonamiento engañoso o inválido", "correct": true },
+        { "text": "Una verdad absoluta", "correct": false },
+        { "text": "Un tipo de poesía", "correct": false },
+        { "text": "Una virtud moral", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Parece un argumento válido pero no lo es.",
+      "explanation": "Una falacia es un argumento que parece válido, pero que contiene un error lógico.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DC",
+      "question": "¿Cuál es la diferencia entre ética y moral?",
+      "image": null,
+      "options": [
+        { "text": "La moral es el conjunto de normas y la ética es la reflexión sobre ellas", "correct": true },
+        { "text": "Son exactamente lo mismo", "correct": false },
+        { "text": "La ética es religiosa y la moral es laica", "correct": false },
+        { "text": "La moral es teórica y la ética es práctica", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Una es la práctica social (costumbre) y la otra el estudio filosófico.",
+      "explanation": "La moral se refiere a las costumbres y normas de un grupo, mientras que la ética es el estudio filosófico de por qué esas normas son válidas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DD",
+      "question": "¿Qué valor promueve la aceptación de las diferencias entre personas?",
+      "image": null,
+      "options": [
+        { "text": "Tolerancia", "correct": true },
+        { "text": "Egoísmo", "correct": false },
+        { "text": "Ambición", "correct": false },
+        { "text": "Indiferencia", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es fundamental para la convivencia pacífica.",
+      "explanation": "La tolerancia es el respeto a las ideas, creencias o prácticas de los demás cuando son diferentes o contrarias a las propias.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DE",
+      "question": "¿Qué es la identidad?",
+      "image": null,
+      "options": [
+        { "text": "Conjunto de rasgos que caracterizan a una persona o grupo", "correct": true },
+        { "text": "El documento de identificación oficial", "correct": false },
+        { "text": "El nombre de una persona", "correct": false },
+        { "text": "La fecha de nacimiento", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es lo que te hace ser quien eres.",
+      "explanation": "La identidad es la conciencia que una persona tiene de ser ella misma y distinta a las demás.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DF",
+      "question": "¿Qué estudia la bioética?",
+      "image": null,
+      "options": [
+        { "text": "Los problemas éticos relacionados con la vida y la salud", "correct": true },
+        { "text": "La vida de los animales", "correct": false },
+        { "text": "La historia de la biología", "correct": false },
+        { "text": "Las leyes de la física", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Trata temas como el aborto, la eutanasia y la experimentación genética.",
+      "explanation": "La bioética es la rama de la ética dedicada a proveer los principios para la conducta más apropiada del ser humano con respecto a la vida.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DG",
+      "question": "¿Qué es un argumento?",
+      "image": null,
+      "options": [
+        { "text": "Un razonamiento para probar o demostrar una proposición", "correct": true },
+        { "text": "Una pelea entre dos personas", "correct": false },
+        { "text": "Una mentira", "correct": false },
+        { "text": "Una pregunta sin respuesta", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Se usa para convencer a alguien de algo.",
+      "explanation": "Un argumento es la expresión oral o escrita de un razonamiento, mediante el cual se intenta probar, refutar o justificar una tesis.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DH",
+      "question": "¿Qué se entiende por 'libertad'?",
+      "image": null,
+      "options": [
+        { "text": "Facultad de las personas para elegir su forma de actuar responsablemente", "correct": true },
+        { "text": "Hacer lo que uno quiera sin consecuencias", "correct": false },
+        { "text": "No tener obligaciones", "correct": false },
+        { "text": "Vivir sin leyes", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Implica poder decidir pero también asumir las consecuencias.",
+      "explanation": "La libertad es la capacidad del ser humano de actuar según sus valores, criterios, razón y voluntad.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DI",
+      "question": "¿Qué es la cultura?",
+      "image": null,
+      "options": [
+        { "text": "Conjunto de conocimientos, ideas, tradiciones y costumbres de un pueblo", "correct": true },
+        { "text": "Saber leer y escribir", "correct": false },
+        { "text": "Tener muchos títulos universitarios", "correct": false },
+        { "text": "Ser educado al hablar", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Incluye el arte, la moral, el derecho y las costumbres.",
+      "explanation": "Cultura es todo complejo que incluye el conocimiento, el arte, las creencias, la ley, la moral, las costumbres y todos los hábitos y habilidades adquiridos por el hombre.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DJ",
+      "question": "¿Qué es la responsabilidad?",
+      "image": null,
+      "options": [
+        { "text": "Cumplir con las obligaciones y asumir las consecuencias de los actos", "correct": true },
+        { "text": "Culpar a otros de los errores", "correct": false },
+        { "text": "Hacer las cosas rápido", "correct": false },
+        { "text": "Tener muchas tareas", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es un valor vinculado al compromiso.",
+      "explanation": "La responsabilidad es un valor que está en la conciencia de la persona que le permite reflexionar, administrar, orientar y valorar las consecuencias de sus actos.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DK",
+      "question": "¿Qué es un prejuicio?",
+      "image": null,
+      "options": [
+        { "text": "Una opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal", "correct": true },
+        { "text": "Un juicio justo", "correct": false },
+        { "text": "Una investigación científica", "correct": false },
+        { "text": "Una prueba legal", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es juzgar antes de conocer.",
+      "explanation": "El prejuicio es una opinión preconcebida, generalmente negativa, hacia algo o alguien.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DL",
+      "question": "¿Qué es la interculturalidad?",
+      "image": null,
+      "options": [
+        { "text": "La interacción equitativa entre diversas culturas", "correct": true },
+        { "text": "La eliminación de una cultura por otra", "correct": false },
+        { "text": "El aislamiento de las culturas", "correct": false },
+        { "text": "La guerra entre culturas", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Promueve el diálogo y el respeto mutuo.",
+      "explanation": "La interculturalidad se refiere a la presencia e interacción equitativa de diversas culturas y a la posibilidad de generar expresiones culturales compartidas.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DM",
+      "question": "¿Qué es la justicia?",
+      "image": null,
+      "options": [
+        { "text": "Dar a cada quien lo que le corresponde", "correct": true },
+        { "text": "Vengarse de quien nos hace daño", "correct": false },
+        { "text": "Favorecer a los amigos", "correct": false },
+        { "text": "Aplicar la ley del más fuerte", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Su símbolo es una balanza.",
+      "explanation": "La justicia es el principio moral que inclina a obrar y juzgar respetando la verdad y dando a cada uno lo que le corresponde.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DN",
+      "question": "¿Qué rama de la filosofía estudia el conocimiento?",
+      "image": null,
+      "options": [
+        { "text": "Epistemología", "correct": true },
+        { "text": "Ética", "correct": false },
+        { "text": "Estética", "correct": false },
+        { "text": "Política", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Tambien se le llama Teoría del Conocimiento.",
+      "explanation": "La epistemología estudia los principios, fundamentos, extensión y métodos del conocimiento humano.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DO",
+      "question": "¿Qué es el altruismo?",
+      "image": null,
+      "options": [
+        { "text": "Procurar el bien ajeno aun a costa del propio", "correct": true },
+        { "text": "Pensar solo en uno mismo", "correct": false },
+        { "text": "Buscar fama", "correct": false },
+        { "text": "Acumular riqueza", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es lo opuesto al egoísmo.",
+      "explanation": "El altruismo es la tendencia a ayudar a los otros y dar sin esperar nada a cambio.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DP",
+      "question": "¿Qué es un dilema moral?",
+      "image": null,
+      "options": [
+        { "text": "Una situación donde hay que elegir entre dos opciones éticamente conflictivas", "correct": true },
+        { "text": "Un problema matemático", "correct": false },
+        { "text": "Una enfermedad", "correct": false },
+        { "text": "Un error ortográfico", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "No hay una solución perfecta.",
+      "explanation": "Un dilema moral se presenta cuando se debe elegir entre dos o más alternativas, y cada una implica transgredir un principio moral.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DQ",
+      "question": "¿Qué es la solidaridad?",
+      "image": null,
+      "options": [
+        { "text": "Adhesión circunstancial a la causa o a la empresa de otros", "correct": true },
+        { "text": "Estar solo", "correct": false },
+        { "text": "Ser sólido", "correct": false },
+        { "text": "Competir contra todos", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es el apoyo mutuo.",
+      "explanation": "La solidaridad es el apoyo o la adhesión circunstancial a una causa o al interés de otros, especialmente en situaciones difíciles.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DR",
+      "question": "¿Qué es la razón?",
+      "image": null,
+      "options": [
+        { "text": "La facultad de pensar, reflexionar para llegar a una conclusión", "correct": true },
+        { "text": "Tener siempre la verdad", "correct": false },
+        { "text": "Actuar por instinto", "correct": false },
+        { "text": "La emoción pura", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es lo que distingue al ser humano de los animales.",
+      "explanation": "La razón es la facultad del ser humano de pensar, reflexionar para llegar a una conclusión o formar juicios de una determinada situación o cosa.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DS",
+      "question": "¿Qué es la equidad de género?",
+      "image": null,
+      "options": [
+        { "text": "Trato justo a mujeres y hombres según sus necesidades respectivas", "correct": true },
+        { "text": "Que todos sean idénticos", "correct": false },
+        { "text": "Que las mujeres manden sobre los hombres", "correct": false },
+        { "text": "Que los hombres manden sobre las mujeres", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Busca la justicia y la igualdad de oportunidades.",
+      "explanation": "La equidad de género permite brindar a las mujeres y a los hombres las mismas oportunidades, condiciones, y formas de trato.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DT",
+      "question": "¿Qué es el desarrollo sustentable?",
+      "image": null,
+      "options": [
+        { "text": "Satisfacer las necesidades presentes sin comprometer las futuras", "correct": true },
+        { "text": "Gastar todos los recursos naturales", "correct": false },
+        { "text": "Detener el progreso tecnológico", "correct": false },
+        { "text": "Construir muchas fábricas", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Implica cuidar el medio ambiente para las próximas generaciones.",
+      "explanation": "El desarrollo sustentable busca el equilibrio entre el crecimiento económico, el cuidado del medio ambiente y el bienestar social.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DU",
+      "question": "¿Qué es la diversidad cultural?",
+      "image": null,
+      "options": [
+        { "text": "La multiplicidad de formas en que se expresan las culturas de los grupos y sociedades", "correct": true },
+        { "text": "Que todos hablen el mismo idioma", "correct": false },
+        { "text": "La existencia de una sola religión", "correct": false },
+        { "text": "La uniformidad de costumbres", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es la variedad de culturas.",
+      "explanation": "La diversidad cultural refleja la multiplicidad e interacción de las culturas que coexisten en el mundo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    },
+    {
+      "id": "CEP00DV",
+      "question": "¿Qué es la honestidad?",
+      "image": null,
+      "options": [
+        { "text": "Cualidad de ser veraz, justo y honrado", "correct": true },
+        { "text": "Decir mentiras piadosas", "correct": false },
+        { "text": "Ocultar información", "correct": false },
+        { "text": "Aparentar ser bueno", "correct": false }
+      ],
+      "uni_tags": ["HUMANIDADES"],
+      "level_tag": ["BÁSICO"],
+      "type_tag": ["TEST"],
+      "hint": "Es decir la verdad y actuar con rectitud.",
+      "explanation": "La honestidad es un valor moral fundamental para entablar relaciones interpersonales basadas en la confianza, la sinceridad y el respeto mutuo.",
+      "explanative_video": null,
+      "collapsible_text": null
+    }
+  ]
+}
