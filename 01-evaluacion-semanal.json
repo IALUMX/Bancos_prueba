@@ -8375,7 +8375,7 @@
     "question": "Determina el conjunto solución del siguiente sistema:\n\n$$2x - y + z = 2$$\n$$3x + y - 2z = 9$$\n$$-x + 2y + 5z = -5$$",
     "image": null,
     "options": [
-      { "text": "$(3, 2, -2)$", "correct": true },
+      { "text": "$(2, 1, -1)$", "correct": true },
       { "text": "$(3, 1, -1)$", "correct": false },
       { "text": "$(2, 3, -1)$", "correct": false },
       { "text": "$(2, -1, 3)$", "correct": false }
@@ -8384,7 +8384,7 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
     "hint": "Despeja $y$ de la primera ecuación: $y = 2x + z - 2$ y sustitúyela en las demás.",
-    "explanation": "Al resolver el sistema por reducción o sustitución, se halla que $x=3$, $y=2$ y $z=-2$.",
+    "explanation": "Al resolver el sistema por reducción o sustitución, se halla que $x=2$, $y=1$ y $z=-1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -8393,7 +8393,7 @@
     "question": "Calcula los valores de $x$, $y$ y $z$ que satisfacen el sistema:\n\n$$x + 2y - 3z = -16$$\n$$3x + y - 2z = -10$$\n$$2x - 3y + z = -4$$",
     "image": null,
     "options": [
-      { "text": "$(-1, -3, 3)$", "correct": true },
+      { "text": "$(1, 5, 9)$", "correct": true },
       { "text": "$(-1, -3, 5)$", "correct": false },
       { "text": "$(1, 2, 7)$", "correct": false },
       { "text": "$(-2, 1, 4)$", "correct": false }
@@ -8402,7 +8402,7 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
     "hint": "Utiliza el método de Cramer. Recuerda que $x = \\Delta x / \\Delta$.",
-    "explanation": "El determinante del sistema es $\\Delta = -22$. Al calcular los determinantes específicos para cada variable, se obtiene $(-1, -3, 3)$.",
+    "explanation": "El determinante del sistema es $\\Delta = 14$. Al calcular los determinantes específicos para cada variable, se obtiene la solución $(1, 5, 9)$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -8429,7 +8429,7 @@
     "question": "Halla la solución para el sistema de ecuaciones:\n\n$$4x - y + 5z = -6$$\n$$3x + 3y - 4z = 30$$\n$$6x + 2y - 3z = 33$$",
     "image": null,
     "options": [
-      { "text": "$(2, 4, -2)$", "correct": true },
+      { "text": "$(3, 3, -3)$", "correct": true },
       { "text": "$(3, 5, -2)$", "correct": false },
       { "text": "$(1, 5, -3)$", "correct": false },
       { "text": "$(2, -4, 2)$", "correct": false }
@@ -8438,25 +8438,25 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
     "hint": "Multiplica la primera ecuación por 3 para eliminar $y$ con la segunda.",
-    "explanation": "Utilizando el método de eliminación de Gauss, se reduce el sistema hasta obtener $x=2, y=4, z=-2$.",
+    "explanation": "Utilizando el método de eliminación de Gauss, se reduce el sistema hasta obtener $x=3, y=3, z=-3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SC",
-    "question": "Encuentra el valor de $y$ en el siguiente sistema:\n\n$$5x + 3y + 2z = 21$$\n$$x - 2y + 4z = 3$$\n$$-2x + y + z = -2$$",
+    "question": "Encuentra el valor de $y$ en el siguiente sistema:\n\n$$5x + 3y + 2z = 21$$\n$$x - 2y + 4z = 0$$\n$$-2x + y + z = 0$$",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
+      { "text": "3", "correct": true },
       { "text": "1", "correct": false },
       { "text": "-1", "correct": false },
-      { "text": "3", "correct": false }
+      { "text": "2", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Despeja $z$ de la tercera ecuación: $z = 2x - y - 2$.",
-    "explanation": "Sustituyendo $z$ en las otras ecuaciones, obtenemos un sistema $2 \\times 2$ que resulta en $x=2, y=2$.",
+    "hint": "Despeja $z$ de la tercera ecuación: $z = 2x - y$.",
+    "explanation": "Sustituyendo $z$ en las otras ecuaciones, obtenemos la solución $(2, 3, 1)$, por lo tanto $y=3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -8480,7 +8480,7 @@
   },
   {
     "id": "CEP00SE",
-    "question": "Determina los valores de $(x, y, z)$ para el sistema:\n\n$$3x + 2y + z = 4$$\n$$5x - y + 2z = 17$$\n$$2x + 2y - z = 5$$",
+    "question": "Determina los valores de $(x, y, z)$ para el sistema:\n\n$$3x + 2y + z = 4$$\n$$5x - y + 2z = 21$$\n$$2x + 2y - z = -6$$",
     "image": null,
     "options": [
       { "text": "$(2, -3, 4)$", "correct": true },
@@ -8492,13 +8492,13 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
     "hint": "Suma la primera y tercera ecuación para eliminar $z$ directamente.",
-    "explanation": "Ec.1 + Ec.3: $5x + 4y = 9$. Usando la segunda ecuación para eliminar $z$ de nuevo, se obtiene $x=2, y=-3, z=4$.",
+    "explanation": "Ec.1 + Ec.3: $5x + 4y = -2$. Usando la segunda ecuación para eliminar $z$ de nuevo, se obtiene $x=2, y=-3, z=4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SF",
-    "question": "Calcula la suma $(x+y+z)$ dado el sistema:\n\n$$x + 4y - z = 10$$\n$$3x - 2y + z = 4$$\n$$2x + y + 2z = 19$$",
+    "question": "Calcula la suma $(x+y+z)$ dado el sistema:\n\n$$x + 4y - z = 6$$\n$$3x - 2y + z = 10$$\n$$2x + y + 2z = 18$$",
     "image": null,
     "options": [
       { "text": "10", "correct": true },
@@ -8516,7 +8516,7 @@
   },
   {
     "id": "CEP00SG",
-    "question": "Resuelve el sistema para encontrar $z$:\n\n$$x + 2y + 3z = 9$$\n$$4x + 5y + 6z = 24$$\n$$3x + y - 2z = 4$$",
+    "question": "Resuelve el sistema para encontrar $z$:\n\n$$x + 2y + 3z = 8$$\n$$4x + 5y + 6z = 17$$\n$$3x + y - 2z = -4$$",
     "image": null,
     "options": [
       { "text": "3", "correct": true },
@@ -8534,7 +8534,7 @@
   },
   {
     "id": "CEP00SH",
-    "question": "Encuentra la solución del siguiente sistema:\n\n$$2x - 3y + z = 0$$\n$$x + y - 2z = -5$$\n$$-x + 2y + 3z = 16$$",
+    "question": "Encuentra la solución del siguiente sistema:\n\n$$2x - 3y + z = 0$$\n$$x + y - 2z = -5$$\n$$-x + 2y + 3z = 19$$",
     "image": null,
     "options": [
       { "text": "$(2, 3, 5)$", "correct": true },
@@ -8552,7 +8552,7 @@
   },
   {
     "id": "CEP00SI",
-    "question": "Resuelve el sistema de ecuaciones lineales:\n\n$$x + y - z = 2$$\n$$2x - y + 3z = 9$$\n$$3x + 2y - 4z = 3$$",
+    "question": "Resuelve el sistema de ecuaciones lineales:\n\n$$x + y - z = 2$$\n$$2x - y + 3z = 11$$\n$$3x + 2y - 4z = 3$$",
     "image": null,
     "options": [
       { "text": "$(3, 1, 2)$", "correct": true },
@@ -8564,7 +8564,7 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
     "hint": "Suma la primera y segunda ecuación para eliminar $y$.",
-    "explanation": "Suma 1 y 2: $3x + 2z = 11$. Al combinar con la tercera, se obtiene $x=3, y=1, z=2$.",
+    "explanation": "Suma 1 y 2: $3x + 2z = 13$. Al combinar con la tercera, se obtiene $x=3, y=1, z=2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -8573,8 +8573,8 @@
     "question": "Resuelve el sistema y halla el valor de $x$:\n\n$$4x + 4y + z = 4$$\n$$4x - 4y + z = 2$$\n$$z = 1$$",
     "image": null,
     "options": [
-      { "text": "$3/4$", "correct": true },
-      { "text": "$1/2$", "correct": false },
+      { "text": "$1/2$", "correct": true },
+      { "text": "$3/4$", "correct": false },
       { "text": "$1/4$", "correct": false },
       { "text": "$1$", "correct": false }
     ],
@@ -8582,13 +8582,13 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Sustituye $z=1$ en las dos primeras y suma las ecuaciones.",
-    "explanation": "Con $z=1$, queda $4x+4y=3$ y $4x-4y=1$. Sumando: $8x=4 \\Rightarrow x=1/2$. Sustituyendo de nuevo: $x=3/4$ no, es $x=1/2$. Re-calculando: $8x=4 \\Rightarrow x=4/8 = 1/2$. Ajuste de valores: Para $x=3/4$ el sistema sería $8x=6$.",
+    "explanation": "Con $z=1$, queda $4x+4y=3$ y $4x-4y=1$. Sumando: $8x=4 \\Rightarrow x=1/2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SK",
-    "question": "Calcula el valor de $x$ para el siguiente sistema:\n\n$$2x + 3y + z = 4$$\n$$x + y + z = 2$$\n$$3x + 4y - z = 3$$",
+    "question": "Calcula el valor de $x$ para el siguiente sistema:\n\n$$2x + 3y + z = 7/2$$\n$$x + y + z = 2$$\n$$3x + 4y - z = 4$$",
     "image": null,
     "options": [
       { "text": "$3/2$", "correct": true },
@@ -8606,7 +8606,7 @@
   },
   {
     "id": "CEP00SL",
-    "question": "Encuentra la solución $(x, y, z)$ del sistema:\n\n$$2x + 2y - z = 2$$\n$$x - 3y + z = -3$$\n$$4x + y - 2z = 1$$",
+    "question": "Encuentra la solución $(x, y, z)$ del sistema:\n\n$$2x + 2y - z = 2$$\n$$x - 3y + z = -2$$\n$$4x + y - 2z = -1/2$$",
     "image": null,
     "options": [
       { "text": "$(1/2, 3/2, 2)$", "correct": true },
@@ -8618,7 +8618,7 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Suma la primera y la segunda ecuación para eliminar $z$.",
-    "explanation": "Suma 1 y 2: $3x - y = -1 \\Rightarrow y = 3x + 1$. Resolviendo, se obtiene $x=1/2, y=3/2, z=2$.",
+    "explanation": "Suma 1 y 2: $3x - y = 0 \\Rightarrow y = 3x$. Resolviendo, se obtiene $x=1/2, y=3/2, z=2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -8642,7 +8642,7 @@
   },
   {
     "id": "CEP00SN",
-    "question": "Determina el valor de $y$ en el sistema:\n\n$$4x + 2y - z = 2$$\n$$2x - 2y + z = 1$$\n$$x + y + z = 4$$",
+    "question": "Determina el valor de $y$ en el sistema:\n\n$$4x + 2y - z = 2$$\n$$2x - 2y + z = 1$$\n$$x + y + z = 5/4$$",
     "image": null,
     "options": [
       { "text": "$1/4$", "correct": true },
@@ -8660,7 +8660,7 @@
   },
   {
     "id": "CEP00SO",
-    "question": "Halla la solución $(x, y, z)$ para:\n\n$$3x + y - 2z = 1$$\n$$2x - y + z = 2$$\n$$x + 2y + z = 5$$",
+    "question": "Halla la solución $(x, y, z)$ para:\n\n$$3x + y - 2z = 1$$\n$$2x - y + z = 7/3$$\n$$x + 2y + z = 16/3$$",
     "image": null,
     "options": [
       { "text": "$(1, 4/3, 5/3)$", "correct": true },
@@ -8672,13 +8672,13 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Suma las ecuaciones 1 y 2 para eliminar $y$.",
-    "explanation": "Suma 1 y 2: $5x - z = 3 \\Rightarrow z = 5x - 3$. Al resolver el sistema, $x=1, y=4/3, z=5/3$.",
+    "explanation": "Suma 1 y 2: $5x - z = 10/3$. Al resolver el sistema, $x=1, y=4/3, z=5/3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SP",
-    "question": "Calcula el valor de $z$ en el sistema:\n\n$$x + y - z = 0$$\n$$3x - y + 2z = 5$$\n$$x + 3y + z = 6$$",
+    "question": "Calcula el valor de $z$ en el sistema:\n\n$$x + y - z = 0$$\n$$3x - y + 2z = 11/2$$\n$$x + 3y + z = 4$$",
     "image": null,
     "options": [
       { "text": "$3/2$", "correct": true },
@@ -8696,7 +8696,7 @@
   },
   {
     "id": "CEP00SQ",
-    "question": "Resuelve el sistema para encontrar $x$:\n\n$$2x + 3y + z = 1$$\n$$x - y + z = 2$$\n$$3x + 2y - 2z = -3$$",
+    "question": "Resuelve el sistema para encontrar $x$:\n\n$$2x + 3y + z = 1$$\n$$x - y + z = 12/5$$\n$$3x + 2y - 2z = -19/5$$",
     "image": null,
     "options": [
       { "text": "$1/5$", "correct": true },
@@ -8708,13 +8708,13 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Resta la segunda ecuación de la primera para obtener una relación entre $x$ e $y$.",
-    "explanation": "La resta da $x + 4y = -1$. Resolviendo todo el sistema, $x=1/5, y=-2/5, z=9/5$.",
+    "explanation": "La resta da $x + 4y = -7/5$. Resolviendo todo el sistema, $x=1/5, y=-2/5, z=9/5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SR",
-    "question": "Determina la solución del siguiente sistema:\n\n$$4x + y - z = 2$$\n$$2x + 3y + z = 5$$\n$$x - y + 2z = 3$$",
+    "question": "Determina la solución del siguiente sistema:\n\n$$4x + y - z = 2$$\n$$2x + 3y + z = 16/3$$\n$$x - y + 2z = 1/3$$",
     "image": null,
     "options": [
       { "text": "$(1/3, 4/3, 2/3)$", "correct": true },
@@ -8726,13 +8726,13 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Suma la primera y segunda ecuación para eliminar $z$.",
-    "explanation": "Suma 1 y 2: $6x + 4y = 7$. Resolviendo con la tercera ecuación, se obtiene $x=1/3, y=4/3, z=2/3$.",
+    "explanation": "Suma 1 y 2: $6x + 4y = 22/3$. Resolviendo con la tercera ecuación, se obtiene $x=1/3, y=4/3, z=2/3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SS",
-    "question": "Encuentra el valor de $y$ en el sistema:\n\n$$5x - 2y + z = 3$$\n$$2x + y - z = 1$$\n$$3x + 3y + 2z = 7$$",
+    "question": "Encuentra el valor de $y$ en el sistema:\n\n$$5x - 2y + z = 3$$\n$$2x + y - z = 1$$\n$$3x + 3y + 2z = 6$$",
     "image": null,
     "options": [
       { "text": "$2/3$", "correct": true },
@@ -8753,22 +8753,22 @@
     "question": "Resuelve el siguiente sistema de ecuaciones:\n\n$$x + 2y + z = 3$$\n$$x - y + z = 1$$\n$$2x + y - z = 1$$",
     "image": null,
     "options": [
-      { "text": "$(3/5, 2/3, 1)$", "correct": false },
+      { "text": "$(2/3, 2/3, 1)$", "correct": true },
       { "text": "$(3/5, 2/3, 3/5)$", "correct": false },
-      { "text": "$(4/5, 2/3, 13/15)$", "correct": true },
+      { "text": "$(4/5, 2/3, 13/15)$", "correct": false },
       { "text": "$(1/2, 1/2, 1)$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Resta la segunda ecuación de la primera para hallar $y$ directamente.",
-    "explanation": "Ec.1 - Ec.2: $3y = 2 \\Rightarrow y = 2/3$. Sustituyendo $y$, el sistema se reduce a $2 \\times 2$ con $x=4/5$ y $z=13/15$.",
+    "explanation": "Ec.1 - Ec.2: $3y = 2 \\Rightarrow y = 2/3$. Sustituyendo $y$, el sistema se resuelve encontrando $x=2/3$ y $z=1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00SU",
-    "question": "Dado el sistema de ecuaciones, halla el valor de $y$:\n\n$$3x + 2y + z = 4$$\n$$x - y + z = 1$$\n$$2x + y - z = 1$$",
+    "question": "Dado el sistema de ecuaciones, halla el valor de $y$:\n\n$$3x + 2y + z = 4$$\n$$x - y + z = 1$$\n$$2x + y - z = 4/5$$",
     "image": null,
     "options": [
       { "text": "$3/5$", "correct": true },
@@ -8780,7 +8780,7 @@
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
     "hint": "Resta la segunda ecuación de la primera para eliminar $x$ y $z$ simultáneamente.",
-    "explanation": "Ec.1 - Ec.2: $(3x+2y+z) - (x-y+z) = 4 - 1 \\Rightarrow 2x+3y=3$. Espera, no se eliminan todas. Al resolver el sistema completo obtenemos $x=3/5, y=3/5, z=1$.",
+    "explanation": "Ec.1 - Ec.2: $(3x+2y+z) - (x-y+z) = 4 - 1 \\Rightarrow 2x+3y=3$. Al resolver el sistema completo obtenemos $x=3/5, y=3/5, z=1$.",
     "explanative_video": null,
     "collapsible_text": null
   }
