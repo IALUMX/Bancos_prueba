@@ -12477,5 +12477,869 @@
     "explanation": "$100 / 4 = 25$. IMC 25-29.9 es sobrepeso. Las coronarias nutren al miocardio.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00XH",
+    "question": "Factoriza la siguiente expresión cuadrática mediante término común: $3x^2 - 12x$.",
+    "image": null,
+    "options": [
+      { "text": "$3x(x - 4)$", "correct": true },
+      { "text": "$3x(x + 4)$", "correct": false },
+      { "text": "$x(3x - 12)$", "correct": false },
+      { "text": "$3(x^2 - 4x)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el Máximo Común Divisor (MCD) de los coeficientes y la variable con menor exponente.",
+    "explanation": "El factor común numérico es 3 y la variable común es $x$. Dividiendo cada término entre $3x$: $\\frac{3x^2}{3x} = x$ y $\\frac{-12x}{3x} = -4$. Resultado: $3x(x-4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XI",
+    "question": "Identifica la factorización correcta para la diferencia de cuadrados: $x^2 - 49$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 7)(x + 7)$", "correct": true },
+      { "text": "$(x - 7)^2$", "correct": false },
+      { "text": "$(x + 7)^2$", "correct": false },
+      { "text": "$(x - 49)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula de diferencia de cuadrados: $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La raíz cuadrada de $x^2$ es $x$ y la raíz cuadrada de 49 es 7. Aplicando la fórmula de binomios conjugados, obtenemos $(x-7)(x+7)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XJ",
+    "question": "Factoriza el trinomio de la forma $x^2 + bx + c$: $x^2 + 7x + 10$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x + 2)$", "correct": true },
+      { "text": "$(x + 10)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)(x - 2)$", "correct": false },
+      { "text": "$(x + 7)(x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den 10 y sumados den 7.",
+    "explanation": "Los números que cumplen la condición son 5 y 2, ya que $5 \\times 2 = 10$ y $5 + 2 = 7$. La factorización es $(x+5)(x+2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XK",
+    "question": "Factoriza la expresión: $x^2 - 8x + 16$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 4)^2$", "correct": true },
+      { "text": "$(x + 4)(x - 4)$", "correct": false },
+      { "text": "$(x + 4)^2$", "correct": false },
+      { "text": "$(x - 8)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si es un Trinomio Cuadrado Perfecto (TCP). La forma es $(a-b)^2 = a^2 - 2ab + b^2$.",
+    "explanation": "La raíz de $x^2$ es $x$, la raíz de 16 es 4. El doble producto es $2(x)(4) = 8x$. Como el signo es negativo, es un binomio al cuadrado: $(x-4)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XL",
+    "question": "Determina los factores de: $x^2 - 3x - 18$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 6)(x + 3)$", "correct": true },
+      { "text": "$(x + 6)(x - 3)$", "correct": false },
+      { "text": "$(x - 9)(x + 2)$", "correct": false },
+      { "text": "$(x - 2)(x + 9)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den -18 y sumados den -3.",
+    "explanation": "Los números son -6 y 3. Multiplicación: $(-6)(3) = -18$. Suma: $-6 + 3 = -3$. Factorización: $(x-6)(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XM",
+    "question": "Factoriza la diferencia de cuadrados: $4x^2 - 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 5)(2x + 5)$", "correct": true },
+      { "text": "$(2x - 5)^2$", "correct": false },
+      { "text": "$(4x - 5)(x + 5)$", "correct": false },
+      { "text": "$(2x + 5)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica $\\sqrt{a^2} - \\sqrt{b^2}$ para obtener los conjugados.",
+    "explanation": "$\\sqrt{4x^2} = 2x$ y $\\sqrt{25} = 5$. Los factores son binomios conjugados: $(2x-5)(2x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XN",
+    "question": "Factoriza: $x^2 + 2x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 1)^2$", "correct": true },
+      { "text": "$(x - 1)^2$", "correct": false },
+      { "text": "$(x + 1)(x - 1)$", "correct": false },
+      { "text": "$x(x + 2) + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un Trinomio Cuadrado Perfecto. $(a+b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "Raíz de $x^2 = x$, raíz de $1 = 1$. Doble producto $2(x)(1) = 2x$. Es el cuadrado de la suma: $(x+1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XO",
+    "question": "Factoriza mediante término común: $5x^2 + 15x$.",
+    "image": null,
+    "options": [
+      { "text": "$5x(x + 3)$", "correct": true },
+      { "text": "$5(x^2 + 3x)$", "correct": false },
+      { "text": "$x(5x + 15)$", "correct": false },
+      { "text": "$15x(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el máximo factor numérico y literal posible.",
+    "explanation": "El MCD de 5 y 15 es 5. La variable común es $x$. Factor común: $5x$. Dividiendo: $5x^2/5x = x$, $15x/5x = 3$. Resultado: $5x(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XP",
+    "question": "Encuentra la factorización de: $x^2 - 10x + 24$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 6)(x - 4)$", "correct": true },
+      { "text": "$(x + 6)(x + 4)$", "correct": false },
+      { "text": "$(x - 12)(x + 2)$", "correct": false },
+      { "text": "$(x - 8)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que multiplicados den +24 y sumados den -10.",
+    "explanation": "Los números negativos cuyo producto es positivo y suma negativa son -6 y -4. Factorización: $(x-6)(x-4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XQ",
+    "question": "Factoriza: $x^2 - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 1)(x + 1)$", "correct": true },
+      { "text": "$(x - 1)^2$", "correct": false },
+      { "text": "$x(x - 1)$", "correct": false },
+      { "text": "$(x + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Diferencia de cuadrados unitarios.",
+    "explanation": "Raíces $x$ y $1$. Se forman binomios conjugados: $(x-1)(x+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XR",
+    "question": "Factoriza el trinomio: $x^2 + 5x - 14$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 7)(x - 2)$", "correct": true },
+      { "text": "$(x - 7)(x + 2)$", "correct": false },
+      { "text": "$(x + 14)(x - 1)$", "correct": false },
+      { "text": "$(x - 5)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den -14 y sumados den +5.",
+    "explanation": "7 y -2 cumplen la condición: $7 \\times (-2) = -14$ y $7 + (-2) = 5$. Resultado: $(x+7)(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XS",
+    "question": "Factoriza: $x^2 + 6x + 9$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 3)^2$", "correct": true },
+      { "text": "$(x - 3)^2$", "correct": false },
+      { "text": "$(x + 9)(x + 1)$", "correct": false },
+      { "text": "$(x + 3)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "¿Es un Trinomio Cuadrado Perfecto?",
+    "explanation": "Raíz de $x^2=x$, raíz de $9=3$. Doble producto $2(3)(x)=6x$. Coincide con el término central. Es $(x+3)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XT",
+    "question": "Factoriza el trinomio de la forma $ax^2 + bx + c$: $2x^2 + 7x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 1)(x + 3)$", "correct": true },
+      { "text": "$(2x + 3)(x + 1)$", "correct": false },
+      { "text": "$(x + 3)(2x - 1)$", "correct": false },
+      { "text": "$(2x + 7)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $a \\cdot c$ ($2 \\times 3 = 6$). Busca dos números que sumen 7 y multipliquen 6 para descomponer el término central.",
+    "explanation": "Descomponemos $7x$ en $6x + x$. Agrupamos: $2x^2 + 6x + x + 3 = 2x(x+3) + 1(x+3) = (2x+1)(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XU",
+    "question": "Determina los factores de: $3x^2 - 5x - 2$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 1)(x - 2)$", "correct": true },
+      { "text": "$(3x - 1)(x + 2)$", "correct": false },
+      { "text": "$(3x - 2)(x + 1)$", "correct": false },
+      { "text": "$(x - 2)(3x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den $3(-2) = -6$ y sumados den -5.",
+    "explanation": "Números: -6 y 1. Reescribimos: $3x^2 - 6x + x - 2$. Factor común por grupos: $3x(x-2) + 1(x-2) = (3x+1)(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XV",
+    "question": "Factoriza: $6x^2 + 7x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 1)(2x + 3)$", "correct": true },
+      { "text": "$(3x + 1)(2x - 3)$", "correct": false },
+      { "text": "$(6x - 3)(x + 1)$", "correct": false },
+      { "text": "$(2x - 1)(3x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el método de la 'tijera' o descomposición de $ac = 6(-3) = -18$.",
+    "explanation": "Dos números que sumen 7 y multipliquen -18 son 9 y -2. $6x^2 + 9x - 2x - 3 = 3x(2x+3) - 1(2x+3) = (3x-1)(2x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XW",
+    "question": "Factoriza el trinomio cuadrado perfecto: $4x^2 - 12x + 9$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3)^2$", "correct": true },
+      { "text": "$(2x + 3)^2$", "correct": false },
+      { "text": "$(4x - 3)(x - 3)$", "correct": false },
+      { "text": "$(2x - 9)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica las raíces de los extremos: $\\sqrt{4x^2}$ y $\\sqrt{9}$.",
+    "explanation": "Raíces: $2x$ y $3$. Signo del centro: negativo. Verificación: $2(2x)(3) = 12x$. Es $(2x-3)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XX",
+    "question": "Realiza la factorización completa de: $2x^2 - 50$.",
+    "image": null,
+    "options": [
+      { "text": "$2(x - 5)(x + 5)$", "correct": true },
+      { "text": "$2(x - 5)^2$", "correct": false },
+      { "text": "$(2x - 10)(x + 5)$", "correct": false },
+      { "text": "$2(x^2 - 25)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero extrae el factor común y luego aplica diferencia de cuadrados.",
+    "explanation": "Factor común 2: $2(x^2 - 25)$. Diferencia de cuadrados en el paréntesis: $2(x-5)(x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XY",
+    "question": "Factoriza: $x^2 - 13x + 36$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 9)(x - 4)$", "correct": true },
+      { "text": "$(x - 12)(x - 3)$", "correct": false },
+      { "text": "$(x + 9)(x + 4)$", "correct": false },
+      { "text": "$(x - 6)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que multiplicados den 36 y sumados den -13.",
+    "explanation": "-9 y -4 cumplen la condición. $(-9)(-4)=36$ y $-9-4=-13$. Factorización: $(x-9)(x-4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XZ",
+    "question": "Determina los factores de: $5x^2 - 13x - 6$.",
+    "image": null,
+    "options": [
+      { "text": "$(5x + 2)(x - 3)$", "correct": true },
+      { "text": "$(5x - 3)(x + 2)$", "correct": false },
+      { "text": "$(5x - 2)(x + 3)$", "correct": false },
+      { "text": "$(x - 3)(5x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $5(-6) = -30$. Busca factores de -30 que sumen -13.",
+    "explanation": "Los números son -15 y 2. Descomposición: $5x^2 - 15x + 2x - 6 = 5x(x-3) + 2(x-3) = (5x+2)(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YA",
+    "question": "Factoriza: $3x^2 + 14x - 5$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 1)(x + 5)$", "correct": true },
+      { "text": "$(3x + 1)(x - 5)$", "correct": false },
+      { "text": "$(3x + 5)(x - 1)$", "correct": false },
+      { "text": "$(x + 5)(3x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca números que multipliquen $3(-5)=-15$ y sumen 14.",
+    "explanation": "15 y -1. $3x^2 + 15x - x - 5 = 3x(x+5) - 1(x+5) = (3x-1)(x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YB",
+    "question": "Factoriza la diferencia de cuadrados: $9x^2 - 16$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 4)(3x + 4)$", "correct": true },
+      { "text": "$(3x - 4)^2$", "correct": false },
+      { "text": "$(9x - 4)(x + 4)$", "correct": false },
+      { "text": "$(3x - 8)(3x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula $\\sqrt{9x^2}$ y $\\sqrt{16}$.",
+    "explanation": "$3x$ y $4$. Conjugados: $(3x-4)(3x+4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YC",
+    "question": "Factoriza el trinomio: $x^2 + 2x - 15$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5)(x - 3)$", "correct": true },
+      { "text": "$(x - 5)(x + 3)$", "correct": false },
+      { "text": "$(x + 15)(x - 1)$", "correct": false },
+      { "text": "$(x + 5)(x + 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Números que multipliquen -15 y sumen 2.",
+    "explanation": "5 y -3. $(x+5)(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YD",
+    "question": "Determina los factores de: $2x^2 + x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 3)(x - 1)$", "correct": true },
+      { "text": "$(2x - 3)(x + 1)$", "correct": false },
+      { "text": "$(2x + 1)(x - 3)$", "correct": false },
+      { "text": "$(x + 1)(2x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $2(-3)=-6$. Suma 1.",
+    "explanation": "3 y -2. $2x^2 + 3x - 2x - 3 = x(2x+3) - 1(2x+3) = (x-1)(2x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YE",
+    "question": "Factoriza: $4x^2 + 4x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 1)^2$", "correct": true },
+      { "text": "$(2x - 1)^2$", "correct": false },
+      { "text": "$(4x + 1)(x + 1)$", "correct": false },
+      { "text": "$(2x + 1)(2x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si es TCP. Raíces $2x$ y $1$.",
+    "explanation": "Doble producto $2(2x)(1) = 4x$. Correcto. Es $(2x+1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YF",
+    "question": "Factoriza: $x^2 - 9x + 14$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 7)(x - 2)$", "correct": true },
+      { "text": "$(x + 7)(x + 2)$", "correct": false },
+      { "text": "$(x - 14)(x - 1)$", "correct": false },
+      { "text": "$(x - 9)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Números negativos que multipliquen 14 y sumen -9.",
+    "explanation": "-7 y -2. $(x-7)(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YG",
+    "question": "Factoriza: $6x^2 - 11x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 1)(2x - 3)$", "correct": true },
+      { "text": "$(3x + 1)(2x + 3)$", "correct": false },
+      { "text": "$(6x - 1)(x - 3)$", "correct": false },
+      { "text": "$(2x - 1)(3x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $6(3)=18$. Suma -11. Números: -9 y -2.",
+    "explanation": "$6x^2 - 9x - 2x + 3 = 3x(2x-3) - 1(2x-3) = (3x-1)(2x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YH",
+    "question": "Factoriza: $10x^2 + 17x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(5x + 1)(2x + 3)$", "correct": true },
+      { "text": "$(5x + 3)(2x + 1)$", "correct": false },
+      { "text": "$(10x + 1)(x + 3)$", "correct": false },
+      { "text": "$(10x + 3)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $10(3)=30$. Suma 17.",
+    "explanation": "15 y 2. $10x^2 + 15x + 2x + 3 = 5x(2x+3) + 1(2x+3) = (5x+1)(2x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YI",
+    "question": "Factoriza: $x^2 + 12x + 36$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 6)^2$", "correct": true },
+      { "text": "$(x - 6)^2$", "correct": false },
+      { "text": "$(x + 12)(x + 3)$", "correct": false },
+      { "text": "$(x + 4)(x + 9)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un cuadrado perfecto.",
+    "explanation": "Raíz 36 es 6. Doble 12. $(x+6)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YJ",
+    "question": "Factoriza la diferencia: $49x^2 - 4$.",
+    "image": null,
+    "options": [
+      { "text": "$(7x - 2)(7x + 2)$", "correct": true },
+      { "text": "$(7x - 2)^2$", "correct": false },
+      { "text": "$(49x - 2)(x + 2)$", "correct": false },
+      { "text": "$(7x - 4)(7x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíces cuadradas de 49 y 4.",
+    "explanation": "Conjugados con $7x$ y $2$. $(7x-2)(7x+2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YK",
+    "question": "Factoriza: $3x^2 - 2x - 5$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 5)(x + 1)$", "correct": true },
+      { "text": "$(3x + 5)(x - 1)$", "correct": false },
+      { "text": "$(x - 5)(3x + 1)$", "correct": false },
+      { "text": "$(3x + 1)(x - 5)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto -15, suma -2.",
+    "explanation": "-5 y 3. $3x^2 - 5x + 3x - 5 = x(3x-5) + 1(3x-5) = (x+1)(3x-5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YL",
+    "question": "Factoriza: $8x^2 - 2x - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(4x + 1)(2x - 1)$", "correct": true },
+      { "text": "$(4x - 1)(2x + 1)$", "correct": false },
+      { "text": "$(8x + 1)(x - 1)$", "correct": false },
+      { "text": "$(8x - 1)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto -8, suma -2.",
+    "explanation": "-4 y 2. $8x^2 - 4x + 2x - 1 = 4x(2x-1) + 1(2x-1) = (4x+1)(2x-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YM",
+    "question": "Factoriza el trinomio: $x^2 - 11x + 24$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 8)(x - 3)$", "correct": true },
+      { "text": "$(x - 12)(x + 2)$", "correct": false },
+      { "text": "$(x + 8)(x + 3)$", "correct": false },
+      { "text": "$(x - 6)(x - 4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que multipliquen 24 y sumen -11.",
+    "explanation": "-8 y -3. $(x-8)(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YN",
+    "question": "Factoriza: $15x^2 - 14x - 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 4)(5x + 2)$", "correct": true },
+      { "text": "$(5x - 4)(3x + 2)$", "correct": false },
+      { "text": "$(15x - 8)(x + 1)$", "correct": false },
+      { "text": "$(3x + 4)(5x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $15(-8) = -120$. Suma -14.",
+    "explanation": "-20 y 6. $15x^2 - 20x + 6x - 8 = 5x(3x-4) + 2(3x-4) = (5x+2)(3x-4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YO",
+    "question": "Factoriza: $2x^2 - 7x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3)(x - 2)$", "correct": true },
+      { "text": "$(2x + 3)(x + 2)$", "correct": false },
+      { "text": "$(2x - 2)(x - 3)$", "correct": false },
+      { "text": "$(x - 6)(2x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto 12, suma -7.",
+    "explanation": "-4 y -3. $2x^2 - 4x - 3x + 6 = 2x(x-2) - 3(x-2) = (2x-3)(x-2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YP",
+    "question": "Factoriza el TCP: $25x^2 - 10x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(5x - 1)^2$", "correct": true },
+      { "text": "$(5x + 1)^2$", "correct": false },
+      { "text": "$(25x - 1)(x - 1)$", "correct": false },
+      { "text": "$(5x - 1)(5x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíz de $25x^2$ y $1$.",
+    "explanation": "Raíces $5x$ y $1$. Doble producto $10x$. Signo menos. $(5x-1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YQ",
+    "question": "Factoriza: $x^2 + 15x + 56$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 8)(x + 7)$", "correct": true },
+      { "text": "$(x + 14)(x + 4)$", "correct": false },
+      { "text": "$(x - 8)(x - 7)$", "correct": false },
+      { "text": "$(x + 56)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que multipliquen 56 y sumen 15.",
+    "explanation": "8 y 7. $(x+8)(x+7)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YR",
+    "question": "Factoriza la expresión compuesta: $(x+1)^2 - 4$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 1)(x + 3)$", "correct": true },
+      { "text": "$(x + 1)(x - 4)$", "correct": false },
+      { "text": "$(x - 1)(x - 3)$", "correct": false },
+      { "text": "$(x + 5)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera $(x+1)$ como una sola variable y aplica diferencia de cuadrados: $A^2 - 4 = (A-2)(A+2)$.",
+    "explanation": "$((x+1)-2)((x+1)+2) = (x-1)(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YS",
+    "question": "Factoriza completamente: $x^4 - 16$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 4)(x - 2)(x + 2)$", "correct": true },
+      { "text": "$(x^2 - 4)(x^2 + 4)$", "correct": false },
+      { "text": "$(x - 2)^2 (x + 2)^2$", "correct": false },
+      { "text": "$(x^2 - 8)(x^2 + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica diferencia de cuadrados dos veces.",
+    "explanation": "Primero: $(x^2-4)(x^2+4)$. Segundo (sobre $x^2-4$): $(x-2)(x+2)$. Total: $(x^2+4)(x-2)(x+2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YT",
+    "question": "Factoriza: $12x^2 - 25x + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(4x - 3)(3x - 4)$", "correct": true },
+      { "text": "$(6x - 3)(2x - 4)$", "correct": false },
+      { "text": "$(12x - 1)(x - 12)$", "correct": false },
+      { "text": "$(4x + 3)(3x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $144$, suma $-25$. Números: $-16$ y $-9$.",
+    "explanation": "$12x^2 - 16x - 9x + 12 = 4x(3x-4) - 3(3x-4) = (4x-3)(3x-4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YU",
+    "question": "Factoriza la expresión agrupando términos: $x^2(y-1) - 9(y-1)$.",
+    "image": null,
+    "options": [
+      { "text": "$(y - 1)(x - 3)(x + 3)$", "correct": true },
+      { "text": "$(y - 1)(x^2 - 9)$", "correct": false },
+      { "text": "$(x^2 - 9)(y + 1)$", "correct": false },
+      { "text": "$(x - 3)^2 (y - 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común $(y-1)$ y luego factoriza la diferencia de cuadrados.",
+    "explanation": "Factor común: $(y-1)(x^2-9)$. Diferencia de cuadrados: $(y-1)(x-3)(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YV",
+    "question": "Factoriza la expresión con coeficiente fraccionario: $\\frac{1}{4}x^2 - x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(\\frac{1}{2}x - 1)^2$", "correct": true },
+      { "text": "$(\\frac{1}{2}x + 1)^2$", "correct": false },
+      { "text": "$(x - 2)^2$", "correct": false },
+      { "text": "$\\frac{1}{4}(x - 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un TCP. Verifica la raíz del primer término $\\sqrt{1/4 x^2}$.",
+    "explanation": "Raíz de $1/4 x^2 = 1/2 x$. Raíz de $1 = 1$. Doble producto $2(1/2 x)(1) = x$. Signo negativo. $(\\frac{1}{2}x - 1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YW",
+    "question": "Factoriza: $6x^2 + 19x + 15$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 3)(3x + 5)$", "correct": true },
+      { "text": "$(6x + 5)(x + 3)$", "correct": false },
+      { "text": "$(3x + 3)(2x + 5)$", "correct": false },
+      { "text": "$(x + 1)(6x + 15)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $6(15)=90$. Suma 19.",
+    "explanation": "10 y 9. $6x^2 + 10x + 9x + 15 = 2x(3x+5) + 3(3x+5) = (2x+3)(3x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YX",
+    "question": "Factoriza el TCP complejo: $36x^2 - 60x + 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(6x - 5)^2$", "correct": true },
+      { "text": "$(6x + 5)^2$", "correct": false },
+      { "text": "$(6x - 25)(x - 1)$", "correct": false },
+      { "text": "$(4x - 5)(9x - 5)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si los extremos tienen raíz exacta y comprueba el término central.",
+    "explanation": "$\\sqrt{36x^2}=6x$, $\\sqrt{25}=5$. $2(6x)(5)=60x$. Es $(6x-5)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YY",
+    "question": "Factoriza la expresión con irracionales: $x^2 + 2\\sqrt{3}x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + \\sqrt{3})^2$", "correct": true },
+      { "text": "$(x - \\sqrt{3})^2$", "correct": false },
+      { "text": "$(x + 3)(x + 1)$", "correct": false },
+      { "text": "$(x + \\sqrt{3})(x - \\sqrt{3})$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $(\\sqrt{3})^2 = 3$. ¿Es un TCP?",
+    "explanation": "Raíz de $x^2=x$, raíz de $3=\\sqrt{3}$. Doble producto $2(x)(\\sqrt{3}) = 2\\sqrt{3}x$. Es $(x+\\sqrt{3})^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YZ",
+    "question": "Factoriza: $18x^2 - 3x - 10$.",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 2)(6x - 5)$", "correct": true },
+      { "text": "$(6x + 2)(3x - 5)$", "correct": false },
+      { "text": "$(9x + 5)(2x - 2)$", "correct": false },
+      { "text": "$(3x - 2)(6x + 5)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto $18(-10)=-180$. Suma -3.",
+    "explanation": "-15 y 12. $18x^2 - 15x + 12x - 10 = 3x(6x-5) + 2(6x-5) = (3x+2)(6x-5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZA",
+    "question": "Factoriza agrupando para formar un TCP y una diferencia de cuadrados: $x^2 + 2x + 1 - y^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 1 - y)(x + 1 + y)$", "correct": true },
+      { "text": "$(x - 1 - y)(x - 1 + y)$", "correct": false },
+      { "text": "$(x + y + 1)^2$", "correct": false },
+      { "text": "$(x^2 + 1)(1 - y)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los primeros tres términos como $(x+1)^2$.",
+    "explanation": "$(x^2+2x+1) - y^2 = (x+1)^2 - y^2$. Diferencia de cuadrados: $((x+1)-y)((x+1)+y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZB",
+    "question": "Factoriza usando sustitución $u = x-2$: $(x-2)^2 + 3(x-2) + 2$.",
+    "image": null,
+    "options": [
+      { "text": "$(x)(x - 1)$", "correct": true },
+      { "text": "$(x + 1)(x + 2)$", "correct": false },
+      { "text": "$(x - 2)(x + 3)$", "correct": false },
+      { "text": "$(x - 1)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $u^2 + 3u + 2$ primero, luego reemplaza $u$.",
+    "explanation": "$u^2+3u+2 = (u+2)(u+1)$. Sustituyendo $x-2$: $((x-2)+2)((x-2)+1) = (x)(x-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZC",
+    "question": "Factoriza la expresión literal: $a^2 x^2 - b^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(ax - b)(ax + b)$", "correct": true },
+      { "text": "$(ax - b)^2$", "correct": false },
+      { "text": "$(a x^2 - b)(a + b)$", "correct": false },
+      { "text": "$(a - b)(x + b)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica diferencia de cuadrados considerando coeficientes literales.",
+    "explanation": "Raíz de $a^2 x^2$ es $ax$. Raíz de $b^2$ es $b$. Resultado: $(ax-b)(ax+b)$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
