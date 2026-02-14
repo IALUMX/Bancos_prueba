@@ -10223,5 +10223,653 @@
     "explanation": "$3 = a(3-2)^2 + 1 \\rightarrow 3 = a(1) + 1 \\rightarrow a = 2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00VX",
+    "question": "¿Cuál es la forma general de una ecuación cuadrática completa?",
+    "image": null,
+    "options": [
+      { "text": "$ax^2 + bx + c = 0$", "correct": true },
+      { "text": "$ax^2 + bx = 0$", "correct": false },
+      { "text": "$ax^2 + c = 0$", "correct": false },
+      { "text": "$bx + c = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe contener el término cuadrático, el término lineal y el término independiente.",
+    "explanation": "Una ecuación cuadrática completa posee los tres coeficientes distintos de cero: $a$ (cuadrático), $b$ (lineal) y $c$ (independiente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VY",
+    "question": "Identifica cuál de las siguientes expresiones es una diferencia de cuadrados.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 9$", "correct": true },
+      { "text": "$x^2 + 9$", "correct": false },
+      { "text": "$x^2 - 3x$", "correct": false },
+      { "text": "$(x-3)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca una resta entre dos términos que tienen raíz cuadrada exacta.",
+    "explanation": "La diferencia de cuadrados tiene la forma $a^2 - b^2$, que se factoriza como $(a+b)(a-b)$. En este caso $x^2 - 9 = (x+3)(x-3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VZ",
+    "question": "Relaciona la ecuación cuadrática con su clasificación:\n\nI. $x^2 - 5x + 6 = 0$\nII. $x^2 - 16 = 0$\nIII. $3x^2 - 2x = 0$\n\nA. Incompleta Pura\nB. Incompleta Mixta\nC. Completa",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa qué coeficientes ($a, b, c$) están presentes en cada ecuación.",
+    "explanation": "I tiene $a, b, c$ (Completa). II falta $b$ (Pura). III falta $c$ (Mixta).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WA",
+    "question": "Calcula el vértice de la parábola dada por la función $y = x^2 - 6x + 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(3, -1)$", "correct": true },
+      { "text": "$(-3, 1)$", "correct": false },
+      { "text": "$(6, 8)$", "correct": false },
+      { "text": "$(3, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar la coordenada $x$ del vértice, despeja $x$ de la ecuación $2ax + b = 0$.",
+    "explanation": "$x = -(-6)/2(1) = 3$. Sustituyendo $x=3$ en la función: $y = (3)^2 - 6(3) + 8 = 9 - 18 + 8 = -1$. Vértice: $(3, -1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WB",
+    "question": "Selecciona las ecuaciones que son cuadráticas incompletas puras:\n1. $x^2 + 5x = 0$\n2. $x^2 - 25 = 0$\n3. $2x^2 = 8$\n4. $x^2 + 2x + 1 = 0$\n5. $3x^2 - 12 = 0$",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las puras carecen del término lineal ($bx$).",
+    "explanation": "Las opciones 2, 3 y 5 tienen la forma $ax^2 + c = 0$, característica de las incompletas puras.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WC",
+    "question": "Factoriza la expresión del CEPREDIX para optimización de áreas: $x^2 + 7x + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 3)(x + 4)$", "correct": true },
+      { "text": "$(x - 3)(x - 4)$", "correct": false },
+      { "text": "$(x + 6)(x + 2)$", "correct": false },
+      { "text": "$(x + 12)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que sumados den $7$ y multiplicados den $12$.",
+    "explanation": "Los números son 3 y 4, ya que $3+4=7$ y $3 \\times 4 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WD",
+    "question": "Completa el enunciado: 'Si el discriminante $b^2 - 4ac$ es igual a cero, la ecuación cuadrática tiene ______ solución(es) ______.'",
+    "image": null,
+    "options": [
+      { "text": "una, real", "correct": true },
+      { "text": "dos, reales", "correct": false },
+      { "text": "cero, reales", "correct": false },
+      { "text": "dos, imaginarias", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la raíz cuadrada de cero es cero, eliminando la parte $\\pm$ de la fórmula general.",
+    "explanation": "Cuando $\\Delta = 0$, las dos raíces son iguales ($x_1 = x_2$), por lo que se considera una única solución real.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WE",
+    "question": "¿Cuáles son las raíces de la ecuación $x^2 - 36 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 6$ y $x = -6$", "correct": true },
+      { "text": "$x = 0$ y $x = 36$", "correct": false },
+      { "text": "Solo $x = 6$", "correct": false },
+      { "text": "$x = 4$ y $x = 9$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x$ de la ecuación $x^2 = a$, considerando ambas raíces.",
+    "explanation": "$x^2 = 36 \\Rightarrow x = \\pm\\sqrt{36} \\Rightarrow x = \\pm 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WF",
+    "question": "Relaciona el término de la ecuación $ax^2 + bx + c = 0$ con su nombre:\n\nI. $ax^2$\nII. $bx$\nIII. $c$\n\nA. Término independiente\nB. Término cuadrático\nC. Término lineal",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El nombre depende del exponente de la variable $x$.",
+    "explanation": "El término con potencia 2 es cuadrático, con potencia 1 es lineal y sin variable es independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WG",
+    "question": "Al factorizar la ecuación incompleta mixta $3x^2 - 12x = 0$, ¿cuáles son las raíces obtenidas?",
+    "image": null,
+    "options": [
+      { "text": "$x = 0$ y $x = 4$", "correct": true },
+      { "text": "$x = 0$ y $x = -4$", "correct": false },
+      { "text": "$x = 3$ y $x = 4$", "correct": false },
+      { "text": "$x = 2$ y $x = 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común $3x$ y resuelve $3x(x - 4) = 0$.",
+    "explanation": "Factorizando: $3x(x - 4) = 0$. Soluciones: $3x = 0 \\Rightarrow x_1 = 0$ y $x - 4 = 0 \\Rightarrow x_2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WH",
+    "question": "Identifica cuáles de las siguientes son características de la gráfica de $y = x^2$:\n1. Pasa por el origen\n2. Es una línea recta\n3. Abre hacia arriba\n4. Su vértice es $(0,0)$\n5. Es una hipérbola",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Una función cuadrática básica es una parábola con coeficiente positivo.",
+    "explanation": "La función madre $y=x^2$ es una parábola que abre hacia arriba (positivo) y tiene su vértice en el origen $(0,0)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WI",
+    "question": "Completa la factorización del trinomio cuadrado perfecto: $x^2 + 10x + 25 = (______)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$x + 5$", "correct": true },
+      { "text": "$x - 5$", "correct": false },
+      { "text": "$x + 10$", "correct": false },
+      { "text": "$x + 25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Saca la raíz cuadrada del primer término ($x^2$) y del tercer término ($25$).",
+    "explanation": "$\\\\sqrt{x^2} = x$ y $\\\\sqrt{25} = 5$. Como el término central es positivo, el binomio es $(x+5)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WJ",
+    "question": "Un estudiante del CEPREDIX necesita determinar el eje de simetría de la parábola $y = x^2 - 4x + 1$. ¿Cuál es la ecuación de dicho eje?",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El eje de simetría pasa por la coordenada $x$ del vértice. Usa la relación $2ax + b = 0$ para despejar $x$.",
+    "explanation": "Despejando: $x = -b / 2a = -(-4) / 2(1) = 4 / 2 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WK",
+    "question": "¿Cuál es el valor del coeficiente $b$ en la ecuación $2x^2 - 8 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "-8", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Compara la ecuación dada con la forma general $ax^2 + bx + c = 0$.",
+    "explanation": "Al no haber término con $x$ a la primera potencia, el coeficiente $b$ es igual a 0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WL",
+    "question": "Relaciona el signo del coeficiente $a$ con la concavidad de la parábola:\n\nI. $a > 0$\nII. $a < 0$\n\nA. Abre hacia abajo (triste)\nB. Abre hacia arriba (feliz)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Lo positivo se asocia a 'arriba' o 'feliz', lo negativo a 'abajo' o 'triste'.",
+    "explanation": "Si $a$ es positivo, la parábola abre hacia arriba (mínimo). Si $a$ es negativo, abre hacia abajo (máximo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WM",
+    "question": "Factoriza el siguiente trinomio: $x^2 - 2x - 15$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 5)(x + 3)$", "correct": true },
+      { "text": "$(x + 5)(x - 3)$", "correct": false },
+      { "text": "$(x - 15)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)(x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den $-15$ y sumados den $-2$.",
+    "explanation": "Los números son $-5$ y $+3$, ya que $(-5)(3)=-15$ y $-5+3=-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WN",
+    "question": "Selecciona los binomios que son conjugados:\n1. $(x+2)(x+2)$\n2. $(x+3)(x-3)$\n3. $(x-5)(x-5)$\n4. $(2x+1)(2x-1)$\n5. $(x+4)(x-2)$",
+    "image": null,
+    "options": [
+      { "text": "2, 4", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 5", "correct": false },
+      { "text": "1, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los binomios conjugados tienen los mismos términos pero diferente signo central.",
+    "explanation": "Las opciones 2 y 4 presentan la forma $(a+b)(a-b)$, que corresponde a binomios conjugados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WO",
+    "question": "Completa: 'El punto más bajo de una parábola que abre hacia arriba se denomina ______.'",
+    "image": null,
+    "options": [
+      { "text": "Vértice (mínimo)", "correct": true },
+      { "text": "Raíz", "correct": false },
+      { "text": "Ordenada al origen", "correct": false },
+      { "text": "Foco", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el punto donde la parábola cambia de dirección.",
+    "explanation": "En una parábola con $a > 0$, el vértice representa el valor mínimo de la función.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WP",
+    "question": "En el análisis de trayectorias del CEPREDIX, se usa la ecuación $h(t) = -t^2 + 4t$. ¿En qué instante $t$ (mayor a 0) el objeto vuelve al suelo ($h=0$)?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ s}$", "correct": true },
+      { "text": "$2 \\text{ s}$", "correct": false },
+      { "text": "$0 \\text{ s}$", "correct": false },
+      { "text": "$8 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza la ecuación $-t^2 + 4t = 0$ sacando $t$ como factor común.",
+    "explanation": "$t(-t + 4) = 0$. Las soluciones son $t=0$ (inicio) y $-t+4=0 \\Rightarrow t=4$ (final).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WQ",
+    "question": "¿Cuál es la factorización correcta de $4x^2 - 1$?",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 1)(2x - 1)$", "correct": true },
+      { "text": "$(2x - 1)^2$", "correct": false },
+      { "text": "$(4x + 1)(x - 1)$", "correct": false },
+      { "text": "$(2x + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una diferencia de cuadrados. Saca la raíz de $4x^2$ y de $1$.",
+    "explanation": "$\\sqrt{4x^2} = 2x$ y $\\sqrt{1} = 1$. Factorización: $(2x+1)(2x-1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WR",
+    "question": "Relaciona la expresión factorizada con su desarrollo:\n\nI. $(x+3)^2$\nII. $(x-3)^2$\nIII. $(x+3)(x-3)$\n\nA. $x^2 - 9$\nB. $x^2 + 6x + 9$\nC. $x^2 - 6x + 9$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda: Binomio al cuadrado = cuadrado del primero $\\pm$ doble del primero por el segundo + cuadrado del segundo.",
+    "explanation": "$(x+3)^2 = x^2+6x+9$; $(x-3)^2 = x^2-6x+9$; diferencia de cuadrados es $x^2-9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WS",
+    "question": "En la función $f(x) = x^2 - 5x + 6$, ¿dónde corta la parábola al eje $y$?",
+    "image": null,
+    "options": [
+      { "text": "$y = 6$", "correct": true },
+      { "text": "$y = -5$", "correct": false },
+      { "text": "$y = 1$", "correct": false },
+      { "text": "$y = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La intersección con el eje $y$ ocurre cuando $x=0$. Evalúa $f(0)$.",
+    "explanation": "$f(0) = 0^2 - 5(0) + 6 = 6$. El corte es en el término independiente $c$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WT",
+    "question": "Selecciona las ecuaciones que tienen raíces reales iguales (solución única):\n1. $x^2 + 4x + 4 = 0$\n2. $x^2 - 6x + 9 = 0$\n3. $x^2 - 9 = 0$\n4. $x^2 + 2x + 1 = 0$\n5. $x^2 + 1 = 0$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca los Trinomios Cuadrados Perfectos, donde el discriminante es cero.",
+    "explanation": "Las opciones 1, 2 y 4 son TCPs y factorizan como $(x+k)^2$, teniendo una sola raíz repetida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WU",
+    "question": "Completa: 'Para resolver $x^2 - 7x = 0$, se factoriza por ______ obteniendo $x(x-7)=0$.'",
+    "image": null,
+    "options": [
+      { "text": "factor común", "correct": true },
+      { "text": "diferencia de cuadrados", "correct": false },
+      { "text": "trinomio cuadrado perfecto", "correct": false },
+      { "text": "fórmula general", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que la $x$ se repite en ambos términos.",
+    "explanation": "Al tener $x$ en ambos términos, se extrae como factor común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WV",
+    "question": "¿Cuáles son los valores de $a, b, c$ en la ecuación $2x^2 - x + 5 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$a=2, b=-1, c=5$", "correct": true },
+      { "text": "$a=2, b=1, c=5$", "correct": false },
+      { "text": "$a=2, b=0, c=5$", "correct": false },
+      { "text": "$a=2, b=-1, c=0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El coeficiente $b$ es el número que acompaña a la $x$ lineal, incluye el signo.",
+    "explanation": "El término $-x$ equivale a $-1x$, por lo tanto $b=-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WW",
+    "question": "Calcula el valor de $x$ que satisface $(x-2)^2 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "-2", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Saca raíz cuadrada a ambos lados.",
+    "explanation": "$x - 2 = 0 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WX",
+    "question": "Relaciona el método de factorización con la forma de la ecuación:\n\nI. $x^2 - c = 0$\nII. $x^2 + bx = 0$\n\nA. Factor Común\nB. Despeje directo o Diferencia de Cuadrados",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la II se repite la $x$. En la I es una resta constante.",
+    "explanation": "Las incompletas puras se resuelven despejando. Las mixtas por factor común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WY",
+    "question": "En un problema de optimización del CEPREDIX, se tiene la función de ganancia $G(x) = -(x-5)^2 + 10$. ¿Cuál es el valor de $x$ que maximiza la ganancia?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "-5", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación está en forma vértice $a(x-h)^2 + k$. El máximo ocurre en $x=h$.",
+    "explanation": "El vértice es $(5, 10)$, por lo tanto el máximo ocurre cuando $x=5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WZ",
+    "question": "Identifica la ecuación que representa una parábola que NO corta al eje $x$ (raíces imaginarias):",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 1 = 0$", "correct": true },
+      { "text": "$x^2 - 1 = 0$", "correct": false },
+      { "text": "$x^2 - 4x = 0$", "correct": false },
+      { "text": "$x^2 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Intenta despejar $x^2 = -1$. ¿Existe un número real que al cuadrado dé negativo?",
+    "explanation": "$x^2 = -1$ no tiene solución en los números reales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XA",
+    "question": "Selecciona los elementos necesarios para graficar una parábola básica:\n1. Vértice\n2. Asíntotas\n3. Intersecciones con ejes (raíces)\n4. Concavidad",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las parábolas no tienen asíntotas.",
+    "explanation": "Para bosquejar una parábola se requiere el vértice, saber hacia dónde abre (concavidad) y sus cortes con los ejes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XB",
+    "question": "Completa: 'La expresión $\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ se conoce como ______.'",
+    "image": null,
+    "options": [
+      { "text": "Fórmula General", "correct": true },
+      { "text": "Teorema de Pitágoras", "correct": false },
+      { "text": "Binomio de Newton", "correct": false },
+      { "text": "Factorización", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sirve para resolver cualquier ecuación de segundo grado.",
+    "explanation": "Es la Fórmula General para resolver ecuaciones cuadráticas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XC",
+    "question": "¿Cuál es la factorización de $x^2 + 3x + 2$?",
+    "image": null,
+    "options": [
+      { "text": "$(x + 2)(x + 1)$", "correct": true },
+      { "text": "$(x + 3)(x + 1)$", "correct": false },
+      { "text": "$(x - 2)(x - 1)$", "correct": false },
+      { "text": "$(x + 2)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den 2 y sumados den 3.",
+    "explanation": "Los números son 2 y 1. $(2)(1)=2$ y $2+1=3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XD",
+    "question": "Si el producto de dos factores es cero, $(x-a)(x-b) = 0$, ¿qué implica esto para $x$?",
+    "image": null,
+    "options": [
+      { "text": "$x = a$ o $x = b$", "correct": true },
+      { "text": "$x = a$ y $x = b$ simultáneamente", "correct": false },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = -a$ o $x = -b$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Propiedad del producto cero: para que una multiplicación dé cero, al menos uno de los factores debe ser cero.",
+    "explanation": "Implica que $x-a=0$ (entonces $x=a$) ó $x-b=0$ (entonces $x=b$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XE",
+    "question": "Relaciona la parábola con la posición de su vértice:\n\nI. $y = x^2$\nII. $y = (x-2)^2$\nIII. $y = x^2 + 2$\n\nA. Vértice en $(0,2)$\nB. Vértice en $(0,0)$\nC. Vértice en $(2,0)$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El cambio dentro del paréntesis desplaza en $x$ (signo contrario), fuera del paréntesis desplaza en $y$.",
+    "explanation": "I es origen. II desplaza 2 a la derecha. III desplaza 2 hacia arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XF",
+    "question": "Para la ecuación planteada por el CEPREDIX: $x^2 = 100$, ¿cuál es el conjunto solución?",
+    "image": null,
+    "options": [
+      { "text": "$\\{10, -10\\}$", "correct": true },
+      { "text": "$\\{10\\}$", "correct": false },
+      { "text": "$\\{100, -100\\}$", "correct": false },
+      { "text": "$\\{50, -50\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda considerar tanto la raíz positiva como la negativa.",
+    "explanation": "$x = \\pm \\sqrt{100} = \\pm 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XG",
+    "question": "¿Qué representa $c$ en la gráfica de $y = ax^2 + bx + c$?",
+    "image": null,
+    "options": [
+      { "text": "El corte con el eje $y$", "correct": true },
+      { "text": "El corte con el eje $x$", "correct": false },
+      { "text": "La coordenada $x$ del vértice", "correct": false },
+      { "text": "La pendiente", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa la función cuando $x=0$.",
+    "explanation": "Cuando $x=0$, $y=c$, indicando la intersección vertical.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
