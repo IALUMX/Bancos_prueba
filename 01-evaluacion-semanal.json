@@ -8783,5 +8783,1445 @@
     "explanation": "Ec.1 - Ec.2: $(3x+2y+z) - (x-y+z) = 4 - 1 \\Rightarrow 2x+3y=3$. Al resolver el sistema completo obtenemos $x=3/5, y=3/5, z=1$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00SV",
+    "question": "Dada la función $f(x) = x^2 - 4$, ¿cuál es el valor de la función cuando $x = 3$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye el valor de $x$ en la ecuación: $f(3) = (3)^2 - 4$.",
+    "explanation": "Elevamos al cuadrado: $3^2 = 9$. Restamos 4: $9 - 4 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00SW",
+    "question": "Identifica cuál de las siguientes ecuaciones corresponde a una función cuadrática completa.",
+    "image": null,
+    "options": [
+      { "text": "$y = 2x^2 + 3x - 5$", "correct": true },
+      { "text": "$y = 3x - 5$", "correct": false },
+      { "text": "$y = 2x^2 - 5$", "correct": false },
+      { "text": "$y = 2x^3 + 3x - 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Una ecuación cuadrática completa tiene la forma $ax^2 + bx + c$ con $a, b, c \\neq 0$.",
+    "explanation": "La opción $y = 2x^2 + 3x - 5$ posee el término cuadrático ($2x^2$), el término lineal ($3x$) y el término independiente ($-5$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00SX",
+    "question": "Determina hacia dónde abre la parábola dada por la función $f(x) = -3x^2 + 2x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "Hacia abajo", "correct": true },
+      { "text": "Hacia arriba", "correct": false },
+      { "text": "Hacia la derecha", "correct": false },
+      { "text": "Hacia la izquierda", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el signo del coeficiente cuadrático $a$. Si $a < 0$, abre hacia abajo.",
+    "explanation": "Como el coeficiente de $x^2$ es $-3$ (negativo), la parábola es cóncava hacia abajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00SY",
+    "question": "¿En qué punto corta al eje $y$ la función $f(x) = x^2 + 6x + 9$?",
+    "image": null,
+    "options": [
+      { "text": "$(0, 9)$", "correct": true },
+      { "text": "$(0, 6)$", "correct": false },
+      { "text": "$(0, 0)$", "correct": false },
+      { "text": "$(0, 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El corte con el eje $y$ ocurre cuando $x=0$, lo que corresponde al término independiente $c$.",
+    "explanation": "Al evaluar $f(0)$, los términos con $x$ se anulan y queda el término independiente $9$. El punto es $(0, 9)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00SZ",
+    "question": "Calcula el discriminante $\\Delta$ de la función $f(x) = x^2 + 2x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $\\Delta = b^2 - 4ac$. Aquí $a=1, b=2, c=1$.",
+    "explanation": "Sustituyendo: $\\Delta = (2)^2 - 4(1)(1) = 4 - 4 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TA",
+    "question": "Si el discriminante de una ecuación cuadrática es positivo ($\\Delta > 0$), ¿cuántas raíces reales tiene la función?",
+    "image": null,
+    "options": [
+      { "text": "Dos raíces reales distintas", "correct": true },
+      { "text": "Una raíz real doble", "correct": false },
+      { "text": "Ninguna raíz real", "correct": false },
+      { "text": "Tres raíces reales", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El discriminante indica la naturaleza de las raíces. Positivo implica dos cortes con el eje x.",
+    "explanation": "Un discriminante mayor a cero indica que la parábola corta al eje x en dos puntos distintos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TB",
+    "question": "Identifica los coeficientes $a$, $b$ y $c$ de la función $f(x) = 5 - x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$a=-1, b=0, c=5$", "correct": true },
+      { "text": "$a=1, b=0, c=5$", "correct": false },
+      { "text": "$a=-1, b=5, c=0$", "correct": false },
+      { "text": "$a=5, b=0, c=-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Reordena la ecuación a la forma $ax^2 + bx + c$. El término lineal no está presente.",
+    "explanation": "La ecuación ordenada es $-1x^2 + 0x + 5$. Por lo tanto, $a=-1$, $b=0$, $c=5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TC",
+    "question": "Selecciona cuál de las siguientes coordenadas corresponde al vértice de la parábola $y = x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$(0, 0)$", "correct": true },
+      { "text": "$(1, 1)$", "correct": false },
+      { "text": "$(0, 1)$", "correct": false },
+      { "text": "$(1, 0)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la parábola matriz más simple. Su mínimo está en el origen.",
+    "explanation": "Para $y=x^2$, el valor mínimo se alcanza cuando $x=0$, resultando $y=0$. Vértice en $(0,0)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TD",
+    "question": "¿Cuál es la ecuación del eje de simetría de la función $y = (x - 2)^2 + 3$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$y = 3$", "correct": false },
+      { "text": "$y = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la forma vértice $y = a(x-h)^2 + k$, el eje de simetría es $x = h$.",
+    "explanation": "Aquí $h=2$, por lo tanto, la recta vertical que divide la parábola es $x=2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TE",
+    "question": "Factoriza la función $f(x) = x^2 - 9$ para encontrar sus raíces.",
+    "image": null,
+    "options": [
+      { "text": "$(x-3)(x+3)$", "correct": true },
+      { "text": "$(x-9)(x+1)$", "correct": false },
+      { "text": "$(x-3)(x-3)$", "correct": false },
+      { "text": "$(x+9)(x-1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una diferencia de cuadrados de la forma $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La raíz cuadrada de $x^2$ es $x$ y la de $9$ es $3$. Se factoriza como binomios conjugados: $(x-3)(x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TF",
+    "question": "Completa el enunciado: 'Si el coeficiente $a$ en $f(x) = ax^2 + c$ aumenta su valor absoluto (por ejemplo de 1 a 5), la parábola se ______ horizontalmente.'",
+    "image": null,
+    "options": [
+      { "text": "Estrecha (cierra)", "correct": true },
+      { "text": "Ensancha (abre)", "correct": false },
+      { "text": "Desplaza a la derecha", "correct": false },
+      { "text": "Desplaza a la izquierda", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un valor mayor de $a$ hace que la función crezca más rápido.",
+    "explanation": "Al aumentar $|a|$, los valores de $y$ crecen más rápido para el mismo $x$, haciendo que la gráfica se vea más delgada o cerrada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TG",
+    "question": "Determina el valor de $y$ para la función $y = 2x^2$ cuando $x = -3$.",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "-18", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "-12", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que cualquier número negativo elevado al cuadrado se vuelve positivo.",
+    "explanation": "$y = 2(-3)^2 = 2(9) = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TH",
+    "question": "Relaciona la función con su intersección en el eje $y$:\n\nI. $f(x) = x^2 + 2$\nII. $f(x) = x^2 - 5$\nIII. $f(x) = x^2$\n\nA. $y = 0$\nB. $y = 2$\nC. $y = -5$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La intersección es el valor del término independiente $c$.",
+    "explanation": "En I, $c=2$. En II, $c=-5$. En III, $c=0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TI",
+    "question": "¿Cuál de las siguientes es una raíz de la función $f(x) = x(x - 5)$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "-5", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala la función a cero: $x(x-5) = 0$.",
+    "explanation": "Para que el producto sea cero, o $x=0$ o $x-5=0$. Por tanto, $x=5$ es una raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TJ",
+    "question": "Calcula el valor de la función $f(x) = -x^2 + 10$ cuando $x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "-10", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $x=0$.",
+    "explanation": "$f(0) = -(0)^2 + 10 = 0 + 10 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TK",
+    "question": "En la función $f(x) = x^2 + 4x + 4$, ¿cómo es el discriminante?",
+    "image": null,
+    "options": [
+      { "text": "Igual a cero", "correct": true },
+      { "text": "Mayor que cero", "correct": false },
+      { "text": "Menor que cero", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un trinomio cuadrado perfecto. $b^2 - 4ac$.",
+    "explanation": "$4^2 - 4(1)(4) = 16 - 16 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TL",
+    "question": "¿Cuál es el dominio de la función $f(x) = x^2$?",
+    "image": null,
+    "options": [
+      { "text": "Todos los números reales $(-\\infty, \\infty)$", "correct": true },
+      { "text": "Solo los números positivos $[0, \\infty)$", "correct": false },
+      { "text": "Solo los números negativos $(-\\infty, 0]$", "correct": false },
+      { "text": "Los enteros solamente", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa qué valores puede tomar $x$ sin causar error matemático.",
+    "explanation": "No hay restricciones para elevar un número al cuadrado, por lo que el dominio son todos los reales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TM",
+    "question": "Si $f(x) = (x-2)^2$, ¿cuál es el valor mínimo de la función?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "-2", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un cuadrado perfecto nunca puede ser negativo. Su valor más bajo es 0.",
+    "explanation": "El valor mínimo ocurre cuando la base es 0, es decir $x=2$, dando $y=0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TN",
+    "question": "Identifica qué término falta para que la ecuación sea cuadrática: $y = 5x + 2$.",
+    "image": null,
+    "options": [
+      { "text": "El término $ax^2$", "correct": true },
+      { "text": "El término $bx$", "correct": false },
+      { "text": "El término $c$", "correct": false },
+      { "text": "El término $y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para ser cuadrática, el mayor exponente debe ser 2.",
+    "explanation": "La ecuación presentada es lineal. Falta el término cuadrático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TO",
+    "question": "¿Cuál es el vértice de la parábola $y = x^2 - 1$?",
+    "image": null,
+    "options": [
+      { "text": "$(0, -1)$", "correct": true },
+      { "text": "$(1, 0)$", "correct": false },
+      { "text": "$(-1, 0)$", "correct": false },
+      { "text": "$(0, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es de la forma $ax^2 + c$. El vértice está en $(0, c)$.",
+    "explanation": "El eje de simetría es $x=0$. Evaluando $f(0) = -1$. Vértice $(0, -1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TP",
+    "question": "Calcula $f(1) + f(-1)$ para la función $f(x) = x^2$.",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa por separado y suma: $(1)^2 + (-1)^2$.",
+    "explanation": "$1 + 1 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TQ",
+    "question": "Selecciona los puntos donde $f(x) = x^2 - 4$ corta al eje $x$.",
+    "image": null,
+    "options": [
+      { "text": "$2$ y $-2$", "correct": true },
+      { "text": "$4$ y $-4$", "correct": false },
+      { "text": "$0$ y $4$", "correct": false },
+      { "text": "$2$ y $0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve $x^2 - 4 = 0$.",
+    "explanation": "$x^2 = 4 \\rightarrow x = \\pm 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TR",
+    "question": "¿Cuál es el valor del parámetro $b$ en la ecuación $y = 3x^2 - x + 7$?",
+    "image": null,
+    "options": [
+      { "text": "-1", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El parámetro $b$ es el coeficiente que acompaña a la $x$.",
+    "explanation": "El término lineal es $-x$, lo que implica un coeficiente de $-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TS",
+    "question": "Si una parábola abre hacia arriba, ¿su vértice representa un máximo o un mínimo?",
+    "image": null,
+    "options": [
+      { "text": "Mínimo", "correct": true },
+      { "text": "Máximo", "correct": false },
+      { "text": "Ninguno", "correct": false },
+      { "text": "Punto de inflexión", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Imagina la forma de una 'U'. El punto más bajo es el vértice.",
+    "explanation": "Si abre hacia arriba, la función decrece hasta el vértice y luego crece, por lo tanto, es un mínimo absoluto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TT",
+    "question": "Determina las coordenadas del vértice de la parábola $y = x^2 - 6x + 5$.",
+    "image": null,
+    "options": [
+      { "text": "$(3, -4)$", "correct": true },
+      { "text": "$(-3, 32)$", "correct": false },
+      { "text": "$(3, 5)$", "correct": false },
+      { "text": "$(0, 5)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $h = -b/(2a)$ para la coordenada $x$. Luego evalúa en la función.",
+    "explanation": "$h = -(-6)/2(1) = 6/2 = 3$. Evaluando: $y = (3)^2 - 6(3) + 5 = 9 - 18 + 5 = -4$. Vértice $(3, -4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TU",
+    "question": "Encuentra las raíces de la función $f(x) = x^2 - 5x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$x=3, x=2$", "correct": true },
+      { "text": "$x=-3, x=-2$", "correct": false },
+      { "text": "$x=6, x=1$", "correct": false },
+      { "text": "$x=-6, x=1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den 6 y sumados den -5.",
+    "explanation": "Factorización: $(x-3)(x-2) = 0$. Raíces: 3 y 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TV",
+    "question": "Determina el rango de la función $f(x) = x^2 + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$[1, \\infty)$", "correct": true },
+      { "text": "$[0, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, 1]$", "correct": false },
+      { "text": "$(-\\infty, \\infty)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El vértice es el punto mínimo $(0, 1)$. La función abre hacia arriba.",
+    "explanation": "Como el valor mínimo de $y$ es 1 y la parábola abre hacia arriba, el rango es de 1 hacia infinito.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TW",
+    "question": "¿Cuál es la ecuación de la parábola con vértice en $(0,0)$ que pasa por el punto $(2, 8)$?",
+    "image": null,
+    "options": [
+      { "text": "$y = 2x^2$", "correct": true },
+      { "text": "$y = 4x^2$", "correct": false },
+      { "text": "$y = x^2 + 4$", "correct": false },
+      { "text": "$y = 8x^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la forma $y = ax^2$. Sustituye $x=2$ y $y=8$ para hallar $a$.",
+    "explanation": "$8 = a(2)^2 \\rightarrow 8 = 4a \\rightarrow a = 2$. La ecuación es $y = 2x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TX",
+    "question": "Relaciona la ecuación con las coordenadas de su vértice:\n\nI. $y = (x-2)^2$\nII. $y = x^2 - 2$\nIII. $y = (x+2)^2$\n\nA. $(2, 0)$\nB. $(0, -2)$\nC. $(-2, 0)$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda las transformaciones: $(x-h)$ desplaza a la derecha, $-k$ baja.",
+    "explanation": "I está desplazada 2 a la derecha. II está desplazada 2 hacia abajo. III está desplazada 2 a la izquierda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TY",
+    "question": "Calcula el eje de simetría de la función $f(x) = 2x^2 - 8x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula $x = -b / (2a)$.",
+    "explanation": "$x = -(-8) / (2 \\cdot 2) = 8 / 4 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00TZ",
+    "question": "Si una función cuadrática tiene raíces en $x=1$ y $x=5$, ¿cuál es la coordenada $x$ de su vértice?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Por simetría, el vértice está justo en el punto medio de las raíces.",
+    "explanation": "Punto medio = $(1 + 5) / 2 = 6 / 2 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UA",
+    "question": "Convierte la función $y = x^2 + 6x + 8$ a su forma canónica (vértice) $y = (x-h)^2 + k$.",
+    "image": null,
+    "options": [
+      { "text": "$y = (x+3)^2 - 1$", "correct": true },
+      { "text": "$y = (x-3)^2 + 1$", "correct": false },
+      { "text": "$y = (x+3)^2 + 8$", "correct": false },
+      { "text": "$y = (x+6)^2 - 28$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Completa el trinomio cuadrado perfecto: $(x+3)^2 = x^2 + 6x + 9$. Ajusta la constante.",
+    "explanation": "$x^2 + 6x + 9 - 1 = (x+3)^2 - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UB",
+    "question": "Resuelve la inecuación $x^2 - 4 < 0$.",
+    "image": null,
+    "options": [
+      { "text": "$(-2, 2)$", "correct": true },
+      { "text": "$(-\\infty, -2) \\cup (2, \\infty)$", "correct": false },
+      { "text": "$[-2, 2]$", "correct": false },
+      { "text": "$(0, 4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La parábola $x^2-4$ abre hacia arriba y corta en $\\pm 2$. Busca dónde es negativa (bajo el eje x).",
+    "explanation": "Entre las raíces -2 y 2, la parábola está por debajo del eje x.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UC",
+    "question": "¿En cuántos puntos se intersectan las funciones $y = x^2$ y $y = 4$?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "Infinitos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala las ecuaciones: $x^2 = 4$.",
+    "explanation": "$x = \\pm 2$. Hay dos soluciones, por lo tanto, dos puntos de intersección.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UD",
+    "question": "Determina el valor máximo de la función $f(x) = -x^2 + 4x$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "-4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la coordenada $y$ del vértice. $x = -b/2a = -4/-2 = 2$.",
+    "explanation": "Evaluando en $x=2$: $f(2) = -(2)^2 + 4(2) = -4 + 8 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UE",
+    "question": "Identifica qué transformación sufre $y = x^2$ para convertirse en $y = -(x^2)$.",
+    "image": null,
+    "options": [
+      { "text": "Reflexión sobre el eje x", "correct": true },
+      { "text": "Reflexión sobre el eje y", "correct": false },
+      { "text": "Traslación hacia abajo", "correct": false },
+      { "text": "Rotación de 90 grados", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El signo negativo afecta a toda la función de salida.",
+    "explanation": "Cambiar el signo de $f(x)$ invierte la gráfica verticalmente (espejo en el eje x).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UF",
+    "question": "Calcula el producto de las raíces de la ecuación $x^2 - 7x + 12 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "-7", "correct": false },
+      { "text": "-12", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Según las propiedades de las raíces (Vieta), el producto es $c/a$.",
+    "explanation": "Aquí $c=12$ y $a=1$. El producto es $12/1 = 12$. Las raíces son 3 y 4, $3 \\times 4 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UG",
+    "question": "Encuentra la intersección de la parábola $y = x^2 - x - 2$ con la recta $y = x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(-1, 0)$ y $(3, 4)$", "correct": true },
+      { "text": "$(1, 2)$ y $(3, 4)$", "correct": false },
+      { "text": "$(-1, 0)$ y $(2, 3)$", "correct": false },
+      { "text": "$(0, -2)$ y $(3, 4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala las ecuaciones: $x^2 - x - 2 = x + 1$ y resuelve para $x$.",
+    "explanation": "$x^2 - 2x - 3 = 0$. Factorizando $(x-3)(x+1)=0$. $x=3, x=-1$. Sustituyendo en la recta: $y(3)=4, y(-1)=0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UH",
+    "question": "¿Cuál es la suma de las raíces de la función $2x^2 - 8x + 6 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "-4", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Propiedad de las raíces: $x_1 + x_2 = -b/a$.",
+    "explanation": "$x_1 + x_2 = -(-8)/2 = 8/2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UI",
+    "question": "Si $f(x) = a(x-3)(x+1)$ y la función pasa por el punto $(0, -3)$, ¿cuál es el valor de $a$?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "-1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $x=0$ y $f(x)=-3$ en la ecuación.",
+    "explanation": "$-3 = a(0-3)(0+1) \\rightarrow -3 = a(-3)(1) \\rightarrow -3 = -3a \\rightarrow a = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UJ",
+    "question": "Completa el cuadrado para encontrar el vértice de $y = x^2 + 10x$.",
+    "image": null,
+    "options": [
+      { "text": "$(-5, -25)$", "correct": true },
+      { "text": "$(5, 25)$", "correct": false },
+      { "text": "$(-5, 25)$", "correct": false },
+      { "text": "$(5, -25)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma y resta $(10/2)^2 = 25$.",
+    "explanation": "$y = (x^2 + 10x + 25) - 25 = (x+5)^2 - 25$. Vértice en $(-5, -25)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UK",
+    "question": "Determina si la recta $y = 2$ es tangente, secante o exterior a la parábola $y = x^2 + 2$.",
+    "image": null,
+    "options": [
+      { "text": "Tangente", "correct": true },
+      { "text": "Secante", "correct": false },
+      { "text": "Exterior", "correct": false },
+      { "text": "Perpendicular", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca cuántos puntos de intersección tienen.",
+    "explanation": "$x^2 + 2 = 2 \\rightarrow x^2 = 0 \\rightarrow x = 0$. Solo un punto de contacto $(0,2)$, por lo tanto es tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UL",
+    "question": "¿Para qué valor de $k$ la ecuación $x^2 + 6x + k = 0$ tiene una única raíz real?",
+    "image": null,
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "-9", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El discriminante debe ser cero: $b^2 - 4ac = 0$.",
+    "explanation": "$6^2 - 4(1)(k) = 0 \\rightarrow 36 - 4k = 0 \\rightarrow 4k = 36 \\rightarrow k = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UM",
+    "question": "Halla la función cuadrática que tiene raíces en -2 y 2, y pasa por $(0, -4)$.",
+    "image": null,
+    "options": [
+      { "text": "$y = x^2 - 4$", "correct": true },
+      { "text": "$y = x^2 + 4$", "correct": false },
+      { "text": "$y = 2x^2 - 8$", "correct": false },
+      { "text": "$y = -x^2 + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Forma factorizada: $y = a(x+2)(x-2)$.",
+    "explanation": "$y = a(x^2 - 4)$. Usando $(0, -4)$: $-4 = a(-4) \\rightarrow a = 1$. Ecuación: $y = x^2 - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UN",
+    "question": "¿Cuál es el valor de $c$ si el vértice de $y = x^2 - 8x + c$ está sobre el eje $x$?",
+    "image": null,
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si el vértice está en el eje $x$, es un trinomio cuadrado perfecto.",
+    "explanation": "$(x-4)^2 = x^2 - 8x + 16$. Entonces $c=16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UO",
+    "question": "Calcula $f(2)$ para $f(x) = (x-1)(x-3)$.",
+    "image": null,
+    "options": [
+      { "text": "-1", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye directamente.",
+    "explanation": "$f(2) = (2-1)(2-3) = (1)(-1) = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UP",
+    "question": "Identifica la gráfica de $y = -x^2 + 2$.",
+    "image": null,
+    "options": [
+      { "text": "Parábola hacia abajo con vértice en $(0,2)$", "correct": true },
+      { "text": "Parábola hacia arriba con vértice en $(0,2)$", "correct": false },
+      { "text": "Parábola hacia abajo con vértice en $(0,-2)$", "correct": false },
+      { "text": "Parábola hacia arriba con vértice en $(0,-2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Signo negativo ante $x^2$ invierte; $+2$ sube el vértice.",
+    "explanation": "El coeficiente negativo indica concavidad hacia abajo. La constante 2 indica intersección con y en 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UQ",
+    "question": "Relaciona el discriminante con el número de raíces:\n\nI. $\\Delta = 25$\nII. $\\Delta = 0$\nIII. $\\Delta = -9$\n\nA. 2 raíces reales\nB. 1 raíz real\nC. 0 raíces reales",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Positivo = 2, Cero = 1, Negativo = 0.",
+    "explanation": "25 es positivo (2 raíces), 0 es cero (1 raíz), -9 es negativo (0 raíces).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UR",
+    "question": "Encuentra el conjunto solución de $x^2 - 3x - 10 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$\\{5, -2\\}$", "correct": true },
+      { "text": "$\\{-5, 2\\}$", "correct": false },
+      { "text": "$\\{10, -1\\}$", "correct": false },
+      { "text": "$\\{5, 2\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza: $(x-5)(x+2) = 0$.",
+    "explanation": "Las raíces son los valores que hacen cero los factores: $x=5$ y $x=-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00US",
+    "question": "Si $f(x) = x^2 - 4x + 7$, calcula el valor de $f(h)$ donde $h$ es la coordenada $x$ del vértice.",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "-3", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero halla $h = -b/2a$, luego $f(h)$ es la coordenada $k$ (mínimo).",
+    "explanation": "$h = 4/2 = 2$. $f(2) = 2^2 - 4(2) + 7 = 4 - 8 + 7 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UT",
+    "question": "¿Qué valor de $b$ hace que el eje de simetría de $y = x^2 + bx + 5$ sea $x = 3$?",
+    "image": null,
+    "options": [
+      { "text": "-6", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $3 = -b / (2 \\cdot 1)$.",
+    "explanation": "$3 = -b/2 \\rightarrow 6 = -b \\rightarrow b = -6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UU",
+    "question": "Determina las raíces de $2x^2 - 18 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$\\pm 3$", "correct": true },
+      { "text": "$\\pm 9$", "correct": false },
+      { "text": "$\\pm 2$", "correct": false },
+      { "text": "$\\pm 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x^2$.",
+    "explanation": "$2x^2 = 18 \\rightarrow x^2 = 9 \\rightarrow x = \\pm 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UV",
+    "question": "Se inscribe un rectángulo bajo la parábola $y=12-x^2$ con base en el eje x. Si la base del rectángulo va de $x=-2$ a $x=2$, ¿cuál es su altura?",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa la función en $x=2$ (mitad de la base).",
+    "explanation": "Si la base va de -2 a 2, $x=2$. Altura $y = 12 - (2)^2 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UW",
+    "question": "Identifica la función que ha sido desplazada 3 unidades hacia arriba y 1 a la izquierda respecto a $y=x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$y = (x+1)^2 + 3$", "correct": true },
+      { "text": "$y = (x-1)^2 + 3$", "correct": false },
+      { "text": "$y = (x+1)^2 - 3$", "correct": false },
+      { "text": "$y = (x-3)^2 + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Izquierda implica sumar dentro del paréntesis; arriba sumar fuera.",
+    "explanation": "$(x+1)^2$ mueve 1 a la izq, $+3$ mueve 3 arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UX",
+    "question": "¿Cuál es el valor de $k$ para que la parábola $y = kx^2$ pase por $(2, 20)$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $x$ e $y$ y despeja $k$.",
+    "explanation": "$20 = k(2)^2 \\rightarrow 20 = 4k \\rightarrow k = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UY",
+    "question": "Si $x_1 = 2$ y $x_2 = -4$ son raíces, ¿cuál es el eje de simetría?",
+    "image": null,
+    "options": [
+      { "text": "$x = -1$", "correct": true },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El eje pasa por el punto medio de las raíces.",
+    "explanation": "$(2 + (-4))/2 = -2/2 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UZ",
+    "question": "Determina el coeficiente $a$ de una parábola con vértice en $(2,3)$ que pasa por $(3,4)$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "0.5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $y = a(x-h)^2 + k$.",
+    "explanation": "$4 = a(3-2)^2 + 3 \\rightarrow 4 = a(1) + 3 \\rightarrow a = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VA",
+    "question": "El producto de dos números enteros consecutivos es 110. Si $x$ es el menor, ¿cuál es la ecuación cuadrática que modela esto?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + x - 110 = 0$", "correct": true },
+      { "text": "$x^2 + x + 110 = 0$", "correct": false },
+      { "text": "$x^2 - x - 110 = 0$", "correct": false },
+      { "text": "$2x + 1 = 110$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Consecutivos son $x$ y $x+1$. Multiplícalos e iguala a 110.",
+    "explanation": "$x(x+1) = 110 \\rightarrow x^2 + x = 110 \\rightarrow x^2 + x - 110 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VB",
+    "question": "¿Cuál es la ordenada al origen de $y = 3(x-1)^2 + 4$?",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa en $x=0$.",
+    "explanation": "$y = 3(0-1)^2 + 4 = 3(1) + 4 = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VC",
+    "question": "Encuentra el valor de $m$ para que la parábola $y = x^2 + mx + 9$ toque al eje $x$ en un solo punto positivo.",
+    "image": null,
+    "options": [
+      { "text": "-6", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe ser un trinomio cuadrado perfecto $(x-3)^2$.",
+    "explanation": "Para tener raíz positiva $x=3$, el factor es $(x-3)^2 = x^2 - 6x + 9$. $m=-6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VD",
+    "question": "Resuelve para $x$: $(x+2)^2 = 9$.",
+    "image": null,
+    "options": [
+      { "text": "$1$ y $-5$", "correct": true },
+      { "text": "$1$ y $5$", "correct": false },
+      { "text": "$-1$ y $5$", "correct": false },
+      { "text": "$3$ y $-3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Saca raíz cuadrada a ambos lados: $x+2 = \\pm 3$.",
+    "explanation": "$x+2=3 \\rightarrow x=1$. $x+2=-3 \\rightarrow x=-5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VE",
+    "question": "¿Qué intervalo representa el conjunto de valores de $x$ donde la gráfica de $y = -(x-2)^2$ es creciente?",
+    "image": null,
+    "options": [
+      { "text": "$(-\\infty, 2)$", "correct": true },
+      { "text": "$(2, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, \\infty)$", "correct": false },
+      { "text": "$(-2, 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La parábola abre hacia abajo con vértice en $x=2$. Sube antes del vértice.",
+    "explanation": "Al abrir hacia abajo, la función crece desde la izquierda hasta llegar al pico en $x=2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VF",
+    "question": "Calcula el valor de la expresión $b^2 - 4ac$ para la ecuación $3x^2 - 5x + 1 = 0$ y determina si el resultado es entero.",
+    "image": null,
+    "options": [
+      { "text": "13, Sí", "correct": true },
+      { "text": "-13, Sí", "correct": false },
+      { "text": "17, Sí", "correct": false },
+      { "text": "37, Sí", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$(-5)^2 - 4(3)(1)$.",
+    "explanation": "$25 - 12 = 13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VG",
+    "question": "En la función $f(t) = -16t^2 + 64t$, ¿en qué tiempo $t$ alcanza su altura máxima?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el vértice $t = -b/2a$.",
+    "explanation": "$t = -64 / (2(-16)) = -64 / -32 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VH",
+    "question": "Identifica cuál de los siguientes puntos NO pertenece a la parábola $y = x^2 - 4x$.",
+    "image": null,
+    "options": [
+      { "text": "$(1, -4)$", "correct": true },
+      { "text": "$(0, 0)$", "correct": false },
+      { "text": "$(4, 0)$", "correct": false },
+      { "text": "$(2, -4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa $x=1$ en la función.",
+    "explanation": "$f(1) = 1^2 - 4(1) = -3$. El punto $(1, -4)$ es incorrecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VI",
+    "question": "Si $f(x) = x^2$ y $g(x) = x^2 - 4$, ¿cuál es la distancia vertical entre ambas gráficas?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La diferencia es la constante del desplazamiento vertical.",
+    "explanation": "La diferencia es $|f(x) - g(x)| = |x^2 - (x^2 - 4)| = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VJ",
+    "question": "Resuelve la ecuación cuadrática pura $3x^2 - 27 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$\\pm 3$", "correct": true },
+      { "text": "$\\pm 9$", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide entre 3 y saca raíz.",
+    "explanation": "$3x^2 = 27 \\rightarrow x^2 = 9 \\rightarrow x = \\pm 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VK",
+    "question": "¿Cuál es el valor mínimo de la función $f(x) = 2(x+5)^2 - 8$?",
+    "image": null,
+    "options": [
+      { "text": "-8", "correct": true },
+      { "text": "-5", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En la forma vértice, el valor mínimo es $k$.",
+    "explanation": "El vértice está en $(-5, -8)$. Como abre hacia arriba, el mínimo es -8.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VL",
+    "question": "Un estudiante del CEPREDIX lanza un objeto cuya trayectoria es $y = -x^2 + 6x$. ¿A qué distancia horizontal $x$ el objeto cae al suelo (altura 0)?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca las raíces. Una es el inicio (0), la otra es la caída.",
+    "explanation": "$-x(x-6)=0$. $x=0$ (inicio), $x=6$ (caída).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VM",
+    "question": "Determina el valor de $k$ para que la función $y = kx^2$ pase por el punto $(\\frac{1}{2}, \\frac{1}{4})$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "1/2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye fracciones: $1/4 = k(1/2)^2$.",
+    "explanation": "$1/4 = k(1/4) \\rightarrow k = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VN",
+    "question": "Halla el vértice de la parábola $y = \\frac{1}{2}x^2 - 2x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$(2, -1)$", "correct": true },
+      { "text": "$(2, 1)$", "correct": false },
+      { "text": "$(-2, 5)$", "correct": false },
+      { "text": "$(4, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "$x = -(-2) / (2 \\cdot 1/2)$.",
+    "explanation": "$x = 2 / 1 = 2$. $y = 1/2(4) - 4 + 1 = 2 - 4 + 1 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VO",
+    "question": "Resuelve la desigualdad $2x^2 - x - 3 \\geq 0$.",
+    "image": null,
+    "options": [
+      { "text": "$(-\\infty, -1] \\cup [1.5, \\infty)$", "correct": true },
+      { "text": "$[-1, 1.5]$", "correct": false },
+      { "text": "$(-\\infty, -1.5] \\cup [1, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, 1]$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Raíces de $2x^2-x-3=0$ son $x=-1$ y $x=3/2$. Evalúa intervalos.",
+    "explanation": "Factorización $(2x-3)(x+1)$. Raíces $1.5$ y $-1$. Como abre hacia arriba, es positiva en los extremos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VP",
+    "question": "Un granjero tiene 120m de cerca y quiere encerrar un área rectangular máxima junto a un río (solo cerca 3 lados). ¿Cuál es la función de área $A(x)$ si $x$ es el ancho?",
+    "image": null,
+    "options": [
+      { "text": "$A(x) = -2x^2 + 120x$", "correct": true },
+      { "text": "$A(x) = -x^2 + 120x$", "correct": false },
+      { "text": "$A(x) = x^2 + 120$", "correct": false },
+      { "text": "$A(x) = 2x^2 - 120x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Largo = $120 - 2x$. Área = $x(120 - 2x)$.",
+    "explanation": "$A = x(120-2x) = 120x - 2x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VQ",
+    "question": "Calcula el punto de intersección entre $y = \\frac{1}{4}x^2$ y $y = x$. Excluyendo el origen $(0,0)$.",
+    "image": null,
+    "options": [
+      { "text": "$(4, 4)$", "correct": true },
+      { "text": "$(2, 2)$", "correct": false },
+      { "text": "$(1, 1)$", "correct": false },
+      { "text": "$(8, 8)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala $1/4 x^2 = x$.",
+    "explanation": "$x^2 = 4x \\rightarrow x^2 - 4x = 0 \\rightarrow x(x-4)=0$. $x=4, y=4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VR",
+    "question": "Si las raíces de $ax^2 + bx + c = 0$ son $x_1 = 1/2$ y $x_2 = -1/2$, ¿cuál podría ser la ecuación?",
+    "image": null,
+    "options": [
+      { "text": "$4x^2 - 1 = 0$", "correct": true },
+      { "text": "$2x^2 - 1 = 0$", "correct": false },
+      { "text": "$x^2 - 1/4 = 0$ (pero busca coeficientes enteros)", "correct": false },
+      { "text": "$4x^2 + 1 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Producto suma por diferencia: $(2x-1)(2x+1)$.",
+    "explanation": "$4x^2 - 1 = 0$ da $x^2 = 1/4$, raíces $\\pm 1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VS",
+    "question": "Determina el valor de $c$ en $y = x^2 - 3x + c$ para que el mínimo de la función sea $-1/4$.",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Vértice $x = 3/2$. $f(3/2) = -1/4$.",
+    "explanation": "$(3/2)^2 - 3(3/2) + c = -1/4 \\rightarrow 9/4 - 18/4 + c = -1/4 \\rightarrow -9/4 + c = -1/4 \\rightarrow c = 8/4 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VT",
+    "question": "¿Qué valor debe tener $a$ en $f(x) = ax^2$ para que la gráfica pase por $(3, 3)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{3}$", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $3 = a(3)^2$.",
+    "explanation": "$3 = 9a \\rightarrow a = 3/9 = 1/3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VU",
+    "question": "Un problema del CEPREDIX sobre optimización: Se desea maximizar el producto $P = x \\cdot y$ sujeto a $x + y = 10$. ¿Cuál es el valor máximo?",
+    "image": null,
+    "options": [
+      { "text": "25", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $y = 10-x$. Función $P(x) = x(10-x) = 10x - x^2$. Vértice.",
+    "explanation": "Vértice en $x=5$. $y=5$. Producto $5 \\times 5 = 25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VV",
+    "question": "Resuelve la inecuación fraccionaria relacionada con cuadráticas: $\\frac{1}{x^2 + 1} > 0$.",
+    "image": null,
+    "options": [
+      { "text": "$(-\\infty, \\infty)$", "correct": true },
+      { "text": "$(0, \\infty)$", "correct": false },
+      { "text": "No tiene solución", "correct": false },
+      { "text": "$(-1, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza el denominador. $x^2 + 1$ siempre es positivo.",
+    "explanation": "Como el numerador es positivo (1) y el denominador siempre es positivo ($x^2 \\geq 0 + 1$), la fracción siempre es positiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VW",
+    "question": "Halla la función cuadrática que tiene su vértice en $(2, 1)$ y pasa por el punto $(3, 3)$.",
+    "image": null,
+    "options": [
+      { "text": "$y = 2(x-2)^2 + 1$", "correct": true },
+      { "text": "$y = (x-2)^2 + 1$", "correct": false },
+      { "text": "$y = 2(x+2)^2 - 1$", "correct": false },
+      { "text": "$y = 3(x-2)^2 + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $y = a(x-h)^2 + k$.",
+    "explanation": "$3 = a(3-2)^2 + 1 \\rightarrow 3 = a(1) + 1 \\rightarrow a = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
