@@ -15465,5 +15465,1265 @@
     "explanation": "Las enzimas permiten que las reacciones ocurran a velocidades compatibles con la vida y con alta especificidad.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01GM",
+    "question": "Al aplicar las leyes de los exponentes, ¿cuál es el resultado de simplificar la expresión $x^3 \\cdot x^4$?",
+    "image": null,
+    "options": [
+      { "text": "$x^7$", "correct": true },
+      { "text": "$x^{12}$", "correct": false },
+      { "text": "$x^1$", "correct": false },
+      { "text": "$2x^7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la multiplicación de bases iguales, los exponentes se suman: $a^n \\cdot a^m = a^{n+m}$.",
+    "explanation": "Simplemente sumamos los exponentes porque las bases son iguales: $3 + 4 = 7$, resultando en $x^7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GN",
+    "question": "Completa el enunciado de la ley de los exponentes: 'Cualquier base diferente de cero elevada a la potencia ______ es igual a ______.'",
+    "image": null,
+    "options": [
+      { "text": "Cero, uno", "correct": true },
+      { "text": "Uno, cero", "correct": false },
+      { "text": "Cero, cero", "correct": false },
+      { "text": "Uno, la misma base", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la propiedad $a^0$.",
+    "explanation": "Es una definición fundamental: todo número (salvo el cero) elevado a 0 es 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GO",
+    "question": "Identifica cuáles de las siguientes expresiones son equivalentes a $\\frac{1}{x^2}$:\n1. $x^{-2}$\n2. $-x^2$\n3. $(\\frac{1}{x})^2$\n4. $\\sqrt{x^{-4}}$\n5. $x^{1/2}$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la ley del exponente negativo y propiedades de radicales.",
+    "explanation": "Analicemos: $x^{-2}$ es la definición directa. $(\\frac{1}{x})^2$ eleva numerador y denominador, dando lo mismo. Y $\\sqrt{x^{-4}}$ reduce el exponente a la mitad ($-2$), por lo que también es válida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GP",
+    "question": "Relaciona la ley de los exponentes con su representación algebraica:\n\nI. Producto de potencias\nII. Cociente de potencias\nIII. Potencia de una potencia\n\nA. $(a^m)^n = a^{m \\cdot n}$\nB. $a^m \\cdot a^n = a^{m+n}$\nC. $\\frac{a^m}{a^n} = a^{m-n}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplicación suma exponentes, división resta exponentes, potencia multiplica exponentes.",
+    "explanation": "Es cuestión de emparejar la operación con su efecto en los exponentes: multiplicar suma (B), dividir resta (C) y elevar multiplica (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GQ",
+    "question": "Un estudiante del CEPREDIX necesita simplificar la expresión $(2x)^3$. ¿Cuál es el resultado correcto?",
+    "image": null,
+    "options": [
+      { "text": "$8x^3$", "correct": true },
+      { "text": "$2x^3$", "correct": false },
+      { "text": "$6x^3$", "correct": false },
+      { "text": "$8x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente afecta tanto al coeficiente como a la variable: $(ab)^n = a^n b^n$.",
+    "explanation": "No olvides el coeficiente: $2$ al cubo es $8$, y $x$ al cubo es $x^3$. Juntos forman $8x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GR",
+    "question": "¿Cuál es el resultado de $\\frac{x^8}{x^3}$?",
+    "image": null,
+    "options": [
+      { "text": "$x^5$", "correct": true },
+      { "text": "$x^{11}$", "correct": false },
+      { "text": "$x^{24}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la división de bases iguales, los exponentes se restan.",
+    "explanation": "Al dividir, restamos el exponente de abajo al de arriba: $8 - 3 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GS",
+    "question": "Convierte la expresión radical $\\sqrt[3]{x^2}$ a su forma exponencial.",
+    "image": null,
+    "options": [
+      { "text": "$x^{2/3}$", "correct": true },
+      { "text": "$x^{3/2}$", "correct": false },
+      { "text": "$x^6$", "correct": false },
+      { "text": "$x^{-2/3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La propiedad es $\\sqrt[n]{a^m} = a^{m/n}$.",
+    "explanation": "Recuerda: 'el de adentro arriba, el de afuera abajo'. El exponente (2) es numerador y el índice (3) denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GT",
+    "question": "Completa: 'La ley de los signos para exponentes indica que una base negativa elevada a una potencia ______ da como resultado un número ______.'",
+    "image": null,
+    "options": [
+      { "text": "Par, positivo", "correct": true },
+      { "text": "Impar, positivo", "correct": false },
+      { "text": "Par, negativo", "correct": false },
+      { "text": "Negativa, cero", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: $(-2)^2 = 4$ y $(-2)^3 = -8$.",
+    "explanation": "Los signos negativos se cancelan en parejas. Si el exponente es par, todas las parejas se cancelan resultando en positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GU",
+    "question": "Identifica los valores que son iguales a 1:\n1. $5^0$\n2. $\\frac{x}{x}$ (con $x \\neq 0$)\n3. $(-1)^2$\n4. $0^1$\n5. $1^{100}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 5", "correct": true },
+      { "text": "1, 2, 4, 5", "correct": false },
+      { "text": "2, 3, 4, 5", "correct": false },
+      { "text": "1, 3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$0^1 = 0$. Revisa las demás opciones.",
+    "explanation": "El único intruso es $0^1$, que es 0. Todos los demás casos matemáticos presentados dan 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GV",
+    "question": "Relaciona la expresión con su resultado simplificado:\n\nI. $(x^2)^4$\nII. $x^2 \\cdot x^4$\nIII. $\\frac{x^4}{x^2}$\n\nA. $x^6$\nB. $x^2$\nC. $x^8$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Potencia de potencia multiplica; producto suma; cociente resta.",
+    "explanation": "Calculamos cada uno: $2 \\times 4 = 8$ (Potencia), $2 + 4 = 6$ (Producto), y $4 - 2 = 2$ (Cociente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GW",
+    "question": "En el CEPREDIX se enseña que para evaluar $(\\frac{2}{3})^{-2}$, primero se debe invertir la fracción. ¿Cuál es el resultado final?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{9}{4}$", "correct": true },
+      { "text": "$-\\frac{4}{9}$", "correct": false },
+      { "text": "$\\frac{4}{9}$", "correct": false },
+      { "text": "$-\\frac{9}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Propiedad: $(\\frac{a}{b})^{-n} = (\\frac{b}{a})^n$.",
+    "explanation": "Al quitar el signo negativo, giramos la fracción a $\\frac{3}{2}$. Elevando al cuadrado ambos términos obtenemos $\\frac{9}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GX",
+    "question": "¿Cuál es el valor de $\\sqrt{144}$?",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "72", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca un número que multiplicado por sí mismo dé 144.",
+    "explanation": "Es una raíz exacta: $12 \\times 12 = 144$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GY",
+    "question": "Simplifica la expresión: $5x^0 + (5x)^0$. Considere $x \\neq 0$.",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el exponente solo afecta a lo que tiene inmediatamente a su izquierda o al paréntesis.",
+    "explanation": "Ojo con el alcance del exponente: en $5x^0$ solo afecta a la $x$ (quedando $5 \\cdot 1$), mientras que en $(5x)^0$ afecta a todo el paréntesis (quedando 1). Sumamos $5+1=6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GZ",
+    "question": "¿Cuál es la simplificación de $\\sqrt{x^4 y^6}$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 y^3$", "correct": true },
+      { "text": "$x^2 y^6$", "correct": false },
+      { "text": "$x^4 y^3$", "correct": false },
+      { "text": "$x y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide los exponentes entre el índice de la raíz (que es 2).",
+    "explanation": "Para sacar variables de la raíz cuadrada, dividimos sus exponentes a la mitad: $4/2 = 2$ y $6/2 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HA",
+    "question": "Completa el enunciado: 'Para simplificar una raíz de una raíz, como $\\sqrt[m]{\\sqrt[n]{a}}$, se deben ______ los índices de los radicales.'",
+    "image": null,
+    "options": [
+      { "text": "Multiplicar", "correct": true },
+      { "text": "Sumar", "correct": false },
+      { "text": "Restar", "correct": false },
+      { "text": "Dividir", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es similar a la potencia de una potencia.",
+    "explanation": "Al igual que multiplicamos exponentes en la potencia de potencia, multiplicamos índices en la raíz de raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HB",
+    "question": "Identifica cuál de las siguientes igualdades es INCORRECTA:\n1. $(a+b)^2 = a^2 + b^2$\n2. $(ab)^2 = a^2 b^2$\n3. $(\\frac{a}{b})^2 = \\frac{a^2}{b^2}$\n4. $a^{-n} = \\frac{1}{a^n}$",
+    "image": null,
+    "options": [
+      { "text": "Solo 1", "correct": true },
+      { "text": "Solo 2", "correct": false },
+      { "text": "3 y 4", "correct": false },
+      { "text": "Solo 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El cuadrado de una suma es un binomio al cuadrado: $a^2 + 2ab + b^2$.",
+    "explanation": "La opción 1 es el error clásico. La potenciación no se distribuye sobre la suma; falta el término central $2ab$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HC",
+    "question": "Relaciona el número decimal con su notación científica:\n\nI. $0.0003$\nII. $3000$\nIII. $0.03$\n\nA. $3 \\times 10^3$\nB. $3 \\times 10^{-2}$\nC. $3 \\times 10^{-4}$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Exponente negativo mueve el punto a la izquierda (decimales), positivo a la derecha (enteros).",
+    "explanation": "Cuenta los espacios: $0.0003$ son 4 lugares (negativo), $3000$ son 3 ceros (positivo), y $0.03$ son 2 lugares (negativo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HD",
+    "question": "Calcula el valor de $(-3)^3 - 2^2$.",
+    "image": null,
+    "options": [
+      { "text": "-31", "correct": true },
+      { "text": "-23", "correct": false },
+      { "text": "23", "correct": false },
+      { "text": "31", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten cuidado con el signo de la base y el signo de la operación resta.",
+    "explanation": "Primero las potencias: $(-3)^3$ es $-27$, y $2^2$ es $4$. La operación final es $-27 - 4$, que suma negativo a $-31$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HE",
+    "question": "Simplifica la siguiente expresión algebraica: $\\frac{15x^5 y^2}{3x^2 y}$.",
+    "image": null,
+    "options": [
+      { "text": "$5x^3 y$", "correct": true },
+      { "text": "$5x^7 y^3$", "correct": false },
+      { "text": "$12x^3 y$", "correct": false },
+      { "text": "$5x^3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide coeficientes ($15/3$) y resta exponentes de variables iguales.",
+    "explanation": "Operamos por partes: números $15/3=5$. Para $x$, $5-2=3$. Para $y$, $2-1=1$. Queda $5x^3y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HF",
+    "question": "Un problema del CEPREDIX plantea: Simplificar $(2a^2 b^3)^3 \\cdot (ab)^{-2}$.",
+    "image": null,
+    "options": [
+      { "text": "$8a^4 b^7$", "correct": true },
+      { "text": "$6a^4 b^7$", "correct": false },
+      { "text": "$8a^5 b^4$", "correct": false },
+      { "text": "$2a^4 b^7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero eleva cada factor del paréntesis, luego multiplica aplicando leyes de exponentes.",
+    "explanation": "Desarrollamos el cubo primero: $8a^6b^9$. Luego multiplicamos por $a^{-2}b^{-2}$. Sumamos exponentes: $6-2=4$ y $9-2=7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HG",
+    "question": "Reduce la expresión: $\\sqrt{50} + \\sqrt{18}$.",
+    "image": null,
+    "options": [
+      { "text": "$8\\sqrt{2}$", "correct": true },
+      { "text": "$\\sqrt{68}$", "correct": false },
+      { "text": "$34$", "correct": false },
+      { "text": "$5\\sqrt{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza los radicandos buscando cuadrados perfectos: $50 = 25 \\times 2$ y $18 = 9 \\times 2$.",
+    "explanation": "Extraemos raíz de los factores cuadrados: $5\\sqrt{2}$ y $3\\sqrt{2}$. Al ser términos semejantes, los sumamos: $8\\sqrt{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HH",
+    "question": "Completa el procedimiento para simplificar $(\\frac{x^2}{y^3})^{-3}$: 'Primero invertimos la fracción obteniendo ______, y luego elevamos cada término al cubo.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{y^3}{x^2}$", "correct": true },
+      { "text": "$\\frac{x^3}{y^2}$", "correct": false },
+      { "text": "$\\frac{y^{-3}}{x^{-2}}$", "correct": false },
+      { "text": "$\\frac{1}{x^2 y^3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente negativo invierte el numerador con el denominador.",
+    "explanation": "Para hacer positivo el exponente exterior, simplemente intercambiamos numerador y denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HI",
+    "question": "Identifica la expresión equivalente a $\\sqrt[4]{x^{12} y^8 z^5}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^3 y^2 z \\sqrt[4]{z}$", "correct": true },
+      { "text": "$x^3 y^2 z^{1.25}$", "correct": false },
+      { "text": "$x^8 y^4 z$", "correct": false },
+      { "text": "$x^3 y^2 z$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide exponentes: $12/4$, $8/4$, $5/4$. El residuo permanece dentro de la raíz.",
+    "explanation": "División de exponentes: $12/4=3$ (sale $x^3$) y $8/4=2$ (sale $y^2$). Para $z^5$, sale uno ($z^1$) y sobra uno adentro, porque $5/4$ es 1 con residuo 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HJ",
+    "question": "Relaciona la operación con radicales con su resultado:\n\nI. $\\sqrt{2} \\cdot \\sqrt{8}$\nII. $\\frac{\\sqrt{32}}{\\sqrt{2}}$\nIII. $\\sqrt[3]{2} \\cdot \\sqrt[3]{4}$\n\nA. $2$\nB. $4$\nC. $16$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-B, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Combina los radicales antes de operar: $\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{ab}$.",
+    "explanation": "Operamos dentro del radical: I. $\\sqrt{16}=4$. II. $\\sqrt{16}=4$. III. $\\sqrt[3]{8}=2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HK",
+    "question": "Simplifica la fracción algebraica: $\\frac{x^2 - 9}{x^2 + 6x + 9}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x-3}{x+3}$", "correct": true },
+      { "text": "$\\frac{x+3}{x-3}$", "correct": false },
+      { "text": "$\\frac{1}{6x}$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador (diferencia de cuadrados) y el denominador (trinomio cuadrado perfecto).",
+    "explanation": "Factorizamos arriba como $(x-3)(x+3)$ y abajo como $(x+3)^2$. Cancelamos un $(x+3)$ y obtenemos la respuesta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HL",
+    "question": "Encuentra el valor de $x$ si $2^{x+1} = 32$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa 32 como potencia de 2 ($2^5$). Luego iguala los exponentes.",
+    "explanation": "Igualamos las bases: $32$ es $2^5$. Por tanto, los exponentes deben ser iguales: $x+1=5$, lo que nos da $x=4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HM",
+    "question": "Simplifica la expresión $\\left( \\frac{27 a^3}{8 b^6} \\right)^{2/3}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{9 a^2}{4 b^4}$", "correct": true },
+      { "text": "$\\frac{3 a}{2 b^2}$", "correct": false },
+      { "text": "$\\frac{9 a}{4 b^2}$", "correct": false },
+      { "text": "$\\frac{27 a^2}{8 b^4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la raíz cúbica primero y luego eleva al cuadrado.",
+    "explanation": "Aplicamos raíz cúbica a todo: $3a/2b^2$. Luego elevamos al cuadrado este resultado: $9a^2/4b^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HN",
+    "question": "Calcula el resultado de $\\frac{3^{-1} + 2^{-1}}{6^{-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "1/6", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte a fracciones: $\\frac{1/3 + 1/2}{1/6}$.",
+    "explanation": "La suma arriba es $5/6$. Al dividir por $1/6$, los denominadores se cancelan y queda 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HO",
+    "question": "En un examen simulacro del CEPREDIX se pide simplificar: $\\sqrt{75x^2} - \\sqrt{27x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x\\sqrt{3}$", "correct": true },
+      { "text": "$8x\\sqrt{3}$", "correct": false },
+      { "text": "$48x^2$", "correct": false },
+      { "text": "$5x\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$75 = 25 \\times 3$ y $27 = 9 \\times 3$. Saca las raíces cuadradas exactas.",
+    "explanation": "Extraemos factores: $5x\\sqrt{3}$ y $3x\\sqrt{3}$. Restamos los coeficientes: $5x - 3x = 2x$, manteniendo la raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HP",
+    "question": "¿Cuál es el resultado de multiplicar $(x^{n+1})(x^{n-1})$?",
+    "image": null,
+    "options": [
+      { "text": "$x^{2n}$", "correct": true },
+      { "text": "$x^{2n+2}$", "correct": false },
+      { "text": "$x^{n^2-1}$", "correct": false },
+      { "text": "$x^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los exponentes: $(n+1) + (n-1)$.",
+    "explanation": "Sumamos los términos algebraicos de los exponentes: $n+n=2n$, y $1-1=0$. El resultado es $x^{2n}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HQ",
+    "question": "Identifica cuál expresión NO es equivalente a $a^{3/4}$:\n1. $\\sqrt[4]{a^3}$\n2. $(\\sqrt[4]{a})^3$\n3. $(\\sqrt[3]{a})^4$\n4. $a^{0.75}$",
+    "image": null,
+    "options": [
+      { "text": "Solo 3", "correct": true },
+      { "text": "Solo 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "2 y 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador es la potencia y el denominador el índice de la raíz.",
+    "explanation": "La opción 3 tiene el índice y la potencia invertidos (correspondería a $a^{4/3}$), por lo que es la única incorrecta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HR",
+    "question": "Simplifica la expresión con radicales anidados: $\\sqrt{\\sqrt[3]{x}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt[6]{x}$", "correct": true },
+      { "text": "$\\sqrt[5]{x}$", "correct": false },
+      { "text": "$\\sqrt[3]{x}$", "correct": false },
+      { "text": "$x^{1/5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los índices de las raíces (2 y 3).",
+    "explanation": "Para fusionar radicales anidados, multiplicamos sus índices: $2 \\times 3 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HS",
+    "question": "Completa la racionalización: 'Para racionalizar $\\frac{2}{\\sqrt{5}}$, se debe multiplicar numerador y denominador por ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{5}$", "correct": true },
+      { "text": "$\\sqrt{2}$", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El objetivo es eliminar la raíz del denominador.",
+    "explanation": "Multiplicamos por la misma raíz del denominador ($\\sqrt{5}$) para completar el cuadrado perfecto y eliminar el radical.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HT",
+    "question": "Si $x = 4$ y $y = 9$, calcula el valor de $(x^{1/2} + y^{1/2})^2$.",
+    "image": null,
+    "options": [
+      { "text": "25", "correct": true },
+      { "text": "13", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "169", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero las raíces cuadradas de 4 y 9.",
+    "explanation": "Resolvemos el paréntesis: raíz de 4 es 2, raíz de 9 es 3. Sumamos $2+3=5$ y finalmente elevamos al cuadrado: 25.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HU",
+    "question": "Relaciona la propiedad de los radicales con su ejemplo:\n\nI. Raíz de un producto\nII. Raíz de un cociente\nIII. Raíz de una raíz\n\nA. $\\sqrt{\\frac{16}{9}} = \\frac{4}{3}$\nB. $\\sqrt[3]{\\sqrt{64}} = 2$\nC. $\\sqrt{4 \\cdot 9} = 6$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Asocia multiplicación con producto, división con cociente y anidación con raíz de raíz.",
+    "explanation": "C muestra la separación de multiplicación (producto), A muestra la separación de división (cociente), y B muestra radicales sucesivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HV",
+    "question": "Simplifica: $\\frac{x^{-2} y^3}{x^4 y^{-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{y^4}{x^6}$", "correct": true },
+      { "text": "$\\frac{y^2}{x^2}$", "correct": false },
+      { "text": "$x^2 y^2$", "correct": false },
+      { "text": "$\\frac{1}{x^6 y^4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve los exponentes negativos al lado opuesto de la fracción para hacerlos positivos.",
+    "explanation": "Movemos variables para positivizar exponentes: $x^{-2}$ baja como $x^2$ (sumando al $x^4$ existente = $x^6$). $y^{-1}$ sube como $y^1$ (sumando al $y^3$ existente = $y^4$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HW",
+    "question": "¿Cuál es la expresión simplificada de $(3 \\times 10^5) \\times (2 \\times 10^{-2})$?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\times 10^3$", "correct": true },
+      { "text": "$5 \\times 10^3$", "correct": false },
+      { "text": "$6 \\times 10^{-10}$", "correct": false },
+      { "text": "$6 \\times 10^7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los coeficientes y suma los exponentes de la base 10.",
+    "explanation": "Coeficientes: $3 \\times 2 = 6$. Base 10: $5 + (-2) = 3$. Resultado: $6 \\times 10^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HX",
+    "question": "El manual del CEPREDIX sugiere simplificar $\\sqrt{48} - \\frac{1}{2}\\sqrt{12}$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$3\\sqrt{3}$", "correct": true },
+      { "text": "$2\\sqrt{3}$", "correct": false },
+      { "text": "$4\\sqrt{3}$", "correct": false },
+      { "text": "$\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$48 = 16 \\times 3$ y $12 = 4 \\times 3$.",
+    "explanation": "Simplificamos: $\\sqrt{48} = 4\\sqrt{3}$. $\\sqrt{12} = 2\\sqrt{3}$. La operación queda $4\\sqrt{3} - \\frac{1}{2}(2\\sqrt{3}) = 4\\sqrt{3} - \\sqrt{3} = 3\\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HY",
+    "question": "Calcula el valor de $(\\frac{1}{16})^{-3/4}$.",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "1/8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "-8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Invierte la fracción por el negativo, saca raíz cuarta y eleva al cubo.",
+    "explanation": "Invertimos la base: $16^{3/4}$. Raíz cuarta de 16 es 2. Elevamos al cubo: $2^3 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HZ",
+    "question": "Simplifica: $\\frac{x^2 - y^2}{x + y}$.",
+    "image": null,
+    "options": [
+      { "text": "$x - y$", "correct": true },
+      { "text": "$x + y$", "correct": false },
+      { "text": "$(x-y)^2$", "correct": false },
+      { "text": "$\\frac{1}{x-y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador como diferencia de cuadrados.",
+    "explanation": "Expandimos el numerador: $(x-y)(x+y)$. Al dividir entre $(x+y)$, se cancelan y queda $x-y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IA",
+    "question": "Identifica los pasos correctos para simplificar $\\sqrt[3]{81}$:\n1. Factorizar $81 = 3^4$\n2. Expresar como $3^3 \\cdot 3$\n3. Sacar la raíz exacta de $3^3$\n4. Dejar el residuo dentro de la raíz",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El objetivo es extraer el máximo factor posible del radical.",
+    "explanation": "El proceso es correcto: descomponemos 81 buscando potencias cúbicas ($3^3$) para poder extraerlas del radical.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IB",
+    "question": "Relaciona la expresión fraccionaria con su forma radical:\n\nI. $x^{2/3}$\nII. $x^{3/2}$\nIII. $x^{-1/2}$\n\nA. $\\frac{1}{\\sqrt{x}}$\nB. $\\sqrt[3]{x^2}$\nC. $\\sqrt{x^3}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda: denominador es índice de raíz, negativo invierte.",
+    "explanation": "I corresponde a raíz cúbica (denominador 3). II a raíz cuadrada (denominador 2). III invierte la base a radical (exponente negativo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IC",
+    "question": "¿Cuál es el resultado de $(\\frac{2a}{3b})^3 \\div (\\frac{a}{b})^2$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8a}{27b}$", "correct": true },
+      { "text": "$\\frac{8a^2}{9b}$", "correct": false },
+      { "text": "$\\frac{4a}{9b}$", "correct": false },
+      { "text": "$\\frac{8}{27}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cubo la primera fracción, al cuadrado la segunda y luego multiplica por el recíproco de la segunda (ley del sándwich o inversión).",
+    "explanation": "Primer término: $8a^3/27b^3$. Segundo (invertido para multiplicar): $b^2/a^2$. Multiplicamos y simplificamos: $8a/27b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ID",
+    "question": "Si $3^{2x} = 81$, determina el valor de $x$.",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$81 = 3^4$.",
+    "explanation": "Como las bases son iguales, $2x = 4$. Dividiendo entre 2, obtenemos $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IE",
+    "question": "Simplifica $\\frac{x^n \\cdot x^{n+2}}{x^{2n-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^3$", "correct": true },
+      { "text": "$x$", "correct": false },
+      { "text": "$x^{4n+1}$", "correct": false },
+      { "text": "$x^{2n}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma exponentes arriba: $n + n + 2 = 2n + 2$. Luego resta el de abajo.",
+    "explanation": "Arriba tenemos $2n+2$. Restamos el de abajo: $(2n+2) - (2n-1) = 2n - 2n + 2 + 1 = 3$. Resultado: $x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IF",
+    "question": "Un desafío del CEPREDIX pide racionalizar el denominador de: $\\frac{x}{\\sqrt{x} + \\sqrt{y}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x(\\sqrt{x} - \\sqrt{y})}{x - y}$", "correct": true },
+      { "text": "$\\frac{x(\\sqrt{x} + \\sqrt{y})}{x + y}$", "correct": false },
+      { "text": "$\\sqrt{x} - \\sqrt{y}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{x} - \\sqrt{y}}{x - y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el conjugado del denominador: $\\sqrt{x} - \\sqrt{y}$.",
+    "explanation": "Usamos el conjugado para crear una diferencia de cuadrados abajo ($x-y$) y multiplicamos el numerador por el mismo factor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IG",
+    "question": "Simplifica la expresión: $\\sqrt{72} - \\sqrt{50} + \\sqrt{8}$.",
+    "image": null,
+    "options": [
+      { "text": "$3\\sqrt{2}$", "correct": true },
+      { "text": "$2\\sqrt{2}$", "correct": false },
+      { "text": "$4\\sqrt{2}$", "correct": false },
+      { "text": "$6\\sqrt{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "$72=36\\times2$, $50=25\\times2$, $8=4\\times2$.",
+    "explanation": "Todo se reduce a base $\\sqrt{2}$: $6\\sqrt{2} - 5\\sqrt{2} + 2\\sqrt{2} = 3\\sqrt{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IH",
+    "question": "Calcula el valor de la expresión: $\\left( \\frac{1}{2} \\right)^{-2} + \\left( \\frac{1}{3} \\right)^{-2} + \\left( \\frac{1}{4} \\right)^{-1/2}$.",
+    "image": null,
+    "options": [
+      { "text": "15", "correct": true },
+      { "text": "13", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Invierte las fracciones y eleva. Para el último término, raíz cuadrada de 4.",
+    "explanation": "Invertimos y elevamos: $2^2=4$, $3^2=9$. El último término es $\\sqrt{4}=2$. Suma total: $4+9+2=15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01II",
+    "question": "¿Qué valor debe tener $k$ para que $\\sqrt[3]{x^k} = x^4$?",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "4/3", "correct": false },
+      { "text": "64", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa la raíz a exponente fraccionario: $k/3 = 4$.",
+    "explanation": "Convertimos la raíz a exponente fraccionario $k/3$. Igualamos a 4 y despejamos: $k = 4 \\times 3 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IJ",
+    "question": "Simplifica completamente: $\\frac{a^{-2} - b^{-2}}{a^{-1} + b^{-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{b-a}{ab}$", "correct": true },
+      { "text": "$\\frac{a-b}{ab}$", "correct": false },
+      { "text": "$\\frac{1}{a-b}$", "correct": false },
+      { "text": "$b-a$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa como fracciones $\\frac{1}{a^2} - \\frac{1}{b^2}$ y opera. O factoriza diferencia de cuadrados en el numerador.",
+    "explanation": "El numerador es una diferencia de cuadrados $(a^{-1}-b^{-1})(a^{-1}+b^{-1})$. Cancelamos el término positivo con el denominador, quedando $1/a - 1/b$, que es igual a $(b-a)/ab$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IK",
+    "question": "Determina el valor de $x$ en la ecuación exponencial: $5^{x^2-3x} = 1$.",
+    "image": null,
+    "options": [
+      { "text": "$0$ y $3$", "correct": true },
+      { "text": "$0$ y $-3$", "correct": false },
+      { "text": "Solo $3$", "correct": false },
+      { "text": "$1$ y $3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que el resultado sea 1, el exponente debe ser 0 (ya que base $\\neq 0$).",
+    "explanation": "Igualamos el exponente a 0: $x^2 - 3x = 0$. Factorizamos $x(x-3)=0$, obteniendo las soluciones 0 y 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IL",
+    "question": "Simplifica la expresión radical: $\\sqrt{4x^2 + 4x + 1}$ asumiendo $x > 0$.",
+    "image": null,
+    "options": [
+      { "text": "$2x + 1$", "correct": true },
+      { "text": "$2x - 1$", "correct": false },
+      { "text": "$4x + 1$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El radicando es un trinomio cuadrado perfecto.",
+    "explanation": "Identificamos que lo de adentro es $(2x+1)^2$. La raíz cuadrada cancela el cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IM",
+    "question": "Completa: 'Al racionalizar el denominador de $\\frac{3}{\\sqrt[3]{2}}$, se debe multiplicar numerador y denominador por ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt[3]{4}$", "correct": true },
+      { "text": "$\\sqrt[3]{2}$", "correct": false },
+      { "text": "$\\sqrt{2}$", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Necesitas completar el exponente del radicando para que sea igual al índice. Tienes $2^1$, faltan $2^2=4$.",
+    "explanation": "Para eliminar una raíz cúbica, el radicando debe estar al cubo. Tenemos $2^1$, faltan $2^2$, por lo que multiplicamos por $\\sqrt[3]{2^2} = \\sqrt[3]{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IN",
+    "question": "Un problema avanzado del CEPREDIX: Simplifica $\\frac{x^{n+1} + x^{n+2}}{x^n + x^{n-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2$", "correct": true },
+      { "text": "$x$", "correct": false },
+      { "text": "$x+1$", "correct": false },
+      { "text": "$\\frac{x+1}{x}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza por la menor potencia en numerador ($x^{n+1}$) y denominador ($x^{n-1}$).",
+    "explanation": "Factorizamos: $\\frac{x^{n+1}(1+x)}{x^{n-1}(x+1)}$. Cancelamos $(1+x)$ y restamos exponentes: $(n+1)-(n-1) = 2$. Resultado $x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IO",
+    "question": "Identifica la igualdad correcta:\n1. $\\sqrt{a+b} = \\sqrt{a} + \\sqrt{b}$\n2. $\\sqrt{a^2+b^2} = a+b$\n3. $\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$ (para $a,b \\ge 0$)",
+    "image": null,
+    "options": [
+      { "text": "Solo 3", "correct": true },
+      { "text": "1 y 2", "correct": false },
+      { "text": "2 y 3", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Las raíces no se distribuyen en sumas, solo en productos.",
+    "explanation": "Las propiedades 1 y 2 son falsas (la radicación no es distributiva con la suma). Solo la 3 es válida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IP",
+    "question": "Relaciona la expresión compleja con su simplificación:\n\nI. $\\sqrt{x^2 \\sqrt{x^4}}$\nII. $\\sqrt[3]{x^6 y^3}$\nIII. $(x^2 y^4)^{1/2}$\n\nA. $x^2 y$\nB. $x y^2$\nC. $x^2$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "I: $\\sqrt{x^4}=x^2$, luego $\\sqrt{x^2 \\cdot x^2}$. II: divide exponentes por 3. III: divide exponentes por 2.",
+    "explanation": "I simplifica a $\\sqrt{x^4}=x^2$. II divide exponentes entre 3 ($x^2y$). III divide exponentes entre 2 ($xy^2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IQ",
+    "question": "Reduce la expresión $\\frac{2^{n+3} - 2^{n+1}}{2^{n+1}}$.",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "$2^n$", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $2^{n+1}$ en el numerador.",
+    "explanation": "Factorizamos: $2^{n+1}(2^2 - 1) / 2^{n+1}$. Cancelamos el factor común y queda $4 - 1 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IR",
+    "question": "Calcula $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}$.",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a $x$. Entonces $x = \\sqrt{6+x}$. Eleva al cuadrado y resuelve la cuadrática.",
+    "explanation": "Si $x$ es el resultado, entonces $x^2 = 6 + x$. Resolviendo $x^2 - x - 6 = 0$, obtenemos $x=3$ (la solución positiva).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IS",
+    "question": "Simplifica: $\\left( \\frac{x^a}{x^b} \\right)^{a+b} \\cdot \\left( \\frac{x^b}{x^c} \\right)^{b+c} \\cdot \\left( \\frac{x^c}{x^a} \\right)^{c+a}$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "$x^{abc}$", "correct": false },
+      { "text": "$x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la regla de diferencia de cuadrados en los exponentes: $(x^{a-b})^{a+b} = x^{a^2-b^2}$.",
+    "explanation": "Se forma una suma cíclica de diferencias de cuadrados en el exponente: $(a^2-b^2) + (b^2-c^2) + (c^2-a^2) = 0$. Y $x^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IT",
+    "question": "Un ejercicio del CEPREDIX: Si $x^x = 2$, ¿cuál es el valor de $x^{2x}$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa propiedades de potencias: $x^{2x} = (x^x)^2$.",
+    "explanation": "Reescribimos la expresión como potencia de potencia: $(x^x)^2$. Sustituimos el valor conocido: $2^2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IU",
+    "question": "Simplifica la expresión $\\sqrt[3]{54 x^7 y^{11}}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 x^2 y^3 \\sqrt[3]{2xy^2}$", "correct": true },
+      { "text": "$3 x^3 y^3 \\sqrt[3]{2xy}$", "correct": false },
+      { "text": "$27 x^2 y^3 \\sqrt[3]{2}$", "correct": false },
+      { "text": "$3 x^2 y^3 \\sqrt[3]{6xy^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "$54 = 27 \\times 2 = 3^3 \\times 2$. Divide exponentes por 3 y guarda el residuo.",
+    "explanation": "Sacamos raíz cúbica de $27$ (3). Dividimos exponentes entre 3: $x^7$ da $x^2$ fuera y $x$ dentro. $y^{11}$ da $y^3$ fuera y $y^2$ dentro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IV",
+    "question": "¿Cuál es el valor de $x$ en la ecuación $8^{x-1} = 4^{x+1}$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte ambas bases a 2: $(2^3)^{x-1} = (2^2)^{x+1}$.",
+    "explanation": "Igualamos exponentes en base 2: $3(x-1) = 2(x+1)$. Resolvemos: $3x-3 = 2x+2$, por lo que $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IW",
+    "question": "Simplifica la fracción compleja: $\\frac{1}{1 + x^{-1}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{x+1}$", "correct": true },
+      { "text": "$\\frac{x+1}{x}$", "correct": false },
+      { "text": "$1+x$", "correct": false },
+      { "text": "$x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica numerador y denominador por $x$ para eliminar el exponente negativo.",
+    "explanation": "Para eliminar el exponente negativo, multiplicamos todo por $x$. Arriba queda $x$, y abajo $x(1 + 1/x) = x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IX",
+    "question": "Calcula: $(\\sqrt[3]{2} - \\sqrt[3]{3})(\\sqrt[3]{4} + \\sqrt[3]{6} + \\sqrt[3]{9})$.",
+    "image": null,
+    "options": [
+      { "text": "-1", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la factorización de una diferencia de cubos: $(a-b)(a^2+ab+b^2) = a^3 - b^3$.",
+    "explanation": "Esta es la forma expandida de la diferencia de cubos $a^3 - b^3$. El resultado es simplemente $2 - 3 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01IY",
+    "question": "Simplifica la expresión que incluye exponentes fraccionarios negativos: $\\left( \\frac{16 x^2}{81 y^4} \\right)^{-1/4}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3y}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$\\frac{3\\sqrt{x}}{2y}$", "correct": false },
+      { "text": "$\\frac{2\\sqrt{x}}{3y}$", "correct": false },
+      { "text": "$\\frac{9y}{4x}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Invierte la fracción, lo que cambia el signo del exponente a $1/4$. Luego aplica la raíz cuarta a cada término.",
+    "explanation": "El exponente negativo invierte la fracción a $\\frac{81y^4}{16x^2}$. Luego, aplicamos la raíz cuarta a cada término: $\\sqrt[4]{81}=3$, $\\sqrt[4]{16}=2$, $y^{4/4}=y$ y $x^{2/4}=x^{1/2}=\\sqrt{x}$ en el denominador. Queda $\\frac{3y}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JA",
+    "question": "En el CEPREDIX, para resolver $\\sqrt{x\\sqrt{x\\sqrt{x}}} = x^k$, se pide hallar $k$.",
+    "image": null,
+    "options": [
+      { "text": "7/8", "correct": true },
+      { "text": "1/2", "correct": false },
+      { "text": "3/4", "correct": false },
+      { "text": "1/8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte a exponentes: $x^{1/2} \\cdot (x^{1/2})^{1/2} \\cdot ((x^{1/2})^{1/2})^{1/2}$. O suma $1/2 + 1/4 + 1/8$.",
+    "explanation": "Sumamos los exponentes generados por las raíces anidadas: $1/2 + 1/4 + 1/8$. El común denominador es 8, resultando en $7/8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JB",
+    "question": "Simplifica: $\\frac{1}{1 - \\sqrt{2}} + \\frac{1}{1 + \\sqrt{2}}$.",
+    "image": null,
+    "options": [
+      { "text": "-2", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "$\\sqrt{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las fracciones encontrando un denominador común.",
+    "explanation": "Usamos el denominador común (diferencia de cuadrados): $1 - 2 = -1$. El numerador queda $(1+\\sqrt{2}) + (1-\\sqrt{2}) = 2$. Resultado: $2/-1 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JC",
+    "question": "Determina $x$ si $(0.25)^x = 16$.",
+    "image": null,
+    "options": [
+      { "text": "-2", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "-0.5", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "$0.25 = 1/4 = 4^{-1}$ y $16 = 4^2$.",
+    "explanation": "Expresamos todo en base 4: $(4^{-1})^x = 4^2$. Multiplicamos exponentes: $-x = 2$, por lo que $x = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JD",
+    "question": "Simplifica completamente: $\\sqrt[n]{\\frac{10^n + 15^n}{2^n + 3^n}}$.",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $5^n$ en el numerador: $10^n = 2^n \\cdot 5^n$ y $15^n = 3^n \\cdot 5^n$.",
+    "explanation": "Factorizamos $5^n$ en el numerador, lo que nos deja $\\frac{5^n(2^n + 3^n)}{2^n + 3^n}$. Cancelamos el paréntesis y queda $\\sqrt[n]{5^n}$, que es 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JF",
+    "question": "Simplifica: $\\frac{1}{1+x} + \\frac{1}{1-x} + \\frac{2}{1+x^2} + \\frac{4}{1-x^4}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{1-x^4}$", "correct": true },
+      { "text": "$\\frac{4}{1-x^2}$", "correct": false },
+      { "text": "$\\frac{2}{1-x}$", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los dos primeros términos, luego el resultado con el tercero, y así sucesivamente.",
+    "explanation": "Sumamos pares sucesivamente: las dos primeras dan $\\frac{2}{1-x^2}$. Al sumar esto con la tercera da $\\frac{4}{1-x^4}$. Sumando la última, obtenemos $\\frac{8}{1-x^4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
