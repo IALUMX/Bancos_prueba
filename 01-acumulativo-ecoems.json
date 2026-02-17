@@ -1,925 +1,133 @@
 [
   {
     "id": "CEP00AA",
-    "question": "¿Cuál es la característica principal de los elementos clasificados como **metales** en la tabla periódica?",
+    "question": "¿Cuál es la gónada masculina encargada de la producción de espermatozoides (espermatogénesis) y testosterona?",
     "image": null,
     "options": [
-      { "text": "Son buenos conductores de calor y electricidad.", "correct": true },
-      { "text": "Son gases a temperatura ambiente.", "correct": false },
-      { "text": "Tienden a ganar electrones en reacciones químicas.", "correct": false },
-      { "text": "Tienen baja densidad y puntos de fusión bajos.", "correct": false }
+      { "text": "Testículo", "correct": true },
+      { "text": "Próstata", "correct": false },
+      { "text": "Epidídimo", "correct": false },
+      { "text": "Vesícula seminal", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Piensa en las propiedades del cobre o el hierro que los hacen útiles para cables y ollas.",
-    "explanation": "Los metales se caracterizan por presentar brillo, ser maleables, dúctiles y excelentes conductores de la electricidad y el calor debido a la movilidad de sus electrones.",
+    "hint": "Son dos órganos ovalados que se encuentran dentro del escroto.",
+    "explanation": "Los testículos son las gónadas masculinas responsables de producir gametos (espermatozoides) y hormonas sexuales (testosterona).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AB",
-    "question": "Identifica qué tipo de compuesto se forma cuando reacciona un **metal** con el **oxígeno**.",
+    "question": "Relaciona los órganos del aparato reproductor femenino con su función principal:\n\nI. Ovarios\nII. Trompas de Falopio\nIII. Útero\n\nA. Sitio donde ocurre la fecundación\nB. Producción de óvulos y hormonas\nC. Desarrollo del embrión y feto",
     "image": null,
     "options": [
-      { "text": "Óxido básico", "correct": true },
-      { "text": "Óxido ácido", "correct": false },
-      { "text": "Hidruro", "correct": false },
-      { "text": "Sal binaria", "correct": false }
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La combinación Metal + Oxígeno genera compuestos que al reaccionar con agua forman bases.",
-    "explanation": "Los óxidos básicos son compuestos binarios formados por la unión de un metal y oxígeno.",
+    "hint": "Los gametos se producen en las gónadas y el bebé crece en la matriz.",
+    "explanation": "I-B: Ovarios producen gametos. II-A: La fecundación ocurre en el tercio distal de las trompas. III-C: El útero aloja al feto.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AC",
-    "question": "En la nomenclatura de la IUPAC, ¿cuál es el nombre correcto para el compuesto $CO_2$?",
+    "question": "Selecciona las Infecciones de Transmisión Sexual (ITS) de origen viral:\n1. Sífilis\n2. VIH\n3. Gonorrea\n4. VPH\n5. Herpes genital",
     "image": null,
     "options": [
-      { "text": "Dióxido de carbono", "correct": true },
-      { "text": "Óxido de carbono (II)", "correct": false },
-      { "text": "Anhídrido carbonoso", "correct": false },
-      { "text": "Monóxido de carbono", "correct": false }
+      { "text": "2, 4, 5", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Observa el prefijo numérico que indica dos átomos de oxígeno.",
-    "explanation": "La nomenclatura sistemática utiliza prefijos griegos. Como hay dos oxígenos, se usa el prefijo 'di-', resultando en Dióxido de carbono.",
+    "hint": "Recuerda que sífilis y gonorrea se curan con antibióticos (bacterias).",
+    "explanation": "El VIH, el VPH (Virus del Papiloma Humano) y el Herpes son causados por virus y generalmente son tratables pero no curables definitivamente (o requieren vacunas preventivas).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AD",
-    "question": "Un estudiante del CEPREDIX necesita determinar la configuración electrónica del Sodio ($Z=11$). ¿Cuál es la configuración correcta?",
+    "question": "Completa el siguiente enunciado sobre el ciclo menstrual: 'La hormona ______ estimula el crecimiento de los folículos ováricos, mientras que el pico de la hormona ______ desencadena la ovulación alrededor del día $14$.'",
     "image": null,
     "options": [
-      { "text": "$1s^2 2s^2 2p^6 3s^1$", "correct": true },
-      { "text": "$1s^2 2s^2 2p^5 3s^2$", "correct": false },
-      { "text": "$1s^2 2s^2 3s^2 3p^5$", "correct": false },
-      { "text": "$1s^2 2s^2 2p^6 3p^1$", "correct": false }
+      { "text": "FSH, LH", "correct": true },
+      { "text": "Progesterona, Estrógeno", "correct": false },
+      { "text": "LH, FSH", "correct": false },
+      { "text": "Estrógeno, Progesterona", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Suma los superíndices para asegurar que den 11 electrones y sigue el principio de Aufbau.",
-    "explanation": "Siguiendo el diagrama de Moeller: $1s^2$ (2), $2s^2$ (4), $2p^6$ (10), $3s^1$ (11).",
+    "hint": "FSH significa Folículo Estimulante y LH Luteinizante.",
+    "explanation": "La FSH (Hormona Folículo Estimulante) inicia la maduración del folículo. La LH (Hormona Luteinizante) provoca la ruptura del folículo (ovulación).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AE",
-    "question": "Relaciona el tipo de elemento con su ubicación general en la tabla periódica:\n\nI. Metales\nII. No metales\nIII. Gases Nobles\n\nA. Lado derecho superior\nB. Grupo 18 (VIII A)\nC. Lado izquierdo y centro",
+    "question": "¿Cuál es el único método anticonceptivo que, además de prevenir el embarazo, protege contra las Infecciones de Transmisión Sexual (ITS)?",
     "image": null,
     "options": [
-      { "text": "I-C, II-A, III-B", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-B, II-C, III-A", "correct": false },
-      { "text": "I-C, II-B, III-A", "correct": false }
+      { "text": "Condón (preservativo)", "correct": true },
+      { "text": "Pastilla anticonceptiva", "correct": false },
+      { "text": "DIU de cobre", "correct": false },
+      { "text": "Implante subdérmico", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Los elementos más inertes están al final a la derecha, y la mayoría de la tabla son metales.",
-    "explanation": "Metales (Izquierda/Centro), No metales (Derecha superior), Gases Nobles (Columna extrema derecha).",
+    "hint": "Es un método de barrera físico.",
+    "explanation": "El condón (masculino o femenino) impide el contacto directo de mucosas y fluidos, bloqueando tanto espermatozoides como patógenos.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AF",
-    "question": "¿Qué nombre recibe el compuesto $HCl$ cuando se encuentra en solución acuosa?",
+    "question": "Un estudiante del CEPREDIX pregunta sobre la 'pastilla del día siguiente'. ¿Cuál es la explicación científica correcta sobre su mecanismo de acción principal?",
     "image": null,
     "options": [
-      { "text": "Ácido clorhídrico", "correct": true },
-      { "text": "Cloruro de hidrógeno", "correct": false },
-      { "text": "Ácido clórico", "correct": false },
-      { "text": "Hidruro de cloro", "correct": false }
+      { "text": "Retrasa o inhibe la ovulación para evitar la fecundación.", "correct": true },
+      { "text": "Es un método abortivo que expulsa el embrión implantado.", "correct": false },
+      { "text": "Mata a los espermatozoides instantáneamente.", "correct": false },
+      { "text": "Genera una barrera física en el cuello uterino.", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Al estar en agua, los hidrácidos usan la terminación '-hídrico'.",
-    "explanation": "Como gas puro es cloruro de hidrógeno, pero en disolución acuosa se comporta como ácido y se nombra Ácido clorhídrico.",
+    "hint": "No funciona si la implantación ya ha ocurrido. Actúa antes.",
+    "explanation": "La anticoncepción de emergencia actúa principalmente evitando que el ovario libere un óvulo (ovulación) o espesando el moco cervical, pero no interrumpe un embarazo establecido.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AG",
-    "question": "Selecciona la lista que contiene únicamente **No Metales**:",
+    "question": "¿Qué estructura del aparato reproductor masculino almacena y madura los espermatozoides antes de la eyaculación?",
     "image": null,
     "options": [
-      { "text": "Carbono, Nitrógeno, Oxígeno, Flúor", "correct": true },
-      { "text": "Litio, Sodio, Potasio, Rubidio", "correct": false },
-      { "text": "Hierro, Cobre, Zinc, Plata", "correct": false },
-      { "text": "Calcio, Magnesio, Azufre, Cloro", "correct": false }
+      { "text": "Epidídimo", "correct": true },
+      { "text": "Uretra", "correct": false },
+      { "text": "Próstata", "correct": false },
+      { "text": "Conducto deferente", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Busca elementos que se encuentren en la parte superior derecha de la tabla periódica.",
-    "explanation": "C, N, O y F son elementos representativos situados a la derecha de la tabla, con alta electronegatividad, características de los no metales.",
+    "hint": "Se encuentra sobre el borde posterior del testículo, como una 'gorra'.",
+    "explanation": "El epidídimo es un tubo estrecho y alargado donde los espermatozoides adquieren movilidad y madurez.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AH",
-    "question": "¿Cuál es la fórmula química del Ácido Sulfúrico?",
-    "image": null,
-    "options": [
-      { "text": "$H_2SO_4$", "correct": true },
-      { "text": "$H_2SO_3$", "correct": false },
-      { "text": "$H_2S$", "correct": false },
-      { "text": "$HCl$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El azufre utiliza su mayor número de oxidación ($+6$) y es un oxiácido.",
-    "explanation": "El Ácido Sulfúrico es un oxiácido formado por hidrógeno, azufre y oxígeno, donde el azufre actúa con valencia $+6$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AI",
-    "question": "El número cuántico principal $n$ indica:",
-    "image": null,
-    "options": [
-      { "text": "El nivel de energía y tamaño del orbital.", "correct": true },
-      { "text": "La forma espacial del orbital.", "correct": false },
-      { "text": "La orientación del orbital en el espacio.", "correct": false },
-      { "text": "El sentido de giro del electrón.", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es el primer número cuántico y define qué tan lejos está el electrón del núcleo.",
-    "explanation": "$n$ determina el nivel energético principal y el volumen efectivo del orbital.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AJ",
-    "question": "Completa el siguiente enunciado: 'Las sales haloideas o binarias se forman por la reacción de neutralización entre un ______ y un ______.'",
-    "image": null,
-    "options": [
-      { "text": "Hidrácido, Hidróxido", "correct": true },
-      { "text": "Oxiácido, Hidróxido", "correct": false },
-      { "text": "Óxido ácido, Agua", "correct": false },
-      { "text": "Metal, Oxígeno", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Para que no tenga oxígeno (haloidea), el ácido de origen no debe tener oxígeno.",
-    "explanation": "Un hidrácido (ácido sin oxígeno) reacciona con una base (hidróxido) para formar una sal binaria y agua.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AK",
-    "question": "¿Cuál es la configuración electrónica abreviada (kernel) correcta para el Magnesio ($Z=12$)?",
-    "image": null,
-    "options": [
-      { "text": "$[Ne] 3s^2$", "correct": true },
-      { "text": "$[Ar] 4s^2$", "correct": false },
-      { "text": "$[He] 2s^2 2p^6$", "correct": false },
-      { "text": "$[Ne] 3p^2$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El gas noble anterior al Magnesio es el Neón ($Z=10$).",
-    "explanation": "El Neón tiene 10 electrones ($1s^2 2s^2 2p^6$). El Magnesio tiene 12, por lo que se agregan 2 electrones en el orbital $3s$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AL",
-    "question": "Relaciona el compuesto con su función química:\n\nI. $CaO$\nII. $HNO_3$\nIII. $NaCl$\n\nA. Sal\nB. Óxido Básico\nC. Ácido",
-    "image": null,
-    "options": [
-      { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "$CaO$ tiene metal y oxígeno; $HNO_3$ empieza con Hidrógeno; $NaCl$ es la sal de mesa.",
-    "explanation": "$CaO$ es óxido metálico, $HNO_3$ es un oxiácido y $NaCl$ es una sal binaria.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AM",
-    "question": "Según el Principio de Exclusión de Pauli:",
-    "image": null,
-    "options": [
-      { "text": "Dos electrones en un mismo átomo no pueden tener los cuatro números cuánticos iguales.", "correct": true },
-      { "text": "Los electrones ocupan primero los orbitales de menor energía.", "correct": false },
-      { "text": "Es imposible conocer simultáneamente la posición y velocidad del electrón.", "correct": false },
-      { "text": "Los electrones se distribuyen con el mayor número de espines paralelos.", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Piensa en la 'exclusión': no pueden ser idénticos. Deben diferenciarse al menos en el espín.",
-    "explanation": "Pauli establece que cada electrón en un átomo tiene un conjunto único de números cuánticos; si comparten orbital, deben tener espines opuestos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AN",
-    "question": "Identifica el nombre del compuesto $Fe(OH)_3$ en la nomenclatura Stock.",
-    "image": null,
-    "options": [
-      { "text": "Hidróxido de hierro (III)", "correct": true },
-      { "text": "Hidróxido de hierro (II)", "correct": false },
-      { "text": "Hidróxido férrico", "correct": false },
-      { "text": "Trihidróxido de hierro", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El grupo $OH$ tiene carga $-1$. Si hay 3, el hierro debe tener carga $+3$.",
-    "explanation": "La nomenclatura Stock indica el número de oxidación del metal con números romanos entre paréntesis.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AO",
-    "question": "¿Cuál es la fórmula correcta del Sulfuro de Aluminio?",
-    "image": null,
-    "options": [
-      { "text": "$Al_2S_3$", "correct": true },
-      { "text": "$AlS$", "correct": false },
-      { "text": "$Al_3S_2$", "correct": false },
-      { "text": "$AlS_2$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El Aluminio trabaja con $+3$ y el Azufre (en sales haloideas) con $-2$. Cruza las valencias.",
-    "explanation": "Al cruzar las cargas $Al^{+3}$ y $S^{-2}$, se obtiene $Al_2S_3$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AP",
-    "question": "Un elemento con configuración electrónica terminal en $...3p^5$ pertenece al grupo de los:",
-    "image": null,
-    "options": [
-      { "text": "Halógenos", "correct": true },
-      { "text": "Gases Nobles", "correct": false },
-      { "text": "Metales Alcalinos", "correct": false },
-      { "text": "Metales de Transición", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Tiene 7 electrones de valencia ($2$ en $s$ + $5$ en $p$). Grupo 17 (VII A).",
-    "explanation": "Los elementos que terminan en $ns^2 np^5$ son halógenos (Grupo 17), les falta un electrón para completar el octeto.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AQ",
-    "question": "¿Qué tipo de enlace predomina en las sales como el $KCl$?",
-    "image": null,
-    "options": [
-      { "text": "Iónico", "correct": true },
-      { "text": "Covalente polar", "correct": false },
-      { "text": "Metálico", "correct": false },
-      { "text": "Covalente no polar", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es la unión de un metal alcalino y un halógeno.",
-    "explanation": "Las sales formadas por un metal y un no metal con gran diferencia de electronegatividad forman enlaces iónicos mediante transferencia de electrones.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AR",
-    "question": "Para el elemento Cloro ($Z=17$), ¿cuántos electrones de valencia posee?",
-    "image": null,
-    "options": [
-      { "text": "7", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "8", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Está en el grupo 17 (VII A). Su config es $[Ne] 3s^2 3p^5$.",
-    "explanation": "La capa de valencia es la 3, con $2$ electrones en $s$ y $5$ en $p$, sumando $7$ electrones.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AS",
-    "question": "Completa el texto: 'Los ______ son compuestos ternarios que resultan de la reacción entre un óxido básico y agua, caracterizados por el grupo funcional $OH^-$.'",
-    "image": null,
-    "options": [
-      { "text": "Hidróxidos", "correct": true },
-      { "text": "Oxiácidos", "correct": false },
-      { "text": "Hidrácidos", "correct": false },
-      { "text": "Anhídridos", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "También se les llama bases y tienen el ion hidroxilo.",
-    "explanation": "Los hidróxidos o bases se forman al hidratar un óxido metálico y se identifican por el anión $OH^-$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AT",
-    "question": "En el laboratorio del CEPREDIX se identifica un compuesto como 'Anhídrido Sulfúrico'. Según la nomenclatura sistemática o IUPAC, ¿cuál es su fórmula si el azufre actúa con valencia $+6$?",
-    "image": null,
-    "options": [
-      { "text": "$SO_3$", "correct": true },
-      { "text": "$SO_2$", "correct": false },
-      { "text": "$SO$", "correct": false },
-      { "text": "$H_2SO_4$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Cruza las valencias: $S^{+6}$ y $O^{-2}$, luego simplifica.",
-    "explanation": "$S_2O_6$ se simplifica a $SO_3$. Es un óxido ácido.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AU",
-    "question": "¿Cuál es la capacidad máxima de electrones en el subnivel $d$?",
-    "image": null,
-    "options": [
-      { "text": "10", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "2", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El subnivel $d$ tiene 5 orbitales. Multiplica por 2 electrones cada uno.",
-    "explanation": "El subnivel $d$ tiene 5 orientaciones espaciales, y cada una acepta 2 electrones, totalizando 10.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AV",
-    "question": "Relaciona el anión con su nombre correcto:\n\nI. $Cl^-$\nII. $SO_4^{-2}$\nIII. $NO_3^-$\n\nA. Nitrato\nB. Cloruro\nC. Sulfato",
-    "image": null,
-    "options": [
-      { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Terminación -uro para el elemento solo. -ato para los oxianiones comunes.",
-    "explanation": "$Cl^-$ es Cloruro, $SO_4^{-2}$ es Sulfato (mayor oxidación del S), $NO_3^-$ es Nitrato.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AW",
-    "question": "De los siguientes elementos, ¿cuál es un metal de transición?",
-    "image": null,
-    "options": [
-      { "text": "Cobre ($Cu$)", "correct": true },
-      { "text": "Calcio ($Ca$)", "correct": false },
-      { "text": "Helio ($He$)", "correct": false },
-      { "text": "Cloro ($Cl$)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Se encuentra en el bloque $d$, en el centro de la tabla.",
-    "explanation": "El Cobre pertenece al bloque $d$, característico de los metales de transición.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AX",
-    "question": "¿Qué regla establece que los electrones deben ocupar todos los orbitales de un subnivel con espines paralelos antes de aparearse?",
-    "image": null,
-    "options": [
-      { "text": "Regla de Hund", "correct": true },
-      { "text": "Principio de Aufbau", "correct": false },
-      { "text": "Principio de Pauli", "correct": false },
-      { "text": "Ley de Octavas", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "También llamada regla de máxima multiplicidad. Imagina llenar asientos en un autobús vacío.",
-    "explanation": "La Regla de Hund o de máxima multiplicidad indica que los electrones se distribuyen desapareados tanto como sea posible para minimizar la repulsión.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AY",
-    "question": "El nombre tradicional del $Cu_2O$ (donde el cobre trabaja con su menor valencia $+1$) es:",
-    "image": null,
-    "options": [
-      { "text": "Óxido cuproso", "correct": true },
-      { "text": "Óxido cúprico", "correct": false },
-      { "text": "Óxido de cobre (I)", "correct": false },
-      { "text": "Monóxido de dicobre", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "La terminación '-oso' indica la menor valencia; '-ico' la mayor.",
-    "explanation": "El cobre tiene valencias $+1$ y $+2$. Al usar la menor ($+1$), la terminación tradicional es '-oso'.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AZ",
-    "question": "¿Cuál es la fórmula del fosfato de calcio?",
-    "image": null,
-    "options": [
-      { "text": "$Ca_3(PO_4)_2$", "correct": true },
-      { "text": "$CaPO_4$", "correct": false },
-      { "text": "$Ca_2(PO_4)_3$", "correct": false },
-      { "text": "$Ca(PO_4)_2$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Calcio es $Ca^{+2}$ y Fosfato es $PO_4^{-3}$. Intercambia las cargas.",
-    "explanation": "Se cruzan las valencias: El 2 del Ca va al fosfato y el 3 del fosfato va al calcio.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BA",
-    "question": "¿Qué elemento tiene la configuración electrónica $1s^2 2s^2 2p^3$?",
-    "image": null,
-    "options": [
-      { "text": "Nitrógeno ($Z=7$)", "correct": true },
-      { "text": "Oxígeno ($Z=8$)", "correct": false },
-      { "text": "Carbono ($Z=6$)", "correct": false },
-      { "text": "Flúor ($Z=9$)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Cuenta el número total de electrones: $2 + 2 + 3$.",
-    "explanation": "La suma es 7 electrones, lo que corresponde al número atómico del Nitrógeno.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BB",
-    "question": "Un óxido ácido (anhídrido) reacciona con agua para formar:",
-    "image": null,
-    "options": [
-      { "text": "Un Oxiácido", "correct": true },
-      { "text": "Un Hidróxido", "correct": false },
-      { "text": "Una Sal haloidea", "correct": false },
-      { "text": "Un Hidruro", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "$SO_3 + H_2O \\to H_2SO_4$.",
-    "explanation": "Los óxidos no metálicos (anhídridos) al hidratarse forman ácidos que contienen oxígeno (oxiácidos).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BC",
-    "question": "Identifica los metaloides en la siguiente lista (elementos con propiedades intermedias):",
-    "image": null,
-    "options": [
-      { "text": "Boro, Silicio, Germanio", "correct": true },
-      { "text": "Hierro, Cobalto, Níquel", "correct": false },
-      { "text": "Helio, Neón, Argón", "correct": false },
-      { "text": "Flúor, Cloro, Bromo", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Forman la 'escalera' que separa metales de no metales.",
-    "explanation": "Estos elementos se encuentran en la frontera entre metales y no metales y poseen características de semiconductores.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BD",
-    "question": "Al formular el Bromuro de Potasio, ¿qué tipo de sal es?",
-    "image": null,
-    "options": [
-      { "text": "Sal binaria (Haloidea)", "correct": true },
-      { "text": "Oxisal", "correct": false },
-      { "text": "Sal ácida", "correct": false },
-      { "text": "Sal doble", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Su fórmula es $KBr$. No tiene oxígeno ni hidrógeno.",
-    "explanation": "Es una sal formada solo por un metal y un no metal, sin oxígeno.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BE",
-    "question": "La configuración electrónica del ión $Na^+$ ($Z=11$, pierde 1 electrón) es isoelectrónica con:",
-    "image": null,
-    "options": [
-      { "text": "Neón ($Ne$)", "correct": true },
-      { "text": "Argón ($Ar$)", "correct": false },
-      { "text": "Magnesio ($Mg$)", "correct": false },
-      { "text": "Litio ($Li$)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Si $Na$ tiene 11 electrones y pierde 1, queda con 10.",
-    "explanation": "El ión sodio ($Na^+$) tiene 10 electrones, igual que el gas noble Neón.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BF",
-    "question": "¿Cuál es el nombre IUPAC del compuesto $N_2O_5$?",
-    "image": null,
-    "options": [
-      { "text": "Pentóxido de dinitrógeno", "correct": true },
-      { "text": "Anhídrido nítrico", "correct": false },
-      { "text": "Óxido de nitrógeno (V)", "correct": false },
-      { "text": "Óxido nítrico", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Usa prefijos griegos: 5 (penta) y 2 (di).",
-    "explanation": "La nomenclatura sistemática lee los subíndices: 5 oxígenos (pentóxido) y 2 nitrógenos (dinitrógeno).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BG",
-    "question": "Determina el número de oxidación del Carbono en el ácido carbónico $H_2CO_3$.",
-    "image": null,
-    "options": [
-      { "text": "$+4$", "correct": true },
-      { "text": "$+2$", "correct": false },
-      { "text": "$+3$", "correct": false },
-      { "text": "$+6$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "$H$ vale $+1$ y $O$ vale $-2$. La suma debe dar cero: $2(+1) + x + 3(-2) = 0$.",
-    "explanation": "$2 + x - 6 = 0 \\Rightarrow x - 4 = 0 \\Rightarrow x = +4$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BH",
-    "question": "¿Qué orbitales se llenan después del orbital $3p$ según el principio de Aufbau?",
-    "image": null,
-    "options": [
-      { "text": "$4s$", "correct": true },
-      { "text": "$3d$", "correct": false },
-      { "text": "$4p$", "correct": false },
-      { "text": "$3f$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Sigue las diagonales en el diagrama de Moeller. El $4s$ tiene menor energía que el $3d$.",
-    "explanation": "Según la regla $n+l$, el orbital $4s$ ($4+0=4$) tiene menor energía que el $3d$ ($3+2=5$), por lo que se llena antes.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BI",
-    "question": "Los elementos del Grupo 1 (Alcalinos) terminan su configuración electrónica en:",
-    "image": null,
-    "options": [
-      { "text": "$ns^1$", "correct": true },
-      { "text": "$ns^2$", "correct": false },
-      { "text": "$np^1$", "correct": false },
-      { "text": "$nd^1$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Están en la primera columna, tienen 1 electrón de valencia.",
-    "explanation": "Todos los metales alcalinos tienen un solo electrón en su orbital $s$ más externo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BJ",
-    "question": "En el contexto de una investigación del CEPREDIX sobre lluvia ácida, se estudia el ácido nítrico. ¿Cuál es su fórmula?",
-    "image": null,
-    "options": [
-      { "text": "$HNO_3$", "correct": true },
-      { "text": "$HNO_2$", "correct": false },
-      { "text": "$H_2NO_3$", "correct": false },
-      { "text": "$NH_3$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Nítrico termina en -ico, usa la valencia mayor del Nitrógeno ($+5$).",
-    "explanation": "Anhídrido nítrico $N_2O_5$ + $H_2O$ $\\to$ $H_2N_2O_6$ $\\to$ simplificado $HNO_3$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BK",
-    "question": "Relaciona la fórmula con el nombre tradicional:\n\nI. $FeCl_2$\nII. $FeCl_3$\n\nA. Cloruro Férrico\nB. Cloruro Ferroso",
-    "image": null,
-    "options": [
-      { "text": "I-B, II-A", "correct": true },
-      { "text": "I-A, II-B", "correct": false },
-      { "text": "Ninguna es correcta", "correct": false },
-      { "text": "Son el mismo compuesto", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Ferroso es la valencia menor ($+2$), Férrico es la mayor ($+3$).",
-    "explanation": "La terminación -oso corresponde a la menor valencia ($Fe^{+2}$) y -ico a la mayor ($Fe^{+3}$).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BL",
-    "question": "¿Qué propiedad periódica aumenta hacia arriba y hacia la derecha, y es clave para definir no metales?",
-    "image": null,
-    "options": [
-      { "text": "Electronegatividad", "correct": true },
-      { "text": "Radio atómico", "correct": false },
-      { "text": "Carácter metálico", "correct": false },
-      { "text": "Masa atómica", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es la capacidad de atraer electrones.",
-    "explanation": "La electronegatividad es máxima en el Flúor (arriba derecha) y define la tendencia a ganar electrones (no metales).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BM",
-    "question": "El número de orbitales en el subnivel $p$ es:",
-    "image": null,
-    "options": [
-      { "text": "3", "correct": true },
-      { "text": "1", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "7", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Son $px, py, pz$.",
-    "explanation": "El subnivel $p$ tiene 3 orientaciones magnéticas ($m = -1, 0, +1$).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BN",
-    "question": "¿Cuál es la fórmula del Perclorato de Potasio?",
-    "image": null,
-    "options": [
-      { "text": "$KClO_4$", "correct": true },
-      { "text": "$KClO_3$", "correct": false },
-      { "text": "$KClO$", "correct": false },
-      { "text": "$K_2ClO_4$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Prefijo Per- y sufijo -ato indica la máxima valencia del Cloro ($+7$).",
-    "explanation": "El cloro con $+7$ forma el ión perclorato $ClO_4^-$. Al unirse al Potasio $K^+$, queda $KClO_4$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BO",
-    "question": "Identifica el elemento que tiene la configuración: $[Ar] 4s^2 3d^6$.",
-    "image": null,
-    "options": [
-      { "text": "Hierro ($Z=26$)", "correct": true },
-      { "text": "Cobalto ($Z=27$)", "correct": false },
-      { "text": "Níquel ($Z=28$)", "correct": false },
-      { "text": "Manganeso ($Z=25$)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El Argón tiene 18. Suma $18 + 2 + 6 = 26$.",
-    "explanation": "El elemento con número atómico 26 es el Hierro.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BP",
-    "question": "¿Cómo se clasifican los compuestos como $NaH$, $CaH_2$?",
-    "image": null,
-    "options": [
-      { "text": "Hidruros metálicos", "correct": true },
-      { "text": "Hidrácidos", "correct": false },
-      { "text": "Ácidos oxácidos", "correct": false },
-      { "text": "Sales binarias", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El hidrógeno está unido a un metal y trabaja con $-1$.",
-    "explanation": "Cuando el hidrógeno se combina con un metal, forma hidruros metálicos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BQ",
-    "question": "En la reacción $NaOH + HCl \\to NaCl + H_2O$, ¿cómo se llama el producto $NaCl$?",
-    "image": null,
-    "options": [
-      { "text": "Cloruro de sodio", "correct": true },
-      { "text": "Clorato de sodio", "correct": false },
-      { "text": "Hipoclorito de sodio", "correct": false },
-      { "text": "Cloruro sódico (tradicional)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es la sal común de mesa.",
-    "explanation": "Es una sal binaria donde el cloro trabaja con $-1$, por lo tanto es Cloruro.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BR",
-    "question": "Completa: El elemento Oxígeno ($Z=8$) es un ______ y el Calcio ($Z=20$) es un ______.",
-    "image": null,
-    "options": [
-      { "text": "No metal, Metal", "correct": true },
-      { "text": "Metal, No metal", "correct": false },
-      { "text": "Gas noble, Metal", "correct": false },
-      { "text": "Metaloide, Metal", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El oxígeno es un gas vital; el calcio está en los huesos y es alcalinotérreo.",
-    "explanation": "El oxígeno está a la derecha (no metal), el calcio en el grupo 2 (metal alcalinotérreo).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BS",
-    "question": "El ión $Fe^{+3}$ pierde electrones del subnivel:",
-    "image": null,
-    "options": [
-      { "text": "Primero del $4s$ y luego del $3d$.", "correct": true },
-      { "text": "Solo del $3d$.", "correct": false },
-      { "text": "Solo del $4s$.", "correct": false },
-      { "text": "Del $3p$ y $3d$.", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Los electrones de valencia más externos ($4s$) salen primero que los internos ($3d$).",
-    "explanation": "Aunque el $3d$ tiene más energía al llenar, el $4s$ es la capa más externa, por lo que se ioniza primero.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BT",
-    "question": "¿Qué sufijo se utiliza en la nomenclatura tradicional para un ácido donde el no metal usa su valencia más baja (de dos posibles)?",
-    "image": null,
-    "options": [
-      { "text": "-oso", "correct": true },
-      { "text": "-ico", "correct": false },
-      { "text": "Hipo- ... -oso", "correct": false },
-      { "text": "Per- ... -ico", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Ejemplo: Ácido Sulfuroso vs Sulfúrico.",
-    "explanation": "-oso indica menor valencia, -ico indica mayor valencia.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BU",
-    "question": "¿Cuál es la fórmula del Óxido de Zinc?",
-    "image": null,
-    "options": [
-      { "text": "$ZnO$", "correct": true },
-      { "text": "$Zn_2O$", "correct": false },
-      { "text": "$ZnO_2$", "correct": false },
-      { "text": "$Zn_2O_3$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El Zinc solo tiene valencia $+2$. El oxígeno es $-2$.",
-    "explanation": "Al cruzar $+2$ y $-2$, queda $Zn_2O_2$, que se simplifica a $ZnO$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BV",
-    "question": "En la notación $3d^5$, el número '5' representa:",
-    "image": null,
-    "options": [
-      { "text": "La cantidad de electrones en el subnivel.", "correct": true },
-      { "text": "El nivel de energía.", "correct": false },
-      { "text": "El número de orbitales.", "correct": false },
-      { "text": "El espín del electrón.", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es el superíndice.",
-    "explanation": "El superíndice indica cuántos electrones ocupan ese subnivel específico.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BW",
-    "question": "¿Cuál de los siguientes ácidos es un hidrácido?",
-    "image": null,
-    "options": [
-      { "text": "$HBr$ (ac)", "correct": true },
-      { "text": "$H_3PO_4$", "correct": false },
-      { "text": "$HClO$", "correct": false },
-      { "text": "$H_2CO_3$", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "No debe tener oxígeno.",
-    "explanation": "$HBr$ (ácido bromhídrico) es binario, no tiene oxígeno.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BX",
-    "question": "El ión carbonato tiene la fórmula $CO_3^{-2}$. Si se combina con Hidrógeno ($H^+$), ¿qué ácido forma?",
-    "image": null,
-    "options": [
-      { "text": "$H_2CO_3$ (Ácido Carbónico)", "correct": true },
-      { "text": "$HCO_3$ (Ácido Carbonoso)", "correct": false },
-      { "text": "$H_2CO_2$ (Ácido Carbonoso)", "correct": false },
-      { "text": "$H_3CO$ (Ácido Metanoico)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Necesitas 2 protones ($H^+$) para neutralizar la carga $-2$.",
-    "explanation": "Se requieren dos hidrógenos para compensar la carga $-2$, formando $H_2CO_3$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BY",
-    "question": "Selecciona el elemento que, al reaccionar con agua, produce una disolución alcalina (básica) vigorosa:",
-    "image": null,
-    "options": [
-      { "text": "Potasio ($K$)", "correct": true },
-      { "text": "Cobre ($Cu$)", "correct": false },
-      { "text": "Oro ($Au$)", "correct": false },
-      { "text": "Azufre ($S$)", "correct": false }
-    ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Es un metal del Grupo 1.",
-    "explanation": "Los metales alcalinos (como el K) reaccionan violentamente con agua formando hidróxidos fuertes.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BZ",
-    "question": "Relaciona los números cuánticos con su símbolo:\n\nI. Principal\nII. Azimutal (Secundario)\nIII. Magnético\n\nA. $l$\nB. $m$\nC. $n$",
+    "question": "Relaciona el método anticonceptivo con su clasificación:\n\nI. Vasectomía\nII. Parche transdérmico\nIII. Condón\n\nA. Hormonal\nB. Barrera\nC. Definitivo o Quirúrgico",
     "image": null,
     "options": [
       { "text": "I-C, II-A, III-B", "correct": true },
@@ -927,371 +135,1631 @@
       { "text": "I-C, II-B, III-A", "correct": false },
       { "text": "I-B, II-A, III-C", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La vasectomía requiere cirugía, el parche libera sustancias y el condón bloquea.",
+    "explanation": "I-C: La vasectomía es permanente. II-A: El parche libera hormonas a través de la piel. III-B: El condón es una barrera física.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Identifica las infecciones de transmisión sexual causadas por bacterias:\n1. Gonorrea\n2. Hepatitis B\n3. Clamidia\n4. VIH\n5. Sífilis",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "$n$ es nivel, $l$ es forma, $m$ es orientación.",
-    "explanation": "Principal ($n$), Azimutal/Momento angular ($l$), Magnético ($m$).",
+    "hint": "Busca las que se tratan comúnmente con antibióticos.",
+    "explanation": "Gonorrea, Clamidia y Sífilis son causadas por bacterias (Neisseria gonorrhoeae, Chlamydia trachomatis, Treponema pallidum respectivamente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "En el ciclo menstrual, ¿qué función principal tiene la progesterona secretada por el cuerpo lúteo?",
+    "image": null,
+    "options": [
+      { "text": "Preparar el endometrio para una posible implantación.", "correct": true },
+      { "text": "Provocar la ovulación inmediata.", "correct": false },
+      { "text": "Estimular la producción de leche.", "correct": false },
+      { "text": "Desarrollar los caracteres sexuales secundarios.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre significa 'a favor de la gestación'.",
+    "explanation": "La progesterona engrosa y mantiene el endometrio vascularizado para recibir al óvulo fecundado. Si no hay embarazo, sus niveles caen y ocurre la menstruación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "¿En qué órgano del aparato reproductor femenino se lleva a cabo normalmente la fecundación (unión del óvulo y el espermatozoide)?",
+    "image": null,
+    "options": [
+      { "text": "Trompas de Falopio", "correct": true },
+      { "text": "Útero", "correct": false },
+      { "text": "Vagina", "correct": false },
+      { "text": "Ovario", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son los conductos que conectan los ovarios con el útero.",
+    "explanation": "La fecundación suele ocurrir en el tercio distal (ampolla) de las trompas de Falopio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "En una charla del CEPREDIX sobre salud sexual, se explica que el VPH (Virus del Papiloma Humano) es el principal factor de riesgo para desarrollar:",
+    "image": null,
+    "options": [
+      { "text": "Cáncer cervicouterino", "correct": true },
+      { "text": "Cáncer de próstata", "correct": false },
+      { "text": "Infertilidad masculina", "correct": false },
+      { "text": "Embarazo ectópico", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Afecta el cuello del útero en las mujeres.",
+    "explanation": "Ciertas cepas del VPH son oncogénicas y están directamente relacionadas con el desarrollo de displasias y cáncer en el cuello uterino.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "¿Qué glándula anexa masculina produce un líquido lechoso y alcalino que neutraliza la acidez de la vagina?",
+    "image": null,
+    "options": [
+      { "text": "Próstata", "correct": true },
+      { "text": "Vesícula seminal", "correct": false },
+      { "text": "Glándula de Cowper", "correct": false },
+      { "text": "Epidídimo", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una glándula del tamaño de una nuez situada debajo de la vejiga.",
+    "explanation": "La próstata secreta fluido prostático, componente esencial del semen que protege y nutre a los espermatozoides.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Relaciona la hormona con su origen:\n\nI. FSH y LH\nII. Estrógenos y Progesterona\nIII. Testosterona\n\nA. Ovarios\nB. Hipófisis (Glándula pituitaria)\nC. Testículos",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "FSH y LH vienen del cerebro. Las otras son gonadales.",
+    "explanation": "La hipófisis regula a las gónadas mediante FSH y LH. Los ovarios producen estrógenos/progesterona y los testículos testosterona.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿Qué es la ovulación?",
+    "image": null,
+    "options": [
+      { "text": "La liberación de un óvulo maduro desde el ovario.", "correct": true },
+      { "text": "La unión del óvulo con el espermatozoide.", "correct": false },
+      { "text": "El desprendimiento del endometrio.", "correct": false },
+      { "text": "La implantación del embrión en el útero.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre a mitad del ciclo menstrual.",
+    "explanation": "La ovulación es el proceso cíclico donde el folículo ovárico se rompe y libera el ovocito hacia las trompas de Falopio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Completa la frase: 'El ______ es un método anticonceptivo intrauterino que libera iones para inmovilizar a los espermatozoides, mientras que el ______ libera hormonas para espesar el moco cervical.'",
+    "image": null,
+    "options": [
+      { "text": "DIU de cobre, DIU hormonal (SIU)", "correct": true },
+      { "text": "Implante, Parche", "correct": false },
+      { "text": "Condón, Diafragma", "correct": false },
+      { "text": "DIU hormonal, DIU de cobre", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El cobre crea un ambiente hostil sin hormonas.",
+    "explanation": "El DIU de cobre actúa mediante inflamación estéril y liberación de iones de cobre (espermicida). El sistema intrauterino (Mirena, etc.) libera levonorgestrel.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "¿Cuál de las siguientes opciones describe correctamente a la menstruación?",
+    "image": null,
+    "options": [
+      { "text": "Desprendimiento de la capa funcional del endometrio con sangrado.", "correct": true },
+      { "text": "Engrosamiento de las paredes del útero.", "correct": false },
+      { "text": "Producción de óvulos en el ovario.", "correct": false },
+      { "text": "Fecundación del óvulo por el espermatozoide.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Marca el inicio del ciclo menstrual (día 1).",
+    "explanation": "Cuando no hay embarazo, bajan los niveles hormonales y el tejido que recubre el útero (endometrio) se desprende y sale por la vagina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "En un caso clínico presentado por el CEPREDIX, un paciente presenta úlceras genitales indoloras (chancros) que desaparecen solas, seguidas semanas después por erupciones en la piel. ¿De qué ITS se trata probablemente?",
+    "image": null,
+    "options": [
+      { "text": "Sífilis", "correct": true },
+      { "text": "Gonorrea", "correct": false },
+      { "text": "Clamidia", "correct": false },
+      { "text": "VPH", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Causada por *Treponema pallidum*.",
+    "explanation": "La sífilis primaria se manifiesta con un chancro duro e indoloro. La secundaria con erupciones cutáneas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Cuál es la función del útero?",
+    "image": null,
+    "options": [
+      { "text": "Alojar y nutrir al embrión/feto durante el embarazo.", "correct": true },
+      { "text": "Producir hormonas sexuales.", "correct": false },
+      { "text": "Almacenar la orina.", "correct": false },
+      { "text": "Captar al óvulo tras la ovulación.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un órgano muscular hueco en forma de pera invertida.",
+    "explanation": "El útero o matriz es el órgano gestacional donde se implanta el óvulo fecundado y se desarrolla el bebé.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Relaciona el método hormonal con su vía de administración:\n\nI. Inyección\nII. Implante subdérmico\nIII. Parche\n\nA. Adhesivo en la piel\nB. Intramuscular\nC. Varilla flexible en el brazo",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Subdérmico significa 'debajo de la piel' (varilla).",
+    "explanation": "Las inyecciones son intramusculares, el implante es una varilla bajo la piel del brazo y el parche se adhiere a la piel.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "¿Qué conducto transporta los espermatozoides desde el epidídimo hasta el conducto eyaculador?",
+    "image": null,
+    "options": [
+      { "text": "Conducto deferente", "correct": true },
+      { "text": "Uréter", "correct": false },
+      { "text": "Trompa de Falopio", "correct": false },
+      { "text": "Túbulo seminífero", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el conducto que se corta en la vasectomía.",
+    "explanation": "Los conductos deferentes son dos tubos musculares que llevan el esperma desde el escroto hacia la cavidad pélvica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "¿Cuál es la duración promedio considerada 'normal' para un ciclo menstrual?",
+    "image": null,
+    "options": [
+      { "text": "$28$ días", "correct": true },
+      { "text": "$14$ días", "correct": false },
+      { "text": "$40$ días", "correct": false },
+      { "text": "$7$ días", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es aproximadamente un mes lunar.",
+    "explanation": "Aunque varía entre mujeres ($21$-$35$ días), el estándar médico para cálculos es de $28$ días.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Identifica los métodos anticonceptivos definitivos (quirúrgicos):\n1. Vasectomía\n2. DIU\n3. Oclusión Tubaria Bilateral (Salpingoclasia)\n4. Implante\n5. Condón",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 5", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Implican cirugía y son permanentes.",
+    "explanation": "La vasectomía (hombres) y la OTB o ligadura de trompas (mujeres) son métodos de esterilización permanente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "El CEPREDIX realiza una campaña sobre VIH. ¿Cuál de las siguientes vías NO transmite el VIH?",
+    "image": null,
+    "options": [
+      { "text": "Abrazos, besos o compartir cubiertos.", "correct": true },
+      { "text": "Relaciones sexuales sin protección.", "correct": false },
+      { "text": "Transfusión de sangre contaminada.", "correct": false },
+      { "text": "De madre a hijo durante el parto o lactancia.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El virus no sobrevive bien fuera del cuerpo ni en la saliva.",
+    "explanation": "El VIH se transmite por sangre, semen, fluidos vaginales y leche materna. No se transmite por contacto casual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "¿Qué capa del útero se desprende durante la menstruación?",
+    "image": null,
+    "options": [
+      { "text": "Endometrio", "correct": true },
+      { "text": "Miometrio", "correct": false },
+      { "text": "Perimetrio", "correct": false },
+      { "text": "Cérvix", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la capa interna, vascularizada y mucosa.",
+    "explanation": "El endometrio es la mucosa que recubre el interior del útero y su capa funcional se desprende si no hay implantación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Completa: 'La ______ es una ITS bacteriana que puede causar secreción purulenta y ardor al orinar, conocida popularmente como purgación.'",
+    "image": null,
+    "options": [
+      { "text": "Gonorrea", "correct": true },
+      { "text": "Sida", "correct": false },
+      { "text": "VPH", "correct": false },
+      { "text": "Herpes", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Causada por el gonococo.",
+    "explanation": "La gonorrea es una infección bacteriana común que afecta las mucosas del tracto reproductivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "¿Qué órgano femenino es el análogo eréctil del pene masculino?",
+    "image": null,
+    "options": [
+      { "text": "Clítoris", "correct": true },
+      { "text": "Vagina", "correct": false },
+      { "text": "Labios mayores", "correct": false },
+      { "text": "Himen", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Órgano pequeño altamente sensible situado en la vulva.",
+    "explanation": "El clítoris tiene tejido eréctil y su única función conocida es el placer sexual, siendo homólogo al pene embrionariamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Relaciona la ITS con su agente causal:\n\nI. VIH\nII. Clamidia\nIII. Candidiasis\n\nA. Bacteria\nB. Virus\nC. Hongo",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "VIH es Inmunodeficiencia 'Viral'. Candida es un hongo.",
+    "explanation": "VIH es un virus. Clamidia es una bacteria. Candidiasis es causada por el hongo Candida albicans.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Qué es la espermatogénesis?",
+    "image": null,
+    "options": [
+      { "text": "El proceso de formación de espermatozoides.", "correct": true },
+      { "text": "La expulsión del semen.", "correct": false },
+      { "text": "La producción de hormonas femeninas.", "correct": false },
+      { "text": "El crecimiento de la próstata.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Génesis significa 'origen' o 'creación'.",
+    "explanation": "Es el mecanismo biológico mediante el cual se producen los gametos masculinos en los túbulos seminíferos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Analizando la eficacia de métodos anticonceptivos según el CEPREDIX: Si el índice de Pearl del condón es de $15$ (uso típico) y el del implante es $0.05$, ¿cuál es la interpretación correcta?",
+    "image": null,
+    "options": [
+      { "text": "El implante es mucho más eficaz que el condón.", "correct": true },
+      { "text": "El condón es más eficaz que el implante.", "correct": false },
+      { "text": "Ambos tienen la misma eficacia.", "correct": false },
+      { "text": "Un índice de Pearl alto indica alta protección.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El Índice de Pearl mide fallas (embarazos). Menor número es mejor.",
+    "explanation": "El índice de Pearl mide embarazos por cada 100 mujeres al año. Un número menor indica mayor eficacia. $0.05$ es mucho mejor que $15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "¿Qué glándulas femeninas producen estrógenos?",
+    "image": null,
+    "options": [
+      { "text": "Ovarios", "correct": true },
+      { "text": "Trompas de Falopio", "correct": false },
+      { "text": "Útero", "correct": false },
+      { "text": "Vagina", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son las mismas que producen los óvulos.",
+    "explanation": "Los ovarios son glándulas endocrinas que secretan estrógenos y progesterona.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Completa: 'El virus del ______ ataca al sistema inmunológico destruyendo los linfocitos T CD4, lo que puede llevar al desarrollo del ______.'",
+    "image": null,
+    "options": [
+      { "text": "VIH, SIDA", "correct": true },
+      { "text": "VPH, Cáncer", "correct": false },
+      { "text": "Herpes, Chancro", "correct": false },
+      { "text": "VIH, Gonorrea", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "VIH es el virus, SIDA es la etapa avanzada de la enfermedad.",
+    "explanation": "El Virus de Inmunodeficiencia Humana (VIH) causa el Síndrome de Inmunodeficiencia Adquirida (SIDA) si no se trata.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "¿Cuál es la función del escroto?",
+    "image": null,
+    "options": [
+      { "text": "Regular la temperatura de los testículos.", "correct": true },
+      { "text": "Producir espermatozoides.", "correct": false },
+      { "text": "Almacenar orina.", "correct": false },
+      { "text": "Transportar el semen.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la bolsa de piel que cuelga fuera del cuerpo.",
+    "explanation": "El escroto mantiene los testículos a una temperatura ligeramente inferior a la del cuerpo ($34$-$35$ °C), necesaria para la espermatogénesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Relaciona el método anticonceptivo natural con su descripción:\n\nI. Ritmo (Ogino-Knaus)\nII. Temperatura basal\nIII. Billings\n\nA. Observación del moco cervical\nB. Medición de temperatura al despertar\nC. Cálculo de días fértiles en el calendario",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Billings se enfoca en la viscosidad del flujo vaginal.",
+    "explanation": "El ritmo se basa en el calendario, la temperatura basal en el calor corporal y Billings en el moco cervical. Son métodos poco eficaces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "¿Qué es la menopausia?",
+    "image": null,
+    "options": [
+      { "text": "El cese permanente de la menstruación.", "correct": true },
+      { "text": "La primera menstruación en la vida.", "correct": false },
+      { "text": "El dolor durante la menstruación.", "correct": false },
+      { "text": "El inicio de la vida fértil.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre generalmente entre los $45$ y $55$ años.",
+    "explanation": "La menopausia marca el final de la etapa reproductiva de la mujer debido al agotamiento de la reserva ovárica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Según estudios citados por el CEPREDIX, ¿cuál es el método anticonceptivo reversible de larga duración (LARC) con mayor eficacia?",
+    "image": null,
+    "options": [
+      { "text": "Implante subdérmico", "correct": true },
+      { "text": "Pastillas diarias", "correct": false },
+      { "text": "Condón", "correct": false },
+      { "text": "Coito interrumpido", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No depende de que el usuario recuerde usarlo cada día.",
+    "explanation": "Los métodos LARC (implante y DIU) tienen una eficacia superior al $99\\%$ porque eliminan el error humano (olvidos).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "¿Cuál es la función principal de la testosterona en la pubertad?",
+    "image": null,
+    "options": [
+      { "text": "Desarrollo de caracteres sexuales secundarios masculinos.", "correct": true },
+      { "text": "Crecimiento de las mamas.", "correct": false },
+      { "text": "Inicio de la menstruación.", "correct": false },
+      { "text": "Producción de óvulos.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Voz grave, vello facial, aumento muscular.",
+    "explanation": "La testosterona provoca cambios físicos masculinos como voz grave, vello corporal y desarrollo muscular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Identifica los síntomas comunes del Herpes genital:\n1. Ampollas dolorosas\n2. Verrugas con forma de coliflor\n3. Ardor al orinar\n4. Chancro indoloro\n5. Úlceras o llagas",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La característica clave son las vesículas (ampollitas) que duelen mucho.",
+    "explanation": "El herpes se caracteriza por brotes de ampollas dolorosas que se rompen formando úlceras. Las verrugas son de VPH y el chancro indoloro de sífilis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "¿Qué canal permite la salida del bebé durante el parto y del flujo menstrual?",
+    "image": null,
+    "options": [
+      { "text": "Vagina", "correct": true },
+      { "text": "Uretra", "correct": false },
+      { "text": "Útero", "correct": false },
+      { "text": "Trompa de Falopio", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un conducto muscular elástico que conecta el útero con el exterior.",
+    "explanation": "La vagina es el canal del parto, la vía de salida menstrual y el órgano de la cópula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Completa: 'La transmisión ______ de una ITS ocurre cuando la madre infecta al feto o bebé durante el embarazo, parto o lactancia.'",
+    "image": null,
+    "options": [
+      { "text": "Vertical", "correct": true },
+      { "text": "Horizontal", "correct": false },
+      { "text": "Sexual", "correct": false },
+      { "text": "Sanguínea", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una transmisión de 'arriba hacia abajo' (generacional).",
+    "explanation": "La transmisión vertical es el paso de un patógeno de la madre al hijo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "¿Cuántos cromosomas tiene un espermatozoide o un óvulo humano?",
+    "image": null,
+    "options": [
+      { "text": "$23$ cromosomas", "correct": true },
+      { "text": "$46$ cromosomas", "correct": false },
+      { "text": "$2$ cromosomas", "correct": false },
+      { "text": "$12$ cromosomas", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la mitad de la dotación genética de una célula normal ($46$).",
+    "explanation": "Los gametos son células haploides ($n=23$) para que al unirse en la fecundación formen un cigoto diploide ($2n=46$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Un estudiante del CEPREDIX pregunta: ¿Por qué el coito interrumpido (retirar el pene antes de eyacular) NO es un método seguro?",
+    "image": null,
+    "options": [
+      { "text": "El líquido preseminal puede contener espermatozoides.", "correct": true },
+      { "text": "La mujer puede ovular por el estímulo.", "correct": false },
+      { "text": "Los espermatozoides saltan.", "correct": false },
+      { "text": "No protege contra el embarazo, solo contra ITS.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Antes de la eyaculación sale un fluido lubricante.",
+    "explanation": "El líquido preseminal (de las glándulas de Cowper) puede arrastrar espermatozoides residuales, causando embarazo, y tampoco protege de ITS.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "¿Qué órgano es común al sistema reproductor y urinario en el hombre?",
+    "image": null,
+    "options": [
+      { "text": "Uretra", "correct": true },
+      { "text": "Uréter", "correct": false },
+      { "text": "Conducto deferente", "correct": false },
+      { "text": "Epidídimo", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Por ahí sale la orina y el semen.",
+    "explanation": "La uretra masculina transporta tanto orina (desde la vejiga) como semen (en la eyaculación).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Relaciona la hormona del ciclo menstrual con su efecto en la temperatura corporal:\n\nI. Estrógenos\nII. Progesterona\n\nA. Aumenta la temperatura basal (fase lútea)\nB. Mantiene la temperatura baja (fase folicular)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La progesterona es 'termogénica' (genera calor).",
+    "explanation": "Tras la ovulación, la progesterona sube la temperatura corporal basal unos $0.5$ °C.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "¿Cuál es la primera menstruación de una mujer llamada?",
+    "image": null,
+    "options": [
+      { "text": "Menarca", "correct": true },
+      { "text": "Menopausia", "correct": false },
+      { "text": "Ovulación", "correct": false },
+      { "text": "Climaterio", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suena parecido a 'arca' o inicio.",
+    "explanation": "La menarca es el primer sangrado menstrual y marca el inicio de la capacidad reproductiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "¿Qué método anticonceptivo requiere la colocación por un médico dentro del útero?",
+    "image": null,
+    "options": [
+      { "text": "DIU", "correct": true },
+      { "text": "Parche", "correct": false },
+      { "text": "Anillo vaginal", "correct": false },
+      { "text": "Condón femenino", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Dispositivo Intra-Uterino.",
+    "explanation": "El DIU (Dispositivo Intrauterino) debe ser insertado por un profesional de la salud a través del cérvix.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Completa: 'La ______ es una cirugía masculina sencilla donde se cortan los ______ para evitar que los espermatozoides lleguen al semen.'",
+    "image": null,
+    "options": [
+      { "text": "Vasectomía, conductos deferentes", "correct": true },
+      { "text": "Circuncisión, prepucios", "correct": false },
+      { "text": "Castración, testículos", "correct": false },
+      { "text": "Prostatectomía, conductos eyaculadores", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No afecta la potencia sexual ni la eyaculación (solo que no lleva esperma).",
+    "explanation": "La vasectomía interrumpe los conductos deferentes. El hombre sigue eyaculando, pero el semen es estéril.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "En el CEPREDIX se discute sobre la Hepatitis B. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "image": null,
+    "options": [
+      { "text": "Es una infección viral prevenible con vacuna.", "correct": true },
+      { "text": "Es causada por una bacteria y se cura con penicilina.", "correct": false },
+      { "text": "Solo se transmite por alimentos contaminados.", "correct": false },
+      { "text": "Afecta principalmente a los pulmones.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Afecta al hígado (Hepa).",
+    "explanation": "La Hepatitis B es viral, afecta al hígado, se transmite sexualmente o por sangre, y existe una vacuna efectiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "¿Cuál es la función principal de las vesículas seminales?",
+    "image": null,
+    "options": [
+      { "text": "Producir líquido rico en fructosa para nutrir a los espermatozoides.", "correct": true },
+      { "text": "Almacenar espermatozoides maduros.", "correct": false },
+      { "text": "Producir testosterona.", "correct": false },
+      { "text": "Lubricar la uretra.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aportan la mayor parte del volumen del semen y energía (azúcar).",
+    "explanation": "Las vesículas seminales secretan un fluido viscoso con fructosa que da energía a los espermatozoides.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Relaciona la fase del ciclo menstrual con el evento ovárico:\n\nI. Fase Folicular\nII. Ovulación\nIII. Fase Lútea\n\nA. Formación del cuerpo amarillo\nB. Maduración del ovocito\nC. Ruptura del folículo",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Lútea viene de 'luteus' (amarillo).",
+    "explanation": "I: El folículo crece. II: El folículo se rompe. III: El remanente se convierte en cuerpo lúteo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "¿Qué ITS se caracteriza por la aparición de verrugas genitales (condilomas)?",
+    "image": null,
+    "options": [
+      { "text": "VPH", "correct": true },
+      { "text": "VIH", "correct": false },
+      { "text": "Gonorrea", "correct": false },
+      { "text": "Clamidia", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Virus del Papiloma Humano.",
+    "explanation": "Las cepas de bajo riesgo del VPH causan verrugas en genitales, ano y garganta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "En biología del desarrollo, ¿qué es un cigoto?",
+    "image": null,
+    "options": [
+      { "text": "La célula resultante de la unión del óvulo y espermatozoide.", "correct": true },
+      { "text": "Un espermatozoide maduro.", "correct": false },
+      { "text": "Un óvulo sin fecundar.", "correct": false },
+      { "text": "El feto a los 3 meses.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la primera célula de un nuevo individuo.",
+    "explanation": "El cigoto es la célula diploide formada inmediatamente después de la fecundación.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CA",
-    "question": "¿Cuál es la carga del catión en el compuesto $CuCl_2$?",
+    "question": "Según el protocolo médico del CEPREDIX, ¿cuál es el método más efectivo para prevenir el embarazo si se ha tenido una relación sexual de riesgo sin protección en las últimas $72$ horas?",
     "image": null,
     "options": [
-      { "text": "$+2$", "correct": true },
-      { "text": "$+1$", "correct": false },
-      { "text": "$-1$", "correct": false },
-      { "text": "$+3$", "correct": false }
+      { "text": "Pastilla de emergencia (Levonorgestrel)", "correct": true },
+      { "text": "Lavado vaginal", "correct": false },
+      { "text": "Tomar anticonceptivos regulares", "correct": false },
+      { "text": "Esperar a la menstruación", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El Cloro tiene $-1$. Hay 2 cloros. La suma debe ser 0.",
-    "explanation": "$x + 2(-1) = 0 \\Rightarrow x = +2$. El cobre es Cu(II).",
+    "hint": "Se conoce como 'Plan B'.",
+    "explanation": "La anticoncepción de emergencia debe tomarse lo antes posible (idealmente antes de $72$ h) para ser efectiva.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CB",
-    "question": "Un estudiante del CEPREDIX escribe la fórmula del Sulfuro de Hidrógeno como gas. ¿Cuál es?",
+    "question": "¿Dónde se producen los óvulos?",
     "image": null,
     "options": [
-      { "text": "$H_2S$", "correct": true },
-      { "text": "$HS$", "correct": false },
-      { "text": "$HS_2$", "correct": false },
-      { "text": "$H_2SO_4$", "correct": false }
+      { "text": "En los ovarios", "correct": true },
+      { "text": "En el útero", "correct": false },
+      { "text": "En las trompas", "correct": false },
+      { "text": "En la vagina", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Huele a huevo podrido. El azufre trabaja con $-2$.",
-    "explanation": "El azufre actúa con valencia $-2$ y el hidrógeno con $+1$. Cruzando valencias: $H_2S$.",
+    "hint": "Son las gónadas femeninas.",
+    "explanation": "Los ovarios contienen los folículos donde maduran los óvulos.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CC",
-    "question": "¿Qué elemento tiene configuración externa $3s^2 3p^4$?",
+    "question": "Relaciona el término con su definición:\n\nI. Fecundación\nII. Implantación\nIII. Parto\n\nA. Unión de gametos\nB. Expulsión del feto\nC. Adhesión del embrión al útero",
     "image": null,
     "options": [
-      { "text": "Azufre ($Z=16$)", "correct": true },
-      { "text": "Oxígeno ($Z=8$)", "correct": false },
-      { "text": "Selenio ($Z=34$)", "correct": false },
-      { "text": "Argón ($Z=18$)", "correct": false }
+      { "text": "I-A, II-C, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Está en el periodo 3. Suma los electrones de valencia ($2+4=6$) y busca en el grupo 16.",
-    "explanation": "Periodo 3, Grupo 16 (Anfígenos). El elemento es el Azufre.",
+    "hint": "Fecundar es unir, implantar es fijar.",
+    "explanation": "Fecundación (unión), Implantación (anidación en endometrio), Parto (nacimiento).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CD",
-    "question": "El término 'Oxisal' se refiere a sales que contienen:",
+    "question": "¿Cuál es una ventaja de los anticonceptivos hormonales combinados (pastillas)?",
     "image": null,
     "options": [
-      { "text": "Metal, No metal y Oxígeno", "correct": true },
-      { "text": "Solo Metal y No metal", "correct": false },
-      { "text": "Metal y Oxígeno", "correct": false },
-      { "text": "Metal, Hidrógeno y No metal", "correct": false }
+      { "text": "Regulan el ciclo menstrual y reducen cólicos.", "correct": true },
+      { "text": "Protegen contra el VIH.", "correct": false },
+      { "text": "Son permanentes.", "correct": false },
+      { "text": "No tienen efectos secundarios.", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Derivan de los oxiácidos.",
-    "explanation": "Las oxisales sustituyen los hidrógenos de un oxiácido por un metal, conservando el oxígeno.",
+    "hint": "Además de evitar embarazo, tienen beneficios médicos no anticonceptivos.",
+    "explanation": "Ayudan a regularizar ciclos irregulares, disminuir el acné y el dolor menstrual.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CE",
-    "question": "En la tabla periódica, los períodos (filas horizontales) indican:",
+    "question": "Completa: 'La ______ es el tejido eréctil dentro del pene que se llena de sangre para producir la erección.'",
     "image": null,
     "options": [
-      { "text": "El número de niveles de energía ocupados.", "correct": true },
-      { "text": "El número de electrones de valencia.", "correct": false },
-      { "text": "La familia del elemento.", "correct": false },
-      { "text": "El estado de agregación.", "correct": false }
+      { "text": "Cuerpos cavernosos", "correct": true },
+      { "text": "Glande", "correct": false },
+      { "text": "Prepucio", "correct": false },
+      { "text": "Escroto", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El hidrógeno está en el 1, el Litio en el 2...",
-    "explanation": "El número del período corresponde al número cuántico principal $n$ de la capa de valencia.",
+    "hint": "Son como esponjas cilíndricas.",
+    "explanation": "Los cuerpos cavernosos son estructuras esponjosas que al llenarse de sangre dan rigidez al pene.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CF",
-    "question": "¿Cuál es el nombre del anión $MnO_4^-$ cuando el Manganeso usa valencia $+7$?",
+    "question": "¿Qué método anticonceptivo consiste en usar una funda de látex?",
     "image": null,
     "options": [
-      { "text": "Permanganato", "correct": true },
-      { "text": "Manganato", "correct": false },
-      { "text": "Manganito", "correct": false },
-      { "text": "Hipomanganito", "correct": false }
+      { "text": "Condón", "correct": true },
+      { "text": "DIU", "correct": false },
+      { "text": "Parche", "correct": false },
+      { "text": "Implante", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Máxima valencia posible del grupo 7.",
-    "explanation": "Con valencia $+7$, se usa el prefijo Per- y sufijo -ato.",
+    "hint": "Es el más común y barato.",
+    "explanation": "El condón masculino es una funda de látex o poliuretano.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CG",
-    "question": "Calcula los neutrones en el isótopo $^{56}Fe$ (Hierro-56), sabiendo que $Z=26$.",
+    "question": "En un estudio del CEPREDIX sobre ITS asintomáticas, se destaca que una infección bacteriana frecuente en mujeres puede causar infertilidad si no se trata, aunque a menudo no presenta síntomas. ¿Cuál es?",
     "image": null,
     "options": [
-      { "text": "30", "correct": true },
-      { "text": "26", "correct": false },
-      { "text": "56", "correct": false },
-      { "text": "82", "correct": false }
+      { "text": "Clamidia", "correct": true },
+      { "text": "Herpes", "correct": false },
+      { "text": "Sarna", "correct": false },
+      { "text": "Candidiasis", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "$A = Z + N$. Resta la masa menos el número atómico.",
-    "explanation": "$N = 56 - 26 = 30$ neutrones.",
+    "hint": "Es la causa #1 de ceguera prevenible y Enfermedad Pélvica Inflamatoria.",
+    "explanation": "La Clamidia es conocida como la infección silenciosa; sin tratamiento daña las trompas de Falopio causando esterilidad.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CH",
-    "question": "¿Qué nombre recibe el compuesto $HgO$ en la nomenclatura Stock?",
+    "question": "¿Qué es el cérvix?",
     "image": null,
     "options": [
-      { "text": "Óxido de mercurio (II)", "correct": true },
-      { "text": "Óxido de mercurio (I)", "correct": false },
-      { "text": "Óxido mercúrico", "correct": false },
-      { "text": "Monóxido de mercurio", "correct": false }
+      { "text": "El cuello o entrada inferior del útero.", "correct": true },
+      { "text": "La parte externa de la vulva.", "correct": false },
+      { "text": "El conducto urinario.", "correct": false },
+      { "text": "El fondo del útero.", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El oxígeno es $-2$. Para que sea neutro, el $Hg$ debe ser $+2$.",
-    "explanation": "Como el Hg tiene valencia $+2$, se indica con el número romano (II).",
+    "hint": "Es donde se toma la muestra del Papanicolau.",
+    "explanation": "El cérvix o cuello uterino conecta la vagina con la cavidad uterina.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CI",
-    "question": "La configuración $1s^2 2s^2 2p^6 3s^2 3p^6$ corresponde a un:",
+    "question": "Relaciona el mecanismo hormonal con su efecto anticonceptivo:\n\nI. Inhibición de la ovulación\nII. Espesamiento del moco cervical\n\nA. Impide el paso de espermatozoides\nB. Evita que el ovario libere el óvulo",
     "image": null,
     "options": [
-      { "text": "Gas Noble (Argón)", "correct": true },
-      { "text": "Halógeno (Cloro)", "correct": false },
-      { "text": "Metal Alcalino (Potasio)", "correct": false },
-      { "text": "Metal Alcalinotérreo (Calcio)", "correct": false }
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Tiene el octeto completo en el nivel 3.",
-    "explanation": "Tener $s^2 p^6$ indica capa llena, característico de los gases nobles. Sumando electrones da 18 (Argón).",
+    "hint": "Sin óvulo no hay fecundación (B). Moco espeso es barrera (A).",
+    "explanation": "Las hormonas engañan al cuerpo para no ovular y crean un tapón mucoso en el cérvix.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CJ",
-    "question": "Identifica la fórmula del Hidróxido de Aluminio, componente común en antiácidos.",
+    "question": "¿Qué día del ciclo menstrual (en un ciclo de $28$ días) es más probable que ocurra la ovulación?",
     "image": null,
     "options": [
-      { "text": "$Al(OH)_3$", "correct": true },
-      { "text": "$AlOH$", "correct": false },
-      { "text": "$Al_3OH$", "correct": false },
-      { "text": "$Al(OH)_2$", "correct": false }
+      { "text": "Día $14$", "correct": true },
+      { "text": "Día $1$", "correct": false },
+      { "text": "Día $28$", "correct": false },
+      { "text": "Día $7$", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El Aluminio está en el grupo 13, tiene valencia $+3$.",
-    "explanation": "Se cruza la valencia del Aluminio ($+3$) con la del radical hidroxilo ($-1$).",
+    "hint": "Justo a la mitad.",
+    "explanation": "En un ciclo regular de $28$ días, la ovulación ocurre aproximadamente 14 días antes de la siguiente menstruación.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CK",
-    "question": "¿Cuál es la característica de los 'Gases Nobles' que los hace químicamente inertes?",
+    "question": "¿Cuál es el agente causal de la Sífilis?",
     "image": null,
     "options": [
-      { "text": "Tienen su capa de valencia completa (octeto).", "correct": true },
-      { "text": "Tienen muy alta electronegatividad.", "correct": false },
-      { "text": "Tienen radios atómicos muy grandes.", "correct": false },
-      { "text": "Son metales líquidos.", "correct": false }
+      { "text": "Treponema pallidum (bacteria)", "correct": true },
+      { "text": "Virus de Inmunodeficiencia Humana", "correct": false },
+      { "text": "Candida albicans", "correct": false },
+      { "text": "Pthirus pubis", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "No necesitan ganar ni perder electrones para ser estables.",
-    "explanation": "Al cumplir la regla del octeto naturalmente, tienen baja reactividad.",
+    "hint": "Es una espiroqueta (bacteria en forma de espiral).",
+    "explanation": "La sífilis es causada por la bacteria espiroqueta Treponema pallidum.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CL",
-    "question": "En la molécula $Cl_2O_7$, el número de oxidación del Cloro es:",
+    "question": "¿Cómo se llama la piel que cubre la cabeza (glande) del pene?",
     "image": null,
     "options": [
-      { "text": "$+7$", "correct": true },
-      { "text": "$+5$", "correct": false },
-      { "text": "$+1$", "correct": false },
-      { "text": "$-1$", "correct": false }
+      { "text": "Prepucio", "correct": true },
+      { "text": "Escroto", "correct": false },
+      { "text": "Cuerpo cavernoso", "correct": false },
+      { "text": "Epidídimo", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El Oxígeno es $-2$. $2x + 7(-2) = 0$.",
-    "explanation": "$2x - 14 = 0 \\Rightarrow 2x = 14 \\Rightarrow x = +7$.",
+    "hint": "Es lo que se retira en la circuncisión.",
+    "explanation": "El prepucio es el pliegue de piel retráctil que protege el glande.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CM",
-    "question": "Relaciona el elemento con su bloque en la tabla periódica:\n\nI. $Na$\nII. $Fe$\nIII. $Cl$\n\nA. Bloque $p$\nB. Bloque $s$\nC. Bloque $d$",
+    "question": "En el contexto del CEPREDIX, se explica que los anticonceptivos de 'barrera química' se denominan:",
     "image": null,
     "options": [
-      { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-C, II-B, III-A", "correct": false }
+      { "text": "Espermicidas", "correct": true },
+      { "text": "Antibióticos", "correct": false },
+      { "text": "Estrógenos", "correct": false },
+      { "text": "Andrógenos", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "$Na$ (Alcalino), $Fe$ (Transición), $Cl$ (Halógeno).",
-    "explanation": "Alcalinos llenan $s$, Transición llenan $d$, No metales/Halógenos llenan $p$.",
+    "hint": "Matan o inactivan espermatozoides.",
+    "explanation": "Los espermicidas (como el nonoxinol-9) son sustancias químicas que inactivan el esperma. Son poco eficaces por sí solos.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CN",
-    "question": "¿Cómo se nombra el compuesto $LiH$?",
+    "question": "¿Cuál es la función del LH (Hormona Luteinizante) en el hombre?",
     "image": null,
     "options": [
-      { "text": "Hidruro de litio", "correct": true },
-      { "text": "Hidróxido de litio", "correct": false },
-      { "text": "Ácido lítico", "correct": false },
-      { "text": "Lituro de hidrógeno", "correct": false }
+      { "text": "Estimular la producción de testosterona en los testículos.", "correct": true },
+      { "text": "Producir espermatozoides directamente.", "correct": false },
+      { "text": "Hacer crecer el pene.", "correct": false },
+      { "text": "No tiene función en el hombre.", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Metal + Hidrógeno.",
-    "explanation": "Es un hidruro metálico sencillo.",
+    "hint": "Actúa sobre las células de Leydig.",
+    "explanation": "La LH estimula a las células de Leydig en los testículos para que secreten testosterona.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CO",
-    "question": "El Flúor ($Z=9$) es el elemento más electronegativo. Su configuración electrónica termina en:",
+    "question": "¿Qué método anticonceptivo consiste en colocar un pequeño objeto flexible en forma de T dentro del útero?",
     "image": null,
     "options": [
-      { "text": "$2s^2 2p^5$", "correct": true },
-      { "text": "$2s^2 2p^6$", "correct": false },
-      { "text": "$2s^2 2p^4$", "correct": false },
-      { "text": "$1s^2$", "correct": false }
+      { "text": "DIU", "correct": true },
+      { "text": "Implante", "correct": false },
+      { "text": "Diafragma", "correct": false },
+      { "text": "Copa menstrual", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Le falta solo 1 electrón para el octeto.",
-    "explanation": "Tiene 9 electrones: $1s^2 2s^2 2p^5$.",
+    "hint": "Puede ser de cobre o plástico hormonal.",
+    "explanation": "El Dispositivo Intrauterino (DIU) tiene forma de T para ajustarse a la cavidad uterina.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CP",
-    "question": "Para formular el Hipoclorito de Sodio (blanqueador), se combina el sodio ($Na^+$) con el ión hipoclorito. ¿Cuál es la fórmula?",
+    "question": "Completa: 'El ______ es un parche adhesivo que libera hormonas a través de la piel para prevenir el embarazo, y debe cambiarse ______.'",
     "image": null,
     "options": [
-      { "text": "$NaClO$", "correct": true },
-      { "text": "$NaClO_2$", "correct": false },
-      { "text": "$NaClO_3$", "correct": false },
-      { "text": "$NaCl$", "correct": false }
+      { "text": "Parche anticonceptivo, semanalmente", "correct": true },
+      { "text": "Implante, anualmente", "correct": false },
+      { "text": "DIU, mensualmente", "correct": false },
+      { "text": "Condón, diariamente", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Hipo- ... -ito es la valencia más baja del cloro ($+1$) en oxisales.",
-    "explanation": "Cloro $+1$ forma $ClO^-$. Con $Na^+$, resulta $NaClO$.",
+    "hint": "Se usa 3 semanas seguidas y se descansa una.",
+    "explanation": "El parche se cambia cada semana durante 3 semanas, seguido de una semana de descanso.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CQ",
-    "question": "¿Qué par de elementos esperarías que formen un enlace covalente?",
+    "question": "¿Qué es la OTB o Salpingoclasia?",
     "image": null,
     "options": [
-      { "text": "Carbono y Oxígeno", "correct": true },
-      { "text": "Sodio y Cloro", "correct": false },
-      { "text": "Calcio y Flúor", "correct": false },
-      { "text": "Potasio y Bromo", "correct": false }
+      { "text": "Ligadura o corte de las trompas de Falopio.", "correct": true },
+      { "text": "Extirpación del útero.", "correct": false },
+      { "text": "Corte de los ovarios.", "correct": false },
+      { "text": "Costura de la vagina.", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Busca dos no metales.",
-    "explanation": "Dos no metales comparten electrones, formando enlaces covalentes ($CO$, $CO_2$).",
+    "hint": "Salpingo se refiere a trompas.",
+    "explanation": "La Oclusión Tubaria Bilateral bloquea el camino del óvulo al útero y de los espermatozoides al óvulo.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CR",
-    "question": "Un estudiante del CEPREDIX observa que el compuesto $PbO_2$ se llama Óxido de Plomo (IV). ¿Qué nomenclatura se está usando?",
+    "question": "Un paciente del CEPREDIX presenta pediculosis pubis. ¿Cuál es el nombre común de este parásito?",
     "image": null,
     "options": [
-      { "text": "Stock", "correct": true },
-      { "text": "Tradicional", "correct": false },
-      { "text": "Sistemática", "correct": false },
-      { "text": "Común", "correct": false }
+      { "text": "Ladilla", "correct": true },
+      { "text": "Sarna", "correct": false },
+      { "text": "Garrapata", "correct": false },
+      { "text": "Pulga", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Usa números romanos.",
-    "explanation": "La nomenclatura Stock se caracteriza por indicar el estado de oxidación con números romanos entre paréntesis.",
+    "hint": "Es como un piojo pero en el vello púbico.",
+    "explanation": "Las ladillas son piojos del pubis que se transmiten por contacto sexual o ropa contaminada.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CS",
-    "question": "¿Cuál es la fórmula del Ácido Fosfórico?",
+    "question": "¿Qué órgano produce la testosterona?",
     "image": null,
     "options": [
-      { "text": "$H_3PO_4$", "correct": true },
-      { "text": "$H_3PO_3$", "correct": false },
-      { "text": "$HPO_3$", "correct": false },
-      { "text": "$H_4P_2O_7$", "correct": false }
+      { "text": "Testículo", "correct": true },
+      { "text": "Pene", "correct": false },
+      { "text": "Próstata", "correct": false },
+      { "text": "Hígado", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Viene del anhídrido fosfórico + 3 moléculas de agua (caso especial).",
-    "explanation": "El ácido ortofosfórico (comúnmente fosfórico) se forma sumando agua al óxido, resultando en $H_3PO_4$.",
+    "hint": "Específicamente las células de Leydig dentro de ellos.",
+    "explanation": "Los testículos son los principales productores de andrógenos, incluida la testosterona.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CT",
-    "question": "Identifica los electrones de valencia del Calcio ($Z=20$).",
+    "question": "Relaciona el término con su descripción:\n\nI. Amenorrea\nII. Dismenorrea\nIII. Menorragia\n\nA. Dolor menstrual intenso\nB. Ausencia de menstruación\nC. Sangrado menstrual excesivo",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "20", "correct": false },
-      { "text": "6", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
     ],
-    "uni_tags": ["QUÍMICA"],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'A' significa sin. 'Dis' significa dolor/dificultad.",
+    "explanation": "Amenorrea (sin regla), Dismenorrea (cólicos dolorosos), Menorragia (sangrado abundante).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Cuál es la función del capuchón cervical?",
+    "image": null,
+    "options": [
+      { "text": "Cubrir el cérvix para bloquear espermatozoides.", "correct": true },
+      { "text": "Liberar hormonas.", "correct": false },
+      { "text": "Matar bacterias.", "correct": false },
+      { "text": "Inducir la menstruación.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un método de barrera poco común hoy en día.",
+    "explanation": "Es un dispositivo de silicona que se coloca sobre el cuello uterino, funcionando como barrera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "¿Qué enfermedad es causada por la bacteria *Neisseria gonorrhoeae*?",
+    "image": null,
+    "options": [
+      { "text": "Gonorrea", "correct": true },
+      { "text": "Sífilis", "correct": false },
+      { "text": "Sida", "correct": false },
+      { "text": "Candidiasis", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Configuración termina en $4s^2$.",
-    "explanation": "Pertenece al Grupo 2, por lo tanto tiene 2 electrones en su última capa.",
+    "hint": "El nombre de la bacteria te da la respuesta.",
+    "explanation": "La *Neisseria gonorrhoeae* (gonococo) causa la gonorrea.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "En el CEPREDIX se explica el uso del anillo vaginal. ¿Dónde se coloca?",
+    "image": null,
+    "options": [
+      { "text": "En el fondo de la vagina.", "correct": true },
+      { "text": "En el útero.", "correct": false },
+      { "text": "En las trompas.", "correct": false },
+      { "text": "Externamente en la vulva.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La usuaria se lo pone y quita ella misma, como un tampón.",
+    "explanation": "Es un anillo flexible que libera hormonas y se coloca en la vagina por 3 semanas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Completa: 'La ______ es la célula sexual masculina y la ______ es la célula sexual femenina.'",
+    "image": null,
+    "options": [
+      { "text": "Espermatozoide, óvulo", "correct": true },
+      { "text": "Óvulo, espermatozoide", "correct": false },
+      { "text": "Testículo, ovario", "correct": false },
+      { "text": "Pene, vagina", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Nombres de los gametos.",
+    "explanation": "Gameto masculino: Espermatozoide. Gameto femenino: Óvulo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "¿Qué ocurre en la Fase Folicular del ciclo menstrual?",
+    "image": null,
+    "options": [
+      { "text": "Maduración de folículos en el ovario.", "correct": true },
+      { "text": "Liberación del óvulo.", "correct": false },
+      { "text": "Formación del cuerpo lúteo.", "correct": false },
+      { "text": "Implantación del feto.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la primera fase, dominada por estrógenos.",
+    "explanation": "Bajo la influencia de la FSH, varios folículos comienzan a crecer en el ovario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Identifica los síntomas del SIDA (fase avanzada del VIH):\n1. Sistema inmune debilitado\n2. Infecciones oportunistas\n3. Pérdida de peso severa\n4. Aumento de peso\n5. Hipertensión",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El cuerpo no puede defenderse de enfermedades simples.",
+    "explanation": "El SIDA se caracteriza por inmunosupresión severa, permitiendo infecciones que normalmente no afectarían a personas sanas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "¿Qué ITS es causada por un parásito protozoario llamado *Trichomonas vaginalis*?",
+    "image": null,
+    "options": [
+      { "text": "Tricomoniasis", "correct": true },
+      { "text": "Candidiasis", "correct": false },
+      { "text": "Gonorrea", "correct": false },
+      { "text": "Sarna", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El nombre del parásito es casi idéntico a la enfermedad.",
+    "explanation": "La Tricomoniasis es una infección parasitaria común curable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Relaciona el órgano con el sistema al que pertenece:\n\nI. Vasos deferentes\nII. Labios mayores\nIII. Glande\n\nA. Reproductor Masculino\nB. Reproductor Femenino",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-B", "correct": false },
+      { "text": "I-A, II-A, III-B", "correct": false },
+      { "text": "I-B, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los labios son parte de la vulva.",
+    "explanation": "Deferentes y Glande son masculinos. Labios mayores son femeninos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "En una consulta del CEPREDIX, se recomienda la 'doble protección'. ¿En qué consiste?",
+    "image": null,
+    "options": [
+      { "text": "Usar condón (para ITS) y otro método anticonceptivo (para embarazo) al mismo tiempo.", "correct": true },
+      { "text": "Usar dos condones a la vez.", "correct": false },
+      { "text": "Tomar doble dosis de pastillas.", "correct": false },
+      { "text": "Usar condón masculino y femenino juntos.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Nunca uses dos condones juntos (fricción los rompe).",
+    "explanation": "La doble protección asegura evitar embarazo con un método efectivo (ej. implante) y evitar ITS con condón.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "¿Qué hormona detectan las pruebas de embarazo caseras en la orina?",
+    "image": null,
+    "options": [
+      { "text": "Gonadotropina Coriónica Humana (hCG)", "correct": true },
+      { "text": "Insulina", "correct": false },
+      { "text": "Adrenalina", "correct": false },
+      { "text": "Testosterona", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es producida por la placenta poco después de la implantación.",
+    "explanation": "La hCG es exclusiva del embarazo y su presencia confirma la gestación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "¿Cuál es la función del miometrio?",
+    "image": null,
+    "options": [
+      { "text": "Contraerse durante el parto para expulsar al bebé.", "correct": true },
+      { "text": "Producir óvulos.", "correct": false },
+      { "text": "Lubricar la vagina.", "correct": false },
+      { "text": "Proteger los labios menores.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "'Mio' significa músculo.",
+    "explanation": "El miometrio es la capa muscular gruesa del útero responsable de las contracciones uterinas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "¿Qué método anticonceptivo consiste en inyecciones de hormonas cada 1, 2 o 3 meses?",
+    "image": null,
+    "options": [
+      { "text": "Inyectables hormonales", "correct": true },
+      { "text": "Implante", "correct": false },
+      { "text": "Parche", "correct": false },
+      { "text": "Píldora", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El nombre lo dice.",
+    "explanation": "Son inyecciones intramusculares de progestina sola o combinada con estrógeno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Completa: 'La ______ es el fluido biológico que contiene espermatozoides y secreciones glandulares.'",
+    "image": null,
+    "options": [
+      { "text": "Semen", "correct": true },
+      { "text": "Orina", "correct": false },
+      { "text": "Plasma", "correct": false },
+      { "text": "Linfa", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es lo que se eyacula.",
+    "explanation": "El semen es la mezcla de espermatozoides con fluidos de la próstata y vesículas seminales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "¿Qué ITS viral puede causar cáncer de hígado y cirrosis?",
+    "image": null,
+    "options": [
+      { "text": "Hepatitis B y C", "correct": true },
+      { "text": "VIH", "correct": false },
+      { "text": "Herpes", "correct": false },
+      { "text": "VPH", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ataca al hígado.",
+    "explanation": "Los virus de la hepatitis atacan al hígado causando inflamación crónica que puede derivar en cáncer.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Relaciona el concepto con su tiempo aproximado:\n\nI. Vida del óvulo tras ovulación\nII. Vida del espermatozoide dentro de la mujer\n\nA. 12 a 24 horas\nB. Hasta 5 días",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El óvulo es efímero, el esperma es resistente.",
+    "explanation": "El óvulo muere rápido si no es fecundado. El esperma puede sobrevivir varios días en el moco cervical fértil.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "¿Qué es la vulva?",
+    "image": null,
+    "options": [
+      { "text": "El conjunto de órganos genitales externos femeninos.", "correct": true },
+      { "text": "El interior de la vagina.", "correct": false },
+      { "text": "El útero.", "correct": false },
+      { "text": "El himen exclusivamente.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Incluye labios, clítoris y monte de Venus.",
+    "explanation": "La vulva es la parte visible externa del aparato reproductor femenino.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Un estudiante del CEPREDIX pregunta qué hacer si se rompe el condón. ¿Cuál es la acción correcta?",
+    "image": null,
+    "options": [
+      { "text": "Detenerse, retirar, lavar y usar anticoncepción de emergencia si es necesario.", "correct": true },
+      { "text": "Continuar y esperar lo mejor.", "correct": false },
+      { "text": "Ponerse otro condón encima sin lavar.", "correct": false },
+      { "text": "Usar dos condones la próxima vez.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El riesgo de embarazo e ITS es inmediato.",
+    "explanation": "Se debe interrumpir el coito inmediatamente y considerar anticoncepción de emergencia y pruebas de ITS.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "¿Cuál es la función de las fimbrias en las trompas de Falopio?",
+    "image": null,
+    "options": [
+      { "text": "Capturar el óvulo liberado por el ovario.", "correct": true },
+      { "text": "Producir hormonas.", "correct": false },
+      { "text": "Bloquear espermatozoides.", "correct": false },
+      { "text": "Nutrir al feto.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Son como dedos al final del tubo.",
+    "explanation": "Las fimbrias barren la superficie del ovario para atrapar al ovocito y guiarlo al interior de la trompa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "¿Qué método natural se basa en la lactancia exclusiva para prevenir el embarazo?",
+    "image": null,
+    "options": [
+      { "text": "MELA (Método de Lactancia y Amenorrea)", "correct": true },
+      { "text": "Ritmo", "correct": false },
+      { "text": "Coito interrumpido", "correct": false },
+      { "text": "Billings", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Funciona solo si el bebé toma leche materna muy frecuentemente.",
+    "explanation": "La prolactina alta por la lactancia inhibe la ovulación, pero solo bajo condiciones estrictas (primeros 6 meses, lactancia exclusiva, sin menstruación).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "¿Qué son los caracteres sexuales secundarios?",
+    "image": null,
+    "options": [
+      { "text": "Rasgos físicos que distinguen sexos pero no son órganos reproductores.", "correct": true },
+      { "text": "Los genitales presentes al nacer.", "correct": false },
+      { "text": "Los cromosomas XX y XY.", "correct": false },
+      { "text": "Los gametos.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: Barba en hombres, caderas anchas en mujeres.",
+    "explanation": "Aparecen en la pubertad por acción hormonal (vello, voz, mamas, etc.).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Completa: 'La ______ es la fase final del ciclo menstrual si no hay embarazo, donde el cuerpo lúteo degenera y bajan la progesterona y estrógenos.'",
+    "image": null,
+    "options": [
+      { "text": "Fase Isquémica / Menstruación", "correct": true },
+      { "text": "Ovulación", "correct": false },
+      { "text": "Fase Folicular", "correct": false },
+      { "text": "Fecundación", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Isquemia significa falta de riego sanguíneo.",
+    "explanation": "La caída hormonal provoca isquemia (muerte celular) en el endometrio, desencadenando la regla.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "¿Cuál es el principal síntoma de la Candidiasis vaginal?",
+    "image": null,
+    "options": [
+      { "text": "Comezón intensa y flujo blanco grumoso.", "correct": true },
+      { "text": "Verrugas.", "correct": false },
+      { "text": "Sangrado abundante.", "correct": false },
+      { "text": "Úlceras.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El flujo parece 'requesón'.",
+    "explanation": "Es una infección micótica (hongos) muy común que causa prurito (comezón).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "En el CEPREDIX se estudia la eficacia de métodos. ¿Qué significa que un método sea 'reversible'?",
+    "image": null,
+    "options": [
+      { "text": "Que la fertilidad retorna al dejar de usarlo.", "correct": true },
+      { "text": "Que se puede usar por ambos lados.", "correct": false },
+      { "text": "Que es permanente.", "correct": false },
+      { "text": "Que previene ITS.", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Lo opuesto a la vasectomía.",
+    "explanation": "Reversible significa que el usuario puede recuperar su capacidad de tener hijos al suspender el método.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "¿Qué glándula controla a los ovarios y testículos?",
+    "image": null,
+    "options": [
+      { "text": "Hipófisis (Pituitaria)", "correct": true },
+      { "text": "Tiroides", "correct": false },
+      { "text": "Páncreas", "correct": false },
+      { "text": "Adrenal", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Está en la base del cerebro.",
+    "explanation": "La hipófisis secreta gonadotropinas (FSH y LH) que regulan el sistema reproductivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "¿Qué nombre recibe la célula formada por la unión de gametos hasta la octava semana de gestación?",
+    "image": null,
+    "options": [
+      { "text": "Embrión", "correct": true },
+      { "text": "Feto", "correct": false },
+      { "text": "Bebé", "correct": false },
+      { "text": "Neonato", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Después de la semana 8 se llama feto.",
+    "explanation": "Durante las primeras 8 semanas, donde se forman los órganos, se denomina embrión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Relaciona la ITS con su síntoma característico:\n\nI. Sífilis (1ra etapa)\nII. VPH\nIII. Gonorrea\n\nA. Secreción purulenta\nB. Chancro duro\nC. Verrugas (condilomas)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["BIOLOGÍA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sífilis=Chancro. VPH=Verrugas. Gonorrea=Pus.",
+    "explanation": "El chancro es típico de sífilis. Las verrugas de VPH. La secreción de gonorrea.",
     "explanative_video": null,
     "collapsible_text": null
   }
