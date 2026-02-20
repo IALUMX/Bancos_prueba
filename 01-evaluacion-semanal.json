@@ -16725,5 +16725,653 @@
     "explanation": "Sumamos pares sucesivamente: las dos primeras dan $\\frac{2}{1-x^2}$. Al sumar esto con la tercera da $\\frac{4}{1-x^4}$. Sumando la última, obtenemos $\\frac{8}{1-x^4}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01JG",
+    "question": "Si se conoce la densidad $\\rho$ en $\\text{kg/m}^3$ y el volumen $V$ en $\\text{m}^3$ de un objeto, ¿qué expresión matemática permite calcular su masa $m$?",
+    "image": null,
+    "options": [
+      { "text": "$m = \\rho \\cdot V$", "correct": true },
+      { "text": "$m = \\frac{\\rho}{V}$", "correct": false },
+      { "text": "$m = \\frac{V}{\\rho}$", "correct": false },
+      { "text": "$m = \\rho + V$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula fundamental de la densidad es $\\rho = \\frac{m}{V}$. El volumen que divide debe pasar con la operación contraria.",
+    "explanation": "La densidad se define como masa sobre volumen ($\\rho = \\frac{m}{V}$). Para despejar la masa, el volumen $V$ pasa multiplicando a la densidad, resultando en $m = \\rho \\cdot V$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JH",
+    "question": "El trabajo se calcula multiplicando fuerza por desplazamiento. Considerando el Sistema Internacional, ¿cuáles son las unidades de medida de la fuerza y del trabajo, sabiendo que el trabajo equivale a $\\text{N} \\cdot \\text{m}$?",
+    "image": null,
+    "options": [
+      { "text": "newtons ($N$), julios ($J$)", "correct": true },
+      { "text": "pascales ($Pa$), vatios ($W$)", "correct": false },
+      { "text": "kilogramos ($kg$), newtons ($N$)", "correct": false },
+      { "text": "julios ($J$), kelvin ($K$)", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo mecánico es una forma de transferencia de energía, y su fórmula es $W = F \\cdot d$.",
+    "explanation": "En el Sistema Internacional (SI), la magnitud de fuerza se expresa en newtons ($N$). El producto de esta fuerza por la distancia ($m$) da como resultado la energía transferida o trabajo, medido en julios ($J$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JI",
+    "question": "Relaciona cada magnitud fundamental con su respectiva unidad de medida en el Sistema Internacional (SI):\n\nI. Temperatura\nII. Cantidad de sustancia\nIII. Intensidad luminosa\n\nA. candela ($cd$)\nB. mol ($mol$)\nC. kelvin ($K$)",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El grado Celsius no es la unidad fundamental de temperatura en el SI. La unidad termodinámica base se escala sin grados.",
+    "explanation": "La Temperatura termodinámica se mide en kelvin ($K$), la Cantidad de sustancia en mol ($mol$) y la Intensidad luminosa en candela ($cd$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JJ",
+    "question": "Identifica en el siguiente listado cuáles corresponden únicamente a magnitudes fundamentales del Sistema Internacional:\n\n1. Longitud\n2. Velocidad\n3. Masa\n4. Volumen\n5. Temperatura",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las magnitudes fundamentales no requieren de otra ecuación para definirse. Por ejemplo, $v = \\frac{d}{t}$ hace a la velocidad derivada.",
+    "explanation": "Longitud ($m$), Masa ($kg$) y Temperatura ($K$) son parte de las 7 magnitudes fundamentales del SI. Velocidad ($m/s$) y Volumen ($m^3$) se forman a partir de estas y se consideran derivadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JK",
+    "question": "Para un problema de cinemática en el CEPREDIX donde un cuerpo viaja a una velocidad constante de $15 \\text{ m/s}$ y recorre $150 \\text{ m}$, ¿cuál es el despeje correcto para encontrar el tiempo $t$ empleado?",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{d}{v}$", "correct": true },
+      { "text": "$t = v \\cdot d$", "correct": false },
+      { "text": "$t = \\frac{v}{d}$", "correct": false },
+      { "text": "$t = d - v$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La relación fundamental en el Movimiento Rectilíneo Uniforme es $v = \\frac{d}{t}$.",
+    "explanation": "A partir de la fórmula $v = \\frac{d}{t}$, pasamos el tiempo $t$ multiplicando a la izquierda ($v \\cdot t = d$), y luego la velocidad $v$ pasa dividiendo a la derecha, quedando $t = \\frac{d}{v}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JL",
+    "question": "Del siguiente listado, selecciona las unidades que se consideran derivadas en el Sistema Internacional:\n\n1. pascal ($Pa$)\n2. kelvin ($K$)\n3. julio ($J$)\n4. amperio ($A$)\n5. newton ($N$)",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuáles unidades resultan de operaciones matemáticas con otras, por ejemplo, fuerza es masa por aceleración.",
+    "explanation": "El pascal, el julio y el newton son unidades construidas a partir de magnitudes base de longitud, masa y tiempo. El kelvin y el amperio son magnitudes independientes y fundamentales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JM",
+    "question": "De acuerdo con la dinámica de Newton, la ______ que experimenta un cuerpo es directamente proporcional a la ______ neta que actúa sobre él, donde la masa en $kg$ funciona como constante de proporcionalidad.",
+    "image": null,
+    "options": [
+      { "text": "aceleración, fuerza", "correct": true },
+      { "text": "velocidad, presión", "correct": false },
+      { "text": "presión, fuerza", "correct": false },
+      { "text": "fuerza, masa", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La Segunda Ley de Newton indica que para mover un objeto más rápido necesitas empujarlo más fuerte. La ecuación es $F = m \\cdot a$.",
+    "explanation": "La expresión matemática de la Segunda Ley de Newton es $F = m \\cdot a$. Esto significa que la aceleración ($a$) producida es directamente proporcional a la fuerza aplicada ($F$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JN",
+    "question": "Relaciona cada magnitud física con la expresión matemática que permite calcularla:\n\nI. Aceleración\nII. Densidad\nIII. Presión\n\nA. $\\rho = \\frac{m}{V}$\nB. $a = \\frac{\\Delta v}{t}$\nC. $p = \\frac{F}{A}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La densidad evalúa qué tan compacta es la materia, es decir, su masa dividida por su volumen.",
+    "explanation": "La aceleración mide el cambio de velocidad en el tiempo (I-B). La densidad es la masa que cabe en un volumen (II-A). La presión es la distribución de una fuerza sobre un área (III-C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JO",
+    "question": "Si la densidad de un material se define como $\\rho = \\frac{m}{V}$, ¿cómo se debe despejar correctamente el volumen $V$ si se conocen la masa en $kg$ y la densidad en $\\text{kg/m}^3$?",
+    "image": null,
+    "options": [
+      { "text": "$V = \\frac{m}{\\rho}$", "correct": true },
+      { "text": "$V = m \\cdot \\rho$", "correct": false },
+      { "text": "$V = \\frac{\\rho}{m}$", "correct": false },
+      { "text": "$V = m - \\rho$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para aislar una variable que se encuentra en el denominador, debes pasarla multiplicando primero.",
+    "explanation": "Empezando por $\\rho = \\frac{m}{V}$, multiplicamos ambos lados por $V$ obteniendo $\\rho \\cdot V = m$. Para dejar solo al volumen, pasamos la densidad dividiendo: $V = \\frac{m}{\\rho}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JP",
+    "question": "La unidad de fuerza en el Sistema Internacional es el newton ($N$). Al expresarlo en función de sus magnitudes fundamentales, ¿cuál es su equivalencia dimensional correcta?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{kg} \\cdot \\text{m/s}^2$", "correct": true },
+      { "text": "$\\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "$\\text{kg} \\cdot \\text{s}^2/\\text{m}$", "correct": false },
+      { "text": "$\\text{kg} / (\\text{m} \\cdot \\text{s}^2)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la Segunda Ley de Newton: $F = m \\cdot a$. Reemplaza las variables por las unidades de masa y aceleración.",
+    "explanation": "Al usar la ecuación $F = m \\cdot a$, sus unidades se obtienen multiplicando la unidad fundamental de la masa ($kg$) por la unidad de la aceleración ($\\text{m/s}^2$), resultando en $\\text{kg} \\cdot \\text{m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JQ",
+    "question": "El pascal ($Pa$) es la unidad de medida para la presión en el SI. ¿Qué combinación de unidades derivadas es equivalente a un pascal?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{N/m}^2$", "correct": true },
+      { "text": "$\\text{N} \\cdot \\text{m}$", "correct": false },
+      { "text": "$\\text{kg/m}^3$", "correct": false },
+      { "text": "$\\text{J/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La presión mide cómo una fuerza afecta a un área determinada, por lo que su ecuación general es $p = \\frac{F}{A}$.",
+    "explanation": "Sustituyendo las unidades en la ecuación $p = \\frac{F}{A}$, obtenemos que la fuerza se mide en newtons ($N$) y el área se mide en metros cuadrados ($m^2$), de ahí resulta $\\text{N/m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JR",
+    "question": "Si se ejerce un trabajo mecánico $W$ mediante una fuerza constante $F$ para mover una caja, ¿cuál es la ecuación despejada que permite calcular la distancia $d$ recorrida?",
+    "image": null,
+    "options": [
+      { "text": "$d = \\frac{W}{F}$", "correct": true },
+      { "text": "$d = W \\cdot F$", "correct": false },
+      { "text": "$d = \\frac{F}{W}$", "correct": false },
+      { "text": "$d = W - F$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que el trabajo es directamente proporcional a la fuerza y la distancia. $W = F \\cdot d$.",
+    "explanation": "La ecuación principal para el trabajo en la misma dirección del movimiento es $W = F \\cdot d$. Para aislar la variable del desplazamiento $d$, dividimos el trabajo entre la fuerza, resultando $d = \\frac{W}{F}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JS",
+    "question": "El tiempo es una magnitud fundamental. En el Sistema Internacional de Unidades (SI), se mide en ______ y su símbolo correcto es ______.",
+    "image": null,
+    "options": [
+      { "text": "segundos, $s$", "correct": true },
+      { "text": "horas, $h$", "correct": false },
+      { "text": "minutos, $min$", "correct": false },
+      { "text": "kelvin, $K$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Otras medidas como la hora o el minuto se consideran conversiones escaladas. Busca la magnitud base utilizada en las fórmulas de aceleración ($\\text{m/s}^2$).",
+    "explanation": "En el contexto científico y del SI, la unidad base universal para cuantificar los intervalos temporales es el segundo, cuyo único símbolo normado es la minúscula $s$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JT",
+    "question": "Asocia cada magnitud física derivada con su unidad de medida equivalente o de uso común fuera del SI básico:\n\nI. Volumen\nII. Densidad\nIII. Velocidad\n\nA. $\\text{km/h}$\nB. $\\text{g/cm}^3$\nC. $L$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera cómo se mide la rapidez de un automóvil y en qué unidades comerciales se empacan los fluidos.",
+    "explanation": "El volumen frecuentemente se cuantifica en litros ($L$). La densidad puede relacionarse en proporciones como $\\text{g/cm}^3$. Finalmente, la velocidad vehicular utiliza convencionalmente $\\text{km/h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JU",
+    "question": "Identifica en el siguiente conjunto de opciones las unidades que miden estrictamente magnitudes fundamentales:\n\n1. metro ($m$)\n2. pascal ($Pa$)\n3. kelvin ($K$)\n4. amperio ($A$)\n5. julio ($J$)",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Descarta todas aquellas unidades que requieran una fórmula compuesta para obtenerlas. El julio es fuerza por distancia.",
+    "explanation": "El metro (longitud), el kelvin (temperatura) y el amperio (intensidad de corriente) existen independientemente en las reglas del SI. Pascal y julio se componen matemáticamente de las bases.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JV",
+    "question": "Un estudiante del CEPREDIX aplica una fuerza neta $F$ ($N$) a un carrito de masa $m$ ($kg$). ¿Qué despeje utilizará para determinar la aceleración $a$ producida?",
+    "image": null,
+    "options": [
+      { "text": "$a = \\frac{F}{m}$", "correct": true },
+      { "text": "$a = F \\cdot m$", "correct": false },
+      { "text": "$a = \\frac{m}{F}$", "correct": false },
+      { "text": "$a = F + m$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al buscar la aceleración conociendo masa y fuerza, reordena la ecuación $F = m \\cdot a$.",
+    "explanation": "A partir del postulado de $F = m \\cdot a$, para aislar la variable de aceleración $a$, la masa que se encuentra multiplicando se divide en ambos miembros, dando el despeje $a = \\frac{F}{m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JW",
+    "question": "Sabiendo que la presión se mide en pascales ($Pa$) y equivale a $\\text{N/m}^2$, descompón esta unidad hasta sus magnitudes fundamentales en el SI. ¿Cuál es la expresión final correcta?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{kg} / (\\text{m} \\cdot \\text{s}^2)$", "correct": true },
+      { "text": "$\\text{kg} \\cdot \\text{m}^2 / \\text{s}^2$", "correct": false },
+      { "text": "$\\text{kg} / (\\text{m}^2 \\cdot \\text{s})$", "correct": false },
+      { "text": "$\\text{kg} \\cdot \\text{m} / \\text{s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cambia el newton ($N$) por su notación equivalente $(\\text{kg} \\cdot \\text{m/s}^2)$ antes de dividir entre $\\text{m}^2$.",
+    "explanation": "Si dividimos el equivalente analítico del newton $(\\text{kg} \\cdot \\text{m} / \\text{s}^2)$ entre el área del metro cuadrado $(m^2)$, cancelamos la medida de longitud que queda en el numerador, concluyendo en $\\text{kg} / (\\text{m} \\cdot \\text{s}^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JX",
+    "question": "En cinemática, al multiplicar el valor de la aceleración gravitacional ($\\text{m/s}^2$) por el intervalo de tiempo transcurrido ($s$), ¿qué unidad de medida resulta en el Sistema Internacional?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{m/s}$", "correct": true },
+      { "text": "$\\text{m/s}^2$", "correct": false },
+      { "text": "$\\text{m} \\cdot \\text{s}$", "correct": false },
+      { "text": "$\\text{m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta operación corresponde al despeje del cambio de velocidad $v = a \\cdot t$.",
+    "explanation": "Cuando se multiplica una variable en $\\text{m/s}^2$ por el tiempo en $s$, matemáticamente se anula un segundo en el divisor con el segundo en el numerador, restando $\\text{m/s}$, que es precisamente velocidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JY",
+    "question": "La unidad fundamental para medir la intensidad de corriente eléctrica es el ______ con el símbolo ______, mientras que la temperatura termodinámica usa el kelvin.",
+    "image": null,
+    "options": [
+      { "text": "amperio, $A$", "correct": true },
+      { "text": "voltio, $V$", "correct": false },
+      { "text": "ohmio, $\\Omega$", "correct": false },
+      { "text": "vatio, $W$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo o potencia eléctrica puede involucrar voltios, pero la medida que establece el flujo básico base es descubierta en honor a un físico francés.",
+    "explanation": "Dentro de las siete magnitudes que asientan las bases del Sistema Internacional, la responsable de cuantificar la corriente que transita un circuito es el amperio, representada por $A$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01JZ",
+    "question": "Relaciona correctamente cada unidad derivada del SI con su respectiva descomposición dimensional o unidades equivalentes:\n\nI. $N$ (Newton)\nII. $Pa$ (Pascal)\nIII. $J$ (Julio)\n\nA. $\\text{N} \\cdot \\text{m}$\nB. $\\text{kg} \\cdot \\text{m/s}^2$\nC. $\\text{N/m}^2$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Acuérdate de que el Pascal habla de cuanta fuerza aplicas en el piso por cada metro cuadrado.",
+    "explanation": "La fuerza es igual a la masa por aceleración dando como resultado el newton (I-B). La presión difunde esa fuerza en un área formando el pascal (II-C). La energía desplaza un cuerpo en una fuerza logrando el julio (III-A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KA",
+    "question": "En una práctica del CEPREDIX, se pide hallar la masa de un fluido cuya densidad es de $1.2 \\text{ g/cm}^3$ ocupando $100 \\text{ cm}^3$. A partir de $\\rho = \\frac{m}{V}$, ¿qué fórmula empleará el estudiante?",
+    "image": null,
+    "options": [
+      { "text": "$m = \\rho \\cdot V$", "correct": true },
+      { "text": "$m = \\frac{\\rho}{V}$", "correct": false },
+      { "text": "$m = \\frac{V}{\\rho}$", "correct": false },
+      { "text": "$m = \\rho + V$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para eliminar el cociente donde se encuentra la variable de masa, envía el volumen del otro lado multiplicando.",
+    "explanation": "Sabiendo que la densidad mide la razón de masa por volumen ($\\rho = \\frac{m}{V}$), la masa puede interpretarse como el producto obtenido de la densidad por el espacio volumétrico que requiere ($m = \\rho \\cdot V$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KB",
+    "question": "La magnitud que describe el cambio de la velocidad respecto al tiempo es la aceleración. Dimensionando velocidad en $\\text{m/s}$ y tiempo en $\\text{s}$, ¿cuál es su unidad final en el SI?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{m/s}^2$", "correct": true },
+      { "text": "$\\text{m/s}$", "correct": false },
+      { "text": "$\\text{m} \\cdot \\text{s}$", "correct": false },
+      { "text": "$\\text{m}^2/\\text{s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación para hallarla es $a = \\frac{\\Delta v}{t}$. Evalúa el arreglo de la fracción de fracciones.",
+    "explanation": "Si efectuamos la operación de unidades dividiendo la velocidad $\\text{m/s}$ entre el transcurso de un segundo $s$, los segundos se multiplican para convertirse en un divisor al cuadrado resultando en $\\text{m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KC",
+    "question": "Selecciona del siguiente listado aquellos símbolos que representan exclusivamente a unidades fundamentales del Sistema Internacional:\n\n1. $m$\n2. $kg$\n3. $K$\n4. $L$\n5. $N$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los últimos dos elementos provienen de multiplicar dimensiones (fuerza o extensión volumétrica).",
+    "explanation": "Abreviaturas elementales para longitud ($m$), masa constante universal ($kg$) y temperatura absoluta termodinámica ($K$) componen magnitudes bases. El volumen fluido ($L$) y el newton ($N$) son un resultado compuesto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KD",
+    "question": "Dentro del Sistema Internacional, la cantidad de sustancia se mide formalmente en ______, mientras que la magnitud fundamental de la masa corresponde al ______.",
+    "image": null,
+    "options": [
+      { "text": "mol, kilogramo", "correct": true },
+      { "text": "mol, gramo", "correct": false },
+      { "text": "amperio, litro", "correct": false },
+      { "text": "kelvin, kilogramo", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A pesar de que el mol utiliza comúnmente una fracción de la masa SI (gramos), la regla internacional establece la base universal para la masa con su prefijo kilométrico.",
+    "explanation": "El estándar de calibración asigna la expresión atómica o molecular a la cantidad de sustancia con la etiqueta de $mol$. Diferente a la química convencional, la masa tiene base fundamental en física mediante el $kg$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KE",
+    "question": "Asocia la magnitud física con su respectiva unidad de medida equivalente que no forma parte directa del SI básico:\n\nI. Presión\nII. Volumen\nIII. Trabajo\n\nA. $kW \\cdot h$\nB. $atm$\nC. $L$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda en qué se te cobran los consumos energéticos al mes, cómo reportas el tamaño de tu refrigerador para líquidos y cómo la atmósfera presiona.",
+    "explanation": "La presión atmosférica puede abreviarse coloquialmente como $atm$ frente al pascal. El volumen es medido tradicionalmente en decímetros en la presentación en $L$. El trabajo que la red provee como potencia eléctrica en tiempo se abrevia en $kW \\cdot h$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KF",
+    "question": "Si se ejerce una fuerza paralela al desplazamiento para empujar un bloque, ¿cuál es la expresión analítica correcta para calcular el trabajo mecánico $W$ resultante?",
+    "image": null,
+    "options": [
+      { "text": "$W = F \\cdot d$", "correct": true },
+      { "text": "$W = \\frac{F}{d}$", "correct": false },
+      { "text": "$W = \\frac{d}{F}$", "correct": false },
+      { "text": "$W = F + d$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo equivale a mantener el impulso a lo largo de un movimiento completo medido en trayecto recto.",
+    "explanation": "Mecánicamente el trabajo es producto escalar. Si la dirección es paralela entre la fuerza y el camino recorrido, matemáticamente resulta en una multiplicación básica, siendo $W = F \\cdot d$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KG",
+    "question": "Un físico del CEPREDIX analiza la dimensión de la energía. Sabiendo que $1 \\text{ J} = 1 \\text{ N} \\cdot \\text{ m}$ y descomponiendo el newton, ¿cuál es la expresión dimensional correcta del julio en unidades base?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": true },
+      { "text": "$\\text{kg} \\cdot \\text{m}/\\text{s}^2$", "correct": false },
+      { "text": "$\\text{kg} \\cdot \\text{s}^2/\\text{m}^2$", "correct": false },
+      { "text": "$\\text{kg} \\cdot \\text{m}^2/\\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que un newton aporta un metro de longitud ($\\text{m/s}^2$), que al multiplicarlo por el desplazamiento te da otra unidad de metro al arreglo.",
+    "explanation": "Transformando el newton en su matriz de bases $(\\text{kg} \\cdot \\text{m/s}^2)$ al agregarlo en la fórmula del trabajo al multiplicarse frente a la medida direccional $\\text{m}$, sus variables espaciales elevan potencia conformando $\\text{kg} \\cdot \\text{m}^2/\\text{s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KH",
+    "question": "Selecciona las magnitudes derivadas cuya definición matemática implica el uso del tiempo ($s$) como una de sus dimensiones fundamentales:\n\n1. Volumen\n2. Velocidad\n3. Aceleración\n4. Densidad\n5. Fuerza",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desglosa las fórmulas básicas de densidad y fuerza para detectar el tiempo. La densidad no es dinámica respecto al transcurso temporal.",
+    "explanation": "La velocidad evalúa un recorrido por tiempo ($m/s$). La aceleración comprueba ritmos de cambios de velocidad ($m/s^2$). La fuerza incorpora este término ($F = m \\cdot a$). Volumen y densidad se miden en el instante prescindiendo de una tasa temporal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KI",
+    "question": "La presión es el resultado de distribuir una fuerza sobre un área determinada. ¿Cuál es el planteamiento matemático correcto para encontrar su valor?",
+    "image": null,
+    "options": [
+      { "text": "$p = \\frac{F}{A}$", "correct": true },
+      { "text": "$p = F \\cdot A$", "correct": false },
+      { "text": "$p = \\frac{A}{F}$", "correct": false },
+      { "text": "$p = \\frac{F}{V}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piénsalo como tener una fuerza que debes 'repartir' uniformemente entre todos los centímetros cuadrados del área. Eso significa que debe fraccionarse.",
+    "explanation": "El modelo define la presión física calculando una razón que establece que $p = \\frac{F}{A}$, manifestando un incremento inverso a medida que el tamaño perimetral del plano impactado se encoge.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KJ",
+    "question": "Durante un experimento de cinemática en el CEPREDIX, los alumnos deben reportar la aceleración obtenida. ¿Cuál es la unidad de medida oficial para esta magnitud en el Sistema Internacional?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{m/s}^2$", "correct": true },
+      { "text": "$\\text{m/s}$", "correct": false },
+      { "text": "$\\text{km/h}$", "correct": false },
+      { "text": "$\\text{kg} \\cdot \\text{m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta medida surge de dividir una velocidad (metros por segundo) nuevamente por la unidad del segundo.",
+    "explanation": "Dado que evalúa la diferencia progresiva de metros que se adicionan al impulso original por cada segundo adicional transcurrido, su lectura compuesta es metro sobre segundo al cuadrado ($\\text{m/s}^2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KK",
+    "question": "Dentro del estudio térmico, la temperatura absoluta se considera una magnitud fundamental medida en ______, mientras que el trabajo mecánico es una magnitud derivada medida en ______.",
+    "image": null,
+    "options": [
+      { "text": "kelvin, julios", "correct": true },
+      { "text": "celsius, newtons", "correct": false },
+      { "text": "kelvin, vatios", "correct": false },
+      { "text": "celsius, pascales", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo siempre se valora bajo la unidad universal para energía (no con potencia mecánica ni fuerza impulsora).",
+    "explanation": "Las constantes termodinámicas básicas miden escalas desde cero absoluto en su expresión en kelvin ($K$). Para medir labor ejercida sobre cualquier ente físico se valora en la forma de energía definida en julios ($J$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KL",
+    "question": "Empareja cada magnitud física con las diversas unidades (del SI y equivalentes) que suelen utilizarse para cuantificarla:\n\nI. Volumen\nII. Densidad\nIII. Presión\n\nA. $\\text{g/cm}^3$, $\\text{kg/L}$\nB. $m^3$, $L$\nC. $Pa$, $mmHg$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La presión tiene variaciones históricas barométricas creadas con mercurio al presionar un nivel.",
+    "explanation": "La lectura tradicional y de SI concuerda en: el espacio se mide en $m^3$ o en variaciones adaptadas fluidas de $L$; la pesadez agrupada evalúa fracción gravitatoria en arreglos de volumen como $\\text{g/cm}^3$; la presión compendia pascales y otras como $mmHg$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KM",
+    "question": "Partiendo del modelo matemático del movimiento rectilíneo uniforme $v = \\frac{d}{t}$, ¿cuál es el despeje algebraicamente válido para calcular la distancia $d$?",
+    "image": null,
+    "options": [
+      { "text": "$d = v \\cdot t$", "correct": true },
+      { "text": "$d = \\frac{t}{v}$", "correct": false },
+      { "text": "$d = \\frac{v}{t}$", "correct": false },
+      { "text": "$d = v + t$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para quitar un cociente que afecta a la variable deseada en el despeje, debes multiplicar la magnitud extra a ambos lados de la igualdad.",
+    "explanation": "Aplicando simetría en el despeje de la fórmula $v = \\frac{d}{t}$, es posible despejar exitosamente multiplicando por el lapso total, permitiendo establecer $d = v \\cdot t$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KN",
+    "question": "Al analizar la relación matemática de la presión ($p = \\frac{F}{A}$), ¿qué efecto directo se observa en el valor de la presión si el área de contacto se reduce a la mitad manteniendo la fuerza constante?",
+    "image": null,
+    "options": [
+      { "text": "Se duplica", "correct": true },
+      { "text": "Se reduce a la mitad", "correct": false },
+      { "text": "Se cuadruplica", "correct": false },
+      { "text": "Se mantiene constante", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Entre más pequeña sea el área en donde descargas una misma fuerza puntual (piensa en una aguja en la piel), ¿qué tan intensa será su acción comparada con un bloque entero?",
+    "explanation": "Dado su comportamiento fraccionario, una disminución lineal a la mitad en la medida base del divisor hace disparar al factor general superior, produciendo el doble numéricamente, por esto al minimizar a la mitad su área la presión se amplifica dos veces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KO",
+    "question": "Identifica en el siguiente conjunto de opciones aquellas unidades utilizadas para medir el trabajo o la energía mecánica:\n\n1. julio ($J$)\n2. ergio ($erg$)\n3. vatio por hora ($kW \\cdot h$)\n4. pascal ($Pa$)\n5. newton ($N$)",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten cuidado con diferenciar los términos de esfuerzo. El pascal y newton resuelven variables dinámicas, pero la transmisión total de energía busca las demás.",
+    "explanation": "A pesar de provenir de sistemas y reglas variadas, el ergio, el derivado comercial de consumo y su expresión en julio convergen midiendo lo mismo: la entrega energética final medible en una transición de trabajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KP",
+    "question": "Un investigador del CEPREDIX debe reportar la densidad de un nuevo material sólido empleando estrictamente unidades del Sistema Internacional. ¿Qué notación deberá utilizar en sus resultados?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{kg/m}^3$", "correct": true },
+      { "text": "$\\text{g/cm}^3$", "correct": false },
+      { "text": "$\\text{kg/L}$", "correct": false },
+      { "text": "$\\text{g/mL}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para este listado oficial no uses la terminología que prefiere escalar volúmenes con agua; necesitas buscar a las absolutas como masa completa y base de las dimensiones espaciales métricas.",
+    "explanation": "El esquema del SI obliga a estandarizar combinando masa (establecida en $kg$) agrupada frente al espectro natural de longitud cúbica básica ($m^3$), dejando únicamente validable presentar la densidad como $\\text{kg/m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
