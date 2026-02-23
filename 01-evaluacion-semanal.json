@@ -18093,5 +18093,365 @@
     "explanation": "El texto contiene 3 errores:\n1. Despues -> Después.\n2. discusion -> discusión.\n3. abrasaron -> abrazaron (de dar abrazos, abrasar con 's' es de fuego o calor).",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01ME",
+    "question": "En un triángulo oblicuángulo, se conocen los lados $b = 3 \\text{ m}$ y $c = 4 \\text{ m}$, y el ángulo comprendido entre ellos mide $A = 60^\\circ$. ¿Cuál es la longitud del lado $a$? (Considera $\\cos 60^\\circ = 0.5$).",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{13} \\text{ m}$", "correct": true },
+      { "text": "$5 \\text{ m}$", "correct": false },
+      { "text": "$\\sqrt{19} \\text{ m}$", "correct": false },
+      { "text": "$7 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda usar la fórmula que debes despejar: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$.",
+    "explanation": "Despejando y sustituyendo en la Ley de Cosenos: $a^2 = 3^2 + 4^2 - 2(3)(4)(0.5) = 9 + 16 - 12 = 13$. Por lo tanto, $a = \\sqrt{13} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MF",
+    "question": "En el triángulo $ABC$, el lado $a = 10 \\text{ cm}$, el ángulo $A = 30^\\circ$ y el ángulo $B = 45^\\circ$. ¿Cuál es la longitud del lado $b$? (Considera $\\sin 30^\\circ = 0.5$ y $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$).",
+    "image": null,
+    "options": [
+      { "text": "$5\\sqrt{2} \\text{ cm}$", "correct": false },
+      { "text": "$10\\sqrt{2} \\text{ cm}$", "correct": true },
+      { "text": "$20 \\text{ cm}$", "correct": false },
+      { "text": "$15 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para encontrar $b$, despeja a partir de la fórmula equivalente: $a = \\frac{b \\sin A}{\\sin B}$.",
+    "explanation": "Aplicando la Ley de Senos: $\\frac{b}{\\sin 45^\\circ} = \\frac{10}{\\sin 30^\\circ}$. Despejando obtenemos $b = \\frac{10 \\times \\frac{\\sqrt{2}}{2}}{0.5} = 10\\sqrt{2} \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MG",
+    "question": "Completa el siguiente enunciado sobre resolución de triángulos:\nLa ley de ______ se utiliza para resolver triángulos oblicuángulos cuando se conocen dos lados y el ángulo ______, o cuando se conocen los ______ lados.",
+    "image": null,
+    "options": [
+      { "text": "Cosenos, comprendido, tres", "correct": true },
+      { "text": "Senos, opuesto, dos", "correct": false },
+      { "text": "Cosenos, adyacente, dos", "correct": false },
+      { "text": "Senos, recto, tres", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en qué fórmula involucra los tres lados de manera simultánea en una sola ecuación sin divisiones.",
+    "explanation": "La Ley de Cosenos es aplicable directamente en los casos LAL (Lado-Ángulo-Lado, donde el ángulo es el comprendido) y LLL (Lado-Lado-Lado).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MH",
+    "question": "Relaciona los casos de resolución de triángulos oblicuángulos con la ley que debe aplicarse inicialmente para encontrar un valor faltante:\n\nI. Se conocen los tres lados (LLL)\nII. Se conocen dos ángulos y un lado (ALA)\nIII. Se conocen dos lados y el ángulo comprendido (LAL)\n\nA. Ley de Senos\nB. Ley de Cosenos",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-A", "correct": false },
+      { "text": "I-A, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-B", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para usar senos requieres forzosamente una pareja completa de lado y su ángulo opuesto.",
+    "explanation": "Los casos LLL y LAL requieren la Ley de Cosenos al no tener una pareja lado-ángulo opuesto. El caso ALA permite encontrar el tercer ángulo y usar la Ley de Senos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MI",
+    "question": "¿En cuáles de los siguientes casos es indispensable aplicar primero la Ley de Cosenos para resolver un triángulo oblicuángulo?\n\n1. Conocer tres lados (LLL).\n2. Conocer dos ángulos y un lado (ALA).\n3. Conocer dos lados y el ángulo comprendido entre ellos (LAL).\n4. Conocer dos lados y el ángulo opuesto a uno de ellos (LLA).",
+    "image": null,
+    "options": [
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 3", "correct": true },
+      { "text": "1 y 4", "correct": false },
+      { "text": "2 y 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La Ley de Cosenos salva la situación cuando no existe ninguna correspondencia conocida entre un lado y su ángulo opuesto.",
+    "explanation": "En LLL y LAL no hay forma directa de usar proporciones porque nos falta el ángulo opuesto a los lados conocidos, o nos faltan todos los ángulos. Se usa la Ley de Cosenos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MJ",
+    "question": "Un estudiante del CEPREDIX mide un terreno triangular para un proyecto. Conoce que dos linderos miden $50 \\text{ m}$ y $80 \\text{ m}$, y el ángulo que se forma entre ellos es de $60^\\circ$. ¿Cuánto mide el tercer lindero? (Considera $\\cos 60^\\circ = 0.5$).",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ m}$", "correct": false },
+      { "text": "$70 \\text{ m}$", "correct": true },
+      { "text": "$90 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes despejar el lado faltante $c$ sabiendo que: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$.",
+    "explanation": "Usamos la Ley de Cosenos: $c^2 = 50^2 + 80^2 - 2(50)(80)(0.5) = 2500 + 6400 - 4000 = 4900$. Al sacar raíz cuadrada, $c = 70 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MK",
+    "question": "En un triángulo $ABC$, las medidas de sus lados son $c = 14 \\text{ cm}$, $a = 10 \\text{ cm}$ y $b = 6 \\text{ cm}$. ¿Cuál es el valor de $\\cos C$?",
+    "image": null,
+    "options": [
+      { "text": "$-0.5$", "correct": true },
+      { "text": "$0.5$", "correct": false },
+      { "text": "$0.25$", "correct": false },
+      { "text": "$-0.25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la forma alterada de la fórmula: $c^2 = a^2 + b^2 - 2ab \\cos C$, y despeja $\\cos C$.",
+    "explanation": "Despejando: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab} = \\frac{100 + 36 - 196}{2(10)(6)} = \\frac{-60}{120} = -0.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ML",
+    "question": "Completa el siguiente postulado matemático:\nLa ley de ______ establece que en cualquier triángulo, las longitudes de los lados son directamente ______ a los senos de sus ángulos ______.",
+    "image": null,
+    "options": [
+      { "text": "Cosenos, equivalentes, adyacentes", "correct": false },
+      { "text": "Senos, inversos, agudos", "correct": false },
+      { "text": "Senos, proporcionales, opuestos", "correct": true },
+      { "text": "Cosenos, proporcionales, rectos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la forma de ecuación fraccionaria, donde cada lado se asocia con el ángulo que tiene enfrente.",
+    "explanation": "La Ley de Senos establece una relación de proporcionalidad directa: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$, vinculando cada lado con el seno de su ángulo opuesto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MM",
+    "question": "Relaciona los elementos de la fórmula trigonométrica $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$ con su descripción conceptual:\n\nI. $a, b$\nII. $A, B$\nIII. $\\sin$\n\nA. Ángulos interiores del triángulo\nB. Función trigonométrica\nC. Longitudes de los lados del triángulo",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En geometría, convencionalmente las letras minúsculas representan distancias y las mayúsculas representan aperturas.",
+    "explanation": "En la notación estándar para la resolución de triángulos, $a, b, c$ representan longitudes de lados, $A, B, C$ son ángulos interiores y el seno es la función matemática empleada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MN",
+    "question": "Identifica las fórmulas matemáticas que corresponden a diferentes variaciones de la Ley de Cosenos:\n\n1. $a^2 = b^2 + c^2 - 2bc \\cos A$\n2. $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$\n3. $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$\n4. $c^2 = a^2 + b^2$\n5. $b^2 = a^2 + c^2 - 2ac \\cos B$",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deben contener la función coseno y relacionar los tres lados del triángulo al mismo tiempo.",
+    "explanation": "Las fórmulas 1 y 5 son la forma directa para encontrar lados. La fórmula 3 es un despeje para encontrar el ángulo $B$. La 2 es Ley de Senos y la 4 es el Teorema de Pitágoras.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MO",
+    "question": "Determina la medida del ángulo $A$ si en un triángulo $ABC$ se sabe que el lado $a = 5 \\text{ m}$, el lado $b = 5\\sqrt{3} \\text{ m}$ y el ángulo $B = 120^\\circ$. (Considera $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$).",
+    "image": null,
+    "options": [
+      { "text": "$45^\\circ$", "correct": false },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$30^\\circ$", "correct": true },
+      { "text": "$15^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el ángulo $A$, debes despejar $\\sin A$ de la equivalencia: $a = \\frac{b \\sin A}{\\sin B}$.",
+    "explanation": "Sustituyendo: $\\frac{5}{\\sin A} = \\frac{5\\sqrt{3}}{\\frac{\\sqrt{3}}{2}} \\Rightarrow \\frac{5}{\\sin A} = 10 \\Rightarrow \\sin A = \\frac{5}{10} = 0.5$. El ángulo cuyo seno es $0.5$ es $30^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MP",
+    "question": "Un ingeniero del CEPREDIX desea construir un puente sobre un río. Desde un punto $C$ se observan los puntos $A$ y $B$ en orillas opuestas. Si la distancia $AC = 20 \\text{ m}$, $BC = 30 \\text{ m}$ y el ángulo de visión en $C$ es de $120^\\circ$, ¿cuál es la longitud calculada del puente $AB$? (Considera $\\cos 120^\\circ = -0.5$).",
+    "image": null,
+    "options": [
+      { "text": "$10\\sqrt{19} \\text{ m}$", "correct": true },
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$10\\sqrt{7} \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza un despeje a partir de: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$ para hallar el valor de $c^2$.",
+    "explanation": "Se aplica la Ley de Cosenos: $c^2 = 20^2 + 30^2 - 2(20)(30)(-0.5) = 400 + 900 + 600 = 1900$. Al obtener la raíz cuadrada se tiene $c = \\sqrt{1900} = 10\\sqrt{19} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MQ",
+    "question": "Completa el texto para definir la metodología analítica trigonométrica:\nPara aplicar la Ley de Senos y encontrar un lado desconocido, se requiere conocer la medida de un lado conocido, su ______ opuesto y el ______ opuesto al lado que se desea calcular.",
+    "image": null,
+    "options": [
+      { "text": "coseno, seno", "correct": false },
+      { "text": "cateto, vértice", "correct": false },
+      { "text": "ángulo, ángulo", "correct": true },
+      { "text": "vértice, radio", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que esta ley relaciona magnitudes lineales (lados) con magnitudes angulares mediante una función trigonométrica.",
+    "explanation": "El teorema requiere un par 'lado-ángulo' completamente conocido y el ángulo correspondiente al lado que se pretende buscar para poder plantear una regla de tres proporcional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MR",
+    "question": "Un profesor del CEPREDIX pide relacionar las funciones trigonométricas con sus valores exactos para agilizar el uso de las leyes de senos y cosenos sin calculadora. Relaciona correctamente:\n\nI. $\\sin 30^\\circ$\nII. $\\cos 60^\\circ$\nIII. $\\sin 45^\\circ$\n\nA. $0.5$\nB. $\\frac{\\sqrt{2}}{2}$\nC. $\\frac{\\sqrt{3}}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-A, III-B", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que en un triángulo rectángulo de 30-60-90, el seno del menor es igual al coseno del mayor.",
+    "explanation": "El $\\sin 30^\\circ$ y el $\\cos 60^\\circ$ son complementarios, por lo que ambos valen $0.5$. El $\\sin 45^\\circ$ es igual a $\\frac{\\sqrt{2}}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MS",
+    "question": "¿Cuáles de los siguientes conjuntos de datos permiten usar directamente la Ley de Senos para encontrar un elemento faltante en un triángulo?\n\n1. $a = 10 \\text{ cm}$, $b = 15 \\text{ cm}$, $c = 20 \\text{ cm}$\n2. $A = 40^\\circ$, $B = 60^\\circ$, $a = 12 \\text{ cm}$\n3. $a = 8 \\text{ m}$, $b = 10 \\text{ m}$, $C = 45^\\circ$\n4. $A = 30^\\circ$, $c = 14 \\text{ cm}$, $C = 50^\\circ$\n5. $a = 5 \\text{ m}$, $b = 5 \\text{ m}$, $c = 5 \\text{ m}$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": false },
+      { "text": "3 y 5", "correct": false },
+      { "text": "2 y 4", "correct": true },
+      { "text": "1 y 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Localiza los casos que proporcionen un 'par completo', es decir, una letra en minúscula y su idéntica en mayúscula (ejemplo: $c$ y $C$).",
+    "explanation": "El conjunto 2 da el ángulo $A$ y el lado $a$. El conjunto 4 da el ángulo $C$ y el lado $c$. Ambos permiten resolver por regla de tres de la Ley de Senos. Los otros casos requieren Cosenos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MT",
+    "question": "En un triángulo oblicuángulo, se conocen exclusivamente las longitudes de sus lados: $a = 7 \\text{ cm}$, $b = 8 \\text{ cm}$ y $c = 9 \\text{ cm}$. Si se desea calcular el ángulo $B$, ¿cuál es el valor exacto de $\\cos B$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{13}{21}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{11}{21}$", "correct": true },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la función requerida a partir de la expresión original: $b^2 = a^2 + c^2 - 2ac \\cos B$.",
+    "explanation": "Despejando $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{7^2 + 9^2 - 8^2}{2(7)(9)} = \\frac{49 + 81 - 64}{126} = \\frac{66}{126}$. Simplificando la fracción (dividiendo entre 6) da $\\frac{11}{21}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MU",
+    "question": "Calcula el perímetro de un triángulo isósceles si se sabe que sus lados iguales miden $10 \\text{ m}$ y el ángulo comprendido entre ellos es de $60^\\circ$. (Considera $\\cos 60^\\circ = 0.5$).",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ m}$", "correct": false },
+      { "text": "$30 \\text{ m}$", "correct": true },
+      { "text": "$20\\sqrt{2} \\text{ m}$", "correct": false },
+      { "text": "$40 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar el lado restante $c$, despeja de la fórmula: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$, luego suma los tres lados.",
+    "explanation": "Calculando el tercer lado: $c^2 = 10^2 + 10^2 - 2(10)(10)(0.5) = 100 + 100 - 100 = 100$. Así, $c = 10 \\text{ m}$. El triángulo es equilátero y su perímetro es $10+10+10 = 30 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MV",
+    "question": "Si en un triángulo $XYZ$, derivado de la Ley de Senos, se establece que $\\frac{x}{\\sin X} = 20 \\text{ cm}$ y se sabe que $\\sin Y = 0.25$, ¿cuál es la longitud precisa del lado $y$?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ cm}$", "correct": false },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$15 \\text{ cm}$", "correct": false },
+      { "text": "$5 \\text{ cm}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que deberás manipular la fórmula partiendo de: $\\sin Y = \\frac{y \\sin X}{x}$ para conseguir la variable $y$.",
+    "explanation": "La Ley de Senos indica que $\\frac{y}{\\sin Y} = \\frac{x}{\\sin X}$. Sustituyendo los datos conocidos: $\\frac{y}{0.25} = 20 \\text{ cm}$. Despejando, $y = 20 \\times 0.25 = 5 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MW",
+    "question": "Un arquitecto del CEPREDIX diseña un techo de dos aguas asimétrico. Una de las vigas mide $6 \\text{ m}$ y el ángulo interior opuesto a ella mide $45^\\circ$. Si la segunda viga tiene un ángulo opuesto de $30^\\circ$, ¿cuánto mide esta segunda viga? (Considera $\\sin 30^\\circ = 0.5$ y $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$).",
+    "image": null,
+    "options": [
+      { "text": "$3\\sqrt{2} \\text{ m}$", "correct": true },
+      { "text": "$6\\sqrt{2} \\text{ m}$", "correct": false },
+      { "text": "$2\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$3 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar el valor de la segunda viga $b$, modifica el postulado: $\\sin B = \\frac{b \\sin A}{a}$ aislando $b$.",
+    "explanation": "Aplicamos Ley de Senos: $\\frac{b}{\\sin 30^\\circ} = \\frac{6}{\\sin 45^\\circ}$. Despejando: $\\frac{b}{0.5} = \\frac{6}{\\frac{\\sqrt{2}}{2}} \\Rightarrow 2b = \\frac{12}{\\sqrt{2}} \\Rightarrow b = \\frac{6}{\\sqrt{2}} = 3\\sqrt{2} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MX",
+    "question": "En el triángulo $PQR$, se otorgan los datos siguientes: el lado $p = 4 \\text{ cm}$, el lado $q = 3 \\text{ cm}$ y el valor directo de $\\cos R = \\frac{1}{3}$. ¿Cuál es el valor del lado faltante $r$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{13} \\text{ cm}$", "correct": false },
+      { "text": "$5 \\text{ cm}$", "correct": false },
+      { "text": "$\\sqrt{17} \\text{ cm}$", "correct": true },
+      { "text": "$17 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja primeramente el cuadrado del lado $r$ teniendo como base: $\\cos R = \\frac{p^2 + q^2 - r^2}{2pq}$.",
+    "explanation": "Empleando la Ley de Cosenos: $r^2 = 4^2 + 3^2 - 2(4)(3)(\\frac{1}{3}) = 16 + 9 - 8 = 17$. Aplicando raíz, obtenemos $r = \\sqrt{17} \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
