@@ -18096,361 +18096,649 @@
   },
   {
     "id": "CEP01ME",
-    "question": "En un triángulo oblicuángulo, se conocen los lados $b = 3 \\text{ m}$ y $c = 4 \\text{ m}$, y el ángulo comprendido entre ellos mide $A = 60^\\circ$. ¿Cuál es la longitud del lado $a$? (Considera $\\cos 60^\\circ = 0.5$).",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nPara la receta necesitamos harina huevos y leche además hay que comprar mantequilla azúcar y vainilla.",
     "image": null,
     "options": [
-      { "text": "$\\sqrt{13} \\text{ m}$", "correct": true },
-      { "text": "$5 \\text{ m}$", "correct": false },
-      { "text": "$\\sqrt{19} \\text{ m}$", "correct": false },
-      { "text": "$7 \\text{ m}$", "correct": false }
+      { "text": "3 comas y 1 punto y coma", "correct": true },
+      { "text": "4 comas y 1 punto y coma", "correct": false },
+      { "text": "3 comas y 2 puntos y comas", "correct": false },
+      { "text": "2 comas y 2 puntos y comas", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda usar la fórmula que debes despejar: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$.",
-    "explanation": "Despejando y sustituyendo en la Ley de Cosenos: $a^2 = 3^2 + 4^2 - 2(3)(4)(0.5) = 9 + 16 - 12 = 13$. Por lo tanto, $a = \\sqrt{13} \\text{ m}$.",
+    "hint": "Recuerda separar los elementos de una enumeración con comas y usar punto y coma antes de conectores como 'además'.",
+    "explanation": "El texto correcto es: 'Para la receta necesitamos harina, huevos y leche; además, hay que comprar mantequilla, azúcar y vainilla.' Por lo tanto, faltan 3 comas y 1 punto y coma.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MF",
-    "question": "En el triángulo $ABC$, el lado $a = 10 \\text{ cm}$, el ángulo $A = 30^\\circ$ y el ángulo $B = 45^\\circ$. ¿Cuál es la longitud del lado $b$? (Considera $\\sin 30^\\circ = 0.5$ y $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$).",
+    "question": "Identifica los errores del siguiente texto:\n\nEl juez decidió asolber al acusado por falta de pruebas concluyentes en su contra la decisión fue unánime justa y definitiva.",
     "image": null,
     "options": [
-      { "text": "$5\\sqrt{2} \\text{ cm}$", "correct": false },
-      { "text": "$10\\sqrt{2} \\text{ cm}$", "correct": true },
-      { "text": "$20 \\text{ cm}$", "correct": false },
-      { "text": "$15 \\text{ cm}$", "correct": false }
+      { "text": "La palabra correcta es ABSOLVER y faltan dos comas y un punto y coma.", "correct": true },
+      { "text": "La palabra correcta es JUEZ y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es UNÁNIME y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es DECISIÓN y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para encontrar $b$, despeja a partir de la fórmula equivalente: $a = \\frac{b \\sin A}{\\sin B}$.",
-    "explanation": "Aplicando la Ley de Senos: $\\frac{b}{\\sin 45^\\circ} = \\frac{10}{\\sin 30^\\circ}$. Despejando obtenemos $b = \\frac{10 \\times \\frac{\\sqrt{2}}{2}}{0.5} = 10\\sqrt{2} \\text{ cm}$.",
+    "hint": "Esta palabra viene de raíces latinas y lleva una combinación específica de B y V. Además, separa oraciones independientes y elementos de una lista.",
+    "explanation": "El texto correcto es: 'El juez decidió absolver al acusado por falta de pruebas concluyentes en su contra; la decisión fue unánime, justa y definitiva.' El error es 'asolber' por ABSOLVER, y faltan un punto y coma y dos comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MG",
-    "question": "Completa el siguiente enunciado sobre resolución de triángulos:\nLa ley de ______ se utiliza para resolver triángulos oblicuángulos cuando se conocen dos lados y el ángulo ______, o cuando se conocen los ______ lados.",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nEn la biblioteca había silencio absoluto los estudiantes leían concentrados los bibliotecarios ordenaban libros y el reloj avanzaba lentamente.",
     "image": null,
     "options": [
-      { "text": "Cosenos, comprendido, tres", "correct": true },
-      { "text": "Senos, opuesto, dos", "correct": false },
-      { "text": "Cosenos, adyacente, dos", "correct": false },
-      { "text": "Senos, recto, tres", "correct": false }
+      { "text": "1 dos puntos y 2 comas", "correct": true },
+      { "text": "1 punto y coma y 3 comas", "correct": false },
+      { "text": "2 dos puntos y 1 coma", "correct": false },
+      { "text": "2 comas exclusivamente", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Piensa en qué fórmula involucra los tres lados de manera simultánea en una sola ecuación sin divisiones.",
-    "explanation": "La Ley de Cosenos es aplicable directamente en los casos LAL (Lado-Ángulo-Lado, donde el ángulo es el comprendido) y LLL (Lado-Lado-Lado).",
+    "hint": "Usa dos puntos para introducir una explicación o enumeración que detalla la primera cláusula, y comas para separar las acciones simultáneas.",
+    "explanation": "El texto correcto es: 'En la biblioteca había silencio absoluto: los estudiantes leían concentrados, los bibliotecarios ordenaban libros y el reloj avanzaba lentamente.' Faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MH",
-    "question": "Relaciona los casos de resolución de triángulos oblicuángulos con la ley que debe aplicarse inicialmente para encontrar un valor faltante:\n\nI. Se conocen los tres lados (LLL)\nII. Se conocen dos ángulos y un lado (ALA)\nIII. Se conocen dos lados y el ángulo comprendido (LAL)\n\nA. Ley de Senos\nB. Ley de Cosenos",
+    "question": "Identifica los errores del siguiente texto:\n\nSu actitud frente a la adbersidad fue admirable siempre mantuvo la calma apoyó a su familia y nunca perdió la esperanza.",
     "image": null,
     "options": [
-      { "text": "I-A, II-B, III-A", "correct": false },
-      { "text": "I-B, II-A, III-A", "correct": false },
-      { "text": "I-A, II-A, III-B", "correct": false },
-      { "text": "I-B, II-A, III-B", "correct": true }
+      { "text": "La palabra correcta es ADVERSIDAD y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es ACTITUD y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es FAMILIA y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es ADMIRABLE y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Para usar senos requieres forzosamente una pareja completa de lado y su ángulo opuesto.",
-    "explanation": "Los casos LLL y LAL requieren la Ley de Cosenos al no tener una pareja lado-ángulo opuesto. El caso ALA permite encontrar el tercer ángulo y usar la Ley de Senos.",
+    "hint": "Revisa el uso de D y V juntas. Piensa en el signo que explica por qué la actitud fue admirable.",
+    "explanation": "El texto correcto es: 'Su actitud frente a la adversidad fue admirable: siempre mantuvo la calma, apoyó a su familia y nunca perdió la esperanza.' La palabra es ADVERSIDAD y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MI",
-    "question": "¿En cuáles de los siguientes casos es indispensable aplicar primero la Ley de Cosenos para resolver un triángulo oblicuángulo?\n\n1. Conocer tres lados (LLL).\n2. Conocer dos ángulos y un lado (ALA).\n3. Conocer dos lados y el ángulo comprendido entre ellos (LAL).\n4. Conocer dos lados y el ángulo opuesto a uno de ellos (LLA).",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nLos colores primarios son tres rojo azul y amarillo son la base de todos los demás.",
     "image": null,
     "options": [
-      { "text": "2 y 4", "correct": false },
-      { "text": "1 y 3", "correct": true },
-      { "text": "1 y 4", "correct": false },
-      { "text": "2 y 3", "correct": false }
+      { "text": "1 dos puntos, 2 comas y 1 punto y coma", "correct": true },
+      { "text": "2 comas y 1 punto y coma", "correct": false },
+      { "text": "1 dos puntos y 2 comas", "correct": false },
+      { "text": "3 comas y 1 punto final", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La Ley de Cosenos salva la situación cuando no existe ninguna correspondencia conocida entre un lado y su ángulo opuesto.",
-    "explanation": "En LLL y LAL no hay forma directa de usar proporciones porque nos falta el ángulo opuesto a los lados conocidos, o nos faltan todos los ángulos. Se usa la Ley de Cosenos.",
+    "hint": "Al anunciar una enumeración se usan dos puntos. Al cambiar de idea relacionada dentro del mismo párrafo, se usa punto y coma.",
+    "explanation": "El texto correcto es: 'Los colores primarios son tres: rojo, azul y amarillo; son la base de todos los demás.' Faltan 1 dos puntos, 2 comas y 1 punto y coma.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MJ",
-    "question": "Un estudiante del CEPREDIX mide un terreno triangular para un proyecto. Conoce que dos linderos miden $50 \\text{ m}$ y $80 \\text{ m}$, y el ángulo que se forma entre ellos es de $60^\\circ$. ¿Cuánto mide el tercer lindero? (Considera $\\cos 60^\\circ = 0.5$).",
+    "question": "Identifica los errores del siguiente texto:\n\nDecidió alijerar la carga de su pesada mochila sacó los enormes libros dejó la computadora y guardó solo lo esencial.",
     "image": null,
     "options": [
-      { "text": "$60 \\text{ m}$", "correct": false },
-      { "text": "$70 \\text{ m}$", "correct": true },
-      { "text": "$90 \\text{ m}$", "correct": false },
-      { "text": "$100 \\text{ m}$", "correct": false }
+      { "text": "La palabra correcta es ALIGERAR y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es MOCHILA y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es ESENCIAL y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es COMPUTADORA y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Debes despejar el lado faltante $c$ sabiendo que: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$.",
-    "explanation": "Usamos la Ley de Cosenos: $c^2 = 50^2 + 80^2 - 2(50)(80)(0.5) = 2500 + 6400 - 4000 = 4900$. Al sacar raíz cuadrada, $c = 70 \\text{ m}$.",
+    "hint": "Los verbos terminados en -gerar o -ger suelen escribirse con G. Se necesita un signo que introduzca la explicación de la acción.",
+    "explanation": "El texto correcto es: 'Decidió aligerar la carga de su pesada mochila: sacó los enormes libros, dejó la computadora y guardó solo lo esencial.' Se escribe ALIGERAR y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MK",
-    "question": "En un triángulo $ABC$, las medidas de sus lados son $c = 14 \\text{ cm}$, $a = 10 \\text{ cm}$ y $b = 6 \\text{ cm}$. ¿Cuál es el valor de $\\cos C$?",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nSi quieres aprobar el examen debes estudiar repasar los apuntes y dormir bien.",
     "image": null,
     "options": [
-      { "text": "$-0.5$", "correct": true },
-      { "text": "$0.5$", "correct": false },
-      { "text": "$0.25$", "correct": false },
-      { "text": "$-0.25$", "correct": false }
+      { "text": "2 comas", "correct": true },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 coma y 1 punto y coma", "correct": false },
+      { "text": "1 dos puntos y 1 coma", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Considera la forma alterada de la fórmula: $c^2 = a^2 + b^2 - 2ab \\cos C$, y despeja $\\cos C$.",
-    "explanation": "Despejando: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab} = \\frac{100 + 36 - 196}{2(10)(6)} = \\frac{-60}{120} = -0.5$.",
+    "hint": "Después de una condición introducida por 'Si' al inicio de la oración, siempre va una pausa breve.",
+    "explanation": "El texto correcto es: 'Si quieres aprobar el examen, debes estudiar, repasar los apuntes y dormir bien.' Faltan 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01ML",
-    "question": "Completa el siguiente postulado matemático:\nLa ley de ______ establece que en cualquier triángulo, las longitudes de los lados son directamente ______ a los senos de sus ángulos ______.",
+    "question": "Identifica los errores del siguiente texto:\n\nLa escases de agua limpia es un problema global requiere acciones inmediatas políticas eficientes y conciencia ciudadana.",
     "image": null,
     "options": [
-      { "text": "Cosenos, equivalentes, adyacentes", "correct": false },
-      { "text": "Senos, inversos, agudos", "correct": false },
-      { "text": "Senos, proporcionales, opuestos", "correct": true },
-      { "text": "Cosenos, proporcionales, rectos", "correct": false }
+      { "text": "La palabra correcta es ESCASEZ y faltan un punto y coma y dos comas.", "correct": true },
+      { "text": "La palabra correcta es CIUDADANA y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es PROBLEMA y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es EFICIENTES y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Piensa en la forma de ecuación fraccionaria, donde cada lado se asocia con el ángulo que tiene enfrente.",
-    "explanation": "La Ley de Senos establece una relación de proporcionalidad directa: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$, vinculando cada lado con el seno de su ángulo opuesto.",
+    "hint": "Las palabras que denotan cualidad y terminan en sonido 'es' suelen escribirse con Z. Separa la idea principal de su consecuencia con una pausa mayor.",
+    "explanation": "El texto correcto es: 'La escasez de agua limpia es un problema global; requiere acciones inmediatas, políticas eficientes y conciencia ciudadana.' La ortografía correcta es ESCASEZ y faltan 1 punto y coma y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MM",
-    "question": "Relaciona los elementos de la fórmula trigonométrica $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$ con su descripción conceptual:\n\nI. $a, b$\nII. $A, B$\nIII. $\\sin$\n\nA. Ángulos interiores del triángulo\nB. Función trigonométrica\nC. Longitudes de los lados del triángulo",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nEstimado señor le escribo para solicitar información sobre el curso sus horarios los costos y el temario.",
     "image": null,
     "options": [
-      { "text": "I-A, II-C, III-B", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": true },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false }
+      { "text": "1 dos puntos y 3 comas", "correct": true },
+      { "text": "3 comas y 1 punto y coma", "correct": false },
+      { "text": "1 coma y 1 punto y coma", "correct": false },
+      { "text": "2 dos puntos y 1 coma", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "En geometría, convencionalmente las letras minúsculas representan distancias y las mayúsculas representan aperturas.",
-    "explanation": "En la notación estándar para la resolución de triángulos, $a, b, c$ representan longitudes de lados, $A, B, C$ son ángulos interiores y el seno es la función matemática empleada.",
+    "hint": "En los encabezados de las cartas se utiliza un signo específico de puntuación antes de iniciar el cuerpo del mensaje.",
+    "explanation": "El texto correcto es: 'Estimado señor: le escribo para solicitar información sobre el curso, sus horarios, los costos y el temario.' Faltan 1 dos puntos y 3 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MN",
-    "question": "Identifica las fórmulas matemáticas que corresponden a diferentes variaciones de la Ley de Cosenos:\n\n1. $a^2 = b^2 + c^2 - 2bc \\cos A$\n2. $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$\n3. $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$\n4. $c^2 = a^2 + b^2$\n5. $b^2 = a^2 + c^2 - 2ac \\cos B$",
+    "question": "Identifica los errores del siguiente texto:\n\nEl joven comenzó a aorrar gran parte de su salario eliminó gastos innecesarios canceló suscripciones y cocinó en casa.",
     "image": null,
     "options": [
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 3", "correct": false },
-      { "text": "3, 4, 5", "correct": false },
-      { "text": "1, 3, 5", "correct": true }
+      { "text": "La palabra correcta es AHORRAR y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es SALARIO y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es SUSCRIPCIONES y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es INNECESARIOS y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Deben contener la función coseno y relacionar los tres lados del triángulo al mismo tiempo.",
-    "explanation": "Las fórmulas 1 y 5 son la forma directa para encontrar lados. La fórmula 3 es un despeje para encontrar el ángulo $B$. La 2 es Ley de Senos y la 4 es el Teorema de Pitágoras.",
+    "hint": "La palabra requiere una letra muda en el medio. Piensa en cómo se introduce la lista de acciones que tomó el joven.",
+    "explanation": "El texto correcto es: 'El joven comenzó a ahorrar gran parte de su salario: eliminó gastos innecesarios, canceló suscripciones y cocinó en casa.' Se escribe AHORRAR y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MO",
-    "question": "Determina la medida del ángulo $A$ si en un triángulo $ABC$ se sabe que el lado $a = 5 \\text{ m}$, el lado $b = 5\\sqrt{3} \\text{ m}$ y el ángulo $B = 120^\\circ$. (Considera $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$).",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nLa reunión fue un éxito se llegaron a buenos acuerdos se definieron las metas y se asignaron los presupuestos.",
     "image": null,
     "options": [
-      { "text": "$45^\\circ$", "correct": false },
-      { "text": "$60^\\circ$", "correct": false },
-      { "text": "$30^\\circ$", "correct": true },
-      { "text": "$15^\\circ$", "correct": false }
+      { "text": "1 dos puntos y 2 comas", "correct": true },
+      { "text": "1 punto y coma y 3 comas", "correct": false },
+      { "text": "2 comas", "correct": false },
+      { "text": "1 punto y coma y 1 coma", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para obtener el ángulo $A$, debes despejar $\\sin A$ de la equivalencia: $a = \\frac{b \\sin A}{\\sin B}$.",
-    "explanation": "Sustituyendo: $\\frac{5}{\\sin A} = \\frac{5\\sqrt{3}}{\\frac{\\sqrt{3}}{2}} \\Rightarrow \\frac{5}{\\sin A} = 10 \\Rightarrow \\sin A = \\frac{5}{10} = 0.5$. El ángulo cuyo seno es $0.5$ es $30^\\circ$.",
+    "hint": "Se necesita un signo para introducir las razones por las que la reunión fue un éxito, y pausas breves para separarlas.",
+    "explanation": "El texto correcto es: 'La reunión fue un éxito: se llegaron a buenos acuerdos, se definieron las metas y se asignaron los presupuestos.' Faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MP",
-    "question": "Un ingeniero del CEPREDIX desea construir un puente sobre un río. Desde un punto $C$ se observan los puntos $A$ y $B$ en orillas opuestas. Si la distancia $AC = 20 \\text{ m}$, $BC = 30 \\text{ m}$ y el ángulo de visión en $C$ es de $120^\\circ$, ¿cuál es la longitud calculada del puente $AB$? (Considera $\\cos 120^\\circ = -0.5$).",
+    "question": "Identifica los errores del siguiente texto:\n\nTodos estaban listos para subir abordo del gran barco el capitán dio la orden los marineros soltaron amarras y el viaje comenzó.",
     "image": null,
     "options": [
-      { "text": "$10\\sqrt{19} \\text{ m}$", "correct": true },
-      { "text": "$50 \\text{ m}$", "correct": false },
-      { "text": "$10\\sqrt{7} \\text{ m}$", "correct": false },
-      { "text": "$100 \\text{ m}$", "correct": false }
+      { "text": "La palabra correcta es A BORDO y faltan un punto y coma y dos comas.", "correct": true },
+      { "text": "La palabra correcta es CAPITÁN y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es MARINEROS y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es VIAJE y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Utiliza un despeje a partir de: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$ para hallar el valor de $c^2$.",
-    "explanation": "Se aplica la Ley de Cosenos: $c^2 = 20^2 + 30^2 - 2(20)(30)(-0.5) = 400 + 900 + 600 = 1900$. Al obtener la raíz cuadrada se tiene $c = \\sqrt{1900} = 10\\sqrt{19} \\text{ m}$.",
+    "hint": "Recuerda que para referirse a estar dentro de una embarcación, la expresión se escribe separada.",
+    "explanation": "El texto correcto es: 'Todos estaban listos para subir a bordo del gran barco; el capitán dio la orden, los marineros soltaron amarras y el viaje comenzó.' La frase es A BORDO y faltan 1 punto y coma y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MQ",
-    "question": "Completa el texto para definir la metodología analítica trigonométrica:\nPara aplicar la Ley de Senos y encontrar un lado desconocido, se requiere conocer la medida de un lado conocido, su ______ opuesto y el ______ opuesto al lado que se desea calcular.",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nAyer llovió mucho hoy hace un sol espléndido mañana probablemente nevará.",
     "image": null,
     "options": [
-      { "text": "coseno, seno", "correct": false },
-      { "text": "cateto, vértice", "correct": false },
-      { "text": "ángulo, ángulo", "correct": true },
-      { "text": "vértice, radio", "correct": false }
+      { "text": "2 puntos y comas", "correct": true },
+      { "text": "2 comas", "correct": false },
+      { "text": "1 punto y coma y 1 coma", "correct": false },
+      { "text": "3 comas", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Considera que esta ley relaciona magnitudes lineales (lados) con magnitudes angulares mediante una función trigonométrica.",
-    "explanation": "El teorema requiere un par 'lado-ángulo' completamente conocido y el ángulo correspondiente al lado que se pretende buscar para poder plantear una regla de tres proporcional.",
+    "hint": "Son oraciones independientes pero estrechamente relacionadas por el sentido temporal. Requieren una pausa mayor que la coma.",
+    "explanation": "El texto correcto es: 'Ayer llovió mucho; hoy hace un sol espléndido; mañana probablemente nevará.' Faltan 2 puntos y comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MR",
-    "question": "Un profesor del CEPREDIX pide relacionar las funciones trigonométricas con sus valores exactos para agilizar el uso de las leyes de senos y cosenos sin calculadora. Relaciona correctamente:\n\nI. $\\sin 30^\\circ$\nII. $\\cos 60^\\circ$\nIII. $\\sin 45^\\circ$\n\nA. $0.5$\nB. $\\frac{\\sqrt{2}}{2}$\nC. $\\frac{\\sqrt{3}}{2}$",
+    "question": "Identifica los errores del siguiente texto:\n\nEl paisaje era muy basto y hermoso las enormes montañas se alzaban imponentes el río fluía cristalino y los árboles daban sombra.",
     "image": null,
     "options": [
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-A, II-A, III-B", "correct": true },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-A, II-C, III-B", "correct": false }
+      { "text": "La palabra correcta es VASTO y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es PAISAJE y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es IMPONENTES y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es CRISTALINO y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que en un triángulo rectángulo de 30-60-90, el seno del menor es igual al coseno del mayor.",
-    "explanation": "El $\\sin 30^\\circ$ y el $\\cos 60^\\circ$ son complementarios, por lo que ambos valen $0.5$. El $\\sin 45^\\circ$ es igual a $\\frac{\\sqrt{2}}{2}$.",
+    "hint": "Para expresar que algo es extenso o amplio, se usa V. Basto con B significa grosero.",
+    "explanation": "El texto correcto es: 'El paisaje era muy vasto y hermoso: las enormes montañas se alzaban imponentes, el río fluía cristalino y los árboles daban sombra.' Se escribe VASTO y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MS",
-    "question": "¿Cuáles de los siguientes conjuntos de datos permiten usar directamente la Ley de Senos para encontrar un elemento faltante en un triángulo?\n\n1. $a = 10 \\text{ cm}$, $b = 15 \\text{ cm}$, $c = 20 \\text{ cm}$\n2. $A = 40^\\circ$, $B = 60^\\circ$, $a = 12 \\text{ cm}$\n3. $a = 8 \\text{ m}$, $b = 10 \\text{ m}$, $C = 45^\\circ$\n4. $A = 30^\\circ$, $c = 14 \\text{ cm}$, $C = 50^\\circ$\n5. $a = 5 \\text{ m}$, $b = 5 \\text{ m}$, $c = 5 \\text{ m}$",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nAl concierto acudieron jóvenes adultos mujeres y ancianos todos disfrutaron de la magnífica presentación.",
     "image": null,
     "options": [
-      { "text": "1 y 3", "correct": false },
-      { "text": "3 y 5", "correct": false },
-      { "text": "2 y 4", "correct": true },
-      { "text": "1 y 5", "correct": false }
+      { "text": "2 comas y 1 punto y coma", "correct": true },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 dos puntos y 2 comas", "correct": false },
+      { "text": "1 coma y 1 punto y coma", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Localiza los casos que proporcionen un 'par completo', es decir, una letra en minúscula y su idéntica en mayúscula (ejemplo: $c$ y $C$).",
-    "explanation": "El conjunto 2 da el ángulo $A$ y el lado $a$. El conjunto 4 da el ángulo $C$ y el lado $c$. Ambos permiten resolver por regla de tres de la Ley de Senos. Los otros casos requieren Cosenos.",
+    "hint": "Hay una pequeña enumeración y luego un cambio de idea que consolida la oración previa.",
+    "explanation": "El texto correcto es: 'Al concierto acudieron jóvenes, adultos, mujeres y ancianos; todos disfrutaron de la magnífica presentación.' Faltan 2 comas y 1 punto y coma.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MT",
-    "question": "En un triángulo oblicuángulo, se conocen exclusivamente las longitudes de sus lados: $a = 7 \\text{ cm}$, $b = 8 \\text{ cm}$ y $c = 9 \\text{ cm}$. Si se desea calcular el ángulo $B$, ¿cuál es el valor exacto de $\\cos B$?",
+    "question": "Identifica los errores del siguiente texto:\n\nEl chef recomendó agregar verengena al guiso la verdura le aporta un sabor único una textura suave y mucha nutrición.",
     "image": null,
     "options": [
-      { "text": "$\\frac{13}{21}$", "correct": false },
-      { "text": "$\\frac{1}{2}$", "correct": false },
-      { "text": "$\\frac{11}{21}$", "correct": true },
-      { "text": "$\\frac{2}{3}$", "correct": false }
+      { "text": "La palabra correcta es BERENJENA y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es VERDURA y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es NUTRICIÓN y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es TEXTURA y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Obtén la función requerida a partir de la expresión original: $b^2 = a^2 + c^2 - 2ac \\cos B$.",
-    "explanation": "Despejando $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{7^2 + 9^2 - 8^2}{2(7)(9)} = \\frac{49 + 81 - 64}{126} = \\frac{66}{126}$. Simplificando la fracción (dividiendo entre 6) da $\\frac{11}{21}$.",
+    "hint": "Esta hortaliza se escribe con B y usa la letra J antes de la E final.",
+    "explanation": "El texto correcto es: 'El chef recomendó agregar berenjena al guiso: la verdura le aporta un sabor único, una textura suave y mucha nutrición.' La ortografía correcta es BERENJENA y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MU",
-    "question": "Calcula el perímetro de un triángulo isósceles si se sabe que sus lados iguales miden $10 \\text{ m}$ y el ángulo comprendido entre ellos es de $60^\\circ$. (Considera $\\cos 60^\\circ = 0.5$).",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nAcudieron al evento el alcalde de la ciudad el gobernador del estado el presidente del colegio de arquitectos y el director del museo.",
     "image": null,
     "options": [
-      { "text": "$25 \\text{ m}$", "correct": false },
-      { "text": "$30 \\text{ m}$", "correct": true },
-      { "text": "$20\\sqrt{2} \\text{ m}$", "correct": false },
-      { "text": "$40 \\text{ m}$", "correct": false }
+      { "text": "1 dos puntos y 2 comas", "correct": true },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 punto y coma y 2 comas", "correct": false },
+      { "text": "1 dos puntos y 1 coma", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Para hallar el lado restante $c$, despeja de la fórmula: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$, luego suma los tres lados.",
-    "explanation": "Calculando el tercer lado: $c^2 = 10^2 + 10^2 - 2(10)(10)(0.5) = 100 + 100 - 100 = 100$. Así, $c = 10 \\text{ m}$. El triángulo es equilátero y su perímetro es $10+10+10 = 30 \\text{ m}$.",
+    "hint": "Se anuncia una lista de asistentes, lo que requiere un signo de anticipación.",
+    "explanation": "El texto correcto es: 'Acudieron al evento: el alcalde de la ciudad, el gobernador del estado, el presidente del colegio de arquitectos y el director del museo.' Faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MV",
-    "question": "Si en un triángulo $XYZ$, derivado de la Ley de Senos, se establece que $\\frac{x}{\\sin X} = 20 \\text{ cm}$ y se sabe que $\\sin Y = 0.25$, ¿cuál es la longitud precisa del lado $y$?",
+    "question": "Identifica los errores del siguiente texto:\n\nEs fundamental tomar la decición correcta hoy analiza bien tus opciones consulta a un experto y confía en tu intuición.",
     "image": null,
     "options": [
-      { "text": "$80 \\text{ cm}$", "correct": false },
-      { "text": "$10 \\text{ cm}$", "correct": false },
-      { "text": "$15 \\text{ cm}$", "correct": false },
-      { "text": "$5 \\text{ cm}$", "correct": true }
+      { "text": "La palabra correcta es DECISIÓN y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es OPCIONES y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es EXPERTO y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es INTUICIÓN y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que deberás manipular la fórmula partiendo de: $\\sin Y = \\frac{y \\sin X}{x}$ para conseguir la variable $y$.",
-    "explanation": "La Ley de Senos indica que $\\frac{y}{\\sin Y} = \\frac{x}{\\sin X}$. Sustituyendo los datos conocidos: $\\frac{y}{0.25} = 20 \\text{ cm}$. Despejando, $y = 20 \\times 0.25 = 5 \\text{ cm}$.",
+    "hint": "Se escribe con S debido a que deriva de verbos terminados en -dir (decidir).",
+    "explanation": "El texto correcto es: 'Es fundamental tomar la decisión correcta hoy: analiza bien tus opciones, consulta a un experto y confía en tu intuición.' Se escribe DECISIÓN y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MW",
-    "question": "Un arquitecto del CEPREDIX diseña un techo de dos aguas asimétrico. Una de las vigas mide $6 \\text{ m}$ y el ángulo interior opuesto a ella mide $45^\\circ$. Si la segunda viga tiene un ángulo opuesto de $30^\\circ$, ¿cuánto mide esta segunda viga? (Considera $\\sin 30^\\circ = 0.5$ y $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$).",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nHabía libros sobre la mesa cuadernos en el suelo plumas esparcidas y mochilas abiertas era un caos total.",
     "image": null,
     "options": [
-      { "text": "$3\\sqrt{2} \\text{ m}$", "correct": true },
-      { "text": "$6\\sqrt{2} \\text{ m}$", "correct": false },
-      { "text": "$2\\sqrt{3} \\text{ m}$", "correct": false },
-      { "text": "$3 \\text{ m}$", "correct": false }
+      { "text": "3 comas y 1 punto y coma", "correct": true },
+      { "text": "4 comas y 1 punto final", "correct": false },
+      { "text": "2 comas y 2 puntos y comas", "correct": false },
+      { "text": "3 comas y 1 dos puntos", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para hallar el valor de la segunda viga $b$, modifica el postulado: $\\sin B = \\frac{b \\sin A}{a}$ aislando $b$.",
-    "explanation": "Aplicamos Ley de Senos: $\\frac{b}{\\sin 30^\\circ} = \\frac{6}{\\sin 45^\\circ}$. Despejando: $\\frac{b}{0.5} = \\frac{6}{\\frac{\\sqrt{2}}{2}} \\Rightarrow 2b = \\frac{12}{\\sqrt{2}} \\Rightarrow b = \\frac{6}{\\sqrt{2}} = 3\\sqrt{2} \\text{ m}$.",
+    "hint": "Separa los elementos de la escena con comas, y antes de resumir todo como 'un caos', utiliza un punto y coma.",
+    "explanation": "El texto correcto es: 'Había libros sobre la mesa, cuadernos en el suelo, plumas esparcidas y mochilas abiertas; era un caos total.' Faltan 3 comas y 1 punto y coma.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01MX",
-    "question": "En el triángulo $PQR$, se otorgan los datos siguientes: el lado $p = 4 \\text{ cm}$, el lado $q = 3 \\text{ cm}$ y el valor directo de $\\cos R = \\frac{1}{3}$. ¿Cuál es el valor del lado faltante $r$?",
+    "question": "Identifica los errores del siguiente texto:\n\nSiempre tuvo el anelo de viajar por el continente conocer nuevas culturas probar distintos platillos y hacer grandes amigos.",
     "image": null,
     "options": [
-      { "text": "$\\sqrt{13} \\text{ cm}$", "correct": false },
-      { "text": "$5 \\text{ cm}$", "correct": false },
-      { "text": "$\\sqrt{17} \\text{ cm}$", "correct": true },
-      { "text": "$17 \\text{ cm}$", "correct": false }
+      { "text": "La palabra correcta es ANHELO y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es CONTINENTE y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es CULTURAS y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es PLATILLOS y faltan dos puntos y comas.", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El deseo intenso lleva una H intermedia. Fíjate en cómo se detallan las actividades del viaje.",
+    "explanation": "El texto correcto es: 'Siempre tuvo el anhelo de viajar por el continente: conocer nuevas culturas, probar distintos platillos y hacer grandes amigos.' Se escribe ANHELO y faltan 1 dos puntos y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MY",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nNaturalmente los alumnos estaban muy cansados habían estudiado toda la noche presentado tres exámenes y realizado un extenso ensayo.",
+    "image": null,
+    "options": [
+      { "text": "2 comas y 1 dos puntos", "correct": true },
+      { "text": "3 comas y 1 punto y coma", "correct": false },
+      { "text": "1 coma y 2 dos puntos", "correct": false },
+      { "text": "3 comas exclusivamente", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa coma tras adverbios como 'naturalmente'. Luego explica las razones con dos puntos.",
+    "explanation": "El texto correcto es: 'Naturalmente, los alumnos estaban muy cansados: habían estudiado toda la noche, presentado tres exámenes y realizado un extenso ensayo.' Faltan 2 comas y 1 dos puntos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MZ",
+    "question": "Identifica los errores del siguiente texto:\n\nEl niño no entendía el por que de tantas reglas extrañas preguntó a sus padres buscó en libros y al final lo comprendió.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es PORQUÉ y faltan un punto y coma y dos comas.", "correct": true },
+      { "text": "La palabra correcta es REGLAS y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es PADRES y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es LIBROS y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando actúa como sustantivo (sinónimo de causa o motivo), se escribe junto y con tilde.",
+    "explanation": "El texto correcto es: 'El niño no entendía el porqué de tantas reglas extrañas; preguntó a sus padres, buscó en libros y al final lo comprendió.' Se escribe PORQUÉ y faltan 1 punto y coma y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NA",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nFuimos de vacaciones a Madrid España París Francia y Roma Italia fue un viaje inolvidable.",
+    "image": null,
+    "options": [
+      { "text": "3 comas, 2 puntos y comas y 1 dos puntos", "correct": true },
+      { "text": "4 comas y 2 puntos y comas", "correct": false },
+      { "text": "3 comas y 3 puntos y comas", "correct": false },
+      { "text": "2 comas y 1 punto y coma", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al haber comas internas (ciudad, país), debes separar cada destino con punto y coma, y resumir con dos puntos.",
+    "explanation": "El texto correcto es: 'Fuimos de vacaciones a Madrid, España; París, Francia, y Roma, Italia: fue un viaje inolvidable.' Faltan 3 comas, 2 puntos y comas y 1 dos puntos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NB",
+    "question": "Identifica los errores del siguiente texto:\n\nEl director decidió exivir las obras de arte en la galería principal invitó a críticos de arte grandes coleccionistas y público general.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es EXHIBIR y faltan un punto y coma y dos comas.", "correct": true },
+      { "text": "La palabra correcta es DIRECTOR y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es GALERÍA y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es COLECCIONISTAS y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Despeja primeramente el cuadrado del lado $r$ teniendo como base: $\\cos R = \\frac{p^2 + q^2 - r^2}{2pq}$.",
-    "explanation": "Empleando la Ley de Cosenos: $r^2 = 4^2 + 3^2 - 2(4)(3)(\\frac{1}{3}) = 16 + 9 - 8 = 17$. Aplicando raíz, obtenemos $r = \\sqrt{17} \\text{ cm}$.",
+    "hint": "Mostrar en público se escribe con H intermedia y terminación -bir.",
+    "explanation": "El texto correcto es: 'El director decidió exhibir las obras de arte en la galería principal; invitó a críticos de arte, grandes coleccionistas y público general.' Se escribe EXHIBIR y faltan 1 punto y coma y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NC",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nPara prepararse para el maratón el atleta entrenó todos los días se alimentó sanamente y descansó lo suficiente.",
+    "image": null,
+    "options": [
+      { "text": "2 comas", "correct": true },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 punto y coma y 1 coma", "correct": false },
+      { "text": "1 dos puntos y 1 coma", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se necesita una coma para delimitar el complemento circunstancial de finalidad que abre la frase, y otra para la enumeración.",
+    "explanation": "El texto correcto es: 'Para prepararse para el maratón, el atleta entrenó todos los días, se alimentó sanamente y descansó lo suficiente.' Faltan 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ND",
+    "question": "Identifica los errores del siguiente texto:\n\nEl indijente recibió mucha ayuda del comedor comunitario le dieron rica sopa caliente pan recién horneado y agua limpia.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es INDIGENTE y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es COMUNITARIO y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es CALIENTE y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es HORNEADO y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra para referirse a alguien que carece de medios para alimentarse se escribe con G.",
+    "explanation": "El texto correcto es: 'El indigente recibió mucha ayuda del comedor comunitario: le dieron rica sopa caliente, pan recién horneado y agua limpia.' Se escribe INDIGENTE y faltan 1 dos puntos y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NE",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nNo me gusta tomar té prefiero el café amargo además me mantiene despierto concentrado y siempre alerta.",
+    "image": null,
+    "options": [
+      { "text": "4 comas y 1 punto y coma", "correct": true },
+      { "text": "3 comas y 1 punto y coma", "correct": false },
+      { "text": "2 comas y 2 puntos y comas", "correct": false },
+      { "text": "4 comas y 1 dos puntos", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Separa las dos oraciones principales con punto y coma y utiliza comas antes de 'además' y para la enumeración de adjetivos.",
+    "explanation": "El texto correcto es: 'No me gusta tomar té, prefiero el café amargo; además, me mantiene despierto, concentrado y siempre alerta.' Faltan 4 comas y 1 punto y coma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NF",
+    "question": "Identifica los errores del siguiente texto:\n\nFue un sucezo verdaderamente inolvidable para todos los presentes la orquesta tocó maravillosamente el coro cantó con pasión y el público aplaudió.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es SUCESO y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es INOLVIDABLE y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es ORQUESTA y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es PÚBLICO y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las palabras derivadas del latín 'successus' mantienen la escritura con doble S en sílabas distintas.",
+    "explanation": "El texto correcto es: 'Fue un suceso verdaderamente inolvidable para todos los presentes: la orquesta tocó maravillosamente, el coro cantó con pasión y el público aplaudió.' Se escribe SUCESO y faltan 1 dos puntos y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NG",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nTodo salió mal aquella mañana el despertador no sonó el agua se cortó el coche no arrancó y perdí el tren.",
+    "image": null,
+    "options": [
+      { "text": "1 dos puntos y 3 comas", "correct": true },
+      { "text": "2 comas y 1 punto y coma", "correct": false },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 punto y coma y 2 comas", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al anunciar una justificación detallada de un hecho global se usan dos puntos.",
+    "explanation": "El texto correcto es: 'Todo salió mal aquella mañana: el despertador no sonó, el agua se cortó, el coche no arrancó y perdí el tren.' Faltan 1 dos puntos y 3 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NH",
+    "question": "Identifica los errores del siguiente texto:\n\nEl doctor no tuvo más remedio que desauciar al paciente debido a su estado tan crítico la familia lloró desconsolada pero aceptó la triste realidad.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es DESAHUCIAR y faltan un punto y coma y una coma.", "correct": true },
+      { "text": "La palabra correcta es REMEDIO y faltan dos comas.", "correct": false },
+      { "text": "La palabra correcta es PACIENTE y falta un dos puntos y una coma.", "correct": false },
+      { "text": "La palabra correcta es FAMILIA y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta palabra que significa declarar a un enfermo sin esperanza requiere una letra muda intercalada.",
+    "explanation": "El texto correcto es: 'El doctor no tuvo más remedio que desahuciar al paciente debido a su estado tan crítico; la familia lloró desconsolada, pero aceptó la triste realidad.' Se escribe DESAHUCIAR y faltan 1 punto y coma y 1 coma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NI",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nParís la gran capital de Francia es conocida como la Ciudad de la Luz recibe millones de turistas y alberga museos increíbles.",
+    "image": null,
+    "options": [
+      { "text": "2 comas y 1 punto y coma", "correct": true },
+      { "text": "3 comas", "correct": false },
+      { "text": "1 dos puntos y 2 comas", "correct": false },
+      { "text": "1 coma y 2 puntos y comas", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El inciso o aclaración debe ir entre comas. Luego, se debe usar un signo mayor para agregar más información vinculada.",
+    "explanation": "El texto correcto es: 'París, la gran capital de Francia, es conocida como la Ciudad de la Luz; recibe millones de turistas y alberga museos increíbles.' Faltan 2 comas y 1 punto y coma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NJ",
+    "question": "Identifica los errores del siguiente texto:\n\nEstuvo trabajando sin descanso hasta el medio dia en ese enorme proyecto redactó el informe revisó los cálculos y envió los correos correspondientes.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es MEDIODÍA y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es DESCANSO y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es PROYECTO y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es INFORME y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si se refiere a las 12:00 h, es una sola palabra con tilde.",
+    "explanation": "El texto correcto es: 'Estuvo trabajando sin descanso hasta el mediodía en ese enorme proyecto: redactó el informe, revisó los cálculos y envió los correos correspondientes.' Se escribe MEDIODÍA y faltan 1 dos puntos y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NK",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nEntrenó arduamente durante muchos meses sin embargo no logró calificar para la competencia final.",
+    "image": null,
+    "options": [
+      { "text": "1 punto y coma y 1 coma", "correct": true },
+      { "text": "2 comas", "correct": false },
+      { "text": "2 puntos y comas", "correct": false },
+      { "text": "1 dos puntos y 1 coma", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ante los conectores adversativos extensos como 'sin embargo' que dividen dos bloques de información, se utiliza punto y coma antes y coma después.",
+    "explanation": "El texto correcto es: 'Entrenó arduamente durante muchos meses; sin embargo, no logró calificar para la competencia final.' Faltan 1 punto y coma y 1 coma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NL",
+    "question": "Identifica los errores del siguiente texto:\n\nEs hobvio que necesita mucho más tiempo para prepararse no estudió lo suficiente faltó a varias clases y no entregó las tareas asignadas.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es OBVIO y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es TIEMPO y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es SUFICIENTE y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es TAREAS y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que esta palabra se escribe sin H y cumple la regla de 'b' antes de 'v'.",
+    "explanation": "El texto correcto es: 'Es obvio que necesita mucho más tiempo para prepararse: no estudió lo suficiente, faltó a varias clases y no entregó las tareas asignadas.' Se escribe OBVIO y faltan 1 dos puntos y 2 comas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NM",
+    "question": "¿Cuántos signos de puntuación faltan en el siguiente texto?\n\nLas tres ciudades más pobladas del país son las siguientes Ciudad de México Monterrey Puebla y Guadalajara todas tienen un gran desarrollo económico.",
+    "image": null,
+    "options": [
+      { "text": "1 dos puntos, 2 comas y 1 punto y coma", "correct": true },
+      { "text": "2 comas y 1 punto y coma", "correct": false },
+      { "text": "2 dos puntos y 1 coma", "correct": false },
+      { "text": "3 comas y 1 punto final", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La frase 'son las siguientes' exige dos puntos. Luego de la lista, un cambio de idea requiere un punto y coma.",
+    "explanation": "El texto correcto es: 'Las tres ciudades más pobladas del país son las siguientes: Ciudad de México, Monterrey, Puebla y Guadalajara; todas tienen un gran desarrollo económico.' Faltan 1 dos puntos, 2 comas y 1 punto y coma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NN",
+    "question": "Identifica los errores del siguiente texto:\n\nActuó con gran idiocincrasia propia de su milenaria cultura preparó la ceremonia con cuidado invitó a sus ancestros y ofreció los regalos.",
+    "image": null,
+    "options": [
+      { "text": "La palabra correcta es IDIOSINCRASIA y faltan un dos puntos y dos comas.", "correct": true },
+      { "text": "La palabra correcta es MILENARIA y faltan tres comas.", "correct": false },
+      { "text": "La palabra correcta es CUIDADO y falta un punto y coma y una coma.", "correct": false },
+      { "text": "La palabra correcta es ANCESTROS y faltan dos puntos y comas.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta palabra es muy propensa a escribirse mal por seseo. Se escribe siempre con S en su sufijo.",
+    "explanation": "El texto correcto es: 'Actuó con gran idiosincrasia propia de su milenaria cultura: preparó la ceremonia con cuidado, invitó a sus ancestros y ofreció los regalos.' La palabra correcta es IDIOSINCRASIA y faltan 1 dos puntos y 2 comas.",
     "explanative_video": null,
     "collapsible_text": null
   }
