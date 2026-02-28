@@ -19389,5 +19389,653 @@
     "explanation": "$\\sin B = \\frac{14 \\cdot 0.5}{7} = \\frac{7}{7} = 1$. El ángulo cuyo seno vale uno entero es $90^\\circ$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01OY",
+    "question": "¿Cuál de las siguientes expresiones corresponde a la identidad trigonométrica pitagórica fundamental?",
+    "image": null,
+    "options": [
+      { "text": "$\\sin^2 x + \\cos^2 x = 1$", "correct": true },
+      { "text": "$\\tan^2 x + 1 = \\csc^2 x$", "correct": false },
+      { "text": "$\\sin x + \\cos x = 1$", "correct": false },
+      { "text": "$\\sec^2 x - \\tan^2 x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la relación que proviene del Teorema de Pitágoras aplicado en el círculo unitario.",
+    "explanation": "La identidad fundamental es $\\sin^2 x + \\cos^2 x = 1$, la cual es válida para cualquier ángulo $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OZ",
+    "question": "Identifica cuáles de las siguientes expresiones son identidades trigonométricas válidas:\n1. $\\sin(2x) = 2 \\sin x \\cos x$\n2. $\\cos(2x) = \\cos^2 x - \\sin^2 x$\n3. $\\tan x = \\frac{\\cos x}{\\sin x}$\n4. $\\sec^2 x = 1 + \\tan^2 x$\n5. $\\csc x = \\frac{1}{\\cos x}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa cuidadosamente las identidades de cociente y recíprocas. La tangente y cosecante tienen definiciones precisas que no debes confundir.",
+    "explanation": "La opción 3 es falsa porque $\\tan x = \\frac{\\sin x}{\\cos x}$ y la 5 es falsa porque $\\csc x = \\frac{1}{\\sin x}$. Las afirmaciones 1, 2 y 4 son correctas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PA",
+    "question": "La identidad recíproca de la función ______ es la secante, lo que se expresa matemáticamente como $\\sec \\theta = \\frac{1}{\\text{______}}$.",
+    "image": null,
+    "options": [
+      { "text": "coseno, $\\cos \\theta$", "correct": true },
+      { "text": "seno, $\\sin \\theta$", "correct": false },
+      { "text": "tangente, $\\tan \\theta$", "correct": false },
+      { "text": "cosecante, $\\csc \\theta$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la función secante y la función coseno son funciones recíprocas o inversas multiplicativas entre sí.",
+    "explanation": "Por definición en el círculo unitario o en el triángulo rectángulo, $\\sec \\theta = \\frac{1}{\\cos \\theta}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PB",
+    "question": "Relaciona la función trigonométrica con su respectiva identidad de ángulo doble:\n\nI. $\\sin(2\\theta)$\nII. $\\cos(2\\theta)$\nIII. $\\tan(2\\theta)$\n\nA. $\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$\nB. $2\\sin\\theta\\cos\\theta$\nC. $\\cos^2\\theta-\\sin^2\\theta$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que el seno del ángulo doble es un producto cruzado, mientras que el coseno del ángulo doble se asemeja a una diferencia de cuadrados.",
+    "explanation": "Usando las fórmulas de suma de ángulos donde $\\alpha = \\beta$, obtenemos las fórmulas correctas para el ángulo doble: $\\sin(2\\theta)=2\\sin\\theta\\cos\\theta$, $\\cos(2\\theta)=\\cos^2\\theta-\\sin^2\\theta$ y $\\tan(2\\theta)=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PC",
+    "question": "Simplifica la siguiente expresión trigonométrica: $\\frac{1 - \\sin^2 \\theta}{\\csc^2 \\theta - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\sin^2 \\theta$", "correct": true },
+      { "text": "$\\cos^2 \\theta$", "correct": false },
+      { "text": "$\\tan^2 \\theta$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la identidad pitagórica en el numerador ($1 - \\sin^2 \\theta = \\cos^2 \\theta$) y en el denominador ($\\csc^2 \\theta - 1 = \\cot^2 \\theta$). Luego aplica división de fracciones.",
+    "explanation": "Sustituyendo las identidades, obtenemos $\\frac{\\cos^2 \\theta}{\\cot^2 \\theta}$. Al saber que $\\cot^2 \\theta = \\frac{\\cos^2 \\theta}{\\sin^2 \\theta}$, dividimos: $\\cos^2 \\theta \\cdot \\frac{\\sin^2 \\theta}{\\cos^2 \\theta} = \\sin^2 \\theta$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PD",
+    "question": "¿A qué es igual la expresión $\\tan x \\cdot \\cot x$?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\sin x$", "correct": false },
+      { "text": "$\\cos x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que estas son funciones recíprocas. Multiplicar cualquier número por su inverso siempre da como resultado la unidad.",
+    "explanation": "Como $\\cot x = \\frac{1}{\\tan x}$, entonces multiplicarlas es equivalente a $\\tan x \\cdot \\left(\\frac{1}{\\tan x}\\right) = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PE",
+    "question": "Selecciona las expresiones que son equivalentes a $\\cos(2x)$:\n1. $\\cos^2 x - \\sin^2 x$\n2. $1 - 2\\sin^2 x$\n3. $2\\cos^2 x - 1$\n4. $1 + 2\\sin^2 x$\n5. $2\\sin x \\cos x$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Partiendo de la identidad $\\cos^2 x - \\sin^2 x$, puedes usar la identidad pitagórica para reemplazar el seno o el coseno y obtener dos formas equivalentes adicionales.",
+    "explanation": "Las tres primeras opciones son las tres formas clásicas de representar el coseno del ángulo doble. La 4 es incorrecta por el signo, y la 5 corresponde al seno del ángulo doble.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PF",
+    "question": "Para simplificar la expresión $\\sin x \\cdot \\sec x$, se sustituye la secante por su identidad recíproca ______, obteniendo como resultado final la función ______.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{\\cos x}$, $\\tan x$", "correct": true },
+      { "text": "$\\frac{1}{\\sin x}$, $\\cot x$", "correct": false },
+      { "text": "$\\frac{1}{\\tan x}$, $\\cos x$", "correct": false },
+      { "text": "$\\cos x$, $\\csc x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa la secante en términos de senos o cosenos, y después utiliza una identidad de cociente.",
+    "explanation": "Sustituyendo tenemos $\\sin x \\cdot \\sec x = \\sin x \\cdot \\frac{1}{\\cos x} = \\frac{\\sin x}{\\cos x}$, lo cual es por definición igual a $\\tan x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PG",
+    "question": "Relaciona la identidad trigonométrica con su equivalente correcto en términos de seno y coseno:\n\nI. $\\tan \\alpha$\nII. $\\csc \\alpha$\nIII. $\\cot \\alpha$\n\nA. $\\frac{1}{\\sin \\alpha}$\nB. $\\frac{\\cos \\alpha}{\\sin \\alpha}$\nC. $\\frac{\\sin \\alpha}{\\cos \\alpha}$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La tangente se define como la razón entre seno y coseno. Las demás fluyen de sus definiciones recíprocas.",
+    "explanation": "Por definición de identidades de cocientes y recíprocas tenemos: $\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$, $\\csc \\alpha = \\frac{1}{\\sin \\alpha}$ y $\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PH",
+    "question": "Al desarrollar y simplificar algebraicamente la expresión $(\\sin x + \\cos x)^2$, ¿qué resultado se obtiene?",
+    "image": null,
+    "options": [
+      { "text": "$1 + \\sin(2x)$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$1 + 2\\cos x$", "correct": false },
+      { "text": "$\\sin^2 x + \\cos^2 x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el binomio al cuadrado como un polinomio perfecto y luego aplica la identidad pitagórica y la identidad del ángulo doble.",
+    "explanation": "El desarrollo del binomio es $(\\sin x + \\cos x)^2 = \\sin^2 x + 2\\sin x\\cos x + \\cos^2 x$. Agrupando por identidades tenemos $(\\sin^2 x + \\cos^2 x) + 2\\sin x\\cos x = 1 + \\sin(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PI",
+    "question": "¿Cuál es la identidad correcta para la suma de dos ángulos en la función seno, es decir, $\\sin(\\alpha + \\beta)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sin \\alpha \\cos \\beta + \\cos \\alpha \\sin \\beta$", "correct": true },
+      { "text": "$\\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta$", "correct": false },
+      { "text": "$\\cos \\alpha \\cos \\beta - \\sin \\alpha \\sin \\beta$", "correct": false },
+      { "text": "$\\sin \\alpha \\sin \\beta + \\cos \\alpha \\cos \\beta$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula de adición para la función seno intercala seno y coseno de los ángulos, además de que respeta el signo original de la suma.",
+    "explanation": "La fórmula clásica de adición de ángulos para el seno es $\\sin(\\alpha + \\beta) = \\sin \\alpha \\cos \\beta + \\cos \\alpha \\sin \\beta$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PJ",
+    "question": "De las siguientes identidades, identifica aquellas que corresponden a fórmulas de reducción de potencias (derivadas del ángulo doble):\n1. $\\sin^2 x = \\frac{1 - \\cos(2x)}{2}$\n2. $\\cos^2 x = \\frac{1 + \\cos(2x)}{2}$\n3. $\\tan^2 x = \\frac{1 - \\cos(2x)}{1 + \\cos(2x)}$\n4. $\\sin^2 x = 1 - \\cos^2 x$\n5. $\\sec^2 x = 1 + \\tan^2 x$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las identidades de reducción de potencias permiten reescribir una función al cuadrado linealizándola en términos del coseno de un ángulo doble.",
+    "explanation": "Las opciones 4 y 5 corresponden a las identidades pitagóricas, no a las de reducción. Las correctas son 1, 2 y 3, que se obtienen realizando un despeje algebraico desde las fórmulas de $\\cos(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PK",
+    "question": "La identidad para el coseno de la diferencia de dos ángulos establece que $\\cos(\\alpha - \\beta)$ es igual a $\\cos \\alpha \\cos \\beta$ ______ $\\sin \\alpha \\sin \\beta$. Esto difiere de $\\cos(\\alpha + \\beta)$ donde el signo central es ______.",
+    "image": null,
+    "options": [
+      { "text": "más, menos", "correct": true },
+      { "text": "menos, más", "correct": false },
+      { "text": "por, entre", "correct": false },
+      { "text": "menos, menos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten en cuenta que la función coseno invierte el signo en sus fórmulas de suma y resta.",
+    "explanation": "Para la diferencia, se cumple $\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta$. Inversamente, la suma lleva un signo negativo en el medio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PL",
+    "question": "Relaciona cada expresión con su forma simplificada utilizando las identidades trigonométricas fundamentales:\n\nI. $\\sin^2 x (1 + \\cot^2 x)$\nII. $(1 - \\cos^2 x) \\csc x$\nIII. $\\sec^2 x - 1$\n\nA. $1$\nB. $\\sin x$\nC. $\\tan^2 x$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa las identidades pitagóricas para sustituir los términos compuestos entre paréntesis y luego simplifica las multiplicaciones generadas.",
+    "explanation": "I: $\\sin^2 x(\\csc^2 x) = 1$. II: $(\\sin^2 x)\\csc x = \\sin x$. III: Directamente de la pitagórica $\\sec^2 x - 1 = \\tan^2 x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PM",
+    "question": "Simplifica la expresión trigonométrica: $\\frac{\\sec x - \\cos x}{\\tan x}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\sin x$", "correct": true },
+      { "text": "$\\cos x$", "correct": false },
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\sec x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte $\\sec x$ y $\\tan x$ a senos y cosenos antes de realizar las sumas y multiplicaciones algebraicas.",
+    "explanation": "En el numerador: $\\frac{1}{\\cos x} - \\cos x = \\frac{1 - \\cos^2 x}{\\cos x} = \\frac{\\sin^2 x}{\\cos x}$. Dividiendo el resultado entre $\\tan x = \\frac{\\sin x}{\\cos x}$, se tiene $(\\frac{\\sin^2 x}{\\cos x}) \\cdot (\\frac{\\cos x}{\\sin x}) = \\sin x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PN",
+    "question": "De acuerdo con las identidades de cofunciones, ¿a qué es equivalente $\\sin(90^\\circ - \\theta)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\cos \\theta$", "correct": true },
+      { "text": "$-\\cos \\theta$", "correct": false },
+      { "text": "$\\sin \\theta$", "correct": false },
+      { "text": "$-\\sin \\theta$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las cofunciones como el seno y coseno toman el mismo valor cruzado para ángulos que son complementarios dentro de un triángulo rectángulo.",
+    "explanation": "El seno de un ángulo complementario siempre será igual al coseno del ángulo original, por lo tanto $\\sin(90^\\circ - \\theta) = \\cos \\theta$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PO",
+    "question": "Identifica qué expresiones trigonométricas son equivalentes exactamente a $1$ para cualquier ángulo donde estén definidas:\n1. $\\sin^2 \\theta + \\cos^2 \\theta$\n2. $\\sec^2 \\theta - \\tan^2 \\theta$\n3. $\\cot^2 \\theta - \\csc^2 \\theta$\n4. $\\tan \\theta \\cdot \\cot \\theta$\n5. $\\sin \\theta \\cdot \\cos \\theta$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa detalladamente las identidades pitagóricas prestando mucha atención a los signos al despejar.",
+    "explanation": "La opción 3 es equivalente a $-1$ debido a los signos ($1 + \\cot^2 \\theta = \\csc^2 \\theta$). La opción 5 no es una identidad igual a 1. Las afirmaciones correctas son 1, 2 y 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PP",
+    "question": "Al comprobar una identidad trigonométrica, una técnica común es expresar todas las funciones en términos de ______ y ______, para luego simplificar usando álgebra y la identidad ______.",
+    "image": null,
+    "options": [
+      { "text": "seno, coseno, pitagórica fundamental", "correct": true },
+      { "text": "tangente, secante, de ángulo doble", "correct": false },
+      { "text": "cotangente, cosecante, recíproca", "correct": false },
+      { "text": "seno, tangente, de suma de ángulos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta es la estrategia universal más recomendada para simplificar fracciones trigonométricas complejas, ya que reduce la cantidad de variables a dos funciones base.",
+    "explanation": "Convertir toda la expresión a senos y cosenos facilita encontrar denominadores comunes y propicia la aplicación de la identidad $\\sin^2 x + \\cos^2 x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PQ",
+    "question": "Relaciona la cofunción trigonométrica con su equivalente para un ángulo agudo $\\theta$:\n\nI. $\\tan(90^\\circ - \\theta)$\nII. $\\sec(90^\\circ - \\theta)$\nIII. $\\cos(90^\\circ - \\theta)$\n\nA. $\\csc \\theta$\nB. $\\sin \\theta$\nC. $\\cot \\theta$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La cofunción de una función determinada se obtiene agregando o quitando el prefijo 'co'.",
+    "explanation": "Aplicando las propiedades de cofunciones a triángulos rectángulos: $\\tan(90^\\circ-\\theta) = \\cot\\theta$, $\\sec(90^\\circ-\\theta) = \\csc\\theta$ y $\\cos(90^\\circ-\\theta) = \\sin\\theta$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PR",
+    "question": "Si $\\cos \\theta = \\frac{3}{5}$ y $\\theta$ está en el primer cuadrante, ¿cuál es el valor de $\\sin(2\\theta)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{24}{25}$", "correct": true },
+      { "text": "$\\frac{12}{25}$", "correct": false },
+      { "text": "$\\frac{7}{25}$", "correct": false },
+      { "text": "$\\frac{6}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes formar un triángulo de Pitágoras con lados 3-4-5 para hallar $\\sin \\theta$. Luego, aplica la fórmula del ángulo doble para el seno.",
+    "explanation": "Por Pitágoras obtenemos que el cateto opuesto es 4, entonces $\\sin \\theta = \\frac{4}{5}$. Usando la identidad $\\sin(2\\theta) = 2\\sin\\theta\\cos\\theta = 2(\\frac{4}{5})(\\frac{3}{5}) = \\frac{24}{25}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PS",
+    "question": "¿Cuál es el valor exacto de $\\cos(15^\\circ)$ utilizando la identidad de diferencia de ángulos $\\cos(45^\\circ - 30^\\circ)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$", "correct": true },
+      { "text": "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{2} + 1}{4}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula trigonométrica de diferencia de ángulos: $\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta$.",
+    "explanation": "Sustituyendo obtenemos $(\\frac{\\sqrt{2}}{2})(\\frac{\\sqrt{3}}{2}) + (\\frac{\\sqrt{2}}{2})(\\frac{1}{2}) = \\frac{\\sqrt{6}}{4} + \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PT",
+    "question": "¿Cuál de las siguientes es una identidad impar, es decir, demuestra matemáticamente que su función trigonométrica respectiva es impar?",
+    "image": null,
+    "options": [
+      { "text": "$\\sin(-x) = -\\sin x$", "correct": true },
+      { "text": "$\\cos(-x) = -\\cos x$", "correct": false },
+      { "text": "$\\cos(-x) = \\cos x$", "correct": false },
+      { "text": "$\\tan(-x) = \\tan x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que las funciones impares presentan simetría respecto al origen, donde evaluar la función en un ángulo negativo produce el negativo de la función en el ángulo positivo.",
+    "explanation": "La primera opción es correcta porque el seno es una función impar. El coseno es par ($\\cos(-x) = \\cos x$) y la tangente también es impar, por lo que su identidad sería $\\tan(-x) = -\\tan x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PU",
+    "question": "Transforma la expresión $\\sin(20^\\circ) \\cos(40^\\circ) + \\cos(20^\\circ) \\sin(40^\\circ)$ a una función de un solo ángulo y calcula su valor exacto.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca reconocer el patrón de la expresión $\\sin \\alpha \\cos \\beta + \\cos \\alpha \\sin \\beta$, que corresponde directamente a la identidad del seno de una suma de ángulos.",
+    "explanation": "La expresión se agrupa y simplifica a $\\sin(20^\\circ + 40^\\circ) = \\sin(60^\\circ)$. El valor exacto de esto es $\\frac{\\sqrt{3}}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PV",
+    "question": "Simplifica la expresión trigonométrica $\\frac{\\sin(2x)}{1 + \\cos(2x)}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\tan x$", "correct": true },
+      { "text": "$\\cot x$", "correct": false },
+      { "text": "$\\sin x$", "correct": false },
+      { "text": "$\\sec x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expande el numerador y denominador utilizando sus respectivas identidades de ángulo doble. Para el denominador, resulta útil emplear la versión de la identidad que incluye únicamente al coseno.",
+    "explanation": "Aplicando las fórmulas: $\\frac{2\\sin x \\cos x}{1 + (2\\cos^2 x - 1)} = \\frac{2\\sin x \\cos x}{2\\cos^2 x}$. Simplificando y cancelando el 2 y el coseno, obtenemos $\\frac{\\sin x}{\\cos x} = \\tan x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PW",
+    "question": "Si $\\tan \\theta = x$, ¿cuál de las siguientes expresiones representa a $\\sec^2 \\theta$ de acuerdo a las identidades fundamentales?",
+    "image": null,
+    "options": [
+      { "text": "$1 + x^2$", "correct": true },
+      { "text": "$1 - x^2$", "correct": false },
+      { "text": "$x^2 - 1$", "correct": false },
+      { "text": "$\\frac{1}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Existe una identidad pitagórica que relaciona en una suma directa la tangente cuadrada con la secante cuadrada.",
+    "explanation": "La identidad pitagórica es $\\sec^2 \\theta = 1 + \\tan^2 \\theta$. Si reemplazamos sabiendo que $\\tan \\theta = x$, entonces concluimos que $\\sec^2 \\theta = 1 + x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PX",
+    "question": "Selecciona los pares de ángulos $(\\alpha, \\beta)$ que satisfacen la relación de cofunciones $\\sin \\alpha = \\cos \\beta$ asumiendo que ambos están en el primer cuadrante:\n1. $(30^\\circ, 60^\\circ)$\n2. $(45^\\circ, 45^\\circ)$\n3. $(60^\\circ, 30^\\circ)$\n4. $(20^\\circ, 80^\\circ)$\n5. $(15^\\circ, 65^\\circ)$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las identidades de cofunciones determinan que el seno de un ángulo agudo es igual al coseno de su complemento. Por tanto, la suma $\\alpha + \\beta$ debe ser siempre $90^\\circ$.",
+    "explanation": "Revisando cada par y sumando: $30+60=90$, $45+45=90$, $60+30=90$, $20+80=100$, y $15+65=80$. Por consiguiente, sólo 1, 2 y 3 cumplen la condición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PY",
+    "question": "La identidad $\\sin^2 x = 1 - \\cos^2 x$ se deriva de la identidad ______. Si se divide esta ecuación original por $\\cos^2 x$, se obtiene la identidad que relaciona la ______ con la secante.",
+    "image": null,
+    "options": [
+      { "text": "pitagórica, tangente", "correct": true },
+      { "text": "recíproca, cosecante", "correct": false },
+      { "text": "de cociente, tangente", "correct": false },
+      { "text": "pitagórica, cotangente", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la ecuación fundamental $\\sin^2 x + \\cos^2 x = 1$ y realiza la división en ambos lados de la igualdad de forma simultánea.",
+    "explanation": "Al dividir algebraicamente $\\sin^2 x + \\cos^2 x = 1$ entre $\\cos^2 x$, se forma la expresión $\\frac{\\sin^2 x}{\\cos^2 x} + \\frac{\\cos^2 x}{\\cos^2 x} = \\frac{1}{\\cos^2 x}$, que al simplificarse resulta en $\\tan^2 x + 1 = \\sec^2 x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PZ",
+    "question": "Relaciona la función trigonométrica evaluada en un ángulo negativo con su identidad par/impar correspondiente:\n\nI. $\\sin(-x)$\nII. $\\cos(-x)$\nIII. $\\tan(-x)$\n\nA. $-\\tan x$\nB. $\\cos x$\nC. $-\\sin x$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que solo el coseno y su recíproca secante son funciones pares. Las demás funciones trigonométricas son impares, lo que significa que el signo negativo se extrae de la función.",
+    "explanation": "Por simetría circular, el coseno no cambia de signo en su coordenada horizontal, $\\cos(-x) = \\cos x$ (par), el seno baja de cuadrante $\\sin(-x) = -\\sin x$ (impar) y por división de ambas, $\\tan(-x) = -\\tan x$ (impar).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QA",
+    "question": "Simplifica la siguiente expresión trigonométrica: $\\frac{\\tan x + \\cot x}{\\sec x \\csc x}$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\sin x \\cos x$", "correct": false },
+      { "text": "$\\tan^2 x$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Inicia transformando el numerador a términos de seno y coseno y súmalo como fracción. Posteriormente, compara el resultado con las funciones que se encuentran en el denominador.",
+    "explanation": "Sumando en el numerador: $\\tan x + \\cot x = \\frac{\\sin x}{\\cos x} + \\frac{\\cos x}{\\sin x} = \\frac{\\sin^2 x + \\cos^2 x}{\\sin x \\cos x} = \\frac{1}{\\sin x \\cos x} = \\csc x \\sec x$. Esto nos deja con $\\frac{\\csc x \\sec x}{\\csc x \\sec x} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QB",
+    "question": "¿Cuál es el resultado simplificado de la expresión $\\cos^4 x - \\sin^4 x$?",
+    "image": null,
+    "options": [
+      { "text": "$\\cos(2x)$", "correct": true },
+      { "text": "$\\sin(2x)$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$1 - 2\\sin(2x)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Empieza factorizando la expresión como una diferencia de cuadrados perfectos y a continuación observa cómo puedes aplicar la identidad pitagórica a uno de los nuevos factores.",
+    "explanation": "Al factorizar obtenemos $(\\cos^2 x - \\sin^2 x)(\\cos^2 x + \\sin^2 x)$. Dado que el segundo paréntesis por identidad pitagórica es exactamente igual a 1, nos queda simplemente la expresión $\\cos^2 x - \\sin^2 x$, la cual es la identidad para $\\cos(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QC",
+    "question": "En un triángulo rectángulo, si se conocen el cateto opuesto y el cateto adyacente a un ángulo $\\theta$, ¿qué identidad de cociente relaciona fundamentalmente la tangente del ángulo con las funciones seno y coseno?",
+    "image": null,
+    "options": [
+      { "text": "$\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$", "correct": true },
+      { "text": "$\\tan \\theta = \\frac{\\cos \\theta}{\\sin \\theta}$", "correct": false },
+      { "text": "$\\tan \\theta = \\sin \\theta \\cdot \\cos \\theta$", "correct": false },
+      { "text": "$\\tan \\theta = \\frac{1}{\\sin \\theta}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza que la tangente por definición es la relación que existe dividiendo el componente vertical (asociado al seno) entre el componente horizontal (asociado al coseno).",
+    "explanation": "Sabiendo que el seno es el cateto opuesto sobre la hipotenusa, y el coseno es el adyacente sobre la hipotenusa, dividir estas relaciones cancela la hipotenusa, demostrando que $\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QD",
+    "question": "Si sabemos que $\\cos(2x) = 1 - 2\\sin^2 x$, ¿cómo se expresa el valor exacto de $\\sin^2(15^\\circ)$ utilizando esta identidad?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2 - \\sqrt{3}}{4}$", "correct": true },
+      { "text": "$\\frac{2 + \\sqrt{3}}{4}$", "correct": false },
+      { "text": "$\\frac{1 - \\sqrt{3}}{2}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{2} - 1}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $\\sin^2 x$ de la fórmula para formar la identidad de reducción de potencia $\\frac{1 - \\cos(2x)}{2}$. A continuación, sustituye $x = 15^\\circ$ para usar el ángulo referencial notable de $30^\\circ$.",
+    "explanation": "A partir del despeje sustituimos los valores: $\\sin^2(15^\\circ) = \\frac{1 - \\cos(30^\\circ)}{2} = \\frac{1 - \\frac{\\sqrt{3}}{2}}{2}$. Al simplificar la fracción compleja obtenemos el resultado $\\frac{2 - \\sqrt{3}}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QE",
+    "question": "Identifica las afirmaciones correctas sobre las identidades trigonométricas:\n1. Son igualdades que se cumplen para cualquier valor del ángulo donde las funciones estén definidas.\n2. Sirven para resolver ecuaciones trigonométricas simplificando la expresión.\n3. Solamente son válidas para ángulos agudos en el primer cuadrante.\n4. $\\sec x = \\frac{1}{\\sin x}$ es una identidad recíproca válida.\n5. Las identidades pitagóricas se derivan de la aplicación del Teorema de Pitágoras en el círculo unitario.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 5", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que las identidades, a gran diferencia de las ecuaciones condicionales, poseen validez de carácter universal en todo su dominio matemático y su demostración frecuentemente se basa en la geometría analítica del círculo.",
+    "explanation": "La proposición 3 es completamente falsa porque su validez se extiende a todos los cuadrantes. La proposición 4 es falsa puesto que $\\sec x = \\frac{1}{\\cos x}$. Las proposiciones veraces son 1, 2 y 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QF",
+    "question": "Para demostrar la identidad $\\cot^2 x + 1 = \\csc^2 x$, se puede partir de la identidad pitagórica $\\sin^2 x + \\cos^2 x = 1$ y dividir cada término entre ______. Así, el término $\\frac{\\cos^2 x}{\\text{______}}$ se convierte en $\\cot^2 x$.",
+    "image": null,
+    "options": [
+      { "text": "$\\sin^2 x$, $\\sin^2 x$", "correct": true },
+      { "text": "$\\cos^2 x$, $\\cos^2 x$", "correct": false },
+      { "text": "$\\sin x$, $\\sin x$", "correct": false },
+      { "text": "$\\tan^2 x$, $\\cos^2 x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa estratégicamente en la división algebraica que generaría la función cotangente sabiendo que su definición matemática es igual a coseno dividido sobre seno.",
+    "explanation": "Al dividir cada elemento de la identidad principal por $\\sin^2 x$, se obtiene $\\frac{\\sin^2 x}{\\sin^2 x} + \\frac{\\cos^2 x}{\\sin^2 x} = \\frac{1}{\\sin^2 x}$, que por reducción de términos da $1 + \\cot^2 x = \\csc^2 x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QG",
+    "question": "Relaciona la expresión trigonométrica con su función equivalente usando las identidades fundamentales recíprocas:\n\nI. $\\frac{1}{\\csc \\theta}$\nII. $\\frac{1}{\\sec \\theta}$\nIII. $\\frac{1}{\\cot \\theta}$\n\nA. $\\tan \\theta$\nB. $\\sin \\theta$\nC. $\\cos \\theta$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Haz memoria para recordar puntualmente qué función primaria actúa como el inverso multiplicativo de cada función secundaria mencionada.",
+    "explanation": "Haciendo uso de las identidades recíprocas puras, la cosecante es el recíproco directo del seno, la secante lo es del coseno y por último la cotangente es el recíproco de la tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QH",
+    "question": "Calcula el valor numérico exacto de $2 \\sin(22.5^\\circ) \\cos(22.5^\\circ)$ utilizando la identidad respectiva de ángulo doble.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que esta expresión adopta la forma idéntica del lado derecho de la fórmula $\\sin(2x) = 2\\sin x \\cos x$. Solo debes identificar $x$ y sustituir.",
+    "explanation": "Dado que el valor asignado es $x = 22.5^\\circ$, al comprimir usando la identidad referida formamos $\\sin(2(22.5^\\circ)) = \\sin(45^\\circ)$. El valor exacto de la función evaluada en ese ángulo referencial es $\\frac{\\sqrt{2}}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
