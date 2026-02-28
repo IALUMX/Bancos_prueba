@@ -19392,25 +19392,205 @@
   },
   {
     "id": "CEP01OY",
-    "question": "La expresión $\\text{sen}^2 x + \\cos^2 x$ es igual a:",
+    "question": "Simplifica la expresión trigonométrica fundamental $\\text{sen}^2 x + \\cos^2 x$.",
     "image": null,
     "options": [
       { "text": "$1$", "correct": true },
-      { "text": "$-1$", "correct": false },
+      { "text": "$0$", "correct": false },
       { "text": "$\\tan x$", "correct": false },
-      { "text": "$\\cot x$", "correct": false }
+      { "text": "$-1$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Esta es la identidad pitagórica fundamental que relaciona el seno y el coseno de un mismo ángulo.",
-    "explanation": "De acuerdo con la identidad pitagórica fundamental derivada del teorema de Pitágoras en el círculo unitario, $\\text{sen}^2 x + \\cos^2 x = 1$.",
+    "hint": "Recuerda la identidad pitagórica principal derivada del círculo unitario.",
+    "explanation": "La identidad pitagórica fundamental establece que para cualquier ángulo $x$, la suma de los cuadrados del seno y el coseno es siempre igual a $1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01OZ",
-    "question": "Relaciona las funciones trigonométricas con sus respectivas recíprocas:\nI. $\\text{sen} x$\nII. $\\cos x$\nIII. $\\tan x$\n\nA. $\\sec x$\nB. $\\csc x$\nC. $\\cot x$",
+    "question": "Identifica los términos que completan correctamente la siguiente identidad recíproca: $\\frac{1}{\\cos \\theta} = \\dots$ y $\\frac{1}{\\text{sen } \\theta} = \\dots$",
+    "image": null,
+    "options": [
+      { "text": "$\\sec \\theta, \\csc \\theta$", "correct": true },
+      { "text": "$\\csc \\theta, \\sec \\theta$", "correct": false },
+      { "text": "$\\tan \\theta, \\cot \\theta$", "correct": false },
+      { "text": "$\\text{sen } \\theta, \\cos \\theta$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las funciones recíprocas del coseno y el seno inician con letras distintas a su par (el recíproco del coseno empieza con 's').",
+    "explanation": "Por definición de funciones recíprocas, la secante es el inverso del coseno y la cosecante es el inverso del seno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PA",
+    "question": "Completa el siguiente enunciado sobre identidades por cociente: 'La función ______ se define como el cociente entre $\\text{sen } \\alpha$ y $\\cos \\alpha$, mientras que su recíproca es la ______.'",
+    "image": null,
+    "options": [
+      { "text": "tangente, cotangente", "correct": true },
+      { "text": "secante, cosecante", "correct": false },
+      { "text": "cotangente, tangente", "correct": false },
+      { "text": "seno, coseno", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $\\tan \\alpha = \\frac{\\text{sen } \\alpha}{\\cos \\alpha}$.",
+    "explanation": "La tangente es el cociente de seno sobre coseno; la cotangente es su recíproca (coseno sobre seno).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PB",
+    "question": "Relaciona correctamente las funciones con su identidad recíproca: I) $\\tan x$, II) $\\cos x$, III) $\\text{sen } x$; A) $1/\\csc x$, B) $1/\\cot x$, C) $1/\\sec x$.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la relación $\\cot x = 1/\\tan x$ para encontrar la correspondencia de I.",
+    "explanation": "Las parejas recíprocas son: tangente con cotangente, coseno con secante, y seno con cosecante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PC",
+    "question": "¿A qué expresión es equivalente el producto $\\tan x \\cdot \\cos x$?",
+    "image": null,
+    "options": [
+      { "text": "$\\text{sen } x$", "correct": true },
+      { "text": "$\\cot x$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\sec x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la tangente por su identidad de cociente: $\\text{sen } x = \\tan x \\cdot \\cos x$.",
+    "explanation": "Al sustituir $\\tan x = \\frac{\\text{sen } x}{\\cos x}$, multiplicamos por $\\cos x$ y se cancelan los cosenos, dejando solo $\\text{sen } x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PD",
+    "question": "Un estudiante del CEPREDIX debe demostrar una identidad pitagórica derivada. Si divide la identidad $\\text{sen}^2 \\theta + \\cos^2 \\theta = 1$ entre $\\cos^2 \\theta$, ¿qué expresión obtiene?",
+    "image": null,
+    "options": [
+      { "text": "$\\tan^2 \\theta + 1 = \\sec^2 \\theta$", "correct": true },
+      { "text": "$1 + \\cot^2 \\theta = \\csc^2 \\theta$", "correct": false },
+      { "text": "$\\text{sen}^2 \\theta + 1 = \\sec^2 \\theta$", "correct": false },
+      { "text": "$\\tan^2 \\theta + \\cos^2 \\theta = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide cada término por separado: $\\frac{\\text{sen}^2 \\theta}{\\cos^2 \\theta} + \\frac{\\cos^2 \\theta}{\\cos^2 \\theta} = \\frac{1}{\\cos^2 \\theta}$.",
+    "explanation": "Al realizar la división término a término, obtenemos la identidad pitagórica para la tangente y la secante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PE",
+    "question": "¿Cuál de las siguientes igualdades es una identidad trigonométrica verdadera?",
+    "image": null,
+    "options": [
+      { "text": "$\\cot^2 x + 1 = \\csc^2 x$", "correct": true },
+      { "text": "$\\text{sen } x + \\cos x = 1$", "correct": false },
+      { "text": "$\\tan^2 x - 1 = \\sec^2 x$", "correct": false },
+      { "text": "$\\cos^2 x - \\text{sen}^2 x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta identidad se deriva al dividir $\\text{sen}^2 x + \\cos^2 x = 1$ entre $\\text{sen}^2 x$.",
+    "explanation": "La identidad $\\cot^2 x + 1 = \\csc^2 x$ es una de las tres identidades pitagóricas fundamentales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PF",
+    "question": "Selecciona el par de funciones que son recíprocas entre sí:\n1. $\\text{sen } x$ y $\\csc x$\n2. $\\cos x$ y $\\sec x$\n3. $\\tan x$ y $\\cot x$\n4. $\\text{sen } x$ y $\\cos x$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4", "correct": false },
+      { "text": "Solo 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El seno y el coseno son co-funciones, no recíprocas.",
+    "explanation": "Las funciones recíprocas son aquellas cuyo producto es igual a 1 para el mismo ángulo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PG",
+    "question": "En la resolución de una ecuación en el CEPREDIX, se requiere simplificar el producto $\\cot A \\cdot \\text{sen } A$. El resultado es:",
+    "image": null,
+    "options": [
+      { "text": "$\\cos A$", "correct": true },
+      { "text": "$\\tan A$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\sec A$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la definición $\\cos A = \\cot A \\cdot \\text{sen } A$.",
+    "explanation": "Como $\\cot A = \\frac{\\cos A}{\\text{sen } A}$, al multiplicar por $\\text{sen } A$ se simplifica a $\\cos A$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PH",
+    "question": "La expresión $\\sec^2 x - \\tan^2 x$ es equivalente a:",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$\\text{sen}^2 x$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Parte de la identidad $1 + \\tan^2 x = \\sec^2 x$.",
+    "explanation": "Al despejar la unidad de la identidad pitagórica de la secante, obtenemos que la diferencia de cuadrados es 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PI",
+    "question": "Simplifica el cociente $\\frac{\\sec x}{\\csc x}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\tan x$", "correct": true },
+      { "text": "$\\cot x$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\cos x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte ambas a seno y coseno: $\\tan x = \\frac{\\text{sen } x}{\\cos x}$.",
+    "explanation": "$\\frac{1/\\cos x}{1/\\text{sen } x} = \\frac{\\text{sen } x}{\\cos x} = \\tan x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PJ",
+    "question": "Relaciona las identidades pitagóricas:\nI. $\\text{sen}^2 A + \\cos^2 A$\nII. $\\sec^2 A - 1$\nIII. $\\csc^2 A - \\cot^2 A$\n\nA. $\\tan^2 A$\nB. $1$\nC. $1$",
     "image": null,
     "options": [
       { "text": "I-B, II-A, III-C", "correct": true },
@@ -19419,622 +19599,1306 @@
       { "text": "I-B, II-C, III-A", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Recuerda que las funciones recíprocas al multiplicarse entre sí dan como resultado 1. Por ejemplo, $\\text{sen} x \\cdot \\csc x = 1$.",
-    "explanation": "La recíproca del seno es la cosecante, la del coseno es la secante y la de la tangente es la cotangente.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PA",
-    "question": "Completa el enunciado de las identidades de cociente: 'La ______ de un ángulo se define como el cociente entre el seno y el coseno del mismo ángulo, mientras que la ______ se define como el cociente entre el coseno y el seno.'",
-    "image": null,
-    "options": [
-      { "text": "Tangente, cotangente", "correct": true },
-      { "text": "Secante, cosecante", "correct": false },
-      { "text": "Cotangente, tangente", "correct": false },
-      { "text": "Cosecante, secante", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda las identidades fundamentales: $\\frac{\\text{sen} \\theta}{\\cos \\theta}$ y $\\frac{\\cos \\theta}{\\text{sen} \\theta}$.",
-    "explanation": "Por definición trigonométrica, $\\tan x = \\frac{\\text{sen} x}{\\cos x}$ y $\\cot x = \\frac{\\cos x}{\\text{sen} x}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PB",
-    "question": "Identifica cuáles de las siguientes son identidades pitagóricas válidas en trigonometría:\n1. $\\text{sen}^2 x + \\cos^2 x = 1$\n2. $1 + \\tan^2 x = \\sec^2 x$\n3. $1 + \\text{sen}^2 x = \\cos^2 x$\n4. $1 + \\cot^2 x = \\csc^2 x$\n5. $\\sec^2 x + \\csc^2 x = 1$",
-    "image": null,
-    "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "1, 3, 5", "correct": false },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 4, 5", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Divide la identidad fundamental $\\text{sen}^2 x + \\cos^2 x = 1$ entre $\\text{sen}^2 x$ o entre $\\cos^2 x$ para obtener las otras dos válidas.",
-    "explanation": "Las tres identidades pitagóricas son: $\\text{sen}^2 x + \\cos^2 x = 1$, $1 + \\tan^2 x = \\sec^2 x$ y $1 + \\cot^2 x = \\csc^2 x$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PC",
-    "question": "La expresión $\\frac{1}{\\text{sen} \\alpha}$ corresponde a:",
-    "image": null,
-    "options": [
-      { "text": "$\\csc \\alpha$", "correct": true },
-      { "text": "$\\tan \\alpha$", "correct": false },
-      { "text": "$\\sec \\alpha$", "correct": false },
-      { "text": "$\\cos \\alpha$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Busca la función que es el inverso multiplicativo (recíproca) de la función seno.",
-    "explanation": "Por definición de las funciones trigonométricas inversas multiplicativas, la cosecante es recíproca del seno.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PD",
-    "question": "Relaciona los cuadrantes del plano cartesiano con el signo que tiene la función seno en ellos:\nI. Primer cuadrante\nII. Segundo cuadrante\nIII. Tercer cuadrante\nIV. Cuarto cuadrante\n\nA. Positivo\nB. Negativo",
-    "image": null,
-    "options": [
-      { "text": "I-A, II-A, III-B, IV-B", "correct": true },
-      { "text": "I-A, II-B, III-A, IV-B", "correct": false },
-      { "text": "I-B, II-B, III-A, IV-A", "correct": false },
-      { "text": "I-A, II-B, III-B, IV-A", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "En el círculo unitario, la función seno se asocia con el eje Y. Observa en qué cuadrantes la coordenada 'y' es positiva o negativa.",
-    "explanation": "El eje Y es positivo en los cuadrantes I y II, por lo tanto el seno es positivo en ambos, mientras que en el III y IV es negativo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PE",
-    "question": "En cualquier triángulo no rectángulo, la ley de ______ establece que la relación entre la longitud de un lado y el ______ del ángulo opuesto es ______ para todos los lados.",
-    "image": null,
-    "options": [
-      { "text": "Senos, seno, constante", "correct": true },
-      { "text": "Cosenos, coseno, variable", "correct": false },
-      { "text": "Senos, coseno, constante", "correct": false },
-      { "text": "Cosenos, seno, equivalente", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Esta ley se expresa matemáticamente como $\\frac{a}{\\text{sen}(A)} = \\frac{b}{\\text{sen}(B)} = \\frac{c}{\\text{sen}(C)}$.",
-    "explanation": "La Ley de Senos define la proporción constante que existe entre los lados de un triángulo y el seno de sus ángulos opuestos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PF",
-    "question": "Selecciona del siguiente listado los ángulos que pertenecen exclusivamente al primer cuadrante en posición estándar:\n1. $45^\\circ$\n2. $120^\\circ$\n3. $\\frac{\\pi}{3} \\text{ rad}$\n4. $210^\\circ$\n5. $80^\\circ$",
-    "image": null,
-    "options": [
-      { "text": "1, 3, 5", "correct": true },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Los ángulos del primer cuadrante son mayores que $0^\\circ$ y menores que $90^\\circ$ (o $\\frac{\\pi}{2}$ radianes).",
-    "explanation": "$45^\\circ$, $\\frac{\\pi}{3} \\text{ rad}$ ($60^\\circ$) y $80^\\circ$ se encuentran entre $0^\\circ$ y $90^\\circ$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PG",
-    "question": "La expresión $\\frac{\\text{sen} \\alpha}{\\cos \\alpha}$ es igual a:",
-    "image": null,
-    "options": [
-      { "text": "$\\tan \\alpha$", "correct": true },
-      { "text": "$\\sec \\alpha$", "correct": false },
-      { "text": "$\\cot \\alpha$", "correct": false },
-      { "text": "$\\csc \\alpha$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Es la identidad trigonométrica por cociente más común, relaciona los dos catetos en un triángulo rectángulo.",
-    "explanation": "Por definición de razones trigonométricas, la tangente es el cociente resultante de dividir el seno entre el coseno del mismo ángulo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PH",
-    "question": "Relaciona el ángulo notable con su respectivo valor exacto de la función coseno:\nI. $30^\\circ$\nII. $45^\\circ$\nIII. $60^\\circ$\n\nA. $\\frac{1}{2}$\nB. $\\frac{\\sqrt{2}}{2}$\nC. $\\frac{\\sqrt{3}}{2}$",
-    "image": null,
-    "options": [
-      { "text": "I-C, II-B, III-A", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Recuerda que para el coseno, a medida que el ángulo aumenta de $0^\\circ$ a $90^\\circ$, su valor disminuye de $1$ a $0$.",
-    "explanation": "Para la función coseno: $\\cos(30^\\circ) = \\frac{\\sqrt{3}}{2}$, $\\cos(45^\\circ) = \\frac{\\sqrt{2}}{2}$ y $\\cos(60^\\circ) = \\frac{1}{2}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PI",
-    "question": "El teorema de ______ establece que en todo triángulo ______, el cuadrado de la hipotenusa es igual a la suma de los ______ de los catetos.",
-    "image": null,
-    "options": [
-      { "text": "Pitágoras, rectángulo, cuadrados", "correct": true },
-      { "text": "Tales, isósceles, dobles", "correct": false },
-      { "text": "Pitágoras, equilátero, productos", "correct": false },
-      { "text": "Euclides, rectángulo, cubos", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Identifica el teorema cuya formulación algebraica típica es $c^2 = a^2 + b^2$.",
-    "explanation": "El teorema de Pitágoras rige exclusivamente en triángulos rectángulos y establece que la suma del cuadrado de los catetos iguala al cuadrado de la hipotenusa.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PJ",
-    "question": "Identifica las funciones trigonométricas que son consideradas pares (es decir, $f(-x) = f(x)$):\n1. Seno\n2. Coseno\n3. Tangente\n4. Secante\n5. Cosecante",
-    "image": null,
-    "options": [
-      { "text": "2, 4", "correct": true },
-      { "text": "1, 3", "correct": false },
-      { "text": "3, 5", "correct": false },
-      { "text": "1, 5", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "En el círculo trigonométrico, si giras hacia abajo (ángulo negativo) en lugar de hacia arriba, la coordenada horizontal en el eje X no se altera.",
-    "explanation": "La función coseno y su recíproca, la secante, son pares porque el valor de la función no cambia ante ángulos negativos $\\cos(-x) = \\cos(x)$.",
+    "hint": "Recuerda que tanto el seno-coseno como el cosecante-cotangente igualan a 1 al restarse/sumarse sus cuadrados.",
+    "explanation": "I y III son formas de igualar a 1, mientras que II es el despeje de la tangente al cuadrado.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PK",
-    "question": "La expresión $1 + \\tan^2 \\alpha$ es igual a:",
+    "question": "¿A qué es igual el producto $\\text{sen } x \\cdot \\csc x$?",
     "image": null,
     "options": [
-      { "text": "$\\sec^2 \\alpha$", "correct": true },
-      { "text": "$\\sec \\alpha$", "correct": false },
-      { "text": "$\\csc^2 \\alpha$", "correct": false },
-      { "text": "$\\csc \\alpha$", "correct": false }
+      { "text": "$1$", "correct": true },
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\cos x$", "correct": false },
+      { "text": "$0$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Proviene de dividir toda la identidad de $\\text{sen}^2 \\alpha + \\cos^2 \\alpha = 1$ entre el término $\\cos^2 \\alpha$.",
-    "explanation": "Es una de las identidades pitagóricas secundarias derivadas: $1 + \\tan^2 \\alpha = \\sec^2 \\alpha$.",
+    "hint": "Cualquier función multiplicada por su recíproca resulta en la unidad.",
+    "explanation": "Puesto que $\\csc x = 1/\\text{sen } x$, el producto es $\\text{sen } x \\cdot (1/\\text{sen } x) = 1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PL",
-    "question": "Relaciona la definición en un triángulo rectángulo con su función trigonométrica:\nI. Cateto opuesto / Hipotenusa\nII. Cateto adyacente / Hipotenusa\nIII. Cateto opuesto / Cateto adyacente\n\nA. $\\text{sen} \\theta$\nB. $\\tan \\theta$\nC. $\\cos \\theta$",
+    "question": "Un grupo de estudio en el CEPREDIX simplifica $\\frac{1 - \\cos^2 x}{\\text{sen } x}$. El resultado simplificado es:",
     "image": null,
     "options": [
-      { "text": "I-A, II-C, III-B", "correct": true },
-      { "text": "I-B, II-C, III-A", "correct": false },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Utiliza la regla mnemotécnica SOH-CAH-TOA para vincular catetos e hipotenusas.",
-    "explanation": "SOH: Seno es Opuesto/Hipotenusa. CAH: Coseno es Adyacente/Hipotenusa. TOA: Tangente es Opuesto/Adyacente.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PM",
-    "question": "La identidad del ángulo doble para la función ______ se expresa como $\\text{sen}(2x) = 2 \\text{sen}(x) \\cos(x)$, mientras que para el ______ una de sus formas es $\\cos(2x) = \\cos^2(x) - \\text{sen}^2(x)$.",
-    "image": null,
-    "options": [
-      { "text": "Seno, coseno", "correct": true },
-      { "text": "Coseno, seno", "correct": false },
-      { "text": "Tangente, seno", "correct": false },
-      { "text": "Seno, tangente", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Observa el término $(2x)$ del lado izquierdo de cada ecuación matemática expuesta en el enunciado.",
-    "explanation": "Se trata de las identidades del seno del ángulo doble y coseno del ángulo doble.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PN",
-    "question": "Selecciona los valores que sí pueden ser el resultado de la función $y = \\text{sen}(x)$ en el conjunto de los números reales:\n1. $0.5$\n2. $-1$\n3. $1.5$\n4. $0$\n5. $-2$",
-    "image": null,
-    "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El rango de la función seno sin alteraciones está limitado entre el máximo absoluto y el mínimo absoluto en el círculo unitario.",
-    "explanation": "El rango de la función $y = \\text{sen}(x)$ es $[-1, 1]$. Valores mayores a 1 o menores a -1 no forman parte del rango.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PO",
-    "question": "La expresión $\\frac{1}{\\cos \\alpha}$ corresponde a:",
-    "image": null,
-    "options": [
-      { "text": "$\\sec \\alpha$", "correct": true },
-      { "text": "$\\cot \\alpha$", "correct": false },
-      { "text": "$\\csc \\alpha$", "correct": false },
-      { "text": "$\\tan \\alpha$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Busca la función que se forma con la razón hipotenusa sobre cateto adyacente.",
-    "explanation": "Por definición de las razones trigonométricas inversas, la secante es recíproca del coseno.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01PP",
-    "question": "¿Cuál es el valor exacto de $\\text{sen}(30^\\circ)$?",
-    "image": null,
-    "options": [
-      { "text": "$\\frac{1}{2}$", "correct": true },
-      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false },
-      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false },
+      { "text": "$\\text{sen } x$", "correct": true },
+      { "text": "$\\cos x$", "correct": false },
+      { "text": "$\\tan x$", "correct": false },
       { "text": "$1$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Piensa en el cateto menor de un triángulo con ángulos de $30^\\circ$-$60^\\circ$-$90^\\circ$ frente a la hipotenusa.",
-    "explanation": "Para un ángulo notable de $30^\\circ$, el seno tiene un valor exacto de $\\frac{1}{2}$ o $0.5$.",
+    "hint": "Sustituye el numerador usando $\\text{sen}^2 x = 1 - \\cos^2 x$.",
+    "explanation": "Al sustituir el numerador, queda $\\text{sen}^2 x / \\text{sen } x$, lo cual simplifica a $\\text{sen } x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PM",
+    "question": "Completa la identidad: $\\cos^2 \\alpha = 1 - \\dots$",
+    "image": null,
+    "options": [
+      { "text": "$\\text{sen}^2 \\alpha$", "correct": true },
+      { "text": "$\\text{sen } \\alpha$", "correct": false },
+      { "text": "$\\sec^2 \\alpha$", "correct": false },
+      { "text": "$\\tan^2 \\alpha$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva este despeje de la identidad pitagórica principal.",
+    "explanation": "De $\\text{sen}^2 \\alpha + \\cos^2 \\alpha = 1$, al despejar el coseno al cuadrado se obtiene $1 - \\text{sen}^2 \\alpha$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PN",
+    "question": "Identifica cuáles de las siguientes expresiones son equivalentes a $\\tan x$:\n1. $\\frac{\\text{sen } x}{\\cos x}$\n2. $\\frac{1}{\\cot x}$\n3. $\\frac{\\sec x}{\\csc x}$\n4. $\\frac{\\cos x}{\\text{sen } x}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La opción 4 corresponde a la cotangente.",
+    "explanation": "La tangente se puede expresar por cociente, como recíproca o combinando secante y cosecante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PO",
+    "question": "Al simplificar la expresión $(1 - \\text{sen}^2 x) \\cdot \\sec^2 x$, el resultado obtenido en el CEPREDIX es:",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\tan^2 x$", "correct": false },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$\\text{sen}^2 x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye el paréntesis por $\\cos^2 x$.",
+    "explanation": "$\\cos^2 x \\cdot \\sec^2 x = \\cos^2 x \\cdot (1/\\cos^2 x) = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PP",
+    "question": "La expresión $\\frac{1}{\\tan x + \\cot x}$ es equivalente a:",
+    "image": null,
+    "options": [
+      { "text": "$\\text{sen } x \\cos x$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\sec x \\csc x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $\\tan x$ y $\\cot x$ en términos de seno y coseno.",
+    "explanation": "Al sumar las fracciones del denominador obtenemos $1/(\\text{sen } x \\cos x)$ en el denominador, que al invertir resulta en el producto.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PQ",
-    "question": "Relaciona la medida del ángulo en radianes con su equivalente en grados sexagesimales:\nI. $\\frac{\\pi}{2} \\text{ rad}$\nII. $\\frac{3\\pi}{2} \\text{ rad}$\nIII. $\\pi \\text{ rad}$\n\nA. $180^\\circ$\nB. $90^\\circ$\nC. $270^\\circ$",
+    "question": "¿Cuál es el valor del producto $\\cos x \\cdot \\sec x \\cdot \\tan x$?",
     "image": null,
     "options": [
-      { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-A, II-C, III-B", "correct": false }
+      { "text": "$\\tan x$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\text{sen } x$", "correct": false },
+      { "text": "$\\cos x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Considera que media vuelta completa a un círculo de radio 1 ($180^\\circ$) tiene una longitud de arco de $\\pi$.",
-    "explanation": "$\\pi \\text{ rad} = 180^\\circ$. Dividiendo obtenemos $\\frac{\\pi}{2} = 90^\\circ$, y al multiplicar por tres el ángulo recto obtenemos $\\frac{3\\pi}{2} = 270^\\circ$.",
+    "hint": "Nota que $\\cos x \\cdot \\sec x = 1$.",
+    "explanation": "Como el producto de las recíprocas es 1, la expresión queda simplemente como $\\tan x$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PR",
-    "question": "En trigonometría básica, el ______ de un ángulo agudo en un triángulo ______ se define como la razón entre la longitud del cateto ______ y la hipotenusa.",
+    "question": "Completa: 'La identidad $\\dots + 1 = \\csc^2 A$ relaciona la función cotangente con la cosecante.'",
     "image": null,
     "options": [
-      { "text": "Seno, rectángulo, opuesto", "correct": true },
-      { "text": "Coseno, acutángulo, adyacente", "correct": false },
-      { "text": "Seno, rectángulo, adyacente", "correct": false },
-      { "text": "Tangente, isósceles, opuesto", "correct": false }
+      { "text": "$\\cot^2 A$", "correct": true },
+      { "text": "$\\tan^2 A$", "correct": false },
+      { "text": "$\\text{sen}^2 A$", "correct": false },
+      { "text": "$\\cos^2 A$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda la base de todas las funciones trigonométricas directas (SOH).",
-    "explanation": "La función seno en un triángulo rectángulo relaciona de forma exclusiva la longitud del cateto opuesto con respecto a la medida de su hipotenusa.",
+    "hint": "Es la tercera identidad pitagórica.",
+    "explanation": "La identidad es $\\cot^2 A + 1 = \\csc^2 A$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PS",
-    "question": "Identifica las expresiones matemáticas que son equivalentes a $\\tan x$:\n1. $\\frac{\\text{sen} x}{\\cos x}$\n2. $\\frac{1}{\\cot x}$\n3. $\\frac{\\cos x}{\\text{sen} x}$\n4. $\\text{sen} x \\cdot \\sec x$\n5. $\\csc x \\cdot \\cos x$",
+    "question": "Relaciona correctamente: I) $\\text{sen } x / \\cos x$, II) $\\cos x / \\text{sen } x$, III) $1 / \\cos x$; A) $\\sec x$, B) $\\tan x$, C) $\\cot x$.",
     "image": null,
     "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "1, 3, 5", "correct": false },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "2, 4, 5", "correct": false }
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda la identidad de cociente básica y analiza qué ocurre al sustituir $\\sec x$ por $\\frac{1}{\\cos x}$.",
-    "explanation": "Las expresiones 1 (cociente), 2 (recíproca) y 4 (producto de $\\text{sen} x$ y el inverso del $\\cos x$) dan como resultado a la función $\\tan x$.",
+    "hint": "Identifica las definiciones por cociente de las funciones fundamentales.",
+    "explanation": "La tangente es seno sobre coseno, la cotangente es inversa de la tangente y la secante es inversa del coseno.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PT",
-    "question": "¿Cuál es el valor exacto de $\\cos(60^\\circ)$?",
+    "question": "¿A qué expresión es equivalente $\\frac{1 - \\text{sen}^2 x}{\\cos x}$?",
     "image": null,
     "options": [
-      { "text": "$\\frac{1}{2}$", "correct": true },
-      { "text": "$\\frac{\\sqrt{3}}{2}$", "correct": false },
-      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false },
-      { "text": "$0$", "correct": false }
+      { "text": "$\\cos x$", "correct": true },
+      { "text": "$\\text{sen } x$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\sec x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Por cofunciones, el seno de $30^\\circ$ tiene exactamente el mismo valor que el coseno de $60^\\circ$.",
-    "explanation": "En un triángulo notable o círculo unitario, el coseno del ángulo de $60^\\circ$ (o $\\frac{\\pi}{3}$) siempre es igual a $0.5$ o $\\frac{1}{2}$.",
+    "hint": "Transforma el numerador usando la identidad pitagórica fundamental.",
+    "explanation": "El numerador es $\\cos^2 x$, que al dividirse entre $\\cos x$ da como resultado $\\cos x$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PU",
-    "question": "Al simplificar la expresión trigonométrica $\\frac{\\tan x}{\\text{sen} x}$, ¿qué se obtiene?",
+    "question": "Un estudiante del CEPREDIX resuelve la expresión $\\tan^2 x \\cdot \\cos^2 x$. ¿A qué función equivale?",
     "image": null,
     "options": [
-      { "text": "$\\sec x$", "correct": true },
-      { "text": "$\\cos x$", "correct": false },
-      { "text": "$\\csc x$", "correct": false },
-      { "text": "$\\cot x$", "correct": false }
+      { "text": "$\\text{sen}^2 x$", "correct": true },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\sec^2 x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Sustituye $\\tan x$ usando su identidad de cociente de forma que facilite la simplificación de términos.",
-    "explanation": "$\\frac{\\tan x}{\\text{sen} x} = \\frac{\\frac{\\text{sen} x}{\\cos x}}{\\text{sen} x} = \\frac{1}{\\cos x} = \\sec x$.",
+    "hint": "Usa el hecho de que $\\text{sen}^2 x = \\tan^2 x \\cdot \\cos^2 x$.",
+    "explanation": "Al sustituir la tangente, los cosenos se cancelan y queda el seno al cuadrado.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PV",
-    "question": "En un triángulo rectángulo, la secante de uno de sus ángulos agudos se define como la razón entre:",
+    "question": "Selecciona las identidades que son correctas:\n1. $\\text{sen } x \\cdot \\csc x = 1$\n2. $\\cos x \\cdot \\sec x = 1$\n3. $\\tan x \\cdot \\cot x = 1$\n4. $\\text{sen } x \\cdot \\sec x = 1$",
     "image": null,
     "options": [
-      { "text": "Hipotenusa y cateto adyacente", "correct": true },
-      { "text": "Cateto opuesto e hipotenusa", "correct": false },
-      { "text": "Cateto adyacente e hipotenusa", "correct": false },
-      { "text": "Hipotenusa y cateto opuesto", "correct": false }
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La secante es el inverso multiplicativo (recíproca) de la función coseno.",
-    "explanation": "Sabiendo que el coseno es Cateto Adyacente / Hipotenusa, la recíproca o secante es entonces Hipotenusa / Cateto Adyacente.",
+    "hint": "Recuerda que las funciones deben ser recíprocas para que su producto sea 1.",
+    "explanation": "Las primeras tres corresponden a identidades recíprocas; la cuarta no es una identidad válida.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PW",
-    "question": "¿A qué expresión equivale algebraicamente el producto $\\cos^2 x (1 + \\tan^2 x)$?",
+    "question": "¿Cuál es el valor de $\\csc^2 A - \\cot^2 A$?",
     "image": null,
     "options": [
       { "text": "$1$", "correct": true },
-      { "text": "$\\text{sen}^2 x$", "correct": false },
-      { "text": "$\\sec^2 x$", "correct": false },
-      { "text": "$\\cos^2 x$", "correct": false }
+      { "text": "$-1$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\tan^2 A$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Transforma el paréntesis utilizando una identidad pitagórica, y luego simplifica evaluando la relación entre el coseno y su resultado.",
-    "explanation": "Se aplica identidad: $1 + \\tan^2 x = \\sec^2 x$. El producto queda $\\cos^2 x \\cdot \\sec^2 x = 1$ ya que son funciones recíprocas.",
+    "hint": "Recuerda el despeje de la tercera identidad pitagórica.",
+    "explanation": "De $1 + \\cot^2 A = \\csc^2 A$, al restar la cotangente de ambos lados, el resultado es 1.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PX",
-    "question": "¿Cuál es el valor de la función seno evaluada en $90^\\circ$ (o $\\frac{\\pi}{2}$ radianes)?",
+    "question": "Simplifica la expresión $\\frac{\\text{sen } x}{\\tan x}$.",
     "image": null,
     "options": [
-      { "text": "$1$", "correct": true },
-      { "text": "$0$", "correct": false },
-      { "text": "$-1$", "correct": false },
-      { "text": "No está definida", "correct": false }
+      { "text": "$\\cos x$", "correct": true },
+      { "text": "$\\sec x$", "correct": false },
+      { "text": "$\\text{sen}^2 x$", "correct": false },
+      { "text": "$\\cot x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Visualiza el círculo trigonométrico: a $90^\\circ$, la coordenada $y$ alcanza su punto más alto posible.",
-    "explanation": "El punto en el extremo superior del círculo unitario tiene coordenadas $(0,1)$, indicando que el seno (componente Y) vale $1$.",
+    "hint": "Divide el seno entre la definición de tangente ($\\text{sen } x / \\cos x$).",
+    "explanation": "Al realizar la división, los términos del seno se simplifican, dejando el coseno.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PY",
-    "question": "Relaciona la identidad trigonométrica de suma y diferencia de ángulos con su desarrollo correspondiente:\nI. $\\text{sen}(x + y)$\nII. $\\cos(x + y)$\nIII. $\\text{sen}(x - y)$\n\nA. $\\text{sen} x \\cos y - \\cos x \\text{sen} y$\nB. $\\cos x \\cos y - \\text{sen} x \\text{sen} y$\nC. $\\text{sen} x \\cos y + \\cos x \\text{sen} y$",
+    "question": "En el CEPREDIX, se pide reducir la expresión $\\cos x (\\tan x + \\cot x)$. El resultado simplificado es:",
     "image": null,
     "options": [
-      { "text": "I-C, II-B, III-A", "correct": true },
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-C, II-A, III-B", "correct": false }
+      { "text": "$\\csc x$", "correct": true },
+      { "text": "$\\sec x$", "correct": false },
+      { "text": "$\\text{sen } x$", "correct": false },
+      { "text": "$1$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Ten presente que la función coseno invierte el signo en su desarrollo interno (de suma a resta), mientras que la función seno lo preserva.",
-    "explanation": "I corresponde a C (conserva signo y combina funciones), II a B (invierte signo, agrupa cosenos con cosenos y senos con senos) y III a A (conserva el negativo).",
+    "hint": "Distribuye el coseno o convierte todo a seno y coseno.",
+    "explanation": "Al simplificar, se obtiene $\\text{sen } x + \\frac{\\cos^2 x}{\\text{sen } x} = \\frac{\\text{sen}^2 x + \\cos^2 x}{\\text{sen } x} = \\frac{1}{\\text{sen } x} = \\csc x$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01PZ",
-    "question": "Identifica qué funciones trigonométricas NO están definidas (tienden a infinito) para un ángulo de $90^\\circ$:\n1. Seno\n2. Tangente\n3. Coseno\n4. Secante\n5. Cosecante",
+    "question": "Completa el espacio en blanco: 'La expresión $1 + \\dots$ es igual a $\\sec^2 \\theta$.'",
     "image": null,
     "options": [
-      { "text": "2, 4", "correct": true },
-      { "text": "1, 3", "correct": false },
-      { "text": "2, 5", "correct": false },
-      { "text": "4, 5", "correct": false }
+      { "text": "$\\tan^2 \\theta$", "correct": true },
+      { "text": "$\\cot^2 \\theta$", "correct": false },
+      { "text": "$\\text{sen}^2 \\theta$", "correct": false },
+      { "text": "$\\cos^2 \\theta$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Cualquier función que tenga un término de $\\cos(x)$ en su denominador será indefinida en este ángulo, dado que $\\cos(90^\\circ) = 0$.",
-    "explanation": "La tangente $\\frac{\\text{sen} x}{\\cos x}$ y la secante $\\frac{1}{\\cos x}$ tienen ambas división entre cero para $90^\\circ$, marcando así asíntotas verticales en sus gráficas.",
+    "hint": "Esta identidad pitagórica involucra a la tangente.",
+    "explanation": "Se trata de la identidad pitagórica derivada para la secante.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QA",
-    "question": "La ley de ______ generaliza el Teorema de Pitágoras para cualquier triángulo. Su fórmula es $c^2 = a^2 + b^2 - 2ab \\cos(C)$, donde la presencia del término restado ajusta el cálculo cuando el triángulo no es ______.",
+    "question": "Relaciona: I) $\\sec x$, II) $\\csc x$, III) $\\cot x$; A) $1/\\tan x$, B) $1/\\cos x$, C) $1/\\text{sen } x$.",
     "image": null,
     "options": [
-      { "text": "Cosenos, rectángulo", "correct": true },
-      { "text": "Senos, isósceles", "correct": false },
-      { "text": "Tangentes, equilátero", "correct": false },
-      { "text": "Cosenos, acutángulo", "correct": false }
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Evalúa a qué valor hace referencia el uso del $\\cos(C)$ dentro de la fórmula en cuestión.",
-    "explanation": "La ley de cosenos es el equivalente al teorema de Pitágoras aplicado a todos los triángulos, ajustando para aquellos que carecen de un ángulo recto.",
+    "hint": "Ubica las funciones inversas correspondientes a cada razón trigonométrica.",
+    "explanation": "Correspondencias correctas de funciones recíprocas fundamentales.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QB",
-    "question": "¿Cuál es el valor numérico de $\\cos(180^\\circ)$ o $\\cos(\\pi)$?",
+    "question": "¿Cuál es el valor de $\\frac{\\text{sen } x}{\\cos x} \\cdot \\frac{\\cos x}{\\text{sen } x}$?",
     "image": null,
     "options": [
-      { "text": "$-1$", "correct": true },
+      { "text": "$1$", "correct": true },
       { "text": "$0$", "correct": false },
-      { "text": "$1$", "correct": false },
-      { "text": "$-\\frac{1}{2}$", "correct": false }
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\cot x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Imagina la coordenada x del punto posicionado completamente del lado izquierdo del círculo trigonométrico unitario.",
-    "explanation": "A $180^\\circ$ nos encontramos sobre el eje horizontal negativo en $(-1, 0)$, por lo tanto, el valor del coseno que representa la coordenada $x$ es $-1$.",
+    "hint": "Estás multiplicando una función por su recíproca ($\\tan x \\cdot \\cot x$).",
+    "explanation": "Al realizar el producto de fracciones, todos los términos se cancelan resultando en la unidad.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QC",
-    "question": "¿Cuánto vale la tangente de $45^\\circ$ (o $\\frac{\\pi}{4}$ radianes)?",
+    "question": "En una práctica del CEPREDIX, un estudiante determina que $\\text{sen } A \\cdot \\cot A$ es equivalente a:",
     "image": null,
     "options": [
-      { "text": "$1$", "correct": true },
-      { "text": "$\\sqrt{2}$", "correct": false },
-      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false },
-      { "text": "$0$", "correct": false }
+      { "text": "$\\cos A$", "correct": true },
+      { "text": "$\\text{sen } A$", "correct": false },
+      { "text": "$\\sec A$", "correct": false },
+      { "text": "$\\tan A$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que en un triángulo rectángulo e isósceles, los catetos tienen igual longitud.",
-    "explanation": "Dado que $\\text{sen}(45^\\circ)$ y $\\cos(45^\\circ)$ tienen idéntico valor, al dividir el uno entre el otro como marca la definición de tangente, la respuesta es $1$.",
+    "hint": "Recuerda que $\\cot A = \\cos A / \\text{sen } A$.",
+    "explanation": "Multiplicar el seno por la cotangente anula el término del seno en el denominador de la cotangente.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QD",
-    "question": "Al simplificar el producto $\\text{sen} x \\cdot \\csc x$ se obtiene:",
+    "question": "La expresión $(\\sec x - 1)(\\sec x + 1)$ es equivalente a:",
     "image": null,
     "options": [
-      { "text": "$1$", "correct": true },
-      { "text": "$\\tan x$", "correct": false },
-      { "text": "$\\text{sen}^2 x$", "correct": false },
-      { "text": "$0$", "correct": false }
+      { "text": "$\\tan^2 x$", "correct": true },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\text{sen}^2 x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Transforma la cosecante en su forma como inverso multiplicativo respecto al seno antes de multiplicar.",
-    "explanation": "Dado que $\\csc x = \\frac{1}{\\text{sen} x}$, la ecuación se reduce a $\\text{sen} x \\cdot \\frac{1}{\\text{sen} x} = 1$.",
+    "hint": "Aplica binomios conjugados para obtener $\\sec^2 x - 1$.",
+    "explanation": "La diferencia de cuadrados $\\sec^2 x - 1$ es igual a $\\tan^2 x$ por identidad pitagórica.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QE",
-    "question": "La conversión de $\\pi$ radianes a grados sexagesimales equivale a:",
+    "question": "¿Cuál es la forma simplificada de $\\cos x \\cdot \\tan x$?",
     "image": null,
     "options": [
-      { "text": "$180^\\circ$", "correct": true },
-      { "text": "$360^\\circ$", "correct": false },
-      { "text": "$90^\\circ$", "correct": false },
-      { "text": "$270^\\circ$", "correct": false }
+      { "text": "$\\text{sen } x$", "correct": true },
+      { "text": "$\\cos x$", "correct": false },
+      { "text": "$\\sec x$", "correct": false },
+      { "text": "$\\cot x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El perímetro de un círculo unitario completo tiene una longitud en radianes de $2\\pi$. ¿A cuántos grados equivaldría la mitad de dicha medida?",
-    "explanation": "Por definición estándar del sistema cíclico o internacional al sistema sexagesimal, $1 \\pi \\text{ rad} = 180^\\circ$.",
+    "hint": "Expresa la tangente como cociente de seno y coseno.",
+    "explanation": "Multiplicar el coseno por la tangente elimina el coseno del denominador de la tangente.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QF",
-    "question": "La expresión $\\text{sen}^2(x) - 1$ es equivalente algebraicamente a:",
+    "question": "Identifica los elementos de este listado que son identidades trigonométricas:\n1. $\\sec^2 x - \\tan^2 x = 1$\n2. $\\text{sen } x + \\cos x = 1$\n3. $\\csc^2 x - \\cot^2 x = 1$\n4. $\\tan x = \\cos x / \\text{sen } x$",
     "image": null,
     "options": [
-      { "text": "$-\\cos^2(x)$", "correct": true },
-      { "text": "$\\cos^2(x)$", "correct": false },
-      { "text": "$\\tan^2(x)$", "correct": false },
-      { "text": "$-\\text{sen}^2(x)$", "correct": false }
+      { "text": "1, 3", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "Solo 1", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Toma la ecuación pitagórica básica $\\text{sen}^2 x + \\cos^2 x = 1$ y despeja de forma adecuada, prestando atención cuidadosa a los signos.",
-    "explanation": "Despejando $\\cos^2(x)$ nos da $1 - \\text{sen}^2(x)$. Al multiplicar ambos lados por $-1$, obtenemos $- \\cos^2(x) = \\text{sen}^2(x) - 1$.",
+    "hint": "Analiza cuidadosamente los signos y las definiciones de tangente.",
+    "explanation": "Las opciones 1 y 3 son formas correctas de las identidades pitagóricas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QG",
-    "question": "En la función trigonométrica modelada por $y = 3 \\text{sen}(x)$, el número $3$ representa:",
+    "question": "Simplifica la expresión $\\frac{\\cos x}{\\cot x}$ para una aplicación en el CEPREDIX.",
     "image": null,
     "options": [
-      { "text": "La amplitud de la onda", "correct": true },
-      { "text": "El periodo de la función", "correct": false },
-      { "text": "El desplazamiento de fase horizontal", "correct": false },
-      { "text": "El desplazamiento vertical", "correct": false }
+      { "text": "$\\text{sen } x$", "correct": true },
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$1$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Observa el coeficiente que altera el alcance del recorrido entre el punto más alto de las crestas y el equilibrio de la gráfica.",
-    "explanation": "El coeficiente constante que se sitúa y multiplica a la función trigonométrica expande los rangos definidos de sus gráficas marcando una nueva amplitud máxima y mínima.",
+    "hint": "La cotangente es $\\cos x / \\text{sen } x$.",
+    "explanation": "Al dividir el coseno entre la cotangente, el coseno se simplifica y el seno pasa al numerador.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01QH",
-    "question": "¿Cuál es el periodo fundamental de la función $y = \\cos(2x)$?",
+    "question": "¿Cuál es el resultado de $(\\csc^2 x - 1) \\cdot \\tan^2 x$?",
     "image": null,
     "options": [
-      { "text": "$\\pi$", "correct": true },
-      { "text": "$2\\pi$", "correct": false },
-      { "text": "$\\frac{\\pi}{2}$", "correct": false },
-      { "text": "$4\\pi$", "correct": false }
+      { "text": "$1$", "correct": true },
+      { "text": "$\\cos^2 x$", "correct": false },
+      { "text": "$\\text{sen}^2 x$", "correct": false },
+      { "text": "$\\cot^2 x$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El periodo modificado $P$ de una función cosenoidal típica se calcula dividiendo la base general del periodo normal, $2\\pi$, entre la magnitud o coeficiente $b$ del argumento.",
-    "explanation": "Calculando $P = \\frac{2\\pi}{b}$, se obtiene $P = \\frac{2\\pi}{2} = \\pi$. Es decir, completa una oscilación completa en la mitad de tiempo.",
+    "hint": "Transforma el paréntesis a $\\cot^2 x$.",
+    "explanation": "El producto de las funciones recíprocas al cuadrado ($\\cot^2 x \\cdot \\tan^2 x$) es igual a 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QI",
+    "question": "Halle la derivada de la función constante $Y = 8$.",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$8x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para cualquier valor $c$ que no dependa de $x$, se aplica la regla $\\frac{d}{dx}(c) = 0$.",
+    "explanation": "La derivada representa la razón de cambio de una función. Una constante no cambia su valor, por lo tanto, su derivada es nula.",
+    "explanative_video": null,
+    "collapsible_text": "En el cálculo diferencial, la derivada de cualquier número real, constante o símbolo que no contenga la variable independiente es siempre cero."
+  },
+  {
+    "id": "CEP01QJ",
+    "question": "Halle la derivada de la función identidad $Y = X$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$X$", "correct": false },
+      { "text": "$X^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de la potencia $X^n$ con $n=1$. La fórmula general es $nX^{n-1}$.",
+    "explanation": "Al derivar $X^1$ obtenemos $1 \\cdot X^{1-1} = 1 \\cdot X^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": "La función identidad tiene una pendiente constante de 1 en todo su dominio."
+  },
+  {
+    "id": "CEP01QK",
+    "question": "Determine la derivada de la función $Y = 5X$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$5X$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para una función de la forma $Y = cX$, la derivada es simplemente el coeficiente $c$.",
+    "explanation": "La derivada de una constante por una variable es la constante misma multiplicada por la derivada de la variable ($5 \\cdot 1$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QL",
+    "question": "Calcule la derivada de la función de potencia simple $Y = X^5$.",
+    "image": null,
+    "options": [
+      { "text": "$5X^4$", "correct": true },
+      { "text": "$X^4$", "correct": false },
+      { "text": "$5X^6$", "correct": false },
+      { "text": "$25X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Baja el exponente a multiplicar y réstale uno al grado original: $\\frac{d}{dx}(X^n) = nX^{n-1}$.",
+    "explanation": "Siguiendo la regla de la potencia: $5 \\cdot X^{(5-1)} = 5X^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QM",
+    "question": "En un examen del CEPREDIX se solicita hallar la derivada de $Y = -15.4$. ¿Cuál es el resultado correcto?",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$-15.4$", "correct": false },
+      { "text": "$-1$", "correct": false },
+      { "text": "$15.4X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica si la función depende de la variable $X$. Si no, es una constante.",
+    "explanation": "Cualquier número real sin variable tiene una derivada de cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QN",
+    "question": "Halle la derivada de la función $Y = X^{-3}$.",
+    "image": null,
+    "options": [
+      { "text": "$-3X^{-4}$", "correct": true },
+      { "text": "$-3X^{-2}$", "correct": false },
+      { "text": "$3X^{-4}$", "correct": false },
+      { "text": "$-3X^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla $nX^{n-1}$ con $n = -3$. Recuerda que $-3 - 1 = -4$.",
+    "explanation": "Bajamos el $-3$ y al exponente $-3$ le restamos $1$, resultando en $-4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QO",
+    "question": "Complete el enunciado: 'La derivada de la función $Y = \\pi^2$ es igual a ______, debido a que $\\pi^2$ representa una ______.'",
+    "image": null,
+    "options": [
+      { "text": "0, constante", "correct": true },
+      { "text": "2\\pi, potencia", "correct": false },
+      { "text": "\\pi, variable", "correct": false },
+      { "text": "0, identidad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$\\pi$ es un número aproximadamente igual a 3.1416. ¿Su cuadrado contiene a $X$?",
+    "explanation": "Al ser un valor numérico fijo, su derivada es cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QP",
+    "question": "Relacione la función con su derivada:\nI. $Y = X^2$\nII. $Y = 3X$\nIII. $Y = -7$\n\nA. $3$\nB. $0$\nC. $2X$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica las reglas de potencia, constante por variable y constante pura.",
+    "explanation": "Derivada de $X^2$ es $2X$; de $3X$ es $3$; de $-7$ es $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QQ",
+    "question": "Seleccione los elementos que corresponden a las derivadas correctas de las siguientes funciones:\n1. $f(x) = X^3 \\to f'(x) = 3X^2$\n2. $f(x) = \\sqrt{2}X \\to f'(x) = \\sqrt{2}$\n3. $f(x) = 1/X \\to f'(x) = 1$\n4. $f(x) = 10 \\to f'(x) = 0$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La derivada de $1/X$ (o $X^{-1}$) no es 1.",
+    "explanation": "La derivada de $1/X$ es $-X^{-2}$. Las opciones 1, 2 y 4 siguen las reglas básicas correctamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QR",
+    "question": "Un estudiante del CEPREDIX analiza la función $Y = \\sqrt{2}X$. ¿Cuál es la pendiente de la recta tangente a esta función en cualquier punto?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{2}$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$X$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La pendiente de la recta tangente es la derivada de la función. Aplica la regla de constante por $X$.",
+    "explanation": "Como la función es lineal ($Y = mX + b$), su derivada es la pendiente constante $m = \\sqrt{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QS",
+    "question": "Halle la derivada de la función $Y = X^{2/3}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}X^{-1/3}$", "correct": true },
+      { "text": "$\\frac{3}{2}X^{-1/3}$", "correct": false },
+      { "text": "$\\frac{2}{3}X^{1/3}$", "correct": false },
+      { "text": "$\\frac{2}{3}X^{2/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Baja el exponente fraccionario y resta uno: $\\frac{2}{3} - 1 = -\\frac{1}{3}$.",
+    "explanation": "Aplicando $nX^{n-1}$: $\\frac{2}{3}X^{2/3 - 1} = \\frac{2}{3}X^{-1/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QT",
+    "question": "Determine la derivada de $Y = -\\frac{3}{4}X$.",
+    "image": null,
+    "options": [
+      { "text": "$-3/4$", "correct": true },
+      { "text": "$3/4$", "correct": false },
+      { "text": "$-3/4X$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de derivación para una constante multiplicada por la variable independiente.",
+    "explanation": "La derivada de $cX$ es $c$. Aquí $c = -3/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QU",
+    "question": "Calcule la derivada de la función $Y = 3X^4$.",
+    "image": null,
+    "options": [
+      { "text": "$12X^3$", "correct": true },
+      { "text": "$7X^3$", "correct": false },
+      { "text": "$12X^5$", "correct": false },
+      { "text": "$12X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el coeficiente por el exponente y luego resta uno al exponente: $c \\cdot n X^{n-1}$.",
+    "explanation": "$3 \\cdot 4 = 12$. El nuevo exponente es $4-1=3$. Resultado: $12X^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QV",
+    "question": "Halle la derivada de $Y = -2X^{-5}$.",
+    "image": null,
+    "options": [
+      { "text": "$10X^{-6}$", "correct": true },
+      { "text": "$-10X^{-6}$", "correct": false },
+      { "text": "$10X^{-4}$", "correct": false },
+      { "text": "$10X^6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $(-2) \\cdot (-5)$ y resta uno al exponente: $-5 - 1$.",
+    "explanation": "El producto de los signos negativos da positivo: $10$. El exponente disminuye a $-6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QW",
+    "question": "En el CEPREDIX se estudia la regla de la raíz cuadrada. ¿Cuál es la derivada de $Y = \\sqrt{X}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2\\sqrt{X}}$", "correct": true },
+      { "text": "$2\\sqrt{X}$", "correct": false },
+      { "text": "$\\frac{1}{\\sqrt{X}}$", "correct": false },
+      { "text": "$\\frac{1}{2}X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Escribe la raíz como exponente fraccionario $X^{1/2}$ y aplica la regla de la potencia.",
+    "explanation": "$\\frac{1}{2}X^{-1/2} = \\frac{1}{2X^{1/2}} = \\frac{1}{2\\sqrt{X}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QX",
+    "question": "Determine la derivada de la función $Y = \\frac{1}{2}X^8$.",
+    "image": null,
+    "options": [
+      { "text": "$4X^7$", "correct": true },
+      { "text": "$8X^7$", "correct": false },
+      { "text": "$4X^8$", "correct": false },
+      { "text": "$1/16X^7$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la fracción $1/2$ por el exponente $8$.",
+    "explanation": "$8/2 = 4$. El exponente baja a $7$. Resultado: $4X^7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QY",
+    "question": "Halle la derivada de la raíz cúbica $Y = \\sqrt[3]{X}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{3}X^{-2/3}$", "correct": true },
+      { "text": "$3X^2$", "correct": false },
+      { "text": "$\\frac{1}{3}X^{2/3}$", "correct": false },
+      { "text": "$\\frac{1}{3}X^{-1/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma la raíz a exponente: $X^{1/3}$. Aplica la regla $nX^{n-1}$.",
+    "explanation": "$\\frac{1}{3}X^{1/3 - 1} = \\frac{1}{3}X^{-2/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QZ",
+    "question": "Determine la derivada de la función $Y = \\sqrt[5]{X}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{5}X^{-4/5}$", "correct": true },
+      { "text": "$5X^4$", "correct": false },
+      { "text": "$\\frac{1}{5}X^{4/5}$", "correct": false },
+      { "text": "$\\frac{1}{5}X^{-1/5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $\\sqrt[n]{x} = x^{1/n}$. En este caso $n=5$.",
+    "explanation": "La derivada es $\\frac{1}{5}X^{(1/5)-1} = \\frac{1}{5}X^{-4/5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RA",
+    "question": "Halle la derivada de $Y = \\sqrt[10]{X}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{10}X^{-9/10}$", "correct": true },
+      { "text": "$10X^9$", "correct": false },
+      { "text": "$\\frac{1}{10}X^{9/10}$", "correct": false },
+      { "text": "$X^{-9/10}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte la raíz décima a potencia y aplica la regla correspondiente.",
+    "explanation": "$\\frac{d}{dx}X^{1/10} = \\frac{1}{10}X^{1/10 - 1} = \\frac{1}{10}X^{-9/10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RB",
+    "question": "Calcule la derivada de la suma de funciones $Y = X^2 + 5X - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$2X + 5$", "correct": true },
+      { "text": "$2X + 5 - 3$", "correct": false },
+      { "text": "$X^2 + 5$", "correct": false },
+      { "text": "$2X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva término a término: $\\frac{d}{dx}(u + v - w) = u' + v' - w'$.",
+    "explanation": "Derivada de $X^2$ es $2X$; de $5X$ es $5$; de $-3$ es $0$. Sumando obtenemos $2X + 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RC",
+    "question": "Determine la derivada de $Y = 4X^3 - \\frac{1}{2}X^2 + 7$.",
+    "image": null,
+    "options": [
+      { "text": "$12X^2 - X$", "correct": true },
+      { "text": "$12X^2 - 1/2X$", "correct": false },
+      { "text": "$4X^2 - X$", "correct": false },
+      { "text": "$12X^2 - X + 7$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica coeficientes por exponentes en cada término y recuerda la derivada de una constante.",
+    "explanation": "$4 \\cdot 3X^2 = 12X^2$ y $-(1/2) \\cdot 2X = -X$. El $7$ se convierte en $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RD",
+    "question": "Halle la derivada de $Y = \\sqrt{X} + X^4 - 2X$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2\\sqrt{X}} + 4X^3 - 2$", "correct": true },
+      { "text": "$2\\sqrt{X} + 4X^3 - 2$", "correct": false },
+      { "text": "$\\frac{1}{2\\sqrt{X}} + 4X^4 - 2$", "correct": false },
+      { "text": "$\\frac{1}{2\\sqrt{X}} + X^3 - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva por separado la raíz cuadrada, la potencia cuarta y el término lineal.",
+    "explanation": "La derivada de la suma es la suma de las derivadas de cada término.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RE",
+    "question": "En el CEPREDIX, un estudiante desea hallar la derivada de $Y = (X+1)(X-2)$ expandiendo primero el binomio. ¿Cuál es la derivada del trinomio resultante?",
+    "image": null,
+    "options": [
+      { "text": "$2X - 1$", "correct": true },
+      { "text": "$X^2 - X - 2$", "correct": false },
+      { "text": "$2X + 1$", "correct": false },
+      { "text": "$2X - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero realiza la multiplicación: $X^2 - 2X + X - 2$. Simplifica y luego deriva.",
+    "explanation": "El producto es $X^2 - X - 2$. Su derivada es $2X - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RF",
+    "question": "Calcule la derivada de la función $Y = X^2 (3X^3 + 1)$ expandiendo el producto.",
+    "image": null,
+    "options": [
+      { "text": "$15X^4 + 2X$", "correct": true },
+      { "text": "$6X^4 + 2X$", "correct": false },
+      { "text": "$15X^5 + 2X$", "correct": false },
+      { "text": "$3X^5 + X^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $X^2$ por cada término dentro del paréntesis para obtener un polinomio simple.",
+    "explanation": "La expansión es $3X^5 + X^2$. Derivando: $15X^4 + 2X$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RG",
+    "question": "Halle la derivada de $Y = (X^2 + 1)\\sqrt{X}$ tras expandir a potencias de $X$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{2}X^{3/2} + \\frac{1}{2}X^{-1/2}$", "correct": true },
+      { "text": "$2.5X^{1.5} + 0.5X^{0.5}$", "correct": false },
+      { "text": "$2X \\cdot \\frac{1}{2\\sqrt{X}}$", "correct": false },
+      { "text": "$\\frac{3}{2}X^{3/2} + X^{-1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $X^2 \\cdot X^{1/2} = X^{5/2}$. Expande la función a $X^{5/2} + X^{1/2}$.",
+    "explanation": "Derivada de $X^{5/2}$ es $2.5X^{3/2}$. Derivada de $X^{1/2}$ es $0.5X^{-1/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RH",
+    "question": "Rellene los espacios: 'La derivada de la función $Y = \\frac{X^3 + 2X}{5}$ se puede hallar derivando el numerador y manteniendo el denominador, resultando en ______ / ______.'",
+    "image": null,
+    "options": [
+      { "text": "$3X^2 + 2, 5$", "correct": true },
+      { "text": "$3X^2, 5$", "correct": false },
+      { "text": "$X^2 + 2, 5$", "correct": false },
+      { "text": "$3X^2 + 2, 0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando divides una función entre una constante, la derivada es la derivada de la función sobre la misma constante.",
+    "explanation": "Derivamos $X^3 + 2X$ obteniendo $3X^2 + 2$. El denominador $5$ permanece igual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RI",
+    "question": "Halle la derivada de la función $Y = \\frac{1}{10}(X^2 - 5X)$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2X - 5}{10}$", "correct": true },
+      { "text": "$2X - 5$", "correct": false },
+      { "text": "$\\frac{X^2 - 5X}{10}$", "correct": false },
+      { "text": "$\\frac{2X}{10}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Trata al $1/10$ como una constante multiplicativa externa.",
+    "explanation": "Multiplicamos la constante por la derivada del paréntesis: $\\frac{1}{10}(2X - 5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RJ",
+    "question": "Identifique el valor de la derivada de $Y = \\frac{\\sqrt{X} - 1}{4}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{8\\sqrt{X}}$", "correct": true },
+      { "text": "$\\frac{1}{2\\sqrt{X}}$", "correct": false },
+      { "text": "$\\frac{1}{4\\sqrt{X}}$", "correct": false },
+      { "text": "$\\frac{1}{8}X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva $\\sqrt{X}$ (que es $\\frac{1}{2\\sqrt{X}}$) y divide el resultado entre 4.",
+    "explanation": "$\\frac{1}{4} \\cdot \\frac{1}{2\\sqrt{X}} = \\frac{1}{8\\sqrt{X}}$. La constante $-1$ desaparece.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RK",
+    "question": "Halle la derivada de la función $Y = \\frac{5}{X}$.",
+    "image": null,
+    "options": [
+      { "text": "$-5/X^2$", "correct": true },
+      { "text": "$5/X^2$", "correct": false },
+      { "text": "$-5/X$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Reescribe la función como $5X^{-1}$ y aplica la regla de la potencia.",
+    "explanation": "$5 \\cdot (-1)X^{-2} = -5X^{-2} = -5/X^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RL",
+    "question": "En el CEPREDIX se analiza la derivada de $Y = \\frac{1}{X^2 + 3}$. ¿Cuál es el resultado utilizando la regla de la constante entre función?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{-2X}{(X^2 + 3)^2}$", "correct": true },
+      { "text": "$\\frac{2X}{(X^2 + 3)^2}$", "correct": false },
+      { "text": "$\\frac{-1}{(X^2 + 3)^2}$", "correct": false },
+      { "text": "$\\frac{-2X}{X^2 + 3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula es $Y' = \\frac{-k \\cdot v'}{v^2}$ donde $k=1$ y $v=X^2+3$.",
+    "explanation": "Multiplicamos $-1$ por la derivada de $X^2+3$ (que es $2X$) y dividimos por el denominador al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RM",
+    "question": "Halle la derivada de $Y = \\frac{-3}{4X - 2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{12}{(4X - 2)^2}$", "correct": true },
+      { "text": "$\\frac{-12}{(4X - 2)^2}$", "correct": false },
+      { "text": "$\\frac{12}{4X - 2}$", "correct": false },
+      { "text": "$\\frac{-3}{(4X - 2)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica $Y' = \\frac{-k \\cdot v'}{v^2}$. Ten cuidado con el signo de $k = -3$.",
+    "explanation": "$-(-3) \\cdot 4 = 12$. El resultado se divide entre el cuadrado del denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RN",
+    "question": "Determine la derivada de la raíz compuesta $Y = \\sqrt{3X^2 + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3X}{\\sqrt{3X^2 + 1}}$", "correct": true },
+      { "text": "$\\frac{6X}{\\sqrt{3X^2 + 1}}$", "correct": false },
+      { "text": "$\\frac{1}{2\\sqrt{3X^2 + 1}}$", "correct": false },
+      { "text": "$\\frac{3X}{3X^2 + 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la regla $\\frac{u'}{2\\sqrt{u}}$. Primero halla la derivada de $3X^2 + 1$.",
+    "explanation": "La derivada de $3X^2+1$ es $6X$. Dividiendo entre $2\\sqrt{u}$ queda $3X/\\sqrt{u}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RO",
+    "question": "Relacione el radicando con la derivada de su raíz cuadrada:\nI. $X^2 + X$\nII. $5 - X$\nIII. $X^3$\n\nA. $\\frac{-1}{2\\sqrt{5-X}}$\nB. $\\frac{2X+1}{2\\sqrt{X^2+X}}$\nC. $\\frac{3X^2}{2\\sqrt{X^3}}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva el contenido de la raíz y colócalo en el numerador; el doble de la raíz original va en el denominador.",
+    "explanation": "Aplicación de la regla de la cadena para raíces cuadradas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RP",
+    "question": "Calcule la derivada de $Y = \\sqrt{X^3 + X^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3X^2 + 2X}{2\\sqrt{X^3 + X^2}}$", "correct": true },
+      { "text": "$\\frac{3X^2 + 2X}{\\sqrt{X^3 + X^2}}$", "correct": false },
+      { "text": "$\\frac{1}{2\\sqrt{X^3 + X^2}}$", "correct": false },
+      { "text": "$\\frac{X^2 + X}{2\\sqrt{X^3 + X^2}}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica $u = X^3 + X^2$. Halla $u'$ y aplica la fórmula de la raíz cuadrada.",
+    "explanation": "La derivada interna es $3X^2 + 2X$. Se coloca sobre dos veces la raíz original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RQ",
+    "question": "Halle la derivada de la raíz cúbica de una función $Y = \\sqrt[3]{X^2 + 5}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2X}{3\\sqrt[3]{(X^2 + 5)^2}}$", "correct": true },
+      { "text": "$\\frac{2X}{\\sqrt[3]{X^2 + 5}}$", "correct": false },
+      { "text": "$\\frac{1}{3\\sqrt[3]{(X^2 + 5)^2}}$", "correct": false },
+      { "text": "$\\frac{2X}{3(X^2 + 5)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La regla es $Y' = \\frac{u'}{3\\sqrt[3]{u^2}}$. Deriva $X^2+5$ para obtener $u'$.",
+    "explanation": "Derivada interna: $2X$. Denominador: tres veces la raíz cúbica del radicando al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RR",
+    "question": "Determine la derivada de $Y = \\sqrt[4]{2X^3 - 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{6X^2}{4\\sqrt[4]{(2X^3 - 1)^3}}$", "correct": true },
+      { "text": "$\\frac{6X^2}{\\sqrt[4]{2X^3 - 1}}$", "correct": false },
+      { "text": "$\\frac{3X^2}{2\\sqrt[4]{(2X^3 - 1)^3}}$", "correct": false },
+      { "text": "$\\frac{6X^2}{4\\sqrt[4]{2X^3 - 1}}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la regla general para la raíz enésima: $Y' = \\frac{u'}{n\\sqrt[n]{u^{n-1}}}$. Aquí $n=4$.",
+    "explanation": "La derivada de $2X^3-1$ es $6X^2$. Se aplica la fórmula para raíces de cuarto grado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RS",
+    "question": "En el CEPREDIX se estudia la potencia de una función. ¿Cuál es la derivada de $Y = (2X + 3)^4$?",
+    "image": null,
+    "options": [
+      { "text": "$8(2X + 3)^3$", "correct": true },
+      { "text": "$4(2X + 3)^3$", "correct": false },
+      { "text": "$8(2X + 3)^4$", "correct": false },
+      { "text": "$4(2X + 3)^5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de la cadena: $n u^{n-1} \\cdot u'$. No olvides derivar el interior $(2X+3)$.",
+    "explanation": "$4 \\cdot (2X+3)^3 \\cdot (2) = 8(2X+3)^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RT",
+    "question": "Halle la derivada de la función $Y = (X^2 - 5X)^{10}$.",
+    "image": null,
+    "options": [
+      { "text": "$10(X^2 - 5X)^9 (2X - 5)$", "correct": true },
+      { "text": "$10(X^2 - 5X)^9$", "correct": false },
+      { "text": "$(X^2 - 5X)^9 (2X - 5)$", "correct": false },
+      { "text": "$10(2X - 5)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica $u = X^2 - 5X$. La derivada es $10 u^9 \\cdot u'$.",
+    "explanation": "Bajamos el 10, restamos uno al exponente y multiplicamos por la derivada interna $(2X-5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RU",
+    "question": "Calcule la derivada de la función con potencia negativa $Y = (1 - X^2)^{-3}$.",
+    "image": null,
+    "options": [
+      { "text": "$6X(1 - X^2)^{-4}$", "correct": true },
+      { "text": "$-3(1 - X^2)^{-4}$", "correct": false },
+      { "text": "$-6X(1 - X^2)^{-4}$", "correct": false },
+      { "text": "$-3(1 - X^2)^{-2} (-2X)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el exponente $-3$ por la derivada interna $-2X$.",
+    "explanation": "$-3 \\cdot (1-X^2)^{-4} \\cdot (-2X) = 6X(1-X^2)^{-4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RV",
+    "question": "Determine la derivada de $Y = 3(4X + 1)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$24(4X + 1)$", "correct": true },
+      { "text": "$6(4X + 1)$", "correct": false },
+      { "text": "$24X$", "correct": false },
+      { "text": "$12(4X + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la constante externa por el exponente y por la derivada interna: $3 \\cdot 2 \\cdot 4$.",
+    "explanation": "$3 \\cdot 2 \\cdot (4X+1)^1 \\cdot 4 = 24(4X+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RW",
+    "question": "Halle la derivada de la función fraccionaria $Y = \\frac{1}{2}(X^3 - 8)^5$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{15}{2}X^2(X^3 - 8)^4$", "correct": true },
+      { "text": "$\\frac{5}{2}(X^3 - 8)^4$", "correct": false },
+      { "text": "$15X^2(X^3 - 8)^4$", "correct": false },
+      { "text": "$5X^2(X^3 - 8)^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $1/2$ por $5$ y por la derivada de $X^3-8$.",
+    "explanation": "$\\frac{1}{2} \\cdot 5 \\cdot (X^3-8)^4 \\cdot 3X^2 = \\frac{15}{2}X^2(X^3-8)^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RX",
+    "question": "Determine la derivada de $Y = -2(5X^2 + X)^{-2}$.",
+    "image": null,
+    "options": [
+      { "text": "$4(10X + 1)(5X^2 + X)^{-3}$", "correct": true },
+      { "text": "$20X(5X^2 + X)^{-3}$", "correct": false },
+      { "text": "$4(5X^2 + X)^{-3}$", "correct": false },
+      { "text": "$-4(10X + 1)(5X^2 + X)^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El coeficiente externo será $(-2) \\cdot (-2) = 4$. Multiplica luego por la derivada de $5X^2+X$.",
+    "explanation": "Aplicación de la regla de la cadena: $4 \\cdot (5X^2+X)^{-3} \\cdot (10X+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RY",
+    "question": "Seleccione las funciones cuya derivada sea siempre $0$:\n1. $f(x) = \\sqrt{5}$\n2. $f(x) = X^0$\n3. $f(x) = e$\n4. $f(x) = \\log(10)$",
+    "image": null,
+    "options": [
+      { "text": "Todas las anteriores", "correct": true },
+      { "text": "1, 3 y 4", "correct": false },
+      { "text": "Solo 1 y 3", "correct": false },
+      { "text": "1, 2 y 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuáles de estos términos son constantes numéricas sin la variable $X$.",
+    "explanation": "Todos son valores constantes: $\\sqrt{5}$, $X^0=1$, $e \\approx 2.71$ y $\\log(10)=1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01RZ",
+    "question": "Rellene: 'La derivada de la función $Y = \\frac{1}{x^n}$ se puede calcular reescribiéndola como $Y = x^{-n}$, lo que resulta en $Y' = -n x^{______}$.'",
+    "image": null,
+    "options": [
+      { "text": "-n-1", "correct": true },
+      { "text": "-n+1", "correct": false },
+      { "text": "n-1", "correct": false },
+      { "text": "n", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta la unidad al exponente negativo $-n$.",
+    "explanation": "Siguiendo la regla de la potencia: $(-n) - 1 = -n-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SA",
+    "question": "Halle la derivada de $Y = \\sqrt[5]{(X+1)^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{5}(X+1)^{-3/5}$", "correct": true },
+      { "text": "$\\frac{2}{5}(X+1)^{3/5}$", "correct": false },
+      { "text": "$\\frac{1}{5}(X+1)^{-3/5}$", "correct": false },
+      { "text": "$\\frac{2}{5}X^{-3/5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Escribe como $(X+1)^{2/5}$ y deriva usando la regla de la cadena.",
+    "explanation": "$\\frac{2}{5} \\cdot (X+1)^{(2/5)-1} \\cdot 1 = \\frac{2}{5}(X+1)^{-3/5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SB",
+    "question": "Halle la derivada de $Y = \\frac{X^2}{5} - \\frac{X}{2} + \\sqrt{3}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2X}{5} - \\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{2X}{5} - \\frac{1}{2} + \\frac{1}{2\\sqrt{3}}$", "correct": false },
+      { "text": "$\\frac{X}{5} - \\frac{1}{2}$", "correct": false },
+      { "text": "$2X - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Deriva los términos lineales y cuadráticos; recuerda que $\\sqrt{3}$ es constante.",
+    "explanation": "La derivada de $X^2/5$ es $2X/5$. La de $-X/2$ es $-1/2$. $\\sqrt{3}$ es $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SC",
+    "question": "Determine la derivada de $Y = (X+1)^2$ sin expandir.",
+    "image": null,
+    "options": [
+      { "text": "$2X + 2$", "correct": true },
+      { "text": "$2X + 1$", "correct": false },
+      { "text": "$X + 1$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa $n u^{n-1} u'$. Aquí $u = X+1$ y $u' = 1$.",
+    "explanation": "$2 \\cdot (X+1)^1 \\cdot 1 = 2X + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SD",
+    "question": "Calcule la derivada de la función $Y = \\frac{1}{X^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$-2/X^3$", "correct": true },
+      { "text": "$2/X^3$", "correct": false },
+      { "text": "$-1/X$", "correct": false },
+      { "text": "$-2X$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sube el exponente al numerador cambiando su signo: $X^{-2}$. Luego deriva.",
+    "explanation": "$-2X^{-2-1} = -2X^{-3} = -2/X^3$.",
     "explanative_video": null,
     "collapsible_text": null
   }
