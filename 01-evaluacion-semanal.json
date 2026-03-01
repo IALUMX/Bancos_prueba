@@ -23493,5 +23493,653 @@
     "explanation": "Los accidentes laborales se asocian a condiciones inseguras o actos inseguros en el trabajo.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01XS",
+    "question": "¿Cuál es el resultado simplificado de la operación $x^5 \\cdot x^3$?",
+    "image": null,
+    "options": [
+      { "text": "$x^8$", "correct": true },
+      { "text": "$x^{15}$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$2x^8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la ley del producto de potencias: $a^m \\cdot a^n = a^{m+n}$.",
+    "explanation": "Al multiplicar potencias con la misma base, los exponentes se suman: $5 + 3 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": "En el álgebra, cuando las bases son iguales y se multiplican, los exponentes indican cuántas veces se multiplica la base en total, por lo tanto, se suman."
+  },
+  {
+    "id": "CEP01XT",
+    "question": "¿Qué expresión representa correctamente el cociente $\\frac{y^{10}}{y^4}$?",
+    "image": null,
+    "options": [
+      { "text": "$y^6$", "correct": true },
+      { "text": "$y^{14}$", "correct": false },
+      { "text": "$y^{2.5}$", "correct": false },
+      { "text": "$y^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para la división de bases iguales se aplica $a^m / a^n = a^{m-n}$.",
+    "explanation": "Se conserva la base $y$ y se resta el exponente del numerador menos el del denominador: $10 - 4 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XU",
+    "question": "Identifica cuáles de las siguientes potencias resultan en un valor positivo:\n1. $(-2)^4$\n2. $(-3)^3$\n3. $-(5)^2$\n4. $(-1)^{10}$",
+    "image": null,
+    "options": [
+      { "text": "1, 4", "correct": true },
+      { "text": "1, 2", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Una base negativa elevada a una potencia par resulta siempre en un signo positivo.",
+    "explanation": "$(-2)^4 = 16$ y $(-1)^{10} = 1$. Las potencias impares o signos fuera del paréntesis mantienen el negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XV",
+    "question": "La ley de ______ establece que cualquier base elevada a la potencia ______ es igual a 1, mientras que la ley de potencia de una potencia indica que los exponentes se ______.",
+    "image": null,
+    "options": [
+      { "text": "Exponente cero, cero, multiplican", "correct": true },
+      { "text": "Exponente uno, uno, suman", "correct": false },
+      { "text": "Potencia, cero, restan", "correct": false },
+      { "text": "Inversa, uno, dividen", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la definición de $a^0$ y la operación en $(a^m)^n$.",
+    "explanation": "Cualquier número no nulo a la cero es 1 ($a^0=1$) y en potencia de potencia se multiplican: $(a^m)^n = a^{m \\cdot n}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XW",
+    "question": "Un estudiante del CEPREDIX debe relacionar las siguientes leyes de exponentes con su forma algebraica:\nI. Producto de potencias\nII. Cociente de potencias\nIII. Potencia de un producto\n\nA. $(ab)^n = a^n b^n$\nB. $a^m \\cdot a^n = a^{m+n}$\nC. $\\frac{a^m}{a^n} = a^{m-n}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la expresión que suma, la que resta y la que distribuye el exponente.",
+    "explanation": "El producto suma exponentes, el cociente los resta y la potencia de un producto distribuye el exponente a cada factor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XX",
+    "question": "¿Cuál es el valor de la expresión $(-3)^2 + 2^3 - 5^0$?",
+    "image": null,
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "17", "correct": false },
+      { "text": "18", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve cada potencia por separado: $(-3)^2$, $2^3$ y $5^0$.",
+    "explanation": "$(-3)^2 = 9$, $2^3 = 8$ y $5^0 = 1$. Entonces: $9 + 8 - 1 = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XY",
+    "question": "Al simplificar la expresión $(x^2 y^3)^4$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "$x^8 y^{12}$", "correct": true },
+      { "text": "$x^6 y^7$", "correct": false },
+      { "text": "$x^2 y^{12}$", "correct": false },
+      { "text": "$x^8 y^3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la ley de potencia de una potencia multiplicando el exponente exterior por cada interior.",
+    "explanation": "Se multiplica $4 \\cdot 2$ para $x$ y $4 \\cdot 3$ para $y$, resultando en $x^8 y^{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01XZ",
+    "question": "Selecciona las expresiones que son equivalentes a $x^{-2}$:\n1. $\\frac{1}{x^2}$\n2. $\\frac{x^3}{x^5}$\n3. $x^0 \\cdot x^{-2}$\n4. $(x^2)^{-1}$",
+    "image": null,
+    "options": [
+      { "text": "Todas", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un exponente negativo indica un recíproco o el resultado de una resta donde el sustraendo es mayor.",
+    "explanation": "Todas las opciones simplifican a $x^{-2}$ mediante las leyes de inversa, cociente, producto y potencia de potencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YA",
+    "question": "En la expresión $\\frac{a^n}{a^m}$, el exponente final es $n-m$. Si el resultado es $a^0$, esto significa que el valor de $n$ con respecto a $m$ debe ser ______ y el valor numérico final es ______.",
+    "image": null,
+    "options": [
+      { "text": "Igual, 1", "correct": true },
+      { "text": "Mayor, 0", "correct": false },
+      { "text": "Menor, 1", "correct": false },
+      { "text": "Cero, indefinido", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que la resta de dos números sea cero, ¿cómo deben ser esos números?",
+    "explanation": "Si $n = m$, entonces $n-m = 0$, y $a^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YB",
+    "question": "Un problema del CEPREDIX requiere relacionar las formas radicales con su exponente fraccionario:\nI. $\\sqrt{x^3}$\nII. $\\sqrt[3]{x^2}$\nIII. $\\sqrt[5]{x}$\n\nA. $x^{2/3}$\nB. $x^{3/2}$\nC. $x^{1/5}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ley es $\\sqrt[n]{a^m} = a^{m/n}$.",
+    "explanation": "El índice de la raíz pasa como denominador y la potencia interior como numerador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YC",
+    "question": "¿Cuál es el resultado de simplificar $\\frac{2^8}{2^5} \\cdot 2^2$?",
+    "image": null,
+    "options": [
+      { "text": "32", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "64", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica primero la resta de exponentes para la división y luego suma para la multiplicación.",
+    "explanation": "$2^{8-5} = 2^3$. Luego $2^3 \\cdot 2^2 = 2^{3+2} = 2^5 = 32$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YD",
+    "question": "Identifica la opción que no corresponde a una ley de exponentes válida:",
+    "image": null,
+    "options": [
+      { "text": "$x^a + x^b = x^{a+b}$", "correct": true },
+      { "text": "$(x^a)^b = x^{a \\cdot b}$", "correct": false },
+      { "text": "$x^a \\cdot x^b = x^{a+b}$", "correct": false },
+      { "text": "$x^a / x^b = x^{a-b}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las leyes de exponentes aplican para multiplicación, división y potencias, no para sumas.",
+    "explanation": "No existe una ley que sume exponentes cuando las bases se están sumando.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YE",
+    "question": "Son ejemplos de números expresados en notación científica utilizando leyes de exponentes:\n1. $3.5 \\times 10^2$\n2. $0.5 \\times 10^{-3}$\n3. $1.2 \\times 10^0$\n4. $15.0 \\times 10^4$",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En notación científica estándar, el coeficiente debe ser $\\ge 1$ y $< 10$.",
+    "explanation": "3.5 y 1.2 cumplen la regla. 0.5 es menor que 1 y 15.0 es mayor que 10.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YF",
+    "question": "La simplificación de $\\sqrt{x^4}$ es $x^2$. Siguiendo esta lógica, la simplificación de $\\sqrt[3]{x^{12}}$ es ______ y la de $\\sqrt[5]{x^{10}}$ es ______.",
+    "image": null,
+    "options": [
+      { "text": "$x^4$, $x^2$", "correct": true },
+      { "text": "$x^9$, $x^5$", "correct": false },
+      { "text": "$x^{15}$, $x^{50}$", "correct": false },
+      { "text": "$x^4$, $x^5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el exponente entre el índice de la raíz.",
+    "explanation": "$12/3 = 4$ y $10/5 = 2$. Por lo tanto, los resultados son $x^4$ y $x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YG",
+    "question": "Relaciona las expresiones con sus resultados simplificados:\nI. $(2x)^3$\nII. $2x^3$\nIII. $(x/2)^3$\n\nA. $8x^3$\nB. $x^3 / 8$\nC. $2x^3$ (Sin cambios)",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-C, III-B", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El paréntesis indica que el exponente afecta a todo lo de adentro.",
+    "explanation": "$(2x)^3 = 2^3 x^3 = 8x^3$. $(x/2)^3 = x^3 / 2^3 = x^3/8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YH",
+    "question": "Un estudiante del CEPREDIX analiza la expresión $10^2 \\cdot 10^3 / 10^4$. ¿A qué número entero equivale?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "0.1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica primero el numerador sumando los exponentes y luego resta el del denominador.",
+    "explanation": "$10^{2+3} = 10^5$. Luego $10^5 / 10^4 = 10^1 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YI",
+    "question": "¿Cuál es el valor de $x$ en la ecuación $2^x = 32$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el 2 por sí mismo hasta obtener 32.",
+    "explanation": "$2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 32$, por lo tanto $2^5 = 32$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YJ",
+    "question": "Selecciona los números que son equivalentes a $0.25$ utilizando exponentes:\n1. $2^{-2}$\n2. $4^{-1}$\n3. $(1/2)^2$\n4. $0.5^2$",
+    "image": null,
+    "options": [
+      { "text": "Todas", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $0.25 = 1/4$.",
+    "explanation": "$2^{-2} = 1/4$, $4^{-1} = 1/4$, $(1/2)^2 = 1/4$ y $0.5^2 = (1/2)^2 = 1/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YK",
+    "question": "En la expresión $(x^n)^m = x^{12}$, si sabemos que $n$ y $m$ son números enteros positivos, una posible combinación de valores para $n$ y $m$ es ______ y ______ respectivamente.",
+    "image": null,
+    "options": [
+      { "text": "3, 4", "correct": true },
+      { "text": "6, 6", "correct": false },
+      { "text": "10, 2", "correct": false },
+      { "text": "12, 0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto de $n$ por $m$ debe ser igual a 12.",
+    "explanation": "Por la ley de potencia de una potencia, $n \\cdot m = 12$. $3 \\cdot 4 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YL",
+    "question": "Relaciona los resultados de las siguientes operaciones:\nI. $5^2 - 3^2$\nII. $(5-3)^2$\nIII. $5^2 / 5^1$\n\nA. 4\nB. 5\nC. 16",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve respetando la jerarquía de operaciones y los paréntesis.",
+    "explanation": "$25 - 9 = 16$. $(2)^2 = 4$. $5^{2-1} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YM",
+    "question": "¿Qué sucede con el valor de $x^n$ si $x=1$ y $n$ aumenta de 1 a 1,000?",
+    "image": null,
+    "options": [
+      { "text": "Permanece igual", "correct": true },
+      { "text": "Aumenta proporcionalmente", "correct": false },
+      { "text": "Disminuye", "correct": false },
+      { "text": "Se vuelve cero", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica 1 por sí mismo cualquier cantidad de veces.",
+    "explanation": "El número 1 elevado a cualquier potencia real siempre es 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YN",
+    "question": "Un estudiante del CEPREDIX simplifica $x^a \\cdot x^b / x^c$. El resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "$x^{a+b-c}$", "correct": true },
+      { "text": "$x^{a \\cdot b / c}$", "correct": false },
+      { "text": "$x^{a-b+c}$", "correct": false },
+      { "text": "$x^{a+b+c}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Combina la ley del producto (suma) y del cociente (resta).",
+    "explanation": "Se suman los exponentes del producto y se resta el del divisor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YO",
+    "question": "Simplifica la expresión $\\frac{x^4 y^2}{x^2 y^4}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 y^{-2}$", "correct": true },
+      { "text": "$x^6 y^6$", "correct": false },
+      { "text": "$x^2 y^2$", "correct": false },
+      { "text": "$x^{-2} y^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta los exponentes de cada variable por separado.",
+    "explanation": "$x^{4-2} = x^2$ y $y^{2-4} = y^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YP",
+    "question": "Identifica cuáles de los siguientes valores son equivalentes a $1$:\n1. $5^0$\n2. $(-1)^2$\n3. $100/100^1$\n4. $x^n \\cdot x^{-n}$",
+    "image": null,
+    "options": [
+      { "text": "Todas", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 2, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier número (no nulo) a la cero es 1, y un número multiplicado por su inverso es 1.",
+    "explanation": "$5^0=1$, $(-1)^2=1$, $100/100=1$ y $x^{n-n}=x^0=1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YQ",
+    "question": "Completa: 'La expresión $a^{-n}$ es equivalente a ______ y se conoce como el ______ de la potencia $a^n$.'",
+    "image": null,
+    "options": [
+      { "text": "$1/a^n$, recíproco", "correct": true },
+      { "text": "$-a^n$, opuesto", "correct": false },
+      { "text": "$a^{1/n}$, radical", "correct": false },
+      { "text": "$n^a$, inverso base", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera qué significa un exponente con signo negativo.",
+    "explanation": "Por definición de exponente negativo, $a^{-n} = 1/a^n$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YR",
+    "question": "Relaciona las expresiones fraccionarias con su simplificación:\nI. $(2/3)^2$\nII. $(2/3)^{-1}$\nIII. $(2/3)^0$\n\nA. $3/2$\nB. $4/9$\nC. $1$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva cada parte de la fracción al exponente indicado.",
+    "explanation": "$2^2/3^2 = 4/9$. Exponente -1 invierte la fracción. Exponente 0 siempre da 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YS",
+    "question": "¿Cuál es el resultado de simplificar $\\sqrt{x^2 \\cdot x^4}$?",
+    "image": null,
+    "options": [
+      { "text": "$x^3$", "correct": true },
+      { "text": "$x^6$", "correct": false },
+      { "text": "$x^4$", "correct": false },
+      { "text": "$x^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero simplifica el producto dentro de la raíz sumando los exponentes.",
+    "explanation": "Dentro de la raíz: $x^{2+4} = x^6$. Luego $\\sqrt{x^6} = x^{6/2} = x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YT",
+    "question": "Un estudiante del CEPREDIX debe calcular el valor de $3^3 + 3^2 + 3^1 + 3^0$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "40", "correct": true },
+      { "text": "39", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "13", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula cada término: 27, 9, 3 y 1.",
+    "explanation": "$27 + 9 + 3 + 1 = 40$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YU",
+    "question": "¿Cuál es el exponente final de $x$ al simplificar $\\frac{(x^3)^2 \\cdot x^{-2}}{x^2}$?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica potencia de potencia, suma exponentes del numerador y resta el del denominador.",
+    "explanation": "$(x^3)^2 = x^6$. Numerador: $x^6 \\cdot x^{-2} = x^4$. Final: $x^4 / x^2 = x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YV",
+    "question": "En la expresión $x^{1/2}$, el exponente indica que se trata de una ______ cuadrada, mientras que en $x^{1/3}$ se trata de una ______ cúbica.",
+    "image": null,
+    "options": [
+      { "text": "Raíz, raíz", "correct": true },
+      { "text": "Potencia, potencia", "correct": false },
+      { "text": "División, multiplicación", "correct": false },
+      { "text": "Suma, resta", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Relaciona los exponentes fraccionarios con las operaciones inversas de la potenciación.",
+    "explanation": "Los exponentes fraccionarios representan radicales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YW",
+    "question": "Relaciona las siguientes igualdades de exponentes:\nI. $(a \\cdot b)^n$\nII. $(a/b)^n$\nIII. $(a^n)^m$\n\nA. $a^n / b^n$\nB. $a^{n \\cdot m}$\nC. $a^n \\cdot b^n$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la ley distributiva y la ley de potencia de potencia.",
+    "explanation": "La potencia se distribuye en productos y cocientes, y se multiplica en potencias de potencias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YX",
+    "question": "Simplifica la expresión $\\left(\\frac{x^2}{y}\\right)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$x^6 / y^3$", "correct": true },
+      { "text": "$x^5 / y^3$", "correct": false },
+      { "text": "$x^6 / y$", "correct": false },
+      { "text": "$x^2 / y^3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva tanto el numerador como el denominador al cubo.",
+    "explanation": "$(x^2)^3 = x^6$ y $y^3$. El resultado es $x^6/y^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YY",
+    "question": "Identifica los resultados correctos para la base $10$:\n1. $10^2 = 100$\n2. $10^0 = 0$\n3. $10^{-1} = 0.1$\n4. $10^{-2} = 0.01$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2", "correct": false },
+      { "text": "Todas", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier número (excepto cero) elevado a la cero es 1, no cero.",
+    "explanation": "$10^0 = 1$. Los demás son correctos siguiendo las leyes de potencias positivas y negativas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YZ",
+    "question": "Un reto del CEPREDIX plantea simplificar $(\\sqrt{x})^6$. ¿Cuál es el resultado final?",
+    "image": null,
+    "options": [
+      { "text": "$x^3$", "correct": true },
+      { "text": "$x^6$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$x^{12}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa la raíz como $x^{1/2}$ y luego aplica potencia de potencia.",
+    "explanation": "$(x^{1/2})^6 = x^{6/2} = x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZA",
+    "question": "Simplifica la expresión $\\frac{x^3 \\cdot x^5}{(x^2)^4}$.",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "$x$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica numerador y denominador por separado antes de dividir.",
+    "explanation": "Numerador: $x^8$. Denominador: $x^8$. $x^8 / x^8 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZB",
+    "question": "¿Cuál es el valor de $x$ si $\\frac{5^x}{5^2} = 5^3$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "2.5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la ley del cociente: $x-2 = 3$.",
+    "explanation": "Si $x-2=3$, entonces $x=5$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
