@@ -21549,5 +21549,653 @@
     "explanation": "En A, el término cuadrático es $-x^2$ (hacia abajo). En B, al expandir $(x-2)^2$ el término es $+x^2$ (hacia arriba).",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01TO",
+    "question": "¿Cuál es la característica principal que define a una oración simple según su complejidad sintáctica?",
+    "image": null,
+    "options": [
+      { "text": "Posee un solo núcleo verbal, ya sea conjugado o en perífrasis.", "correct": true },
+      { "text": "Contiene dos proposiciones unidas por un nexo coordinante.", "correct": false },
+      { "text": "Carece de sujeto explícito y de complementos circunstanciales.", "correct": false },
+      { "text": "Se identifica por el uso exclusivo de verbos no conjugados.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la simplicidad se mide por el número de núcleos verbales ($n=1$).",
+    "explanation": "Las oraciones simples tienen un único verbo conjugado o una perífrasis que funciona como un solo núcleo, expresando una sola acción.",
+    "explanative_video": null,
+    "collapsible_text": "Para clasificar una oración como simple, debemos localizar los verbos. Si solo encontramos uno, independientemente de la longitud de la oración, esta es simple."
+  },
+  {
+    "id": "CEP01TP",
+    "question": "Identifica los nexos que corresponden exclusivamente a las oraciones coordinadas copulativas:",
+    "image": null,
+    "options": [
+      { "text": "y, e, ni", "correct": true },
+      { "text": "pero, mas, sino", "correct": false },
+      { "text": "o, u, bien", "correct": false },
+      { "text": "aunque, porque, si", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son nexos que indican adición o suma de proposiciones.",
+    "explanation": "Los nexos copulativos unen elementos sumando sus significados. 'Y' y 'e' son para afirmación, mientras que 'ni' es para negación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TQ",
+    "question": "Un estudiante del CEPREDIX analiza la oración: 'El profesor explica la lección'. ¿A qué tipo de predicado pertenece según la naturaleza del verbo?",
+    "image": null,
+    "options": [
+      { "text": "Predicativo transitivo", "correct": true },
+      { "text": "Copulativo atributivo", "correct": false },
+      { "text": "Predicativo intransitivo", "correct": false },
+      { "text": "Predicativo recíproco", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Determina si el verbo 'explicar' requiere un objeto directo (¿qué explica?).",
+    "explanation": "El verbo 'explicar' es un verbo con significado pleno (predicativo) que en este caso tiene un objeto directo: 'la lección'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TR",
+    "question": "En la clasificación por complejidad, ¿qué diferencia a las oraciones coordinadas de las subordinadas?",
+    "image": null,
+    "options": [
+      { "text": "Las coordinadas mantienen independencia sintáctica entre sus proposiciones.", "correct": true },
+      { "text": "Las subordinadas no requieren nexos para unir sus proposiciones.", "correct": false },
+      { "text": "Las coordinadas siempre dependen de una oración principal.", "correct": false },
+      { "text": "Las subordinadas tienen la misma jerarquía entre sus elementos.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en el concepto de jerarquía y autonomía de las proposiciones.",
+    "explanation": "En la coordinación, las proposiciones tienen la misma jerarquía y pueden funcionar por separado; en la subordinación, una depende de la otra.",
+    "explanative_video": null,
+    "collapsible_text": "La jerarquía es la clave: en la coordinación es horizontal, mientras que en la subordinación es vertical."
+  },
+  {
+    "id": "CEP01TS",
+    "question": "Completa el enunciado: 'Las oraciones ______ son aquellas cuyas proposiciones se unen únicamente mediante signos de puntuación como la ______ o el punto y coma'.",
+    "image": null,
+    "options": [
+      { "text": "yuxtapuestas, coma", "correct": true },
+      { "text": "coordinadas, conjunción", "correct": false },
+      { "text": "subordinadas, tilde", "correct": false },
+      { "text": "simples, preposición", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se refiere a la ausencia de nexos gramaticales visibles.",
+    "explanation": "La yuxtaposición une proposiciones de igual jerarquía usando signos de puntuación en lugar de conjunciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TT",
+    "question": "Selecciona el listado que contiene únicamente verbos que funcionan como núcleos en oraciones copulativas:",
+    "image": null,
+    "options": [
+      { "text": "Ser, estar, parecer", "correct": true },
+      { "text": "Cantar, reír, soñar", "correct": false },
+      { "text": "Correr, saltar, jugar", "correct": false },
+      { "text": "Hacer, haber, tener", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son verbos que actúan como cópula o unión entre sujeto y atributo.",
+    "explanation": "Los verbos ser, estar y parecer pierden gran parte de su significado léxico para servir de enlace con una cualidad del sujeto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TU",
+    "question": "Relaciona correctamente el ejemplo con su tipo de oración según el predicado:\nI. María se lava.\nII. Juan y Ana se besan.\nIII. Luis duerme mucho.\n\nA. Intransitiva\nB. Reflexiva\nC. Recíproca",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza si la acción es sobre uno mismo, mutua o no transfiere objeto.",
+    "explanation": "I es reflexiva (acción sobre sí misma), II es recíproca (acción mutua), III es intransitiva (no requiere objeto directo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TV",
+    "question": "Un investigador del CEPREDIX identifica que en las oraciones transitivas el objeto directo puede ser sustituido por ciertos pronombres. ¿Cuáles son estos?",
+    "image": null,
+    "options": [
+      { "text": "Lo, la, los, las", "correct": true },
+      { "text": "Me, te, se, nos", "correct": false },
+      { "text": "Le, les, se", "correct": false },
+      { "text": "Mí, ti, sí, nosotros", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son pronombres personales átonos de tercera persona con función de acusativo.",
+    "explanation": "La prueba de la sustitución pronominal por lo, la, los, las es fundamental para confirmar la presencia de un objeto directo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TW",
+    "question": "En la oración 'Si estudias, aprobarás', ¿qué tipo de relación se establece entre las proposiciones?",
+    "image": null,
+    "options": [
+      { "text": "Subordinación adverbial", "correct": true },
+      { "text": "Coordinación adversativa", "correct": false },
+      { "text": "Yuxtaposición causal", "correct": false },
+      { "text": "Subordinación sustantiva", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El nexo 'si' establece una condición para que se cumpla la acción principal.",
+    "explanation": "El nexo 'si' introduce una proposición que funciona como un complemento circunstancial de condición, típica de las subordinadas adverbiales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TX",
+    "question": "Un análisis sintáctico del CEPREDIX determina que la oración 'Los niños parecen cansados' es copulativa. ¿Cuál es el núcleo del predicado y qué función cumple 'cansados'?",
+    "image": null,
+    "options": [
+      { "text": "Parecen (núcleo), cansados (atributo)", "correct": true },
+      { "text": "Cansados (núcleo), parecen (nexo)", "correct": false },
+      { "text": "Parecen (copulativo), cansados (objeto directo)", "correct": false },
+      { "text": "Los niños (sujeto), parecen (verbo predicativo)", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica el verbo de unión y el estado que describe al sujeto.",
+    "explanation": "'Parecen' es el verbo copulativo que une al sujeto 'Los niños' con su cualidad o estado, que en este caso es el atributo 'cansados'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TY",
+    "question": "Completa el texto: 'Las oraciones ______ implican que dos o más sujetos realizan una acción de forma ______, utilizando pronombres como nos, os o se'.",
+    "image": null,
+    "options": [
+      { "text": "recíprocas, mutua", "correct": true },
+      { "text": "reflexivas, individual", "correct": false },
+      { "text": "transitivas, directa", "correct": false },
+      { "text": "copulativas, alterna", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un tipo de intercambio de acción entre las partes del sujeto.",
+    "explanation": "Las oraciones recíprocas requieren un sujeto plural o múltiple y un pronombre que indique que la acción se intercambia entre ellos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TZ",
+    "question": "¿Cuál es la función sintáctica que cumple la proposición subordinada en: 'El libro que me prestaste es bueno'?",
+    "image": null,
+    "options": [
+      { "text": "Complemento de un sustantivo (Adjetiva)", "correct": true },
+      { "text": "Sujeto de la oración (Sustantiva)", "correct": false },
+      { "text": "Complemento circunstancial de lugar (Adverbial)", "correct": false },
+      { "text": "Atributo del verbo copulativo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La proposición 'que me prestaste' se refiere directamente a 'libro'.",
+    "explanation": "Al calificar o especificar a un sustantivo previo (antecedente), la proposición funciona como un adjetivo dentro de la oración principal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UA",
+    "question": "De acuerdo con el criterio de complejidad sintáctica, selecciona el listado de ejemplos que corresponden a oraciones simples:",
+    "image": null,
+    "options": [
+      { "text": "Mañana lloverá fuerte; Tengo que estudiar hoy; Fuimos a la playa.", "correct": true },
+      { "text": "Juan lee y Pedro escribe; Si vienes, te espero; Llegó, vio, venció.", "correct": false },
+      { "text": "Dime qué haces; El niño es alto; La casa de madera.", "correct": false },
+      { "text": "No quiero comer; Salí a correr; Vimos la película.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca enunciados con un único núcleo verbal, incluso si es una perífrasis.",
+    "explanation": "Las oraciones simples solo tienen un verbo conjugado o una perífrasis verbal ('tengo que estudiar') como núcleo del predicado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UB",
+    "question": "En la oración 'Deseo que seas feliz', ¿qué tipo de subordinación se presenta?",
+    "image": null,
+    "options": [
+      { "text": "Subordinada sustantiva en función de objeto directo", "correct": true },
+      { "text": "Subordinada adjetiva especificativa", "correct": false },
+      { "text": "Subordinada adverbial de modo", "correct": false },
+      { "text": "Coordinada copulativa de deseo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Intenta sustituir la proposición 'que seas feliz' por el pronombre 'lo' (Lo deseo).",
+    "explanation": "La proposición subordinada puede sustituirse por un sustantivo o pronombre (Deseo eso), cumpliendo la función de objeto directo del verbo 'desear'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UC",
+    "question": "Relaciona correctamente los nexos coordinantes con su clasificación:\nI. y, e, ni\nII. o, u\nIII. pero, mas, sino\n\nA. Adversativos\nB. Copulativos\nC. Disyuntivos",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Copulativos suman, disyuntivos excluyen, adversativos oponen.",
+    "explanation": "I corresponde a la suma de ideas, II a la elección entre opciones y III a la contraposición de conceptos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UD",
+    "question": "¿Qué elemento gramatical es obligatorio añadir en una oración copulativa para que sea gramaticalmente correcta?",
+    "image": null,
+    "options": [
+      { "text": "El atributo", "correct": true },
+      { "text": "El objeto indirecto", "correct": false },
+      { "text": "El nexo subordinante", "correct": false },
+      { "text": "El complemento agente", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la palabra que realmente aporta el significado léxico al predicado nominal.",
+    "explanation": "Los verbos copulativos carecen de significado pleno por sí mismos y requieren un atributo (sustantivo o adjetivo) que califique al sujeto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UE",
+    "question": "Identifica la oración que presenta un uso predicativo no copulativo del verbo 'estar':",
+    "image": null,
+    "options": [
+      { "text": "Juan está en la biblioteca.", "correct": true },
+      { "text": "Juan está muy cansado.", "correct": false },
+      { "text": "La sopa está caliente.", "correct": false },
+      { "text": "El día está nublado.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En el uso predicativo, 'estar' significa ubicación o permanencia, no estado.",
+    "explanation": "En 'Juan está en la biblioteca', el verbo 'estar' indica ubicación espacial y se acompaña de un complemento circunstancial, no de un atributo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UF",
+    "question": "Un estudio del CEPREDIX sobre sintaxis explica que las perífrasis verbales funcionan como un solo núcleo. ¿Cuál de los siguientes ejemplos es una oración simple con perífrasis?",
+    "image": null,
+    "options": [
+      { "text": "Mañana vamos a viajar a Madrid.", "correct": true },
+      { "text": "Quiero que viajemos a Madrid.", "correct": false },
+      { "text": "Viajamos a Madrid y visitamos el museo.", "correct": false },
+      { "text": "Al viajar a Madrid, vimos el museo.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la estructura: verbo auxiliar + preposición/nexo + infinitivo/gerundio.",
+    "explanation": "'Vamos a viajar' es una perífrasis de futuro que constituye un único núcleo verbal, por lo que la oración es simple.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UG",
+    "question": "Completa la definición: 'En las oraciones ______ directas, el pronombre (me, te, se, nos, os) cumple la función de ______, ya que la acción recae sobre el mismo sujeto'.",
+    "image": null,
+    "options": [
+      { "text": "reflexivas, objeto directo", "correct": true },
+      { "text": "recíprocas, objeto indirecto", "correct": false },
+      { "text": "transitivas, atributo", "correct": false },
+      { "text": "intransitivas, nexo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en el ejemplo 'Yo me lavo'. ¿Quién recibe la acción?",
+    "explanation": "En la reflexiva directa, el pronombre sustituye al objeto sobre el que recae la acción, que coincide con el sujeto agente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UH",
+    "question": "¿Qué tipo de relación lógica establece el signo de puntuación en la oración yuxtapuesta: 'Llegué tarde; el tráfico era terrible'?",
+    "image": null,
+    "options": [
+      { "text": "Causal", "correct": true },
+      { "text": "Adversativa", "correct": false },
+      { "text": "Disyuntiva", "correct": false },
+      { "text": "Copulativa", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se puede sustituir el ';' por la conjunción 'porque'.",
+    "explanation": "En este caso, la segunda proposición explica la razón de la primera, estableciendo una relación de causa-efecto implícita.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UI",
+    "question": "Selecciona los elementos que pertenecen al listado de nexos subordinantes comunes:",
+    "image": null,
+    "options": [
+      { "text": "que, si, cuando, donde", "correct": true },
+      { "text": "y, o, pero, mas", "correct": false },
+      { "text": "ni, e, u, sino", "correct": false },
+      { "text": "por, para, con, sin", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Introducen proposiciones que dependen de una principal.",
+    "explanation": "Nexos como 'que' (sustantivas/adjetivas) o 'cuando/donde' (adverbiales) son los conectores típicos de la subordinación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UJ",
+    "question": "¿Cuál es la estructura gramatical de una oración recíproca indirecta?",
+    "image": null,
+    "options": [
+      { "text": "Sujeto plural + pronombre (OI) + verbo transitivo + objeto directo.", "correct": true },
+      { "text": "Sujeto singular + pronombre (OD) + verbo copulativo.", "correct": false },
+      { "text": "Sujeto múltiple + nexo disyuntivo + verbo intransitivo.", "correct": false },
+      { "text": "Sujeto paciente + verbo en voz pasiva + nexo coordinante.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: 'Ellos se escriben cartas'. 'Cartas' es el OD.",
+    "explanation": "Es indirecta porque ya existe un objeto directo nominal en la oración, por lo que el pronombre reflexivo pasa a funcionar como objeto indirecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UK",
+    "question": "Relaciona el ejemplo con su criterio de complejidad:\nI. Juan come manzanas.\nII. Juan come manzanas y bebe agua.\nIII. El niño que come manzanas es mi primo.\n\nA. Compuesta subordinada\nB. Simple\nC. Compuesta coordinada",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuenta los verbos y analiza la jerarquía de las proposiciones.",
+    "explanation": "I tiene un verbo (Simple), II tiene dos verbos independientes unidos por 'y' (Coordinada), III tiene una proposición dependiente (Subordinada).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UL",
+    "question": "¿Cómo se identifica una oración intransitiva en el análisis sintáctico?",
+    "image": null,
+    "options": [
+      { "text": "El verbo no admite ni requiere un objeto directo para tener sentido.", "correct": true },
+      { "text": "La oración siempre utiliza los verbos ser, estar o parecer.", "correct": false },
+      { "text": "El sujeto de la oración es siempre el que recibe la acción (paciente).", "correct": false },
+      { "text": "Requiere obligatoriamente un nexo subordinante adverbial.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejemplo: 'El perro corre'. ¿Admite 'lo corre'?",
+    "explanation": "Las oraciones intransitivas se caracterizan por verbos que expresan acciones que no transcienden a un objeto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UM",
+    "question": "Completa el enunciado sobre las oraciones coordinadas: 'Las proposiciones de una oración coordinada son ______ entre sí, lo que significa que conservan su ______ si se separan'.",
+    "image": null,
+    "options": [
+      { "text": "independientes, sentido", "correct": true },
+      { "text": "dependientes, jerarquía", "correct": false },
+      { "text": "opuestas, nexo", "correct": false },
+      { "text": "simétricas, longitud", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la característica fundamental de la coordinación frente a la subordinación.",
+    "explanation": "La independencia sintáctica permite que cada parte de la coordinación funcione como una oración simple autónoma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UN",
+    "question": "En la oración 'Tú te peinas el cabello', ¿cuál es la función sintáctica del pronombre 'te'?",
+    "image": null,
+    "options": [
+      { "text": "Objeto indirecto", "correct": true },
+      { "text": "Objeto directo", "correct": false },
+      { "text": "Atributo del sujeto", "correct": false },
+      { "text": "Núcleo del predicado", "correct": false }
+    ],
+    "uni_tags": ["ESPAPL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica si ya existe un objeto directo nominal en la oración.",
+    "explanation": "Como 'el cabello' es el objeto directo (lo peinas), el pronombre reflexivo pasa a ser objeto indirecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UO",
+    "question": "Identifica el listado de oraciones que corresponden al tipo yuxtapuesto:",
+    "image": null,
+    "options": [
+      { "text": "Llegué, vi, vencí; Estudia mucho, triunfarás; No vino: estaba enfermo.", "correct": true },
+      { "text": "Vienes o vas; Estudia pero descansa; Pan y circo.", "correct": false },
+      { "text": "Quiero que vengas; El niño que ríe; Si puedes, hazlo.", "correct": false },
+      { "text": "Me lavo las manos; Se saludaron ayer; Ana es alta.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la ausencia de conjunciones y la presencia de comas, puntos o dos puntos.",
+    "explanation": "Todas las proposiciones en estos ejemplos están unidas por signos de puntuación sin nexos gramaticales coordinantes o subordinantes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UP",
+    "question": "Un examen del CEPREDIX plantea la siguiente duda: ¿Puede una oración ser simple y copulativa al mismo tiempo?",
+    "image": null,
+    "options": [
+      { "text": "Sí, siempre que tenga un solo verbo copulativo y un atributo.", "correct": true },
+      { "text": "No, las copulativas son siempre compuestas subordinadas.", "correct": false },
+      { "text": "Sí, pero solo si el sujeto es omitido o tácito.", "correct": false },
+      { "text": "No, los verbos copulativos requieren nexos coordinantes.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La clasificación por complejidad y por predicado son criterios independientes.",
+    "explanation": "Una oración como 'El cielo es azul' es simple (un solo verbo) y copulativa (verbo ser + atributo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UQ",
+    "question": "En la oración 'Ellos se respetan mutuamente', la palabra 'mutuamente' ayuda a confirmar que la oración es:",
+    "image": null,
+    "options": [
+      { "text": "Recíproca", "correct": true },
+      { "text": "Reflexiva", "correct": false },
+      { "text": "Intransitiva", "correct": false },
+      { "text": "Atributiva", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Indica un intercambio de la acción entre los participantes.",
+    "explanation": "El adverbio 'mutuamente' es un refuerzo semántico típico de las oraciones recíprocas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UR",
+    "question": "Relaciona el tipo de subordinada con la palabra por la que puede ser sustituida:\nI. Sustantiva\nII. Adjetiva\nIII. Adverbial\n\nA. Adverbio (allí, así, entonces)\nB. Sustantivo o pronombre (eso)\nC. Adjetivo (rojo, grande)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la prueba de conmutación para identificar tipos de subordinación.",
+    "explanation": "Las sustantivas se sustituyen por 'esto/eso', las adjetivas por un adjetivo y las adverbiales por un adverbio equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01US",
+    "question": "¿Cuál es la función del pronombre 'nos' en la oración reflexiva 'Nosotros nos lavamos'?",
+    "image": null,
+    "options": [
+      { "text": "Objeto directo", "correct": true },
+      { "text": "Objeto indirecto", "correct": false },
+      { "text": "Atributo", "correct": false },
+      { "text": "Sujeto agente", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No hay otro objeto directo en la oración sobre el que recaiga la acción.",
+    "explanation": "En las oraciones reflexivas donde no hay otro complemento directo, el pronombre reflexivo asume esa función.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UT",
+    "question": "Selecciona la opción que describe correctamente a las oraciones coordinadas adversativas:",
+    "image": null,
+    "options": [
+      { "text": "Expresan una contraposición o corrección entre las proposiciones.", "correct": true },
+      { "text": "Indican una suma o adición de ideas positivas o negativas.", "correct": false },
+      { "text": "Plantean una opción o exclusión entre dos posibilidades.", "correct": false },
+      { "text": "Explican la causa o el motivo de la proposición anterior.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usan nexos como 'pero', 'mas' o 'sino'.",
+    "explanation": "La adversidad sintáctica implica que la segunda proposición limita o niega lo expresado en la primera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UU",
+    "question": "Completa: 'El núcleo del predicado en las oraciones ______ es un verbo ______ con significado pleno, a diferencia de los verbos copulativos'.",
+    "image": null,
+    "options": [
+      { "text": "predicativas, predicativo", "correct": true },
+      { "text": "simples, auxiliar", "correct": false },
+      { "text": "atributivas, de unión", "correct": false },
+      { "text": "subordinadas, relativo", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son verbos que expresan acciones, procesos o estados completos.",
+    "explanation": "Las oraciones predicativas se centran en el significado léxico del verbo (comer, correr, pensar), no en su función de enlace.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UV",
+    "question": "Relaciona el ejemplo con su clasificación por nexo:\nI. Juan estudia y trabaja.\nII. Juan estudia o trabaja.\nIII. Juan estudia pero no trabaja.\n\nA. Disyuntiva\nB. Copulativa\nC. Adversativa",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica los nexos y, o, pero.",
+    "explanation": "Los nexos determinan el tipo de relación lógica en la coordinación: unión, elección u oposición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UW",
+    "question": "Una investigación del CEPREDIX señala que el atributo puede conmutarse por el pronombre 'lo'. ¿Cuál es el resultado de aplicar esta prueba en 'Mis hermanos son médicos'?",
+    "image": null,
+    "options": [
+      { "text": "Mis hermanos lo son.", "correct": true },
+      { "text": "Mis hermanos los son.", "correct": false },
+      { "text": "Mis hermanos médico lo son.", "correct": false },
+      { "text": "Mis médicos son lo.", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El pronombre 'lo' es invariable en género y número cuando sustituye a un atributo.",
+    "explanation": "Independientemente de que 'médicos' sea masculino plural, el pronombre de sustitución para el atributo siempre es el neutro 'lo'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UX",
+    "question": "¿En qué tipo de oración compuesta la omisión de un nexo gramatical es sustituida por el contexto y la puntuación?",
+    "image": null,
+    "options": [
+      { "text": "Yuxtapuesta", "correct": true },
+      { "text": "Coordinada distributiva", "correct": false },
+      { "text": "Subordinada sustantiva", "correct": false },
+      { "text": "Simple de predicado múltiple", "correct": false }
+    ],
+    "uni_tags": ["ESPAÑOL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se trata de la 'unión directa' de proposiciones.",
+    "explanation": "La yuxtaposición permite enlazar ideas de igual jerarquía confiando en la cohesión que brindan los signos de puntuación.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
