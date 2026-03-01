@@ -20901,5 +20901,653 @@
     "explanation": "$-2X^{-2-1} = -2X^{-3} = -2/X^3$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01SE",
+    "question": "¿Cuál de las siguientes expresiones representa la forma general de una función cuadrática completa?",
+    "image": null,
+    "options": [
+      { "text": "$f(x) = ax^2 + bx + c$", "correct": true },
+      { "text": "$f(x) = ax + b$", "correct": false },
+      { "text": "$f(x) = ax^3 + bx^2 + c$", "correct": false },
+      { "text": "$f(x) = \\frac{a}{x^2} + bx + c$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que sea cuadrática, el máximo exponente de la variable independiente debe ser $2$. Considera la estructura polinómica de segundo grado.",
+    "explanation": "La forma general de una función cuadrática completa incluye un término cuadrático ($ax^2$), un término lineal ($bx$) y un término constante ($c$), donde $a \\neq 0$.",
+    "explanative_video": null,
+    "collapsible_text": "Las funciones cuadráticas son polinomios de segundo grado. Su representación gráfica es una parábola y su forma estándar permite identificar rápidamente los coeficientes que determinan su apertura, traslación y punto de intersección con el eje de las ordenadas."
+  },
+  {
+    "id": "CEP01SF",
+    "question": "Selecciona las funciones que se clasifican como **cuadráticas incompletas puras**:\n1. $f(x) = 3x^2 - 12$\n2. $f(x) = x^2 + 5x$\n3. $f(x) = -x^2 + 25$\n4. $f(x) = 2x^2 + 3x - 1$\n5. $f(x) = 4x^2$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Una función cuadrática incompleta pura carece del término lineal ($bx=0$). Identifica aquellas que solo tienen el término en $x^2$ y, opcionalmente, el término constante.",
+    "explanation": "Las funciones cuadráticas puras tienen la forma $ax^2 + c = 0$. En este caso, $3x^2 - 12$, $-x^2 + 25$ y $4x^2$ (donde $c=0$) cumplen con la condición de no tener término lineal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SG",
+    "question": "El valor del ______ en una función cuadrática determina la naturaleza de las raíces. Si este es ______ a cero, la función tiene dos soluciones reales y distintas; si es ______ a cero, tiene una única solución real.",
+    "image": null,
+    "options": [
+      { "text": "Discriminante, mayor, igual", "correct": true },
+      { "text": "Vértice, menor, mayor", "correct": false },
+      { "text": "Coeficiente, igual, menor", "correct": false },
+      { "text": "Exponente, mayor, igual", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la expresión dentro de la raíz cuadrada en la fórmula general: $D = b^2 - 4ac$.",
+    "explanation": "El discriminante ($b^2 - 4ac$) indica cuántas intersecciones tiene la parábola con el eje $x$. Si $D > 0$ hay dos raíces; si $D = 0$ hay una raíz doble.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SH",
+    "question": "Relaciona correctamente el tipo de función cuadrática con su ecuación correspondiente:\nI. Completa\nII. Incompleta mixta\nIII. Incompleta pura\n\nA. $f(x) = ax^2 + c$\nB. $f(x) = ax^2 + bx + c$\nC. $f(x) = ax^2 + bx$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'mixta' sugiere la presencia de los términos con variable ($x^2$ y $x$), mientras que 'pura' sugiere solo el término cuadrático y la constante.",
+    "explanation": "La forma completa tiene los tres términos (B). La mixta carece de constante (C). La pura carece de término lineal (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SI",
+    "question": "Si en la función $f(x) = ax^2 + bx + c$, el coeficiente $a$ es negativo ($a < 0$), ¿hacia dónde abre la parábola?",
+    "image": null,
+    "options": [
+      { "text": "Hacia abajo", "correct": true },
+      { "text": "Hacia arriba", "correct": false },
+      { "text": "Hacia la derecha", "correct": false },
+      { "text": "Hacia la izquierda", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El signo del coeficiente principal determina la concavidad. Piensa en una 'carita triste' o 'carita feliz'.",
+    "explanation": "Cuando el coeficiente del término cuadrático es negativo, la parábola es cóncava hacia abajo, presentando un punto máximo en su vértice.",
+    "explanative_video": null,
+    "collapsible_text": "La concavidad es una propiedad geométrica fundamental. En el contexto de trayectorias, un proyectil lanzado hacia arriba describe una parábola que abre hacia abajo debido a que la aceleración de la gravedad actúa en sentido negativo respecto al sistema de referencia convencional."
+  },
+  {
+    "id": "CEP01SJ",
+    "question": "Un estudiante del CEPREDIX resuelve la ecuación $x^2 - 25 = 0$. ¿Cuáles son los valores de $x$ que satisfacen esta igualdad?",
+    "image": null,
+    "options": [
+      { "text": "$5$ y $-5$", "correct": true },
+      { "text": "$25$ y $-25$", "correct": false },
+      { "text": "Solo $5$", "correct": false },
+      { "text": "$0$ y $5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar $x$, considera que $x = \\pm \\sqrt{k}$ cuando tienes la forma $x^2 = k$.",
+    "explanation": "Despejamos $x^2 = 25$. Al extraer la raíz cuadrada en ambos miembros, obtenemos dos soluciones: $x = 5$ y $x = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SK",
+    "question": "¿Cuál es el valor del término independiente $c$ en la función cuadrática $f(x) = 2x^2 - 4x$?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "-4", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término independiente es aquel que no está multiplicado por la variable $x$. Si no aparece de forma explícita, su valor es nulo.",
+    "explanation": "En la función dada, solo aparecen los términos $ax^2$ y $bx$. Al no existir un número sumando o restando sin variable, el coeficiente $c$ es igual a $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SL",
+    "question": "Identifica los valores de los coeficientes $a$, $b$ y $c$ en la función $f(x) = -x^2 + 7x - 10$:",
+    "image": null,
+    "options": [
+      { "text": "$a = -1$, $b = 7$, $c = -10$", "correct": true },
+      { "text": "$a = 1$, $b = 7$, $c = 10$", "correct": false },
+      { "text": "$a = -1$, $b = -7$, $c = 10$", "correct": false },
+      { "text": "$a = 0$, $b = 7$, $c = -10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los coeficientes incluyen el signo que les precede. Si el término es $-x^2$, se entiende que el coeficiente numérico es $-1$.",
+    "explanation": "Al comparar con $ax^2 + bx + c$, observamos que $a$ acompaña a $x^2$ ($-1$), $b$ acompaña a $x$ ($7$) y $c$ es el término constante ($-10$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SM",
+    "question": "Para encontrar las raíces de una función cuadrática incompleta mixta de la forma $ax^2 + bx = 0$, el método más directo consiste en ______ la variable $x$, lo que garantiza que una de las raíces siempre sea ______.",
+    "image": null,
+    "options": [
+      { "text": "Factorizar, cero", "correct": true },
+      { "text": "Despejar, uno", "correct": false },
+      { "text": "Dividir, positiva", "correct": false },
+      { "text": "Sustituir, imaginaria", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si extraes $x$ como factor común, obtienes $x(ax + b) = 0$. ¿Qué valor debe tener un factor para que el producto sea nulo?",
+    "explanation": "Al factorizar $x(ax + b) = 0$, igualamos cada factor a cero. Esto da $x_1 = 0$ y $x_2 = -b/a$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SN",
+    "question": "Relaciona la ecuación cuadrática con sus soluciones reales:\nI. $x^2 - 9 = 0$\nII. $x^2 + 9 = 0$\nIII. $x^2 - 6x + 9 = 0$\n\nA. No tiene soluciones reales\nB. $x = 3$ (Raíz doble)\nC. $x = 3, x = -3$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que un número al cuadrado nunca puede ser negativo en el conjunto de los reales. También usa la factorización de trinomios cuadrados perfectos.",
+    "explanation": "I es una diferencia de cuadrados ($3$ y $-3$). II requiere la raíz de $-9$ (compleja). III es $(x-3)^2 = 0$, por lo que $x=3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SO",
+    "question": "¿Cuál es la coordenada $x$ del vértice de la parábola $f(x) = x^2 - 6x + 5$?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "-3", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la relación $b = -2ah$, donde $h$ es la coordenada buscada.",
+    "explanation": "La fórmula para la coordenada $x$ del vértice es $h = -b / (2a)$. Sustituyendo $a=1$ y $b=-6$, obtenemos $h = -(-6) / (2 \\cdot 1) = 6/2 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SP",
+    "question": "En el CEPREDIX, un grupo de estudio analiza la trayectoria de un objeto cuya altura $h$ en metros está dada por $h(t) = -5t^2 + 20t$, donde $t$ es el tiempo en segundos. ¿En qué tiempo el objeto alcanza su altura máxima?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$20 \\text{ s}$", "correct": false },
+      { "text": "$0 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La altura máxima se encuentra en el vértice de la parábola. Usa la expresión $t = -b / (2a)$.",
+    "explanation": "Calculamos la coordenada $t$ del vértice: $t = -20 / (2 \\cdot -5) = -20 / -10 = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": "Las funciones cuadráticas modelan fenómenos físicos de aceleración constante. En el tiro vertical, el término $-5t^2$ representa aproximadamente la mitad de la aceleración de la gravedad ($9.8 \\text{ m/s}^2 \\approx 10 \\text{ m/s}^2$). El vértice de esta función cuadrática representa el instante exacto en que la velocidad vertical se anula antes de que el objeto comience a descender."
+  },
+  {
+    "id": "CEP01SQ",
+    "question": "¿Cuál es el punto donde la parábola $f(x) = x^2 + 4x - 12$ interseca al eje $y$?",
+    "image": null,
+    "options": [
+      { "text": "$(0, -12)$", "correct": true },
+      { "text": "$(0, 4)$", "correct": false },
+      { "text": "$(-12, 0)$", "correct": false },
+      { "text": "$(0, 0)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar la intersección con el eje de las ordenadas, evalúa la función en $x = 0$.",
+    "explanation": "Al sustituir $x=0$ en $f(x)$, obtenemos $f(0) = 0^2 + 4(0) - 12 = -12$. Por lo tanto, el punto es $(0, -12)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SR",
+    "question": "Selecciona los valores de $x$ que son raíces de la función cuadrática $f(x) = x^2 - 5x + 6$:\n1. $x = 2$\n2. $x = 3$\n3. $x = -2$\n4. $x = -3$\n5. $x = 6$",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "3, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den $6$ y sumados den $5$ (debido al cambio de signo en la factorización).",
+    "explanation": "Factorizamos la función como $(x - 2)(x - 3) = 0$. Al igualar cada factor a cero, obtenemos $x = 2$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SS",
+    "question": "Para resolver la ecuación $2x^2 + 8 = 0$, primero se debe ______ el término constante al otro lado de la igualdad, lo cual resulta en una expresión que indica que la solución pertenece al campo de los números ______.",
+    "image": null,
+    "options": [
+      { "text": "Transponer, complejos", "correct": true },
+      { "text": "Factorizar, enteros", "correct": false },
+      { "text": "Dividir, reales", "correct": false },
+      { "text": "Sumar, naturales", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si despejas, obtendrás $x^2 = -4$. ¿Existe un número real cuyo cuadrado sea negativo?",
+    "explanation": "Al despejar $x^2 = -4$, la raíz de un número negativo no es real, sino imaginaria/compleja.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ST",
+    "question": "Relaciona el valor del discriminante ($D = b^2 - 4ac$) con la gráfica de la parábola:\nI. $D > 0$\nII. $D = 0$\nIII. $D < 0$\n\nA. La parábola no toca el eje $x$\nB. La parábola toca el eje $x$ en dos puntos\nC. La parábola es tangente al eje $x$ (un punto)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Visualiza la parábola 'flotando' sobre el eje, 'rebotando' en él o 'cruzándolo'.",
+    "explanation": "El discriminante positivo indica dos cruces reales. Cero indica que el vértice está sobre el eje. Negativo indica que no hay soluciones reales (no hay cruces).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SU",
+    "question": "¿Cuál es la expresión de la función cuadrática que tiene su vértice en el origen $(0,0)$ y abre hacia arriba?",
+    "image": null,
+    "options": [
+      { "text": "$f(x) = x^2$", "correct": true },
+      { "text": "$f(x) = -x^2$", "correct": false },
+      { "text": "$f(x) = x^2 + 1$", "correct": false },
+      { "text": "$f(x) = (x - 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si el vértice está en el origen, los coeficientes $b$ y $c$ deben ser cero.",
+    "explanation": "La función $f(x) = ax^2$ tiene su vértice en $(0,0)$. Si $a=1$, abre hacia arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SV",
+    "question": "Un investigador del CEPREDIX determina que el ingreso diario $I$ en pesos de una empresa se modela con $I(x) = -2x^2 + 400x$, donde $x$ es el número de artículos vendidos. ¿Cuál es el ingreso máximo posible?",
+    "image": null,
+    "options": [
+      { "text": "$20,000 \\text{ pesos}$", "correct": true },
+      { "text": "$100 \\text{ pesos}$", "correct": false },
+      { "text": "$40,000 \\text{ pesos}$", "correct": false },
+      { "text": "$200 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero halla el valor de $x$ en el vértice usando $x = -b / (2a)$ y luego evalúa $I(x)$.",
+    "explanation": "$x = -400 / (2 \\cdot -2) = 100$. Evaluando: $I(100) = -2(100)^2 + 400(100) = -20,000 + 40,000 = 20,000 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": "En economía, las funciones cuadráticas con coeficiente principal negativo son muy utilizadas para modelar la ley de rendimientos decrecientes. El punto máximo del ingreso no siempre coincide con vender la mayor cantidad posible de productos, sino con encontrar el equilibrio óptimo entre precio y volumen de ventas."
+  },
+  {
+    "id": "CEP01SW",
+    "question": "¿Cuál de las siguientes es una solución de la ecuación incompleta mixta $3x^2 - 12x = 0$?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza como $3x(x - 4) = 0$.",
+    "explanation": "Al igualar el factor $(x-4)$ a cero, obtenemos $x=4$. La otra raíz es $x=0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SX",
+    "question": "En la función $f(x) = x^2 + kx + 9$, ¿qué valor debe tener $k$ para que la función tenga una única raíz real?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que tenga una sola raíz, el discriminante $b^2 - 4ac$ debe ser igual a cero.",
+    "explanation": "$k^2 - 4(1)(9) = 0 \\Rightarrow k^2 - 36 = 0 \\Rightarrow k = \\sqrt{36} = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SY",
+    "question": "Si una parábola tiene la ecuación $f(x) = 2(x - 3)^2 + 4$, ¿cuáles son las coordenadas de su vértice?",
+    "image": null,
+    "options": [
+      { "text": "$(3, 4)$", "correct": true },
+      { "text": "$(-3, 4)$", "correct": false },
+      { "text": "$(3, -4)$", "correct": false },
+      { "text": "$(0, 4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Compara con la forma vértice: $f(x) = a(x - h)^2 + k$.",
+    "explanation": "En esta forma, las coordenadas del vértice son directamente $(h, k)$. Aquí $h=3$ y $k=4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SZ",
+    "question": "Selecciona las características que definen a la gráfica de $f(x) = -2x^2 + 8$:\n1. Abre hacia abajo\n2. Su vértice es $(0, 8)$\n3. Es una función lineal\n4. Tiene dos raíces reales\n5. Pasa por el origen",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza el signo de $a$, el valor de $c$ cuando $b=0$ y si la ecuación $-2x^2 + 8 = 0$ tiene solución real.",
+    "explanation": "Abre hacia abajo ($a=-2$), el vértice es $(0, c)=(0, 8)$ y las raíces son $\\pm 2$. No pasa por el origen ($c \\neq 0$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TA",
+    "question": "En la resolución de una ecuación cuadrática mediante la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$, si el valor de $a$ fuera cero, el denominador se volvería ______ y la ecuación dejaría de ser ______.",
+    "image": null,
+    "options": [
+      { "text": "Cero, cuadrática", "correct": true },
+      { "text": "Uno, lineal", "correct": false },
+      { "text": "Indefinido, constante", "correct": false },
+      { "text": "Negativo, racional", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La división por cero no está definida. Además, si $a=0$, el término en $x^2$ desaparece.",
+    "explanation": "La condición básica para que una función sea cuadrática es que $a \\neq 0$. Si $a=0$, la división en la fórmula general es imposible y la ecuación se reduce a una de primer grado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TB",
+    "question": "Relaciona cada ecuación con su correspondiente término independiente $c$:\nI. $f(x) = x^2 - 5$\nII. $f(x) = x^2 + 3x$\nIII. $f(x) = 2x^2 + x + 4$\n\nA. $c = 0$\nB. $c = 4$\nC. $c = -5$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el valor constante que no depende de $x$.",
+    "explanation": "En I el término es $-5$. En II no hay término constante explícito ($0$). En III el término es $4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TC",
+    "question": "¿Cuál es el valor del eje de simetría de la función cuadrática $f(x) = x^2 + 10x + 25$?",
+    "image": null,
+    "options": [
+      { "text": "$x = -5$", "correct": true },
+      { "text": "$x = 5$", "correct": false },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = -10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El eje de simetría es la recta vertical que pasa por el vértice, definida por $x = -b / (2a)$.",
+    "explanation": "$x = -10 / (2 \\cdot 1) = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TD",
+    "question": "En un examen del CEPREDIX se pide hallar el área de un cuadrado cuyo lado mide $(x + 2) \\text{ cm}$. Si el área es de $49 \\text{ cm}^2$, ¿cuál es el valor de $x$?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El área de un cuadrado es $L^2$. Plantea la ecuación $(x + 2)^2 = 49$.",
+    "explanation": "Extrayendo raíz: $x + 2 = 7$ (tomamos la positiva por ser longitud). Entonces $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TE",
+    "question": "¿Cuál es el valor de la ordenada al origen de la función $f(x) = (x - 2)(x + 3)$?",
+    "image": null,
+    "options": [
+      { "text": "-6", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los términos o simplemente evalúa la función en $x = 0$.",
+    "explanation": "$f(0) = (0 - 2)(0 + 3) = (-2)(3) = -6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TF",
+    "question": "Selecciona las raíces de la ecuación cuadrática pura $4x^2 - 64 = 0$:\n1. $x = 4$\n2. $x = -4$\n3. $x = 16$\n4. $x = -16$\n5. $x = 8$",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "3, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero divide toda la ecuación entre $4$ y luego despeja $x^2$.",
+    "explanation": "$x^2 = 64/4 = 16$. Por lo tanto, $x = \\pm 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TG",
+    "question": "Cuando una función cuadrática se expresa como el producto de dos binomios lineales, por ejemplo $f(x) = a(x - r_1)(x - r_2)$, los valores $r_1$ y $r_2$ representan las ______ de la función, es decir, los puntos donde la gráfica cruza el eje ______.",
+    "image": null,
+    "options": [
+      { "text": "Raíces, abscisas", "correct": true },
+      { "text": "Ordenadas, ordenadas", "correct": false },
+      { "text": "Constantes, simetría", "correct": false },
+      { "text": "Variables, vertical", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x = r_1$, entonces $f(r_1) = 0$. ¿Cómo se llaman los puntos donde la función vale cero?",
+    "explanation": "Esta es la forma factorizada de la función cuadrática, donde los ceros de la función coinciden con los valores de las raíces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TH",
+    "question": "Relaciona la apertura de la parábola con su coeficiente principal $a$:\nI. Muy cerrada (estrecha)\nII. Muy abierta (ancha)\nIII. Apertura estándar\n\nA. $a = 1$\nB. $a = 10$\nC. $a = 0.1$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A mayor valor absoluto de $a$, el crecimiento es más rápido y la parábola se 'estira' verticalmente.",
+    "explanation": "Un valor grande como $10$ hace la parábola estrecha. Un valor pequeño decimal como $0.1$ la hace ancha.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TI",
+    "question": "¿Cuál es la raíz positiva de la ecuación $x^2 - 1.44 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "1.2", "correct": true },
+      { "text": "1.44", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "0.12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la raíz cuadrada de $144$ y ajusta el punto decimal.",
+    "explanation": "$x^2 = 1.44 \\Rightarrow x = \\sqrt{1.44} = 1.2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TJ",
+    "question": "Un estudiante del CEPREDIX nota que al graficar $f(x) = x^2 + 4$, la parábola no cruza el eje $x$. ¿Cuál es el discriminante de esta función?",
+    "image": null,
+    "options": [
+      { "text": "-16", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica $a=1, b=0, c=4$ y usa $D = b^2 - 4ac$.",
+    "explanation": "$D = 0^2 - 4(1)(4) = -16$. Al ser negativo, se confirma que no hay intersecciones reales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TK",
+    "question": "¿Cuál es el nombre del punto donde la parábola cambia su crecimiento de decreciente a creciente (cuando $a > 0$)?",
+    "image": null,
+    "options": [
+      { "text": "Vértice", "correct": true },
+      { "text": "Foco", "correct": false },
+      { "text": "Directriz", "correct": false },
+      { "text": "Ordenada", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el punto extremo de la curva.",
+    "explanation": "El vértice es el punto máximo o mínimo de la parábola.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TL",
+    "question": "En la función $f(x) = x^2 - x - 2$, ¿cuáles son los puntos de intersección con el eje $x$?",
+    "image": null,
+    "options": [
+      { "text": "$(2, 0)$ y $(-1, 0)$", "correct": true },
+      { "text": "$(1, 0)$ y $(-2, 0)$", "correct": false },
+      { "text": "$(0, 2)$ y $(0, -1)$", "correct": false },
+      { "text": "$(2, -1)$ y $(-1, 2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den $-2$ y sumados den $-1$.",
+    "explanation": "$(x - 2)(x + 1) = 0$. Las raíces son $x=2$ y $x=-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TM",
+    "question": "La función cuadrática $f(x) = (x + 4)^2$ tiene su vértice en el punto ______ y es tangente al eje $x$, lo cual implica que tiene una ______.",
+    "image": null,
+    "options": [
+      { "text": "(-4, 0), raíz doble", "correct": true },
+      { "text": "(4, 0), raíz imaginaria", "correct": false },
+      { "text": "(0, 4), raíz única", "correct": false },
+      { "text": "(-4, 4), solución nula", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si la expresión es un cuadrado perfecto, el vértice está sobre el eje $x$.",
+    "explanation": "Al ser $(x+4)^2$, el vértice es $(-4, 0)$. Como solo toca el eje en un punto, la raíz $x=-4$ es doble.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TN",
+    "question": "Relaciona la dirección de apertura con la ecuación de la parábola:\nI. Abre hacia arriba\nII. Abre hacia abajo\n\nA. $f(x) = 5 - x^2$\nB. $f(x) = (x - 2)^2 + 3$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-B, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el signo del número que acompaña a $x^2$ cuando expandes o acomodas la ecuación.",
+    "explanation": "En A, el término cuadrático es $-x^2$ (hacia abajo). En B, al expandir $(x-2)^2$ el término es $+x^2$ (hacia arriba).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
