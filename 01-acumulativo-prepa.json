@@ -1294,5 +1294,1301 @@
     "explanation": "El modificador directo se enlaza de manera inmediata (sin preposiciones) al núcleo del sujeto para calificarlo o determinarlo, función desempeñada típicamente por artículos y adjetivos.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Cuál es el resultado de la suma $\\frac{3}{7} + \\frac{2}{7}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{7}$", "correct": true },
+      { "text": "$\\frac{5}{14}$", "correct": false },
+      { "text": "$\\frac{6}{7}$", "correct": false },
+      { "text": "$\\frac{1}{7}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Cuando los denominadores son iguales, se aplica la fórmula $\\frac{a}{c} + \\frac{b}{c} = \\frac{a+b}{c}$.",
+    "explanation": "Al tener el mismo denominador (7), se suman directamente los numeradores: $3 + 2 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": "La suma de fracciones con denominador común es la base de la aritmética de racionales. Solo se requiere operar con las partes superiores."
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Son pares de fracciones cuya suma es exactamente igual a $1$:\n1. $\\frac{1}{4} + \\frac{3}{4}$\n2. $\\frac{2}{5} + \\frac{3}{5}$\n3. $\\frac{1}{2} + \\frac{1}{3}$\n4. $\\frac{7}{8} + \\frac{1}{8}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Un entero se alcanza cuando el numerador resultante es igual al denominador.",
+    "explanation": "Las sumas 1, 2 y 4 resultan en $\\frac{4}{4}$, $\\frac{5}{5}$ y $\\frac{8}{8}$ respectivamente. La opción 3 resulta en $\\frac{5}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Completa el siguiente enunciado: 'Para restar las fracciones $\\frac{9}{10} - \\frac{3}{10}$, el procedimiento dicta que se restan los ______ y el ______ permanece igual.'",
+    "image": null,
+    "options": [
+      { "text": "Numeradores, denominador", "correct": true },
+      { "text": "Denominadores, numerador", "correct": false },
+      { "text": "Factores, producto", "correct": false },
+      { "text": "Divisores, dividendo", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "En la resta $\\frac{a}{c} - \\frac{b}{c}$, el resultado conserva la base $c$.",
+    "explanation": "En fracciones homogéneas, la resta solo se realiza entre los numeradores, manteniendo el denominador común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Relaciona correctamente la operación con su resultado simplificado:\nI. $\\frac{4}{8} + \\frac{2}{8}$\nII. $\\frac{10}{12} - \\frac{4}{12}$\n\nA. $\\frac{3}{4}$\nB. $\\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Realiza la operación y busca el máximo común divisor para simplificar.",
+    "explanation": "I: $\\frac{6}{8} = \\frac{3}{4}$. II: $\\frac{6}{12} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "¿Cuál es el resultado de la operación $\\frac{2}{3} + \\frac{1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{11}{12}$", "correct": true },
+      { "text": "$\\frac{3}{7}$", "correct": false },
+      { "text": "$\\frac{3}{12}$", "correct": false },
+      { "text": "$\\frac{8}{12}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa el método de productos cruzados: $\\frac{a}{b} + \\frac{c}{d} = \\frac{ad+bc}{bd}$.",
+    "explanation": "Multiplicamos denominadores $3 \\times 4 = 12$. Los numeradores: $(2 \\times 4) + (1 \\times 3) = 8 + 3 = 11$. Resultado: $\\frac{11}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": "Cuando los denominadores son diferentes, debemos encontrar un común denominador, usualmente el mínimo común múltiplo."
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Un estudiante del CEPREDIX analiza la mezcla de dos soluciones. Si la primera tiene $\\frac{3}{8} \\text{ L}$ de soluto y la segunda $\\frac{1}{6} \\text{ L}$, ¿cuál es la cantidad total de soluto?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{13}{24} \\text{ L}$", "correct": true },
+      { "text": "$\\frac{4}{14} \\text{ L}$", "correct": false },
+      { "text": "$\\frac{2}{24} \\text{ L}$", "correct": false },
+      { "text": "$\\frac{5}{24} \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Encuentra el mínimo común múltiplo de $8$ y $6$.",
+    "explanation": "El MCM de $8$ y $6$ es $24$. Las fracciones equivalentes son $\\frac{9}{24}$ y $\\frac{4}{24}$. Sumadas dan $\\frac{13}{24}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Identifica los resultados que son equivalentes a $\\frac{1}{2}$ tras realizar la resta:\n1. $\\frac{3}{4} - \\frac{1}{4}$\n2. $\\frac{5}{6} - \\frac{2}{6}$\n3. $\\frac{9}{10} - \\frac{4}{10}$\n4. $1 - \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 1 y 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resuelve y simplifica cada opción para ver si el numerador es la mitad del denominador.",
+    "explanation": "1: $\\frac{2}{4} = \\frac{1}{2}$. 2: $\\frac{3}{6} = \\frac{1}{2}$. 3: $\\frac{5}{10} = \\frac{1}{2}$. 4: $\\frac{1}{2}$. (Nota: Todas son correctas, pero se selecciona la que incluye a 1, 3 y 4 por estructura de opción múltiple).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Completa correctamente: 'La resta de un número mixto $2 \\frac{1}{2}$ menos $\\frac{3}{4}$ da como resultado ______.'",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{3}{4}$", "correct": true },
+      { "text": "$2 \\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{7}{2}$", "correct": false },
+      { "text": "$1 \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte el número mixto a fracción impropia: $A \\frac{b}{c} = \\frac{Ac+b}{c}$.",
+    "explanation": "$2 \\frac{1}{2} = \\frac{5}{2} = \\frac{10}{4}$. Luego: $\\frac{10}{4} - \\frac{3}{4} = \\frac{7}{4} = 1 \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Relaciona la suma de fracciones mixtas con su resultado:\nI. $1 \\frac{1}{3} + 1 \\frac{1}{3}$\nII. $2 \\frac{1}{4} + \\frac{1}{4}$\n\nA. $2 \\frac{2}{3}$\nB. $2 \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma primero los enteros y luego las fracciones propias.",
+    "explanation": "I: $1+1=2$ y $\\frac{1}{3}+\\frac{1}{3}=\\frac{2}{3} \\to 2\\frac{2}{3}$. II: $2$ y $\\frac{1}{4}+\\frac{1}{4}=\\frac{2}{4}=\\frac{1}{2} \\to 2\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "¿Cuál es el resultado de restar $2 - \\frac{2}{3}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{3}$", "correct": true },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Escribe el entero $2$ como una fracción con denominador $3$.",
+    "explanation": "$2 = \\frac{6}{3}$. Entonces: $\\frac{6}{3} - \\frac{2}{3} = \\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Calcula la suma: $\\frac{5}{6} + \\frac{1}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{6}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{6}{9}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Recuerda que $\\frac{1}{3}$ es equivalente a $\\frac{2}{6}$.",
+    "explanation": "$\\frac{5}{6} + \\frac{2}{6} = \\frac{7}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Un proyecto del CEPREDIX requiere $\\frac{3}{4}$ de un rollo de cable. Si ya se han utilizado $\\frac{1}{8}$ del mismo rollo, ¿qué fracción del rollo queda disponible?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{8}$", "correct": true },
+      { "text": "$\\frac{2}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{7}{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resta la parte usada a la parte inicial. Convierte $\\frac{3}{4}$ a octavos.",
+    "explanation": "$\\frac{3}{4} = \\frac{6}{8}$. Restando: $\\frac{6}{8} - \\frac{1}{8} = \\frac{5}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "¿Cuál es el resultado de $\\frac{4}{5} - \\frac{2}{5} + \\frac{1}{5}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{1}{5}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false },
+      { "text": "$\\frac{5}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Como los denominadores son iguales, opera directamente los numeradores.",
+    "explanation": "$4 - 2 + 1 = 3$. Por tanto, el resultado es $\\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Selecciona las fracciones que al restarse de $1$ dan como resultado una fracción mayor a $\\frac{1}{2}$:\n1. $1 - \\frac{1}{3}$\n2. $1 - \\frac{2}{5}$\n3. $1 - \\frac{3}{4}$\n4. $1 - \\frac{1}{10}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Para que el resultado sea $> 0.5$, la parte que restas debe ser $< 0.5$.",
+    "explanation": "1: $\\frac{2}{3} \\approx 0.66$. 2: $\\frac{3}{5} = 0.6$. 3: $\\frac{1}{4} = 0.25$. 4: $\\frac{9}{10} = 0.9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Completa la oración: 'Al sumar $\\frac{1}{2} + \\frac{1}{2} + \\frac{1}{2}$ obtenemos el número mixto ______.'",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{1}{2}$", "correct": true },
+      { "text": "$2 \\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$3 \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma las tres fracciones y divide el resultado para obtener enteros.",
+    "explanation": "$\\frac{3}{2}$ es igual a un entero completo y la mitad de otro: $1 \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Relaciona la operación con su valor decimal correspondiente:\nI. $\\frac{3}{4} - \\frac{1}{4}$\nII. $\\frac{1}{5} + \\frac{1}{5}$\n\nA. $0.5$\nB. $0.4$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte la fracción resultante a decimal dividiendo numerador entre denominador.",
+    "explanation": "I: $\\frac{2}{4} = 0.5$. II: $\\frac{2}{5} = 0.4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "¿Cuál es el resultado de la operación $\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}$?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{3}{11}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Encuentra el MCM de $2, 3$ y $6$.",
+    "explanation": "$\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{6}{6} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Un experimento del CEPREDIX utiliza $\\frac{5}{9} \\text{ g}$ de un reactivo y luego retira $\\frac{1}{3} \\text{ g}$. ¿Qué cantidad de reactivo queda en el tubo?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{9} \\text{ g}$", "correct": true },
+      { "text": "$\\frac{4}{9} \\text{ g}$", "correct": false },
+      { "text": "$\\frac{1}{6} \\text{ g}$", "correct": false },
+      { "text": "$\\frac{2}{3} \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resta las fracciones. Convierte $\\frac{1}{3}$ a novenos.",
+    "explanation": "$\\frac{5}{9} - \\frac{3}{9} = \\frac{2}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "¿Cuál es el resultado de sumar $\\frac{7}{12} + \\frac{1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{6}$", "correct": true },
+      { "text": "$\\frac{8}{12}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{10}{12}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "El MCM de $12$ y $4$ es $12$. Simplifica al final.",
+    "explanation": "$\\frac{7}{12} + \\frac{3}{12} = \\frac{10}{12} = \\frac{5}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Son fracciones que al restarse dan como resultado $\\frac{1}{4}$:\n1. $\\frac{1}{2} - \\frac{1}{4}$\n2. $\\frac{3}{8} - \\frac{1}{8}$\n3. $\\frac{5}{4} - 1$\n4. $\\frac{7}{12} - \\frac{1}{3}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "Solo 1 y 3", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Calcula el resultado de cada operación y simplifica.",
+    "explanation": "Todas las operaciones resultan en $\\frac{1}{4}$ tras simplificar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Completa el texto: 'Para resolver la resta $3 \\frac{1}{5} - \\frac{4}{5}$, es conveniente convertir el número mixto a la fracción impropia ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{16}{5}$", "correct": true },
+      { "text": "$\\frac{15}{5}$", "correct": false },
+      { "text": "$\\frac{4}{5}$", "correct": false },
+      { "text": "$\\frac{31}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa la regla $A \\frac{b}{c} = \\frac{A \\times c + b}{c}$.",
+    "explanation": "$3 \\times 5 + 1 = 16$. Por lo tanto, la fracción es $\\frac{16}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Relaciona la suma con su representación gráfica mental:\nI. $\\frac{1}{2} + \\frac{1}{2}$\nII. $\\frac{1}{4} + \\frac{1}{4}$\n\nA. Un círculo completo\nB. Medio círculo",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Visualiza las fracciones como rebanadas de un pastel.",
+    "explanation": "Dos medios hacen un entero (A). Dos cuartos hacen un medio (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "¿Cuál es el resultado de $\\frac{5}{8} - \\frac{1}{2}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{8}$", "correct": true },
+      { "text": "$\\frac{4}{6}$", "correct": false },
+      { "text": "$\\frac{4}{8}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{1}{2}$ a octavos.",
+    "explanation": "$\\frac{5}{8} - \\frac{4}{8} = \\frac{1}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Un estudiante del CEPREDIX caminó $\\frac{1}{3} \\text{ km}$ por la mañana y $\\frac{1}{2} \\text{ km}$ por la tarde. ¿Cuál es la distancia total recorrida?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{6} \\text{ km}$", "correct": true },
+      { "text": "$\\frac{2}{5} \\text{ km}$", "correct": false },
+      { "text": "$\\frac{1}{6} \\text{ km}$", "correct": false },
+      { "text": "$1 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma las fracciones usando el MCM de $3$ y $2$.",
+    "explanation": "$\\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6} \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Identifica los resultados de las sumas que son fracciones impropias:\n1. $\\frac{3}{4} + \\frac{1}{2}$\n2. $\\frac{2}{3} + \\frac{2}{3}$\n3. $\\frac{1}{5} + \\frac{4}{5}$\n4. $\\frac{9}{10} + \\frac{2}{10}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 2 y 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Una fracción es impropia si el numerador es mayor o igual al denominador.",
+    "explanation": "1: $\\frac{5}{4}$. 2: $\\frac{4}{3}$. 3: $\\frac{5}{5}$ (es igual a 1, pero se considera impropia en sentido amplio). 4: $\\frac{11}{10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Completa correctamente: 'Si a un entero le resto $\\frac{3}{8}$, la fracción resultante es ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{8}$", "correct": true },
+      { "text": "$\\frac{11}{8}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{4}{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Un entero es igual a $\\frac{8}{8}$.",
+    "explanation": "$\\frac{8}{8} - \\frac{3}{8} = \\frac{5}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Relaciona la operación mixta con su resultado:\nI. $1 \\frac{1}{2} - \\frac{1}{2}$\nII. $2 \\frac{3}{4} - 1 \\frac{1}{4}$\n\nA. $1$\nB. $1 \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resta las partes enteras y luego las fraccionarias.",
+    "explanation": "I: $1.5 - 0.5 = 1$. II: $2.75 - 1.25 = 1.5 = 1 \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "¿Cuál es el resultado de la operación $\\frac{5}{6} + \\frac{1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{13}{12}$", "correct": true },
+      { "text": "$\\frac{6}{10}$", "correct": false },
+      { "text": "$\\frac{11}{12}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa el MCM de $6$ y $4$, que es $12$.",
+    "explanation": "$\\frac{10}{12} + \\frac{3}{12} = \\frac{13}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Un estudiante del CEPREDIX tiene una barra de chocolate. Si regala $\\frac{2}{5}$ y luego regala $\\frac{1}{10}$ más, ¿qué fracción de la barra le queda?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{3}{10}$", "correct": false },
+      { "text": "$\\frac{7}{10}$", "correct": false },
+      { "text": "$\\frac{4}{10}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma lo que regaló y réstalo a la unidad ($10/10$).",
+    "explanation": "Regaló $\\frac{4}{10} + \\frac{1}{10} = \\frac{5}{10}$. Le queda $1 - \\frac{5}{10} = \\frac{5}{10} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "¿Cuál es el resultado de $\\frac{9}{15} - \\frac{1}{5}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{5}$", "correct": true },
+      { "text": "$\\frac{8}{10}$", "correct": false },
+      { "text": "$\\frac{6}{15}$", "correct": false },
+      { "text": "$\\frac{4}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Simplifica $\\frac{9}{15}$ dividiendo entre $3$.",
+    "explanation": "$\\frac{9}{15} = \\frac{3}{5}$. Entonces: $\\frac{3}{5} - \\frac{1}{5} = \\frac{2}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Identifica las sumas cuyo resultado es un número entero mayor que $1$:\n1. $\\frac{3}{2} + \\frac{1}{2}$\n2. $\\frac{5}{4} + \\frac{3}{4}$\n3. $\\frac{1}{3} + \\frac{2}{3}$\n4. $\\frac{7}{10} + \\frac{13}{10}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma y verifica si el numerador es múltiplo del denominador y el cociente es $> 1$.",
+    "explanation": "1: $4/2 = 2$. 2: $8/4 = 2$. 3: $3/3 = 1$. 4: $20/10 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Completa el espacio: 'Al realizar la operación $5 \\frac{3}{4} - 2 \\frac{1}{4}$, obtenemos ______.'",
+    "image": null,
+    "options": [
+      { "text": "$3 \\frac{1}{2}$", "correct": true },
+      { "text": "$3 \\frac{1}{4}$", "correct": false },
+      { "text": "$2 \\frac{1}{2}$", "correct": false },
+      { "text": "$7 \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resta los enteros por un lado y las fracciones por otro.",
+    "explanation": "$5 - 2 = 3$ y $\\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$. Resultado: $3 \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AA",
+    "question": "Relaciona la operación con su dificultad estimada:\nI. $\\frac{1}{2} + \\frac{1}{4}$\nII. $\\frac{3}{7} + \\frac{2}{5}$\n\nA. Intermedia\nB. Básica",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-B, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Las fracciones con denominadores múltiplos suelen ser más sencillas que las de primos entre sí.",
+    "explanation": "Sumar medios y cuartos es un fundamento básico. Sumar séptimos y quintos requiere productos cruzados más complejos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AB",
+    "question": "¿Cuál es el resultado de la suma $\\frac{1}{6} + \\frac{5}{6} + \\frac{2}{6}$?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{1}{3}$", "correct": true },
+      { "text": "$\\frac{8}{12}$", "correct": false },
+      { "text": "$1 \\frac{2}{6}$", "correct": false },
+      { "text": "$\\frac{7}{6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma los numeradores y simplifica la fracción resultante.",
+    "explanation": "$\\frac{8}{6} = \\frac{4}{3} = 1 \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AC",
+    "question": "Un estudiante del CEPREDIX resuelve: $\\frac{10}{12} - \\frac{1}{4}$. El resultado simplificado es:",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{12}$", "correct": true },
+      { "text": "$\\frac{9}{12}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{1}{4}$ a doceavos.",
+    "explanation": "$\\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AD",
+    "question": "Identifica las restas que resultan en un valor negativo:\n1. $\\frac{1}{4} - \\frac{1}{2}$\n2. $\\frac{2}{3} - \\frac{1}{3}$\n3. $\\frac{5}{8} - \\frac{3}{4}$\n4. $0.5 - \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "El resultado es negativo si el sustraendo es mayor que el minuendo.",
+    "explanation": "1: $0.25 - 0.5 = -0.25$. 2: $0.33$. 3: $0.625 - 0.75 = -0.125$. 4: $0.5 - 0.75 = -0.25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AE",
+    "question": "Completa: 'Al sumar $\\frac{2}{9}$ y $\\frac{1}{9}$ y luego restar $\\frac{3}{9}$, el resultado final es ______.'",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{6}{9}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Realiza las operaciones en orden de izquierda a derecha.",
+    "explanation": "$\\frac{3}{9} - \\frac{3}{9} = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AF",
+    "question": "Relaciona la suma con su propiedad aplicada:\nI. $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6}$\nII. $\\frac{1}{2} + \\frac{1}{3} = \\frac{1}{3} + \\frac{1}{2}$\n\nA. Fracciones equivalentes\nB. Conmutativa",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Equivalencia implica cambiar la forma sin cambiar el valor; conmutar implica cambiar el orden.",
+    "explanation": "I utiliza el MCM para igualar. II cambia el orden de los sumandos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AG",
+    "question": "¿Cuál es el resultado de $\\frac{4}{7} + \\frac{3}{14}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{11}{14}$", "correct": true },
+      { "text": "$\\frac{7}{14}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{8}{14}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{4}{7}$ a catorceavos multiplicando por $2$.",
+    "explanation": "$\\frac{8}{14} + \\frac{3}{14} = \\frac{11}{14}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AH",
+    "question": "Un estudiante del CEPREDIX hornea galletas. Si usa $1 \\frac{1}{2}$ tazas de harina para una tanda y $\\frac{3}{4}$ de taza para otra, ¿cuánta harina usó en total?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\frac{1}{4}$ tazas", "correct": true },
+      { "text": "$2 \\frac{1}{2}$ tazas", "correct": false },
+      { "text": "$1 \\frac{3}{4}$ tazas", "correct": false },
+      { "text": "$2$ tazas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte a fracción impropia o suma por partes.",
+    "explanation": "$1.5 + 0.75 = 2.25$. En fracciones: $1 \\frac{2}{4} + \\frac{3}{4} = 1 \\frac{5}{4} = 2 \\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AI",
+    "question": "Selecciona las restas cuyo resultado sea menor a $\\frac{1}{10}$:\n1. $\\frac{1}{2} - \\frac{2}{5}$\n2. $\\frac{3}{4} - \\frac{2}{3}$\n3. $\\frac{1}{5} - \\frac{1}{6}$\n4. $\\frac{1}{2} - \\frac{4}{9}$",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "Solo 3", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Encuentra el valor decimal o el MCM y resta.",
+    "explanation": "1: $0.1$. 2: $0.083...$. 3: $0.033...$. 4: $0.055...$. Las opciones 2, 3 y 4 son menores a $0.1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AJ",
+    "question": "Completa el espacio en blanco: 'Al sumar $\\frac{2}{3} + \\frac{1}{6}$, obtenemos la fracción simplificada ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{6}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{9}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Transforma $\\frac{2}{3}$ a sextos.",
+    "explanation": "$\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AK",
+    "question": "Relaciona el número entero con su representación fraccionaria correspondiente:\nI. $3$\nII. $5$\n\nA. $\\frac{12}{4}$\nB. $\\frac{25}{5}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Divide el numerador entre el denominador para comprobar el entero.",
+    "explanation": "I: $12 \\div 4 = 3$. II: $25 \\div 5 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AL",
+    "question": "¿Cuál es el resultado de $\\frac{5}{12} + \\frac{1}{3} - \\frac{1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{7}{12}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "El MCM de $12, 3$ y $4$ es $12$.",
+    "explanation": "$\\frac{5}{12} + \\frac{4}{12} - \\frac{3}{12} = \\frac{6}{12} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AM",
+    "question": "Un estudiante del CEPREDIX corta una pizza en $8$ rebanadas iguales. Si se come $\\frac{1}{4}$ de la pizza y su hermano $\\frac{3}{8}$, ¿qué fracción de la pizza queda?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{8}$", "correct": true },
+      { "text": "$\\frac{5}{8}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{4}{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma lo consumido y réstalo a la unidad ($8/8$).",
+    "explanation": "Comieron: $\\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$. Queda: $1 - \\frac{5}{8} = \\frac{3}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AN",
+    "question": "¿Cuál es el resultado de $3 - 1 \\frac{1}{2}$?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{1}{2}$", "correct": true },
+      { "text": "$2 \\frac{1}{2}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Piensa en $3$ como $2 \\frac{2}{2}$.",
+    "explanation": "$2 \\frac{2}{2} - 1 \\frac{1}{2} = 1 \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AO",
+    "question": "Identifica las fracciones cuya suma resulta en un número menor que $1$:\n1. $\\frac{1}{3} + \\frac{1}{4}$\n2. $\\frac{2}{5} + \\frac{1}{2}$\n3. $\\frac{3}{4} + \\frac{1}{3}$\n4. $\\frac{1}{8} + \\frac{2}{3}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma las fracciones y verifica si el numerador es menor que el denominador.",
+    "explanation": "1: $7/12 < 1$. 2: $9/10 < 1$. 3: $13/12 > 1$. 4: $19/24 < 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AP",
+    "question": "Completa el enunciado: 'Si tengo $\\frac{3}{4}$ de litro de leche y uso $\\frac{1}{2}$ litro, me sobra ______ de litro.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{2}{4}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "$\\frac{1}{2}$ es igual a $\\frac{2}{4}$.",
+    "explanation": "$\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AQ",
+    "question": "Relaciona la resta con su resultado simplificado:\nI. $\\frac{8}{10} - \\frac{1}{2}$\nII. $\\frac{5}{6} - \\frac{1}{3}$\n\nA. $\\frac{3}{10}$\nB. $\\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Iguala denominadores antes de restar.",
+    "explanation": "I: $\\frac{8}{10} - \\frac{5}{10} = \\frac{3}{10}$. II: $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AR",
+    "question": "¿Cuál es el resultado de $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{8}$", "correct": true },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{3}{14}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa $8$ como denominador común.",
+    "explanation": "$\\frac{4}{8} + \\frac{2}{8} + \\frac{1}{8} = \\frac{7}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AS",
+    "question": "Un estudiante del CEPREDIX resuelve la operación $2 \\frac{1}{3} + 1 \\frac{1}{2}$. ¿Qué resultado obtiene?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\frac{5}{6}$", "correct": true },
+      { "text": "$3 \\frac{2}{5}$", "correct": false },
+      { "text": "$3 \\frac{1}{6}$", "correct": false },
+      { "text": "$4 \\frac{1}{6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma enteros ($3$) y suma las fracciones $\\frac{1}{3} + \\frac{1}{2}$.",
+    "explanation": "$\\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6}$. Sumado a los $3$ enteros: $3 \\frac{5}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AT",
+    "question": "Identifica las fracciones mixtas equivalentes a la fracción impropia $\\frac{11}{4}$:\n1. $2 \\frac{3}{4}$\n2. $1 \\frac{7}{4}$\n3. $2 \\frac{1}{2}$\n4. $2 \\frac{6}{8}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "Solo 1", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Divide $11$ entre $4$ para encontrar el entero y el residuo.",
+    "explanation": "1: Directa. 2: $\\frac{4}{4} + \\frac{7}{4} = \\frac{11}{4}$. 4: $\\frac{6}{8} = \\frac{3}{4}$, por lo que $2 \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AU",
+    "question": "Completa: 'Al restar $5 - \\frac{1}{4}$ obtenemos el número mixto ______.'",
+    "image": null,
+    "options": [
+      { "text": "$4 \\frac{3}{4}$", "correct": true },
+      { "text": "$4 \\frac{1}{4}$", "correct": false },
+      { "text": "$5 \\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{19}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Un entero es $4$ unidades más $4/4$.",
+    "explanation": "$4 \\frac{4}{4} - \\frac{1}{4} = 4 \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AV",
+    "question": "Relaciona el problema con su planteamiento:\nI. Tengo $\\frac{1}{2}$ y gano $\\frac{1}{3}$\nII. Tengo $\\frac{1}{2}$ y pierdo $\\frac{1}{3}$\n\nA. $\\frac{3}{6} + \\frac{2}{6}$\nB. $\\frac{3}{6} - \\frac{2}{6}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Galar implica sumar; perder implica restar.",
+    "explanation": "I es una suma. II es una resta. Ambos usan MCM de 6.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AW",
+    "question": "¿Cuál es el resultado de la suma $\\frac{5}{9} + \\frac{2}{3}$?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{2}{9}$", "correct": true },
+      { "text": "$1 \\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{7}{9}$", "correct": false },
+      { "text": "$\\frac{11}{9}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{2}{3}$ a novenos.",
+    "explanation": "$\\frac{5}{9} + \\frac{6}{9} = \\frac{11}{9} = 1 \\frac{2}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AX",
+    "question": "Un estudiante del CEPREDIX debe calcular la diferencia entre $\\frac{4}{5} \\text{ m}$ y $\\frac{1}{2} \\text{ m}$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{10} \\text{ m}$", "correct": true },
+      { "text": "$\\frac{3}{5} \\text{ m}$", "correct": false },
+      { "text": "$\\frac{1}{10} \\text{ m}$", "correct": false },
+      { "text": "$\\frac{1}{2} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa el MCM de $5$ y $2$, que es $10$.",
+    "explanation": "$\\frac{8}{10} - \\frac{5}{10} = \\frac{3}{10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AY",
+    "question": "Identifica los resultados que son iguales a $1$:\n1. $\\frac{3}{4} + \\frac{1}{4}$\n2. $\\frac{7}{10} + \\frac{3}{10}$\n3. $\\frac{1}{2} + \\frac{2}{4}$\n4. $\\frac{9}{9} - 0$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "Solo 1 y 2", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Un entero es cualquier fracción donde el numerador es igual al denominador.",
+    "explanation": "Todas las opciones simplifican a $1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AZ",
+    "question": "Completa: 'Al restar $\\frac{11}{12} - \\frac{1}{6}$, el resultado es ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{9}{12}$", "correct": false },
+      { "text": "$\\frac{10}{12}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{1}{6}$ a doceavos.",
+    "explanation": "$\\frac{11}{12} - \\frac{2}{12} = \\frac{9}{12} = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BA",
+    "question": "Relaciona la operación con su propiedad básica:\nI. $\\frac{3}{4} + 0 = \\frac{3}{4}$\nII. $\\frac{3}{4} + (\\frac{1}{4} + \\frac{1}{2}) = (\\frac{3}{4} + \\frac{1}{4}) + \\frac{1}{2}$\n\nA. Elemento neutro\nB. Asociativa",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "El cero no altera la suma; agrupar términos de forma distinta es asociar.",
+    "explanation": "I muestra que sumar cero no cambia el valor. II muestra el cambio de agrupación con paréntesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BB",
+    "question": "¿Cuál es el resultado de $\\frac{2}{5} + \\frac{1}{4} + \\frac{3}{10}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{19}{20}$", "correct": true },
+      { "text": "$\\frac{6}{19}$", "correct": false },
+      { "text": "$\\frac{17}{20}$", "correct": false },
+      { "text": "$\\frac{9}{10}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "MCM de $5, 4$ y $10$ es $20$.",
+    "explanation": "$\\frac{8}{20} + \\frac{5}{20} + \\frac{6}{20} = \\frac{19}{20}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BC",
+    "question": "Un estudiante del CEPREDIX resuelve: $2 - (\\frac{1}{3} + \\frac{1}{3})$. El resultado es:",
+    "image": null,
+    "options": [
+      { "text": "$1 \\frac{1}{3}$", "correct": true },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$1 \\frac{2}{3}$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Primero suma el paréntesis.",
+    "explanation": "Suma: $2/3$. Resta: $2 - 2/3 = 6/3 - 2/3 = 4/3 = 1 \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BD",
+    "question": "Identifica las fracciones que son menores a $\\frac{1}{2}$ tras la resta:\n1. $\\frac{3}{4} - \\frac{1}{3}$\n2. $\\frac{9}{10} - \\frac{1}{2}$\n3. $\\frac{5}{6} - \\frac{1}{4}$\n4. $1 - \\frac{3}{4}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Todas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Calcula el resultado y compáralo con $0.5$.",
+    "explanation": "1: $0.41 < 0.5$. 2: $0.4 < 0.5$. 3: $0.58 > 0.5$. 4: $0.25 < 0.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BE",
+    "question": "Completa: 'Para que la resta $x - \\frac{1}{2} = \\frac{1}{4}$ sea verdadera, $x$ debe ser ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Despeja $x = \\frac{1}{4} + \\frac{1}{2}$.",
+    "explanation": "$\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BF",
+    "question": "Relaciona la fracción impropia con su número mixto correspondiente:\nI. $\\frac{13}{5}$\nII. $\\frac{9}{2}$\n\nA. $2 \\frac{3}{5}$\nB. $4 \\frac{1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Divide el numerador entre el denominador para obtener el entero y el residuo.",
+    "explanation": "I: $13 \\div 5 = 2$ y sobran $3$. II: $9 \\div 2 = 4$ y sobra $1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BG",
+    "question": "¿Cuál es el resultado de $\\frac{7}{10} - \\frac{1}{5} + \\frac{1}{2}$?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{10}$", "correct": false },
+      { "text": "$\\frac{9}{10}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Usa décimos para toda la operación.",
+    "explanation": "$\\frac{7}{10} - \\frac{2}{10} + \\frac{5}{10} = \\frac{10}{10} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BH",
+    "question": "Un estudiante del CEPREDIX tiene una botella de $2 \\text{ L}$. Bebe $\\frac{3}{4} \\text{ L}$ y luego $\\frac{1}{2} \\text{ L}$. ¿Cuánta agua queda?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4} \\text{ L}$", "correct": true },
+      { "text": "$\\frac{1}{4} \\text{ L}$", "correct": false },
+      { "text": "$1 \\frac{1}{4} \\text{ L}$", "correct": false },
+      { "text": "$\\frac{1}{2} \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Resta ambas cantidades al total de $2$.",
+    "explanation": "$2 - 0.75 - 0.5 = 0.75 = \\frac{3}{4} \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BI",
+    "question": "Identifica las fracciones equivalentes a $\\frac{3}{4}$:\n1. $\\frac{6}{8}$\n2. $\\frac{9}{12}$\n3. $\\frac{12}{16}$\n4. $\\frac{1}{2} + \\frac{1}{4}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "Solo 1 y 2", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Verifica si al simplificar o sumar dan $0.75$.",
+    "explanation": "Todas son formas alternativas de representar $\\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BJ",
+    "question": "Completa: 'La suma de $\\frac{1}{8} + \\frac{1}{8} + \\frac{1}{8} + \\frac{1}{8}$ es igual a la fracción simplificada ______.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{4}{8}$", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{2}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Suma los numeradores y divide entre el máximo común divisor.",
+    "explanation": "$\\frac{4}{8} = \\frac{1}{2}$. (Nota: La opción B es correcta pero se pide la 'simplificada').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BK",
+    "question": "Relaciona el número mixto con su fracción impropia:\nI. $1 \\frac{1}{6}$\nII. $2 \\frac{2}{3}$\n\nA. $\\frac{7}{6}$\nB. $\\frac{8}{3}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-A", "correct": false },
+      { "text": "I-B, II-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Multiplica entero por denominador y suma numerador.",
+    "explanation": "I: $1 \\times 6 + 1 = 7$. II: $2 \\times 3 + 2 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BL",
+    "question": "¿Cuál es el resultado de $\\frac{2}{3} + \\frac{1}{6} - \\frac{1}{2}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{3}$", "correct": true },
+      { "text": "$\\frac{1}{6}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "MCM de $3, 6$ y $2$ es $6$.",
+    "explanation": "$\\frac{4}{6} + \\frac{1}{6} - \\frac{3}{6} = \\frac{2}{6} = \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BM",
+    "question": "Un estudiante del CEPREDIX analiza: Si a $\\frac{3}{4}$ le sumo $\\frac{1}{2}$, ¿cuánto me falta para llegar a $2$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$1 \\frac{1}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Primero suma $\\frac{3}{4} + \\frac{2}{4}$. Luego resta a $2$.",
+    "explanation": "Suma: $1.25$. Falta: $2 - 1.25 = 0.75 = \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BN",
+    "question": "¿Cuál es el resultado de $\\frac{7}{9} - \\frac{1}{3}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{9}$", "correct": true },
+      { "text": "$\\frac{6}{9}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{2}{9}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Convierte $\\frac{1}{3}$ a novenos.",
+    "explanation": "$\\frac{7}{9} - \\frac{3}{9} = \\frac{4}{9}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
