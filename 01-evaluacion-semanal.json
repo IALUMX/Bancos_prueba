@@ -24789,5 +24789,653 @@
     "explanation": "Al multiplicar $A \\cdot B = (x^3 y^{-2}) \\cdot (x^{-1} y^4)$, se suman los exponentes de $x$ ($3 - 1 = 2$) y los de $y$ ($-2 + 4 = 2$). El resultado es $x^2 y^2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02AM",
+    "question": "La distancia recorrida por un móvil con respecto al tiempo está descrita por la función $S(t) = 3t^2 - 5t - 12$, donde $t$ es el tiempo en segundos y $S$ es la distancia en metros. ¿Qué distancia recorre el móvil para un tiempo de $6 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$66 \\text{ m}$", "correct": true },
+      { "text": "$24 \\text{ m}$", "correct": false },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$660 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la distancia, sustituye directamente el valor del tiempo en la ecuación.",
+    "explanation": "Al evaluar la función para $t = 6 \\text{ s}$, se obtiene $S(6) = 3(6)^2 - 5(6) - 12 = 3(36) - 30 - 12 = 108 - 42 = 66 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AN",
+    "question": "La distancia recorrida por un móvil con respecto al tiempo está descrita por la función $S(t) = 4t^2 - 11t + 47$, donde $t$ es el tiempo en segundos y $S$ es la distancia en metros. ¿Para qué valor del tiempo la distancia recorrida por el cuerpo es de $50 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$0.25 \\text{ s}$", "correct": false },
+      { "text": "$12 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala la ecuación a $50$ y resuelve la ecuación cuadrática utilizando la fórmula $t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+    "explanation": "Igualando a 50: $4t^2 - 11t + 47 = 50 \\implies 4t^2 - 11t - 3 = 0$. Factorizando o usando la fórmula general se obtiene $(4t+1)(t-3) = 0$. Dado que el tiempo debe ser positivo, $t = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AO",
+    "question": "La altura de un proyectil lanzado verticalmente está dada por $h(t) = -5t^2 + 20t + 15$, donde $h$ está en metros y $t$ en segundos. ¿Cuál es la altura del proyectil a los $3 \\text{ s}$ de haber sido lanzado?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ m}$", "correct": true },
+      { "text": "$15 \\text{ m}$", "correct": false },
+      { "text": "$45 \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa directamente la función cuadrática sustituyendo la variable $t$ por el valor indicado.",
+    "explanation": "Sustituyendo $t = 3$: $h(3) = -5(3)^2 + 20(3) + 15 = -5(9) + 60 + 15 = -45 + 75 = 30 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AP",
+    "question": "Un automóvil frena y su distancia de detención sigue la función $d(t) = 2t^2 + 4t$, con $d$ en metros y $t$ en segundos. ¿Cuánto tiempo le toma recorrer $30 \\text{ m}$ desde que empezó a frenar?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Forma una ecuación de segundo grado igualando la función a $30$ e iguala a cero para factorizar.",
+    "explanation": "Al igualar: $2t^2 + 4t = 30 \\implies 2t^2 + 4t - 30 = 0$. Dividiendo entre 2: $t^2 + 2t - 15 = 0$. Factorizando: $(t+5)(t-3)=0$. El tiempo positivo es $t = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AQ",
+    "question": "La posición vertical de una partícula es $y(t) = -4.9t^2 + 49t + 100$, donde $y$ es altura en metros y $t$ tiempo en segundos. ¿A qué altura se encuentra la partícula cuando han transcurrido exactamente $10 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ m}$", "correct": true },
+      { "text": "$200 \\text{ m}$", "correct": false },
+      { "text": "$0 \\text{ m}$", "correct": false },
+      { "text": "$50 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la variable independiente $t$ en la ecuación de movimiento.",
+    "explanation": "Evaluamos $y(10) = -4.9(10)^2 + 49(10) + 100 = -4.9(100) + 490 + 100 = -490 + 490 + 100 = 100 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AR",
+    "question": "Un objeto se mueve según $S(t) = t^2 - 6t + 18$ ($S$ en metros, $t$ en segundos). ¿En qué primer instante de tiempo la distancia recorrida es exactamente de $10 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false },
+      { "text": "$8 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación de segundo grado igualada a 10 y selecciona la raíz positiva más pequeña.",
+    "explanation": "Resolviendo $t^2 - 6t + 18 = 10 \\implies t^2 - 6t + 8 = 0$. Sus factores son $(t-2)(t-4) = 0$. Como se pide el primer instante, tomamos $t = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AS",
+    "question": "La altura de un globo aerostático al soltar un lastre es $h(t) = -16t^2 + 80t + 20$, en metros y segundos. ¿Cuál es su altura a los $2 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$116 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$80 \\text{ m}$", "correct": false },
+      { "text": "$200 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Solo requieres sustituir el valor de $t$ en el polinomio.",
+    "explanation": "Calculamos $h(2) = -16(2)^2 + 80(2) + 20 = -16(4) + 160 + 20 = -64 + 160 + 20 = 116 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AT",
+    "question": "Un móvil acelera de forma constante siguiendo $d(t) = 0.5t^2 + 10t$ ($d$ en metros, $t$ en segundos). ¿En qué segundo alcanza una distancia de $48 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ s}$", "correct": true },
+      { "text": "$8 \\text{ s}$", "correct": false },
+      { "text": "$12 \\text{ s}$", "correct": false },
+      { "text": "$10 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para eliminar los decimales y facilitar la factorización, multiplica toda la ecuación resultante por 2 antes de resolver.",
+    "explanation": "$0.5t^2 + 10t = 48 \\implies 0.5t^2 + 10t - 48 = 0$. Multiplicando por 2: $t^2 + 20t - 96 = 0$. Al factorizar $(t+24)(t-4)=0$. El tiempo real y positivo es $t=4 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AU",
+    "question": "Una pelota se lanza hacia arriba con una función de altura $h(t) = -5t^2 + 30t + 5$ ($h$ en metros, $t$ en segundos). ¿En qué tiempo alcanza su altura máxima?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$6 \\text{ s}$", "correct": false },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$1 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El tiempo donde se alcanza la altura máxima corresponde a la coordenada en $x$ del vértice de la parábola, calculada como $t = \\frac{-b}{2a}$.",
+    "explanation": "Usando la fórmula del vértice: $t = \\frac{-30}{2(-5)} = \\frac{-30}{-10} = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AV",
+    "question": "La distancia de un dron respecto a su base es $S(t) = 3t^2 - 12t + 15$ ($S$ en metros, $t$ en segundos). ¿A qué distancia se encuentra a los $4 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$15 \\text{ m}$", "correct": true },
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$12 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la sustitución de la variable de tiempo por $4$.",
+    "explanation": "$S(4) = 3(4)^2 - 12(4) + 15 = 3(16) - 48 + 15 = 48 - 48 + 15 = 15 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AW",
+    "question": "Un cohete de juguete se eleva siguiendo la función $h(t) = -5t^2 + 30t + 2$. ¿En qué primer instante de tiempo se encuentra exactamente a $27 \\text{ m}$ de altura?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ s}$", "correct": true },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false },
+      { "text": "$10 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a 27 y factoriza. El problema busca el primer momento (de subida) en que ocurre.",
+    "explanation": "$-5t^2 + 30t + 2 = 27 \\implies -5t^2 + 30t - 25 = 0$. Dividiendo entre $-5$ nos queda $t^2 - 6t + 5 = 0$, que se factoriza como $(t-1)(t-5) = 0$. El primer instante es $t = 1 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AX",
+    "question": "Un tren arranca con una ley de distancia $d(t) = 2.5t^2 + 5t$ ($d$ en metros, $t$ en segundos). ¿Qué distancia ha recorrido a los $6 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$120 \\text{ m}$", "correct": true },
+      { "text": "$90 \\text{ m}$", "correct": false },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Reemplaza el valor de $t$ prestando atención al orden de las operaciones y los decimales.",
+    "explanation": "$d(6) = 2.5(6)^2 + 5(6) = 2.5(36) + 30 = 90 + 30 = 120 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AY",
+    "question": "Un objeto lanzado desde una plataforma sigue la trayectoria $y(t) = -t^2 + 8t + 12$. ¿Cuál es su altura a los $5 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$27 \\text{ m}$", "correct": true },
+      { "text": "$12 \\text{ m}$", "correct": false },
+      { "text": "$32 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa la función con $t = 5$, recuerda que el signo negativo de $t^2$ no está dentro del cuadrado.",
+    "explanation": "$y(5) = -(5)^2 + 8(5) + 12 = -25 + 40 + 12 = 15 + 12 = 27 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AZ",
+    "question": "La posición de un bloque en un plano inclinado es $S(t) = 4t^2 - 16t + 20$. ¿En qué instante de tiempo su posición respecto al origen es de $4 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$1 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Forma un trinomio cuadrado perfecto igualando la ecuación a 4.",
+    "explanation": "$4t^2 - 16t + 20 = 4 \\implies 4t^2 - 16t + 16 = 0$. Dividiendo entre 4 obtenemos $t^2 - 4t + 4 = 0$, es decir $(t-2)^2 = 0$. Por lo tanto, $t = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BA",
+    "question": "Un objeto cae desde una altura de $100 \\text{ m}$ siguiendo el modelo de posición $h(t) = -5t^2 + 100$. ¿Cuánto tiempo tarda aproximadamente en impactar contra el suelo?",
+    "image": null,
+    "options": [
+      { "text": "$4.47 \\text{ s}$", "correct": true },
+      { "text": "$20 \\text{ s}$", "correct": false },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$10 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al impactar con el suelo, la altura $h(t)$ se vuelve $0$. Despeja la variable usando $t = \\sqrt{\\frac{100}{5}}$.",
+    "explanation": "$0 = -5t^2 + 100 \\implies 5t^2 = 100 \\implies t^2 = 20 \\implies t = \\sqrt{20} \\approx 4.47 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BB",
+    "question": "La distancia recorrida por un ciclista es $d(t) = 1.2t^2 + 7t + 2$. ¿Cuántos metros recorrió en $10 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$192 \\text{ m}$", "correct": true },
+      { "text": "$120 \\text{ m}$", "correct": false },
+      { "text": "$200 \\text{ m}$", "correct": false },
+      { "text": "$150 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la variable evaluando cada término aritméticamente.",
+    "explanation": "$d(10) = 1.2(10)^2 + 7(10) + 2 = 1.2(100) + 70 + 2 = 120 + 70 + 2 = 192 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BC",
+    "question": "Un saltamontes salta describiendo la función parabólica $y(t) = -4.9t^2 + 14.7t$. ¿Cuánto tiempo total permanece en el aire antes de volver a tocar el suelo?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$1.5 \\text{ s}$", "correct": false },
+      { "text": "$4.9 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a 0 y factoriza por factor común $t$.",
+    "explanation": "El saltamontes vuelve al suelo cuando $y(t)=0$. Así, $-4.9t^2 + 14.7t = 0 \\implies t(-4.9t + 14.7) = 0$. Ignorando el salto inicial $t=0$, el tiempo de vuelo es $t = 14.7 / 4.9 = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BD",
+    "question": "Un barco acelera suavemente según la ecuación $S(t) = 0.5t^2 - 2t + 10$. ¿Cuál es su distancia recorrida a los $8 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$26 \\text{ m}$", "correct": true },
+      { "text": "$18 \\text{ m}$", "correct": false },
+      { "text": "$32 \\text{ m}$", "correct": false },
+      { "text": "$42 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye $t = 8$ de manera directa en el polinomio.",
+    "explanation": "$S(8) = 0.5(8)^2 - 2(8) + 10 = 0.5(64) - 16 + 10 = 32 - 16 + 10 = 26 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BE",
+    "question": "Un proyectil se lanza desde lo alto de un edificio con $h(t) = -16t^2 + 32t + 48$. ¿En qué tiempo toca el suelo?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$1 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a 0 y simplifica la ecuación dividiendo entre $-16$ para facilitar encontrar las raíces.",
+    "explanation": "Al tocar el suelo $h(t) = 0 \\implies -16t^2 + 32t + 48 = 0$. Dividiendo entre $-16$ obtenemos $t^2 - 2t - 3 = 0$. Factorizando $(t-3)(t+1) = 0$. Tomamos la raíz positiva, $t = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BF",
+    "question": "La distancia recorrida por un móvil es $d(t) = 3t^2 + 6t + 9$. ¿En qué tiempo el móvil ha recorrido una distancia total de $153 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ s}$", "correct": true },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$7 \\text{ s}$", "correct": false },
+      { "text": "$8 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a 153, restalo de 9 y divide la ecuación resultante entre 3 antes de resolver.",
+    "explanation": "Resolviendo $3t^2 + 6t + 9 = 153 \\implies 3t^2 + 6t - 144 = 0$. Dividiendo entre 3: $t^2 + 2t - 48 = 0 \\implies (t+8)(t-6) = 0$. El tiempo debe ser positivo, por lo que $t = 6 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BG",
+    "question": "Un chorro de agua sigue la trayectoria de la función cuadrática $y(t) = -5t^2 + 60t + 5$. ¿Cuál es la altura máxima que alcanza?",
+    "image": null,
+    "options": [
+      { "text": "$185 \\text{ m}$", "correct": true },
+      { "text": "$180 \\text{ m}$", "correct": false },
+      { "text": "$175 \\text{ m}$", "correct": false },
+      { "text": "$190 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero encuentra el tiempo para el punto más alto usando $t = \\frac{-b}{2a}$, y luego evalúa ese tiempo en $y(t)$.",
+    "explanation": "El tiempo del vértice es $t = \\frac{-60}{2(-5)} = 6 \\text{ s}$. Evaluando la altura: $y(6) = -5(6)^2 + 60(6) + 5 = -180 + 360 + 5 = 185 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BH",
+    "question": "La ley de distancia de una partícula obedece el modelo $S(t) = t^2 + 4t - 5$. ¿Qué distancia lleva recorrida a los $3 \\text{ s}$ de iniciado el conteo?",
+    "image": null,
+    "options": [
+      { "text": "$16 \\text{ m}$", "correct": true },
+      { "text": "$21 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$25 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la magnitud temporal directamente en la ecuación matemática.",
+    "explanation": "Sustituyendo el tiempo: $S(3) = (3)^2 + 4(3) - 5 = 9 + 12 - 5 = 16 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BI",
+    "question": "Un balón es pateado siguiendo $h(t) = -4.9t^2 + 19.6t + 25$. ¿En qué tiempo se encuentra a su altura máxima de $44.6 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$1 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false },
+      { "text": "$0.5 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que se trata del punto máximo, puedes encontrar la solución usando la fórmula del vértice $t = \\frac{-b}{2a}$.",
+    "explanation": "Usando la fórmula del vértice: $t = \\frac{-19.6}{2(-4.9)} = \\frac{-19.6}{-9.8} = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BJ",
+    "question": "La distancia de frenado de una bicicleta es $d(t) = 2t^2 - 8t + 15$. ¿Cuál es la distancia registrada a los $2 \\text{ s}$ del frenado?",
+    "image": null,
+    "options": [
+      { "text": "$7 \\text{ m}$", "correct": true },
+      { "text": "$15 \\text{ m}$", "correct": false },
+      { "text": "$11 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza las operaciones aritméticas tras reemplazar $t$ por 2.",
+    "explanation": "Calculamos $d(2) = 2(2)^2 - 8(2) + 15 = 2(4) - 16 + 15 = 8 - 16 + 15 = 7 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BK",
+    "question": "Un estudiante del CEPREDIX observa el movimiento de un carro robótico cuya velocidad está descrita por $v(t) = 3t^2 - 2t + 4$ ($v$ en m/s, $t$ en segundos). ¿Cuál es la magnitud de la velocidad del carrito a los $3 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ m/s}$", "correct": true },
+      { "text": "$21 \\text{ m/s}$", "correct": false },
+      { "text": "$35 \\text{ m/s}$", "correct": false },
+      { "text": "$15 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye el tiempo evaluándolo en la función de velocidad que se te proporciona.",
+    "explanation": "Reemplazando $t = 3$ en la ecuación: $v(3) = 3(3)^2 - 2(3) + 4 = 3(9) - 6 + 4 = 27 - 6 + 4 = 25 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BL",
+    "question": "Un bloque se desliza con una ecuación de desplazamiento igual a $S(t) = t^2 + 5t + 6$. ¿Cuánto tiempo debe transcurrir para que el desplazamiento alcance los $20 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$3 \\text{ s}$", "correct": false },
+      { "text": "$1 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Forma un trinomio igualando la función a 20 e iguala a 0, después emplea el método de factorización.",
+    "explanation": "Igualando la expresión: $t^2 + 5t + 6 = 20 \\implies t^2 + 5t - 14 = 0$. Su factorización es $(t+7)(t-2)=0$, por lo que $t = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BM",
+    "question": "En una práctica guiada por instructores del CEPREDIX, se lanza una esfera hacia arriba siguiendo el modelo $h(t) = -5t^2 + 40t$. ¿Cuál es la altura máxima que alcanza la esfera en su recorrido parabólico?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ m}$", "correct": true },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false },
+      { "text": "$120 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero encuentra el instante de tiempo en el que ocurre el punto máximo ($t = \\frac{-b}{2a}$) y sustitúyelo.",
+    "explanation": "El tiempo donde se maximiza es $t = \\frac{-40}{2(-5)} = 4 \\text{ s}$. Sustituyendo: $h(4) = -5(16) + 40(4) = -80 + 160 = 80 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BN",
+    "question": "Un carrito sobre un riel sin fricción presenta un modelo de movimiento $d(t) = 4t^2 - 2t + 1$. Determina la distancia cubierta después de $5 \\text{ s}$.",
+    "image": null,
+    "options": [
+      { "text": "$91 \\text{ m}$", "correct": true },
+      { "text": "$85 \\text{ m}$", "correct": false },
+      { "text": "$101 \\text{ m}$", "correct": false },
+      { "text": "$115 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Reemplaza matemáticamente el valor $t=5$ en la expresión original.",
+    "explanation": "$d(5) = 4(5)^2 - 2(5) + 1 = 4(25) - 10 + 1 = 100 - 10 + 1 = 91 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BO",
+    "question": "Un estudiante del CEPREDIX diseña un motor que desplaza una masa con la función $S(t) = 2t^2 + 8t$. Determina en qué instante la masa se encuentra a $90 \\text{ m}$ de su origen.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ s}$", "correct": true },
+      { "text": "$6 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$7 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a 90, simplifica dividiendo por la mitad todos los coeficientes y busca las raíces de la ecuación cuadrática.",
+    "explanation": "$2t^2 + 8t = 90 \\implies 2t^2 + 8t - 90 = 0$. Al dividir entre 2 resulta $t^2 + 4t - 45 = 0$. Factorizando $(t+9)(t-5)=0$, y como $t > 0$, concluimos $t=5 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BP",
+    "question": "La trayectoria en altura de un objeto pirotécnico responde a la ecuación $y(t) = -5t^2 + 50t + 10$. Calcula la altura registrada a los $4 \\text{ s}$.",
+    "image": null,
+    "options": [
+      { "text": "$130 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$110 \\text{ m}$", "correct": false },
+      { "text": "$140 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa el tiempo pedido cuidando las reglas de precedencia matemática (exponentes primero).",
+    "explanation": "$y(4) = -5(4)^2 + 50(4) + 10 = -5(16) + 200 + 10 = -80 + 200 + 10 = 130 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BQ",
+    "question": "Un vehículo de control remoto tiene una expresión de desplazamiento dada por $d(t) = 1.5t^2 + 3t$. ¿Cuánta distancia habrá recorrido pasados $6 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$72 \\text{ m}$", "correct": true },
+      { "text": "$64 \\text{ m}$", "correct": false },
+      { "text": "$82 \\text{ m}$", "correct": false },
+      { "text": "$54 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la operación con decimales evaluando la función cuadrática.",
+    "explanation": "$d(6) = 1.5(6)^2 + 3(6) = 1.5(36) + 18 = 54 + 18 = 72 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BR",
+    "question": "En el simulador computacional del CEPREDIX se observa la caída de un cuerpo cuya altura obedece la expresión $h(t) = -16t^2 + 64t + 80$. Determina cuánto tiempo transcurre para que este cuerpo caiga al nivel del suelo ($0 \\text{ m}$).",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ s}$", "correct": true },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a $0$ y divide todos los factores entre $-16$ para simplificar el proceso y aplicar la factorización de manera directa.",
+    "explanation": "Al igualar a 0 y dividir entre $-16$: $t^2 - 4t - 5 = 0$. Su factorización es $(t-5)(t+1)=0$, de donde la raíz positiva da $t = 5 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BS",
+    "question": "La gráfica de una partícula modela su desplazamiento con la relación de la función $S(t) = 5t^2 - 10t + 20$. Concluye cuál es la distancia recorrida para el instante temporal de $4 \\text{ s}$.",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ m}$", "correct": true },
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$80 \\text{ m}$", "correct": false },
+      { "text": "$70 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa una evaluación básica sustituyendo el tiempo en el polinomio del desplazamiento.",
+    "explanation": "$S(4) = 5(4)^2 - 10(4) + 20 = 5(16) - 40 + 20 = 80 - 40 + 20 = 60 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BT",
+    "question": "Un instructor del CEPREDIX dispara horizontalmente un objeto con una elevación modificada por una fuerza externa que produce la parábola $y(t) = -4.9t^2 + 29.4t$. ¿En qué tiempo el objeto retorna al plano $y=0$?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ s}$", "correct": true },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aprovecha que la constante $c$ es cero, extrae la variable de tiempo como factor común y encuentra la raíz no nula resolviendo $t = \\frac{29.4}{4.9}$.",
+    "explanation": "Igualando a cero, extraemos factor común: $t(-4.9t + 29.4) = 0$. Como retorna al plano después del inicio, descartamos el $t=0$ y calculamos $t = \\frac{29.4}{4.9} = 6 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BU",
+    "question": "Un trineo se empuja y su distancia se modula respecto al tiempo acorde a la ecuación $d(t) = 0.8t^2 + 4t$. Encuentra la distancia al llegar a la marca de los $10 \\text{ s}$.",
+    "image": null,
+    "options": [
+      { "text": "$120 \\text{ m}$", "correct": true },
+      { "text": "$80 \\text{ m}$", "correct": false },
+      { "text": "$140 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa el tiempo dado multiplicando sin olvidar el valor del coeficiente decimal.",
+    "explanation": "$d(10) = 0.8(10)^2 + 4(10) = 0.8(100) + 40 = 80 + 40 = 120 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BV",
+    "question": "Durante un ejercicio práctico, el asesor del CEPREDIX lanza una bengala cuya altitud sigue la fórmula $h(t) = -5t^2 + 20t + 25$. Calcula en qué primer instante de la trayectoria logrará ubicarse exactamente en una marca altitudinal de $40 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ s}$", "correct": true },
+      { "text": "$3 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Después de igualar a 40, divide la expresión para simplificar. Existen dos respuestas válidas, pero selecciona el primer evento cronológico.",
+    "explanation": "Al igualar: $-5t^2 + 20t + 25 = 40 \\implies -5t^2 + 20t - 15 = 0$. Dividiendo entre $-5$: $t^2 - 4t + 3 = 0$. Factorizando $(t-1)(t-3)=0$. Puesto que se solicita el primer instante, la respuesta correcta es $t = 1 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
