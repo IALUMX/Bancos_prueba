@@ -3238,5 +3238,869 @@
     "explanation": "El núcleo del predicado es la acción principal que realiza el sujeto.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01CY",
+    "question": "¿Cuál es la magnitud física vectorial que representa el cambio de posición de un objeto desde un punto inicial hasta un punto final?",
+    "image": null,
+    "options": [
+      { "text": "Desplazamiento", "correct": true },
+      { "text": "Distancia", "correct": false },
+      { "text": "Trayectoria", "correct": false },
+      { "text": "Rapidez", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que esta magnitud solo considera el inicio y el fin, no el camino recorrido.",
+    "explanation": "El desplazamiento es un vector que une el punto de partida con el de llegada, a diferencia de la distancia que es una magnitud escalar del recorrido total.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01CZ",
+    "question": "De la siguiente lista, identifica cuáles son magnitudes físicas de tipo **escalar**:\n1. Fuerza\n2. Tiempo\n3. Masa\n4. Aceleración\n5. Energía",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las magnitudes escalares no requieren una dirección o sentido para ser comprendidas.",
+    "explanation": "El tiempo, la masa y la energía solo necesitan un valor numérico y una unidad, mientras que la fuerza y la aceleración requieren dirección.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DA",
+    "question": "El principio de ______ establece que todo cuerpo permanece en su estado de reposo o de movimiento rectilíneo uniforme a menos que una ______ externa actúe sobre él.",
+    "image": null,
+    "options": [
+      { "text": "Inercia, fuerza", "correct": true },
+      { "text": "Dinámica, energía", "correct": false },
+      { "text": "Acción, masa", "correct": false },
+      { "text": "Gravitación, aceleración", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta es la Primera Ley de Newton.",
+    "explanation": "La Ley de la Inercia describe la tendencia de los objetos a mantener su estado de movimiento si la fuerza neta es cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DB",
+    "question": "Relaciona correctamente la magnitud física con su unidad de medida en el Sistema Internacional (SI):\nI. Fuerza\nII. Energía\nIII. Potencia\n\nA. Joule ($J$)\nB. Watt ($W$)\nC. Newton ($N$)",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El Newton es unidad de fuerza, mientras que el Watt mide la rapidez con la que se hace un trabajo.",
+    "explanation": "Fuerza ($N$), Energía ($J$) y Potencia ($W$) son las unidades correspondientes en el SI.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DC",
+    "question": "Un estudiante del CEPREDIX observa que un móvil recorre una distancia de $100 \\text{ m}$ en un tiempo de $5 \\text{ s}$. ¿Cuál es la rapidez media del móvil?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ m/s}$", "correct": true },
+      { "text": "$500 \\text{ m/s}$", "correct": false },
+      { "text": "$0.05 \\text{ m/s}$", "correct": false },
+      { "text": "$25 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la relación $d = v \\cdot t$ para determinar el valor solicitado.",
+    "explanation": "La rapidez media se calcula dividiendo la distancia total entre el tiempo: $v = \\frac{100 \\text{ m}}{5 \\text{ s}} = 20 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DD",
+    "question": "¿Cuál es la rama de la física que se encarga de estudiar el movimiento de los cuerpos sin considerar las causas que lo producen?",
+    "image": null,
+    "options": [
+      { "text": "Cinemática", "correct": true },
+      { "text": "Dinámica", "correct": false },
+      { "text": "Estática", "correct": false },
+      { "text": "Termodinámica", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se enfoca en conceptos como velocidad, tiempo y aceleración únicamente.",
+    "explanation": "La cinemática describe el movimiento geométricamente, mientras que la dinámica estudia las fuerzas que lo originan.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DE",
+    "question": "En el Sistema Internacional, ¿cuál es la unidad fundamental para medir la masa?",
+    "image": null,
+    "options": [
+      { "text": "Kilogramo", "correct": true },
+      { "text": "Gramo", "correct": false },
+      { "text": "Libra", "correct": false },
+      { "text": "Tonelada", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la única unidad fundamental que incluye un prefijo multiplicador.",
+    "explanation": "El kilogramo ($kg$) es la unidad base de masa en el SI.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DF",
+    "question": "Identifica cuáles de los siguientes fenómenos corresponden a métodos de transferencia de **calor**:\n1. Conducción\n2. Refracción\n3. Convección\n4. Radiación\n5. Difracción",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos de los enlistados son fenómenos ópticos, no térmicos.",
+    "explanation": "La conducción (sólidos), convección (fluidos) y radiación (ondas electromagnéticas) son las tres formas de transferencia de calor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DG",
+    "question": "La unidad de medida del sonido que se utiliza para cuantificar su intensidad o nivel de presión sonora es el ______.",
+    "image": null,
+    "options": [
+      { "text": "Decibel", "correct": true },
+      { "text": "Hertz", "correct": false },
+      { "text": "Amperio", "correct": false },
+      { "text": "Ohmio", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No confundas la frecuencia (tono) con la intensidad (volumen).",
+    "explanation": "El decibel ($dB$) mide la intensidad sonora, mientras que el Hertz mide la frecuencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DH",
+    "question": "Relaciona el concepto de energía con su definición correspondiente:\nI. Cinética\nII. Potencial Gravitatoria\nIII. Mecánica\n\nA. Energía debido a la posición o altura.\nB. Suma de la energía cinética y potencial.\nC. Energía debido al movimiento de un cuerpo.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la energía 'mecánica' es la energía total de un sistema simple.",
+    "explanation": "La cinética depende de la velocidad, la potencial de la altura y la mecánica es la suma de ambas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DI",
+    "question": "Un laboratorista del CEPREDIX desea calcular la densidad de un objeto metálico cuya masa es de $500 \\text{ g}$ y ocupa un volumen de $50 \\text{ cm}^3$. ¿Cuál es el valor de su densidad?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ g/cm}^3$", "correct": true },
+      { "text": "$25000 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$0.1 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$450 \\text{ g/cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La relación de la masa y el volumen se define como $m = \\rho \\cdot V$.",
+    "explanation": "La densidad se obtiene con $\\rho = \\frac{m}{V}$. Por lo tanto: $500 \\text{ g} / 50 \\text{ cm}^3 = 10 \\text{ g/cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DJ",
+    "question": "¿Cómo se define la aceleración en términos de cinemática?",
+    "image": null,
+    "options": [
+      { "text": "El cambio de velocidad por unidad de tiempo", "correct": true },
+      { "text": "El cambio de posición en un tiempo dado", "correct": false },
+      { "text": "La distancia total recorrida", "correct": false },
+      { "text": "La rapidez constante de un cuerpo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre cuando un objeto frena, acelera o cambia de dirección.",
+    "explanation": "La aceleración mide qué tan rápido varía la velocidad en un intervalo de tiempo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DK",
+    "question": "¿Cuál es el valor aproximado de la aceleración de la gravedad ($g$) cerca de la superficie terrestre?",
+    "image": null,
+    "options": [
+      { "text": "$9.8 \\text{ m/s}^2$", "correct": true },
+      { "text": "$1.6 \\text{ m/s}^2$", "correct": false },
+      { "text": "$32.2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$9.8 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Asegúrate de verificar que la unidad corresponda a una aceleración.",
+    "explanation": "El valor estándar de $g$ es $9.8 \\text{ m/s}^2$. La opción con metros sobre segundo es una rapidez.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DL",
+    "question": "De los siguientes instrumentos, ¿cuál se utiliza específicamente para medir la **presión atmosférica**?",
+    "image": null,
+    "options": [
+      { "text": "Barómetro", "correct": true },
+      { "text": "Termómetro", "correct": false },
+      { "text": "Dinamómetro", "correct": false },
+      { "text": "Flexómetro", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El nombre proviene de la raíz griega 'baros', que significa peso.",
+    "explanation": "El barómetro mide la presión del aire; el dinamómetro mide fuerzas y el termómetro temperatura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DM",
+    "question": "Un ______ es un dispositivo que se opone al flujo de corriente eléctrica en un circuito, y su unidad de medida es el ______.",
+    "image": null,
+    "options": [
+      { "text": "Resistor, Ohmio", "correct": true },
+      { "text": "Capacitor, Faradio", "correct": false },
+      { "text": "Inductor, Henrio", "correct": false },
+      { "text": "Interruptor, Voltio", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la Ley de Ohm.",
+    "explanation": "La resistencia eléctrica se mide en Ohmios ($\\Omega$) y el dispositivo es el resistor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DN",
+    "question": "Relaciona las leyes de Newton con sus nombres comunes:\nI. Primera Ley\nII. Segunda Ley\nIII. Tercera Ley\n\nA. Ley de la fuerza, masa y aceleración.\nB. Ley de la Inercia.\nC. Ley de Acción y Reacción.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La tercera ley siempre involucra un par de fuerzas iguales y opuestas.",
+    "explanation": "Primera: Inercia; Segunda: $F=ma$; Tercera: Acción-Reacción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DO",
+    "question": "Un instructor del CEPREDIX explica que la potencia eléctrica de un aparato se calcula con la relación $P = V \\cdot I$. Si un foco está conectado a $120 \\text{ V}$ y circula una corriente de $0.5 \\text{ A}$, ¿cuál es su potencia?",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ W}$", "correct": true },
+      { "text": "$240 \\text{ W}$", "correct": false },
+      { "text": "$120.5 \\text{ W}$", "correct": false },
+      { "text": "$0.004 \\text{ W}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el producto de la tensión por la intensidad de corriente.",
+    "explanation": "La potencia es $120 \\text{ V} \\times 0.5 \\text{ A} = 60 \\text{ W}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DP",
+    "question": "¿Cuál de las siguientes propiedades es una característica de las ondas sonoras?",
+    "image": null,
+    "options": [
+      { "text": "Son ondas mecánicas longitudinales", "correct": true },
+      { "text": "Son ondas electromagnéticas", "correct": false },
+      { "text": "Se pueden propagar en el vacío", "correct": false },
+      { "text": "Son ondas transversales", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El sonido requiere un medio elástico para viajar.",
+    "explanation": "El sonido es una onda mecánica (requiere medio) y longitudinal (las partículas vibran en la misma dirección que la onda).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DQ",
+    "question": "¿Qué fenómeno óptico ocurre cuando la luz cambia de dirección al pasar de un medio transparente a otro de distinta densidad?",
+    "image": null,
+    "options": [
+      { "text": "Refracción", "correct": true },
+      { "text": "Reflexión", "correct": false },
+      { "text": "Difracción", "correct": false },
+      { "text": "Polarización", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la razón por la cual un lápiz parece 'doblarse' dentro de un vaso con agua.",
+    "explanation": "La refracción es el cambio de velocidad y dirección de la luz al cambiar de medio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DR",
+    "question": "Identifica cuáles de los siguientes son **vectores**:\n1. Fuerza\n2. Masa\n3. Velocidad\n4. Volumen\n5. Aceleración",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un vector tiene magnitud, dirección y sentido.",
+    "explanation": "La fuerza, la velocidad y la aceleración son vectores. La masa y el volumen son escalares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DS",
+    "question": "En un circuito eléctrico, la ley de ______ establece que la ______ es directamente proporcional al voltaje e inversamente proporcional a la resistencia.",
+    "image": null,
+    "options": [
+      { "text": "Ohm, corriente", "correct": true },
+      { "text": "Coulomb, fuerza", "correct": false },
+      { "text": "Joule, energía", "correct": false },
+      { "text": "Watt, potencia", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula resumida es $V = I \\cdot R$.",
+    "explanation": "La Ley de Ohm define la relación fundamental entre voltaje ($V$), corriente ($I$) y resistencia ($R$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DT",
+    "question": "Relaciona el fenómeno luminoso con su característica principal:\nI. Reflexión\nII. Refracción\nIII. Dispersión\n\nA. Separación de la luz blanca en colores.\nB. Rebote de la luz en una superficie.\nC. Cambio de medio con cambio de velocidad.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La dispersión es lo que genera el arcoíris al atravesar gotas de agua.",
+    "explanation": "Reflexión (rebote), Refracción (cambio de medio), Dispersión (separación cromática).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DU",
+    "question": "En un experimento del CEPREDIX sobre dinámica, un bloque de $10 \\text{ kg}$ es empujado con una fuerza de $50 \\text{ N}$. Si ignoramos la fricción, ¿cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}^2$", "correct": true },
+      { "text": "$500 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$40 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fuerza neta se relaciona con la masa según $m = \\frac{F}{a}$.",
+    "explanation": "Usando la segunda ley de Newton $a = \\frac{50 \\text{ N}}{10 \\text{ kg}} = 5 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DV",
+    "question": "¿Cuál es la unidad de medida de la **frecuencia** en el Sistema Internacional?",
+    "image": null,
+    "options": [
+      { "text": "Hertz", "correct": true },
+      { "text": "Segundos", "correct": false },
+      { "text": "Metros", "correct": false },
+      { "text": "Watts", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Representa el número de ciclos o repeticiones por cada segundo.",
+    "explanation": "El Hertz ($Hz$) mide la frecuencia, equivalente a ciclos por segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DW",
+    "question": "¿Qué tipo de energía se almacena en un resorte comprimido o una liga estirada?",
+    "image": null,
+    "options": [
+      { "text": "Energía potencial elástica", "correct": true },
+      { "text": "Energía cinética", "correct": false },
+      { "text": "Energía térmica", "correct": false },
+      { "text": "Energía química", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una forma de energía potencial relacionada con la deformación de objetos.",
+    "explanation": "La energía potencial elástica es la energía acumulada debido a la deformación reversible de un objeto elástico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DX",
+    "question": "De las siguientes opciones, selecciona aquellas que representen **magnitudes fundamentales** en física:\n1. Longitud\n2. Fuerza\n3. Intensidad de corriente\n4. Velocidad\n5. Temperatura",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las magnitudes derivadas son aquellas que se forman a partir de las fundamentales.",
+    "explanation": "La longitud, la intensidad de corriente y la temperatura son fundamentales; la fuerza y la velocidad son derivadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DY",
+    "question": "La escala de temperatura en la que el cero absoluto ($0 \\text{ K}$) representa la ausencia total de movimiento molecular es la escala ______.",
+    "image": null,
+    "options": [
+      { "text": "Kelvin", "correct": true },
+      { "text": "Celsius", "correct": false },
+      { "text": "Fahrenheit", "correct": false },
+      { "text": "Rankine", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la escala termodinámica absoluta utilizada en ciencias.",
+    "explanation": "La escala Kelvin es la escala absoluta. El valor $0 \\text{ K}$ equivale a $-273.15 \\text{ } ^\\circ \\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01DZ",
+    "question": "Relaciona los estados de la materia con su comportamiento de volumen y forma:\nI. Sólido\nII. Líquido\nIII. Gaseoso\n\nA. Volumen definido, forma del recipiente.\nB. Forma y volumen definidos.\nC. Forma y volumen indefinidos.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los líquidos no se comprimen fácilmente, pero los gases sí.",
+    "explanation": "Sólidos (forma y volumen fijo), Líquidos (volumen fijo, forma variable), Gases (ambos variables).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EA",
+    "question": "Un grupo de estudio del CEPREDIX analiza la presión hidrostática. Si la fórmula es $P = \\rho \\cdot g \\cdot h$, ¿qué sucede con la presión si la profundidad $h$ se triplica?",
+    "image": null,
+    "options": [
+      { "text": "Se triplica", "correct": true },
+      { "text": "Se reduce a la tercera parte", "correct": false },
+      { "text": "Se mantiene igual", "correct": false },
+      { "text": "Aumenta nueve veces", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si la relación entre la presión y la profundidad es directa o inversa.",
+    "explanation": "Al ser una relación directamente proporcional, si la profundidad aumenta al triple, la presión también se triplica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EB",
+    "question": "¿Cuál es el nombre del fenómeno en el que una onda rodea un obstáculo o se propaga a través de una pequeña abertura?",
+    "image": null,
+    "options": [
+      { "text": "Difracción", "correct": true },
+      { "text": "Reflexión", "correct": false },
+      { "text": "Interferencia", "correct": false },
+      { "text": "Refracción", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es característico de las ondas cuando encuentran bordes o rendijas.",
+    "explanation": "La difracción es la propiedad de las ondas de flexionarse alrededor de obstáculos o pasar por rendijas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EC",
+    "question": "¿Qué partícula subatómica posee carga eléctrica negativa y se encuentra orbitando el núcleo del átomo?",
+    "image": null,
+    "options": [
+      { "text": "Electrón", "correct": true },
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Positrón", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su flujo a través de un conductor es lo que conocemos como corriente eléctrica.",
+    "explanation": "Los electrones tienen carga negativa; los protones positiva y los neutrones carga neutra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ED",
+    "question": "Identifica los tipos de **circuitos eléctricos** básicos:\n1. Serie\n2. Paralelo\n3. Mixto\n4. Difuso\n5. Cíclico",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los dos primeros se refieren a cómo se conectan los componentes uno tras otro o en ramas separadas.",
+    "explanation": "Existen circuitos en serie, en paralelo y combinaciones de ambos llamadas mixtas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EE",
+    "question": "El fenómeno por el cual dos o más ondas se superponen para formar una onda resultante de mayor, menor o igual amplitud se llama ______.",
+    "image": null,
+    "options": [
+      { "text": "Interferencia", "correct": true },
+      { "text": "Resonancia", "correct": false },
+      { "text": "Efecto Doppler", "correct": false },
+      { "text": "Polarización", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Puede ser constructiva o destructiva.",
+    "explanation": "La interferencia ocurre cuando dos ondas coinciden en el mismo punto del espacio simultáneamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EF",
+    "question": "Relaciona los colores de la luz visible con su característica de frecuencia/longitud de onda:\nI. Rojo\nII. Violeta\n\nA. Mayor frecuencia y menor longitud de onda.\nB. Menor frecuencia y mayor longitud de onda.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "Ambos son iguales", "correct": false },
+      { "text": "No se pueden comparar", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El rojo está en un extremo del espectro visible y tiene la energía más baja.",
+    "explanation": "El rojo tiene longitud de onda larga (frecuencia baja); el violeta tiene longitud de onda corta (frecuencia alta).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EG",
+    "question": "En el CEPREDIX se realiza una práctica sobre trabajo mecánico. Si un estudiante aplica una fuerza de $20 \\text{ N}$ para desplazar una caja $4 \\text{ m}$ en la misma dirección de la fuerza, ¿cuánto trabajo realizó?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ J}$", "correct": true },
+      { "text": "$5 \\text{ J}$", "correct": false },
+      { "text": "$24 \\text{ J}$", "correct": false },
+      { "text": "$16 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo se calcula con el producto de la fuerza por el desplazamiento: $d = \\frac{W}{F}$.",
+    "explanation": "El trabajo es $W = F \\cdot d$. Entonces $20 \\text{ N} \\cdot 4 \\text{ m} = 80 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EH",
+    "question": "¿Cuál es el nombre de la propiedad de los materiales de recuperar su forma original después de que cesa la fuerza que los deformaba?",
+    "image": null,
+    "options": [
+      { "text": "Elasticidad", "correct": true },
+      { "text": "Plasticidad", "correct": false },
+      { "text": "Dureza", "correct": false },
+      { "text": "Tenacidad", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Lo opuesto es la plasticidad, donde la deformación es permanente.",
+    "explanation": "La elasticidad permite a los cuerpos recobrar su forma tras ser deformados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EI",
+    "question": "¿Qué tipo de espejo es capaz de divergir los rayos de luz que inciden en él, formando siempre imágenes virtuales y más pequeñas?",
+    "image": null,
+    "options": [
+      { "text": "Espejo convexo", "correct": true },
+      { "text": "Espejo cóncavo", "correct": false },
+      { "text": "Espejo plano", "correct": false },
+      { "text": "Espejo parabólico", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son los que se usan comúnmente en las esquinas de los estacionamientos para ampliar el campo visual.",
+    "explanation": "Los espejos convexos dispersan la luz y producen imágenes virtuales, derechas y de menor tamaño.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EJ",
+    "question": "De la siguiente lista de materiales, identifica cuáles son buenos **conductores** de la electricidad:\n1. Cobre\n2. Vidrio\n3. Oro\n4. Plástico\n5. Aluminio",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Generalmente, los metales son excelentes conductores.",
+    "explanation": "El cobre, oro y aluminio son metales con electrones libres, lo que facilita la conducción eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EK",
+    "question": "La ______ de un objeto es una medida de la energía cinética ______ de sus moléculas.",
+    "image": null,
+    "options": [
+      { "text": "Temperatura, promedio", "correct": true },
+      { "text": "Calor, total", "correct": false },
+      { "text": "Presión, máxima", "correct": false },
+      { "text": "Masa, mínima", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No es lo mismo que el calor, que es energía en tránsito.",
+    "explanation": "La temperatura indica el nivel de agitación molecular promedio de un sistema.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EL",
+    "question": "Relaciona los tipos de lentes con su efecto sobre los rayos de luz:\nI. Convergente\nII. Divergente\n\nA. Separa los rayos de luz.\nB. Une los rayos de luz en un foco.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "Ambos son convergentes", "correct": false },
+      { "text": "Ambos son divergentes", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las lupas usan lentes que concentran la luz en un punto.",
+    "explanation": "Las lentes convergentes enfocan los rayos en un punto; las divergentes los dispersan.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EM",
+    "question": "En una simulación del CEPREDIX, un cuerpo de $5 \\text{ kg}$ se encuentra a una altura de $10 \\text{ m}$. ¿Cuál es su energía potencial gravitatoria? (Considera $g = 10 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$500 \\text{ J}$", "correct": true },
+      { "text": "$50 \\text{ J}$", "correct": false },
+      { "text": "$250 \\text{ J}$", "correct": false },
+      { "text": "$100 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La energía potencial se calcula con $E_p = m \\cdot g \\cdot h$. Busca el producto de estos tres valores.",
+    "explanation": "Utilizamos $E_p = mgh$: $5 \\text{ kg} \\cdot 10 \\text{ m/s}^2 \\cdot 10 \\text{ m} = 500 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EN",
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "image": null,
+    "options": [
+      { "text": "$300,000 \\text{ km/s}$", "correct": true },
+      { "text": "$340 \\text{ m/s}$", "correct": false },
+      { "text": "$300,000 \\text{ m/s}$", "correct": false },
+      { "text": "$3 \\times 10^8 \\text{ km/s}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la velocidad máxima permitida en el universo según la relatividad.",
+    "explanation": "La velocidad de la luz es aproximadamente $300,000 \\text{ km/s}$ o $3 \\times 10^8 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EO",
+    "question": "¿Cómo se llama el cambio de estado de sólido directamente a gas sin pasar por el estado líquido?",
+    "image": null,
+    "options": [
+      { "text": "Sublimación", "correct": true },
+      { "text": "Fusión", "correct": false },
+      { "text": "Vaporización", "correct": false },
+      { "text": "Deposición", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre con el hielo seco o las bolitas de naftalina.",
+    "explanation": "La sublimación es el cambio de fase directo de sólido a gas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EP",
+    "question": "Identifica cuáles de los siguientes son ejemplos de **máquinas simples**:\n1. Palanca\n2. Motor de combustión\n3. Polea\n4. Plano inclinado\n5. Computadora",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son dispositivos que facilitan el trabajo cambiando la magnitud o dirección de la fuerza.",
+    "explanation": "La palanca, polea y plano inclinado son máquinas simples; el motor es una máquina compuesta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EQ",
+    "question": "El fenómeno de la ______ ocurre cuando un objeto vibra a su frecuencia natural debido a que recibe ondas de esa misma frecuencia.",
+    "image": null,
+    "options": [
+      { "text": "Resonancia", "correct": true },
+      { "text": "Refracción", "correct": false },
+      { "text": "Difracción", "correct": false },
+      { "text": "Eco", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la razón por la cual una soprano puede romper una copa de cristal.",
+    "explanation": "La resonancia ocurre cuando la frecuencia externa coincide con la frecuencia natural de un sistema.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ER",
+    "question": "Relaciona la escala termométrica con su punto de congelación del agua a presión normal:\nI. Celsius\nII. Fahrenheit\nIII. Kelvin\n\nA. $32 \\text{ } ^\\circ \\text{F}$\nB. $0 \\text{ } ^\\circ \\text{C}$\nC. $273.15 \\text{ K}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que en la escala Fahrenheit el agua se congela por encima del cero.",
+    "explanation": "Los puntos de congelación son: $0 \\text{ } ^\\circ \\text{C}$, $32 \\text{ } ^\\circ \\text{F}$ y $273.15 \\text{ K}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ES",
+    "question": "En una práctica del CEPREDIX, se mide la presión que ejerce una fuerza de $100 \\text{ N}$ sobre un área de $2 \\text{ m}^2$. ¿Cuál es la presión resultante?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ Pa}$", "correct": true },
+      { "text": "$200 \\text{ Pa}$", "correct": false },
+      { "text": "$0.02 \\text{ Pa}$", "correct": false },
+      { "text": "$98 \\text{ Pa}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La presión se define mediante la relación $F = P \\cdot A$.",
+    "explanation": "La presión se calcula como $P = \\frac{F}{A}$. Así: $100 \\text{ N} / 2 \\text{ m}^2 = 50 \\text{ Pa}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ET",
+    "question": "¿Cuál es la principal diferencia entre rapidez y velocidad?",
+    "image": null,
+    "options": [
+      { "text": "La velocidad es vectorial y la rapidez es escalar", "correct": true },
+      { "text": "La rapidez es mayor siempre", "correct": false },
+      { "text": "La velocidad no usa el tiempo", "correct": false },
+      { "text": "No existe diferencia", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Una de ellas requiere que indiques hacia dónde se mueve el objeto.",
+    "explanation": "La velocidad incluye dirección y sentido (vector), mientras que la rapidez solo indica magnitud (escalar).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
