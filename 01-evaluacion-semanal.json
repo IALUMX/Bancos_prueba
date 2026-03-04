@@ -25437,5 +25437,653 @@
     "explanation": "Al igualar: $-5t^2 + 20t + 25 = 40 \\implies -5t^2 + 20t - 15 = 0$. Dividiendo entre $-5$: $t^2 - 4t + 3 = 0$. Factorizando $(t-1)(t-3)=0$. Puesto que se solicita el primer instante, la respuesta correcta es $t = 1 \\text{ s}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02BW",
+    "question": "¿Cuál es el número de oxidación del azufre ($S$) en la molécula de ácido sulfúrico ($H_2SO_4$)?",
+    "image": null,
+    "options": [
+      { "text": "$+6$", "correct": true },
+      { "text": "$+4$", "correct": false },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para una molécula neutra se cumple que $\\sum \\text{ON} = 0$. Utiliza la expresión $2(\\text{ON}_H) + \\text{ON}_S + 4(\\text{ON}_O) = 0$ para encontrar el valor desconocido.",
+    "explanation": "En el $H_2SO_4$, el hidrógeno actúa con $+1$ y el oxígeno con $-2$. Al sustituir en la ecuación de neutralidad: $2(+1) + x + 4(-2) = 0 \\Rightarrow 2 + x - 8 = 0 \\Rightarrow x - 6 = 0 \\Rightarrow x = +6$.",
+    "explanative_video": null,
+    "collapsible_text": "Los números de oxidación permiten rastrear la transferencia de electrones en las reacciones químicas y son fundamentales para el estudio de la electroquímica."
+  },
+  {
+    "id": "CEP02BX",
+    "question": "Identifica los compuestos o iones que presentan al manganeso con su estado de oxidación máximo ($+7$):\n1. $MnO_4^{2-}$\n2. $MnO_4^{-}$\n3. $Mn^{2+}$\n4. $Mn_2O_7$",
+    "image": null,
+    "options": [
+      { "text": "2 y 4", "correct": true },
+      { "text": "1 y 2", "correct": false },
+      { "text": "Solo 2", "correct": false },
+      { "text": "1, 2 y 4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para determinar el estado en el ion, considera que $\\text{ON}_{Mn} + 4(\\text{ON}_O) = \\text{carga del ion}$. Para el óxido, la suma debe ser cero.",
+    "explanation": "En el ion $MnO_4^{-}$, tenemos $x + 4(-2) = -1 \\Rightarrow x = +7$. En el óxido $Mn_2O_7$, tenemos $2x + 7(-2) = 0 \\Rightarrow 2x = 14 \\Rightarrow x = +7$. En el ion manganato ($MnO_4^{2-}$) el estado es $+6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BY",
+    "question": "En la reacción de una celda galvánica, el ion $Sn^{2+}$ pasa a $Sn^{4+}$ mientras que el $Fe^{3+}$ pasa a $Fe^{2+}$. El estaño experimenta una ______ y actúa como el agente ______, mientras que el hierro se ______.",
+    "image": null,
+    "options": [
+      { "text": "Oxidación, reductor, reduce", "correct": true },
+      { "text": "Reducción, oxidante, oxida", "correct": false },
+      { "text": "Oxidación, oxidante, reduce", "correct": false },
+      { "text": "Reducción, reductor, oxida", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un incremento en el número de oxidación representa la pérdida de electrones. La especie que se oxida siempre reduce a la otra.",
+    "explanation": "El estaño aumenta su estado de $+2$ a $+4$ (oxidación), lo que lo convierte en el agente reductor. El hierro disminuye de $+3$ a $+2$ (reducción).",
+    "explanative_video": null,
+    "collapsible_text": "En una celda electroquímica, la oxidación ocurre en el ánodo y la reducción en el cátodo."
+  },
+  {
+    "id": "CEP02BZ",
+    "question": "Relaciona correctamente el proceso químico con su descripción:\nI. Oxidación\nII. Reducción\nIII. Agente Oxidante\n\nA. Ganancia de electrones\nB. Pérdida de electrones\nC. Especie que se reduce",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la mnemotecnia RED-GAN (Reducción-Ganancia) y OX-PER (Oxidación-Pérdida). El agente oxidante es el reactivo que 'toma' los electrones.",
+    "explanation": "La oxidación es el proceso de perder electrones (B). La reducción es ganar electrones (A). El agente oxidante es la especie que gana electrones, por lo tanto, es la que se reduce (C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CA",
+    "question": "Determine el número de oxidación del nitrógeno ($N$) en el ion nitrato ($NO_3^{-}$).",
+    "image": null,
+    "options": [
+      { "text": "$+5$", "correct": true },
+      { "text": "$+3$", "correct": false },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para este anión poliatómico, utiliza la relación: $\\text{ON}_N + 3(\\text{ON}_O) = -1$. Recuerda que el oxígeno generalmente actúa con $-2$.",
+    "explanation": "Al plantear la ecuación: $x + 3(-2) = -1 \\Rightarrow x - 6 = -1 \\Rightarrow x = +5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CB",
+    "question": "Un estudiante del CEPREDIX valora una solución de dicromato de potasio ($K_2Cr_2O_7$). ¿Cuál es el número de oxidación del cromo en este compuesto?",
+    "image": null,
+    "options": [
+      { "text": "$+6$", "correct": true },
+      { "text": "$+3$", "correct": false },
+      { "text": "$+12$", "correct": false },
+      { "text": "$+7$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El potasio es un metal alcalino ($+1$). Utiliza la ecuación de neutralidad $2(\\text{ON}_K) + 2x + 7(\\text{ON}_O) = 0$ para despejar el valor del cromo.",
+    "explanation": "Sustituyendo los valores conocidos: $2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2 + 2x - 14 = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$.",
+    "explanative_video": null,
+    "collapsible_text": "El dicromato de potasio es un agente oxidante muy utilizado en laboratorios para titulaciones redox debido a su alta pureza."
+  },
+  {
+    "id": "CEP02CC",
+    "question": "Selecciona las sustancias que pueden actuar como agentes oxidantes fuertes debido a su elevado estado de oxidación:\n1. $KMnO_4$\n2. $H_2$\n3. $HNO_3$\n4. $Na$\n5. $O_3$",
+    "image": null,
+    "options": [
+      { "text": "1, 3 y 5", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1, 2 y 3", "correct": false },
+      { "text": "3, 4 y 5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Descarta los metales alcalinos y el hidrógeno molecular, ya que tienden a perder electrones (oxidarse). Busca especies con elementos en estados positivos altos.",
+    "explanation": "El permanganato de potasio ($+7$), el ácido nítrico ($+5$) y el ozono son oxidantes potentes. El sodio y el hidrógeno son reductores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CD",
+    "question": "En el ion tiosulfato ($S_2O_3^{2-}$), para que la suma de cargas sea $-2$, el promedio del número de oxidación para cada azufre es de ______; sin embargo, estructuralmente el azufre central actúa con ______ y el terminal con $0$.",
+    "image": null,
+    "options": [
+      { "text": "$+2, +4$", "correct": true },
+      { "text": "$+4, +6$", "correct": false },
+      { "text": "$+2, +2$", "correct": false },
+      { "text": "$+6, +4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero calcula el promedio con la ecuación $2x + 3(-2) = -2$. Considera que un azufre terminal sustituye a un oxígeno en la estructura del sulfato.",
+    "explanation": "La ecuación $2x - 6 = -2$ da un promedio de $+2$. En la estructura, el azufre central está en un estado $+4$ y el azufre unido a él actúa como un átomo terminal con estado $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CE",
+    "question": "Relaciona el elemento subrayado con su número de oxidación correspondiente:\nI. $K\\underline{Cl}O_4$\nII. $K\\underline{Cl}O_3$\nIII. $K\\underline{Cl}$\n\nA. $-1$\nB. $+7$\nC. $+5$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En los cloruros binarios el halógeno es negativo. En las oxisales, el estado de oxidación del cloro aumenta conforme hay más átomos de oxígeno.",
+    "explanation": "En el perclorato de potasio el cloro es $+7$, en el clorato es $+5$ y en el cloruro de potasio es $-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CF",
+    "question": "¿Cuál es el número de oxidación del fósforo ($P$) en el compuesto fosfato de calcio ($Ca_3(PO_4)_2$)?",
+    "image": null,
+    "options": [
+      { "text": "$+5$", "correct": true },
+      { "text": "$+3$", "correct": false },
+      { "text": "$-3$", "correct": false },
+      { "text": "$+1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aisla el ion fosfato ($PO_4^{3-}$) y utiliza la suma de estados de oxidación: $\\text{ON}_P + 4(\\text{ON}_O) = -3$.",
+    "explanation": "En el ion $PO_4^{3-}$, si el oxígeno es $-2$: $x + 4(-2) = -3 \\Rightarrow x - 8 = -3 \\Rightarrow x = +5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CG",
+    "question": "Identifica qué elemento se reduce en la siguiente reacción química: $MnO_2 + 4HCl \\rightarrow MnCl_2 + Cl_2 + 2H_2O$.",
+    "image": null,
+    "options": [
+      { "text": "Manganeso ($Mn$)", "correct": true },
+      { "text": "Cloro ($Cl$)", "correct": false },
+      { "text": "Hidrógeno ($H$)", "correct": false },
+      { "text": "Oxígeno ($O$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El elemento que se reduce es aquel que disminuye su número de oxidación (gana electrones). Compara el estado del manganeso en ambos lados.",
+    "explanation": "El manganeso pasa de $+4$ en el $MnO_2$ a $+2$ en el $MnCl_2$. Al disminuir su valor numérico, el manganeso se ha reducido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CH",
+    "question": "En un reactor del CEPREDIX, se produce una reacción tipo termita: $3MnO_2 + 4Al \\rightarrow 3Mn + 2Al_2O_3$. ¿Cuál es la especie química que actúa como el agente reductor?",
+    "image": null,
+    "options": [
+      { "text": "$Al$ (Aluminio metálico)", "correct": true },
+      { "text": "$MnO_2$ (Dióxido de manganeso)", "correct": false },
+      { "text": "$Mn$ (Manganeso metálico)", "correct": false },
+      { "text": "$Al_2O_3$ (Óxido de aluminio)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El agente reductor es la sustancia que se oxida (pierde electrones) para reducir a otra. Observa qué elemento pasa de estado libre a formar un compuesto.",
+    "explanation": "El aluminio metálico tiene estado $0$ y pasa a $+3$ en el producto. Al oxidarse, provoca la reducción del manganeso, actuando como agente reductor.",
+    "explanative_video": null,
+    "collapsible_text": "Las reacciones de termita liberan grandes cantidades de energía térmica y se usan en soldaduras especiales."
+  },
+  {
+    "id": "CEP02CI",
+    "question": "Selecciona las reglas de asignación de números de oxidación que son correctas de la siguiente lista:\n1. El estado de un elemento libre es siempre $0$.\n2. El oxígeno siempre es $-2$, sin excepciones.\n3. El hidrógeno es $+1$ con no metales y $-1$ en hidruros metálicos.\n4. La suma en un ion poliatómico es igual a su carga.",
+    "image": null,
+    "options": [
+      { "text": "1, 3 y 4", "correct": true },
+      { "text": "1 y 2", "correct": false },
+      { "text": "2 y 4", "correct": false },
+      { "text": "Todas son correctas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza si existen compuestos donde el oxígeno no actúe con $-2$, como los peróxidos.",
+    "explanation": "La regla 2 es incorrecta porque el oxígeno puede ser $-1$ en peróxidos ($H_2O_2$) o $+2$ en compuestos con flúor. Las demás son reglas vigentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CJ",
+    "question": "En la reacción de reducción del cobre $CuO + H_2 \\rightarrow Cu + H_2O$, el agente ______ es el hidrógeno gaseoso, mientras que la sustancia oxidada es el _____.",
+    "image": null,
+    "options": [
+      { "text": "Reductor, hidrógeno", "correct": true },
+      { "text": "Oxidante, cobre", "correct": false },
+      { "text": "Reductor, cobre", "correct": false },
+      { "text": "Oxidante, hidrógeno", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica qué reactivo aumenta su número de oxidación. Esa especie es la que se oxida y, por definición, reduce a la otra.",
+    "explanation": "El hidrógeno elemental ($0$) pasa a $+1$ en el agua. Al oxidarse, actúa como el agente reductor de la reacción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CK",
+    "question": "Relaciona los componentes de una celda galvánica con el proceso electroquímico correspondiente:\nI. Ánodo\nII. Cátodo\nIII. Puente salino\n\nA. Reducción\nB. Oxidación\nC. Equilibrio de carga",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la correspondencia: Vocal con Vocal (Ánodo-Oxidación) y Consonante con Consonante (Cátodo-Reducción). El puente mantiene la neutralidad.",
+    "explanation": "En el ánodo ocurre la oxidación (pérdida de electrones), en el cátodo la reducción (ganancia de electrones) y el puente salino permite el flujo iónico para equilibrar las cargas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CL",
+    "question": "¿Cuál es el número de oxidación del carbono en el ion carbonato ($CO_3^{2-}$)?",
+    "image": null,
+    "options": [
+      { "text": "$+4$", "correct": true },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación algebraica para un ion poliatómico: $x + 3(\\text{ON}_O) = -2$.",
+    "explanation": "Sustituyendo el valor del oxígeno: $x + 3(-2) = -2 \\Rightarrow x - 6 = -2 \\Rightarrow x = +4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CM",
+    "question": "En la reacción de obtención de hierro en altos hornos: $Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2$. Identifica la especie química que se reduce.",
+    "image": null,
+    "options": [
+      { "text": "$Fe_2O_3$", "correct": true },
+      { "text": "$CO$", "correct": false },
+      { "text": "$Fe$", "correct": false },
+      { "text": "$CO_2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el compuesto que contiene al metal que disminuye su estado de oxidación al convertirse en metal elemental.",
+    "explanation": "El hierro en el $Fe_2O_3$ tiene un estado de $+3$ y en el producto final es $0$. Al ganar electrones, el óxido de hierro III se reduce.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CN",
+    "question": "En un estudio del CEPREDIX sobre oxidación orgánica, se analiza la conversión de etanol ($C_2H_5OH$) a etanal ($CH_3CHO$). ¿Cuál es el cambio en el número de oxidación promedio del carbono?",
+    "image": null,
+    "options": [
+      { "text": "Aumenta de $-2$ a $-1$", "correct": true },
+      { "text": "Disminuye de $0$ a $-2$", "correct": false },
+      { "text": "Aumenta de $-1$ a $+1$", "correct": false },
+      { "text": "Permanece en $-2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el promedio de los dos carbonos en cada molécula usando la suma total igual a cero. Para etanol: $2x + 6(+1) + 1(-2) = 0$.",
+    "explanation": "En el etanol el promedio es $-2$ ($2x + 4 = 0$). En el etanal el promedio es $-1$ ($2x + 2 = 0$). El carbono se oxida al aumentar su estado.",
+    "explanative_video": null,
+    "collapsible_text": "El CEPREDIX aplica estos principios para el desarrollo de sensores de alcoholimetría avanzados."
+  },
+  {
+    "id": "CEP02CO",
+    "question": "Selecciona los iones que son poliatómicos y poseen carga negativa (aniones) de la siguiente lista:\n1. $NH_4^{+}$\n2. $SO_4^{2-}$\n3. $CN^{-}$\n4. $MnO_4^{-}$\n5. $Fe^{3+}$",
+    "image": null,
+    "options": [
+      { "text": "2, 3 y 4", "correct": true },
+      { "text": "1 y 5", "correct": false },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1, 2 y 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca grupos de átomos que tengan un signo negativo al final de su fórmula química. Descarta los cationes (+) y los iones monoatómicos.",
+    "explanation": "El sulfato, el cianuro y el permanganato son aniones poliatómicos. El amonio es catión y el hierro es monoatómico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CP",
+    "question": "Cuando el sodio metálico reacciona con agua ($2Na + 2H_2O \\rightarrow 2NaOH + H_2$), el sodio se ______ rápidamente, lo que indica que es un agente ______ muy potente.",
+    "image": null,
+    "options": [
+      { "text": "Oxida, reductor", "correct": true },
+      { "text": "Reduce, oxidante", "correct": false },
+      { "text": "Oxida, oxidante", "correct": false },
+      { "text": "Reduce, reductor", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El sodio pasa de estado neutro ($0$) a formar un ion con carga $+1$. Determina si ganó o perdió electrones.",
+    "explanation": "Al pasar de $0$ a $+1$, el sodio se oxida. Como provoca la reducción del hidrógeno del agua, actúa como agente reductor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CQ",
+    "question": "Relaciona el potencial estándar de reducción ($E^0$) con la tendencia química de la especie:\nI. $E^0$ muy positivo\nII. $E^0$ muy negativo\nIII. $E^0 = 0$\n\nA. Electrodo estándar de Hidrógeno\nB. Fuerte tendencia a reducirse\nC. Fuerte tendencia a oxidarse",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Un potencial de reducción positivo indica una mayor afinidad por captar electrones. El hidrógeno se utiliza como punto cero de referencia.",
+    "explanation": "Valores positivos altos indican oxidantes fuertes (se reducen). Valores negativos indican reductores fuertes (se oxidan).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CR",
+    "question": "¿Cuál es el número de oxidación del azufre en el ion sulfito ($SO_3^{2-}$)?",
+    "image": null,
+    "options": [
+      { "text": "$+4$", "correct": true },
+      { "text": "$+6$", "correct": false },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve la ecuación algebraica: $\\text{ON}_S + 3(\\text{ON}_O) = -2$.",
+    "explanation": "Al sustituir el oxígeno por $-2$: $x - 6 = -2 \\Rightarrow x = +4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CS",
+    "question": "Identifica la especie química que se oxida en la siguiente reacción: $2KI + Cl_2 \\rightarrow 2KCl + I_2$.",
+    "image": null,
+    "options": [
+      { "text": "Yoduro de potasio ($KI$)", "correct": true },
+      { "text": "Cloro gaseoso ($Cl_2$)", "correct": false },
+      { "text": "Cloruro de potasio ($KCl$)", "correct": false },
+      { "text": "Potasio metálico ($K$)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La oxidación implica el aumento del número de oxidación. Identifica cuál anión pasó de carga negativa a carga cero.",
+    "explanation": "El yodo en el reactivo $KI$ tiene carga $-1$ y en el producto es $0$. Al perder electrones, el yoduro se oxida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CT",
+    "question": "En una simulación avanzada del CEPREDIX sobre compuestos de xenón, se analiza el $XeO_4$. ¿Cuál es el número de oxidación del gas noble en esta molécula?",
+    "image": null,
+    "options": [
+      { "text": "$+8$", "correct": true },
+      { "text": "$+4$", "correct": false },
+      { "text": "$+6$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aunque sea un gas noble, bajo condiciones extremas puede expandir su octeto. Usa la ecuación: $x + 4(\\text{ON}_O) = 0$.",
+    "explanation": "Con el oxígeno en $-2$: $x + 4(-2) = 0 \\Rightarrow x = +8$. Esto demuestra la capacidad del xenón para formar enlaces coordinados.",
+    "explanative_video": null,
+    "collapsible_text": "El CEPREDIX estudia la química de gases nobles para desafiar los paradigmas tradicionales de la regla del octeto."
+  },
+  {
+    "id": "CEP02CU",
+    "question": "Identifica cuáles de las siguientes afirmaciones sobre número de oxidación y valencia son correctas:\n1. El número de oxidación puede ser positivo o negativo.\n2. La valencia es una magnitud escalar sin signo.\n3. Ambos conceptos siempre coinciden numéricamente.\n4. El número de oxidación representa una carga aparente.",
+    "image": null,
+    "options": [
+      { "text": "1, 2 y 4", "correct": true },
+      { "text": "1 y 3", "correct": false },
+      { "text": "2 y 4", "correct": false },
+      { "text": "Todas son correctas", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera moléculas diatómicas homonucleares (como $Cl_2$) donde los átomos comparten electrones equitativamente para evaluar la regla 3.",
+    "explanation": "El número de oxidación es una carga teórica con signo, mientras que la valencia mide la capacidad de combinación sin signo. En el $Cl_2$, la valencia es 1 pero el número de oxidación es 0, por lo que no siempre coinciden.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CV",
+    "question": "En el gas hilarante ($N_2O$), el nitrógeno posee un estado de oxidación de ______ para equilibrar al oxígeno, lo cual es distinto al $+5$ encontrado en el ácido nítrico.",
+    "image": null,
+    "options": [
+      { "text": "$+1$", "correct": true },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-1$", "correct": false },
+      { "text": "$+4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación de neutralidad para dos átomos de nitrógeno: $2x + (\\text{ON}_O) = 0$.",
+    "explanation": "Con el oxígeno en $-2$: $2x - 2 = 0 \\Rightarrow 2x = 2 \\Rightarrow x = +1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CW",
+    "question": "Relaciona correctamente los compuestos orgánicos con el estado de oxidación promedio del carbono:\nI. Metano ($CH_4$)\nII. Dióxido de carbono ($CO_2$)\nIII. Metanol ($CH_3OH$)\n\nA. $+4$\nB. $-4$\nC. $-2$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el carbono es más electronegativo que el hidrógeno ($+1$) pero menos que el oxígeno ($-2$). Calcula $x$ para cada fórmula.",
+    "explanation": "Metano: $x+4=0 \\Rightarrow -4$. Dióxido de carbono: $x-4=0 \\Rightarrow +4$. Metanol: $x+4-2=0 \\Rightarrow -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CX",
+    "question": "Al observar la semirreacción iónica $Sn^{2+} \\rightarrow Sn^{4+} + 2e^{-}$, se puede afirmar que el átomo de estaño se está:",
+    "image": null,
+    "options": [
+      { "text": "Oxidando", "correct": true },
+      { "text": "Reduciendo", "correct": false },
+      { "text": "Hidrolizando", "correct": false },
+      { "text": "Neutralizando", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La presencia de electrones en el lado de los productos indica una liberación de carga negativa.",
+    "explanation": "La pérdida de electrones se define químicamente como oxidación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02CY",
+    "question": "Un estudiante del CEPREDIX analiza la combustión del metano: $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$. ¿Cuál es el reactivo que actúa como agente reductor?",
+    "image": null,
+    "options": [
+      { "text": "$CH_4$ (Metano)", "correct": true },
+      { "text": "$O_2$ (Oxígeno)", "correct": false },
+      { "text": "$CO_2$ (Dióxido de carbono)", "correct": false },
+      { "text": "$H_2O$ (Agua)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El agente reductor es la especie que suministra los electrones (la que se oxida). Identifica qué átomo central aumentó su número de oxidación.",
+    "explanation": "El carbono en el metano tiene estado $-4$ y pasa a $+4$ en el $CO_2$. Al oxidarse, el metano actúa como agente reductor.",
+    "explanative_video": null,
+    "collapsible_text": "El balance electrónico de las reacciones de combustión es clave para determinar el rendimiento térmico de los combustibles."
+  },
+  {
+    "id": "CEP02CZ",
+    "question": "Determine el número de oxidación del platino ($Pt$) en el ion complejo hexacloroplatinato ($[PtCl_6]^{2-}$).",
+    "image": null,
+    "options": [
+      { "text": "$+4$", "correct": true },
+      { "text": "$+6$", "correct": false },
+      { "text": "$+2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El cloro en estos complejos se encuentra en forma de cloruro ($-1$). Plantea la suma de cargas igual a la carga neta: $x + 6(\\text{ON}{Cl}) = -2$.",
+    "explanation": "Al resolver la ecuación: $x + 6(-1) = -2 \\Rightarrow x - 6 = -2 \\Rightarrow x = +4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02DA",
+    "question": "Identifica los compuestos en los que el átomo central presenta un número de oxidación de $+4$:\n1. $SO_2$\n2. $SO_3$\n3. $CO_2$\n4. $CH_4$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 3", "correct": false },
+      { "text": "1 y 4", "correct": false },
+      { "text": "Solo 3", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca moléculas neutras donde el átomo central esté unido a dos oxígenos ($-2$).",
+    "explanation": "En el $SO_2$ y en el $CO_2$ el azufre y el carbono actúan con $+4$. En el $SO_3$ es $+6$ y en el $CH_4$ es $-4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02DB",
+    "question": "En el ion cromato ($CrO_4^{2-}$), el cromo utiliza su estado de oxidación ______ para unirse a los cuatro oxígenos, manteniendo una carga residual de $-2$.",
+    "image": null,
+    "options": [
+      { "text": "$+6$", "correct": true },
+      { "text": "$+3$", "correct": false },
+      { "text": "$+4$", "correct": false },
+      { "text": "$+12$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x$ de la ecuación de carga del ion: $x + 4(-2) = -2$.",
+    "explanation": "La resolución aritmética $x - 8 = -2$ resulta en $x = +6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02DC",
+    "question": "Relaciona correctamente el concepto con su aplicación en el balanceo de ecuaciones por el método redox:\nI. Método del ion-electrón\nII. Método del número de oxidación\nIII. Semirreacción\n\nA. Ajusta reacciones en medios específicos (ácido o básico)\nB. Describe aisladamente la pérdida o ganancia electrónica\nC. Se basa en el cambio de carga teórica de los elementos individuales",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-C, III-B", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El método que separa la reacción en dos partes es el de la semirreacción. El ajuste de protones y agua es característico del ion-electrón.",
+    "explanation": "Ion-electrón (I-A) es para soluciones acuosas con pH definido. El ON (II-C) rastrea cargas de átomos. La semirreacción (III-B) es el paso intermedio para balancear.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02DD",
+    "question": "¿Cuál es el número de oxidación del bromo ($Br$) en la sal bromato de sodio ($NaBrO_3$)?",
+    "image": null,
+    "options": [
+      { "text": "$+5$", "correct": true },
+      { "text": "$+3$", "correct": false },
+      { "text": "$+7$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el sodio es $+1$ y el oxígeno $-2$. Resuelve: $1 + x + 3(-2) = 0$.",
+    "explanation": "Al resolver $1 + x - 6 = 0$, obtenemos que $x = +5$ para el átomo de bromo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02DE",
+    "question": "En un análisis forense del CEPREDIX, se estudia la descarga de una batería de plomo: $Pb + PbO_2 + 2H_2SO_4 \\rightarrow 2PbSO_4 + 2H_2O$. ¿Cuál es la especie que se oxida?",
+    "image": null,
+    "options": [
+      { "text": "$Pb$ (Plomo metálico)", "correct": true },
+      { "text": "$PbO_2$ (Dióxido de plomo)", "correct": false },
+      { "text": "$H_2SO_4$ (Ácido sulfúrico)", "correct": false },
+      { "text": "$PbSO_4$ (Sulfato de plomo)", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el elemento que pasa de carga neutra ($0$) a una carga positiva. Esa especie es la que pierde electrones.",
+    "explanation": "El plomo elemental ($0$) pasa a $+2$ en el sulfato de plomo. Al aumentar su estado de oxidación, esta especie se oxida.",
+    "explanative_video": null,
+    "collapsible_text": "El CEPREDIX desarrolla tecnologías de reciclaje basadas en la reversibilidad de los procesos redox en acumuladores."
+  },
+  {
+    "id": "CEP02DF",
+    "question": "Determine el estado de oxidación del vanadio ($V$) en el ion vanadilo ($VO^{2+}$).",
+    "image": null,
+    "options": [
+      { "text": "$+4$", "correct": true },
+      { "text": "$+2$", "correct": false },
+      { "text": "$+5$", "correct": false },
+      { "text": "$+6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece la ecuación donde la suma de cargas sea igual a $+2$. Utiliza $x + (\\text{ON}_O) = +2$.",
+    "explanation": "Con el oxígeno en $-2$: $x - 2 = +2 \\Rightarrow x = +4$. El vanadio es un metal de transición con múltiples estados posibles.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
