@@ -4102,5 +4102,869 @@
     "explanation": "La velocidad incluye dirección y sentido (vector), mientras que la rapidez solo indica magnitud (escalar).",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01EU",
+    "question": "Resuelve la siguiente ecuación para $x$: $x + 15 = 42$",
+    "image": null,
+    "options": [
+      { "text": "$27$", "correct": true },
+      { "text": "$57$", "correct": false },
+      { "text": "$-27$", "correct": false },
+      { "text": "$15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la operación inversa restando $15$ en ambos lados.",
+    "explanation": "Al despejar la variable obtenemos $x = 42 - 15$, lo que resulta en $x = 27$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EV",
+    "question": "Determina el valor de $x$ en la ecuación: $x + 8 = -3$",
+    "image": null,
+    "options": [
+      { "text": "$-11$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$-5$", "correct": false },
+      { "text": "$11$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $8$ en ambos lados de la igualdad.",
+    "explanation": "Restando $8$ de ambos lados, se tiene $x = -3 - 8$, por lo tanto $x = -11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EW",
+    "question": "Encuentra el valor de $x$ que satisface: $x + 24 = 10$",
+    "image": null,
+    "options": [
+      { "text": "$-14$", "correct": true },
+      { "text": "$14$", "correct": false },
+      { "text": "$34$", "correct": false },
+      { "text": "$-34$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número $24$ pasa al otro lado con signo contrario.",
+    "explanation": "Despejando $x$, tenemos $x = 10 - 24$, lo que da como resultado $x = -14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EX",
+    "question": "Resuelve la siguiente ecuación: $x - 5 = 12$",
+    "image": null,
+    "options": [
+      { "text": "$17$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$-7$", "correct": false },
+      { "text": "$-17$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma $5$ en ambos lados de la ecuación.",
+    "explanation": "Sumando $5$ en ambos lados se obtiene $x = 12 + 5$, lo que resulta en $x = 17$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EY",
+    "question": "Halla el valor de $x$ en: $7 + x = -2$",
+    "image": null,
+    "options": [
+      { "text": "$-9$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $7$ en ambos lados para aislar a $x$.",
+    "explanation": "Se despeja la variable como $x = -2 - 7$, resultando en $x = -9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EZ",
+    "question": "¿Cuál es el valor de $x$ en la ecuación $14 + x = 30$?",
+    "image": null,
+    "options": [
+      { "text": "$16$", "correct": true },
+      { "text": "$44$", "correct": false },
+      { "text": "$-16$", "correct": false },
+      { "text": "$-44$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $14$ del lado derecho de la ecuación.",
+    "explanation": "Al aplicar la resta se obtiene $x = 30 - 14$, que es igual a $x = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FA",
+    "question": "Determina $x$ en: $-6 + x = -20$",
+    "image": null,
+    "options": [
+      { "text": "$-14$", "correct": true },
+      { "text": "$-26$", "correct": false },
+      { "text": "$26$", "correct": false },
+      { "text": "$14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma $6$ en ambos lados de la igualdad.",
+    "explanation": "Al despejar queda $x = -20 + 6$, lo que simplifica a $x = -14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FB",
+    "question": "Resuelve para $x$: $19 + x = 0$",
+    "image": null,
+    "options": [
+      { "text": "$-19$", "correct": true },
+      { "text": "$19$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el inverso aditivo de $19$.",
+    "explanation": "Despejando obtenemos $x = 0 - 19$, por lo tanto $x = -19$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FC",
+    "question": "Encuentra el valor de $x$ si: $x - 12 = 8$",
+    "image": null,
+    "options": [
+      { "text": "$20$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$-20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la suma de $12$ en el lado opuesto.",
+    "explanation": "Se despeja $x$ sumando $12$: $x = 8 + 12$, resultando en $x = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FD",
+    "question": "¿Qué valor debe tener $x$ en la ecuación $x - 5 = -15$?",
+    "image": null,
+    "options": [
+      { "text": "$-10$", "correct": true },
+      { "text": "$-20$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El $-5$ pasa sumando al otro lado.",
+    "explanation": "El resultado se obtiene al calcular $x = -15 + 5$, lo cual nos da $x = -10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FE",
+    "question": "Resuelve la siguiente ecuación: $x - (-4) = 9$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$13$", "correct": false },
+      { "text": "$-5$", "correct": false },
+      { "text": "$-13$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica los signos negativos primero usando ley de signos.",
+    "explanation": "La ecuación se simplifica a $x + 4 = 9$. Despejando, $x = 9 - 4 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FF",
+    "question": "Calcula el valor de $x$ en: $x - 21 = 0$",
+    "image": null,
+    "options": [
+      { "text": "$21$", "correct": true },
+      { "text": "$-21$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aísla $x$ pasando el término independiente al otro lado.",
+    "explanation": "Al sumar $21$ en ambos lados obtenemos directamente $x = 21$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FG",
+    "question": "Determina $x$ en la ecuación: $-3 - x = 7$",
+    "image": null,
+    "options": [
+      { "text": "$-10$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $-x$ primero y luego multiplica por $-1$.",
+    "explanation": "Al despejar tenemos $-x = 7 + 3$, por lo que $-x = 10$. Multiplicando por $-1$ obtenemos $x = -10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FH",
+    "question": "Resuelve para $x$: $10 - x = 25$",
+    "image": null,
+    "options": [
+      { "text": "$-15$", "correct": true },
+      { "text": "$15$", "correct": false },
+      { "text": "$35$", "correct": false },
+      { "text": "$-35$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $10$ de ambos lados y cambia el signo del resultado.",
+    "explanation": "Obtenemos $-x = 25 - 10$, lo que da $-x = 15$. Cambiando signos: $x = -15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FI",
+    "question": "Halla $x$ en la expresión: $x - 18 = -18$",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$36$", "correct": false },
+      { "text": "$-36$", "correct": false },
+      { "text": "$18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término $-18$ pasa al otro lado con signo positivo.",
+    "explanation": "Al realizar la suma queda $x = -18 + 18$, lo cual es igual a $x = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FJ",
+    "question": "Encuentra el valor de $x$ que satisface: $x - 7 = 34$",
+    "image": null,
+    "options": [
+      { "text": "$41$", "correct": true },
+      { "text": "$27$", "correct": false },
+      { "text": "$-27$", "correct": false },
+      { "text": "$-41$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma $7$ a ambos lados de la ecuación.",
+    "explanation": "Despejamos obteniendo $x = 34 + 7$, dando como resultado $x = 41$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FK",
+    "question": "Resuelve la ecuación multiplicativa: $4x = 48$",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$16$", "correct": false },
+      { "text": "$44$", "correct": false },
+      { "text": "$52$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la operación inversa dividiendo entre $4$.",
+    "explanation": "Al dividir ambos lados entre $4$ obtenemos $x = \\frac{48}{4}$, lo que da $x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FL",
+    "question": "Determina el valor de $x$ en: $-5x = 35$",
+    "image": null,
+    "options": [
+      { "text": "$-7$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$40$", "correct": false },
+      { "text": "$30$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide entre un número negativo de manera que despejes $x$.",
+    "explanation": "La operación es $x = \\frac{35}{-5}$, cuyo resultado considerando signos es $x = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FM",
+    "question": "Encuentra $x$ para la ecuación: $9x = -72$",
+    "image": null,
+    "options": [
+      { "text": "$-8$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$-81$", "correct": false },
+      { "text": "$81$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el término del lado derecho entre $9$.",
+    "explanation": "La variable se despeja como $x = \\frac{-72}{9}$, obteniendo $x = -8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FN",
+    "question": "¿Cuál es el valor de $x$ en $-6x = -54$?",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": true },
+      { "text": "$-9$", "correct": false },
+      { "text": "$-48$", "correct": false },
+      { "text": "$48$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que dividir dos números negativos da un resultado positivo.",
+    "explanation": "Realizamos la división $x = \\frac{-54}{-6}$, lo que resulta en $x = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FO",
+    "question": "Resuelve para $x$: $12x = 144$",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$-12$", "correct": false },
+      { "text": "$14$", "correct": false },
+      { "text": "$132$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor $12$ pasa dividiendo al otro lado de la igualdad.",
+    "explanation": "Despejamos obteniendo $x = \\frac{144}{12}$, lo que nos da $x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FP",
+    "question": "Calcula el valor de $x$ en la expresión: $3x = -39$",
+    "image": null,
+    "options": [
+      { "text": "$-13$", "correct": true },
+      { "text": "$13$", "correct": false },
+      { "text": "$-42$", "correct": false },
+      { "text": "$36$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el término independiente entre $3$.",
+    "explanation": "El resultado viene de $x = \\frac{-39}{3}$, que simplifica a $x = -13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FQ",
+    "question": "Determina $x$ en la ecuación: $-8x = 64$",
+    "image": null,
+    "options": [
+      { "text": "$-8$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$72$", "correct": false },
+      { "text": "$56$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El coeficiente $-8$ multiplica a $x$, por lo que debe pasar dividiendo.",
+    "explanation": "Despejamos $x = \\frac{64}{-8}$, resultando en $x = -8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FR",
+    "question": "Encuentra el valor de $x$ en: $11x = 0$",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$11$", "correct": false },
+      { "text": "$-11$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Todo número multiplicado por cero da cero.",
+    "explanation": "Al dividir $x = \\frac{0}{11}$, el resultado es lógicamente $x = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FS",
+    "question": "Resuelve la siguiente ecuación: $\\frac{x}{4} = 7$",
+    "image": null,
+    "options": [
+      { "text": "$28$", "correct": true },
+      { "text": "$11$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$-28$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica ambos lados por $4$.",
+    "explanation": "Al despejar se obtiene $x = 7 \\times 4$, lo que resulta en $x = 28$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FT",
+    "question": "Halla $x$ en la expresión: $\\frac{x}{-3} = 5$",
+    "image": null,
+    "options": [
+      { "text": "$-15$", "correct": true },
+      { "text": "$15$", "correct": false },
+      { "text": "$8$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El $-3$ que está dividiendo pasa multiplicando con todo y signo.",
+    "explanation": "Se despeja la variable como $x = 5 \\times (-3)$, obteniendo $x = -15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FU",
+    "question": "Calcula el valor de $x$ si $\\frac{x}{6} = -8$",
+    "image": null,
+    "options": [
+      { "text": "$-48$", "correct": true },
+      { "text": "$48$", "correct": false },
+      { "text": "$-2$", "correct": false },
+      { "text": "$-14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el valor del lado derecho por el denominador.",
+    "explanation": "La operación es $x = -8 \\times 6$, lo cual nos da $x = -48$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FV",
+    "question": "Determina $x$ en la ecuación: $\\frac{x}{-2} = -14$",
+    "image": null,
+    "options": [
+      { "text": "$28$", "correct": true },
+      { "text": "$-28$", "correct": false },
+      { "text": "$-16$", "correct": false },
+      { "text": "$-12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica dos valores negativos para obtener un resultado positivo.",
+    "explanation": "Al despejar $x = -14 \\times (-2)$, la regla de signos da como resultado $x = 28$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FW",
+    "question": "Resuelve para $x$: $\\frac{x}{5} = 12$",
+    "image": null,
+    "options": [
+      { "text": "$60$", "correct": true },
+      { "text": "$17$", "correct": false },
+      { "text": "$-60$", "correct": false },
+      { "text": "$7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x$ multiplicando por $5$.",
+    "explanation": "La solución se obtiene multiplicando $x = 12 \\times 5$, dando como resultado $x = 60$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FX",
+    "question": "Encuentra el valor de $x$ en: $\\frac{x}{-7} = 9$",
+    "image": null,
+    "options": [
+      { "text": "$-63$", "correct": true },
+      { "text": "$63$", "correct": false },
+      { "text": "$16$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la multiplicación usando el divisor negativo.",
+    "explanation": "Al multiplicar ambos lados por $-7$, queda $x = 9 \\times (-7) = -63$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FY",
+    "question": "Halla el resultado para $x$ en $\\frac{x}{9} = -3$",
+    "image": null,
+    "options": [
+      { "text": "$-27$", "correct": true },
+      { "text": "$27$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$-12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica $-3$ por $9$.",
+    "explanation": "Despejamos obteniendo $x = -3 \\times 9$, resultando en $x = -27$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01FZ",
+    "question": "¿Cuál es el valor de $x$ si $\\frac{x}{-8} = -6$?",
+    "image": null,
+    "options": [
+      { "text": "$48$", "correct": true },
+      { "text": "$-48$", "correct": false },
+      { "text": "$-14$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números son negativos, por lo que su producto será positivo.",
+    "explanation": "Se resuelve con $x = -6 \\times (-8)$, que da como resultado $x = 48$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GA",
+    "question": "Resuelve la siguiente ecuación para $x$: $\\sqrt{x} = 6$",
+    "image": null,
+    "options": [
+      { "text": "$36$", "correct": true },
+      { "text": "$12$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$-36$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cuadrado ambos lados de la ecuación.",
+    "explanation": "Para eliminar la raíz cuadrada elevamos al cuadrado: $(\\sqrt{x})^2 = 6^2$, resultando en $x = 36$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GB",
+    "question": "Determina el valor de $x$ en la ecuación: $\\sqrt{x} = 9$",
+    "image": null,
+    "options": [
+      { "text": "$81$", "correct": true },
+      { "text": "$18$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$-81$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la operación inversa a la raíz cuadrada.",
+    "explanation": "Multiplicamos el número por sí mismo: $x = 9^2$, por lo que $x = 81$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GC",
+    "question": "Encuentra el valor de $x$ en: $\\sqrt{x} = 12$",
+    "image": null,
+    "options": [
+      { "text": "$144$", "correct": true },
+      { "text": "$24$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$124$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el cuadrado de $12$.",
+    "explanation": "Al elevar ambos lados al cuadrado obtenemos $x = 12 \\times 12 = 144$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GD",
+    "question": "Halla $x$ en la expresión: $\\sqrt{x} = 4$",
+    "image": null,
+    "options": [
+      { "text": "$16$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$64$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva el $4$ a la segunda potencia.",
+    "explanation": "Resolviendo la operación tenemos $x = 4^2$, que nos da $x = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GE",
+    "question": "Calcula el valor de $x$ si $\\sqrt{x} = 15$",
+    "image": null,
+    "options": [
+      { "text": "$225$", "correct": true },
+      { "text": "$30$", "correct": false },
+      { "text": "$7.5$", "correct": false },
+      { "text": "$125$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la multiplicación de $15$ por sí mismo.",
+    "explanation": "Elevando al cuadrado obtenemos $x = 15^2$, por ende $x = 225$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GF",
+    "question": "¿Cuál es el valor de $x$ en la ecuación $\\sqrt{x} = 7$?",
+    "image": null,
+    "options": [
+      { "text": "$49$", "correct": true },
+      { "text": "$14$", "correct": false },
+      { "text": "$-49$", "correct": false },
+      { "text": "$21$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la operación inversa elevando al cuadrado.",
+    "explanation": "Al calcular el cuadrado en ambos lados se obtiene $x = 7^2$, resultando en $x = 49$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GG",
+    "question": "Resuelve la ecuación: $\\sqrt{x} = 11$",
+    "image": null,
+    "options": [
+      { "text": "$121$", "correct": true },
+      { "text": "$22$", "correct": false },
+      { "text": "$111$", "correct": false },
+      { "text": "$-121$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cuadrado para eliminar el radical.",
+    "explanation": "Al despejar se obtiene $x = 11^2$, por lo que $x = 121$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GH",
+    "question": "Determina el valor de $x$ si $\\sqrt{x} = 13$",
+    "image": null,
+    "options": [
+      { "text": "$169$", "correct": true },
+      { "text": "$26$", "correct": false },
+      { "text": "$139$", "correct": false },
+      { "text": "$196$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el producto de $13 \\times 13$.",
+    "explanation": "Elevando al cuadrado ambos lados nos da $x = 13^2 = 169$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GI",
+    "question": "Determina los valores enteros de $x$ que satisfacen: $x^2 = 25$",
+    "image": null,
+    "options": [
+      { "text": "$5$ y $-5$", "correct": true },
+      { "text": "$25$ y $-25$", "correct": false },
+      { "text": "Solamente $5$", "correct": false },
+      { "text": "Solamente $-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la raíz cuadrada recordando que todo número positivo tiene dos raíces cuadradas.",
+    "explanation": "Al sacar raíz obtenemos $x = \\pm\\sqrt{25}$, lo que significa que las soluciones son $5$ y $-5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GJ",
+    "question": "Resuelve la expresión cuadrática: $x^2 = 64$",
+    "image": null,
+    "options": [
+      { "text": "$8$ y $-8$", "correct": true },
+      { "text": "$32$ y $-32$", "correct": false },
+      { "text": "Solamente $8$", "correct": false },
+      { "text": "$16$ y $-16$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera tanto el signo positivo como el negativo al aplicar la raíz.",
+    "explanation": "Calculando $\\sqrt{64}$, obtenemos dos resultados posibles debido a la regla de signos: $8$ y $-8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GK",
+    "question": "Encuentra los valores que puede tomar $x$ en: $x^2 = 100$",
+    "image": null,
+    "options": [
+      { "text": "$10$ y $-10$", "correct": true },
+      { "text": "$50$ y $-50$", "correct": false },
+      { "text": "Solamente $10$", "correct": false },
+      { "text": "$20$ y $-20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Qué número multiplicado por sí mismo, ya sea positivo o negativo, da $100$.",
+    "explanation": "Las soluciones surgen de $x = \\pm\\sqrt{100}$, siendo estas $10$ y $-10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GL",
+    "question": "Determina las raíces de la siguiente ecuación: $x^2 = 49$",
+    "image": null,
+    "options": [
+      { "text": "$7$ y $-7$", "correct": true },
+      { "text": "$24.5$ y $-24.5$", "correct": false },
+      { "text": "Solamente $7$", "correct": false },
+      { "text": "$14$ y $-14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La operación inversa del exponente cuadrado incluye el símbolo $\\pm$.",
+    "explanation": "Al aplicar la raíz cuadrada, $x = \\pm\\sqrt{49}$, por lo tanto $x = 7$ y $x = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GM",
+    "question": "¿Cuáles son las soluciones para la ecuación $x^2 = 144$?",
+    "image": null,
+    "options": [
+      { "text": "$12$ y $-12$", "correct": true },
+      { "text": "$72$ y $-72$", "correct": false },
+      { "text": "Solamente $12$", "correct": false },
+      { "text": "$14$ y $-14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el número que al elevarse al cuadrado resulta en $144$.",
+    "explanation": "Las soluciones se obtienen con $x = \\pm\\sqrt{144}$, lo que nos da $12$ y $-12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GN",
+    "question": "Encuentra ambos valores de $x$ para: $x^2 = 81$",
+    "image": null,
+    "options": [
+      { "text": "$9$ y $-9$", "correct": true },
+      { "text": "$40.5$ y $-40.5$", "correct": false },
+      { "text": "Solamente $9$", "correct": false },
+      { "text": "$18$ y $-18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al despejar una incógnita al cuadrado siempre se consideran dos posibles respuestas.",
+    "explanation": "Sacando la raíz cuadrada tenemos $x = \\pm\\sqrt{81}$, es decir $9$ y $-9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GO",
+    "question": "Calcula las soluciones de $x$ en la expresión: $x^2 = 169$",
+    "image": null,
+    "options": [
+      { "text": "$13$ y $-13$", "correct": true },
+      { "text": "$16$ y $-16$", "correct": false },
+      { "text": "Solamente $13$", "correct": false },
+      { "text": "$84.5$ y $-84.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica raíz cuadrada en ambos lados considerando la raíz positiva y la negativa.",
+    "explanation": "La operación es $x = \\pm\\sqrt{169}$, lo que significa que $x = 13$ o $x = -13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GP",
+    "question": "Resuelve la ecuación cuadrática encontrando sus raíces enteras: $x^2 = 400$",
+    "image": null,
+    "options": [
+      { "text": "$20$ y $-20$", "correct": true },
+      { "text": "$200$ y $-200$", "correct": false },
+      { "text": "Solamente $20$", "correct": false },
+      { "text": "$40$ y $-40$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El resultado se deriva de la raíz cuadrada de $400$ incluyendo ambos signos.",
+    "explanation": "Al aplicar la raíz cuadrada se tiene $x = \\pm\\sqrt{400}$, obteniendo como resultado $20$ y $-20$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
