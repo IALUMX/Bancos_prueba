@@ -26949,5 +26949,365 @@
     "explanation": "Al final del conflicto coreano en 1953, el paralelo 38° Norte se ratificó como la zona desmilitarizada que divide ambas Coreas, estado que perdura hasta la actualidad.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02FC",
+    "question": "Al simplificar la expresión algebraica $\\frac{x^2 - 16}{x + 4}$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "$x - 4$", "correct": true },
+      { "text": "$x + 4$", "correct": false },
+      { "text": "$x - 8$", "correct": false },
+      { "text": "$x^2 - 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que una diferencia de cuadrados se factoriza como $a^2 - b^2 = (a - b)(a + b)$.",
+    "explanation": "El numerador es una diferencia de cuadrados que se factoriza como $(x - 4)(x + 4)$. Al dividir entre $(x + 4)$, los términos se cancelan y el resultado es $x - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FD",
+    "question": "Reduce a su mínima expresión la siguiente fracción algebraica: $\\frac{2x^2 - 8}{x - 2}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x + 4$", "correct": true },
+      { "text": "$2x - 4$", "correct": false },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$2x^2 + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Primero extrae el factor común en el numerador y luego aplica la diferencia de cuadrados.",
+    "explanation": "Factorizando el $2$ del numerador obtenemos $2(x^2 - 4)$. Luego factorizamos la diferencia de cuadrados resultando en $2(x - 2)(x + 2)$. Al cancelar el $(x - 2)$ del denominador, nos queda $2(x + 2)$, que equivale a $2x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FE",
+    "question": "Simplifica la expresión $\\frac{x^2 + 5x + 6}{x^2 - 9}$ indicando el resultado correcto.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 2}{x - 3}$", "correct": true },
+      { "text": "$\\frac{x + 3}{x - 3}$", "correct": false },
+      { "text": "$\\frac{x + 2}{x + 3}$", "correct": false },
+      { "text": "$\\frac{x - 2}{x - 3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Factoriza el numerador buscando dos números que sumados den $5$ y multiplicados den $6$. El denominador es una diferencia de cuadrados.",
+    "explanation": "El numerador se factoriza como $(x + 2)(x + 3)$ y el denominador como $(x - 3)(x + 3)$. Se cancela el factor común $(x + 3)$ y resulta $\\frac{x + 2}{x - 3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FF",
+    "question": "El resultado de simplificar la fracción $\\frac{x^3 - 8}{x - 2}$ es:",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 2x + 4$", "correct": true },
+      { "text": "$x^2 - 2x + 4$", "correct": false },
+      { "text": "$x^2 + 4x + 4$", "correct": false },
+      { "text": "$x^2 - 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Aplica la factorización de una diferencia de cubos: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$.",
+    "explanation": "El numerador $x^3 - 8$ se factoriza como $(x - 2)(x^2 + 2x + 4)$. Al dividir esto entre el denominador $(x - 2)$, se simplifica a $x^2 + 2x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FG",
+    "question": "Un profesor del CEPREDIX pide a sus alumnos simplificar la expresión $\\frac{(x^2 - 25)(x + 1)}{(x - 5)(x^2 + 2x + 1)}$. ¿Cuál es la respuesta correcta?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 5}{x + 1}$", "correct": true },
+      { "text": "$\\frac{x - 5}{x - 1}$", "correct": false },
+      { "text": "$\\frac{x + 5}{x - 1}$", "correct": false },
+      { "text": "$\\frac{x - 5}{x + 1}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Desarrolla las factorizaciones: hay una diferencia de cuadrados y un trinomio cuadrado perfecto.",
+    "explanation": "El numerador se factoriza como $(x - 5)(x + 5)(x + 1)$. El denominador contiene un trinomio cuadrado perfecto que se factoriza como $(x - 5)(x + 1)^2$. Al cancelar factores comunes se obtiene $\\frac{x + 5}{x + 1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FH",
+    "question": "Identifica la forma más simple de la fracción $\\frac{3x^2 - 12x}{x^2 - 16}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3x}{x + 4}$", "correct": true },
+      { "text": "$\\frac{3x}{x - 4}$", "correct": false },
+      { "text": "$\\frac{3}{x + 4}$", "correct": false },
+      { "text": "$\\frac{x}{x - 4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Factoriza el numerador por término común y el denominador como una diferencia de cuadrados.",
+    "explanation": "En el numerador, el factor común es $3x$, quedando $3x(x - 4)$. En el denominador se factoriza como $(x - 4)(x + 4)$. Cancelamos el factor $(x - 4)$ y resulta $\\frac{3x}{x + 4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FI",
+    "question": "Al reducir la expresión algebraica $\\frac{x^2 - y^2}{(x - y)^2}$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + y}{x - y}$", "correct": true },
+      { "text": "$x + y$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{x - y}{x + y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Expande el denominador recordando la definición de potencia y factoriza el numerador.",
+    "explanation": "El numerador es una diferencia de cuadrados: $(x - y)(x + y)$. El denominador es el mismo binomio multiplicado por sí mismo: $(x - y)(x - y)$. Eliminando un factor $(x - y)$, queda $\\frac{x + y}{x - y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FJ",
+    "question": "¿Cuál es el resultado de simplificar $\\frac{a^3 + b^3}{a + b}$?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 - ab + b^2$", "correct": true },
+      { "text": "$a^2 + ab + b^2$", "correct": false },
+      { "text": "$a^2 - 2ab + b^2$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Utiliza la factorización para suma de cubos: $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$.",
+    "explanation": "Al factorizar el numerador como suma de cubos, obtenemos $(a + b)(a^2 - ab + b^2)$. Al dividir por el denominador $(a + b)$, el resultado es $a^2 - ab + b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FK",
+    "question": "Selecciona las fracciones algebraicas que son equivalentes a $x - 1$ tras ser simplificadas:\n1. $\\frac{x^2 - 1}{x + 1}$\n2. $\\frac{x^2 - 2x + 1}{x - 1}$\n3. $\\frac{x^2 + 1}{x + 1}$\n4. $\\frac{x^3 - 1}{x^2 + x + 1}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Factoriza cada numerador aplicando diferencia de cuadrados, trinomio cuadrado perfecto y diferencia de cubos respectivamente.",
+    "explanation": "La expresión 1 se factoriza como $(x-1)(x+1)/(x+1) = x-1$. La expresión 2 es $(x-1)^2/(x-1) = x-1$. La expresión 4 es $(x-1)(x^2+x+1)/(x^2+x+1) = x-1$. La expresión 3 no se puede simplificar para que resulte en $x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FL",
+    "question": "Para simplificar la fracción algebraica $\\frac{x^2 - 6x + 9}{x^2 - 9}$, es necesario reconocer que el numerador se factoriza como un ______ y el denominador representa una ______.",
+    "image": null,
+    "options": [
+      { "text": "Trinomio cuadrado perfecto, diferencia de cuadrados", "correct": true },
+      { "text": "Trinomio al cuadrado, suma de cuadrados", "correct": false },
+      { "text": "Binomio conjugado, ecuación cuadrática", "correct": false },
+      { "text": "Factor común, diferencia de cubos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Observa los términos extremos del numerador (ambos tienen raíz exacta) y la estructura del denominador (resta de dos elementos con raíz exacta).",
+    "explanation": "El numerador $x^2 - 6x + 9$ es el desarrollo de $(x - 3)^2$, lo que lo hace un trinomio cuadrado perfecto. El denominador $x^2 - 9$ es una diferencia de cuadrados factorizable como $(x - 3)(x + 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FM",
+    "question": "En un examen de simulación del CEPREDIX, se solicita a los alumnos encontrar el resultado de la siguiente división de fracciones algebraicas: $\\frac{x^2 - 7x + 12}{x^2 - 16} \\div \\frac{x - 3}{x + 4}$. El resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{x - 3}{x - 4}$", "correct": false },
+      { "text": "$\\frac{x + 4}{x - 3}$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que dividir fracciones equivale a multiplicar por el recíproco de la segunda fracción.",
+    "explanation": "Factorizamos la primera fracción: $\\frac{(x - 3)(x - 4)}{(x - 4)(x + 4)}$. Invertimos la segunda fracción para multiplicar: $\\frac{x + 4}{x - 3}$. Al multiplicar ambas fracciones y cancelar, todos los factores del numerador y denominador se eliminan, resultando en $1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FN",
+    "question": "Realiza la simplificación de la expresión $\\frac{x^4 - 1}{x^2 + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 1$", "correct": true },
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$x^4 + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Considera $x^4 - 1$ como una diferencia de cuadrados donde $a = x^2$ y $b = 1$.",
+    "explanation": "El término $x^4 - 1$ se factoriza como $(x^2 - 1)(x^2 + 1)$. Al dividir este resultado entre $(x^2 + 1)$, el término se cancela y sobrevive únicamente $x^2 - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FO",
+    "question": "Determina la expresión equivalente y simplificada de $\\frac{4x^2 - 9}{2x^2 - 3x}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2x + 3}{x}$", "correct": true },
+      { "text": "$\\frac{2x - 3}{x}$", "correct": false },
+      { "text": "$2x + 3$", "correct": false },
+      { "text": "$\\frac{2x + 3}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "En el numerador aplica diferencia de cuadrados y en el denominador utiliza factor común.",
+    "explanation": "El numerador se factoriza como $(2x - 3)(2x + 3)$ y el denominador al extraer $x$ queda como $x(2x - 3)$. Cancelando el término común $(2x - 3)$, obtenemos $\\frac{2x + 3}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FP",
+    "question": "Relaciona las expresiones algebraicas con su correspondiente factorización:\nI. $x^2 - y^2$\nII. $x^2 - 2xy + y^2$\nIII. $x^3 - y^3$\n\nA. $(x - y)^2$\nB. $(x - y)(x^2 + xy + y^2)$\nC. $(x - y)(x + y)$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Asocia cada producto notable con su regla: diferencia de cuadrados, trinomio cuadrado perfecto y diferencia de cubos.",
+    "explanation": "El punto I es una diferencia de cuadrados correspondiente a C. El punto II es un trinomio cuadrado perfecto con signo negativo correspondiente a A. El punto III es una diferencia de cubos correspondiente a B.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FQ",
+    "question": "Evalúa y simplifica el siguiente producto de fracciones algebraicas: $\\frac{x^2 - x - 6}{x^2 - 4x + 3} \\cdot \\frac{x^2 - 1}{x^2 + 3x + 2}$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{x - 3}{x + 2}$", "correct": false },
+      { "text": "$\\frac{x + 2}{x - 1}$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Factoriza los cuatro trinomios y binomios antes de realizar cualquier multiplicación. Luego cancela términos idénticos en el numerador y denominador.",
+    "explanation": "La expresión se factoriza como $\\frac{(x - 3)(x + 2)}{(x - 3)(x - 1)} \\cdot \\frac{(x - 1)(x + 1)}{(x + 2)(x + 1)}$. Agrupando factores, obtenemos en el numerador $(x - 3)(x + 2)(x - 1)(x + 1)$ y en el denominador $(x - 3)(x - 1)(x + 2)(x + 1)$. Todos los términos se cancelan mutuamente, arrojando como resultado final $1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FR",
+    "question": "Al llevar la expresión $\\frac{5x^3 - 20x}{x^3 + 2x^2}$ a su mínima forma, obtenemos:",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5(x - 2)}{x}$", "correct": true },
+      { "text": "$\\frac{5(x + 2)}{x}$", "correct": false },
+      { "text": "$\\frac{5x - 20}{x + 2}$", "correct": false },
+      { "text": "$\\frac{x - 2}{5x}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Aplica factor común en ambos polinomios y, de ser posible, realiza una segunda factorización si identificas algún producto notable.",
+    "explanation": "En el numerador extraemos $5x$, quedando $5x(x^2 - 4)$, y luego factorizamos la diferencia de cuadrados a $5x(x - 2)(x + 2)$. En el denominador extraemos $x^2$, resultando en $x^2(x + 2)$. Al simplificar, se cancela el factor $(x + 2)$ y una $x$, quedando $\\frac{5(x - 2)}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FS",
+    "question": "Un estudiante del CEPREDIX resuelve el límite de una función racional y para evitar la indeterminación, debe simplificar $\\frac{x^3 - 27}{x^2 - 9}$. ¿Cuál es la expresión equivalente asumiendo $x \\neq 3$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^2 + 3x + 9}{x + 3}$", "correct": true },
+      { "text": "$\\frac{x^2 - 3x + 9}{x + 3}$", "correct": false },
+      { "text": "$\\frac{x^2 + 3x + 9}{x - 3}$", "correct": false },
+      { "text": "$\\frac{x^2 - 9}{x + 3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Descompón el numerador mediante la regla de la diferencia de cubos y el denominador con diferencia de cuadrados.",
+    "explanation": "El numerador $x^3 - 27$ se factoriza como $(x - 3)(x^2 + 3x + 9)$. El denominador $x^2 - 9$ se descompone en $(x - 3)(x + 3)$. Eliminando el factor común $(x - 3)$, se obtiene la expresión $\\frac{x^2 + 3x + 9}{x + 3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FT",
+    "question": "Simplifica la siguiente expresión algebraica factorizando primero por agrupación: $\\frac{ax + bx - ay - by}{x^2 - y^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a + b}{x + y}$", "correct": true },
+      { "text": "$\\frac{a - b}{x - y}$", "correct": false },
+      { "text": "$\\frac{a + b}{x - y}$", "correct": false },
+      { "text": "$\\frac{a - b}{x + y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Agrupa los términos del numerador por literales comunes. Por ejemplo, junta los que tienen la variable $x$ y los que tienen $y$.",
+    "explanation": "En el numerador agrupamos obteniendo $x(a + b) - y(a + b)$, que se convierte en $(a + b)(x - y)$. El denominador es la diferencia de cuadrados $(x - y)(x + y)$. Al cancelar el término $(x - y)$, el resultado final es $\\frac{a + b}{x + y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FU",
+    "question": "¿Cuál es la forma más simple de la expresión $\\frac{1 - x^2}{x^2 - 2x + 1}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{-x - 1}{x - 1}$", "correct": true },
+      { "text": "$\\frac{x + 1}{x - 1}$", "correct": false },
+      { "text": "$\\frac{1 - x}{x + 1}$", "correct": false },
+      { "text": "$\\frac{x - 1}{x + 1}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Nota que $1 - x^2$ puede factorizarse como $(1 - x)(1 + x)$ y para poder cancelarlo con términos de $(x - 1)^2$, resulta útil extraer un signo negativo.",
+    "explanation": "El numerador es $(1 - x)(1 + x)$, que factorizando un negativo es igual a $-(x - 1)(x + 1)$. El denominador es un trinomio cuadrado perfecto expresado como $(x - 1)^2$. Al cancelar un $(x - 1)$ obtenemos $\\frac{-(x + 1)}{x - 1}$, que se puede escribir como $\\frac{-x - 1}{x - 1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02FV",
+    "question": "Al simplificar la fracción compleja $\\frac{1 - \\frac{1}{x^2}}{1 + \\frac{1}{x}}$, obtenemos:",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x - 1}{x}$", "correct": true },
+      { "text": "$\\frac{x + 1}{x}$", "correct": false },
+      { "text": "$\\frac{x^2 - 1}{x}$", "correct": false },
+      { "text": "$\\frac{x - 1}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Expresa el numerador y el denominador como fracciones simples realizando las restas y sumas algebraicas respectivas, luego aplica la ley de los extremos y medios.",
+    "explanation": "El numerador principal se convierte en $\\frac{x^2 - 1}{x^2}$. El denominador principal se convierte en $\\frac{x + 1}{x}$. Al aplicar la división de fracciones resulta en $\\frac{(x^2 - 1)x}{x^2(x + 1)}$. Factorizando la diferencia de cuadrados se obtiene $\\frac{(x - 1)(x + 1)x}{x^2(x + 1)}$, y al cancelar el factor común $(x+1)$ y una $x$, nos queda $\\frac{x - 1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
