@@ -27309,5 +27309,869 @@
     "explanation": "El numerador principal se convierte en $\\frac{x^2 - 1}{x^2}$. El denominador principal se convierte en $\\frac{x + 1}{x}$. Al aplicar la división de fracciones resulta en $\\frac{(x^2 - 1)x}{x^2(x + 1)}$. Factorizando la diferencia de cuadrados se obtiene $\\frac{(x - 1)(x + 1)x}{x^2(x + 1)}$, y al cancelar el factor común $(x+1)$ y una $x$, nos queda $\\frac{x - 1}{x}$.",
     "explanative_video": null,
     "collapsible_text": null
-  }
+  },
+  {
+        "id": "CEP02FW",
+        "question": "Encuentra el valor de $x$ en la ecuación: $x + 7 = 15$.",
+        "image": null,
+        "options": [
+            { "text": "$8$", "correct": true },
+            { "text": "$22$", "correct": false },
+            { "text": "$-8$", "correct": false },
+            { "text": "$7$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Aplica la operación inversa (resta) a ambos lados de la igualdad.",
+        "explanation": "Restamos $7$ a ambos lados: $x = 15 - 7 \\Rightarrow x = 8$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02FX",
+        "question": "Resuelve para $y$: $y - 12 = 4$.",
+        "image": null,
+        "options": [
+            { "text": "$8$", "correct": false },
+            { "text": "$16$", "correct": true },
+            { "text": "$-8$", "correct": false },
+            { "text": "$48$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $12$ a ambos lados de la ecuación.",
+        "explanation": "Sumamos $12$ a ambos lados: $y = 4 + 12 \\Rightarrow y = 16$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02FY",
+        "question": "Determina el valor de $m$ que satisface la ecuación: $3m = 21$.",
+        "image": null,
+        "options": [
+            { "text": "$18$", "correct": false },
+            { "text": "$24$", "correct": false },
+            { "text": "$7$", "correct": true },
+            { "text": "$63$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "El número $3$ está multiplicando a la variable, utiliza la operación inversa.",
+        "explanation": "Dividimos ambos lados entre $3$: $m = \\frac{21}{3} \\Rightarrow m = 7$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02FZ",
+        "question": "Encuentra el valor de $k$ en: $\\frac{k}{5} = 4$.",
+        "image": null,
+        "options": [
+            { "text": "$9$", "correct": false },
+            { "text": "$\\frac{4}{5}$", "correct": false },
+            { "text": "$1$", "correct": false },
+            { "text": "$20$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados de la ecuación por el denominador.",
+        "explanation": "Multiplicamos por $5$: $k = 4 \\times 5 \\Rightarrow k = 20$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GA",
+        "question": "Resuelve la siguiente ecuación de primer grado: $2x + 4 = 10$.",
+        "image": null,
+        "options": [
+            { "text": "$7$", "correct": false },
+            { "text": "$3$", "correct": true },
+            { "text": "$6$", "correct": false },
+            { "text": "$2$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Primero resta $4$ de ambos lados y luego divide entre $2$.",
+        "explanation": "Restamos $4$: $2x = 6$. Dividimos entre $2$: $x = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GB",
+        "question": "Despeja la variable $y$ en: $5y - 2 = 13$.",
+        "image": null,
+        "options": [
+            { "text": "$15$", "correct": false },
+            { "text": "$10$", "correct": false },
+            { "text": "$3$", "correct": true },
+            { "text": "$5$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $2$ a ambos lados y posteriormente divide el resultado entre $5$.",
+        "explanation": "Sumamos $2$: $5y = 15$. Dividimos entre $5$: $y = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GC",
+        "question": "Halla el valor de $x$ para la ecuación: $\\frac{x}{3} + 1 = 6$.",
+        "image": null,
+        "options": [
+            { "text": "$15$", "correct": true },
+            { "text": "$18$", "correct": false },
+            { "text": "$5$", "correct": false },
+            { "text": "$21$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $1$ en ambos lados y después multiplica el resultado por $3$.",
+        "explanation": "Restamos $1$: $\\frac{x}{3} = 5$. Multiplicamos por $3$: $x = 15$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GD",
+        "question": "Encuentra el valor de $x$ en la expresión: $\\frac{x - 2}{4} = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$10$", "correct": false },
+            { "text": "$5$", "correct": false },
+            { "text": "$14$", "correct": true },
+            { "text": "$12$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $4$ y finalmente suma $2$.",
+        "explanation": "Multiplicamos por $4$: $x - 2 = 12$. Sumamos $2$: $x = 14$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GE",
+        "question": "Resuelve para $x$: $x^2 = 49$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 24.5$", "correct": false },
+            { "text": "$\\pm 7$", "correct": true },
+            { "text": "$\\pm 8$", "correct": false },
+            { "text": "$49$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Aplica raíz cuadrada en ambos lados considerando ambos signos positivo y negativo.",
+        "explanation": "Obtenemos la raíz cuadrada: $x = \\pm\\sqrt{49} \\Rightarrow x = \\pm 7$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GF",
+        "question": "Determina el valor de $x$ si $\\sqrt{x} = 8$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": false },
+            { "text": "$16$", "correct": false },
+            { "text": "$\\pm 64$", "correct": false },
+            { "text": "$64$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Eleva al cuadrado ambos lados de la ecuación.",
+        "explanation": "Elevamos al cuadrado: $(\\sqrt{x})^2 = 8^2 \\Rightarrow x = 64$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GG",
+        "question": "Halla los valores de $x$ en la ecuación: $x^2 - 5 = 20$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 25$", "correct": false },
+            { "text": "$5$", "correct": false },
+            { "text": "$\\pm 5$", "correct": true },
+            { "text": "$\\pm 10$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $5$ a ambos lados y luego obtén la raíz cuadrada.",
+        "explanation": "Sumamos $5$: $x^2 = 25$. Obtenemos raíz cuadrada: $x = \\pm 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GH",
+        "question": "Calcula el valor de $x$ en: $\\sqrt{x + 3} = 4$.",
+        "image": null,
+        "options": [
+            { "text": "$13$", "correct": true },
+            { "text": "$1$", "correct": false },
+            { "text": "$19$", "correct": false },
+            { "text": "$7$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Eleva al cuadrado ambos lados primero y luego resta $3$.",
+        "explanation": "Elevamos al cuadrado: $x + 3 = 16$. Restamos $3$: $x = 13$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GI",
+        "question": "Despeja la variable $x$ en: $4(x - 1) = 16$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": false },
+            { "text": "$17$", "correct": false },
+            { "text": "$15$", "correct": false },
+            { "text": "$5$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Divide entre $4$ ambos lados para eliminar el paréntesis, luego suma $1$.",
+        "explanation": "Dividimos entre $4$: $x - 1 = 4$. Sumamos $1$: $x = 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GJ",
+        "question": "Resuelve la ecuación: $2(x + 3) = 14$.",
+        "image": null,
+        "options": [
+            { "text": "$10$", "correct": false },
+            { "text": "$4$", "correct": true },
+            { "text": "$5$", "correct": false },
+            { "text": "$8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Divide ambos lados entre $2$ y posteriormente resta $3$.",
+        "explanation": "Dividimos entre $2$: $x + 3 = 7$. Restamos $3$: $x = 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GK",
+        "question": "Encuentra el valor de $x$ que cumple con: $10 - x = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$13$", "correct": false },
+            { "text": "$-7$", "correct": false },
+            { "text": "$7$", "correct": true },
+            { "text": "$-13$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $x$ en ambos lados y luego resta $3$ del lado izquierdo.",
+        "explanation": "Pasamos la incógnita al lado derecho: $10 = 3 + x$. Restamos $3$: $x = 7$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GL",
+        "question": "Halla el valor de $x$ en: $15 - 2x = 5$.",
+        "image": null,
+        "options": [
+            { "text": "$5$", "correct": true },
+            { "text": "$10$", "correct": false },
+            { "text": "$-5$", "correct": false },
+            { "text": "$20$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $2x$ a ambos lados y resta $5$, finalmente divide entre $2$.",
+        "explanation": "Ordenamos la ecuación: $15 - 5 = 2x \\Rightarrow 10 = 2x$. Dividimos entre $2$: $x = 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GM",
+        "question": "Resuelve para $x$: $\\frac{2x}{3} = 6$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": false },
+            { "text": "$1$", "correct": false },
+            { "text": "$9$", "correct": true },
+            { "text": "$36$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $3$ y luego divide entre $2$.",
+        "explanation": "Multiplicamos por $3$: $2x = 18$. Dividimos entre $2$: $x = 9$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GN",
+        "question": "Determina el valor de $x$ en la ecuación: $\\frac{3x}{4} = 12$.",
+        "image": null,
+        "options": [
+            { "text": "$9$", "correct": false },
+            { "text": "$48$", "correct": false },
+            { "text": "$8$", "correct": false },
+            { "text": "$16$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por el denominador y divide por el numerador.",
+        "explanation": "Multiplicamos por $4$: $3x = 48$. Dividimos entre $3$: $x = 16$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GO",
+        "question": "Despeja $x$ en: $x^2 + 9 = 25$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 16$", "correct": false },
+            { "text": "$\\pm 4$", "correct": true },
+            { "text": "$\\pm 5$", "correct": false },
+            { "text": "$\\pm 3$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $9$ a ambos lados y calcula la raíz cuadrada del resultado.",
+        "explanation": "Restamos $9$: $x^2 = 16$. Raíz cuadrada en ambos lados: $x = \\pm 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GP",
+        "question": "Encuentra los valores de $x$ para: $2x^2 = 50$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 25$", "correct": false },
+            { "text": "$5$", "correct": false },
+            { "text": "$\\pm 10$", "correct": false },
+            { "text": "$\\pm 5$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Divide la ecuación entre $2$ antes de aplicar la raíz cuadrada.",
+        "explanation": "Dividimos entre $2$: $x^2 = 25$. Raíz cuadrada: $x = \\pm 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GQ",
+        "question": "Halla los valores de $x$ que satisfacen: $\\frac{x^2}{3} = 12$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 6$", "correct": true },
+            { "text": "$\\pm 36$", "correct": false },
+            { "text": "$\\pm 4$", "correct": false },
+            { "text": "$\\pm 2$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $3$ y extrae la raíz cuadrada.",
+        "explanation": "Multiplicamos por $3$: $x^2 = 36$. Extraemos raíz: $x = \\pm 6$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GR",
+        "question": "Resuelve la siguiente ecuación con raíz: $\\sqrt{2x} = 6$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": false },
+            { "text": "$18$", "correct": true },
+            { "text": "$36$", "correct": false },
+            { "text": "$12$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Para deshacer la raíz, eleva ambos lados al cuadrado.",
+        "explanation": "Elevamos al cuadrado: $2x = 36$. Dividimos entre $2$: $x = 18$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GS",
+        "question": "Encuentra el valor de $x$ en: $3\\sqrt{x} = 15$.",
+        "image": null,
+        "options": [
+            { "text": "$5$", "correct": false },
+            { "text": "$225$", "correct": false },
+            { "text": "$25$", "correct": true },
+            { "text": "$125$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Divide entre $3$ primero, y después eleva al cuadrado.",
+        "explanation": "Dividimos entre $3$: $\\sqrt{x} = 5$. Elevamos al cuadrado: $x = 25$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GT",
+        "question": "Determina el valor de $x$ en: $5(x - 2) + 3 = 18$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": false },
+            { "text": "$6$", "correct": false },
+            { "text": "$1$", "correct": false },
+            { "text": "$5$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $3$, luego divide entre $5$ y finalmente suma $2$.",
+        "explanation": "Restamos $3$: $5(x - 2) = 15$. Dividimos entre $5$: $x - 2 = 3$. Sumamos $2$: $x = 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GU",
+        "question": "Resuelve para $x$: $7x - 4 = 17$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": true },
+            { "text": "$4$", "correct": false },
+            { "text": "$2$", "correct": false },
+            { "text": "$7$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $4$ a ambos lados de la ecuación.",
+        "explanation": "Sumamos $4$: $7x = 21$. Dividimos entre $7$: $x = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GV",
+        "question": "Despeja la variable $x$ en: $\\frac{x}{2} - 5 = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": false },
+            { "text": "$-4$", "correct": false },
+            { "text": "$16$", "correct": true },
+            { "text": "$10$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $5$ a ambos lados y luego multiplica por $2$.",
+        "explanation": "Sumamos $5$: $\\frac{x}{2} = 8$. Multiplicamos por $2$: $x = 16$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GW",
+        "question": "Encuentra el valor de $x$ en la ecuación: $18 - \\frac{x}{3} = 14$.",
+        "image": null,
+        "options": [
+            { "text": "$6$", "correct": false },
+            { "text": "$12$", "correct": true },
+            { "text": "$24$", "correct": false },
+            { "text": "$9$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Pasa el término con $x$ al lado derecho y el $14$ al izquierdo.",
+        "explanation": "Reordenamos: $18 - 14 = \\frac{x}{3} \\Rightarrow 4 = \\frac{x}{3}$. Multiplicamos por $3$: $x = 12$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GX",
+        "question": "Halla los valores de $x$ para la ecuación cuadrática: $x^2 - 1 = 80$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 81$", "correct": false },
+            { "text": "$9$", "correct": false },
+            { "text": "$\\pm 10$", "correct": false },
+            { "text": "$\\pm 9$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $1$ a ambos lados y calcula la raíz cuadrada de ambos miembros.",
+        "explanation": "Sumamos $1$: $x^2 = 81$. Raíz cuadrada: $x = \\pm 9$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GY",
+        "question": "Resuelve la ecuación: $4x^2 = 64$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 4$", "correct": true },
+            { "text": "$\\pm 16$", "correct": false },
+            { "text": "$\\pm 8$", "correct": false },
+            { "text": "$\\pm 2$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Divide entre $4$ en ambos lados primero.",
+        "explanation": "Dividimos entre $4$: $x^2 = 16$. Raíz cuadrada: $x = \\pm 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02GZ",
+        "question": "Calcula el valor de $x$ en: $\\sqrt{x - 5} = 2$.",
+        "image": null,
+        "options": [
+            { "text": "$7$", "correct": false },
+            { "text": "$3$", "correct": false },
+            { "text": "$9$", "correct": true },
+            { "text": "$11$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Eleva al cuadrado para eliminar la raíz y suma $5$.",
+        "explanation": "Elevamos al cuadrado: $x - 5 = 4$. Sumamos $5$: $x = 9$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HA",
+        "question": "Despeja $x$ de la ecuación: $3(2x) = 24$.",
+        "image": null,
+        "options": [
+            { "text": "$8$", "correct": false },
+            { "text": "$4$", "correct": true },
+            { "text": "$6$", "correct": false },
+            { "text": "$12$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica primero los factores en el lado izquierdo.",
+        "explanation": "Multiplicamos: $6x = 24$. Dividimos entre $6$: $x = 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HB",
+        "question": "Encuentra el valor de $x$ en la expresión: $-(x + 5) = -9$.",
+        "image": null,
+        "options": [
+            { "text": "$14$", "correct": false },
+            { "text": "$-4$", "correct": false },
+            { "text": "$4$", "correct": true },
+            { "text": "$-14$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $-1$ para cambiar los signos.",
+        "explanation": "Cambiamos el signo: $x + 5 = 9$. Restamos $5$: $x = 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HC",
+        "question": "Resuelve para $x$: $6x + 2 = 20$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": true },
+            { "text": "$4$", "correct": false },
+            { "text": "$2$", "correct": false },
+            { "text": "$18$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $2$ de ambos miembros y luego divide.",
+        "explanation": "Restamos $2$: $6x = 18$. Dividimos entre $6$: $x = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HD",
+        "question": "Determina el valor de $x$ en la ecuación: $\\frac{x + 1}{2} = 5$.",
+        "image": null,
+        "options": [
+            { "text": "$11$", "correct": false },
+            { "text": "$9$", "correct": true },
+            { "text": "$4$", "correct": false },
+            { "text": "$10$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica por $2$ ambos lados antes de restar el $1$.",
+        "explanation": "Multiplicamos por $2$: $x + 1 = 10$. Restamos $1$: $x = 9$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HE",
+        "question": "Halla los valores de $x$ en: $x^2 + 10 = 14$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 4$", "correct": false },
+            { "text": "$\\pm 12$", "correct": false },
+            { "text": "$\\pm 2$", "correct": true },
+            { "text": "$2$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $10$ en ambos lados y extrae la raíz.",
+        "explanation": "Restamos $10$: $x^2 = 4$. Raíz cuadrada: $x = \\pm 2$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HF",
+        "question": "Despeja la variable $x$ en: $\\frac{1}{2}x = 8$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": false },
+            { "text": "$16$", "correct": true },
+            { "text": "$10$", "correct": false },
+            { "text": "$8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplicar por un medio es equivalente a dividir entre dos, utiliza la operación inversa.",
+        "explanation": "Multiplicamos ambos lados por $2$: $x = 16$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HG",
+        "question": "Encuentra el valor de $x$ para la ecuación: $\\frac{4}{x} = 2$.",
+        "image": null,
+        "options": [
+            { "text": "$8$", "correct": false },
+            { "text": "$\\frac{1}{2}$", "correct": false },
+            { "text": "$6$", "correct": false },
+            { "text": "$2$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $x$ y luego divide entre $2$.",
+        "explanation": "Despejamos: $4 = 2x$. Dividimos entre $2$: $x = 2$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HH",
+        "question": "Resuelve la ecuación: $\\frac{15}{x} = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$45$", "correct": false },
+            { "text": "$5$", "correct": true },
+            { "text": "$12$", "correct": false },
+            { "text": "$18$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica cruzado o intercala las posiciones de la variable y el número.",
+        "explanation": "Multiplicamos por $x$: $15 = 3x$. Dividimos entre $3$: $x = 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HI",
+        "question": "Calcula el valor de $x$ en: $3x + x = 16$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": true },
+            { "text": "$8$", "correct": false },
+            { "text": "$\\frac{16}{3}$", "correct": false },
+            { "text": "$12$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Agrupa los términos semejantes del lado izquierdo.",
+        "explanation": "Sumamos los términos: $4x = 16$. Dividimos entre $4$: $x = 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HJ",
+        "question": "Determina el valor de $x$ que satisface: $5x - 2x = 21$.",
+        "image": null,
+        "options": [
+            { "text": "$3$", "correct": false },
+            { "text": "$14$", "correct": false },
+            { "text": "$7$", "correct": true },
+            { "text": "$10$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta los coeficientes de los términos que tienen la misma variable.",
+        "explanation": "Restamos los términos: $3x = 21$. Dividimos entre $3$: $x = 7$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HK",
+        "question": "Halla el valor de $x$ en la expresión con raíz: $\\sqrt{3x} = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$1$", "correct": false },
+            { "text": "$3$", "correct": true },
+            { "text": "$9$", "correct": false },
+            { "text": "$27$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Eleva al cuadrado ambos lados antes de despejar la variable.",
+        "explanation": "Elevamos al cuadrado: $3x = 9$. Dividimos entre $3$: $x = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HL",
+        "question": "Resuelve para $x$: $x^2 - 4 = 32$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 36$", "correct": false },
+            { "text": "$\\pm 28$", "correct": false },
+            { "text": "$\\pm 6$", "correct": true },
+            { "text": "$\\pm 8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $4$ a ambos lados de la ecuación.",
+        "explanation": "Sumamos $4$: $x^2 = 36$. Aplicamos raíz cuadrada: $x = \\pm 6$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HM",
+        "question": "Despeja $x$ de la ecuación: $\\frac{x}{5} + 2 = 7$.",
+        "image": null,
+        "options": [
+            { "text": "$25$", "correct": true },
+            { "text": "$1$", "correct": false },
+            { "text": "$45$", "correct": false },
+            { "text": "$35$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta $2$ y posteriormente multiplica ambos lados por $5$.",
+        "explanation": "Restamos $2$: $\\frac{x}{5} = 5$. Multiplicamos por $5$: $x = 25$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HN",
+        "question": "Encuentra el valor de $x$ en: $\\frac{2x - 1}{3} = 3$.",
+        "image": null,
+        "options": [
+            { "text": "$4$", "correct": false },
+            { "text": "$5$", "correct": true },
+            { "text": "$10$", "correct": false },
+            { "text": "$8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Despeja el numerador multiplicando por el denominador en ambos lados.",
+        "explanation": "Multiplicamos por $3$: $2x - 1 = 9$. Sumamos $1$: $2x = 10$. Dividimos entre $2$: $x = 5$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HO",
+        "question": "Resuelve la siguiente ecuación: $8 - 3x = -1$.",
+        "image": null,
+        "options": [
+            { "text": "$-3$", "correct": false },
+            { "text": "$\\frac{7}{3}$", "correct": false },
+            { "text": "$9$", "correct": false },
+            { "text": "$3$", "correct": true }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Agrupa los valores numéricos de un lado y los términos con variable del otro.",
+        "explanation": "Acomodamos los términos: $8 + 1 = 3x \\Rightarrow 9 = 3x$. Dividimos entre $3$: $x = 3$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HP",
+        "question": "Determina el valor de $x$ en: $\\sqrt{x} + 2 = 7$.",
+        "image": null,
+        "options": [
+            { "text": "$5$", "correct": false },
+            { "text": "$49$", "correct": false },
+            { "text": "$25$", "correct": true },
+            { "text": "$81$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Resta el valor numérico constante antes de aplicar la potencia al cuadrado.",
+        "explanation": "Restamos $2$: $\\sqrt{x} = 5$. Elevamos al cuadrado: $x = 25$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HQ",
+        "question": "Halla los valores de $x$ en la ecuación: $x^2 - 16 = 0$.",
+        "image": null,
+        "options": [
+            { "text": "$\\pm 4$", "correct": true },
+            { "text": "$4$", "correct": false },
+            { "text": "$\\pm 16$", "correct": false },
+            { "text": "$\\pm 8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Suma $16$ a ambos lados y recuerda los dos resultados de una raíz cuadrada.",
+        "explanation": "Sumamos $16$: $x^2 = 16$. Sacamos raíz cuadrada: $x = \\pm 4$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    },
+    {
+        "id": "CEP02HR",
+        "question": "Calcula el valor de $x$ en: $\\frac{10 - x}{2} = 4$.",
+        "image": null,
+        "options": [
+            { "text": "$18$", "correct": false },
+            { "text": "$2$", "correct": true },
+            { "text": "$-2$", "correct": false },
+            { "text": "$8$", "correct": false }
+        ],
+        "uni_tags": ["MATEMÁTICAS"],
+        "level_tag": ["BÁSICO"],
+        "type_tag": ["TEST"],
+        "hint": "Multiplica ambos lados por $2$ y despeja la incógnita negativa moviéndola.",
+        "explanation": "Multiplicamos por $2$: $10 - x = 8$. Reacomodamos: $10 - 8 = x \\Rightarrow x = 2$.",
+        "explanative_video": null,
+        "collapsible_text": null
+    }
 ]
