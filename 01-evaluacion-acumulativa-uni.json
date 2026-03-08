@@ -1846,5 +1846,653 @@
     "explanation": "En un entorno de lineamientos o instrucciones, una 'regla' se concibe como una norma o precepto obligatorio a seguir. En lo matemático, el volumen equivale a multiplicar tres longitudes, o de manera equivalente multiplicar un Área ($L^2$) por una altura ($L$), dando el resultado inamovible de $L^3$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Despeja la variable $x$ en la ecuación lineal $3(x - 4) + 2 = 14$.",
+    "image": null,
+    "options": [
+      { "text": "$8$", "correct": true },
+      { "text": "$6$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para resolver $a(x + b) = c$, primero divide entre $a$ o distribuye el término.",
+    "explanation": "Primero restamos $2$ de ambos lados: $3(x - 4) = 12$. Luego dividimos entre $3$: $x - 4 = 4$. Finalmente, sumamos $4$: $x = 8$.",
+    "explanative_video": null,
+    "collapsible_text": "El despeje de ecuaciones con signos de agrupación requiere eliminar primero las operaciones externas al paréntesis siguiendo la jerarquía inversa de operaciones."
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Aísla la variable $r$ en la fórmula del área de un círculo $A = \\pi r^2$, considerando que $r > 0$.",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{A}{\\pi}}$", "correct": true },
+      { "text": "$r = \\frac{\\sqrt{A}}{\\pi}$", "correct": false },
+      { "text": "$r = \\frac{A^2}{\\pi}$", "correct": false },
+      { "text": "$r = \\sqrt{A \\cdot \\pi}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si tienes $y = k x^2$, entonces $x^2 = y/k$.",
+    "explanation": "Se divide el área entre la constante pi: $r^2 = A/\\pi$. Para eliminar el exponente cuadrado, se aplica la raíz cuadrada en ambos lados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Selecciona los pasos algebraicos válidos para despejar $m$ en la ecuación $F = G \\frac{M m}{r^2}$:\n1. Multiplicar ambos lados por $r^2$\n2. Dividir ambos lados entre $G \\cdot M$\n3. Extraer raíz cuadrada de $F$\n4. Multiplicar por el inverso de la fracción $\\frac{r^2}{GM}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "2, 3", "correct": false },
+      { "text": "1, 3", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar un numerador, debes eliminar primero el denominador y luego los coeficientes multiplicadores.",
+    "explanation": "Multiplicamos por $r^2$ para obtener $F r^2 = G M m$. Luego dividimos entre el producto $G M$ para dejar sola a la variable $m$.",
+    "explanative_video": null,
+    "collapsible_text": "En las fórmulas de proporcionalidad inversa con cuadrados, el primer paso suele ser linealizar la ecuación eliminando los denominadores."
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "El principio de transposición establece que si un término está ______ en un miembro de la ecuación, pasará al otro miembro ______; si está multiplicando, pasará ______.",
+    "image": null,
+    "options": [
+      { "text": "sumando, restando, dividiendo", "correct": true },
+      { "text": "restando, dividiendo, sumando", "correct": false },
+      { "text": "multiplicando, restando, dividiendo", "correct": false },
+      { "text": "sumando, multiplicando, restando", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se basa en el uso de operaciones inversas para mantener el equilibrio de la igualdad.",
+    "explanation": "La suma es la inversa de la resta y la multiplicación es la inversa de la división.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Relaciona correctamente la fórmula original con su despeje para la variable indicada: I. $v = d/t$ para $t$; II. $P = F/A$ para $F$; III. $c^2 = a^2 + b^2$ para $a$.",
+    "image": null,
+    "options": [
+      { "text": "I: $t=d/v$; II: $F=PA$; III: $a=\\sqrt{c^2-b^2}$", "correct": true },
+      { "text": "I: $t=v/d$; II: $F=P/A$; III: $a=c-b$", "correct": false },
+      { "text": "I: $t=dv$; II: $F=A/P$; III: $a=c^2-b^2$", "correct": false },
+      { "text": "I: $t=d/v$; II: $F=P/A$; III: $a=\\sqrt{c^2+b^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para despejar una variable en el denominador, esta debe pasar multiplicando al otro lado primero.",
+    "explanation": "Para I, $t$ sube y $v$ baja. Para II, $A$ sube multiplicando. Para III, se resta $b^2$ y se aplica raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Un estudiante del CEPREDIX analiza la Ley de Charles: $\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$. ¿Cuál es el despeje correcto para la temperatura final $T_2$?",
+    "image": null,
+    "options": [
+      { "text": "$T_2 = \\frac{V_2 T_1}{V_1}$", "correct": true },
+      { "text": "$T_2 = \\frac{V_1 T_1}{V_2}$", "correct": false },
+      { "text": "$T_2 = \\frac{V_1 V_2}{T_1}$", "correct": false },
+      { "text": "$T_2 = V_2 T_1 V_1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En proporciones $\\frac{a}{b} = \\frac{c}{d}$, el producto cruzado indica que $ad = bc$.",
+    "explanation": "Aplicando producto cruzado: $V_1 T_2 = V_2 T_1$. Al despejar $T_2$, el volumen $V_1$ pasa dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Despeja la variable $y$ en la ecuación fraccionaria $\\frac{2}{y + 1} = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$-0.6$", "correct": true },
+      { "text": "$0.4$", "correct": false },
+      { "text": "$-1.4$", "correct": false },
+      { "text": "$1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero mueve el binomio del denominador multiplicando al segundo miembro.",
+    "explanation": "$2 = 5(y + 1) \\to 2 = 5y + 5 \\to 2 - 5 = 5y \\to -3/5 = y$. El resultado es $-0.6$.",
+    "explanative_video": null,
+    "collapsible_text": "Cuando la incógnita está en el denominador, es imperativo convertir la ecuación a una forma lineal antes de intentar aislar la variable."
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Identifica los despejes correctos para la variable $a$ en las siguientes expresiones:\n1. $v = u + at \\to a = \\frac{v-u}{t}$\n2. $s = ut + 0.5at^2 \\to a = \\frac{2(s-ut)}{t^2}$\n3. $v^2 = u^2 + 2as \\to a = \\frac{v^2-u^2}{2s}$\n4. $F = ma \\to a = F - m$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "Todas son correctas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa si las operaciones de suma pasaron como resta y las multiplicaciones como división.",
+    "explanation": "Las opciones 1, 2 y 3 siguen las reglas de transposición. La 4 es incorrecta porque $m$ debería pasar dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Para despejar $h$ en la fórmula del volumen de un cono $V = \\frac{1}{3} \\pi r^2 h$, primero debemos ______ por $3$ ambos lados y luego ______ entre el producto $\\pi r^2$.",
+    "image": null,
+    "options": [
+      { "text": "multiplicar, dividir", "correct": true },
+      { "text": "dividir, multiplicar", "correct": false },
+      { "text": "sumar, restar", "correct": false },
+      { "text": "multiplicar, restar", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $\\frac{1}{3}$ es un divisor del término derecho.",
+    "explanation": "Al multiplicar por 3 obtenemos $3V = \\pi r^2 h$. Al dividir entre $\\pi r^2$ aislamos la altura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Relaciona el paso matemático necesario para despejar $x$ con la ecuación dada: I. $x^2 = 16$; II. $2x = 10$; III. $x + 5 = 12$; IV. $\\sqrt{x} = 3$.",
+    "image": null,
+    "options": [
+      { "text": "I-Raíz, II-División, III-Resta, IV-Potencia", "correct": true },
+      { "text": "I-Potencia, II-Suma, III-Resta, IV-Raíz", "correct": false },
+      { "text": "I-Raíz, II-Multiplicación, III-Suma, IV-Logaritmo", "correct": false },
+      { "text": "I-División, II-División, III-Resta, IV-Potencia", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la operación contraria a la que afecta directamente a la incógnita.",
+    "explanation": "Para eliminar el cuadrado se usa raíz; para el factor 2, división; para la suma, resta; y para la raíz, potencia al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "En el CEPREDIX, un estudiante resuelve el despeje de $k$ en la ley de Hooke: $F = k \\Delta x$. Si se sabe que $F = 50 \\text{ N}$ y $\\Delta x = 0.5 \\text{ m}$, el valor de $k$ es:",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ N/m}$", "correct": true },
+      { "text": "$25 \\text{ N/m}$", "correct": false },
+      { "text": "$0.01 \\text{ N/m}$", "correct": false },
+      { "text": "$10 \\text{ N/m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $a = b c$, entonces $b = a/c$.",
+    "explanation": "Despejamos $k = F / \\Delta x$. Sustituyendo valores: $k = 50 \\text{ N} / 0.5 \\text{ m} = 100 \\text{ N/m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Despeja la variable $a$ en la ecuación de la energía cinética: $K = \\frac{1}{2} m v^2$, considerando que $v = a \\cdot t$.",
+    "image": null,
+    "options": [
+      { "text": "$a = \\frac{1}{t} \\sqrt{\\frac{2K}{m}}$", "correct": true },
+      { "text": "$a = \\frac{2K}{mt^2}$", "correct": false },
+      { "text": "$a = \\sqrt{\\frac{2K}{m t}}$", "correct": false },
+      { "text": "$a = \\frac{\\sqrt{2K}}{m} t$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero despeja $v$ de la energía cinética y luego sustituye el resultado en la segunda ecuación.",
+    "explanation": "$v^2 = 2K/m \\to v = \\sqrt{2K/m}$. Como $v = at$, entonces $at = \\sqrt{2K/m}$. Al despejar $a$, el tiempo $t$ pasa dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": "Este ejercicio requiere un despeje por sustitución, una técnica avanzada donde una variable aislada se utiliza para encontrar otra dentro de un sistema."
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Selecciona las expresiones que son equivalentes al despeje de $x$ en: $\\frac{x - y}{z} = w$:\n1. $x = wz + y$\n2. $x = z(w + y)$\n3. $x - y = wz$\n4. $x/z = w + y/z$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que si $z$ divide a todo el miembro, pasa multiplicando a todo el otro miembro.",
+    "explanation": "Multiplicando por $z$: $x-y = wz$ (Paso 3). Sumando $y$: $x = wz+y$ (Paso 1). Si dividimos cada término de la izquierda: $x/z - y/z = w$, al sumar $y/z$ queda el paso 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Para aislar la variable $T$ en la ecuación de los gases ideales $PV = nRT$, se debe ______ el producto $nR$ al miembro izquierdo para que quede como ______. ",
+    "image": null,
+    "options": [
+      { "text": "dividir, $PV/nR$", "correct": true },
+      { "text": "multiplicar, $PVnR$", "correct": false },
+      { "text": "restar, $PV-nR$", "correct": false },
+      { "text": "sumar, $PV+nR$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza la operación que vincula a $n$, $R$ y $T$.",
+    "explanation": "Como $n$ y $R$ están multiplicando a $T$, deben pasar dividiendo al otro lado de la igualdad para despejar la temperatura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Relaciona la operación con su efecto en el despeje: I. Potencia al cuadrado; II. Raíz cúbica; III. Logaritmo decimal.",
+    "image": null,
+    "options": [
+      { "text": "I-Elimina raíz cuadrada, II-Elimina potencia al cubo, III-Elimina base 10", "correct": true },
+      { "text": "I-Elimina resta, II-Elimina suma, III-Elimina multiplicación", "correct": false },
+      { "text": "I-Elimina división, II-Elimina potencia, III-Elimina exponente natural", "correct": false },
+      { "text": "I-Elimina raíz, II-Elimina multiplicación, III-Elimina división", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en las funciones inversas que 'cancelan' a la función original.",
+    "explanation": "La potencia cuadrada anula la raíz cuadrada. La raíz cúbica anula la potencia cúbica. El logaritmo base 10 anula la base 10 elevada a un exponente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Un problema del CEPREDIX plantea despejar la resistencia $R$ en la Ley de Ohm: $V = I \\cdot R$. Si se duplica el voltaje $V$ y se mantiene la corriente $I$ constante, ¿qué ocurre con el despeje de $R$?",
+    "image": null,
+    "options": [
+      { "text": "$R$ se duplica", "correct": true },
+      { "text": "$R$ se reduce a la mitad", "correct": false },
+      { "text": "$R$ se mantiene igual", "correct": false },
+      { "text": "$R$ se cuadruplica", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la relación $R = V/I$.",
+    "explanation": "Si $R_{nuevo} = (2V)/I$, entonces $R_{nuevo} = 2(V/I)$, lo que significa que la resistencia es el doble de la original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Despeja $x$ en la ecuación con potencias: $2x^3 - 4 = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$\\sqrt{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero suma 4, luego divide entre 2 y finalmente aplica raíz cúbica.",
+    "explanation": "$2x^3 = 16 \\to x^3 = 8 \\to x = \\sqrt[3]{8} = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Selecciona las características que corresponden a un despeje correcto:\n1. Mantener la igualdad en ambos lados al aplicar operaciones.\n2. Cambiar los signos de los términos al moverlos de un miembro a otro.\n3. Aplicar la misma operación en ambos lados de la ecuación.\n4. Priorizar la eliminación de términos independientes antes que coeficientes.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Todas son correctas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un despeje es válido si no altera la veracidad de la igualdad original.",
+    "explanation": "La opción 2 es ambigua: no se 'cambia el signo' por regla mágica, se aplica la operación inversa. Las opciones 1, 3 y 4 son principios fundamentales del álgebra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "En la ecuación $\\sqrt{x + 2} = 5$, el primer paso para despejar $x$ consiste en ______ ambos lados de la ecuación al ______.",
+    "image": null,
+    "options": [
+      { "text": "elevar, cuadrado", "correct": true },
+      { "text": "multiplicar, doble", "correct": false },
+      { "text": "extraer, raíz", "correct": false },
+      { "text": "sumar, exponente", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La raíz cuadrada es la operación principal que envuelve a la variable.",
+    "explanation": "Para anular el radical de índice 2, se requiere la potencia de exponente 2 en ambos miembros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Relaciona la variable con su despeje correcto a partir de la energía potencial $U = mgh$: I. Masa ($m$); II. Gravedad ($g$); III. Altura ($h$).",
+    "image": null,
+    "options": [
+      { "text": "I: $U/gh$; II: $U/mh$; III: $U/mg$", "correct": true },
+      { "text": "I: $Ugh$; II: $Umh$; III: $Umg$", "correct": false },
+      { "text": "I: $gh/U$; II: $mh/U$; III: $mg/U$", "correct": false },
+      { "text": "I: $U-gh$; II: $U-mh$; III: $U-mg$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que los tres términos están multiplicándose entre sí.",
+    "explanation": "Al despejar una variable en un producto, las otras dos deben pasar juntas dividiendo al otro lado de la igualdad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Un investigador del CEPREDIX despeja la variable $t$ en la ecuación de decaimiento: $N = N_0 e^{-\\lambda t}$. ¿Cuál es la expresión resultante?",
+    "image": null,
+    "options": [
+      { "text": "$t = -\\frac{\\ln(N/N_0)}{\\lambda}$", "correct": true },
+      { "text": "$t = \\frac{\\ln(N_0/N)}{\\lambda}$", "correct": false },
+      { "text": "$t = \\ln(N - N_0) / \\lambda$", "correct": false },
+      { "text": "$t = -\\lambda \\ln(N/N_0)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $y = e^x$, entonces $x = \\ln(y)$.",
+    "explanation": "Primero dividimos entre $N_0$: $N/N_0 = e^{-\\lambda t}$. Aplicamos logaritmo natural: $\\ln(N/N_0) = -\\lambda t$. Finalmente, dividimos entre $-\\lambda$.",
+    "explanative_video": null,
+    "collapsible_text": "El uso de logaritmos es esencial para despejar variables que se encuentran en el exponente de una función."
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Despeja $x$ en la ecuación: $4/x = 1/2$.",
+    "image": null,
+    "options": [
+      { "text": "$8$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$0.5$", "correct": false },
+      { "text": "$4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En una igualdad de fracciones, puedes invertir ambas o multiplicar cruzado.",
+    "explanation": "Multiplicando cruzado: $4 \\cdot 2 = x \\cdot 1 \\to 8 = x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Selecciona las opciones que muestran un despeje correcto de $y$ en: $ax + by = c$:\n1. $y = (c - ax)/b$\n2. $y = c/b - (ax)/b$\n3. $by = c - ax$\n4. $y = (ax - c)/b$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el término que suma pasa restando y el que multiplica pasa dividiendo a todo el bloque.",
+    "explanation": "Restamos $ax$: $by = c - ax$ (Paso 3). Dividimos entre $b$: $y = (c-ax)/b$ (Paso 1). Distribuyendo la división: $y = c/b - ax/b$ (Paso 2).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "En la expresión de la aceleración $a = (v_f - v_i)/t$, para despejar la velocidad inicial $v_i$, primero se ______ por $t$ y luego se ______ el término de la velocidad final $v_f$ o se ajustan los signos.",
+    "image": null,
+    "options": [
+      { "text": "multiplica, resta", "correct": true },
+      { "text": "divide, suma", "correct": false },
+      { "text": "suma, multiplica", "correct": false },
+      { "text": "resta, divide", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $t$ afecta a todo el numerador.",
+    "explanation": "$at = v_f - v_i \\to v_i = v_f - at$. Se multiplicó por el tiempo y se aisló la velocidad inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Relaciona el término con su posición final tras despejar $x$ en $y = k/x$: I. $y$; II. $x$; III. $k$.",
+    "image": null,
+    "options": [
+      { "text": "I-Denominador, II-Miembro izquierdo, III-Numerador", "correct": true },
+      { "text": "I-Numerador, II-Denominador, III-Miembro derecho", "correct": false },
+      { "text": "I-Multiplicador, II-Numerador, III-Denominador", "correct": false },
+      { "text": "I-Resta, II-Suma, III-Igualdad", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El despeje de una variable en el denominador intercambia posiciones con el resultado.",
+    "explanation": "$x = k/y$. Aquí $x$ queda sola en la izquierda, $k$ sigue arriba y $y$ baja al denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Un estudiante del CEPREDIX resuelve el despeje de la hipotenusa $c$ en $c^2 = a^2 + b^2$. Si $a = 3 \\text{ cm}$ y $b = 4 \\text{ cm}$, el valor de $c$ es:",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$7 \\text{ cm}$", "correct": false },
+      { "text": "$25 \\text{ cm}$", "correct": false },
+      { "text": "$12 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x^2 = y$, entonces $x = \\sqrt{y}$.",
+    "explanation": "$c = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Aísla $x$ en la ecuación: $\\sqrt[3]{x - 1} = 2$.",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la potencia cúbica en ambos miembros.",
+    "explanation": "$x - 1 = 2^3 \\to x - 1 = 8 \\to x = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Identifica cuáles de las siguientes operaciones no alteran una ecuación al realizar un despeje:\n1. Sumar un número negativo a ambos lados.\n2. Multiplicar ambos lados por cero.\n3. Dividir ambos lados entre una variable que puede ser cero.\n4. Elevar al cuadrado ambos lados (considerando posibles raíces extrañas).",
+    "image": null,
+    "options": [
+      { "text": "1, 4", "correct": true },
+      { "text": "2, 3", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "Todas la alteran", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplicar por cero o dividir entre cero son operaciones prohibidas en el álgebra.",
+    "explanation": "La suma es siempre válida. Elevar al cuadrado es válido aunque requiere verificar soluciones. Multiplicar por cero destruye la información y la división entre cero no está definida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "En la fórmula del interés simple $I = Prt$, para despejar el tiempo $t$, debemos ______ el producto ______ al miembro izquierdo.",
+    "image": null,
+    "options": [
+      { "text": "dividir, $Pr$", "correct": true },
+      { "text": "multiplicar, $Pr$", "correct": false },
+      { "text": "restar, $P+r$", "correct": false },
+      { "text": "dividir, $P/r$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $P$ y $r$ multiplican a $t$.",
+    "explanation": "$t = I / (Pr)$. El producto de la principal y la tasa pasan dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "Relaciona el despeje con la variable aislada en la fórmula de la pendiente $m = (y_2 - y_1)/(x_2 - x_1)$: I. $y_2$; II. $x_2$.",
+    "image": null,
+    "options": [
+      { "text": "I: $m(x_2 - x_1) + y_1$; II: $(y_2 - y_1)/m + x_1$", "correct": true },
+      { "text": "I: $m/x_2 + y_1$; II: $m(y_2 - y_1)$", "correct": false },
+      { "text": "I: $y_1 - m$; II: $x_1 + m$", "correct": false },
+      { "text": "I: $m(x_2 - x_1) - y_1$; II: $(y_2 - y_1)/m - x_1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa el denominador multiplicando a la pendiente.",
+    "explanation": "Para $y_2$: $m(x_2 - x_1) = y_2 - y_1 \\to y_2 = m(x_2 - x_1) + y_1$. Para $x_2$: $(x_2 - x_1) = (y_2 - y_1)/m \\to x_2 = (y_2 - y_1)/m + x_1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Un estudiante del CEPREDIX despeja $w$ en la fórmula de la velocidad angular: $a = w^2 r$. Si $a = 18 \\text{ rad/s}^2$ y $r = 2 \\text{ m}$, el valor de $w$ es:",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ rad/s}$", "correct": true },
+      { "text": "$9 \\text{ rad/s}$", "correct": false },
+      { "text": "$36 \\text{ rad/s}$", "correct": false },
+      { "text": "$6 \\text{ rad/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x^2 = y/z$, entonces $x = \\sqrt{y/z}$.",
+    "explanation": "$w^2 = a/r = 18/2 = 9$. Por tanto, $w = \\sqrt{9} = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "Despeja $x$ en la ecuación: $2(3x - 1) = 10$.",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide entre 2 primero para simplificar.",
+    "explanation": "$3x - 1 = 5 \\to 3x = 6 \\to x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "Selecciona los pasos para despejar $b$ en $A = (a + b)h / 2$:\n1. Multiplicar por 2.\n2. Dividir entre $h$.\n3. Restar $a$.\n4. Dividir entre $a$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "Solo 1 y 2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera el orden de afuera hacia adentro del paréntesis.",
+    "explanation": "$2A = (a+b)h \\to 2A/h = a+b \\to 2A/h - a = b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "Para aislar la variable $d$ en la fórmula de la densidad $\\rho = m/d$, se debe ______ $d$ con la variable ______ por el principio de transposición.",
+    "image": null,
+    "options": [
+      { "text": "intercambiar, $\\rho$", "correct": true },
+      { "text": "multiplicar, $m$", "correct": false },
+      { "text": "sumar, $m$", "correct": false },
+      { "text": "dividir, $\\rho$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $a = b/x$, entonces $x = b/a$.",
+    "explanation": "Al multiplicar por $d$ tenemos $d \\cdot \\rho = m$. Al dividir por la densidad queda $d = m/\\rho$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "Relaciona el tipo de ecuación con el método de despeje: I. Exponencial; II. Cuadrática; III. Fraccionaria.",
+    "image": null,
+    "options": [
+      { "text": "I-Logaritmos, II-Radicación, III-Linealización", "correct": true },
+      { "text": "I-Suma, II-Resta, III-Multiplicación", "correct": false },
+      { "text": "I-Derivación, II-Integración, III-Sustitución", "correct": false },
+      { "text": "I-Potencia, II-Raíz, III-División", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Asocia la función con su proceso inverso estándar.",
+    "explanation": "Las exponenciales se resuelven con logaritmos; las cuadráticas con raíces y las fraccionarias multiplicando denominadores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "En el CEPREDIX, se estudia la fórmula de potencia eléctrica: $P = V^2 / R$. Si se desea despejar el voltaje $V$ (valor positivo), ¿cuál es la expresión?",
+    "image": null,
+    "options": [
+      { "text": "$V = \\sqrt{P \\cdot R}$", "correct": true },
+      { "text": "$V = P/R$", "correct": false },
+      { "text": "$V = (P \\cdot R)^2$", "correct": false },
+      { "text": "$V = \\sqrt{P/R}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $y = x^2 / k$, entonces $x^2 = y \\cdot k$.",
+    "explanation": "$V^2 = P \\cdot R$. Aplicando raíz cuadrada obtenemos el voltaje.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
