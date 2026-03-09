@@ -1,0 +1,542 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Una muestra de $0.2000 \\text{ g}$ que está formada únicamente de cloruro de sodio ($NaCl$) y cloruro de potasio ($KCl$) se precipita con un compuesto de plata para generar $0.4375 \\text{ g}$ de cloruro de plata ($AgCl$). Calcula la masa de cloruro de sodio en la muestra inicial. (Pesos moleculares en $\\text{g/mol}$: $NaCl = 58.44$, $KCl = 74.55$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": true },
+      { "text": "$0.0500 \\text{ g}$", "correct": false },
+      { "text": "$0.1200 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea un sistema de ecuaciones: $x + y = 0.2000$ y $(143.32/58.44)x + (143.32/74.55)y = 0.4375$.",
+    "explanation": "Resolviendo el sistema $x + y = 0.2000$ y $2.4524x + 1.9225y = 0.4375$, se obtiene $x = 0.1000 \\text{ g}$ de $NaCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Una muestra de $0.3000 \\text{ g}$ que contiene cloruro de sodio ($NaCl$) y cloruro de bario ($BaCl_2$) produce $0.5744 \\text{ g}$ de cloruro de plata ($AgCl$) al precipitarse. Determina la masa de cloruro de bario en la mezcla. (Pesos moleculares en $\\text{g/mol}$: $NaCl = 58.44$, $BaCl_2 = 208.23$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2500 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el $BaCl_2$ aporta dos moles de cloruro por cada mol de compuesto.",
+    "explanation": "El sistema es $x + y = 0.3000$ y $(143.32/58.44)x + (2 \\times 143.32/208.23)y = 0.5744$. Despejando $y$ obtenemos $0.1500 \\text{ g}$ de $BaCl_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Se analiza una mezcla de $0.2000 \\text{ g}$ de cloruro de potasio ($KCl$) y cloruro de calcio ($CaCl_2$), obteniéndose un precipitado de $0.4373 \\text{ g}$ de $AgCl$. ¿Cuál es la masa de $KCl$ en la muestra original? (Pesos moleculares en $\\text{g/mol}$: $KCl = 74.55$, $CaCl_2 = 110.98$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.0800 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.1200 \\text{ g}$", "correct": true },
+      { "text": "$0.1000 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa los factores gravimétricos para cada sal respecto al precipitado formado.",
+    "explanation": "Resolviendo $x + y = 0.2000$ y $1.9225x + 2.5828y = 0.4373$, resulta $x = 0.1200 \\text{ g}$ de $KCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Al precipitar una muestra de $0.3000 \\text{ g}$ que contiene bromuro de sodio ($NaBr$) y bromuro de potasio ($KBr$), se obtienen $0.5228 \\text{ g}$ de bromuro de plata ($AgBr$). Calcula la masa de bromuro de sodio presente. (Pesos moleculares en $\\text{g/mol}$: $NaBr = 102.89$, $KBr = 119.00$, $AgBr = 187.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2000 \\text{ g}$", "correct": true },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2500 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor de conversión para $NaBr$ es el peso molecular de $AgBr$ entre el peso molecular de $NaBr$.",
+    "explanation": "El sistema de ecuaciones arroja $x + y = 0.3000$ y $1.8250x + 1.5779y = 0.5228$. La masa de $NaBr$ ($x$) es $0.2000 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Una mezcla sólida de $0.5000 \\text{ g}$ compuesta por yoduro de sodio ($NaI$) y yoduro de potasio ($KI$) se hace reaccionar para formar $0.7452 \\text{ g}$ de yoduro de plata ($AgI$). Determina la masa de yoduro de potasio. (Pesos moleculares en $\\text{g/mol}$: $NaI = 149.89$, $KI = 166.00$, $AgI = 234.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.3000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.2500 \\text{ g}$", "correct": true },
+      { "text": "$0.3500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las ecuaciones simultáneas relacionan las masas individuales con la masa total y la masa del precipitado.",
+    "explanation": "Las ecuaciones $x + y = 0.5000$ y $1.5663x + 1.4143y = 0.7452$ dan como resultado $y = 0.2500 \\text{ g}$ para el $KI$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Se cuenta con $0.3000 \\text{ g}$ de una mezcla de cloruro de magnesio ($MgCl_2$) y cloruro de bario ($BaCl_2$). Si el precipitado de $AgCl$ pesa $0.5764 \\text{ g}$, ¿qué masa corresponde al $MgCl_2$? (Pesos moleculares en $\\text{g/mol}$: $MgCl_2 = 95.21$, $BaCl_2 = 208.23$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": true },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.0500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambas sales en la mezcla inicial aportan dos iones cloruro por cada molécula.",
+    "explanation": "Resolviendo $x + y = 0.3000$ y $(286.64/95.21)x + (286.64/208.23)y = 0.5764$, se obtiene $x = 0.1000 \\text{ g}$ de $MgCl_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Una muestra de $0.3000 \\text{ g}$ de $NaCl$ y $CaCl_2$ produce $0.7514 \\text{ g}$ de precipitado de $AgCl$. Calcula la cantidad de $CaCl_2$ en la mezcla original. (Pesos moleculares en $\\text{g/mol}$: $NaCl = 58.44$, $CaCl_2 = 110.98$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.1800 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1200 \\text{ g}$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea que la masa de precipitado es igual a la suma de lo que produce cada sal.",
+    "explanation": "Con $x + y = 0.3000$ y $2.4524x + 2.5828y = 0.7514$, se deduce que la masa $y$ de $CaCl_2$ es $0.1200 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Al analizar $0.4000 \\text{ g}$ de una mezcla de cloruro de potasio ($KCl$) y cloruro de bario ($BaCl_2$), se forman $0.6707 \\text{ g}$ de cloruro de plata ($AgCl$). Determina la masa de $KCl$. (Pesos moleculares en $\\text{g/mol}$: $KCl = 74.55$, $BaCl_2 = 208.23$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2200 \\text{ g}$", "correct": true },
+      { "text": "$0.1800 \\text{ g}$", "correct": false },
+      { "text": "$0.2500 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El sistema se resuelve sustituyendo $y = 0.4000 - x$ en la ecuación gravimétrica.",
+    "explanation": "Resolviendo el sistema $1.9225x + 1.3766y = 0.6707$ junto a la suma de masas igual a $0.4000$, resulta $x = 0.2200 \\text{ g}$ de $KCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Una mezcla de bromuro de sodio ($NaBr$) y bromuro de bario ($BaBr_2$) pesa $0.3000 \\text{ g}$ y al precipitar genera $0.4633 \\text{ g}$ de bromuro de plata ($AgBr$). ¿Cuál es la masa de bromuro de sodio? (Pesos moleculares en $\\text{g/mol}$: $NaBr = 102.89$, $BaBr_2 = 297.13$, $AgBr = 187.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": true },
+      { "text": "$0.2500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El $BaBr_2$ genera el doble de moles de $AgBr$ que sus moles originales.",
+    "explanation": "Usando factores gravimétricos, $1.8250x + (2 \\times 187.77/297.13)y = 0.4633$. Sabiendo $x + y = 0.3000$, $x$ equivale a $0.1500 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Se obtienen $0.6763 \\text{ g}$ de $AgBr$ al precipitar $0.4000 \\text{ g}$ de una mezcla conformada por $KBr$ y $CaBr_2$. Encuentra la masa de $CaBr_2$ de la muestra. (Pesos moleculares en $\\text{g/mol}$: $KBr = 119.00$, $CaBr_2 = 199.88$, $AgBr = 187.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2500 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reemplaza las incógnitas en la fórmula total de precipitación para obtener el resultado.",
+    "explanation": "Resolviendo $1.5779x + 1.8788y = 0.6763$ con $x + y = 0.4000$, obtenemos $y = 0.1500 \\text{ g}$ para el $CaBr_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Se hace reaccionar una muestra de $0.2000 \\text{ g}$ de $NaCl$ y $MgCl_2$, dando como resultado $0.5742 \\text{ g}$ de $AgCl$. Calcula la cantidad de $NaCl$ inicial. (Pesos moleculares en $\\text{g/mol}$: $NaCl = 58.44$, $MgCl_2 = 95.21$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.0500 \\text{ g}$", "correct": true },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.0800 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la masa de cada compuesto por su relación estequiométrica molar.",
+    "explanation": "El sistema $x + y = 0.2000$ y $2.4524x + 3.0106y = 0.5742$ revela que $x = 0.0500 \\text{ g}$ de $NaCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "De una muestra de $0.3000 \\text{ g}$ de $CaCl_2$ y $BaCl_2$, se obtienen $0.6542 \\text{ g}$ de precipitado de $AgCl$. ¿Cuál es la masa del $CaCl_2$? (Pesos moleculares en $\\text{g/mol}$: $CaCl_2 = 110.98$, $BaCl_2 = 208.23$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": true },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.2500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambas sales son divalentes con respecto al anión cloruro.",
+    "explanation": "Sustituyendo valores en el sistema lineal, se despeja $x$ correspondiente al $CaCl_2$ como $0.2000 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Una mezcla de $0.3000 \\text{ g}$ de yoduro de sodio ($NaI$) y yoduro de calcio ($CaI_2$) rinde un precipitado de $0.4762 \\text{ g}$ de yoduro de plata ($AgI$). Determina la masa de $NaI$. (Pesos moleculares en $\\text{g/mol}$: $NaI = 149.89$, $CaI_2 = 293.88$, $AgI = 234.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": true },
+      { "text": "$0.0500 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ajusta estequiométricamente los átomos de yodo para calcular el factor de conversión correcto.",
+    "explanation": "La ecuación $1.5663x + 1.5977y = 0.4762$ y $x+y=0.3000$ da como resultado $x = 0.1000 \\text{ g}$ de $NaI$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "A partir de $0.4000 \\text{ g}$ de una muestra pura de $KI$ y $BaI_2$, se producen $0.5443 \\text{ g}$ de precipitado de $AgI$. Calcula la masa de $BaI_2$. (Pesos moleculares en $\\text{g/mol}$: $KI = 166.00$, $BaI_2 = 391.13$, $AgI = 234.77$)",
+    "image": null,
+    "options": [
+      { "text": "$0.3000 \\text{ g}$", "correct": false },
+      { "text": "$0.2000 \\text{ g}$", "correct": false },
+      { "text": "$0.1500 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la variable del componente más pesado a partir del sistema de ecuaciones gravimétricas.",
+    "explanation": "Resolviendo para $y$ en el sistema lineal, obtenemos que la masa de $BaI_2$ es exactamente $0.1000 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Una mezcla de cloruro de sodio y cloruro de potasio pesa $0.2000 \\text{ g}$ y genera un precipitado de $AgCl$ de $0.4269 \\text{ g}$. ¿Qué cantidad es cloruro de sodio? (Pesos moleculares en $\\text{g/mol}$: $NaCl = 58.44$, $KCl = 74.55$, $AgCl = 143.32$)",
+    "image": null,
+    "options": [
+      { "text": "$0.0800 \\text{ g}$", "correct": true },
+      { "text": "$0.1200 \\text{ g}$", "correct": false },
+      { "text": "$0.1000 \\text{ g}$", "correct": false },
+      { "text": "$0.0600 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Este ejercicio es similar a otros de cloruros alcalinos, asegúrate de aplicar el factor gravimétrico preciso.",
+    "explanation": "El sistema $x + y = 0.2000$ y $2.4524x + 1.9225y = 0.4269$ resuelto arroja $x = 0.0800 \\text{ g}$ para el $NaCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Una mezcla sólida compuesta únicamente por cloruro de plata ($AgCl$) y bromuro de plata ($AgBr$) contiene un $64.57\\%$ de plata elemental. Calcula el porcentaje de $AgCl$ en la mezcla. (Pesos moleculares en $\\text{g/mol}$: $Ag = 107.87$, $AgCl = 143.32$, $AgBr = 187.77$)",
+    "image": null,
+    "options": [
+      { "text": "$60.00\\%$", "correct": false },
+      { "text": "$40.00\\%$", "correct": true },
+      { "text": "$35.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa los porcentajes de plata pura en cada compuesto y forma la ecuación lineal: $P_1x + P_2(1-x) = P_{total}$.",
+    "explanation": "El porcentaje de $Ag$ en $AgCl$ es $75.26\\%$ y en $AgBr$ es $57.45\\%$. Sustituyendo en $75.26x + 57.45(1-x) = 64.57$, despejamos $x = 0.40$, equivalente al $40.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Se analiza una mezcla de haluros de plata ($AgCl$ y $AgI$), determinando que su contenido de plata es del $54.74\\%$. ¿Cuál es el porcentaje de yoduro de plata ($AgI$)? (Pesos moleculares en $\\text{g/mol}$: $Ag = 107.87$, $AgCl = 143.32$, $AgI = 234.77$)",
+    "image": null,
+    "options": [
+      { "text": "$30.00\\%$", "correct": false },
+      { "text": "$50.00\\%$", "correct": false },
+      { "text": "$70.00\\%$", "correct": true },
+      { "text": "$80.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la fracción de masa de plata en el $AgI$ es considerablemente menor debido al alto peso del yodo.",
+    "explanation": "Plata en $AgCl$ es $75.26\\%$ y en $AgI$ es $45.95\\%$. La ecuación $75.26(1-y) + 45.95y = 54.74$ resuelve a $y = 0.70$ o $70.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Una aleación en polvo de bromuro de plata ($AgBr$) y yoduro de plata ($AgI$) posee exactamente un $51.70\\%$ de plata en masa. Determina el porcentaje de $AgBr$ presente. (Pesos moleculares en $\\text{g/mol}$: $Ag = 107.87$, $AgBr = 187.77$, $AgI = 234.77$)",
+    "image": null,
+    "options": [
+      { "text": "$60.00\\%$", "correct": false },
+      { "text": "$40.00\\%$", "correct": false },
+      { "text": "$55.00\\%$", "correct": false },
+      { "text": "$50.00\\%$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la fracción másica del metal en cada sal individual antes de plantear la ecuación de la mezcla.",
+    "explanation": "El contenido de $Ag$ en $AgBr$ es $57.45\\%$ y en $AgI$ es $45.95\\%$. Al calcular $57.45x + 45.95(1-x) = 51.70$, $x$ resulta en $0.50$ o $50.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Una muestra de sales que consiste en cloruro de sodio ($NaCl$) y cloruro de potasio ($KCl$) contiene en total un $50.83\\%$ de cloro elemental. Encuentra el porcentaje de cloruro de sodio en la muestra. (Pesos moleculares en $\\text{g/mol}$: $Cl = 35.45$, $NaCl = 58.44$, $KCl = 74.55$)",
+    "image": null,
+    "options": [
+      { "text": "$25.00\\%$", "correct": true },
+      { "text": "$75.00\\%$", "correct": false },
+      { "text": "$30.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea una ecuación de fracciones másicas igualando al porcentaje de cloro dado.",
+    "explanation": "Cloro en $NaCl$ es $60.66\\%$ y en $KCl$ es $47.55\\%$. $60.66x + 47.55(1-x) = 50.83$ da como resultado $x = 0.25$, es decir, $25.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Se tiene una mezcla de bromuros alcalinos ($NaBr$ y $KBr$) con un porcentaje global de bromo del $73.45\\%$. Calcula la proporción porcentual de $KBr$ en la mezcla. (Pesos moleculares en $\\text{g/mol}$: $Br = 79.90$, $NaBr = 102.89$, $KBr = 119.00$)",
+    "image": null,
+    "options": [
+      { "text": "$60.00\\%$", "correct": false },
+      { "text": "$40.00\\%$", "correct": true },
+      { "text": "$35.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El porcentaje de bromo es menor en el compuesto con el catión más pesado.",
+    "explanation": "El porcentaje de $Br$ en $NaBr$ es $77.66\\%$ y en $KBr$ es $67.14\\%$. De $77.66(1-y) + 67.14y = 73.45$, obtenemos $y = 0.40$ o $40.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Una mezcla seca de $NaI$ y $KI$ es analizada, determinando que tiene un $80.14\\%$ de yodo total. ¿Cuál es el porcentaje de $NaI$ en la muestra original? (Pesos moleculares en $\\text{g/mol}$: $I = 126.90$, $NaI = 149.89$, $KI = 166.00$)",
+    "image": null,
+    "options": [
+      { "text": "$55.00\\%$", "correct": false },
+      { "text": "$40.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": true },
+      { "text": "$60.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de mezclas utilizando la fracción en masa del halógeno en cada sal pura.",
+    "explanation": "Yodo en $NaI$ es $84.66\\%$ y en $KI$ es $76.45\\%$. Resolviendo $84.66x + 76.45(1-x) = 80.14$, resulta $x = 0.45$ o $45.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Un precipitado que contiene solamente cloruros de magnesio ($MgCl_2$) y de calcio ($CaCl_2$) tiene un contenido total de cloro de $67.59\\%$. Determina el porcentaje correspondiente al $CaCl_2$. (Pesos moleculares en $\\text{g/mol}$: $Cl = 35.45$, $MgCl_2 = 95.21$, $CaCl_2 = 110.98$)",
+    "image": null,
+    "options": [
+      { "text": "$35.00\\%$", "correct": false },
+      { "text": "$70.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": false },
+      { "text": "$65.00\\%$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No olvides multiplicar el peso atómico del cloro por dos al calcular las fracciones de cada sal.",
+    "explanation": "Cloro en $MgCl_2$ es $74.47\\%$ y en $CaCl_2$ es $63.89\\%$. Con la fórmula $74.47(1-y) + 63.89y = 67.59$, despejamos $y = 0.65$ o $65.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Una muestra de carbonatos que contiene $CaCO_3$ y $MgCO_3$ arroja un porcentaje elemental de oxígeno de $49.75\\%$. Calcula el porcentaje de $CaCO_3$ en la mezcla. (Pesos moleculares en $\\text{g/mol}$: $O = 16.00$, $CaCO_3 = 100.09$, $MgCO_3 = 84.32$)",
+    "image": null,
+    "options": [
+      { "text": "$80.00\\%$", "correct": true },
+      { "text": "$20.00\\%$", "correct": false },
+      { "text": "$75.00\\%$", "correct": false },
+      { "text": "$50.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cada molécula de carbonato contiene exactamente tres átomos de oxígeno, tenlo en cuenta al hallar la fracción másica.",
+    "explanation": "Oxígeno en $CaCO_3$ es $47.96\\%$ y en $MgCO_3$ es $56.93\\%$. Sustituyendo en $47.96x + 56.93(1-x) = 49.75$, $x$ es $0.80$ o $80.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Se evalúa una mezcla de dos óxidos de cobre, $CuO$ y $Cu_2O$, determinando que su composición de cobre elemental es de $83.91\\%$. Halla el porcentaje de $Cu_2O$ presente. (Pesos moleculares en $\\text{g/mol}$: $Cu = 63.55$, $CuO = 79.55$, $Cu_2O = 143.10$)",
+    "image": null,
+    "options": [
+      { "text": "$55.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": true },
+      { "text": "$40.00\\%$", "correct": false },
+      { "text": "$60.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula cuidadosamente la cantidad de cobre en el óxido cuproso ($Cu_2O$), pues tiene dos átomos por molécula.",
+    "explanation": "El $Cu$ en $CuO$ es $79.89\\%$ y en $Cu_2O$ es $88.82\\%$. La relación $79.89(1-y) + 88.82y = 83.91$ muestra que $y = 0.45$ o $45.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Un mineral compuesto únicamente de óxidos de hierro ($FeO$ y $Fe_2O_3$) presenta un $71.89\\%$ de hierro total en masa. ¿Cuál es el porcentaje de óxido ferroso ($FeO$)? (Pesos moleculares en $\\text{g/mol}$: $Fe = 55.85$, $FeO = 71.85$, $Fe_2O_3 = 159.70$)",
+    "image": null,
+    "options": [
+      { "text": "$75.00\\%$", "correct": false },
+      { "text": "$30.00\\%$", "correct": false },
+      { "text": "$25.00\\%$", "correct": true },
+      { "text": "$50.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea las fracciones másicas asumiendo un mol de $Fe$ para $FeO$ y dos moles para $Fe_2O_3$.",
+    "explanation": "El $Fe$ en $FeO$ equivale al $77.73\\%$ y en $Fe_2O_3$ al $69.94\\%$. Si $77.73x + 69.94(1-x) = 71.89$, entonces $x = 0.25$ o $25.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Al analizar una mezcla de sulfatos insolubles ($BaSO_4$ y $PbSO_4$), se encuentra que el porcentaje en masa del ion sulfato ($SO_4^{2-}$) es de $37.37\\%$. Determina el porcentaje de $PbSO_4$ en la mezcla. (Pesos moleculares en $\\text{g/mol}$: $SO_4 = 96.07$, $BaSO_4 = 233.40$, $PbSO_4 = 303.27$)",
+    "image": null,
+    "options": [
+      { "text": "$60.00\\%$", "correct": false },
+      { "text": "$35.00\\%$", "correct": false },
+      { "text": "$45.00\\%$", "correct": false },
+      { "text": "$40.00\\%$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la masa del radical sulfato completo como base para la fracción analítica.",
+    "explanation": "El anión sulfato en $BaSO_4$ es $41.16\\%$ y en $PbSO_4$ es $31.68\\%$. Mediante $41.16(1-y) + 31.68y = 37.37$, $y$ resulta en $0.40$ o $40.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Una mezcla homogénea de cloruro de sodio ($NaCl$) y bromuro de sodio ($NaBr$) se evalúa para encontrar un porcentaje de sodio elemental de $34.24\\%$. Calcula el porcentaje de $NaCl$ en esta mezcla. (Pesos moleculares en $\\text{g/mol}$: $Na = 22.99$, $NaCl = 58.44$, $NaBr = 102.89$)",
+    "image": null,
+    "options": [
+      { "text": "$70.00\\%$", "correct": true },
+      { "text": "$30.00\\%$", "correct": false },
+      { "text": "$65.00\\%$", "correct": false },
+      { "text": "$75.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Interpola linealmente entre las fracciones másicas de sodio de cada compuesto puro.",
+    "explanation": "Sodio en $NaCl$ es $39.34\\%$ y en $NaBr$ es $22.34\\%$. Con $39.34x + 22.34(1-x) = 34.24$, despejamos $x = 0.70$ o $70.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "En un laboratorio se determina que una mezcla de halogenuros de potasio ($KCl$ y $KBr$) contiene un $35.80\\%$ de potasio. ¿Cuál es el porcentaje del $KCl$ original? (Pesos moleculares en $\\text{g/mol}$: $K = 39.10$, $KCl = 74.55$, $KBr = 119.00$)",
+    "image": null,
+    "options": [
+      { "text": "$85.00\\%$", "correct": false },
+      { "text": "$15.00\\%$", "correct": true },
+      { "text": "$25.00\\%$", "correct": false },
+      { "text": "$35.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la diferencia de concentraciones de potasio en las sales puras para encontrar la proporción en la mezcla.",
+    "explanation": "El porcentaje de $K$ en $KCl$ es $52.45\\%$ y en $KBr$ es $32.86\\%$. Así, $52.45x + 32.86(1-x) = 35.80$ nos da $x = 0.15$ o $15.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Si un depósito de minerales de plata contiene $AgCl$ y $AgBr$ rindiendo un análisis global de plata del $71.70\\%$, ¿qué porcentaje de dicho mineral corresponde al bromuro de plata ($AgBr$)? (Pesos moleculares en $\\text{g/mol}$: $Ag = 107.87$, $AgCl = 143.32$, $AgBr = 187.77$)",
+    "image": null,
+    "options": [
+      { "text": "$80.00\\%$", "correct": false },
+      { "text": "$30.00\\%$", "correct": false },
+      { "text": "$20.00\\%$", "correct": true },
+      { "text": "$40.00\\%$", "correct": false }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las ecuaciones de balance de masa permiten conocer la proporción exacta de componentes de dos fases minerales.",
+    "explanation": "Conociendo que $Ag$ en $AgCl$ es $75.26\\%$ y en $AgBr$ es $57.45\\%$, formulamos $75.26(1-y) + 57.45y = 71.70$, resultando en $y = 0.20$ o $20.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Una muestra de rocas carbonatadas que incluye $MgCO_3$ y $BaCO_3$ posee un $46.71\\%$ en masa correspondiente al ion carbonato ($CO_3^{2-}$). Determina la proporción de $BaCO_3$. (Pesos moleculares en $\\text{g/mol}$: $CO_3 = 60.01$, $MgCO_3 = 84.32$, $BaCO_3 = 197.34$)",
+    "image": null,
+    "options": [
+      { "text": "$40.00\\%$", "correct": false },
+      { "text": "$55.00\\%$", "correct": false },
+      { "text": "$65.00\\%$", "correct": false },
+      { "text": "$60.00\\%$", "correct": true }
+    ],
+    "uni_tags": ["PREPA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa la cantidad de carbonato en cada peso molecular para definir la mezcla.",
+    "explanation": "Carbonato en $MgCO_3$ es $71.17\\%$ y en $BaCO_3$ es $30.41\\%$. La ecuación $71.17(1-y) + 30.41y = 46.71$ establece que $y = 0.60$ o $60.00\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
