@@ -7654,5 +7654,1301 @@
     "explanation": "Matemáticas: $x+y=10$, $x-y=2$. Resolviendo se obtiene $x=6, y=4$. Español: En la terminación '-ción', la 'i' (vocal débil átona) y la 'o' (vocal fuerte tónica) se unen formando una misma sílaba, es decir, un diptongo.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01MG",
+    "question": "¿Cuál es la descomposición correcta en factores primos del número 24?",
+    "image": null,
+    "options": [
+      { "text": "$2^3 \\times 3$", "correct": true },
+      { "text": "$2^2 \\times 6$", "correct": false },
+      { "text": "$2 \\times 3 \\times 4$", "correct": false },
+      { "text": "$2^4 \\times 3$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el número entre 2 consecutivamente hasta que no sea posible, luego continúa con el 3.",
+    "explanation": "Al dividir 24 entre 2 obtenemos 12, entre 2 es 6, entre 2 es 3, y entre 3 es 1. Por lo tanto, es $2 \\times 2 \\times 2 \\times 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MH",
+    "question": "Identifica los múltiplos comunes de 4 y 6 en la siguiente lista:\n1. 12\n2. 16\n3. 24\n4. 30\n5. 36",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca los números que se encuentren tanto en la tabla del 4 como en la del 6.",
+    "explanation": "Los múltiplos de 4 son 4, 8, 12, 16, 20, 24... Los de 6 son 6, 12, 18, 24... Los comunes en la lista son 12, 24 y 36.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MI",
+    "question": "Completa: 'Para hallar el ______ de números de tres cifras, se multiplican los factores primos comunes y no comunes con su ______ exponente.'",
+    "image": null,
+    "options": [
+      { "text": "Mínimo Común Múltiplo, mayor", "correct": true },
+      { "text": "Máximo Común Divisor, menor", "correct": false },
+      { "text": "Mínimo Común Múltiplo, menor", "correct": false },
+      { "text": "Máximo Común Divisor, mayor", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta operación busca un número grande que los contenga a todos como divisores.",
+    "explanation": "La regla para el Mínimo Común Múltiplo (MCM) indica tomar todos los factores presentes, elevados a su mayor exponente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MJ",
+    "question": "Relaciona cada número con su descomposición en factores primos:\nI. 12\nII. 18\nIII. 20\n\nA. $2^2 \\times 5$\nB. $2^2 \\times 3$\nC. $2 \\times 3^2$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El 20 termina en cero, por lo que debe tener un 5 en sus factores.",
+    "explanation": "12 es $4 \\times 3$ ($2^2 \\times 3$). 18 es $2 \\times 9$ ($2 \\times 3^2$). 20 es $4 \\times 5$ ($2^2 \\times 5$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MK",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 36 y 48?",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el número más grande que pueda dividir exactamente a ambos sin dejar residuo.",
+    "explanation": "Los divisores comunes de 36 y 48 son 1, 2, 3, 4, 6 y 12. El mayor de ellos es 12.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ML",
+    "question": "Un estudiante del CEPREDIX observa que tres alarmas suenan juntas a las 8:00 a.m. Si la primera suena cada 120 minutos, la segunda cada 150 minutos y la tercera cada 180 minutos, ¿cuántos minutos pasarán para que vuelvan a coincidir?",
+    "image": null,
+    "options": [
+      { "text": "1800 minutos", "correct": true },
+      { "text": "900 minutos", "correct": false },
+      { "text": "3600 minutos", "correct": false },
+      { "text": "1200 minutos", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca una coincidencia futura, por lo tanto debes calcular el Mínimo Común Múltiplo (MCM).",
+    "explanation": "El MCM de 120, 150 y 180 es 1800. Esto significa que coincidirán de nuevo tras 1800 minutos (30 horas).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MM",
+    "question": "Completa el texto: 'Un número ______ solo tiene dos divisores, él mismo y la unidad; mientras que un número ______ tiene tres o más divisores.'",
+    "image": null,
+    "options": [
+      { "text": "primo, compuesto", "correct": true },
+      { "text": "par, impar", "correct": false },
+      { "text": "compuesto, primo", "correct": false },
+      { "text": "entero, decimal", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda las definiciones fundamentales de divisibilidad y factorización.",
+    "explanation": "Los números primos son aquellos indivisibles por otros números excepto 1 y sí mismos (ej. 2, 3, 5). Los compuestos tienen más divisores (ej. 4, 6, 8).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MN",
+    "question": "Relaciona cada par de números con su Mínimo Común Múltiplo (MCM):\nI. 6 y 8\nII. 5 y 15\nIII. 7 y 9\n\nA. 15\nB. 63\nC. 24",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si dos números no tienen factores comunes (como 7 y 9), su MCM es simplemente su producto.",
+    "explanation": "MCM(6,8) = 24. MCM(5,15) = 15, porque 15 es múltiplo de 5. MCM(7,9) = 63, porque son primos entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MO",
+    "question": "Identifica los números de tres cifras que son divisibles simultáneamente por 2, 3 y 5:\n1. 150\n2. 215\n3. 300\n4. 410\n5. 420",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para ser divisible por 2, 3 y 5, el número debe ser múltiplo de $2 \\times 3 \\times 5 = 30$.",
+    "explanation": "Los números deben terminar en cero (divisible por 2 y 5) y la suma de sus dígitos debe ser múltiplo de 3. Cumplen: 150 (suman 6), 300 (suman 3) y 420 (suman 6).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MP",
+    "question": "Identifica los números primos menores que 20 en la siguiente lista:\n1. 9\n2. 11\n3. 15\n4. 17\n5. 19",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que los números primos solo pueden dividirse entre 1 y ellos mismos. El 9 y el 15 son divisibles por 3.",
+    "explanation": "Los números 11, 17 y 19 son primos. El 9 es $3 \\times 3$ y el 15 es $3 \\times 5$, por lo que son compuestos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MQ",
+    "question": "En un evento del CEPREDIX, se quieren hacer paquetes iguales repartiendo 24 chocolates y 36 paletas sin que sobre nada. ¿Cuál es el mayor número de paquetes idénticos que se pueden formar?",
+    "image": null,
+    "options": [
+      { "text": "12 paquetes", "correct": true },
+      { "text": "6 paquetes", "correct": false },
+      { "text": "4 paquetes", "correct": false },
+      { "text": "8 paquetes", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Buscas dividir una cantidad en su máxima porción compartida, debes usar el Máximo Común Divisor (MCD).",
+    "explanation": "El MCD de 24 y 36 es 12. Se pueden formar máximo 12 paquetes, cada uno con 2 chocolates y 3 paletas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MR",
+    "question": "Relaciona los números de tres cifras con su descomposición en factores primos:\nI. 144\nII. 150\nIII. 180\n\nA. $2 \\times 3 \\times 5^2$\nB. $2^2 \\times 3^2 \\times 5$\nC. $2^4 \\times 3^2$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el último dígito; si no termina en 0 o 5, no puede tener al 5 como factor primo.",
+    "explanation": "144 no tiene factor 5 ($2^4 \\times 3^2 = 16 \\times 9$). 150 es $2 \\times 3 \\times 25$. 180 es $4 \\times 9 \\times 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MS",
+    "question": "¿Cuál es la descomposición en factores primos del número 45?",
+    "image": null,
+    "options": [
+      { "text": "$3^2 \\times 5$", "correct": true },
+      { "text": "$3 \\times 15$", "correct": false },
+      { "text": "$5^2 \\times 3$", "correct": false },
+      { "text": "$9 \\times 5$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los factores deben ser números primos. El 9 y el 15 son números compuestos.",
+    "explanation": "El número 45 se divide entre 3 para dar 15, luego entre 3 para dar 5, y entre 5 para dar 1. Es decir, $3 \\times 3 \\times 5 = 3^2 \\times 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MT",
+    "question": "Completa la regla: 'El Máximo Común Divisor (MCD) se obtiene multiplicando únicamente los factores primos ______ elevados a su ______ exponente.'",
+    "image": null,
+    "options": [
+      { "text": "comunes, menor", "correct": true },
+      { "text": "comunes, mayor", "correct": false },
+      { "text": "no comunes, menor", "correct": false },
+      { "text": "no comunes, mayor", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Buscamos un divisor que quepa exactamente en todos los números, por lo que no puede superar la base común más pequeña.",
+    "explanation": "Para garantizar que el número resultante sea divisor de todos, solo se eligen las bases presentes en todas las descomposiciones con su exponente más bajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MU",
+    "question": "¿Cuál es la descomposición en factores primos del número 360?",
+    "image": null,
+    "options": [
+      { "text": "$2^3 \\times 3^2 \\times 5$", "correct": true },
+      { "text": "$2^2 \\times 3^3 \\times 5$", "correct": false },
+      { "text": "$2^4 \\times 3 \\times 5^2$", "correct": false },
+      { "text": "$2^3 \\times 3 \\times 15$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes dividirlo como $36 \\times 10$, y descomponer cada parte por separado.",
+    "explanation": "Sabemos que $360 = 36 \\times 10$. El 36 es $2^2 \\times 3^2$ y el 10 es $2 \\times 5$. Juntando ambos obtenemos $2^3 \\times 3^2 \\times 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MV",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 12 y 18?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el número mayor en las tablas de multiplicar que contenga como resultados tanto al 12 como al 18.",
+    "explanation": "Los divisores comunes de 12 y 18 son 1, 2, 3 y 6. El mayor es el 6.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MW",
+    "question": "Identifica los pares de números que son 'primos entre sí' (coprimos), es decir, su MCD es 1:\n1. 8 y 9\n2. 12 y 15\n3. 14 y 25\n4. 20 y 30\n5. 7 y 11",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca aquellos pares que no compartan ningún divisor común además del 1.",
+    "explanation": "8 y 9 no comparten divisores. 14 ($2 \\times 7$) y 25 ($5^2$) no comparten. 7 y 11 son ambos primos. En cambio, 12 y 15 comparten el 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MX",
+    "question": "En un taller de carpintería del CEPREDIX, se tienen tres listones de madera de $120 \\text{ cm}$, $150 \\text{ cm}$ y $180 \\text{ cm}$. Se desean cortar en tramos de la misma longitud que sea la mayor posible sin desperdiciar nada. ¿De qué tamaño debe ser cada tramo?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ cm}$", "correct": true },
+      { "text": "$60 \\text{ cm}$", "correct": false },
+      { "text": "$15 \\text{ cm}$", "correct": false },
+      { "text": "$10 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes dividir en porciones máximas comunes, calcula el Máximo Común Divisor (MCD).",
+    "explanation": "El MCD de 120, 150 y 180 es 30. Esto indica que la máxima longitud exacta en que se pueden cortar todos es $30 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MY",
+    "question": "Relaciona cada número con su Máximo Común Divisor (MCD) respecto al número 10:\nI. 15\nII. 20\nIII. 21\n\nA. 10\nB. 5\nC. 1",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Compara cada número de la lista con el 10 y busca el mayor número que divida a ambos.",
+    "explanation": "El MCD(15,10) = 5. El MCD(20,10) = 10, porque 10 cabe en 20. El MCD(21,10) = 1, porque son coprimos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MZ",
+    "question": "¿Cuál es el Mínimo Común Múltiplo (MCM) de los números 15 y 20?",
+    "image": null,
+    "options": [
+      { "text": "60", "correct": true },
+      { "text": "30", "correct": false },
+      { "text": "120", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa los múltiplos de 20 (20, 40, 60...) y busca cuál de ellos también se puede dividir entre 15.",
+    "explanation": "Los factores de 15 son $3 \\times 5$. Los de 20 son $2^2 \\times 5$. El MCM es $2^2 \\times 3 \\times 5 = 4 \\times 3 \\times 5 = 60$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NA",
+    "question": "¿Cuál es la descomposición en factores primos del número 50?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\times 5^2$", "correct": true },
+      { "text": "$2^2 \\times 5$", "correct": false },
+      { "text": "$10 \\times 5$", "correct": false },
+      { "text": "$2 \\times 25$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que todos los componentes deben ser números primos. 10 y 25 no son primos.",
+    "explanation": "50 dividido entre 2 da 25; 25 dividido entre 5 da 5; 5 entre 5 da 1. Esto se expresa como $2 \\times 5 \\times 5$, es decir, $2 \\times 5^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NB",
+    "question": "¿Cuál es el Mínimo Común Múltiplo (MCM) de los números 14 y 21?",
+    "image": null,
+    "options": [
+      { "text": "42", "correct": true },
+      { "text": "84", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "28", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos son múltiplos de 7. Evalúa $14 \\times 3$ o $21 \\times 2$.",
+    "explanation": "14 es $2 \\times 7$ y 21 es $3 \\times 7$. El MCM considera todos los factores distintos, es decir, $2 \\times 3 \\times 7 = 42$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NC",
+    "question": "¿Cuál es la descomposición en factores primos del número 400?",
+    "image": null,
+    "options": [
+      { "text": "$2^4 \\times 5^2$", "correct": true },
+      { "text": "$2^3 \\times 5^3$", "correct": false },
+      { "text": "$2^5 \\times 5$", "correct": false },
+      { "text": "$4 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en 400 como $4 \\times 100$, y recuerda que 100 es $10^2$, donde cada 10 aporta un 2 y un 5.",
+    "explanation": "400 = $4 \\times 100 = 2^2 \\times (2^2 \\times 5^2)$. Sumando exponentes de bases iguales tenemos $2^4 \\times 5^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ND",
+    "question": "Identifica los divisores exactos del número 24 de la siguiente lista:\n1. 6\n2. 8\n3. 10\n4. 12\n5. 16",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los divisores son aquellos que al dividir a 24 el residuo es cero.",
+    "explanation": "Los divisores de 24 son 1, 2, 3, 4, 6, 8, 12, 24. De la lista proporcionada, solo cumplen el 6, el 8 y el 12.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NE",
+    "question": "Completa la regla: 'El Mínimo Común Múltiplo (MCM) se calcula multiplicando todos los factores primos ______ y no ______, elevados a su ______ exponente.'",
+    "image": null,
+    "options": [
+      { "text": "comunes, comunes, mayor", "correct": true },
+      { "text": "comunes, comunes, menor", "correct": false },
+      { "text": "primos, pares, menor", "correct": false },
+      { "text": "mayores, menores, mayor", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta operación busca englobar la estructura de todos los números originales, por lo que toma todas las partes.",
+    "explanation": "A diferencia del MCD que es restrictivo (solo comunes, menor exponente), el MCM es inclusivo, toma factores comunes y no comunes al mayor exponente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NF",
+    "question": "Relaciona cada par de números de tres cifras con su Máximo Común Divisor (MCD):\nI. 100 y 150\nII. 120 y 180\nIII. 144 y 216\n\nA. 72\nB. 50\nC. 60",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuál es el divisor mayor a simple vista para números redondos como 100 y 150.",
+    "explanation": "MCD(100,150)=50. MCD(120,180)=60. MCD(144,216)=72 (ambos son múltiplos de 72, $72 \\times 2$ y $72 \\times 3$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NG",
+    "question": "¿Cuál es la descomposición en factores primos del número 60?",
+    "image": null,
+    "options": [
+      { "text": "$2^2 \\times 3 \\times 5$", "correct": true },
+      { "text": "$2 \\times 3^2 \\times 5$", "correct": false },
+      { "text": "$4 \\times 15$", "correct": false },
+      { "text": "$2^3 \\times 5$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide 60 a la mitad dos veces, luego aplica criterios del 3 y del 5.",
+    "explanation": "60 entre 2 es 30, entre 2 es 15, entre 3 es 5, entre 5 es 1. Esto da $2 \\times 2 \\times 3 \\times 5$, es decir, $2^2 \\times 3 \\times 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NH",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 45 y 60?",
+    "image": null,
+    "options": [
+      { "text": "15", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa en las tablas de multiplicar avanzadas o busca los factores comunes. Ambos terminan en 5 o 0 y sus cifras suman múltiplos de 3.",
+    "explanation": "Ambos son divisibles por 5 y por 3, lo que indica que son divisibles por 15. $15 \\times 3 = 45$ y $15 \\times 4 = 60$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NI",
+    "question": "En un laboratorio del CEPREDIX, se tienen tres recipientes con soluciones de $240 \\text{ ml}$, $300 \\text{ ml}$ y $360 \\text{ ml}$. Se quiere envasar todo en frascos del mismo tamaño, sin que sobre nada y usando la menor cantidad de frascos. ¿Cuál debe ser la capacidad de cada frasco?",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ ml}$", "correct": true },
+      { "text": "$120 \\text{ ml}$", "correct": false },
+      { "text": "$30 \\text{ ml}$", "correct": false },
+      { "text": "$20 \\text{ ml}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Si necesitas la menor cantidad de frascos, requieres frascos con la mayor capacidad posible. Usa MCD.",
+    "explanation": "El MCD de 240, 300 y 360 es 60. Usando frascos de $60 \\text{ ml}$ se garantiza el llenado exacto con la capacidad máxima.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NJ",
+    "question": "Relaciona cada par de números de tres cifras con su Mínimo Común Múltiplo (MCM):\nI. 100 y 120\nII. 150 y 250\nIII. 120 y 180\n\nA. 360\nB. 600\nC. 750",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para números grandes como 150 y 250, simplifica mentalmente quitando el cero, halla el MCM de 15 y 25, y agrégalo de nuevo.",
+    "explanation": "MCM(100,120)=600. MCM(150,250)=750. MCM(120,180)=360.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NK",
+    "question": "Completa el siguiente texto: 'Si la división de $A$ entre $B$ es exacta, se dice que $A$ es ______ de $B$, y que $B$ es ______ de $A$.'",
+    "image": null,
+    "options": [
+      { "text": "múltiplo, divisor", "correct": true },
+      { "text": "divisor, múltiplo", "correct": false },
+      { "text": "factor, producto", "correct": false },
+      { "text": "primo, compuesto", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número más grande contiene al más pequeño. Por ejemplo, 10 contiene al 2, por lo que 10 es un resultado de multiplicar 2.",
+    "explanation": "Por ejemplo, $12 / 3 = 4$ es exacto. 12 es múltiplo de 3, y 3 es divisor de 12.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NL",
+    "question": "Relaciona cada número con su Mínimo Común Múltiplo (MCM) cuando se empareja con el número 12:\nI. 8\nII. 18\nIII. 5\n\nA. 60\nB. 24\nC. 36",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El MCM de 12 y 8 debe ser un número que esté en la tabla de ambos.",
+    "explanation": "MCM(12,8) = 24. MCM(12,18) = 36. MCM(12,5) = 60, porque no comparten divisores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NM",
+    "question": "Identifica los factores primos de la descomposición del número 210:\n1. 2\n2. 3\n3. 5\n4. 7\n5. 11",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "2, 3, 4, 5", "correct": false },
+      { "text": "1, 3, 4, 5", "correct": false },
+      { "text": "1, 2, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide progresivamente entre los primeros números primos (2, 3, 5, 7...).",
+    "explanation": "210 termina en cero ($2 \\times 5$). Queda 21, el cual es $3 \\times 7$. Los factores son 2, 3, 5 y 7.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NN",
+    "question": "¿Cuál es la descomposición en factores primos del número 72?",
+    "image": null,
+    "options": [
+      { "text": "$2^3 \\times 3^2$", "correct": true },
+      { "text": "$2^4 \\times 3$", "correct": false },
+      { "text": "$2^2 \\times 3^3$", "correct": false },
+      { "text": "$8 \\times 9$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que 72 es $8 \\times 9$, luego descompón el 8 y el 9 en sus bases primas.",
+    "explanation": "Sabemos que $72 = 8 \\times 9$. Al expresarlo en primos, 8 es $2^3$ y 9 es $3^2$. Por lo tanto, es $2^3 \\times 3^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NO",
+    "question": "En un entrenamiento del CEPREDIX, dos atletas corren en una pista circular. El primero da una vuelta cada 8 minutos y el segundo cada 12 minutos. Si parten juntos de la salida, ¿en cuántos minutos volverán a coincidir en el punto de partida?",
+    "image": null,
+    "options": [
+      { "text": "24 minutos", "correct": true },
+      { "text": "48 minutos", "correct": false },
+      { "text": "16 minutos", "correct": false },
+      { "text": "36 minutos", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se busca la primera coincidencia en el futuro, por lo que requieres el Mínimo Común Múltiplo.",
+    "explanation": "El MCM de 8 y 12 es 24. A los 24 minutos el primero habrá dado 3 vueltas y el segundo 2, coincidiendo en la salida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NP",
+    "question": "¿Cuál es la descomposición en factores primos del número 500?",
+    "image": null,
+    "options": [
+      { "text": "$2^2 \\times 5^3$", "correct": true },
+      { "text": "$2^3 \\times 5^2$", "correct": false },
+      { "text": "$10^2 \\times 5$", "correct": false },
+      { "text": "$2 \\times 5^4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes separar el 500 como $5 \\times 100$, y factorizar cada parte.",
+    "explanation": "$500 = 5 \\times 100$. Sabemos que 100 es $10^2 = 2^2 \\times 5^2$. Al multiplicarlo por el 5 inicial obtenemos $2^2 \\times 5^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NQ",
+    "question": "Relaciona cada número de la izquierda con su descomposición en factores primos:\nI. 28\nII. 32\nIII. 40\n\nA. $2^5$\nB. $2^3 \\times 5$\nC. $2^2 \\times 7$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El 32 es una potencia de 2, pues se obtiene multiplicando 2 cinco veces.",
+    "explanation": "28 es $4 \\times 7 = 2^2 \\times 7$. 32 es $2^5$. 40 es $8 \\times 5 = 2^3 \\times 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NR",
+    "question": "Identifica los múltiplos de 15 en la siguiente serie de números:\n1. 30\n2. 40\n3. 45\n4. 55\n5. 75",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para ser múltiplo de 15, debe ser divisible por 3 (sus dígitos suman un múltiplo de 3) y por 5 (terminar en 0 o 5).",
+    "explanation": "El número 40 no es múltiplo de 3. El número 55 tampoco. Los múltiplos son 30 ($15 \\times 2$), 45 ($15 \\times 3$) y 75 ($15 \\times 5$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NS",
+    "question": "Completa el texto sobre la propiedad matemática: 'Para cualesquiera dos números $a$ y $b$, el producto de su MCM por su MCD es exactamente igual al ______ de los números originales.'",
+    "image": null,
+    "options": [
+      { "text": "producto (o multiplicación)", "correct": true },
+      { "text": "cuociente (o división)", "correct": false },
+      { "text": "sumatorio (o adición)", "correct": false },
+      { "text": "doble", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una de las fórmulas fundamentales de la aritmética: $MCM \\times MCD = a \\times b$.",
+    "explanation": "La teoría de números establece que el producto de dos números es igual al producto de su Máximo Común Divisor por su Mínimo Común Múltiplo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NT",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 20 y 30?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "60", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números terminan en cero, lo que te da una pista clara del divisor mayor que comparten.",
+    "explanation": "Los divisores comunes son 1, 2, 5 y 10. El mayor, por lo tanto, es el 10.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NU",
+    "question": "¿Cuál es el Mínimo Común Múltiplo (MCM) de los números 10, 15 y 20?",
+    "image": null,
+    "options": [
+      { "text": "60", "correct": true },
+      { "text": "120", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa los múltiplos del número más grande (20, 40, 60) y comprueba cuándo son divisibles por los demás.",
+    "explanation": "El 60 es divisible entre 20 (da 3), entre 15 (da 4) y entre 10 (da 6). Es el primer número donde todos coinciden.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NV",
+    "question": "¿Cuál es la descomposición en factores primos del número 315?",
+    "image": null,
+    "options": [
+      { "text": "$3^2 \\times 5 \\times 7$", "correct": true },
+      { "text": "$3 \\times 5^2 \\times 7$", "correct": false },
+      { "text": "$5 \\times 7 \\times 9$", "correct": false },
+      { "text": "$3^3 \\times 5 \\times 2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Sus dígitos suman 9, por lo que puedes comenzar dividiendo entre 9 o 3.",
+    "explanation": "315 dividido entre 5 es 63. 63 es $9 \\times 7$, que a su vez es $3^2 \\times 7$. Juntándolo, $3^2 \\times 5 \\times 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NW",
+    "question": "Identifica los números primos comprendidos entre 20 y 40:\n1. 21\n2. 23\n3. 27\n4. 29\n5. 31",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descarta los números impares que sean divisibles por 3, como el 21 y el 27.",
+    "explanation": "El 21 es $3 \\times 7$ y el 27 es $3^3$. Los únicos números que solo son divisibles por sí mismos y por uno son el 23, el 29 y el 31.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NX",
+    "question": "Completa el texto: 'Si un número termina en cero, siempre será divisible por ______, lo que implica que en su factorización prima invariablemente estarán los números ______ y ______.'",
+    "image": null,
+    "options": [
+      { "text": "diez, 2, 5", "correct": true },
+      { "text": "cinco, 3, 5", "correct": false },
+      { "text": "dos, 2, 3", "correct": false },
+      { "text": "veinte, 2, 10", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier múltiplo de 10 se forma combinando el primer número primo par y el número primo que termina en 5.",
+    "explanation": "Todo número que termine en 0 es múltiplo de 10. Como 10 se descompone en $2 \\times 5$, dichos números siempre tendrán a 2 y 5 como factores primos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NY",
+    "question": "Relaciona cada número de tres cifras con su principal factor primo de mayor magnitud:\nI. 120\nII. 210\nIII. 330\n\nA. 11\nB. 5\nC. 7",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza cada uno: 120 contiene $2, 3, 5$. 210 contiene $2, 3, 5, 7$.",
+    "explanation": "120 = $2^3 \\times 3 \\times 5$ (máximo factor 5). 210 = $2 \\times 3 \\times 5 \\times 7$ (máximo factor 7). 330 = $2 \\times 3 \\times 5 \\times 11$ (máximo factor 11).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NZ",
+    "question": "¿Cuál es la descomposición en factores primos del número 81?",
+    "image": null,
+    "options": [
+      { "text": "$3^4$", "correct": true },
+      { "text": "$9^2$", "correct": false },
+      { "text": "$3^3 \\times 3$", "correct": false },
+      { "text": "$3^5$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El 9 no es un número primo, debes descomponerlo por completo.",
+    "explanation": "Sabemos que 81 es $9 \\times 9$. Al sustituir cada 9 por $3^2$, obtenemos $3^2 \\times 3^2$, lo cual es $3^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OA",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 54 y 72?",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "27", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números están en la tabla del 9 y además son pares, por lo que son divisibles por un número mayor.",
+    "explanation": "Al aplicar las reglas de MCD a 54 ($2 \\times 3^3$) y 72 ($2^3 \\times 3^2$), elegimos las menores potencias comunes: $2 \\times 3^2 = 2 \\times 9 = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OB",
+    "question": "En un proyecto del CEPREDIX, se planea colocar señalamientos viales en tres caminos distintos de $150 \\text{ km}$, $180 \\text{ km}$ y $240 \\text{ km}$. Se desea que la distancia entre señalamientos sea la misma en los tres caminos y lo más grande posible. ¿A qué distancia se deben colocar?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ km}$", "correct": true },
+      { "text": "$60 \\text{ km}$", "correct": false },
+      { "text": "$15 \\text{ km}$", "correct": false },
+      { "text": "$10 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es necesario buscar un divisor común que sea el mayor posible.",
+    "explanation": "El MCD de 150, 180 y 240 es 30. Por lo tanto, los señalamientos se instalarán cada $30 \\text{ km}$ para que calcen exactos en las tres distancias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OC",
+    "question": "Completa la oración: 'Un número entero es divisible entre ______ si la suma de sus cifras resulta en un múltiplo de este número, y es divisible entre ______ si su última cifra es 0 o dicho número.'",
+    "image": null,
+    "options": [
+      { "text": "3, 5", "correct": true },
+      { "text": "5, 3", "correct": false },
+      { "text": "2, 10", "correct": false },
+      { "text": "3, 10", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Repasa los criterios de divisibilidad clásicos para los primeros números primos.",
+    "explanation": "El criterio del 3 se basa en la suma de las cifras. El criterio del 5 indica que debe terminar en 0 o en 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OD",
+    "question": "Relaciona cada fracción con el MCD de su numerador y denominador, que sirve para simplificarla a su mínima expresión:\nI. $12/16$\nII. $15/25$\nIII. $14/21$\n\nA. 5\nB. 7\nC. 4",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el número más grande que pueda dividir arriba y abajo simultáneamente.",
+    "explanation": "Para 12 y 16, el MCD es 4. Para 15 y 25, el MCD es 5. Para 14 y 21, el MCD es 7.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OE",
+    "question": "Identifica cuáles de los siguientes números son múltiplos comunes de 12, 15 y 20:\n1. 60\n2. 90\n3. 120\n4. 150\n5. 180",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero encuentra el Mínimo Común Múltiplo (MCM). Cualquier múltiplo común debe ser un múltiplo de este MCM.",
+    "explanation": "El MCM de 12, 15 y 20 es 60. Por tanto, los múltiplos comunes son 60, 120, 180, 240, etc.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OF",
+    "question": "¿Cuál es la descomposición en factores primos del número 98?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\times 7^2$", "correct": true },
+      { "text": "$2^2 \\times 7$", "correct": false },
+      { "text": "$14 \\times 7$", "correct": false },
+      { "text": "$2 \\times 49$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si lo divides entre 2 el resultado es una de las multiplicaciones más conocidas en las tablas del 7.",
+    "explanation": "98 dividido entre 2 da 49. A su vez, 49 es $7 \\times 7$. Esto nos deja con $2 \\times 7^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OG",
+    "question": "En un taller de artesanías del CEPREDIX, se tienen hilos con 40 y 50 cuentas respectivamente. Se desean cortar en segmentos que tengan la misma cantidad de cuentas, siendo esta cantidad la mayor posible. ¿Cuántas cuentas tendrá cada segmento?",
+    "image": null,
+    "options": [
+      { "text": "10 cuentas", "correct": true },
+      { "text": "5 cuentas", "correct": false },
+      { "text": "20 cuentas", "correct": false },
+      { "text": "2 cuentas", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza el concepto del Máximo Común Divisor (MCD) para encontrar la máxima cantidad exacta compartida.",
+    "explanation": "El MCD de 40 y 50 es 10. Se pueden hacer segmentos de 10 cuentas cada uno sin que sobre material.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OH",
+    "question": "¿Cuál es la descomposición en factores primos del número 256?",
+    "image": null,
+    "options": [
+      { "text": "$2^8$", "correct": true },
+      { "text": "$2^7$", "correct": false },
+      { "text": "$4^4$", "correct": false },
+      { "text": "$2^6 \\times 4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Este número es una potencia en el sistema binario, por lo que es solo cuestión de contar cuántas veces se multiplica el 2 por sí mismo.",
+    "explanation": "256 es $2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$. Como el 2 es primo, la respuesta en forma de potencia es $2^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OI",
+    "question": "Relaciona cada número con la cantidad de veces que aparece el factor primo '3' en su descomposición:\nI. 54\nII. 75\nIII. 81\n\nA. Cuatro veces ($3^4$)\nB. Tres veces ($3^3$)\nC. Una vez ($3^1$)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al dividir 54 entre 2 te da 27, ¿cuántos tres hay en el 27?",
+    "explanation": "54 es $2 \\times 27$ ($2 \\times 3^3$). 75 es $3 \\times 25$ ($3 \\times 5^2$). 81 es $9 \\times 9$ ($3^4$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OJ",
+    "question": "Identifica los divisores que son comunes a los números 36 y 48:\n1. 4\n2. 6\n3. 9\n4. 12\n5. 16",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El número 9 no cabe en el 48 exacto, y el 16 no cabe en el 36.",
+    "explanation": "Los divisores de 36 incluyen 4, 6, 9 y 12. Los de 48 incluyen 4, 6, 12 y 16. Los que coinciden de la lista son el 4, el 6 y el 12.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OK",
+    "question": "Completa el texto sobre un método alterno: 'El Algoritmo de ______ es un método para calcular el ______ de dos números usando divisiones sucesivas hasta obtener un residuo de cero.'",
+    "image": null,
+    "options": [
+      { "text": "Euclides, Máximo Común Divisor", "correct": true },
+      { "text": "Pitágoras, Mínimo Común Múltiplo", "correct": false },
+      { "text": "Tales, Máximo Común Divisor", "correct": false },
+      { "text": "Euclides, Mínimo Común Múltiplo", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Lleva el nombre del famoso matemático griego considerado el 'padre de la geometría'.",
+    "explanation": "El Algoritmo de Euclides es un procedimiento eficaz para hallar el MCD mediante la división repetida del divisor anterior por el residuo actual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OL",
+    "question": "¿Cuál es el Mínimo Común Múltiplo (MCM) de los números 6 y 8?",
+    "image": null,
+    "options": [
+      { "text": "24", "correct": true },
+      { "text": "48", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Escribe los múltiplos del 8 (8, 16, 24...) y verifica si el 6 cabe en ellos.",
+    "explanation": "Los factores de 6 son $2 \\times 3$. Los de 8 son $2^3$. Tomando las máximas potencias: $2^3 \\times 3 = 8 \\times 3 = 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OM",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 28 y 42?",
+    "image": null,
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "28", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números están en la tabla del 7 y ambos son pares, lo que significa que pueden dividirse por el doble de 7.",
+    "explanation": "28 es $14 \\times 2$ y 42 es $14 \\times 3$. Como 2 y 3 son primos entre sí, 14 es el divisor mayor común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ON",
+    "question": "Tres faros marítimos automatizados del CEPREDIX emiten destellos luminosos cada 120 segundos, 144 segundos y 180 segundos respectivamente. Si acaban de coincidir los tres al mismo tiempo, ¿en cuántos segundos volverán a emitir un destello simultáneo?",
+    "image": null,
+    "options": [
+      { "text": "720 segundos", "correct": true },
+      { "text": "360 segundos", "correct": false },
+      { "text": "1440 segundos", "correct": false },
+      { "text": "1200 segundos", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el múltiplo más pequeño que comparten, esto corresponde al Mínimo Común Múltiplo (MCM).",
+    "explanation": "El MCM de 120 ($2^3 \\times 3 \\times 5$), 144 ($2^4 \\times 3^2$) y 180 ($2^2 \\times 3^2 \\times 5$) es $2^4 \\times 3^2 \\times 5 = 16 \\times 9 \\times 5 = 720$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OO",
+    "question": "Identifica los divisores exactos del número 30 en la siguiente lista:\n1. 3\n2. 4\n3. 6\n4. 15\n5. 20",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los divisores deben generar una división exacta. 30 no es divisible entre 4.",
+    "explanation": "Los divisores de 30 son 1, 2, 3, 5, 6, 10, 15, y 30. De las opciones, solo cumplen el 3, el 6 y el 15.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OP",
+    "question": "Completa el siguiente teorema: 'El Teorema Fundamental de la ______ establece que todo número entero mayor que 1 se puede descomponer de forma ______ como un producto de números primos.'",
+    "image": null,
+    "options": [
+      { "text": "Aritmética, única", "correct": true },
+      { "text": "Álgebra, múltiple", "correct": false },
+      { "text": "Geometría, única", "correct": false },
+      { "text": "Aritmética, variable", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este concepto es la base de las matemáticas que estudian los números y sus operaciones.",
+    "explanation": "El Teorema Fundamental de la Aritmética garantiza que la factorización prima de un número actúa como una 'huella digital' exclusiva, sin importar el orden de los factores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OQ",
+    "question": "¿Cuál es la descomposición en factores primos del número 84?",
+    "image": null,
+    "options": [
+      { "text": "$2^2 \\times 3 \\times 7$", "correct": true },
+      { "text": "$4 \\times 21$", "correct": false },
+      { "text": "$2 \\times 3^2 \\times 7$", "correct": false },
+      { "text": "$2^2 \\times 3 \\times 9$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es par, por lo que su mitad es 42. Analiza los factores de 42.",
+    "explanation": "84 dividido a la mitad es 42, y de nuevo a la mitad es 21. El 21 es $3 \\times 7$. Por tanto, es $2^2 \\times 3 \\times 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OR",
+    "question": "¿Cuál es el Mínimo Común Múltiplo (MCM) de los números 18 y 24?",
+    "image": null,
+    "options": [
+      { "text": "72", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "48", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca un número en las tablas del 18 y del 24 que coincida.",
+    "explanation": "18 es $2 \\times 3^2$. 24 es $2^3 \\times 3$. El MCM requiere los exponentes mayores: $2^3 \\times 3^2 = 8 \\times 9 = 72$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OS",
+    "question": "¿Cuál es la descomposición en factores primos del número 432?",
+    "image": null,
+    "options": [
+      { "text": "$2^4 \\times 3^3$", "correct": true },
+      { "text": "$2^3 \\times 3^4$", "correct": false },
+      { "text": "$2^2 \\times 3^5$", "correct": false },
+      { "text": "$16 \\times 27$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Este número se compone exclusivamente de potencias de 2 y de 3. Revisa al dividir varias veces a la mitad.",
+    "explanation": "432 se divide entre 2 dando 216, luego 108, luego 54, luego 27. El 27 es $3^3$. En total usamos el 2 cuatro veces y el 3 tres veces, por tanto $2^4 \\times 3^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OT",
+    "question": "Completa el texto sobre criterios: 'Cualquier número natural que termine en cifra par es divisible entre ______. Si además termina específicamente en 0, sabemos automáticamente que es múltiplo de ______.'",
+    "image": null,
+    "options": [
+      { "text": "2, 10", "correct": true },
+      { "text": "3, 10", "correct": false },
+      { "text": "2, 5", "correct": false },
+      { "text": "4, 10", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las cifras pares determinan la divisibilidad más fundamental de la aritmética básica.",
+    "explanation": "Todo número que termine en cifra par (0, 2, 4, 6, 8) se puede dividir exactamente por 2. Si termina en 0, contiene siempre al 10 como divisor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OU",
+    "question": "Relaciona cada par de números con la característica de si su Máximo Común Divisor (MCD) es 6:\nI. 12 y 18\nII. 24 y 30\nIII. 18 y 24\n\nA. Su MCD es 6 y su MCM es 72\nB. Su MCD es 6 y su MCM es 120\nC. Su MCD es 6 y su MCM es 36",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Todos tienen un MCD de 6, así que fíjate exclusivamente en el cálculo del MCM.",
+    "explanation": "MCM(12,18) = 36. MCM(24,30) = 120. MCM(18,24) = 72.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OV",
+    "question": "Identifica los números que son primos (de tres cifras) de la siguiente lista:\n1. 101\n2. 102\n3. 103\n4. 105\n5. 111",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "102 es par. 105 termina en 5. 111 suma 3, por lo que es divisible entre 3.",
+    "explanation": "El 101 y el 103 no son divisibles por ningún primo menor a su raíz cuadrada (2, 3, 5, 7), por lo que son números primos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OW",
+    "question": "¿Cuál es el Máximo Común Divisor (MCD) de los números 15 y 25?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "75", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números terminan en 5.",
+    "explanation": "15 es $3 \\times 5$ y 25 es $5^2$. El único factor común con el menor exponente es el 5.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OX",
+    "question": "En una remodelación del CEPREDIX, se quiere cubrir un pasillo con losetas cuadradas lo más grandes posibles. Si el pasillo mide $60 \\text{ cm}$ de ancho por $80 \\text{ cm}$ de largo y no se debe cortar ninguna loseta, ¿de qué medida deben ser los lados de las losetas?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ cm}$", "correct": true },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$30 \\text{ cm}$", "correct": false },
+      { "text": "$40 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes dividir ambas medidas sin que sobre nada, por lo que requieres calcular el Máximo Común Divisor (MCD).",
+    "explanation": "El MCD de 60 y 80 es 20. Las losetas deben tener un lado de $20 \\text{ cm}$ (caben 3 de ancho y 4 de largo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OY",
+    "question": "Completa el texto: 'Al aplicar la factorización en un número de tres cifras, los números primos que se repiten se escriben usando ______, indicando la base y el exponente.'",
+    "image": null,
+    "options": [
+      { "text": "potencias", "correct": true },
+      { "text": "raíces", "correct": false },
+      { "text": "fracciones", "correct": false },
+      { "text": "logaritmos", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la forma abreviada de expresar una multiplicación donde el factor se repite varias veces.",
+    "explanation": "La notación matemática estándar para expresar factores primos repetidos (ej. $2 \\times 2 \\times 2$) es la notación de potencias ($2^3$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OZ",
+    "question": "En la imprenta del CEPREDIX, una máquina despacha una hoja de cálculo cada 4 segundos y otra máquina despacha una portada cada 10 segundos. ¿Cada cuántos segundos las máquinas despacharán el material al mismo tiempo?",
+    "image": null,
+    "options": [
+      { "text": "20 segundos", "correct": true },
+      { "text": "40 segundos", "correct": false },
+      { "text": "10 segundos", "correct": false },
+      { "text": "2 segundos", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el Mínimo Común Múltiplo de ambos tiempos.",
+    "explanation": "El MCM de 4 ($2^2$) y 10 ($2 \\times 5$) es $2^2 \\times 5 = 20$. Por tanto, despachan material simultáneamente cada 20 segundos.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
