@@ -2086,5 +2086,653 @@
     "explanation": "Matemáticas: $2250 es el $75\\%$. Precio de lista $= 2250 / 0.75 = 3000$. Español: La frase inicia con un complemento circunstancial extenso, por lo que el uso de la coma hiperbática para separarlo del sujeto ('el precio') es obligatorio y correcto.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Al desarrollar la expresión aritmética $(-4)^2$, el resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "-16", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "-8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente par indica que el signo negativo también se multiplica por sí mismo.",
+    "explanation": "$(-4)^2 = (-4)(-4) = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Completa la siguiente regla de los exponentes: 'Al dividir dos potencias numéricas con la misma base, la base se ______ y los exponentes se ______.'",
+    "image": null,
+    "options": [
+      { "text": "conserva, restan", "correct": true },
+      { "text": "invierte, suman", "correct": false },
+      { "text": "conserva, dividen", "correct": false },
+      { "text": "invierte, multiplican", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la simplificación de fracciones de potencias, reduciendo términos repetidos en el numerador y denominador.",
+    "explanation": "La regla del cociente de potencias indica que al dividir bases iguales, los exponentes se restan manteniendo la base original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Relaciona cada expresión exponencial con su valor simplificado: 1. $(-1)^8$ 2. $-1^8$ 3. $(-2)^3$ A. $-1$ B. $1$ C. $-8$",
+    "image": null,
+    "options": [
+      { "text": "1-B, 2-A, 3-C", "correct": true },
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa cuidadosamente el uso de los paréntesis, determinan si el signo negativo está elevado a la potencia.",
+    "explanation": "$(-1)^8 = 1$ porque el exponente es par y cubre el signo. $-1^8 = -1$ porque el exponente solo afecta al 1. $(-2)^3 = -8$ porque la base negativa elevada a potencia impar se mantiene negativa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Un profesor del CEPREDIX pide seleccionar las expresiones numéricas que son equivalentes a $\\frac{1}{16}$. Identifica cuáles cumplen esta condición: 1. $2^{-4}$ 2. $4^{-2}$ 3. $(-2)^{-4}$ 4. $-2^{-4}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que un exponente negativo invierte la base creando una fracción, y un exponente par vuelve positivo a un número negativo encerrado entre paréntesis.",
+    "explanation": "$2^{-4} = \\frac{1}{16}$; $4^{-2} = \\frac{1}{16}$; $(-2)^{-4} = \\frac{1}{(-2)^4} = \\frac{1}{16}$. La opción 4 resulta en $-\\frac{1}{16}$ por no tener el signo entre paréntesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "Evalúa correctamente la expresión aritmética $-5^6$.",
+    "image": null,
+    "options": [
+      { "text": "-15625", "correct": true },
+      { "text": "15625", "correct": false },
+      { "text": "-30", "correct": false },
+      { "text": "30", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente afecta solo al número directamente a su izquierda, no al signo, ya que no hay paréntesis.",
+    "explanation": "Sin paréntesis, la operación indica el negativo de $5^6$, por lo que calculamos $-(5 \\times 5 \\times 5 \\times 5 \\times 5 \\times 5) = -15625$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "Completa el enunciado de las leyes aritméticas: 'Cualquier número diferente de cero elevado a la potencia cero es igual a ______, mientras que elevado a una potencia negativa equivale a ______ de la base elevada al exponente positivo.'",
+    "image": null,
+    "options": [
+      { "text": "uno, el recíproco", "correct": true },
+      { "text": "cero, el inverso aditivo", "correct": false },
+      { "text": "uno, el simétrico", "correct": false },
+      { "text": "la base, la fracción", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza casos simples para recordar la regla general, como el valor de $3^0$ y cómo se reescribe $3^{-1}$.",
+    "explanation": "Por convención matemática $a^0 = 1$ para todo $a \\neq 0$, y $a^{-n} = \\frac{1}{a^n}$, que matemáticamente se denomina el recíproco.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Un estudiante del CEPREDIX debe relacionar las operaciones aritméticas con las propiedades de los exponentes utilizadas para simplificarlas: 1. $5^3 \\times 5^2$ 2. $(3^4)^2$ 3. $7^{-2}$ A. Potencia de una potencia B. Exponente negativo C. Producto de potencias de igual base",
+    "image": null,
+    "options": [
+      { "text": "1-C, 2-A, 3-B", "correct": true },
+      { "text": "1-A, 2-C, 3-B", "correct": false },
+      { "text": "1-B, 2-A, 3-C", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica la estructura de cada operación: multiplicar bases iguales, elevar sobre otro exponente, y transformar signos negativos en fracciones.",
+    "explanation": "$5^3 \\times 5^2$ aplica el producto de igual base. $(3^4)^2$ requiere la regla de potencia de potencia. $7^{-2}$ utiliza la ley del exponente negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "Identifica en el siguiente listado las expresiones cuyo resultado final sea un valor negativo: 1. $(-3)^5$ 2. $(-2)^6$ 3. $-4^2$ 4. $(-\\frac{1}{2})^4$ 5. $(-5)^{-3}$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una base negativa elevada a una potencia impar mantiene su signo negativo. Analiza cada caso individualmente considerando los paréntesis.",
+    "explanation": "$(-3)^5 = -243$; $-4^2 = -16$; $(-5)^{-3} = -\\frac{1}{125}$. Todos estos dan negativo. En cambio $(-2)^6 = 64$ y $(-\\frac{1}{2})^4 = \\frac{1}{16}$ son positivos por sus exponentes pares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "Desarrolla detalladamente y simplifica la expresión numérica $(\\frac{1}{2})^{-2}$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "-4", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "$-\\frac{1}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El signo negativo en el exponente indica que la fracción debe invertirse, cambiando el exponente a positivo.",
+    "explanation": "$(\\frac{1}{2})^{-2} = (\\frac{2}{1})^2 = 2^2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "¿Cuál es el resultado exacto de calcular la operación $(-\\frac{1}{4})^4$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{256}$", "correct": true },
+      { "text": "$-\\frac{1}{256}$", "correct": false },
+      { "text": "$\\frac{1}{16}$", "correct": false },
+      { "text": "$-\\frac{1}{16}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un número negativo elevado a una potencia par da como resultado un número positivo. Aplica el exponente al numerador y al denominador.",
+    "explanation": "$(-\\frac{1}{4})^4 = \\frac{(-1)^4}{4^4} = \\frac{1}{256}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "Calcula cuidadosamente el valor numérico exacto de la expresión $(3 - 1)^2$.",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve primero la operación dentro del paréntesis antes de aplicar el exponente.",
+    "explanation": "$(3 - 1)^2 = (2)^2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "En una prueba de aptitud matemática en CEPREDIX, se solicita encontrar el valor de la expresión $(5 + 11)^3$. ¿Cuál es la respuesta correcta?",
+    "image": null,
+    "options": [
+      { "text": "4096", "correct": true },
+      { "text": "3375", "correct": false },
+      { "text": "4000", "correct": false },
+      { "text": "4090", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los valores dentro del paréntesis y luego eleva el resultado al cubo multiplicándolo por sí mismo tres veces.",
+    "explanation": "$(5 + 11)^3 = (16)^3 = 16 \\times 16 \\times 16 = 4096$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EQ",
+    "question": "Simplifica completamente la expresión aritmética combinada $-(1 + 2)^2$.",
+    "image": null,
+    "options": [
+      { "text": "-9", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "-5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Respeta la jerarquía de operaciones: resuelve primero la suma dentro de los paréntesis y luego aplica la potencia antes del signo negativo externo.",
+    "explanation": "El orden de las operaciones exige sumar primero: $(1 + 2) = 3$. Luego elevar al cuadrado: $3^2 = 9$. Finalmente se aplica el signo negativo externo: $-9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ER",
+    "question": "Completa la siguiente afirmación aritmética sobre operaciones con potencias: 'Al elevar una potencia a otra potencia, la base se conserva y los exponentes se ______, lo que permite simplificar expresiones algebraicas o numéricas como $(2^3)^2$ a ______.'",
+    "image": null,
+    "options": [
+      { "text": "multiplican, $2^6$", "correct": true },
+      { "text": "suman, $2^5$", "correct": false },
+      { "text": "restan, $2^1$", "correct": false },
+      { "text": "dividen, $2^{1.5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un exponente señala cuántas veces se multiplica la base por sí misma. $(2^3)^2$ significa calcular $2^3 \\times 2^3$.",
+    "explanation": "La regla matemática de potencia de una potencia es $(a^m)^n = a^{m \\times n}$. Así, al multiplicar los exponentes obtenemos $(2^3)^2 = 2^{3 \\times 2} = 2^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "Relaciona cada fracción elevada a un exponente con su resultado simplificado final correspondiente: 1. $(-\\frac{2}{5})^{-3}$ 2. $(\\frac{7}{3})^3$ 3. $(\\frac{5}{9})^5$ A. $\\frac{343}{27}$ B. $-\\frac{125}{8}$ C. $\\frac{3125}{59049}$",
+    "image": null,
+    "options": [
+      { "text": "1-B, 2-A, 3-C", "correct": true },
+      { "text": "1-A, 2-C, 3-B", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los exponentes negativos causan que la fracción se invierta. Además, un exponente impar respeta el signo original de la base.",
+    "explanation": "1) $(-\\frac{2}{5})^{-3} = (-\\frac{5}{2})^3 = -\\frac{125}{8}$. 2) $(\\frac{7}{3})^3 = \\frac{343}{27}$. 3) $(\\frac{5}{9})^5 = \\frac{3125}{59049}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "Identifica las afirmaciones numéricas que son completamente falsas al intentar operar con leyes de exponentes aritméticos: 1. $3^2 + 3^3 = 3^5$ 2. $4^3 \\times 4^2 = 4^6$ 3. $(5^2)^3 = 5^6$ 4. $\\frac{6^5}{6^2} = 6^3$ 5. $2^{-3} = -8$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa qué tipo de operación permite manipular exponentes; la suma de bases iguales no permite unir exponentes. Un exponente negativo no cambia el signo del número entero.",
+    "explanation": "La suma $3^2 + 3^3 = 9 + 27 = 36$ no es $243$ ($3^5$). La multiplicación $4^3 \\times 4^2 = 4^5$, no $4^6$. El exponente negativo $2^{-3}$ da como resultado $\\frac{1}{8}$, no $-8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "Desarrolla el procedimiento para evaluar la expresión de potencias $-2^{-5}$ y selecciona su resultado.",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{1}{32}$", "correct": true },
+      { "text": "$\\frac{1}{32}$", "correct": false },
+      { "text": "-32", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente negativo invierte la base. El signo negativo externo se mantiene hasta el final ya que no está afectado por el exponente.",
+    "explanation": "$-2^{-5} = -(\\frac{1}{2^5}) = -\\frac{1}{32}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "¿Cuál es el resultado simplificado tras operar y elevar al cuadrado en $(0.5 + 3.8)^2$?",
+    "image": null,
+    "options": [
+      { "text": "18.49", "correct": true },
+      { "text": "8.6", "correct": false },
+      { "text": "14.69", "correct": false },
+      { "text": "18.09", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para mantener la simplicidad y el orden aritmético, suma primero los valores numéricos dentro del paréntesis antes de aplicar la potencia.",
+    "explanation": "Sumando los números dentro del paréntesis: $(0.5 + 3.8) = 4.3$. Elevando al cuadrado: $(4.3)^2 = 4.3 \\times 4.3 = 18.49$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "Evalúa correctamente la expresión fraccionaria de suma de potencias $(\\frac{1}{2} + \\frac{2}{3})^3$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{343}{216}$", "correct": true },
+      { "text": "$\\frac{27}{125}$", "correct": false },
+      { "text": "$\\frac{125}{216}$", "correct": false },
+      { "text": "$\\frac{216}{343}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra un denominador común mínimo para poder realizar la suma de las fracciones antes de intentar elevar el resultado total al cubo.",
+    "explanation": "El denominador común para 2 y 3 es 6. La suma es $\\frac{3}{6} + \\frac{4}{6} = \\frac{7}{6}$. Al elevar la fracción al cubo: $(\\frac{7}{6})^3 = \\frac{7^3}{6^3} = \\frac{343}{216}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "Un alumno del CEPREDIX necesita calcular el valor exacto de la expresión aritmética $(\\frac{1}{10} + 1)^3$. ¿Qué valor fraccionario debe obtener?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1331}{1000}$", "correct": true },
+      { "text": "$\\frac{1001}{1000}$", "correct": false },
+      { "text": "$\\frac{331}{1000}$", "correct": false },
+      { "text": "$\\frac{121}{100}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte el número entero a una fracción con el mismo denominador de la fracción que le acompaña para realizar primero la suma de manera sencilla.",
+    "explanation": "Convertimos el entero a décimos: $\\frac{1}{10} + \\frac{10}{10} = \\frac{11}{10}$. Elevado al cubo: $(\\frac{11}{10})^3 = \\frac{11^3}{10^3} = \\frac{1331}{1000}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Simplifica la operación aritmética presentada con exponentes $(\\frac{1}{3})^3$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{27}$", "correct": true },
+      { "text": "$\\frac{1}{9}$", "correct": false },
+      { "text": "$\\frac{3}{27}$", "correct": false },
+      { "text": "27", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva tanto el numerador como el denominador independientemente a la potencia al cubo.",
+    "explanation": "$(\\frac{1}{3})^3 = \\frac{1^3}{3^3} = \\frac{1}{27}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Completa la regla de potencias con exponentes racionales: 'Para evaluar correctamente una expresión aritmética de la forma $x^{m/n}$, se extrae sistemáticamente la raíz ______ de la base y el resultado se eleva a la potencia ______.'",
+    "image": null,
+    "options": [
+      { "text": "n-ésima, m", "correct": true },
+      { "text": "m-ésima, n", "correct": false },
+      { "text": "cuadrada, m", "correct": false },
+      { "text": "n-ésima, doble", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El denominador en un exponente fraccionario siempre indica el índice de la raíz, mientras que el numerador conserva su función original de potencia.",
+    "explanation": "Por definición formal en álgebra y aritmética, $x^{m/n} = (\\sqrt[n]{x})^m$, lo que significa que la raíz que se extrae depende del denominador 'n' y luego todo se eleva al numerador 'm'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "Relaciona de forma analítica cada expresión con exponente fraccionario con su notación en forma de raíz equivalente: 1. $8^{1/3}$ 2. $9^{3/2}$ 3. $5^{2/5}$ A. $\\sqrt[5]{5^2}$ B. $\\sqrt[3]{8}$ C. $\\sqrt{9^3}$",
+    "image": null,
+    "options": [
+      { "text": "1-B, 2-C, 3-A", "correct": true },
+      { "text": "1-A, 2-C, 3-B", "correct": false },
+      { "text": "1-C, 2-A, 3-B", "correct": false },
+      { "text": "1-B, 2-A, 3-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El denominador de cada exponente fraccionario se convierte directamente en el índice de la raíz, y el numerador se queda acompañando a la base como su exponente interno.",
+    "explanation": "Aplicando la regla general de exponentes racionales: $8^{1/3}$ pasa a ser raíz cúbica $\\sqrt[3]{8}$; $9^{3/2}$ se convierte en la raíz cuadrada de nueve al cubo $\\sqrt{9^3}$; $5^{2/5}$ es la raíz quinta de cinco al cuadrado $\\sqrt[5]{5^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "Selecciona las expresiones aritméticas del siguiente grupo cuyo resultado numérico final simplificado sea exactamente el número $1$: 1. $5^0$ 2. $(-1)^{10}$ 3. $(\\frac{3}{3})^{-2}$ 4. $-1^2$ 5. $0^5$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza cada operación recordando que bases no nulas a la potencia cero dan uno, y evalúa el papel del paréntesis en los signos negativos elevados a potencias pares.",
+    "explanation": "$5^0 = 1$ por regla de potencia cero. $(-1)^{10} = 1$ por ser potencia par de un negativo entre paréntesis. $(\\frac{3}{3})^{-2} = 1^{-2} = 1$. Sin embargo, $-1^2 = -1$ porque no hay paréntesis, y $0^5 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "En el laboratorio de matemáticas de CEPREDIX, un estudiante analiza la expresión fraccionaria $(6)^{-4}$. ¿Cuál es su valor simplificado final?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{1296}$", "correct": true },
+      { "text": "$-\\frac{1}{1296}$", "correct": false },
+      { "text": "-1296", "correct": false },
+      { "text": "1296", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un exponente negativo indica que debes calcular el recíproco de la base elevada a la potencia positiva.",
+    "explanation": "$(6)^{-4} = \\frac{1}{6^4} = \\frac{1}{6 \\times 6 \\times 6 \\times 6} = \\frac{1}{1296}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "Desarrolla el cálculo y determina el valor final de la expresión de bases mixtas $(-3)^4$.",
+    "image": null,
+    "options": [
+      { "text": "81", "correct": true },
+      { "text": "-81", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "-12", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una base negativa encerrada entre paréntesis y elevada a una potencia par resulta siempre en un valor positivo.",
+    "explanation": "$(-3)^4 = (-3)(-3)(-3)(-3) = 81$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Completa la importante propiedad de distribución de los exponentes: 'Si se tiene un producto compuesto por varios factores numéricos elevados a un mismo exponente general como $(a \\times b)^n$, el resultado numérico es equivalente a elevar cada ______ a dicho ______.'",
+    "image": null,
+    "options": [
+      { "text": "factor, exponente", "correct": true },
+      { "text": "sumando, exponente", "correct": false },
+      { "text": "factor, coeficiente", "correct": false },
+      { "text": "número, cuadrado", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La potencia se distribuye equitativamente a lo largo de los elementos que se encuentran en medio de una multiplicación dentro de los paréntesis.",
+    "explanation": "La regla matemática correspondiente a la potencia de un producto postula que $(a \\times b)^n = a^n \\times b^n$, lo que nos dice que cada factor individual recibe el mismo exponente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "Relaciona cada operación de potencias utilizando base diez con su correspondiente representación decimal en la columna derecha: 1. $10^{-3}$ 2. $10^2 \\times 10^{-1}$ 3. $(10^{-1})^2$ A. $10$ B. $0.001$ C. $0.01$",
+    "image": null,
+    "options": [
+      { "text": "1-B, 2-A, 3-C", "correct": true },
+      { "text": "1-C, 2-A, 3-B", "correct": false },
+      { "text": "1-A, 2-C, 3-B", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los exponentes negativos con base decimal nos indican con precisión la cantidad de posiciones que el punto decimal debe ser desplazado hacia la izquierda desde la unidad.",
+    "explanation": "1) $10^{-3} = \\frac{1}{1000} = 0.001$; 2) Al operar se obtiene $10^{2-1} = 10^1 = 10$; 3) Multiplicando potencias se tiene $10^{-2} = \\frac{1}{100} = 0.01$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "Identifica y selecciona cuáles de las operaciones listadas se han simplificado correctamente siguiendo las leyes matemáticas de los exponentes: 1. $(\\frac{2}{3})^{-2} = \\frac{9}{4}$ 2. $(-2)^3 \\times (-2)^2 = -32$ 3. $\\frac{5^0}{5^{-2}} = -25$ 4. $(4^{1/2})^3 = 8$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza cuidadosamente la conservación del signo en las bases que interactúan, y verifica las inversiones generadas naturalmente por exponentes con valores negativos.",
+    "explanation": "1) Invertir la fracción cambia el exponente: $(\\frac{3}{2})^2 = \\frac{9}{4}$. 2) Producto de bases es suma de potencias: $(-2)^5 = -32$. 4) Raíz de cuatro al cubo: $(2)^3 = 8$. La afirmación 3 es incorrecta porque el resultado sería positivo $25$, no $-25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "Lleva a cabo el cálculo y obtén el valor numérico exacto de la expresión $(5 + \\frac{1}{4})^2$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{441}{16}$", "correct": true },
+      { "text": "$\\frac{421}{16}$", "correct": false },
+      { "text": "$\\frac{21}{16}$", "correct": false },
+      { "text": "$\\frac{25}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte el número entero a cuartos para realizar la suma antes de elevar la fracción al cuadrado.",
+    "explanation": "$5 + \\frac{1}{4} = \\frac{20}{4} + \\frac{1}{4} = \\frac{21}{4}$. Elevando al cuadrado: $(\\frac{21}{4})^2 = \\frac{441}{16}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "Un instructor del área de matemáticas en CEPREDIX propone el siguiente ejercicio aritmético estructurado con radicales y exponentes negativos: $\\sqrt[3]{27} \\times 3^{-1}$. ¿Qué resultado simplificado se obtiene?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte la raíz cúbica inicial al número entero que representa, obteniendo así un producto de bases iguales que puedes unificar.",
+    "explanation": "Sabemos que $\\sqrt[3]{27} = 3$, o escrito en forma exponencial $3^1$. Luego, la operación es $3^1 \\times 3^{-1}$. Sumando los exponentes de bases iguales obtenemos $3^{1-1} = 3^0 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "Completa el enunciado necesario para operar con fracciones algebraicas: 'Para simplificar eficazmente la fracción numérica $(\\frac{a}{b})^{-n}$, se puede cambiar el signo del exponente a ______ lográndolo al invertir la fracción, obteniendo así $(\\frac{b}{a})^n$, siempre que las bases internas sean distintas de ______.'",
+    "image": null,
+    "options": [
+      { "text": "positivo, cero", "correct": true },
+      { "text": "negativo, cero", "correct": false },
+      { "text": "positivo, uno", "correct": false },
+      { "text": "impar, uno", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El uso de exponentes con signo negativo obedece al concepto de reciprocidad o inversión en matemáticas básicas.",
+    "explanation": "Invertir la fracción altera el signo del exponente convirtiéndolo en su positivo, requiriendo de forma obligatoria que el numerador y el denominador iniciales no sean cero para no producir operaciones indefinidas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "Relaciona correctamente las expresiones numéricas que usan exponentes fraccionarios con su resultado equivalente tras aplicar las leyes respectivas: 1. $16^{3/4}$ 2. $27^{2/3}$ 3. $32^{2/5}$ A. $9$ B. $4$ C. $8$",
+    "image": null,
+    "options": [
+      { "text": "1-C, 2-A, 3-B", "correct": true },
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que el número en la posición del denominador indica la raíz a extraer, y el número en el numerador representa a qué potencia elevar el resultado extraído de esa raíz.",
+    "explanation": "Aplicando reglas: $16^{3/4} = (\\sqrt[4]{16})^3 = 2^3 = 8$; $27^{2/3} = (\\sqrt[3]{27})^2 = 3^2 = 9$; $32^{2/5} = (\\sqrt[5]{32})^2 = 2^2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "De la siguiente serie de evaluaciones, identifica las igualdades correctas prestando atención al papel aritmético del número cero en potencias: 1. $0^5 = 0$ 2. $7^0 = 1$ 3. $0^0 = 1$ 4. $(-8)^0 = 1$ 5. $-8^0 = 1$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las particularidades: la operación de cero a la cero representa una indeterminación, y un signo ubicado fuera de paréntesis no se ve modificado por el exponente.",
+    "explanation": "Resultados verdaderos: $0^5=0$, $7^0=1$ y $(-8)^0=1$ (con paréntesis). Falsas: el caso $0^0$ carece de definición en aritmética básica y $-8^0$ es negativo al carecer de paréntesis, resultando en $-(8^0) = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "Evalúa detenidamente la operación numérica $2^3 \\times (\\frac{1}{2})^4$ presentada en su forma original completa.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica transformando la fracción en una potencia de base 2 con exponente negativo antes de multiplicar.",
+    "explanation": "$2^3 \\times (2^{-1})^4 = 2^3 \\times 2^{-4} = 2^{3-4} = 2^{-1} = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "Realiza el cálculo secuencial y simplifica la respuesta al siguiente planteamiento aritmético: $(\\frac{1}{3})^{-2} + (\\frac{1}{2})^{-3}$.",
+    "image": null,
+    "options": [
+      { "text": "17", "correct": true },
+      { "text": "11", "correct": false },
+      { "text": "-17", "correct": false },
+      { "text": "-11", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma el problema aplicando primero la ley del exponente negativo para que las fracciones se inviertan.",
+    "explanation": "$(\\frac{1}{3})^{-2} = (\\frac{3}{1})^2 = 9$. $(\\frac{1}{2})^{-3} = (\\frac{2}{1})^3 = 8$. La suma es $9 + 8 = 17$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
