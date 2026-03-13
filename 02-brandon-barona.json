@@ -1,866 +1,650 @@
 [
   {
     "id": "CEP00AA",
-    "question": "¿Qué característica principal define a una enfermedad 'monogénica' de acuerdo con la genética clínica?",
+    "question": "Según el artículo sobre diagnóstico genético, ¿cuál es la principal consecuencia de un retraso de 1 a 10 años en la detección de una patología?",
     "image": null,
     "options": [
-      { "text": "Alteración funcional o estructural presente en un solo gen principal.", "correct": true },
-      { "text": "Defecto cromosómico que afecta a múltiples secuencias de ADN.", "correct": false },
-      { "text": "Combinación sistémica de factores ambientales y dietéticos.", "correct": false },
-      { "text": "Variación genética que se transmite de forma exclusiva por línea materna.", "correct": false }
+      { "text": "Carencia de medidas preventivas y terapéuticas oportunas", "correct": true },
+      { "text": "Imposibilidad de realizar secuenciación Sanger a futuro", "correct": false },
+      { "text": "Aumento exponencial en el costo de la secuenciación", "correct": false },
+      { "text": "Pérdida de material genético para estudios posteriores", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El prefijo 'mono' hace referencia a la unidad o singularidad de la estructura afectada.",
-    "explanation": "Las enfermedades monogénicas, también llamadas mendelianas, están determinadas por la alteración de un único gen en el paciente.",
+    "hint": "Considera el impacto en la calidad de vida y la planificación familiar.",
+    "explanation": "El texto menciona que este retraso impide la implementación de medidas terapéuticas, de rehabilitación específica y programas preventivos para los familiares del paciente.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AB",
-    "question": "Identifica las características que definen el patrón de herencia autosómica recesiva en una genealogía: 1. Usualmente no hay historia familiar previa, 2. Afecta exclusivamente a varones, 3. Ambos alelos de un mismo gen deben estar alterados, 4. Un solo alelo mutado es suficiente para manifestar la enfermedad, 5. Existe una mayor probabilidad de encontrar afectados entre hermanos.",
+    "question": "Identifica los elementos que forman parte del proceso de 'Splicing' (Corte y empalme) mencionado en el texto: 1. Eliminación de intrones, 2. Unión de exones, 3. Replicación de la cadena líder, 4. Formación de ARNm maduro, 5. Síntesis de ribosomas",
     "image": null,
     "options": [
-      { "text": "1, 3, 5", "correct": true },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "2, 4, 5", "correct": false }
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para que se exprese el rasgo, el individuo debe heredar dos copias alteradas, lo que a menudo ocurre cuando padres sanos son portadores.",
-    "explanation": "La herencia autosómica recesiva requiere dos alelos mutados. Generalmente no hay antecedentes familiares directos, pero los hermanos del paciente índice tienen mayor riesgo.",
+    "hint": "Es un proceso post-transcripcional que ocurre en el núcleo.",
+    "explanation": "El splicing es el proceso donde se eliminan las secuencias no codificantes (intrones) y se unen las codificantes (exones) para generar el ARN mensajero maduro.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AC",
-    "question": "Completa el texto sobre los genes asociados al cáncer: 'Los proto-oncogenes actúan como los ______ del ciclo celular y funcionan bajo la regulación estricta de un gen ______.'",
+    "question": "El artículo menciona que las enfermedades monogénicas ocurren por variantes en regiones codificantes. El ______ es el organelo que alberga el ADN, y el proceso de ______ es el encargado de generar proteínas a partir del ARNm.",
     "image": null,
     "options": [
-      { "text": "Aceleradores, supresor de tumor", "correct": true },
-      { "text": "Frenos, activador de replicación", "correct": false },
-      { "text": "Inhibidores, oncogén", "correct": false },
-      { "text": "Sensores, reparador de ADN", "correct": false }
+      { "text": "Núcleo, traducción", "correct": true },
+      { "text": "Ribosoma, transcripción", "correct": false },
+      { "text": "Lisosoma, síntesis", "correct": false },
+      { "text": "Núcleo, replicación", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda la analogía de un automóvil: unos genes impulsan la división y otros la detienen.",
-    "explanation": "Los proto-oncogenes promueven el crecimiento celular (aceleradores), mientras que los genes supresores de tumor detienen el ciclo celular para prevenir la proliferación descontrolada.",
+    "hint": "Piensa en el dogma central de la biología molecular.",
+    "explanation": "El material genético se encuentra en el núcleo y la síntesis de proteínas (traducción) ocurre en los ribosomas.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Para comprender las enfermedades genéticas, es vital recordar que el núcleo celular actúa como el centro de comando donde se protege el genoma. El flujo de información genética pasa del ADN al ARN y finalmente a las proteínas, las cuales ejecutan las funciones biológicas. Cualquier error en el código nuclear puede resultar en una proteína defectuosa. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AD",
-    "question": "Relaciona las familias de genes involucrados en el desarrollo del cáncer con su función celular normal: A) Genes supresores de tumor, B) Genes de reparación de ADN, C) Proto-oncogenes; I) Mantienen la integridad del genoma corrigiendo errores, II) Frenan el ciclo celular e inducen apoptosis, III) Promueven la división celular regulada.",
+    "question": "Relaciona correctamente los conceptos de genética y salud: I) Autosómica dominante, II) SNV, III) Prevención secundaria; A) Variante de un solo nucleótido, B) Diagnóstico genético temprano, C) Expresión con una sola copia del gen mutado.",
     "image": null,
     "options": [
-      { "text": "A-II; B-I; C-III", "correct": true },
-      { "text": "A-III; B-II; C-I", "correct": false },
-      { "text": "A-I; B-III; C-II", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false }
+      { "text": "I-C; II-A; III-B", "correct": true },
+      { "text": "I-B; II-A; III-C", "correct": false },
+      { "text": "I-C; II-B; III-A", "correct": false },
+      { "text": "I-A; II-C; III-B", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Analiza los nombres: 'supresor' inhibe, 'reparación' arregla daño, 'proto' indica un precursor de crecimiento.",
-    "explanation": "Los supresores de tumor detienen el ciclo, los genes de reparación previenen mutaciones permanentes, y los proto-oncogenes estimulan la proliferación celular de forma controlada.",
+    "hint": "La prevención secundaria se enfoca en la detección precoz.",
+    "explanation": "La herencia dominante requiere solo un alelo afectado; la SNV es un cambio puntual y la prevención secundaria incluye el diagnóstico temprano.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AE",
-    "question": "Un investigador del CEPREDIX analiza una familia con retinoblastoma hereditario. Nota que los afectados heredan una mutación germinal, pero el tumor solo se desarrolla cuando la célula sufre una segunda alteración somática. ¿Qué concepto genético explica este fenómeno celular?",
+    "question": "Un investigador del CEPREDIX utiliza la técnica de Sanger para confirmar una variante. Si la técnica emplea ddNTPs que carecen del grupo $3'\\text{-OH}$, ¿qué tipo de biomolécula son estos monómeros?",
     "image": null,
     "options": [
-      { "text": "Hipótesis del doble golpe de Knudson", "correct": true },
-      { "text": "Principio de expresividad variable genómica", "correct": false },
-      { "text": "Teoría de la herencia poligénica aditiva", "correct": false },
-      { "text": "Mecanismo de segregación cromosómica aleatoria", "correct": false }
+      { "text": "Ácidos nucleicos", "correct": true },
+      { "text": "Proteínas", "correct": false },
+      { "text": "Lípidos", "correct": false },
+      { "text": "Carbohidratos", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Este modelo teórico propone que se necesitan dos eventos mutacionales sucesivos ('hits') para inactivar completamente un supresor tumoral.",
-    "explanation": "Alfred Knudson propuso que el primer golpe es una mutación heredada en la línea germinal, y el segundo ocurre aleatoriamente en la célula somática, desencadenando el tumor.",
+    "hint": "Son las unidades fundamentales que forman el ADN y ARN.",
+    "explanation": "Los nucleótidos son los monómeros que constituyen los ácidos nucleicos; los ddNTPs son análogos de estos.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "En biología molecular, los ácidos nucleicos son polímeros de alta complejidad. La técnica de Sanger revolucionó la ciencia al permitir leer la secuencia de estas biomoléculas utilizando 'interruptores' químicos (didioxinucleótidos) que detienen la síntesis de la cadena de ADN, permitiendo identificar la posición de cada base nitrogenada. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AF",
-    "question": "Identifica los tipos de clasificación clínica de las enfermedades hereditarias abordados en el documento: 1. Monogénicas, 2. Isométricas, 3. Multifactoriales o complejas, 4. Cromosomales, 5. Plasmáticas.",
+    "question": "En el contexto de la tríada ecológica aplicada al artículo, una variante genética patogénica se clasifica como:",
     "image": null,
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Agente causal", "correct": true },
+      { "text": "Huésped susceptible", "correct": false },
+      { "text": "Medio ambiente", "correct": false },
+      { "text": "Vector biológico", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Las clasificaciones se basan en el número de genes involucrados o en la estructura del ADN afectada.",
-    "explanation": "Las enfermedades hereditarias se clasifican principalmente en monogénicas (un gen), complejas o multifactoriales (varios genes y ambiente), cromosomales y mitocondriales.",
+    "hint": "Es el factor cuya presencia es indispensable para que se inicie la enfermedad.",
+    "explanation": "En enfermedades genéticas, la mutación o variante es el agente causal que altera la homeostasis del huésped.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AG",
-    "question": "Rellena los espacios en la siguiente afirmación: 'La ______ de una mutación en genética clínica representa la proporción de personas que expresan el fenotipo tumoral siendo ______ de dicha alteración.'",
+    "question": "¿Cuál es la función principal del aparato cardiovascular, considerando los paneles genéticos mencionados para enfermedades de este sistema?",
     "image": null,
     "options": [
-      { "text": "Penetrancia, portadoras", "correct": true },
-      { "text": "Severidad, sobrevivientes", "correct": false },
-      { "text": "Expresividad, originadoras", "correct": false },
-      { "text": "Heredabilidad, transmisoras", "correct": false }
+      { "text": "Transporte de nutrientes, gases y desechos", "correct": true },
+      { "text": "Intercambio gaseoso celular por difusión", "correct": false },
+      { "text": "Filtración de toxinas y formación de orina", "correct": false },
+      { "text": "Coordinación de respuestas motoras rápidas", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Esta métrica estadística evalúa con qué frecuencia un genotipo específico se manifiesta clínicamente.",
-    "explanation": "La penetrancia es el porcentaje de individuos con una mutación específica que llegarán a desarrollar la enfermedad (fenotipo).",
+    "hint": "Se encarga de la perfusión de todos los tejidos del cuerpo.",
+    "explanation": "El sistema cardiovascular utiliza la sangre como vehículo para distribuir oxígeno y nutrientes, y retirar dióxido de carbono.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "El corazón y los vasos sanguíneos forman una red logística vital. Las patologías genéticas cardiovasculares pueden afectar la estructura del músculo cardiaco o la elasticidad de los vasos, comprometiendo la entrega eficiente de sustancias esenciales para la vida celular. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AH",
-    "question": "Relaciona los tipos de herencia mendeliana con sus características diagnósticas en un pedigrí: A) Autosómica dominante, B) Autosómica recesiva, C) Ligada al cromosoma X; I) Requiere portadores para manifestarse en hijos, II) Afecta diferencialmente según el sexo cromosómico del individuo, III) Cada afectado tiene un progenitor directo con el fenotipo.",
+    "question": "El ADN posee una carga eléctrica ______ debido principalmente a la presencia de grupos ______ en su estructura molecular.",
     "image": null,
     "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
+      { "text": "Negativa, fosfato", "correct": true },
+      { "text": "Positiva, bases nitrogenadas", "correct": false },
+      { "text": "Neutra, desoxirribosa", "correct": false },
+      { "text": "Negativa, hidroxilo", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que lo 'dominante' aparece verticalmente en cada generación, lo 'recesivo' aparece horizontalmente y lo 'ligado al sexo' se relaciona con los cromosomas sexuales.",
-    "explanation": "Dominante se observa en cada generación (progenitor afectado); recesiva requiere que los padres sean portadores asintomáticos; ligada al X se expresa de forma dispar entre hombres y mujeres.",
+    "hint": "Este componente forma parte del 'esqueleto' exterior de la doble hélice.",
+    "explanation": "Los grupos fosfato del esqueleto de azúcar-fosfato están ionizados negativamente a pH fisiológico.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AI",
-    "question": "¿Qué término genético describe la situación clínica donde miembros de una misma familia, portadores de la misma mutación patogénica, desarrollan diferentes tipos de tumores?",
+    "question": "De acuerdo con el flujograma del texto, ¿cuál es el procedimiento necesario antes de emitir un Informe Clínico-Biológico definitivo?",
     "image": null,
     "options": [
-      { "text": "Expresividad variable", "correct": true },
-      { "text": "Penetrancia completa", "correct": false },
-      { "text": "Epistasis genética", "correct": false },
-      { "text": "Pleiotropía inversa", "correct": false }
+      { "text": "Confirmación por Secuenciación Sanger", "correct": true },
+      { "text": "Extracción de nueva muestra de tejido", "correct": false },
+      { "text": "Consulta de antecedentes patológicos", "correct": false },
+      { "text": "Traducción del informe para bases mundiales", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Hace referencia a la variación en la manera en que se manifiesta o se 'expresa' la sintomatología clínica.",
-    "explanation": "La expresividad variable (o heterogeneidad clínica) es la manifestación de fenotipos diferentes o patologías distintas causadas por la misma mutación en distintos individuos.",
+    "hint": "Se utiliza un método clásico para validar los resultados de la secuenciación masiva.",
+    "explanation": "Tras la clasificación de variantes por NGS, se requiere la validación mediante el método de Sanger para asegurar la precisión del diagnóstico.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AJ",
-    "question": "Durante un estudio de genética en el CEPREDIX, se analiza por qué no todos los pacientes con la mutación de riesgo BRCA2 desarrollan cáncer. Identifica los factores biológicos que explican la penetrancia incompleta: 1. El contexto genético individual, 2. La ingesta de fármacos idénticos, 3. Causas medioambientales, 4. La localización estructural de la mutación, 5. El origen racial exclusivamente.",
+    "question": "En las células humanas, el Ciclo de Krebs se lleva a cabo en la ______ para procesar los productos derivados de la ______.",
     "image": null,
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Matriz mitocondrial, glucólisis", "correct": true },
+      { "text": "Cresta mitocondrial, fosforilación", "correct": false },
+      { "text": "Matriz citoplasmática, digestión", "correct": false },
+      { "text": "Membrana nuclear, traducción", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Busca factores que varían significativamente de una persona a otra, como los agentes externos y alteraciones genéticas secundarias.",
-    "explanation": "La penetrancia incompleta se debe a la influencia del contexto genético (variantes modificadoras), factores medioambientales y la posición precisa de la mutación dentro de la proteína.",
+    "hint": "Es la central energética de la célula eucariota.",
+    "explanation": "El piruvato resultante de la glucólisis entra a la mitocondria, donde se oxida en el ciclo de Krebs.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AK",
-    "question": "Rellena los espacios: 'Un cambio en la secuencia nucleotídica que se halla en más del $1\\%$ de la población sin afectar gravemente la función se denomina ______, y suele consistir en un cambio de nucleótido ______, conocido por sus siglas en inglés como SNP.'",
+    "question": "Un estudiante del CEPREDIX analiza el exoma de un paciente. Si el exoma contiene la mayoría de las mutaciones patogénicas, ¿qué porcentaje aproximado del genoma humano total representan estas regiones codificantes?",
     "image": null,
     "options": [
-      { "text": "Polimorfismo, simple", "correct": true },
-      { "text": "Aberración, complejo", "correct": false },
-      { "text": "Translocación, múltiple", "correct": false },
-      { "text": "Deleción, invertido", "correct": false }
+      { "text": "$1-2\\%$", "correct": true },
+      { "text": "$10-15\\%$", "correct": false },
+      { "text": "$45-50\\%$", "correct": false },
+      { "text": "$95-98\\%$", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "La palabra alude a la existencia de 'múltiples formas' comunes en los genes poblacionales.",
-    "explanation": "Los polimorfismos son variaciones comunes (>1%) en el ADN. El más frecuente es el Polimorfismo de Nucleótido Simple (SNP), donde cambia una sola base.",
+    "hint": "Es una fracción muy pequeña pero funcionalmente crítica.",
+    "explanation": "Aunque es la parte más estudiada en genética clínica, el exoma solo comprende entre el $1\\%$ y el $2\\%$ del ADN genómico total.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AL",
-    "question": "Relaciona la terminología clínica sugerida por el ACMG con la certeza diagnóstica de la mutación: A) Variante patogénica, B) Variante de significado incierto (VUS), C) Variante probablemente patogénica; I) Mutación que anula la función sin duda confirmada, II) Más del $90\\%$ de probabilidad de ser causante de la patología, III) Imposibilidad clínica actual para definir su efecto biológico.",
+    "question": "Un paciente reporta al médico 'dolor constante en el pecho' y 'sensación de falta de aire'. En la semiología médica, estos datos clínicos se clasifican rigurosamente como:",
     "image": null,
     "options": [
-      { "text": "A-I; B-III; C-II", "correct": true },
-      { "text": "A-II; B-I; C-III", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false },
-      { "text": "A-I; B-II; C-III", "correct": false }
+      { "text": "Síntomas", "correct": true },
+      { "text": "Signos", "correct": false },
+      { "text": "Síndromes", "correct": false },
+      { "text": "Hallazgos", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Patogénica es seguro, 'probablemente' da un alto porcentaje predictivo y VUS indica desconocimiento actual.",
-    "explanation": "El ACMG clasifica las variantes para guiar el manejo clínico. Patogénica destruye la función biológica, VUS no tiene datos suficientes y probablemente patogénica tiene alta predicción estadística in silico.",
+    "hint": "Son percepciones subjetivas que el médico no puede medir ni observar directamente.",
+    "explanation": "Los síntomas son las manifestaciones subjetivas de la enfermedad que el paciente comunica, a diferencia de los signos que son medibles.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AM",
-    "question": "¿Cómo se le denomina al fenómeno molecular durante la progresión del tumor en el cual la célula somática pierde o inactiva por completo el alelo sano restante de un gen supresor de tumor?",
+    "question": "Si una mutación genética descrita en el artículo afecta severamente el desarrollo de los huesos y músculos, ¿qué sistema orgánico está principalmente comprometido?",
     "image": null,
     "options": [
-      { "text": "Pérdida de la heterocigosidad", "correct": true },
-      { "text": "Recombinación homóloga defectuosa", "correct": false },
-      { "text": "Expansión clonal mitocondrial", "correct": false },
-      { "text": "Deriva genética aleatoria", "correct": false }
+      { "text": "Sistema musculoesquelético", "correct": true },
+      { "text": "Sistema tegumentario", "correct": false },
+      { "text": "Sistema endocrino", "correct": false },
+      { "text": "Sistema linfático", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Esta alteración hace que el paciente deje de tener dos versiones distintas (una normal y otra mutada) del gen a nivel celular.",
-    "explanation": "La Pérdida de la Heterocigosidad (LoH) es el evento celular que funciona como el 'segundo golpe', eliminando la última copia funcional protectora del gen.",
+    "hint": "Este sistema proporciona estructura física y permite el movimiento voluntario.",
+    "explanation": "El sistema musculoesquelético incluye el esqueleto óseo y los músculos estriados que trabajan en conjunto.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Las enfermedades genéticas pueden manifestarse en sistemas específicos. El sistema musculoesquelético es fundamental no solo para el movimiento, sino también para la protección de órganos vitales y la hematopoyesis en la médula ósea. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AN",
-    "question": "En el contexto clínico del cáncer hereditario, ¿qué término se utiliza para describir una mutación patogénica hallada en un paciente, pero que está totalmente ausente en el ADN de sus progenitores?",
+    "question": "El movimiento de iones en contra de su gradiente de concentración celular (como la acción de la bomba $Na^+/K^+$) requiere energía en forma de $ATP$. Este proceso biológico se conoce como:",
     "image": null,
     "options": [
-      { "text": "Mutación de novo", "correct": true },
-      { "text": "Variante bialélica", "correct": false },
-      { "text": "Alteración epigenética", "correct": false },
-      { "text": "Mutación mitocondrial", "correct": false }
+      { "text": "Transporte activo", "correct": true },
+      { "text": "Difusión facilitada", "correct": false },
+      { "text": "Ósmosis celular", "correct": false },
+      { "text": "Difusión simple", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El término proviene del latín y significa que la mutación surgió 'de nuevo' o por primera vez en la línea germinal de ese individuo.",
-    "explanation": "Una mutación de novo es una alteración genética que ocurre durante la formación de los gametos de los padres o tempranamente en el cigoto, siendo el paciente el primer afectado en su familia.",
+    "hint": "Requiere un gasto energético directo para vencer la resistencia del gradiente.",
+    "explanation": "El transporte activo es el paso de sustancias a través de la membrana celular utilizando energía metabólica.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AO",
-    "question": "Selecciona en el listado aquellos genes descritos cuyas mutaciones estructurales se asocian clásicamente a síndromes de alto riesgo para desarrollar cáncer hereditario: 1. BRCA1, 2. Insulina, 3. MLH1, 4. Colágeno, 5. APC.",
+    "question": "Selecciona las características que distinguen funcional y estructuralmente a las bacterias de las células humanas: 1. Ausencia de núcleo definido, 2. Presencia de pared celular de peptidoglicano, 3. Reproducción exclusiva por mitosis, 4. Material genético en forma de ADN circular",
     "image": null,
     "options": [
-      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": true },
       { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 2, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Estos genes incluyen reparadores del ADN y supresores tumorales relacionados con tumores de mama y tracto gastrointestinal.",
-    "explanation": "BRCA1 se asocia al cáncer de mama hereditario, MLH1 al Síndrome de Lynch y APC a la Poliposis Adenomatosa Familiar.",
+    "hint": "Recuerda la definición biológica de organismos procariotas.",
+    "explanation": "Las bacterias son procariotas, tienen ADN circular y pared celular, a diferencia de las células humanas eucariotas que se dividen por mitosis.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AP",
-    "question": "Completa el texto sobre la susceptibilidad: 'La gran mayoría de los casos oncológicos no exhiben un patrón mendeliano clásico, sino que manifiestan una herencia ______, donde el fenotipo final involucra alteraciones de baja penetrancia en distintos ______.'",
+    "question": "En el estudio de enfermedades complejas, ¿qué término clínico describe el fenómeno donde un mismo cuadro de síntomas puede ser causado por mutaciones en diferentes genes?",
     "image": null,
     "options": [
-      { "text": "Compleja, genes", "correct": true },
-      { "text": "Dominante, cromosomas", "correct": false },
-      { "text": "Mitocondrial, tejidos", "correct": false },
-      { "text": "Plasmídica, factores", "correct": false }
+      { "text": "Heterogeneidad genética", "correct": true },
+      { "text": "Penetrancia incompleta", "correct": false },
+      { "text": "Expresividad variable", "correct": false },
+      { "text": "Polimorfismo genético", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Este modelo implica la suma sutil de pequeños defectos moleculares y la exposición ambiental constante.",
-    "explanation": "El cáncer se considera primordialmente una enfermedad compleja o multifactorial, donde interaccionan variantes de riesgo en múltiples genes junto con el medio ambiente.",
+    "hint": "Significa 'diversidad en el origen' de la enfermedad.",
+    "explanation": "La heterogeneidad genética implica que diversos defectos genéticos pueden producir el mismo fenotipo clínico.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AQ",
-    "question": "Relaciona los fenómenos genéticos que alteran los patrones mendelianos esperados con su descripción clínica: A) Aparición tardía, B) Expresividad variable, C) Penetrancia incompleta; I) Portadores sanos que nunca desarrollan síntomas, II) Miembros familiares que enferman en etapas adultas distintas, III) Parientes con la misma mutación presentando cáncer en órganos distintos.",
+    "question": "Para el estudio anatómico preciso del corazón, un médico del CEPREDIX realiza un corte que divide al órgano en una mitad anterior y una posterior. ¿Qué plano anatómico ha utilizado el especialista?",
     "image": null,
     "options": [
-      { "text": "A-II; B-III; C-I", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-I; C-III", "correct": false }
+      { "text": "Coronal", "correct": true },
+      { "text": "Transversal", "correct": false },
+      { "text": "Sagital", "correct": false },
+      { "text": "Oblicuo", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Relaciona la edad con la cronología y la falta de expresión con la probabilidad incompleta.",
-    "explanation": "La edad de diagnóstico es variable (aparición tardía), el fenotipo tumoral cambia (expresividad variable) y no todos enferman (penetrancia incompleta).",
+    "hint": "Este plano también se conoce comúnmente como plano frontal.",
+    "explanation": "El plano coronal divide al cuerpo o a un órgano en porciones anterior (frontal) y posterior (dorsal).",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AR",
-    "question": "¿Qué concepto metodológico de la genética permite cuantificar y establecer qué proporción de un rasgo fenotípico humano tiene un componente verdaderamente heredable en comparación con las influencias medioambientales?",
+    "question": "Un investigador del CEPREDIX estudia la farmacocinética de un tratamiento personalizado. Si desea conocer la velocidad con la que el fármaco atraviesa barreras hasta llegar a la sangre, está analizando el proceso de:",
     "image": null,
     "options": [
-      { "text": "Heredabilidad", "correct": true },
-      { "text": "Epigenética predictiva", "correct": false },
-      { "text": "Tasa de transcripción", "correct": false },
-      { "text": "Consanguinidad basal", "correct": false }
+      { "text": "Absorción", "correct": true },
+      { "text": "Distribución", "correct": false },
+      { "text": "Metabolismo", "correct": false },
+      { "text": "Excreción", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "A menudo se calcula utilizando grandes estudios poblacionales de gemelos y mellizos idénticos.",
-    "explanation": "La heredabilidad es el estadístico que estima el grado de variación fenotípica en una población atribuible a factores genéticos.",
+    "hint": "Es el primer paso fundamental del acrónimo LADME para vías no intravasculares.",
+    "explanation": "La absorción estudia el paso de los fármacos desde el sitio de administración hasta la circulación sistémica general.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AS",
-    "question": "En el CEPREDIX, un investigador busca variantes nucleotídicas comparando genomas enteros de mil personas con asma frente a mil personas sanas, buscando diferencias estadísticas en los marcadores. ¿Cómo se denomina a esta técnica epidemiológico-genética?",
+    "question": "Identifica las vitaminas que pertenecen específicamente al grupo de las liposolubles:",
     "image": null,
     "options": [
-      { "text": "Estudio de asociación de genoma completo (GWAS)", "correct": true },
-      { "text": "Secuenciación de ARN mensajero somático", "correct": false },
-      { "text": "Análisis in silico de predicción proteica", "correct": false },
-      { "text": "Hibridación fluorescente in situ (FISH)", "correct": false }
+      { "text": "A, D, E, K", "correct": true },
+      { "text": "B, C, D, K", "correct": false },
+      { "text": "A, B, C, D", "correct": false },
+      { "text": "C, E, K, B", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Busca asociaciones de alelos (SNPs) a lo largo de todos los cromosomas (genoma) en estudios de casos y controles.",
-    "explanation": "Los GWAS (Genome-Wide Association Studies) analizan la asociación estadística de miles de SNPs a lo largo del genoma con el riesgo de presentar enfermedades complejas.",
+    "hint": "Son vitaminas que se disuelven en grasas y se almacenan en el tejido adiposo y el hígado.",
+    "explanation": "Las vitaminas liposolubles se disuelven en grasas; las hidrosolubles son el complejo B y la vitamina C.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AT",
-    "question": "¿Qué implica que un polimorfismo de nucleótido simple (SNP) sea descrito como una variación 'bialélica' en las poblaciones humanas?",
+    "question": "Completa el enunciado bioquímico: 'Al finalizar el proceso anaerobio de la ______, la molécula de glucosa se ha transformado metabólicamente en dos moléculas de ______.'",
     "image": null,
     "options": [
-      { "text": "Que solamente presenta dos alternativas de bases nitrogenadas documentadas en esa ubicación genómica.", "correct": true },
-      { "text": "Que afecta obligatoriamente a los dos alelos simultáneamente en el genotipo del individuo.", "correct": false },
-      { "text": "Que proviene invariablemente de una cruza consanguínea de dos progenitores.", "correct": false },
-      { "text": "Que duplica la longitud de los dos alelos en las células somáticas.", "correct": false }
+      { "text": "Glucólisis, piruvato", "correct": true },
+      { "text": "Glucólisis, lactato", "correct": false },
+      { "text": "Fosforilación, ATP", "correct": false },
+      { "text": "Fermentación, etanol", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Hace referencia a la cantidad de variaciones (alelos) presentes para esa posición específica del gen a nivel de toda la especie.",
-    "explanation": "Un SNP bialélico significa que en esa posición del genoma humano existen solo dos bases diferentes reportadas (por ejemplo, A y G) circulando en la población mundial.",
+    "hint": "Ocurre en el citosol y el producto final ingresa posteriormente a la mitocondria si hay oxígeno.",
+    "explanation": "La glucólisis es la vía inicial de degradación de la glucosa para obtener energía, dando como resultado el piruvato.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AU",
-    "question": "Desde un punto de vista molecular y estructural, ¿qué consecuencia funcional provoca la generación de un 'codón de término prematuro' en la secuencia de un gen supresor tumoral?",
+    "question": "Un paciente adulto presenta una lectura constante de presión arterial de $150/100 \\text{ mmHg}$. Según los rangos clínicos estandarizados, el paciente padece:",
     "image": null,
     "options": [
-      { "text": "Interrumpe precozmente la traducción ribosómica generando una proteína trunca sin actividad celular.", "correct": true },
-      { "text": "Provoca una metilación aberrante que acelera de forma patológica el ciclo de replicación celular.", "correct": false },
-      { "text": "Induce la unión a un gen regulador distinto formando un oncogén quimérico letal.", "correct": false },
-      { "text": "Desata una sobreexpresión incontrolable de factores reparadores en el interior del citoplasma.", "correct": false }
+      { "text": "Hipertensión", "correct": true },
+      { "text": "Hipotensión", "correct": false },
+      { "text": "Bradicardia", "correct": false },
+      { "text": "Taquipnea", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Los codones de término (stop codons) son las señales biológicas donde finaliza la síntesis de proteínas.",
-    "explanation": "Una mutación que introduce un codón de parada anticipado da lugar a una proteína más corta de lo normal, destruyendo su sitio funcional y comportándose como una mutación patogénica.",
+    "hint": "Los valores normales en reposo suelen mantenerse por debajo de $130/90 \\text{ mmHg}$.",
+    "explanation": "Cualquier valor de presión arterial sistólica mayor a 140 o diastólica mayor a 90 indica hipertensión arterial.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AV",
-    "question": "Con base en los estudios genéticos poblacionales, identifica en el listado qué condiciones médicas actúan como enfermedades de herencia 'compleja' o poligénica: 1. Diabetes mellitus, 2. Síndrome de Edwards, 3. Asma bronquial, 4. Trastorno depresivo mayor, 5. Hemofilia tipo A.",
+    "question": "¿Cuál es el sistema orgánico encargado de secretar hormonas que regulan el crecimiento, desarrollo y metabolismo basal?",
     "image": null,
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Sistema endocrino", "correct": true },
+      { "text": "Sistema linfático", "correct": false },
+      { "text": "Sistema nervioso", "correct": false },
+      { "text": "Sistema excretor", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Estas enfermedades se comportan epidemiológicamente como rasgos continuos, influenciadas altamente por factores ambientales, dietéticos y psicosociales.",
-    "explanation": "La diabetes, el asma y la depresión son enfermedades complejas generadas por la suma de múltiples fallas menores genéticas y un ambiente predisponente, a diferencia de síndromes cromosómicos o defectos monogénicos.",
+    "hint": "Utiliza mensajeros químicos que son transportados ampliamente por el torrente sanguíneo.",
+    "explanation": "El sistema endocrino está formado por glándulas sin conductos que producen hormonas para regular funciones metabólicas a distancia.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Este sistema trabaja en estrecha colaboración con el sistema nervioso para mantener la homeostasis, controlando desde el estado de ánimo hasta el ritmo de utilización de nutrientes. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AW",
-    "question": "Completa el razonamiento: 'En las familias con síndromes tumorales hereditarios de alta penetrancia, la herencia aparente es de patrón autosómico ______, sin embargo, a nivel del tejido afectado, el tumor aparece solo cuando el alelo ______ pierde totalmente su capacidad funcional.'",
+    "question": "La tecnología de Secuenciación de Nueva Generación (NGS) desarrollada por 'Illumina' utiliza ______ y señales luminosas captadas ópticamente para determinar la secuencia exacta del ADN.",
     "image": null,
     "options": [
-      { "text": "Dominante, normal", "correct": true },
-      { "text": "Recesivo, inactivo", "correct": false },
-      { "text": "Codominante, supresor", "correct": false },
-      { "text": "Ligado al X, germinal", "correct": false }
+      { "text": "Terminadores reversibles", "correct": true },
+      { "text": "Enzimas de restricción", "correct": false },
+      { "text": "Isótopos radiactivos", "correct": false },
+      { "text": "Campos magnéticos", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Revisa los principios de la teoría del doble golpe: epidemiológicamente afecta a muchas generaciones consecutivas, pero biológicamente ambos alelos deben fallar.",
-    "explanation": "La herencia se observa autosómica dominante (pasa a descendientes con 50% probabilidad), pero la célula tumoral debe inactivar el alelo normal (no mutado) para iniciar la oncogénesis.",
+    "hint": "Son moléculas que permiten detener temporalmente y luego continuar la síntesis de ADN durante su lectura por ciclos.",
+    "explanation": "Illumina basa su tecnología en la incorporación de nucleótidos marcados con fluorescencia y terminadores químicos que se pueden remover posteriormente.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AX",
-    "question": "Relaciona el tipo biológico de mutación con su mecanismo de origen celular: A) Mutación de novo, B) Mutación germinal, C) Mutación somática; I) Alteración presente en todas las células por ser heredada directamente de un progenitor, II) Alteración celular adquirida en los tejidos durante la vida del individuo, III) Mutación no detectada en los padres pero presente en la fecundación del paciente.",
+    "question": "En la terminología anatómica de relación y posición espacial, la nariz se encuentra en una posición ______ con respecto a las orejas.",
     "image": null,
     "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
+      { "text": "Medial", "correct": true },
+      { "text": "Lateral", "correct": false },
+      { "text": "Distal", "correct": false },
+      { "text": "Caudal", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Asocia 'soma' al cuerpo adulto y 'germen' a las células reproductivas previas a la gestación.",
-    "explanation": "La germinal es heredada, la somática se adquiere en un órgano (como el segundo golpe) y la de novo es una anomalía espontánea en el cigoto.",
+    "hint": "Se encuentra estructuralmente más cerca de la línea media imaginaria que divide al cuerpo.",
+    "explanation": "Medial se refiere a estructuras anatómicas más cercanas al eje central o sagital del organismo.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AY",
-    "question": "De acuerdo con el modelo de equilibrio biológico del ciclo celular, ¿cuál es la función primaria que desempeñan los 'proto-oncogenes' en los tejidos sanos?",
+    "question": "¿Cómo se define un cambio o mutación en una sola base nitrogenada de la cadena de ADN según los conceptos descritos en el artículo?",
     "image": null,
     "options": [
-      { "text": "Actuar como aceleradores fisiológicos del crecimiento promoviendo la división bajo estricta regulación.", "correct": true },
-      { "text": "Secretar antígenos intracelulares para inducir la muerte celular programada o apoptosis.", "correct": false },
-      { "text": "Desencadenar formaciones quísticas inhibiendo los puntos de control del ciclo replicativo.", "correct": false },
-      { "text": "Evitar invariablemente la duplicación del material genético en condiciones de hipoxia.", "correct": false }
+      { "text": "Variante de un solo nucleótido (SNV)", "correct": true },
+      { "text": "Trisomía genómica estructural", "correct": false },
+      { "text": "Translocación recíproca equilibrada", "correct": false },
+      { "text": "Deleción cromosómica extensa", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "A pesar del prefijo 'onco', estos genes en su estado natural son completamente indispensables para el crecimiento de órganos sanos.",
-    "explanation": "Los proto-oncogenes son secuencias normales que estimulan el ciclo celular adecuadamente y, solo cuando mutan de manera perjudicial, se transforman en oncogenes hiperactivos.",
+    "hint": "Es la forma más frecuente y común de variación genética en la población humana.",
+    "explanation": "Las SNV representan cambios puntuales y mínimos en la secuencia de bases nitrogenadas del ADN (A, T, C, G).",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00AZ",
-    "question": "En la clínica CEPREDIX, una paciente diagnosticada con cáncer mamario a los 30 años y su madre diagnosticada a los 55 comparten idénticamente la mutación en el gen BRCA1. Clínicamente, ¿qué factor genético intermedio explica esta discordancia en la edad de diagnóstico?",
+    "question": "Un agente biológico que carece de metabolismo propio y requiere obligatoriamente de la maquinaria de una célula huésped para replicarse se denomina:",
     "image": null,
     "options": [
-      { "text": "La herencia paralela de diversas variantes alélicas modificadoras del riesgo patológico.", "correct": true },
-      { "text": "La aparición de una anomalía cromosómica recíproca ligada invariablemente al cromosoma Y.", "correct": false },
-      { "text": "El silencio epigenético exclusivo derivado de factores virales durante la infancia.", "correct": false },
-      { "text": "La falta de mutaciones silenciosas previas en el sitio activo de la enzima.", "correct": false }
+      { "text": "Virus", "correct": true },
+      { "text": "Bacteria", "correct": false },
+      { "text": "Hongo", "correct": false },
+      { "text": "Protozoario", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Considera que los genomas de madre e hija no son 100% idénticos; hay genes secundarios que alteran la manifestación de genes principales.",
-    "explanation": "Las variantes modificadoras de riesgo son cambios menores en otros genes que, combinados, alteran la edad de inicio o la severidad del cáncer hereditario.",
+    "hint": "Se consideran parásitos intracelulares obligatorios de naturaleza acelular.",
+    "explanation": "Los virus no tienen la capacidad metabólica para reproducirse por sí mismos y deben 'secuestrar' una célula viva para generar copias virales.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BA",
-    "question": "¿Qué categoría de genes desempeña el papel fundamental de mantener la integridad y estabilidad del genoma ante el constante estrés oxidativo y replicativo celular?",
+    "question": "Dentro del modelo de la historia natural de la enfermedad, el periodo donde existen alteraciones fisiopatológicas en el organismo pero el paciente aún no percibe síntomas se llama:",
     "image": null,
     "options": [
-      { "text": "Genes de reparación del ADN", "correct": true },
-      { "text": "Factores endócrinos paracrinos", "correct": false },
-      { "text": "Genes reguladores transcripcionales lipídicos", "correct": false },
-      { "text": "Cadenas peptídicas metabólicas basales", "correct": false }
+      { "text": "Etapa subclínica", "correct": true },
+      { "text": "Periodo prepatogénico", "correct": false },
+      { "text": "Etapa de resolución", "correct": false },
+      { "text": "Fase prodrómica", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Estos genes actúan como 'mecánicos' biológicos verificando que no existan errores estructurales.",
-    "explanation": "Los genes de reparación de ADN codifican proteínas que revisan y corrigen los errores y daños en la doble hélice, previniendo mutaciones cancerígenas progresivas.",
+    "hint": "Ocurre temporalmente por debajo del conocido 'umbral clínico' de la enfermedad.",
+    "explanation": "La etapa subclínica corresponde a la fase inicial del periodo patogénico antes de la evidente aparición de signos y síntomas.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BB",
-    "question": "Selecciona en el siguiente listado las características demográficas e inferenciales que sugieren un patrón de herencia autosómica dominante en el dibujo de un pedigrí familiar: 1. Afecta transversalmente a hombres y mujeres de forma proporcional, 2. La enfermedad invariablemente se salta una o más generaciones, 3. Se demanda genéticamente que un solo alelo este mutado para observar la patología, 4. Suele detectarse a un progenitor afectado por cada sujeto portador, 5. La vía de herencia procede exclusivamente por la línea mitocondrial materna.",
+    "question": "¿Cuál es la unidad estructural y funcional microscópica del riñón encargada principalmente de filtrar la sangre?",
     "image": null,
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 3", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Nefrona", "correct": true },
+      { "text": "Neurona", "correct": false },
+      { "text": "Alvéolo", "correct": false },
+      { "text": "Hepatocito", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Esta herencia no distingue sexos y se expresa en vertical a lo largo de las familias.",
-    "explanation": "El patrón dominante no presenta saltos intergeneracionales obligatorios, requiere una sola copia del gen alterado y ocurre en cualquier sexo cromosómico.",
+    "hint": "Un solo riñón humano sano contiene aproximadamente un millón de estas estructuras tubulares.",
+    "explanation": "La nefrona es la estructura anatómica básica que filtra la sangre, secreta desechos y reabsorbe nutrientes para formar finalmente la orina.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "El riñón opera como un filtro biológico altamente avanzado. Estas unidades microscópicas trabajan incesantemente para eliminar desechos metabólicos y mantener el estricto equilibrio hídrico y electrolítico en el cuerpo humano. Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BC",
-    "question": "Rellena los espacios: 'Un elemento genómico pasa de ser clasificado como ______ a convertirse en un patológico oncogén cuando sufre una alteración que le impide ser regulado adecuadamente por un gen ______.'",
+    "question": "El consorcio científico internacional pionero en 2007 que empleó secuenciación masiva para analizar la variabilidad genética poblacional se llamó:",
     "image": null,
     "options": [
-      { "text": "Proto-oncogén, supresor de tumor", "correct": true },
-      { "text": "Promotor basal, represor genético", "correct": false },
-      { "text": "Operón metabólico, activador enzimático", "correct": false },
-      { "text": "Cromosoma inactivo, nucleolo", "correct": false }
+      { "text": "Proyecto 1000 Genomas", "correct": true },
+      { "text": "Proyecto Genoma Humano", "correct": false },
+      { "text": "Proyecto ENCODE Global", "correct": false },
+      { "text": "Proyecto Proteoma Humano", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Esta conversión es el evento clave en el inicio de un proceso descontrolado de proliferación celular maligna.",
-    "explanation": "La mutación de un proto-oncogén (gen normal de proliferación) anula la función de los frenos fisiológicos (supresores), volviéndose un acelerador continuo (oncogén).",
+    "hint": "Su título oficial hace referencia a la cantidad específica de individuos que se pretendía secuenciar y estudiar en un inicio.",
+    "explanation": "Este ambicioso proyecto fue fundamental para lograr catalogar exhaustivamente las variantes genéticas más comunes en diversas poblaciones mundiales.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BD",
-    "question": "Relaciona los síndromes tumorales genéticos con sus respectivos genes afectados principales o presentación característica documentada: A) Síndrome de Lynch, B) Cáncer de mama hereditario, C) Poliposis Adenomatosa Familiar; I) Defectos severos identificables en BRCA1/BRCA2, II) Inactivación germinal frecuente de los genes reparadores MLH1 o MSH2, III) Frecuencia diagnóstica de mutaciones de novo en hasta una cuarta parte de los afectados.",
+    "question": "¿Qué complejo sistema corporal se encarga de defender al organismo contra patógenos invasores mediante la síntesis y liberación de anticuerpos?",
     "image": null,
     "options": [
-      { "text": "A-II; B-I; C-III", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false }
+      { "text": "Sistema inmunológico", "correct": true },
+      { "text": "Sistema digestivo", "correct": false },
+      { "text": "Sistema excretor", "correct": false },
+      { "text": "Sistema circulatorio", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Aplica los acrónimos biológicos descritos en los análisis de susceptibilidad mamaria y digestiva.",
-    "explanation": "Lynch implica fallas en MLH1/MSH2; mama en BRCA1/BRCA2; la Poliposis Adenomatosa tiene una de las tasas de mutación de novo más altas documentadas.",
+    "hint": "Este sistema interconecta e incluye órganos especializados como el bazo, el timo y la red de ganglios linfáticos.",
+    "explanation": "El sistema inmunológico es la principal línea de defensa biológica encargada de identificar y neutralizar agentes extraños perjudiciales como bacterias, parásitos y virus.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BE",
-    "question": "En diversas leucemias y linfomas, ¿por qué mecanismos las translocaciones cromosómicas pueden detonar el surgimiento agresivo de células cancerosas?",
+    "question": "Si una solución posee una concentración de solutos disueltos que es mayor que la del interior celular, la solución se denomina ______ y provoca osmóticamente que el agua ______ la célula.",
     "image": null,
     "options": [
-      { "text": "Porque pueden fusionar material genético creando genes quiméricos hiperactivos o ubicar proto-oncogenes tras promotores de alta eficiencia.", "correct": true },
-      { "text": "Porque desintegran los telómeros causando la apoptosis inmediata de la barrera inmunológica natural del torrente sanguíneo.", "correct": false },
-      { "text": "Porque transforman exclusivamente factores epigenéticos, evadiendo los puntos de control metabólico en el ciclo de Krebs.", "correct": false },
-      { "text": "Porque suprimen forzosamente las deleciones puntuales necesarias para mantener activas a las enzimas de reparación homóloga.", "correct": false }
+      { "text": "Hipertónica, salga de", "correct": true },
+      { "text": "Hipotónica, entre a", "correct": false },
+      { "text": "Isotónica, se mantenga en", "correct": false },
+      { "text": "Saturada, cristalice en", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El intercambio indebido de segmentos largos de ADN provoca combinaciones aberrantes que activan genes permanentemente.",
-    "explanation": "Las translocaciones reordenan el genoma de forma que un promotor muy fuerte produce en exceso el producto de un gen, o crea proteínas fusionadas anormales promotoras del ciclo.",
+    "hint": "El principio osmótico dicta que el solvente (agua) siempre fluye libremente hacia donde existe una mayor concentración de solutos.",
+    "explanation": "Al sumergirse en una solución hipertónica, la presión osmótica empuja el agua hacia el exterior, causando la deshidratación y posterior crenación celular.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BF",
-    "question": "En el ejercicio diagnóstico genético, si las herramientas informáticas predicen teóricamente que un cambio de secuencia es 'patogénico', pero un estudio funcional in vitro de la enzima muestra que mantiene su actividad biológica al $100\\%$, ¿qué conclusión clínica se extrae?",
+    "question": "¿Cuál es la representación visual o mapa fotográfico de los cromosomas de un individuo, donde estos se encuentran alineados y ordenados por pares homólogos?",
     "image": null,
     "options": [
-      { "text": "Prevalece el estudio funcional, indicando que la variante no altera significativamente la función real en el ambiente celular.", "correct": true },
-      { "text": "Prevalece siempre la predicción bioinformática ya que evalúa bases de datos genómicas mundiales más extensas.", "correct": false },
-      { "text": "Se asume obligatoriamente que la variante requerirá un tercer golpe exógeno para mostrar su patogenicidad completa.", "correct": false },
-      { "text": "Se descarta la validez de ambos métodos y se reporta invariablemente como polimorfismo letal temprano.", "correct": false }
+      { "text": "Cariotipo", "correct": true },
+      { "text": "Genotipo", "correct": false },
+      { "text": "Fenotipo", "correct": false },
+      { "text": "Pedigrí", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Los programas solo estiman algoritmos evolutivos, mientras que el experimento biológico directo confirma la realidad celular.",
-    "explanation": "Los algoritmos in silico son solo predictores teóricos de riesgo. El estándar de oro siempre son los estudios funcionales comprobables en laboratorio celular.",
+    "hint": "Es un estudio genético celular que se utiliza clínicamente para detectar posibles anomalías estructurales o síndromes como la trisomía 21.",
+    "explanation": "El cariotipo es la técnica citogenética clásica que permite aislar y visualizar directamente el número total y la estructura microscópica de los cromosomas.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BG",
-    "question": "Un genetista del CEPREDIX está valorando una 'variante de significado incierto' reportada en una biopsia gástrica. Identifica del listado las plataformas virtuales o bases de datos bioinformáticas aceptadas mundialmente para predecir si un cambio de aminoácido estructural puede resultar dañino celularmente: 1. SIFT, 2. SPSS Stat, 3. PolyPhen, 4. Align-GVGD, 5. CorelDraw.",
+    "question": "Un paciente bajo tratamiento médico utiliza un parche cutáneo especializado para recibir un fármaco de forma constante. ¿Qué vía de administración farmacológica se está empleando?",
     "image": null,
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Transdérmica", "correct": true },
+      { "text": "Enteral", "correct": false },
+      { "text": "Parenteral", "correct": false },
+      { "text": "Sublingual", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Busca exclusivamente programas de biología estructural en línea que calculen secuencias proteómicas o nucleotídicas.",
-    "explanation": "SIFT, PolyPhen y Align-GVGD son softwares especializados en predecir consecuencias biológicas de cambios aminoacídicos basándose en homología evolutiva y propiedades químicas.",
+    "hint": "Su nombre indica etimológicamente 'a través de la piel', buscando alcanzar posteriormente la circulación sanguínea general.",
+    "explanation": "La vía transdérmica permite la absorción lenta, controlada y sostenida del principio activo del fármaco a través de las capas de la dermis.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BH",
-    "question": "Rellena los espacios con el término adecuado: 'En las enfermedades de herencia ______, el fenotipo final o enfermedad diagnosticada resulta obligatoriamente de la interacción de los productos enzimáticos de múltiples genes de riesgo, a diferencia marcada de las enfermedades ______, causadas por la alteración estricta de un solo gen.'",
+    "question": "El creciente debate médico sobre si un paciente debe conocer o no información genética relevante no solicitada (hallazgos incidentales) representa fundamentalmente un problema de naturaleza:",
     "image": null,
     "options": [
-      { "text": "Compleja, monogénicas", "correct": true },
-      { "text": "Cuantitativa, ambientales", "correct": false },
-      { "text": "Recesiva, multifactoriales", "correct": false },
-      { "text": "Bialélica, somáticas", "correct": false }
+      { "text": "Bioética", "correct": true },
+      { "text": "Bioinformática", "correct": false },
+      { "text": "Macroeconómica", "correct": false },
+      { "text": "Biológica", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Reflexiona sobre cómo la multiplicidad de factores altera el nombre del patrón de herencia.",
-    "explanation": "La herencia compleja (o poligénica) integra pequeños fallos en muchos sitios genéticos diferentes, sumados a las influencias del medio ambiente celular y general.",
+    "hint": "Esta disciplina involucra activamente los principios de autonomía, beneficencia y justicia en la práctica médica y científica contemporánea.",
+    "explanation": "La bioética es la rama que regula normativamente los dilemas morales profundos que surgen continuamente con el rápido avance de las tecnologías de diagnóstico médico.",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BI",
-    "question": "Relaciona los acrónimos utilizados en los análisis de genómica médica con sus correspondientes definiciones estructurales o conceptuales: A) VUS, B) SNP, C) GWAS; I) Polimorfismo frecuente de nucleótido simple, II) Estudio global de asociación de genoma completo, III) Variante clasificada temporalmente con significado biológico incierto.",
+    "question": "Selecciona cronológicamente las etapas formales de la 'Historia Natural de la Enfermedad' propuestas en el modelo de Leavell y Clark: 1. Periodo Prepatogénico, 2. Periodo Patogénico, 3. Fase de Mutación Genética, 4. Periodo de Resolución",
     "image": null,
     "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["CL PREMED 01"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Derivan del inglés: 'Variant of Uncertain Significance', 'Single Nucleotide Polymorphism', 'Genome-Wide Association Study'.",
-    "explanation": "Estas tres siglas definen variantes con dudas clínicas (VUS), variaciones normales mínimas (SNP) y mapeos investigativos extensos (GWAS).",
+    "hint": "Este modelo clásico describe minuciosamente la evolución típica de un proceso patológico cuando este cursa sin ningún tipo de intervención médica o tratamiento.",
+    "explanation": "El modelo epidemiológico clásico incluye una fase de equilibrio previo (prepatogénico), el desarrollo del daño interno (patogénico) y el desenlace o conclusión biológica (resolución).",
     "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   },
   {
     "id": "CEP00BJ",
-    "question": "¿Cuál es el significado biológico completo y preciso de las siglas internacionales 'LoH' utilizadas en la descripción genética de la progresión oncológica celular?",
+    "question": "Un estudiante en el laboratorio del CEPREDIX determina analíticamente la concentración molar de una solución de diagnóstico. Si utiliza como base la fórmula $M = n/V$, ¿cuál sería la expresión algebraica despejada correctamente para hallar el volumen?",
     "image": null,
     "options": [
-      { "text": "Pérdida de la Heterocigosidad", "correct": true },
-      { "text": "Línea de Homología Evolutiva", "correct": false },
-      { "text": "Límites Oncológicos Hereditarios", "correct": false },
-      { "text": "Linfomas de Origen Histológico", "correct": false }
+      { "text": "$V = n/M$", "correct": true },
+      { "text": "$V = M \\cdot n$", "correct": false },
+      { "text": "$V = M/n$", "correct": false },
+      { "text": "$V = n + M$", "correct": false }
     ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "En inglés significa 'Loss of Heterozygosity', lo cual implica perder la copia diferente (sana) que protegía al paciente.",
-    "explanation": "La Pérdida de la Heterocigosidad (LoH) denota la eliminación somática del último alelo silvestre funcional de un gen protector.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BK",
-    "question": "Si mediante un análisis molecular se revela que en un tumor mamario el primer alelo de un gen supresor se mutó desde el cigoto, y el promotor del segundo alelo sano se inactivó progresivamente en la edad adulta mediante hipermetilación, ¿qué concepto principal ratifica este silenciamiento consecutivo?",
-    "image": null,
-    "options": [
-      { "text": "La hipótesis integradora del doble golpe propuesta por Knudson.", "correct": true },
-      { "text": "El postulado general de la herencia mitocondrial degenerativa somática.", "correct": false },
-      { "text": "El teorema clásico de recombinación cromosómica aleatoria transversal.", "correct": false },
-      { "text": "La definición bioestadística de la variabilidad o heterogeneidad clínica.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
+    "uni_tags": ["CL PREMED 01"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Involucra siempre la necesidad forzosa de anular ambas copias (la heredada y la adquirida) por mecanismos diversos.",
-    "explanation": "La hipótesis del doble golpe (two-hit hypothesis) se ratifica sea por deleciones genómicas completas o silenciamientos epigenéticos (metilación del promotor) del alelo remanente.",
+    "hint": "Aplica las propiedades algebraicas básicas para despejar correctamente la variable que se encuentra en el denominador de la ecuación original.",
+    "explanation": "Para encontrar de forma directa el volumen final de la solución, se debe dividir la cantidad de moles de soluto entre la molaridad conocida de la misma.",
     "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BL",
-    "question": "Con respecto a la teoría de herencia continua, selecciona en el siguiente listado las variables biológicas que corresponden al modelo estadístico de un 'rasgo cuantitativo': 1. Estatura corporal, 2. Sistema de grupos sanguíneos ABO, 3. Índice de masa corporal (Peso), 4. Nivel de pigmentación y coloración de ojos, 5. Presencia morfológica del cromosoma sexual Y.",
-    "image": null,
-    "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Los rasgos cuantitativos se rigen por escalas graduales y aportes de numerosos genes, en lugar de características anatómicas fijas del tipo 'todo o nada'.",
-    "explanation": "La estatura, peso y color de ojos no se deciden por un solo alelo recesivo o dominante; representan la interacción matemática continua de múltiples genes menores.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BM",
-    "question": "Rellena los espacios: 'Para el cuerpo médico, el conocimiento actualizado de la ______ estadística de las diversas mutaciones germinales es rotundamente indispensable para poder entregar una correcta ______ clínica genética preventiva al paciente y a toda su descendencia familiar.'",
-    "image": null,
-    "options": [
-      { "text": "Penetrancia, asesoría", "correct": true },
-      { "text": "Mutagénesis, prescripción", "correct": false },
-      { "text": "Morfología, intervención", "correct": false },
-      { "text": "Virulencia, farmacología", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El porcentaje de afectación es vital para orientar psicológicamente o indicar cirugías preventivas profilácticas en los familiares.",
-    "explanation": "Saber qué probabilidad tiene la mutación de causar la enfermedad (penetrancia) dirige todo el proceso del asesoramiento genético familiar.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BN",
-    "question": "El equipo del CEPREDIX correlaciona alteraciones estructurales con sus efectos moleculares resultantes. Relaciona la lesión genómica con su consecuencia fisiopatológica celular: A) Mutación silente en aminoácidos del sitio enzimático activo de un proto-oncogén, B) Evento cromosómico de deleción total que remueve el segundo alelo supresor de tumor sano, C) Fenómeno de translocación posicionando un marco de lectura celular posterior a un promotor transcripcional de alta eficiencia; I) Desata hiperactivación continua impidiendo su hidrólisis o desactivación proteica biológica, II) Evento reconocido como Pérdida de la Heterocigosidad celular definitiva, III) Resulta invariablemente en sobreexpresión masiva del componente proteico.",
-    "image": null,
-    "options": [
-      { "text": "A-I; B-II; C-III", "correct": true },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-I; B-III; C-II", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Un promotor 'empuja' la producción, un cambio funcional inhibe el 'freno' químico intracelular, y un borrado elimina la heterogeneidad de los alelos.",
-    "explanation": "El sitio activo del proto-oncogén (como RAS) al mutar se bloquea en modo encendido; la deleción suprime la copia protectora (LoH); el promotor nuevo fomenta sobreproducción génica aberrante.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BO",
-    "question": "En la interpretación clásica de la genética de patologías mendelianas, ¿cuál es la razón fisiológica de que los síndromes asociados o ligados al cromosoma X alteren y perjudiquen de manera clínicamente distinta a las mujeres en comparación a los varones?",
-    "image": null,
-    "options": [
-      { "text": "Porque las mujeres disponen de copias dobles del cromosoma X, atenuando mutaciones recesivas, mientras los varones solo poseen uno funcionalmente expuesto.", "correct": true },
-      { "text": "Porque los andrógenos bloquean invariablemente la expresión ribosomal de todas las cadenas de ARN nacientes en la superficie del retículo celular.", "correct": false },
-      { "text": "Porque las mutaciones del cromosoma X sufren recombinaciones homólogas forzadas con el cromosoma Y mitocondrial paterno.", "correct": false },
-      { "text": "Porque la variabilidad ambiental es nula en las células somáticas femeninas adultas de la línea reproductiva germinal.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Considera la asimetría genómica que aporta el cromosoma Y en el sexo biológico masculino humano.",
-    "explanation": "La presencia de cromosomas homólogos (XX) en la mujer permite la compensación en enfermedades recesivas, mientras que el hombre (XY) manifiesta la anomalía de manera forzosa.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BP",
-    "question": "¿Por qué motivo técnico los reportes patológicos aseverando tajantemente que 'una fracción sumamente minúscula del cáncer es biológicamente heredable' se considera actualmente errónea y conceptualmente desfasada en la literatura oncológica?",
-    "image": null,
-    "options": [
-      { "text": "Porque el origen de la gran mayoría del cáncer integra una herencia compleja basada en variantes sutiles que aportan susceptibilidad estadística transgeneracional a las familias.", "correct": true },
-      { "text": "Porque la penetrancia completa demuestra clínicamente que el ambiente celular aislado es el factor desencadenante fundamental en todas las patologías oncológicas existentes.", "correct": false },
-      { "text": "Porque los modelos experimentales indican fehacientemente que las mutaciones de novo abarcan el total de la aparición de la transformación hipertrófica en los niños.", "correct": false },
-      { "text": "Porque todos y cada uno de los tumores gástricos sin excepción aparente están forzados por la infección vírica o por parásitos endémicos aislados de la genómica base.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El cáncer no se reduce únicamente a la herencia mendeliana perfecta; la predisposición familiar silenciosa constituye también un proceso hereditario relevante poblacionalmente.",
-    "explanation": "Además de las fallas monogénicas raras altamente penetrantes, existen incontables variantes génicas sutiles hereditarias que predisponen al cáncer como una condición compleja o multifactorial en la familia.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BQ",
-    "question": "¿Cuáles son los mecanismos moleculares epigenéticos o estructurales que determinan que suceda el efecto de Pérdida de la Heterocigosidad (LoH) durante la evolución tumoral de una célula mamífera?",
-    "image": null,
-    "options": [
-      { "text": "El silenciamiento profundo por metilación química de los promotores, inserciones o deleciones masivas, y alteraciones puntuales que inhabilitan la proteína protectora.", "correct": true },
-      { "text": "La recomposición milimétrica homóloga post-replicativa unida a la fosforilación inespecífica transitoria de múltiples membranas fosfolipídicas celulares.", "correct": false },
-      { "text": "El intercambio activo de ARN de transferencia entre células contiguas desprovistas de marcadores antigénicos primarios HLA.", "correct": false },
-      { "text": "El anclaje de un proto-oncogén a la estructura perimetral citoplasmática bloqueando la apoptosis inminente de los astrocitos.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Para suprimir el único alelo viable del gen supresor tumoral, la célula puede perder el segmento físico o apagar la lectura de su interruptor maestro (promotor).",
-    "explanation": "La pérdida de función del alelo silvestre ocurre por su eliminación física cromosómica, cambios aminoacídicos deletéreos o mecanismos epigenéticos como la metilación de promotores que bloquean la lectura.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BR",
-    "question": "En el área experimental biomédica, para realizar y corroborar un ensayo biológico de reparación funcional in vitro con variantes genéticas detectadas del gen humano BRCA1, ¿qué protocolo o técnica celular in vitro se utiliza convencionalmente?",
-    "image": null,
-    "options": [
-      { "text": "Células vivas en cultivo transfectadas con un vector plasmídico que contiene el gen alterado, y posteriormente se exponen a radiación lesiva controlada.", "correct": true },
-      { "text": "Aislamiento selectivo de linfocitos infectados forzosamente con el virus sincitial respiratorio para medir la liberación de histamina purificada.", "correct": false },
-      { "text": "Inyección directa y continua de anticuerpos monoclonales marcados con fluorescencia verde hacia las mitocondrias de ratones de experimentación modificados genéticamente.", "correct": false },
-      { "text": "Centrifugación de un extracto crudo nuclear con la enzima lipasa purificada analizando el daño oxidativo inducido en las membranas celulares.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Para estudiar cómo reacciona BRCA1 (un gen de reparación del ADN), necesitas un escenario donde se rompan experimentalmente las hebras del núcleo.",
-    "explanation": "Se analiza la capacidad fisiológica funcional de BRCA1 transfectando células cultivadas in vitro y provocando estrés o roturas deliberadas de la doble hélice genómica mediante irradiación actínica.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BS",
-    "question": "Con base en los estatus de predicción genética clínica, ¿qué margen o certeza estadística debe satisfacer una mutación genómica novedosa detectada para ser interpretada o reportada a un paciente estipuladamente como 'variante probablemente patogénica'?",
-    "image": null,
-    "options": [
-      { "text": "Poseer un margen de confianza y una probabilidad superior al $90\\%$ de originar anomalías o causar patología biológica.", "correct": true },
-      { "text": "Poseer un margen inferior al umbral estadístico del $10\\%$ evitando la interferencia de variables de significado celular incierto repetitivo.", "correct": false },
-      { "text": "Demostrar que interfiere rigurosamente un $50\\%$ de las estructuras proteómicas plegadas secundariamente con chaperoninas térmicas.", "correct": false },
-      { "text": "Tener una estimación perfecta y exenta del $100\\%$ para desencadenar procesos autoinmunes letales de origen congénito sistémico.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Esta clasificación se otorga cuando los algoritmos in silico indican que es casi seguro (pero sin certeza rotunda de ensayo celular final) que destruirá la función de la proteína diana.",
-    "explanation": "El ACMG ha estandarizado que una 'variante probablemente patogénica' es aquella cuyo análisis exhaustivo predice un riesgo de disfunción biológica o enfermedad mayor o igual a nueve de cada diez (>$90\\%$).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BT",
-    "question": "En la regulación estricta del ciclo proliferativo normal, ¿qué nombre técnico y biológico reciben aquellas enzimas intracelulares que suprimen drásticamente la mitosis descontrolada o detienen intermitentemente el ciclo como 'frenos protectores' vitales?",
-    "image": null,
-    "options": [
-      { "text": "Supresores tumorales", "correct": true },
-      { "text": "Factor de necrosis isquémico", "correct": false },
-      { "text": "Glicoproteínas de anclaje periférico", "correct": false },
-      { "text": "Catalizadores de diferenciación retrógrada", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Su nombre describe su propósito clínico fundamental en onco-genética: evitar la proliferación y crecimiento celular aberrante y tumoral.",
-    "explanation": "Los genes supresores de tumor producen las proteínas encargadas de verificar los 'puntos de control', frenar el avance del ciclo celular y promover la apoptosis ante estrés celular excesivo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BU",
-    "question": "Un oncólogo del CEPREDIX documenta que un joven adulto hereda una mutación en uno de sus alelos del gen MLH1, y su estudio biomolecular gástrico demuestra pérdida absoluta del cien por ciento de la actividad reparadora nucleotídica solo en el tejido tumoral analizado. Con base en la genética mendeliana oncológica, ¿qué inferencia mecanicista debe haber ocurrido a nivel subcelular?",
-    "image": null,
-    "options": [
-      { "text": "La célula somática germinal originadora debió haber sufrido un segundo golpe genético inactividador o una metilación sobre el alelo reparador remanente.", "correct": true },
-      { "text": "La célula inmunitaria debió experimentar un proceso de fusión aleatoria irreversible promoviendo una resistencia paralela contra todos los retrovirus conocidos.", "correct": false },
-      { "text": "La actividad celular debió expandirse por la circulación y disipar completamente el único cromosoma nuclear homólogo remanente del paciente adulto.", "correct": false },
-      { "text": "La estructura citoplasmática debió bloquear artificialmente el metabolismo energético celular impidiendo la apoptosis forzada sistémica transitoria.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Si se perdió la reparación al $100\\%$, significa que la segunda copia que protegía a este gen esencial dejó de funcionar súbitamente de manera irreversible.",
-    "explanation": "Acorde a la hipótesis de Knudson (LoH), para perder por completo la función protectora de reparación en un tejido, el segundo alelo silvestre debió haber sido dañado o silenciado post-concepcionalmente (segundo golpe).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BV",
-    "question": "En genealogías comunitarias de análisis de patologías, ¿cómo se tipifica estadísticamente a una alteración hereditaria cuando dos progenitores consanguíneos asintomáticos engendran uno o más hijos con una alteración genética de alta severidad previamente indetectada?",
-    "image": null,
-    "options": [
-      { "text": "Trastorno mendeliano de patrón autosómico recesivo.", "correct": true },
-      { "text": "Anomalía degenerativa mitocondrial paterna excluyente.", "correct": false },
-      { "text": "Efecto secundario de interacción genética epistásica.", "correct": false },
-      { "text": "Herencia transgeneracional dominante somática de novo.", "correct": false }
-    ],
-    "uni_tags": ["PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "En este escenario ambos padres tienen un gen defectuoso enmascarado por el alelo sano, y se reúnen estadísticamente con mayor probabilidad por los lazos de parentesco celular.",
-    "explanation": "La consanguinidad aumenta el riesgo estadístico drástico en la herencia autosómica recesiva, logrando que dos portadores silentes sin patología coincidan aportando ambos las mutaciones necesarias al descendiente.",
-    "explanative_video": null,
-    "collapsible_text": null
+    "collapsible_text": "Acceso al artículo: https://tinyurl.com/4t8rrdxc"
   }
 ]
