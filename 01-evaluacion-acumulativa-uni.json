@@ -19,199 +19,199 @@
   },
   {
     "id": "CEP00AB",
-    "question": "Simplifica la siguiente expresión algebraica: $\\frac{x^2 - 7x + 12}{x^2 - 9} \\div \\frac{x-4}{x^2+6x+9}$",
+    "question": "Simplifica la siguiente expresión algebraica utilizando productos notables: $\\frac{x^2 - 10x + 25}{x^2 - 25}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$x+3$", "correct": true },
-      { "text": "$x-4$", "correct": false },
-      { "text": "$x-3$", "correct": false },
-      { "text": "$x+4$", "correct": false }
+      { "text": "$\\frac{x-5}{x+5}$", "correct": true },
+      { "text": "$\\frac{x+5}{x-5}$", "correct": false },
+      { "text": "$\\frac{x-25}{x+25}$", "correct": false },
+      { "text": "$\\frac{1}{x+5}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Convierte la división en multiplicación invirtiendo la segunda fracción y factoriza todos los trinomios y binomios.",
-    "explanation": "Primero factorizamos: $\\frac{(x-3)(x-4)}{(x-3)(x+3)} \\div \\frac{x-4}{(x+3)^2}$. Invertimos para multiplicar: $\\frac{(x-3)(x-4)}{(x-3)(x+3)} \\cdot \\frac{(x+3)^2}{x-4}$. Simplificando los términos comunes $(x-3)$, $(x-4)$ y un $(x+3)$, nos queda únicamente $x+3$.",
+    "hint": "Identifica un trinomio cuadrado perfecto en el numerador y una diferencia de cuadrados en el denominador.",
+    "explanation": "El numerador es un trinomio cuadrado perfecto que se factoriza como $(x-5)^2$. El denominador es una diferencia de cuadrados que se factoriza como $(x-5)(x+5)$. Al sustituir obtenemos $\\frac{(x-5)^2}{(x-5)(x+5)}$. Dividiendo los términos comunes $(x-5)$, el resultado es $\\frac{x-5}{x+5}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AC",
-    "question": "Reduce a su mínima expresión: $\\frac{1 - \\frac{1}{x^2}}{1 + \\frac{1}{x}}$",
+    "question": "Aplica la factorización de suma de cubos y diferencia de cuadrados para reducir la expresión: $\\frac{x^3 + 27}{x^2 - 9}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$\\frac{x+1}{x}$", "correct": false },
-      { "text": "$\\frac{x-1}{x}$", "correct": true },
-      { "text": "$\\frac{x}{x-1}$", "correct": false },
-      { "text": "$\\frac{x-1}{x^2}$", "correct": false }
+      { "text": "$\\frac{x^2 + 3x + 9}{x-3}$", "correct": false },
+      { "text": "$\\frac{x^2 - 3x + 9}{x-3}$", "correct": true },
+      { "text": "$\\frac{x^2 - 3x + 9}{x+3}$", "correct": false },
+      { "text": "$\\frac{x^2 + 9}{x-3}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Realiza las sumas y restas de fracciones algebraicas en el numerador y denominador por separado antes de aplicar la ley del sándwich.",
-    "explanation": "El numerador se convierte en $\\frac{x^2-1}{x^2}$ y el denominador en $\\frac{x+1}{x}$. Al dividir obtenemos $\\frac{x(x^2-1)}{x^2(x+1)}$. Factorizamos la diferencia de cuadrados: $\\frac{x(x-1)(x+1)}{x^2(x+1)}$. Cancelando términos iguales queda $\\frac{x-1}{x}$.",
+    "hint": "La suma de cubos se factoriza como $a^3+b^3 = (a+b)(a^2-ab+b^2)$. Aplica esto al numerador considerando $b=3$.",
+    "explanation": "El numerador se factoriza como $(x+3)(x^2 - 3x + 9)$. El denominador es una diferencia de cuadrados y se factoriza como $(x-3)(x+3)$. Al formar la fracción $\\frac{(x+3)(x^2 - 3x + 9)}{(x-3)(x+3)}$, podemos cancelar el binomio $(x+3)$, resultando en $\\frac{x^2 - 3x + 9}{x-3}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AD",
-    "question": "Simplifica la expresión asumiendo que $x, y > 0$: $\\left( \\frac{x^3 y^{-2}}{x^{-1} y^4} \\right)^{-1/2}$",
+    "question": "Resuelve la multiplicación de expresiones racionales y simplifica: $\\frac{x^2 - 16}{x^2 + 8x + 16} \\cdot \\frac{x+4}{x-4}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$x^2 y^3$", "correct": false },
-      { "text": "$\\frac{x^2}{y^3}$", "correct": false },
-      { "text": "$\\frac{y^2}{x^3}$", "correct": false },
-      { "text": "$\\frac{y^3}{x^2}$", "correct": true }
+      { "text": "$x-4$", "correct": false },
+      { "text": "$\\frac{x-4}{x+4}$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$1$", "correct": true }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Aplica las leyes de los exponentes para simplificar el interior del paréntesis recordando que $\\frac{a^m}{a^n} = a^{m-n}$ y luego aplica la potencia fraccionaria.",
-    "explanation": "Simplificamos dentro del paréntesis: $x^{3-(-1)} y^{-2-4} = x^4 y^{-6}$. Elevamos al exponente exterior multiplicando potencias: $(x^4)^{-1/2} (y^{-6})^{-1/2} = x^{-2} y^3$. Para expresar con exponentes positivos, invertimos la base de $x$, resultando en $\\frac{y^3}{x^2}$.",
+    "hint": "Factoriza la diferencia de cuadrados y el trinomio cuadrado perfecto de la primera fracción antes de realizar la multiplicación.",
+    "explanation": "Factorizamos la primera fracción: el numerador es $(x-4)(x+4)$ y el denominador es $(x+4)^2$. La expresión completa es $\\frac{(x-4)(x+4)}{(x+4)(x+4)} \\cdot \\frac{x+4}{x-4}$. Todos los factores del numerador $(x-4)$, $(x+4)$, $(x+4)$ se cancelan con todos los factores del denominador, lo que da como resultado $1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AE",
-    "question": "Al simplificar la fracción algebraica $\\frac{a^3 + 8}{a^2 - 2a + 4}$, el resultado obtenido es:",
+    "question": "Simplifica la siguiente expresión que involucra una diferencia de cubos: $\\frac{8x^3 - 1}{4x^2 - 4x + 1}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$a-2$", "correct": false },
-      { "text": "$a^2+4$", "correct": false },
-      { "text": "$a+2$", "correct": true },
-      { "text": "$a+4$", "correct": false }
+      { "text": "$\\frac{4x^2 + 2x + 1}{2x-1}$", "correct": true },
+      { "text": "$\\frac{4x^2 - 2x + 1}{2x-1}$", "correct": false },
+      { "text": "$\\frac{4x^2 + 2x + 1}{2x+1}$", "correct": false },
+      { "text": "$2x+1$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "El numerador es una suma de cubos. Su factorización tiene la forma $x^3+y^3 = (x+y)(x^2-xy+y^2)$.",
-    "explanation": "Factorizamos la suma de cubos $a^3 + 2^3$, lo que da como resultado $(a+2)(a^2 - 2a + 4)$. Al dividir esto entre el trinomio del denominador $(a^2 - 2a + 4)$, el trinomio se cancela por completo, dejando únicamente $a+2$.",
+    "hint": "Recuerda que $(2x)^3 = 8x^3$. Usa la fórmula de la diferencia de cubos $a^3-b^3=(a-b)(a^2+ab+b^2)$ en el numerador.",
+    "explanation": "El numerador $8x^3 - 1$ se factoriza como $(2x - 1)(4x^2 + 2x + 1)$. El denominador $4x^2 - 4x + 1$ es un trinomio cuadrado perfecto que equivale a $(2x - 1)^2$. Al dividir $\\frac{(2x - 1)(4x^2 + 2x + 1)}{(2x - 1)^2}$, cancelamos un factor $(2x-1)$, obteniendo $\\frac{4x^2 + 2x + 1}{2x-1}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AF",
-    "question": "Realiza la suma de fracciones y simplifica: $\\frac{2}{x-1} + \\frac{3}{x+1} - \\frac{4x}{x^2-1}$",
+    "question": "Reduce la siguiente fracción compleja operando los productos notables implícitos: $\\frac{1 - \\frac{y^2}{x^2}}{\\frac{1}{x} - \\frac{y}{x^2}}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$\\frac{1}{x+1}$", "correct": true },
-      { "text": "$\\frac{1}{x-1}$", "correct": false },
-      { "text": "$\\frac{x}{x^2-1}$", "correct": false },
-      { "text": "$\\frac{-1}{x+1}$", "correct": false }
+      { "text": "$x-y$", "correct": false },
+      { "text": "$x+y$", "correct": true },
+      { "text": "$\\frac{x+y}{x}$", "correct": false },
+      { "text": "$\\frac{x-y}{x}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Encuentra el mínimo común múltiplo de los denominadores. Nota que $x^2-1 = (x-1)(x+1)$.",
-    "explanation": "El común denominador es $(x-1)(x+1)$. Expresamos todo con este denominador: $\\frac{2(x+1) + 3(x-1) - 4x}{(x-1)(x+1)}$. Desarrollamos el numerador: $2x + 2 + 3x - 3 - 4x = x - 1$. La fracción queda $\\frac{x-1}{(x-1)(x+1)}$. Simplificando obtenemos $\\frac{1}{x+1}$.",
+    "hint": "Resuelve la resta de fracciones en el numerador y en el denominador obteniendo un denominador común $x^2$, y luego aplica la ley del sándwich.",
+    "explanation": "El numerador se convierte en $\\frac{x^2 - y^2}{x^2}$. El denominador se convierte en $\\frac{x - y}{x^2}$. Al aplicar la división de fracciones (ley del sándwich), los denominadores $x^2$ se cancelan, quedando $\\frac{x^2 - y^2}{x - y}$. El numerador es una diferencia de cuadrados $(x-y)(x+y)$, y al dividir por $(x-y)$ el resultado es $x+y$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AG",
-    "question": "¿Cuál es la forma simplificada de la expresión $\\frac{\\sqrt{16x^4 y^6}}{\\sqrt[3]{8x^6 y^3}}$ considerando $x, y > 0$?",
+    "question": "Simplifica la expresión algebraica sacando provecho de la diferencia de cuadrados repetida: $\\frac{x^4 - 1}{x^2 + 1}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$4y^2$", "correct": false },
-      { "text": "$2y^2$", "correct": true },
-      { "text": "$2xy^2$", "correct": false },
-      { "text": "$2y^3$", "correct": false }
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$x^4 + 1$", "correct": false },
+      { "text": "$x^2 - 1$", "correct": true }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Extrae las raíces en el numerador y el denominador por separado recordando que $\\sqrt[n]{x^m} = x^{m/n}$.",
-    "explanation": "Para el numerador aplicamos raíz cuadrada: $\\sqrt{16x^4 y^6} = 4x^2 y^3$. Para el denominador aplicamos raíz cúbica: $\\sqrt[3]{8x^6 y^3} = 2x^2 y$. Dividimos los resultados: $\\frac{4x^2 y^3}{2x^2 y} = 2y^2$.",
+    "hint": "El término $x^4 - 1$ puede verse como una diferencia de cuadrados de la forma $(a^2)^2 - (b^2)^2$.",
+    "explanation": "La expresión $x^4 - 1$ se factoriza utilizando la diferencia de cuadrados como $(x^2 - 1)(x^2 + 1)$. Al sustituir en la fracción original obtenemos $\\frac{(x^2 - 1)(x^2 + 1)}{x^2 + 1}$. Cancelando el factor común $(x^2 + 1)$, nos queda únicamente $x^2 - 1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AH",
-    "question": "Simplifica la expresión $\\frac{(x+y)^2 - z^2}{x+y+z}$.",
+    "question": "Lleva a cabo la división de expresiones racionales y encuentra el resultado simplificado: $\\frac{a^2 - b^2}{a^2 - 2ab + b^2} \\div \\frac{a+b}{a-b}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$x-y+z$", "correct": false },
-      { "text": "$x+y+z$", "correct": false },
-      { "text": "$x+y-z$", "correct": true },
-      { "text": "$x-y-z$", "correct": false }
+      { "text": "$a-b$", "correct": false },
+      { "text": "$\\frac{a+b}{a-b}$", "correct": false },
+      { "text": "$1$", "correct": true },
+      { "text": "$\\frac{a-b}{a+b}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Observa que el numerador tiene la forma de una diferencia de cuadrados $A^2 - B^2$, donde $A = (x+y)$ y $B = z$.",
-    "explanation": "Aplicando la factorización de la diferencia de cuadrados en el numerador obtenemos: $((x+y) - z)((x+y) + z) = (x+y-z)(x+y+z)$. Al dividir esta expresión entre el denominador $(x+y+z)$, se cancelan los términos comunes y resulta $x+y-z$.",
+    "hint": "Transforma la división en una multiplicación invertiendo la segunda fracción y luego factoriza la diferencia de cuadrados y el trinomio.",
+    "explanation": "La operación se reescribe como multiplicación: $\\frac{a^2 - b^2}{a^2 - 2ab + b^2} \\cdot \\frac{a-b}{a+b}$. Factorizamos la primera fracción resultando en $\\frac{(a-b)(a+b)}{(a-b)^2}$. Multiplicando, la expresión completa es $\\frac{(a-b)(a+b)(a-b)}{(a-b)^2(a+b)}$. Los términos del numerador $(a-b)^2(a+b)$ coinciden exactamente con los del denominador, por lo que todo se cancela y el resultado es $1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AI",
-    "question": "Simplifica y racionaliza la expresión: $\\frac{x-4}{\\sqrt{x}-2}$",
+    "question": "Identifica los productos notables y simplifica la siguiente expresión: $\\frac{16a^4 - 81b^4}{4a^2 + 9b^2}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$x+2$", "correct": false },
-      { "text": "$x-2$", "correct": false },
-      { "text": "$\\sqrt{x}-2$", "correct": false },
-      { "text": "$\\sqrt{x}+2$", "correct": true }
+      { "text": "$4a^2 + 9b^2$", "correct": false },
+      { "text": "$2a - 3b$", "correct": false },
+      { "text": "$4a^2 - 9b^2$", "correct": true },
+      { "text": "$16a^2 - 81b^2$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Multiplica el numerador y el denominador por el conjugado del denominador, es decir, $\\sqrt{x}+2$. Alternativamente, factoriza el numerador como diferencia de cuadrados.",
-    "explanation": "Podemos ver a $x-4$ como una diferencia de cuadrados: $(\\sqrt{x})^2 - 2^2$. Esto se factoriza como $(\\sqrt{x}-2)(\\sqrt{x}+2)$. Al dividir entre $(\\sqrt{x}-2)$, se cancela ese factor y queda $\\sqrt{x}+2$.",
+    "hint": "El numerador es una diferencia de cuadrados perfectos donde el primer término es $(4a^2)^2$ y el segundo es $(9b^2)^2$.",
+    "explanation": "Podemos reescribir el numerador como una diferencia de cuadrados: $(4a^2)^2 - (9b^2)^2$. Al factorizar obtenemos $(4a^2 - 9b^2)(4a^2 + 9b^2)$. Sustituyendo en la fracción original resulta $\\frac{(4a^2 - 9b^2)(4a^2 + 9b^2)}{4a^2 + 9b^2}$. Cancelamos el factor común del numerador y el denominador, dejando $4a^2 - 9b^2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AJ",
-    "question": "Reduce la siguiente fracción algebraica: $\\frac{ax + ay + bx + by}{x^2 - y^2}$ con $x \\neq y$.",
+    "question": "Simplifica la expresión fraccionaria que contiene el cuadrado de binomios: $\\frac{(x+y)^2 - z^2}{(x-z)^2 - y^2}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$\\frac{a+b}{x-y}$", "correct": true },
-      { "text": "$\\frac{a+b}{x+y}$", "correct": false },
-      { "text": "$\\frac{a-b}{x-y}$", "correct": false },
-      { "text": "$\\frac{a-b}{x+y}$", "correct": false }
+      { "text": "$\\frac{x-y+z}{x+y-z}$", "correct": false },
+      { "text": "$\\frac{x+y+z}{x-y-z}$", "correct": true },
+      { "text": "$\\frac{x+y-z}{x-y+z}$", "correct": false },
+      { "text": "$\\frac{x+y+z}{x+y-z}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Factoriza el numerador por agrupación de términos y el denominador como una diferencia de cuadrados.",
-    "explanation": "En el numerador agrupamos: $a(x+y) + b(x+y) = (a+b)(x+y)$. El denominador se factoriza como $(x-y)(x+y)$. La expresión es $\\frac{(a+b)(x+y)}{(x-y)(x+y)}$. Cancelando $(x+y)$ nos queda $\\frac{a+b}{x-y}$.",
+    "hint": "Tanto el numerador como el denominador son diferencias de cuadrados del tipo $A^2 - B^2 = (A-B)(A+B)$.",
+    "explanation": "Para el numerador, la factorización da $((x+y) - z)((x+y) + z) = (x+y-z)(x+y+z)$. Para el denominador, obtenemos $((x-z) - y)((x-z) + y) = (x-y-z)(x+y-z)$. Dividiendo ambas expresiones: $\\frac{(x+y-z)(x+y+z)}{(x-y-z)(x+y-z)}$. Cancelamos el factor idéntico $(x+y-z)$ y obtenemos $\\frac{x+y+z}{x-y-z}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AK",
-    "question": "Simplifica $\\frac{2x^2 - 5x - 3}{2x^2 + x}$.",
+    "question": "Resuelve la división de expresiones algebraicas y simplifica mediante productos notables: $\\frac{m^3 + n^3}{m^2 - n^2} \\div \\frac{m^2 - mn + n^2}{m+n}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$\\frac{x+3}{x}$", "correct": false },
-      { "text": "$\\frac{x-3}{x}$", "correct": true },
-      { "text": "$\\frac{2x-3}{x}$", "correct": false },
-      { "text": "$\\frac{x-3}{2x}$", "correct": false }
+      { "text": "$\\frac{m-n}{m+n}$", "correct": false },
+      { "text": "$m+n$", "correct": false },
+      { "text": "$\\frac{m+n}{m-n}$", "correct": true },
+      { "text": "$m-n$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Factoriza el trinomio del numerador utilizando el método de tijeras o factorización por agrupación y extrae el factor común en el denominador.",
-    "explanation": "Factorizamos el numerador buscando dos números que multiplicados den $-6$ y sumados $-5$, resultando en $(2x+1)(x-3)$. En el denominador extraemos factor común $x$, obteniendo $x(2x+1)$. La fracción es $\\frac{(2x+1)(x-3)}{x(2x+1)}$. Al simplificar queda $\\frac{x-3}{x}$.",
+    "hint": "Convierte a multiplicación invirtiendo la segunda fracción. El numerador de la primera tiene una suma de cubos $m^3+n^3$.",
+    "explanation": "La operación se vuelve $\\frac{m^3 + n^3}{m^2 - n^2} \\cdot \\frac{m+n}{m^2 - mn + n^2}$. Factorizamos la primera fracción: el numerador es $(m+n)(m^2 - mn + n^2)$ y el denominador es $(m-n)(m+n)$. La fracción resultante es $\\frac{(m+n)(m^2 - mn + n^2)}{(m-n)(m+n)} \\cdot \\frac{m+n}{m^2 - mn + n^2}$. Cancelando los trinomios y uno de los binomios $(m+n)$, nos queda $\\frac{m+n}{m-n}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AL",
-    "question": "Encuentra la expresión equivalente a $\\frac{2 - \\frac{x}{y}}{\\frac{4y^2 - x^2}{xy}}$.",
+    "question": "Simplifica la fracción algebraica utilizando la factorización de diferencia de cuadrados: $\\frac{4x^2 - (y-z)^2}{(2x+y)^2 - z^2}$",
     "image": "https://raw.githubusercontent.com/IALUMX/imgs_reales/refs/heads/main/MATH_UAM_01.PNG",
     "options": [
-      { "text": "$\\frac{x}{2y-x}$", "correct": false },
-      { "text": "$\\frac{y}{2y+x}$", "correct": false },
-      { "text": "$\\frac{x}{2y+x}$", "correct": true },
-      { "text": "$\\frac{y}{2y-x}$", "correct": false }
+      { "text": "$\\frac{2x+y-z}{2x-y+z}$", "correct": false },
+      { "text": "$\\frac{2x-y-z}{2x+y+z}$", "correct": false },
+      { "text": "$\\frac{2x+y+z}{2x-y+z}$", "correct": false },
+      { "text": "$\\frac{2x-y+z}{2x+y+z}$", "correct": true }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["REAL"],
-    "hint": "Convierte el numerador a una sola fracción y utiliza la regla de extremos y medios, recordando factorizar el binomio $4y^2 - x^2$.",
-    "explanation": "El numerador unificado es $\\frac{2y-x}{y}$. Al aplicar extremos por extremos y medios por medios obtenemos $\\frac{(2y-x)xy}{y(4y^2-x^2)}$. Factorizando la diferencia de cuadrados del denominador: $\\frac{x(2y-x)}{(2y-x)(2y+x)}$. Cancelando $(2y-x)$ nos queda $\\frac{x}{2y+x}$.",
+    "hint": "En el numerador, considera a $2x$ como un solo término al cuadrado para formar la diferencia de cuadrados.",
+    "explanation": "El numerador es $(2x)^2 - (y-z)^2$, que se factoriza como $(2x - (y-z))(2x + (y-z)) = (2x-y+z)(2x+y-z)$. El denominador es $(2x+y)^2 - z^2$, que se factoriza como $((2x+y)-z)((2x+y)+z) = (2x+y-z)(2x+y+z)$. Al dividirlos $\\frac{(2x-y+z)(2x+y-z)}{(2x+y-z)(2x+y+z)}$, se cancela el factor $(2x+y-z)$, dejando como resultado $\\frac{2x-y+z}{2x+y+z}$.",
     "explanative_video": null,
     "collapsible_text": null
   }
