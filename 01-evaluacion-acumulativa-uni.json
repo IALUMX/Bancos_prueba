@@ -232,5 +232,365 @@
     "explanation": "Factorizamos completamente las diferencias de cuadrados: $(x^2-400) = (x-20)(x+20)$ y $(x^2-49) = (x-7)(x+7)$. Sustituyendo da como resultado $\\frac{(x-20)(x+20)(x-7)(x+7)}{(x-20)(x-7)(x+7)}$. Al cancelar todos los elementos idénticos que dividen, la respuesta final es $x+20$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Simplifica la siguiente expresión algebraica: $$\\frac{x^2 - 4}{x + 2}$$",
+    "image": null,
+    "options": [
+      { "text": "$x - 2$", "correct": true },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$x^2 - 2$", "correct": false },
+      { "text": "$\\frac{1}{x - 2}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica y factoriza la diferencia de cuadrados en el numerador empleando la forma $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "El numerador es una diferencia de cuadrados que se factoriza como $(x-2)(x+2)$. Al dividir entre el denominador $(x+2)$, se cancelan los términos semejantes y el resultado es $x-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Reduce a su mínima expresión la siguiente fracción algebraica: $$\\frac{x + 3}{x^2 + 6x + 9}$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x + 3}$", "correct": true },
+      { "text": "$x + 3$", "correct": false },
+      { "text": "$\\frac{1}{x - 3}$", "correct": false },
+      { "text": "$x^2 + 3$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica un trinomio cuadrado perfecto en el denominador basándote en la estructura $a^2 + 2ab + b^2 = (a+b)^2$.",
+    "explanation": "El denominador es un trinomio cuadrado perfecto que se factoriza como $(x+3)^2$. Al simplificar con el numerador $(x+3)$, obtenemos la fracción con $1$ en el numerador y $(x+3)$ en el denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Al simplificar la fracción algebraica $$\\frac{2x + 4}{x + 2}$$, ¿qué expresión se obtiene?",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$2x$", "correct": false },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la extracción de factor común en el numerador. Busca el máximo común divisor de los coeficientes.",
+    "explanation": "Factorizando el numerador por término común obtenemos $2(x+2)$. Al dividir entre el denominador $(x+2)$, los términos binomiales se cancelan y queda únicamente el número $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Determina la forma simplificada de la expresión: $$\\frac{x^2 - 1}{x - 1}$$",
+    "image": null,
+    "options": [
+      { "text": "$x + 1$", "correct": true },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la regla de factorización para diferencia de cuadrados $a^2 - b^2 = (a-b)(a+b)$ en la parte superior.",
+    "explanation": "El término del numerador se factoriza en dos binomios conjugados $(x-1)(x+1)$. Al anular el término $(x-1)$ con el denominador, nos queda la expresión lineal $x+1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Encuentra la expresión equivalente y simplificada para: $$\\frac{x^2 - 2x + 1}{x - 1}$$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$\\frac{1}{x - 1}$", "correct": false },
+      { "text": "$x^2 - 1$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador tiene la forma de un trinomio cuadrado perfecto $a^2 - 2ab + b^2 = (a-b)^2$.",
+    "explanation": "Factorizamos el numerador que es un trinomio cuadrado perfecto, obteniendo $(x-1)^2$. Al dividir una potencia entre su base $(x-1)$, se reduce el exponente, resultando en $x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Cuál es el resultado de reducir la siguiente fracción algebraica? $$\\frac{3x - 9}{x - 3}$$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$3x$", "correct": false },
+      { "text": "$x - 3$", "correct": false },
+      { "text": "$-3$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza extrayendo el máximo factor común de los términos del numerador.",
+    "explanation": "Se extrae el factor común $3$ en el numerador, lo cual nos deja con la expresión $3(x-3)$. Al dividir por el binomio idéntico del denominador, el resultado es simplemente $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Simplifica la expresión algebraica mostrada a continuación: $$\\frac{x^2 - 16}{x - 4}$$",
+    "image": null,
+    "options": [
+      { "text": "$x + 4$", "correct": true },
+      { "text": "$x - 4$", "correct": false },
+      { "text": "$\\frac{1}{x + 4}$", "correct": false },
+      { "text": "$x^2 + 4$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la factorización de diferencia de cuadrados $a^2 - b^2 = (a-b)(a+b)$ en el polinomio del numerador.",
+    "explanation": "El binomio del numerador es una diferencia de cuadrados perfecta que resulta en $(x-4)(x+4)$. Cancelando el factor $(x-4)$ que comparte con el denominador, la respuesta es $x+4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Realiza la simplificación de la fracción: $$\\frac{x + 5}{x^2 - 25}$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x - 5}$", "correct": true },
+      { "text": "$x - 5$", "correct": false },
+      { "text": "$x + 5$", "correct": false },
+      { "text": "$\\frac{1}{x + 5}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el denominador mediante la diferencia de cuadrados $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "El denominador se descompone en binomios conjugados $(x-5)(x+5)$. Al dividir el numerador $(x+5)$ entre los factores del denominador, se cancela el término común y queda $\\frac{1}{x-5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "¿Qué expresión se obtiene al simplificar la fracción $$\\frac{x^2 + 4x + 4}{x + 2}$$?",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$\\frac{1}{x + 2}$", "correct": false },
+      { "text": "$2x + 4$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que el polinomio de grado dos en el numerador corresponde a la regla $a^2 + 2ab + b^2 = (a+b)^2$.",
+    "explanation": "El numerador se factoriza como el binomio al cuadrado $(x+2)^2$. Al realizar la división entre $(x+2)$, se elimina un grado del numerador y la respuesta es $x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Reduce la expresión algebraica a su forma más simple: $$\\frac{4x^2 - 9}{2x + 3}$$",
+    "image": null,
+    "options": [
+      { "text": "$2x - 3$", "correct": true },
+      { "text": "$2x + 3$", "correct": false },
+      { "text": "$4x - 3$", "correct": false },
+      { "text": "$\\frac{1}{2x - 3}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El polinomio superior es una diferencia de cuadrados que sigue la regla $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La expresión del numerador se desglosa en dos factores conjugados $(2x-3)(2x+3)$. Al cancelar el término coincidente en el denominador, obtenemos $2x-3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Simplifica el siguiente cociente de polinomios: $$\\frac{x^2 - 10x + 25}{x - 5}$$",
+    "image": null,
+    "options": [
+      { "text": "$x - 5$", "correct": true },
+      { "text": "$x + 5$", "correct": false },
+      { "text": "$\\frac{1}{x - 5}$", "correct": false },
+      { "text": "$x^2 - 5$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si el numerador cumple con la estructura de un trinomio cuadrado perfecto $a^2 - 2ab + b^2 = (a-b)^2$.",
+    "explanation": "Al factorizar el numerador, comprobamos que es $(x-5)^2$. La división de este término entre $(x-5)$ reduce la potencia, dejando como simplificación final $x-5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Halla la forma equivalente simplificada de la fracción: $$\\frac{5x + 10}{x^2 + 4x + 4}$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{x + 2}$", "correct": true },
+      { "text": "$\\frac{x + 2}{5}$", "correct": false },
+      { "text": "$5(x + 2)$", "correct": false },
+      { "text": "$\\frac{5}{x - 2}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Combina la técnica de factor común en el numerador con la de trinomio cuadrado perfecto en el denominador.",
+    "explanation": "El numerador se factoriza como $5(x+2)$ y el denominador como $(x+2)^2$. Cancelando un factor $(x+2)$ arriba y abajo, la fracción irreducible es $\\frac{5}{x+2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "¿Cuál es la simplificación correcta para la expresión $$\\frac{x^2 - y^2}{x + y}$$?",
+    "image": null,
+    "options": [
+      { "text": "$x - y$", "correct": true },
+      { "text": "$x + y$", "correct": false },
+      { "text": "$\\frac{1}{x - y}$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la factorización básica de una diferencia de cuadrados $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "El numerador algebraico se separa en el producto $(x-y)(x+y)$. Al anular el binomio $(x+y)$ del denominador, la respuesta resultante es $x-y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Determina el resultado de simplificar la siguiente división algebraica: $$\\frac{a^2 + 2ab + b^2}{a + b}$$",
+    "image": null,
+    "options": [
+      { "text": "$a + b$", "correct": true },
+      { "text": "$a - b$", "correct": false },
+      { "text": "$a^2 + b^2$", "correct": false },
+      { "text": "$\\frac{1}{a + b}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que el numerador corresponde al desarrollo de un binomio al cuadrado $(a+b)^2$.",
+    "explanation": "Factorizando el numerador obtenemos la expresión $(a+b)^2$. Al dividir esta base elevada al cuadrado entre sí misma a la primera potencia, nos queda únicamente $a+b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Reduce la expresión a su mínima forma: $$\\frac{x^2 - 36}{x + 6}$$",
+    "image": null,
+    "options": [
+      { "text": "$x - 6$", "correct": true },
+      { "text": "$x + 6$", "correct": false },
+      { "text": "$\\frac{1}{x - 6}$", "correct": false },
+      { "text": "$x^2 - 6$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa el numerador como el producto de binomios conjugados usando $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La diferencia de cuadrados del numerador se factoriza en $(x-6)(x+6)$. Eliminando el factor coincidente con el denominador, la forma simplificada es $x-6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Qué fracción se obtiene al simplificar $$\\frac{2x - 2}{x^2 - 1}$$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{x + 1}$", "correct": true },
+      { "text": "$\\frac{2}{x - 1}$", "correct": false },
+      { "text": "$2(x + 1)$", "correct": false },
+      { "text": "$\\frac{1}{x + 1}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común en la parte superior y factoriza como diferencia de cuadrados la parte inferior.",
+    "explanation": "Arriba extraemos el coeficiente para obtener $2(x-1)$. Abajo usamos productos notables para obtener $(x-1)(x+1)$. Al anular el término $(x-1)$, resulta $\\frac{2}{x+1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Simplifica algebraicamente la fracción que se muestra: $$\\frac{x^2 + 8x + 16}{x + 4}$$",
+    "image": null,
+    "options": [
+      { "text": "$x + 4$", "correct": true },
+      { "text": "$x - 4$", "correct": false },
+      { "text": "$\\frac{1}{x + 4}$", "correct": false },
+      { "text": "$x^2 + 4$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica la regla del trinomio cuadrado perfecto $a^2 + 2ab + b^2 = (a+b)^2$ aplicada al numerador.",
+    "explanation": "El polinomio superior equivale a multiplicar el binomio $(x+4)$ por sí mismo, es decir, $(x+4)^2$. Tras cancelar un grado con el denominador, la expresión se reduce a $x+4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Encuentra la forma reducida de la siguiente expresión: $$\\frac{9x^2 - 1}{3x - 1}$$",
+    "image": null,
+    "options": [
+      { "text": "$3x + 1$", "correct": true },
+      { "text": "$3x - 1$", "correct": false },
+      { "text": "$9x + 1$", "correct": false },
+      { "text": "$\\frac{1}{3x + 1}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término cuadrático del numerador puede descomponerse mediante diferencia de cuadrados $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "Notamos que $(3x)^2 - (1)^2$ se factoriza en los conjugados $(3x-1)(3x+1)$. Al suprimir el binomio que también aparece abajo, la respuesta final es $3x+1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Al simplificar la expresión $$\\frac{x^2 - 12x + 36}{x - 6}$$, el resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "$x - 6$", "correct": true },
+      { "text": "$x + 6$", "correct": false },
+      { "text": "$\\frac{1}{x - 6}$", "correct": false },
+      { "text": "$x^2 - 6$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Comprueba si el término superior corresponde a la forma desarrollada de $(a-b)^2 = a^2 - 2ab + b^2$.",
+    "explanation": "La factorización del numerador arroja el binomio al cuadrado $(x-6)^2$. Reduciendo este término con el denominador simple, se obtiene la expresión lineal $x-6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Realiza la división algebraica para simplificar: $$\\frac{7x + 14}{x + 2}$$",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$7x$", "correct": false },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$\\frac{1}{7}$", "correct": false }
+    ],
+    "uni_tags": ["ÁLGEBRA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el máximo común divisor numérico de los componentes del numerador para efectuar la factorización.",
+    "explanation": "Aplicando factor común en el polinomio superior se genera la forma $7(x+2)$. El binomio resultante se cancela con el denominador idéntico, por lo que el coeficiente $7$ es el resultado.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
