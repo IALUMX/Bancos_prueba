@@ -970,5 +970,221 @@
     "explanation": "Los lípidos están altamente reducidos; sus largas cadenas de hidrocarburos ricas en enlaces C-H liberan más del doble de energía por gramo ($9 \\text{ kcal/g}$) que los carbohidratos ($4 \\text{ kcal/g}$) al ser oxidadas.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Cuál de los siguientes enunciados es una consecuencia directa de la tercera ley de la Termodinámica?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "No es posible alcanzar el cero absoluto de temperatura", "correct": false },
+      { "text": "Todo sistema térmico deja de emitir energía en el cero absoluto", "correct": false },
+      { "text": "Un sistema aislado no intercambia energía con su entorno", "correct": false },
+      { "text": "La entropía de un cristal perfecto en el cero absoluto es cero", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Relaciona esta ley con el comportamiento límite de la entropía a $0 \\text{ K}$.",
+    "explanation": "La tercera ley de la termodinámica establece que a medida que la temperatura de un sistema se acerca al cero absoluto ($0 \\text{ K}$), la entropía del sistema se aproxima a un valor mínimo constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Si el sistema A está en equilibrio térmico con el sistema B, y el sistema B está en equilibrio térmico con el sistema C, ¿qué se concluye sobre los sistemas A y C?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Tienen la misma energía interna", "correct": false },
+      { "text": "Están en equilibrio térmico entre sí", "correct": true },
+      { "text": "Intercambian el mismo trabajo con el entorno", "correct": false },
+      { "text": "Tienen la misma entropía", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Se refiere a la propiedad de transitividad del equilibrio.",
+    "explanation": "Esta es la definición de la Ley Cero de la termodinámica, que establece la transitividad del equilibrio térmico y sirve de base teórica para el uso de los termómetros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "¿Cómo se expresa matemáticamente la primera ley de la termodinámica para un sistema cerrado?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "$\\Delta U = Q - W$", "correct": true },
+      { "text": "$\\Delta S \\geq 0$", "correct": false },
+      { "text": "$PV = nRT$", "correct": false },
+      { "text": "$W = P\\Delta V$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Es el principio de conservación de la energía aplicado a sistemas termodinámicos.",
+    "explanation": "La primera ley es el principio de conservación de la energía, indicando que el cambio en la energía interna ($\\Delta U$) de un sistema es igual al calor añadido ($Q$) menos el trabajo realizado por el sistema ($W$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Según el enunciado de Kelvin-Planck de la segunda ley de la termodinámica, es imposible construir una máquina térmica que, operando en un ciclo...",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Transfiera calor de un cuerpo frío a uno caliente sin trabajo externo", "correct": false },
+      { "text": "Convierta completamente todo el calor absorbido en trabajo útil", "correct": true },
+      { "text": "Alcance una eficiencia mayor al 50%", "correct": false },
+      { "text": "Funcione de manera completamente reversible", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Ningún sistema térmico cíclico puede tener una eficiencia del $100\\%$.",
+    "explanation": "El enunciado de Kelvin-Planck establece que ninguna máquina térmica puede tener una eficiencia del $100\\%$, ya que siempre debe desechar una parte del calor absorbido a un sumidero térmico de menor temperatura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Qué establece la segunda ley de la termodinámica con respecto a la entropía del universo?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Permanece constante en todos los procesos irreversibles", "correct": false },
+      { "text": "Disminuye en cualquier proceso que ocurra espontáneamente", "correct": false },
+      { "text": "Siempre aumenta en un proceso espontáneo o irreversible", "correct": true },
+      { "text": "Es exactamente cero en el cero absoluto", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Relaciona la irreversibilidad de los procesos naturales con la dirección del tiempo.",
+    "explanation": "La segunda ley establece que en cualquier proceso natural o espontáneo, la entropía total del universo (sistema más entorno) se incrementa, dictando la flecha del tiempo y la dirección de los procesos térmicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "En un proceso adiabático, ¿cuál de las siguientes afirmaciones es correcta?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "La temperatura del sistema permanece constante", "correct": false },
+      { "text": "La presión del sistema permanece constante", "correct": false },
+      { "text": "El volumen del sistema permanece constante", "correct": false },
+      { "text": "No hay transferencia de calor entre el sistema y su entorno", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "El prefijo griego indica 'sin paso'. En este caso, implica la restricción del flujo de energía en forma de $Q$.",
+    "explanation": "Un proceso adiabático se define como aquel en el que $Q = 0$; es decir, el sistema está perfectamente aislado térmicamente de sus alrededores, por lo que todo el trabajo realizado resulta en un cambio de su energía interna.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "¿Cómo se clasifica un sistema termodinámico que permite el intercambio de energía, pero no de materia, con su entorno?",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Sistema abierto", "correct": false },
+      { "text": "Sistema cerrado", "correct": true },
+      { "text": "Sistema aislado", "correct": false },
+      { "text": "Sistema de control", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "A diferencia de un sistema aislado que no permite ningún intercambio, este sí permite el flujo de calor o trabajo.",
+    "explanation": "Por definición, un sistema cerrado permite el flujo de energía (ya sea en forma de calor o de trabajo) a través de sus fronteras, pero impide que la masa entre o salga de él.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "El enunciado de Clausius de la segunda ley de la termodinámica indica que es imposible que el calor fluya de forma espontánea de...",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Un cuerpo a mayor temperatura a uno de menor temperatura", "correct": false },
+      { "text": "Un cuerpo a menor temperatura a uno de mayor temperatura", "correct": true },
+      { "text": "Un sistema aislado hacia su entorno exterior", "correct": false },
+      { "text": "Un sólido cristalino a un gas ideal", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Piensa en el funcionamiento de un refrigerador; requiere trabajo eléctrico para lograr invertir el flujo natural.",
+    "explanation": "Para transferir calor de un foco frío a uno caliente (como ocurre en un refrigerador), es indispensable realizar un trabajo externo sobre el sistema; este proceso no puede ocurrir espontáneamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "El teorema de Carnot demuestra que la eficiencia térmica máxima de una máquina térmica depende de forma exclusiva de:",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "El tipo de gas o sustancia de trabajo utilizada", "correct": false },
+      { "text": "El tamaño físico y los materiales de la máquina", "correct": false },
+      { "text": "Las temperaturas absolutas de los depósitos caliente y frío", "correct": true },
+      { "text": "La presión máxima alcanzada durante el ciclo", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda la fórmula de la eficiencia térmica ideal: $\\eta = 1 - \\frac{T_c}{T_h}$.",
+    "explanation": "La eficiencia de una máquina de Carnot ideal se calcula mediante la fórmula $1 - (T_c / T_h)$, lo que demuestra que el límite teórico máximo está dictado únicamente por las temperaturas absolutas de los focos térmicos, sin importar la sustancia de trabajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "La entalpía es una propiedad termodinámica fundamental. Un cambio en la entalpía ($\\Delta H$) de un sistema cerrado es igual al calor intercambiado con el entorno cuando el proceso ocurre a:",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Volumen constante (isocórico)", "correct": false },
+      { "text": "Temperatura constante (isotérmico)", "correct": false },
+      { "text": "Entropía constante (isentrópico)", "correct": false },
+      { "text": "Presión constante (isobárico)", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Es muy útil para estudiar reacciones químicas en recipientes que se encuentran abiertos a la atmósfera.",
+    "explanation": "En un proceso a presión constante donde el único trabajo es de expansión-compresión, el calor transferido equivale matemáticamente a la variación de entalpía. Esto la hace muy útil para estudiar reacciones químicas en recipientes abiertos a la atmósfera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Una implicación práctica de la tercera ley de la termodinámica es el principio de inaccesibilidad. Según este principio:",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "Es imposible enfriar un sistema exactamente hasta el cero absoluto en un número finito de pasos", "correct": true },
+      { "text": "Todos los gases ideales se licúan y solidifican a $0 \\text{ K}$", "correct": false },
+      { "text": "La energía de punto cero de un sistema atómico desaparece completamente", "correct": false },
+      { "text": "La presión de cualquier gas se vuelve infinita al acercarse a $0 \\text{ K}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "A medida que la temperatura desciende, extraer calor demanda asintóticamente cada vez más trabajo.",
+    "explanation": "Debido a que extraer calor se vuelve asintóticamente más difícil conforme la temperatura desciende (requiriendo cada vez más trabajo según la segunda y tercera ley), alcanzar exactamente los $0 \\text{ K}$ demandaría un número infinito de operaciones termodinámicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Basado en la teoría termodinámica, para un gas ideal puro, su energía interna es una función matemática exclusiva de:",
+    "image": "https://i.imgur.com/WhPcMQV.png",
+    "options": [
+      { "text": "La presión ejercida sobre el gas", "correct": false },
+      { "text": "El volumen del recipiente que lo contiene", "correct": false },
+      { "text": "La temperatura absoluta del gas", "correct": true },
+      { "text": "La masa molar del gas", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "En un gas ideal se asume que no existen fuerzas intermoleculares, por lo que no hay energía potencial interna.",
+    "explanation": "Dado que en un modelo de gas ideal se asume que no existen fuerzas intermoleculares (ni atracción ni repulsión), la energía potencial es nula. Por tanto, toda la energía interna es energía cinética traslacional o rotacional, la cual depende estrictamente de la temperatura del sistema.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
