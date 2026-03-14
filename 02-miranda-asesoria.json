@@ -1,0 +1,650 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Encuentra las raíces de la ecuación cuadrática incompleta $x^2 - 16 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, x = -4$", "correct": true },
+      { "text": "$x = 8, x = -8$", "correct": false },
+      { "text": "$x = 16, x = -16$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x^2$ y aplica la raíz cuadrada en ambos lados de la igualdad.",
+    "explanation": "Al despejar obtenemos $x^2 = 16$. Aplicando la raíz cuadrada a ambos lados, tenemos que $x = \\pm \\sqrt{16}$, por lo tanto $x = 4$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Determina los valores de $x$ que satisfacen la ecuación $2x^2 - 18 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 6, x = -6$", "correct": false },
+      { "text": "$x = 18, x = -18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide toda la ecuación entre 2 antes de despejar la incógnita y aplicar la raíz cuadrada.",
+    "explanation": "Al dividir entre 2, se simplifica a $x^2 - 9 = 0$. Despejando resulta en $x^2 = 9$. Al extraer la raíz cuadrada, obtenemos $x = 3$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Resuelve la siguiente ecuación cuadrática: $-x^2 + 25 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -5$", "correct": true },
+      { "text": "$x = 25, x = -25$", "correct": false },
+      { "text": "$x = 10, x = -10$", "correct": false },
+      { "text": "$x = 12.5, x = -12.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa el término cuadrático al lado derecho de la igualdad para volverlo positivo y luego despeja.",
+    "explanation": "Al sumar $x^2$ a ambos lados, obtenemos $25 = x^2$. La raíz cuadrada de 25 arroja dos soluciones: $x = 5$ y $x = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Calcula las raíces de la ecuación $4x^2 - 1 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{2}, x = -\\frac{1}{2}$", "correct": true },
+      { "text": "$x = \\frac{1}{4}, x = -\\frac{1}{4}$", "correct": false },
+      { "text": "$x = 1, x = -1$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x^2$ obteniendo una fracción y luego aplica la raíz cuadrada tanto al numerador como al denominador.",
+    "explanation": "Sumando 1 a ambos lados queda $4x^2 = 1$. Dividiendo entre 4 obtenemos $x^2 = \\frac{1}{4}$. Aplicando la raíz, resulta $x = \\pm \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Encuentra las soluciones para la ecuación que no está igualada a cero: $9x^2 = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{4}{3}, x = -\\frac{4}{3}$", "correct": true },
+      { "text": "$x = \\frac{16}{9}, x = -\\frac{16}{9}$", "correct": false },
+      { "text": "$x = \\frac{3}{4}, x = -\\frac{3}{4}$", "correct": false },
+      { "text": "$x = 4, x = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide entre el coeficiente del término cuadrático para aislar la $x^2$ y extrae la raíz en ambos lados.",
+    "explanation": "Pasando el 9 a dividir, la expresión es $x^2 = \\frac{16}{9}$. La raíz de un cociente se aplica a cada parte, dando $x = \\pm \\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "¿Cuáles son las raíces de la ecuación $-3x^2 + 27 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 27, x = -27$", "correct": false },
+      { "text": "$x = 6, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide la ecuación completa entre el coeficiente principal (-3) antes de despejar la variable.",
+    "explanation": "Al dividir todo entre -3, se obtiene $x^2 - 9 = 0$. Pasando el 9 al lado derecho y aplicando raíz cuadrada da como resultado $x = 3$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Determina los valores que resuelven la ecuación incompleta mixta $x^2 - 5x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 5$", "correct": true },
+      { "text": "$x = 0, x = -5$", "correct": false },
+      { "text": "$x = 1, x = 5$", "correct": false },
+      { "text": "$x = 1, x = -5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común $x$ e iguala cada factor resultante a cero para encontrar las soluciones.",
+    "explanation": "Factorizando $x$, obtenemos $x(x - 5) = 0$. Igualando a cero cada factor, tenemos la primera raíz $x = 0$ y la segunda $x - 5 = 0 \\Rightarrow x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Encuentra las raíces de la expresión algebraica $x^2 + 7x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = -7$", "correct": true },
+      { "text": "$x = 0, x = 7$", "correct": false },
+      { "text": "$x = 1, x = -7$", "correct": false },
+      { "text": "$x = 1, x = 7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza la variable $x$ que aparece en ambos términos y resuelve los binomios lineales.",
+    "explanation": "La factorización de término común resulta en $x(x + 7) = 0$. Las soluciones directas son $x = 0$ y $x = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Resuelve la siguiente ecuación de segundo grado incompleta: $2x^2 - 8x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 4$", "correct": true },
+      { "text": "$x = 0, x = -4$", "correct": false },
+      { "text": "$x = 2, x = 4$", "correct": false },
+      { "text": "$x = 2, x = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza sacando como factor común a $2x$ o divide todo entre 2 antes de factorizar.",
+    "explanation": "Al dividir entre 2 queda $x^2 - 4x = 0$. Factorizando $x$, tenemos $x(x - 4) = 0$. Por lo tanto, $x = 0$ y $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "¿Qué valores de $x$ satisfacen la ecuación $-x^2 + 6x = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 6$", "correct": true },
+      { "text": "$x = 0, x = -6$", "correct": false },
+      { "text": "$x = 1, x = 6$", "correct": false },
+      { "text": "$x = -1, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes multiplicar toda la ecuación por -1 para facilitar la factorización del factor común.",
+    "explanation": "Multiplicando por -1 obtenemos $x^2 - 6x = 0$. Factorizando queda $x(x - 6) = 0$, cuyas raíces son $x = 0$ y $x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Determina las soluciones de la ecuación cuadrática $3x^2 + 5x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = -\\frac{5}{3}$", "correct": true },
+      { "text": "$x = 0, x = \\frac{5}{3}$", "correct": false },
+      { "text": "$x = 0, x = -\\frac{3}{5}$", "correct": false },
+      { "text": "$x = 0, x = \\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $x$ y despeja la incógnita de la expresión lineal resultante.",
+    "explanation": "Factorizando obtenemos $x(3x + 5) = 0$. La primera raíz es $x = 0$. Para la segunda, igualamos $3x + 5 = 0$, que al despejar da $x = -\\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Encuentra las raíces de la ecuación que tiene incógnitas en ambos lados: $5x^2 = 10x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 2$", "correct": true },
+      { "text": "$x = 0, x = -2$", "correct": false },
+      { "text": "$x = 5, x = 2$", "correct": false },
+      { "text": "$x = 5, x = 10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa todos los términos de un solo lado de la igualdad e iguala a cero antes de buscar el factor común.",
+    "explanation": "Reescribiendo la ecuación resulta en $5x^2 - 10x = 0$. Al dividir entre 5 queda $x^2 - 2x = 0$. Factorizando $x(x - 2) = 0$, obtenemos las raíces $x = 0$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Resuelve la ecuación cuadrática completa $x^2 - 5x + 6 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = 3$", "correct": true },
+      { "text": "$x = -2, x = -3$", "correct": false },
+      { "text": "$x = -1, x = 6$", "correct": false },
+      { "text": "$x = 1, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den el término independiente 6 y sumados den el término lineal -5.",
+    "explanation": "La ecuación se factoriza en dos binomios: $(x - 2)(x - 3) = 0$. Igualando a cero cada binomio, obtenemos $x = 2$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Determina las raíces de la ecuación $x^2 + x - 12 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -4$", "correct": true },
+      { "text": "$x = -3, x = 4$", "correct": false },
+      { "text": "$x = 6, x = -2$", "correct": false },
+      { "text": "$x = -6, x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra dos números cuyo producto sea -12 y su suma sea 1.",
+    "explanation": "La factorización del trinomio es $(x + 4)(x - 3) = 0$. Las soluciones que satisfacen esta condición son $x = -4$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿Cuáles son las soluciones para la ecuación $x^2 - x - 20 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -4$", "correct": true },
+      { "text": "$x = -5, x = 4$", "correct": false },
+      { "text": "$x = 10, x = -2$", "correct": false },
+      { "text": "$x = -10, x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al factorizar como trinomio de la forma $x^2+bx+c$, los números buscados deben tener signos distintos y su diferencia debe ser -1.",
+    "explanation": "Los números que multiplicados dan -20 y sumados -1 son -5 y 4. Al formar los factores $(x - 5)(x + 4) = 0$, las raíces cambian de signo al despejar: $x = 5$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Resuelve la ecuación cuadrática completa con coeficiente principal negativo $-x^2 + 5x - 4 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = 4$", "correct": true },
+      { "text": "$x = -1, x = -4$", "correct": false },
+      { "text": "$x = 2, x = 2$", "correct": false },
+      { "text": "$x = -2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica toda la expresión por -1 para obtener un coeficiente cuadrático positivo antes de factorizar.",
+    "explanation": "Multiplicando por -1 nos queda $x^2 - 5x + 4 = 0$. Al factorizar resulta $(x - 4)(x - 1) = 0$. Las soluciones correspondientes son $x = 4$ y $x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Encuentra los valores de $x$ que cumplen con la igualdad no nula $x^2 - 4x = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -1$", "correct": true },
+      { "text": "$x = -5, x = 1$", "correct": false },
+      { "text": "$x = 4, x = 1$", "correct": false },
+      { "text": "$x = -4, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala la ecuación a cero pasando el número 5 al otro lado con signo contrario y luego procede a resolver.",
+    "explanation": "Al reacomodar obtenemos $x^2 - 4x - 5 = 0$. Factorizamos buscando números que multiplicados den -5 y sumados -4, siendo estos -5 y 1. Por lo tanto, $(x - 5)(x + 1) = 0$, y las raíces son $x = 5$ y $x = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Determina las raíces al resolver la ecuación $x^2 = x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -2$", "correct": true },
+      { "text": "$x = -3, x = 2$", "correct": false },
+      { "text": "$x = 6, x = -1$", "correct": false },
+      { "text": "$x = -6, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Acomoda todos los términos en el lado izquierdo de la ecuación para obtener un trinomio igualado a cero.",
+    "explanation": "Transformando la ecuación nos queda $x^2 - x - 6 = 0$. Se factoriza en $(x - 3)(x + 2) = 0$. Las soluciones finales son $x = 3$ y $x = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Qué valores satisfacen la ecuación $x^2 + 10 = 7x$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = 2$", "correct": true },
+      { "text": "$x = -5, x = -2$", "correct": false },
+      { "text": "$x = 10, x = 1$", "correct": false },
+      { "text": "$x = -10, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Traslada el término lineal al lado izquierdo y busca dos números que sumados den -7 y multiplicados 10.",
+    "explanation": "Acomodando los términos se tiene $x^2 - 7x + 10 = 0$. Esto se factoriza como $(x - 5)(x - 2) = 0$. Al despejar ambos factores resultan $x = 5$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Resuelve la ecuación de segundo grado que incluye un coeficiente distinto de uno en el término principal: $2x^2 - 5x + 2 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = \\frac{1}{2}$", "correct": true },
+      { "text": "$x = -2, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = 1, x = 1$", "correct": false },
+      { "text": "$x = -1, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula general para ecuaciones de segundo grado o utiliza un método de factorización multiplicando los extremos.",
+    "explanation": "Aplicando la fórmula general donde $a=2$, $b=-5$, $c=2$, el discriminante es $(-5)^2 - 4(2)(2) = 25 - 16 = 9$. Luego $x = \\frac{5 \\pm 3}{4}$, lo que resulta en $x = 2$ y $x = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Determina las raíces de la función $3x^2 + 10x + 3 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = -3, x = -\\frac{1}{3}$", "correct": true },
+      { "text": "$x = 3, x = \\frac{1}{3}$", "correct": false },
+      { "text": "$x = -1, x = -1$", "correct": false },
+      { "text": "$x = 1, x = 3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes utilizar la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ para evaluar directamente los valores.",
+    "explanation": "Utilizando la fórmula general con $a=3$, $b=10$, $c=3$, se tiene el radicando $10^2 - 4(3)(3) = 100 - 36 = 64$. Entonces $x = \\frac{-10 \\pm 8}{6}$, dando como resultado $x = -3$ y $x = -\\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Encuentra las soluciones de la ecuación cuadrática $4x^2 - 12x + 9 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{3}{2}$", "correct": true },
+      { "text": "$x = -\\frac{3}{2}$", "correct": false },
+      { "text": "$x = \\frac{2}{3}$", "correct": false },
+      { "text": "$x = -\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que los coeficientes sugieren que el trinomio es un trinomio cuadrado perfecto.",
+    "explanation": "La expresión se puede factorizar directamente como $(2x - 3)^2 = 0$. Esto implica una única raíz real repetida, por lo que $2x - 3 = 0$, resultando en $x = \\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Resuelve la ecuación completa con coeficiente cuadrático negativo $-2x^2 - 3x + 5 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = -\\frac{5}{2}$", "correct": true },
+      { "text": "$x = -1, x = \\frac{5}{2}$", "correct": false },
+      { "text": "$x = 5, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = -5, x = \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es recomendable cambiar el signo de toda la ecuación multiplicando por -1 antes de aplicar la fórmula general o factorización.",
+    "explanation": "Al multiplicar por -1 resulta $2x^2 + 3x - 5 = 0$. Usando la fórmula general resulta $x = \\frac{-3 \\pm \\sqrt{9 - 4(2)(-5)}}{4} = \\frac{-3 \\pm 7}{4}$. Obtenemos $x = 1$ y $x = -\\frac{5}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "¿Cuáles son las raíces de la ecuación $6x^2 - x - 2 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{2}{3}, x = -\\frac{1}{2}$", "correct": true },
+      { "text": "$x = -\\frac{2}{3}, x = \\frac{1}{2}$", "correct": false },
+      { "text": "$x = \\frac{1}{3}, x = -1$", "correct": false },
+      { "text": "$x = -\\frac{1}{3}, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula general y no olvides simplificar las fracciones resultantes a su mínima expresión.",
+    "explanation": "Aplicando la fórmula general: $x = \\frac{1 \\pm \\sqrt{1 - 4(6)(-2)}}{12} = \\frac{1 \\pm \\sqrt{49}}{12} = \\frac{1 \\pm 7}{12}$. Así, $x_1 = \\frac{8}{12} = \\frac{2}{3}$ y $x_2 = -\\frac{6}{12} = -\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Determina los valores de $x$ para la igualdad que tiene incógnitas distribuidas $2x^2 = 7x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = \\frac{1}{2}$", "correct": true },
+      { "text": "$x = -3, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = 2, x = \\frac{3}{2}$", "correct": false },
+      { "text": "$x = -2, x = -\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Acomoda la ecuación a la forma general $ax^2 + bx + c = 0$ pasando los términos del lado derecho hacia el izquierdo.",
+    "explanation": "Se transforma a $2x^2 - 7x + 3 = 0$. Resolviendo mediante fórmula general con $a=2$, $b=-7$, $c=3$, tenemos discriminante igual a 25. Entonces $x = \\frac{7 \\pm 5}{4}$, que genera $x = 3$ y $x = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Encuentra las raíces al resolver la ecuación con múltiples signos negativos $-x^2 = -8x + 15$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = 5$", "correct": true },
+      { "text": "$x = -3, x = -5$", "correct": false },
+      { "text": "$x = 1, x = 15$", "correct": false },
+      { "text": "$x = -1, x = -15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Traslada el término $-x^2$ al lado derecho para trabajar cómodamente con un coeficiente cuadrático positivo.",
+    "explanation": "Llevando todos los términos a un lado, obtenemos $x^2 - 8x + 15 = 0$. Factorizando el trinomio resulta en $(x - 5)(x - 3) = 0$, cuyas soluciones son $x = 5$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Resuelve la siguiente ecuación cuadrática desordenada: $3x^2 - 2 = 5x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -\\frac{1}{3}$", "correct": true },
+      { "text": "$x = -2, x = \\frac{1}{3}$", "correct": false },
+      { "text": "$x = 1, x = -\\frac{2}{3}$", "correct": false },
+      { "text": "$x = -1, x = \\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa el término lineal al lado izquierdo restando y ordena la ecuación antes de resolverla por fórmula general.",
+    "explanation": "La ecuación correcta es $3x^2 - 5x - 2 = 0$. Aplicando fórmula general obtenemos $x = \\frac{5 \\pm \\sqrt{25 - 4(3)(-2)}}{6} = \\frac{5 \\pm \\sqrt{49}}{6} = \\frac{5 \\pm 7}{6}$. Así, las raíces son $x = 2$ y $x = -\\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Calcula las raíces de la ecuación que tiene un término constante del otro lado de la igualdad $4x^2 + 4x = 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{2}, x = -\\frac{3}{2}$", "correct": true },
+      { "text": "$x = -\\frac{1}{2}, x = \\frac{3}{2}$", "correct": false },
+      { "text": "$x = 1, x = -\\frac{3}{4}$", "correct": false },
+      { "text": "$x = -1, x = \\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Igualando a cero obtienes $4x^2 + 4x - 3 = 0$. Aplica la fórmula general sin errores de signo.",
+    "explanation": "Al aplicar la fórmula general $x = \\frac{-4 \\pm \\sqrt{16 - 4(4)(-3)}}{8} = \\frac{-4 \\pm \\sqrt{64}}{8} = \\frac{-4 \\pm 8}{8}$. Resulta en $x = \\frac{4}{8} = \\frac{1}{2}$ y $x = -\\frac{12}{8} = -\\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Qué valores de $x$ satisfacen la igualdad que no está igualada a cero $-3x^2 + 4 = x$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = -\\frac{4}{3}$", "correct": true },
+      { "text": "$x = -1, x = \\frac{4}{3}$", "correct": false },
+      { "text": "$x = 4, x = -\\frac{1}{3}$", "correct": false },
+      { "text": "$x = -4, x = \\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ordena la ecuación moviendo todos los términos a un solo lado y utiliza la fórmula general de segundo grado.",
+    "explanation": "Reordenando los términos para que el principal sea positivo: $3x^2 + x - 4 = 0$. Al resolver, el discriminante es $1 - 4(3)(-4) = 49$. Las raíces son $x = \\frac{-1 \\pm 7}{6}$, lo que nos da $x = 1$ y $x = -\\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Determina las soluciones para la ecuación expresada como $10 - x^2 = 3x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -5$", "correct": true },
+      { "text": "$x = -2, x = 5$", "correct": false },
+      { "text": "$x = 10, x = -1$", "correct": false },
+      { "text": "$x = -10, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa todos los términos al mismo lado buscando que la $x^2$ quede con signo positivo para facilitar el proceso.",
+    "explanation": "Al reacomodar queda $x^2 + 3x - 10 = 0$. Se buscan dos números que multiplicados den -10 y sumados 3, resultando 5 y -2. La factorización es $(x + 5)(x - 2) = 0$, cuyas raíces son $x = -5$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Resuelve la ecuación cuadrática expresada parcialmente como producto: $x(x - 2) = 15$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -3$", "correct": true },
+      { "text": "$x = -5, x = 3$", "correct": false },
+      { "text": "$x = 15, x = -1$", "correct": false },
+      { "text": "$x = -15, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el producto multiplicando la $x$ por cada término dentro del paréntesis, luego iguala a cero.",
+    "explanation": "La ecuación desarrollada es $x^2 - 2x = 15$. Al igualar a cero, tenemos $x^2 - 2x - 15 = 0$. Factorizamos como $(x - 5)(x + 3) = 0$, obteniendo las raíces $x = 5$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Encuentra las raíces de la ecuación que presenta una multiplicación: $2x(x + 1) = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -3$", "correct": true },
+      { "text": "$x = -2, x = 3$", "correct": false },
+      { "text": "$x = 6, x = -1$", "correct": false },
+      { "text": "$x = -6, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica para quitar el paréntesis, divide toda la ecuación entre 2 para simplificar antes de factorizar.",
+    "explanation": "Al expandir se obtiene $2x^2 + 2x = 12$. Dividiendo todo entre 2 se simplifica a $x^2 + x = 6$. Igualando a cero da $x^2 + x - 6 = 0$. Factorizamos como $(x + 3)(x - 2) = 0$, cuyas raíces son $x = -3$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "¿Cuáles son las raíces de la ecuación cuadrática factorizada como cuadrado perfecto $(x-1)^2 = 16$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -3$", "correct": true },
+      { "text": "$x = -5, x = 3$", "correct": false },
+      { "text": "$x = 4, x = -4$", "correct": false },
+      { "text": "$x = 17, x = -15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No es necesario desarrollar el binomio. Saca raíz cuadrada a ambos lados recordando siempre usar la raíz positiva y negativa.",
+    "explanation": "Al aplicar raíz cuadrada, obtenemos $x - 1 = \\pm 4$. De aquí surgen dos ecuaciones lineales: $x - 1 = 4$ y $x - 1 = -4$, que al resolver nos dan $x = 5$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Determina las raíces de la ecuación cuadrática que ya está igualada a cero y factorizada: $3x(x - 2) = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 2$", "correct": true },
+      { "text": "$x = 0, x = -2$", "correct": false },
+      { "text": "$x = 3, x = 2$", "correct": false },
+      { "text": "$x = 3, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando un producto es igual a cero, significa que cada uno de los factores individuales puede igualarse a cero de manera independiente.",
+    "explanation": "Las soluciones se encuentran al igualar a cero cada parte del producto. Por un lado $3x = 0 \\Rightarrow x = 0$, y por otro $x - 2 = 0 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Resuelve la ecuación cuadrática donde las incógnitas y constantes están separadas: $x^2 = 8x - 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = -4$", "correct": false },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = -8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a cero acomodando todos los valores de un solo lado y nota que se forma un trinomio cuadrado perfecto.",
+    "explanation": "Trasladando términos se forma $x^2 - 8x + 16 = 0$. Este es un trinomio cuadrado perfecto y se factoriza como $(x - 4)^2 = 0$, lo que implica que hay una raíz única (o repetida) igual a $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Encuentra los valores de $x$ para la expresión fraccionaria incompleta $\\frac{x^2}{2} - 8 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, x = -4$", "correct": true },
+      { "text": "$x = 8, x = -8$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false },
+      { "text": "$x = 16, x = -16$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el término fraccionario, luego multiplica ambos lados por 2 y finalmente aplica la raíz cuadrada.",
+    "explanation": "Sumando 8 a ambos lados se obtiene $\\frac{x^2}{2} = 8$. Multiplicando por 2 se llega a $x^2 = 16$. Al extraer la raíz cuadrada, el resultado es $x = 4$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
