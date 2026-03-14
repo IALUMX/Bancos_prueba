@@ -2290,5 +2290,653 @@
     "explanation": "Matemáticas: Sumando 4 a ambos lados: $2x < 14$. Dividiendo entre 2: $x < 7$. Español: El modo subjuntivo se emplea para expresar hechos hipotéticos, dudas o deseos, como es el caso del verbo 'apruebes'.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "Un estudiante del CEPREDIX investiga las patologías hereditarias. Completa el texto: 'Las enfermedades genéticas son causadas principalmente por una alteración en la ______ contenida en la célula, ya sea en el ADN nuclear o en el ADN ______.'",
+    "image": null,
+    "options": [
+      { "text": "información genética, mitocondrial", "correct": true },
+      { "text": "membrana plasmática, ribosomal", "correct": false },
+      { "text": "síntesis proteica, polimerasa", "correct": false },
+      { "text": "estructura cromosómica, lisosomal", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se relaciona con el material hereditario y el organelo encargado de la respiración celular.",
+    "explanation": "Las enfermedades genéticas son un grupo heterogéneo de alteraciones, cuya causa principal es una alteración en la información genética contenida en la célula, bien sea en el ADN nuclear, bien sea en el ADN mitocondrial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "¿De quién se hereda exclusivamente el ADN mitocondrial?",
+    "image": null,
+    "options": [
+      { "text": "Solo de la madre, aportado por el óvulo tras la fecundación.", "correct": true },
+      { "text": "Del padre y de la madre en proporciones genéticas iguales.", "correct": false },
+      { "text": "Aleatoriamente de cualquiera de los dos progenitores viables.", "correct": false },
+      { "text": "Únicamente del padre, a través del gameto masculino.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en qué gameto aporta la mayor cantidad de citoplasma y organelos al cigoto.",
+    "explanation": "El ADN mitocondrial es heredado solo de nuestra madre, al ser aportado por el óvulo tras la fecundación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "¿Qué es una aneuploidía en el contexto de la genética clínica?",
+    "image": null,
+    "options": [
+      { "text": "Una alteración provocada por el exceso o defecto de un cromosoma completo.", "correct": true },
+      { "text": "Una mutación que afecta a la correcta lectura de la información de un gen.", "correct": false },
+      { "text": "El aumento en el número de repeticiones de tripletes en la cadena de ADN.", "correct": false },
+      { "text": "La inversión de un segmento cromosómico sin pérdida de material genético.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'aneu-' indica 'sin verdad' o 'desigual', refiriéndose a un número anormal en el genoma.",
+    "explanation": "Consideramos las aneuploidías como aquellas alteraciones genéticas provocadas por el exceso o defecto de un cromosoma completo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "Identifica en el siguiente listado las condiciones clínicas que se clasifican como aneuploidías:\n1. Síndrome de Down\n2. Fibrosis quística\n3. Síndrome de Turner\n4. Enfermedad de Huntington\n5. Síndrome de Edwards",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Implican alteraciones en el número total de cromosomas, como trisomías o monosomías.",
+    "explanation": "El síndrome de Down (trisomía 21), el síndrome de Turner (monosomía X) y el síndrome de Edwards (trisomía 18) son aneuploidías. La fibrosis quística y Huntington son alteraciones monogénicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "Relaciona la alteración genética con la técnica diagnóstica más adecuada según los protocolos médicos:\nI. Aneuploidías y translocaciones equilibradas\nII. Alteraciones monogénicas\nIII. Disomía uniparental\n\nA. PCR de metilación\nB. Cariotipo\nC. Secuenciación masiva (NGS)",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El cariotipo visualiza estructuras completas, mientras que NGS lee secuencias de genes puntuales.",
+    "explanation": "La herramienta más utilizada para aneuploidías y translocaciones es el cariotipo; para alteraciones monogénicas es la secuenciación masiva, y para la disomía uniparental se usa PCR de metilación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "En un caso analizado por el CEPREDIX, un paciente presenta una translocación cromosómica equilibrada. ¿Qué característica distingue a este tipo de alteración estructural?",
+    "image": null,
+    "options": [
+      { "text": "No altera el número total de genes ni interfiere en su marco de lectura.", "correct": true },
+      { "text": "Altera la cantidad de genes del individuo y cambia drásticamente el genoma.", "correct": false },
+      { "text": "Genera una dotación cromosómica completa duplicada en todas las células.", "correct": false },
+      { "text": "Provoca la pérdida de un brazo cromosómico completo durante la meiosis.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'equilibrada' sugiere que no hay ganancia ni pérdida neta de material genético.",
+    "explanation": "Las translocaciones equilibradas son aquellas que no alteran el número total de genes ni su marco de lectura, únicamente cambian la ubicación física de los segmentos cromosómicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Completa la descripción clínica: 'El síndrome de genes contiguos se produce por afectaciones ______ debidas a la alteración de varios genes situados físicamente de modo ______ en un mismo cromosoma.'",
+    "image": null,
+    "options": [
+      { "text": "simultáneas, adyacente", "correct": true },
+      { "text": "aisladas, aleatorio", "correct": false },
+      { "text": "progresivas, distante", "correct": false },
+      { "text": "recesivas, disperso", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'contiguo' indica que los elementos se encuentran uno justo al lado del otro.",
+    "explanation": "Este tipo de alteraciones provoca lo que conocemos como síndromes de genes contiguos, que son afectaciones simultáneas debidas a la alteración de varios genes situados físicamente de modo adyacente en un mismo cromosoma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Selecciona cuáles de las siguientes enfermedades tienen un patrón de herencia autosómica recesiva:\n1. Fibrosis quística\n2. Enfermedad de Huntington\n3. Anemia falciforme\n4. Distrofia miotónica de Steinert\n5. Fenilcetonuria",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La enfermedad de Huntington y la distrofia miotónica son por expansión de tripletes (frecuentemente dominantes).",
+    "explanation": "La fibrosis quística, la anemia falciforme y la fenilcetonuria son clásicos ejemplos de patologías autosómicas recesivas, donde ambos padres suelen ser portadores asintomáticos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "En una enfermedad autosómica recesiva, si ambos progenitores son portadores asintomáticos de la mutación, ¿cuál es la probabilidad matemática de tener descendencia afectada por la enfermedad?",
+    "image": null,
+    "options": [
+      { "text": "$25\\%$", "correct": true },
+      { "text": "$50\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": false },
+      { "text": "$100\\%$", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el cuadro de Punnett para el cruce de heterocigotos: $Aa \\times Aa$.",
+    "explanation": "La transmisión a su descendencia de ambos alelos mutados dará lugar a una persona afectada por la alteración, lo que ocurrirá únicamente en el $25\\%$ de su descendencia, independientemente del sexo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "¿Qué es el fenómeno de Lyonización en la genética humana?",
+    "image": null,
+    "options": [
+      { "text": "La inactivación selectiva y aleatoria de uno de los cromosomas X en las mujeres.", "correct": true },
+      { "text": "El aumento progresivo del número de repeticiones de tripletes en generaciones.", "correct": false },
+      { "text": "La interacción epistática de dos variantes genéticas diferentes en un fenotipo.", "correct": false },
+      { "text": "El silenciamiento sistemático de los genes mitocondriales paternos al fecundar.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un mecanismo biológico de compensación de dosis génica celular en los mamíferos hembra.",
+    "explanation": "En cada una de las células, uno de los cromosomas X de la mujer está silenciado de un modo aleatorio, lo que se conoce como fenómeno de Lyonización o inactivación selectiva del cromosoma X.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "Un investigador del CEPREDIX clasifica patologías genéticas. Relaciona la enfermedad con su mecanismo genético subyacente:\nI. Enfermedad de Huntington\nII. Síndrome de Down\nIII. Fibrosis quística\n\nA. Alteración cromosómica (aneuploidía)\nB. Expansión de tripletes\nC. Mutación autosómica recesiva",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La primera condición mencionada se agrava por la repetición descontrolada del triplete CAG.",
+    "explanation": "La enfermedad de Huntington es por expansión de tripletes; el síndrome de Down es una trisomía libre (aneuploidía); y la fibrosis quística tiene herencia autosómica recesiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "En las patologías producidas por expansión génica, ¿en qué consiste clínicamente el 'fenómeno de anticipación'?",
+    "image": null,
+    "options": [
+      { "text": "En el empeoramiento y aparición más precoz de los síntomas en generaciones sucesivas.", "correct": true },
+      { "text": "En la aparición inusual de tumores embrionarios a una edad muy tardía en los hijos.", "correct": false },
+      { "text": "En la expresión diferencial del genoma humano dependiendo del progenitor transmisor.", "correct": false },
+      { "text": "En la detección de la mutación por cribado neonatal antes de iniciar la sintomatología.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El inicio de la enfermedad se 'anticipa' (se manifiesta mucho antes) en los nuevos descendientes.",
+    "explanation": "El empeoramiento de la clínica y el aumento de su precocidad, conforme la expansión de tripletes es mayor con el paso de las generaciones, se conoce como fenómeno de anticipación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Completa el enunciado sobre herencia epigenética: 'La ______ génica, también llamada imprinting, es el mecanismo por el cual el material genético se expresa de forma ______ según se herede del padre o de la madre.'",
+    "image": null,
+    "options": [
+      { "text": "impronta, diferente", "correct": true },
+      { "text": "mutación, idéntica", "correct": false },
+      { "text": "deleción, aleatoria", "correct": false },
+      { "text": "amplificación, simultánea", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se relaciona fuertemente con las marcas químicas que 'sellan' el origen parental del alelo.",
+    "explanation": "La impronta génica (imprinting) es el mecanismo genético por el cual el material genético se expresa de forma diferente según se herede del padre o de la madre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "¿Qué síndrome pediátrico se caracteriza por una deleción del alelo paterno o disomía uniparental materna en la región 15q11-q13 y clínicamente causa una inmensa avidez por la comida?",
+    "image": null,
+    "options": [
+      { "text": "Síndrome de Prader-Willi", "correct": true },
+      { "text": "Síndrome de Angelman", "correct": false },
+      { "text": "Síndrome de Beckwith-Wiedemann", "correct": false },
+      { "text": "Síndrome de Marfan", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su alteración recíproca (deleción en el alelo materno) causa el síndrome de Angelman.",
+    "explanation": "Las personas con síndrome de Prader-Willi pueden tener una deleción del alelo paterno o disomía uniparental materna y presentan una gran avidez por la comida que les hace engordar intensamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "¿Qué escenario describe correctamente a una 'disomía uniparental materna' a nivel cromosómico, como la que ocurre en ciertos casos de Prader-Willi?",
+    "image": null,
+    "options": [
+      { "text": "Hay dos alelos presentes, pero ambos heredados de la madre, faltando el paterno.", "correct": true },
+      { "text": "Faltan los dos cromosomas homólogos de la madre y permanecen los dos del padre.", "correct": false },
+      { "text": "Un cromosoma paterno lleva la impronta materna patológica, silenciando sus propios genes.", "correct": false },
+      { "text": "Se produce una trisomía letal donde el cromosoma extra proviene exclusivamente de la madre.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las raíces etimológicas de las palabras: 'di' (dos), 'somía' (cromosoma), 'uniparental' (un solo padre).",
+    "explanation": "Una disomía uniparental materna implica que hay dos alelos presentes, pero ambos son heredados de la madre, por lo que falta por completo el alelo paterno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "Identifica qué enfermedades o síndromes están estrechamente relacionados con fenómenos biológicos de impronta génica (imprinting):\n1. Síndrome de Prader-Willi\n2. Síndrome de Angelman\n3. Síndrome de Turner\n4. Acondroplasia\n5. Síndrome de Beckwith-Wiedemann",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 5", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en síndromes donde importa si la mutación viene del padre o de la madre. Turner es una monosomía pura.",
+    "explanation": "Los síndromes de Prader-Willi, Angelman y Beckwith-Wiedemann son ejemplos clásicos de enfermedades causadas por alteraciones en genes sometidos a impronta genómica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "Un genetista del CEPREDIX diagnostica una patología que requiere mutaciones simultáneas en dos loci distintos. ¿Qué implica este modelo denominado 'herencia digénica'?",
+    "image": null,
+    "options": [
+      { "text": "Que el fenotipo es el resultado directo de la interacción de variantes en dos genes diferentes.", "correct": true },
+      { "text": "Que la enfermedad se transmite invariablemente a través del ADN mitocondrial materno.", "correct": false },
+      { "text": "Que un rasgo fenotípico requiere que únicamente los dos alelos de un mismo gen estén mutados.", "correct": false },
+      { "text": "Que la alteración patológica afecta exclusivamente a regiones de los cromosomas homólogos.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'di' indica 'dos'. Involucra obligatoriamente a dos genes distintos, no solo a dos alelos.",
+    "explanation": "La herencia digénica es un fenómeno genético en el cual un rasgo fenotípico o una enfermedad son el resultado de la interacción de variantes en dos genes diferentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "Completa el texto sobre los distintos modelos de herencia: 'El ejemplo más característico de herencia ______ es el síndrome de ______, donde mutaciones en diferentes genes pueden dar lugar a la enfermedad.'",
+    "image": null,
+    "options": [
+      { "text": "digénica, Bardet-Biedl", "correct": true },
+      { "text": "mitocondrial, Leigh", "correct": false },
+      { "text": "recesiva, Turner", "correct": false },
+      { "text": "dominante, Prader-Willi", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Se necesitan variantes deletéreas en dos genes distintos para expresar el fenotipo clínico asociado.",
+    "explanation": "El ejemplo más característico es el síndrome de Bardet-Biedl, estando descrita la herencia digénica en este proceso (mutaciones en diferentes genes BBS dan lugar a enfermedad).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "En las enfermedades mitocondriales, la variabilidad de la afectación clínica depende de la proporción de mitocondrias normales y mutadas en cada tejido. ¿Cómo se denomina este fenómeno celular?",
+    "image": null,
+    "options": [
+      { "text": "Heteroplasmia", "correct": true },
+      { "text": "Homoplasmia", "correct": false },
+      { "text": "Pleiotropía", "correct": false },
+      { "text": "Epistasis", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'hetero' significa 'diferente', aludiendo a una coexistencia o mezcla de ADN.",
+    "explanation": "La severidad dependerá de la distribución de las mitocondrias afectadas (mezcla de normales y mutadas). Este fenómeno celular se conoce con el nombre de heteroplasmia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "Relaciona los conceptos avanzados de herencia con su definición biológica:\nI. Heteroplasmia\nII. Lyonización\nIII. Anticipación\n\nA. Inactivación selectiva y aleatoria de un cromosoma X\nB. Coexistencia celular de mitocondrias normales y mutadas\nC. Empeoramiento notable de síntomas en generaciones sucesivas",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El proceso nombrado en la segunda opción ocurre exclusivamente en mujeres para compensar la carga génica.",
+    "explanation": "Heteroplasmia es la presencia conjunta de ADNmt mutado y salvaje (B). Lyonización es el apagado del cromosoma X (A). Anticipación clínica se ve en expansión de tripletes (C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "¿Qué diferencia tecnológica fundamental existe en el diagnóstico de una enfermedad mitocondrial según si la mutación está ubicada en el ADN nuclear o en el ADN mitocondrial?",
+    "image": null,
+    "options": [
+      { "text": "El ADN nuclear puede detectarse con secuenciación masiva (exoma), mientras que el mitocondrial requiere técnicas específicas para ADNmt.", "correct": true },
+      { "text": "No hay diferencias reales, ambas patologías se detectan únicamente mediante análisis de cariotipo con bandeo G.", "correct": false },
+      { "text": "El ADN nuclear se estudia preferentemente con cariotipo y el ADN mitocondrial con PCR de metilación enzimática.", "correct": false },
+      { "text": "Ambas alteraciones requieren obligatoriamente una biopsia muscular y no se pueden analizar en muestras de sangre periférica.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exoma captura únicamente secuencias de genes nucleares codificantes, por lo que el genoma circular requiere otro enfoque.",
+    "explanation": "Las alteraciones del ADN nuclear que se expresan en la mitocondria pueden ser detectadas por exoma, mientras que el ADN mitocondrial requiere de técnicas de secuenciación específicas para el estudio de dicho ADN circular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "Un informe del CEPREDIX menciona que un paciente pediátrico presenta una mutación autosómica dominante muy severa, pero sus padres biológicos están sanos. ¿Qué significa que esta mutación sea 'de novo'?",
+    "image": null,
+    "options": [
+      { "text": "Que la mutación se generó en esa nueva generación y no fue heredada de ninguno de los progenitores.", "correct": true },
+      { "text": "Que ambos padres actúan como portadores sanos de una translocación balanceada o equilibrada.", "correct": false },
+      { "text": "Que la alteración patológica afecta a varios genes contiguos heredados conjuntamente por vía materna.", "correct": false },
+      { "text": "Que la enfermedad monogénica solo se manifiesta en la descendencia debido a la impronta genómica paternal.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La expresión en latín se traduce literalmente como 'de nuevo' o 'por primera vez'.",
+    "explanation": "Significa que el hijo afectado es el primero que padece dicha alteración patológica en la historia de la familia, y la mutación genética responsable se originó espontáneamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FO",
+    "question": "¿Qué herramienta analítica y genómica permite actualmente una mejor y mucho más eficiente identificación de las alteraciones monogénicas en la práctica clínica diaria?",
+    "image": null,
+    "options": [
+      { "text": "La secuenciación masiva de nueva generación (NGS).", "correct": true },
+      { "text": "El array CGH (Hibridación Genómica Comparada en micromatrices).", "correct": false },
+      { "text": "La técnica laboratorial de hibridación in situ fluorescente (FISH).", "correct": false },
+      { "text": "El cariotipo convencional con técnica de resolución de bandeo G.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se requiere una lectura de alta precisión de la secuencia exacta de bases del gen, no solo revisar la estructura general de los cromosomas.",
+    "explanation": "Para las alteraciones monogénicas, la secuenciación masiva (Next Generation Sequencing) es la herramienta que permite mejor su identificación al leer exhaustivamente a nivel de nucleótidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FP",
+    "question": "¿Por qué motivo, en ciertas alteraciones ligadas al cromosoma X con patrón dominante como el síndrome de Rett, las mujeres constituyen la inmensa mayoría de la población afectada?",
+    "image": null,
+    "options": [
+      { "text": "Porque en los varones (que solo tienen un cromosoma X), la afectación celular suele ser letal en desarrollo.", "correct": true },
+      { "text": "Porque el complejo de inactivación del cromosoma X protege a los varones de expresar el gen defectuoso.", "correct": false },
+      { "text": "Porque la herencia patológica proviene de una alteración exclusiva y focalizada del ADN mitocondrial materno.", "correct": false },
+      { "text": "Porque el cromosoma Y posee un gen protector transcripcional que neutraliza por completo la mutación dominante.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los varones carecen de un segundo cromosoma X sano que compense. Una mutación severa en el único X que tienen suele ser incompatible con la vida.",
+    "explanation": "En alteraciones ligadas a X dominantes como el síndrome de Rett, las mujeres sobreviven gracias a la inactivación de un cromosoma X afectado, mientras que en varones (hemicigotos) suele ser invariablemente letal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FQ",
+    "question": "Identifica de manera precisa qué características biológicas corresponden a un patrón de herencia autosómico dominante:\n1. Afecta por igual a hombres y mujeres en la descendencia\n2. Salta generaciones con altísima frecuencia\n3. Se manifiesta claramente en un estado celular heterocigoto\n4. Ambos padres deben estar afectados simultáneamente para transmitirlo\n5. La probabilidad matemática de transmisión de un padre afectado es del $50\\%$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "En los modelos de herencia dominante, basta con que exista un solo alelo mutado para que se exprese visiblemente la enfermedad en el portador.",
+    "explanation": "La herencia autosómica dominante afecta ambos sexos, no suele saltar generaciones, se manifiesta en heterocigosis ($Aa$) y cada hijo tiene $50\\%$ de probabilidad de heredarlo de un progenitor afectado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FR",
+    "question": "En la técnica de diagnóstico genético moderno, el ______ detecta grandes anomalías estructurales y numéricas de los cromosomas de forma global, mientras que la ______ permite leer variaciones muy puntuales en la secuencia base del ADN.",
+    "image": null,
+    "options": [
+      { "text": "cariotipo, secuenciación masiva", "correct": true },
+      { "text": "microarray, ecografía molecular", "correct": false },
+      { "text": "Western blot, electroforesis de campo", "correct": false },
+      { "text": "PCR genérica, citometría de flujo", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una técnica mira a nivel macroscópico los 'paquetes' enteros de información y la otra lee detalladamente el 'texto' genético.",
+    "explanation": "El cariotipo visualiza los cromosomas al microscopio, resultando útil para aneuploidías. La secuenciación masiva (NGS) lee la secuencia exacta de nucleótidos para detectar mutaciones a pequeña escala.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FS",
+    "question": "Relaciona de forma adecuada la enfermedad clínica genética con su respectivo tipo u origen de mutación:\nI. Síndrome de Edwards\nII. Fibrosis Quística\nIII. Síndrome de Prader-Willi\n\nA. Defecto de impronta o microdeleción focalizada\nB. Aneuploidía por no disyunción (Trisomía 18)\nC. Mutación puntual o pequeña deleción molecular en el gen CFTR",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La referencia numérica a la trisomía 18 indica directamente el cromosoma extra. CFTR es el nombre del canal de cloro mutado.",
+    "explanation": "El síndrome de Edwards es una trisomía 18 (B). La Fibrosis Quística es monogénica de carácter autosómico recesivo (C). Prader-Willi se relaciona con la región sometida a impronta 15q11-q13 (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FT",
+    "question": "Si un hombre fenotípicamente sano y una mujer que es portadora de una enfermedad genética recesiva ligada al cromosoma X tienen descendencia, ¿cuál es la probabilidad matemática puntual de que sus hijos varones padezcan la enfermedad?",
+    "image": null,
+    "options": [
+      { "text": "$50\\%$", "correct": true },
+      { "text": "$25\\%$", "correct": false },
+      { "text": "$0\\%$", "correct": false },
+      { "text": "$100\\%$", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El progenitor masculino aporta invariablemente el cromosoma Y a los hijos varones. La madre aporta uno de sus dos cromosomas X al azar en cada evento.",
+    "explanation": "La madre es portadora heterocigota ($X^R X^r$). Al hijo varón le hereda el $X^R$ o el $X^r$ con una idéntica probabilidad del $50\\%$. Si hereda el alelo $X^r$, al poseer solo un cromosoma Y, expresará indefectiblemente la enfermedad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FU",
+    "question": "Selecciona en el presente listado cuáles síndromes son ejemplos clásicos de alteraciones numéricas exclusivamente en los cromosomas sexuales (aneuploidías de cromosomas sexuales):\n1. Síndrome de Klinefelter\n2. Síndrome de Turner\n3. Síndrome de Patau\n4. Síndrome de la Triple X\n5. Síndrome de Marfan",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que Patau corresponde a la trisomía número 13 (autosómica). Marfan es una enfermedad genética monogénica del tejido conectivo.",
+    "explanation": "El síndrome de Klinefelter (genotipo XXY), síndrome de Turner (Monosomía X0) y Triple X (genotipo XXX) son todas alteraciones numéricas que afectan de manera exclusiva a los cromosomas sexuales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FV",
+    "question": "En la genealogía detallada de una familia estudiada por el CEPREDIX, se observa que todos los hijos varones y mujeres de una madre afectada por un raro trastorno desarrollan la enfermedad, pero sorprendentemente, los hombres afectados jamás la transmiten a su descendencia. ¿Qué tipo de modelo de herencia sugiere fuertemente esta observación?",
+    "image": null,
+    "options": [
+      { "text": "Herencia mitocondrial extracelular", "correct": true },
+      { "text": "Herencia patológica ligada al cromosoma Y", "correct": false },
+      { "text": "Herencia autosómica recesiva convencional", "correct": false },
+      { "text": "Herencia génica dominante ligada al cromosoma X", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las características del material genético que se hereda de manera exclusiva mediante el abundante citoplasma del gameto femenino.",
+    "explanation": "Las enfermedades mitocondriales se transmiten exclusivamente por la línea biológica materna. Una madre afectada transmite todas las mitocondrias mutadas a su descendencia completa, pero los hombres afectados no la transmiten, dado que el espermatozoide aporta material nuclear pero no mitocondrias al cigoto en formación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FW",
+    "question": "Completa la oración referida a la dogma de la biología y genética molecular: 'Durante el complejo proceso de transcripción, la enzima ______ polimerasa lee cuidadosamente la cadena de ADN para sintetizar una molécula transitoria de ______ mensajero, la cual posteriormente será traducida a nivel de los ______ celulares.'",
+    "image": null,
+    "options": [
+      { "text": "ARN, ARN, ribosomas", "correct": true },
+      { "text": "ADN, proteína celular, lisosomas", "correct": false },
+      { "text": "ARN, ADN modificado, núcleos", "correct": false },
+      { "text": "ADN, ARN transferente, nucleolos", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El proceso de transcripción biológica convierte el mensaje estable del ADN en una molécula de ARN mensajero que permite salir del núcleo para dar inicio a la síntesis de proteínas en el citoplasma.",
+    "explanation": "La enzima conocida como ARN polimerasa sintetiza específicamente el ARNm utilizando como molde al ADN. Posteriormente, este ARNm formado viaja velozmente hacia los ribosomas libres en el citoplasma para ser eficientemente traducido a proteínas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FX",
+    "question": "Relaciona los principales y fundamentales conceptos de la genética de poblaciones con su correspondiente descripción técnica o clínica:\nI. Alelo\nII. Locus\nIII. Fenotipo\n\nA. Expresión física, bioquímica o clínica evidente de un rasgo genético\nB. Ubicación o dirección física específica inmutable de un gen en un cromosoma determinado\nC. Cada una de las posibles formas alternativas o versiones que puede ostentar un gen",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El vocablo locus se traduce del latín al español directamente como 'lugar' o posición. El fenotipo es todo aquello medible o que se muestra clínicamente.",
+    "explanation": "El Alelo (C) representa la variante alterna y funcional de un gen, el Locus (B) determina su posición exacta y mapeable en el cromosoma, y el Fenotipo (A) engloba su completa manifestación clínica u observable para los investigadores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FY",
+    "question": "Identifica de manera detallada en el siguiente listado cuáles técnicas complejas de laboratorio clínico se basan esencialmente en el principio bioquímico de la hibridación de cadenas complementarias de ácidos nucleicos:\n1. FISH (Hibridación In Situ Fluorescente)\n2. Centrifugación diferencial fraccionada\n3. Array CGH (Microarreglos Genómicos Comparados)\n4. Espectrometría de masas biológica\n5. Northern blot para el análisis de transcritos",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda firmemente que el término 'hibridación' se refiere con exclusividad a la potente unión fisicoquímica de hebras moleculares complementarias de ADN o ARN.",
+    "explanation": "Las técnicas FISH, el Array CGH y el Northern blot emplean sondas sintéticas y marcadas complementarias de ácidos nucleicos con el propósito de detectar secuencias sumamente específicas a través de la hibridación. Por contraste, la centrifugación separa biomoléculas por densidad física y la espectrometría por su particular relación masa/carga.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FZ",
+    "question": "Relaciona de forma exhaustiva la condición numérica cromosómica del paciente con su fórmula genética internacionalmente estandarizada e interpretada:\nI. Síndrome de Klinefelter clásico\nII. Varón neurotípico y sano\nIII. Síndrome de Turner clásico\n\nA. Genotipo 46, XY\nB. Genotipo 45, X0 (o simplemente 45, X)\nC. Genotipo 47, XXY",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las trisomías: el síndrome de Klinefelter siempre implica la presencia patológica de un cromosoma sexual X supernumerario en un sujeto varón. El diagnóstico de Turner avala la ausencia parcial o total de dicho cromosoma X en la mujer.",
+    "explanation": "El diagnóstico laboratorial de Klinefelter resulta sistemáticamente en un cariotipo de 47,XXY; el varón neurotípico manifiesta siempre 46,XY; y el diagnóstico para el síndrome de Turner evidencia la presencia clínica de 45,X0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GA",
+    "question": "En el vasto campo de la genética biológica y molecular, ¿cuál es la función de los denominados exones dentro del esquema estructural general de un gen que pertenece a una célula eucariota?",
+    "image": null,
+    "options": [
+      { "text": "Constituyen las secuencias o regiones codificantes estables que se traducirán finalmente a los aminoácidos de una proteína.", "correct": true },
+      { "text": "Representan potentes secuencias genómicas inhibidoras que silencian o bloquean activamente el paso de transcripción del ADN.", "correct": false },
+      { "text": "Refieren a las extensas secuencias moleculares que son sistemáticamente fragmentadas y eliminadas durante el proceso de splicing o maduración del ARN.", "correct": false },
+      { "text": "Conforman la región maestra o promotora estructural en donde se produce la unión química de la importante ARN polimerasa.", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una vez finalizada la maduración o splicing intracelular, los intrones siempre permanecen 'dentro' (descartados genéticamente) y los exones se 'expresan' y traducen.",
+    "explanation": "Los exones actúan como las regiones maestras de un gen debido a que contienen la codificación exacta necesaria para culminar con éxito la síntesis de macromoléculas de proteínas, por lo que su estructura persiste de manera invariable en la cinta de ARN mensajero maduro final.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GB",
+    "question": "¿Qué categoría y tipología específica de mutación molecular ocurre fisiológicamente cuando el leve cambio estructural de un único nucleótido en el ADN da como desafortunado resultado un codón de terminación anticipada y prematura dentro de la importante cadena naciente de ARNm?",
+    "image": null,
+    "options": [
+      { "text": "Mutación génica sin sentido (nonsense mutation)", "correct": true },
+      { "text": "Alteración y mutación por un erróneo sentido bioquímico (missense mutation)", "correct": false },
+      { "text": "Silenciamiento basal celular y mutación intrínsecamente silenciosa", "correct": false },
+      { "text": "Mutación estructural debido a un drástico cambio de su complejo marco de lectura final (frameshift mutation)", "correct": false }
+    ],
+    "uni_tags": ["CL SALUD"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que el código pierde rápidamente el propósito integral de su mensaje genético al detener por completo y de improviso la síntesis química esperada.",
+    "explanation": "La catalogada como mutación biológica sin sentido (nonsense mutation) es aquella que genera e induce directamente un codón químico de parada (UAA, UAG, UGA) altamente prematuro, resultando infaliblemente en la síntesis celular de una variante de proteína de tipo no funcional y profundamente truncada.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
