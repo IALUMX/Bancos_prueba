@@ -1,0 +1,866 @@
+[
+  {
+    "id": "CEP00AA",
+    "question": "Un estudiante del CEPREDIX invierte $\\$5000$ a una tasa de interés compuesto anual. Si al cabo de dos años el monto es de $\\$6050$, ¿cuál es la tasa de interés anual aplicada?",
+    "image": null,
+    "options": [
+      { "text": "$10\\%$", "correct": true },
+      { "text": "$11\\%$", "correct": false },
+      { "text": "$21\\%$", "correct": false },
+      { "text": "$5\\%$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Utiliza la fórmula del monto $M = C(1+i)^n$. Despeja la capital original para analizar el factor de crecimiento.",
+    "explanation": "$\\$6050 = \\$5000(1+i)^2 \\Rightarrow 1.21 = (1+i)^2 \\Rightarrow 1.1 = 1+i \\Rightarrow i = 0.10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Identifica cuáles de las siguientes expresiones representan funciones polinomiales: 1) $f(x) = 3x^4 - 2x + 1$; 2) $g(x) = x^{-2} + 5x$; 3) $h(x) = \\sqrt{2}x^3 - \\frac{1}{2}$; 4) $j(x) = 4\\sqrt{x} + 3$; 5) $k(x) = x^2 - x + \\pi$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Recuerda que los exponentes de las variables deben ser números enteros no negativos.",
+    "explanation": "Las funciones 2 y 4 tienen exponentes negativos o fraccionarios, por lo que no son polinomios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Completa el siguiente enunciado sobre identidades trigonométricas: 'La identidad ______ establece que $\\sin^2(x) + \\cos^2(x) = 1$, de la cual se puede deducir que $\\tan^2(x) + 1 = \\text{______}$ al dividir toda la expresión entre ______.'",
+    "image": null,
+    "options": [
+      { "text": "Pitagórica, $\\sec^2(x)$, $\\cos^2(x)$", "correct": true },
+      { "text": "Recíproca, $\\csc^2(x)$, $\\sin^2(x)$", "correct": false },
+      { "text": "Pitagórica, $\\cot^2(x)$, $\\cos^2(x)$", "correct": false },
+      { "text": "De cociente, $\\sec^2(x)$, $\\sin^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Aplica la división de cada término entre la función coseno al cuadrado.",
+    "explanation": "Al dividir $\\sin^2(x) + \\cos^2(x) = 1$ entre $\\cos^2(x)$, se obtiene $\\tan^2(x) + 1 = \\sec^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Relaciona la ecuación de la cónica con su tipo geométrico: I) $x^2 + y^2 - 4x = 0$; II) $x^2 - y^2 = 1$; III) $y = x^2 - 2x + 1$. Tipos: A) Hipérbola; B) Parábola; C) Circunferencia.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Analiza los coeficientes de los términos al cuadrado y sus signos.",
+    "explanation": "La ecuación I tiene coeficientes iguales en $x^2$ e $y^2$ y del mismo signo (Circunferencia). La II tiene signos opuestos (Hipérbola). La III solo tiene una variable al cuadrado (Parábola).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "Si en un sistema de ecuaciones $2x + 3y = 12$ y $4x - y = 10$, ¿cuál es el valor del producto $xy$?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "-6", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Multiplica la segunda ecuación por 3 para emplear el método de eliminación.",
+    "explanation": "Multiplicando la segunda por 3: $12x - 3y = 30$. Sumando ambas: $14x = 42 \\Rightarrow x = 3$. Sustituyendo en la segunda: $12 - y = 10 \\Rightarrow y = 2$. El producto es $3 \\times 2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "¿Cuál es el dominio de la función $f(x) = \\frac{1}{\\sqrt{x^2 - 16}}$?",
+    "image": null,
+    "options": [
+      { "text": "$(-\\infty, -4) \\cup (4, \\infty)$", "correct": true },
+      { "text": "$[-4, 4]$", "correct": false },
+      { "text": "$(4, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, -4] \\cup [4, \\infty)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Para que la función exista, la expresión dentro de la raíz en el denominador debe ser estrictamente positiva, es decir, $x^2 - 16 > 0$.",
+    "explanation": "Resolviendo la desigualdad $x^2 > 16$, obtenemos que $|x| > 4$, lo cual se traduce en los intervalos abiertos $(-\\infty, -4) \\cup (4, \\infty)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Identifica los valores de $\\theta$ en el intervalo $[0, 2\\pi]$ que satisfacen la ecuación $2\\cos^2(\\theta) - 1 = 0$: 1) $\\pi/4$; 2) $\\pi/2$; 3) $3\\pi/4$; 4) $5\\pi/4$; 5) $\\pi$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Despeja $\\cos(\\theta)$ para obtener dos posibles valores y busca los ángulos correspondientes.",
+    "explanation": "$\\cos^2(\\theta) = 1/2 \\Rightarrow \\cos(\\theta) = \\pm \\sqrt{2}/2$. Esto ocurre en $\\pi/4$, $3\\pi/4$, $5\\pi/4$ y $7\\pi/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Completa el razonamiento: 'En una progresión ______, la razón entre dos términos consecutivos es constante. Si el primer término es 3 y la razón es 2, el cuarto término será ______.'",
+    "image": null,
+    "options": [
+      { "text": "Geométrica, 24", "correct": true },
+      { "text": "Aritmética, 9", "correct": false },
+      { "text": "Armónica, 12", "correct": false },
+      { "text": "Geométrica, 18", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Usa la fórmula $a_n = a_1 \\cdot r^{n-1}$.",
+    "explanation": "Es geométrica. El cuarto término es $a_4 = 3 \\cdot 2^{(4-1)} = 3 \\cdot 8 = 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Relaciona las propiedades de los logaritmos con su expresión equivalente: I) $\\log_a(xy)$; II) $\\log_a(x/y)$; III) $\\log_a(x^y)$. Equivalentes: A) $y \\log_a(x)$; B) $\\log_a(x) - \\log_a(y)$; C) $\\log_a(x) + \\log_a(y)$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Un producto en el argumento equivale a una suma de logaritmos, y un cociente a una resta.",
+    "explanation": "El producto se separa en suma (C), el cociente en resta (B), y el exponente baja como coeficiente (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "En el CEPREDIX, un arquitecto diseña un techo parabólico. La función que describe el perfil es $h(x) = -0.5x^2 + 4x + 2$. ¿Cuál es la altura máxima que alcanza el techo?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "El punto máximo se encuentra en el vértice. Usa $x = -b / (2a)$ para hallar la coordenada horizontal.",
+    "explanation": "$x = -4 / (2(-0.5)) = 4$. Evaluando en la función: $h(4) = -0.5(16) + 4(4) + 2 = -8 + 16 + 2 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Resuelve la inecuación $\\frac{x - 3}{x + 2} \\leq 0$.",
+    "image": null,
+    "options": [
+      { "text": "$(-2, 3]$", "correct": true },
+      { "text": "$[-2, 3]$", "correct": false },
+      { "text": "$(-\\infty, -2) \\cup [3, \\infty)$", "correct": false },
+      { "text": "$(-3, 2]$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Encuentra los puntos críticos igualando el numerador y el denominador a cero, y realiza un análisis de signos.",
+    "explanation": "Los puntos críticos son $x=3$ y $x=-2$. El denominador no puede ser $-2$ (abierto). Evaluando intervalos, el signo es negativo entre $-2$ y $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Halla el área de un triángulo equilátero inscrito en una circunferencia de radio $R = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$12\\sqrt{3}$", "correct": true },
+      { "text": "$16\\sqrt{3}$", "correct": false },
+      { "text": "$8\\sqrt{3}$", "correct": false },
+      { "text": "$6\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "En un triángulo equilátero inscrito, el lado es $L = R\\sqrt{3}$. El área es $A = \\frac{L^2\\sqrt{3}}{4}$.",
+    "explanation": "$L = 4\\sqrt{3}$. El área es $A = \\frac{(4\\sqrt{3})^2\\sqrt{3}}{4} = \\frac{48\\sqrt{3}}{4} = 12\\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Una matriz $A$ de dimensión $2 \\times 2$ tiene determinante 5. Si multiplicamos la matriz por el escalar 3, ¿cuál será el determinante de la nueva matriz $3A$?",
+    "image": null,
+    "options": [
+      { "text": "45", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "30", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Para una matriz de orden $n$, se cumple que $|kA| = k^n|A|$.",
+    "explanation": "Como la matriz es $2 \\times 2$, $n=2$. El determinante es $3^2 \\times 5 = 9 \\times 5 = 45$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "¿Cuál es la ecuación de la recta perpendicular a $y = 2x - 5$ que pasa por el punto $(4, -1)$?",
+    "image": null,
+    "options": [
+      { "text": "$y = -\\frac{1}{2}x + 1$", "correct": true },
+      { "text": "$y = \\frac{1}{2}x - 3$", "correct": false },
+      { "text": "$y = -2x + 7$", "correct": false },
+      { "text": "$y = -\\frac{1}{2}x - 1$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "La pendiente de la recta perpendicular debe ser el recíproco negativo de la original ($m_1 \\cdot m_2 = -1$).",
+    "explanation": "Pendiente original $m=2$, perpendicular $m=-1/2$. Usando punto-pendiente: $y - (-1) = -1/2(x - 4) \\Rightarrow y + 1 = -1/2x + 2 \\Rightarrow y = -1/2x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "En un grupo escolar, la relación de hombres a mujeres es de 3 a 5. Si llegan 12 mujeres más, la relación se vuelve de 1 a 2. ¿Cuántos hombres hay en el grupo?",
+    "image": null,
+    "options": [
+      { "text": "36", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "60", "correct": false },
+      { "text": "18", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Plantea $H = 3k$ y $M = 5k$. Tras llegar las mujeres, la nueva ecuación es $H / (M + 12) = 1/2$.",
+    "explanation": "$3k / (5k + 12) = 1/2 \\Rightarrow 6k = 5k + 12 \\Rightarrow k = 12$. Los hombres son $3k = 3(12) = 36$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Identifica las soluciones complejas de la ecuación $x^2 - 6x + 13 = 0$: 1) $3 + 2i$; 2) $-3 + 2i$; 3) $3 - 2i$; 4) $2 + 3i$; 5) $-3 - 2i$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "2, 5", "correct": false },
+      { "text": "1, 4", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Usa la fórmula general o completa el trinomio cuadrado perfecto: $(x - 3)^2 = -4$.",
+    "explanation": "$(x - 3)^2 = -4 \\Rightarrow x - 3 = \\pm 2i \\Rightarrow x = 3 \\pm 2i$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Completa el razonamiento geométrico: 'El segmento que une el centro de un polígono regular con el punto medio de cualquiera de sus lados se conoce como ______. Éste es fundamental para calcular el ______ del polígono mediante la fórmula $\\frac{P \\cdot a}{2}$.'",
+    "image": null,
+    "options": [
+      { "text": "Apotema, área", "correct": true },
+      { "text": "Radio, perímetro", "correct": false },
+      { "text": "Diagonal, volumen", "correct": false },
+      { "text": "Sagita, área", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Corresponde a la altura de los triángulos isósceles que componen la figura regular.",
+    "explanation": "La apotema conecta el centro con el punto medio del lado, formando ángulos rectos, y se usa en la fórmula del área.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Relaciona cada función con la descripción de su asíntota: I) $f(x) = \\frac{2x}{x - 1}$; II) $g(x) = e^{-x} + 3$; III) $h(x) = \\ln(x + 2)$. Asíntotas: A) Asíntota vertical en $x = -2$; B) Asíntota horizontal en $y = 3$; C) Asíntota horizontal en $y = 2$ y vertical en $x = 1$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Evalúa los límites en el infinito para las horizontales, y los valores que anulan los argumentos/denominadores para las verticales.",
+    "explanation": "I tiene asíntota $y=2$ (coeficientes principales) y $x=1$. II se estabiliza en $y=3$. III tiene indefinición en $x=-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "En el CEPREDIX, un problema de optimización requiere encontrar los números cuya suma sea 40 y su producto sea máximo. ¿Cuál es el valor absoluto de la diferencia de estos números?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "40", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Plantea $P(x) = x(40-x)$ y encuentra el vértice de la parábola.",
+    "explanation": "El producto máximo de dos números con suma constante ocurre cuando son iguales. Los números son 20 y 20, su diferencia es 0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Evalúa la siguiente expresión combinatoria: $\\frac{7!}{5! \\cdot 2!} + \\binom{6}{2}$",
+    "image": null,
+    "options": [
+      { "text": "36", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "42", "correct": false },
+      { "text": "31", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Recuerda que $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$.",
+    "explanation": "El primer término es $\\binom{7}{2} = 21$. El segundo es $\\binom{6}{2} = 15$. La suma es $21 + 15 = 36$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Si $x + \\frac{1}{x} = 5$, ¿cuál es el valor de $x^2 + \\frac{1}{x^2}$?",
+    "image": null,
+    "options": [
+      { "text": "23", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "27", "correct": false },
+      { "text": "21", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Eleva al cuadrado ambos lados de la ecuación original y despeja la suma de los cuadrados.",
+    "explanation": "$(x + 1/x)^2 = 25 \\Rightarrow x^2 + 2(x)(1/x) + 1/x^2 = 25 \\Rightarrow x^2 + 2 + 1/x^2 = 25 \\Rightarrow x^2 + 1/x^2 = 23$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "¿Cuál es la ecuación de la circunferencia con centro en $(3, -2)$ y que es tangente al eje $y$?",
+    "image": null,
+    "options": [
+      { "text": "$(x - 3)^2 + (y + 2)^2 = 9$", "correct": true },
+      { "text": "$(x + 3)^2 + (y - 2)^2 = 9$", "correct": false },
+      { "text": "$(x - 3)^2 + (y + 2)^2 = 4$", "correct": false },
+      { "text": "$(x - 3)^2 + (y + 2)^2 = 6$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "La distancia del centro al eje $y$ determina la longitud del radio.",
+    "explanation": "El centro está en $x=3$. Para ser tangente al eje $y$ (que es $x=0$), el radio debe ser 3. La ecuación lleva $r^2 = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Identifica cuáles de los siguientes vectores son ortogonales al vector $\\vec{u} = (2, -3)$: 1) $\\vec{v_1} = (3, 2)$; 2) $\\vec{v_2} = (-6, -4)$; 3) $\\vec{v_3} = (4, 6)$; 4) $\\vec{v_4} = (1, 2/3)$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "1, 2", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "El producto punto $\\vec{u} \\cdot \\vec{v} = 0$ define la ortogonalidad.",
+    "explanation": "El producto escalar debe ser cero. Comprobación de la primera opción correcta: $(2)(3) + (-3)(2) = 0$; $(2)(-6) + (-3)(-4) = 0$; $(2)(1) + (-3)(2/3) = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Completa: 'La ley de los cosenos es una generalización del ______ que se aplica a cualquier triángulo. Su expresión general es $c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)$, donde $\\gamma$ es el ángulo ______.'",
+    "image": null,
+    "options": [
+      { "text": "Teorema de Pitágoras, opuesto al lado c", "correct": true },
+      { "text": "Teorema de Tales, adyacente al lado c", "correct": false },
+      { "text": "Teorema del Seno, agudo", "correct": false },
+      { "text": "Teorema de Pitágoras, complementario", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Observa lo que ocurre si $\\gamma = 90^\\circ$.",
+    "explanation": "Es la versión extendida de Pitágoras, donde $\\gamma$ debe ser el ángulo de cara al lado cuya longitud se busca aislar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Relaciona el método de resolución de sistemas de ecuaciones con su procedimiento característico: I) Sustitución; II) Igualación; III) Reducción (Suma y resta). Procedimientos: A) Se despeja la misma incógnita en ambas y se igualan los resultados; B) Se multiplica por constantes para eliminar una variable al sumar; C) Se despeja una incógnita y se reemplaza en la otra ecuación.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "C es 'sustituir', A es 'igualar', B es 'reducir'.",
+    "explanation": "Sustitución implica introducir una expresión en otra; Igualación empareja dos expresiones idénticas; Reducción busca anular coeficientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "El área de un rectángulo es $2x^2 + 7x + 3$. Si el ancho es $x + 3$, ¿cuál es la expresión para el largo?",
+    "image": null,
+    "options": [
+      { "text": "$2x + 1$", "correct": true },
+      { "text": "$2x - 1$", "correct": false },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$2x + 3$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Realiza la división polinomial o factoriza el trinomio buscando dos números que multiplicados den 6 y sumados 7.",
+    "explanation": "El trinomio se factoriza como $(2x + 1)(x + 3)$. Al dividir entre $(x + 3)$, el resultado es $(2x + 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Calcula la suma de los primeros 15 términos de una progresión aritmética donde el primer término es 4 y la diferencia es 3.",
+    "image": null,
+    "options": [
+      { "text": "375", "correct": true },
+      { "text": "360", "correct": false },
+      { "text": "400", "correct": false },
+      { "text": "390", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Usa la fórmula $S_n = \\frac{n}{2} [2a_1 + (n-1)d]$.",
+    "explanation": "$S_{15} = \\frac{15}{2} [2(4) + (14)(3)] = 7.5 [8 + 42] = 7.5 \\times 50 = 375$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Identifica las funciones que son estrictamente crecientes en todo su dominio real: 1) $y = e^x$; 2) $y = x^3$; 3) $y = -2x + 5$; 4) $y = \\tan(x)$; 5) $y = \\ln(x)$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Observa que 'todo su dominio real' significa que existen y crecen de $-\\infty$ a $\\infty$.",
+    "explanation": "La 1 y 2 crecen en $\\mathbb{R}$. La 5 crece pero su dominio no es todo $\\mathbb{R}$ (solo $x>0$). La 4 tiene asíntotas y la 3 es decreciente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Completa: 'El Teorema del Resto estipula que si un polinomio $P(x)$ se divide entre un binomio de la forma ______, el residuo de esa división es igual a evaluar el polinomio en ______.'",
+    "image": null,
+    "options": [
+      { "text": "$(x - c)$, $P(c)$", "correct": true },
+      { "text": "$(cx - 1)$, $P(1/c)$", "correct": false },
+      { "text": "$(x + c)$, $P(c)$", "correct": false },
+      { "text": "$(x - c)$, $P(-c)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "El valor que anula al divisor es el que se sustituye en el polinomio original.",
+    "explanation": "Si el divisor es $x - c = 0 \\Rightarrow x = c$. El residuo se obtiene al calcular $P(c)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Relaciona el ángulo notable con el valor de su tangente trigonométrica: I) $30^\\circ$; II) $45^\\circ$; III) $60^\\circ$. Valores: A) $1$; B) $\\sqrt{3}$; C) $\\sqrt{3}/3$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Recuerda que $\\tan(x)$ es creciente de 0 a 90 grados.",
+    "explanation": "La $\\tan(30^\\circ) = \\sqrt{3}/3$, $\\tan(45^\\circ) = 1$, y $\\tan(60^\\circ) = \\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Un problema clásico del CEPREDIX: Si el logaritmo en base $b$ de 81 es 4, ¿cuál es el valor de $b^3$?",
+    "image": null,
+    "options": [
+      { "text": "27", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "64", "correct": false },
+      { "text": "81", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Escribe la definición del logaritmo: $b^4 = 81$. Resuelve para $b$ y luego eleva al cubo.",
+    "explanation": "Si $b^4 = 81$, entonces $b = 3$. Por lo tanto, $b^3 = 3^3 = 27$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Un barco navega 50 km al norte y luego 120 km al este. ¿A qué distancia en línea recta se encuentra de su punto de partida?",
+    "image": null,
+    "options": [
+      { "text": "130 km", "correct": true },
+      { "text": "170 km", "correct": false },
+      { "text": "150 km", "correct": false },
+      { "text": "110 km", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Los movimientos forman un ángulo recto. Aplica el Teorema de Pitágoras.",
+    "explanation": "$d = \\sqrt{50^2 + 120^2} = \\sqrt{2500 + 14400} = \\sqrt{16900} = 130$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Identifica las proposiciones verdaderas sobre la elipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$: 1) Su semieje mayor mide 10; 2) Su centro es el origen (0,0); 3) Los focos están sobre el eje x; 4) La distancia focal $c$ es 4; 5) El eje menor mide 3.",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Recuerda que $a^2$ es el denominador más grande. Aquí $a^2 = 25$ y $b^2 = 9$. Luego usa $c^2 = a^2 - b^2$.",
+    "explanation": "$a=5$ (semieje mayor, eje completo 10, falso 1), $b=3$ (eje menor 6, falso 5). Centro (0,0). Eje mayor en $x$. $c = \\sqrt{25 - 9} = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Completa el razonamiento: 'El determinante de una matriz triangular (superior o inferior) es igual al ______ de los elementos de su ______. Esta propiedad simplifica drásticamente el cálculo en álgebra lineal.'",
+    "image": null,
+    "options": [
+      { "text": "Producto, diagonal principal", "correct": true },
+      { "text": "Suma, diagonal principal", "correct": false },
+      { "text": "Producto, última fila", "correct": false },
+      { "text": "Cociente, matriz transpuesta", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Dado que hay ceros por encima o por debajo de la diagonal, todas las demás permutaciones del determinante se anulan.",
+    "explanation": "Al desarrollar por cofactores, solo sobrevive el término que multiplica repetidamente la diagonal principal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Relaciona la operación entre conjuntos con su equivalente lógico: I) Intersección ($A \\cap B$); II) Unión ($A \\cup B$); III) Complemento ($A^c$). Equivalentes: A) Negación (NO); B) Disyunción (O); C) Conjunción (Y).",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Piensa en el significado de 'estar en A Y en B' simultáneamente.",
+    "explanation": "La intersección es 'Y', la unión es 'O' (inclusivo), y el complemento es 'NO' (lo que no está).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "En el CEPREDIX, un estudiante modela el tiro de un basquetbolista. La trayectoria es $y = -0.1x^2 + 1.2x + 2$. Si la canasta está a una distancia horizontal de $10 \\text{ m}$, ¿a qué altura se encuentra la canasta?",
+    "image": null,
+    "options": [
+      { "text": "4 m", "correct": true },
+      { "text": "3.5 m", "correct": false },
+      { "text": "2 m", "correct": false },
+      { "text": "4.5 m", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Sustituye la coordenada $x=10$ en la función para hallar el valor de $y$.",
+    "explanation": "$y(10) = -0.1(10)^2 + 1.2(10) + 2 = -0.1(100) + 12 + 2 = -10 + 14 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Resuelve el sistema no lineal: $x^2 + y^2 = 25$ y $y = x + 1$. ¿Cuáles son los puntos de intersección?",
+    "image": null,
+    "options": [
+      { "text": "$(3, 4)$ y $(-4, -3)$", "correct": true },
+      { "text": "$(4, 3)$ y $(-3, -4)$", "correct": false },
+      { "text": "$(0, 5)$ y $(5, 0)$", "correct": false },
+      { "text": "$(3, 4)$ y $(4, 5)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Sustituye $y$ en la primera ecuación: $x^2 + (x+1)^2 = 25$.",
+    "explanation": "$x^2 + x^2 + 2x + 1 = 25 \\Rightarrow 2x^2 + 2x - 24 = 0 \\Rightarrow x^2 + x - 12 = 0 \\Rightarrow (x+4)(x-3)=0$. Puntos en $x=-4$ y $x=3$. Evaluando en $y$: $(-4, -3)$ y $(3, 4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "¿Cuál es la derivada de $f(x) = x^3 \\ln(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2(3\\ln(x) + 1)$", "correct": true },
+      { "text": "$3x^2 \\ln(x)$", "correct": false },
+      { "text": "$x^2(3\\ln(x) - 1)$", "correct": false },
+      { "text": "$x^2 / \\ln(x)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Aplica la regla del producto: $(uv)' = u'v + uv'$.",
+    "explanation": "$f'(x) = (3x^2)\\ln(x) + x^3(1/x) = 3x^2\\ln(x) + x^2 = x^2(3\\ln(x) + 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Identifica las igualdades válidas en trigonometría: 1) $\\sec(x) = 1 / \\cos(x)$; 2) $\\sin(2x) = 2\\sin(x)\\cos(x)$; 3) $\\cos(2x) = \\cos^2(x) + \\sin^2(x)$; 4) $\\tan(x) = \\sin(x) / \\cos(x)$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Revisa cuidadosamente los signos en la identidad del ángulo doble para el coseno.",
+    "explanation": "La proposición 3 es incorrecta porque $\\cos(2x) = \\cos^2(x) - \\sin^2(x)$. Las demás son identidades fundamentales correctas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Completa la ley de los logaritmos: 'El cambio de base establece que $\\log_b(a) = \\frac{\\text{______}}{\\text{______}}$, asumiendo que la nueva base es $c$.'",
+    "image": null,
+    "options": [
+      { "text": "$\\log_c(a)$, $\\log_c(b)$", "correct": true },
+      { "text": "$\\log_c(b)$, $\\log_c(a)$", "correct": false },
+      { "text": "$\\ln(a)$, $\\ln(c)$", "correct": false },
+      { "text": "$\\log_b(c)$, $\\log_a(c)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "El argumento original va en el numerador y la base original va en el argumento del denominador.",
+    "explanation": "La fórmula de cambio de base es $\\log_b(a) = \\ln(a)/\\ln(b)$ o con cualquier base $c$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Relaciona el tipo de intervalo con su notación y desigualdad: I) Cerrado; II) Abierto; III) Semiabierto (por la derecha). Notaciones: A) $[a, b) \\rightarrow a \\leq x < b$; B) $(a, b) \\rightarrow a < x < b$; C) $[a, b] \\rightarrow a \\leq x \\leq b$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Cerrado implica corchetes y $\\leq / \\geq$. Abierto implica paréntesis y $< / >$.",
+    "explanation": "Cerrado incluye ambos extremos (C). Abierto excluye ambos (B). Semiabierto excluye uno, en este caso la derecha (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "En una caja hay $\\$80$ en monedas de $\\$2$ y $\\$5$. Si en total hay 25 monedas, ¿cuántas monedas de $\\$5$ hay?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Modela un sistema: $x + y = 25$ y $2x + 5y = 80$. Despeja $x$ en la primera y sustituye.",
+    "explanation": "Sustituyendo $x = 25 - y$ en la segunda ecuación: $2(25 - y) + 5y = 80 \\Rightarrow 50 - 2y + 5y = 80 \\Rightarrow 3y = 30 \\Rightarrow y = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "¿Cuál es la inversa de la función $f(x) = \\frac{2x + 1}{x - 3}$?",
+    "image": null,
+    "options": [
+      { "text": "$f^{-1}(x) = \\frac{3x + 1}{x - 2}$", "correct": true },
+      { "text": "$f^{-1}(x) = \\frac{2x - 3}{x + 1}$", "correct": false },
+      { "text": "$f^{-1}(x) = \\frac{x - 3}{2x + 1}$", "correct": false },
+      { "text": "$f^{-1}(x) = \\frac{3x - 1}{x + 2}$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Intercambia $x$ por $y$, es decir $x = \\frac{2y+1}{y-3}$, y despeja $y$.",
+    "explanation": "$x(y - 3) = 2y + 1 \\Rightarrow xy - 3x = 2y + 1 \\Rightarrow y(x - 2) = 3x + 1 \\Rightarrow y = \\frac{3x+1}{x-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Identifica las medidas de tendencia central usadas en estadística descriptiva: 1) Desviación estándar; 2) Media; 3) Mediana; 4) Varianza; 5) Moda.",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Diferencia las medidas de 'dispersión' (qué tan separados están los datos) de las de 'tendencia central' (dónde se agrupan).",
+    "explanation": "La varianza y la desviación estándar miden dispersión, no el centro de los datos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Completa: 'El Teorema Fundamental del Álgebra asegura que todo polinomio de grado $n \\geq 1$ tiene exactamente $n$ raíces en el campo de los números ______. Algunas de estas raíces pueden ser ______.'",
+    "image": null,
+    "options": [
+      { "text": "Complejos, repetidas", "correct": true },
+      { "text": "Reales, negativas", "correct": false },
+      { "text": "Racionales, imaginarias", "correct": false },
+      { "text": "Complejos, infinitas", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Incluye tanto a los reales como a los imaginarios y considera la multiplicidad.",
+    "explanation": "Trabaja en $\\mathbb{C}$, garantizando $n$ raíces contando multiplicidad (repetidas).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Relaciona la cónica con su propiedad de excentricidad ($e$): I) Parábola; II) Elipse; III) Hipérbola. Propiedades: A) $e > 1$; B) $e = 1$; C) $0 < e < 1$.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "La elipse es 'cerrada' ($e<1$), la parábola es el límite exacto ($e=1$), y la hipérbola es 'abierta' ($e>1$).",
+    "explanation": "Por definición analítica, la excentricidad clasifica a las cónicas según su apertura respecto a la directriz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Un problema del CEPREDIX pregunta: Si al triple de la edad actual de Juan se le restan 5 años, se obtiene la edad que tendrá dentro de 15 años. ¿Cuál es su edad actual?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "Modela algebraicamente: $3x - 5 = x + 15$.",
+    "explanation": "Despejando: $2x = 20 \\Rightarrow x = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Calcula el límite: $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "Indeterminado", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["MATEMÁTICAS"],
+    "hint": "La sustitución directa da 0/0. Factoriza el numerador como una diferencia de cuadrados.",
+    "explanation": "El numerador $(x-2)(x+2)$ se simplifica con el denominador, dejando $x+2$. Evaluando en $x=2$, el resultado es 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
