@@ -862,5 +862,1229 @@
     "explanation": "El numerador $(x-2)(x+2)$ se simplifica con el denominador, dejando $x+2$. Evaluando en $x=2$, el resultado es 4.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Calcula la derivada de la función $f(x) = \\ln(\\sin(x^2))$ con respecto a $x$.",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cot(x^2)$", "correct": true },
+      { "text": "$2x \\tan(x^2)$", "correct": false },
+      { "text": "$-2x \\cot(x^2)$", "correct": false },
+      { "text": "$\\cos(x^2) / \\sin(x^2)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Para la regla de la cadena logarítmica, si $f(x) = \\ln(u)$, entonces $f'(x) = \\frac{1}{u} \\cdot \\frac{du}{dx}$.",
+    "explanation": "Aplicando la regla de la cadena: la derivada de $\\ln(u)$ es $1/u$. Multiplicas por la derivada de $\\sin(x^2)$, que es $\\cos(x^2) \\cdot 2x$. Simplificando, $\\frac{2x \\cos(x^2)}{\\sin(x^2)} = 2x \\cot(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Resuelve la integral indefinida $\\int x e^{x^2} dx$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2} e^{x^2} + C$", "correct": true },
+      { "text": "$e^{x^2} + C$", "correct": false },
+      { "text": "$2x e^{x^2} + C$", "correct": false },
+      { "text": "$\\frac{1}{3} e^{x^3} + C$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Aplica el método de cambio de variable estableciendo $u = x^2$ para encontrar el diferencial $du$.",
+    "explanation": "Si $u = x^2$, entonces $du = 2x dx$, lo que implica que $x dx = du / 2$. Sustituyendo en la integral original obtenemos $\\frac{1}{2} \\int e^u du = \\frac{1}{2} e^u + C = \\frac{1}{2} e^{x^2} + C$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Identifica cuáles de los siguientes límites tienen un valor numérico exactamente igual a cero:\n1. $\\lim_{x \\to \\infty} \\frac{2x}{x^2+1}$\n2. $\\lim_{x \\to \\infty} \\frac{3x^2}{2x^2-1}$\n3. $\\lim_{x \\to 0} \\frac{\\sin x}{x}$\n4. $\\lim_{x \\to \\infty} e^{-x}$\n5. $\\lim_{x \\to 1} \\frac{x^2-1}{x-1}$",
+    "image": null,
+    "options": [
+      { "text": "1, 4", "correct": true },
+      { "text": "2, 5", "correct": false },
+      { "text": "1, 3", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Evalúa el comportamiento asintótico. El exponente negativo invierte la base, y un denominador de mayor grado domina sobre el numerador.",
+    "explanation": "El límite 1 tiende a 0 porque el grado del denominador es mayor. El límite 4 es $1/e^\\infty$, que tiende a 0. Los otros límites son $3/2$, $1$ y $2$, respectivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Un estudiante del CEPREDIX desea maximizar el área de un corral rectangular con $100 \\text{ m}$ de malla apoyado en una pared extensa. El área se modela como $A(x) = x(100 - 2x)$. El valor crítico para $x$ es ______ y el área máxima obtenida es ______.",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ m}$ y $1250 \\text{ m}^2$", "correct": true },
+      { "text": "$50 \\text{ m}$ y $2500 \\text{ m}^2$", "correct": false },
+      { "text": "$20 \\text{ m}$ y $1200 \\text{ m}^2$", "correct": false },
+      { "text": "$40 \\text{ m}$ y $800 \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Para encontrar los puntos críticos, aplica la condición $A'(x) = 0$ y despeja la variable independiente.",
+    "explanation": "Derivando la función $A(x) = 100x - 2x^2$, obtenemos $A'(x) = 100 - 4x$. Igualando a cero, $x = 25$. Sustituyendo este valor, el área máxima es $A(25) = 25(100 - 50) = 1250$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Relaciona la integral planteada con el método de integración analítico más directo para resolverla:\nI. $\\int x \\sin(x) dx$\nII. $\\int \\frac{2x}{x^2+1} dx$\nIII. $\\int \\frac{1}{x^2-1} dx$\n\nA. Fracciones parciales\nB. Integración por partes\nC. Cambio de variable",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Observa el producto de funciones distintas para la primera, y la relación entre numerador y derivada del denominador para la segunda.",
+    "explanation": "La primera (I) requiere integración por partes al ser un producto algebraico-trigonométrico. La segunda (II) se resuelve directo por sustitución ($u=x^2+1$). La tercera (III) utiliza fracciones parciales por tener un denominador factorizable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Calcula el valor del siguiente límite trigonométrico: $\\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$1/2$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "El límite presenta una indeterminación $0/0$. Puedes aplicar la regla de L'Hôpital dos veces o usar la identidad de ángulo doble $1 - \\cos(2x) = 2\\sin^2(x)$.",
+    "explanation": "Aplicando L'Hôpital por primera vez: $\\lim \\frac{2\\sin(2x)}{2x} = \\lim \\frac{\\sin(2x)}{x}$. Aplicando de nuevo: $\\lim \\frac{2\\cos(2x)}{1}$. Evaluando en cero obtenemos $2\\cos(0) = 2(1) = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Dada la ecuación de una circunferencia $x^2 + y^2 = 25$, determina el valor de la derivada implicita $dy/dx$ exactamente en el punto $(3, 4)$.",
+    "image": null,
+    "options": [
+      { "text": "$-3/4$", "correct": true },
+      { "text": "$3/4$", "correct": false },
+      { "text": "$-4/3$", "correct": false },
+      { "text": "$4/3$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Deriva ambos lados de la ecuación respecto a $x$ utilizando la regla de la cadena en el término de $y$, es decir $\\frac{d}{dx}(y^2) = 2y \\cdot \\frac{dy}{dx}$.",
+    "explanation": "Derivando implícitamente: $2x + 2y(dy/dx) = 0$. Despejando la derivada obtenemos $dy/dx = -x/y$. Evaluando en el punto dado $(3, 4)$, el resultado es $-3/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Identifica cuáles de las siguientes funciones matemáticas presentan al menos un punto en $\\mathbb{R}$ donde son continuas, pero NO derivables:\n1. $f(x) = |x|$\n2. $f(x) = x^3$\n3. $f(x) = \\sqrt[3]{x}$\n4. $f(x) = \\sin(x)$\n5. $f(x) = e^x$",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 5", "correct": false },
+      { "text": "3, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Busca funciones que presenten picos (cúspides) o tangentes verticales en su gráfica.",
+    "explanation": "La función valor absoluto $|x|$ tiene un pico en $x = 0$ (derivadas laterales distintas). La función raíz cúbica tiene una tangente vertical en $x = 0$ (la derivada tiende a infinito). Las demás son suaves en todos los números reales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "El área bajo la curva de la función $y = 3x^2$ desde $x = 1$ hasta $x = 3$ se calcula resolviendo la integral definida, cuyo resultado es ______ unidades cuadradas. Si por convención se invierten los límites de integración inferior y superior, el resultado numérico es ______.",
+    "image": null,
+    "options": [
+      { "text": "$26$ y $-26$", "correct": true },
+      { "text": "$24$ y $-24$", "correct": false },
+      { "text": "$27$ y $-27$", "correct": false },
+      { "text": "$80$ y $-80$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Calcula la integral integrando la función como $\\frac{3x^3}{3}$ y evalúa usando el Teorema Fundamental del Cálculo: $F(b) - F(a)$.",
+    "explanation": "La antiderivada es $x^3$. Evaluando en los límites: $(3)^3 - (1)^3 = 27 - 1 = 26$. Por propiedad de las integrales definidas, invertir los límites cambia el signo del resultado a $-26$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Relaciona la función trigonométrica inversa con la expresión algebraica correspondiente a su derivada respecto a $x$:\nI. $\\arcsin(x)$\nII. $\\arctan(x)$\nIII. $\\text{arcsec}(x)$\n\nA. $\\frac{1}{1+x^2}$\nB. $\\frac{1}{\\sqrt{1-x^2}}$\nC. $\\frac{1}{|x|\\sqrt{x^2-1}}$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "La función que no presenta raíz cuadrada en el denominador de su derivada es la correspondiente a la tangente inversa.",
+    "explanation": "Por definición estándar, la derivada de $\\arcsin(x)$ es $1/\\sqrt{1-x^2}$, la de $\\arctan(x)$ carece de radicales siendo $1/(1+x^2)$, y la de $\\text{arcsec}(x)$ involucra un valor absoluto $1/(|x|\\sqrt{x^2-1})$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Un investigador del CEPREDIX infla un globo esférico de modo que su volumen aumenta a una razón constante de $100 \\text{ cm}^3/\\text{s}$. ¿Con qué rapidez instantánea está aumentando el radio del globo exactamente cuando el diámetro alcanza los $10 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$1/\\pi \\text{ cm/s}$", "correct": true },
+      { "text": "$10/\\pi \\text{ cm/s}$", "correct": false },
+      { "text": "$1/(5\\pi) \\text{ cm/s}$", "correct": false },
+      { "text": "$1/(25\\pi) \\text{ cm/s}$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Utiliza la fórmula del volumen de una esfera $V = \\frac{4}{3}\\pi r^3$ y aplica la regla de la cadena para relacionar las tasas de cambio $\\frac{dV}{dt}$ y $\\frac{dr}{dt}$.",
+    "explanation": "Derivando con respecto al tiempo: $dV/dt = 4\\pi r^2 (dr/dt)$. Si el diámetro es $10$, el radio es $r = 5$. Sustituyendo los valores: $100 = 4\\pi(25)(dr/dt) = 100\\pi(dr/dt)$. Despejando, $dr/dt = 1/\\pi \\text{ cm/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Sea la función integral acumulativa definida por $F(x) = \\int_0^{x^2} \\cos(t) dt$. Determina la expresión analítica para su derivada $F'(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cos(x^2)$", "correct": true },
+      { "text": "$\\cos(x^2)$", "correct": false },
+      { "text": "$-\\sin(x^2)$", "correct": false },
+      { "text": "$-2x \\sin(x^2)$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Emplea el Primer Teorema Fundamental del Cálculo compuesto con la regla de la cadena: $\\frac{d}{dx} \\int_a^{g(x)} f(t)dt = f(g(x)) \\cdot g'(x)$.",
+    "explanation": "Según el teorema extendido, se sustituye el límite superior $x^2$ en la función integrando y se multiplica por la derivada de dicho límite superior (que es $2x$). Esto nos da como resultado $2x \\cos(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Analizando la concavidad de la función polinomial $f(x) = x^4 - 6x^3 + 12x^2 - 8x$, selecciona el conjunto de abscisas que corresponden a sus puntos de inflexión:\n1. $x = 1$\n2. $x = 2$\n3. $x = 0$\n4. $x = -1$\n5. $x = 3$",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "3, 5", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Para localizar los puntos de inflexión, calcula la segunda derivada $f''(x)$, iguala a cero para encontrar las raíces y verifica que la concavidad cambie de signo.",
+    "explanation": "La primera derivada es $4x^3 - 18x^2 + 24x - 8$. La segunda derivada es $12x^2 - 36x + 24 = 12(x^2 - 3x + 2)$. Factorizando se obtiene $12(x-1)(x-2) = 0$, resultando en cambios de concavidad en $x = 1$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Al aplicar el algoritmo del método de integración por partes en la integral $\\int x e^{2x} dx$, si se realiza la elección estratégica $u = x$, entonces $dv = ______$, lo que forzosamente resulta en $v = ______$ tras integrar.",
+    "image": null,
+    "options": [
+      { "text": "$e^{2x} dx$ y $\\frac{1}{2}e^{2x}$", "correct": true },
+      { "text": "$e^{2x} dx$ y $2e^{2x}$", "correct": false },
+      { "text": "$x dx$ y $\\frac{1}{2}x^2$", "correct": false },
+      { "text": "$2x e^{2x} dx$ y $e^{2x}$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "El diferencial $dv$ contiene el resto de la expresión original. La variable $v$ es la antiderivada directa de esa expresión.",
+    "explanation": "Al elegir $u = x$, la parte restante obligatoriamente es $dv = e^{2x} dx$. Al integrar esta función exponencial utilizando un cambio de variable rápido, obtenemos que $v = \\frac{1}{2}e^{2x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Relaciona cada función con el valor numérico de la pendiente de su recta tangente evaluada exactamente en el punto $x = 1$:\nI. $y = x^3$\nII. $y = \\ln(x)$\nIII. $y = e^{2x-2}$\n\nA. $m = 1$\nB. $m = 2$\nC. $m = 3$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "La pendiente de la recta tangente equivale al valor de la derivada de cada función cuando se sustituye por la abscisa indicada.",
+    "explanation": "Las derivadas son: (I) $y' = 3x^2 \\to 3(1)^2 = 3$. (II) $y' = 1/x \\to 1/1 = 1$. (III) $y' = 2e^{2x-2} \\to 2e^0 = 2$. Así se establece la relación correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Calcula el área de la región plana completamente delimitada por las intersecciones de las curvas $y = x^2$ y $y = \\sqrt{x}$ en el primer cuadrante.",
+    "image": null,
+    "options": [
+      { "text": "$1/3$", "correct": true },
+      { "text": "$1/2$", "correct": false },
+      { "text": "$2/3$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Resuelve primero la igualdad de ambas funciones para hallar los límites de integración, luego plantea la integral de la diferencia de funciones: $\\int (f(x) - g(x))dx$.",
+    "explanation": "Las funciones se intersecan en $x = 0$ y $x = 1$. En este intervalo, $\\sqrt{x}$ es superior a $x^2$. El área es $\\int_0^1 (x^{1/2} - x^2) dx = [\\frac{2}{3}x^{3/2} - \\frac{1}{3}x^3]_0^1 = \\frac{2}{3} - \\frac{1}{3} = \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "¿Cuál es la mínima distancia posible medida desde el origen del plano cartesiano hasta un punto contenido sobre la recta $y = -2x + 5$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{5}$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$2\\sqrt{5}$", "correct": false },
+      { "text": "$25$", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Puedes optimizar el cuadrado de la función distancia $f(x) = x^2 + y^2$ sustituyendo $y$ con la ecuación de la recta para hallar un mínimo.",
+    "explanation": "El cuadrado de la distancia es $D(x) = x^2 + (-2x+5)^2 = 5x^2 - 20x + 25$. Derivando e igualando a cero: $10x - 20 = 0 \\Rightarrow x = 2$. En la recta, $y = 1$. La distancia es $\\sqrt{2^2 + 1^2} = \\sqrt{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Un equipo de estudiantes del CEPREDIX analiza la convergencia de varias integrales impropias para un proyecto. Identifica estrictamente cuáles de las siguientes integrales son divergentes:\n1. $\\int_1^\\infty \\frac{1}{x} dx$\n2. $\\int_1^\\infty \\frac{1}{x^2} dx$\n3. $\\int_0^1 \\frac{1}{x^2} dx$\n4. $\\int_0^\\infty e^{-x} dx$",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "2, 4", "correct": false },
+      { "text": "1, 4", "correct": false },
+      { "text": "2, 3", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Evalúa el comportamiento de integrales del tipo $p$. Para límites hacia el infinito divergen si $p \\leq 1$, y para asíntotas verticales divergen si $p \\geq 1$.",
+    "explanation": "La integral 1 diverge porque es $\\ln(x)$ evaluado al infinito. La integral 3 diverge porque da $-1/x$ evaluado en 0 por la derecha. Las integrales 2 y 4 convergen a 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "El Teorema del Valor Medio para Integrales establece que si una función $f$ es continua en el intervalo $[a,b]$, existe al menos un punto $c \\in (a,b)$ tal que $\\int_a^b f(x)dx = ______$. Geoméricamente, la evaluación $f(c)$ representa la ______ de la región bajo la curva si se asemejara a un rectángulo equivalente.",
+    "image": null,
+    "options": [
+      { "text": "$f(c)(b-a)$ y altura", "correct": true },
+      { "text": "$f'(c)(b-a)$ y pendiente", "correct": false },
+      { "text": "$F(b)-F(a)$ y base", "correct": false },
+      { "text": "$f(b)-f(a)$ y área", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Considera la relación del área con la figura del rectángulo donde $(b-a)$ corresponde a la amplitud del intervalo.",
+    "explanation": "El área total bajo la curva debe equivaler al área de un rectángulo ideal. La base es $(b-a)$ y el teorema asegura la existencia de una altura promedio exacta dada por el valor de la función $f(c)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Relaciona el límite formal con la derivada de la función elemental que representa por definición evaluada en cualquier punto $x$:\nI. $\\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin(x)}{h}$\nII. $\\lim_{h \\to 0} \\frac{e^{x+h} - e^x}{h}$\nIII. $\\lim_{h \\to 0} \\frac{\\ln(x+h) - \\ln(x)}{h}$\n\nA. $1/x$\nB. $\\cos(x)$\nC. $e^x$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["CÁLCULO"],
+    "hint": "Reconoce en el numerador la función base que se está alterando con el incremento temporal $h$.",
+    "explanation": "La expresión es la definición general de derivada. En (I) se está derivando la función seno, obteniendo coseno. En (II) se deriva la exponencial, resultando en la misma exponencial. En (III) el logaritmo deriva en $1/x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "¿En cuál de las siguientes oraciones se emplea correctamente el acento diacrítico?",
+    "image": null,
+    "options": [
+      { "text": "A mí me parece que él no tiene la razón en este caso particular.", "correct": true },
+      { "text": "Aun no he terminado de leer el libro completo que me prestaste.", "correct": false },
+      { "text": "Te pedí que me des un poco mas de tiempo para poder estudiar.", "correct": false },
+      { "text": "Se muy bien que no quieres ir a la fiesta de esta noche larga.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Recuerda que los pronombres personales y ciertos monosílabos llevan tilde para diferenciarse.",
+    "explanation": "En la opción correcta, 'mí' y 'él' llevan tilde por ser pronombres personales. 'Aún' debe llevar tilde cuando equivale a 'todavía', 'más' cuando indica cantidad y 'sé' cuando proviene del verbo saber.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Completa el siguiente enunciado: 'La ______ es la propiedad que garantiza que las ideas estén lógicamente conectadas, mientras que la ______ utiliza conectores lingüísticos para unir los enunciados.'",
+    "image": null,
+    "options": [
+      { "text": "Coherencia, cohesión", "correct": true },
+      { "text": "Adecuación, estructura", "correct": false },
+      { "text": "Cohesión, coherencia", "correct": false },
+      { "text": "Sintaxis, ortografía", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "La primera se relaciona con el sentido global del texto, la segunda con su armado gramatical.",
+    "explanation": "La coherencia dota de sentido y orden lógico a la información, y la cohesión articula las oraciones mediante nexos y signos de puntuación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Identifica los enunciados que presentan un uso correcto de la coma:\n1. María, mi mejor amiga, llegó temprano.\n2. El perro, comió su alimento rápidamente.\n3. Juan compró peras, manzanas y uvas.\n4. Cuando termine el trabajo, te llamaré.\n5. Ellos decidieron, no obstante, continuar.",
+    "image": null,
+    "options": [
+      { "text": "1, 4, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "No se debe separar el sujeto del predicado con una coma.",
+    "explanation": "El enunciado 1 usa comas explicativas. El 4 usa coma hiperbática. El 5 usa comas para enmarcar un conector. El 2 separa erróneamente el sujeto del verbo, y el 3 no necesita coma antes de la conjunción 'y' en enumeraciones simples.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Relaciona la función sintáctica con su definición correspondiente:\nI. Sujeto\nII. Objeto Directo\nIII. Objeto Indirecto\n\nA. Recibe el daño o provecho de la acción verbal\nB. Elemento sobre el que recae directamente la acción\nC. Entidad que realiza o padece la acción del verbo",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Pregunta '¿quién?' para el Sujeto, '¿qué?' para el O.D., y '¿a quién?' para el O.I.",
+    "explanation": "El Sujeto (C) concuerda con el verbo. El Objeto Directo (B) es el destinatario inmediato de la acción transitiva. El Objeto Indirecto (A) es quien se beneficia o perjudica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Un equipo del CEPREDIX analizó un artículo que concluye: 'El uso excesivo de dispositivos móviles antes de dormir altera los ritmos circadianos, disminuyendo la calidad del sueño profundo en adolescentes'. ¿Cuál es la idea principal del fragmento?",
+    "image": null,
+    "options": [
+      { "text": "El uso nocturno de móviles afecta negativamente el ciclo de sueño.", "correct": true },
+      { "text": "Los ritmos circadianos se alteran por la falta de sueño profundo.", "correct": false },
+      { "text": "La tecnología móvil reduce significativamente la calidad de vida.", "correct": false },
+      { "text": "Los dispositivos móviles causan insomnio crónico en estudiantes.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Busca la opción que resuma la relación de causa y efecto mencionada en el texto sin añadir información externa.",
+    "explanation": "La idea central asocia el uso de móviles (causa) con la alteración del sueño (efecto). Las otras opciones generalizan en exceso o alteran la causalidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Selecciona las oraciones que emplean correctamente las letras mayúsculas:\n1. El presidente de la República firmó el decreto.\n2. Viajaremos al Sur de Francia este mismo verano.\n3. La Revolución mexicana transformó la estructura agraria.\n4. Me gusta mucho la primavera porque florecen los árboles.\n5. El Rey Felipe VI asistió a la importante ceremonia.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Los puntos cardinales, estaciones del año y cargos públicos generales suelen ir en minúscula.",
+    "explanation": "Las oraciones 1, 3 y 4 son correctas. En la 2, 'sur' no debe ir en mayúscula. En la 5, el cargo 'rey' debe ir en minúscula cuando acompaña al nombre propio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Completa el texto con las preposiciones correctas: 'El investigador caminó ______ el bosque, buscando pistas ______ resolver el misterio que se ocultaba ______ los árboles.'",
+    "image": null,
+    "options": [
+      { "text": "por, para, entre", "correct": true },
+      { "text": "hacia, por, sobre", "correct": false },
+      { "text": "hasta, de, bajo", "correct": false },
+      { "text": "en, para, tras", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "La primera indica tránsito, la segunda finalidad y la tercera ubicación intermedia.",
+    "explanation": "'Por' indica el lugar transitado, 'para' señala la finalidad de la búsqueda y 'entre' sitúa el misterio en medio de los árboles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Relaciona el tipo de texto con su intención comunicativa:\nI. Expositivo\nII. Argumentativo\nIII. Narrativo\n\nA. Relatar sucesos reales o imaginarios en un tiempo y espacio\nB. Persuadir o convencer al receptor sobre una postura\nC. Informar y explicar un tema de forma objetiva",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Piensa en un libro de texto (C), un artículo de opinión (B) y un cuento (A).",
+    "explanation": "El texto expositivo tiene como fin informar objetivamente, el argumentativo busca persuadir mediante tesis y argumentos, y el narrativo cuenta historias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "¿En cuál de las siguientes opciones todas las palabras están escritas correctamente según las reglas de la b y la v?",
+    "image": null,
+    "options": [
+      { "text": "Advertencia, obvio, movilidad, herbívoro", "correct": true },
+      { "text": "Advertencia, obvio, mobilidad, herbívoro", "correct": false },
+      { "text": "Adbertencia, obvio, movilidad, herbíboro", "correct": false },
+      { "text": "Advertencia, ovio, movilidad, hervíboro", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Recuerda las excepciones de las palabras terminadas en -bilidad y -voro.",
+    "explanation": "Las terminaciones -bilidad se escriben con 'b', excepto 'movilidad' y 'civilidad'. Las terminaciones -voro/a van con 'v', pero 'herbívoro' lleva 'b' en la raíz (hierba).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Completa la oración utilizando la conjugación correcta del modo subjuntivo: 'Es indispensable que nosotros ______ el informe antes de que el director ______ la junta ordinaria.'",
+    "image": null,
+    "options": [
+      { "text": "entreguemos, inicie", "correct": true },
+      { "text": "entregamos, inicia", "correct": false },
+      { "text": "entreguemos, iniciará", "correct": false },
+      { "text": "entregaremos, inicie", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Las expresiones impersonales como 'Es indispensable que...' rigen verbos en modo subjuntivo para expresar eventualidad.",
+    "explanation": "El modo subjuntivo se utiliza para expresar acciones hipotéticas o necesarias dependientes de otra cláusula. 'Entreguemos' e 'inicie' son formas del presente de subjuntivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Identifica la serie compuesta exclusivamente por palabras agudas:\n1. Reloj, virtud, papel\n2. Cantar, feliz, álbum\n3. Corazón, menú, sillón\n4. Lápiz, cráter, móvil",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Las palabras agudas tienen la sílaba tónica en el último lugar.",
+    "explanation": "Las series 1 y 3 solo contienen palabras con el acento prosódico en la última sílaba. 'Álbum', 'lápiz', 'cráter' y 'móvil' son palabras graves.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Relaciona la figura retórica con su ejemplo correspondiente:\nI. Metáfora\nII. Hipérbole\nIII. Prosopopeya\n\nA. Las estrellas nos miraban desde el cielo\nB. Sus cabellos son hilos de oro fino\nC. Te he llamado mil veces esta mañana",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "La metáfora sustituye términos, la hipérbole exagera desproporcionadamente y la prosopopeya personifica.",
+    "explanation": "La metáfora asocia cabellos con oro (B); la hipérbole exagera la cantidad de llamadas (C); la prosopopeya atribuye la acción humana de mirar a las estrellas (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Un estudiante del CEPREDIX redacta el siguiente párrafo: 'El cambio climático es un problema muy grave. Los perros son mascotas muy leales y cariñosas. Debemos reducir nuestras emisiones de carbono pronto'. ¿Qué principio de la redacción está fallando drásticamente?",
+    "image": null,
+    "options": [
+      { "text": "Coherencia", "correct": true },
+      { "text": "Adecuación", "correct": false },
+      { "text": "Ortografía", "correct": false },
+      { "text": "Sintaxis", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El texto pierde el hilo temático introduciendo una idea completamente desconectada.",
+    "explanation": "La coherencia es la propiedad que asegura que todas las ideas de un texto giren en torno a un mismo eje temático. Hablar de mascotas en medio del cambio climático rompe esa unidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "¿Cuál de los siguientes enunciados presenta un caso de anfibología (ambigüedad estructural)?",
+    "image": null,
+    "options": [
+      { "text": "Vi a Pedro paseando por el parque.", "correct": true },
+      { "text": "El edificio de cristal fue inaugurado ayer.", "correct": false },
+      { "text": "Llovió intensamente durante toda la madrugada.", "correct": false },
+      { "text": "La profesora explicó la lección claramente.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Busca la oración que pueda interpretarse de dos formas distintas y válidas.",
+    "explanation": "En 'Vi a Pedro paseando...', no queda claro quién estaba paseando: si era el sujeto (yo) o si era Pedro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Lee el fragmento: 'La lectura constante no solo expande nuestro vocabulario, sino que también fortalece la memoria, mejora la concentración y nos permite empatizar con realidades ajenas a la nuestra.' ¿Cuál es el propósito principal del autor?",
+    "image": null,
+    "options": [
+      { "text": "Argumentar sobre los múltiples beneficios cognitivos y sociales de la lectura.", "correct": true },
+      { "text": "Describir el proceso fisiológico por el cual la memoria humana se fortalece.", "correct": false },
+      { "text": "Explicar cómo la lectura ayuda a aprender nuevas palabras diariamente.", "correct": false },
+      { "text": "Convencer al lector de comprar más libros para mejorar su vocabulario.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El texto enumera una serie de ventajas para destacar la importancia de un hábito.",
+    "explanation": "El propósito es argumentativo e informativo, destacando integralmente las ventajas (vocabulario, memoria, empatía) del hábito de leer.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "En el contexto de la frase: 'El político ofreció un discurso sumamente **prolijo** que agotó a la audiencia', ¿cuál es el sinónimo más adecuado para la palabra resaltada?",
+    "image": null,
+    "options": [
+      { "text": "Extenso", "correct": true },
+      { "text": "Breve", "correct": false },
+      { "text": "Interesante", "correct": false },
+      { "text": "Agresivo", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Si agotó a la audiencia, es porque duró demasiado o tenía exceso de detalles.",
+    "explanation": "Prolijo, en este contexto de un discurso que agota, se refiere a algo excesivamente largo, detallado o extenso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Identifica el antónimo directo de la palabra resaltada en el siguiente texto: 'El estudiante mostró una actitud **apática** frente a los extraordinarios resultados obtenidos'.",
+    "image": null,
+    "options": [
+      { "text": "Entusiasta", "correct": true },
+      { "text": "Indiferente", "correct": false },
+      { "text": "Desinteresada", "correct": false },
+      { "text": "Melancólica", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Apático significa falta de emoción, motivación o interés.",
+    "explanation": "El antónimo de apático (indiferente o sin ánimo) es entusiasta (animado, motivado o apasionado).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Selecciona las opciones que presentan pares de palabras parónimas:\n1. Actitud - Aptitud\n2. Banco - Banco\n3. Prejuicio - Perjuicio\n4. Casa - Caza\n5. Absolver - Absorber",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Los parónimos suenan muy parecido pero se escriben distinto y significan cosas diferentes.",
+    "explanation": "Las palabras parónimas tienen semejanza fonética pero distinto significado y escritura. 'Casa-caza' son homófonas (suenan idéntico) y 'banco-banco' son homónimas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Completa el texto con los nexos pertinentes: 'Estudió con mucha dedicación durante meses, ______ no logró el puntaje esperado; ______, decidió inscribirse nuevamente en el curso preparatorio.'",
+    "image": null,
+    "options": [
+      { "text": "sin embargo, por lo tanto", "correct": true },
+      { "text": "es decir, en cambio", "correct": false },
+      { "text": "ya que, además", "correct": false },
+      { "text": "asimismo, en consecuencia", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El primer espacio marca una oposición (estudió vs no logró), el segundo marca una consecuencia.",
+    "explanation": "Se requiere un nexo adversativo ('sin embargo') para contraponer el esfuerzo al fracaso, y un nexo ilativo o consecutivo ('por lo tanto') para introducir la acción derivada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Relaciona el tipo de nexo con su ejemplo correspondiente:\nI. Adversativo\nII. Concesivo\nIII. Consecutivo\n\nA. Aunque estaba lloviendo, salimos.\nB. Pienso, luego existo.\nC. Quería ir, pero no tenía dinero.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Adversativo indica oposición directa, concesivo un obstáculo que no impide la acción, consecutivo una deducción o efecto.",
+    "explanation": "El nexo 'pero' es adversativo (C). El nexo 'aunque' es concesivo (A). El nexo 'luego' equivale a 'por ende' y es consecutivo (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "¿En cuál de las siguientes palabras se presenta un hiato ortográfico que rompe un diptongo?",
+    "image": null,
+    "options": [
+      { "text": "Raíz", "correct": true },
+      { "text": "Ciudad", "correct": false },
+      { "text": "Peine", "correct": false },
+      { "text": "Cuota", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El hiato por ruptura ocurre cuando una vocal cerrada tónica se une a una vocal abierta átona, y se marca con tilde.",
+    "explanation": "En 'Raíz' la vocal abierta (a) y la vocal cerrada tónica (í) se separan en distintas sílabas (Ra-íz) gracias a la tilde que rompe el diptongo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "En una evaluación del CEPREDIX se pide identificar el uso del copretérito (pretérito imperfecto). ¿Qué oración lo emplea correctamente?",
+    "image": null,
+    "options": [
+      { "text": "Mientras el profesor explicaba, los alumnos tomaban apuntes.", "correct": true },
+      { "text": "El profesor explicó el tema y los alumnos tomaron notas.", "correct": false },
+      { "text": "El profesor explicaría el tema si los alumnos tomaran apuntes.", "correct": false },
+      { "text": "El profesor ha explicado el tema para que tomen apuntes.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Busca las terminaciones -aba e -ía, que denotan acciones pasadas continuas o habituales.",
+    "explanation": "El copretérito (terminaciones -aba, -ía) describe una acción en el pasado sin precisar su inicio o fin, sirviendo de marco o trasfondo a otras acciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Selecciona el conjunto de palabras que están escritas correctamente aplicando las reglas de la g y la j:\n1. Exigir, proteger, crujir\n2. Exijir, protejer, crujir\n3. Geología, cerrajería, herejía\n4. Jeología, cerragería, heregía",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 4", "correct": false },
+      { "text": "2 y 3", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Los verbos terminados en -ger/-gir van con G, excepto tejer y crujir. Las palabras que acaban en -jería van con J.",
+    "explanation": "Los verbos terminados en -ger y -gir se escriben con g (exigir, proteger), con pocas excepciones como crujir. Los oficios o locales acabados en -jería llevan j (cerrajería).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Relaciona el concepto léxico con su definición:\nI. Homónimas\nII. Homófonas\nIII. Sinónimas\n\nA. Tienen significado idéntico o muy similar.\nB. Suenan igual pero se escriben distinto y tienen distinto significado.\nC. Se escriben y suenan igual, pero tienen significados diferentes.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Fono significa sonido (homófonas: igual sonido).",
+    "explanation": "Las homónimas (homógrafas) se escriben igual (C). Las homófonas solo comparten el sonido (B). Las sinónimas comparten significado (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Completa la siguiente analogía de manera lógica y proporcional: 'Pintor es a ______ como escultor es a ______.'",
+    "image": null,
+    "options": [
+      { "text": "lienzo, mármol", "correct": true },
+      { "text": "color, herramienta", "correct": false },
+      { "text": "cuadro, cincel", "correct": false },
+      { "text": "museo, exposición", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Identifica la relación 'Sujeto : Materia prima sobre la que trabaja'.",
+    "explanation": "La relación analógica es el trabajador y su material base principal. El pintor plasma su arte en un lienzo y el escultor moldea el mármol.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "¿Qué elemento del texto argumentativo representa la postura central que el autor intenta defender o demostrar?",
+    "image": null,
+    "options": [
+      { "text": "La tesis", "correct": true },
+      { "text": "El corolario", "correct": false },
+      { "text": "La antítesis", "correct": false },
+      { "text": "El prólogo", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Es la idea afirmativa o negativa que vertebra toda la argumentación posterior.",
+    "explanation": "La tesis es la afirmación principal, la idea núcleo que el autor formula y que buscará defender mediante premisas y argumentos lógicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "¿Cuál de las siguientes oraciones está redactada en voz pasiva?",
+    "image": null,
+    "options": [
+      { "text": "El proyecto fue diseñado por los arquitectos más prestigiosos.", "correct": true },
+      { "text": "Los arquitectos diseñaron el proyecto con mucha rapidez.", "correct": false },
+      { "text": "Se requiere que los arquitectos presenten el proyecto pronto.", "correct": false },
+      { "text": "Alguien diseñó un proyecto sumamente innovador.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "En la voz pasiva, el sujeto recibe la acción en lugar de realizarla, y suele usarse el verbo ser + participio.",
+    "explanation": "La estructura 'Sujeto paciente + verbo ser conjugado + participio + por + Agente' caracteriza a la voz pasiva ('El proyecto fue diseñado por...').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Identifica la oración impersonal en las siguientes opciones:",
+    "image": null,
+    "options": [
+      { "text": "Ayer llovió a cántaros durante toda la tarde en la ciudad.", "correct": true },
+      { "text": "Ellos viajaron rápidamente para evitar el tráfico intenso.", "correct": false },
+      { "text": "Se sentó a esperar en la sala principal del hospital.", "correct": false },
+      { "text": "El viento sopló con una fuerza inusual esa madrugada.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Las oraciones impersonales carecen de un sujeto gramatical realizador de la acción, común en verbos meteorológicos.",
+    "explanation": "El verbo 'llover' es un verbo meteorológico y, al igual que nevar o tronar, se conjuga en tercera persona singular sin atribuir la acción a un sujeto específico, generando oraciones impersonales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Para solicitar su ingreso, un aspirante del CEPREDIX redacta un documento formal. Completa la estructura de la carta formal: 'Toda carta formal debe iniciar con un membrete, seguir con el ______ y la fecha, e incluir el ______ a quien va dirigida antes del cuerpo del texto.'",
+    "image": null,
+    "options": [
+      { "text": "lugar, destinatario", "correct": true },
+      { "text": "saludo, remitente", "correct": false },
+      { "text": "asunto, emisor", "correct": false },
+      { "text": "despedida, sello", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "La fecha siempre va acompañada de la ciudad donde se escribe, y arriba se coloca a quién le llegará la carta.",
+    "explanation": "El protocolo epistolar formal exige indicar el lugar y la fecha de expedición en el margen superior, seguido de los datos del destinatario (a quien va dirigida).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Identifica las oraciones que utilizan correctamente los dos puntos (:)\n1. Estimado director: Le escribo para solicitar una beca.\n2. Compramos de todo: manzanas, peras y uvas.\n3. Ella dijo que: no quería salir esta noche.\n4. El teorema establece: la suma de los catetos...\n5. Mis deportes favoritos son: el fútbol y el tenis.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "No debes colocar dos puntos entre el verbo y su complemento directo sin un elemento anticipador.",
+    "explanation": "Los dos puntos se usan en saludos de cartas (1), antes de enumeraciones anunciadas (2) y para citas textuales (4). Es incorrecto usarlos después de preposiciones o conjunciones 'que' (3), o cortando el verbo de su objeto (5).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Relaciona el tipo de estructura de párrafo con su característica principal:\nI. Causa y efecto\nII. Secuencia cronológica\nIII. Comparación y contraste\n\nA. Destaca similitudes y diferencias entre dos o más conceptos.\nB. Organiza los eventos o pasos según el orden temporal en que ocurren.\nC. Explica un acontecimiento y los resultados o consecuencias del mismo.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Cronológico implica tiempo. Contraste implica diferencias.",
+    "explanation": "Causa-efecto vincula origen y consecuencias (C); Cronológica ordena en el tiempo (B); Comparación evalúa similitudes y diferencias (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "¿En cuál de los siguientes ejemplos se utiliza un registro lingüístico estrictamente formal o académico?",
+    "image": null,
+    "options": [
+      { "text": "Es imperativo analizar exhaustivamente los datos recopilados antes de emitir un veredicto.", "correct": true },
+      { "text": "Pienso que debemos echarle un ojo a la información antes de decidir qué onda.", "correct": false },
+      { "text": "Tenemos que checar súper bien los papeles para no regarla al final.", "correct": false },
+      { "text": "Me parece re importante que veamos todo con lupa antes de dar el sí.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El registro formal evita coloquialismos, usa vocabulario preciso y estructuras sintácticas complejas.",
+    "explanation": "La opción correcta utiliza términos precisos ('imperativo', 'exhaustivamente', 'veredicto') propios de un contexto académico o profesional, evitando modismos como 'echarle un ojo', 'regarla' o 'con lupa'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Si un texto argumentativo comienza exponiendo un caso particular para luego terminar concluyendo una regla general, ¿qué tipo de razonamiento emplea?",
+    "image": null,
+    "options": [
+      { "text": "Inductivo", "correct": true },
+      { "text": "Deductivo", "correct": false },
+      { "text": "Analógico", "correct": false },
+      { "text": "Falaz", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "De lo particular a lo general.",
+    "explanation": "El razonamiento inductivo parte de la observación de fenómenos particulares para extraer una conclusión universal. El deductivo hace lo inverso (de lo general a lo particular).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "En un debate del CEPREDIX, un estudiante afirma: 'De acuerdo con la Organización Mundial de la Salud, consumir dos litros de agua previene fallos renales'. ¿Qué tipo de argumento está utilizando?",
+    "image": null,
+    "options": [
+      { "text": "Argumento de autoridad", "correct": true },
+      { "text": "Argumento de ejemplificación", "correct": false },
+      { "text": "Argumento de causa y efecto", "correct": false },
+      { "text": "Argumento afectivo-emotivo", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Se respalda en una institución reconocida para darle peso a su postura.",
+    "explanation": "El argumento de autoridad apoya su tesis en las afirmaciones de un experto, institución u organismo de prestigio (en este caso, la OMS).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Identifica la serie de palabras que siempre deben llevar tilde ortográfica por su regla de acentuación:\n1. Esdrújulas\n2. Agudas terminadas en consonante distinta a N o S\n3. Graves terminadas en vocal\n4. Sobresdrújulas",
+    "image": null,
+    "options": [
+      { "text": "1 y 4", "correct": true },
+      { "text": "2 y 3", "correct": false },
+      { "text": "1 y 3", "correct": false },
+      { "text": "2 y 4", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Las palabras cuya sílaba tónica está en la antepenúltima o anterior a la antepenúltima sílaba no tienen excepciones.",
+    "explanation": "Las palabras esdrújulas y sobresdrújulas siempre llevan tilde ortográfica, sin importar la letra con la que terminen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Relaciona las partes de un artículo científico con su contenido típico:\nI. Introducción\nII. Metodología\nIII. Conclusiones\n\nA. Explica los pasos, herramientas y diseño del experimento.\nB. Sintetiza los hallazgos y su impacto en la disciplina.\nC. Presenta los antecedentes y el planteamiento del problema.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "La introducción plantea el 'qué', la metodología el 'cómo' y la conclusión el 'qué significa esto'.",
+    "explanation": "La Introducción asienta las bases teóricas y el problema (C). La Metodología detalla el proceso experimental (A). Las Conclusiones evalúan los resultados obtenidos (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Completa el razonamiento: 'El gerundio debe expresar simultaneidad o anterioridad. Usarlo para indicar una acción ______ es considerado un error sintáctico, como en el caso de: Se chocó el auto, ______ incendiado horas después.'",
+    "image": null,
+    "options": [
+      { "text": "posterior, quedando", "correct": true },
+      { "text": "anterior, resultando", "correct": false },
+      { "text": "simultánea, terminando", "correct": false },
+      { "text": "inmediata, apareciendo", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El error común, llamado 'gerundio de posterioridad', ocurre cuando la acción del gerundio sucede después de la del verbo principal.",
+    "explanation": "El gerundio de posterioridad es un vicio gramatical. El gerundio (-ando, -iendo) debe indicar una acción simultánea ('Caminaba cantando') o anterior ('Habiendo comido, salió'), pero nunca posterior al verbo principal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "¿Cuál es el significado etimológico del prefijo griego 'anti-' empleado en palabras como anticuerpo o antítesis?",
+    "image": null,
+    "options": [
+      { "text": "Oposición o contrariedad", "correct": true },
+      { "text": "Exceso o superioridad", "correct": false },
+      { "text": "Carencia o falta absoluta", "correct": false },
+      { "text": "Antes de o precedencia", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Piensa en el significado de 'antivirus'.",
+    "explanation": "El prefijo griego 'anti-' significa opuesto o contrario a algo. No debe confundirse con 'ante-' (antes) ni con 'a-/an-' (carencia).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Las palabras 'idealismo', 'comunismo' y 'vanguardismo' utilizan el sufijo '-ismo'. ¿Qué indica principalmente este sufijo en el idioma español?",
+    "image": null,
+    "options": [
+      { "text": "Doctrina, sistema, escuela o movimiento", "correct": true },
+      { "text": "Acción continua o proceso evolutivo", "correct": false },
+      { "text": "Cualidad abstracta o estado físico", "correct": false },
+      { "text": "Oficio, profesión o cargo jerárquico", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Suele formar sustantivos que designan ideologías o corrientes literarias/políticas.",
+    "explanation": "El sufijo '-ismo' se emplea frecuentemente para nombrar doctrinas, corrientes de pensamiento, movimientos artísticos, sistemas políticos o deportivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "¿Cómo se le llama a la incorporación de palabras extranjeras crudas al español, como 'smartphone' o 'software', sin adaptarlas a nuestra fonética ni ortografía?",
+    "image": null,
+    "options": [
+      { "text": "Extranjerismos no adaptados o crudos", "correct": true },
+      { "text": "Arcaísmos lingüísticos", "correct": false },
+      { "text": "Neologismos semánticos", "correct": false },
+      { "text": "Préstamos gramaticales", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Se toman prestadas de otra lengua tal y como se escriben originalmente.",
+    "explanation": "Son extranjerismos (anglicismos en este caso) crudos porque mantienen su grafía original. Por regla general de la RAE, deben escribirse en cursiva o entre comillas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "En un texto sobre la revolución industrial analizado en el CEPREDIX, el autor escribe: '¡Qué gran avance fue llenar el cielo de nuestras ciudades con el purificador humo negro de las hermosas chimeneas carbónicas!'. ¿Cuál es el tono del autor?",
+    "image": null,
+    "options": [
+      { "text": "Irónico y sarcástico", "correct": true },
+      { "text": "Objetivo y descriptivo", "correct": false },
+      { "text": "Pesimista y nostálgico", "correct": false },
+      { "text": "Entusiasta y apologético", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Usa adjetivos positivos ('purificador', 'hermosas') para describir algo claramente nocivo y desagradable (el humo negro), buscando decir lo contrario.",
+    "explanation": "La ironía consiste en dar a entender lo contrario de lo que se dice expresamente. Llamar 'purificador' al humo negro es una clara burla o crítica irónica de los daños ambientales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Completa el texto sobre los fenómenos pronominales: 'El uso del pronombre (lo) en lugar de (le) para el objeto indirecto se denomina ______, y es considerado un vicio del lenguaje por la RAE.'",
+    "image": null,
+    "options": [
+      { "text": "Loísmo", "correct": true },
+      { "text": "Leísmo", "correct": false },
+      { "text": "Laísmo", "correct": false },
+      { "text": "Solecismo", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El nombre del fenómeno se deriva directamente del pronombre mal utilizado.",
+    "explanation": "El loísmo es la sustitución incorrecta de 'le' (objeto indirecto) por 'lo' ('A Juan lo di el libro' en vez de 'le di el libro').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "De acuerdo con el modelo crítico del CEPREDIX, identifica cuáles de los siguientes enunciados corresponden a 'hechos' y no a 'opiniones':\n1. El sol sale por el este todos los días.\n2. Las mañanas de invierno son sumamente deprimentes.\n3. El agua hierve a 100 grados Celsius a nivel del mar.\n4. Esta película es la mejor de toda la década.\n5. La guerra civil española finalizó en el año 1939.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Un hecho es comprobable, objetivo y cuantificable; una opinión implica juicio de valor.",
+    "explanation": "Los enunciados 1, 3 y 5 relatan eventos objetivos y comprobables científicamente o históricamente. Los enunciados 2 y 4 ('deprimentes', 'la mejor') son subjetivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Relaciona los modos verbales con su intención comunicativa:\nI. Indicativo\nII. Subjuntivo\nIII. Imperativo\n\nA. Expresa duda, deseo o situaciones hipotéticas.\nB. Da órdenes, ruegos o consejos directos.\nC. Afirma o niega hechos reales y concretos.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "El indicativo expresa el mundo real, el subjuntivo el mundo posible/deseado, y el imperativo ordena.",
+    "explanation": "El Indicativo (C) trata sobre la realidad objetiva; el Subjuntivo (A) maneja la irrealidad, el deseo o la duda; el Imperativo (B) es apelativo o conativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "¿En qué oración se hace un uso correcto del punto y coma (;)?",
+    "image": null,
+    "options": [
+      { "text": "Su discurso estuvo muy bien construido y fundamentado; sin embargo, no logró convencer a los votantes.", "correct": true },
+      { "text": "Su discurso estuvo muy; bien construido y fundamentado, pero no logró convencer.", "correct": false },
+      { "text": "El presidente; terminó su discurso y bajó del estrado muy cansado.", "correct": false },
+      { "text": "Fuimos al supermercado a comprar; pan, leche y un poco de azúcar.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Suele usarse antes de conectores adversativos (sin embargo, por tanto) cuando la frase anterior tiene cierta longitud.",
+    "explanation": "El punto y coma separa oraciones independientes que tienen relación de significado, especialmente útil antes de nexos como 'sin embargo' en oraciones extensas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "¿Cuál de las siguientes oraciones presenta un error de concordancia gramatical?",
+    "image": null,
+    "options": [
+      { "text": "Tanto el director como la subdirectora estuvo de acuerdo con la sanción.", "correct": true },
+      { "text": "La mayor parte de los asistentes se retiraron muy temprano del evento.", "correct": false },
+      { "text": "Un enjambre de abejas atacó ferozmente a los turistas desprevenidos.", "correct": false },
+      { "text": "Hubo muchos problemas durante la transmisión en vivo del partido.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Busca un sujeto compuesto o múltiple que esté forzando al verbo a estar en singular erróneamente.",
+    "explanation": "La oración 'Tanto el director como la subdirectora' forma un sujeto plural, por lo que el verbo debe ser 'estuvieron', no 'estuvo'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "En un curso de lógica del CEPREDIX se analiza el siguiente silogismo:\nPremisa 1: Todos los mamíferos tienen sangre caliente.\nPremisa 2: El murciélago es un mamífero.\nConclusión: El murciélago tiene sangre caliente.\n¿Qué función desempeña la 'Premisa 1' en la argumentación?",
+    "image": null,
+    "options": [
+      { "text": "Funciona como la premisa mayor o regla general.", "correct": true },
+      { "text": "Funciona como la premisa menor o caso particular.", "correct": false },
+      { "text": "Representa el argumento refutativo principal.", "correct": false },
+      { "text": "Es la tesis empírica del argumento deductivo.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "En los silogismos deductivos, la primera oración suele plantear el axioma universal que ampara al caso particular.",
+    "explanation": "La premisa mayor establece la ley o condición universal ('Todos los mamíferos...'), mientras que la premisa menor la aplica a un sujeto específico ('El murciélago...').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Al analizar morfológicamente la palabra 'des-nacional-iz-ación', ¿cuál de sus componentes constituye el lexema o raíz que aporta el significado léxico principal?",
+    "image": null,
+    "options": [
+      { "text": "nacion-", "correct": true },
+      { "text": "des-", "correct": false },
+      { "text": "-al-", "correct": false },
+      { "text": "-ación", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "BUAP", "EXANI II"],
+    "level_tag": ["ADMISIÓN 2026"],
+    "type_tag": ["ESPAÑOL", "GRAMÁTICA", "HABILIDAD VERBAL"],
+    "hint": "Quita los prefijos (antes) y los sufijos (después) para encontrar la base invariable o sustantivo de origen.",
+    "explanation": "El lexema es 'nacion-' (de nación). 'Des-' es prefijo de negación/reversión, '-al' forma el adjetivo nacional, '-iz' forma el verbo nacionalizar y '-ción' forma el sustantivo final.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
