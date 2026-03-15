@@ -10894,5 +10894,834 @@
     "explanation": "Estos dos esfínteres regulan de manera esencial la entrada, retención y vaciamiento del contenido nutricional en la cavidad gástrica.",
     "explanative_video": null,
     "collapsible_text": null
+  },[
+  {
+    "id": "CEP01TE",
+    "question": "Encuentra las raíces de la ecuación cuadrática incompleta $x^2 - 16 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, x = -4$", "correct": true },
+      { "text": "$x = 8, x = -8$", "correct": false },
+      { "text": "$x = 16, x = -16$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Dada la forma $x^2 - a = 0$, la solución se obtiene mediante $x = \\pm \\sqrt{a}$.",
+    "explanation": "Al despejar obtenemos $x^2 = 16$. Aplicando la raíz cuadrada a ambos lados, tenemos que $x = \\pm \\sqrt{16}$, por lo tanto $x = 4$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": "Las ecuaciones cuadráticas incompletas puras son aquellas donde el término lineal es cero. Para resolverlas, se despeja el término cuadrático y se extrae la raíz cuadrada en ambos miembros de la ecuación, recordando que una raíz cuadrada siempre arroja una solución positiva y una negativa."
+  },
+  {
+    "id": "CEP01TF",
+    "question": "Determina los valores de $x$ que satisfacen la ecuación $2x^2 - 18 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 6, x = -6$", "correct": false },
+      { "text": "$x = 18, x = -18$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para la expresión $ax^2 - c = 0$, el despeje requiere $x = \\pm \\sqrt{c/a}$.",
+    "explanation": "Al dividir entre 2, se simplifica a $x^2 - 9 = 0$. Despejando resulta en $x^2 = 9$. Al extraer la raíz cuadrada, obtenemos $x = 3$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TG",
+    "question": "Resuelve la siguiente ecuación cuadrática: $-x^2 + 25 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -5$", "correct": true },
+      { "text": "$x = 25, x = -25$", "correct": false },
+      { "text": "$x = 10, x = -10$", "correct": false },
+      { "text": "$x = 12.5, x = -12.5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En una igualdad de la forma $k = x^2$, recuerda que $x = \\pm \\sqrt{k}$.",
+    "explanation": "Al sumar $x^2$ a ambos lados, obtenemos $25 = x^2$. La raíz cuadrada de 25 arroja dos soluciones: $x = 5$ y $x = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TH",
+    "question": "Calcula las raíces de la ecuación $4x^2 - 1 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{2}, x = -\\frac{1}{2}$", "correct": true },
+      { "text": "$x = \\frac{1}{4}, x = -\\frac{1}{4}$", "correct": false },
+      { "text": "$x = 1, x = -1$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la identidad $x^2 = b/a$ para proceder con el despeje final.",
+    "explanation": "Sumando 1 a ambos lados queda $4x^2 = 1$. Dividiendo entre 4 obtenemos $x^2 = \\frac{1}{4}$. Aplicando la raíz, resulta $x = \\pm \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TI",
+    "question": "Encuentra las soluciones para la ecuación: $9x^2 = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{4}{3}, x = -\\frac{4}{3}$", "correct": true },
+      { "text": "$x = \\frac{16}{9}, x = -\\frac{16}{9}$", "correct": false },
+      { "text": "$x = \\frac{3}{4}, x = -\\frac{3}{4}$", "correct": false },
+      { "text": "$x = 4, x = -4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar $x$ en $ax^2 = b$, utiliza $x^2 = b/a$.",
+    "explanation": "Pasando el 9 a dividir, la expresión es $x^2 = \\frac{16}{9}$. La raíz de un cociente se aplica a cada parte, dando $x = \\pm \\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TJ",
+    "question": "¿Cuáles son las raíces de la ecuación $-3x^2 + 27 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 27, x = -27$", "correct": false },
+      { "text": "$x = 6, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica la expresión dividiendo por el coeficiente cuadrático antes de aplicar $x^2 = k$.",
+    "explanation": "Al dividir todo entre -3, se obtiene $x^2 - 9 = 0$. Pasando el 9 al lado derecho y aplicando raíz cuadrada da como resultado $x = 3$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TK",
+    "question": "Determina los valores que resuelven la ecuación incompleta mixta $x^2 - 5x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 5$", "correct": true },
+      { "text": "$x = 0, x = -5$", "correct": false },
+      { "text": "$x = 1, x = 5$", "correct": false },
+      { "text": "$x = 1, x = -5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En una ecuación $ax^2 + bx = 0$, un factor es $x$ y el otro se obtiene de $ax + b = 0$.",
+    "explanation": "Factorizando $x$, obtenemos $x(x - 5) = 0$. Igualando a cero cada factor, tenemos la primera raíz $x = 0$ y la segunda $x - 5 = 0 \\Rightarrow x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": "Las ecuaciones cuadráticas incompletas mixtas siempre tienen una solución en $x = 0$. La segunda solución se obtiene al factorizar la incógnita y resolver la ecuación lineal resultante que queda dentro del paréntesis."
+  },
+  {
+    "id": "CEP01TL",
+    "question": "Encuentra las raíces de la expresión algebraica $x^2 + 7x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = -7$", "correct": true },
+      { "text": "$x = 0, x = 7$", "correct": false },
+      { "text": "$x = 1, x = -7$", "correct": false },
+      { "text": "$x = 1, x = 7$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la propiedad del producto nulo tras extraer el factor común.",
+    "explanation": "La factorización de término común resulta en $x(x + 7) = 0$. Las soluciones directas son $x = 0$ y $x = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TM",
+    "question": "Resuelve la siguiente ecuación de segundo grado incompleta: $2x^2 - 8x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 4$", "correct": true },
+      { "text": "$x = 0, x = -4$", "correct": false },
+      { "text": "$x = 2, x = 4$", "correct": false },
+      { "text": "$x = 2, x = -4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para simplificar, puedes usar $x(ax - b) = 0$ y resolver para cada factor.",
+    "explanation": "Al dividir entre 2 queda $x^2 - 4x = 0$. Factorizando $x$, tenemos $x(x - 4) = 0$. Por lo tanto, $x = 0$ y $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TN",
+    "question": "¿Qué valores de $x$ satisfacen la ecuación $-x^2 + 6x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 6$", "correct": true },
+      { "text": "$x = 0, x = -6$", "correct": false },
+      { "text": "$x = 1, x = 6$", "correct": false },
+      { "text": "$x = -1, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por $-1$ para obtener $x^2 - bx = 0$ antes de factorizar.",
+    "explanation": "Multiplicando por -1 obtenemos $x^2 - 6x = 0$. Factorizando queda $x(x - 6) = 0$, cuyas raíces son $x = 0$ y $x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TO",
+    "question": "Determina las soluciones de la ecuación cuadrática $3x^2 + 5x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = -\\frac{5}{3}$", "correct": true },
+      { "text": "$x = 0, x = \\frac{5}{3}$", "correct": false },
+      { "text": "$x = 0, x = -\\frac{3}{5}$", "correct": false },
+      { "text": "$x = 0, x = \\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $x$ y resuelve la ecuación lineal $ax + b = 0$.",
+    "explanation": "Factorizando obtenemos $x(3x + 5) = 0$. La primera raíz es $x = 0$. Para la segunda, igualamos $3x + 5 = 0$, que al despejar da $x = -\\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TP",
+    "question": "Un estudiante del CEPREDIX debe encontrar las raíces de la ecuación que tiene incógnitas en ambos lados: $5x^2 = 10x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 2$", "correct": true },
+      { "text": "$x = 0, x = -2$", "correct": false },
+      { "text": "$x = 5, x = 2$", "correct": false },
+      { "text": "$x = 5, x = 10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma a la forma $ax^2 - bx = 0$ antes de factorizar.",
+    "explanation": "Reescribiendo la ecuación resulta en $5x^2 - 10x = 0$. Al dividir entre 5 queda $x^2 - 2x = 0$. Factorizando $x(x - 2) = 0$, obtenemos las raíces $x = 0$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TQ",
+    "question": "Resuelve la ecuación cuadrática completa $x^2 - 5x + 6 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = 3$", "correct": true },
+      { "text": "$x = -2, x = -3$", "correct": false },
+      { "text": "$x = -1, x = 6$", "correct": false },
+      { "text": "$x = 1, x = -6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para un trinomio $x^2 + sx + p = 0$, busca números que sumados den $s$ y multiplicados $p$.",
+    "explanation": "La ecuación se factoriza en dos binomios: $(x - 2)(x - 3) = 0$. Igualando a cero cada binomio, obtenemos $x = 2$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": "Este tipo de trinomios se resuelve mediante la factorización de la forma $x^2+bx+c$. Es una de las habilidades más evaluadas en exámenes de ingreso, ya que requiere dominio de la aritmética mental y las leyes de los signos."
+  },
+  {
+    "id": "CEP01TR",
+    "question": "Determina las raíces de la ecuación $x^2 + x - 12 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -4$", "correct": true },
+      { "text": "$x = -3, x = 4$", "correct": false },
+      { "text": "$x = 6, x = -2$", "correct": false },
+      { "text": "$x = -6, x = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra dos números cuyo producto sea $-12$ y su suma sea $1$.",
+    "explanation": "La factorización del trinomio es $(x + 4)(x - 3) = 0$. Las soluciones que satisfacen esta condición son $x = -4$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TS",
+    "question": "¿Cuáles son las soluciones para la ecuación $x^2 - x - 20 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -4$", "correct": true },
+      { "text": "$x = -5, x = 4$", "correct": false },
+      { "text": "$x = 10, x = -2$", "correct": false },
+      { "text": "$x = -10, x = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca factores de $-20$ cuya suma algebraica sea $-1$.",
+    "explanation": "Los números que multiplicados dan -20 y sumados -1 son -5 y 4. Al formar los factores $(x - 5)(x + 4) = 0$, las raíces cambian de signo al despejar: $x = 5$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TT",
+    "question": "Resuelve la ecuación cuadrática completa con coeficiente principal negativo $-x^2 + 5x - 4 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = 4$", "correct": true },
+      { "text": "$x = -1, x = -4$", "correct": false },
+      { "text": "$x = 2, x = 2$", "correct": false },
+      { "text": "$x = -2, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por $-1$ para obtener $x^2 - 5x + 4 = 0$ y facilitar la factorización.",
+    "explanation": "Multiplicando por -1 nos queda $x^2 - 5x + 4 = 0$. Al factorizar resulta $(x - 4)(x - 1) = 0$. Las soluciones correspondientes son $x = 4$ y $x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TU",
+    "question": "Encuentra los valores de $x$ que cumplen con la igualdad no nula $x^2 - 4x = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -1$", "correct": true },
+      { "text": "$x = -5, x = 1$", "correct": false },
+      { "text": "$x = 4, x = 1$", "correct": false },
+      { "text": "$x = -4, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma la ecuación a la forma estándar $x^2 - 4x - 5 = 0$.",
+    "explanation": "Al reacomodar obtenemos $x^2 - 4x - 5 = 0$. Factorizamos buscando números que multiplicados den -5 y sumados -4, siendo estos -5 y 1. Por lo tanto, $(x - 5)(x + 1) = 0$, y las raíces son $x = 5$ y $x = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TV",
+    "question": "Un investigador del CEPREDIX debe determinar las raíces al resolver la ecuación $x^2 = x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -2$", "correct": true },
+      { "text": "$x = -3, x = 2$", "correct": false },
+      { "text": "$x = 6, x = -1$", "correct": false },
+      { "text": "$x = -6, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a cero para obtener $x^2 - x - 6 = 0$ y factoriza.",
+    "explanation": "Transformando la ecuación nos queda $x^2 - x - 6 = 0$. Se factoriza en $(x - 3)(x + 2) = 0$. Las soluciones finales son $x = 3$ y $x = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TW",
+    "question": "¿Qué valores satisfacen la ecuación $x^2 + 10 = 7x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = 2$", "correct": true },
+      { "text": "$x = -5, x = -2$", "correct": false },
+      { "text": "$x = 10, x = 1$", "correct": false },
+      { "text": "$x = -10, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca factores de $10$ cuya suma sea $7$ tras igualar a cero.",
+    "explanation": "Acomodando los términos se tiene $x^2 - 7x + 10 = 0$. Esto se factoriza como $(x - 5)(x - 2) = 0$. Al despejar ambos factores resultan $x = 5$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TX",
+    "question": "Resuelve la ecuación de segundo grado que incluye un coeficiente distinto de uno en el término principal: $2x^2 - 5x + 2 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = \\frac{1}{2}$", "correct": true },
+      { "text": "$x = -2, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = 1, x = 1$", "correct": false },
+      { "text": "$x = -1, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ para evaluar directamente.",
+    "explanation": "Aplicando la fórmula general donde $a=2$, $b=-5$, $c=2$, el discriminante es $(-5)^2 - 4(2)(2) = 25 - 16 = 9$. Luego $x = \\frac{5 \\pm 3}{4}$, lo que resulta en $x = 2$ y $x = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TY",
+    "question": "Determina las raíces de la función $3x^2 + 10x + 3 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = -3, x = -\\frac{1}{3}$", "correct": true },
+      { "text": "$x = 3, x = \\frac{1}{3}$", "correct": false },
+      { "text": "$x = -1, x = -1$", "correct": false },
+      { "text": "$x = 1, x = 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa el discriminante $\\Delta = b^2 - 4ac$ antes de concluir las raíces.",
+    "explanation": "Utilizando la fórmula general con $a=3$, $b=10$, $c=3$, se tiene el radicando $10^2 - 4(3)(3) = 100 - 36 = 64$. Entonces $x = \\frac{-10 \\pm 8}{6}$, dando como resultado $x = -3$ y $x = -\\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TZ",
+    "question": "Encuentra las soluciones de la ecuación cuadrática $4x^2 - 12x + 9 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{3}{2}$", "correct": true },
+      { "text": "$x = -\\frac{3}{2}$", "correct": false },
+      { "text": "$x = \\frac{2}{3}$", "correct": false },
+      { "text": "$x = -\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si la expresión $(ax - b)^2 = 0$ es aplicable a este trinomio.",
+    "explanation": "La expresión se puede factorizar directamente como $(2x - 3)^2 = 0$. Esto implica una única raíz real repetida, por lo que $2x - 3 = 0$, resultando en $x = \\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AA",
+    "question": "Resuelve la ecuación completa con coeficiente cuadrático negativo $-2x^2 - 3x + 5 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = -\\frac{5}{2}$", "correct": true },
+      { "text": "$x = -1, x = \\frac{5}{2}$", "correct": false },
+      { "text": "$x = 5, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = -5, x = \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera multiplicar por $-1$ para obtener $2x^2 + 3x - 5 = 0$.",
+    "explanation": "Al multiplicar por -1 resulta $2x^2 + 3x - 5 = 0$. Usando la fórmula general resulta $x = \\frac{-3 \\pm \\sqrt{9 - 4(2)(-5)}}{4} = \\frac{-3 \\pm 7}{4}$. Obtenemos $x = 1$ y $x = -\\frac{5}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AB",
+    "question": "¿Cuáles son las raíces de la ecuación $6x^2 - x - 2 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{2}{3}, x = -\\frac{1}{2}$", "correct": true },
+      { "text": "$x = -\\frac{2}{3}, x = \\frac{1}{2}$", "correct": false },
+      { "text": "$x = \\frac{1}{3}, x = -1$", "correct": false },
+      { "text": "$x = -\\frac{1}{3}, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula general simplificando las fracciones resultantes.",
+    "explanation": "Aplicando la fórmula general: $x = \\frac{1 \\pm \\sqrt{1 - 4(6)(-2)}}{12} = \\frac{1 \\pm \\sqrt{49}}{12} = \\frac{1 \\pm 7}{12}$. Así, $x_1 = \\frac{8}{12} = \\frac{2}{3}$ y $x_2 = -\\frac{6}{12} = -\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AC",
+    "question": "Determina los valores de $x$ para la igualdad que tiene incógnitas distribuidas $2x^2 = 7x - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = \\frac{1}{2}$", "correct": true },
+      { "text": "$x = -3, x = -\\frac{1}{2}$", "correct": false },
+      { "text": "$x = 2, x = \\frac{3}{2}$", "correct": false },
+      { "text": "$x = -2, x = -\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Lleva la ecuación a la forma $ax^2 + bx + c = 0$ antes de operar.",
+    "explanation": "Se transforma a $2x^2 - 7x + 3 = 0$. Resolviendo mediante fórmula general con $a=2$, $b=-7$, $c=3$, tenemos discriminante igual a 25. Entonces $x = \\frac{7 \\pm 5}{4}$, que genera $x = 3$ y $x = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AD",
+    "question": "Encuentra las raíces al resolver la ecuación con múltiples signos negativos $-x^2 = -8x + 15$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = 5$", "correct": true },
+      { "text": "$x = -3, x = -5$", "correct": false },
+      { "text": "$x = 1, x = 15$", "correct": false },
+      { "text": "$x = -1, x = -15$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve todos los términos a un lado para obtener $x^2 - 8x + 15 = 0$.",
+    "explanation": "Llevando todos los términos a un lado, obtenemos $x^2 - 8x + 15 = 0$. Factorizando el trinomio resulta en $(x - 5)(x - 3) = 0$, cuyas soluciones son $x = 5$ y $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AE",
+    "question": "Resuelve la siguiente ecuación cuadrática desordenada: $3x^2 - 2 = 5x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -\\frac{1}{3}$", "correct": true },
+      { "text": "$x = -2, x = \\frac{1}{3}$", "correct": false },
+      { "text": "$x = 1, x = -\\frac{2}{3}$", "correct": false },
+      { "text": "$x = -1, x = \\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Acomoda los términos para formar $3x^2 - 5x - 2 = 0$.",
+    "explanation": "La ecuación correcta es $3x^2 - 5x - 2 = 0$. Aplicando fórmula general obtenemos $x = \\frac{5 \\pm \\sqrt{25 - 4(3)(-2)}}{6} = \\frac{5 \\pm \\sqrt{49}}{6} = \\frac{5 \\pm 7}{6}$. Así, las raíces son $x = 2$ y $x = -\\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AF",
+    "question": "Calcula las raíces de la ecuación que tiene un término constante del otro lado de la igualdad $4x^2 + 4x = 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{2}, x = -\\frac{3}{2}$", "correct": true },
+      { "text": "$x = -\\frac{1}{2}, x = \\frac{3}{2}$", "correct": false },
+      { "text": "$x = 1, x = -\\frac{3}{4}$", "correct": false },
+      { "text": "$x = -1, x = \\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La forma estándar es $4x^2 + 4x - 3 = 0$.",
+    "explanation": "Al aplicar la fórmula general $x = \\frac{-4 \\pm \\sqrt{16 - 4(4)(-3)}}{8} = \\frac{-4 \\pm \\sqrt{64}}{8} = \\frac{-4 \\pm 8}{8}$. Resulta en $x = \\frac{4}{8} = \\frac{1}{2}$ y $x = -\\frac{12}{8} = -\\frac{3}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AG",
+    "question": "¿Qué valores de $x$ satisfacen la igualdad que no está igualada a cero $-3x^2 + 4 = x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 1, x = -\\frac{4}{3}$", "correct": true },
+      { "text": "$x = -1, x = \\frac{4}{3}$", "correct": false },
+      { "text": "$x = 4, x = -\\frac{1}{3}$", "correct": false },
+      { "text": "$x = -4, x = \\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ordena los términos para obtener $3x^2 + x - 4 = 0$.",
+    "explanation": "Reordenando los términos para que el principal sea positivo: $3x^2 + x - 4 = 0$. Al resolver, el discriminante es $1 - 4(3)(-4) = 49$. Las raíces son $x = \\frac{-1 \\pm 7}{6}$, lo que nos da $x = 1$ y $x = -\\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AH",
+    "question": "Determina las soluciones para la ecuación expresada como $10 - x^2 = 3x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -5$", "correct": true },
+      { "text": "$x = -2, x = 5$", "correct": false },
+      { "text": "$x = 10, x = -1$", "correct": false },
+      { "text": "$x = -10, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reacomoda a la forma cuadrática estándar $x^2 + 3x - 10 = 0$.",
+    "explanation": "Al reacomodar queda $x^2 + 3x - 10 = 0$. Se buscan dos números que multiplicados den -10 y sumados 3, resultando 5 y -2. La factorización es $(x + 5)(x - 2) = 0$, cuyas raíces son $x = -5$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AI",
+    "question": "Resuelve la ecuación cuadrática expresada parcialmente como producto: $x(x - 2) = 15$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -3$", "correct": true },
+      { "text": "$x = -5, x = 3$", "correct": false },
+      { "text": "$x = 15, x = -1$", "correct": false },
+      { "text": "$x = -15, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el binomio para obtener $x^2 - 2x - 15 = 0$.",
+    "explanation": "La ecuación desarrollada es $x^2 - 2x = 15$. Al igualar a cero, tenemos $x^2 - 2x - 15 = 0$. Factorizamos como $(x - 5)(x + 3) = 0$, obteniendo las raíces $x = 5$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AJ",
+    "question": "Encuentra las raíces de la ecuación que presenta una multiplicación: $2x(x + 1) = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -3$", "correct": true },
+      { "text": "$x = -2, x = 3$", "correct": false },
+      { "text": "$x = 6, x = -1$", "correct": false },
+      { "text": "$x = -6, x = 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica la expresión para obtener $x^2 + x - 6 = 0$.",
+    "explanation": "Al expandir se obtiene $2x^2 + 2x = 12$. Dividiendo todo entre 2 se simplifica a $x^2 + x = 6$. Igualando a cero da $x^2 + x - 6 = 0$. Factorizamos como $(x + 3)(x - 2) = 0$, cuyas raíces son $x = -3$ y $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AK",
+    "question": "¿Cuáles son las raíces de la ecuación cuadrática factorizada como cuadrado perfecto $(x-1)^2 = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -3$", "correct": true },
+      { "text": "$x = -5, x = 3$", "correct": false },
+      { "text": "$x = 4, x = -4$", "correct": false },
+      { "text": "$x = 17, x = -15$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para $(x-h)^2 = k$, utiliza $x = h \\pm \\sqrt{k}$.",
+    "explanation": "Al aplicar raíz cuadrada, obtenemos $x - 1 = \\pm 4$. De aquí surgen dos ecuaciones lineales: $x - 1 = 4$ y $x - 1 = -4$, que al resolver nos dan $x = 5$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AL",
+    "question": "Determina las raíces de la ecuación cuadrática que ya está igualada a cero y factorizada: $3x(x - 2) = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 2$", "correct": true },
+      { "text": "$x = 0, x = -2$", "correct": false },
+      { "text": "$x = 3, x = 2$", "correct": false },
+      { "text": "$x = 3, x = -2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la propiedad del producto nulo: si $AB = 0$, entonces $A = 0$ o $B = 0$.",
+    "explanation": "Las soluciones se encuentran al igualar a cero cada parte del producto. Por un lado $3x = 0 \\Rightarrow x = 0$, y por otro $x - 2 = 0 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AM",
+    "question": "Resuelve la ecuación cuadrática donde las incógnitas y constantes están separadas: $x^2 = 8x - 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = -4$", "correct": false },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = -8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica si el trinomio $x^2 - 8x + 16 = 0$ es un cuadrado perfecto.",
+    "explanation": "Trasladando términos se forma $x^2 - 8x + 16 = 0$. Este es un trinomio cuadrado perfecto y se factoriza como $(x - 4)^2 = 0$, lo que implica que hay una raíz única igual a $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AN",
+    "question": "Encuentra los valores de $x$ para la expresión fraccionaria incompleta $\\frac{x^2}{2} - 8 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, x = -4$", "correct": true },
+      { "text": "$x = 8, x = -8$", "correct": false },
+      { "text": "$x = 2, x = -2$", "correct": false },
+      { "text": "$x = 16, x = -16$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja multiplicando por $2$ para obtener $x^2 = k$.",
+    "explanation": "Sumando 8 a ambos lados se obtiene $\\frac{x^2}{2} = 8$. Multiplicando por 2 se llega a $x^2 = 16$. Al extraer la raíz cuadrada, el resultado es $x = 4$ y $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AO",
+    "question": "Encuentra las raíces de la ecuación cuadrática incompleta $x^2 - 49 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 7, x = -7$", "correct": true },
+      { "text": "$x = 14, x = -14$", "correct": false },
+      { "text": "$x = 49, x = -49$", "correct": false },
+      { "text": "$x = 24.5, x = -24.5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para $x^2 - c = 0$, la solución es $x = \\pm \\sqrt{c}$.",
+    "explanation": "Al despejar obtenemos $x^2 = 49$. Aplicando la raíz cuadrada a ambos lados, el resultado es $x = \\pm \\sqrt{49}$, por lo tanto $x = 7$ y $x = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AP",
+    "question": "Determina los valores de $x$ que satisfacen la ecuación $x^2 - 64 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 8, x = -8$", "correct": true },
+      { "text": "$x = 32, x = -32$", "correct": false },
+      { "text": "$x = 64, x = -64$", "correct": false },
+      { "text": "$x = 4, x = -4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la raíz cuadrada directa tras el despeje.",
+    "explanation": "Despejando se obtiene $x^2 = 64$. La raíz cuadrada de 64 proporciona dos soluciones: $x = 8$ y $x = -8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AQ",
+    "question": "Resuelve la siguiente ecuación cuadrática: $2x^2 - 50 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, x = -5$", "correct": true },
+      { "text": "$x = 25, x = -25$", "correct": false },
+      { "text": "$x = 10, x = -10$", "correct": false },
+      { "text": "$x = 50, x = -50$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide entre $2$ para obtener $x^2 = 25$.",
+    "explanation": "Dividiendo entre 2 llegamos a $x^2 - 25 = 0$. Al despejar obtenemos $x^2 = 25$, por lo que las raíces son $x = 5$ y $x = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AR",
+    "question": "Calcula las raíces de la ecuación $3x^2 - 12 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -2$", "correct": true },
+      { "text": "$x = 4, x = -4$", "correct": false },
+      { "text": "$x = 6, x = -6$", "correct": false },
+      { "text": "$x = 3, x = -3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica la ecuación para resolver $x^2 = 4$.",
+    "explanation": "El despeje da como resultado $3x^2 = 12$, que se simplifica a $x^2 = 4$. Por lo tanto, $x = \\pm 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AS",
+    "question": "¿Cuáles son las soluciones para la ecuación $-x^2 + 100 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 10, x = -10$", "correct": true },
+      { "text": "$x = 50, x = -50$", "correct": false },
+      { "text": "$x = 25, x = -25$", "correct": false },
+      { "text": "$x = 100, x = -100$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a la forma $x^2 = 100$.",
+    "explanation": "Sumando $x^2$ a ambos lados se obtiene $100 = x^2$. Aplicando la raíz cuadrada resultan $x = 10$ y $x = -10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AT",
+    "question": "Encuentra los valores que satisfacen la ecuación $5x^2 - 20 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, x = -2$", "correct": true },
+      { "text": "$x = 4, x = -4$", "correct": false },
+      { "text": "$x = 5, x = -5$", "correct": false },
+      { "text": "$x = 10, x = -10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza el despeje lineal para hallar $x^2 = 4$.",
+    "explanation": "Al despejar obtenemos $5x^2 = 20$, lo que implica $x^2 = 4$. La raíz cuadrada nos da $x = 2$ y $x = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AU",
+    "question": "Determina las raíces de la ecuación cuadrática fraccionaria $16x^2 - 9 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{3}{4}, x = -\\frac{3}{4}$", "correct": true },
+      { "text": "$x = \\frac{4}{3}, x = -\\frac{4}{3}$", "correct": false },
+      { "text": "$x = \\frac{9}{16}, x = -\\frac{9}{16}$", "correct": false },
+      { "text": "$x = 3, x = -3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén $x^2 = 9/16$ y aplica raíz a ambos términos de la fracción.",
+    "explanation": "La ecuación se convierte en $16x^2 = 9$, por lo que $x^2 = \\frac{9}{16}$. Al aplicar raíz cuadrada se obtiene $x = \\pm \\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AV",
+    "question": "Resuelve la expresión igualada a cero: $25x^2 - 1 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{5}, x = -\\frac{1}{5}$", "correct": true },
+      { "text": "$x = 5, x = -5$", "correct": false },
+      { "text": "$x = \\frac{1}{25}, x = -\\frac{1}{25}$", "correct": false },
+      { "text": "$x = 1, x = -1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que $x^2 = 1/25$.",
+    "explanation": "Despejando tenemos $25x^2 = 1 \\Rightarrow x^2 = \\frac{1}{25}$. La raíz cuadrada de esta fracción es $x = \\pm \\frac{1}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AW",
+    "question": "Encuentra las raíces de la ecuación incompleta mixta $x^2 + 8x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = -8$", "correct": true },
+      { "text": "$x = 0, x = 8$", "correct": false },
+      { "text": "$x = 1, x = -8$", "correct": false },
+      { "text": "$x = -1, x = 8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común para obtener $x(x + 8) = 0$.",
+    "explanation": "Factorizando obtenemos $x(x + 8) = 0$. Las soluciones se dan al igualar cada factor a cero: $x = 0$ y $x = -8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AX",
+    "question": "Un estudiante del CEPREDIX analiza la ecuación $x^2 - 10x = 0$ para determinar sus valores críticos.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, x = 10$", "correct": true },
+      { "text": "$x = 0, x = -10$", "correct": false },
+      { "text": "$x = 1, x = 10$", "correct": false },
+      { "text": "$x = -1, x = -10$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP", "MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza $x$ y resuelve la ecuación de primer grado resultante.",
+    "explanation": "Al sacar $x$ como término común, tenemos $x(x - 10) = 0$. Por lo tanto, las raíces son $x = 0$ y $x = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
+```
