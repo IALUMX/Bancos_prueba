@@ -5332,5 +5332,221 @@
     "explanation": "Para determinar la pendiente de la recta, se debe despejar la variable $y$ para llevar la ecuación a su forma ordinaria $y = mx + b$, donde el coeficiente $m$ representa la pendiente. A partir de la ecuación general $4x + 2y = 5$, se resta $4x$ en ambos lados obteniendo $2y = -4x + 5$. Luego, al dividir toda la ecuación entre 2, resulta $y = -2x + \\frac{5}{2}$. Al identificar el coeficiente que multiplica a la variable $x$, se concluye que la pendiente es $-2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00LE",
+    "question": "Se instala una serie de luces navideñas de 50 luces; la serie alterna dando intermitencia de 25 focos encendidos cuando los otros están apagados. ¿Cuál es el voltaje en cada una de las luces si se conecta a un tomacorriente de 120 V?",
+    "image": null,
+    "options": [
+      { "text": "4.8 Volts", "correct": true },
+      { "text": "120 Volts", "correct": false },
+      { "text": "2.4 Volts", "correct": false },
+      { "text": "1.2 Volts", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "$V_{total} = n \\times V$, donde $n$ es el número de luces activas.",
+    "explanation": "En un arreglo en serie típico de este tipo de luces, el voltaje total de la fuente se reparte entre los elementos activos del circuito. El planteamiento indica que, debido a la intermitencia, solo hay 25 focos encendidos a la vez. Por lo tanto, los 120 V del tomacorriente se dividen en partes iguales entre esas 25 luces activas. Al realizar la división matemática de 120 entre 25, se obtiene que cada foco recibe una caída de tensión de 4.8 Volts.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LF",
+    "question": "El área de una esfera de radio $R$ es $A = 4\\pi R^2$. Si el radio de la Tierra es $R_T = 6.0 \\times 10^6 \\text{ m}$, considerando que una tercera parte de su superficie la ocupan los continentes, el área de los océanos es:",
+    "image": null,
+    "options": [
+      { "text": "$(9.6 \\pi) \\times 10^{13} \\text{ m}^2$", "correct": true },
+      { "text": "$(9.6 \\pi) \\times 10^{12} \\text{ m}^2$", "correct": false },
+      { "text": "$(4.8 \\pi) \\times 10^{12} \\text{ m}^2$", "correct": false },
+      { "text": "$(4.8 \\pi) \\times 10^{13} \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["REAL"],
+    "hint": "$A_{total} = A_{continentes} + A_{océanos}$. Deberás calcular el total y despejar o restar la parte correspondiente.",
+    "explanation": "Primero se calcula el área total de la Tierra sustituyendo el valor del radio en la fórmula proporcionada: $A = 4\\pi (6.0 \\times 10^6)^2 = 4\\pi (36 \\times 10^{12}) = 144\\pi \\times 10^{12} \\text{ m}^2$. Ya que los continentes ocupan una tercera parte de la superficie, los océanos deben ocupar las dos terceras partes restantes. Así, el área de los océanos es $\\frac{2}{3}(144\\pi \\times 10^{12}) = 96\\pi \\times 10^{12} \\text{ m}^2$. Para expresarlo en la notación científica de las opciones, se recorre el punto decimal un lugar a la izquierda y se suma uno al exponente, resultando en $(9.6 \\pi) \\times 10^{13} \\text{ m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LG",
+    "question": "Un gas a temperatura ambiente ($20^\\circ\\text{C}$) y presión de 1 atm, se somete a un proceso isométrico y se calienta hasta $100^\\circ\\text{C}$. Utilizando la fórmula de conversión a temperatura absoluta $K = ^\\circ\\text{C} + 273.15$, ¿cuál será su presión final aproximada?",
+    "image": null,
+    "options": [
+      { "text": "$1.27 \\text{ atm}$", "correct": true },
+      { "text": "$5 \\text{ atm}$", "correct": false },
+      { "text": "$0.78 \\text{ atm}$", "correct": false },
+      { "text": "$120 \\text{ atm}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "$P_1 T_2 = P_2 T_1$. Recuerda convertir tus temperaturas a Kelvin antes de despejar.",
+    "explanation": "En un proceso isométrico (volumen constante), la presión y la temperatura se relacionan directamente mediante la Ley de Gay-Lussac: $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$. Es indispensable convertir las temperaturas a una escala absoluta (Kelvin) usando la fórmula proporcionada: $T_1 = 20 + 273.15 = 293.15 \\text{ K}$ y $T_2 = 100 + 273.15 = 373.15 \\text{ K}$. Despejando la presión final obtenemos $P_2 = P_1 \\left(\\frac{T_2}{T_1}\\right) = 1 \\text{ atm} \\left(\\frac{373.15 \\text{ K}}{293.15 \\text{ K}}\\right) \\approx 1.27 \\text{ atm}. La opción de 5 atm es un distractor común que surge de usar incorrectamente los grados Celsius.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LH",
+    "question": "¿Cuáles de los siguientes fenómenos permiten verificar la primera ley de la Termodinámica?\n\n1. El hielo contenido en una bebida se derrite cerca de 0°C, y se anota el tiempo que tarda en cancelarse la temperatura del hielo.\n2. Se aplica una compresa caliente a 42°C a una persona que tiene 38°C de fiebre, anotando el tiempo en que se trasmite la temperatura de la persona a la compresa.\n3. Se coloca hielo en un vaso con agua a 10°C y se registra el tiempo cuando el hielo se derrite por completo.\n4. Se vierte agua caliente a 70°C en un vaso a temperatura ambiente cercana a 20°C y se registra en cada segundo el cambio de temperatura del vaso y del agua.",
+    "image": null,
+    "options": [
+      { "text": "3, 4", "correct": true },
+      { "text": "1, 2", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "2, 4", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["REAL"],
+    "hint": "Analiza la dirección natural del flujo de calor y la ley de la conservación de la energía en sistemas cerrados.",
+    "explanation": "La primera ley de la termodinámica establece el principio de conservación de la energía, donde el calor cedido por un sistema es igual al calor absorbido por otro. El enunciado 4 describe el monitoreo de cambios de temperatura entre dos medios para evaluar esta transferencia de energía. El enunciado 3 también involucra observar la transferencia de calor necesaria para que ocurra un cambio de fase. Por otro lado, el enunciado 2 es físicamente imposible, ya que plantea que el calor se transmite de la persona (38°C) a la compresa (42°C), violando la segunda ley de la termodinámica que dicta que el calor fluye espontáneamente del cuerpo más caliente al más frío. Al ser el enunciado 2 incorrecto, se descartan todas las opciones que lo contienen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LI",
+    "question": "¿Cuáles de los siguientes fenómenos permiten verificar la primera ley de la Termodinámica?\n\n1. El hielo contenido en una bebida se derrite cerca de 0°C, y se anota el tiempo que tarda en cancelarse la temperatura del hielo.\n2. Se aplica una compresa caliente a 42°C a una persona que tiene 38°C de fiebre, anotando el tiempo en que se trasmite la temperatura de la persona a la compresa.\n3. Se coloca hielo en un vaso con agua a 10°C y se registra el tiempo cuando el hielo se derrite por completo.\n4. Se vierte agua caliente a 70°C en un vaso a temperatura ambiente cercana a 20°C y se registra en cada segundo el cambio de temperatura del vaso y del agua.",
+    "image": null,
+    "options": [
+      { "text": "3, 4", "correct": true },
+      { "text": "1, 2", "correct": false },
+      { "text": "2, 3", "correct": false },
+      { "text": "2, 4", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["REAL"],
+    "hint": "Analiza la dirección natural del flujo de calor y la ley de la conservación de la energía en sistemas cerrados.",
+    "explanation": "La primera ley de la termodinámica establece el principio de conservación de la energía, donde el calor cedido por un sistema es igual al calor absorbido por otro. El enunciado 4 describe el monitoreo de cambios de temperatura entre dos medios para evaluar esta transferencia de energía. El enunciado 3 también involucra observar la transferencia de calor necesaria para que ocurra un cambio de fase. Por otro lado, el enunciado 2 es físicamente imposible, ya que plantea que el calor se transmite de la persona (38°C) a la compresa (42°C), violando la segunda ley de la termodinámica que dicta que el calor fluye espontáneamente del cuerpo más caliente al más frío. Al ser el enunciado 2 incorrecto, se descartan todas las opciones que lo contienen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LJ",
+    "question": "Un objeto tiene una energía potencial gravitacional ($Ep$) debido a su posición a cierta altura $h$ respecto del piso. Si se deja caer su $Ep$:",
+    "image": null,
+    "options": [
+      { "text": "comienza a disminuir", "correct": true },
+      { "text": "permanece constante", "correct": false },
+      { "text": "aumenta", "correct": false },
+      { "text": "desaparece", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "$Ep = mgh$. Observa qué parámetro se altera mientras el objeto va cayendo.",
+    "explanation": "La energía potencial gravitacional de un objeto cerca de la superficie terrestre se calcula con la fórmula $Ep = mgh$, donde $m$ es la masa, $g$ la aceleración de la gravedad y $h$ la altura. Al dejar caer el objeto, la altura $h$ va disminuyendo progresivamente conforme se acerca al piso. Por lo tanto, su energía potencial gravitacional comienza a disminuir (transformándose simultáneamente en energía cinética).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LK",
+    "question": "Clasifica los siguientes elementos en luminosos e iluminados.\n\n**Categorías:**\n1. Iluminado\n2. Luminoso\n\n**Elementos:**\na. Sol ☀️\nb. Luna 🌕\nc. Tierra 🌎\nd. Foco 💡\ne. Estrella ⭐\nf. Ojo 👁️",
+    "image": null,
+    "options": [
+      { "text": "1b, c, f; 2a, d, e", "correct": true },
+      { "text": "1f; 2a, b, c, d, e", "correct": false },
+      { "text": "1a, c, d, f; 2b, e", "correct": false },
+      { "text": "1c, e; 2a, b, d, f", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que las estrellas generan luz a partir de fusiones nucleares, los demás cuerpos solo la reflejan o captan.",
+    "explanation": "Los cuerpos luminosos son aquellos capaces de emitir su propia luz, como el Sol, un foco encendido y las estrellas (elementos a, d, e). Por otro lado, los cuerpos iluminados no tienen luz propia, sino que son visibles porque reflejan la luz que reciben de una fuente luminosa, como ocurre con la Luna, la Tierra y el ojo humano (elementos b, c, f). Al relacionar ambas listas, se obtiene la clasificación correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LL",
+    "question": "Un disco de 15 cm de radio gira con una velocidad angular constante de 45 rpm ¿cuántas vueltas da el disco al transcurrir 2 minutos?",
+    "image": null,
+    "options": [
+      { "text": "90 vueltas", "correct": true },
+      { "text": "60.9 vueltas", "correct": false },
+      { "text": "47.12 vueltas", "correct": false },
+      { "text": "70 vueltas", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "$\\omega = \\frac{\\theta}{t}$ donde $\\theta$ representa la cantidad total de revoluciones.",
+    "explanation": "La velocidad angular dada es de 45 rpm (revoluciones por minuto), lo que significa que el disco completa exactamente 45 vueltas cada minuto. Para determinar el total de vueltas, basta con multiplicar esta velocidad por el tiempo transcurrido. Al multiplicar 45 vueltas/minuto por 2 minutos, se obtiene un resultado de 90 vueltas. El dato del radio del disco (15 cm) es información distractora que no interviene en este cálculo cinemático básico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LM",
+    "question": "Relaciona los conceptos con sus características o definiciones correspondientes:\n\n1. Masa\n2. Peso\n3. Volumen\n\na. Cantidad de materia de un cuerpo\nb. Se puede medir con una balanza\nc. Es el espacio que ocupa un cuerpo\nd. Fuerza que ejerce un cuerpo debido a la gravedad\ne. Se puede medir con un dinamómetro\nf. Se puede medir con una probeta",
+    "image": null,
+    "options": [
+      { "text": "1:a, b; 2:d, e; 3:c, f", "correct": true },
+      { "text": "1:c, e; 2:b, d; 3:a, f", "correct": false },
+      { "text": "1:d, e; 2:a, b; 3:c, f", "correct": false },
+      { "text": "1:b, c; 2:b, f; 3:a, d", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Piensa en cuáles de estos conceptos son dependientes de la gravedad y cuáles son fundamentales del objeto.",
+    "explanation": "La masa es la cantidad de materia que posee un cuerpo y convencionalmente se determina utilizando una balanza (1 se relaciona con a y b). El peso es la fuerza que la gravedad ejerce sobre esa masa y su intensidad se mide con un dinamómetro (2 se relaciona con d y e). Finalmente, el volumen representa el espacio tridimensional que ocupa un cuerpo, y en el caso de los líquidos (o sólidos por desplazamiento), se puede medir con precisión empleando una probeta (3 se relaciona con c y f).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LN",
+    "question": "¿Qué nombre se le da al compuesto $CH_2=CH_2$?",
+    "image": null,
+    "options": [
+      { "text": "Eteno", "correct": true },
+      { "text": "Propeno", "correct": false },
+      { "text": "Etano", "correct": false },
+      { "text": "Dimetano", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["REAL"],
+    "hint": "Analiza el número de carbonos para conocer su prefijo y la presencia del doble enlace para identificar su familia funcional.",
+    "explanation": "El compuesto está formado por una cadena principal de dos átomos de carbono, lo que corresponde al prefijo 'et-'. Además, presenta un doble enlace carbono-carbono, característica principal de la familia de los alquenos, por lo que se le asigna el sufijo '-eno'. Al combinar ambas partes, se obtiene el nombre correcto de eteno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LO",
+    "question": "Cuando el gas cloruro de hidrógeno $HCl$ se disuelve en agua, forma una solución acuosa conocida como ácido:",
+    "image": null,
+    "options": [
+      { "text": "Clorhídrico", "correct": true },
+      { "text": "Cloroso", "correct": false },
+      { "text": "Hipocloroso", "correct": false },
+      { "text": "Perclórico", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Los compuestos binarios de hidrógeno que actúan como ácidos al diluirse utilizan un sufijo especial que denota la presencia de agua.",
+    "explanation": "Los compuestos binarios gaseosos formados por hidrógeno y un halógeno, como el cloruro de hidrógeno ($HCl$), al disolverse en agua se comportan como ácidos y se les denomina hidrácidos. La regla de nomenclatura inorgánica para los hidrácidos en solución acuosa indica que se debe escribir la palabra 'ácido' seguida de la raíz del no metal con el sufijo '-hídrico'. Por lo tanto, la solución acuosa de $HCl$ se conoce como ácido clorhídrico. El resto de las opciones son nombres de oxoácidos, los cuales contienen oxígeno en su fórmula molecular (como el ácido hipocloroso $HClO$ o el ácido perclórico $HClO_4$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LP",
+    "question": "¿Cuál de las siguientes propiedades periódicas presenta una tendencia de aumento conforme descendemos a través de las familias o grupos de la tabla periódica?",
+    "image": null,
+    "options": [
+      { "text": "Radio atómico", "correct": true },
+      { "text": "Energía de ionización", "correct": false },
+      { "text": "Carácter no metálico", "correct": false },
+      { "text": "Afinidad electrónica", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "A medida que bajas en un grupo se van agregando nuevas capas electrónicas al átomo.",
+    "explanation": "Conforme se desciende en un grupo o familia de la tabla periódica, se añaden nuevos niveles de energía (capas electrónicas) al átomo. Esto provoca que los electrones más externos se ubiquen a una mayor distancia del núcleo, lo que resulta en un incremento directo del tamaño del átomo y, por ende, de su radio atómico. Por el contrario, propiedades como la energía de ionización, la afinidad electrónica y el carácter no metálico tienden a disminuir al descender por un grupo.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
