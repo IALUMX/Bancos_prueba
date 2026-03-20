@@ -1294,5 +1294,1085 @@
     "explanation": "El discriminante es $7^2 - 4(2)(5) = 49 - 40 = 9$. Al aplicar la fórmula tenemos $x = \\frac{-7 \\pm 3}{4}$, que resulta en $x = -\\frac{4}{4} = -1$ y $x = -\\frac{10}{4} = -\\frac{5}{2}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Cuáles son las soluciones de la ecuación cuadrática $x^2 + 5x + 6 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 2, x_2 = 3$", "correct": false },
+      { "text": "$x_1 = -1, x_2 = -6$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = -3$", "correct": true },
+      { "text": "$x_1 = 1, x_2 = 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que sumados den 5 y multiplicados den 6 para factorizar.",
+    "explanation": "La ecuación se factoriza como $(x + 2)(x + 3) = 0$, igualando a cero cada factor se obtiene $x_1 = -2$ y $x_2 = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Resuelve la ecuación cuadrática $x^2 - 7x + 12 = 0$. ¿Cuáles son sus raíces?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -3, x_2 = -4$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = 4$", "correct": true },
+      { "text": "$x_1 = 2, x_2 = 6$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = -6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa factorización encontrando dos números con producto 12 y suma -7.",
+    "explanation": "Al factorizar obtenemos $(x - 3)(x - 4) = 0$, por lo que las soluciones son $x_1 = 3$ y $x_2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Determina las soluciones de la ecuación $x^2 + 2x - 8 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -2, x_2 = 4$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -4$", "correct": true },
+      { "text": "$x_1 = 2, x_2 = 4$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que al multiplicarse den -8 y al sumarse den 2 son el 4 y el -2.",
+    "explanation": "La factorización es $(x + 4)(x - 2) = 0$, arrojando las soluciones $x_1 = 2$ y $x_2 = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Calcula las soluciones para la ecuación cuadrática $2x^2 - 5x + 3 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -1, x_2 = -1.5$", "correct": false },
+      { "text": "$x_1 = -1, x_2 = 1.5$", "correct": false },
+      { "text": "$x_1 = 1, x_2 = 1.5$", "correct": true },
+      { "text": "$x_1 = 1, x_2 = -1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ recordando que $a=2$, $b=-5$ y $c=3$.",
+    "explanation": "El discriminante es $(-5)^2 - 4(2)(3) = 25 - 24 = 1$. Entonces $x = \\frac{5 \\pm 1}{4}$, resultando $x_1 = 1.5$ y $x_2 = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Identifica las raíces de la ecuación $3x^2 + 14x + 8 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = \\frac{2}{3}, x_2 = 4$", "correct": false },
+      { "text": "$x_1 = -\\frac{2}{3}, x_2 = -4$", "correct": true },
+      { "text": "$x_1 = -\\frac{3}{2}, x_2 = 4$", "correct": false },
+      { "text": "$x_1 = \\frac{3}{2}, x_2 = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Como el coeficiente principal es distinto de 1, utiliza la fórmula cuadrática para hallar las soluciones.",
+    "explanation": "Utilizando la fórmula general con $a=3$, $b=14$, $c=8$, obtenemos $x = \\frac{-14 \\pm \\sqrt{196 - 96}}{6} = \\frac{-14 \\pm 10}{6}$. Esto nos da $-2/3$ y $-4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Al resolver la ecuación cuadrática $x^2 - 10x + 25 = 0$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "$x = 5$", "correct": true },
+      { "text": "$x = -5$", "correct": false },
+      { "text": "$x = 25$", "correct": false },
+      { "text": "$x = -25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que la expresión es un trinomio cuadrado perfecto.",
+    "explanation": "El trinomio se factoriza como $(x - 5)^2 = 0$, por lo que existe una única solución real, $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Resuelve la ecuación cuadrática $x^2 + x - 20 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 4, x_2 = -5$", "correct": true },
+      { "text": "$x_1 = -4, x_2 = 5$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -10$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = 10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra dos números que multiplicados den -20 y cuya resta sea 1.",
+    "explanation": "Los factores son $(x + 5)(x - 4) = 0$. Al despejar cada factor se obtiene $x_1 = 4$ y $x_2 = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "¿Cuáles son los valores que satisfacen la ecuación $x^2 - 9x + 20 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -4, x_2 = -5$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = 10$", "correct": false },
+      { "text": "$x_1 = 4, x_2 = 5$", "correct": true },
+      { "text": "$x_1 = -2, x_2 = -10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como el tercer término es positivo y el segundo negativo, busca dos números negativos que sumados den -9 y multiplicados 20.",
+    "explanation": "El trinomio se factoriza como $(x - 4)(x - 5) = 0$, resultando en $x_1 = 4$ y $x_2 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Halla las soluciones de la ecuación $2x^2 + 7x + 6 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 2, x_2 = 1.5$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = -1.5$", "correct": true },
+      { "text": "$x_1 = 2, x_2 = -1.5$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = 1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+    "explanation": "Usando la fórmula general con $a=2, b=7, c=6$, el discriminante es $49 - 48 = 1$. Se obtiene $x = \\frac{-7 \\pm 1}{4}$, de donde $x_1 = -1.5$ y $x_2 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Determina las raíces para el trinomio $x^2 - 11x + 30 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -5, x_2 = -6$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = 10$", "correct": false },
+      { "text": "$x_1 = 5, x_2 = 6$", "correct": true },
+      { "text": "$x_1 = -3, x_2 = -10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números negativos que multipliquen 30 y sumen -11.",
+    "explanation": "Al factorizar la ecuación como $(x - 5)(x - 6) = 0$, hallamos que $x_1 = 5$ y $x_2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Resuelve la ecuación cuadrática incompleta $x^2 - 16 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 8, x_2 = -8$", "correct": false },
+      { "text": "$x_1 = 4, x_2 = -4$", "correct": true },
+      { "text": "$x_1 = 16, x_2 = -16$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x^2$ y extrae la raíz cuadrada en ambos lados, considerando ambos signos.",
+    "explanation": "Despejando tenemos $x^2 = 16$. Al aplicar la raíz cuadrada se obtienen dos posibles valores reales: $x_1 = 4$ y $x_2 = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "¿Cuáles son las soluciones de la ecuación $2x^2 - 18 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 9, x_2 = -9$", "correct": false },
+      { "text": "$x_1 = 6, x_2 = -6$", "correct": false },
+      { "text": "$x_1 = 4.5, x_2 = -4.5$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = -3$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide toda la ecuación entre 2 antes de extraer la raíz cuadrada.",
+    "explanation": "Al dividir entre 2, la ecuación se reduce a $x^2 - 9 = 0$. Despejando, $x^2 = 9$, cuyas raíces son $x_1 = 3$ y $x_2 = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Identifica los valores de $x$ que satisfacen $x^2 + 4x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 0, x_2 = 4$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -2$", "correct": false },
+      { "text": "$x_1 = -2, x_2 = -4$", "correct": false },
+      { "text": "$x_1 = 0, x_2 = -4$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al carecer del término independiente, puedes extraer $x$ como factor común.",
+    "explanation": "La ecuación factorizada es $x(x + 4) = 0$. Igualando a cero cada parte obtenemos $x_1 = 0$ y $x_2 = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Calcula las soluciones de la ecuación mixta $3x^2 - 12x = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 0, x_2 = 4$", "correct": true },
+      { "text": "$x_1 = 0, x_2 = -4$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -2$", "correct": false },
+      { "text": "$x_1 = 0, x_2 = 12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común $3x$ para resolver de forma directa.",
+    "explanation": "Factorizando obtenemos $3x(x - 4) = 0$. Igualando cada factor a cero resulta en $x_1 = 0$ y $x_2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Resuelve $5x^2 - 20 = 0$. ¿Cuáles son los valores de $x$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 4, x_2 = -4$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -2$", "correct": true },
+      { "text": "$x_1 = 10, x_2 = -10$", "correct": false },
+      { "text": "$x_1 = 5, x_2 = -5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa la constante al lado derecho, divide entre 5 y luego saca la raíz cuadrada.",
+    "explanation": "La ecuación se despeja como $5x^2 = 20$, entonces $x^2 = 4$. Sus raíces son $x_1 = 2$ y $x_2 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Al resolver la ecuación $(x + 2)^2 = 9$, se obtienen como soluciones:",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -1, x_2 = 5$", "correct": false },
+      { "text": "$x_1 = 1, x_2 = -5$", "correct": true },
+      { "text": "$x_1 = 3, x_2 = -3$", "correct": false },
+      { "text": "$x_1 = 7, x_2 = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica raíz cuadrada a ambos lados de la ecuación, recordando utilizar el doble signo $\\pm 3$.",
+    "explanation": "Extrayendo raíz cuadrada obtenemos $x + 2 = \\pm 3$. Despejando $x$, tenemos $x_1 = 3 - 2 = 1$ y $x_2 = -3 - 2 = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Halla las soluciones de la ecuación $(x - 3)^2 = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -7, x_2 = 1$", "correct": false },
+      { "text": "$x_1 = 7, x_2 = 1$", "correct": false },
+      { "text": "$x_1 = -7, x_2 = -1$", "correct": false },
+      { "text": "$x_1 = 7, x_2 = -1$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae la raíz a ambos lados. Recuerda que la raíz cuadrada de 16 es $\\pm 4$.",
+    "explanation": "Al sacar la raíz obtenemos $x - 3 = \\pm 4$. Por lo tanto, $x = 3 \\pm 4$, que da como resultado $x_1 = 7$ y $x_2 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Determina las raíces para la ecuación $x(x + 5) = 14$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -2, x_2 = 7$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -7$", "correct": true },
+      { "text": "$x_1 = 1, x_2 = 14$", "correct": false },
+      { "text": "$x_1 = -1, x_2 = -14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la variable, iguala a cero ($x^2 + 5x - 14 = 0$) y resuelve el trinomio resultante.",
+    "explanation": "La ecuación en forma estándar es $x^2 + 5x - 14 = 0$. Se factoriza como $(x + 7)(x - 2) = 0$, dando $x_1 = 2$ y $x_2 = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Resuelve la ecuación con desarrollo $2x(x - 1) = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 3, x_2 = -2$", "correct": true },
+      { "text": "$x_1 = -3, x_2 = 2$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = 2$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa el producto, iguala a cero y divide entre 2 para simplificar la ecuación antes de resolver.",
+    "explanation": "Al desarrollar obtenemos $2x^2 - 2x - 12 = 0$. Dividiendo entre 2 resulta $x^2 - x - 6 = 0$. Al factorizar $(x - 3)(x + 2) = 0$, obtenemos $x_1 = 3, x_2 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "Si $(x + 1)(x - 2) = 4$, entonces las soluciones para $x$ son:",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -3, x_2 = 2$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = -2$", "correct": true },
+      { "text": "$x_1 = 3, x_2 = 2$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la multiplicación de binomios e iguala toda la expresión a cero para encontrar el trinomio equivalente.",
+    "explanation": "Desarrollando los binomios: $x^2 - x - 2 = 4$. Igualando a cero tenemos $x^2 - x - 6 = 0$, que factorizado es $(x - 3)(x + 2) = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Halla las soluciones para la ecuación cuadrática $(2x + 1)^2 = 25$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -2, x_2 = 3$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = 3$", "correct": false },
+      { "text": "$x_1 = 2, x_2 = -3$", "correct": true },
+      { "text": "$x_1 = -2, x_2 = -3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae raíz cuadrada en ambos lados para obtener $2x + 1 = \\pm 5$ y despeja de manera lineal.",
+    "explanation": "Con la raíz obtenemos $2x + 1 = 5 \\rightarrow x_1 = 2$ y $2x + 1 = -5 \\rightarrow x_2 = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Calcula los valores de $x$ que cumplen la igualdad $x^2 = 3(x + 6)$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -6, x_2 = 3$", "correct": false },
+      { "text": "$x_1 = 6, x_2 = -3$", "correct": true },
+      { "text": "$x_1 = 6, x_2 = 3$", "correct": false },
+      { "text": "$x_1 = -6, x_2 = -3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Expande el lado derecho e iguala la ecuación a cero obteniendo $x^2 - 3x - 18 = 0$.",
+    "explanation": "Al agrupar los términos de un lado se obtiene $x^2 - 3x - 18 = 0$. Su factorización es $(x - 6)(x + 3) = 0$, resultando en $x_1 = 6$ y $x_2 = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Al resolver la ecuación con desarrollo $(x - 4)^2 + 2x = 8$, los valores encontrados son:",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -4, x_2 = -2$", "correct": false },
+      { "text": "$x_1 = 4, x_2 = -2$", "correct": false },
+      { "text": "$x_1 = -4, x_2 = 2$", "correct": false },
+      { "text": "$x_1 = 4, x_2 = 2$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el binomio al cuadrado, agrupa los términos semejantes e iguala a cero.",
+    "explanation": "Desarrollando obtenemos $x^2 - 8x + 16 + 2x = 8$, que se reduce a $x^2 - 6x + 8 = 0$. Esto se factoriza en $(x - 4)(x - 2) = 0$, por lo que $x_1 = 4, x_2 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "¿Cuáles son las soluciones para la ecuación $x(2x + 3) = 90$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -6, x_2 = \\frac{15}{2}$", "correct": false },
+      { "text": "$x_1 = 6, x_2 = \\frac{15}{2}$", "correct": false },
+      { "text": "$x_1 = 6, x_2 = -\\frac{15}{2}$", "correct": true },
+      { "text": "$x_1 = -6, x_2 = -\\frac{15}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala a cero para obtener $2x^2 + 3x - 90 = 0$ y utiliza la fórmula cuadrática.",
+    "explanation": "Resolviendo $2x^2 + 3x - 90 = 0$ con fórmula general, el discriminante es $9 - 4(2)(-90) = 729$. La raíz es $27$. Resolviendo se obtiene $x_1 = 6$ y $x_2 = -15/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Determina las raíces correspondientes a la ecuación $3(x^2 - 1) = 8x$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -3, x_2 = \\frac{1}{3}$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = \\frac{1}{3}$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = -\\frac{1}{3}$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = -\\frac{1}{3}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el 3 y reordena la ecuación a la forma $ax^2 + bx + c = 0$.",
+    "explanation": "La ecuación se organiza como $3x^2 - 8x - 3 = 0$. Al aplicar la fórmula general o factorizar se obtiene $(3x + 1)(x - 3) = 0$. Por ende, $x_1 = 3$ y $x_2 = -1/3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "Resuelve la ecuación cuadrática $x^2 + 12x + 35 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -5, x_2 = -7$", "correct": true },
+      { "text": "$x_1 = 5, x_2 = 7$", "correct": false },
+      { "text": "$x_1 = -5, x_2 = 7$", "correct": false },
+      { "text": "$x_1 = 5, x_2 = -7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra dos factores numéricos que sumen 12 y cuyo producto sea 35.",
+    "explanation": "El polinomio se factoriza como $(x + 5)(x + 7) = 0$, generando las soluciones directas $x_1 = -5$ y $x_2 = -7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Encuentra los valores de $x$ que son solución de la ecuación $6x^2 - x - 2 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -\\frac{2}{3}, x_2 = \\frac{1}{2}$", "correct": false },
+      { "text": "$x_1 = \\frac{2}{3}, x_2 = -\\frac{1}{2}$", "correct": true },
+      { "text": "$x_1 = \\frac{3}{2}, x_2 = -2$", "correct": false },
+      { "text": "$x_1 = -\\frac{3}{2}, x_2 = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula general tomando $a=6, b=-1, c=-2$.",
+    "explanation": "El discriminante es $(-1)^2 - 4(6)(-2) = 1 + 48 = 49$. Usando la fórmula general se obtiene $x = \\frac{1 \\pm 7}{12}$, dando $x_1 = 2/3$ y $x_2 = -1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "¿Cuáles son las soluciones de la ecuación cuadrática $x^2 - x - 72 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -9, x_2 = 8$", "correct": false },
+      { "text": "$x_1 = 9, x_2 = 8$", "correct": false },
+      { "text": "$x_1 = 9, x_2 = -8$", "correct": true },
+      { "text": "$x_1 = -9, x_2 = -8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números enteros que multiplicados resulten en -72 y sumados en -1.",
+    "explanation": "Los factores son $(x - 9)(x + 8) = 0$, lo que implica que las raíces de la ecuación son $x_1 = 9$ y $x_2 = -8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DW",
+    "question": "Calcula las raíces de la ecuación cuadrática $5x^2 - 14x - 3 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = -3, x_2 = \\frac{1}{5}$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = -\\frac{1}{5}$", "correct": true },
+      { "text": "$x_1 = 3, x_2 = \\frac{1}{5}$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = -\\frac{1}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ con los respectivos coeficientes.",
+    "explanation": "Con la fórmula general, el discriminante es $(-14)^2 - 4(5)(-3) = 196 + 60 = 256$. Las soluciones son $x = \\frac{14 \\pm 16}{10}$, resultando en $x_1 = 3$ y $x_2 = -1/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DX",
+    "question": "Al resolver la ecuación cuadrática $x^2 + 8x + 15 = 0$, obtenemos los siguientes valores:",
+    "image": null,
+    "options": [
+      { "text": "$x_1 = 3, x_2 = 5$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = 5$", "correct": false },
+      { "text": "$x_1 = 3, x_2 = -5$", "correct": false },
+      { "text": "$x_1 = -3, x_2 = -5$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla un par de números que al sumarse obtengas 8 y multiplicados 15.",
+    "explanation": "Al factorizar el trinomio resulta en $(x + 3)(x + 5) = 0$, igualando cada uno a cero se despejan las soluciones $x_1 = -3$ y $x_2 = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DY",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $Al + HCl \\rightarrow AlCl_3 + H_2$",
+    "image": null,
+    "options": [
+      { "text": "2, 6, 2, 3", "correct": true },
+      { "text": "1, 3, 1, 2", "correct": false },
+      { "text": "2, 3, 2, 3", "correct": false },
+      { "text": "1, 6, 1, 3", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El cloro y el hidrógeno deben equilibrarse considerando el subíndice 3 del cloruro de aluminio y el 2 del hidrógeno diatómico.",
+    "explanation": "La ecuación balanceada es $2Al + 6HCl \\rightarrow 2AlCl_3 + 3H_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DZ",
+    "question": "Al balancear la ecuación $Fe_2O_3 + CO \\rightarrow Fe + CO_2$, ¿cuál es el coeficiente del hierro ($Fe$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el subíndice del hierro en los reactivos.",
+    "explanation": "La ecuación balanceada es $Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2$. Por lo tanto, el coeficiente del hierro es 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EA",
+    "question": "Al balancear la ecuación $Mg(OH)_2 + H_3PO_4 \\rightarrow Mg_3(PO_4)_2 + H_2O$, ¿cuál es el coeficiente del agua ($H_2O$)?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Balancea primero los iones magnesio y fosfato, luego cuenta los átomos de hidrógeno y oxígeno totales.",
+    "explanation": "La ecuación balanceada es $3Mg(OH)_2 + 2H_3PO_4 \\rightarrow Mg_3(PO_4)_2 + 6H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EB",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $KClO_3 \\rightarrow KCl + O_2$",
+    "image": null,
+    "options": [
+      { "text": "1, 1, 1", "correct": false },
+      { "text": "2, 2, 2", "correct": false },
+      { "text": "2, 2, 3", "correct": true },
+      { "text": "3, 3, 2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El oxígeno tiene subíndice 3 en reactivos y 2 en productos. Busca el mínimo común múltiplo.",
+    "explanation": "La ecuación balanceada es $2KClO_3 \\rightarrow 2KCl + 3O_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EC",
+    "question": "Al balancear la ecuación $BaCl_2 + Na_2SO_4 \\rightarrow BaSO_4 + NaCl$, ¿cuál es el coeficiente del cloruro de sodio ($NaCl$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Hay dos átomos de sodio y dos de cloro en los reactivos.",
+    "explanation": "La ecuación balanceada es $BaCl_2 + Na_2SO_4 \\rightarrow BaSO_4 + 2NaCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ED",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $Cu + AgNO_3 \\rightarrow Cu(NO_3)_2 + Ag$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 1, 2", "correct": true },
+      { "text": "1, 1, 1, 1", "correct": false },
+      { "text": "2, 2, 2, 1", "correct": false },
+      { "text": "1, 2, 2, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El ion nitrato se duplica en los productos, por lo que debes ajustar los reactivos y la plata.",
+    "explanation": "La ecuación balanceada es $Cu + 2AgNO_3 \\rightarrow Cu(NO_3)_2 + 2Ag$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EE",
+    "question": "Al balancear la ecuación $H_2SO_4 + NaOH \\rightarrow Na_2SO_4 + H_2O$, ¿cuál es el coeficiente del hidróxido de sodio ($NaOH$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El sulfato de sodio tiene dos átomos de sodio.",
+    "explanation": "La ecuación balanceada es $H_2SO_4 + 2NaOH \\rightarrow Na_2SO_4 + 2H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EF",
+    "question": "Al balancear la ecuación $Zn + AgNO_3 \\rightarrow Zn(NO_3)_2 + Ag$, ¿cuál es el coeficiente de la plata ($Ag$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al tener dos nitratos en los productos, se requieren dos platas en los reactivos.",
+    "explanation": "La ecuación balanceada es $Zn + 2AgNO_3 \\rightarrow Zn(NO_3)_2 + 2Ag$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EG",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $N_2 + H_2 \\rightarrow NH_3$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 2", "correct": false },
+      { "text": "1, 3, 2", "correct": true },
+      { "text": "2, 3, 2", "correct": false },
+      { "text": "1, 3, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el mínimo común múltiplo para los hidrógenos (subíndices 2 y 3).",
+    "explanation": "La ecuación balanceada es $N_2 + 3H_2 \\rightarrow 2NH_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EH",
+    "question": "Al balancear la ecuación $Pb(NO_3)_2 + KI \\rightarrow PbI_2 + KNO_3$, ¿cuál es el coeficiente del yoduro de potasio ($KI$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El yoduro de plomo tiene dos átomos de yodo.",
+    "explanation": "La ecuación balanceada es $Pb(NO_3)_2 + 2KI \\rightarrow PbI_2 + 2KNO_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EI",
+    "question": "Al balancear la ecuación $Al + H_2SO_4 \\rightarrow Al_2(SO_4)_3 + H_2$, ¿cuál es el coeficiente del aluminio ($Al$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa la cantidad de átomos de aluminio en la sal formada.",
+    "explanation": "La ecuación balanceada es $2Al + 3H_2SO_4 \\rightarrow Al_2(SO_4)_3 + 3H_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EJ",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $CaCO_3 + HCl \\rightarrow CaCl_2 + H_2O + CO_2$",
+    "image": null,
+    "options": [
+      { "text": "1, 1, 1, 1, 1", "correct": false },
+      { "text": "1, 2, 1, 1, 1", "correct": true },
+      { "text": "2, 2, 2, 1, 1", "correct": false },
+      { "text": "1, 2, 1, 2, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Solo necesitas ajustar los hidrógenos y los cloros.",
+    "explanation": "La ecuación balanceada es $CaCO_3 + 2HCl \\rightarrow CaCl_2 + H_2O + CO_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EK",
+    "question": "Al balancear la ecuación $P_4 + O_2 \\rightarrow P_4O_{10}$, ¿cuál es el coeficiente del oxígeno molecular ($O_2$)?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide la cantidad de oxígenos en el producto entre dos.",
+    "explanation": "La ecuación balanceada es $P_4 + 5O_2 \\rightarrow P_4O_{10}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EL",
+    "question": "Al balancear la ecuación $Na + H_2O \\rightarrow NaOH + H_2$, ¿cuál es el coeficiente del sodio ($Na$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para evitar coeficientes fraccionarios en el hidrógeno, duplica el hidróxido de sodio.",
+    "explanation": "La ecuación balanceada es $2Na + 2H_2O \\rightarrow 2NaOH + H_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EM",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $Cl_2 + KI \\rightarrow KCl + I_2$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 2, 1", "correct": true },
+      { "text": "1, 1, 1, 1", "correct": false },
+      { "text": "2, 2, 2, 1", "correct": false },
+      { "text": "1, 2, 1, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los halógenos elementales son diatómicos.",
+    "explanation": "La ecuación balanceada es $Cl_2 + 2KI \\rightarrow 2KCl + I_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EN",
+    "question": "Al balancear la ecuación $Fe + O_2 \\rightarrow Fe_2O_3$, ¿cuál es el coeficiente del óxido de hierro (III) ($Fe_2O_3$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ajusta los oxígenos usando el mínimo común múltiplo (6), lo que afecta al producto.",
+    "explanation": "La ecuación balanceada es $4Fe + 3O_2 \\rightarrow 2Fe_2O_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EO",
+    "question": "Al balancear la ecuación $NaOH + FeCl_3 \\rightarrow NaCl + Fe(OH)_3$, ¿cuál es el coeficiente del hidróxido de sodio ($NaOH$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se requieren tres grupos hidroxilo para formar el producto del hierro.",
+    "explanation": "La ecuación balanceada es $3NaOH + FeCl_3 \\rightarrow 3NaCl + Fe(OH)_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EP",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $Sb + Cl_2 \\rightarrow SbCl_3$",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 2", "correct": true },
+      { "text": "1, 3, 1", "correct": false },
+      { "text": "2, 2, 2", "correct": false },
+      { "text": "1, 2, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cruza los subíndices del cloro para encontrar sus coeficientes.",
+    "explanation": "La ecuación balanceada es $2Sb + 3Cl_2 \\rightarrow 2SbCl_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EQ",
+    "question": "Al balancear la ecuación $KMnO_4 \\rightarrow K_2MnO_4 + MnO_2 + O_2$, ¿cuál es el coeficiente del permanganato de potasio ($KMnO_4$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El potasio en el producto requiere que dupliques el reactivo inicial. Verifica si el oxígeno cuadra.",
+    "explanation": "La ecuación balanceada es $2KMnO_4 \\rightarrow K_2MnO_4 + MnO_2 + O_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ER",
+    "question": "Al balancear la ecuación $H_2S + Cl_2 \\rightarrow S_8 + HCl$, ¿cuál es el coeficiente del ácido clorhídrico ($HCl$)?",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "16", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocho átomos de azufre requieren ocho moléculas de sulfuro de hidrógeno, lo que genera bastantes hidrógenos.",
+    "explanation": "La ecuación balanceada es $8H_2S + 8Cl_2 \\rightarrow S_8 + 16HCl$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ES",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $NH_3 + CuO \\rightarrow Cu + N_2 + H_2O$",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 3, 1, 3", "correct": true },
+      { "text": "2, 2, 2, 1, 2", "correct": false },
+      { "text": "1, 3, 3, 1, 1", "correct": false },
+      { "text": "2, 1, 1, 1, 3", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El nitrógeno diatómico obliga a tener dos amoníacos, lo que produce seis hidrógenos.",
+    "explanation": "La ecuación balanceada es $2NH_3 + 3CuO \\rightarrow 3Cu + N_2 + 3H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ET",
+    "question": "Al balancear la ecuación $NaHCO_3 \\rightarrow Na_2CO_3 + H_2O + CO_2$, ¿cuál es el coeficiente del bicarbonato de sodio ($NaHCO_3$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa la cantidad de átomos de sodio necesarios en los productos.",
+    "explanation": "La ecuación balanceada es $2NaHCO_3 \\rightarrow Na_2CO_3 + H_2O + CO_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EU",
+    "question": "Al balancear la ecuación $Ca(OH)_2 + HNO_3 \\rightarrow Ca(NO_3)_2 + H_2O$, ¿cuál es el coeficiente del ácido nítrico ($HNO_3$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El calcio está en estado de oxidación +2, requiriendo dos nitratos.",
+    "explanation": "La ecuación balanceada es $Ca(OH)_2 + 2HNO_3 \\rightarrow Ca(NO_3)_2 + 2H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EV",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $S_8 + O_2 \\rightarrow SO_3$",
+    "image": null,
+    "options": [
+      { "text": "1, 12, 8", "correct": true },
+      { "text": "1, 8, 8", "correct": false },
+      { "text": "1, 6, 8", "correct": false },
+      { "text": "2, 12, 16", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocho átomos de azufre forman ocho moléculas de producto, calcula entonces el oxígeno.",
+    "explanation": "La ecuación balanceada es $S_8 + 12O_2 \\rightarrow 8SO_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "Al balancear la ecuación $Cr + O_2 \\rightarrow Cr_2O_3$, ¿cuál es el coeficiente del cromo ($Cr$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es similar al óxido de hierro. Los oxígenos se cruzan con el coeficiente 3 y 2.",
+    "explanation": "La ecuación balanceada es $4Cr + 3O_2 \\rightarrow 2Cr_2O_3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "Al balancear la ecuación de combustión $CH_4 + O_2 \\rightarrow CO_2 + H_2O$, ¿cuál es el coeficiente del oxígeno ($O_2$)?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuatro hidrógenos forman dos moléculas de agua. Suma los oxígenos totales resultantes.",
+    "explanation": "La ecuación balanceada es $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Balancea la siguiente ecuación y selecciona la secuencia completa de coeficientes: $C_2H_6 + O_2 \\rightarrow CO_2 + H_2O$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 2, 3", "correct": false },
+      { "text": "2, 7, 4, 6", "correct": true },
+      { "text": "2, 5, 4, 6", "correct": false },
+      { "text": "1, 7, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La combustión de un alcano con número par de carbonos suele requerir multiplicar toda la ecuación por 2.",
+    "explanation": "La ecuación balanceada es $2C_2H_6 + 7O_2 \\rightarrow 4CO_2 + 6H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Al balancear la ecuación de combustión $C_3H_8 + O_2 \\rightarrow CO_2 + H_2O$, ¿cuál es el coeficiente del agua ($H_2O$)?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": true },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Hay ocho hidrógenos en el propano.",
+    "explanation": "La ecuación balanceada es $C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "Al balancear la ecuación de combustión $C_4H_{10} + O_2 \\rightarrow CO_2 + H_2O$, ¿cuál es el coeficiente del oxígeno ($O_2$)?",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "13", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por dos el butano para evitar fracciones en el oxígeno diatómico.",
+    "explanation": "La ecuación balanceada es $2C_4H_{10} + 13O_2 \\rightarrow 8CO_2 + 10H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "Balancea la siguiente ecuación de combustión y selecciona la secuencia completa de coeficientes: $C_2H_5OH + O_2 \\rightarrow CO_2 + H_2O$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 2, 3", "correct": true },
+      { "text": "1, 2, 2, 3", "correct": false },
+      { "text": "1, 3, 2, 2", "correct": false },
+      { "text": "2, 6, 4, 6", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Hay un átomo de oxígeno en la molécula de etanol. Tenlo en cuenta al sumar los oxígenos de los productos.",
+    "explanation": "La ecuación balanceada es $C_2H_5OH + 3O_2 \\rightarrow 2CO_2 + 3H_2O$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
