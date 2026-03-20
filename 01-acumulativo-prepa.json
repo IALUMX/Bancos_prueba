@@ -2914,5 +2914,437 @@
     "explanation": "Al tener un átomo de Hidrógeno y uno de Cloro, la masa molar del compuesto es la suma simple: $1 + 35.5 = 36.5 \\text{ g/mol}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00EW",
+    "question": "¿Cuáles son los coeficientes estequiométricos correctos para balancear la siguiente ecuación química? $H_2(g) + O_2(g) \\rightarrow H_2O(l)$",
+    "image": null,
+    "options": [
+      { "text": "2, 1, 2", "correct": true },
+      { "text": "1, 1, 1", "correct": false },
+      { "text": "2, 2, 2", "correct": false },
+      { "text": "1, 2, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe haber la misma cantidad de átomos de hidrógeno y oxígeno en ambos lados de la ecuación.",
+    "explanation": "Al colocar un coeficiente 2 en el $H_2$ y un 2 en el $H_2O$, obtenemos 4 átomos de H y 2 de O en reactivos y productos, cumpliendo la ley de conservación de la masa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EX",
+    "question": "En una ecuación química, ¿qué estado de agregación representa el símbolo $(ac)$ o $(aq)$ junto a un compuesto?",
+    "image": null,
+    "options": [
+      { "text": "Solución acuosa", "correct": true },
+      { "text": "Estado ácido", "correct": false },
+      { "text": "Sólido cristalino", "correct": false },
+      { "text": "Gas en ebullición", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término proviene de la palabra 'agua'.",
+    "explanation": "El símbolo $(ac)$ o $(aq)$ indica que la sustancia se encuentra disuelta en agua, formando una solución acuosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EY",
+    "question": "Un estudiante del CEPREDIX lleva a cabo la reacción de síntesis del óxido de aluminio: $Al(s) + O_2(g) \\rightarrow Al_2O_3(s)$. Para cumplir con la ley de conservación de la masa, los coeficientes estequiométricos de izquierda a derecha deben ser ______, ______ y ______ respectivamente.",
+    "image": null,
+    "options": [
+      { "text": "4, 3, 2", "correct": true },
+      { "text": "2, 3, 1", "correct": false },
+      { "text": "1, 1, 1", "correct": false },
+      { "text": "3, 2, 2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El oxígeno en los productos tiene subíndice 3 y en reactivos 2. Busca el mínimo común múltiplo (6) para el oxígeno.",
+    "explanation": "Para igualar los oxígenos, colocamos un 3 en $O_2$ y un 2 en $Al_2O_3$. Esto nos da 4 aluminios en los productos, por lo que colocamos un 4 en el $Al$ de los reactivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00EZ",
+    "question": "Relaciona el símbolo de estado físico con su significado en una ecuación química: A) $(s)$, B) $(g)$, C) $(l)$; I) Sustancia pura en estado líquido, II) Sustancia en estado sólido, III) Sustancia en estado gaseoso.",
+    "image": null,
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las letras provienen de las iniciales de los estados de la materia en español o inglés.",
+    "explanation": "El símbolo $(s)$ representa sólido, $(g)$ representa gas y $(l)$ representa líquido puro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FA",
+    "question": "Selecciona las ecuaciones químicas que se encuentran correctamente balanceadas: 1. $C(s) + O_2(g) \\rightarrow CO_2(g)$, 2. $H_2(g) + Cl_2(g) \\rightarrow HCl(g)$, 3. $N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g)$, 4. $Na(s) + H_2O(l) \\rightarrow NaOH(ac) + H_2(g)$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 4", "correct": false },
+      { "text": "2 y 3", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuenta los átomos de cada elemento en ambos lados de cada ecuación para verificar si son iguales.",
+    "explanation": "La ecuación 1 tiene 1 C y 2 O en ambos lados. La ecuación 3 tiene 2 N y 6 H en ambos lados. Las ecuaciones 2 y 4 no tienen la misma cantidad de átomos en reactivos y productos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FB",
+    "question": "En la reacción de descomposición térmica del carbonato de calcio: $CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)$, ¿cuál es el estado de agregación del dióxido de carbono producido?",
+    "image": null,
+    "options": [
+      { "text": "Gaseoso", "correct": true },
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Acuoso", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa la letra entre paréntesis que acompaña al compuesto $CO_2$.",
+    "explanation": "El símbolo $(g)$ indica que el dióxido de carbono se produce y se libera en estado gaseoso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FC",
+    "question": "¿Cuáles son los coeficientes que balancean correctamente la combustión del metano? $CH_4(g) + O_2(g) \\rightarrow CO_2(g) + H_2O(g)$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 1, 2", "correct": true },
+      { "text": "2, 1, 2, 1", "correct": false },
+      { "text": "1, 1, 1, 1", "correct": false },
+      { "text": "1, 2, 2, 1", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Balancea primero el carbono, luego el hidrógeno y deja el oxígeno para el final.",
+    "explanation": "Con los coeficientes 1, 2, 1, 2 tenemos: 1 C, 4 H y 4 O en ambos lados de la ecuación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FD",
+    "question": "Cuando se observa efervescencia durante una reacción química, indica la formación de un producto en estado ______, el cual se representa con el símbolo ______ en la ecuación química.",
+    "image": null,
+    "options": [
+      { "text": "Gaseoso, $(g)$", "correct": true },
+      { "text": "Sólido, $(s)$", "correct": false },
+      { "text": "Líquido, $(l)$", "correct": false },
+      { "text": "Acuoso, $(ac)$", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las burbujas (efervescencia) son bolsas de aire o gas atrapadas en un líquido.",
+    "explanation": "La efervescencia es la liberación de un gas en una solución líquida, y el estado gaseoso se denota con $(g)$ o una flecha hacia arriba ($\\uparrow$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FE",
+    "question": "Relaciona la ecuación química con la suma total de sus coeficientes estequiométricos (ya balanceada con los números enteros más pequeños): A) $H_2 + Cl_2 \\rightarrow HCl$, B) $N_2 + H_2 \\rightarrow NH_3$; I) Suma = 6, II) Suma = 4.",
+    "image": null,
+    "options": [
+      { "text": "A-II; B-I", "correct": true },
+      { "text": "A-I; B-II", "correct": false },
+      { "text": "A-I; B-I", "correct": false },
+      { "text": "A-II; B-II", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Balancea cada ecuación primero. Recuerda que el coeficiente 1 cuenta para la suma total.",
+    "explanation": "A balanceada es $1H_2 + 1Cl_2 \\rightarrow 2HCl$ (suma: 1+1+2=4). B balanceada es $1N_2 + 3H_2 \\rightarrow 2NH_3$ (suma: 1+3+2=6).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FF",
+    "question": "Identifica los símbolos que se utilizan para especificar el estado de agregación de las sustancias en una ecuación química: 1. $(s)$, 2. $\\Delta$, 3. $(ac)$, 4. $\\rightarrow$, 5. $(l)$",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los estados de agregación describen si la sustancia es sólida, líquida, gaseosa o está en solución.",
+    "explanation": "Los símbolos $(s)$ sólido, $(ac)$ acuoso y $(l)$ líquido indican el estado físico. $\\Delta$ indica calor y $\\rightarrow$ indica la dirección de la reacción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FG",
+    "question": "¿Cuáles son los coeficientes correctos para la reacción de hierro con ácido clorhídrico? $Fe(s) + HCl(ac) \\rightarrow FeCl_3(ac) + H_2(g)$",
+    "image": null,
+    "options": [
+      { "text": "2, 6, 2, 3", "correct": true },
+      { "text": "1, 3, 1, 1", "correct": false },
+      { "text": "2, 3, 2, 1", "correct": false },
+      { "text": "1, 6, 1, 3", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El cloro en los productos tiene subíndice 3 y el hidrógeno 2. Necesitas un múltiplo común (6) para el $HCl$.",
+    "explanation": "Colocando un 6 en $HCl$, necesitamos un 3 en $H_2$ para tener 6 hidrógenos y un 2 en $FeCl_3$ para tener 6 cloros. Finalmente, colocamos un 2 en $Fe$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FH",
+    "question": "En un experimento del CEPREDIX, se mezclan nitrato de plata y cloruro de sodio formando un precipitado blanco de cloruro de plata. La ecuación es $AgNO_3(ac) + NaCl(ac) \\rightarrow AgCl(x) + NaNO_3(ac)$. ¿Qué símbolo debe ir en lugar de la 'x' para representar el estado del precipitado?",
+    "image": null,
+    "options": [
+      { "text": "s", "correct": true },
+      { "text": "l", "correct": false },
+      { "text": "g", "correct": false },
+      { "text": "ac", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un precipitado es una sustancia insoluble que se forma en una solución.",
+    "explanation": "Los precipitados son compuestos sólidos insolubles que se separan de la solución acuosa, por lo que su estado de agregación se indica con $(s)$ o con una flecha hacia abajo ($\\downarrow$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FI",
+    "question": "La ley de conservación de la masa establece que la materia no se crea ni se destruye, solo se transforma. Para cumplir con esta ley al escribir reacciones químicas, es fundamental ______ las ecuaciones utilizando coeficientes ______.",
+    "image": null,
+    "options": [
+      { "text": "Balancear, estequiométricos", "correct": true },
+      { "text": "Sustituir, subíndices", "correct": false },
+      { "text": "Neutralizar, molares", "correct": false },
+      { "text": "Oxidar, elementales", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Modificar los números grandes a la izquierda de las fórmulas es el procedimiento correcto, no alterar las fórmulas químicas.",
+    "explanation": "El proceso de igualar el número de átomos en reactivos y productos se llama balanceo y se realiza colocando coeficientes estequiométricos frente a las fórmulas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FJ",
+    "question": "Relaciona el símbolo auxiliar en una ecuación química con su significado: A) $\\uparrow$, B) $\\downarrow$, C) $\\Delta$; I) Formación de un precipitado, II) Suministro de calor al sistema, III) Desprendimiento de un gas.",
+    "image": null,
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La flecha hacia arriba sugiere que algo sube y escapa, mientras que la flecha hacia abajo sugiere que algo cae por gravedad.",
+    "explanation": "La flecha hacia arriba ($\\uparrow$) indica gas que escapa; la flecha hacia abajo ($\\downarrow$) indica un sólido que precipita; el triángulo ($\\Delta$) sobre la flecha de reacción indica calentamiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FK",
+    "question": "Selecciona las ecuaciones químicas que REQUIEREN ser balanceadas (es decir, que actualmente NO cumplen la ley de conservación de la masa): 1. $H_2 + O_2 \\rightarrow H_2O$, 2. $NaOH + HCl \\rightarrow NaCl + H_2O$, 3. $KClO_3 \\rightarrow KCl + O_2$, 4. $C + O_2 \\rightarrow CO_2$",
+    "image": null,
+    "options": [
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 2", "correct": false },
+      { "text": "3 y 4", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica las ecuaciones donde el número de átomos de algún elemento es distinto a la izquierda y a la derecha.",
+    "explanation": "La ecuación 1 tiene 2 oxígenos en reactivos y 1 en productos. La ecuación 3 tiene 3 oxígenos en reactivos y 2 en productos. Las ecuaciones 2 y 4 ya están balanceadas de forma natural (relación 1:1).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FL",
+    "question": "¿Qué indica el símbolo $\\downarrow$ cuando se coloca al lado de un producto en una ecuación química?",
+    "image": null,
+    "options": [
+      { "text": "Que la sustancia es un sólido que precipita", "correct": true },
+      { "text": "Que la sustancia es un gas que desciende", "correct": false },
+      { "text": "Que la reacción disminuye su temperatura", "correct": false },
+      { "text": "Que la presión del sistema disminuye", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Este símbolo es equivalente a utilizar el estado $(s)$ en reacciones de doble sustitución en medio acuoso.",
+    "explanation": "La flecha hacia abajo señala la formación de un precipitado, es decir, un sólido insoluble que se deposita en el fondo del recipiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FM",
+    "question": "¿Cuáles son los coeficientes estequiométricos para balancear la combustión del propano? $C_3H_8(g) + O_2(g) \\rightarrow CO_2(g) + H_2O(g)$",
+    "image": null,
+    "options": [
+      { "text": "1, 5, 3, 4", "correct": true },
+      { "text": "2, 10, 6, 8", "correct": false },
+      { "text": "1, 3, 3, 4", "correct": false },
+      { "text": "1, 4, 3, 2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Empieza balanceando el carbono (3), luego el hidrógeno (8), y suma los oxígenos resultantes en los productos para balancear el $O_2$.",
+    "explanation": "Con un 3 en $CO_2$ y un 4 en $H_2O$ obtenemos 3 C y 8 H. Esto nos da un total de $3(2) + 4(1) = 10$ átomos de oxígeno en los productos, por lo que necesitamos un 5 en el $O_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FN",
+    "question": "En el contexto del balanceo y formulación, el estado físico indicado como $(l)$ se reserva exclusivamente para sustancias puras que son ______, mientras que el símbolo $(ac)$ se utiliza cuando una sustancia se encuentra en ______.",
+    "image": null,
+    "options": [
+      { "text": "Líquidos, solución acuosa", "correct": true },
+      { "text": "Solventes, precipitación", "correct": false },
+      { "text": "Gases licuados, suspensión", "correct": false },
+      { "text": "Metales fundidos, estado cristalino", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El agua pura se representa como $H_2O(l)$, pero la sal disuelta en agua es $NaCl(ac)$.",
+    "explanation": "El símbolo $(l)$ es para líquidos puros (como mercurio o agua), mientras que $(ac)$ indica que la sustancia química está disuelta en agua formando una mezcla homogénea.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FO",
+    "question": "En un examen del CEPREDIX, debes relacionar la reacción química con los coeficientes correctos que la balancean: A) $SO_2 + O_2 \\rightarrow SO_3$, B) $H_2O_2 \\rightarrow H_2O + O_2$; I) 2, 1, 2; II) 2, 2, 1.",
+    "image": null,
+    "options": [
+      { "text": "A-I; B-II", "correct": true },
+      { "text": "A-II; B-I", "correct": false },
+      { "text": "A-I; B-I", "correct": false },
+      { "text": "A-II; B-II", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Prueba los coeficientes en cada ecuación y cuenta los átomos de oxígeno.",
+    "explanation": "Para A: $2SO_2 + 1O_2 \\rightarrow 2SO_3$ da 2 S y 6 O de ambos lados. Para B: $2H_2O_2 \\rightarrow 2H_2O + 1O_2$ da 4 H y 4 O de ambos lados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FP",
+    "question": "Selecciona de la lista qué características nos indican que en una reacción química se ha producido la formación de un gas: 1. Aparición del símbolo $(s)$, 2. Efervescencia en la mezcla reactiva, 3. Aparición del símbolo $(ac)$, 4. Un producto marcado con $\\uparrow$, 5. Reducción drástica del volumen del líquido.",
+    "image": null,
+    "options": [
+      { "text": "2, 4", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "3, 5", "correct": false },
+      { "text": "2, 5", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en cómo se representa un gas en notación química y qué fenómeno físico se observa al formarse un gas en un líquido.",
+    "explanation": "La formación de un gas se observa físicamente como efervescencia (burbujeo) y se denota formalmente en la ecuación con una flecha hacia arriba o el estado $(g)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FQ",
+    "question": "¿Cuáles son los coeficientes correctos para balancear la formación del óxido de fósforo? $P_4(s) + O_2(g) \\rightarrow P_2O_5(s)$",
+    "image": null,
+    "options": [
+      { "text": "1, 5, 2", "correct": true },
+      { "text": "1, 2, 1", "correct": false },
+      { "text": "2, 5, 4", "correct": false },
+      { "text": "4, 10, 2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Comienza balanceando el fósforo, colocando un 2 en el producto para igualar los 4 átomos del reactivo.",
+    "explanation": "Al poner un coeficiente 2 en $P_2O_5$, tenemos 4 átomos de P (que iguala al $P_4$) y 10 átomos de O. Para tener 10 átomos de O en reactivos, colocamos un 5 en el $O_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FR",
+    "question": "En la electrólisis del agua, la ecuación es $2H_2O(l) \\rightarrow 2H_2(g) + O_2(g)$. ¿Cuál es el estado de agregación del reactivo?",
+    "image": null,
+    "options": [
+      { "text": "Líquido", "correct": true },
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Acuoso", "correct": false },
+      { "text": "Sólido", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El agua como sustancia pura a temperatura ambiente tiene un símbolo específico en la reacción.",
+    "explanation": "El símbolo $(l)$ junto al reactivo $H_2O$ indica que el agua se encuentra en estado líquido puro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FS",
+    "question": "El método de balanceo de ecuaciones químicas más sencillo, que consiste en probar coeficientes al azar o de forma sistemática hasta igualar la cantidad de átomos en reactivos y productos, se conoce como balanceo por ______.",
+    "image": null,
+    "options": [
+      { "text": "Tanteo", "correct": true },
+      { "text": "Redox", "correct": false },
+      { "text": "Ion-electrón", "correct": false },
+      { "text": "Sustitución", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra hace referencia a probar o estimar de manera repetida.",
+    "explanation": "El balanceo por tanteo o inspección es el método básico para igualar ecuaciones químicas sencillas, ajustando los coeficientes de manera directa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FT",
+    "question": "En una práctica de laboratorio del CEPREDIX, se pide balancear el proceso de Haber para la síntesis de amoniaco: $N_2(g) + H_2(g) \\rightarrow NH_3(g)$. ¿Cuáles son los coeficientes correctos?",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 2", "correct": true },
+      { "text": "2, 3, 2", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 1, 2", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto tiene un número impar de hidrógenos. Multiplica el $NH_3$ por 2 para hacerlo par y luego ajusta el resto.",
+    "explanation": "Colocando un 2 frente al $NH_3$ se obtienen 2 átomos de N (balanceado con $N_2$) y 6 átomos de H. Para obtener 6 átomos de H en reactivos, se coloca un 3 frente al $H_2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
