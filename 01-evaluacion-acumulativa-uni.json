@@ -6556,5 +6556,365 @@
     "explanation": "Las estaciones (primavera), los meses y los cargos (rey) se escriben en minúscula. Los accidentes geográficos como 'cordillera' van en minúscula, pero el nombre propio 'Andes' en mayúscula. Los títulos de obras solo llevan mayúscula en la inicial ('Cien años de soledad').",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00NU",
+    "question": "Dada la función $f(x) = \\frac{1}{x^4}$, un estudiante del CEPREDIX debe reescribirla usando un exponente negativo para facilitar su derivación. ¿Cuál es la derivada $f'(x)$ expresada con exponente positivo?",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{4}{x^5}$", "correct": true },
+      { "text": "$-4x^5$", "correct": false },
+      { "text": "$\\frac{1}{4x^3}$", "correct": false },
+      { "text": "$-\\frac{4}{x^3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la ley del exponente negativo $x^{-n} = \\frac{1}{x^n}$ y luego aplica la regla $\\frac{d}{dx}x^n = nx^{n-1}$.",
+    "explanation": "Reescribimos como $f(x) = x^{-4}$. Derivando: $f'(x) = -4x^{-4-1} = -4x^{-5}$. Al pasar a exponente positivo resulta $-\\frac{4}{x^5}$.",
+    "explanative_video": null,
+    "collapsible_text": "Para derivar funciones con la variable en el denominador, es una práctica estándar en el CEPREDIX transformarlas a potencias con exponente negativo. Esto permite aplicar la regla de la potencia de forma directa. Al finalizar, se suele revertir la notación para evitar exponentes negativos en el resultado técnico."
+  },
+  {
+    "id": "CEP00NV",
+    "question": "Al expresar la función $f(x) = \\sqrt{x}$ en su forma de potencia para aplicar la regla de derivación, ¿cuál es el resultado de su derivada $f'(x)$ en formato de radical?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$\\frac{2}{\\sqrt{x}}$", "correct": false },
+      { "text": "$2\\sqrt{x}$", "correct": false },
+      { "text": "$\\frac{1}{\\sqrt{x}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $\\sqrt{x} = x^{1/2}$. Para derivar, usa la forma $n = \\frac{1}{2}$ en la regla de la potencia.",
+    "explanation": "La derivada de $x^{1/2}$ es $\\frac{1}{2}x^{-1/2}$. Esto equivale a $\\frac{1}{2x^{1/2}}$, que en radicales es $\\frac{1}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00NW",
+    "question": "Identifica la derivada de la función $f(x) = \\sqrt[3]{x^5}$ tras convertir el radical a una potencia de exponente fraccionario.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{3}\\sqrt[3]{x^2}$", "correct": true },
+      { "text": "$\\frac{3}{5}\\sqrt[3]{x^2}$", "correct": false },
+      { "text": "$\\frac{5}{3}\\sqrt[2]{x^3}$", "correct": false },
+      { "text": "$\\frac{5}{3}x^{2/3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ley de radicales indica que $\\sqrt[m]{x^n} = x^{n/m}$. Aquí $n=5$ y $m=3$.",
+    "explanation": "$f(x) = x^{5/3}$. Derivando: $f'(x) = \\frac{5}{3}x^{5/3 - 1} = \\frac{5}{3}x^{2/3}$, que equivale a $\\frac{5}{3}\\sqrt[3]{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00NX",
+    "question": "Selecciona las opciones que representan correctamente el proceso de simplificación y derivación de $f(x) = x^2 \\cdot x^{-6}$: 1. La función simplificada es $x^{-4}$. 2. La función simplificada es $x^{-12}$. 3. La derivada es $-4x^{-5}$. 4. La derivada es $-12x^{-13}$. 5. La derivada expresada con exponente positivo es $-\\frac{4}{x^5}$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero suma los exponentes de la misma base: $2 + (-6)$.",
+    "explanation": "Al multiplicar bases iguales los exponentes se suman: $2 - 6 = -4$. La derivada de $x^{-4}$ es $-4x^{-5}$, o bien $-\\frac{4}{x^5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00NY",
+    "question": "Rellena los espacios con los conceptos correctos: Al simplificar la función $f(x) = \\frac{x^3}{x^8}$ obtenemos una potencia con exponente ______, cuya derivada final expresada sin exponentes negativos es ______.",
+    "image": null,
+    "options": [
+      { "text": "-5, $-\\frac{5}{x^6}$", "correct": true },
+      { "text": "5, $5x^4$", "correct": false },
+      { "text": "-5, $\\frac{5}{x^4}$", "correct": false },
+      { "text": "11, $11x^{10}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En la división de bases iguales, los exponentes se restan: $3 - 8$.",
+    "explanation": "$f(x) = x^{3-8} = x^{-5}$. Su derivada es $f'(x) = -5x^{-6}$, lo que equivale a $-\\frac{5}{x^6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00NZ",
+    "question": "Relaciona correctamente la función original con su derivada tras reescribirla como potencia: I. $f(x) = \\frac{1}{\\sqrt[4]{x}}$. II. $f(x) = (x^3)^4$. A. $f'(x) = 12x^{11}$. B. $f'(x) = -\\frac{1}{4\\sqrt[4]{x^5}}$.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-B, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para I, usa $x^{-1/4}$. Para II, multiplica los exponentes $3 \\cdot 4$.",
+    "explanation": "La derivada de $x^{-1/4}$ es $-\\frac{1}{4}x^{-5/4}$. La derivada de $x^{12}$ es $12x^{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OA",
+    "question": "Si un estudiante desea calcular la derivada de $f(x) = x^{7/2}$, ¿cuál sería la expresión de dicha derivada utilizando exclusivamente la notación de radicales?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{2}\\sqrt{x^5}$", "correct": true },
+      { "text": "$\\frac{7}{2}\\sqrt{x^7}$", "correct": false },
+      { "text": "$\\frac{2}{7}\\sqrt{x^5}$", "correct": false },
+      { "text": "$\\frac{7}{2}\\sqrt[5]{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de la potencia: $n \\cdot x^{n-1}$ con $n = 7/2$.",
+    "explanation": "$f'(x) = \\frac{7}{2}x^{7/2 - 1} = \\frac{7}{2}x^{5/2}$. El exponente $5/2$ se traduce como raíz cuadrada de $x^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OB",
+    "question": "Dada la función $f(x) = \\sqrt{10}$, ¿cuál es el valor de su derivada $f'(x)$ y bajo qué regla se justifica?",
+    "image": null,
+    "options": [
+      { "text": "$0$, Regla de la constante", "correct": true },
+      { "text": "$\\frac{1}{2\\sqrt{10}}$, Regla de la potencia", "correct": false },
+      { "text": "$10$, Regla de la identidad", "correct": false },
+      { "text": "$1$, Regla lineal", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si la función contiene la variable $x$ o si es un valor numérico fijo.",
+    "explanation": "Aunque $\\sqrt{10}$ incluya un radical, no depende de $x$, por lo tanto es una constante. La derivada de cualquier constante es $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OC",
+    "question": "Al simplificar la función $f(x) = (x^3)^4$ antes de derivar, obtenemos la expresión $x^{12}$. ¿Cuál es su derivada resultante?",
+    "image": null,
+    "options": [
+      { "text": "$12x^{11}$", "correct": true },
+      { "text": "$7x^6$", "correct": false },
+      { "text": "$x^{11}$", "correct": false },
+      { "text": "$3x^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la ley de derivación de $x^n$.",
+    "explanation": "La derivada de $x^n$ es $nx^{n-1}$, por lo que queda $12x^{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OD",
+    "question": "Calcula la derivada de la función $f(x) = \\frac{1}{\\sqrt{x}}$ y entrega el resultado final con un radical en el denominador.",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{1}{2\\sqrt{x^3}}$", "correct": true },
+      { "text": "$\\frac{1}{2\\sqrt{x}}$", "correct": false },
+      { "text": "$-\\frac{1}{\\sqrt{x^3}}$", "correct": false },
+      { "text": "$-\\frac{2}{\\sqrt{x^3}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reescribe como $x^{-1/2}$ y aplica la regla de la potencia.",
+    "explanation": "Derivando $x^{-1/2}$: $f'(x) = -\\frac{1}{2}x^{-3/2}$. Al pasar al denominador: $-\\frac{1}{2x^{3/2}} = -\\frac{1}{2\\sqrt{x^3}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OE",
+    "question": "Un estudiante del CEPREDIX analiza la función $f(x) = \\sqrt[5]{x}$. Al derivarla siguiendo la regla de la potencia, ¿cuál es la expresión correcta del resultado?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{5\\sqrt[5]{x^4}}$", "correct": true },
+      { "text": "$\\frac{1}{5\\sqrt[4]{x^5}}$", "correct": false },
+      { "text": "$5\\sqrt[5]{x^4}$", "correct": false },
+      { "text": "$\\frac{1}{\\sqrt[5]{x^4}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte a $x^{1/5}$ y resta 1 al exponente: $1/5 - 1 = -4/5$.",
+    "explanation": "$f'(x) = \\frac{1}{5}x^{-4/5}$. Pasando a positivo y radical: $\\frac{1}{5x^{4/5}} = \\frac{1}{5\\sqrt[5]{x^4}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OF",
+    "question": "Considerando que $x \\neq 0$, la función $f(x) = x^0$ se simplifica a la constante 1. ¿Cuál es su derivada de acuerdo con las reglas de derivación?",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La derivada de cualquier constante es siempre igual a cero.",
+    "explanation": "$x^0 = 1$. La derivada de una constante (como el 1) es siempre cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OG",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[6]{x^7}$ expresada en forma de radical simple?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{6}\\sqrt[6]{x}$", "correct": true },
+      { "text": "$\\frac{6}{7}\\sqrt[6]{x}$", "correct": false },
+      { "text": "$\\frac{7}{6}\\sqrt[7]{x^6}$", "correct": false },
+      { "text": "$\\frac{7}{6}x^{1/6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma a exponente fraccionario $x^{7/6}$ y aplica $n \\cdot x^{n-1}$.",
+    "explanation": "$f'(x) = \\frac{7}{6}x^{7/6 - 1} = \\frac{7}{6}x^{1/6}$. En radicales esto es $\\frac{7}{6}\\sqrt[6]{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OH",
+    "question": "Para la función $f(x) = \\frac{x^4}{\\sqrt{x}}$, identifica el exponente resultante tras simplificar la división y su derivada final en notación de radical.",
+    "image": null,
+    "options": [
+      { "text": "$7/2$, $\\frac{7}{2}\\sqrt{x^5}$", "correct": true },
+      { "text": "$3/2$, $\\frac{3}{2}\\sqrt{x}$", "correct": false },
+      { "text": "$4.5$, $4.5x^{3.5}$", "correct": false },
+      { "text": "$7/2$, $\\frac{2}{7}\\sqrt{x^5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta los exponentes: $4 - 1/2$.",
+    "explanation": "$f(x) = x^4 / x^{1/2} = x^{4 - 0.5} = x^{7/2}$. Derivando: $\\frac{7}{2}x^{5/2} = \\frac{7}{2}\\sqrt{x^5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OI",
+    "question": "Identifica qué funciones de la siguiente lista requieren el uso de la ley de exponentes negativos para ser expresadas como $x^n$ antes de aplicar la regla de la potencia: 1. $f(x) = \\frac{1}{x^3}$. 2. $f(x) = \\sqrt{x}$. 3. $f(x) = \\frac{5}{x^2}$. 4. $f(x) = x^4$. 5. $f(x) = \\frac{1}{\\sqrt{x}}$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca las expresiones que tienen la variable independiente $x$ en el denominador.",
+    "explanation": "Las funciones 1, 3 y 5 tienen la variable en el denominador, por lo que deben expresarse como $x^{-3}$, $5x^{-2}$ y $x^{-1/2}$ respectivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OJ",
+    "question": "Completa el enunciado: La función $f(x) = x \\cdot \\sqrt[3]{x}$ es equivalente a $x$ elevada a la ______ y su derivada en radicales es ______.",
+    "image": null,
+    "options": [
+      { "text": "$4/3$, $\\frac{4}{3}\\sqrt[3]{x}$", "correct": true },
+      { "text": "$1/3$, $\\frac{1}{3\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$4/3$, $\\frac{3}{4}\\sqrt[3]{x}$", "correct": false },
+      { "text": "$2/3$, $\\frac{2}{3\\sqrt[3]{x}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los exponentes: $1 + 1/3$.",
+    "explanation": "$1 + 1/3 = 4/3$. La derivada de $x^{4/3}$ es $\\frac{4}{3}x^{1/3}$, que es $\\frac{4}{3}\\sqrt[3]{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OK",
+    "question": "En un reto matemático, se pide simplificar $f(x) = \\sqrt{\\sqrt{x}}$ a una sola potencia de $x$ antes de derivar. ¿Cuál es el valor de dicha derivada?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4\\sqrt[4]{x^3}}$", "correct": true },
+      { "text": "$\\frac{1}{4\\sqrt{x}}$", "correct": false },
+      { "text": "$\\frac{1}{2\\sqrt[4]{x^3}}$", "correct": false },
+      { "text": "$\\frac{1}{4}x^{3/4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La raíz de una raíz multiplica los índices: $\\sqrt[2]{\\sqrt[2]{x}} = \\sqrt[4]{x}$.",
+    "explanation": "$f(x) = x^{1/4}$. Derivando: $f'(x) = \\frac{1}{4}x^{-3/4}$. Esto es $\\frac{1}{4x^{3/4}} = \\frac{1}{4\\sqrt[4]{x^3}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OL",
+    "question": "Relaciona la operación con su derivada final: I. $f(x) = \\frac{1}{x^{-5}}$. II. $f(x) = x^0$. A. $f'(x) = 0$. B. $f'(x) = 5x^4$.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-B, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve el exponente negativo al numerador para I.",
+    "explanation": "I se convierte en $x^5$, su derivada es $5x^4$. II es una constante ($1$), su derivada es $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OM",
+    "question": "Al derivar la función $f(x) = \\frac{1}{\\sqrt[7]{x^2}}$, un estudiante del CEPREDIX debe obtener el resultado y devolverlo a notación de radical en el denominador. ¿Cuál es la opción correcta?",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{2}{7\\sqrt[7]{x^9}}$", "correct": true },
+      { "text": "$-\\frac{2}{7\\sqrt[7]{x^5}}$", "correct": false },
+      { "text": "$\\frac{2}{7\\sqrt[7]{x^9}}$", "correct": false },
+      { "text": "$-\\frac{7}{2\\sqrt[7]{x^9}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Reescribe como $x^{-2/7}$ y recuerda que $-2/7 - 1 = -9/7$.",
+    "explanation": "La derivada es $-\\frac{2}{7}x^{-9/7}$, lo cual se traduce como $-\\frac{2}{7x^{9/7}} = -\\frac{2}{7\\sqrt[7]{x^9}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ON",
+    "question": "Reto integrador CEPREDIX: Simplifica la expresión $f(x) = \\frac{x^2 \\cdot x^{-1/2}}{\\sqrt[3]{x}}$ a un solo término $x^n$ y halla su derivada.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{6}\\sqrt[6]{x}$", "correct": true },
+      { "text": "$\\frac{6}{7}\\sqrt[6]{x}$", "correct": false },
+      { "text": "$\\frac{7}{6}\\sqrt[6]{x^7}$", "correct": false },
+      { "text": "$\\frac{7}{6}x^{1/6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma y resta exponentes: $(2 - 0.5) - 1/3$.",
+    "explanation": "Numerador: $x^{3/2}$. Al dividir entre $x^{1/3}$: $x^{3/2 - 1/3} = x^{7/6}$. La derivada de $x^{7/6}$ es $\\frac{7}{6}x^{1/6} = \\frac{7}{6}\\sqrt[6]{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
