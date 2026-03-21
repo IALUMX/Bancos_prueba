@@ -9624,5 +9624,545 @@
     "explanation": "Expresión simplificada: $x^{1/3 + 1/4} = x^{4/12 + 3/12} = x^{7/12}$. Derivada: $\\frac{7}{12}x^{7/12 - 1} = \\frac{7}{12}x^{-5/12}$. Integral: $\\frac{x^{7/12 + 1}}{7/12 + 1} = \\frac{x^{19/12}}{19/12} + C = \\frac{12}{19}x^{19/12} + C$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00UE",
+    "question": "¿Cómo define el texto el concepto de epigenética?",
+    "image": null,
+    "options": [
+      { "text": "Alteraciones permanentes en la secuencia de nucleótidos del ADN causadas por el entorno.", "correct": false },
+      { "text": "Modificaciones heredables en la función de los genes que no alteran la secuencia del ADN.", "correct": true },
+      { "text": "Proceso de mutación genética inducido exclusivamente por la dieta hipercalórica.", "correct": false },
+      { "text": "Estudio de las enfermedades genéticas transmitidas por herencia mendeliana clásica.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la epigenética se refiere a cambios 'por encima' del genoma, sin alterar su secuencia.",
+    "explanation": "La epigenética se refiere a cambios fenotípicos que no implican una alteración en el genotipo subyacente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UF",
+    "question": "¿Qué es la metilación del ADN en el contexto de la regulación génica?",
+    "image": null,
+    "options": [
+      { "text": "Un mecanismo que añade grupos metilo al ADN, generalmente silenciando la expresión del gen.", "correct": true },
+      { "text": "La ruptura de las hebras de ADN para permitir la entrada de nutrientes a la célula.", "correct": false },
+      { "text": "Un proceso de duplicación del genoma que ocurre durante la mitosis celular.", "correct": false },
+      { "text": "La unión de carbohidratos a las proteínas de la membrana nuclear.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La metilación es una marca química que generalmente reprime o silencia la actividad de un gen.",
+    "explanation": "La metilación en regiones promotoras suele impedir la unión de factores de transcripción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UG",
+    "question": "¿Qué representa la 'transición nutricional' mencionada en el estudio?",
+    "image": null,
+    "options": [
+      { "text": "El paso de una dieta basada en vegetales a una dieta exclusivamente carnívora.", "correct": false },
+      { "text": "El cambio rápido de contextos de desnutrición a entornos de sobrenutrición.", "correct": true },
+      { "text": "La evolución de la digestión humana desde la prehistoria hasta la actualidad.", "correct": false },
+      { "text": "El proceso de absorción de micronutrientes en el intestino delgado.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se relaciona con el cambio poblacional de la escasez de alimentos a la abundancia hipercalórica.",
+    "explanation": "Es un fenómeno socioeconómico y biológico clave en países en desarrollo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UH",
+    "question": "¿Qué es la cromatina?",
+    "image": null,
+    "options": [
+      { "text": "Un orgánulo celular encargado de la síntesis de lípidos.", "correct": false },
+      { "text": "Un complejo dinámico compuesto por ADN, histonas y proteínas no histónicas.", "correct": true },
+      { "text": "La secuencia exacta de bases nitrogenadas que forman un gen.", "correct": false },
+      { "text": "Una enzima que degrada el ácido ribonucleico en el citoplasma.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el nivel de organización donde el ADN se asocia con proteínas para empaquetarse en el núcleo.",
+    "explanation": "La estructura de la cromatina determina la accesibilidad de la maquinaria transcripcional al ADN.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UI",
+    "question": "¿A qué se refiere el término 'programación fetal' (DOHaD)?",
+    "image": null,
+    "options": [
+      { "text": "Al control artificial del sexo del bebé durante la gestación.", "correct": false },
+      { "text": "A que estímulos ambientales tempranos determinan la salud y enfermedad en la vida adulta.", "correct": true },
+      { "text": "A la selección natural de los fetos más fuertes en entornos de escasez.", "correct": false },
+      { "text": "A las intervenciones quirúrgicas realizadas dentro del útero materno.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Hace referencia a cómo las condiciones durante el embarazo preparan el metabolismo futuro del bebé.",
+    "explanation": "Postula que el ambiente intrauterino 'programa' el metabolismo futuro del individuo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UJ",
+    "question": "¿Qué función cumplen los 'realceosomas' (enhanceosomes)?",
+    "image": null,
+    "options": [
+      { "text": "Son orgánulos que almacenan grasa en el tejido adiposo pardo.", "correct": false },
+      { "text": "Son complejos que dinamizan la transcripción al definir la activación o silenciamiento génico.", "correct": true },
+      { "text": "Son proteínas que transportan glucosa a través de la barrera hematoencefálica.", "correct": false },
+      { "text": "Son fragmentos de ARN que destruyen virus invasores en la célula.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son agrupaciones moleculares que potencian y controlan de forma dinámica la transcripción de genes.",
+    "explanation": "Se forman por la interacción de factores de transcripción y modificadores epigenéticos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UK",
+    "question": "¿Qué son las modificaciones postraduccionales de las histonas?",
+    "image": null,
+    "options": [
+      { "text": "Cambios químicos en las proteínas sobre las que se enrolla el ADN que afectan su compactación.", "correct": true },
+      { "text": "Alteraciones en la secuencia de aminoácidos de la insulina después de ser secretada.", "correct": false },
+      { "text": "El proceso de eliminación de intrones durante el splicing del ARN.", "correct": false },
+      { "text": "La degradación de proteínas viejas por parte del proteasoma.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Involucra cambios químicos en las proteínas empaquetadoras que alteran la accesibilidad al ADN.",
+    "explanation": "La acetilación o metilación de histonas abre o cierra la estructura de la cromatina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UL",
+    "question": "¿Qué es un factor de transcripción?",
+    "image": null,
+    "options": [
+      { "text": "Una molécula de energía como el ATP necesaria para el movimiento celular.", "correct": false },
+      { "text": "Una proteína que regula la expresión génica al unirse a secuencias específicas de ADN.", "correct": true },
+      { "text": "Un lípido que forma parte de la bicapa de la membrana celular.", "correct": false },
+      { "text": "Un mineral esencial que actúa como cofactor en la digestión.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Son proteínas reguladoras esenciales que se unen al ADN para 'encender' o 'apagar' genes.",
+    "explanation": "Actúan como interruptores moleculares para encender o apagar genes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UM",
+    "question": "¿A qué se refiere el estrés del retículo endoplásmico (RE)?",
+    "image": null,
+    "options": [
+      { "text": "A la falta de sueño que afecta el rendimiento cognitivo del individuo.", "correct": false },
+      { "text": "A una disfunción del RE para manejar el plegamiento de proteínas ante desafíos metabólicos.", "correct": true },
+      { "text": "Al aumento de la presión arterial dentro de los vasos del corazón.", "correct": false },
+      { "text": "A la acumulación de ácido láctico en los músculos tras ejercicio intenso.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre cuando la capacidad del organelo para plegar proteínas se ve rebasada por la demanda metabólica.",
+    "explanation": "El estrés del RE es un sensor nutricional que puede activar vías inflamatorias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UN",
+    "question": "¿Qué es la inflamación de bajo grado?",
+    "image": null,
+    "options": [
+      { "text": "Una respuesta inmunitaria aguda y dolorosa tras una infección bacteriana.", "correct": false },
+      { "text": "Un estado sistémico crónico y subclínico asociado a la obesidad y síndrome metabólico.", "correct": true },
+      { "text": "La hinchazón de una extremidad tras un traumatismo físico leve.", "correct": false },
+      { "text": "El proceso de cicatrización normal de una herida quirúrgica.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un estado de alerta inmunológica leve pero constante, característico de la obesidad.",
+    "explanation": "Se caracteriza por la elevación persistente de citocinas proinflamatorias sin síntomas agudos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UO",
+    "question": "Según el Obesity Atlas 2023 citado, ¿cuántas personas se estima que padecerán obesidad para 2035?",
+    "image": null,
+    "options": [
+      { "text": "500 millones.", "correct": false },
+      { "text": "Mil millones.", "correct": false },
+      { "text": "Cerca de dos mil millones.", "correct": true },
+      { "text": "Cinco mil millones.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las proyecciones indican una cifra que duplica los mil millones a nivel global.",
+    "explanation": "El documento resalta el alarmante crecimiento global de esta patología.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UP",
+    "question": "¿Qué hallazgo destaca el documento respecto a la población infantil en México?",
+    "image": null,
+    "options": [
+      { "text": "Tiene las tasas de obesidad más bajas de Latinoamérica.", "correct": false },
+      { "text": "El 35.6% de la población infantil padece obesidad.", "correct": true },
+      { "text": "La obesidad infantil ha desaparecido gracias a las políticas públicas.", "correct": false },
+      { "text": "Solo los niños de estratos altos presentan sobrepeso.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Más de una tercera parte de la población infantil en el país se ve afectada.",
+    "explanation": "Es una estadística clave para ilustrar la gravedad del problema en la región.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UQ",
+    "question": "¿Cuál es la principal diferencia entre Latinoamérica y Europa en cuanto al impacto económico del IMC alto?",
+    "image": null,
+    "options": [
+      { "text": "Europa gasta el doble que Latinoamérica en tratar la obesidad.", "correct": false },
+      { "text": "El impacto en Latinoamérica es de 870 billones vs 526 billones en Europa (valor 2019).", "correct": true },
+      { "text": "Ambos continentes tienen exactamente el mismo gasto sanitario por obesidad.", "correct": false },
+      { "text": "Latinoamérica no tiene datos económicos disponibles sobre el sobrepeso.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La brecha económica es significativa, siendo considerablemente mayor en la región latinoamericana.",
+    "explanation": "La Tabla 1 del documento detalla esta brecha económica significativa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UR",
+    "question": "¿Qué sucede con el transportador Glut-4 en condiciones de restricción nutricional perinatal según Raychaudhuri?",
+    "image": null,
+    "options": [
+      { "text": "Su expresión aumenta para compensar la falta de comida.", "correct": false },
+      { "text": "No sufre ningún cambio ya que es un transportador genético fijo.", "correct": false },
+      { "text": "Se producen modificaciones de histonas que disminuyen directamente su expresión.", "correct": true },
+      { "text": "Se convierte en un transportador de lípidos en lugar de glucosa.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La restricción nutricional induce marcas epigenéticas (en histonas) que reducen la expresión de este transportador.",
+    "explanation": "Esto contribuye a la resistencia a la insulina en la vida adulta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00US",
+    "question": "En el estudio de casos y controles en México con mujeres gestantes, ¿qué gen mostró patrones de metilación diferenciados asociados a la preeclampsia?",
+    "image": null,
+    "options": [
+      { "text": "FTO (gen asociado a masa grasa).", "correct": false },
+      { "text": "NR3C1 (receptor de glucocorticoides).", "correct": true },
+      { "text": "INS (gen de la insulina).", "correct": false },
+      { "text": "ACE2 (receptor del sistema renina-angiotensina).", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el gen encargado de codificar el receptor para las hormonas del estrés (glucocorticoides).",
+    "explanation": "Este gen regula la respuesta al estrés y la disponibilidad de cortisol.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UT",
+    "question": "¿Qué marcador clínico se asoció con mayor riesgo metabólico en niños colombianos de estratos bajos?",
+    "image": null,
+    "options": [
+      { "text": "La estatura superior al promedio.", "correct": false },
+      { "text": "La baja fuerza muscular (fuerza de prensión manual).", "correct": true },
+      { "text": "El consumo elevado de vitaminas hidrosolubles.", "correct": false },
+      { "text": "La ausencia de caries dentales.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un indicador físico relacionado con la masa muscular y el estado metabólico general.",
+    "explanation": "El texto vincula la baja fuerza muscular con inflamación y riesgo cardiovascular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UU",
+    "question": "¿Cómo influye el 'Winter Hunger' holandés en la argumentación del texto?",
+    "image": null,
+    "options": [
+      { "text": "Se usa para demostrar que la desnutrición protege contra la diabetes.", "correct": false },
+      { "text": "Muestra que la desnutrición en etapas tempranas del embarazo aumenta el riesgo cardiovascular adulto.", "correct": true },
+      { "text": "Prueba que el frío extremo es el principal causante de la obesidad abdominal.", "correct": false },
+      { "text": "Es un ejemplo de cómo la dieta mediterránea previene el síndrome metabólico.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un evento histórico que documentó cómo la hambruna gestacional predispone a enfermedades crónicas en la adultez.",
+    "explanation": "Es el ejemplo paradigmático de la programación fetal por entorno adverso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UV",
+    "question": "¿Qué papel juegan los factores de transcripción NFKB, IRF y CREB en la obesidad?",
+    "image": null,
+    "options": [
+      { "text": "Son enzimas que digieren las grasas en el estómago.", "correct": false },
+      { "text": "Se activan por señales inflamatorias para iniciar la transcripción de genes diana proinflamatorios.", "correct": true },
+      { "text": "Son hormonas producidas por la glándula tiroides para aumentar el metabolismo.", "correct": false },
+      { "text": "Son responsables de la pigmentación de la piel bajo el sol.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Son proteínas clave que responden al estrés celular activando la expresión de genes que causan inflamación.",
+    "explanation": "Son mediadores clave entre el estrés metabólico y la respuesta inflamatoria celular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UW",
+    "question": "¿Qué recomienda el artículo para las políticas públicas en Latinoamérica?",
+    "image": null,
+    "options": [
+      { "text": "Ignorar la genética y centrarse solo en la actividad física de los adultos.", "correct": false },
+      { "text": "Fomentar la cirugía bariátrica masiva en niños.", "correct": false },
+      { "text": "Promover programas de nutrición materna y reducir desigualdades sociales.", "correct": true },
+      { "text": "Prohibir la venta de todos los alimentos procesados sin excepción.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La intervención más efectiva sugerida se enfoca en las primeras etapas del desarrollo y el entorno materno.",
+    "explanation": "El enfoque epigenético sugiere que la prevención debe empezar antes del nacimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UX",
+    "question": "¿Cuál es la consecuencia proyectada del sobrepeso en la esperanza de vida en México según la OCDE?",
+    "image": null,
+    "options": [
+      { "text": "Un aumento de 2 años debido a la mejor nutrición.", "correct": false },
+      { "text": "No tendrá impacto alguno en la longevidad.", "correct": false },
+      { "text": "Una reducción de más de 4 años en los próximos 30 años.", "correct": true },
+      { "text": "Una reducción de solo 6 meses.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las proyecciones advierten sobre una pérdida de más de un trienio en la esperanza de vida.",
+    "explanation": "Es un dato epidemiológico alarmante que resalta la urgencia del problema.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UY",
+    "question": "Si un feto experimenta pérdida de nefronas por desnutrición materna, ¿qué patología es más probable que desarrolle en la adultez?",
+    "image": null,
+    "options": [
+      { "text": "Diabetes tipo 1 autoinmune.", "correct": false },
+      { "text": "Hipertensión arterial sistémica por reducción de la reserva funcional renal.", "correct": true },
+      { "text": "Hipotiroidismo primario por falta de yodo.", "correct": false },
+      { "text": "Anemia ferropénica crónica.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Los riñones son fundamentales para regular el volumen sanguíneo y la presión arterial.",
+    "explanation": "La reducción de unidades estructurales (nefronas) limita la capacidad de manejo de sodio y presión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00UZ",
+    "question": "¿Por qué la deficiencia de vitamina B12 gestacional altera la metilación del ADN fetal?",
+    "image": null,
+    "options": [
+      { "text": "Porque la B12 es necesaria para la síntesis de glucosa.", "correct": false },
+      { "text": "Porque actúa como cofactor esencial en el ciclo de un carbono para proveer grupos metilo.", "correct": true },
+      { "text": "Porque la falta de B12 destruye físicamente las hebras de ADN.", "correct": false },
+      { "text": "Porque la B12 es la enzima que une las histonas al ADN.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta vitamina es clave en el metabolismo de un carbono, donando grupos químicos para marcar el ADN.",
+    "explanation": "Sin B12 o folato, la metiltransferasa no tiene sustrato para silenciar genes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VA",
+    "question": "Basado en el fenómeno del 'mismatch' nutricional, ¿qué perfil metabólico sería el más perjudicial para un individuo nacido en Latinoamérica?",
+    "image": null,
+    "options": [
+      { "text": "Nacer con peso alto y mantener una dieta hipocalórica toda la vida.", "correct": false },
+      { "text": "Nacer con bajo peso (RCIU) y tener una ganancia ponderal acelerada en la infancia con dieta hipercalórica.", "correct": true },
+      { "text": "Nacer con peso normal y realizar ejercicio físico regular desde la adolescencia.", "correct": false },
+      { "text": "Nacer con peso bajo y mantener una dieta restrictiva durante toda la adultez.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El mayor riesgo se da cuando un metabolismo adaptado a la carencia fetal se enfrenta a un entorno postnatal de exceso.",
+    "explanation": "El ahorro metabólico fetal choca con la abundancia postnatal, disparando el SM.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VB",
+    "question": "La metilación del gen NR3C1 en hijos de madres con preeclampsia sugiere que estos niños podrían tener una respuesta alterada a:",
+    "image": null,
+    "options": [
+      { "text": "La ingesta de proteínas vegetales.", "correct": false },
+      { "text": "El estrés psicosocial y la regulación del cortisol.", "correct": true },
+      { "text": "La exposición a la luz solar (vitamina D).", "correct": false },
+      { "text": "La absorción de calcio en los huesos.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Las alteraciones en este receptor (NR3C1) impactan directamente el eje del estrés.",
+    "explanation": "El receptor de glucocorticoides es el eje central de la respuesta al estrés.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VC",
+    "question": "Si los monocitos se diferencian hacia fenotipos proinflamatorios por reprogramación epigenética, ¿qué proceso vascular se acelera?",
+    "image": null,
+    "options": [
+      { "text": "La angiogénesis en los tejidos periféricos.", "correct": false },
+      { "text": "La aterogénesis (formación de placa de ateroma).", "correct": true },
+      { "text": "La vasodilatación por óxido nítrico.", "correct": false },
+      { "text": "La producción de glóbulos rojos en la médula ósea.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Los macrófagos proinflamatorios contribuyen a la formación de placas en las paredes de los vasos sanguíneos.",
+    "explanation": "Los macrófagos proinflamatorios son fundamentales en la inflamación de la pared arterial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VD",
+    "question": "Considerando que la obesidad abdominal en latinos ocurre a menores niveles de IMC que en europeos, se puede deducir que:",
+    "image": null,
+    "options": [
+      { "text": "Los latinos tienen huesos más pesados.", "correct": false },
+      { "text": "Existe una mayor predisposición a depositar grasa visceral (ectópica) debido a adaptaciones fetales.", "correct": true },
+      { "text": "Los europeos consumen menos calorías totales que los latinos.", "correct": false },
+      { "text": "El IMC es una medida perfecta para comparar riesgos entre etnias.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Las adaptaciones fetales adversas favorecen el almacenamiento de grasa en órganos y zona abdominal central.",
+    "explanation": "La grasa visceral es metabólicamente más activa y peligrosa que la subcutánea.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VE",
+    "question": "¿Qué implicación clínica tiene la 'memoria celular estable' mencionada en la conclusión?",
+    "image": null,
+    "options": [
+      { "text": "Que las células nunca mueren y se acumulan infinitamente.", "correct": false },
+      { "text": "Que los efectos de la mala nutrición temprana son difíciles de revertir solo con cambios en la adultez.", "correct": true },
+      { "text": "Que el cerebro recuerda exactamente qué comió el individuo hace diez años.", "correct": false },
+      { "text": "Que todas las enfermedades metabólicas se curan solas con el tiempo.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Las marcas epigenéticas se mantienen estables durante las divisiones celulares, haciendo que el daño temprano persista.",
+    "explanation": "Los cambios epigenéticos persisten a través de las divisiones celulares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VF",
+    "question": "La disminución de la expresión del gen Pdx-1 por desnutrición fetal compromete directamente:",
+    "image": null,
+    "options": [
+      { "text": "La capacidad de los pulmones para oxigenar la sangre.", "correct": false },
+      { "text": "La función y desarrollo de las células beta pancreáticas.", "correct": true },
+      { "text": "La producción de bilis por parte del hígado.", "correct": false },
+      { "text": "La filtración de toxinas en el glomérulo renal.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Este gen es crucial para el desarrollo y correcto funcionamiento del páncreas endocrino.",
+    "explanation": "Esto explica la aparición precoz de diabetes tipo 2 en estos individuos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VG",
+    "question": "Desde un punto de vista bioquímico, ¿cómo el balance energético positivo (obesidad) genera estrés en el retículo endoplásmico?",
+    "image": null,
+    "options": [
+      { "text": "Por la falta de oxígeno en las células grasas.", "correct": false },
+      { "text": "Por la sobrecarga de síntesis proteica y de lípidos que supera la capacidad de plegamiento de la célula.", "correct": true },
+      { "text": "Por la entrada excesiva de agua a la mitocondria.", "correct": false },
+      { "text": "Por la reducción en la producción de radicales libres.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El exceso de nutrientes exige una producción acelerada de proteínas, saturando al organelo encargado de su plegamiento.",
+    "explanation": "La demanda anabólica excesiva colapsa la maquinaria de control de calidad del RE.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VH",
+    "question": "¿Cuál es el 'periodo de oportunidad' más crítico para intervenir y prevenir cambios epigenéticos pro-obesidad según el texto?",
+    "image": null,
+    "options": [
+      { "text": "La jubilación (después de los 65 años).", "correct": false },
+      { "text": "Los primeros mil días de vida (desde la concepción hasta los 2 años).", "correct": true },
+      { "text": "La adolescencia tardía (18 a 21 años).", "correct": false },
+      { "text": "Solo el periodo de la menopausia.", "correct": false }
+    ],
+    "uni_tags": ["CL PREMED 210326"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Comprende la etapa intrauterina y los primeros dos años, siendo la ventana de mayor plasticidad fenotípica.",
+    "explanation": "Es la ventana de mayor plasticidad epigenética y desarrollo de sistemas metabólicos.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
