@@ -10846,5 +10846,1445 @@
     "explanation": "Expresión simplificada: $2x^{-1/3 - 2} = 2x^{-7/3}$. Derivada: $2(-\\frac{7}{3})x^{-7/3 - 1} = -\\frac{14}{3}x^{-10/3} = -\\frac{14}{3\\sqrt[3]{x^{10}}}$. Integral: $2\\frac{x^{-7/3 + 1}}{-7/3 + 1} = 2\\frac{x^{-4/3}}{-4/3} = 2(-\\frac{3}{4})x^{-4/3} = -\\frac{6}{4}x^{-4/3} = -\\frac{3}{2\\sqrt[3]{x^4}} + C$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00WN",
+    "question": "Si se sabe que en un día, los riñones de una persona filtran en promedio $180 \\text{ L}$ de sangre, entonces ¿cuántos mililitros filtrará en una hora?",
+    "image": null,
+    "options": [
+      { "text": "$75 \\text{ mL}$", "correct": false },
+      { "text": "$125 \\text{ mL}$", "correct": false },
+      { "text": "$7,500 \\text{ mL}$", "correct": true },
+      { "text": "$12,500 \\text{ mL}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte los litros a mililitros y después divide entre la cantidad de horas que conforman un día completo.",
+    "explanation": "$180 \\text{ L}$ equivalen a $180,000 \\text{ mL}$. Al dividir esto entre las $24 \\text{ horas}$ de un día ($180,000 / 24$), se obtienen $7,500 \\text{ mL/h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WO",
+    "question": "El corazón de un adulto sano late en reposo a un promedio de $70 \\text{ latidos/min}$. ¿Cuántos latidos realizará en un año no bisiesto ($365 \\text{ d\\u00edas}$)? Expresa el resultado en notación científica.",
+    "image": null,
+    "options": [
+      { "text": "$3.6792 \\times 10^7 \\text{ latidos}$", "correct": true },
+      { "text": "$3.6792 \\times 10^6 \\text{ latidos}$", "correct": false },
+      { "text": "$3.6792 \\times 10^5 \\text{ latidos}$", "correct": false },
+      { "text": "$4.2000 \\times 10^7 \\text{ latidos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el promedio por $60 \\text{ minutos}$, luego por $24 \\text{ horas}$ y finalmente por $365 \\text{ d\\u00edas}$.",
+    "explanation": "$70 \\text{ latidos/min} \\times 60 \\text{ min/h} \\times 24 \\text{ h/d\\u00eda} \\times 365 \\text{ d\\u00edas} = 36,792,000 \\text{ latidos}$. En notación científica es $3.6792 \\times 10^7 \\text{ latidos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WP",
+    "question": "El volumen sanguíneo total de un adulto promedio es de $5 \\text{ L}$. Si realiza una donación de sangre estándar de $450 \\text{ mL}$, ¿qué porcentaje de su volumen sanguíneo total ha donado?",
+    "image": null,
+    "options": [
+      { "text": "$4.5\\%$", "correct": false },
+      { "text": "$9.0\\%$", "correct": true },
+      { "text": "$11.0\\%$", "correct": false },
+      { "text": "$15.0\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Homologa las unidades convirtiendo los litros a mililitros antes de calcular la proporción porcentual.",
+    "explanation": "$5 \\text{ L} = 5,000 \\text{ mL}$. El porcentaje se calcula como $(450 / 5000) \\times 100 = 9\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WQ",
+    "question": "La Tasa Metabólica Basal (TMB) de una persona es de $1,500 \\text{ kcal/d\\u00eda}$. Sabiendo que $1 \\text{ kcal}$ equivale a $4.184 \\text{ kJ}$, ¿cuál es su gasto energético diario expresado en megajoules (MJ)?",
+    "image": null,
+    "options": [
+      { "text": "$0.627 \\text{ MJ}$", "correct": false },
+      { "text": "$62.76 \\text{ MJ}$", "correct": false },
+      { "text": "$627.6 \\text{ MJ}$", "correct": false },
+      { "text": "$6.276 \\text{ MJ}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero convierte a kilojoules y recuerda que un megajoule equivale a $1,000 \\text{ kJ}$.",
+    "explanation": "$1,500 \\text{ kcal} \\times 4.184 \\text{ kJ/kcal} = 6,276 \\text{ kJ}$. Como $1 \\text{ MJ} = 1,000 \\text{ kJ}$, se divide $6,276 / 1,000 = 6.276 \\text{ MJ}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WR",
+    "question": "El volumen corriente de aire que entra y sale en una respiración normal es de aproximadamente $500 \\text{ mL}$. Si una persona respira a un ritmo de $12 \\text{ resp/min}$, ¿cuántos litros de aire ventila en una hora?",
+    "image": null,
+    "options": [
+      { "text": "$360 \\text{ L}$", "correct": true },
+      { "text": "$6 \\text{ L}$", "correct": false },
+      { "text": "$36 \\text{ L}$", "correct": false },
+      { "text": "$720 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero la ventilación por minuto en mililitros, luego conviértelos a litros y multiplica por $60 \\text{ minutos}$.",
+    "explanation": "$500 \\text{ mL} \\times 12 \\text{ resp/min} = 6,000 \\text{ mL/min}$ ($6 \\text{ L/min}$). En una hora ($60 \\text{ min}$): $6 \\text{ L/min} \\times 60 \\text{ min} = 360 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WS",
+    "question": "La vida media de un eritrocito es de aproximadamente $120 \\text{ d\\u00edas}$. ¿Cuántas horas vive un eritrocito promedio expresado en notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$2.88 \\times 10^4 \\text{ h}$", "correct": false },
+      { "text": "$2.88 \\times 10^3 \\text{ h}$", "correct": true },
+      { "text": "$1.20 \\times 10^3 \\text{ h}$", "correct": false },
+      { "text": "$2.88 \\times 10^2 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los días por las horas que tiene un día y ajusta la cifra al formato de un dígito entero seguido de decimales.",
+    "explanation": "$120 \\text{ d\\u00edas} \\times 24 \\text{ horas/d\\u00eda} = 2,880 \\text{ horas}$. En notación científica es $2.88 \\times 10^3 \\text{ horas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WT",
+    "question": "Un nutriólogo recomienda una ingesta de agua basal de $35 \\text{ mL}$ por cada kilogramo de peso corporal. ¿Cuántos litros de agua al día requiere un paciente que pesa $70 \\text{ kg}$?",
+    "image": null,
+    "options": [
+      { "text": "$24.5 \\text{ L}$", "correct": false },
+      { "text": "$2.45 \\text{ L}$", "correct": true },
+      { "text": "$0.245 \\text{ L}$", "correct": false },
+      { "text": "$3.5 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la multiplicación directa por el peso y luego realiza la conversión de mililitros a litros.",
+    "explanation": "$35 \\text{ mL/kg} \\times 70 \\text{ kg} = 2,450 \\text{ mL}$. Para convertir a litros, se divide entre $1,000$, obteniendo $2.45 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WU",
+    "question": "Las reservas musculares de un atleta se agotan en $40 \\text{ min}$ al correr a una velocidad constante de $12 \\text{ km/h}$. Asumiendo una proporcionalidad estrictamente inversa debido al gasto energético, ¿en cuántos minutos se agotarían sus reservas si corriera a $15 \\text{ km/h}$?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ min}$", "correct": false },
+      { "text": "$45 \\text{ min}$", "correct": false },
+      { "text": "$32 \\text{ min}$", "correct": true },
+      { "text": "$24 \\text{ min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto del tiempo por la velocidad debe mantenerse constante entre ambos escenarios.",
+    "explanation": "Al ser inversamente proporcional: $t_1 \\cdot v_1 = t_2 \\cdot v_2$. Entonces, $40 \\times 12 = 480$. Despejando: $480 / 15 = 32 \\text{ minutos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WV",
+    "question": "El esqueleto humano representa aproximadamente el $15\\%$ del peso corporal total. Para una persona de $80 \\text{ kg}$, ¿cuántos gramos pesan sus huesos en notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$1.5 \\times 10^4 \\text{ g}$", "correct": false },
+      { "text": "$1.2 \\times 10^4 \\text{ g}$", "correct": true },
+      { "text": "$1.2 \\times 10^3 \\text{ g}$", "correct": false },
+      { "text": "$8.0 \\times 10^3 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la masa en kilogramos primero y luego aplica el factor de conversión para expresarla en gramos.",
+    "explanation": "El $15\\%$ de $80 \\text{ kg}$ es $12 \\text{ kg}$. $12 \\text{ kg}$ equivalen a $12,000 \\text{ g}$, lo que en notación científica es $1.2 \\times 10^4 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WW",
+    "question": "La concentración normal de glucosa en sangre en ayunas es de $90 \\text{ mg/dL}$. ¿Cuál es esta misma concentración expresada en gramos por litro ($g/L$)?",
+    "image": null,
+    "options": [
+      { "text": "$0.9 \\text{ g/L}$", "correct": true },
+      { "text": "$9.0 \\text{ g/L}$", "correct": false },
+      { "text": "$90 \\text{ g/L}$", "correct": false },
+      { "text": "$0.09 \\text{ g/L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que un litro equivale a $10 \\text{ dL}$ y un gramo equivale a $1,000 \\text{ mg}$.",
+    "explanation": "$90 \\text{ mg/dL} \\times 10 \\text{ dL/L} = 900 \\text{ mg/L}$. Como $1,000 \\text{ mg} = 1 \\text{ g}$, entonces $900 \\text{ mg/L} = 0.9 \\text{ g/L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WX",
+    "question": "El consumo de oxígeno en reposo de un adulto es de aproximadamente $250 \\text{ mL/min}$. ¿Cuántos litros de oxígeno consume el cuerpo en un lapso de $24 \\text{ horas}$?",
+    "image": null,
+    "options": [
+      { "text": "$36 \\text{ L/d\\u00eda}$", "correct": false },
+      { "text": "$360 \\text{ L/d\\u00eda}$", "correct": true },
+      { "text": "$150 \\text{ L/d\\u00eda}$", "correct": false },
+      { "text": "$3.6 \\text{ L/d\\u00eda}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el total de minutos que tiene un día y multiplica por la tasa de consumo.",
+    "explanation": "$250 \\text{ mL/min} \\times 60 \\text{ min/h} \\times 24 \\text{ h/d\\u00eda} = 360,000 \\text{ mL/d\\u00eda}$. Dividido entre $1,000$, equivale a $360 \\text{ L/d\\u00eda}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WY",
+    "question": "Un impulso nervioso en una fibra mielinizada viaja a una velocidad de $120 \\text{ m/s}$. ¿A cuántos kilómetros por hora (km/h) equivale esta velocidad fisiológica?",
+    "image": null,
+    "options": [
+      { "text": "$1,200 \\text{ km/h}$", "correct": false },
+      { "text": "$43.2 \\text{ km/h}$", "correct": false },
+      { "text": "$33.3 \\text{ km/h}$", "correct": false },
+      { "text": "$432 \\text{ km/h}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el factor de conversión multiplicando el valor en metros por segundo por la constante $3.6$.",
+    "explanation": "Para convertir $\\text{m/s}$ a $\\text{km/h}$ se multiplica por $3.6$ (que proviene de $3,600 \\text{ s} / 1,000 \\text{ m}$). $120 \\times 3.6 = 432 \\text{ km/h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WZ",
+    "question": "El Índice de Masa Corporal (IMC) se calcula dividiendo el peso en kilogramos entre la altura en metros elevada al cuadrado. Si un paciente pesa $68 \\text{ kg}$ y mide $1.70 \\text{ m}$, ¿cuál es su IMC aproximado?",
+    "image": null,
+    "options": [
+      { "text": "$20.1$", "correct": false },
+      { "text": "$23.5$", "correct": true },
+      { "text": "$25.4$", "correct": false },
+      { "text": "$40.0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cuadrado el valor de la altura antes de realizar la división de la masa.",
+    "explanation": "$\\text{IMC} = 68 / (1.70)^2 = 68 / 2.89 = 23.529$, lo que se aproxima a $23.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XA",
+    "question": "El requerimiento diario de proteínas de un adulto sedentario es de $0.8 \\text{ g/kg}$ de peso. Si un paciente pesa $165 \\text{ lb}$ (considerando $1 \\text{ kg} = 2.2 \\text{ lb}$), ¿cuántos gramos de proteína necesita al día?",
+    "image": null,
+    "options": [
+      { "text": "$82.5 \\text{ g}$", "correct": false },
+      { "text": "$132 \\text{ g}$", "correct": false },
+      { "text": "$60 \\text{ g}$", "correct": true },
+      { "text": "$45 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el peso en libras entre el factor de conversión para obtener kilogramos y luego aplica la proporción.",
+    "explanation": "Primero se pasa el peso a kg: $165 \\text{ lb} / 2.2 \\text{ lb/kg} = 75 \\text{ kg}$. Luego se multiplica por el requerimiento: $75 \\text{ kg} \\times 0.8 \\text{ g/kg} = 60 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XB",
+    "question": "Si el volumen sistólico por latido de un paciente es de $70 \\text{ mL}$ y su frecuencia cardíaca es de $75 \\text{ latidos/min}$, ¿cuál es su gasto cardíaco en litros por minuto (L/min)?",
+    "image": null,
+    "options": [
+      { "text": "$5.25 \\text{ L/min}$", "correct": true },
+      { "text": "$52.5 \\text{ L/min}$", "correct": false },
+      { "text": "$0.52 \\text{ L/min}$", "correct": false },
+      { "text": "$10.5 \\text{ L/min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El gasto se obtiene multiplicando ambas magnitudes y posteriormente dividiendo entre $1,000$ para escalar a litros.",
+    "explanation": "$70 \\text{ mL/latido} \\times 75 \\text{ latidos/min} = 5,250 \\text{ mL/min}$. Para convertir a litros, se divide entre $1,000$, obteniendo $5.25 \\text{ L/min}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XC",
+    "question": "Metabólicamente, la oxidación de $1 \\text{ g}$ de grasa produce $9 \\text{ kcal}$ de energía. Si una persona quema $450 \\text{ kcal}$ netas provenientes exclusivamente de tejido adiposo, ¿cuántos gramos de grasa metabolizó?",
+    "image": null,
+    "options": [
+      { "text": "$112 \\text{ g}$", "correct": false },
+      { "text": "$50 \\text{ g}$", "correct": true },
+      { "text": "$4,050 \\text{ g}$", "correct": false },
+      { "text": "$25 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el total de energía gastada entre el aporte calórico unitario de la grasa.",
+    "explanation": "Se divide la energía total quemada entre la energía que aporta un gramo de grasa: $450 \\text{ kcal} / 9 \\text{ kcal/g} = 50 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XD",
+    "question": "La presión arterial sistólica normal es de $120 \\text{ mmHg}$. Si se sabe que $1 \\text{ mmHg}$ equivale a $133.32 \\text{ Pa}$, ¿cuál es la presión en kilopascales (kPa)?",
+    "image": null,
+    "options": [
+      { "text": "$1.6 \\text{ kPa}$", "correct": false },
+      { "text": "$12.0 \\text{ kPa}$", "correct": false },
+      { "text": "$120 \\text{ kPa}$", "correct": false },
+      { "text": "$16.0 \\text{ kPa}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el valor absoluto en Pascales y después recorre el punto decimal tres lugares.",
+    "explanation": "$120 \\text{ mmHg} \\times 133.32 \\text{ Pa/mmHg} = 15,998.4 \\text{ Pa}$. Para convertir a kilopascales se divide entre $1,000$: $15.998 \\text{ kPa}$, que se aproxima a $16.0 \\text{ kPa}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XE",
+    "question": "La evaporación de $1 \\text{ L}$ de sudor disipa alrededor de $580 \\text{ kcal}$ de calor corporal. Para que un corredor disipe $2,900 \\text{ kcal}$ generadas en un maratón, ¿cuántos mililitros de sudor debe evaporar?",
+    "image": null,
+    "options": [
+      { "text": "$2,900 \\text{ mL}$", "correct": false },
+      { "text": "$5,000 \\text{ mL}$", "correct": true },
+      { "text": "$500 \\text{ mL}$", "correct": false },
+      { "text": "$1,160 \\text{ mL}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la proporción de litros que corresponden a la energía total y transfiere a mililitros.",
+    "explanation": "Primero se hallan los litros: $2,900 \\text{ kcal} / 580 \\text{ kcal/L} = 5 \\text{ L}$. Como $1 \\text{ L} = 1,000 \\text{ mL}$, el resultado es $5,000 \\text{ mL}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XF",
+    "question": "Las glándulas salivales producen un promedio de $1.5 \\text{ L}$ de saliva al día ($24 \\text{ h}$). Asumiendo una producción constante, ¿cuál es la tasa de producción expresada en mililitros por minuto?",
+    "image": null,
+    "options": [
+      { "text": "$10.4 \\text{ mL/min}$", "correct": false },
+      { "text": "$0.10 \\text{ mL/min}$", "correct": false },
+      { "text": "$1.04 \\text{ mL/min}$", "correct": true },
+      { "text": "$62.5 \\text{ mL/min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma el volumen diario a mililitros y divídelo entre la cantidad total de minutos en un día.",
+    "explanation": "$1.5 \\text{ L} = 1,500 \\text{ mL}$. Un día tiene $24 \\text{ h} \\times 60 \\text{ min/h} = 1,440 \\text{ min}$. La tasa es $1,500 \\text{ mL} / 1,440 \\text{ min} = 1.0416... \\text{ mL/min}$, aproximado a $1.04 \\text{ mL/min}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XG",
+    "question": "El diámetro de una célula animal típica es de $10 \\, \\mu\\text{m}$. Sabiendo que $1 \\, \\mu\\text{m} = 0.001 \\text{ mm}$, ¿cuál es el diámetro de esta célula en milímetros expresado en notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\times 10^{-3} \\text{ mm}$", "correct": false },
+      { "text": "$1 \\times 10^{-2} \\text{ mm}$", "correct": true },
+      { "text": "$1 \\times 10^{-1} \\text{ mm}$", "correct": false },
+      { "text": "$1 \\times 10^{2} \\text{ mm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recorre el punto decimal las posiciones correspondientes hacia la izquierda de acuerdo con la escala milimétrica.",
+    "explanation": "$10 \\, \\mu\\text{m} \\times 0.001 \\text{ mm/}\\mu\\text{m} = 0.01 \\text{ mm}$. En notación científica, $0.01$ equivale a $1 \\times 10^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XH",
+    "question": "La luz viaja en el vacío a una velocidad constante $v$ de aproximadamente $3 \\times 10^5 \\text{ km/s}$. Si la distancia promedio $d$ entre la Tierra y el Sol es de $1.5 \\times 10^8 \\text{ km}$, ¿cuántos minutos tarda la luz solar en llegar a la Tierra?",
+    "image": null,
+    "options": [
+      { "text": "$8.33 \\text{ min}$", "correct": true },
+      { "text": "$500 \\text{ min}$", "correct": false },
+      { "text": "$83.3 \\text{ min}$", "correct": false },
+      { "text": "$0.5 \\text{ min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la relación fundamental de la cinemática de la cual puedes despejar el tiempo: $d = v \\cdot t$.",
+    "explanation": "$t = (1.5 \\times 10^8 \\text{ km}) / (3 \\times 10^5 \\text{ km/s}) = 0.5 \\times 10^3 \\text{ s} = 500 \\text{ s}$. Para convertir a minutos: $500 / 60 = 8.33 \\text{ min}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XI",
+    "question": "La Segunda Ley de Newton establece que la fuerza es igual a la masa por la aceleración. Si un automóvil de $1,200 \\text{ kg}$ acelera uniformemente a $2.5 \\text{ m/s}^2$, ¿cuál es la fuerza neta aplicada sobre él expresada en kilonewtons (kN)?",
+    "image": null,
+    "options": [
+      { "text": "$300 \\text{ kN}$", "correct": false },
+      { "text": "$30 \\text{ kN}$", "correct": false },
+      { "text": "$3.0 \\text{ kN}$", "correct": true },
+      { "text": "$0.3 \\text{ kN}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La aceleración se puede despejar de la Segunda Ley de Newton usando $a = \\frac{F}{m}$. No olvides dividir el resultado final entre $1,000$.",
+    "explanation": "$F = 1,200 \\text{ kg} \\times 2.5 \\text{ m/s}^2 = 3,000 \\text{ N}$. Como $1 \\text{ kN} = 1,000 \\text{ N}$, dividimos $3,000 / 1,000 = 3.0 \\text{ kN}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XJ",
+    "question": "Un operario empuja una caja aplicando una fuerza constante de $450 \\text{ N}$ a lo largo de $20 \\text{ m}$. ¿Cuánto trabajo mecánico realizó expresado en Joules y en notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$9.0 \\times 10^4 \\text{ J}$", "correct": false },
+      { "text": "$9.0 \\times 10^3 \\text{ J}$", "correct": true },
+      { "text": "$4.5 \\times 10^3 \\text{ J}$", "correct": false },
+      { "text": "$9.0 \\times 10^2 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "De la fórmula del trabajo, la fuerza se obtiene como $F = \\frac{W}{d}$.",
+    "explanation": "$W = 450 \\text{ N} \\times 20 \\text{ m} = 9,000 \\text{ J}$. En notación científica, $9,000$ se escribe como $9.0 \\times 10^3 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XK",
+    "question": "Si un circuito tiene una resistencia de $24 \\, \\Omega$ y fluye a través de él una corriente de $0.5 \\text{ A}$, ¿cuál es el voltaje aplicado?",
+    "image": null,
+    "options": [
+      { "text": "$48 \\text{ V}$", "correct": false },
+      { "text": "$12 \\text{ V}$", "correct": true },
+      { "text": "$24.5 \\text{ V}$", "correct": false },
+      { "text": "$23.5 \\text{ V}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La Ley de Ohm permite calcular la corriente despejando $I = \\frac{V}{R}$.",
+    "explanation": "$V = 0.5 \\text{ A} \\times 24 \\, \\Omega = 12 \\text{ V}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XL",
+    "question": "Si un motor de grúa realiza un trabajo de $120,000 \\text{ J}$ en $2 \\text{ min}$, ¿cuál es su potencia mecánica expresada en Watts?",
+    "image": null,
+    "options": [
+      { "text": "$60,000 \\text{ W}$", "correct": false },
+      { "text": "$1,000 \\text{ W}$", "correct": true },
+      { "text": "$240,000 \\text{ W}$", "correct": false },
+      { "text": "$2,000 \\text{ W}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El trabajo realizado se relaciona con la potencia según la ecuación $W = P \\cdot t$.",
+    "explanation": "Primero convertimos el tiempo a segundos: $2 \\text{ min} \\times 60 \\text{ s/min} = 120 \\text{ s}$. Luego, $P = 120,000 \\text{ J} / 120 \\text{ s} = 1,000 \\text{ W}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XM",
+    "question": "El aluminio tiene una densidad de $2,700 \\text{ kg/m}^3$. ¿Cuál es su densidad expresada en gramos por centímetro cúbico (g/cm³)?",
+    "image": null,
+    "options": [
+      { "text": "$270 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$27 \\text{ g/cm}^3$", "correct": false },
+      { "text": "$2.7 \\text{ g/cm}^3$", "correct": true },
+      { "text": "$0.27 \\text{ g/cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen de un objeto se puede obtener despejando $V = \\frac{m}{\\rho}$. Considera la relación de conversión de un millón.",
+    "explanation": "$1 \\text{ kg} = 1,000 \\text{ g}$ y $1 \\text{ m}^3 = 1,000,000 \\text{ cm}^3$. Por tanto, $2,700 \\times (1,000 / 1,000,000) = 2.7 \\text{ g/cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XN",
+    "question": "Si una pelota de béisbol de $0.15 \\text{ kg}$ se lanza a una velocidad de $40 \\text{ m/s}$, ¿cuál es su energía cinética en Joules?",
+    "image": null,
+    "options": [
+      { "text": "$6.0 \\text{ J}$", "correct": false },
+      { "text": "$120 \\text{ J}$", "correct": true },
+      { "text": "$300 \\text{ J}$", "correct": false },
+      { "text": "$1,200 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "De la fórmula de energía, la masa se calcula como $m = \\frac{2E_c}{v^2}$.",
+    "explanation": "$E_c = \\frac{1}{2} \\times 0.15 \\text{ kg} \\times (40 \\text{ m/s})^2 = 0.5 \\times 0.15 \\times 1,600 = 120 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XO",
+    "question": "Si una persona de $800 \\text{ N}$ de peso se para sobre un solo pie, cuya área de contacto es de $0.04 \\text{ m}^2$, ¿cuál es la presión ejercida sobre el suelo en Pascales expresada en notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$2.0 \\times 10^3 \\text{ Pa}$", "correct": false },
+      { "text": "$2.0 \\times 10^4 \\text{ Pa}$", "correct": true },
+      { "text": "$3.2 \\times 10^1 \\text{ Pa}$", "correct": false },
+      { "text": "$3.2 \\times 10^2 \\text{ Pa}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fuerza aplicada se puede despejar de la presión usando $F = P \\cdot A$.",
+    "explanation": "$P = 800 \\text{ N} / 0.04 \\text{ m}^2 = 20,000 \\text{ Pa}$. En notación científica es $2.0 \\times 10^4 \\text{ Pa}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XP",
+    "question": "En el aire, el sonido viaja a $340 \\text{ m/s}$ de forma constante. Si la frecuencia de una nota musical se duplica de $220 \\text{ Hz}$ a $440 \\text{ Hz}$, ¿qué sucede con su longitud de onda?",
+    "image": null,
+    "options": [
+      { "text": "Se cuadruplica", "correct": false },
+      { "text": "Se duplica", "correct": false },
+      { "text": "Se reduce a la mitad", "correct": true },
+      { "text": "Se mantiene igual", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La frecuencia se obtiene despejando de la velocidad de onda: $f = \\frac{v}{\\lambda}$.",
+    "explanation": "Dado que la velocidad $v$ es constante, la frecuencia y la longitud de onda son inversamente proporcionales. Si la frecuencia se duplica, $\\lambda$ debe reducirse a la mitad para mantener el producto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XQ",
+    "question": "El peso se define como $W = m \\cdot g$. En la Tierra $g = 9.8 \\text{ m/s}^2$ y en Marte $g = 3.7 \\text{ m/s}^2$. ¿Aproximadamente qué porcentaje del peso terrestre experimentaría un astronauta en Marte?",
+    "image": null,
+    "options": [
+      { "text": "$38\\%$", "correct": true },
+      { "text": "$62\\%$", "correct": false },
+      { "text": "$26\\%$", "correct": false },
+      { "text": "$15\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La masa de un cuerpo se despeja del peso utilizando $m = \\frac{W}{g}$.",
+    "explanation": "El porcentaje se calcula comparando las gravedades de ambos planetas: $(3.7 / 9.8) \\times 100 = 37.75\\%$, que se aproxima al $38\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XR",
+    "question": "El calor específico $c$ del agua es $4,186 \\text{ J/(kg}\\cdot^\\circ\\text{C)}$. ¿Cuántos kilojoules (kJ) se necesitan para calentar $2 \\text{ kg}$ de agua desde $20^\\circ\\text{C}$ hasta $70^\\circ\\text{C}$?",
+    "image": null,
+    "options": [
+      { "text": "$41.86 \\text{ kJ}$", "correct": false },
+      { "text": "$418.6 \\text{ kJ}$", "correct": true },
+      { "text": "$586.0 \\text{ kJ}$", "correct": false },
+      { "text": "$837.2 \\text{ kJ}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El calor específico se puede aislar despejando $c = \\frac{Q}{m \\Delta T}$.",
+    "explanation": "El diferencial térmico es $\\Delta T = 70 - 20 = 50^\\circ\\text{C}$. $Q = 2 \\text{ kg} \\times 4,186 \\times 50 = 418,600 \\text{ J}$. Dividiendo entre $1,000$ nos da $418.6 \\text{ kJ}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XS",
+    "question": "Un foco LED funciona a $120 \\text{ V}$ y consume una corriente de $0.1 \\text{ A}$. Si permanece encendido $10 \\text{ h}$, ¿cuántos Watts-hora (Wh) consumirá de energía eléctrica?",
+    "image": null,
+    "options": [
+      { "text": "$1.2 \\text{ Wh}$", "correct": false },
+      { "text": "$12 \\text{ Wh}$", "correct": false },
+      { "text": "$120 \\text{ Wh}$", "correct": true },
+      { "text": "$1,200 \\text{ Wh}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La potencia se puede sustituir en la fórmula de energía, y la corriente se despeja como $I = \\frac{P}{V}$.",
+    "explanation": "Primero calculamos la potencia: $P = 120 \\text{ V} \\times 0.1 \\text{ A} = 12 \\text{ W}$. Luego calculamos la energía total: $E = 12 \\text{ W} \\times 10 \\text{ h} = 120 \\text{ Wh}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XT",
+    "question": "Un motor de combustión consume $5,000 \\text{ J}$ de energía química para realizar $1,500 \\text{ J}$ de trabajo mecánico. ¿Cuál es su porcentaje de eficiencia termodinámica?",
+    "image": null,
+    "options": [
+      { "text": "$30\\%$", "correct": true },
+      { "text": "$33.3\\%$", "correct": false },
+      { "text": "$70\\%$", "correct": false },
+      { "text": "$15\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la relación del trabajo útil generado sobre la energía consumida total.",
+    "explanation": "Eficiencia = $(1,500 / 5,000) \\times 100 = 0.30 \\times 100 = 30\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XU",
+    "question": "Un camión de $3 \\text{ t}$ viaja a $15 \\text{ m/s}$. Sabiendo que $1 \\text{ t} = 1,000 \\text{ kg}$, ¿cuál es su cantidad de movimiento expresada en $\\text{kg}\\cdot\\text{m/s}$?",
+    "image": null,
+    "options": [
+      { "text": "$45 \\text{ kg}\\cdot\\text{m/s}$", "correct": false },
+      { "text": "$450 \\text{ kg}\\cdot\\text{m/s}$", "correct": false },
+      { "text": "$45,000 \\text{ kg}\\cdot\\text{m/s}$", "correct": true },
+      { "text": "$4,500 \\text{ kg}\\cdot\\text{m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la masa por la velocidad asegurándote de usar las unidades en base a kilogramos.",
+    "explanation": "Masa = $3 \\times 1,000 = 3,000 \\text{ kg}$. Momento: $p = 3,000 \\text{ kg} \\times 15 \\text{ m/s} = 45,000 \\text{ kg}\\cdot\\text{m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XV",
+    "question": "Si dejamos caer una piedra desde un puente, partiendo del reposo, y tarda $3 \\text{ s}$ en golpear el agua (usando $g = 9.8 \\text{ m/s}^2$), ¿qué altura tiene el puente?",
+    "image": null,
+    "options": [
+      { "text": "$14.7 \\text{ m}$", "correct": false },
+      { "text": "$29.4 \\text{ m}$", "correct": false },
+      { "text": "$44.1 \\text{ m}$", "correct": true },
+      { "text": "$88.2 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El tiempo de caída se puede obtener despejando la variable como $t = \\sqrt{2d/g}$.",
+    "explanation": "Distancia: $d = \\frac{1}{2} \\times 9.8 \\text{ m/s}^2 \\times (3 \\text{ s})^2 = 4.9 \\times 9 = 44.1 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XW",
+    "question": "Si la fuerza de atracción inicial entre dos cuerpos celestes es de $100 \\text{ quintillones de N}$, ¿cuál será la nueva fuerza experimentada si la distancia entre ellos se duplica repentinamente?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ quintillones de N}$", "correct": false },
+      { "text": "$25 \\text{ quintillones de N}$", "correct": true },
+      { "text": "$200 \\text{ quintillones de N}$", "correct": false },
+      { "text": "$400 \\text{ quintillones de N}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La relación gravitacional dicta que la fuerza es inversamente proporcional al cuadrado de la distancia de separación.",
+    "explanation": "Si la distancia se duplica ($\\times 2$), la fuerza se divide por el cuadrado de ese factor ($2^2 = 4$). Entonces, $100 / 4 = 25 \\text{ quintillones de N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XX",
+    "question": "Si por un cable fluye una corriente de $2 \\text{ A}$ durante media hora, ¿cuántos Coulombs de carga total han pasado a través de él?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ C}$", "correct": false },
+      { "text": "$60 \\text{ C}$", "correct": false },
+      { "text": "$1,800 \\text{ C}$", "correct": false },
+      { "text": "$3,600 \\text{ C}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener los Coulombs correctos, debes sustituir el tiempo forzosamente en escala de segundos.",
+    "explanation": "Media hora = $30 \\text{ min} \\times 60 \\text{ s} = 1,800 \\text{ s}$. Carga: $Q = 2 \\text{ A} \\times 1,800 \\text{ s} = 3,600 \\text{ C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XY",
+    "question": "Si un buzo desciende de $10 \\text{ m}$ a $30 \\text{ m}$ de profundidad en el mar en estado de reposo, ¿cómo cambia la presión hidrostática que soporta su cuerpo?",
+    "image": null,
+    "options": [
+      { "text": "Aumenta al doble", "correct": false },
+      { "text": "Aumenta al triple", "correct": true },
+      { "text": "Disminuye a la tercera parte", "correct": false },
+      { "text": "Aumenta al cuadrado", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica qué le ocurre matemáticamente a la profundidad y aplícalo a la presión resultante.",
+    "explanation": "Como la densidad y la gravedad son constantes, la presión es directamente proporcional a la profundidad. Al pasar de $10 \\text{ m}$ a $30 \\text{ m}$, se triplica, incrementando la presión proporcionalmente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00XZ",
+    "question": "Si se necesita una fuerza externa de $50 \\text{ N}$ para estirar un resorte unos $0.2 \\text{ m}$, ¿cuál es el valor de la constante elástica del resorte expresada en N/m?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N/m}$", "correct": false },
+      { "text": "$250 \\text{ N/m}$", "correct": true },
+      { "text": "$100 \\text{ N/m}$", "correct": false },
+      { "text": "$2.5 \\text{ N/m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza la Ley de Hooke y despeja el coeficiente dividiendo la fuerza requerida entre la distancia estirada.",
+    "explanation": "Despejando $k$ de la fórmula: $k = F / x$. Sustituyendo los valores: $k = 50 \\text{ N} / 0.2 \\text{ m} = 250 \\text{ N/m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YA",
+    "question": "El límite de velocidad en una autopista federal en México es de $110 \\text{ km/h}$. ¿A cuántos metros por segundo (m/s) equivale exactamente este límite de velocidad?",
+    "image": null,
+    "options": [
+      { "text": "$30.55 \\text{ m/s}$", "correct": true },
+      { "text": "$396.0 \\text{ m/s}$", "correct": false },
+      { "text": "$11.0 \\text{ m/s}$", "correct": false },
+      { "text": "$3.05 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para agilizar la transformación del Sistema Métrico a Sistema Internacional debes dividir entre un factor constante.",
+    "explanation": "Para convertir de $\\text{km/h}$ a $\\text{m/s}$ se divide entre el factor de conversión $3.6$. Por tanto, $110 / 3.6 = 30.55 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YB",
+    "question": "La masa molar del agua es de $18 \\text{ g/mol}$ ($\\text{H} = 1 \\text{ g/mol}$, $\\text{O} = 16 \\text{ g/mol}$). Si tienes un vaso con $90 \\text{ g}$ de agua pura, ¿cuántos moles de agua contiene?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ moles}$", "correct": false },
+      { "text": "$3 \\text{ moles}$", "correct": false },
+      { "text": "$5 \\text{ moles}$", "correct": true },
+      { "text": "$10 \\text{ moles}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La masa total se obtiene despejando $m = n \\cdot MM$.",
+    "explanation": "Se divide la masa total en gramos entre la masa molar del compuesto químico: $90 \\text{ g} / 18 \\text{ g/mol} = 5 \\text{ moles}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YC",
+    "question": "Si en un recipiente presurizado hay exactamente $0.5 \\text{ moles}$ de gas dióxido de carbono ($\\text{CO}_2$), ¿cuántas moléculas individuales de $\\text{CO}_2$ hay presentes?",
+    "image": null,
+    "options": [
+      { "text": "$3.011 \\times 10^{23} \\text{ mol\\u00e9culas}$", "correct": true },
+      { "text": "$1.204 \\times 10^{24} \\text{ mol\\u00e9culas}$", "correct": false },
+      { "text": "$6.022 \\times 10^{22} \\text{ mol\\u00e9culas}$", "correct": false },
+      { "text": "$3.011 \\times 10^{22} \\text{ mol\\u00e9culas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los moles se pueden despejar usando $n = \\frac{N}{N_A}$.",
+    "explanation": "Se multiplica la cantidad de moles por el Número de Avogadro: $0.5 \\times (6.022 \\times 10^{23}) = 3.011 \\times 10^{23} \\text{ mol\\u00e9culas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YD",
+    "question": "Si disuelves $0.4 \\text{ moles}$ de cloruro de sodio ($\\text{NaCl}$) en agua hasta obtener un volumen final de $200 \\text{ mL}$ ($0.2 \\text{ L}$), ¿cuál es la molaridad resultante de la solución?",
+    "image": null,
+    "options": [
+      { "text": "$8.0 \\text{ M}$", "correct": false },
+      { "text": "$0.08 \\text{ M}$", "correct": false },
+      { "text": "$0.2 \\text{ M}$", "correct": false },
+      { "text": "$2.0 \\text{ M}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen de solución se obtiene despejando $V = \\frac{n}{M}$.",
+    "explanation": "Usando la fórmula de la concentración molar $M = n / V$, obtenemos que: $0.4 \\text{ moles} / 0.2 \\text{ L} = 2.0 \\text{ M}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YE",
+    "question": "Tienes $50 \\text{ mL}$ de una solución de ácido clorhídrico ($\\text{HCl}$) al $12 \\text{ M}$ y quieres diluirla para que quede a $2 \\text{ M}$. ¿Cuál debe ser el volumen final de la solución?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ mL}$", "correct": false },
+      { "text": "$300 \\text{ mL}$", "correct": true },
+      { "text": "$600 \\text{ mL}$", "correct": false },
+      { "text": "$250 \\text{ mL}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La concentración inicial se despeja de la ley de dilución como $C_1 = \\frac{C_2 V_2}{V_1}$.",
+    "explanation": "Despejando el volumen final de la fórmula: $V_2 = (C_1 \\cdot V_1) / C_2$. Tenemos $V_2 = (12 \\text{ M} \\times 50 \\text{ mL}) / 2 \\text{ M} = 600 / 2 = 300 \\text{ mL}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YF",
+    "question": "Si tienes $1 \\text{ mol}$ de un gas ideal a una presión constante de $1 \\text{ atm}$ y temperatura de $273 \\text{ K}$, usando $R = 0.0821 \\text{ L}\\cdot\\text{atm/(mol}\\cdot\\text{K)}$, ¿qué volumen ocupará?",
+    "image": null,
+    "options": [
+      { "text": "$22.4 \\text{ L}$", "correct": true },
+      { "text": "$11.2 \\text{ L}$", "correct": false },
+      { "text": "$2.24 \\text{ L}$", "correct": false },
+      { "text": "$24.2 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La presión del gas se despeja de la ecuación de estado como $P = \\frac{nRT}{V}$.",
+    "explanation": "Despejando la variable métrica se tiene $V = (n \\cdot R \\cdot T) / P$. Resolviendo $V = (1 \\times 0.0821 \\times 273) / 1 = 22.4133 \\text{ L}$, lo que se redondea a $22.4 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YG",
+    "question": "El metano ($\\text{CH}_4$) tiene una masa molar de $16 \\text{ g/mol}$ ($\\text{C} = 12 \\text{ g/mol}$, $\\text{H} = 1 \\text{ g/mol}$). ¿Cuál es el porcentaje total de masa que representa el carbono en esta molécula?",
+    "image": null,
+    "options": [
+      { "text": "$25\\%$", "correct": false },
+      { "text": "$50\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": true },
+      { "text": "$80\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide la masa respectiva del elemento entre el peso total del compuesto y multiplícalo por cien.",
+    "explanation": "El porcentaje se calcula como la fracción másica total. $(12 \\text{ g} / 16 \\text{ g}) \\times 100 = 0.75 \\times 100 = 75\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YH",
+    "question": "A temperatura constante, si un gas ocupa $10 \\text{ L}$ a una presión de $2 \\text{ atm}$, ¿qué presión en atmósferas se necesita para comprimirlo hasta alcanzar un volumen de $4 \\text{ L}$?",
+    "image": null,
+    "options": [
+      { "text": "$0.8 \\text{ atm}$", "correct": false },
+      { "text": "$5 \\text{ atm}$", "correct": true },
+      { "text": "$8 \\text{ atm}$", "correct": false },
+      { "text": "$20 \\text{ atm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen inicial se obtiene de la Ley de Boyle como $V_1 = \\frac{P_2 V_2}{P_1}$.",
+    "explanation": "Despejando $P_2 = (P_1 \\cdot V_1) / V_2$. Obtenemos numéricamente $P_2 = (2 \\text{ atm} \\times 10 \\text{ L}) / 4 \\text{ L} = 20 / 4 = 5 \\text{ atm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YI",
+    "question": "En una solución acuosa alcalina mantenida a una temperatura de $25^\\circ\\text{C}$ con un pOH documentado de $2.5$, ¿cuál sería el valor exacto de su pH?",
+    "image": null,
+    "options": [
+      { "text": "$12.5$", "correct": false },
+      { "text": "$11.5$", "correct": true },
+      { "text": "$10.5$", "correct": false },
+      { "text": "$16.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "A partir de la relación del agua, se puede expresar $pOH = 14 - pH$.",
+    "explanation": "Despejando la incógnita de la ecuación estándar de acidez: $\\text{pH} = 14 - 2.5 = 11.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YJ",
+    "question": "En un experimento sintético, el cálculo analítico predecía que debían obtenerse $50 \\text{ g}$, pero operativamente solo se recuperaron $42 \\text{ g}$ de producto puro. ¿Cuál fue el rendimiento porcentual?",
+    "image": null,
+    "options": [
+      { "text": "$84\\%$", "correct": true },
+      { "text": "$78\\%$", "correct": false },
+      { "text": "$92\\%$", "correct": false },
+      { "text": "$80\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El porcentaje se extrae al dividir la masa recuperada entre la masa proyectada matemáticamente.",
+    "explanation": "Calculando el rendimiento de reacción: $(42 \\text{ g} / 50 \\text{ g}) \\times 100 = 0.84 \\times 100 = 84\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YK",
+    "question": "Si un globo que posee un volumen gaseoso de $3 \\text{ L}$ y una temperatura de $300 \\text{ K}$ se calienta isobáricamente hasta los $400 \\text{ K}$, ¿cuál será su nuevo volumen?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ L}$", "correct": true },
+      { "text": "$2.25 \\text{ L}$", "correct": false },
+      { "text": "$9 \\text{ L}$", "correct": false },
+      { "text": "$12 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La temperatura inicial se despeja usando $T_1 = \\frac{V_1 T_2}{V_2}$.",
+    "explanation": "Despejando algebraicamente el término final $V_2 = (V_1 \\cdot T_2) / T_1$. Entonces, $V_2 = (3 \\text{ L} \\times 400 \\text{ K}) / 300 \\text{ K} = 1,200 / 300 = 4 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YL",
+    "question": "Para los cálculos gaseosos siempre se utiliza la escala absoluta. Si una reacción exotérmica alcanza un pico térmico de $150^\\circ\\text{C}$, ¿cuál es el equivalente de esta magnitud en Kelvin?",
+    "image": null,
+    "options": [
+      { "text": "$423.15 \\text{ K}$", "correct": true },
+      { "text": "$123.15 \\text{ K}$", "correct": false },
+      { "text": "$323.15 \\text{ K}$", "correct": false },
+      { "text": "$150.15 \\text{ K}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para pasar grados centígrados a la unidad del SI debes adicionar la constante física de conversión: $^\\circ\\text{C} = K - 273.15$.",
+    "explanation": "Simplemente se le suma la base diferencial a los grados Celsius reportados: $150 + 273.15 = 423.15 \\text{ K}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YM",
+    "question": "Si una prueba de sanidad hídrica reporta una contaminación de $4.5 \\text{ mg}$ de plomo analizados en una muestra de agua de $3 \\text{ L}$, ¿cuál es la concentración del elemento tóxico en partes por millón (ppm)?",
+    "image": null,
+    "options": [
+      { "text": "$13.5 \\text{ ppm}$", "correct": false },
+      { "text": "$1.5 \\text{ ppm}$", "correct": true },
+      { "text": "$4.5 \\text{ ppm}$", "correct": false },
+      { "text": "$0.15 \\text{ ppm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para soluciones acuosas altamente diluidas, una parte por millón coincide de manera directa con la medición de la relación en mg/L.",
+    "explanation": "Se divide la masa en miligramos entre los litros totales ensayados: $4.5 \\text{ mg} / 3 \\text{ L} = 1.5 \\text{ mg/L}$, lo que es numéricamente igual a $1.5 \\text{ ppm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YN",
+    "question": "En la reacción sintética $\\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3$. Con base en este comportamiento, ¿cuántos moles de hidrógeno se requieren consumir teóricamente para reaccionar completamente con $4 \\text{ moles}$ de gas nitrógeno?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ moles}$", "correct": false },
+      { "text": "$6 \\text{ moles}$", "correct": false },
+      { "text": "$12 \\text{ moles}$", "correct": true },
+      { "text": "$8 \\text{ moles}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa con atención los coeficientes de la ecuación balanceada para establecer la regla de tres correcta.",
+    "explanation": "La relación molar entre las especies $\\text{N}_2$ y $\\text{H}_2$ es de $1$ a $3$. Por lo tanto, si se procesan en el reactor $4 \\text{ moles}$ de nitrógeno, se demandarán $4 \\times 3 = 12 \\text{ moles}$ de hidrógeno diatómico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YO",
+    "question": "Si una muestra de etanol absoluto puro tiene una densidad volumétrica de $0.79 \\text{ g/mL}$ en condiciones controladas, ¿qué masa física en gramos poseerán exactamente $200 \\text{ mL}$ de este fluido orgánico?",
+    "image": null,
+    "options": [
+      { "text": "$1,580 \\text{ g}$", "correct": false },
+      { "text": "$158 \\text{ g}$", "correct": true },
+      { "text": "$253 \\text{ g}$", "correct": false },
+      { "text": "$79 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen experimental se obtiene despejando de la relación básica como $V = \\frac{m}{d}$.",
+    "explanation": "Despejando matemáticamente la masa: $m = d \\cdot V$. Sustituyendo, $m = 0.79 \\text{ g/mL} \\times 200 \\text{ mL} = 158 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YP",
+    "question": "El cloro natural presenta el isótopo $\\text{Cl-35}$ ($35 \\text{ uma}$) con un $75\\%$ de abundancia, y el $\\text{Cl-37}$ ($37 \\text{ uma}$) con un $25\\%$ de distribución isotópica. ¿Cuál es su masa atómica promedio esperada?",
+    "image": null,
+    "options": [
+      { "text": "$36.0 \\text{ uma}$", "correct": false },
+      { "text": "$35.5 \\text{ uma}$", "correct": true },
+      { "text": "$35.0 \\text{ uma}$", "correct": false },
+      { "text": "$37.5 \\text{ uma}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa una combinación ponderada sumando el producto de cada masa isotópica por su respectiva frecuencia.",
+    "explanation": "Se calcula evaluando el promedio ponderado estricto de acuerdo a la naturaleza: $(35 \\times 0.75) + (37 \\times 0.25) = 26.25 + 9.25 = 35.5 \\text{ uma}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YQ",
+    "question": "La combustión exergónica del gas propano ($\\text{C}_3\\text{H}_8$) reporta un dato de entalpía de $-2,200 \\text{ kJ/mol}$. Si en una reacción industrial se queman $2.5 \\text{ moles}$ de propano puro, ¿cuánta energía en forma de calor residual se libera de manera neta?",
+    "image": null,
+    "options": [
+      { "text": "$5,500 \\text{ kJ}$", "correct": true },
+      { "text": "$4,400 \\text{ kJ}$", "correct": false },
+      { "text": "$2,200 \\text{ kJ}$", "correct": false },
+      { "text": "$880 \\text{ kJ}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como el problema pide la energía térmica liberada neta, procesa los valores en valor absoluto multiplicando por la carga estequiométrica.",
+    "explanation": "Se multiplica aritméticamente el calor irradiado por un mol con la cantidad respectiva de moles que participan: $2,200 \\text{ kJ/mol} \\times 2.5 \\text{ moles} = 5,500 \\text{ kJ}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YR",
+    "question": "La vida media radiactiva del isótopo $\\text{Carbono-14}$ es de $5,730 \\text{ a\\u00f1os}$. Si un fósil contenía de origen $100 \\, \\mu\\text{g}$ de núcleo inestable y ahora solo le quedan $25 \\, \\mu\\text{g}$, ¿cuántos años han pasado desde la fijación?",
+    "image": null,
+    "options": [
+      { "text": "$5,730 \\text{ a\\u00f1os}$", "correct": false },
+      { "text": "$11,460 \\text{ a\\u00f1os}$", "correct": true },
+      { "text": "$17,190 \\text{ a\\u00f1os}$", "correct": false },
+      { "text": "$2,865 \\text{ a\\u00f1os}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza secuencialmente las etapas del decaimiento dividiendo por dos cada bloque de masa original para identificar los ciclos iterados.",
+    "explanation": "De $100$ a $50$ es una sola vida media. De $50$ a $25$ corresponde a un segundo ciclo. En total han pasado 2 lapsos de vidas medias: $5,730 \\times 2 = 11,460 \\text{ a\\u00f1os}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YS",
+    "question": "Si se requieren exactamente $30 \\text{ mL}$ de reactivo $\\text{NaOH}$ a $0.1 \\text{ M}$ para titular e inactivar por completo $15 \\text{ mL}$ de una disolución remanente de $\\text{HCl}$, ¿cuál era la concentración molar exacta del ácido original?",
+    "image": null,
+    "options": [
+      { "text": "$0.05 \\text{ M}$", "correct": false },
+      { "text": "$0.1 \\text{ M}$", "correct": false },
+      { "text": "$0.2 \\text{ M}$", "correct": true },
+      { "text": "$0.3 \\text{ M}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen del componente ácido se despeja como $V_a = \\frac{M_b V_b}{M_a}$.",
+    "explanation": "Despejando la ecuación del punto de equilibrio estequiométrico: $M_a = (M_b \\cdot V_b) / V_a$. De manera que $M_a = (0.1 \\text{ M} \\times 30 \\text{ mL}) / 15 \\text{ mL} = 3 / 15 = 0.2 \\text{ M}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YT",
+    "question": "Considerando teóricamente que $1 \\text{ mol}$ estructural de oro tiene un peso de $197 \\text{ g}$ y alberga en su interior $6.02 \\times 10^{23}$ átomos idénticos, ¿cuál es la masa aproximada de un solo átomo en gramos?",
+    "image": null,
+    "options": [
+      { "text": "$3.27 \\times 10^{-22} \\text{ g}$", "correct": true },
+      { "text": "$3.27 \\times 10^{22} \\text{ g}$", "correct": false },
+      { "text": "$1.18 \\times 10^{26} \\text{ g}$", "correct": false },
+      { "text": "$3.05 \\times 10^{-24} \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa una división de la masa elemental sobre la constante numérica molar prestando atención rigurosa al formato científico del resultado.",
+    "explanation": "Se divide algebraicamente la masa de la sustancia entre el número fundamental: $197 / (6.02 \\times 10^{23}) \\approx 32.72 \\times 10^{-23} \\text{ g}$, que expresado en base normalizada científica es $3.27 \\times 10^{-22} \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YU",
+    "question": "Un equivalente electroquímico de carga es de $96,500 \\text{ C}$. Para conseguir reducir artificialmente un metal inorgánico $\\text{Cu}^{2+}$ a un estado sólido, el esquema requiere $2 \\text{ moles}$ de intercambio. ¿Cuántos Coulombs se necesitan para purificar $1 \\text{ mol}$ de dicho elemento?",
+    "image": null,
+    "options": [
+      { "text": "$96,500 \\text{ C}$", "correct": false },
+      { "text": "$48,250 \\text{ C}$", "correct": false },
+      { "text": "$193,000 \\text{ C}$", "correct": true },
+      { "text": "$289,500 \\text{ C}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el valencia del ion para saber cuántos múltiplos de la constante electromagnética debes sumar al proceso.",
+    "explanation": "Dado que de manera obligada se requieren $2 \\text{ moles}$ libres de electrones para la fase reductiva, se multiplica el factor predeterminado de Faraday por dos: $2 \\times 96,500 \\text{ C} = 193,000 \\text{ C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YV",
+    "question": "De acuerdo con estimaciones, para el año civil $1519$, se calculó de forma indirecta que la ciudad hegemónica precolombina albergaba $250,000$ habitantes urbanos. ¿De qué manera debe expresarse este parámetro utilizando notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$2.5 \\times 10^4$", "correct": false },
+      { "text": "$2.5 \\times 10^5$", "correct": true },
+      { "text": "$25.0 \\times 10^4$", "correct": false },
+      { "text": "$0.25 \\times 10^6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Coloca el primer punto y cuenta cuidadosamente las cifras desplazadas del número real entero.",
+    "explanation": "Para la conversión formal técnica a notación, el separador decimal se desliza exactamente $5$ ubicaciones hacia la izquierda, obteniendo exitosamente $2.5 \\times 10^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YW",
+    "question": "Si una caravana de mercancías transportaba un inventario de $150 \\text{ arrobas}$ y la métrica de peso histórico estipulaba que $1 \\text{ arroba} \\approx 11.5 \\text{ kg}$, ¿cuál era la equivalencia precisa en kilogramos totales del cargamento?",
+    "image": null,
+    "options": [
+      { "text": "$1,725 \\text{ kg}$", "correct": true },
+      { "text": "$1,500 \\text{ kg}$", "correct": false },
+      { "text": "$1,150 \\text{ kg}$", "correct": false },
+      { "text": "$1,800 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa una regla de tres directa multiplicando la masa individual con la cantidad histórica solicitada.",
+    "explanation": "Multiplicando algebraicamente de forma continua ambas escalas de peso: $150 \\text{ arrobas} \\times 11.5 \\text{ kg/arroba} = 1,725 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YX",
+    "question": "En $1848$, el espacio territorial original de México era de unos $4,500,000 \\text{ km}^2$. Si la cesión impuesta implicó $2,400,000 \\text{ km}^2$, ¿cuál es el cálculo del porcentaje de superficie nacional escindida?",
+    "image": null,
+    "options": [
+      { "text": "$45.2\\%$", "correct": false },
+      { "text": "$53.3\\%$", "correct": true },
+      { "text": "$60.1\\%$", "correct": false },
+      { "text": "$50.0\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Procesa la división de las áreas territoriales perdidas sobre la medida original máxima reportada.",
+    "explanation": "El grado de porcentaje absoluto del tratado se determina mediante la relación: $(2,400,000 / 4,500,000) \\times 100 = 0.5333 \\times 100 = 53.3\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YY",
+    "question": "Si una milicia bélica de $1810$ documentó su travesía como de $50 \\text{ leguas}$ exactas ($1 \\text{ legua} \\approx 4.19 \\text{ km}$), ¿cuántos metros nominales marcharon realmente hacia su destino geográfico final?",
+    "image": null,
+    "options": [
+      { "text": "$20,950 \\text{ m}$", "correct": false },
+      { "text": "$209,500 \\text{ m}$", "correct": true },
+      { "text": "$2,095,000 \\text{ m}$", "correct": false },
+      { "text": "$4,190,000 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el resultado en el margen de kilómetros y de inmediato realiza el despliegue al multiplicador por mil para aislar los metros.",
+    "explanation": "Paso 1, unificamos longitudes base: $50 \\times 4.19 = 209.5 \\text{ km}$. Paso 2, considerando que $1 \\text{ km} = 1,000 \\text{ m}$, el bloque total es: $209.5 \\times 1,000 = 209,500 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00YZ",
+    "question": "Levantar un monasterio exigía antes un cronograma de $12 \\text{ a\\u00f1os}$ con $300 \\text{ obreros}$. Si se demandaba comprimir la edificación a solo $8 \\text{ a\\u00f1os}$, asumiendo un modelo puramente de proporción inversa, ¿cuántos albañiles eran requeridos?",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ obreros}$", "correct": false },
+      { "text": "$400 \\text{ obreros}$", "correct": false },
+      { "text": "$450 \\text{ obreros}$", "correct": true },
+      { "text": "$600 \\text{ obreros}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea una equivalencia inversa en la que el producto del tiempo y el número de la cuadrilla debe dar igual en el primer y en el segundo caso.",
+    "explanation": "Respuesta por método inverso de trabajo: el producto $12 \\times 300 = 3,600$ se conserva inalterable. Por lo que, $3,600 / 8 = 450 \\text{ obreros}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZA",
+    "question": "Una administración de $1876-1911$ elevó la conectividad material pasando un tramo inicial de $600 \\text{ km}$ de rieles a una culminación de $19,300 \\text{ km}$ tras transcurrir $35 \\text{ a\\u00f1os}$. ¿Cuántos kilómetros en el desglose estadístico promediaron por cada vuelta anual de dicho período?",
+    "image": null,
+    "options": [
+      { "text": "$420.5 \\text{ km/a\\u00f1o}$", "correct": false },
+      { "text": "$534.2 \\text{ km/a\\u00f1o}$", "correct": true },
+      { "text": "$602.8 \\text{ km/a\\u00f1o}$", "correct": false },
+      { "text": "$551.4 \\text{ km/a\\u00f1o}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la diferencia real neta que existió entre los montos de la red ferroviaria y divídela entre los años indicados en el problema.",
+    "explanation": "Se aparta la cobertura de origen mediante diferencia: $19,300 - 600 = 18,700 \\text{ km}$ añadidos artificialmente. Se calcula el ritmo: $18,700 / 35 = 534.28 \\text{ km/a\\u00f1o}$ (valor redondeado a un décimo $\\approx 534.2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZB",
+    "question": "En $1937$, una iniciativa redistribuyó socialmente unas parcelas sumando una métrica general de $18 \\text{ millones}$ de hectáreas nacionales. Si $1 \\text{ hect\\u00e1rea} = 10,000 \\text{ m}^2$, ¿cuántos de estos metros planos se asignaron como formato de notación científica oficial?",
+    "image": null,
+    "options": [
+      { "text": "$1.8 \\times 10^{11} \\text{ m}^2$", "correct": true },
+      { "text": "$1.8 \\times 10^{10} \\text{ m}^2$", "correct": false },
+      { "text": "$1.8 \\times 10^{12} \\text{ m}^2$", "correct": false },
+      { "text": "$1.8 \\times 10^{9} \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten suma precaución contabilizando el conteo de ceros a lo largo del proceso después de aplicar el factor de traslación multiespacial por diez mil.",
+    "explanation": "Traduciendo, $18 \\text{ millones} = 18,000,000 \\text{ hect\\u00e1reas}$. Al multiplicar directamente: $180,000,000,000 \\text{ m}^2$. En notación científica condensada, esto equivale a $1.8 \\times 10^{11} \\text{ m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZC",
+    "question": "En $1938$, al revisar estadísticas se documentó que un enclave producía localmente de forma ininterrumpida $5,000 \\text{ barriles}$ al día. Si por regla universal un contenedor rinde $159 \\text{ L}$, ¿cuál era la productividad neta de crudo reportada en la unidad de litros fluidos diarios?",
+    "image": null,
+    "options": [
+      { "text": "$159,000 \\text{ L}$", "correct": false },
+      { "text": "$795,000 \\text{ L}$", "correct": true },
+      { "text": "$7,950,000 \\text{ L}$", "correct": false },
+      { "text": "$31,800 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve ejecutando directamente una simple progresión para sustituir a litros la aportación bruta referida en los barriles estandarizados.",
+    "explanation": "Basta con multiplicar íntegramente de manera constante los dos atributos principales señalados en el estudio: $5,000 \\times 159 = 795,000 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZD",
+    "question": "Tras un estudio sobre el censo civil de la época nacional (reportando $15.1 \\text{ millones}$ en $1910$ y unos marcados $14.3 \\text{ millones}$ en $1921$), ¿qué índice conceptual que aproxime el porcentaje base del censo anterior de $1910$ de habitantes fue perdido y borrado por el cambio social?",
+    "image": null,
+    "options": [
+      { "text": "$4.2\\%$", "correct": false },
+      { "text": "$6.8\\%$", "correct": false },
+      { "text": "$5.3\\%$", "correct": true },
+      { "text": "$10.0\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta la población base, averigua la pérdida, y determina a qué factor representativo de fracción decimal porcentual es idéntica con relación a la matriz anterior.",
+    "explanation": "Calculando déficit originado: $15.1 - 14.3 = 0.8 \\text{ millones}$. El factor relacional base de este decremento demográfico es $(0.8 / 15.1) \\times 100 = 5.298\\%$, que con fines prácticos asimilamos a un aproximado normalizado numéricamente del $5.3\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZE",
+    "question": "En un incidente acaecido en $1862$, un frente se conformó superando numéricamente a la facción opuesta: $6,000 \\text{ soldados}$ extranjeros frente a $4,000 \\text{ soldados}$ nacionales defensores. Si una réplica en modelo simulado escalado envía a $1,500 \\text{ soldados}$ del cuerpo invasor preservando dicha equivalencia proporcional asimétrica intacta, ¿cuál será la escala del escuadrón mexicano asociado?",
+    "image": null,
+    "options": [
+      { "text": "$2,250$", "correct": false },
+      { "text": "$1,000$", "correct": true },
+      { "text": "$800$", "correct": false },
+      { "text": "$1,200$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica una distribución de regla escalonada sencilla pero directa considerando el divisor y dividendo para mantener congruentes las variables.",
+    "explanation": "Simplificando de la representación, la regla de tres directa lineal para correlación es: $(1,500 \\times 4,000) / 6,000 = 6,000,000 / 6,000 = 1,000 \\text{ soldados}$ locales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZF",
+    "question": "Analizando la duración exacta de un ciclo interino transcurrido entre $1864$ y $1867$, se totalizó que la ocupación se mantuvo un bloque ininterrumpido abarcando $3 \\text{ a\\u00f1os}$ junto a $1 \\text{ mes}$ extra adicional ($37 \\text{ meses}$ globales en el saldo). Si el analista ajusta estadísticamente una constante de duración estándar con meses de $30.4 \\text{ d\\u00edas}$, ¿cuántas jornadas completas promedió dicho mandato?",
+    "image": null,
+    "options": [
+      { "text": "$1,095 \\text{ d\\u00edas}$", "correct": false },
+      { "text": "$1,125 \\text{ d\\u00edas}$", "correct": true },
+      { "text": "$1,200 \\text{ d\\u00edas}$", "correct": false },
+      { "text": "$1,000 \\text{ d\\u00edas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el cierre absoluto es pertinente computar e integrar el dato parcial mediante una expansión por el indicador decimal dado.",
+    "explanation": "El lapso de días cronometrados se genera al multiplicar integralmente las porciones por el cociente de prorrateo: $37 \\times 30.4 = 1,124.8 \\text{ d\\u00edas}$, que mediante convención analítica ordinaria de redondeos sube a $1,125 \\text{ d\\u00edas}$ cerrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZG",
+    "question": "En $1945$, la división aeronáutica operó escuadrones veloces alcanzando en picada registros sostenidos medidos hasta por encima de los $690 \\text{ km/h}$. Al registrar el acta internacional técnica que emplea como pilar fundamental a los parámetros estipulados por el SI, ¿qué magnitud exacta se introdujo en el casillero de velocidad en formato de metros por segundo (m/s)?",
+    "image": null,
+    "options": [
+      { "text": "$69.0 \\text{ m/s}$", "correct": false },
+      { "text": "$191.6 \\text{ m/s}$", "correct": true },
+      { "text": "$345.0 \\text{ m/s}$", "correct": false },
+      { "text": "$120.5 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica una corrección rápida en base decimal fraccionando el monto en un factor divisor equivalente a $3.6$ escalar.",
+    "explanation": "Al realizar metódicamente la partición operativa de corrección geométrica entre $\\text{km/h}$ y $\\text{m/s}$ empleando constantes, nos arroja un salto unitario dividiendo: $690 / 3.6 = 191.666... \\text{ m/s}$, equivalente al índice resumido de la segunda alternativa referida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZH",
+    "question": "En conmemoración a unas fechas patrias forjadas en $1921$, se fabricó históricamente una presea física pesando rigurosamente en la báscula cerca de $1.2 \\text{ onzas troy}$ labradas en pureza. Si por norma de acuñación $1 \\text{ onza troy} \\approx 31.1 \\text{ g}$, ¿cuál sería el peso íntegro resguardado en la posesión de $5 \\text{ Centenarios}$ adquiridos en la colección individual?",
+    "image": null,
+    "options": [
+      { "text": "$155.5 \\text{ g}$", "correct": false },
+      { "text": "$186.6 \\text{ g}$", "correct": true },
+      { "text": "$31.1 \\text{ g}$", "correct": false },
+      { "text": "$220.0 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Procede primero calculando la masa unificada interna de cada pieza circulante antes de integrar el lote colectivo.",
+    "explanation": "El protocolo aritmético se desglosa primero identificando de inicio el oro retenido por cada bloque: $1.2 \\times 31.1 = 37.32 \\text{ g}$. Al multiplicar consecuentemente al lote final acumulado: $37.32 \\times 5 = 186.6 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZI",
+    "question": "Al amparo de una regulación macroeconómica gestada en $1994$, las exportaciones de frontera cruzaron aceleradamente un tope inicial trazado de $50 \\text{ mil millones}$ para expandirse en su clímax de modo exponencial hasta la cuota de $125 \\text{ mil millones}$ brutos de dólares transaccionales. ¿Cuál fue matemáticamente la métrica total del porcentaje marginal representativo del aumento logrado respecto a la métrica estacional anterior referenciada?",
+    "image": null,
+    "options": [
+      { "text": "$75\\%$", "correct": false },
+      { "text": "$150\\%$", "correct": true },
+      { "text": "$125\\%$", "correct": false },
+      { "text": "$250\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el cálculo preciso, se sustrae la brecha diferencial entre ambas cotas referenciales, para después colocar la misma sobre el divisor original.",
+    "explanation": "Se procede calculando matemáticamente a través de los datos provistos un crecimiento marginal puro neto: $125 - 50 = 75 \\text{ mil millones}$. Por ende, se divide la cifra en progresión con respecto del origen temporal referencial: $(75 / 50) \\times 100 = 1.5 \\times 100 = 150\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZJ",
+    "question": "Un complejo hídrico con arquitectura clásica estipulaba sus linderos sobre una longitud colosal evaluada globalmente en $1,280 \\text{ m}$. Si el ingeniero cartógrafo civil solo empleaba el término equivalente de varas coloniales ($0.838 \\text{ m}$ por unidad teórica respectiva), ¿qué medida se reportaría como longitud arquitectónica global en dicha documentación particular antigua?",
+    "image": null,
+    "options": [
+      { "text": "$1,072 \\text{ varas}$", "correct": false },
+      { "text": "$1,527 \\text{ varas}$", "correct": true },
+      { "text": "$1,800 \\text{ varas}$", "correct": false },
+      { "text": "$838 \\text{ varas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa una partición equivalente entre la medición de base universal provista en relación con la equivalencia modular hispánica de su fracción.",
+    "explanation": "Basta con organizar un cociente lineal en los números para reducir el segmento a la variante base antigua: al dividir la traza original $1,280 \\text{ m} / 0.838 \\text{ m/vara} \\approx 1,527.4 \\text{ varas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZK",
+    "question": "Tras documentarse un efecto devastador originado de inflaciones sin precedentes, un bloque tarifario específico encareció sus consumos vitales por una alícuota exorbitante promediada al $1,500\\%$ estructural. Si uno de estos artículos clave de alimentación fijaba su coste ordinario a solo $20 \\text{ viejos pesos}$, ¿a qué importe oficial, en sumatoria general, debía finalmente liquidarse ante dicha repercusión arancelaria temporal?",
+    "image": null,
+    "options": [
+      { "text": "$300 \\text{ pesos}$", "correct": false },
+      { "text": "$320 \\text{ pesos}$", "correct": true },
+      { "text": "$1,520 \\text{ pesos}$", "correct": false },
+      { "text": "$200 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Coteja el volumen numérico multiplicativo provocado por la tasa porcentual pura de forma aislada, para luego sumar el total extra con el precio basal primigenio.",
+    "explanation": "Extrayendo el valor del gravamen interno puro en el capital: se divide $(1,500 / 100) \\times 20 = 15 \\times 20 = 300 \\text{ pesos}$ de puro aumento extra bruto. Consolidando el importe, el costo comercial en la calle debió tasarse en torno a: $20 + 300 = 320 \\text{ viejos pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZL",
+    "question": "En los anales del país en torno a $2007$, la división policíaca confisco una carga no legal masiva ascendente en la báscula del pesaje civil a unas $23.5 \\text{ t}$ métricas netas comprobadas al ras. Si como se sabe normativamente $1 \\text{ t} = 1,000,000 \\text{ g}$, ¿de qué forma académica ortodoxa debe consignarse obligatoriamente la cifra consolidada en la tabla formal operando únicamente en base a su notación científica?",
+    "image": null,
+    "options": [
+      { "text": "$2.35 \\times 10^7 \\text{ g}$", "correct": true },
+      { "text": "$2.35 \\times 10^6 \\text{ g}$", "correct": false },
+      { "text": "$23.5 \\times 10^7 \\text{ g}$", "correct": false },
+      { "text": "$2.35 \\times 10^8 \\text{ g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el valor al grado total del orden estipulado e inserta posteriormente un decimal entre la primera base para compactarlo.",
+    "explanation": "Aplicando el escalar progresivo, tenemos el bruto base en números ordinarios: $23.5 \\text{ t} \\times 1,000,000 = 23,500,000 \\text{ g}$. Al reescribirlo, reduciendo como exigen las guías científicas del SI para mantener una notación del $1$ al $10$ para las bases, el desplazamiento final acapara todo en $2.35 \\times 10^7 \\text{ g}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZM",
+    "question": "Durante un encendido escrutinio cívico nacional que concluyó en $2006$, una cúpula registró formalmente una captación estadística en su escrutinio que ascendió a un conteo absoluto base de $15,000,284$ votos totales emitidos a su favor frente a los validados legalmente de su directo perseguidor político quien acumuló $14,756,350$. ¿A cuánto ascendía explícitamente y rigurosamente el parámetro de la divergencia absoluta de conteo entre estos dos bandos si fuese expresada empleando estricta notación científica formal?",
+    "image": null,
+    "options": [
+      { "text": "$2.43934 \\times 10^5$", "correct": true },
+      { "text": "$2.43934 \\times 10^6$", "correct": false },
+      { "text": "$4.39340 \\times 10^4$", "correct": false },
+      { "text": "$2.43934 \\times 10^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Deberás sustraer el término minoritario al mayor a fines de conocer la distancia matemática precisa y de allí convertirla recorriendo lugares a la izquierda.",
+    "explanation": "Calculando la divergencia aritmética absoluta final del padrón con base a los sufragios computados: $15,000,284 - 14,756,350 = 243,934$ votos diferenciales plenos en las casillas. Su notación matemática decimal normalizada estandarizada oficial para dicha magnitud equivale a $2.43934 \\times 10^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZN",
+    "question": "Bajo la coyuntura del gran siniestro acaecido durante el colapso territorial que impactó directamente al centro metropolitano en el entorno de $1985$, la escala sismológica demostró que un tipo de trenes de ondas letales penetraron viajando a $6.5 \\text{ km/s}$. Teniendo presente los rudimentos para un modelo cinético estándar de cambio de dimensión horaria, ¿a qué índice terminal numérico de rapidez en kilómetros por hora (km/h) equivale esa manifestación sísmica registrada?",
+    "image": null,
+    "options": [
+      { "text": "$3,600 \\text{ km/h}$", "correct": false },
+      { "text": "$23,400 \\text{ km/h}$", "correct": true },
+      { "text": "$39,000 \\text{ km/h}$", "correct": false },
+      { "text": "$1,805 \\text{ km/h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para ejecutar una homologación coherente frente al intervalo referencial horario estipulado en el cociente, recurre a multiplicar el elemento por el número integral exacto de segundos insertos en el ciclo.",
+    "explanation": "La conversión escalar impone que, para transformar directamente el parámetro de velocidad medido en fracciones unitarias de $\\text{km/s}$ al indicador genérico de $\\text{km/h}$, la variable bruta referencial de medición debe ser indefectiblemente superpuesta con su factor de multiplicación global por un umbral de $3,600$ (los segundos contenidos dentro de una hora reloj civil entera). Dando pie a $6.5 \\times 3,600 = 23,400 \\text{ km/h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ZO",
+    "question": "A partir del aval legislativo con aval constitucional implementado unánimemente en la década de los $50$ del siglo pasado, un órgano comicial que apenas contemplaba a $15,000$ hombres matriculados, se engrosó sumando de golpe sin distinción en sus distritos civiles a $17,000$ nuevas titulares mujeres adscritas. ¿Qué fracción demográfica porcentual general sobre este mismo flamante nuevo padrón mixto integral representaron por ende las votantes en las urnas de ese entorno local imaginario?",
+    "image": null,
+    "options": [
+      { "text": "$53.1\\%$", "correct": true },
+      { "text": "$88.2\\%$", "correct": false },
+      { "text": "$46.9\\%$", "correct": false },
+      { "text": "$113.3\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El porcentaje se extrae al agrupar los totales en un divisor definitivo, en virtud del cual se procede a ubicar por encima únicamente a la porción nominal referida de interés general para arrojar la estadística requerida.",
+    "explanation": "Calculamos el volumen global unificado tras el periodo de altas del censo referenciado como: $15,000 + 17,000 = 32,000$ adscritos habilitados al corte nominal. A partir de allí, la densidad representacional porcentual del contingente de ciudadanas mujeres es extraída evaluando su índice respectivo: $(17,000 / 32,000) \\times 100 = 0.53125 \\times 100 = 53.125\\%$, mismo dígito que encaja cerrando el valor numérico en un escalón técnico ajustado a $53.1\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
