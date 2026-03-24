@@ -12726,5 +12726,365 @@
     "explanation": "Matemáticamente: $(500 / 5) + (500 / 4) = 100 + 125 = 225$. Ortográficamente: 'He' se escribe con 'h', 'biblioteca' con 'b', 'volúmenes' lleva tilde, 'deshecho' de deshacer es con 'h' intercalada.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01AJ",
+    "question": "¿Cuál de las siguientes rectas es perpendicular a la que pasa por los puntos $(2, 4)$ y $(5, -1)$?",
+    "image": null,
+    "options": [
+      { "text": "$y = -\\frac{5}{3}x$", "correct": false },
+      { "text": "$y = \\frac{5}{3}x$", "correct": false },
+      { "text": "$y = \\frac{3}{5}x$", "correct": true },
+      { "text": "$y = -\\frac{3}{5}x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Calcula la pendiente entre los puntos con $m = \\frac{y_2 - y_1}{x_2 - x_1}$. La pendiente perpendicular debe ser inversa y de signo contrario.",
+    "explanation": "La pendiente entre los puntos dados es $m = \\frac{-1 - 4}{5 - 2} = -\\frac{5}{3}$. Para que una recta sea perpendicular, el producto de sus pendientes debe ser $-1$, por lo que la pendiente buscada es $\\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AK",
+    "question": "La ecuación de la recta que pasa por el punto $(5, -8)$ y que es paralela a la recta $8x - 9y - 3 = 0$ es:",
+    "image": null,
+    "options": [
+      { "text": "$9x - 8y - 32 = 0$", "correct": false },
+      { "text": "$8x - 9y - 112 = 0$", "correct": true },
+      { "text": "$8x - 9y - 32 = 0$", "correct": false },
+      { "text": "$9x - 8y - 112 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Al ser paralela, mantiene la misma estructura en $x$ y $y$. Usa la forma $Ax + By + C = 0$ sustituyendo el punto para despejar $C$.",
+    "explanation": "Las rectas paralelas tienen la misma pendiente, por lo que la ecuación tendrá la forma $8x - 9y + C = 0$. Sustituyendo $x=5$ y $y=-8$, obtenemos $8(5) - 9(-8) + C = 0$, lo que da $40 + 72 + C = 0$, resultando en $C = -112$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AL",
+    "question": "¿Cuál es la pendiente de la recta que es paralela a la recta que pasa por los puntos $A(2, -8)$ y $B(5, -10)$?",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$-\\frac{3}{2}$", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Recuerda que dos rectas paralelas comparten el mismo valor en su pendiente.",
+    "explanation": "La pendiente de la recta que pasa por $A$ y $B$ es $m = \\frac{-10 - (-8)}{5 - 2} = \\frac{-2}{3} = -\\frac{2}{3}$. Al ser paralela, la pendiente buscada es exactamente la misma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AM",
+    "question": "¿Cuál de las siguientes ecuaciones representa una recta paralela a $4x - 3y - 12 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$y = \\frac{3}{4}x - 10$", "correct": false },
+      { "text": "$y = -\\frac{4}{3}x + 2$", "correct": false },
+      { "text": "$y = -\\frac{3}{4}x - 1$", "correct": false },
+      { "text": "$y = \\frac{4}{3}x + 6$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Despeja $y$ en la ecuación original para expresarla en la forma $y = mx + b$ e identificar la pendiente.",
+    "explanation": "Al despejar $y$ de $4x - 3y - 12 = 0$, obtenemos $3y = 4x - 12$, por lo que $y = \\frac{4}{3}x - 4$. La pendiente es $\\frac{4}{3}$. La única opción con esta pendiente es $y = \\frac{4}{3}x + 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AN",
+    "question": "¿Cuál de las siguientes rectas es paralela a la que pasa por los puntos $(12, -4)$ y $(5, -7)$?",
+    "image": null,
+    "options": [
+      { "text": "$y = \\frac{7}{3}x + 5$", "correct": false },
+      { "text": "$y = \\frac{3}{7}x - 8$", "correct": true },
+      { "text": "$y = -\\frac{3}{7}x - 6$", "correct": false },
+      { "text": "$y = -\\frac{7}{3}x + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Aplica la fórmula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ y busca la opción que tenga dicho coeficiente acompañando a la variable $x$.",
+    "explanation": "Calculando la pendiente: $m = \\frac{-7 - (-4)}{5 - 12} = \\frac{-3}{-7} = \\frac{3}{7}$. La recta paralela debe tener una pendiente idéntica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AO",
+    "question": "La ecuación de la recta que pasa por el punto $(6, -8)$ y que es paralela a la recta $7x - 5y + 1 = 0$ es:",
+    "image": null,
+    "options": [
+      { "text": "$5x - 7y - 20 = 0$", "correct": false },
+      { "text": "$7x - 5y + 82 = 0$", "correct": false },
+      { "text": "$7x - 5y - 82 = 0$", "correct": true },
+      { "text": "$7x + 5y - 80 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Toma los coeficientes $A$ y $B$ de la recta original y forma la ecuación $7x - 5y + C = 0$. Sustituye las coordenadas del punto para hallar $C$.",
+    "explanation": "Mantiene los coeficientes de $x$ e $y$ por ser paralela: $7x - 5y + C = 0$. Evaluando en el punto dado $(6, -8)$, se tiene $7(6) - 5(-8) + C = 0 \\Rightarrow 42 + 40 + C = 0$, lo que implica que $C = -82$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AP",
+    "question": "Identifica cuáles de las siguientes rectas son perpendiculares a la función $y = 2x - 5$:\n1. $2x + y - 4 = 0$\n2. $x + 2y + 6 = 0$\n3. $y = -0.5x + 3$\n4. $4x - 2y + 1 = 0$\n5. $2y = -x + 8$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "3, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["GENERAL"],
+    "hint": "La pendiente original es $2$. Las rectas perpendiculares deben tener una pendiente de $-\\frac{1}{2}$. Despeja $y$ en cada opción para analizarlas.",
+    "explanation": "La recta original tiene $m = 2$. Buscamos $m = -\\frac{1}{2}$ o $-0.5$. La recta 2 se reescribe como $y = -\\frac{1}{2}x - 3$. La recta 3 es $y = -0.5x + 3$. La recta 5 es $y = -\\frac{1}{2}x + 4$. Todas estas cumplen con la condición de perpendicularidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AQ",
+    "question": "Completa el enunciado sobre las propiedades analíticas de las rectas: 'Dos rectas son ______ si el producto de sus pendientes es igual a ______; por otro lado, si sus pendientes son exactamente iguales, las rectas se consideran ______.'",
+    "image": null,
+    "options": [
+      { "text": "Paralelas, 1, coincidentes", "correct": false },
+      { "text": "Secantes, 0, oblicuas", "correct": false },
+      { "text": "Perpendiculares, -1, paralelas", "correct": true },
+      { "text": "Oblicuas, 1, paralelas", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Piensa en el criterio de ortogonalidad $m_1 \\cdot m_2 = -1$ y en la condición matemática de colinealidad direccional.",
+    "explanation": "Las rectas perpendiculares cumplen que el producto de sus pendientes es $-1$. Si poseen la misma pendiente pero distinta ordenada al origen, no se cruzan y son paralelas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AR",
+    "question": "Relaciona la forma algebraica de la ecuación de la recta con el nombre que le corresponde en geometría analítica:\nI. $y = mx + b$\nII. $Ax + By + C = 0$\nIII. $\\frac{x}{a} + \\frac{y}{b} = 1$\n\nA. Forma general\nB. Forma simétrica\nC. Forma pendiente-ordenada al origen",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "La forma general siempre está igualada a cero. La simétrica involucra fracciones igualadas a uno.",
+    "explanation": "La ecuación $y = mx + b$ revela la pendiente y la intersección con el eje Y. $Ax + By + C = 0$ igualada a cero es la forma general, y $\\frac{x}{a} + \\frac{y}{b} = 1$ utiliza las intersecciones $a$ y $b$ con los ejes coordinados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AS",
+    "question": "Un estudiante del CEPREDIX modela la trayectoria de dos drones de inspección agrícola en un plano cartesiano. El dron A sigue una ruta descrita por la recta $3x - 4y + 12 = 0$, mientras que el dron B sigue una trayectoria perpendicular a la primera y pasa exactamente por el punto de origen $(0,0)$. ¿Cuál es la ecuación matemática que rige la trayectoria del dron B?",
+    "image": null,
+    "options": [
+      { "text": "$3x - 4y = 0$", "correct": false },
+      { "text": "$4x - 3y = 0$", "correct": false },
+      { "text": "$3x + 4y = 0$", "correct": false },
+      { "text": "$4x + 3y = 0$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Extrae la pendiente del dron A, calcula la recíproca negativa y utiliza la forma punto-pendiente con $(0,0)$.",
+    "explanation": "La pendiente del dron A es $m_A = \\frac{3}{4}$. La trayectoria perpendicular tendrá $m_B = -\\frac{4}{3}$. Usando la forma $y = mx + b$ y pasando por el origen ($b=0$), obtenemos $y = -\\frac{4}{3}x$, que al multiplicarse por $3$ y reordenarse se convierte en $4x + 3y = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AT",
+    "question": "Identifica cuáles de los siguientes puntos en el plano cartesiano pertenecen estrictamente a la recta definida por $5x - 2y - 10 = 0$:\n1. $(2, 0)$\n2. $(0, -5)$\n3. $(4, 5)$\n4. $(-2, 5)$\n5. $(1, 1)$",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Para comprobar si un punto pertenece a una recta, sustituye sus valores $x$ e $y$ en la ecuación y verifica si el resultado es igual a cero.",
+    "explanation": "Al sustituir, para $(2,0)$: $5(2) - 2(0) - 10 = 0$. Para $(0,-5)$: $5(0) - 2(-5) - 10 = 10 - 10 = 0$. Para $(4,5)$: $5(4) - 2(5) - 10 = 20 - 10 - 10 = 0$. Los puntos 4 y 5 dan resultados distintos a cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AU",
+    "question": "Completa el texto sobre los fundamentos analíticos: 'Para hallar la distancia entre un punto y una recta, se requiere trazar un segmento imaginario ______ desde el punto de referencia hacia la recta, el cual representa numéricamente la ______ distancia posible entre ambos elementos geométricos.'",
+    "image": null,
+    "options": [
+      { "text": "Paralelo, mayor", "correct": false },
+      { "text": "Perpendicular, menor", "correct": true },
+      { "text": "Oblicuo, menor", "correct": false },
+      { "text": "Secante, mayor", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Piensa en el camino más corto para cruzar una calle recta desde un punto específico de la banqueta.",
+    "explanation": "La distancia geométrica más corta entre un punto y una recta siempre se obtiene trazando una línea perpendicular que conecte ambos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AV",
+    "question": "Relaciona el valor analítico de la pendiente $m$ con el tipo de ángulo de inclinación $\\theta$ que se forma respecto al eje de las abscisas:\nI. $m > 0$\nII. $m < 0$\nIII. $m = 0$\n\nA. Ángulo obtuso ($90^\\circ < \\theta < 180^\\circ$)\nB. Ángulo horizontal o nulo ($\\theta = 0^\\circ$)\nC. Ángulo agudo ($0^\\circ < \\theta < 90^\\circ$)",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Recuerda el comportamiento de la función tangente en los diferentes cuadrantes trigonométricos.",
+    "explanation": "Una pendiente positiva implica una inclinación hacia la derecha formando un ángulo agudo. Una negativa se inclina hacia la izquierda formando un ángulo obtuso. Una pendiente cero indica que no hay inclinación vertical, siendo totalmente paralela al eje horizontal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AW",
+    "question": "Calcula la distancia mínima existente desde el punto $P(-2, 3)$ hasta la recta definida como $3x - 4y + 5 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{11}{5}$", "correct": false },
+      { "text": "$\\frac{17}{5}$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{13}{5}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Aplica la fórmula general para distancia entre punto y recta: $d = \\frac{|Ax + By + C|}{\\sqrt{A^2 + B^2}}$.",
+    "explanation": "Sustituyendo los valores en la fórmula: $d = \\frac{|3(-2) - 4(3) + 5|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|-6 - 12 + 5|}{\\sqrt{9 + 16}} = \\frac{|-13|}{\\sqrt{25}} = \\frac{13}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AX",
+    "question": "Selecciona en la siguiente lista aquellas ecuaciones algebraicas que representan líneas rectas perpendiculares al eje de las ordenadas (eje Y):\n1. $y = 5$\n2. $x = -2$\n3. $3y + 6 = 0$\n4. $x - 4y = 0$\n5. $y - 7 = 0$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Una recta que es perpendicular al eje Y debe ser completamente paralela al eje X, lo cual se representa con una constante igualada a $y$.",
+    "explanation": "Las rectas horizontales tienen una pendiente igual a cero, por lo tanto la variable $x$ desaparece de la ecuación general. Las ecuaciones $y=5$, $3y+6=0$ y $y-7=0$ se reducen a valores constantes de $y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AY",
+    "question": "Completa el texto: 'En el estudio de la geometría analítica, el ______ de un segmento de recta específico divide a este en dos partes idénticas en magnitud y se calcula obteniendo el ______ de las coordenadas $x$ y $y$ correspondientes a los extremos.'",
+    "image": null,
+    "options": [
+      { "text": "Centroide, producto", "correct": false },
+      { "text": "Punto medio, promedio", "correct": true },
+      { "text": "Vértice, cociente", "correct": false },
+      { "text": "Foco, diferencial", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "La fórmula utiliza sumas divididas entre dos, lo cual es equivalente a la media aritmética.",
+    "explanation": "El punto medio es el centro de un segmento. Se determina promediando analíticamente los valores de los ejes horizontales y verticales de sus puntos extremos mediante la fórmula $\\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01AZ",
+    "question": "Relaciona la representación matemática con el concepto analítico geométrico que permite calcular:\nI. $m = \\frac{y_2 - y_1}{x_2 - x_1}$\nII. $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$\nIII. $P_m = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$\n\nA. Punto medio de un segmento\nB. Inclinación o pendiente\nC. Distancia métrica entre dos coordenadas",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["GENERAL"],
+    "hint": "La raíz cuadrada con binomios elevados al cuadrado proviene de la aplicación del teorema de Pitágoras.",
+    "explanation": "La ecuación I describe el cambio vertical sobre el cambio horizontal (pendiente). La ecuación II es la adaptación del teorema de Pitágoras para distancias. La ecuación III calcula la media aritmética para ubicar un punto central.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BA",
+    "question": "Determina las coordenadas del único punto de intersección en el plano bidimensional que se forma entre las rectas $2x + y - 5 = 0$ y $x - y - 1 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$(1, 2)$", "correct": false },
+      { "text": "$(-2, 1)$", "correct": false },
+      { "text": "$(2, 1)$", "correct": true },
+      { "text": "$(2, -1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Este problema se reduce a resolver un sistema de ecuaciones lineales de $2 \\times 2$. El método de suma y resta es ideal aquí.",
+    "explanation": "Al sumar las ecuaciones verticalmente obtenemos $3x - 6 = 0$, despejando $x = 2$. Sustituyendo en la segunda ecuación $2 - y - 1 = 0$, llegamos a $y = 1$. Las coordenadas resultantes son $(2, 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BB",
+    "question": "Un arquitecto diseña el perfil estructural de un techo con caída a una sola agua. Si el plano de elevación se representa por la recta que une de manera ininterrumpida los puntos $P(1, 4)$ y $Q(4, 10)$, ¿cuál es el ángulo de inclinación $\\theta$ respecto a una línea horizontal imaginaria? (Considera un valor aproximado de $\\tan(63.43^\\circ) \\approx 2$).",
+    "image": null,
+    "options": [
+      { "text": "$45^\\circ$", "correct": false },
+      { "text": "$63.43^\\circ$", "correct": true },
+      { "text": "$30^\\circ$", "correct": false },
+      { "text": "$71.56^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["GENERAL"],
+    "hint": "Obtén la pendiente $m$ del segmento. Posteriormente, utiliza la identidad trigonométrica inversa $\\theta = \\arctan(m)$ para encontrar el ángulo.",
+    "explanation": "Primero encontramos la pendiente de la recta: $m = \\frac{10 - 4}{4 - 1} = \\frac{6}{3} = 2$. La pendiente representa la tangente del ángulo de inclinación, así que evaluando $\\tan \\theta = 2$, el valor de $\\theta$ es aproximadamente $63.43^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01BC",
+    "question": "Un ingeniero en un proyecto especial del CEPREDIX necesita instalar y modelar un cable de soporte tensor continuo. Este elemento va desde lo alto de una torre en $(0, 12)$ hasta un contrapeso de anclaje sólido en el suelo situado en $(5, 0)$. ¿Cuál es la ecuación matemática en su forma simétrica que modela adecuadamente la trayectoria tensa del cable en cuestión?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{12} + \\frac{y}{5} = 1$", "correct": false },
+      { "text": "$12x + 5y = 1$", "correct": false },
+      { "text": "$5x + 12y = 60$", "correct": false },
+      { "text": "$\\frac{x}{5} + \\frac{y}{12} = 1$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["GENERAL"],
+    "hint": "La forma simétrica aprovecha las coordenadas donde la recta cruza los ejes. Utiliza el modelo $\\frac{x}{a} + \\frac{y}{b} = 1$.",
+    "explanation": "Los puntos dados son exactamente las intersecciones con los ejes coordenados. La intersección con $x$ es $a = 5$ y la intersección con $y$ es $b = 12$. Reemplazando directamente en la fórmula simétrica resulta $\\frac{x}{5} + \\frac{y}{12} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
