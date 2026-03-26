@@ -14526,5 +14526,365 @@
     "explanation": "La cadena completa inicia en el infectado (reservorio humano), sale por heces (puerta intestinal intermitente), viaja por el río (transmisión indirecta, vehículo inanimado), ingresa por la boca al beber (entrada digestiva) y llega al poblador sano sin defensas previas (huésped susceptible).",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01EF",
+    "question": "Identifica la expresión algebraica que NO es equivalente a las demás.",
+    "image": null,
+    "options": [
+      { "text": "$3x^2y + 5x^2y - 2x^2y$", "correct": false },
+      { "text": "$2x(3xy)$", "correct": false },
+      { "text": "$\\frac{12x^3y^2}{2xy}$", "correct": false },
+      { "text": "$3x^2y + 3xy^2$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica cada opción operando los coeficientes y las literales. Busca la expresión que no resulte en $6x^2y$.",
+    "explanation": "Al simplificar, las primeras tres opciones resultan en el monomio $6x^2y$. La última opción representa una suma de términos no semejantes que no se puede reducir a $6x^2y$, por lo que no es equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EG",
+    "question": "¿Cuál de las siguientes operaciones con monomios NO da como resultado la misma expresión que las otras tres?",
+    "image": null,
+    "options": [
+      { "text": "$(-4a^3b)(2ab^2)$", "correct": false },
+      { "text": "$-(2a^2b)(4a^2b^2)$", "correct": false },
+      { "text": "$(-2a^2b)^2(2b)$", "correct": true },
+      { "text": "$\\frac{-16a^5b^4}{2ab}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Presta especial atención a la ley de los signos al multiplicar y al elevar coeficientes negativos al cuadrado.",
+    "explanation": "Al realizar las operaciones, tres opciones resultan en el monomio negativo $-8a^4b^3$. Sin embargo, la opción elegida eleva un número negativo al cuadrado, resultando en un valor positivo $8a^4b^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EH",
+    "question": "Selecciona el monomio o expresión que NO es algebraicamente equivalente al resto.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{15x^5y^3}{3x^2y}$", "correct": false },
+      { "text": "$5(x^3+y^2)$", "correct": true },
+      { "text": "$(x^2y)(5xy)$", "correct": false },
+      { "text": "$\\frac{20x^4y^4}{4xy^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve las divisiones y multiplicaciones de monomios para identificar la expresión que difiere de la forma $5x^3y^2$.",
+    "explanation": "Tres de las opciones se reducen perfectamente al monomio $5x^3y^2$. La opción elegida representa un binomio $5x^3 + 5y^2$, que claramente no es equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EI",
+    "question": "Entre las siguientes opciones, hay tres que representan el mismo monomio simplificado. Identifica la que NO pertenece a este grupo.",
+    "image": null,
+    "options": [
+      { "text": "$-(2m^3n^4)^2$", "correct": true },
+      { "text": "$(-2m^2n^4)^3$", "correct": false },
+      { "text": "$(-8m^3n^6)(m^3n^6)$", "correct": false },
+      { "text": "$\\frac{-16m^8n^{15}}{2m^2n^3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa las potencias de los coeficientes numéricos; fíjate cuál de las opciones no resulta en un coeficiente de -8.",
+    "explanation": "La mayoría de las expresiones se reducen a $-8m^6n^{12}$. La expresión $-(2m^3n^4)^2$ da como resultado $-4m^6n^8$, siendo la única algebraicamente distinta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EJ",
+    "question": "Identifica la expresión algebraica que NO es equivalente a las demás.",
+    "image": null,
+    "options": [
+      { "text": "$(-x^2y^2z)(7xy^2)$", "correct": false },
+      { "text": "$\\frac{-14x^4y^5z^2}{2xyz}$", "correct": false },
+      { "text": "$(-7x^3y)(z^4)$", "correct": true },
+      { "text": "$-3x^3y^4z - 4x^3y^4z$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica minuciosamente la suma de los exponentes de cada literal (x, y, z) en las operaciones.",
+    "explanation": "Todas las opciones se simplifican al monomio $-7x^3y^4z$, excepto la opción correcta, la cual resulta en $-7x^3yz^4$ por poseer exponentes distintos para 'y' y 'z'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EK",
+    "question": "¿Cuál de las siguientes operaciones con monomios NO da como resultado la misma expresión que las otras tres?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{10x^3y^2}{2xy}$", "correct": false },
+      { "text": "$2x^2y + 3x^2y$", "correct": false },
+      { "text": "$(x)(\\frac{10}{2}xy)$", "correct": false },
+      { "text": "$5(xy)^2$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el exponente exterior de la última expresión y compárala con el resultado de $5x^2y$.",
+    "explanation": "Al simplificar matemáticamente, tres expresiones resultan en $5x^2y$. La expresión $5(xy)^2$ equivale a $5x^2y^2$, por lo que no pertenece al conjunto equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EL",
+    "question": "Selecciona el monomio o expresión que NO es algebraicamente equivalente al resto.",
+    "image": null,
+    "options": [
+      { "text": "$(6x)(2)$", "correct": true },
+      { "text": "$(4x)(3x)$", "correct": false },
+      { "text": "$20x^2 - 8x^2$", "correct": false },
+      { "text": "$\\frac{36x^4}{3x^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que al multiplicar bases iguales los exponentes se suman. Identifica la opción donde el grado difiere.",
+    "explanation": "Las expresiones equivalentes corresponden al monomio $12x^2$. La opción correcta resulta en el monomio de primer grado $12x$, careciendo del exponente al cuadrado en la variable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EM",
+    "question": "Entre las siguientes opciones, hay tres que representan el mismo monomio simplificado. Identifica la que NO pertenece a este grupo.",
+    "image": null,
+    "options": [
+      { "text": "$(2a^2)^3$", "correct": false },
+      { "text": "$2(a^2)^3$", "correct": true },
+      { "text": "$(4a^3)(2a^3)$", "correct": false },
+      { "text": "$\\frac{16a^8}{2a^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuidado con los paréntesis: elevar al cubo toda la expresión afecta al coeficiente numérico, pero si el número está fuera del paréntesis, no se eleva.",
+    "explanation": "Tres opciones se reducen correctamente a $8a^6$. La expresión $2(a^2)^3$ equivale a $2a^6$, ya que su coeficiente numérico no está siendo elevado al cubo al encontrarse fuera del paréntesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EN",
+    "question": "Identifica la expresión algebraica que NO es equivalente a las demás.",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{36x^8y^6}$", "correct": false },
+      { "text": "$(2x^2y)(3x^2y^2)$", "correct": false },
+      { "text": "$\\frac{18x^5y^4}{3xy}$", "correct": false },
+      { "text": "$\\sqrt{12x^8y^6}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula de forma exacta la raíz cuadrada de los coeficientes numéricos en el interior de los radicales.",
+    "explanation": "Las tres opciones semejantes dan como resultado el monomio de grado exacto $6x^4y^3$. La raíz cuadrada del número 12 no es 6, por lo que su coeficiente será distinto y no es equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EO",
+    "question": "¿Cuál de las siguientes operaciones con monomios NO da como resultado la misma expresión que las otras tres?",
+    "image": null,
+    "options": [
+      { "text": "$(\\frac{2}{3}p^2q)(\\frac{9}{4}pq^3)$", "correct": false },
+      { "text": "$\\frac{6p^4q^5}{4pq}$", "correct": false },
+      { "text": "$(\\frac{3}{2}p^3)(q)^3$", "correct": true },
+      { "text": "$1.5 p^3q^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica las operaciones fraccionarias a decimales o viceversa, y pon suma atención al exponente de la variable q.",
+    "explanation": "Tres de las expresiones matemáticas se simplifican a $\\frac{3}{2}p^3q^4$ o su equivalente decimal $1.5p^3q^4$. La opción incorrecta resulta en $\\frac{3}{2}p^3q^3$, faltándole un grado a la variable 'q'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EP",
+    "question": "Selecciona el monomio o expresión que NO es algebraicamente equivalente al resto.",
+    "image": null,
+    "options": [
+      { "text": "$-(3a)^2c$", "correct": true },
+      { "text": "$\\frac{-24a^4b^5c}{8a^2b^5}$", "correct": false },
+      { "text": "$(-a)(3ac)$", "correct": false },
+      { "text": "$-5a^2c + 2a^2c$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica la diferencia entre tener el coeficiente dentro o fuera del paréntesis cuando hay un exponente.",
+    "explanation": "La mayoría de las opciones se reduce por medio de la división, multiplicación y suma a $-3a^2c$. Sin embargo, la opción $-(3a)^2c$ eleva el coeficiente al cuadrado resultando en $-9a^2c$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EQ",
+    "question": "Entre las siguientes opciones, hay tres que representan el mismo monomio simplificado. Identifica la que NO pertenece a este grupo.",
+    "image": null,
+    "options": [
+      { "text": "$(5m^2n)(2m^2n)$", "correct": false },
+      { "text": "$(10m^2n)^2$", "correct": true },
+      { "text": "$\\frac{30m^6n^3}{3m^2n}$", "correct": false },
+      { "text": "$15m^4n^2 - 5m^4n^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa el efecto del cuadrado sobre el número 10 en la opción de la potencia.",
+    "explanation": "Tres expresiones resultan ser el monomio $10m^4n^2$. La expresión $(10m^2n)^2$ resulta en $100m^4n^2$ al elevar también su coeficiente numérico al cuadrado, haciéndola distinta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ER",
+    "question": "Identifica la expresión algebraica que NO es equivalente a las demás.",
+    "image": null,
+    "options": [
+      { "text": "$(xy)^5$", "correct": false },
+      { "text": "$(x^2y^3)(x^3y^2)$", "correct": false },
+      { "text": "$\\frac{x^7y^6}{x^2y}$", "correct": false },
+      { "text": "$x^5 + y^5$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la opción que contiene una suma, la cual impide que la expresión se unifique en un solo término (monomio).",
+    "explanation": "Tres opciones corresponden al monomio producto $x^5y^5$. La opción $x^5 + y^5$ es un binomio por tener un operador de suma y no equivale al producto de las literales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ES",
+    "question": "¿Cuál de las siguientes operaciones con monomios NO da como resultado la misma expresión que las otras tres?",
+    "image": null,
+    "options": [
+      { "text": "$(-3p^2)(4pq)$", "correct": false },
+      { "text": "$\\frac{-36p^4q^2}{3pq}$", "correct": false },
+      { "text": "$(-6p^2q)(2q)$", "correct": true },
+      { "text": "$-(2p)(\\sqrt{36p^4q^2})$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza las operaciones sumando y restando los exponentes adecuadamente, revisa los grados de cada literal resultante.",
+    "explanation": "Al simplificar, se obtiene el monomio de base $-12p^3q$ en tres de las opciones. La opción diferente produce un resultado con grado distinto para ambas literales ($-12p^2q^2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ET",
+    "question": "Selecciona el monomio o expresión que NO es algebraicamente equivalente al resto.",
+    "image": null,
+    "options": [
+      { "text": "$(2xyz)^2$", "correct": false },
+      { "text": "$2(xyz)^2$", "correct": true },
+      { "text": "$\\sqrt{16x^4y^4z^4}$", "correct": false },
+      { "text": "$(4xy^2z)(xz)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa con detalle qué elementos están siendo afectados por los signos de agrupación en el exponente cuadrado.",
+    "explanation": "Las expresiones equivalentes corresponden a $4x^2y^2z^2$. La opción incorrecta no eleva al cuadrado el coeficiente ya que está fuera del paréntesis, quedando la expresión como $2x^2y^2z^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EU",
+    "question": "Entre las siguientes opciones, hay tres que representan el mismo monomio simplificado. Identifica la que NO pertenece a este grupo.",
+    "image": null,
+    "options": [
+      { "text": "$-(3a^3b)^2$", "correct": true },
+      { "text": "$(-3a^3b)^2$", "correct": false },
+      { "text": "$(9a^4b)(a^2b)$", "correct": false },
+      { "text": "$\\frac{27a^7b^3}{3ab}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier número negativo elevado al cuadrado resulta en positivo, a menos que el signo se encuentre fuera del área de influencia del exponente.",
+    "explanation": "La mayoría resulta en un monomio positivo $9a^6b^2$. La expresión $-(3a^3b)^2$ posee el signo negativo por fuera de la operación principal, produciendo un monomio negativo ($-9a^6b^2$) y siendo la respuesta correcta a elegir.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EV",
+    "question": "Identifica la expresión algebraica que NO es equivalente a las demás.",
+    "image": null,
+    "options": [
+      { "text": "$(ab^2c^3)(abc)$", "correct": false },
+      { "text": "$\\frac{a^3b^4c^5}{abc}$", "correct": false },
+      { "text": "$(ac^2)^2(b^3)$", "correct": false },
+      { "text": "$(abc)^4$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los exponentes de cada letra por separado. Verifica si el resultado final coincide con el monomio $a^2b^3c^4$.",
+    "explanation": "Tres de las opciones se reducen por medio de las leyes de los exponentes al monomio $a^2b^3c^4$. La opción $(abc)^4$ eleva equitativamente todas las variables a la cuarta potencia, no siendo equivalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EW",
+    "question": "¿Cuál de las siguientes operaciones con monomios NO da como resultado la misma expresión que las otras tres?",
+    "image": null,
+    "options": [
+      { "text": "$(-x)^3$", "correct": false },
+      { "text": "$-(x)(x^2)$", "correct": false },
+      { "text": "$(-x^3)^2$", "correct": true },
+      { "text": "$\\frac{-x^5}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Determina el signo final de cada expresión apoyándote de las propiedades de los signos para potencias pares e impares.",
+    "explanation": "Al simplificarlas, tres opciones conservan su naturaleza negativa dando como resultado $-x^3$. Al elevar al cuadrado un monomio negativo como se hace en $(-x^3)^2$, el resultado se vuelve un valor positivo de mayor grado ($x^6$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EX",
+    "question": "Selecciona el monomio o expresión que NO es algebraicamente equivalente al resto.",
+    "image": null,
+    "options": [
+      { "text": "$(3uv^2)(5uv^2)$", "correct": false },
+      { "text": "$(15u)(v^4)^2$", "correct": true },
+      { "text": "$\\frac{45u^3v^5}{3uv}$", "correct": false },
+      { "text": "$20u^2v^4 - 5u^2v^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla de la 'potencia de una potencia' multiplicando los exponentes y comprueba si obtienes $15u^2v^4$.",
+    "explanation": "Las expresiones equivalentes corresponden al monomio $15u^2v^4$. La opción seleccionada eleva al cuadrado la literal 'v', que ya poseía una cuarta potencia, produciendo $15uv^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01EY",
+    "question": "Entre las siguientes opciones, hay tres que representan el mismo monomio simplificado. Identifica la que NO pertenece a este grupo.",
+    "image": null,
+    "options": [
+      { "text": "$(0.5x^2y)^2$", "correct": true },
+      { "text": "$\\frac{1}{2}x^4y^2$", "correct": false },
+      { "text": "$\\frac{x^5y^3}{2xy}$", "correct": false },
+      { "text": "$(0.5x^2y)(x^2y)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza las operaciones numéricas prestando atención al producto de decimales consigo mismos.",
+    "explanation": "Tres opciones representan algebraicamente la misma cantidad que equivale a $0.5x^4y^2$. Al evaluar $(0.5x^2y)^2$, el coeficiente se multiplica por sí mismo dando un cuarto ($0.25$), haciéndolo diferente a un medio ($0.5$).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
