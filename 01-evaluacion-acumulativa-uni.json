@@ -15534,5 +15534,365 @@
     "explanation": "La población se dispuso a descansar de manera rutinaria tras escuchar el himno nacional, ajenos a la tragedia que sucedería horas después.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01GJ",
+    "question": "¿Cuál es la magnitud de la fuerza de repulsión entre dos cargas de $6 \\times 10^{-6} \\text{ C}$ y $8 \\times 10^{-6} \\text{ C}$ separadas por $4 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$0.027 \\text{ N}$", "correct": true },
+      { "text": "$0.27 \\text{ N}$", "correct": false },
+      { "text": "$0.0027 \\text{ N}$", "correct": false },
+      { "text": "$2.7 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica directamente la ley de Coulomb: $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "Sustituyendo en la fórmula: $F = (9 \\times 10^9) \\frac{(6 \\times 10^{-6})(8 \\times 10^{-6})}{4^2} = 0.027 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GK",
+    "question": "Dos cargas experimentan una fuerza de repulsión de $60 \\text{ N}$. Si la distancia entre las cargas se reduce a la mitad. ¿Cuál es la magnitud de la nueva fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$240 \\text{ N}$", "correct": true },
+      { "text": "$120 \\text{ N}$", "correct": false },
+      { "text": "$30 \\text{ N}$", "correct": false },
+      { "text": "$15 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La fuerza eléctrica es inversamente proporcional al cuadrado de la distancia: $F' = \\frac{F}{(1/2)^2}$.",
+    "explanation": "Al reducir la distancia a la mitad, la fuerza aumenta por el factor inverso al cuadrado: $F' = \\frac{k q_1 q_2}{(d/2)^2} = 4F = 4(60 \\text{ N}) = 240 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GL",
+    "question": "¿Cuál es la magnitud de la fuerza de atracción entre una carga de $5 \\times 10^{-6} \\text{ C}$ y otra de $-3 \\times 10^{-6} \\text{ C}$ separadas a $0.5 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$5400 \\text{ N}$", "correct": true },
+      { "text": "$540 \\text{ N}$", "correct": false },
+      { "text": "$54 \\text{ N}$", "correct": false },
+      { "text": "$5.4 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte la distancia a metros y usa el valor absoluto de las cargas: $F = k \\frac{|q_1 q_2|}{r^2}$.",
+    "explanation": "Convirtiendo la distancia $0.5 \\text{ cm} = 0.005 \\text{ m}$. Al sustituir: $F = (9 \\times 10^9) \\frac{|(5 \\times 10^{-6})(-3 \\times 10^{-6})|}{(0.005)^2} = 5400 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GM",
+    "question": "La fuerza de repulsión que experimentan dos electrones es de $1.44 \\times 10^{-25} \\text{ N}$. ¿Cuál es la distancia de separación que existe entre ellos? (Carga del electrón: $1.6 \\times 10^{-19} \\text{ C}$)",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ cm}$", "correct": true },
+      { "text": "$40 \\text{ cm}$", "correct": false },
+      { "text": "$0.4 \\text{ cm}$", "correct": false },
+      { "text": "$0.04 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes despejar la distancia de la ley de Coulomb: $r = \\sqrt{\\frac{k q_1 q_2}{F}}$.",
+    "explanation": "Al sustituir: $r = \\sqrt{\\frac{(9 \\times 10^9)(1.6 \\times 10^{-19})^2}{1.44 \\times 10^{-25}}} = 0.04 \\text{ m}$, lo cual equivale a $4 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GN",
+    "question": "Calcula la fuerza de repulsión entre dos cargas de $2 \\, \\mu\\text{C}$ y $4 \\, \\mu\\text{C}$ separadas por una distancia de $2 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "$0.018 \\text{ N}$", "correct": true },
+      { "text": "$0.18 \\text{ N}$", "correct": false },
+      { "text": "$1.8 \\text{ N}$", "correct": false },
+      { "text": "$0.0018 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el prefijo micro ($\\mu$) equivale a $10^{-6}$. Usa la fórmula $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "Sustituyendo los valores: $F = (9 \\times 10^9) \\frac{(2 \\times 10^{-6})(4 \\times 10^{-6})}{2^2} = 0.018 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GO",
+    "question": "Dos cargas separadas una distancia $d$ tienen una fuerza de $100 \\text{ N}$. Si la distancia se duplica, ¿cuál es la nueva fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ N}$", "correct": true },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$200 \\text{ N}$", "correct": false },
+      { "text": "$400 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la relación inversamente cuadrática de la fuerza con la distancia: $F' = \\frac{F}{2^2}$.",
+    "explanation": "Si la distancia aumenta al doble, la fuerza disminuye por un factor de 4: $F' = k \\frac{q_1 q_2}{(2d)^2} = \\frac{1}{4} \\left( k \\frac{q_1 q_2}{d^2} \\right) = \\frac{100 \\text{ N}}{4} = 25 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GP",
+    "question": "Dos cargas de $10 \\, \\mu\\text{C}$ interactúan con una fuerza de $90 \\text{ N}$. ¿A qué distancia se encuentran separadas?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ cm}$", "correct": true },
+      { "text": "$1 \\text{ cm}$", "correct": false },
+      { "text": "$0.1 \\text{ cm}$", "correct": false },
+      { "text": "$100 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el despeje de la distancia de la ley general: $r = \\sqrt{\\frac{k q_1 q_2}{F}}$.",
+    "explanation": "Calculando con los valores dados: $r = \\sqrt{\\frac{(9 \\times 10^9)(10 \\times 10^{-6})(10 \\times 10^{-6})}{90}} = \\sqrt{0.01} = 0.1 \\text{ m}$, que equivale a $10 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GQ",
+    "question": "¿Cuál es la fuerza eléctrica entre dos cargas de $-5 \\, \\mu\\text{C}$ separadas en el vacío por $0.3 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$2.5 \\text{ N}$", "correct": true },
+      { "text": "$25 \\text{ N}$", "correct": false },
+      { "text": "$0.25 \\text{ N}$", "correct": false },
+      { "text": "$250 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la Ley de Coulomb utilizando el valor absoluto de las cargas: $F = k \\frac{|q_1 q_2|}{r^2}$.",
+    "explanation": "Al aplicar la fórmula: $F = (9 \\times 10^9) \\frac{|(-5 \\times 10^{-6})(-5 \\times 10^{-6})|}{(0.3)^2} = \\frac{0.225}{0.09} = 2.5 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GR",
+    "question": "Dos cargas experimentan una fuerza de $10 \\text{ N}$. Si una de las cargas se duplica y la distancia se reduce a la mitad, ¿cuál es la nueva fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ N}$", "correct": true },
+      { "text": "$40 \\text{ N}$", "correct": false },
+      { "text": "$20 \\text{ N}$", "correct": false },
+      { "text": "$10 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Combina ambos factores de cambio en la relación proporcional: $F' = k \\frac{(2q_1) q_2}{(d/2)^2}$.",
+    "explanation": "El doble de carga multiplica la fuerza por 2, y la mitad de distancia la multiplica por 4. Así, $F' = \\frac{2}{1/4} F = 8F = 8(10 \\text{ N}) = 80 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GS",
+    "question": "Dos cargas iguales están separadas por $3 \\text{ m}$ e interactúan con una fuerza de repulsión de $0.4 \\text{ N}$. ¿Cuál es el valor de cada carga?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\, \\mu\\text{C}$", "correct": true },
+      { "text": "$2 \\, \\mu\\text{C}$", "correct": false },
+      { "text": "$40 \\, \\mu\\text{C}$", "correct": false },
+      { "text": "$4 \\, \\mu\\text{C}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que las cargas son iguales ($q_1 = q_2 = q$), despeja $q$ usando la fórmula $q = \\sqrt{\\frac{F r^2}{k}}$.",
+    "explanation": "Sustituyendo: $q = \\sqrt{\\frac{(0.4)(3)^2}{9 \\times 10^9}} = \\sqrt{4 \\times 10^{-10}} = 2 \\times 10^{-5} \\text{ C}$, equivalente a $20 \\, \\mu\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GT",
+    "question": "En un átomo de hidrógeno, la distancia entre el protón y el electrón es de $5.3 \\times 10^{-11} \\text{ m}$. ¿Cuál es la magnitud de la fuerza eléctrica entre ellos? (Carga elemental: $1.6 \\times 10^{-19} \\text{ C}$)",
+    "image": null,
+    "options": [
+      { "text": "$8.2 \\times 10^{-8} \\text{ N}$", "correct": true },
+      { "text": "$8.2 \\times 10^{-10} \\text{ N}$", "correct": false },
+      { "text": "$4.1 \\times 10^{-8} \\text{ N}$", "correct": false },
+      { "text": "$1.6 \\times 10^{-8} \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la carga elemental tanto para el protón como para el electrón y evalúa $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "Al calcular: $F = (9 \\times 10^9) \\frac{(1.6 \\times 10^{-19})^2}{(5.3 \\times 10^{-11})^2} \\approx \\frac{23.04 \\times 10^{-29}}{28.09 \\times 10^{-22}} = 8.2 \\times 10^{-8} \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GU",
+    "question": "Calcula la fuerza electrostática entre una carga de $1 \\, \\mu\\text{C}$ y otra de $2 \\, \\mu\\text{C}$, separadas por $1 \\text{ m}$ en el vacío.",
+    "image": null,
+    "options": [
+      { "text": "$0.018 \\text{ N}$", "correct": true },
+      { "text": "$0.18 \\text{ N}$", "correct": false },
+      { "text": "$1.8 \\text{ N}$", "correct": false },
+      { "text": "$0.0018 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye directamente en la ley fundamental de la electrostática: $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "Aplicando la fórmula: $F = (9 \\times 10^9) \\frac{(1 \\times 10^{-6})(2 \\times 10^{-6})}{1^2} = 0.018 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GV",
+    "question": "Una fuerza $F$ de $40 \\text{ N}$ actúa entre dos cargas. Si ambas cargas se duplican y la distancia también se duplica, la nueva fuerza es:",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ N}$", "correct": true },
+      { "text": "$80 \\text{ N}$", "correct": false },
+      { "text": "$20 \\text{ N}$", "correct": false },
+      { "text": "$160 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la nueva situación y analiza cómo se cancelan los factores numéricos: $F' = k \\frac{(2q_1)(2q_2)}{(2d)^2}$.",
+    "explanation": "El doble en ambas cargas aporta un factor de 4 en el numerador, y el doble de distancia aporta un factor de 4 en el denominador. Por lo tanto, $F' = \\frac{4}{4} F = F = 40 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GW",
+    "question": "Una carga de $8 \\, \\mu\\text{C}$ atrae a una carga de $-2 \\, \\mu\\text{C}$ con una fuerza de $0.144 \\text{ N}$. ¿Qué distancia las separa?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ m}$", "correct": true },
+      { "text": "$0.1 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$0.5 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la distancia de separación considerando el valor absoluto de la interacción: $r = \\sqrt{\\frac{k |q_1 q_2|}{F}}$.",
+    "explanation": "Calculando: $r = \\sqrt{\\frac{(9 \\times 10^9)(8 \\times 10^{-6})(2 \\times 10^{-6})}{0.144}} = \\sqrt{1} = 1 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GX",
+    "question": "Determina la fuerza de repulsión entre dos pequeñas esferas con cargas de $7 \\, \\mu\\text{C}$ y $5 \\, \\mu\\text{C}$ que se encuentran a $0.5 \\text{ m}$ una de la otra.",
+    "image": null,
+    "options": [
+      { "text": "$1.26 \\text{ N}$", "correct": true },
+      { "text": "$12.6 \\text{ N}$", "correct": false },
+      { "text": "$0.126 \\text{ N}$", "correct": false },
+      { "text": "$126 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda elevar al cuadrado la distancia en el denominador de la fórmula $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "Sustituyendo los valores: $F = (9 \\times 10^9) \\frac{(7 \\times 10^{-6})(5 \\times 10^{-6})}{(0.5)^2} = \\frac{0.315}{0.25} = 1.26 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GY",
+    "question": "Una carga $q_1 = 4 \\, \\mu\\text{C}$ ejerce una fuerza de $0.09 \\text{ N}$ sobre una carga $q_2$ ubicada a $2 \\text{ m}$ de distancia. ¿Cuál es el valor de $q_2$?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\, \\mu\\text{C}$", "correct": true },
+      { "text": "$5 \\, \\mu\\text{C}$", "correct": false },
+      { "text": "$20 \\, \\mu\\text{C}$", "correct": false },
+      { "text": "$15 \\, \\mu\\text{C}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el valor de la carga desconocida desde la ley de fuerza electrostática: $q_2 = \\frac{F r^2}{k q_1}$.",
+    "explanation": "Realizando el cálculo: $q_2 = \\frac{(0.09)(2)^2}{(9 \\times 10^9)(4 \\times 10^{-6})} = \\frac{0.36}{36000} = 1 \\times 10^{-5} \\text{ C}$, que se reescribe como $10 \\, \\mu\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01GZ",
+    "question": "Si la fuerza entre dos partículas cargadas es de $90 \\text{ N}$ y la distancia que las separa se triplica, ¿cuál será la nueva magnitud de la fuerza?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$30 \\text{ N}$", "correct": false },
+      { "text": "$270 \\text{ N}$", "correct": false },
+      { "text": "$810 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La fuerza disminuye con el cuadrado del factor de aumento de la distancia: $F' = \\frac{F}{3^2}$.",
+    "explanation": "Dado que la distancia aumenta 3 veces, la fuerza es afectada por el factor inverso cuadrático, $1/9$: $F' = \\frac{90 \\text{ N}}{9} = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HA",
+    "question": "¿Qué fuerza experimentan dos cargas, una de $-4 \\, \\mu\\text{C}$ y otra de $9 \\, \\mu\\text{C}$, si están separadas por $6 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$90 \\text{ N}$", "correct": true },
+      { "text": "$9 \\text{ N}$", "correct": false },
+      { "text": "$0.9 \\text{ N}$", "correct": false },
+      { "text": "$900 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda convertir los centímetros a metros antes de usar la fórmula $F = k \\frac{|q_1 q_2|}{r^2}$.",
+    "explanation": "Convirtiendo la distancia a $0.06 \\text{ m}$ y calculando: $F = (9 \\times 10^9) \\frac{|(-4 \\times 10^{-6})(9 \\times 10^{-6})|}{(0.06)^2} = \\frac{0.324}{0.0036} = 90 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HB",
+    "question": "Dos partículas alfa (carga = $3.2 \\times 10^{-19} \\text{ C}$) se repelen con una fuerza de $9.216 \\times 10^{-26} \\text{ N}$. ¿A qué distancia se encuentran?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ cm}$", "correct": true },
+      { "text": "$1 \\text{ cm}$", "correct": false },
+      { "text": "$100 \\text{ cm}$", "correct": false },
+      { "text": "$0.1 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el despeje de la distancia y utiliza las propiedades de las potencias en base 10: $r = \\sqrt{\\frac{k q^2}{F}}$.",
+    "explanation": "Evaluando en la expresión: $r = \\sqrt{\\frac{(9 \\times 10^9)(3.2 \\times 10^{-19})^2}{9.216 \\times 10^{-26}}} = \\sqrt{0.01} = 0.1 \\text{ m}$, que corresponde a $10 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01HC",
+    "question": "Calcula la fuerza entre dos cargas puntuales de $1.5 \\, \\mu\\text{C}$ y $3 \\, \\mu\\text{C}$ cuando están separadas una distancia de $0.3 \\text{ m}$ en el vacío.",
+    "image": null,
+    "options": [
+      { "text": "$0.45 \\text{ N}$", "correct": true },
+      { "text": "$4.5 \\text{ N}$", "correct": false },
+      { "text": "$0.045 \\text{ N}$", "correct": false },
+      { "text": "$45 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye las magnitudes de las cargas en Coulombs y evalúa la fórmula $F = k \\frac{q_1 q_2}{r^2}$.",
+    "explanation": "El cálculo resulta en: $F = (9 \\times 10^9) \\frac{(1.5 \\times 10^{-6})(3 \\times 10^{-6})}{(0.3)^2} = \\frac{0.0405}{0.09} = 0.45 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
