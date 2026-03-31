@@ -17565,100 +17565,82 @@
   },
   {
     "id": "CEP01KL",
-    "question": "¿Cuál es el valor exacto de $\\log_2(8)$?",
+    "question": "Calcula el valor exacto de la expresión $\\log_2(64)$.",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "4", "correct": false },
-      { "text": "16", "correct": false },
-      { "text": "6", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "32", "correct": false },
+      { "text": "5", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Plantea la ecuación en forma exponencial: $2^x = 8$.",
-    "explanation": "El logaritmo busca el exponente al que hay que elevar la base para obtener el argumento. Como $2^3 = 8$, el resultado es 3.",
+    "hint": "Usa la definición de logaritmo: $b^y = x$, busca el exponente al que debes elevar $2$ para obtener $64$.",
+    "explanation": "Sabemos que $2^6 = 64$, por lo tanto, el logaritmo base $2$ de $64$ es $6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KM",
-    "question": "¿Cómo se expresa correctamente la ecuación exponencial $5^2 = 25$ en forma logarítmica?",
+    "question": "Evalúa el logaritmo $\\log_{10}(0.001)$.",
     "image": null,
     "options": [
-      { "text": "$\\log_5(25) = 2$", "correct": true },
-      { "text": "$\\log_2(25) = 5$", "correct": false },
-      { "text": "$\\log_{25}(5) = 2$", "correct": false },
-      { "text": "$\\log_5(2) = 25$", "correct": false }
+      { "text": "-3", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "0.001", "correct": false },
+      { "text": "-2", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La base de la potencia se convierte en la base del logaritmo, y el exponente es el resultado.",
-    "explanation": "En la relación $b^x = y$, la forma logarítmica es $\\log_b(y) = x$. Por lo tanto, $5^2 = 25$ se escribe como $\\log_5(25) = 2$.",
+    "hint": "Recuerda que los decimales se pueden expresar como potencias negativas de $10$.",
+    "explanation": "El número $0.001$ es equivalente a $10^{-3}$, por lo que $\\log_{10}(10^{-3}) = -3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KN",
-    "question": "Completa la propiedad fundamental: 'El logaritmo de un producto es igual a la ______ de los logaritmos de los factores, y el logaritmo de un cociente es igual a la ______ de los logaritmos del dividendo y divisor.'",
+    "question": "Rellena los valores que faltan para calcular la expresión: 'Al resolver $\\log_3(81)$, nos preguntamos a qué exponente elevar la base ____, para obtener ____, cuyo resultado numérico es ____.'",
     "image": null,
     "options": [
-      { "text": "Suma, resta", "correct": true },
-      { "text": "Resta, suma", "correct": false },
-      { "text": "Multiplicación, división", "correct": false },
-      { "text": "Potencia, raíz", "correct": false }
+      { "text": "3, 81, 4", "correct": true },
+      { "text": "81, 3, 4", "correct": false },
+      { "text": "3, 4, 81", "correct": false },
+      { "text": "4, 81, 3", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Estas propiedades permiten convertir operaciones complejas en operaciones aritméticas de menor jerarquía.",
-    "explanation": "Por leyes de logaritmos, $\\log_b(x \\cdot y) = \\log_b(x) + \\log_b(y)$ y $\\log_b(x/y) = \\log_b(x) - \\log_b(y)$.",
+    "hint": "Identifica las partes del logaritmo: $\\log_{\\text{base}}(\\text{argumento}) = \\text{exponente}$.",
+    "explanation": "La base es $3$ y el argumento es $81$. Como $3^4 = 81$, el resultado o exponente es $4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KO",
-    "question": "Relaciona cada expresión logarítmica con su valor numérico exacto:\nI. $\\log_{10}(100)$\nII. $\\log_3(27)$\nIII. $\\log_5(1)$\n\nA. 0\nB. 2\nC. 3",
+    "question": "Relaciona cada logaritmo con su resultado numérico exacto:\nI. $\\log_5(25)$\nII. $\\log_7(1)$\nIII. $\\log_2(16)$\n\nA. 4\nB. 2\nC. 0",
     "image": null,
     "options": [
       { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false },
-      { "text": "I-A, II-B, III-C", "correct": false }
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Evalúa a qué exponente se debe elevar la base para obtener el número entre paréntesis.",
-    "explanation": "$10^2=100$ (I-B), $3^3=27$ (II-C) y cualquier base elevada a la cero es 1, así que $\\log_5(1)=0$ (III-A).",
+    "hint": "El logaritmo de $1$ en cualquier base siempre es $0$.",
+    "explanation": "Para I: $5^2 = 25$ (resultado 2). Para II: $7^0 = 1$ (resultado 0). Para III: $2^4 = 16$ (resultado 4).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KP",
-    "question": "Identifica cuáles de las siguientes expresiones son matemáticamente equivalentes a $\\log_b(x^3)$:\n1. $3 \\log_b(x)$\n2. $\\log_b(x) + \\log_b(x) + \\log_b(x)$\n3. $\\log_b(x^2) + \\log_b(x)$\n4. $\\log_b(3x)$\n5. $\\frac{1}{3} \\log_b(x)$",
+    "question": "Determina el resultado de la operación $\\ln(e^7)$.",
     "image": null,
     "options": [
-      { "text": "1, 2, 3", "correct": true },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Aplica la propiedad del exponente y la propiedad de la suma para descomponer la expresión.",
-    "explanation": "Por propiedad, el exponente baja multiplicando (1). Además, la multiplicación iterada se expresa como sumas repetidas de logaritmos (2 y 3).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01KQ",
-    "question": "¿Cuál es el valor simplificado de la expresión $\\ln(e^4)$?",
-    "image": null,
-    "options": [
-      { "text": "4", "correct": true },
+      { "text": "7", "correct": true },
       { "text": "$e$", "correct": false },
       { "text": "1", "correct": false },
       { "text": "0", "correct": false }
@@ -17666,68 +17648,122 @@
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que el logaritmo natural ($\\ln$) tiene como base al número de Euler ($e$).",
-    "explanation": "Dado que $\\ln$ significa $\\log_e$, la expresión $\\log_e(e^4)$ nos pregunta a qué exponente elevar $e$ para obtener $e^4$, lo cual es 4.",
+    "hint": "El logaritmo natural ($\\ln$) tiene como base al número $e$. Aplica la propiedad $\\log_b(b^x) = x$.",
+    "explanation": "Dado que el logaritmo natural y la función exponencial son inversas, $\\ln(e^7)$ se simplifica directamente al exponente $7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KQ",
+    "question": "Identifica cuáles de los siguientes logaritmos tienen como resultado exacto el número 3:\n1. $\\log_2(8)$\n2. $\\log_3(27)$\n3. $\\log_4(64)$\n4. $\\log_{10}(30)$\n5. $\\log_5(15)$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica qué base elevada al cubo da como resultado el argumento correspondiente.",
+    "explanation": "Las opciones 1, 2 y 3 son correctas porque $2^3=8$, $3^3=27$ y $4^3=64$. Los logaritmos de las opciones 4 y 5 no resultan en números enteros.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KR",
-    "question": "Si se sabe que $\\log_x(16) = 2$, ¿cuál es el valor de la base $x$?",
+    "question": "Calcula el resultado de la siguiente suma de logaritmos: $\\log_6(2) + \\log_6(18)$.",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "32", "correct": false },
-      { "text": "2", "correct": false }
+      { "text": "2", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "36", "correct": false },
+      { "text": "3", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Convierte la expresión a su forma exponencial aislando la incógnita.",
-    "explanation": "Transformando la ecuación tenemos $x^2 = 16$. La base debe ser un número positivo, por lo que $x = 4$.",
+    "hint": "Aplica la propiedad de la suma de logaritmos con la misma base: $\\log_b(x) + \\log_b(y) = \\log_b(x \\cdot y)$.",
+    "explanation": "Se multiplican los argumentos: $2 \\cdot 18 = 36$. Luego se calcula $\\log_6(36)$. Como $6^2 = 36$, el resultado es $2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KS",
-    "question": "¿A qué es igual la expresión $\\log_a(a)$ asumiendo que $a > 0$ y $a \\neq 1$?",
+    "question": "Completa los valores para la solución de la ecuación: 'Si $\\log_x(125) = 3$, entonces la base $x$ debe ser igual a ____, y si $\\log_4(y) = 2$, el argumento $y$ equivale a ____.'",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "$a$", "correct": false },
-      { "text": "No está definido", "correct": false }
+      { "text": "5, 16", "correct": true },
+      { "text": "25, 8", "correct": false },
+      { "text": "5, 8", "correct": false },
+      { "text": "25, 16", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "¿A qué exponente debes elevar una cantidad para que el resultado sea exactamente la misma cantidad?",
-    "explanation": "Cualquier número elevado a la primera potencia resulta en sí mismo, es decir, $a^1 = a$. Por tanto, $\\log_a(a) = 1$.",
+    "hint": "Convierte cada expresión logarítmica a su forma exponencial equivalente.",
+    "explanation": "Para la primera, $x^3 = 125$, lo que da $x=5$. Para la segunda, $4^2 = y$, lo que da $y=16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KT",
-    "question": "La expresión $\\log_b(1) = 0$ nos indica directamente que cualquier base válida elevada al exponente ______ da como resultado ______.",
+    "question": "Un estudiante del CEPREDIX necesita resolver la ecuación logarítmica $\\log_2(x - 4) = 3$. ¿Cuál es el valor correcto de $x$?",
     "image": null,
     "options": [
-      { "text": "Cero, uno", "correct": true },
-      { "text": "Uno, cero", "correct": false },
-      { "text": "Base, exponente", "correct": false },
-      { "text": "Uno, la base", "correct": false }
+      { "text": "12", "correct": true },
+      { "text": "11", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "10", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Observa la estructura de transformación $b^y = x$.",
-    "explanation": "Al reescribir la expresión $\\log_b(1) = 0$ en forma exponencial obtenemos $b^0 = 1$.",
+    "hint": "Transforma la ecuación a su forma exponencial: $2^3 = x - 4$ y despeja la variable.",
+    "explanation": "Al convertir a forma exponencial obtenemos $8 = x - 4$. Sumando $4$ en ambos lados, el valor es $x = 12$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KU",
-    "question": "Selecciona las afirmaciones correctas sobre las características de los logaritmos:\n1. El argumento de un logaritmo real debe ser siempre estrictamente positivo.\n2. La base de un logaritmo no puede ser igual a 1.\n3. $\\log_b(1) = 0$ para cualquier base $b$ válida.\n4. $\\log(A + B) = \\log(A) + \\log(B)$.\n5. El logaritmo de un número negativo está definido en los números reales.",
+    "question": "Relaciona las ecuaciones logarítmicas con el valor que satisface la incógnita $x$:\nI. $\\log_x(49) = 2$\nII. $\\log_3(x) = 4$\nIII. $\\log_5(125) = x$\n\nA. 3\nB. 81\nC. 7",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la igualdad exponencial para cada caso: $x^2 = 49$, $3^4 = x$ y $5^x = 125$.",
+    "explanation": "I: La raíz cuadrada de $49$ es $7$. II: $3$ a la cuarta potencia es $81$. III: $5$ al cubo es $125$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KV",
+    "question": "¿Cuál es el valor exacto de $\\log_8(2)$?",
+    "image": null,
+    "options": [
+      { "text": "$1/3$", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "$1/4$", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa qué raíz debes aplicarle al $8$ para que el resultado sea $2$. Las raíces se expresan como exponentes fraccionarios.",
+    "explanation": "La raíz cúbica de $8$ es $2$, lo cual se expresa como $8^{1/3} = 2$. Por lo tanto, el logaritmo es $1/3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01KW",
+    "question": "Identifica las operaciones que son matemáticamente equivalentes al valor de 2:\n1. $\\frac{\\log_{10}(100)}{\\log_{10}(10)}$\n2. $\\log_5(25)$\n3. $\\log_2(4) \\cdot \\log_3(3)$\n4. $\\log_3(6)$\n5. $\\log_2(1)$",
     "image": null,
     "options": [
       { "text": "1, 2, 3", "correct": true },
@@ -17736,262 +17772,226 @@
       { "text": "3, 4, 5", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El logaritmo de una suma no se puede distribuir y los logaritmos de números negativos generan números complejos.",
-    "explanation": "Las afirmaciones 1, 2 y 3 son reglas fundamentales. La opción 4 es un error común y la 5 es falsa en el dominio de los números reales.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01KV",
-    "question": "Relaciona la propiedad logarítmica con su expresión desarrollada equivalente:\nI. $\\log_b(x/y)$\nII. $\\log_b(x \\cdot y)$\nIII. $\\log_b(x^n)$\n\nA. $n \\log_b(x)$\nB. $\\log_b(x) - \\log_b(y)$\nC. $\\log_b(x) + \\log_b(y)$",
-    "image": null,
-    "options": [
-      { "text": "I-B, II-C, III-A", "correct": true },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-A, II-C, III-B", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "La división implica una sustracción de términos logarítmicos, mientras que la multiplicación implica adición.",
-    "explanation": "El cociente se convierte en resta (I-B), el producto en suma (II-C) y la potencia se multiplica por el logaritmo de la base (III-A).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01KW",
-    "question": "¿Cuál es el resultado de simplificar la expresión $\\log_2(32) - \\log_2(8)$ utilizando propiedades?",
-    "image": null,
-    "options": [
-      { "text": "2", "correct": true },
-      { "text": "4", "correct": false },
-      { "text": "$\\log_2(24)$", "correct": false },
-      { "text": "8", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Aplica la propiedad del cociente: la resta de logaritmos con la misma base se unifica como el logaritmo de una división.",
-    "explanation": "Al unificar se obtiene $\\log_2(\\frac{32}{8}) = \\log_2(4)$. Dado que $2^2 = 4$, el resultado es 2.",
+    "hint": "Evalúa numéricamente cada término. Recuerda que $\\log_b(1) = 0$.",
+    "explanation": "1: $2/1 = 2$. 2: $5^2=25$, resultado $2$. 3: $2 \\cdot 1 = 2$. La opción 4 no es un entero y la opción 5 da como resultado $0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KX",
-    "question": "Expresa la adición $3 \\log(x) + 2 \\log(y)$ como un solo término logarítmico consolidado.",
+    "question": "Evalúa la expresión exponencial $5^{\\log_5(14)}$.",
     "image": null,
     "options": [
-      { "text": "$\\log(x^3 y^2)$", "correct": true },
-      { "text": "$\\log(3x + 2y)$", "correct": false },
-      { "text": "$\\log((xy)^5)$", "correct": false },
-      { "text": "$\\log(x^3 + y^2)$", "correct": false }
+      { "text": "14", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "70", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Primero sube los coeficientes como exponentes y luego aplica la propiedad de la suma para convertirlos en producto.",
-    "explanation": "Subiendo exponentes: $\\log(x^3) + \\log(y^2)$. Sumando logaritmos: $\\log(x^3 \\cdot y^2)$.",
+    "hint": "Utiliza la propiedad de identidad que indica que la base exponencial y su logaritmo homónimo se anulan: $b^{\\log_b(x)} = x$.",
+    "explanation": "Debido a que la función exponencial base $5$ y el logaritmo base $5$ son operaciones inversas, se cancelan mutuamente dejando únicamente el argumento $14$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KY",
-    "question": "Al aplicar las propiedades de los logaritmos para expandir la expresión $\\log_c(\\frac{a}{b^2})$, obtenemos el término $\\log_c(a)$ ______ el término $2 \\log_c(b)$.",
+    "question": "Rellena los espacios de la siguiente propiedad: 'El logaritmo de la base siempre es igual a ____, por ejemplo $\\log_8(8) = $ ____; mientras que el logaritmo de $1$ en cualquier base es ____.'",
     "image": null,
     "options": [
-      { "text": "menos", "correct": true },
-      { "text": "más", "correct": false },
-      { "text": "por", "correct": false },
-      { "text": "entre", "correct": false }
+      { "text": "1, 1, 0", "correct": true },
+      { "text": "0, 1, 1", "correct": false },
+      { "text": "1, 0, 1", "correct": false },
+      { "text": "8, 8, 1", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La variable del denominador forma parte de una división, lo que altera su signo al expandir.",
-    "explanation": "El logaritmo de un cociente se expande como una resta: $\\log_c(a) - \\log_c(b^2)$. Luego el exponente baja quedando $\\log_c(a) - 2 \\log_c(b)$.",
+    "hint": "Cualquier número elevado a la $1$ es sí mismo, y cualquier número elevado a la $0$ es $1$.",
+    "explanation": "Dado que $b^1 = b$, $\\log_b(b) = 1$. Dado que $b^0 = 1$, $\\log_b(1) = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01KZ",
-    "question": "Identifica las ecuaciones logarítmicas que han sido resueltas de forma correcta:\n1. $\\log_2(8) = 3$\n2. $\\log_3(9) = 2$\n3. $\\log_5(25) = 2$\n4. $\\log_4(1) = 4$\n5. $\\log_2(16) = 8$",
+    "question": "Calcula el resultado de la resta $\\log_{10}(10000) - \\log_{10}(10)$.",
     "image": null,
     "options": [
-      { "text": "1, 2, 3", "correct": true },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1000", "correct": false },
+      { "text": "9990", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Verifica comprobando si la base elevada al resultado efectivamente te da el argumento.",
-    "explanation": "Las primeras tres son correctas ($2^3=8$, $3^2=9$, $5^2=25$). La 4 es falsa ($4^4 \\neq 1$) y la 5 es falsa ($2^8 \\neq 16$).",
+    "hint": "Resuelve cada logaritmo individualmente antes de realizar la resta, o aplica la propiedad de la división de argumentos.",
+    "explanation": "Calculando individualmente: $4 - 1 = 3$. Aplicando propiedad: $\\log_{10}(10000/10) = \\log_{10}(1000) = 3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LA",
-    "question": "Relaciona cada logaritmo común (base 10 implícita) con su respectivo valor numérico:\nI. $\\log(1000)$\nII. $\\log(0.1)$\nIII. $\\log(1)$\n\nA. -1\nB. 0\nC. 3",
+    "question": "Relaciona cada operación con su respectivo resultado numérico:\nI. $\\log_2(2^5)$\nII. $\\log_3(1)$\nIII. $\\log_{10}(100)$\n\nA. 2\nB. 5\nC. 0",
     "image": null,
     "options": [
-      { "text": "I-C, II-A, III-B", "correct": true },
-      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
       { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-A, II-C, III-B", "correct": false }
+      { "text": "I-B, II-A, III-C", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Cuando no se escribe la base, se asume que es 10. Para decimales, usa notación científica como $10^{-1}$.",
-    "explanation": "$10^3=1000$ (I-C), $10^{-1}=0.1$ (II-A) y $10^0=1$ (III-B).",
+    "hint": "En el caso I, aplica la propiedad del exponente dentro de un logaritmo con misma base.",
+    "explanation": "Para I: el exponente $5$ se mantiene. Para II: logaritmo de $1$ es $0$. Para III: el exponente para $100$ base $10$ es $2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LB",
-    "question": "Un estudiante del CEPREDIX resuelve la ecuación $\\log_2(x-1) + \\log_2(x+1) = 3$. ¿Cuál es el valor positivo de $x$ que satisface la ecuación?",
+    "question": "Durante una evaluación del CEPREDIX, se solicita calcular el valor de $\\frac{\\log_3(16)}{\\log_3(2)}$ utilizando la fórmula de cambio de base. ¿Cuál es el resultado?",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "4", "correct": false },
+      { "text": "4", "correct": true },
       { "text": "8", "correct": false },
-      { "text": "$\\sqrt{10}$", "correct": false }
+      { "text": "2", "correct": false },
+      { "text": "16", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Usa la propiedad del producto para combinar los logaritmos y luego convierte a forma exponencial.",
-    "explanation": "Uniendo términos: $\\log_2((x-1)(x+1)) = 3$. Pasando a exponencial: $x^2 - 1 = 2^3$. Resulta $x^2 = 9$, por lo que la raíz positiva es 3.",
+    "hint": "La propiedad del cambio de base establece que $\\frac{\\log_c(a)}{\\log_c(b)} = \\log_b(a)$.",
+    "explanation": "Al revertir el cambio de base, la expresión se convierte en $\\log_2(16)$. Como $2^4 = 16$, el resultado final es $4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LC",
-    "question": "Halla la solución de la ecuación exponencial $5^{x+1} = 25^{2x-1}$ utilizando propiedades de logaritmos o bases comunes.",
+    "question": "Identifica cuáles de los siguientes cálculos logarítmicos están resueltos correctamente:\n1. $\\log_2(16) = 4$\n2. $\\log_5(1) = 5$\n3. $\\log_{10}(10) = 1$\n4. $\\log_3(9) = 3$\n5. $\\log_7(49) = 2$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "3/2", "correct": false },
-      { "text": "1/3", "correct": false }
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Iguala las bases sabiendo que $25 = 5^2$ y luego aplica la propiedad de potencias para igualar los exponentes.",
-    "explanation": "Sustituyendo: $5^{x+1} = (5^2)^{2x-1}$, es decir, $5^{x+1} = 5^{4x-2}$. Igualando exponentes: $x + 1 = 4x - 2$, entonces $3x = 3$, $x = 1$.",
+    "hint": "Analiza las opciones 2 y 4 para descartar sus valores exponenciales.",
+    "explanation": "La 1 es correcta ($2^4=16$). La 2 es incorrecta (debería ser $0$). La 3 es correcta ($10^1=10$). La 4 es incorrecta (debería ser $2$). La 5 es correcta ($7^2=49$).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LD",
-    "question": "En la fórmula para cambio de base, se establece que $\\log_a(b)$ es igual a $\\frac{\\log_c(b)}{______}$, donde el término $c$ representa la nueva ______ elegida.",
+    "question": "Identifica las expresiones cuyo cálculo resulta en un número estrictamente negativo:\n1. $\\log_2(1/8)$\n2. $\\log_{10}(100)$\n3. $\\log_3(1/3)$\n4. $\\log_{0.5}(2)$\n5. $\\log_5(25)$",
     "image": null,
     "options": [
-      { "text": "$\\log_c(a)$, base", "correct": true },
-      { "text": "$\\log_a(c)$, potencia", "correct": false },
-      { "text": "$\\log_b(c)$, raíz", "correct": false },
-      { "text": "$\\log_c(a)$, variable", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "La base original de la expresión siempre se coloca en el argumento del logaritmo que va en el denominador.",
-    "explanation": "La fórmula de cambio de base es $\\log_a(b) = \\frac{\\log_c(b)}{\\log_c(a)}$, donde $c$ es cualquier base positiva distinta de 1 elegida por conveniencia.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP01LE",
-    "question": "Selecciona los pasos algebraicos correctos para resolver la ecuación $2 \\log_3(x) = \\log_3(16)$:\n1. Aplicar propiedad de potencia: $\\log_3(x^2) = \\log_3(16)$\n2. Igualar argumentos: $x^2 = 16$\n3. Resolver raíz descartando la negativa: $x = 4$\n4. Multiplicar directo: $2x = 16$\n5. Dividir base: $x = 16/3$",
-    "image": null,
-    "options": [
-      { "text": "1, 2, 3", "correct": true },
+      { "text": "1, 3, 4", "correct": true },
       { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
       { "text": "3, 4, 5", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El coeficiente fuera del logaritmo debe incorporarse como exponente antes de igualar los argumentos.",
-    "explanation": "Primero el 2 sube como exponente (1). Al tener un solo logaritmo de ambos lados, se igualan los argumentos (2). Se resuelve obteniendo la magnitud real positiva (3).",
+    "hint": "Un logaritmo es negativo cuando el argumento está entre 0 y 1 (y la base es mayor a 1), o cuando la base y el argumento tienen relaciones inversas fraccionarias.",
+    "explanation": "Opción 1 da $-3$. Opción 3 da $-1$. Opción 4 da $-1$ (ya que $(1/2)^{-1} = 2$). Las opciones 2 y 5 dan números positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LE",
+    "question": "Calcula el valor de $\\log_{1/3}(9)$.",
+    "image": null,
+    "options": [
+      { "text": "-2", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener un número entero ($9$) a partir de una fracción ($1/3$), necesitas un exponente negativo.",
+    "explanation": "La expresión $(1/3)^{-2}$ es equivalente a $3^2$, que es igual a $9$. Por tanto, el logaritmo es $-2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LF",
-    "question": "Relaciona cada expresión logarítmica condensada con su forma completamente expandida:\nI. $\\ln(\\frac{x^2}{y^3})$\nII. $\\ln(x^2 y^3)$\nIII. $\\ln(\\sqrt{x} y)$\n\nA. $2\\ln(x) + 3\\ln(y)$\nB. $\\frac{1}{2}\\ln(x) + \\ln(y)$\nC. $2\\ln(x) - 3\\ln(y)$",
+    "question": "Completa la reducción de la expresión: 'Para calcular $\\log_2(80) - \\log_2(5)$, se dividen los argumentos, resultando en $\\log_2($____$)$, cuyo valor final numérico es ____.'",
     "image": null,
     "options": [
-      { "text": "I-C, II-A, III-B", "correct": true },
-      { "text": "I-A, II-B, III-C", "correct": false },
-      { "text": "I-C, II-B, III-A", "correct": false },
-      { "text": "I-B, II-A, III-C", "correct": false }
+      { "text": "16, 4", "correct": true },
+      { "text": "75, 2", "correct": false },
+      { "text": "16, 8", "correct": false },
+      { "text": "400, 4", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Identifica las raíces como exponentes fraccionarios y los cocientes como sustracciones.",
-    "explanation": "El cociente se hace resta (I-C), el producto se hace suma (II-A) y la raíz cuadrada se interpreta como exponente $1/2$ (III-B).",
+    "hint": "La resta de logaritmos se unifica dividiendo el primer argumento entre el segundo: $80 / 5$.",
+    "explanation": "La división $80 / 5$ resulta en $16$. El cálculo de $\\log_2(16)$ da como resultado $4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LG",
-    "question": "Sabiendo que $\\log(2) = a$ y $\\log(3) = b$, ¿cómo se expresa el valor de $\\log(12)$ en términos de las variables $a$ y $b$?",
+    "question": "Relaciona las expresiones logarítmicas aplicando las propiedades de los exponentes y radicales:\nI. $\\log_2(\\sqrt{2})$\nII. $\\log_3(1/27)$\nIII. $\\log_5(5^4)$\n\nA. -3\nB. 1/2\nC. 4",
     "image": null,
     "options": [
-      { "text": "$2a + b$", "correct": true },
-      { "text": "$a^2 + b$", "correct": false },
-      { "text": "$a + 2b$", "correct": false },
-      { "text": "$ab^2$", "correct": false }
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Descompón el 12 en factores primos y aplica las propiedades del producto y de la potencia.",
-    "explanation": "Descomponiendo el número obtenemos $\\log(2^2 \\cdot 3)$. Al expandir resulta $2 \\log(2) + \\log(3)$. Sustituyendo obtenemos $2a + b$.",
+    "hint": "Recuerda que las raíces cuadradas son equivalentes a un exponente fraccionario de $1/2$.",
+    "explanation": "I: La raíz cuadrada implica potencia $1/2$, por lo que el resultado es $1/2$. II: $1/27$ es $3^{-3}$, así que el resultado es $-3$. III: El exponente se extrae directamente resultando en $4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LH",
-    "question": "Calcula el valor válido para $x$ en la ecuación algorítmica $\\log(x) + \\log(x - 3) = 1$.",
+    "question": "Un simulador matemático del CEPREDIX pide encontrar el valor de $x$ que satisface la ecuación $\\ln(x) + \\ln(2) = \\ln(10)$.",
     "image": null,
     "options": [
       { "text": "5", "correct": true },
-      { "text": "-2", "correct": false },
-      { "text": "2", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "8", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "12", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Combina en un solo logaritmo de base implícita 10. Evalúa si las raíces resultantes mantienen el argumento positivo.",
-    "explanation": "Obtenemos $\\log(x(x-3)) = 1$, que es $x^2 - 3x = 10^1$. Esto da $x^2 - 3x - 10 = 0$, cuyas raíces son 5 y -2. El -2 se descarta porque el logaritmo de un negativo no es real.",
+    "hint": "Combina la suma de logaritmos en el lado izquierdo de la ecuación en un solo logaritmo multiplicando los argumentos.",
+    "explanation": "Aplicando la propiedad de la multiplicación: $\\ln(2x) = \\ln(10)$. Igualando los argumentos, $2x = 10$, de donde $x = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP01LI",
-    "question": "Un análisis del CEPREDIX evalúa el pH de una solución ácida mediante el modelo $pH = -\\log[H^+]$. Si la concentración de iones hidrógeno es $[H^+] = 1 \\times 10^{-4} \\text{ M}$, ¿cuál es el nivel de pH?",
+    "question": "Un ejercicio propuesto en los manuales del CEPREDIX requiere simplificar la expresión $e^{2 \\ln(3)}$. ¿Cuál es el valor equivalente?",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
-      { "text": "-4", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "1", "correct": false }
+      { "text": "9", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "3", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Sustituye la concentración en la fórmula y utiliza la propiedad fundamental del logaritmo base 10.",
-    "explanation": "Al sustituir, $pH = -\\log(10^{-4})$. El exponente baja multiplicando: $pH = -(-4) \\log(10) = 4(1) = 4$.",
+    "hint": "Aplica la regla de la potencia del logaritmo para mover el $2$ como exponente del $3$ antes de cancelar las bases.",
+    "explanation": "La expresión se reescribe como $e^{\\ln(3^2)}$. Dado que la función exponencial y el logaritmo natural se anulan, el resultado es $3^2 = 9$.",
     "explanative_video": null,
     "collapsible_text": null
   }
