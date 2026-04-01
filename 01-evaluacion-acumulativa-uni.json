@@ -19830,5 +19830,437 @@
     "explanation": "Primer término: $12/-6 = -2$, $x^{5-2}=x^3$, $y^{4-3}=y$. Segundo término: $-18/-6 = 3$, $x^{4-2}=x^2$, $y^{6-3}=y^3$. Resultado: $-2x^3y + 3x^2y^3$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01PG",
+    "question": "Un automóvil viaja a $20 \\text{ m/s}$ y acelera uniformemente hasta alcanzar una velocidad de $35 \\text{ m/s}$ en $5 \\text{ s}$. ¿Cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ m/s}^2$", "correct": true },
+      { "text": "$5 \\text{ m/s}^2$", "correct": false },
+      { "text": "$15 \\text{ m/s}^2$", "correct": false },
+      { "text": "$7 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la aceleración de la fórmula: $v_f = v_i + a \\cdot t$",
+    "explanation": "Despejando la aceleración obtenemos $a = \\frac{v_f - v_i}{t}$. Sustituyendo los valores: $a = \\frac{35 \\text{ m/s} - 20 \\text{ m/s}}{5 \\text{ s}} = \\frac{15}{5} = 3 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PH",
+    "question": "Un tren que parte del reposo acelera a razón de $2 \\text{ m/s}^2$ hasta alcanzar una velocidad de $40 \\text{ m/s}$. ¿Qué distancia recorrió en ese trayecto?",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ m}$", "correct": false },
+      { "text": "$800 \\text{ m}$", "correct": false },
+      { "text": "$400 \\text{ m}$", "correct": true },
+      { "text": "$100 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la distancia de la fórmula: $v_f^2 = v_i^2 + 2ad$",
+    "explanation": "Como parte del reposo, $v_i = 0$. Despejando la distancia: $d = \\frac{v_f^2}{2a} = \\frac{(40 \\text{ m/s})^2}{2(2 \\text{ m/s}^2)} = \\frac{1600}{4} = 400 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PI",
+    "question": "Un ciclista frena con una aceleración constante de $-1.5 \\text{ m/s}^2$ durante $4 \\text{ s}$, alcanzando una velocidad final de $6 \\text{ m/s}$. ¿Cuál era su velocidad inicial?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ m/s}$", "correct": true },
+      { "text": "$0 \\text{ m/s}$", "correct": false },
+      { "text": "$18 \\text{ m/s}$", "correct": false },
+      { "text": "$9 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la fórmula: $v_f = v_i + a \\cdot t$",
+    "explanation": "Despejando: $v_i = v_f - at = 6 \\text{ m/s} - (-1.5 \\text{ m/s}^2)(4 \\text{ s}) = 6 - (-6) = 12 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PJ",
+    "question": "Un camión aumenta su velocidad de $10 \\text{ m/s}$ a $25 \\text{ m/s}$, recorriendo una distancia de $140 \\text{ m}$. ¿Cuánto tiempo le tomó lograr este cambio de velocidad?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$8 \\text{ s}$", "correct": true },
+      { "text": "$10 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la fórmula: $d = \\frac{v_i + v_f}{2} \\cdot t$",
+    "explanation": "Despejando el tiempo: $t = \\frac{2d}{v_i + v_f} = \\frac{2(140 \\text{ m})}{10 \\text{ m/s} + 25 \\text{ m/s}} = \\frac{280}{35} = 8 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PK",
+    "question": "Una motocicleta parte con una velocidad de $5 \\text{ m/s}$ y acelera a $3 \\text{ m/s}^2$ a lo largo de $50 \\text{ m}$ rectos. ¿Cuál es su velocidad final?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ m/s}$", "correct": false },
+      { "text": "$15 \\text{ m/s}$", "correct": false },
+      { "text": "$18.03 \\text{ m/s}$", "correct": true },
+      { "text": "$12.24 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad final de la fórmula: $d = \\frac{v_f^2 - v_i^2}{2a}$",
+    "explanation": "Usando $v_f^2 = v_i^2 + 2ad$, sustituimos: $v_f^2 = (5)^2 + 2(3)(50) = 25 + 300 = 325$. Sacando raíz cuadrada, $v_f = \\sqrt{325} \\approx 18.03 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PL",
+    "question": "Un corredor que parte del reposo recorre $100 \\text{ m}$ en $12 \\text{ s}$ con una aceleración constante. ¿Cuál es la magnitud de dicha aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$2.50 \\text{ m/s}^2$", "correct": false },
+      { "text": "$1.20 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.83 \\text{ m/s}^2$", "correct": false },
+      { "text": "$1.39 \\text{ m/s}^2$", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la aceleración de la fórmula: $d = v_i \\cdot t + \\frac{1}{2} a \\cdot t^2$",
+    "explanation": "Como parte del reposo, $v_i = 0$. La ecuación queda $d = \\frac{1}{2}at^2$. Despejando $a = \\frac{2d}{t^2} = \\frac{200}{144} \\approx 1.39 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PM",
+    "question": "Se deja caer una pelota desde la azotea de un edificio de $45 \\text{ m}$ de altura. ¿Cuánto tiempo tarda en llegar al suelo? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$3.03 \\text{ s}$", "correct": true },
+      { "text": "$4.50 \\text{ s}$", "correct": false },
+      { "text": "$2.14 \\text{ s}$", "correct": false },
+      { "text": "$9.18 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la fórmula de caída libre: $h = \\frac{1}{2} g \\cdot t^2$",
+    "explanation": "Despejando $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2(45)}{9.8}} = \\sqrt{\\frac{90}{9.8}} \\approx \\sqrt{9.18} \\approx 3.03 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PN",
+    "question": "Una piedra es soltada desde un puente y llega al agua con una velocidad de $29.4 \\text{ m/s}$. ¿Desde qué altura cayó? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$29.4 \\text{ m}$", "correct": false },
+      { "text": "$44.1 \\text{ m}$", "correct": true },
+      { "text": "$88.2 \\text{ m}$", "correct": false },
+      { "text": "$14.7 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la altura de la fórmula: $v_f^2 = 2 \\cdot g \\cdot h$",
+    "explanation": "Despejando $h = \\frac{v_f^2}{2g} = \\frac{(29.4)^2}{2(9.8)} = \\frac{864.36}{19.6} = 44.1 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PO",
+    "question": "Un objeto cae libremente desde una altura de $80 \\text{ m}$. ¿Cuál será su velocidad justo antes de tocar el suelo? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$78.4 \\text{ m/s}$", "correct": false },
+      { "text": "$28.0 \\text{ m/s}$", "correct": false },
+      { "text": "$39.6 \\text{ m/s}$", "correct": true },
+      { "text": "$49.5 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad final de la fórmula: $h = \\frac{v_f^2}{2 \\cdot g}$",
+    "explanation": "Despejando obtenemos $v_f = \\sqrt{2gh} = \\sqrt{2(9.8)(80)} = \\sqrt{1568} \\approx 39.6 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PP",
+    "question": "Un tornillo cae desde un andamio y alcanza una velocidad de $19.6 \\text{ m/s}$ antes de chocar con el piso. ¿Qué tiempo estuvo en el aire? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": true },
+      { "text": "$1 \\text{ s}$", "correct": false },
+      { "text": "$3 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la ecuación de caída libre: $v_f = g \\cdot t$",
+    "explanation": "Despejando el tiempo $t = \\frac{v_f}{g} = \\frac{19.6}{9.8} = 2 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PQ",
+    "question": "En un planeta desconocido, se deja caer una herramienta desde $20 \\text{ m}$ de altura y tarda exactamente $4 \\text{ s}$ en tocar la superficie. ¿Cuál es el valor de la aceleración de la gravedad en ese planeta?",
+    "image": null,
+    "options": [
+      { "text": "$5.0 \\text{ m/s}^2$", "correct": false },
+      { "text": "$1.25 \\text{ m/s}^2$", "correct": false },
+      { "text": "$9.8 \\text{ m/s}^2$", "correct": false },
+      { "text": "$2.5 \\text{ m/s}^2$", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la gravedad de la fórmula: $h = \\frac{1}{2} g \\cdot t^2$",
+    "explanation": "Despejando la gravedad: $g = \\frac{2h}{t^2} = \\frac{2(20)}{4^2} = \\frac{40}{16} = 2.5 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PR",
+    "question": "Un objeto en caída libre tarda $3.5 \\text{ s}$ en llegar al suelo. ¿Qué distancia vertical recorrió durante su caída? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$60.025 \\text{ m}$", "correct": true },
+      { "text": "$34.300 \\text{ m}$", "correct": false },
+      { "text": "$120.050 \\text{ m}$", "correct": false },
+      { "text": "$17.150 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la distancia (altura) de la fórmula: $t = \\sqrt{\\frac{2 \\cdot h}{g}}$",
+    "explanation": "Al despejar se obtiene $h = \\frac{1}{2}gt^2$. Sustituyendo valores: $h = 0.5(9.8)(3.5)^2 = 4.9(12.25) = 60.025 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PS",
+    "question": "Se lanza una moneda verticalmente hacia arriba y alcanza una altura máxima de $5 \\text{ m}$. ¿Con qué velocidad inicial fue lanzada? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$4.9 \\text{ m/s}$", "correct": false },
+      { "text": "$9.9 \\text{ m/s}$", "correct": true },
+      { "text": "$19.6 \\text{ m/s}$", "correct": false },
+      { "text": "$7.0 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la fórmula de altura máxima: $h_{max} = \\frac{v_i^2}{2 \\cdot g}$",
+    "explanation": "Despejando la velocidad inicial: $v_i = \\sqrt{2gh_{max}} = \\sqrt{2(9.8)(5)} = \\sqrt{98} \\approx 9.9 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PT",
+    "question": "Una flecha es disparada hacia arriba con una velocidad inicial de $39.2 \\text{ m/s}$. ¿Cuánto tiempo tardará en alcanzar su altura máxima? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la ecuación de velocidad: $v_f = v_i - (g \\cdot t)$. Considera que en la altura máxima $v_f = 0$.",
+    "explanation": "En la altura máxima la velocidad final es cero. Despejando el tiempo $t = \\frac{v_i}{g} = \\frac{39.2}{9.8} = 4 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PU",
+    "question": "Se lanza un proyectil hacia arriba con una velocidad de $15 \\text{ m/s}$. ¿Cuál es la altura máxima que logrará alcanzar? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$11.48 \\text{ m}$", "correct": true },
+      { "text": "$22.96 \\text{ m}$", "correct": false },
+      { "text": "$7.65 \\text{ m}$", "correct": false },
+      { "text": "$15.30 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la altura máxima de la fórmula: $v_f^2 = v_i^2 - 2 \\cdot g \\cdot h_{max}$, recordando que $v_f = 0$.",
+    "explanation": "Al alcanzar la altura máxima $v_f=0$. Entonces $h_{max} = \\frac{v_i^2}{2g} = \\frac{15^2}{2(9.8)} = \\frac{225}{19.6} \\approx 11.48 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PV",
+    "question": "Una pelota es lanzada hacia arriba con una velocidad inicial de $20 \\text{ m/s}$. ¿Qué velocidad tendrá cuando se encuentre exactamente a $10 \\text{ m}$ de altura en su trayecto de subida? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$10.10 \\text{ m/s}$", "correct": false },
+      { "text": "$19.60 \\text{ m/s}$", "correct": false },
+      { "text": "$14.28 \\text{ m/s}$", "correct": true },
+      { "text": "$28.56 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad final de la fórmula: $h = \\frac{v_i^2 - v_f^2}{2 \\cdot g}$",
+    "explanation": "Despejando $v_f$: $v_f = \\sqrt{v_i^2 - 2gh} = \\sqrt{20^2 - 2(9.8)(10)} = \\sqrt{400 - 196} = \\sqrt{204} \\approx 14.28 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PW",
+    "question": "Se dispara un cohete de juguete verticalmente hacia arriba con una velocidad de $49 \\text{ m/s}$. ¿Cuál es el tiempo total que permanece en el aire hasta volver a su punto de partida? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ s}$", "correct": true },
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$2.5 \\text{ s}$", "correct": false },
+      { "text": "$20 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo total igualando a cero el desplazamiento: $0 = v_i \\cdot t_{total} - \\frac{1}{2} g \\cdot t_{total}^2$",
+    "explanation": "El tiempo de subida es $t = \\frac{v_i}{g} = \\frac{49}{9.8} = 5 \\text{ s}$. Como el trayecto es simétrico, el tiempo total es el doble: $10 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PX",
+    "question": "Un objeto lanzado hacia arriba tarda exactamente $6 \\text{ s}$ en regresar al nivel de donde fue lanzado. ¿Con qué velocidad fue arrojado? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$58.8 \\text{ m/s}$", "correct": false },
+      { "text": "$19.6 \\text{ m/s}$", "correct": false },
+      { "text": "$14.7 \\text{ m/s}$", "correct": false },
+      { "text": "$29.4 \\text{ m/s}$", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la fórmula del tiempo total de vuelo: $t_{total} = \\frac{2 \\cdot v_i}{g}$",
+    "explanation": "Despejando la velocidad inicial: $v_i = \\frac{g \\cdot t_{total}}{2} = \\frac{9.8 \\cdot 6}{2} = \\frac{58.8}{2} = 29.4 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PY",
+    "question": "Un jugador de fútbol patea un balón con una velocidad de $25 \\text{ m/s}$ y un ángulo de $30^\\circ$ con respecto a la horizontal. ¿Cuál es el alcance horizontal máximo del balón? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$63.77 \\text{ m}$", "correct": false },
+      { "text": "$55.23 \\text{ m}$", "correct": true },
+      { "text": "$27.61 \\text{ m}$", "correct": false },
+      { "text": "$110.46 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el alcance máximo horizontal de la fórmula: $v_i^2 = \\frac{x_{max} \\cdot g}{\\sin(2\\theta)}$",
+    "explanation": "Despejando $x_{max} = \\frac{v_i^2 \\sin(2\\theta)}{g} = \\frac{25^2 \\sin(60^\\circ)}{9.8} = \\frac{625(0.866)}{9.8} \\approx 55.23 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PZ",
+    "question": "Una catapulta lanza una piedra con un ángulo de $45^\\circ$ y logra un alcance horizontal de $100 \\text{ m}$. ¿Cuál fue la velocidad inicial de la piedra? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$9.80 \\text{ m/s}$", "correct": false },
+      { "text": "$31.30 \\text{ m/s}$", "correct": true },
+      { "text": "$45.12 \\text{ m/s}$", "correct": false },
+      { "text": "$62.60 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la fórmula: $x_{max} = \\frac{v_i^2 \\cdot \\sin(2\\theta)}{g}$",
+    "explanation": "Despejando $v_i = \\sqrt{\\frac{x_{max} \\cdot g}{\\sin(2\\theta)}} = \\sqrt{\\frac{100(9.8)}{\\sin(90^\\circ)}} = \\sqrt{\\frac{980}{1}} \\approx 31.30 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QA",
+    "question": "Se dispara un proyectil a $40 \\text{ m/s}$ con un ángulo de elevación de $60^\\circ$. ¿Cuál es la altura máxima que alcanza? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$122.45 \\text{ m}$", "correct": false },
+      { "text": "$30.61 \\text{ m}$", "correct": false },
+      { "text": "$81.63 \\text{ m}$", "correct": false },
+      { "text": "$61.22 \\text{ m}$", "correct": true }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero calcula la componente vertical $v_{iy} = v_i \\cdot \\sin(\\theta)$. Luego despeja $h_{max}$ de la fórmula: $v_{iy} = \\sqrt{2 \\cdot g \\cdot h_{max}}$",
+    "explanation": "$v_{iy} = 40 \\cdot \\sin(60^\\circ) \\approx 34.64 \\text{ m/s}$. La altura máxima es $h_{max} = \\frac{v_{iy}^2}{2g} = \\frac{(34.64)^2}{19.6} \\approx 61.22 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QB",
+    "question": "Un cañón dispara una bala a $50 \\text{ m/s}$ con un ángulo de $35^\\circ$. ¿Cuánto tiempo en total permanece la bala en el aire antes de tocar el nivel del suelo? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$5.85 \\text{ s}$", "correct": true },
+      { "text": "$2.92 \\text{ s}$", "correct": false },
+      { "text": "$11.70 \\text{ s}$", "correct": false },
+      { "text": "$4.18 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo igualando el desplazamiento en $y$ a cero: $0 = v_i \\cdot \\sin(\\theta) \\cdot t - \\frac{1}{2} g \\cdot t^2$",
+    "explanation": "Despejando $t$: $t = \\frac{2 v_i \\sin(\\theta)}{g} = \\frac{2(50)\\sin(35^\\circ)}{9.8} = \\frac{100(0.5735)}{9.8} \\approx 5.85 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QC",
+    "question": "Una manguera expulsa agua a una velocidad de $15 \\text{ m/s}$ y el chorro llega a una distancia horizontal de $20 \\text{ m}$. ¿Con qué ángulo de elevación se está apuntando la manguera? (Usa $g = 9.8 \\text{ m/s}^2$)",
+    "image": null,
+    "options": [
+      { "text": "$30.29^\\circ$", "correct": true },
+      { "text": "$60.59^\\circ$", "correct": false },
+      { "text": "$45.00^\\circ$", "correct": false },
+      { "text": "$15.15^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el ángulo $\\theta$ de la fórmula de alcance máximo: $x_{max} = \\frac{v_i^2 \\cdot \\sin(2\\theta)}{g}$",
+    "explanation": "Despejando $\\sin(2\\theta) = \\frac{x_{max} \\cdot g}{v_i^2} = \\frac{20(9.8)}{15^2} = \\frac{196}{225} \\approx 0.8711$. Entonces, $2\\theta = \\arcsin(0.8711) \\approx 60.59^\\circ$. Dividiendo entre 2 resulta $\\theta \\approx 30.29^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01QD",
+    "question": "Un atleta de salto de longitud despega con un ángulo de $20^\\circ$ y una velocidad inicial horizontal (componente $x$) de $8 \\text{ m/s}$. Si su salto cubrió una distancia de $7.5 \\text{ m}$ horizontales, ¿cuánto tiempo estuvo en el aire?",
+    "image": null,
+    "options": [
+      { "text": "$1.07 \\text{ s}$", "correct": false },
+      { "text": "$0.47 \\text{ s}$", "correct": false },
+      { "text": "$0.94 \\text{ s}$", "correct": true },
+      { "text": "$1.88 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la fórmula de la componente horizontal del tiro parabólico (Movimiento Rectilíneo Uniforme): $x_{max} = v_x \\cdot t_{total}$",
+    "explanation": "La velocidad en el eje $x$ es constante. Despejando $t_{total} = \\frac{x_{max}}{v_x} = \\frac{7.5 \\text{ m}}{8 \\text{ m/s}} = 0.9375 \\text{ s} \\approx 0.94 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
