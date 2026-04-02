@@ -17494,5 +17494,329 @@
     "explanation": "A diferencia de la adenohipófisis, la neurohipófisis no sintetiza hormonas. La oxitocina y la ADH se producen en los cuerpos neuronales del hipotálamo y viajan por los largos axones hasta almacenarse en la neurohipófisis, desde donde son liberadas a la sangre.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01LK",
+    "question": "¿Qué característica define a una magnitud escalar? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Solo requiere un valor numérico y su unidad de medida.", "correct": true },
+      { "text": "Necesita magnitud, dirección y un sentido definido.", "correct": false },
+      { "text": "Se representa gráficamente empleando un segmento de flecha.", "correct": false },
+      { "text": "Depende estrictamente del sistema de referencia espacial.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Piensa en variables físicas como la temperatura o la masa.",
+    "explanation": "Las magnitudes escalares quedan perfectamente definidas con un número y su unidad, sin necesidad de indicar hacia dónde se dirigen en el espacio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LL",
+    "question": "Identifica las magnitudes que son estrictamente escalares:\n1. Masa\n2. Fuerza\n3. Tiempo\n4. Velocidad\n5. Temperatura 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Busca aquellas magnitudes que no poseen una orientación espacial.",
+    "explanation": "La masa, el tiempo y la temperatura no requieren dirección. La fuerza y la velocidad son vectores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LM",
+    "question": "Completa el enunciado: 'A diferencia de la rapidez que es ______, la velocidad es una magnitud ______ porque requiere indicar un rumbo en el espacio.' 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Escalar, vectorial", "correct": true },
+      { "text": "Vectorial, escalar", "correct": false },
+      { "text": "Absoluta, relativa", "correct": false },
+      { "text": "Constante, variable", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La rapidez solo indica qué tan rápido vas, la velocidad informa hacia dónde.",
+    "explanation": "La rapidez es el módulo numérico (escalar), mientras que la velocidad incluye obligatoriamente la dirección (vector).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LN",
+    "question": "Relaciona el tipo de magnitud con su ejemplo correspondiente:\nI. Escalar\nII. Vectorial\n\nA. Un automóvil se desplaza a $80 \\text{ km/h}$ hacia el norte\nB. El volumen de una botella de agua es de $2 \\text{ L}$\nC. La aceleración de la gravedad es de $9.8 \\text{ m/s}^2$ hacia abajo 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, II-C", "correct": true },
+      { "text": "I-A, I-C, II-B", "correct": false },
+      { "text": "I-C, II-A, II-B", "correct": false },
+      { "text": "I-A, II-B, II-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Las opciones que incluyen palabras con dirección de movimiento ('hacia...') son del grupo II.",
+    "explanation": "El volumen no tiene dirección (escalar). La velocidad con rumbo y la aceleración con sentido hacia el centro de la Tierra son vectores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LO",
+    "question": "¿Cuál de las siguientes opciones representa correctamente una magnitud vectorial? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Un desplazamiento de $50 \\text{ m}$ al este.", "correct": true },
+      { "text": "Una masa inercial de $50 \\text{ kg}$.", "correct": false },
+      { "text": "Una temperatura de $50 ^\\circ\\text{C}$.", "correct": false },
+      { "text": "Un lapso de tiempo de $50 \\text{ s}$.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda que debe incluir forzosamente una orientación geométrica en el espacio.",
+    "explanation": "El desplazamiento incluye la magnitud ($50 \\text{ m}$) y la dirección (al este), lo que lo clasifica como vector.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LP",
+    "question": "Si afirmas que la duración de una película es de $120 \\text{ min}$, estás utilizando de manera implícita una magnitud: 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Escalar.", "correct": true },
+      { "text": "Vectorial.", "correct": false },
+      { "text": "Derivada.", "correct": false },
+      { "text": "Tensorial.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El tiempo transcurre de forma continua sin tener una dirección o sentido de orientación en el espacio.",
+    "explanation": "El tiempo es una magnitud escalar porque queda completamente definido únicamente con un número y su correspondiente unidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LQ",
+    "question": "Un estudiante del CEPREDIX camina $3 \\text{ m}$ hacia el norte y posteriormente $4 \\text{ m}$ hacia el este. ¿Cuál es el módulo numérico de su desplazamiento final? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m}$", "correct": true },
+      { "text": "$7 \\text{ m}$", "correct": false },
+      { "text": "$1 \\text{ m}$", "correct": false },
+      { "text": "$12 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Aplica el teorema de Pitágoras para hallar la resultante ortogonal: $c^2 = a^2 + b^2$.",
+    "explanation": "El desplazamiento es un vector. Al formar un triángulo rectángulo con catetos de 3 y 4, la hipotenusa (desplazamiento) es $\\sqrt{3^2 + 4^2} = 5 \\text{ m}$. La distancia total caminada (escalar) sería de $7 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LR",
+    "question": "Selecciona las magnitudes que cambian sus efectos físicos si se modifica su dirección de aplicación, manteniendo su valor numérico intacto:\n1. Presión de un gas encerrado\n2. Fuerza de fricción\n3. Energía cinética\n4. Aceleración centrípeta\n5. Longitud de una superficie 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "2, 4", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "1, 5", "correct": false },
+      { "text": "3, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Solo las magnitudes que poseen carácter vectorial dependen del ángulo o línea de acción.",
+    "explanation": "La fuerza y la aceleración son vectores, por lo que su resultado neto sobre un cuerpo cambia si cambia su dirección. Presión, energía y longitud son magnitudes escalares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LS",
+    "question": "Completa el texto: 'Para sumar las masas de dos objetos se emplea aritmética simple porque son magnitudes ______, pero para sumar dos fuerzas mecánicas concurrentes se requiere geometría porque son magnitudes ______.' 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Escalares, vectoriales", "correct": true },
+      { "text": "Vectoriales, escalares", "correct": false },
+      { "text": "Positivas, negativas", "correct": false },
+      { "text": "Estáticas, dinámicas", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El efecto de múltiples fuerzas mecánicas combinadas depende fuertemente del ángulo formado entre ellas.",
+    "explanation": "Las magnitudes escalares se suman directamente de forma algebraica. Las magnitudes vectoriales exigen métodos geométricos como el paralelogramo o polígono.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LT",
+    "question": "Relaciona la magnitud física con el instrumento instrumental empleado usualmente para medir su módulo o intensidad:\nI. Temperatura (Escalar)\nII. Peso (Vectorial)\nIII. Tiempo (Escalar)\n\nA. Cronómetro\nB. Dinamómetro\nC. Termómetro 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Ten presente que el peso es una variante de fuerza, dirigida siempre hacia el centro gravitacional de la Tierra.",
+    "explanation": "El termómetro evalúa la temperatura (escalar), el dinamómetro mide la fuerza como el peso (vector), y el cronómetro cuantifica lapsos de tiempo (escalar).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LU",
+    "question": "Si una noticia de aviación informa que un aeroplano viaja sostenidamente a $800 \\text{ km/h}$, ¿qué dato hace falta para que esta información represente el vector de velocidad de manera rigurosa? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "El rumbo geográfico de su trayectoria.", "correct": true },
+      { "text": "La masa volumétrica del aeroplano.", "correct": false },
+      { "text": "El tiempo estimado que durará el vuelo.", "correct": false },
+      { "text": "La propulsión constante de los motores.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La cifra numérica define la rapidez que representa el escalar, sin embargo, la velocidad amerita un elemento espacial adicional.",
+    "explanation": "La velocidad al ser un vector requiere especificar la magnitud ($800 \\text{ km/h}$) y su sentido direccional, como por ejemplo 'con rumbo noreste'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LV",
+    "question": "En un proyecto de laboratorio del CEPREDIX, se aplican dos fuerzas concurrentes sobre un bloque de prueba: $F_1 = 6 \\text{ N}$ a $0^\\circ$ y $F_2 = 8 \\text{ N}$ a $90^\\circ$. ¿Cuál es la magnitud resultante de este sistema? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$14 \\text{ N}$", "correct": false },
+      { "text": "$2 \\text{ N}$", "correct": false },
+      { "text": "$48 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Al formar un ángulo recto, debes utilizar la composición vectorial: $R^2 = F_1^2 + F_2^2$.",
+    "explanation": "Por ser vectores ortogonales (perpendiculares entre sí), se usa el teorema de Pitágoras: $R = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LW",
+    "question": "Un nadador intenta cruzar un canal avanzando transversalmente a una rapidez de $4 \\text{ m/s}$. Si la corriente hidrodinámica fluye perpendicularmente a $3 \\text{ m/s}$, ¿cuál es la rapidez real de desplazamiento respecto a la orilla fija? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}$", "correct": true },
+      { "text": "$7 \\text{ m/s}$", "correct": false },
+      { "text": "$1 \\text{ m/s}$", "correct": false },
+      { "text": "$12 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Los vectores de desplazamiento componen un ángulo recto. Resuelve despejando: $v_r^2 = v_{nadador}^2 + v_{corriente}^2$.",
+    "explanation": "La adición de vectores de velocidad perpendiculares se logra usando el teorema de Pitágoras: $\\sqrt{4^2 + 3^2} = 5 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LX",
+    "question": "Identifica cuáles de las siguientes propiedades matemáticas aplican de manera exclusiva a las magnitudes vectoriales y NO a las escalares:\n1. Tienen un valor numérico definido\n2. Pueden descomponerse analíticamente en componentes rectangulares\n3. Se rigen mediante el método del polígono para su adición neta\n4. Poseen unidades estandarizadas de medición\n5. Su signo negativo indica explícitamente una orientación opuesta 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Analiza que las propiedades listadas en 1 y 4 son atributos fundamentales que describen a ambos grupos de magnitudes.",
+    "explanation": "La fragmentación en planos coordenados, el uso del polígono de fuerzas y el cambio de sentido por alteración de signo son técnicas geométricas únicas para manipular vectores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LY",
+    "question": "Completa la descripción analítica: 'Al multiplicar un factor escalar de valor negativo por un vector original, la resultante altera obligatoriamente su ______ y su ______ se invierte de manera diametral.' 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Módulo numérico, sentido", "correct": true },
+      { "text": "Dirección espacial, módulo numérico", "correct": false },
+      { "text": "Masa asociada, orientación", "correct": false },
+      { "text": "Ángulo coordenado, tamaño", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El escalar altera el grado de longitud de la flecha, mientras el signo negativo afecta el punto a donde dirige la misma.",
+    "explanation": "El módulo se redimensiona por el valor absoluto del escalar involucrado, simultáneamente el signo negativo ocasiona una inversión de $180^\\circ$ en su sentido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01LZ",
+    "question": "Relaciona de manera correcta las operaciones elementales con la naturaleza abstracta del resultado emitido:\nI. Combinar un saco de $5 \\text{ kg}$ con otro de $3 \\text{ kg}$\nII. Interacción de $5 \\text{ N}$ al este neutralizada con $3 \\text{ N}$ al oeste\nIII. Cálculo de un panel cuadrado cuyo borde sea $4 \\text{ m}$\n\nA. Escalar equivalente a 8\nB. Escalar equivalente a 16\nC. Vector de magnitud 2 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-C, III-B", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Las combinaciones de área superficial y masa no ostentan ninguna dirección. Los vectores concurrentes opuestos reducen su magnitud.",
+    "explanation": "$5+3=8$ (adición de escalares). $5-3=2$ en sentido positivo (resultante vectorial). El producto cruz de áreas es $4 \\times 4=16$ (escalar geométrico).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MA",
+    "question": "En un simulador del CEPREDIX, dos vehículos partieron del punto cero. La unidad A viajó $100 \\text{ km}$ norte, y la unidad B recorrió $100 \\text{ km}$ rumbo sur. ¿Qué postulado es irrefutable sobre su trayectoria descrita? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "Sus distancias medidas son equivalentes, pero los desplazamientos generados son completamente distintos.", "correct": true },
+      { "text": "Tanto las distancias métricas como los desplazamientos espaciales resultan ser exactamente los mismos.", "correct": false },
+      { "text": "La distancia acumulada por la unidad A es superior por tener una notación de eje positivo.", "correct": false },
+      { "text": "Ambos desplazamientos equivalen a un registro escalar anulado.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Diferencia cuidadosamente: la distancia evalúa el avance sin importar dónde acaba, pero el desplazamiento requiere la coordenada final geométrica.",
+    "explanation": "La distancia escalar acumulada es $100 \\text{ km}$ para ambas máquinas. El desplazamiento ostenta un plano vectorial divergente ($100 \\text{ km}$ norte no es idéntico a $100 \\text{ km}$ sur).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MB",
+    "question": "Si una pareja de vectores analizados exhibe una dirección congruente e idéntico sentido, pero magnitudes escalares irregulares, ¿existe algún principio donde la suma matemática resultante decaiga a cero? 🏷 Tema 3.3.1",
+    "image": null,
+    "options": [
+      { "text": "No, derivado de que la suma se acumula puramente a través de aritmética directa.", "correct": true },
+      { "text": "Sí, únicamente cuando uno modifique su variable y decaiga en valores negativos espontáneos.", "correct": false },
+      { "text": "No, a causa de la colisión generada por su ángulo convergente exacto de $90^\\circ$.", "correct": false },
+      { "text": "Sí, si se activan en un sistema de ejes de marcos referenciales distintos en el tiempo.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Un vector neutraliza a otro exclusivamente cuando interactúan con un ángulo exacto de desfase de $180^\\circ$ y potencias simétricas.",
+    "explanation": "Teniendo idéntico sentido direccional, la potencia se magnifica de manera lineal. El único método físico de anular la tensión originada sería emplear ejes opuestos con fuerzas ecualizadas a la perfección.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
