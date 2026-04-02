@@ -18466,5 +18466,329 @@
     "explanation": "Por la Segunda Ley, la suma de fuerzas en vertical es $F_N - W = m \\cdot a$. Por lo tanto, $F_N = W + m \\cdot a$. La báscula lee $F_N$, que ahora es el peso natural más la fuerza extra para acelerar.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01NM",
+    "question": "¿Cuál es el postulado principal de la ley de gravitación universal propuesta por Isaac Newton? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "Todos los cuerpos en el universo se atraen con una fuerza proporcional a sus masas.", "correct": true },
+      { "text": "La gravedad es una ilusión geométrica causada por la curvatura del espacio-tiempo.", "correct": false },
+      { "text": "Los planetas orbitan alrededor del Sol debido a fuerzas magnéticas de gran escala.", "correct": false },
+      { "text": "La fuerza de atracción solo existe entre cuerpos celestes de proporciones masivas.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Piensa en la relación matemática donde $m_1 = \\frac{F r^2}{G m_2}$, demostrando que depende directamente de las propiedades inerciales de los objetos.",
+    "explanation": "La ley de Newton establece que cualquier par de masas se atrae mutuamente con una fuerza directamente proporcional al producto de ellas e inversamente proporcional al cuadrado de su distancia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NN",
+    "question": "Identifica los factores de los que depende directamente la magnitud de la fuerza gravitacional entre dos cuerpos: 1. Masa de los cuerpos, 2. Carga eléctrica, 3. Distancia entre los centros, 4. Volumen de los objetos, 5. Constante de gravitación. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Observa el despeje del radio $r = \\sqrt{\\frac{G m_1 m_2}{F}}$ para reconocer las variables involucradas.",
+    "explanation": "La fuerza gravitacional depende estrictamente de las masas de los cuerpos involucrados, la distancia que los separa y la constante gravitacional $G$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NO",
+    "question": "Completa el siguiente postulado: 'La fuerza de gravedad es directamente proporcional al ______ de las masas e inversamente proporcional al ______ de la distancia que las separa.' 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "producto, cuadrado", "correct": true },
+      { "text": "cociente, cubo", "correct": false },
+      { "text": "producto, doble", "correct": false },
+      { "text": "cociente, cuadrado", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si multiplicas las masas la fuerza aumenta, si alejas los objetos la fuerza cae rápidamente de forma exponencial cuadrática.",
+    "explanation": "Según la ecuación de Newton, en el numerador se multiplican las masas (producto) y en el denominador la distancia se eleva a la segunda potencia (cuadrado).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NP",
+    "question": "Relaciona los conceptos de gravitación con su descripción adecuada: I. Masa, II. Peso, III. Constante G; A. Magnitud vectorial que depende de la gravedad, B. Valor universal idéntico en cualquier lugar, C. Cantidad de materia invariable del cuerpo. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La cantidad de materia se mide en kilogramos ($m = W/g$), mientras que la fuerza de atracción se mide en Newtons.",
+    "explanation": "La masa (C) es cantidad de materia, el peso (A) es la fuerza con la que la gravedad atrae esa masa y representa un vector, y $G$ (B) es la constante universal de atracción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NQ",
+    "question": "¿Qué sucede con la magnitud de la fuerza de atracción gravitacional entre dos esferas de plomo si la distancia entre sus centros se duplica de forma repentina sin alterar sus masas? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "Se reduce a la cuarta parte", "correct": true },
+      { "text": "Se reduce a la mitad exacta", "correct": false },
+      { "text": "Se duplica proporcionalmente", "correct": false },
+      { "text": "Se mantiene sin alteraciones", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda el despeje $G = \\frac{F r^2}{m_1 m_2}$; si multiplicas la variable $r$ por $2$, al elevarse al cuadrado impactará en el inverso de la fuerza.",
+    "explanation": "Al duplicar la distancia ($2r$), el cuadrado en el denominador se vuelve $4r^2$, lo que matemáticamente hace que la fuerza final sea una cuarta parte de la fuerza original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NR",
+    "question": "¿Cuál es el valor aproximado de la aceleración de la gravedad en la superficie terrestre y qué tipo de magnitud representa físicamente? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$9.8 \\text{ m/s}^2$, magnitud vectorial", "correct": true },
+      { "text": "$9.8 \\text{ m/s}^2$, magnitud escalar", "correct": false },
+      { "text": "$6.67 \\times 10^{-11} \\text{ m/s}^2$, vectorial", "correct": false },
+      { "text": "$6.67 \\times 10^{-11} \\text{ m/s}^2$, escalar", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La aceleración indica una dirección específica (hacia el centro del planeta), lo cual descarta que sea solo un número con unidad.",
+    "explanation": "La gravedad terrestre se aproxima a $9.8 \\text{ m/s}^2$ y se clasifica como una magnitud vectorial porque siempre apunta en dirección hacia el centro de la Tierra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NS",
+    "question": "Un estudiante mide que un bloque de metal pesa $98 \\text{ N}$ en la Tierra ($g = 9.8 \\text{ m/s}^2$). Si teóricamente fuera posible, ¿cuál sería la masa de este mismo objeto al ser llevado a la superficie de la Luna? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ kg}$", "correct": true },
+      { "text": "$98 \\text{ kg}$", "correct": false },
+      { "text": "$1.6 \\text{ kg}$", "correct": false },
+      { "text": "$16 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para encontrar la respuesta necesitas analizar la masa, puedes despejar la aceleración gravitacional terrestre usando el modelo $g = \\frac{W}{m}$.",
+    "explanation": "La masa es una propiedad intrínseca y no cambia de un planeta a otro. Se calcula en la Tierra: $m = \\frac{W}{g} = \\frac{98}{9.8} = 10 \\text{ kg}$. En la Luna seguirá siendo exactamente de $10 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NT",
+    "question": "Completa el enunciado sobre la constante fundamental: 'El valor de $G$ es $6.67 \\times 10^{-11}$ con unidades de ______ y sirve para calcular la fuerza de atracción a nivel ______.' 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$\\text{N}\\cdot\\text{m}^2/\\text{kg}^2$, universal", "correct": true },
+      { "text": "$\\text{m/s}^2$, microscópico", "correct": false },
+      { "text": "$\\text{kg}\\cdot\\text{m/s}^2$, planetario", "correct": false },
+      { "text": "$\\text{J}\\cdot\\text{s}$, cuántico", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Analiza las unidades usando el modelo despejado de la fuerza: $m_1 m_2 = \\frac{F r^2}{G}$ y recordando que la fuerza se mide en Newtons y la distancia en metros.",
+    "explanation": "Al analizar de forma dimensional $G = \\frac{F r^2}{m_1 m_2}$, las unidades resultantes son $\\text{N}\\cdot\\text{m}^2/\\text{kg}^2$, y al ser constante aplica a todo objeto en el vasto universo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NU",
+    "question": "Selecciona los escenarios físicos donde los efectos de la fuerza de gravitación universal son evidentes en nuestro entorno natural: 1. Las mareas oceánicas terrestres, 2. La repulsión de los imanes, 3. La órbita de los satélites artificiales, 4. La caída libre de los meteoritos, 5. El enlace químico atómico. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Descarta todos los fenómenos que involucren interacciones de tipo electromagnéticas y enfócate en sistemas donde existan masas de gran volumen.",
+    "explanation": "Las mareas (provocadas por la Luna), las órbitas y la caída de objetos celestes son producto exclusivo de la atracción gravitacional de grandes masas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NV",
+    "question": "En un sistema estelar binario, un planeta A y un planeta B se atraen mutuamente con una fuerza de $100 \\text{ N}$. Si un asteroide impacta al planeta A y logra duplicar su masa de forma instantánea, manteniendo intacta la misma distancia al planeta B, ¿cuál será la nueva magnitud de la fuerza gravitacional? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ N}$", "correct": true },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$400 \\text{ N}$", "correct": false },
+      { "text": "$100 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Revisa cómo interactúan los factores usando la ecuación despejada del radio cuadrático $r^2 = G \\frac{m_1 m_2}{F}$.",
+    "explanation": "La fuerza es directamente proporcional al producto de las masas. Si una masa se multiplica por $2$ y todo lo demás permanece constante, la magnitud de la fuerza total se multiplica por $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NW",
+    "question": "Relaciona los conceptos matemáticos de la fórmula de Newton con sus correspondientes implicaciones físicas: I. El producto de las masas, II. La constante universal G, III. El factor del radio al cuadrado; A. Define la debilidad extrema de la fuerza a escala humana, B. Muestra que la fuerza decae drásticamente al separarse espacialmente, C. Indica que ambos cuerpos participan mutuamente en la atracción gravitatoria. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La presencia de un número tan pequeño como $10^{-11}$ hace que el resultado de la ecuación sea totalmente imperceptible a menos que intervengan masas de escala planetaria.",
+    "explanation": "El producto de masas implica acción mutua (C), $G$ es tan pequeña que debilita la fuerza observable en objetos comunes (A) y dividir entre $r^2$ hace que la fuerza caiga rápido con la separación (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NX",
+    "question": "Durante una práctica en el laboratorio del CEPREDIX, un estudiante simula el sistema Tierra-Luna. Observa que si logra reducir a la mitad la masa de ambos cuerpos virtuales de forma simultánea, sin cambiar su distancia de separación, la fuerza gravitacional sufre una alteración predecible. ¿Cuál es el efecto exacto sobre dicha fuerza? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "Se reduce a la cuarta parte", "correct": true },
+      { "text": "Se reduce a la mitad exacta", "correct": false },
+      { "text": "Permanece sin alteraciones", "correct": false },
+      { "text": "Se incrementa cuatro veces", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si analizas la relación $G = \\frac{F r^2}{m_1 m_2}$ y cambias los factores de la masa en el denominador, notarás el efecto combinado necesario para mantener la igualdad.",
+    "explanation": "Al reducir de forma simultánea $m_1$ a la mitad y $m_2$ a la mitad, el producto matemático de las masas se reduce a un cuarto $(0.5 \\times 0.5 = 0.25)$, causando que la fuerza resultante sea de una cuarta parte.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NY",
+    "question": "En un simulador del CEPREDIX, se colocan dos bloques cúbicos metálicos de $1000 \\text{ kg}$ cada uno, separados exactamente por $1 \\text{ m}$ desde sus respectivos centros de masa. Considerando la constante $G = 6.67 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$, ¿cuál es la magnitud calculada de la fuerza gravitacional que experimentan entre ellos? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$6.67 \\times 10^{-5} \\text{ N}$", "correct": true },
+      { "text": "$6.67 \\times 10^{-8} \\text{ N}$", "correct": false },
+      { "text": "$6.67 \\times 10^{-11} \\text{ N}$", "correct": false },
+      { "text": "$6.67 \\times 10^{-2} \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener la solución, emplea el despeje del radio al cuadrado como $r^2 = G \\frac{m_1 m_2}{F}$ e intercambia las variables de posición.",
+    "explanation": "Sustituyendo los valores: $F = 6.67 \\times 10^{-11} \\times \\frac{(10^3)(10^3)}{1^2} = 6.67 \\times 10^{-11} \\times 10^6 = 6.67 \\times 10^{-5} \\text{ N}$. Esta pequeña fuerza demuestra lo débil que es la gravedad a esta escala.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NZ",
+    "question": "Completa el análisis físico: 'Al considerar a nuestro planeta Tierra como una esfera perfecta de masa $M$ y radio $R$, la aceleración de la gravedad $g$ en su superficie se expresa matemáticamente como ______, demostrando así que un objeto más masivo cae con ______ aceleración si logramos despreciar totalmente la fricción del aire.' 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$GM/R^2$, la misma", "correct": true },
+      { "text": "$GM/R$, mayor", "correct": false },
+      { "text": "$GMm/R^2$, menor", "correct": false },
+      { "text": "$G/R^2$, la misma", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si necesitas calcularlo, parte de la igualdad planteada entre el peso clásico $W = mg$ y la fuerza gravitatoria general $F = G \\frac{Mm}{R^2}$.",
+    "explanation": "Al igualar el peso $mg = G \\frac{Mm}{R^2}$, la masa del objeto individual ($m$) se cancela en la ecuación, resultando en $g = \\frac{GM}{R^2}$. Esto prueba de forma analítica que $g$ no depende de la masa del objeto que se deja caer.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OA",
+    "question": "Analiza detenidamente las siguientes afirmaciones sobre la ley de gravitación universal de Newton y selecciona exclusivamente las que son teóricamente correctas: 1. Si la Tierra fuera hueca pero conservara su masa, la gravedad en la superficie externa no cambiaría, 2. La constante G fue calculada directamente por Isaac Newton en sus manuscritos, 3. La fuerza gravitacional posee un alcance espacial infinito, 4. En el centro exacto de la Tierra la fuerza neta es nula, 5. Dos protones se atraen gravitacionalmente con más fuerza de la que se repelen eléctricamente. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para guiar tu deducción, recuerda que la medición exitosa de la constante $G$ se realizó décadas después por Cavendish. Además, a nivel subatómico, la gravedad es considerada la fuerza fundamental más débil.",
+    "explanation": "La teoría de gravedad considera la masa como un punto central para objetos externos (1 es correcta), tiene un alcance infinito decreciente (3 es correcta) y en el núcleo del planeta las fuerzas de tracción opuestas se cancelan vectorialmente dejando un efecto neto de cero (4 es correcta).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OB",
+    "question": "Relaciona de manera lógica los modelos matemáticos derivados de la gravitación universal con las interpretaciones físicas del sistema Tierra-objeto: I. Fórmula del peso simple, II. Ecuación de aceleración local, III. Ecuación general de Newton; A. Permite calcular minuciosamente cómo varía la aceleración de la gravedad a distintas altitudes orbitales, B. Define la fuerza general de interacción para cualquier pareja de masas celestes sin importar su origen, C. Representa la aproximación práctica y local para el análisis de cuerpos situados muy cerca de la superficie terrestre. 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Presta atención a los requerimientos: una fórmula requiere el conocimiento del valor constante de la gravedad local, y otra incluye el radio para poder cuantificar su declive con la distancia.",
+    "explanation": "La ecuación $W=mg$ es la forma simplificada de uso local (C). El modelo de $g$ incluye la variable de radio $r$ para calcular variaciones de altura altitudinal (A). Y la ecuación bidireccional con dos masas representa el postulado general del universo dictado por Newton (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OC",
+    "question": "Un equipo de investigación astronómica en el CEPREDIX descubre un exoplaneta cuya masa total es exactamente el doble que la de nuestro planeta ($2M_T$) pero cuyo radio ecuatorial mide exactamente la mitad del radio terrestre ($0.5 R_T$). Si la aceleración de gravedad en la Tierra está definida como $g$, ¿cuál será el valor calculado de la aceleración de la gravedad en la nueva superficie rocosa del exoplaneta? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$8g$", "correct": true },
+      { "text": "$4g$", "correct": false },
+      { "text": "$2g$", "correct": false },
+      { "text": "$0.5g$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Como punto de partida, emplea la proporción despejada $R_{nueva} = \\sqrt{G \\frac{M_{nueva}}{g_{nueva}}}$. Sustituye los valores de las proporciones para comprobar el factor numérico resultante.",
+    "explanation": "Calculando $g_{nueva} = G \\frac{2M_T}{(0.5 R_T)^2} = G \\frac{2M_T}{0.25 R_T^2}$. Al extraer los coeficientes matemáticos tenemos $\\frac{2}{0.25} = 8$, por lo que la ecuación final queda multiplicada de tal forma que la gravedad del exoplaneta sería ocho veces mayor que la terrestre ($8g$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OD",
+    "question": "Dos pequeños satélites artificiales idénticos que comparten la misma masa ($m$) se atraen de manera gravitacional con una fuerza cuya magnitud es $F$. Si un grupo de científicos requiere determinar la separación radial exacta entre sus respectivos centros de masa en la oscuridad del espacio exterior, ¿cuál es el modelo matemático correcto que les permitirá encontrar sin errores dicha distancia espacial? 🏷 Tema 3.3.4",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{ \\frac{G m^2}{F} }$", "correct": true },
+      { "text": "$r = \\frac{G m^2}{F^2}$", "correct": false },
+      { "text": "$r = \\sqrt{ \\frac{G m}{F} }$", "correct": false },
+      { "text": "$r = \\frac{G^2 m}{F}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener la distancia, te sugiero iniciar usando la fórmula despejada para una de las masas asiladas, como por ejemplo $m_1 = \\frac{F r^2}{G m_2}$, y aplicar la condición de igualdad másica.",
+    "explanation": "De la fórmula de fuerza gravitacional original se tiene que $F = G \\frac{m \\cdot m}{r^2}$, lo cual se consolida como $F = G \\frac{m^2}{r^2}$. Al despejar el divisor del radio cuadrático, logramos $r^2 = \\frac{G m^2}{F}$. Finalmente, al aplicar de manera simétrica la raíz cuadrada a ambos lados, obtenemos con éxito la solución requerida $r = \\sqrt{ \\frac{G m^2}{F} }$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
