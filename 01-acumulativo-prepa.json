@@ -18142,5 +18142,329 @@
     "explanation": "La curva de posición denota aceleración (MRUA). Una velocidad plana en el gráfico de tiempo manifiesta ausencia de aceleración (MRU). Por último, el área en un plano velocidad-tiempo da como resultado directo el desplazamiento.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01MU",
+    "question": "¿Qué rama de la física clásica se encarga de estudiar el movimiento de los cuerpos y las causas que lo producen? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Dinámica", "correct": true },
+      { "text": "Cinemática", "correct": false },
+      { "text": "Estática", "correct": false },
+      { "text": "Óptica", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda que la cinemática solo describe cómo se mueven, mientras que esta rama explica el 'por qué' analizando las fuerzas.",
+    "explanation": "La dinámica es la parte de la mecánica que analiza la relación entre las fuerzas y los cambios en el estado de movimiento de los cuerpos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MV",
+    "question": "El postulado que afirma que todo cuerpo mantiene su estado de reposo o movimiento uniforme y rectilíneo a menos que una fuerza neta actúe sobre él, se conoce como: 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Primera Ley de Newton (Inercia)", "correct": true },
+      { "text": "Segunda Ley de Newton (Fuerza)", "correct": false },
+      { "text": "Tercera Ley de Newton (Acción y reacción)", "correct": false },
+      { "text": "Ley de Gravitación Universal", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Esta ley define la tendencia natural de la materia a resistirse a cambiar su estado original.",
+    "explanation": "La Primera Ley de Newton, o Ley de la Inercia, establece que se requiere una fuerza externa para alterar la velocidad de un objeto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MW",
+    "question": "De acuerdo con el Sistema Internacional de Unidades (SI), ¿cuál es el desglose correcto de la unidad de fuerza llamada Newton ($1 \\text{ N}$)? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$1 \\text{ kg} \\cdot \\text{m/s}^2$", "correct": true },
+      { "text": "$1 \\text{ g} \\cdot \\text{cm/s}^2$", "correct": false },
+      { "text": "$1 \\text{ kg} \\cdot \\text{m/s}$", "correct": false },
+      { "text": "$1 \\text{ kg} \\cdot \\text{m}^2\\text{/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Piensa en la fórmula de la Segunda Ley de Newton: masa (en el SI) multiplicada por aceleración (en el SI).",
+    "explanation": "Un Newton es la fuerza necesaria para proporcionar a una masa de $1 \\text{ kg}$ una aceleración de $1 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MX",
+    "question": "Completa el siguiente enunciado sobre la Segunda Ley de Newton: 'La aceleración de un cuerpo es ______ proporcional a la fuerza neta aplicada e ______ proporcional a su masa.' 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Directamente, inversamente", "correct": true },
+      { "text": "Inversamente, directamente", "correct": false },
+      { "text": "Directamente, directamente", "correct": false },
+      { "text": "Inversamente, inversamente", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "A mayor fuerza, mayor aceleración. Pero a mayor masa (más pesado), es más difícil acelerarlo.",
+    "explanation": "La expresión matemática es $a = F/m$. Esto significa que $a$ crece con $F$ (directa) y decrece si aumenta $m$ (inversa).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MY",
+    "question": "Si una persona patea un balón con una fuerza de $50 \\text{ N}$, ¿qué fuerza ejerce el balón sobre el pie de la persona según la Tercera Ley de Newton? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$ en sentido opuesto", "correct": true },
+      { "text": "$0 \\text{ N}$ porque el balón no tiene músculos", "correct": false },
+      { "text": "$25 \\text{ N}$ debido a la deformación", "correct": false },
+      { "text": "$100 \\text{ N}$ como fuerza de impacto", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "A toda fuerza de acción corresponde otra de idéntica magnitud y misma dirección, pero apuntando al revés.",
+    "explanation": "La Tercera Ley de Newton establece que la reacción es exactamente igual en magnitud ($50 \\text{ N}$), pero actúa en sentido contrario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MZ",
+    "question": "¿Cuál es la diferencia fundamental entre la masa y el peso de un objeto? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "La masa es la cantidad de materia (escalar) y el peso es la fuerza con la que la gravedad lo atrae (vectorial).", "correct": true },
+      { "text": "La masa se mide en Newtons y el peso se mide en kilogramos.", "correct": false },
+      { "text": "El peso es constante en cualquier planeta, mientras que la masa cambia con la gravedad.", "correct": false },
+      { "text": "Son exactamente el mismo concepto físico, solo varían las unidades.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Piensa en lo que le ocurre a un astronauta en la Luna: su cuerpo sigue teniendo la misma materia, pero lo atraen con menos fuerza.",
+    "explanation": "La masa es intrínseca al cuerpo y constante ($kg$), el peso depende del campo gravitatorio del planeta y es una fuerza ($N$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NA",
+    "question": "Se requiere empujar un bloque cuya masa es de $10 \\text{ kg}$ para que adquiera una aceleración constante de $5 \\text{ m/s}^2$. Sin tomar en cuenta la fricción, ¿cuál debe ser la magnitud de la fuerza aplicada? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ N}$", "correct": true },
+      { "text": "$2 \\text{ N}$", "correct": false },
+      { "text": "$15 \\text{ N}$", "correct": false },
+      { "text": "$0.5 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para encontrar la fuerza, debes despejar $F$ de la relación fundamental: $a = \\frac{F}{m}$.",
+    "explanation": "Despejando se obtiene $F = m \\cdot a$. Sustituyendo los valores: $F = (10 \\text{ kg}) \\cdot (5 \\text{ m/s}^2) = 50 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NB",
+    "question": "A un carrito de supermercado se le aplica una fuerza neta horizontal de $120 \\text{ N}$, produciendo una aceleración de $4 \\text{ m/s}^2$. ¿Cuál es la masa del carrito en ese momento? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ kg}$", "correct": true },
+      { "text": "$480 \\text{ kg}$", "correct": false },
+      { "text": "$124 \\text{ kg}$", "correct": false },
+      { "text": "$0.03 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Aplica la Segunda Ley de Newton. Necesitas despejar la masa $m$ a partir de la expresión: $F = m \\cdot a$.",
+    "explanation": "Despejando la masa obtenemos $m = \\frac{F}{a}$. Al dividir $120 \\text{ N}$ entre $4 \\text{ m/s}^2$, el resultado es $30 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NC",
+    "question": "Calcula el peso en la Tierra de un estudiante cuya masa corporal es de $50 \\text{ kg}$. Considera el valor de la gravedad local como $g = 9.8 \\text{ m/s}^2$. 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$490 \\text{ N}$", "correct": true },
+      { "text": "$5.1 \\text{ N}$", "correct": false },
+      { "text": "$59.8 \\text{ N}$", "correct": false },
+      { "text": "$50 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El peso es una fuerza. Para obtenerlo, despeja la variable $W$ (peso) de la fórmula $m = \\frac{W}{g}$.",
+    "explanation": "Al despejar se tiene que el peso es masa por gravedad ($W = m \\cdot g$). Sustituyendo: $W = 50 \\cdot 9.8 = 490 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ND",
+    "question": "Si las fuerzas de acción y reacción siempre tienen la misma magnitud y sentidos opuestos, ¿por qué no se anulan entre sí produciendo equilibrio? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Porque se aplican sobre cuerpos diferentes.", "correct": true },
+      { "text": "Porque la fuerza de acción siempre ocurre una fracción de segundo antes.", "correct": false },
+      { "text": "Porque las masas de los cuerpos involucrados siempre son diferentes.", "correct": false },
+      { "text": "Porque no son colineales en el espacio tridimensional.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Analiza qué pasa cuando tú empujas una pared: tú aplicas fuerza sobre el muro, y el muro empuja sobre TI.",
+    "explanation": "Las fuerzas se cancelarían solo si actuaran sobre el mismo objeto. Como actúan en cuerpos distintos (A empuja a B, B empuja a A), cada cuerpo siente su propia fuerza de manera independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NE",
+    "question": "Un transbordador espacial se desplaza en el espacio profundo con el motor apagado y lejos de cualquier atracción gravitacional. ¿Qué ocurre con su movimiento? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Continuará moviéndose en línea recta con velocidad constante.", "correct": true },
+      { "text": "Se detendrá lentamente debido a la falta de fuerza de empuje.", "correct": false },
+      { "text": "Comenzará a girar en espiral sobre su propio eje.", "correct": false },
+      { "text": "Experimentará una aceleración constante producto de su masa residual.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Aplica la Ley de Inercia. Si la fuerza externa neta es estrictamente cero, el estado original de movimiento no tiene razones para modificarse.",
+    "explanation": "Al no existir fuerzas externas (ni empuje ni fricción), por inercia el objeto mantendrá su estado de Movimiento Rectilíneo Uniforme indefinidamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NF",
+    "question": "De acuerdo con el modelo dinámico, si sobre un objeto de masa constante se aplica una fuerza neta que de repente se triplica, ¿qué le sucederá a su nivel de aceleración? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "Se triplicará en la misma proporción.", "correct": true },
+      { "text": "Se reducirá a la tercera parte.", "correct": false },
+      { "text": "Aumentará en un factor de nueve debido al cuadrado.", "correct": false },
+      { "text": "Permanecerá constante porque la masa no ha cambiado.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La relación que existe entre fuerza neta y aceleración es completamente lineal y directa según la Segunda Ley de Newton.",
+    "explanation": "Dado que la fuerza y la aceleración son directamente proporcionales ($a = F/m$), al triplicar la fuerza sobre una misma masa, la aceleración también será el triple.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NG",
+    "question": "Un bloque de madera de $5 \\text{ kg}$ descansa sobre una pista de hielo ideal (sin fricción). Dos personas lo empujan mediante cuerdas: una tira hacia la derecha con $30 \\text{ N}$ y la otra hacia la izquierda con $10 \\text{ N}$. Calcula la aceleración resultante del bloque. 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$ hacia la derecha", "correct": true },
+      { "text": "$8 \\text{ m/s}^2$ hacia la derecha", "correct": false },
+      { "text": "$2 \\text{ m/s}^2$ hacia la izquierda", "correct": false },
+      { "text": "$20 \\text{ m/s}^2$ hacia la derecha", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Primero encuentra la fuerza neta restando los vectores opuestos. Posteriormente, obtén la aceleración despejando $a$ de la expresión $m = \\frac{F_{neta}}{a}$.",
+    "explanation": "La fuerza neta es $30 \\text{ N} - 10 \\text{ N} = 20 \\text{ N}$ a la derecha. Usando $a = \\frac{F_{neta}}{m}$, tenemos $a = 20 / 5 = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NH",
+    "question": "Un carrito de laboratorio de $2 \\text{ kg}$ arranca desde el reposo absoluto y alcanza una rapidez de $10 \\text{ m/s}$ en solo $2 \\text{ s}$. ¿Cuál fue la magnitud de la fuerza neta promedio que provocó dicho movimiento? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$5 \\text{ N}$", "correct": false },
+      { "text": "$20 \\text{ N}$", "correct": false },
+      { "text": "$4 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Es un ejercicio de dos pasos. Primero despeja $a$ de la fórmula cinemática $t = \\frac{v_f - v_i}{a}$. Luego despeja la fuerza de $m = \\frac{F}{a}$.",
+    "explanation": "Aceleración: $a = \\frac{10 - 0}{2} = 5 \\text{ m/s}^2$. Fuerza neta: $F = m \\cdot a = 2 \\cdot 5 = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NI",
+    "question": "Un robot de exploración tiene un peso en la Tierra de $98 \\text{ N}$ ($g \\approx 9.8 \\text{ m/s}^2$). Si es transportado a Marte, donde la aceleración de la gravedad es de $3.7 \\text{ m/s}^2$, ¿cuál será su peso medido en la superficie marciana? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$37 \\text{ N}$", "correct": true },
+      { "text": "$10 \\text{ N}$", "correct": false },
+      { "text": "$98 \\text{ N}$", "correct": false },
+      { "text": "$26.4 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La masa es invariante en el universo. Despeja primero $m$ de $g_{Tierra} = \\frac{W_{Tierra}}{m}$. Luego usa esa masa y despeja el nuevo peso de $m = \\frac{W_{Marte}}{g_{Marte}}$.",
+    "explanation": "Masa del robot: $m = \\frac{98}{9.8} = 10 \\text{ kg}$. Esta masa es constante. Peso en Marte: $W_M = m \\cdot g_M = 10 \\cdot 3.7 = 37 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NJ",
+    "question": "Sobre una caja de $10 \\text{ kg}$ apoyada en suelo rugoso, se aplica una fuerza horizontal de $50 \\text{ N}$. Si el piso genera una fuerza de fricción cinética en sentido opuesto de $10 \\text{ N}$, ¿cuál es la aceleración efectiva de la caja? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$5 \\text{ m/s}^2$", "correct": false },
+      { "text": "$6 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.4 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La fuerza neta es la suma vectorial (o resta en este caso) de las fuerzas actuantes. Despeja $a$ de la relación $m = \\frac{F_{aplicada} - f_{friccion}}{a}$.",
+    "explanation": "La fuerza neta a favor del movimiento es $F_{neta} = 50 - 10 = 40 \\text{ N}$. Al aplicar la segunda ley: $a = \\frac{F_{neta}}{m} = \\frac{40}{10} = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NK",
+    "question": "Identifica a qué ley o leyes hacen referencia respectivamente las siguientes situaciones:\n1. Un pasajero se va hacia adelante cuando el conductor frena bruscamente.\n2. Al disparar un cañón pesado, el arma retrocede con violencia. 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "1. Primera Ley, 2. Tercera Ley", "correct": true },
+      { "text": "1. Tercera Ley, 2. Segunda Ley", "correct": false },
+      { "text": "1. Segunda Ley, 2. Primera Ley", "correct": false },
+      { "text": "Ambas corresponden a la Segunda Ley de Newton", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El primer caso evidencia la resistencia a perder la velocidad inicial. El segundo caso muestra una compensación de fuerzas.",
+    "explanation": "El pasajero ejemplifica la Inercia (1ra Ley) por tratar de mantener el movimiento rectilíneo previo. El cañón ejemplifica la Acción y Reacción (3ra Ley) al empujar la bala y recibir empuje en contra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01NL",
+    "question": "Un estudiante viaja en un ascensor parado sobre una báscula. Cuando el ascensor empieza a subir acelerando hacia arriba, la báscula marca un peso mayor al normal. ¿Cómo se explica esto mediante la dinámica newtoniana? 🏷 Tema 3.3.3",
+    "image": null,
+    "options": [
+      { "text": "La fuerza normal que ejerce el piso del ascensor sobre la persona debe ser mayor a su peso real para poder acelerarlo hacia arriba.", "correct": true },
+      { "text": "El valor del campo gravitatorio terrestre sufre un incremento local debido al movimiento ascendente del motor.", "correct": false },
+      { "text": "La masa biológica del estudiante aumenta drásticamente debido a la dilatación cinética.", "correct": false },
+      { "text": "La fuerza normal es igual al peso, pero existe una fricción del aire superior que empuja hacia abajo.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Las básculas miden la Fuerza Normal (reacción del piso). Piensa qué debe cumplir la fuerza neta ($N - W$) si hay aceleración positiva.",
+    "explanation": "Por la Segunda Ley, la suma de fuerzas en vertical es $F_N - W = m \\cdot a$. Por lo tanto, $F_N = W + m \\cdot a$. La báscula lee $F_N$, que ahora es el peso natural más la fuerza extra para acelerar.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
