@@ -17818,5 +17818,329 @@
     "explanation": "Teniendo idéntico sentido direccional, la potencia se magnifica de manera lineal. El único método físico de anular la tensión originada sería emplear ejes opuestos con fuerzas ecualizadas a la perfección.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01MC",
+    "question": "¿Cuál es la principal característica del Movimiento Rectilíneo Uniforme (MRU)? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "La velocidad es constante y la aceleración es nula.", "correct": true },
+      { "text": "La aceleración es constante y la velocidad varía.", "correct": false },
+      { "text": "La trayectoria es curva y la rapidez es constante.", "correct": false },
+      { "text": "El móvil se detiene a intervalos regulares de tiempo.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Presta atención a la palabra 'Uniforme' y lo que implica sobre la rapidez con la que se mueve un objeto.",
+    "explanation": "En el MRU, un móvil recorre distancias iguales en tiempos iguales en una trayectoria recta, lo que significa que su velocidad no cambia (aceleración cero).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MD",
+    "question": "En el Movimiento Rectilíneo Uniformemente Acelerado (MRUA), ¿qué variable física permanece estrictamente constante en el transcurso del tiempo? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "La aceleración.", "correct": true },
+      { "text": "La velocidad.", "correct": false },
+      { "text": "El desplazamiento.", "correct": false },
+      { "text": "La posición espacial.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Analiza la frase 'Uniformemente Acelerado' para deducir qué magnitud no sufre fluctuaciones.",
+    "explanation": "En el MRUA, la velocidad experimenta variaciones idénticas en intervalos de tiempo iguales, lo cual define que la aceleración es la magnitud constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ME",
+    "question": "Un ciclista recorre en línea recta $120 \\text{ m}$ en $12 \\text{ s}$. Calcula su rapidez suponiendo un MRU. 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": true },
+      { "text": "$12 \\text{ m/s}$", "correct": false },
+      { "text": "$1440 \\text{ m/s}$", "correct": false },
+      { "text": "$0.1 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para hallar la velocidad en un movimiento uniforme, despeja $v$ de la expresión $t = \\frac{d}{v}$.",
+    "explanation": "Al despejar se obtiene la relación $v = \\frac{d}{t}$. Sustituyendo los datos: $v = \\frac{120 \\text{ m}}{12 \\text{ s}} = 10 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MF",
+    "question": "En una gráfica de posición contra tiempo ($d$ vs $t$), ¿qué representa una línea recta inclinada con pendiente constante mayor a cero? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "Un MRU con velocidad constante y positiva.", "correct": true },
+      { "text": "Un objeto en reposo absoluto en el origen.", "correct": false },
+      { "text": "Un MRUA donde la aceleración va aumentando.", "correct": false },
+      { "text": "Un objeto que está disminuyendo su velocidad gradualmente.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda que la pendiente en esta gráfica equivale a la rapidez de cambio de la posición con respecto al tiempo.",
+    "explanation": "Una línea recta en una gráfica $d$ vs $t$ indica que los cambios de posición son proporcionales al tiempo transcurrido, característica fundamental del MRU.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MG",
+    "question": "¿Cuáles son las unidades correctas de la aceleración en el Sistema Internacional (SI)? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$\\text{m/s}^2$", "correct": true },
+      { "text": "$\\text{m/s}$", "correct": false },
+      { "text": "$\\text{km/h}$", "correct": false },
+      { "text": "$\\text{N/kg}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La magnitud representa el cambio de velocidad (metros por segundo) que experimenta un móvil en cada segundo que transcurre.",
+    "explanation": "La aceleración mide cómo varía la velocidad en el tiempo. Matemáticamente, dividir $\\text{m/s}$ entre $\\text{s}$ resulta en la unidad $\\text{m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MH",
+    "question": "Relaciona el tipo de movimiento con el comportamiento de su velocidad:\\nI. MRU\\nII. MRUA\\n\\nA. La velocidad aumenta o disminuye en cantidades proporcionales al tiempo.\\nB. La velocidad no sufre ninguna alteración a lo largo del recorrido. 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A", "correct": true },
+      { "text": "I-A, II-B", "correct": false },
+      { "text": "I-B, II-B", "correct": false },
+      { "text": "I-A, II-A", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "En el MRU no existe aceleración, mientras que en el MRUA la aceleración provoca un efecto uniforme sobre la rapidez.",
+    "explanation": "El MRU mantiene una velocidad constante (opción B). El MRUA, al tener aceleración constante, altera la velocidad gradualmente (opción A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MI",
+    "question": "Un corredor de fondo avanza a una rapidez constante de $5 \\text{ m/s}$. ¿Cuánto tiempo le tomará completar un tramo recto de $200 \\text{ m}$? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ s}$", "correct": true },
+      { "text": "$1000 \\text{ s}$", "correct": false },
+      { "text": "$0.025 \\text{ s}$", "correct": false },
+      { "text": "$205 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener el tiempo, deberás despejar la variable $t$ de la ecuación fundamental $v = \\frac{d}{t}$.",
+    "explanation": "Despejando el tiempo se obtiene $t = \\frac{d}{v}$. Al sustituir, resulta $t = \\frac{200 \\text{ m}}{5 \\text{ m/s}} = 40 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MJ",
+    "question": "Un automóvil deportivo parte del reposo y alcanza una rapidez de $20 \\text{ m/s}$ en un lapso de $5 \\text{ s}$. Calcula el valor de su aceleración constante. 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$100 \\text{ m/s}^2$", "correct": false },
+      { "text": "$15 \\text{ m/s}^2$", "correct": false },
+      { "text": "$0.25 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para encontrar la aceleración de este movimiento, despeja $a$ de la expresión cinemática $v_f = v_i + a \\cdot t$.",
+    "explanation": "Al partir del reposo, la velocidad inicial es $0$. Despejando: $a = \\frac{v_f - v_i}{t} = \\frac{20 - 0}{5} = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MK",
+    "question": "Completa correctamente el enunciado físico: 'En un MRUA, si la aceleración tiene un signo opuesto al vector de la velocidad, el objeto está ______, por lo que su rapidez ______ con el paso del tiempo.' 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "Frenando, disminuye", "correct": true },
+      { "text": "Acelerando, aumenta", "correct": false },
+      { "text": "Girando, se mantiene", "correct": false },
+      { "text": "Cayendo libremente, aumenta", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Cuando los vectores de velocidad y aceleración apuntan en sentidos contrarios, la fuerza neta se opone al avance.",
+    "explanation": "Una aceleración negativa respecto al avance lineal actúa como un freno, reduciendo progresivamente la rapidez hasta detener el objeto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ML",
+    "question": "Un tren experimenta un MRUA. Si inicia una maniobra con una rapidez de $10 \\text{ m/s}$ y acelera a razón de $2 \\text{ m/s}^2$ durante $4 \\text{ s}$, ¿cuál será su rapidez final? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$18 \\text{ m/s}$", "correct": true },
+      { "text": "$16 \\text{ m/s}$", "correct": false },
+      { "text": "$12 \\text{ m/s}$", "correct": false },
+      { "text": "$20 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "A fin de calcular el valor pedido, requieres despejar $v_f$ de la fórmula fundamental de aceleración: $a = \\frac{v_f - v_i}{t}$.",
+    "explanation": "Despejando la incógnita queda $v_f = v_i + a \\cdot t$. Al aplicar los datos: $v_f = 10 + (2)(4) = 10 + 8 = 18 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MM",
+    "question": "Identifica cuáles de las siguientes características corresponden estrictamente al MRUA:\\n1. Aceleración constante y diferente de cero\\n2. Velocidad sin alteraciones en el tiempo\\n3. Desplazamientos idénticos en intervalos regulares\\n4. La gráfica velocidad vs tiempo es una línea recta con pendiente\\n5. Las distancias acumuladas aumentan en proporción cuadrática respecto al tiempo 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "1, 4, 5", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Descarta inmediatamente las opciones que describan situaciones donde el movimiento o las distancias se mantienen uniformes o idénticas.",
+    "explanation": "Las afirmaciones 2 y 3 describen al MRU. En un MRUA, la aceleración existe (1), la velocidad forma una pendiente (4) y la posición es cuadrática en la gráfica de distancia (5).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MN",
+    "question": "¿Qué distancia neta recorre un móvil que arranca desde el reposo si mantiene una aceleración de $3 \\text{ m/s}^2$ durante $4 \\text{ s}$ consecutivos? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$24 \\text{ m}$", "correct": true },
+      { "text": "$12 \\text{ m}$", "correct": false },
+      { "text": "$48 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener el resultado, debes despejar $d$ partiendo de la ecuación cinemática: $2d = 2v_i t + a t^2$.",
+    "explanation": "La expresión de posición al despejar $d$ es $d = v_i t + \\frac{1}{2} a t^2$. Como parte del reposo, $v_i = 0$. Entonces $d = 0 + 0.5(3)(4^2) = 1.5 \\times 16 = 24 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MO",
+    "question": "Un vehículo pesado efectúa un MRU viajando a $72 \\text{ km/h}$. ¿Qué magnitud de distancia en metros será capaz de recorrer en exactamente $10 \\text{ s}$? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ m}$", "correct": true },
+      { "text": "$720 \\text{ m}$", "correct": false },
+      { "text": "$7.2 \\text{ m}$", "correct": false },
+      { "text": "$144 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Primero, convierte las unidades dividiendo la rapidez entre 3.6 para llevarla a $\\text{m/s}$. Acto seguido, despeja $d$ partiendo de $t = \\frac{d}{v}$.",
+    "explanation": "Conversión: $72 \\text{ km/h} \\div 3.6 = 20 \\text{ m/s}$. Usando la relación despejada $d = v \\cdot t$, se tiene $d = 20 \\times 10 = 200 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MP",
+    "question": "Un estudiante del CEPREDIX suelta una esfera de acero desde la azotea de un rascacielos. Si la magnitud de la gravedad local es $9.8 \\text{ m/s}^2$ y tarda $3 \\text{ s}$ en colisionar contra el suelo, ¿cuál es la altura estimada de la caída? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$44.1 \\text{ m}$", "correct": true },
+      { "text": "$29.4 \\text{ m}$", "correct": false },
+      { "text": "$14.7 \\text{ m}$", "correct": false },
+      { "text": "$88.2 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El fenómeno de caída libre es esencialmente un MRUA donde $v_i=0$. Debes despejar la variable $h$ a partir de la expresión $2h = 2v_i t + g t^2$.",
+    "explanation": "Despejando resulta en $h = \\frac{1}{2} g t^2$. Sustituyendo valores obtenemos $h = 0.5(9.8)(3^2) = 4.9 \\times 9 = 44.1 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MQ",
+    "question": "Un automóvil que viaja a $30 \\text{ m/s}$ se encuentra un obstáculo y frena bruscamente aplicando una aceleración de $-5 \\text{ m/s}^2$ hasta detenerse por completo. ¿Qué distancia requirió para el frenado total? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$90 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false },
+      { "text": "$45 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "En este caso no se proporciona el tiempo del evento. Utiliza la relación atemporal despejando la distancia $d$ de la ecuación $v_i^2 = v_f^2 - 2ad$.",
+    "explanation": "Al detenerse, $v_f = 0$. Despejando tenemos $d = \\frac{v_f^2 - v_i^2}{2a} = \\frac{0^2 - 30^2}{2(-5)} = \\frac{-900}{-10} = 90 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MR",
+    "question": "Dos cuerpos de prueba separados por $300 \\text{ m}$ avanzan simultáneamente uno al encuentro del otro. El primer cuerpo lo hace a $10 \\text{ m/s}$ y el segundo a $20 \\text{ m/s}$. Asumiendo MRU, ¿en qué punto del tiempo ocurrirá la intersección? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ s}$", "correct": true },
+      { "text": "$15 \\text{ s}$", "correct": false },
+      { "text": "$30 \\text{ s}$", "correct": false },
+      { "text": "$20 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La separación física original es equivalente a la suma de lo que recorre cada móvil. Debes despejar $t$ apoyándote en la suma relacional $d = v_A t + v_B t$.",
+    "explanation": "Factorizando el tiempo de la suma de distancias: $d = t(v_A + v_B)$. Al despejar $t = \\frac{d}{v_A + v_B} = \\frac{300}{10 + 20} = \\frac{300}{30} = 10 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MS",
+    "question": "En el túnel aerodinámico del CEPREDIX, un cohete de práctica registra una velocidad inicial de $50 \\text{ m/s}$ y, justo al recorrer sus primeros $200 \\text{ m}$, su instrumental marca $90 \\text{ m/s}$. ¿Cuál fue su grado de aceleración durante el evento? 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "$14 \\text{ m/s}^2$", "correct": true },
+      { "text": "$20 \\text{ m/s}^2$", "correct": false },
+      { "text": "$28 \\text{ m/s}^2$", "correct": false },
+      { "text": "$7 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Considerando que no se tiene un cronómetro, debes deducir el valor despejando la variable $a$ partiendo de $2ad = v_f^2 - v_i^2$.",
+    "explanation": "Procediendo al despeje: $a = \\frac{v_f^2 - v_i^2}{2d} = \\frac{90^2 - 50^2}{2(200)} = \\frac{8100 - 2500}{400} = \\frac{5600}{400} = 14 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01MT",
+    "question": "Relaciona el elemento de las gráficas cinemáticas con su interpretación analítica:\\nI. Una gráfica de posición vs tiempo conformada por una curva parabólica\\nII. Una gráfica de velocidad vs tiempo que muestra una línea perfectamente horizontal\\nIII. El área delimitada bajo la curva en una gráfica de velocidad vs tiempo\\n\\nA. Equivale a calcular matemáticamente el desplazamiento total logrado.\\nB. Es evidencia contundente de un movimiento con aceleración constante (MRUA).\\nC. Certifica la existencia de un movimiento de rapidez y trayectoria invariables (MRU). 🏷 Tema 3.3.2",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "En un análisis gráfico, recuerda que la posición cuadrática (curva) denota aceleración, mientras que el cálculo de área interior siempre refleja la distancia total.",
+    "explanation": "La curva de posición denota aceleración (MRUA). Una velocidad plana en el gráfico de tiempo manifiesta ausencia de aceleración (MRU). Por último, el área en un plano velocidad-tiempo da como resultado directo el desplazamiento.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
