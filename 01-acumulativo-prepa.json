@@ -18792,3 +18792,329 @@
     "collapsible_text": null
   }
 ]
+[
+  {
+    "id": "CEP01OE",
+    "question": "¿Qué condición física es indispensable para que una fuerza realice trabajo mecánico sobre un cuerpo? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Que el cuerpo se desplace en la misma dirección de la fuerza aplicada.", "correct": true },
+      { "text": "Que la fuerza se aplique de forma perpendicular al movimiento.", "correct": false },
+      { "text": "Que el cuerpo se mantenga en reposo total al aplicar la fuerza.", "correct": false },
+      { "text": "Que la fuerza sea variable en función del tiempo de aplicación.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda la ecuación despejada $F = \\frac{W}{d}$. Si el denominador de distancia es cero, no hay trabajo.",
+    "explanation": "El trabajo requiere un desplazamiento en la misma dirección o en una componente paralela a la fuerza aplicada para transferir energía.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OF",
+    "question": "¿En qué unidad del Sistema Internacional se mide tanto el trabajo mecánico como la energía de un sistema? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Newton", "correct": false },
+      { "text": "Watt", "correct": false },
+      { "text": "Joule", "correct": true },
+      { "text": "Pascal", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Se define como la fuerza de un Newton aplicada a lo largo de un metro. Analiza el despeje de la distancia $d = \\frac{W}{F}$.",
+    "explanation": "El Joule ($J$) es la unidad estándar de energía y trabajo, equivalente a multiplicar un Newton por un metro ($1 \\text{ N}\\cdot\\text{m}$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OG",
+    "question": "¿Cómo se define conceptualmente la energía cinética de un sistema físico? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "La energía almacenada exclusivamente por la altitud de un cuerpo.", "correct": false },
+      { "text": "La energía asociada al estado de movimiento de un cuerpo material.", "correct": true },
+      { "text": "La energía disipada en forma de calor debido a la fricción superficial.", "correct": false },
+      { "text": "La rapidez constante con la que un sistema efectúa un trabajo.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Observa el modelo despejado de la masa $m = \\frac{2E_k}{v^2}$, donde la variable $v$ es indispensable para su existencia.",
+    "explanation": "La energía cinética depende íntimamente de la masa y de la velocidad; es la energía de los objetos en pleno movimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OH",
+    "question": "La energía mecánica total de un sistema conservativo libre de fricción se mantiene constante y se define matemáticamente como la suma de: 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Trabajo mecánico neto y potencia desarrollada.", "correct": false },
+      { "text": "Fuerza resultante total y desplazamiento final.", "correct": false },
+      { "text": "Energía térmica residual y energía cinética.", "correct": false },
+      { "text": "Energía cinética en movimiento y energía potencial.", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Despejando la energía asociada a la altura obtenemos que $E_p = E_m - E_k$.",
+    "explanation": "La energía mecánica ($E_m$) representa el estado energético total macroscópico, combinando energía de movimiento ($E_k$) y de posición ($E_p$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OI",
+    "question": "¿Qué magnitud física relaciona estrictamente la cantidad de trabajo mecánico realizado con el intervalo de tiempo empleado para efectuarlo? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Impulso motriz", "correct": false },
+      { "text": "Fuerza de empuje", "correct": false },
+      { "text": "Potencia mecánica", "correct": true },
+      { "text": "Energía mecánica", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si necesitas calcular el tiempo total de ejecución, emplearías el despeje matemático $t = \\frac{W}{P}$.",
+    "explanation": "La potencia indica la rapidez con la que se transfiere energía o se completa un trabajo físico en un sistema.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OJ",
+    "question": "Si un atleta sostiene una pesa de gran masa sobre su cabeza sin moverse absolutamente nada durante 30 segundos, ¿cuánto trabajo mecánico realiza sobre la pesa? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Cero, porque no hay un desplazamiento real del objeto.", "correct": true },
+      { "text": "Máximo, debido al esfuerzo muscular continuo requerido.", "correct": false },
+      { "text": "Depende exclusivamente de la masa que tenga la pesa.", "correct": false },
+      { "text": "Depende de la altura a la que logra sostener la pesa.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para hallar la distancia se usa el modelo $d = \\frac{W}{F}$. Si la posición es inalterable, el cálculo final es nulo.",
+    "explanation": "Físicamente, el trabajo mecánico es cero ($0 \\text{ J}$) si la distancia recorrida es nula, sin importar el desgaste o cansancio biológico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OK",
+    "question": "Calcula el trabajo mecánico total realizado al empujar una caja pesada con una fuerza horizontal constante de $50 \\text{ N}$ a lo largo de un pasillo de $4 \\text{ m}$. 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ J}$", "correct": true },
+      { "text": "$12.5 \\text{ J}$", "correct": false },
+      { "text": "$54 \\text{ J}$", "correct": false },
+      { "text": "$46 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si necesitaras aislar la magnitud de la fuerza aplicada, usarías el despeje matemático $F = \\frac{W}{d}$.",
+    "explanation": "Al multiplicar directamente la fuerza por la distancia paralela recorrida ($W = F \\cdot d$), se tiene $50 \\text{ N} \\times 4 \\text{ m} = 200 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OL",
+    "question": "Un vehículo de juguete que tiene una masa de $2 \\text{ kg}$ se mueve en línea recta con una rapidez de $3 \\text{ m/s}$. ¿Cuál es la magnitud de su energía cinética en ese instante? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ J}$", "correct": false },
+      { "text": "$6 \\text{ J}$", "correct": false },
+      { "text": "$18 \\text{ J}$", "correct": false },
+      { "text": "$9 \\text{ J}$", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si buscaras calcular la masa inercial a partir de estos mismos datos, usarías el modelo $m = \\frac{2E_k}{v^2}$.",
+    "explanation": "Aplicando la fórmula estándar de la cinética ($E_k = \\frac{1}{2}mv^2$), el cálculo es $0.5 \\times 2 \\text{ kg} \\times (3 \\text{ m/s})^2 = 9 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OM",
+    "question": "Calcula el valor de la energía potencial gravitatoria de un bloque de acero de $5 \\text{ kg}$ situado sobre una repisa a $2 \\text{ m}$ de altura respecto al suelo ($g = 9.8 \\text{ m/s}^2$). 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$49 \\text{ J}$", "correct": false },
+      { "text": "$98 \\text{ J}$", "correct": true },
+      { "text": "$19.6 \\text{ J}$", "correct": false },
+      { "text": "$10 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para encontrar la variable de altura aislando los factores desde la energía, se usa el despeje $h = \\frac{E_p}{mg}$.",
+    "explanation": "Utilizando el modelo de energía de posición ($E_p = mgh$), multiplicamos los tres factores: $5 \\times 9.8 \\times 2 = 98 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ON",
+    "question": "¿Cuál es la potencia teórica desarrollada por el motor de un montacargas que realiza un trabajo neto de $1200 \\text{ J}$ en un intervalo de $60 \\text{ s}$? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$72000 \\text{ W}$", "correct": false },
+      { "text": "$1260 \\text{ W}$", "correct": false },
+      { "text": "$20 \\text{ W}$", "correct": true },
+      { "text": "$2 \\text{ W}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si en lugar de ello necesitaras calcular el trabajo total aportado por la máquina, emplearías la ecuación despejada $W = P \\cdot t$.",
+    "explanation": "La potencia se obtiene al dividir la energía transferida entre el tiempo total ($P = \\frac{W}{t}$), resultando en $1200 / 60 = 20 \\text{ W}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OO",
+    "question": "Completa correctamente el siguiente enunciado analítico: 'Si un objeto en pleno movimiento lograra repentinamente duplicar su velocidad, su energía cinética se ______.' 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "duplica de manera equitativa", "correct": false },
+      { "text": "reduce a la mitad de su valor", "correct": false },
+      { "text": "mantiene constante en el tiempo", "correct": false },
+      { "text": "cuadruplica exponencialmente", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Analiza profundamente el despeje de la velocidad $v = \\sqrt{\\frac{2E_k}{m}}$. El factor de rapidez se encuentra al cuadrado en la ecuación inicial.",
+    "explanation": "La energía cinética es estrictamente proporcional al cuadrado de la rapidez ($v^2$). Por ende, al someter un factor del doble de velocidad ($2v$), se eleva al cuadrado y rinde un incremento de $4$ veces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OP",
+    "question": "Relaciona correctamente las variables cinemáticas con la respectiva ecuación matemática que se debe emplear al despejarlas: I. Altura, II. Rapidez, III. Intervalo de tiempo; A. $W/P$, B. $\\sqrt{2E_k/m}$, C. $E_p/(mg)$. 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El intervalo de tiempo agrupa los conceptos de trabajo y potencia mediante el despeje algebraico del producto cruzado $W = P \\cdot t$.",
+    "explanation": "La variable de altura se despeja de la energía potencial (C), la rapidez se extrae de la energía cinética (B) y el marco de tiempo proviene del análisis de la potencia de un sistema (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OQ",
+    "question": "Una persona levanta verticalmente una caja fuerte de $10 \\text{ kg}$ a velocidad uniforme hasta depositarla sobre una superficie a $1.5 \\text{ m}$ de altura. Si empleamos $g = 9.8 \\text{ m/s}^2$, ¿cuál es el trabajo neto realizado exclusivamente contra la fuerza de gravedad? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$98 \\text{ J}$", "correct": false },
+      { "text": "$14.7 \\text{ J}$", "correct": false },
+      { "text": "$147 \\text{ J}$", "correct": true },
+      { "text": "$15 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para verificar la distancia vertical vencida, podrías usar el modelo reacomodado $d = \\frac{W}{mg}$, recordando que este trabajo incrementa directamente la energía del sistema.",
+    "explanation": "El esfuerzo contra el peso propio equivale al incremento de energía de posición. Por lo tanto $W = m \\cdot g \\cdot h = 10 \\times 9.8 \\times 1.5 = 147 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OR",
+    "question": "Desde un balcón ubicado a una altitud de $5 \\text{ m}$, se suelta una esfera metálica. Aplicando la ley de conservación de la energía mecánica y descartando el arrastre aerodinámico del aire, ¿con qué rapidez colisionará contra el suelo? ($g = 9.8 \\text{ m/s}^2$) 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$49 \\text{ m/s}$", "correct": false },
+      { "text": "$9.89 \\text{ m/s}$", "correct": true },
+      { "text": "$7 \\text{ m/s}$", "correct": false },
+      { "text": "$14 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener la altitud de origen a partir de la magnitud de colisión usa el reacomodo de términos $h = \\frac{v^2}{2g}$.",
+    "explanation": "Toda la reserva de energía potencial se agota convirtiéndose en rapidez de caída: $mgh = 0.5 mv^2$. Al despejar tenemos $v = \\sqrt{2gh} = \\sqrt{2 \\times 9.8 \\times 5} = \\sqrt{98} \\approx 9.89 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OS",
+    "question": "Una locomotora eléctrica logra aplicar una fuerza de tracción constante de $400 \\text{ N}$ para desplazar sus vagones a una rapidez uniforme de $15 \\text{ m/s}$. ¿Cuál es la magnitud de la potencia que exige este motor para sostener dicho régimen continuo? 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$600 \\text{ W}$", "correct": false },
+      { "text": "$26.6 \\text{ W}$", "correct": false },
+      { "text": "$6000 \\text{ W}$", "correct": true },
+      { "text": "$415 \\text{ W}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Si te solicitaran comprobar la rapidez crucero lograda partiendo de las prestaciones de la máquina usa el modelo $v = \\frac{P}{F}$.",
+    "explanation": "Para objetos con aceleración nula, la rapidez de transferencia energética es igual a fuerza por celeridad: $P = F \\cdot v = 400 \\times 15 = 6000 \\text{ W}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OT",
+    "question": "Un proyectil de prueba de $4 \\text{ kg}$ se dispara verticalmente con una energía cinética inicial garantizada de $196 \\text{ J}$. ¿Cuál es el límite máximo de altura teórica que alcanzará antes de agotar su ascenso? ($g = 9.8 \\text{ m/s}^2$) 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$5 \\text{ m}$", "correct": true },
+      { "text": "$20 \\text{ m}$", "correct": false },
+      { "text": "$49 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para confirmar la masa inercial del proyectil evaluando sus fronteras de energía debes acudir al despeje $m = \\frac{E_p}{gh}$, donde $E_p$ es la dotación inicial.",
+    "explanation": "Bajo la regla de conservación, la dotación cinética se agota al alcanzar la altitud límite: $196 = mgh = 4 \\times 9.8 \\times h$. Resolviendo la ecuación $h = 196 / 39.2 = 5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OU",
+    "question": "Al someter un péndulo de laboratorio a un movimiento periódico y armónico simple, se deben manifestar fluctuaciones en su reserva de energía. Identifica la afirmación correcta que rige estos cambios: 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "En su cota más baja, la carga potencial se maximiza y su rapidez disminuye a cero.", "correct": false },
+      { "text": "En las fronteras o puntos extremos, la energía cinética es cero y la potencial alcanza su clímax.", "correct": true },
+      { "text": "La suma total o valor bruto de la energía mecánica decae progresivamente sin fricción.", "correct": false },
+      { "text": "En las posiciones periféricas, ambas manifestaciones de energía equiparan estrictamente sus montos.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Considera el aislamiento de la rapidez usando $v = \\sqrt{\\frac{2(E_m - E_p)}{m}}$. Queda evidenciado que si $E_m$ agota su margen en $E_p$, entonces el péndulo carece de velocidad.",
+    "explanation": "En el vértice de su recorrido (los extremos laterales), el objeto agota su inercia y se frena un instante (cinética cero), adquiriendo a cambio el máximo valor en su cota de altitud gravitatoria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OV",
+    "question": "Un motor de grúa transporta un ensamble de $500 \\text{ kg}$ a $10 \\text{ m}$ de altura gastando $20 \\text{ s}$. Si los operadores ajustan la máquina para izar la misma carga hasta esa marca en apenas $10 \\text{ s}$, ¿qué exigencia matemática ocurre respecto a la magnitud de potencia? ($g = 9.8 \\text{ m/s}^2$) 🏷 Tema 3.3.5",
+    "image": null,
+    "options": [
+      { "text": "Se preserva intacta e igual a la originada inicialmente.", "correct": false },
+      { "text": "Debe reducirse proporcionalmente a la mitad de su magnitud.", "correct": false },
+      { "text": "Obligatoriamente debe duplicar de manera exacta su régimen inicial.", "correct": true },
+      { "text": "Se multiplica al cuádruple por efecto del tiempo cuadrático.", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Para obtener la duración de la operación asumiendo el esfuerzo del equipo acude al acomodo $t = \\frac{mgh}{P}$. La brevedad es adversa al margen de potencia.",
+    "explanation": "La cantidad de energía o trabajo requerido permanece idéntica al alzar un mismo cuerpo al mismo techo. Sin embargo, al contraer el lapso a la mitad, la ecuación $P=W/t$ dicta que la velocidad de entrega energética debe forzosamente ser del doble.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
