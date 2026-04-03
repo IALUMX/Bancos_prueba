@@ -21750,5 +21750,437 @@
     "explanation": "La técnica analítica se describe sin ningún fallo de redacción gramatical o normativa. La nomenclatura orgánica se equivoca al acentuar la vocal de 'el cual' referencial ('el cuál' es para exclamación o pregunta). La opción de energía nuclear encadena el mal uso del gerundio para demostrar un efecto colateral subsecuente ('liberando'). Las soluciones valoradas cometen el clásico error de añadir la preposición 'de' ('se refiere de que').",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01SY",
+    "question": "¿Qué magnitud se obtiene al realizar el despeje de la masa ($m$) en la segunda ley de Newton $F = m \\cdot a$?",
+    "image": null,
+    "options": [
+      { "text": "Masa: $\\frac{F}{a} = \\frac{\\text{kg} \\cdot \\text{m}/\\text{s}^2}{\\text{m}/\\text{s}^2} = \\text{kg}$", "correct": true },
+      { "text": "Tiempo: $\\frac{a}{F} = \\frac{\\text{m}/\\text{s}^2}{\\text{kg} \\cdot \\text{m}/\\text{s}^2} = \\text{kg}^{-1}$", "correct": false },
+      { "text": "Presión: $F \\cdot a = (\\text{kg} \\cdot \\text{m}/\\text{s}^2) \\cdot (\\text{m}/\\text{s}^2) = \\text{kg} \\cdot \\text{m}^2/\\text{s}^4$", "correct": false },
+      { "text": "Energía: $\\frac{F}{a^2} = \\frac{\\text{kg} \\cdot \\text{m}/\\text{s}^2}{\\text{m}^2/\\text{s}^4} = \\text{kg} \\cdot \\text{s}^2/\\text{m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula es $F = m \\cdot a$. Aplica el despeje algebraico dividiendo ambos lados de la ecuación entre la aceleración.",
+    "explanation": "Al despejar $m$, obtenemos $F/a$. Las unidades de aceleración se cancelan, dejando únicamente kilogramos (masa).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01SZ",
+    "question": "Al realizar el análisis dimensional de la velocidad ($v$) a partir de la ecuación $v = d/t$, el resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "Velocidad: $\\frac{d}{t} = \\frac{\\text{m}}{\\text{s}}$", "correct": true },
+      { "text": "Aceleración: $d \\cdot t = \\text{m} \\cdot \\text{s}$", "correct": false },
+      { "text": "Fuerza: $\\frac{t}{d} = \\frac{\\text{s}}{\\text{m}}$", "correct": false },
+      { "text": "Trabajo: $d^2/t = \\text{m}^2/\\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la fórmula para la distancia es $d = v \\cdot t$. Despeja la velocidad e identifica las unidades fundamentales del SI correspondientes.",
+    "explanation": "La velocidad se define como el cambio de posición por unidad de tiempo, resultando en la razón de metros por segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TA",
+    "question": "¿Cuál es el análisis correcto para la aceleración ($a$) despejada de la ecuación de movimiento $v_f = v_i + a \\cdot t$?",
+    "image": null,
+    "options": [
+      { "text": "Aceleración: $\\frac{\\Delta v}{t} = \\frac{\\text{m}/\\text{s}}{\\text{s}} = \\frac{\\text{m}}{\\text{s}^2}$", "correct": true },
+      { "text": "Distancia: $\\Delta v \\cdot t = (\\text{m}/\\text{s}) \\cdot \\text{s} = \\text{m}$", "correct": false },
+      { "text": "Potencia: $\\frac{t}{\\Delta v} = \\frac{\\text{s}}{\\text{m}/\\text{s}} = \\text{s}^2/\\text{m}$", "correct": false },
+      { "text": "Masa: $\\Delta v + t = \\text{m}/\\text{s} + \\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A partir de $v_f = v_i + a \\cdot t$, mueve la velocidad inicial restando para obtener el diferencial $\\Delta v$, y finalmente divide entre el tiempo.",
+    "explanation": "La aceleración es el cambio de velocidad en el tiempo, resultando en metros por segundo al cuadrado. La opción D no es dimensionalmente homogénea por plantear una suma de unidades incompatibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TB",
+    "question": "Si despejamos la Fuerza ($F$) de la fórmula del trabajo mecánico $W = F \\cdot d$, ¿qué obtenemos dimensionalmente?",
+    "image": null,
+    "options": [
+      { "text": "Fuerza: $\\frac{W}{d} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{m}} = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}^2}$", "correct": true },
+      { "text": "Potencia: $W \\cdot d = (\\text{kg} \\cdot \\text{m}^2/\\text{s}^2) \\cdot \\text{m} = \\text{kg} \\cdot \\text{m}^3/\\text{s}^2$", "correct": false },
+      { "text": "Velocidad: $\\frac{d}{W} = \\frac{\\text{m}}{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2} = \\frac{\\text{s}^2}{\\text{kg} \\cdot \\text{m}}$", "correct": false },
+      { "text": "Presión: $\\frac{W}{d^2} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{m}^2} = \\text{kg}/\\text{s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula del trabajo $W = F \\cdot d$ y realiza el despeje pasando la distancia con su operación contraria.",
+    "explanation": "El trabajo (Joules) dividido por la distancia (metros) nos devuelve la unidad fundamental de la fuerza (Newton).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TC",
+    "question": "Al realizar el análisis dimensional de la Potencia ($P$) utilizando la ecuación $P = W/t$, el resultado correcto es:",
+    "image": null,
+    "options": [
+      { "text": "Potencia: $\\frac{W}{t} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{s}} = \\text{kg} \\cdot \\frac{\\text{m}^2}{\\text{s}^3}$", "correct": true },
+      { "text": "Fuerza: $W \\cdot t = (\\text{kg} \\cdot \\text{m}^2/\\text{s}^2) \\cdot \\text{s} = \\text{kg} \\cdot \\text{m}^2/\\text{s}$", "correct": false },
+      { "text": "Presión: $\\frac{t}{W} = \\frac{\\text{s}}{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2} = \\frac{\\text{s}^3}{\\text{kg} \\cdot \\text{m}^2}$", "correct": false },
+      { "text": "Densidad: $\\frac{W}{t^2} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{s}^2} = \\text{kg} \\cdot \\text{m}^2/\\text{s}^4$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para llegar a $P = W/t$, puedes partir del concepto básico $W = P \\cdot t$. Sustituye las unidades de energía y tiempo.",
+    "explanation": "La potencia es la rapidez con la que se realiza un trabajo, medida en Watts (Joules por segundo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TD",
+    "question": "Al analizar dimensionalmente la Presión ($P_{res}$) en la fórmula $P_{res} = F/A$, la opción correcta es:",
+    "image": null,
+    "options": [
+      { "text": "Presión: $\\frac{F}{A} = \\frac{\\text{kg} \\cdot \\text{m}/\\text{s}^2}{\\text{m}^2} = \\frac{\\text{kg}}{\\text{m} \\cdot \\text{s}^2}$", "correct": true },
+      { "text": "Volumen: $F \\cdot A = (\\text{kg} \\cdot \\text{m}/\\text{s}^2) \\cdot \\text{m}^2 = \\text{kg} \\cdot \\text{m}^3/\\text{s}^2$", "correct": false },
+      { "text": "Momento: $\\frac{A}{F} = \\frac{\\text{m}^2}{\\text{kg} \\cdot \\text{m}/\\text{s}^2} = \\frac{\\text{m} \\cdot \\text{s}^2}{\\text{kg}}$", "correct": false },
+      { "text": "Carga: $F \\cdot A^2 = \\text{kg} \\cdot \\text{m}^5/\\text{s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la fuerza se describe por $F = P_{res} \\cdot A$. Despeja la presión sustituyendo los Newtons y metros cuadrados.",
+    "explanation": "La presión es fuerza por unidad de superficie, medida en Pascales, lo cual simplificado resulta en kilogramos sobre metro por segundo al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TE",
+    "question": "Para la magnitud de densidad ($\\rho$), obtenida directamente de la ecuación $\\rho = m/V$, el análisis dimensional resultante es:",
+    "image": null,
+    "options": [
+      { "text": "Densidad: $\\frac{m}{V} = \\frac{\\text{kg}}{\\text{m}^3}$", "correct": true },
+      { "text": "Peso específico: $m \\cdot V = \\text{kg} \\cdot \\text{m}^3$", "correct": false },
+      { "text": "Carga eléctrica: $V/m = \\text{m}^3/\\text{kg}$", "correct": false },
+      { "text": "Frecuencia: $m^2/V = \\text{kg}^2/\\text{m}^3$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si partes de la relación de masa en un volumen $m = \\rho \\cdot V$, despeja $\\rho$ para analizar sus unidades.",
+    "explanation": "La densidad es la masa contenida en un volumen determinado, por lo que su unidad derivada es el kilogramo por metro cúbico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TF",
+    "question": "¿Qué obtenemos del análisis dimensional de la cantidad de movimiento o momento lineal expresado como $p = m \\cdot v$?",
+    "image": null,
+    "options": [
+      { "text": "Momento Lineal: $m \\cdot v = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}}$", "correct": true },
+      { "text": "Energía: $m \\cdot v^2 = \\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Fuerza: $\\frac{m}{v} = \\frac{\\text{kg}}{\\text{m}/\\text{s}} = \\frac{\\text{kg} \\cdot \\text{s}}{\\text{m}}$", "correct": false },
+      { "text": "Presión: $\\frac{v}{m} = \\frac{\\text{m}}{\\text{s} \\cdot \\text{kg}}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las magnitudes separadas: una masa dada en kg y una velocidad en m/s. Solo debes multiplicar sus correspondientes unidades.",
+    "explanation": "El producto de la masa por la velocidad nos da directamente el momento lineal, el cual se mide en $\\text{kg} \\cdot \\text{m}/\\text{s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TG",
+    "question": "Si realizamos la evaluación dimensional del Impulso ($J$) utilizando la ecuación $J = F \\cdot \\Delta t$, obtenemos:",
+    "image": null,
+    "options": [
+      { "text": "Impulso: $F \\cdot \\Delta t = (\\text{kg} \\cdot \\text{m}/\\text{s}^2) \\cdot \\text{s} = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}}$", "correct": true },
+      { "text": "Energía: $\\frac{F}{\\Delta t} = \\text{kg} \\cdot \\text{m}/\\text{s}^3$", "correct": false },
+      { "text": "Potencia: $F \\cdot \\Delta t^2 = \\text{kg} \\cdot \\text{m}$", "correct": false },
+      { "text": "Presión: $\\frac{\\Delta t}{F} = \\text{s}^3/(\\text{kg} \\cdot \\text{m})$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener esta ecuación puedes partir de la relación de la fuerza respecto a la cantidad de movimiento $F = J/\\Delta t$.",
+    "explanation": "Al multiplicar la unidad de Fuerza (Newton) por un tiempo en segundos, una de las unidades del tiempo se cancela, demostrando que el impulso tiene las mismas unidades que la cantidad de movimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TH",
+    "question": "Al despejar la gravedad ($g$) de la ecuación clásica de energía potencial $E_p = mgh$, el análisis dimensional resulta en:",
+    "image": null,
+    "options": [
+      { "text": "Aceleración: $\\frac{E_p}{m \\cdot h} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{kg} \\cdot \\text{m}} = \\frac{\\text{m}}{\\text{s}^2}$", "correct": true },
+      { "text": "Velocidad: $\\frac{E_p}{m} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{kg}} = \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Fuerza: $E_p \\cdot m \\cdot h = \\text{kg}^2 \\cdot \\text{m}^3/\\text{s}^2$", "correct": false },
+      { "text": "Densidad: $\\frac{m \\cdot h}{E_p} = \\text{s}^2/\\text{m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación principal es $E_p = mgh$. Procede aislando la variable de la gravedad dividiendo la energía entre el producto de la masa y la altura.",
+    "explanation": "Al dividir la energía potencial (Joules) entre el producto de la masa (kg) y la altura (m), el resultado se reduce a las unidades fundamentales de aceleración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TI",
+    "question": "Despejando analíticamente la masa ($m$) en la fórmula de la Energía Cinética $E_k = \\frac{1}{2}mv^2$ y evaluando sus dimensiones:",
+    "image": null,
+    "options": [
+      { "text": "Masa: $\\frac{2E_k}{v^2} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{m}^2/\\text{s}^2} = \\text{kg}$", "correct": true },
+      { "text": "Tiempo: $\\frac{v^2}{E_k} = \\frac{\\text{m}^2/\\text{s}^2}{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2} = \\text{kg}^{-1}$", "correct": false },
+      { "text": "Longitud: $E_k \\cdot v^2 = \\text{kg} \\cdot \\text{m}^4/\\text{s}^4$", "correct": false },
+      { "text": "Fuerza: $\\frac{E_k}{v} = \\text{kg} \\cdot \\text{m}/\\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Inicia desde $E_k = \\frac{1}{2}mv^2$. Recuerda que el coeficiente $1/2$ debe pasar al otro lado como multiplicador antes de despejar la variable requerida.",
+    "explanation": "El factor numérico de $1/2$ y el $2$ resultante no poseen dimensiones. El análisis dimensional radica en dividir los Joules de la energía entre la velocidad elevada al cuadrado, dejando solo kg.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TJ",
+    "question": "Al despejar la longitud de onda ($\\lambda$) de la ecuación de propagación de onda $v = \\lambda \\cdot f$, el resultado dimensional es:",
+    "image": null,
+    "options": [
+      { "text": "Longitud de onda: $\\frac{v}{f} = \\frac{\\text{m}/\\text{s}}{1/\\text{s}} = \\text{m}$", "correct": true },
+      { "text": "Periodo: $v \\cdot f = (\\text{m}/\\text{s}) \\cdot (1/\\text{s}) = \\text{m}/\\text{s}^2$", "correct": false },
+      { "text": "Aceleración: $\\frac{f}{v} = \\frac{1/\\text{s}}{\\text{m}/\\text{s}} = 1/\\text{m}$", "correct": false },
+      { "text": "Área: $v^2/f = \\text{m}^2/\\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desde $v = \\lambda \\cdot f$, despeja $\\lambda$ y ten en cuenta que la frecuencia se mide en Hertz ($1/s$).",
+    "explanation": "La velocidad dividida por la frecuencia implica multiplicar metros por segundo por el inverso del tiempo, cancelándose los segundos y restando solo metros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TK",
+    "question": "¿Qué resulta de analizar dimensionalmente el Trabajo Termodinámico ($W$) en un proceso isobárico a partir de $W = P \\cdot \\Delta V$?",
+    "image": null,
+    "options": [
+      { "text": "Trabajo: $P \\cdot \\Delta V = (\\frac{\\text{kg}}{\\text{m} \\cdot \\text{s}^2}) \\cdot \\text{m}^3 = \\text{kg} \\cdot \\frac{\\text{m}^2}{\\text{s}^2}$", "correct": true },
+      { "text": "Fuerza: $P/\\Delta V = (\\text{kg}/(\\text{m} \\cdot \\text{s}^2)) / \\text{m}^3 = \\text{kg}/(\\text{m}^4 \\cdot \\text{s}^2)$", "correct": false },
+      { "text": "Potencia: $P \\cdot \\Delta V^2 = \\text{kg} \\cdot \\text{m}^5/\\text{s}^2$", "correct": false },
+      { "text": "Densidad: $\\Delta V/P = \\text{m}^4 \\cdot \\text{s}^2/\\text{kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para llegar a este análisis, puedes partir de la relación de la presión despejando $P = W/\\Delta V$. Sustituye las unidades de Pascales y metros cúbicos.",
+    "explanation": "Al multiplicar la presión por una variación de volumen en las unidades correspondientes, se obtienen las dimensiones equivalentes de la energía (Joule).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TL",
+    "question": "Al despejar el calor específico ($c$) de la ecuación del calor sensible $Q = mc\\Delta T$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "Capacidad calorífica específica: $\\frac{Q}{m \\cdot \\Delta T} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{kg} \\cdot \\text{K}} = \\frac{\\text{m}^2}{\\text{s}^2 \\cdot \\text{K}}$", "correct": true },
+      { "text": "Calor: $Q \\cdot m \\cdot \\Delta T = \\text{kg}^2 \\cdot \\text{m}^2 \\cdot \\text{K}/\\text{s}^2$", "correct": false },
+      { "text": "Temperatura: $\\frac{m \\cdot Q}{\\Delta T} = \\text{kg}^2 \\cdot \\text{m}^2/(\\text{s}^2 \\cdot \\text{K})$", "correct": false },
+      { "text": "Entropía: $\\frac{Q}{\\Delta T} = \\text{kg} \\cdot \\text{m}^2/(\\text{s}^2 \\cdot \\text{K})$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación principal a despejar es $Q = mc\\Delta T$. Debes llevar al otro lado de la igualdad el producto de la masa por el incremento de temperatura.",
+    "explanation": "El calor específico mide la cantidad de energía en Joules necesaria por unidad de masa y por grado de incremento térmico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TM",
+    "question": "Para la constante elástica de un resorte ($k$), despejada de la Ley de Hooke $F = kx$, el análisis dimensional correcto es:",
+    "image": null,
+    "options": [
+      { "text": "Constante elástica: $\\frac{F}{x} = \\frac{\\text{kg} \\cdot \\text{m}/\\text{s}^2}{\\text{m}} = \\frac{\\text{kg}}{\\text{s}^2}$", "correct": true },
+      { "text": "Momento: $F \\cdot x = \\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Aceleración: $\\frac{x}{F} = \\text{s}^2/\\text{kg}$", "correct": false },
+      { "text": "Densidad: $F/x^3 = \\text{kg}/(\\text{m}^2 \\cdot \\text{s}^2)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica la variable $k$ en $F = kx$ y aísla pasando la elongación $x$ hacia el término de la fuerza.",
+    "explanation": "Al medir la constante elástica en Newtons por metro (N/m), la unidad fundamental de metro se cancela y el resultado simplificado es $\\text{kg}/\\text{s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TN",
+    "question": "Al evaluar dimensionalmente el concepto físico del torque ($\\tau$) con la ecuación $\\tau = F \\cdot r$, se obtiene:",
+    "image": null,
+    "options": [
+      { "text": "Torque: $F \\cdot r = (\\text{kg} \\cdot \\text{m}/\\text{s}^2) \\cdot \\text{m} = \\text{kg} \\cdot \\frac{\\text{m}^2}{\\text{s}^2}$", "correct": true },
+      { "text": "Presión: $F/r = \\text{kg}/\\text{s}^2$", "correct": false },
+      { "text": "Potencia: $F \\cdot r/t = \\text{kg} \\cdot \\text{m}^2/\\text{s}^3$", "correct": false },
+      { "text": "Impulso: $F/r^2 = \\text{kg}/(\\text{m} \\cdot \\text{s}^2)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para realizar este análisis puedes despejar y visualizar las variables a partir de la fórmula equivalente de fuerza rotacional $F = \\tau/r$.",
+    "explanation": "Aunque posee estructuralmente las mismas dimensiones fundamentales que el Joule escalar de la energía, el torque vectorial se denota expresamente en $N \\cdot m$ para evidenciar que la fuerza es perpendicular al radio de giro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TO",
+    "question": "Al realizar la evaluación dimensional de la corriente ($I$) partiendo de su definición $I = q/t$, encontramos:",
+    "image": null,
+    "options": [
+      { "text": "Corriente eléctrica: $\\frac{q}{t} = \\frac{\\text{A} \\cdot \\text{s}}{\\text{s}} = \\text{A}$", "correct": true },
+      { "text": "Voltaje: $q \\cdot t = \\text{A} \\cdot \\text{s}^2$", "correct": false },
+      { "text": "Resistencia: $t/q = 1/\\text{A}$", "correct": false },
+      { "text": "Capacitancia: $q^2/t = \\text{A}^2 \\cdot \\text{s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación que define el flujo eléctrico es la carga en un intervalo $q = I \\cdot t$. Aísla la variable de la intensidad de corriente.",
+    "explanation": "La corriente eléctrica corresponde al flujo generalizado de carga por unidad de tiempo, derivando en las unidades llamadas Amperios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TP",
+    "question": "Para el potencial eléctrico ($V$), analizado mediante la relación $V = E/q$, su equivalente dimensional correcto es:",
+    "image": null,
+    "options": [
+      { "text": "Voltaje: $\\frac{E}{q} = \\frac{\\text{kg} \\cdot \\text{m}^2/\\text{s}^2}{\\text{A} \\cdot \\text{s}} = \\frac{\\text{kg} \\cdot \\text{m}^2}{\\text{A} \\cdot \\text{s}^3}$", "correct": true },
+      { "text": "Resistencia: $E \\cdot q = \\text{kg} \\cdot \\text{m}^2 \\cdot \\text{A}/\\text{s}$", "correct": false },
+      { "text": "Inductancia: $q/E = \\text{A} \\cdot \\text{s}^3/(\\text{kg} \\cdot \\text{m}^2)$", "correct": false },
+      { "text": "Potencia: $E/q^2 = \\text{kg} \\cdot \\text{m}^2/(\\text{A}^2 \\cdot \\text{s}^4)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la relación general de energía eléctrica $E = q \\cdot V$. Despeja la diferencia de potencial $V$.",
+    "explanation": "El potencial eléctrico (voltaje) se define de forma conceptual como una cantidad de energía de trabajo por unidad fundamental de carga (J/C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TQ",
+    "question": "Despejando la resistencia ($R$) a partir de la expresión matemática de la Ley de Ohm $V = I \\cdot R$:",
+    "image": null,
+    "options": [
+      { "text": "Resistencia: $\\frac{V}{I} = \\frac{\\text{kg} \\cdot \\text{m}^2 / (\\text{A} \\cdot \\text{s}^3)}{\\text{A}} = \\frac{\\text{kg} \\cdot \\text{m}^2}{\\text{A}^2 \\cdot \\text{s}^3}$", "correct": true },
+      { "text": "Capacitancia: $V \\cdot I = \\text{kg} \\cdot \\text{m}^2/\\text{s}^3$", "correct": false },
+      { "text": "Conductancia: $I/V = \\text{A}^2 \\cdot \\text{s}^3/(\\text{kg} \\cdot \\text{m}^2)$", "correct": false },
+      { "text": "Carga: $V^2/I = \\text{kg}^2 \\cdot \\text{m}^4/(\\text{A}^3 \\cdot \\text{s}^6)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica a $R$ en $V = I \\cdot R$ y muéve la intensidad de corriente utilizando la operación matemática contraria.",
+    "explanation": "La resistencia eléctrica marca la oposición al flujo de la corriente, estableciendo la unidad Ohmio resultante del Voltaje sobre el Amperio (V/A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TR",
+    "question": "Al evaluar y simplificar dimensionalmente la Potencia Eléctrica ($P$) proveniente de la fórmula $P = I \\cdot V$:",
+    "image": null,
+    "options": [
+      { "text": "Potencia: $I \\cdot V = \\text{A} \\cdot \\frac{\\text{kg} \\cdot \\text{m}^2}{\\text{A} \\cdot \\text{s}^3} = \\frac{\\text{kg} \\cdot \\text{m}^2}{\\text{s}^3}$", "correct": true },
+      { "text": "Energía: $P \\cdot t = \\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Fem: $V/I = \\text{kg} \\cdot \\text{m}^2/(\\text{A}^2 \\cdot \\text{s}^3)$", "correct": false },
+      { "text": "Campo: $I^2 \\cdot V = \\text{kg} \\cdot \\text{m}^2 \\cdot \\text{A}/\\text{s}^3$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes visualizar este desarrollo si despejas a partir de la intensidad $I = P/V$. Multiplica el Ampere por el Voltio.",
+    "explanation": "La potencia eléctrica al disiparse demuestra tener las mismas dimensiones rigurosas que la potencia de origen mecánico tradicional (Watt).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TS",
+    "question": "Despejando analíticamente la magnitud del campo magnético ($B$) desde la fuerza magnética de Lorentz $F = qvB$:",
+    "image": null,
+    "options": [
+      { "text": "Campo Magnético: $\\frac{F}{q \\cdot v} = \\frac{\\text{kg} \\cdot \\text{m}/\\text{s}^2}{(\\text{A} \\cdot \\text{s}) \\cdot (\\text{m}/\\text{s})} = \\frac{\\text{kg}}{\\text{A} \\cdot \\text{s}^2}$", "correct": true },
+      { "text": "Campo Eléctrico: $F/q = \\text{kg} \\cdot \\text{m}/(\\text{A} \\cdot \\text{s}^3)$", "correct": false },
+      { "text": "Flujo: $F \\cdot v/q = \\text{kg} \\cdot \\text{m}^2/(\\text{A} \\cdot \\text{s}^3)$", "correct": false },
+      { "text": "Permeabilidad: $q \\cdot v/F = \\text{A} \\cdot \\text{s}^2/\\text{kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la ecuación $F = qvB$. Para encontrar $B$, debes dividir la magnitud de la fuerza entre los términos restantes correspondientes a la partícula.",
+    "explanation": "La intensidad general del campo magnético suele medirse en Teslas, definido físicamente como la razón de Newton sobre el producto Coulomb por metro sobre segundo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TT",
+    "question": "Al despejar la resistividad o resistencia específica ($\\rho_e$) a partir de la ecuación de resistencia en un cable conductor $R = \\rho_e \\cdot \\frac{L}{A}$:",
+    "image": null,
+    "options": [
+      { "text": "Resistividad: $\\frac{R \\cdot A}{L} = \\frac{(\\frac{\\text{kg} \\cdot \\text{m}^2}{\\text{A}^2 \\cdot \\text{s}^3}) \\cdot \\text{m}^2}{\\text{m}} = \\frac{\\text{kg} \\cdot \\text{m}^3}{\\text{A}^2 \\cdot \\text{s}^3}$", "correct": true },
+      { "text": "Conductividad: $L/(R \\cdot A) = \\text{A}^2 \\cdot \\text{s}^3/(\\text{kg} \\cdot \\text{m}^3)$", "correct": false },
+      { "text": "Permitividad: $R/L = \\text{kg} \\cdot \\text{m}/(\\text{A}^2 \\cdot \\text{s}^3)$", "correct": false },
+      { "text": "Corriente: $R \\cdot L = \\text{kg} \\cdot \\text{m}^3/(\\text{A}^2 \\cdot \\text{s}^3)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desde $R = \\rho_e \\cdot \\frac{L}{A}$, invierte la posición de la razón longitud/área. Pasa multiplicando el área y dividiendo la longitud.",
+    "explanation": "La resistividad representa una propiedad puramente intrínseca de los materiales que indica la resistencia normalizada, evaluada habitualmente en Ohm-metro ($\\Omega \\cdot \\text{m}$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TU",
+    "question": "Despejando la capacitancia de carga ($C$) involucrada en la ecuación general de energía en un capacitor $q = CV$:",
+    "image": null,
+    "options": [
+      { "text": "Capacitancia: $\\frac{q}{V} = \\frac{\\text{A} \\cdot \\text{s}}{\\text{kg} \\cdot \\text{m}^2 / (\\text{A} \\cdot \\text{s}^3)} = \\frac{\\text{A}^2 \\cdot \\text{s}^4}{\\text{kg} \\cdot \\text{m}^2}$", "correct": true },
+      { "text": "Inductancia: $q \\cdot V = \\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Resistencia: $V/q = \\text{kg} \\cdot \\text{m}^2/(\\text{A}^2 \\cdot \\text{s}^4)$", "correct": false },
+      { "text": "Energía: $q^2/V = \\text{A}^3 \\cdot \\text{s}^5/(\\text{kg} \\cdot \\text{m}^2)$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la relación original de $q = CV$. Necesitas conocer la capacidad $C$, por lo que debes aislarla.",
+    "explanation": "La capacitancia denota formalmente la capacidad material de almacenar carga según una diferencia de voltaje aplicada, calculada como Coulombs sobre Voltio con la unidad Faradios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01TV",
+    "question": "Para la Constante Gravitatoria ($G$), despejada de la Ley de Gravitación Universal de Newton $F = G \\frac{m_1 m_2}{r^2}$:",
+    "image": null,
+    "options": [
+      { "text": "Constante G: $\\frac{F \\cdot r^2}{m_1 \\cdot m_2} = \\frac{(\\text{kg} \\cdot \\text{m}/\\text{s}^2) \\cdot \\text{m}^2}{\\text{kg}^2} = \\frac{\\text{m}^3}{\\text{kg} \\cdot \\text{s}^2}$", "correct": true },
+      { "text": "Planck: $F \\cdot r = \\text{kg} \\cdot \\text{m}^2/\\text{s}^2$", "correct": false },
+      { "text": "Boltzmann: $\\frac{F}{r^2} = \\text{kg}/(\\text{m} \\cdot \\text{s}^2)$", "correct": false },
+      { "text": "Permitividad: $\\frac{m^2}{F} = \\text{kg} \\cdot \\text{s}^2/\\text{m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En la ecuación $F = G \\frac{m_1 m_2}{r^2}$, multiplica la fuerza por la distancia cuadrada y divide entre el factor de las masas.",
+    "explanation": "Esta constante empírica vincula directamente la fuerza con el producto de las masas y se modula de manera inversamente proporcional al cuadrado de la distancia geométrica que las separa.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
