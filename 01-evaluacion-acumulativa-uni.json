@@ -22710,5 +22710,437 @@
     "explanation": "Las comas encierran la fórmula $(x+a)(x+b)$. Matemáticamente, la expansión de estos binomios genera un trinomio de segundo grado.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01UU",
+    "question": "Un automóvil aumenta su velocidad de $10 \\text{ m/s}$ a $30 \\text{ m/s}$ en $5 \\text{ s}$. ¿Cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$8 \\text{ m/s}^2$", "correct": false },
+      { "text": "$2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$20 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula directa para la aceleración: $a = \\frac{v_f - v_i}{t}$",
+    "explanation": "Sustituyendo los valores en la fórmula de la aceleración: $a = \\frac{30 \\text{ m/s} - 10 \\text{ m/s}}{5 \\text{ s}} = \\frac{20 \\text{ m/s}}{5 \\text{ s}} = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UV",
+    "question": "Un cuerpo parte del reposo y se acelera a razón de $3 \\text{ m/s}^2$. ¿Qué distancia recorre después de $4 \\text{ s}$?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ m}$", "correct": false },
+      { "text": "$24 \\text{ m}$", "correct": true },
+      { "text": "$48 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que el cuerpo parte del reposo ($v_i = 0$), puedes usar la fórmula simplificada: $d = \\frac{at^2}{2}$.",
+    "explanation": "Al partir del reposo, el término de la velocidad inicial se elimina. $d = \\frac{(3 \\text{ m/s}^2)(4 \\text{ s})^2}{2} = \\frac{(3)(16)}{2} = \\frac{48}{2} = 24 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UW",
+    "question": "Una motocicleta viaja a $5 \\text{ m/s}$ y acelera a $2 \\text{ m/s}^2$ durante $6 \\text{ s}$. ¿Cuál es su velocidad final?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ m/s}$", "correct": false },
+      { "text": "$15 \\text{ m/s}$", "correct": false },
+      { "text": "$17 \\text{ m/s}$", "correct": true },
+      { "text": "$20 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para encontrar la velocidad final, aplica la ecuación: $v_f = v_i + at$.",
+    "explanation": "Aplicando la fórmula de velocidad final: $v_f = 5 \\text{ m/s} + (2 \\text{ m/s}^2)(6 \\text{ s}) = 5 + 12 = 17 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UX",
+    "question": "Un tren que viaja a $20 \\text{ m/s}$ acelera a $6 \\text{ m/s}^2$ hasta alcanzar una velocidad de $50 \\text{ m/s}$. ¿En cuánto tiempo logró este cambio?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$5 \\text{ s}$", "correct": true },
+      { "text": "$6 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo de la fórmula de aceleración: $t = \\frac{v_f - v_i}{a}$.",
+    "explanation": "Despejando y sustituyendo: $t = \\frac{50 \\text{ m/s} - 20 \\text{ m/s}}{6 \\text{ m/s}^2} = \\frac{30}{6} = 5 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UY",
+    "question": "Un corredor aumenta su velocidad de $10 \\text{ m/s}$ a $20 \\text{ m/s}$ en un tiempo de $4 \\text{ s}$. ¿Qué distancia recorrió en ese intervalo?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": true },
+      { "text": "$120 \\text{ m}$", "correct": false },
+      { "text": "$45 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si no conoces la aceleración pero tienes ambas velocidades y el tiempo, usa: $d = \\left( \\frac{v_i + v_f}{2} \\right) t$.",
+    "explanation": "Evaluando en la fórmula de la velocidad media: $d = \\left( \\frac{10 \\text{ m/s} + 20 \\text{ m/s}}{2} \\right)(4 \\text{ s}) = \\left( \\frac{30}{2} \\right)(4) = 15(4) = 60 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01UZ",
+    "question": "Un objeto parte del reposo y acelera a $4 \\text{ m/s}^2$ a lo largo de una distancia de $50 \\text{ m}$. ¿Cuál es su velocidad al final de ese tramo?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": false },
+      { "text": "$20 \\text{ m/s}$", "correct": true },
+      { "text": "$30 \\text{ m/s}$", "correct": false },
+      { "text": "$400 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como parte del reposo, no hay velocidad inicial. Utiliza el despeje: $v_f = \\sqrt{2ad}$.",
+    "explanation": "Calculando a partir de la fórmula que relaciona distancias y velocidades al cuadrado: $v_f^2 = (0)^2 + 2(4 \\text{ m/s}^2)(50 \\text{ m}) = 400 \\text{ m}^2/\\text{s}^2$. Obteniendo la raíz cuadrada: $v_f = 20 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VA",
+    "question": "Después de acelerar a $5 \\text{ m/s}^2$ durante $7 \\text{ s}$, un auto alcanza una velocidad de $45 \\text{ m/s}$. ¿Cuál era su velocidad inicial?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": true },
+      { "text": "$15 \\text{ m/s}$", "correct": false },
+      { "text": "$5 \\text{ m/s}$", "correct": false },
+      { "text": "$20 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la ecuación fundamental: $v_i = v_f - at$.",
+    "explanation": "Aplicando el despeje: $v_i = 45 \\text{ m/s} - (5 \\text{ m/s}^2)(7 \\text{ s}) = 45 - 35 = 10 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VB",
+    "question": "Un ciclista parte del reposo y recorre $100 \\text{ m}$ en $5 \\text{ s}$. ¿Cuál fue su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ m/s}^2$", "correct": false },
+      { "text": "$6 \\text{ m/s}^2$", "correct": false },
+      { "text": "$8 \\text{ m/s}^2$", "correct": true },
+      { "text": "$10 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la aceleración de la fórmula de distancia tomando en cuenta que la velocidad inicial es cero: $a = \\frac{2d}{t^2}$.",
+    "explanation": "Sustituyendo los valores en el despeje: $a = \\frac{2(100 \\text{ m})}{(5 \\text{ s})^2} = \\frac{200}{25} = 8 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VC",
+    "question": "Un móvil parte del reposo con una aceleración constante de $4 \\text{ m/s}^2$. ¿Cuánto tiempo tarda en recorrer $72 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$", "correct": true },
+      { "text": "$8 \\text{ s}$", "correct": false },
+      { "text": "$36 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como parte del reposo, puedes despejar el tiempo como: $t = \\sqrt{\\frac{2d}{a}}$.",
+    "explanation": "Despejando $t$: $t = \\sqrt{\\frac{2(72 \\text{ m})}{4 \\text{ m/s}^2}} = \\sqrt{\\frac{144}{4}} = \\sqrt{36} = 6 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VD",
+    "question": "Un camión tiene una velocidad inicial de $12 \\text{ m/s}$ y acelera a razón de $2 \\text{ m/s}^2$ por $5 \\text{ s}$. ¿Qué distancia recorrió?",
+    "image": null,
+    "options": [
+      { "text": "$75 \\text{ m}$", "correct": false },
+      { "text": "$85 \\text{ m}$", "correct": true },
+      { "text": "$95 \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la ecuación cuadrática de la posición: $d = v_i t + \\frac{at^2}{2}$.",
+    "explanation": "Sustituyendo los datos: $d = (12 \\text{ m/s})(5 \\text{ s}) + \\frac{(2 \\text{ m/s}^2)(5 \\text{ s})^2}{2} = 60 + \\frac{2(25)}{2} = 60 + 25 = 85 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VE",
+    "question": "Un auto acelera y alcanza una velocidad de $25 \\text{ m/s}$ después de recorrer $100 \\text{ m}$ con una aceleración de $3 \\text{ m/s}^2$. ¿Cuál fue la velocidad inicial?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}$", "correct": true },
+      { "text": "$15 \\text{ m/s}$", "correct": false },
+      { "text": "$25 \\text{ m/s}$", "correct": false },
+      { "text": "$0 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad inicial de la fórmula de velocidades al cuadrado: $v_i = \\sqrt{v_f^2 - 2ad}$.",
+    "explanation": "Aplicando la fórmula: $v_i = \\sqrt{(25 \\text{ m/s})^2 - 2(3 \\text{ m/s}^2)(100 \\text{ m})} = \\sqrt{625 - 600} = \\sqrt{25} = 5 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VF",
+    "question": "Un tren bala disminuye su velocidad de $30 \\text{ m/s}$ a $10 \\text{ m/s}$ en $4 \\text{ s}$. ¿Cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}^2$", "correct": false },
+      { "text": "$-5 \\text{ m/s}^2$", "correct": true },
+      { "text": "$10 \\text{ m/s}^2$", "correct": false },
+      { "text": "$-10 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al tratarse de una desaceleración, recuerda respetar los signos. Usa $a = \\frac{v_f - v_i}{t}$.",
+    "explanation": "Sustituyendo los valores: $a = \\frac{10 \\text{ m/s} - 30 \\text{ m/s}}{4 \\text{ s}} = \\frac{-20}{4} = -5 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VG",
+    "question": "Un auto cambia su velocidad de $10 \\text{ m/s}$ a $30 \\text{ m/s}$ con una aceleración constante de $4 \\text{ m/s}^2$. ¿Qué distancia recorrió durante este cambio?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$200 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la distancia de la ecuación que relaciona velocidades y aceleración: $d = \\frac{v_f^2 - v_i^2}{2a}$.",
+    "explanation": "Calculando: $d = \\frac{(30 \\text{ m/s})^2 - (10 \\text{ m/s})^2}{2(4 \\text{ m/s}^2)} = \\frac{900 - 100}{8} = \\frac{800}{8} = 100 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VH",
+    "question": "Una patinadora inicia su movimiento a $8 \\text{ m/s}$ y acelera a $3 \\text{ m/s}^2$ durante $10 \\text{ s}$. ¿Cuál será su velocidad al final?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ m/s}$", "correct": false },
+      { "text": "$38 \\text{ m/s}$", "correct": true },
+      { "text": "$48 \\text{ m/s}$", "correct": false },
+      { "text": "$28 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica de forma directa la ecuación de la velocidad: $v_f = v_i + at$.",
+    "explanation": "Sustituyendo los datos en la ecuación: $v_f = 8 \\text{ m/s} + (3 \\text{ m/s}^2)(10 \\text{ s}) = 8 + 30 = 38 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VI",
+    "question": "Un avión parte del reposo y alcanza la velocidad de despegue de $100 \\text{ m/s}$ con una aceleración constante de $10 \\text{ m/s}^2$. ¿Cuánto tiempo tardó en despegar?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ s}$", "correct": false },
+      { "text": "$10 \\text{ s}$", "correct": true },
+      { "text": "$15 \\text{ s}$", "correct": false },
+      { "text": "$20 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que la velocidad inicial es cero, el tiempo se puede calcular como: $t = \\frac{v_f}{a}$.",
+    "explanation": "Realizando la división: $t = \\frac{100 \\text{ m/s}}{10 \\text{ m/s}^2} = 10 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VJ",
+    "question": "Un vehículo viaja de $15 \\text{ m/s}$ a $25 \\text{ m/s}$ a lo largo de $8 \\text{ s}$ con aceleración uniforme. ¿Cuál es la distancia total cubierta?",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ m}$", "correct": false },
+      { "text": "$120 \\text{ m}$", "correct": false },
+      { "text": "$160 \\text{ m}$", "correct": true },
+      { "text": "$200 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como no cuentas de forma explícita con la aceleración, utiliza: $d = \\left( \\frac{v_i + v_f}{2} \\right) t$.",
+    "explanation": "Calculando el área o aplicando la fórmula: $d = \\left( \\frac{15 \\text{ m/s} + 25 \\text{ m/s}}{2} \\right)(8 \\text{ s}) = \\left( \\frac{40}{2} \\right)(8) = 20(8) = 160 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VK",
+    "question": "Partiendo del reposo, una lancha alcanza una velocidad de $40 \\text{ m/s}$ recorriendo una distancia de $200 \\text{ m}$. ¿Cuál fue su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$6 \\text{ m/s}^2$", "correct": false },
+      { "text": "$8 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la aceleración sabiendo que la velocidad inicial es cero: $a = \\frac{v_f^2}{2d}$.",
+    "explanation": "Evaluando en el despeje: $a = \\frac{(40 \\text{ m/s})^2}{2(200 \\text{ m})} = \\frac{1600}{400} = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VL",
+    "question": "Se arroja un trineo con una velocidad inicial de $5 \\text{ m/s}$. Si experimenta una aceleración de $4 \\text{ m/s}^2$ durante $5 \\text{ s}$, ¿qué distancia recorrió?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$75 \\text{ m}$", "correct": true },
+      { "text": "$100 \\text{ m}$", "correct": false },
+      { "text": "$125 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula general de posición para el MRUA: $d = v_i t + \\frac{at^2}{2}$.",
+    "explanation": "Calculando los términos por separado y sumando: $d = (5 \\text{ m/s})(5 \\text{ s}) + \\frac{(4 \\text{ m/s}^2)(5 \\text{ s})^2}{2} = 25 + \\frac{4(25)}{2} = 25 + 50 = 75 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VM",
+    "question": "Si un cohete de prueba alcanzó una velocidad de $50 \\text{ m/s}$ tras acelerar a $6 \\text{ m/s}^2$ durante $5 \\text{ s}$, ¿a qué velocidad iba inicialmente?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ m/s}$", "correct": true },
+      { "text": "$30 \\text{ m/s}$", "correct": false },
+      { "text": "$40 \\text{ m/s}$", "correct": false },
+      { "text": "$50 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja matemáticamente la velocidad inicial de la fórmula: $v_i = v_f - at$.",
+    "explanation": "Sustituyendo los datos del problema: $v_i = 50 \\text{ m/s} - (6 \\text{ m/s}^2)(5 \\text{ s}) = 50 - 30 = 20 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VN",
+    "question": "Un cuerpo parte del reposo y recorre $144 \\text{ m}$ con una aceleración constante de $2 \\text{ m/s}^2$. ¿Cuánto tiempo estuvo en movimiento?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ s}$", "correct": false },
+      { "text": "$12 \\text{ s}$", "correct": true },
+      { "text": "$14 \\text{ s}$", "correct": false },
+      { "text": "$16 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como arranca del reposo, aplica directamente el despeje del tiempo: $t = \\sqrt{\\frac{2d}{a}}$.",
+    "explanation": "Evaluando en la raíz cuadrada: $t = \\sqrt{\\frac{2(144 \\text{ m})}{2 \\text{ m/s}^2}} = \\sqrt{144} = 12 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VO",
+    "question": "Una canica parte del reposo por una pendiente y acelera a $5 \\text{ m/s}^2$ en un tramo de $40 \\text{ m}$. ¿Cuál es su velocidad al final del tramo?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": false },
+      { "text": "$15 \\text{ m/s}$", "correct": false },
+      { "text": "$20 \\text{ m/s}$", "correct": true },
+      { "text": "$25 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Partiendo del reposo, la velocidad al final se encuentra con: $v_f = \\sqrt{2ad}$.",
+    "explanation": "Calculando la velocidad: $v_f = \\sqrt{2(5 \\text{ m/s}^2)(40 \\text{ m})} = \\sqrt{400} = 20 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VP",
+    "question": "Un auto que va a $20 \\text{ m/s}$ frena a razón de $-2 \\text{ m/s}^2$ hasta detenerse por completo. ¿Qué distancia requirió para frenar?",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m}$", "correct": false },
+      { "text": "$200 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al detenerse, su velocidad final es cero. Despeja la distancia: $d = \\frac{-v_i^2}{2a}$.",
+    "explanation": "Teniendo cuidado con los signos: $d = \\frac{-(20 \\text{ m/s})^2}{2(-2 \\text{ m/s}^2)} = \\frac{-400}{-4} = 100 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VQ",
+    "question": "En $3 \\text{ s}$, un objeto incrementa su velocidad de $2 \\text{ m/s}$ a $14 \\text{ m/s}$. ¿Cuál es su aceleración?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ m/s}^2$", "correct": false },
+      { "text": "$3 \\text{ m/s}^2$", "correct": false },
+      { "text": "$4 \\text{ m/s}^2$", "correct": true },
+      { "text": "$5 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la definición de aceleración media: $a = \\frac{v_f - v_i}{t}$.",
+    "explanation": "Realizando las operaciones matemáticas: $a = \\frac{14 \\text{ m/s} - 2 \\text{ m/s}}{3 \\text{ s}} = \\frac{12}{3} = 4 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01VR",
+    "question": "Un patín motorizado va a $12 \\text{ m/s}$ y luego acelera a $1.5 \\text{ m/s}^2$ por $4 \\text{ s}$. ¿Cuál es su nueva velocidad?",
+    "image": null,
+    "options": [
+      { "text": "$16 \\text{ m/s}$", "correct": false },
+      { "text": "$18 \\text{ m/s}$", "correct": true },
+      { "text": "$20 \\text{ m/s}$", "correct": false },
+      { "text": "$22 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la velocidad final usando: $v_f = v_i + at$.",
+    "explanation": "Multiplicando y sumando: $v_f = 12 \\text{ m/s} + (1.5 \\text{ m/s}^2)(4 \\text{ s}) = 12 + 6 = 18 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
