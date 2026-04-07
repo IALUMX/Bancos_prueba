@@ -24402,5 +24402,401 @@
     "explanation": "Las células beta producen insulina; las alfa producen glucagón.",
     "explanative_video": null,
     "collapsible_text": "El CEPREDIX recuerda que la insulina facilita la entrada de glucosa a las células mediante los transportadores GLUT4."
+  },
+  {
+    "id": "CEP01YK",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $A \\cup B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 6, 8, 12\\}$", "correct": true },
+      { "text": "$\\{0, 2, 4, 6, 8, 12\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La unión de dos conjuntos agrupa todos los elementos presentes en ambos sin repetirlos.",
+    "explanation": "Al unir el conjunto A y el conjunto B, se juntan todos sus elementos de forma única, por lo que resulta en $\\{0, 1, 2, 3, 4, 6, 8, 12\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YL",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $B = \\{1, 2, 3, 4, 6, 12\\}$ y $C = \\{0, 1, 2, 3, 4, 5\\}$, determina el resultado de la siguiente operación: $B \\cup C$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 2, 3, 4\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 12\\}$", "correct": true },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Combina los elementos de ambos conjuntos, recordando no duplicar los que se repiten en ambos.",
+    "explanation": "Agrupando los elementos de $B = \\{1, 2, 3, 4, 6, 12\\}$ y $C = \\{0, 1, 2, 3, 4, 5\\}$ obtenemos $\\{0, 1, 2, 3, 4, 5, 6, 12\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YM",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $C = \\{0, 1, 2, 3, 4, 5\\}$ y $D = \\{3, 4, 5, 6\\}$, determina el resultado de la siguiente operación: $C \\cup D$",
+    "image": null,
+    "options": [
+      { "text": "$\\{3, 4, 5\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6\\}$", "correct": true },
+      { "text": "$\\{3, 4, 5, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Incluye todos los números que pertenecen a C, a D o a ambos.",
+    "explanation": "La unión de $C = \\{0, 1, 2, 3, 4, 5\\}$ y $D = \\{3, 4, 5, 6\\}$ resulta en el conjunto $\\{0, 1, 2, 3, 4, 5, 6\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YN",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $B = \\{1, 2, 3, 4, 6, 12\\}$ y $D = \\{3, 4, 5, 6\\}$, determina el resultado de la siguiente operación: $D \\cup B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{3, 4, 6\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 5, 6, 12\\}$", "correct": true },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Junta los elementos de los conjuntos D y B eliminando duplicados.",
+    "explanation": "Al unir los elementos de $D = \\{3, 4, 5, 6\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$ el conjunto resultante es $\\{1, 2, 3, 4, 5, 6, 12\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YO",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $A \\cap B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 2, 4, 6, 8\\}$", "correct": false },
+      { "text": "$\\{2, 4, 6\\}$", "correct": true },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 6, 8, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La intersección solo incluye los elementos que se repiten en ambos conjuntos simultáneamente.",
+    "explanation": "Los únicos elementos comunes entre $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$ son $\\{2, 4, 6\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YP",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $D = \\{3, 4, 5, 6\\}$, determina el resultado de la siguiente operación: $A \\cap D$",
+    "image": null,
+    "options": [
+      { "text": "$\\{3, 4, 5, 6\\}$", "correct": false },
+      { "text": "$\\{4, 6\\}$", "correct": true },
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{0, 2, 4, 6, 8\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica los números que pertenezcan a ambos conjuntos a la vez.",
+    "explanation": "Al revisar los elementos compartidos entre $A = \\{0, 2, 4, 6, 8\\}$ y $D = \\{3, 4, 5, 6\\}$, notamos que solo tienen en común $\\{4, 6\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YQ",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $C = \\{0, 1, 2, 3, 4, 5\\}$ y $E = \\{0, 1, 2, 3, 4, 5, 7, 8, 9\\}$, determina el resultado de la siguiente operación: $C \\cap E$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 5\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4, 5\\}$", "correct": true },
+      { "text": "$\\{0, 1, 2, 3, 4\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica qué elementos del conjunto C también se encuentran dentro de E.",
+    "explanation": "Puesto que todos los elementos de $C$ están contenidos en $E$, la intersección es el conjunto $C$ completo: $\\{0, 1, 2, 3, 4, 5\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YR",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $B = \\{1, 2, 3, 4, 6, 12\\}$ y $C = \\{0, 1, 2, 3, 4, 5\\}$, determina el resultado de la siguiente operación: $B \\cap C$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 2, 3, 4\\}$", "correct": true },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 12\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 4\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae exclusivamente los elementos que comparten B y C.",
+    "explanation": "Los elementos comunes entre $B = \\{1, 2, 3, 4, 6, 12\\}$ y $C = \\{0, 1, 2, 3, 4, 5\\}$ son los números $\\{1, 2, 3, 4\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YS",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y el subconjunto $A = \\{0, 2, 4, 6, 8\\}$, determina el resultado de la siguiente operación: $A'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 3, 5, 7, 9\\}$", "correct": false },
+      { "text": "$\\{1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{0, 2, 4, 6, 8\\}$", "correct": false },
+      { "text": "$\\{1, 3, 5, 7, 9, 11, 13, 15, 17\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El complemento de un conjunto se forma por todos los elementos del universo que NO le pertenecen.",
+    "explanation": "Al universo $U$ le restamos los elementos de $A = \\{0, 2, 4, 6, 8\\}$, resultando en $\\{1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YT",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y el subconjunto $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $B'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false },
+      { "text": "$\\{0, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{0, 5, 7, 8, 9\\}$", "correct": false },
+      { "text": "$\\{5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica qué números de U faltan en el conjunto B.",
+    "explanation": "El complemento $B'$ se forma con todos los elementos de $U$ excepto los de $B$, obteniendo $\\{0, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YU",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y el subconjunto $C = \\{0, 1, 2, 3, 4, 5\\}$, determina el resultado de la siguiente operación: $C'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 1, 2, 3, 4, 5\\}$", "correct": false },
+      { "text": "$\\{7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{6, 7, 8, 9, 10, 11, 12\\}$", "correct": false },
+      { "text": "$\\{6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina los elementos del 0 al 5 de tu conjunto universal.",
+    "explanation": "Al retirar $C = \\{0, 1, 2, 3, 4, 5\\}$ del universo $U$, quedan todos los números a partir del 6: $\\{6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YV",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y el subconjunto $D = \\{3, 4, 5, 6\\}$, determina el resultado de la siguiente operación: $D'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{3, 4, 5, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 3, 7, 8, 9\\}$", "correct": false },
+      { "text": "$\\{1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén los elementos del universo U omitiendo aquellos que pertenecen al conjunto D.",
+    "explanation": "Si al universo $U$ le restamos los elementos de $D = \\{3, 4, 5, 6\\}$, la diferencia resulta en $\\{0, 1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YW",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $A - B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{1, 3, 12\\}$", "correct": false },
+      { "text": "$\\{0, 8\\}$", "correct": true },
+      { "text": "$\\{0, 2, 4, 6, 8\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A los elementos del conjunto A, quítales los que también están presentes en B.",
+    "explanation": "De los elementos de $A = \\{0, 2, 4, 6, 8\\}$, el 2, 4 y 6 también están en B, por lo que los retiramos. El resultado final es $\\{0, 8\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YX",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $C = \\{0, 1, 2, 3, 4, 5\\}$ y $D = \\{3, 4, 5, 6\\}$, determina el resultado de la siguiente operación: $C - D$",
+    "image": null,
+    "options": [
+      { "text": "$\\{3, 4, 5\\}$", "correct": false },
+      { "text": "$\\{6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 2\\}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Conserva solo los elementos de C que no están en el conjunto D.",
+    "explanation": "Al conjunto $C = \\{0, 1, 2, 3, 4, 5\\}$ se le restan los elementos que comparte con $D = \\{3, 4, 5, 6\\}$. Eliminando 3, 4 y 5 queda $\\{0, 1, 2\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YY",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $B = \\{1, 2, 3, 4, 6, 12\\}$ y $E = \\{0, 1, 2, 3, 4, 5, 7, 8, 9\\}$, determina el resultado de la siguiente operación: $E - B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 2, 3, 4, 6\\}$", "correct": false },
+      { "text": "$\\{0, 5, 7, 8, 9\\}$", "correct": true },
+      { "text": "$\\{0, 5, 7, 8, 9, 12\\}$", "correct": false },
+      { "text": "$\\{10, 11, 12, 13\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica los elementos de E y réstales los que pertenecen al conjunto B.",
+    "explanation": "De los elementos de $E = \\{0, 1, 2, 3, 4, 5, 7, 8, 9\\}$, eliminamos los que están en B (1, 2, 3, 4). El resultado es $\\{0, 5, 7, 8, 9\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01YZ",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $B - A$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 8\\}$", "correct": false },
+      { "text": "$\\{1, 3, 12\\}$", "correct": true },
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma los elementos de B y descarta aquellos que también pertenezcan a A.",
+    "explanation": "Del conjunto $B = \\{1, 2, 3, 4, 6, 12\\}$, descartamos los elementos 2, 4 y 6 porque se encuentran en A. El conjunto queda $\\{1, 3, 12\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZA",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $A' \\cap B$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 3, 12\\}$", "correct": true },
+      { "text": "$\\{0, 8\\}$", "correct": false },
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la intersección del complemento de A con B es lógicamente equivalente a B - A.",
+    "explanation": "Primero, $A'$ incluye todos los elementos del universo excepto los de A. Intersectar $A'$ con $B$ equivale a los elementos que están en B pero no en A. Obtenemos $\\{1, 3, 12\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZB",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $A \\cup B'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{0, 2, 4, 6, 8\\}$", "correct": false },
+      { "text": "$\\{0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{1, 3, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A los elementos de A, añádeles todos los elementos del universo que NO pertenezcan a B.",
+    "explanation": "Tenemos $A = \\{0, 2, 4, 6, 8\\}$ y el complemento $B' = \\{0, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$. Su unión agrupa ambos conjuntos en $\\{0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZC",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $B = \\{1, 2, 3, 4, 6, 12\\}$ y $E = \\{0, 1, 2, 3, 4, 5, 7, 8, 9\\}$, determina el resultado de la siguiente operación: $B' \\cap E'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 5, 7, 8, 9\\}$", "correct": false },
+      { "text": "$\\{10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{1, 2, 3, 4, 6, 12\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica las leyes de De Morgan: esta operación equivale al complemento de la unión de B y E.",
+    "explanation": "La unión $B \\cup E$ contiene $\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12\\}$. Su complemento respecto al universo $U$ es $\\{10, 11, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZD",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $G = \\{12, 14, 16, 18\\}$, determina el resultado de la siguiente operación: $A' - G$",
+    "image": null,
+    "options": [
+      { "text": "$\\{1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{1, 3, 5, 7, 9, 10, 11, 13, 15, 17\\}$", "correct": true },
+      { "text": "$\\{12, 14, 16, 18\\}$", "correct": false },
+      { "text": "$\\{1, 3, 5, 7, 9\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el complemento de A y luego restale los elementos de G.",
+    "explanation": "El complemento de A es $A' = \\{1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$. Si le restamos el conjunto $G = \\{12, 14, 16, 18\\}$, eliminamos esos valores, resultando en $\\{1, 3, 5, 7, 9, 10, 11, 13, 15, 17\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZE",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $(A \\cup B)'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{0, 1, 2, 3, 4, 6, 8, 12\\}$", "correct": false },
+      { "text": "$\\{5, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{0, 8\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla primero la unión de A y B, y posteriormente busca los elementos del universo que quedaron fuera.",
+    "explanation": "La unión es $A \\cup B = \\{0, 1, 2, 3, 4, 6, 8, 12\\}$. El complemento respecto al universo se compone de los números que faltan, dando como resultado $\\{5, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZF",
+    "question": "Considerando el conjunto universal $U = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$ y los subconjuntos $A = \\{0, 2, 4, 6, 8\\}$ y $B = \\{1, 2, 3, 4, 6, 12\\}$, determina el resultado de la siguiente operación: $(A \\cap B)'$",
+    "image": null,
+    "options": [
+      { "text": "$\\{2, 4, 6\\}$", "correct": false },
+      { "text": "$\\{0, 1, 3, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18\\}$", "correct": false },
+      { "text": "$\\{0, 1, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$", "correct": true },
+      { "text": "$\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la intersección de A y B, y determina qué elementos se necesitan para completar el conjunto universal.",
+    "explanation": "La intersección $A \\cap B = \\{2, 4, 6\\}$. El complemento de esta intersección incluye todos los demás números del universo, resultando en $\\{0, 1, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
