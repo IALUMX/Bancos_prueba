@@ -862,5 +862,653 @@
     "explanation": "Los factores correspondientes son $50 = 2 \\times 5^2$ y $75 = 3 \\times 5^2$. El único factor en común es $5^2$, por lo que su m.c.d. es $25$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "¿Cuál de los siguientes números es divisible por $2$?",
+    "image": null,
+    "options": [
+      { "text": "$145$", "correct": false },
+      { "text": "$327$", "correct": false },
+      { "text": "$890$", "correct": true },
+      { "text": "$561$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el último dígito del número para verificar su paridad.",
+    "explanation": "Un número es divisible por $2$ si termina en un dígito par o cero. El número $890$ termina en $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Identifica el número que NO es divisible por $2$.",
+    "image": null,
+    "options": [
+      { "text": "$1024$", "correct": false },
+      { "text": "$768$", "correct": false },
+      { "text": "$331$", "correct": true },
+      { "text": "$542$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los números impares nunca pueden dividirse exactamente entre $2$.",
+    "explanation": "El número $331$ termina en $1$, que es un dígito impar, por lo que su división entre $2$ no es exacta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "¿Cuál de las siguientes cantidades es un múltiplo exacto de $2$?",
+    "image": null,
+    "options": [
+      { "text": "$13$", "correct": false },
+      { "text": "$27$", "correct": false },
+      { "text": "$46$", "correct": true },
+      { "text": "$89$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los múltiplos exactos de $2$ siempre son números pares.",
+    "explanation": "El número $46$ termina en $6$, que es par, lo que lo hace un múltiplo exacto de $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "¿Qué valor debe tener $x$ en el número $54x$ para que NO sea divisible por $2$?",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$7$", "correct": true },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para no ser divisible por $2$, el número debe terminar en un dígito impar.",
+    "explanation": "Si $x=7$, el número formado es $547$, el cual es impar y por lo tanto no es divisible por $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "De la siguiente lista de números: $12, 15, 18, 21, 24$, ¿cuáles son divisibles por $2$?",
+    "image": null,
+    "options": [
+      { "text": "$15$ y $21$", "correct": false },
+      { "text": "$12, 18$ y $24$", "correct": true },
+      { "text": "$12, 15$ y $24$", "correct": false },
+      { "text": "Todos los de la lista", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Selecciona únicamente los números que sean pares.",
+    "explanation": "Los números $12$, $18$ y $24$ terminan en dígitos pares, por lo que son divisibles por $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Identifica el número impar dentro del siguiente conjunto, el cual no es divisible por $2$.",
+    "image": null,
+    "options": [
+      { "text": "$222$", "correct": false },
+      { "text": "$444$", "correct": false },
+      { "text": "$667$", "correct": true },
+      { "text": "$888$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un número es impar si su última cifra no es divisible por $2$.",
+    "explanation": "El número $667$ termina en $7$, por lo que es el único número impar del conjunto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Cuál es el mayor número de tres cifras que es divisible por $2$?",
+    "image": null,
+    "options": [
+      { "text": "$999$", "correct": false },
+      { "text": "$998$", "correct": true },
+      { "text": "$100$", "correct": false },
+      { "text": "$990$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el número más grande posible que siga siendo par.",
+    "explanation": "El número mayor de tres cifras es $999$, pero es impar. El anterior es $998$, que termina en cifra par.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Si un número termina en $0$, ¿por cuál de los siguientes números es siempre divisible?",
+    "image": null,
+    "options": [
+      { "text": "Solo por $5$", "correct": false },
+      { "text": "Por $2$ y $5$", "correct": true },
+      { "text": "Solo por $3$", "correct": false },
+      { "text": "Por $3$ y $6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El cero es considerado un dígito par, y también cumple con la regla de otro número.",
+    "explanation": "Todo número terminado en $0$ es par (divisible por $2$) y también cumple el criterio de divisibilidad del $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Selecciona la opción que contenga únicamente números divisibles por $2$.",
+    "image": null,
+    "options": [
+      { "text": "$10, 24, 36, 51$", "correct": false },
+      { "text": "$8, 16, 32, 64$", "correct": true },
+      { "text": "$2, 4, 6, 9$", "correct": false },
+      { "text": "$100, 200, 305$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa que todos los elementos del conjunto sin excepción sean pares.",
+    "explanation": "La serie $8, 16, 32, 64$ está compuesta enteramente por números que terminan en cifra par.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "¿Cuál de los siguientes números es divisible por $3$?",
+    "image": null,
+    "options": [
+      { "text": "$142$", "correct": false },
+      { "text": "$513$", "correct": true },
+      { "text": "$224$", "correct": false },
+      { "text": "$802$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los dígitos de cada opción. Si el total es múltiplo de $3$, el número original también lo es.",
+    "explanation": "La suma de los dígitos de $513$ es $5+1+3=9$. Como $9$ es múltiplo de $3$, el número completo es divisible por $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Qué número NO es divisible por $3$?",
+    "image": null,
+    "options": [
+      { "text": "$111$", "correct": false },
+      { "text": "$333$", "correct": false },
+      { "text": "$143$", "correct": true },
+      { "text": "$201$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los dígitos de cada número y busca el resultado que no esté en la tabla del $3$.",
+    "explanation": "Al sumar los dígitos de $143$ obtenemos $1+4+3=8$, el cual no es múltiplo de $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "¿Qué dígito debe ocupar la posición $x$ para que el número $45x$ sea divisible por $3$ (considerando la opción mínima posible)?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La suma de $4 + 5 + x$ debe resultar en un múltiplo de $3$.",
+    "explanation": "Al sumar los dígitos conocidos tenemos $4 + 5 = 9$. Si $x=0$, la suma total sigue siendo $9$, que es divisible por $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "¿Cuál de los siguientes números de cuatro cifras es divisible por $3$?",
+    "image": null,
+    "options": [
+      { "text": "$1001$", "correct": false },
+      { "text": "$1002$", "correct": true },
+      { "text": "$1003$", "correct": false },
+      { "text": "$1004$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la suma de los dígitos de cada opción.",
+    "explanation": "Para el número $1002$, la suma de sus cifras es $1+0+0+2=3$, cumpliendo con el criterio de divisibilidad del $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Si la suma de las cifras de un número es $27$, ¿por cuál de los siguientes números es divisible con certeza?",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": false },
+      { "text": "$3$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número $27$ es múltiplo de una de las opciones.",
+    "explanation": "Como la suma de las cifras es $27$ y este es un múltiplo exacto de $3$, el número original es divisible por $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Identifica el número que es múltiplo exacto de $3$.",
+    "image": null,
+    "options": [
+      { "text": "$44$", "correct": false },
+      { "text": "$56$", "correct": false },
+      { "text": "$72$", "correct": true },
+      { "text": "$82$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un múltiplo exacto de $3$ cumple la condición de que sus cifras suman un múltiplo de $3$.",
+    "explanation": "En el número $72$, la suma de $7+2=9$. Como $9$ es múltiplo de $3$, el $72$ también lo es.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "De la lista $102, 110, 115, 120$, ¿cuáles son divisibles por $3$?",
+    "image": null,
+    "options": [
+      { "text": "$102$ y $120$", "correct": true },
+      { "text": "Solo $110$", "correct": false },
+      { "text": "$115$ y $120$", "correct": false },
+      { "text": "Ninguno de la lista", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica uno por uno sumando sus dígitos.",
+    "explanation": "$102$ suma $3$ y $120$ suma $3$. Ambos cumplen la regla. Los demás suman $2$ y $7$ respectivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "¿Qué número se le debe sumar al $14$ para obtener el múltiplo de $3$ más cercano?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las opciones al $14$ y aplica el criterio del $3$ al resultado.",
+    "explanation": "Al sumar $1$ a $14$ obtenemos $15$. La suma de los dígitos de $15$ es $6$, lo que lo hace múltiplo de $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Selecciona la serie que contiene solo múltiplos de $3$.",
+    "image": null,
+    "options": [
+      { "text": "$3, 13, 23, 33$", "correct": false },
+      { "text": "$6, 9, 12, 15$", "correct": true },
+      { "text": "$3, 6, 10, 12$", "correct": false },
+      { "text": "$9, 18, 24, 28$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa que en la lista cada elemento, sin excepción, cumpla la regla del $3$.",
+    "explanation": "La serie $6, 9, 12, 15$ está formada completamente por resultados de la tabla del $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "¿Cuál de los siguientes números es divisible por $5$?",
+    "image": null,
+    "options": [
+      { "text": "$784$", "correct": false },
+      { "text": "$995$", "correct": true },
+      { "text": "$332$", "correct": false },
+      { "text": "$101$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La terminación del número es la única clave que necesitas observar para divisibilidad por $5$.",
+    "explanation": "Todo número que termina en $0$ o $5$ se puede dividir entre $5$. El número $995$ cumple esta condición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "¿Qué número NO es divisible por $5$?",
+    "image": null,
+    "options": [
+      { "text": "$100$", "correct": false },
+      { "text": "$255$", "correct": false },
+      { "text": "$301$", "correct": true },
+      { "text": "$500$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el número cuyo último dígito sea distinto de $0$ o de $5$.",
+    "explanation": "El número $301$ termina en $1$, violando la regla de divisibilidad del número $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "¿Qué valor debe tomar $x$ para que el número $73x$ sea divisible por $5$ pero NO por $2$?",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": false },
+      { "text": "$5$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe terminar en un número que cumpla la regla del $5$ y a la vez sea impar.",
+    "explanation": "Para que sea divisible por $5$, $x$ debe ser $0$ o $5$. Para no ser divisible por $2$, debe ser impar. Por tanto, $x=5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "¿Cuál de las siguientes cantidades es exactamente divisible entre $5$?",
+    "image": null,
+    "options": [
+      { "text": "$146$", "correct": false },
+      { "text": "$203$", "correct": false },
+      { "text": "$490$", "correct": true },
+      { "text": "$511$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa la cifra de las unidades de cada opción.",
+    "explanation": "El número $490$ tiene un $0$ en la posición de las unidades, haciéndolo exactamente divisible por $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Si un número es divisible por $2$ y por $5$ al mismo tiempo, ¿en qué dígito termina obligatoriamente?",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$0$", "correct": true },
+      { "text": "Puede terminar en cualquiera", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe ser un dígito par y además ser $0$ o $5$.",
+    "explanation": "El único dígito que es par (divisible por $2$) y a la vez cumple la regla del $5$ es el $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Identifica la lista que contiene únicamente números divisibles por $5$.",
+    "image": null,
+    "options": [
+      { "text": "$5, 15, 21, 25$", "correct": false },
+      { "text": "$10, 20, 30, 40$", "correct": true },
+      { "text": "$25, 35, 45, 51$", "correct": false },
+      { "text": "$10, 100, 101$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa que todos los números terminen exclusivamente en $0$ o en $5$.",
+    "explanation": "En la lista $10, 20, 30, 40$, todos los números terminan en $0$, cumpliendo la condición para el $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "¿Cuál es el mayor número de dos cifras divisible por $5$?",
+    "image": null,
+    "options": [
+      { "text": "$99$", "correct": false },
+      { "text": "$90$", "correct": false },
+      { "text": "$95$", "correct": true },
+      { "text": "$100$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el número de dos dígitos más cercano a cien que termine en $0$ o $5$.",
+    "explanation": "El $100$ tiene tres cifras. El número inmediatamente menor que cumple con terminar en $0$ o $5$ es el $95$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "¿Qué cifra debe ir en las unidades de $48x$ para que sea múltiplo de $5$ y par al mismo tiempo?",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": false },
+      { "text": "$0$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Hay solo un dígito que permite a un número ser múltiplo de $5$ y ser divisible por $2$.",
+    "explanation": "Para que sea múltiplo de $5$ y par simultáneamente, la única opción en las unidades es el $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Elige el número que, al sumarle $2$, se convierte en divisible por $5$.",
+    "image": null,
+    "options": [
+      { "text": "$11$", "correct": false },
+      { "text": "$13$", "correct": true },
+      { "text": "$14$", "correct": false },
+      { "text": "$18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma $2$ a cada opción y revisa si el resultado termina en $0$ o $5$.",
+    "explanation": "Al sumar $13 + 2$ el resultado es $15$, el cual termina en $5$ y cumple con el criterio del número $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "¿Cuál de los siguientes números es divisible por $6$?",
+    "image": null,
+    "options": [
+      { "text": "$214$", "correct": false },
+      { "text": "$312$", "correct": true },
+      { "text": "$411$", "correct": false },
+      { "text": "$520$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número debe cumplir los criterios de divisibilidad tanto del $2$ como del $3$.",
+    "explanation": "El número $312$ es par (divisible por $2$) y la suma de sus dígitos es $3+1+2=6$ (divisible por $3$). Por tanto, es divisible por $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Identifica el número que NO es divisible por $6$.",
+    "image": null,
+    "options": [
+      { "text": "$132$", "correct": false },
+      { "text": "$814$", "correct": true },
+      { "text": "$456$", "correct": false },
+      { "text": "$702$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca un número que falle en la divisibilidad por $2$ o falle en la del $3$.",
+    "explanation": "El número $814$ es par, pero la suma de sus dígitos es $8+1+4=13$, que no es divisible por $3$. Al fallar una condición, no es divisible por $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Para que un número sea divisible por $6$, debe ser divisible por $2$ y por $3$. ¿Cuál de los siguientes números cumple esta condición?",
+    "image": null,
+    "options": [
+      { "text": "$145$", "correct": false },
+      { "text": "$321$", "correct": false },
+      { "text": "$258$", "correct": true },
+      { "text": "$412$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el número que sea par y que además la suma de sus dígitos se encuentre en la tabla del $3$.",
+    "explanation": "El número $258$ es par y sus dígitos suman $2+5+8=15$, que es múltiplo de $3$. Al cumplir ambas reglas, es la opción correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "¿Qué dígito debe ser $y$ para que el número $45y$ sea divisible por $6$ (valor mínimo posible)?",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": false },
+      { "text": "$0$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe ser un dígito par y completar una suma que sea múltiplo de $3$.",
+    "explanation": "Si $y=0$, el número $450$ es par y sus dígitos suman $9$. Por tanto cumple para $2$ y $3$, haciendo al $0$ la respuesta correcta más baja.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "¿Cuál es el menor número de dos cifras que es divisible por $6$?",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": false },
+      { "text": "$12$", "correct": true },
+      { "text": "$16$", "correct": false },
+      { "text": "$60$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el primer múltiplo de $6$ después del $9$.",
+    "explanation": "El número $10$ no es múltiplo de $3$. El número $12$ es par y sus cifras suman $3$, siendo el menor de dos cifras divisible por $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Selecciona el grupo de números que son múltiplos de $6$.",
+    "image": null,
+    "options": [
+      { "text": "$6, 12, 18, 22$", "correct": false },
+      { "text": "$12, 24, 36, 48$", "correct": true },
+      { "text": "$16, 26, 36, 46$", "correct": false },
+      { "text": "$18, 24, 30, 33$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Todos los números del grupo deben ser pares y múltiplos de $3$.",
+    "explanation": "La serie $12, 24, 36, 48$ contiene únicamente números pares cuyas cifras suman múltiplos de $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Si un número es divisible por $6$, obligatoriamente tiene que terminar en:",
+    "image": null,
+    "options": [
+      { "text": "Un número par", "correct": true },
+      { "text": "Un número impar", "correct": false },
+      { "text": "Un cero", "correct": false },
+      { "text": "Un seis", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El criterio del $6$ exige que primero se cumpla el criterio del $2$.",
+    "explanation": "Todo número divisible por $6$ debe ser divisible por $2$, lo que significa que siempre debe terminar en un dígito par.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "De la lista $36, 42, 50, 54$, ¿cuál número NO es divisible por $6$?",
+    "image": null,
+    "options": [
+      { "text": "$36$", "correct": false },
+      { "text": "$42$", "correct": false },
+      { "text": "$50$", "correct": true },
+      { "text": "$54$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa cuál de estos números pares falla en la regla de la suma de dígitos para el $3$.",
+    "explanation": "El número $50$ es par, pero $5+0=5$, que no es divisible por $3$. Por tanto, tampoco lo es por $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "¿Qué número debes sumarle a $22$ para obtener el múltiplo de $6$ más cercano?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": false },
+      { "text": "$2$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las opciones al $22$ y aplica los criterios del par y múltiplo de $3$.",
+    "explanation": "Al sumar $2$ obtenemos $24$. El número $24$ es par y $2+4=6$, cumpliendo exactamente con la regla del $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
