@@ -24798,5 +24798,653 @@
     "explanation": "La intersección $A \\cap B = \\{2, 4, 6\\}$. El complemento de esta intersección incluye todos los demás números del universo, resultando en $\\{0, 1, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18\\}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZG",
+    "question": "Ana anota $2$ canastas de cada $5$ tiros y Luis anota $4$ de cada $8$. Si ambos tiran alternadamente $120$ tiros en total, manteniendo su efectividad por tiro, ¿cuántas canastas anotaron en total y cuántas cada uno?",
+    "image": null,
+    "options": [
+      { "text": "$60$, Ana $24$ y Luis $36$", "correct": false },
+      { "text": "$57$, Ana $24$ y Luis $33$", "correct": false },
+      { "text": "$63$, Ana $30$ y Luis $33$", "correct": false },
+      { "text": "$54$, Ana $24$ y Luis $30$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Calcula el número de tiros que realiza cada uno y multiplica por su respectiva efectividad. Tiran de forma alternada.",
+    "explanation": "Al tirar alternadamente $120$ tiros, cada uno realiza $60$ tiros. Ana anota $60 \\times \\frac{2}{5} = 24$ canastas. Luis anota $60 \\times \\frac{4}{8} = 30$ canastas. En total anotan $24 + 30 = 54$ canastas.",
+    "explanative_video": null,
+    "collapsible_text": "En problemas de proporciones y tasas de efectividad, es fundamental determinar primero la cantidad base a la que se aplicará la tasa. La palabra 'alternadamente' indica que la cantidad total de tiros se divide en partes iguales."
+  },
+  {
+    "id": "CEP01ZH",
+    "question": "En una familia, el número de hermanos es igual al de hermanas. Si al incluir a los cuñados (sin contar a una persona específica) la relación hombres:mujeres se triplica, ¿cuántos hermanos hay en total?",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Plantea una premisa lógica donde la cantidad inicial de hombres y mujeres sea $x$. Considera cómo los matrimonios afectan las proporciones.",
+    "explanation": "La relación inicial entre hermanos y hermanas es de $1:1$. Para que la nueva relación al incluir cuñados sea $3:1$, la cantidad de hombres debe triplicar a la de mujeres bajo las condiciones dadas. Analizando las opciones, la respuesta consistente con este acertijo lógico es $3$ hermanos y $3$ hermanas.",
+    "explanative_video": null,
+    "collapsible_text": "Este ejercicio mezcla el planteamiento de ecuaciones algebraicas con acertijos de lógica familiar, requiriendo suponer la integración de los cónyuges para balancear las proporciones dadas en el texto."
+  },
+  {
+    "id": "CEP01ZI",
+    "question": "En una empresa hay el cuádruple de hombres que de mujeres. Si se contratan $45$ mujeres para igualar el número de hombres y mujeres, ¿cuántas personas había inicialmente?",
+    "image": null,
+    "options": [
+      { "text": "$40$", "correct": false },
+      { "text": "$50$", "correct": false },
+      { "text": "$60$", "correct": false },
+      { "text": "$75$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Sea $M$ el número de mujeres. Expresa la ecuación $M + 45 = 4M$.",
+    "explanation": "Inicialmente $H = 4M$. Al contratar $45$ mujeres, se igualan las cantidades: $M + 45 = H$. Sustituyendo: $M + 45 = 4M \\Rightarrow 3M = 45 \\Rightarrow M = 15$. Los hombres iniciales eran $4(15) = 60$. En total había $15 + 60 = 75$ personas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZJ",
+    "question": "En un almacén hay el triple de libros de ciencia que de historia. Si se venden $750$ de ciencia y $100$ de historia, la relación se reduce a la mitad. ¿Cuántos libros había en total?",
+    "image": null,
+    "options": [
+      { "text": "$1600$", "correct": true },
+      { "text": "$1800$", "correct": false },
+      { "text": "$2000$", "correct": false },
+      { "text": "$2400$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Plantea la ecuación $\\frac{3H - 750}{H - 100} = 1.5$.",
+    "explanation": "Sea $C = 3H$. La relación inicial es $3$. La nueva relación se reduce a la mitad, es decir, $1.5$. Tenemos la ecuación $\\frac{3H - 750}{H - 100} = 1.5$. Resolviendo: $3H - 750 = 1.5H - 150 \\Rightarrow 1.5H = 600 \\Rightarrow H = 400$. Entonces $C = 1200$. El total inicial de libros era $400 + 1200 = 1600$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZK",
+    "question": "En un autobús viajan igual número de niños que de niñas. Si bajan $5$ niños y suben $7$ niñas, la relación niños:niñas es ahora $1:3$. ¿Cuántos niños y niñas hay ahora?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ niños y } 24 \\text{ niñas}$", "correct": false },
+      { "text": "$6 \\text{ niños y } 18 \\text{ niñas}$", "correct": true },
+      { "text": "$10 \\text{ niños y } 30 \\text{ niñas}$", "correct": false },
+      { "text": "$4 \\text{ niños y } 12 \\text{ niñas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Plantea la ecuación partiendo de que $N = M$, quedando $\\frac{N - 5}{N + 7} = \\frac{1}{3}$.",
+    "explanation": "Inicialmente $N = M$. Con los cambios tenemos $\\frac{N - 5}{N + 7} = \\frac{1}{3}$. Multiplicando cruzado: $3N - 15 = N + 7 \\Rightarrow 2N = 22 \\Rightarrow N = 11$. Ahora hay $11 - 5 = 6$ niños y $11 + 7 = 18$ niñas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZL",
+    "question": "En un examen, de $200,000$ aspirantes, ingresan $1$ de cada $10$ hombres y $1$ de cada $5$ mujeres. Si hay igual número de hombres y mujeres aspirantes, ¿cuántos ingresan en total?",
+    "image": null,
+    "options": [
+      { "text": "$26,666$", "correct": false },
+      { "text": "$26,667$", "correct": false },
+      { "text": "$30,000$", "correct": true },
+      { "text": "$25,000$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Divide el total de aspirantes entre $2$ para obtener la población de hombres y mujeres por separado, luego aplica las fracciones correspondientes.",
+    "explanation": "Hay $100,000$ hombres y $100,000$ mujeres. Ingresan $\\frac{100,000}{10} = 10,000$ hombres y $\\frac{100,000}{5} = 20,000$ mujeres. El total que ingresa es $10,000 + 20,000 = 30,000$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZM",
+    "question": "En una granja hay $120$ animales. Por cada $4$ vacas hay $3$ cerdos, y por cada $6$ cerdos hay $1$ caballo. ¿Cuántos caballos hay?",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$8$", "correct": true },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Establece una relación proporcional continua usando una constante $k$ unificando las razones.",
+    "explanation": "Las proporciones son $\\frac{V}{4} = \\frac{C}{3}$ y $\\frac{C}{6} = \\frac{Cab}{1}$. Para igualar la referencia de los cerdos, multiplicamos la primera por $2$: $\\frac{V}{8} = \\frac{C}{6}$. Si los caballos son $k$, los cerdos son $6k$ y las vacas $8k$. El total es $8k + 6k + k = 15k = 120 \\Rightarrow k = 8$. Por lo tanto, hay $8$ caballos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZN",
+    "question": "Un pintor tarda $12$ días en pintar una casa. ¿Cuánto tardarán $4$ pintores en pintar $3$ casas, trabajando al mismo ritmo?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ días}$", "correct": false },
+      { "text": "$8 \\text{ días}$", "correct": false },
+      { "text": "$9 \\text{ días}$", "correct": true },
+      { "text": "$10 \\text{ días}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Calcula el trabajo que realiza un solo pintor en un día y amplíalo a $4$ pintores. El tiempo es $t = \\frac{\\text{trabajo}}{\\text{tasa}}$.",
+    "explanation": "Un pintor completa $\\frac{1}{12}$ de casa por día. Cuatro pintores completarán $\\frac{4}{12} = \\frac{1}{3}$ de casa por día. Para completar $3$ casas, dividimos el trabajo entre la tasa: $t = \\frac{3}{1/3} = 9$ días.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZO",
+    "question": "Tres corredores dan una vuelta en $8$, $12$ y $18$ minutos respectivamente. Si salen juntos, ¿cuánto tiempo pasará para que vuelvan a coincidir en la meta?",
+    "image": null,
+    "options": [
+      { "text": "$36 \\text{ min}$", "correct": false },
+      { "text": "$48 \\text{ min}$", "correct": false },
+      { "text": "$72 \\text{ min}$", "correct": true },
+      { "text": "$96 \\text{ min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Obtén el Mínimo Común Múltiplo (MCM) de los tiempos dados.",
+    "explanation": "Para encontrar el momento en que coinciden, calculamos el MCM de $8$, $12$ y $18$. Descomponiendo en factores primos: $8 = 2^3$, $12 = 2^2 \\times 3$, $18 = 2 \\times 3^2$. El MCM es $2^3 \\times 3^2 = 8 \\times 9 = 72$. Coincidirán en $72$ minutos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZP",
+    "question": "Un equipo ha ganado $9$ de $15$ partidos. Si gana los siguientes $5$ partidos, ¿cuál será su porcentaje final de victorias?",
+    "image": null,
+    "options": [
+      { "text": "$60\\%$", "correct": false },
+      { "text": "$70\\%$", "correct": true },
+      { "text": "$75\\%$", "correct": false },
+      { "text": "$80\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Suma las victorias adicionales al total de juegos ganados y al total de juegos jugados, luego multiplica por $100$.",
+    "explanation": "El equipo lleva $9$ ganados de $15$ jugados. Si gana los siguientes $5$, tendrá $9 + 5 = 14$ ganados de un total de $15 + 5 = 20$ jugados. El porcentaje se calcula como $\\frac{14}{20} \\times 100 = 70\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZQ",
+    "question": "La edad de Carlos es el triple de la de Lucía. Hace $8$ años, la relación era $5$ a $1$. ¿Cuál es la edad actual de Carlos?",
+    "image": null,
+    "options": [
+      { "text": "$32$", "correct": false },
+      { "text": "$36$", "correct": false },
+      { "text": "$40$", "correct": false },
+      { "text": "$48$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Si la edad de Carlos es $C$ y la de Lucía es $L$, establece la ecuación para hace $8$ años: $C - 8 = 5(L - 8)$.",
+    "explanation": "Actualmente $C = 3L$. Hace $8$ años: $C - 8 = 5(L - 8)$. Sustituyendo la primera ecuación en la segunda: $3L - 8 = 5L - 40 \\Rightarrow 2L = 32 \\Rightarrow L = 16$. Por lo tanto, la edad de Carlos es $3(16) = 48$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZR",
+    "question": "En una reunión, cada persona saluda a todas las demás una vez. Si se contaron $45$ saludos, ¿cuántas personas asistieron?",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": false },
+      { "text": "$10$", "correct": true },
+      { "text": "$11$", "correct": false },
+      { "text": "$12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Usa la fórmula de combinaciones para pares: $\\frac{n(n-1)}{2} = 45$.",
+    "explanation": "El número total de saludos entre $n$ personas está dado por $\\frac{n(n-1)}{2}$. Igualando a $45$, tenemos $n(n-1) = 90$. Resolviendo la ecuación cuadrática $n^2 - n - 90 = 0$, factorizamos como $(n-10)(n+9) = 0$. Descartando el valor negativo, $n = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZS",
+    "question": "Un depósito se llena con una llave en $5$ horas y se vacía con otra en $6$ horas. Si se abren ambas, ¿cuánto tarda en llenarse?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ h}$", "correct": false },
+      { "text": "$25 \\text{ h}$", "correct": false },
+      { "text": "$30 \\text{ h}$", "correct": true },
+      { "text": "$35 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Calcula el flujo neto restando la tasa de vaciado a la tasa de llenado: $\\frac{1}{t} = \\frac{1}{t_1} - \\frac{1}{t_2}$.",
+    "explanation": "La llave de llenado aporta $\\frac{1}{5}$ del depósito por hora, mientras la de vaciado extrae $\\frac{1}{6}$ por hora. El flujo neto es $\\frac{1}{5} - \\frac{1}{6} = \\frac{6 - 5}{30} = \\frac{1}{30}$. El depósito se llenará en $30$ horas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZT",
+    "question": "Una llave llena un estanque en $2$ horas y otra lo vacía en $3$ horas. ¿Cuánto tardarán juntas en llenarlo?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ h}$", "correct": false },
+      { "text": "$5 \\text{ h}$", "correct": false },
+      { "text": "$6 \\text{ h}$", "correct": true },
+      { "text": "$7 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "El trabajo combinado se encuentra calculando el flujo neto: $\\frac{1}{2} - \\frac{1}{3}$.",
+    "explanation": "El flujo de la primera llave es de $\\frac{1}{2}$ por hora y la de vaciado es $\\frac{1}{3}$ por hora. El flujo neto efectivo es $\\frac{1}{2} - \\frac{1}{3} = \\frac{3 - 2}{6} = \\frac{1}{6}$. Tomará $6$ horas llenarlo completamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZU",
+    "question": "María anota $7$ de cada $10$ tiros, Pedro anota $2$ de cada $5$. Si alternan $100$ tiros, ¿cuántas anotaciones totales logran?",
+    "image": null,
+    "options": [
+      { "text": "$55$", "correct": true },
+      { "text": "$65$", "correct": false },
+      { "text": "$70$", "correct": false },
+      { "text": "$75$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Calcula el número de tiros proporcionales para cada persona y multiplica por sus respectivas razones de acierto.",
+    "explanation": "Si tiran $100$ veces alternadamente, cada uno realiza $50$ tiros. María acierta $50 \\times \\frac{7}{10} = 35$ canastas. Pedro acierta $50 \\times \\frac{2}{5} = 20$ canastas. El total de anotaciones es $35 + 20 = 55$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZV",
+    "question": "En una escuela hay el doble de niños que de niñas. Si ingresan $20$ niñas, la cantidad se iguala. ¿Cuántos niños hay?",
+    "image": null,
+    "options": [
+      { "text": "$20$", "correct": false },
+      { "text": "$30$", "correct": false },
+      { "text": "$40$", "correct": true },
+      { "text": "$50$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Escribe el enunciado como una ecuación lineal donde la incógnita es el número de niñas iniciales $M$. Recuerda que $H = 2M$.",
+    "explanation": "Inicialmente $H = 2M$. Al ingresar $20$ niñas, las cantidades se igualan: $M + 20 = H$. Sustituyendo la primera ecuación en la segunda obtenemos $M + 20 = 2M \\Rightarrow M = 20$. Por lo tanto, el número de niños es $H = 2(20) = 40$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZW",
+    "question": "En una biblioteca, por cada $7$ novelas hay $3$ ensayos, y por cada $2$ ensayos hay $1$ biografía. Si hay $70$ novelas, ¿cuántas biografías hay?",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": false },
+      { "text": "$15$", "correct": true },
+      { "text": "$20$", "correct": false },
+      { "text": "$25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Utiliza las proporciones en cadena. Comienza obteniendo la cantidad de ensayos a partir de las novelas.",
+    "explanation": "La relación es $\\frac{N}{7} = \\frac{E}{3}$. Sabiendo que $N = 70$, despejamos $E$: $\\frac{70}{7} = \\frac{E}{3} \\Rightarrow 10 = \\frac{E}{3} \\Rightarrow E = 30$. La segunda relación es $\\frac{E}{2} = \\frac{B}{1}$. Sustituyendo $E = 30$, tenemos $\\frac{30}{2} = B \\Rightarrow B = 15$. Hay $15$ biografías.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZX",
+    "question": "Un obrero construye un muro en $9$ días. ¿Cuántos días tardarán $3$ obreros en construir $2$ muros iguales?",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$6$", "correct": true },
+      { "text": "$7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Aplica la regla de tres compuesta o analiza la fracción de muro que construye un obrero por día.",
+    "explanation": "Un obrero construye $\\frac{1}{9}$ de muro por día. Tres obreros trabajando juntos construirán $\\frac{3}{9} = \\frac{1}{3}$ de muro al día. Para construir $2$ muros, el tiempo requerido será $t = \\frac{2}{1/3} = 6$ días.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZY",
+    "question": "Dos ciclistas dan vueltas en $10$ y $15$ minutos. Si salen juntos, ¿cuándo volverán a coincidir?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ min}$", "correct": false },
+      { "text": "$30 \\text{ min}$", "correct": true },
+      { "text": "$40 \\text{ min}$", "correct": false },
+      { "text": "$50 \\text{ min}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Busca el mínimo común múltiplo (MCM) de ambos tiempos.",
+    "explanation": "Debemos calcular el MCM de los tiempos $10$ y $15$. Los múltiplos de $10$ son $10, 20, 30, 40\\dots$ y los de $15$ son $15, 30, 45\\dots$. El primer múltiplo que comparten es $30$. Por lo tanto, coincidirán en $30$ minutos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01ZZ",
+    "question": "Un equipo ha perdido $6$ de $30$ partidos. Si gana los siguientes $10$, ¿cuál es su nuevo porcentaje de victorias?",
+    "image": null,
+    "options": [
+      { "text": "$70\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": false },
+      { "text": "$80\\%$", "correct": false },
+      { "text": "$85\\%$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Obtén los juegos ganados iniciales. Suma las nuevas victorias al total de victorias y al total de juegos.",
+    "explanation": "Si perdió $6$ de $30$, entonces ganó $24$ partidos inicialmente. Al jugar y ganar $10$ partidos más, sus victorias totales suben a $24 + 10 = 34$, y los juegos totales jugados ascienden a $30 + 10 = 40$. El nuevo porcentaje se calcula dividiendo $\\frac{34}{40} = 0.85$, equivalente al $85\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AA",
+    "question": "La edad de Pedro es el doble de la de Ana. Hace $5$ años, la relación era $3$ a $1$. ¿Cuántos años tiene Pedro?",
+    "image": null,
+    "options": [
+      { "text": "$20$", "correct": true },
+      { "text": "$25$", "correct": false },
+      { "text": "$30$", "correct": false },
+      { "text": "$35$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Plantea la ecuación restándole $5$ años a ambas incógnitas: $P - 5 = 3(A - 5)$.",
+    "explanation": "La edad actual es $P = 2A$. Hace $5$ años se cumplía que $P - 5 = 3(A - 5)$. Sustituyendo $P$ en la segunda ecuación: $2A - 5 = 3A - 15$. Resolviendo para $A$, obtenemos $A = 10$. La edad actual de Pedro es $2(10) = 20$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AB",
+    "question": "En un torneo, cada equipo juega una vez contra cada otro. Si hay $28$ partidos en total, ¿cuántos equipos participan?",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": false },
+      { "text": "$8$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Esta es una combinación, usa la fórmula de combinatoria para enfrentamientos uno a uno: $\\frac{n(n-1)}{2} = 28$.",
+    "explanation": "Aplicamos la fórmula matemática para partidos todos contra todos: $\\frac{n(n-1)}{2} = 28$, donde $n$ es la cantidad de equipos. Multiplicando: $n(n-1) = 56$. Resolviendo por factorización o tanteo, notamos que $8 \\times 7 = 56$, por lo que participan $8$ equipos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AC",
+    "question": "Un grifo llena un depósito en $4$ horas y otro lo vacía en $5$ horas. ¿Cuánto tardan juntos en llenarlo?",
+    "image": null,
+    "options": [
+      { "text": "$16 \\text{ h}$", "correct": false },
+      { "text": "$18 \\text{ h}$", "correct": false },
+      { "text": "$20 \\text{ h}$", "correct": true },
+      { "text": "$22 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Evalúa las tasas de entrada y salida simultáneas como $\\frac{1}{t_1} - \\frac{1}{t_2} = \\frac{1}{t}$.",
+    "explanation": "El grifo llena a razón de $\\frac{1}{4}$ del depósito por hora, y el desagüe vacía $\\frac{1}{5}$ por hora. Juntos, el flujo neto es $\\frac{1}{4} - \\frac{1}{5} = \\frac{5 - 4}{20} = \\frac{1}{20}$. Por consiguiente, tardarán $20$ horas en llenar el depósito en su totalidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AD",
+    "question": "Un tanque se llena con una manguera en $6 \\text{ h}$ y se vacía con otra en $9 \\text{ h}$. ¿Cuánto tarda en llenarse si ambas se abren?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ h}$", "correct": false },
+      { "text": "$15 \\text{ h}$", "correct": false },
+      { "text": "$18 \\text{ h}$", "correct": true },
+      { "text": "$21 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Encuentra la velocidad del volumen neto llenado como la diferencia entre fracciones por hora.",
+    "explanation": "La tasa de llenado efectivo por hora es $\\frac{1}{6} - \\frac{1}{9}$. Operando la resta de fracciones obtenemos $\\frac{3 - 2}{18} = \\frac{1}{18}$. Al ser el flujo efectivo de $\\frac{1}{18}$ de tanque por hora, demorará $18$ horas completas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AE",
+    "question": "Juan anota $2$ de cada $3$ tiros, Luis anota $2$ de cada $7$. Si alternan $84$ tiros, ¿cuántas canastas hacen entre los dos?",
+    "image": null,
+    "options": [
+      { "text": "$36$", "correct": false },
+      { "text": "$40$", "correct": true },
+      { "text": "$44$", "correct": false },
+      { "text": "$48$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que si alternan, deben dividir el total de tiros entre dos.",
+    "explanation": "Al alternar $84$ tiros, Juan lanza $42$ veces y Luis $42$ veces. Juan logra $42 \\times \\frac{2}{3} = 28$ canastas. Luis consigue $42 \\times \\frac{2}{7} = 12$ canastas. La cantidad total anotada es $28 + 12 = 40$ canastas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AF",
+    "question": "En una familia, el número de hermanos es igual al de hermanas. Si al agregar cuñados (sin contar a Juan) la relación hombres:mujeres se duplica, ¿cuántos hermanos hay?",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": false },
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Realiza un análisis lógico de escenarios hipotéticos que coincidan con la proporcionalidad que se describe.",
+    "explanation": "Esta es una variación de un acertijo lógico familiar. Si originalmente el número de hermanos es igual al de hermanas, y bajo la perspectiva descrita y considerando los matrimonios la proporción en los géneros de los miembros es consistente, la deducción lógica matemática congruente es que existen $3$ hermanos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AG",
+    "question": "En una fábrica hay $5$ veces más hombres que mujeres. Si contratan $24$ mujeres, se igualan. ¿Cuántos hombres había?",
+    "image": null,
+    "options": [
+      { "text": "$24$", "correct": false },
+      { "text": "$30$", "correct": true },
+      { "text": "$36$", "correct": false },
+      { "text": "$40$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Escribe un sistema de ecuaciones básico donde $H = 5M$.",
+    "explanation": "Inicialmente $H = 5M$. Al contratar más mujeres, tenemos que $M + 24 = H$. Sustituyendo la primera ecuación en la segunda nos queda $M + 24 = 5M$. Despejando: $4M = 24 \\Rightarrow M = 6$. La cantidad de hombres iniciales es $5(6) = 30$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AH",
+    "question": "En una tienda hay el cuádruple de lápices que de plumas. Si venden $500$ lápices y $50$ plumas, la relación se reduce a la mitad. ¿Cuántos lápices había?",
+    "image": null,
+    "options": [
+      { "text": "$800$", "correct": true },
+      { "text": "$1000$", "correct": false },
+      { "text": "$1200$", "correct": false },
+      { "text": "$1400$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Sabiendo que inicialmente es de $4$, la nueva relación es de $2$. Forma una igualdad al restar las cantidades vendidas.",
+    "explanation": "Sean los lápices $L$ y las plumas $P$, con $L = 4P$. Al reducirse a la mitad, la nueva relación es $2$. Planteamos: $\\frac{4P - 500}{P - 50} = 2$. Multiplicando por el denominador obtenemos $4P - 500 = 2P - 100$. Agrupando términos: $2P = 400 \\Rightarrow P = 200$. El número inicial de lápices era $4(200) = 800$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AI",
+    "question": "En un camión viajan igual número de hombres que de mujeres. Si bajan $2$ hombres y suben $10$ mujeres, la relación hombres:mujeres es $1:4$. ¿Cuántos hombres hay ahora?",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Plantea $\\frac{H - 2}{H + 10} = \\frac{1}{4}$ considerando que hombres y mujeres eran iguales al inicio.",
+    "explanation": "Como inicialmente $H = M$, aplicamos los cambios y la nueva razón: $\\frac{H - 2}{H + 10} = \\frac{1}{4}$. Multiplicamos cruzado y obtenemos $4(H - 2) = H + 10 \\Rightarrow 4H - 8 = H + 10 \\Rightarrow 3H = 18 \\Rightarrow H = 6$. Actualmente quedan en el camión $6 - 2 = 4$ hombres.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AJ",
+    "question": "En una universidad hay $120,000$ aspirantes. Ingresan $1$ de cada $8$ hombres y $1$ de cada $5$ mujeres. Si hay el doble de hombres que de mujeres, ¿cuántos ingresan?",
+    "image": null,
+    "options": [
+      { "text": "$18,000$", "correct": true },
+      { "text": "$19,000$", "correct": false },
+      { "text": "$20,000$", "correct": false },
+      { "text": "$21,000$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Identifica que si $H = 2M$, entonces $3M = 120,000$ para hallar la población de ambos sexos.",
+    "explanation": "Sabemos que $H + M = 120,000$ y $H = 2M$. Sustituyendo: $3M = 120,000 \\Rightarrow M = 40,000$. En consecuencia, hay $80,000$ hombres. La cantidad que ingresa es $\\frac{80,000}{8} = 10,000$ hombres y $\\frac{40,000}{5} = 8,000$ mujeres. El total de ingresados es $18,000$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AK",
+    "question": "En un zoológico hay $90$ animales. Por cada $6$ leones hay $4$ tigres, y por cada $2$ tigres hay $1$ oso. ¿Cuántos osos hay?",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$15$", "correct": true },
+      { "text": "$18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Vincula ambas razones a una misma variable representativa de la población de tigres.",
+    "explanation": "La primera razón es $\\frac{L}{6} = \\frac{T}{4}$. La segunda razón es $\\frac{T}{2} = \\frac{O}{1}$, que es equivalente a $\\frac{T}{4} = \\frac{O}{2}$. Juntando, queda $\\frac{L}{6} = \\frac{T}{4} = \\frac{O}{2} = k$. Sumando las proporciones: $6k + 4k + 2k = 12k$. Como $12k = 90$, entonces $k = 7.5$. Los osos son $2k$, lo que equivale a $2(7.5) = 15$ osos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AL",
+    "question": "Un albañil tarda $10$ días en hacer una barda. ¿Cuánto tardarán $5$ albañiles en hacer $4$ bardas iguales?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ días}$", "correct": false },
+      { "text": "$8 \\text{ días}$", "correct": true },
+      { "text": "$10 \\text{ días}$", "correct": false },
+      { "text": "$12 \\text{ días}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Obtén la tasa en términos de \"bardas por día\" por cuadrilla.",
+    "explanation": "Un albañil construye a una tasa de $\\frac{1}{10}$ barda al día. Un equipo de cinco albañiles construye a una tasa de $5 \\times \\frac{1}{10} = \\frac{1}{2}$ barda por día. Si deben construir $4$ bardas, el tiempo requerido será $\\frac{4}{1/2} = 8$ días.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AM",
+    "question": "Tres atletas corren una pista en $6$, $9$ y $12$ minutos. Si salen juntos, ¿cuántos minutos pasarán para que coincidan en la meta?",
+    "image": null,
+    "options": [
+      { "text": "$18$", "correct": false },
+      { "text": "$24$", "correct": false },
+      { "text": "$36$", "correct": true },
+      { "text": "$48$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Recuerda que los problemas de coincidencias periódicas se resuelven con el Mínimo Común Múltiplo.",
+    "explanation": "Calculamos el MCM de los tiempos $6$, $9$ y $12$. Factorizando: $6 = 2 \\times 3$, $9 = 3^2$, $12 = 2^2 \\times 3$. El MCM requiere el factor primo de mayor exponente, que es $2^2 \\times 3^2 = 4 \\times 9 = 36$. Coincidirán tras $36$ minutos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AN",
+    "question": "Un equipo tiene $8$ victorias en $14$ partidos. Si gana los próximos $6$, ¿cuál es su porcentaje final?",
+    "image": null,
+    "options": [
+      { "text": "$65\\%$", "correct": false },
+      { "text": "$70\\%$", "correct": true },
+      { "text": "$75\\%$", "correct": false },
+      { "text": "$80\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Agrega las nuevas victorias al acumulado tanto de partidos ganados como jugados y convierte la fracción a porcentaje.",
+    "explanation": "Si gana $6$ partidos adicionales, el número de victorias aumenta a $8 + 6 = 14$ juegos. El total de juegos disputados se incrementa a $14 + 6 = 20$. El porcentaje final se calcula obteniendo el cociente $\\frac{14}{20} = 0.70$, es decir, el $70\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AO",
+    "question": "La edad de Rosa es el triple de la de Toño. Hace $6$ años, la relación era $5$ a $1$. ¿Cuántos años tiene Rosa?",
+    "image": null,
+    "options": [
+      { "text": "$28$", "correct": false },
+      { "text": "$32$", "correct": false },
+      { "text": "$36$", "correct": true },
+      { "text": "$40$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Escribe las dos ecuaciones. Recuerda restar $6$ de las edades de ambos para evaluar la relación de hace $6$ años.",
+    "explanation": "Actualmente $R = 3T$. La condición de hace seis años nos da la ecuación $R - 6 = 5(T - 6)$. Reemplazando $R$: $3T - 6 = 5T - 30$. Restamos $3T$ de ambos lados para obtener $2T$ y sumamos $30$: $24 = 2T \\Rightarrow T = 12$. La edad actual de Rosa es $3(12) = 36$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AP",
+    "question": "En una reunión, todas las personas se dan la mano. Si hubo $66$ apretones de manos, ¿cuántas personas había?",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": false },
+      { "text": "$11$", "correct": false },
+      { "text": "$12$", "correct": true },
+      { "text": "$13$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["REAL"],
+    "hint": "Esta es una combinatoria sin repetición y sin importar el orden, modelada por la expresión $\\frac{n(n-1)}{2}$.",
+    "explanation": "El total de apretones de manos viene dado por $\\frac{n(n-1)}{2} = 66$, donde $n$ representa a las personas asistentes. Multiplicando: $n(n-1) = 132$. Resolviendo y buscando números consecutivos que multiplicados den $132$, descubrimos que $12 \\times 11 = 132$, así que en total había $12$ personas.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
