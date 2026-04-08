@@ -1,1 +1,866 @@
-
+[
+  {
+    "id": "CEP00AA",
+    "question": "Al resolver la ecuación lineal $x + 5 = 12$, el valor de $x$ es:",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "17", "correct": false },
+      { "text": "60", "correct": false },
+      { "text": "-7", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar la incógnita, aplica la operación inversa de la suma restando el mismo valor en ambos lados de la ecuación.",
+    "explanation": "Restamos 5 a ambos lados de la ecuación: $x = 12 - 5$, obteniendo como resultado $x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "Encuentra el valor de $x$ que satisface la siguiente igualdad: $x - 8 = 15$",
+    "image": null,
+    "options": [
+      { "text": "23", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "120", "correct": false },
+      { "text": "-7", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la operación inversa de la resta para aislar a la variable $x$.",
+    "explanation": "Sumamos 8 a ambos lados de la ecuación: $x = 15 + 8$, lo que nos da $x = 23$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "question": "Despeja $x$ en la siguiente ecuación de primer grado: $3x = 21$",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "18", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "63", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El coeficiente 3 está multiplicando a la variable. Aplica la operación inversa (división) para despejar.",
+    "explanation": "Dividimos ambos lados de la ecuación entre 3: $x = \\frac{21}{3}$, cuyo resultado es $x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "Determina el valor de $x$ en la ecuación: $\\frac{x}{4} = 5$",
+    "image": null,
+    "options": [
+      { "text": "20", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "1.25", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La variable está siendo dividida por 4. Para despejarla, debes multiplicar ambos lados por ese mismo número.",
+    "explanation": "Multiplicamos ambos lados de la ecuación por 4: $x = 5(4)$, dando como resultado $x = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "¿Cuál es el valor de $x$ al resolver la ecuación $2x + 4 = 10$?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "28", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Este es un despeje de dos pasos. Primero elimina la suma pasando el término independiente del otro lado y luego despeja la multiplicación.",
+    "explanation": "Restamos 4 en ambos lados obteniendo $2x = 6$. Posteriormente dividimos entre 2, resultando $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Halla el valor de $x$ en la siguiente expresión: $5x - 3 = 12$",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "75", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los números de un lado usando la operación inversa a la resta, y posteriormente despeja el factor que multiplica a la variable.",
+    "explanation": "Sumamos 3 en ambos lados para obtener $5x = 15$. Después, dividimos entre 5, obteniendo $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "Resuelve la siguiente ecuación de primer grado: $\\frac{x}{2} + 1 = 6$",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "2.5", "correct": false },
+      { "text": "7", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero mueve el término que suma aplicando una resta. Después, la división se despeja con una multiplicación.",
+    "explanation": "Restamos 1 en ambos lados: $\\frac{x}{2} = 5$. Multiplicamos ambos lados por 2, resultando en $x = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "Calcula el valor de la incógnita en la ecuación: $\\frac{x}{3} - 4 = 2$",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "-6", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma 4 a ambos lados de la ecuación y a continuación multiplica por el denominador para dejar sola a la variable.",
+    "explanation": "Sumamos 4 en ambos lados: $\\frac{x}{3} = 6$. Luego, multiplicamos por 3, lo que nos da $x = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "Despeja $x$ a partir de la expresión: $4x + 7 = 27$",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "8.5", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "136", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza el despeje en dos pasos operando los términos independientes primero y el coeficiente después.",
+    "explanation": "Restando 7 en ambos lados tenemos $4x = 20$. Dividiendo entre 4 obtenemos el valor final $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "Al resolver la ecuación $6x - 5 = 19$, el valor numérico de $x$ es:",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "144", "correct": false },
+      { "text": "2.3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la suma para cancelar el -5 y posteriormente divide entre el coeficiente 6.",
+    "explanation": "Sumamos 5 a ambos lados dando $6x = 24$. Al dividir entre 6 el resultado es $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "question": "Obtén el valor de $x$ en la ecuación con coeficiente negativo: $-2x + 8 = 14$",
+    "image": null,
+    "options": [
+      { "text": "-3", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "-11", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta el 8 de ambos lados y asegúrate de dividir entre -2 respetando las leyes de los signos.",
+    "explanation": "Restando 8 queda $-2x = 6$. Dividimos entre -2 aplicando ley de signos: $x = \\frac{6}{-2}$, resultando $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Si $7 - x = 10$, ¿cuál es el valor de $x$?",
+    "image": null,
+    "options": [
+      { "text": "-3", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "17", "correct": false },
+      { "text": "-17", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes restar 7 de ambos lados y luego multiplicar por -1, o sumar $x$ en ambos lados para hacerla positiva primero.",
+    "explanation": "Restamos 7 a ambos lados: $-x = 3$. Multiplicando por -1 en ambos lados, obtenemos $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "Encuentra la solución para $x$ en la ecuación: $\\frac{x}{-5} + 2 = 6$",
+    "image": null,
+    "options": [
+      { "text": "-20", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "-40", "correct": false },
+      { "text": "-1.25", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve el 2 al otro lado restando, y luego multiplica ambos lados por -5.",
+    "explanation": "Restamos 2 en ambos lados de la ecuación: $\\frac{x}{-5} = 4$. Al multiplicar por -5 obtenemos $x = -20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "Despeja $x$ en la siguiente ecuación con paréntesis: $3(x - 2) = 15$",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes dividir ambos lados de la ecuación entre 3 desde el principio, o aplicar la propiedad distributiva primero.",
+    "explanation": "Dividimos ambos lados entre 3: $x - 2 = 5$. Sumamos 2 a ambos lados y resulta $x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "¿Cuál es la raíz de la ecuación $2(x + 4) = 20$?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina el coeficiente 2 del lado izquierdo aplicando división del lado derecho, luego realiza el despeje final.",
+    "explanation": "Al dividir entre 2 ambos lados obtenemos $x + 4 = 10$. Restando 4 obtenemos el valor $x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Resuelve para $x$: $10 - 3x = 1$",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "-3", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "27", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aísla el término $-3x$ restando 10 en ambos lados. Luego divide entre -3.",
+    "explanation": "Restando 10 queda $-3x = -9$. Al dividir ambos lados entre -3, menos entre menos es más, resultando $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Determina el valor de $x$ dada la expresión: $\\frac{x+5}{2} = 8$",
+    "image": null,
+    "options": [
+      { "text": "11", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "6.5", "correct": false },
+      { "text": "1.5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En este caso el 2 divide a todo el binomio, por lo que el primer paso debe ser multiplicar por 2 ambos lados.",
+    "explanation": "Multiplicando por 2 tenemos $x + 5 = 16$. Restando 5 en ambos lados llegamos a la solución $x = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Calcula la solución de la siguiente ecuación: $\\frac{x-3}{4} = 5$",
+    "image": null,
+    "options": [
+      { "text": "23", "correct": true },
+      { "text": "17", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La operación principal en el lado izquierdo es la división. Despéjala con una multiplicación antes de intentar sumar o restar.",
+    "explanation": "Multiplicamos por 4 obteniendo $x - 3 = 20$. Sumamos 3 a ambos lados para obtener finalmente $x = 23$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "¿Qué valor debe tomar $x$ para que la igualdad $8x + 2 = 26$ sea cierta?",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "3.5", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "-3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Procede pasando el término constante al otro lado con la operación inversa y luego el coeficiente.",
+    "explanation": "Restando 2 a ambos lados, obtenemos $8x = 24$. Al dividir entre 8, el resultado es $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "Despeja a $x$ de la ecuación de primer grado: $9x - 4 = 50$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "5.1", "correct": false },
+      { "text": "54", "correct": false },
+      { "text": "486", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la propiedad aditiva de la igualdad sumando 4, y posteriormente la propiedad multiplicativa dividiendo entre 9.",
+    "explanation": "Sumando 4 de ambos lados tenemos $9x = 54$. Finalmente dividimos entre 9 dando como resultado $x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Resuelve la ecuación y obtén el valor de la incógnita: $5x = -25$",
+    "image": null,
+    "options": [
+      { "text": "-5", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "-30", "correct": false },
+      { "text": "-20", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Solo necesitas realizar un paso, aplicar la división considerando las reglas de los signos.",
+    "explanation": "Dividimos ambos lados entre 5: $x = \\frac{-25}{5}$. Un número negativo entre uno positivo resulta negativo, por lo que $x = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Determina $x$ en la expresión con números negativos: $\\frac{x}{7} = -3$",
+    "image": null,
+    "options": [
+      { "text": "-21", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "-10", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la multiplicación para despejar la incógnita. No olvides aplicar las leyes de los signos.",
+    "explanation": "Multiplicamos ambos lados por 7: $x = (-3)(7)$. Más por menos es menos, así que el resultado es $x = -21$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Encuentra la solución para la siguiente ecuación: $-4x - 6 = 10$",
+    "image": null,
+    "options": [
+      { "text": "-4", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El despeje requiere sumar 6 en ambos lados, y finalmente divide entre el coeficiente negativo completo (-4).",
+    "explanation": "Sumando 6 de ambos lados queda $-4x = 16$. Luego dividimos entre -4: $x = \\frac{16}{-4}$, por lo que $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Al despejar $x$ en la ecuación $12 - 5x = -8$, el valor obtenido es:",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "-4", "correct": false },
+      { "text": "0.8", "correct": false },
+      { "text": "-0.8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta el 12 positivo en ambos lados y cuida de mantener el signo negativo del coeficiente 5.",
+    "explanation": "Restando 12 a ambos lados queda $-5x = -8 - 12$, es decir, $-5x = -20$. Dividiendo ambos lados entre -5 resulta $x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Al resolver el sistema de ecuaciones $x + y = 10$ y $x - y = 4$, ¿cuáles son los valores de $x$ e $y$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 7, y = 3$", "correct": true },
+      { "text": "$x = 3, y = 7$", "correct": false },
+      { "text": "$x = 6, y = 4$", "correct": false },
+      { "text": "$x = 8, y = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el método de reducción sumando ambas ecuaciones para eliminar la variable $y$.",
+    "explanation": "Al sumar las ecuaciones se obtiene $2x = 14$, entonces $x = 7$. Sustituyendo en la primera ecuación: $7 + y = 10$, luego $y = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Calcula la solución para el siguiente sistema de ecuaciones: $2x + y = 8$ y $x + y = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 3$", "correct": false },
+      { "text": "$x = 4, y = 0$", "correct": false },
+      { "text": "$x = 1, y = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta la segunda ecuación de la primera para eliminar $y$.",
+    "explanation": "Al restar queda $(2x + y) - (x + y) = 8 - 5$, resultando $x = 3$. Sustituyendo en la segunda ecuación: $3 + y = 5$, entonces $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Encuentra el conjunto solución del sistema de ecuaciones: $3x - 2y = 5$ y $x + 2y = 7$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 3$", "correct": false },
+      { "text": "$x = 1, y = 3$", "correct": false },
+      { "text": "$x = 4, y = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas ecuaciones; los términos con $y$ se cancelarán automáticamente.",
+    "explanation": "Sumando ambas ecuaciones obtenemos $4x = 12$, por lo que $x = 3$. Sustituyendo en la segunda: $3 + 2y = 7$, entonces $2y = 4$, resultando $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Resuelve el siguiente sistema lineal 2x2: $x + 3y = 11$ y $2x - 3y = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 5$", "correct": false },
+      { "text": "$x = 4, y = 3$", "correct": false },
+      { "text": "$x = 7, y = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las dos ecuaciones para eliminar directamente la incógnita $y$.",
+    "explanation": "Al sumar queda $3x = 15$, de donde $x = 5$. Sustituyendo en la primera: $5 + 3y = 11$, lo que da $3y = 6$, así $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Cuáles son los valores de $x$ e $y$ en el sistema: $4x + y = 13$ y $2x - y = 5$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 1$", "correct": true },
+      { "text": "$x = 1, y = 3$", "correct": false },
+      { "text": "$x = 4, y = -3$", "correct": false },
+      { "text": "$x = 2, y = 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas igualdades para cancelar $y$ y resolver $x$.",
+    "explanation": "Sumando ambas ecuaciones se tiene $6x = 18$, es decir, $x = 3$. Reemplazando en la primera: $4(3) + y = 13$, $12 + y = 13$, lo que indica que $y = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Determina la solución para el sistema: $-x + 4y = 10$ y $x + 2y = 8$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = 3$", "correct": true },
+      { "text": "$x = 3, y = 2$", "correct": false },
+      { "text": "$x = 4, y = 2$", "correct": false },
+      { "text": "$x = 0, y = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma directamente las ecuaciones para eliminar la variable $x$.",
+    "explanation": "Al sumar se elimina $x$ y queda $6y = 18$, resultando $y = 3$. Sustituyendo en la segunda ecuación: $x + 2(3) = 8$, de donde $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Resuelve el sistema de ecuaciones: $2x + 3y = 12$ y $2x - y = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 3$", "correct": false },
+      { "text": "$x = 4, y = 4$", "correct": false },
+      { "text": "$x = 1, y = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta la segunda ecuación de la primera para eliminar la variable $x$.",
+    "explanation": "Al restar las ecuaciones $(2x + 3y) - (2x - y) = 12 - 4$, obtenemos $4y = 8$, entonces $y = 2$. Sustituyendo en la segunda: $2x - 2 = 4$, $2x = 6$, $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Encuentra los valores de las variables para el sistema: $x - 2y = -1$ y $3x + 2y = 13$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 2$", "correct": true },
+      { "text": "$x = -1, y = 0$", "correct": false },
+      { "text": "$x = 5, y = 3$", "correct": false },
+      { "text": "$x = 2, y = 3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas ecuaciones para que los términos en $y$ se anulen.",
+    "explanation": "La suma da $4x = 12$, entonces $x = 3$. Sustituyendo en la primera ecuación: $3 - 2y = -1$, $-2y = -4$, por lo que $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Obtén la solución del sistema: $5x - y = 9$ y $3x + y = 7$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = 1$", "correct": true },
+      { "text": "$x = 1, y = -4$", "correct": false },
+      { "text": "$x = 3, y = -2$", "correct": false },
+      { "text": "$x = 4, y = 11$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el método de suma y resta (reducción) para eliminar $y$.",
+    "explanation": "Sumando las ecuaciones se tiene $8x = 16$, obteniendo $x = 2$. Reemplazando en la segunda: $3(2) + y = 7$, entonces $6 + y = 7$, resultando $y = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Resuelve el sistema de ecuaciones: $x + y = -2$ y $x - y = -6$.",
+    "image": null,
+    "options": [
+      { "text": "$x = -4, y = 2$", "correct": true },
+      { "text": "$x = -2, y = 0$", "correct": false },
+      { "text": "$x = -5, y = -1$", "correct": false },
+      { "text": "$x = 2, y = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las ecuaciones para eliminar la variable $y$.",
+    "explanation": "Sumando se obtiene $2x = -8$, entonces $x = -4$. Sustituyendo en la primera ecuación: $-4 + y = -2$, de donde se deduce que $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Calcula el resultado para el sistema de ecuaciones: $2x + 2y = 10$ y $3x - 2y = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 3$", "correct": false },
+      { "text": "$x = 5, y = 0$", "correct": false },
+      { "text": "$x = 1, y = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las ecuaciones directamente para cancelar la variable $y$.",
+    "explanation": "La suma arroja $5x = 15$, es decir $x = 3$. En la primera ecuación: $2(3) + 2y = 10$, lo que implica $6 + 2y = 10$, $2y = 4$, $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Determina $x$ e $y$ en el siguiente sistema: $4x - 3y = 10$ y $2x + 3y = 14$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 4$", "correct": false },
+      { "text": "$x = 1, y = -2$", "correct": false },
+      { "text": "$x = 5, y = 3.3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas expresiones algebraicas para eliminar el término con $y$.",
+    "explanation": "Al sumar se obtiene $6x = 24$, por ende $x = 4$. En la segunda ecuación: $2(4) + 3y = 14$, $8 + 3y = 14$, $3y = 6$, resultando $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Resuelve el sistema utilizando el método que consideres conveniente: $x = 2y$ y $x + y = 9$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 6, y = 3$", "correct": true },
+      { "text": "$x = 3, y = 6$", "correct": false },
+      { "text": "$x = 4, y = 5$", "correct": false },
+      { "text": "$x = 8, y = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el método de sustitución reemplazando el valor de $x$ de la primera en la segunda ecuación.",
+    "explanation": "Sustituyendo obtenemos: $(2y) + y = 9$, entonces $3y = 9$, de donde $y = 3$. Como $x = 2y$, tenemos $x = 2(3) = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Encuentra la solución del sistema formado por: $y = 3x - 1$ y $2x + y = 14$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 8$", "correct": true },
+      { "text": "$x = 4, y = 11$", "correct": false },
+      { "text": "$x = 5, y = 4$", "correct": false },
+      { "text": "$x = 2, y = 10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la expresión equivalente de $y$ (que proviene de la primera ecuación) en la segunda.",
+    "explanation": "Sustituyendo: $2x + (3x - 1) = 14$, $5x - 1 = 14$, $5x = 15$, por tanto $x = 3$. Evaluando el valor $y = 3(3) - 1$, obtenemos $y = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Resuelve el sistema de ecuaciones lineales: $-2x + y = 4$ y $2x + 3y = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 0, y = 4$", "correct": true },
+      { "text": "$x = -2, y = 0$", "correct": false },
+      { "text": "$x = 2, y = 8$", "correct": false },
+      { "text": "$x = 1, y = 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas ecuaciones para eliminar la variable $x$.",
+    "explanation": "Al sumar las igualdades se elimina $x$ y queda $4y = 16$, entonces $y = 4$. Reemplazando en la primera: $-2x + 4 = 4$, $-2x = 0$, $x = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Identifica los valores de $x$ e $y$ que resuelven el sistema: $x + 4y = 14$ y $-x + y = 1$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = 3$", "correct": true },
+      { "text": "$x = 3, y = 2$", "correct": false },
+      { "text": "$x = -2, y = 4$", "correct": false },
+      { "text": "$x = 6, y = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las ecuaciones para anular el término en $x$.",
+    "explanation": "Sumando resulta $5y = 15$, de donde $y = 3$. Sustituyendo en la segunda ecuación: $-x + 3 = 1$, $-x = -2$, por consiguiente $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Calcula la solución al sistema lineal de ecuaciones: $3x + 2y = 16$ y $5x - 2y = 16$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 4$", "correct": false },
+      { "text": "$x = 6, y = -1$", "correct": false },
+      { "text": "$x = 5, y = 4.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas ecuaciones directamente para cancelar los términos con $y$.",
+    "explanation": "La suma da $8x = 32$, entonces $x = 4$. En la primera ecuación: $3(4) + 2y = 16$, $12 + 2y = 16$, $2y = 4$, resultando $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Determina las raíces del sistema: $x + y = 0$ y $3x - y = 8$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = -2$", "correct": true },
+      { "text": "$x = -2, y = 2$", "correct": false },
+      { "text": "$x = 4, y = -4$", "correct": false },
+      { "text": "$x = 0, y = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las igualdades para cancelar $y$.",
+    "explanation": "Al sumar se tiene $4x = 8$, de modo que $x = 2$. Sustituyendo en la primera ecuación: $2 + y = 0$, de donde es evidente que $y = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Encuentra la solución del sistema: $2x - 5y = 3$ y $x + 5y = 9$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, y = 1$", "correct": true },
+      { "text": "$x = 1, y = 4$", "correct": false },
+      { "text": "$x = -1, y = -1$", "correct": false },
+      { "text": "$x = 5, y = 0.8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las ecuaciones para eliminar la variable $y$.",
+    "explanation": "Sumando se obtiene $3x = 12$, así que $x = 4$. Sustituyendo en la segunda ecuación: $4 + 5y = 9$, $5y = 5$, entonces $y = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Resuelve el sistema de ecuaciones: $x - 3y = -7$ y $2x + 3y = 13$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = 3$", "correct": true },
+      { "text": "$x = -1, y = 2$", "correct": false },
+      { "text": "$x = 5, y = 1$", "correct": false },
+      { "text": "$x = 3, y = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma ambas ecuaciones directamente para cancelar la $y$.",
+    "explanation": "Sumando resulta $3x = 6$, obteniendo $x = 2$. Sustituyendo en la segunda ecuación: $2(2) + 3y = 13$, $4 + 3y = 13$, $3y = 9$, resultando $y = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "Determina los valores correctos para resolver este sistema: $y = x + 2$ y $2x + y = 11$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 5$", "correct": true },
+      { "text": "$x = 5, y = 3$", "correct": false },
+      { "text": "$x = 4, y = 6$", "correct": false },
+      { "text": "$x = 2, y = 7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el método de sustitución reemplazando $y$ en la segunda ecuación.",
+    "explanation": "Sustituyendo: $2x + (x + 2) = 11$, entonces $3x + 2 = 11$, $3x = 9$, $x = 3$. Calculando $y$: $y = 3 + 2 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Encuentra la solución que hace verdadero al sistema de ecuaciones: $4x + 3y = 0$ y $2x - y = 10$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = -4$", "correct": true },
+      { "text": "$x = -3, y = 4$", "correct": false },
+      { "text": "$x = 5, y = 0$", "correct": false },
+      { "text": "$x = 4, y = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica la segunda ecuación por 3 y suma con la primera para eliminar $y$.",
+    "explanation": "Multiplicando la segunda por 3 queda $6x - 3y = 30$. Sumando con la primera: $10x = 30$, resultando $x = 3$. En la segunda ecuación: $2(3) - y = 10$, $6 - 10 = y$, $y = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "¿Cuál es la respuesta para el sistema: $-3x - y = -10$ y $3x + 4y = 22$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 2, y = 4$", "correct": true },
+      { "text": "$x = 4, y = 2$", "correct": false },
+      { "text": "$x = 3, y = 1$", "correct": false },
+      { "text": "$x = -2, y = -4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las ecuaciones para eliminar directamente la incógnita $x$.",
+    "explanation": "Al sumar se anula $x$ y obtenemos $3y = 12$, así $y = 4$. Sustituyendo en la segunda: $3x + 4(4) = 22$, $3x + 16 = 22$, $3x = 6$, $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Resuelve el siguiente sistema lineal: $5x + 2y = 24$ y $3x - 2y = 8$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4, y = 2$", "correct": true },
+      { "text": "$x = 2, y = 4$", "correct": false },
+      { "text": "$x = 6, y = -3$", "correct": false },
+      { "text": "$x = 3.2, y = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las dos ecuaciones para que los términos con $y$ se cancelen.",
+    "explanation": "La suma produce $8x = 32$, por lo que $x = 4$. En la primera ecuación: $5(4) + 2y = 24$, $20 + 2y = 24$, $2y = 4$, $y = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
