@@ -2437,7 +2437,7 @@
       { "text": "óxidos ácidos, hidruros", "correct": true },
       { "text": "óxidos básicos, hidrácidos", "correct": false },
       { "text": "anhídridos, hidróxidos", "correct": false },
-      { "text": "peróxidos, oxiácidos", "correct": false }
+      { "text": "hidróxidos, oxiácidos", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
@@ -2467,37 +2467,37 @@
   },
   {
     "id": "CEP00FH",
-    "question": "¿Cuál es la estructura general que define a una sal básica considerando la forma en que aparecen los átomos en la molécula?",
+    "question": "¿Cuál es la estructura general que define a un hidruro metálico considerando los elementos que lo componen?",
     "image": null,
     "options": [
-      { "text": "metal - oxígeno - hidrógeno - no metal - oxígeno", "correct": true },
-      { "text": "metal - hidrógeno - no metal - oxígeno", "correct": false },
-      { "text": "metal - oxígeno - hidrógeno", "correct": false },
-      { "text": "metal - no metal - oxígeno", "correct": false }
+      { "text": "metal - hidrógeno", "correct": true },
+      { "text": "metal - no metal", "correct": false },
+      { "text": "hidrógeno - no metal", "correct": false },
+      { "text": "metal - oxígeno", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Una sal básica retiene el grupo hidroxilo ($OH$) en su estructura, separando al metal del radical no metálico con oxígeno.",
-    "explanation": "La secuencia estructural para una sal básica incluye los componentes del hidroxilo intermedios: metal - oxígeno - hidrógeno - no metal - oxígeno.",
+    "hint": "Los hidruros resultan de la combinación de un metal con el hidrógeno.",
+    "explanation": "La secuencia estructural para un hidruro metálico incluye únicamente al metal seguido del hidrógeno.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00FI",
-    "question": "El peróxido de hidrógeno ($H_2O_2$) y el peróxido de sodio ($Na_2O_2$) pertenecen a una familia particular de compuestos. De acuerdo a la regla general, ¿qué átomos conforman a los peróxidos metálicos?",
+    "question": "El dióxido de carbono ($CO_2$) y el dióxido de azufre ($SO_2$) pertenecen a una familia particular de compuestos. De acuerdo con la regla general, ¿qué tipos de elementos conforman a los anhídridos u óxidos ácidos?",
     "image": null,
     "options": [
-      { "text": "metal - dos átomos de oxígeno", "correct": true },
+      { "text": "no metal - oxígeno", "correct": true },
       { "text": "metal - oxígeno", "correct": false },
-      { "text": "hidrógeno - no metal - oxígeno", "correct": false },
-      { "text": "metal - hidrógeno - oxígeno", "correct": false }
+      { "text": "hidrógeno - no metal", "correct": false },
+      { "text": "metal - no metal - oxígeno", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Observa el subíndice del oxígeno en las fórmulas químicas de ejemplo para deducir la regla.",
-    "explanation": "Los peróxidos se caracterizan por estar formados por un metal enlazado directamente a dos átomos de oxígeno (grupo peroxo $O_2^{2-}$).",
+    "hint": "Observa el tipo de elemento que acompaña al oxígeno en las fórmulas químicas de ejemplo para deducir la regla.",
+    "explanation": "Los anhídridos u óxidos ácidos se caracterizan por estar formados por un no metal enlazado al oxígeno.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -2521,19 +2521,19 @@
   },
   {
     "id": "CEP00FK",
-    "question": "Una sal ácida se caracteriza por tener en su estructura un átomo de ______, ubicado entre el metal y el no metal, y finalizando con un átomo de ______. Un ejemplo clásico es el bicarbonato de sodio ($NaHCO_3$).",
+    "question": "Un oxiácido se caracteriza por tener en su estructura un átomo de hidrógeno al inicio, seguido por un elemento ______, y finalizando con átomos de ______. Un ejemplo clásico es el ácido sulfúrico ($H_2SO_4$).",
     "image": null,
     "options": [
-      { "text": "hidrógeno, oxígeno", "correct": true },
-      { "text": "oxígeno, hidrógeno", "correct": false },
-      { "text": "carbono, oxígeno", "correct": false },
-      { "text": "nitrógeno, hidrógeno", "correct": false }
+      { "text": "no metálico, oxígeno", "correct": true },
+      { "text": "metálico, oxígeno", "correct": false },
+      { "text": "halógeno, hidrógeno", "correct": false },
+      { "text": "alcalino, carbono", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Analiza la fórmula proporcionada $NaHCO_3$ y divídela según sus elementos constitutivos para encontrar los átomos clave.",
-    "explanation": "La estructura general de una sal ácida es: metal - hidrógeno - no metal - oxígeno. Por tanto, el átomo intermedio es hidrógeno y termina en oxígeno.",
+    "hint": "Analiza la fórmula proporcionada $H_2SO_4$ y divídela según sus elementos constitutivos para encontrar los átomos clave.",
+    "explanation": "La estructura general de un oxiácido es: hidrógeno - no metal - oxígeno. Por tanto, el átomo intermedio es no metálico y termina en oxígeno.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -2562,8 +2562,8 @@
     "options": [
       { "text": "Óxido ácido o anhídrido", "correct": true },
       { "text": "Óxido básico", "correct": false },
-      { "text": "Peróxido", "correct": false },
-      { "text": "Oxisal", "correct": false }
+      { "text": "Oxisal", "correct": false },
+      { "text": "Hidrácido", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
@@ -2629,7 +2629,7 @@
   },
   {
     "id": "CEP00FQ",
-    "question": "Relaciona el compuesto inorgánico con su descripción estructural según el arreglo de sus átomos: A) Peróxido, B) Hidróxido, C) Óxido básico; I) metal - oxígeno, II) metal - oxígeno - hidrógeno, III) metal - dos átomos de oxígeno.",
+    "question": "Relaciona el compuesto inorgánico con su descripción estructural según el arreglo de sus átomos: A) Oxiácido, B) Hidróxido, C) Óxido básico; I) metal - oxígeno, II) metal - oxígeno - hidrógeno, III) hidrógeno - no metal - oxígeno.",
     "image": null,
     "options": [
       { "text": "A-III, B-II, C-I", "correct": true },
@@ -2640,26 +2640,26 @@
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El hidróxido se distingue fácilmente por terminar en el grupo $OH$ (oxígeno - hidrógeno).",
-    "explanation": "El peróxido contiene dos oxígenos estructurales (III), el hidróxido el grupo oxidrilo (II) y el óxido básico es la combinación simple binaria (I).",
+    "hint": "El hidróxido se distingue fácilmente por terminar en el grupo $OH$ (oxígeno - hidrógeno) y el oxiácido por iniciar con hidrógeno y terminar en oxígeno.",
+    "explanation": "El oxiácido contiene hidrógeno, no metal y oxígeno (III), el hidróxido el grupo oxidrilo (II) y el óxido básico es la combinación binaria de metal y oxígeno (I).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00FR",
-    "question": "Un estudiante del CEPREDIX observa una etiqueta en el laboratorio con la fórmula $NaHSO_4$. Considerando los átomos que la conforman (sodio, hidrógeno, azufre y oxígeno), ¿qué tipo de compuesto inorgánico es?",
+    "question": "Un estudiante del CEPREDIX observa una etiqueta en el laboratorio con la fórmula $MgCl_2$. Considerando los átomos que la conforman (magnesio y cloro), ¿qué tipo de compuesto inorgánico es?",
     "image": null,
     "options": [
-      { "text": "Sal ácida", "correct": true },
-      { "text": "Sal básica", "correct": false },
+      { "text": "Sal binaria", "correct": true },
       { "text": "Oxisal", "correct": false },
-      { "text": "Oxiácido", "correct": false }
+      { "text": "Hidrácido", "correct": false },
+      { "text": "Óxido básico", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Verifica el orden de los átomos: inicia con un metal ($Na$), sigue un hidrógeno ácido ($H$), y finaliza con un radical con oxígeno ($SO_4$).",
-    "explanation": "La estructura (metal - hidrógeno - no metal - oxígeno) es la que define químicamente a las sales ácidas.",
+    "hint": "Verifica los elementos: inicia con un metal ($Mg$) y finaliza con un no metal halógeno ($Cl$), sin presencia de oxígeno ni hidrógeno.",
+    "explanation": "La estructura (metal - no metal) es la que define químicamente a las sales binarias o neutras simples.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -2707,7 +2707,7 @@
       { "text": "oxiácidos", "correct": true },
       { "text": "hidrácidos", "correct": false },
       { "text": "oxisales", "correct": false },
-      { "text": "sales ácidas", "correct": false }
+      { "text": "óxidos ácidos", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
@@ -2760,7 +2760,7 @@
     "options": [
       { "text": "Óxido básico", "correct": true },
       { "text": "Óxido ácido", "correct": false },
-      { "text": "Peróxido", "correct": false },
+      { "text": "Hidrácido", "correct": false },
       { "text": "Hidróxido", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
@@ -2773,10 +2773,10 @@
   },
   {
     "id": "CEP00FY",
-    "question": "Identifica las sales ácidas del siguiente listado, recordando que deben seguir la estructura (metal - hidrógeno - no metal - oxígeno): 1. $K_2SO_4$, 2. $KHSO_4$, 3. $NaHCO_3$, 4. $Na_2CO_3$, 5. $LiH_2PO_4$.",
+    "question": "Identifica las oxisales del siguiente listado, recordando que deben seguir la estructura (metal - no metal - oxígeno): 1. $K_2SO_4$, 2. $HCl$, 3. $CaCO_3$, 4. $Na_2O$, 5. $Li_3PO_4$.",
     "image": null,
     "options": [
-      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 3, 5", "correct": true },
       { "text": "1, 3, 4", "correct": false },
       { "text": "2, 4, 5", "correct": false },
       { "text": "1, 2, 5", "correct": false }
@@ -2784,26 +2784,26 @@
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Selecciona únicamente aquellos compuestos que posean un hidrógeno entre el catión metálico y el resto del radical aniónico.",
-    "explanation": "Los compuestos $KHSO_4$, $NaHCO_3$ y $LiH_2PO_4$ conservan protones de hidrógeno en su estructura, convirtiéndolas en sales ácidas.",
+    "hint": "Selecciona únicamente aquellos compuestos ternarios que posean un metal seguido de un anión poliatómico con oxígeno.",
+    "explanation": "Los compuestos $K_2SO_4$, $CaCO_3$ y $Li_3PO_4$ contienen un metal enlazado a un no metal y oxígeno, cumpliendo la estructura de una oxisal.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00FZ",
-    "question": "La sal básica se distingue por tener en su estructura molecular grupos derivados de hidróxidos intercalados. Su conformación sigue estrictamente la secuencia metal - ______ - ______ - no metal - oxígeno.",
+    "question": "Los óxidos ácidos o anhídridos se distinguen por ser compuestos binarios. Su conformación sigue estrictamente la unión de un ______ con el ______.",
     "image": null,
     "options": [
-      { "text": "oxígeno, hidrógeno", "correct": true },
-      { "text": "hidrógeno, oxígeno", "correct": false },
-      { "text": "oxígeno, metal", "correct": false },
-      { "text": "no metal, hidrógeno", "correct": false }
+      { "text": "no metal, oxígeno", "correct": true },
+      { "text": "metal, oxígeno", "correct": false },
+      { "text": "no metal, hidrógeno", "correct": false },
+      { "text": "metal, hidrógeno", "correct": false }
     ],
     "uni_tags": ["QUÍMICA"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda el orden del grupo oxidrilo (OH) que se interpone antes del radical del ácido.",
-    "explanation": "De acuerdo con las reglas de nomenclatura estructurales, la sal básica se forma por metal - oxígeno - hidrógeno - no metal - oxígeno.",
+    "hint": "Recuerda que estos compuestos, al reaccionar con agua, forman ácidos, por lo que no pueden derivar de un metal.",
+    "explanation": "De acuerdo con las reglas de nomenclatura estructurales, un anhídrido u óxido ácido se forma por la unión de un no metal con el oxígeno.",
     "explanative_video": null,
     "collapsible_text": null
   }
