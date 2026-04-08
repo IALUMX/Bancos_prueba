@@ -25446,5 +25446,581 @@
     "explanation": "El total de apretones de manos viene dado por $\\frac{n(n-1)}{2} = 66$, donde n representa a las personas asistentes. Multiplicando: $n(n-1) = 132$. Resolviendo y buscando números consecutivos que multiplicados den 132, descubrimos que $12 \\times 11 = 132$, así que en total había 12 personas.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02AQ",
+    "question": "¿Cuál es la ecuación en forma general que corresponde a la gráfica 1?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 - 4x - 2$", "correct": true },
+      { "text": "$y = x^2 + 4x + 2$", "correct": false },
+      { "text": "$y = -x^2 + 4x - 2$", "correct": false },
+      { "text": "$y = x^2 - 4x - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si la parábola abre hacia arriba o hacia abajo para determinar el signo del término cuadrático, y verifica la ordenada al origen.",
+    "explanation": "Al analizar la gráfica 1, identificamos que la parábola abre hacia abajo, lo que indica que el término $x^2$ es negativo. Evaluando su vértice, coincide exactamente con el desarrollo de la expresión $y = -x^2 - 4x - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AR",
+    "question": "Al despejar la variable $y$, ¿qué ecuación es equivalente a la función de la gráfica 1?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y - 2 = -(x + 2)^2$", "correct": true },
+      { "text": "$y + 2 = -(x + 2)^2$", "correct": false },
+      { "text": "$y - 2 = (x - 2)^2$", "correct": false },
+      { "text": "$y + 2 = -(x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Escribe la ecuación en su forma canónica o vértice $y - k = a(x - h)^2$ e identifica las coordenadas del vértice $(h, k)$.",
+    "explanation": "Desarrollando $y - 2 = -(x + 2)^2$ obtenemos $y - 2 = -(x^2 + 4x + 4)$, lo que se simplifica a $y = -x^2 - 4x - 2$, correspondiendo a la gráfica 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AS",
+    "question": "¿Qué expresión en forma general define correctamente la parábola de la gráfica 2?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 + 4x + 4$", "correct": true },
+      { "text": "$y = x^2 - 4x + 4$", "correct": false },
+      { "text": "$y = -x^2 - 4x - 4$", "correct": false },
+      { "text": "$y = x^2 + 2x + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que es un trinomio cuadrado perfecto que toca el eje $x$ en un solo punto.",
+    "explanation": "La gráfica 2 representa una parábola que abre hacia arriba y su vértice toca el eje de las abscisas en $x = -2$. Esto se modela con el trinomio cuadrado perfecto $y = x^2 + 4x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AT",
+    "question": "¿Cuál es la forma factorizada de la función que se muestra en la gráfica 2?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = (x + 2)(x + 2)$", "correct": true },
+      { "text": "$y = (x - 2)(x - 2)$", "correct": false },
+      { "text": "$y = (x + 2)(x - 2)$", "correct": false },
+      { "text": "$y = -(x + 2)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla las raíces de la ecuación. Si la parábola rebota en el eje $x$, tiene una raíz doble.",
+    "explanation": "Como la ecuación es $y = x^2 + 4x + 4$, su factorización directa es el binomio al cuadrado $y = (x + 2)^2$, que es igual a multiplicar $(x + 2)(x + 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AU",
+    "question": "Identifica la ecuación general que representa la gráfica 3.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 - 4x + 2$", "correct": true },
+      { "text": "$y = x^2 + 4x - 2$", "correct": false },
+      { "text": "$y = -x^2 + 4x + 2$", "correct": false },
+      { "text": "$y = x^2 - 2x + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica el desplazamiento horizontal y vertical del vértice para determinar los signos de la ecuación.",
+    "explanation": "La gráfica corresponde a una parábola cóncava hacia arriba (término principal positivo) cuyo desarrollo algebraico nos da como resultado $y = x^2 - 4x + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AV",
+    "question": "¿Qué ecuación agrupada corresponde a la gráfica 3?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + 2 = (x - 2)^2$", "correct": true },
+      { "text": "$y - 2 = (x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = (x + 2)^2$", "correct": false },
+      { "text": "$y - 2 = (x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma la ecuación general completando el trinomio cuadrado perfecto para agrupar las variables.",
+    "explanation": "Al reordenar $y = x^2 - 4x + 2$, sumamos 2 en ambos lados para completar el cuadrado perfecto: $y + 2 = x^2 - 4x + 4$, factorizando nos queda $y + 2 = (x - 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AW",
+    "question": "Selecciona el desarrollo polinómico de la gráfica 4.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 + 4x - 2$", "correct": true },
+      { "text": "$y = -x^2 - 4x + 2$", "correct": false },
+      { "text": "$y = x^2 - 4x - 2$", "correct": false },
+      { "text": "$y = -x^2 + 2x - 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que una parábola invertida tiene un coeficiente principal negativo en $x^2$.",
+    "explanation": "El desarrollo polinómico que define los cortes y el vértice de esta parábola hacia abajo es $y = -x^2 + 4x - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AX",
+    "question": "Si reescribimos la función de la gráfica 4 igualando a cero, ¿cuál es correcta?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$(x - 2)^2 + y - 2 = 0$", "correct": true },
+      { "text": "$(x + 2)^2 - y + 2 = 0$", "correct": false },
+      { "text": "$(x - 2)^2 - y - 2 = 0$", "correct": false },
+      { "text": "$(x + 2)^2 + y - 2 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa la ecuación en forma canónica y luego pasa todos los términos de un solo lado del signo igual.",
+    "explanation": "Partiendo de $y = -x^2 + 4x - 2$, si extraemos el negativo obtenemos $y = -(x - 2)^2 + 2$. Al pasar todos los términos a la izquierda, queda $(x - 2)^2 + y - 2 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AY",
+    "question": "¿Cuál es la ecuación general de la parábola mostrada en la gráfica 5?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 - 4x - 4$", "correct": true },
+      { "text": "$y = -x^2 + 4x - 4$", "correct": false },
+      { "text": "$y = x^2 + 4x + 4$", "correct": false },
+      { "text": "$y = -x^2 - 2x - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que la parábola abre hacia abajo y tiene una única raíz en el eje $x$.",
+    "explanation": "Al tener una raíz doble en el eje de las abscisas y abrir hacia abajo, corresponde a la expresión $y = -(x + 2)^2$, que desarrollada es $y = -x^2 - 4x - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02AZ",
+    "question": "Expresa la función de la gráfica 5 despejando el binomio al cuadrado.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$-y = (x + 2)^2$", "correct": true },
+      { "text": "$y = (x - 2)^2$", "correct": false },
+      { "text": "$-y = (x - 2)^2$", "correct": false },
+      { "text": "$y = (x + 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el signo negativo de la ecuación general y agrupa el trinomio cuadrado perfecto.",
+    "explanation": "De la ecuación general $y = -x^2 - 4x - 4$, factorizamos el negativo: $y = -(x^2 + 4x + 4)$. Convertimos a binomio al cuadrado: $y = -(x + 2)^2$. Despejando el binomio nos queda $-y = (x + 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BA",
+    "question": "¿Qué trinomio representa la función de la gráfica 6?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 + 4x + 6$", "correct": true },
+      { "text": "$y = x^2 - 4x + 6$", "correct": false },
+      { "text": "$y = -x^2 + 4x - 6$", "correct": false },
+      { "text": "$y = x^2 + 4x - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica las coordenadas del vértice en la gráfica y expande la fórmula $y = a(x - h)^2 + k$.",
+    "explanation": "La gráfica 6 es cóncava hacia arriba. Usando la forma canónica, llegamos al trinomio correspondiente que es $y = x^2 + 4x + 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BB",
+    "question": "¿Cuál es la forma canónica modificada para la gráfica 6?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y - 2 = (x + 2)^2$", "correct": true },
+      { "text": "$y + 2 = (x + 2)^2$", "correct": false },
+      { "text": "$y - 2 = -(x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = (x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A partir del trinomio general, completa el cuadrado perfecto para la variable $x$.",
+    "explanation": "Partiendo de $y = x^2 + 4x + 6$, restamos 2 de ambos lados para obtener el trinomio cuadrado perfecto: $y - 2 = x^2 + 4x + 4$, que se factoriza como $y - 2 = (x + 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BC",
+    "question": "¿Cuál de las siguientes es la forma general de la gráfica 7?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 + 4x - 4$", "correct": true },
+      { "text": "$y = -x^2 - 4x + 4$", "correct": false },
+      { "text": "$y = x^2 - 4x + 4$", "correct": false },
+      { "text": "$y = -x^2 + 4x + 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Nota la simetría de la gráfica, su concavidad negativa y su única intersección con el eje $x$.",
+    "explanation": "La gráfica 7 toca el eje horizontal en una raíz doble. Su orientación requiere un coeficiente negativo general en la forma factorizada $y = -(x - 2)^2$, que desarrollada es $y = -x^2 + 4x - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BD",
+    "question": "¿Cómo se factoriza la ecuación que corresponde a la gráfica 7?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -(x - 2)(x - 2)$", "correct": true },
+      { "text": "$y = (x - 2)(x - 2)$", "correct": false },
+      { "text": "$y = -(x + 2)(x - 2)$", "correct": false },
+      { "text": "$y = -(x + 2)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el signo negativo y luego factoriza el trinomio resultante.",
+    "explanation": "Al tener $y = -x^2 + 4x - 4$, extraemos el signo negativo: $y = -(x^2 - 4x + 4)$. El trinomio interior es un cuadrado perfecto, cuya factorización es $y = -(x - 2)(x - 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BE",
+    "question": "Identifica la forma desarrollada de la gráfica 8.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 - 4x - 6$", "correct": true },
+      { "text": "$y = -x^2 + 4x - 6$", "correct": false },
+      { "text": "$y = x^2 + 4x + 6$", "correct": false },
+      { "text": "$y = -x^2 - 4x + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera la ubicación del vértice en un cuadrante con valores negativos para determinar los signos al desarrollar la expresión.",
+    "explanation": "La gráfica corresponde al desarrollo de $y = -(x + 2)^2 - 2$. Al elevar al cuadrado y agrupar los términos semejantes se obtiene $y = -x^2 - 4x - 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BF",
+    "question": "Al igualar las variables de la gráfica 8, ¿qué opción es correcta?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + 2 = -(x + 2)^2$", "correct": true },
+      { "text": "$y - 2 = -(x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = (x - 2)^2$", "correct": false },
+      { "text": "$y - 2 = -(x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma la ecuación a su forma canónica separando la constante que acompaña a la variable dependiente $y$.",
+    "explanation": "Partiendo de la forma general, agrupamos sumando 2 a ambos lados y factorizando el negativo de las $x$, lo que resulta en $y + 2 = -(x + 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BG",
+    "question": "¿Cómo se escribe la función de la gráfica 9 con la variable dependiente agrupada?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y - 2 = x^2$", "correct": true },
+      { "text": "$y + 2 = x^2$", "correct": false },
+      { "text": "$y - 2 = -x^2$", "correct": false },
+      { "text": "$y = x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El vértice de la parábola está desplazado únicamente sobre el eje $y$.",
+    "explanation": "La parábola tiene su vértice desplazado hacia arriba en 2 unidades. Su forma canónica es $y = x^2 + 2$, lo cual agrupado corresponde a $y - 2 = x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BH",
+    "question": "¿Qué ecuación general describe el comportamiento de la gráfica 9?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 + 2$", "correct": true },
+      { "text": "$y = -x^2 + 2$", "correct": false },
+      { "text": "$y = x^2 - 2$", "correct": false },
+      { "text": "$y = -x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica dónde corta la parábola con el eje vertical (ordenada al origen).",
+    "explanation": "Es una parábola estándar que abre hacia arriba sin desplazamiento horizontal, pero cruzando el eje $y$ en $+2$, lo que resulta en $y = x^2 + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BI",
+    "question": "¿Cuál es la ecuación expandida de la gráfica 10?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 - 4x + 6$", "correct": true },
+      { "text": "$y = x^2 + 4x + 6$", "correct": false },
+      { "text": "$y = -x^2 + 4x + 6$", "correct": false },
+      { "text": "$y = x^2 - 4x - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula usando la forma canónica $y = a(x - h)^2 + k$ con vértice $(2, 2)$ y desarrolla el binomio.",
+    "explanation": "El vértice está en $(2, 2)$ y abre hacia arriba, por lo que $y = (x - 2)^2 + 2$. Desarrollando el binomio se tiene $y = x^2 - 4x + 4 + 2$, lo que nos da $y = x^2 - 4x + 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BJ",
+    "question": "¿Qué ecuación es resultado de un despeje correcto en la gráfica 10?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y - 2 = (x - 2)^2$", "correct": true },
+      { "text": "$y + 2 = (x - 2)^2$", "correct": false },
+      { "text": "$y - 2 = (x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = -(x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el término constante del lado de las variables de $y$.",
+    "explanation": "Partiendo de la ecuación desarrollada o la canónica, al dejar aislado el binomio al cuadrado obtenemos la forma $y - 2 = (x - 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BK",
+    "question": "¿Qué expresión representa la relación de la gráfica 11 si despejamos la variable cuadrática?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + 2 = x^2$", "correct": true },
+      { "text": "$y - 2 = x^2$", "correct": false },
+      { "text": "$y + 2 = -x^2$", "correct": false },
+      { "text": "$y = -x^2 + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta parábola no tiene traslación en el eje $x$, solo está desplazada en el eje $y$ hacia abajo.",
+    "explanation": "La parábola está desplazada 2 unidades hacia abajo, por lo que su ecuación general es $y = x^2 - 2$. Agrupando, sumamos 2 a ambos lados y obtenemos $y + 2 = x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BL",
+    "question": "Identifica la representación general de la parábola en la gráfica 11.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 - 2$", "correct": true },
+      { "text": "$y = x^2 + 2$", "correct": false },
+      { "text": "$y = -x^2 - 2$", "correct": false },
+      { "text": "$y = -x^2 + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La función es positiva pero cruza el eje vertical en un valor negativo.",
+    "explanation": "Dado que abre hacia arriba y su vértice es $(0, -2)$, la ecuación se simplifica directamente como la función principal $y = x^2 - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BM",
+    "question": "Si reescribimos la función de la gráfica 12, ¿cuál expresión es válida?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + x^2 = -2$", "correct": true },
+      { "text": "$y - x^2 = -2$", "correct": false },
+      { "text": "$y + x^2 = 2$", "correct": false },
+      { "text": "$y - x^2 = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Coloca todas las variables del lado izquierdo de la igualdad.",
+    "explanation": "La ecuación de esta parábola hacia abajo y vértice en $(0, -2)$ es $y = -x^2 - 2$. Al sumar $x^2$ a ambos lados de la ecuación, resulta $y + x^2 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BN",
+    "question": "¿Cuál es la ecuación estándar de la curva en la gráfica 12?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 - 2$", "correct": true },
+      { "text": "$y = -x^2 + 2$", "correct": false },
+      { "text": "$y = x^2 - 2$", "correct": false },
+      { "text": "$y = x^2 + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Fíjate en el punto más alto de la curva (su vértice) y la dirección en la que abre.",
+    "explanation": "El coeficiente es negativo (abre hacia abajo) y cruza el eje ordenado en $-2$. Por lo tanto, la ecuación estándar es $y = -x^2 - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BO",
+    "question": "¿Cuál es la ecuación general que se asocia con la gráfica 13?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 + 4x - 6$", "correct": true },
+      { "text": "$y = -x^2 - 4x - 6$", "correct": false },
+      { "text": "$y = x^2 - 4x - 6$", "correct": false },
+      { "text": "$y = -x^2 + 4x + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla las coordenadas del vértice en la gráfica y desarrolla la ecuación cuadrática correspondiente.",
+    "explanation": "El vértice está en $(2, -2)$ y abre hacia abajo. La ecuación canónica es $y = -(x - 2)^2 - 2$. Desarrollándola queda $y = -(x^2 - 4x + 4) - 2$, que se simplifica a $y = -x^2 + 4x - 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BP",
+    "question": "¿Cómo se agrupa el binomio para la gráfica 13?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + 2 = -(x - 2)^2$", "correct": true },
+      { "text": "$y - 2 = -(x - 2)^2$", "correct": false },
+      { "text": "$y + 2 = (x - 2)^2$", "correct": false },
+      { "text": "$y + 2 = -(x + 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza el método de completar el cuadrado o aisla el componente dependiente del binomio.",
+    "explanation": "A partir del desarrollo o la forma de vértice $y = -(x - 2)^2 - 2$, si sumamos 2 a ambos lados agrupamos las variables obteniendo la expresión $y + 2 = -(x - 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BQ",
+    "question": "Selecciona el trinomio cuadrado perfecto de la gráfica 14.",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 - 4x + 4$", "correct": true },
+      { "text": "$y = x^2 + 4x + 4$", "correct": false },
+      { "text": "$y = -x^2 + 4x - 4$", "correct": false },
+      { "text": "$y = -x^2 - 4x - 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta gráfica es tangente al eje horizontal en el lado positivo de las abscisas.",
+    "explanation": "Al tener una raíz doble en $x = 2$ y abrir hacia arriba, su forma factorizada es $y = (x - 2)^2$. Desarrollando ese binomio llegamos al trinomio $y = x^2 - 4x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BR",
+    "question": "Al factorizar la ecuación de la gráfica 14, se obtiene:",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = (x - 2)(x - 2)$", "correct": true },
+      { "text": "$y = (x + 2)(x + 2)$", "correct": false },
+      { "text": "$y = -(x - 2)(x - 2)$", "correct": false },
+      { "text": "$y = (x - 2)(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos números que sumados den $-4$ y multiplicados den $+4$.",
+    "explanation": "La ecuación $y = x^2 - 4x + 4$ es un trinomio cuadrado perfecto que se descompone en el producto de dos binomios idénticos: $y = (x - 2)(x - 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BS",
+    "question": "Dada la posición del vértice en la gráfica 15, ¿cuál es su ecuación general?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = x^2 + 4x + 2$", "correct": true },
+      { "text": "$y = x^2 - 4x + 2$", "correct": false },
+      { "text": "$y = -x^2 - 4x + 2$", "correct": false },
+      { "text": "$y = x^2 + 4x + 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la forma canónica con el vértice en $(-2, -2)$ y abre la expresión.",
+    "explanation": "El vértice es $(-2, -2)$ por lo que $y = (x + 2)^2 - 2$. Al desarrollarlo, $y = x^2 + 4x + 4 - 2$, reduciéndose a la expresión $y = x^2 + 4x + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BT",
+    "question": "¿Qué ecuación con el parámetro '$y$' despejado corresponde a la gráfica 15?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + 2 = (x + 2)^2$", "correct": true },
+      { "text": "$y - 2 = (x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = -(x + 2)^2$", "correct": false },
+      { "text": "$y + 2 = (x - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa la constante y la variable dependiente de un mismo lado de la igualdad.",
+    "explanation": "A partir de la ecuación canónica $y = (x + 2)^2 - 2$, trasladando el $-2$ al otro lado sumando, se obtiene la forma agrupada $y + 2 = (x + 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BU",
+    "question": "Para la gráfica 16, si sumamos el término cuadrático en ambos lados, obtenemos:",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y + x^2 = 2$", "correct": true },
+      { "text": "$y - x^2 = 2$", "correct": false },
+      { "text": "$y + x^2 = -2$", "correct": false },
+      { "text": "$y - x^2 = -2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta gráfica abre hacia abajo y corta al eje de las ordenadas en $+2$.",
+    "explanation": "La ecuación original de esta curva es $y = -x^2 + 2$. Si pasamos el término $-x^2$ al lado izquierdo sumando, la ecuación se escribe como $y + x^2 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02BV",
+    "question": "¿Cuál es la ecuación directa en forma estándar para la gráfica 16?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/16_cuadraticas_parabolas.png",
+    "options": [
+      { "text": "$y = -x^2 + 2$", "correct": true },
+      { "text": "$y = x^2 + 2$", "correct": false },
+      { "text": "$y = -x^2 - 2$", "correct": false },
+      { "text": "$y = x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el punto más alto de la gráfica como tu ordenada al origen $k$.",
+    "explanation": "La parábola tiene su vértice en $(0, 2)$ y abre hacia abajo. Esto nos indica que la ecuación base es $-x^2$ sumada a la traslación vertical de $2$, por lo que $y = -x^2 + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
