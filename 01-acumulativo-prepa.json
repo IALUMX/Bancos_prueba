@@ -19114,5 +19114,329 @@
     "explanation": "La cantidad de energía o trabajo requerido permanece idéntica al alzar un mismo cuerpo al mismo techo. Sin embargo, al contraer el lapso a la mitad, la ecuación $P=W/t$ dicta que la velocidad de entrega energética debe forzosamente ser del doble.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP01OW",
+    "question": "¿Cuál es la magnitud física que mide el promedio de la energía cinética de las partículas de un cuerpo? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "Temperatura", "correct": true },
+      { "text": "Calor", "correct": false },
+      { "text": "Presión", "correct": false },
+      { "text": "Entropía", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Es una medida escalar que no depende de la cantidad de masa del cuerpo.",
+    "explanation": "La temperatura es la magnitud que cuantifica la energía cinética promedio de las partículas de un sistema.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OX",
+    "question": "El ______ es la energía en tránsito que fluye de un cuerpo de ______ temperatura a otro de ______ temperatura. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "calor - mayor - menor", "correct": true },
+      { "text": "calor - menor - mayor", "correct": false },
+      { "text": "trabajo - mayor - menor", "correct": false },
+      { "text": "trabajo - menor - mayor", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La energía siempre busca el equilibrio natural fluyendo desde donde hay mayor agitación térmica hacia donde hay menor.",
+    "explanation": "El calor se define como la transferencia de energía térmica que ocurre espontáneamente desde un cuerpo más caliente hacia uno más frío.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OY",
+    "question": "Identifica los mecanismos mediante los cuales se puede transferir el calor entre dos cuerpos: 1. Radiación, 2. Dilatación, 3. Conducción, 4. Sublimación, 5. Convección. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "La dilatación es una consecuencia térmica y la sublimación es un cambio de estado, no formas de transferencia de energía.",
+    "explanation": "Los tres mecanismos fundamentales de transferencia de calor son la conducción (contacto), la convección (movimiento de fluidos) y la radiación (ondas electromagnéticas).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01OZ",
+    "question": "¿A cuántos grados Kelvin equivalen $20^{\\circ}\\text{C}$? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$293.15\\text{ K}$", "correct": true },
+      { "text": "$253.15\\text{ K}$", "correct": false },
+      { "text": "$293^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$-253.15\\text{ K}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Utiliza la fórmula $T_C = T_K - 273.15$ y despeja el valor solicitado.",
+    "explanation": "Al despejar $T_K$ obtenemos $T_K = T_C + 273.15$. Sustituyendo, $T_K = 20 + 273.15 = 293.15\\text{ K}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PA",
+    "question": "Un estudiante del CEPREDIX relaciona las leyes de la termodinámica con sus definiciones. A) Ley Cero, B) Primera Ley, C) Segunda Ley; I) La entropía del universo tiende a un máximo, II) Dos sistemas en equilibrio con un tercero están en equilibrio entre sí, III) La energía no se crea ni se destruye. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda que la Ley Cero fundamenta la temperatura, la Primera es sobre conservación y la Segunda sobre el desorden.",
+    "explanation": "La Ley Cero define el equilibrio térmico (II), la Primera Ley es la conservación de la energía aplicada a sistemas térmicos (III) y la Segunda Ley establece el aumento de entropía (I).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PB",
+    "question": "Si se suministran $1000\\text{ J}$ de calor a $2\\text{ kg}$ de una sustancia y su temperatura se eleva $5^{\\circ}\\text{C}$, ¿cuál es su calor específico? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$100\\text{ J/(kg}^{\\circ}\\text{C)}$", "correct": true },
+      { "text": "$50\\text{ J/(kg}^{\\circ}\\text{C)}$", "correct": false },
+      { "text": "$250\\text{ J/(kg}^{\\circ}\\text{C)}$", "correct": false },
+      { "text": "$500\\text{ J/(kg}^{\\circ}\\text{C)}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Emplea la relación matemática $m = \\frac{Q}{c \\Delta T}$ y despeja la variable necesaria.",
+    "explanation": "Despejando el calor específico obtenemos $c = \\frac{Q}{m \\Delta T}$. Sustituyendo, $c = \\frac{1000}{2 \\times 5} = \\frac{1000}{10} = 100\\text{ J/(kg}^{\\circ}\\text{C)}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PC",
+    "question": "Relaciona el cambio de estado con su nombre correcto: A) Sólido a líquido, B) Líquido a gas, C) Gas a líquido; I) Evaporación, II) Condensación, III) Fusión. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Cuando el hielo se derrite sufre fusión, cuando el agua hierve se evapora y cuando el vapor toca un vidrio frío se condensa.",
+    "explanation": "La fusión es de sólido a líquido, la evaporación de líquido a gas y la condensación de gas a líquido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PD",
+    "question": "¿Qué condición física se cumple ineludiblemente cuando dos cuerpos en contacto alcanzan el equilibrio térmico? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "Igualan sus temperaturas", "correct": true },
+      { "text": "Igualan sus masas", "correct": false },
+      { "text": "Igualan su calor específico", "correct": false },
+      { "text": "Intercambian sus estados de agregación", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El equilibrio se logra cuando cesa la transferencia neta de calor entre ambos cuerpos.",
+    "explanation": "El equilibrio térmico ocurre cuando dos sistemas igualan sus temperaturas, deteniendo así el flujo neto de calor entre ellos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PE",
+    "question": "La transferencia de calor por ______ ocurre principalmente en materiales sólidos, mientras que la ______ es característica de los fluidos debido al movimiento de sus masas. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "conducción - convección", "correct": true },
+      { "text": "radiación - convección", "correct": false },
+      { "text": "convección - conducción", "correct": false },
+      { "text": "conducción - radiación", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El contacto directo sin desplazamiento de materia se da en sólidos, mientras que en líquidos y gases hay corrientes que mueven la energía.",
+    "explanation": "La conducción requiere contacto directo y es propia de sólidos. La convección implica el desplazamiento físico de fluidos calientes y fríos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PF",
+    "question": "Un termómetro de laboratorio marca $68^{\\circ}\\text{F}$. ¿Cuál es el valor correspondiente en la escala Celsius? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$20^{\\circ}\\text{C}$", "correct": true },
+      { "text": "$36^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$15^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$25^{\\circ}\\text{C}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Aplica la fórmula $T_F = \\frac{9}{5}T_C + 32$ y aísla algebraicamente la temperatura buscada.",
+    "explanation": "Despejando $T_C = \\frac{5}{9}(T_F - 32)$. Sustituyendo, $T_C = \\frac{5}{9}(68 - 32) = \\frac{5}{9}(36) = 20^{\\circ}\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PG",
+    "question": "En el laboratorio del CEPREDIX, se pide identificar cuáles de los siguientes procesos son exotérmicos: 1. Fusión del hielo, 2. Combustión de madera, 3. Condensación del vapor, 4. Evaporación del agua. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "2, 3", "correct": true },
+      { "text": "1, 4", "correct": false },
+      { "text": "1, 2", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Un proceso exotérmico libera energía al entorno en lugar de absorberla.",
+    "explanation": "La combustión libera energía calorífica. La condensación también libera energía cuando el gas se agrupa para formar líquido. Fusión y evaporación absorben calor (endotérmicos).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PH",
+    "question": "Una varilla de metal de $10\\text{ m}$ incrementa su temperatura en $50^{\\circ}\\text{C}$. Si su coeficiente de dilatación lineal es $2 \\times 10^{-5}\\text{ }^{\\circ}\\text{C}^{-1}$, ¿cuánto se dilata linealmente? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$0.01\\text{ m}$", "correct": true },
+      { "text": "$0.1\\text{ m}$", "correct": false },
+      { "text": "$0.001\\text{ m}$", "correct": false },
+      { "text": "$1.0\\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Utiliza la relación $\\alpha = \\frac{\\Delta L}{L_0 \\Delta T}$ y despeja la variación de longitud.",
+    "explanation": "Despejando $\\Delta L = \\alpha \\cdot L_0 \\cdot \\Delta T$. Evaluando: $\\Delta L = (2 \\times 10^{-5})(10)(50) = 2 \\times 10^{-5} \\times 500 = 1000 \\times 10^{-5} = 0.01\\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PI",
+    "question": "Selecciona los materiales que son considerados por sus propiedades físicas como buenos aislantes térmicos: 1. Cobre, 2. Madera, 3. Plata, 4. Unicel, 5. Aluminio. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "2, 4", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 5", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Los metales son excelentes conductores del calor, busca las opciones que no sean metales.",
+    "explanation": "La madera y el unicel presentan alta resistencia al flujo de calor, por lo que son aislantes. El cobre, plata y aluminio son conductores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PJ",
+    "question": "¿Cuál es el valor del cero absoluto, temperatura teórica en la que las partículas carecerían por completo de movimiento cinético? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$0\\text{ K}$ o $-273.15^{\\circ}\\text{C}$", "correct": true },
+      { "text": "$0^{\\circ}\\text{C}$ o $273.15\\text{ K}$", "correct": false },
+      { "text": "$0^{\\circ}\\text{F}$ o $-32^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$273.15^{\\circ}\\text{C}$ o $0\\text{ K}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Es el punto de inicio de la escala termodinámica internacional.",
+    "explanation": "El cero absoluto corresponde a $0\\text{ K}$, que equivale a la temperatura mínima teórica de $-273.15^{\\circ}\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PK",
+    "question": "Relaciona el concepto termodinámico con su definición matemática o física: A) Capacidad calorífica, B) Calor latente, C) Calor específico; I) Energía necesaria para cambiar de estado sin alterar la temperatura, II) Calor por unidad de masa para elevar un grado la temperatura, III) Razón entre calor suministrado a un cuerpo y el incremento de su temperatura. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "El calor latente está 'oculto' porque no cambia la temperatura del sistema durante la transición de fase.",
+    "explanation": "La capacidad calorífica (III) es propia de un cuerpo, el calor específico (II) es por unidad de masa, y el latente (I) rige el cambio de estado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PL",
+    "question": "A un sistema termodinámico se le suministran $500\\text{ J}$ de calor y este realiza un trabajo de expansión de $200\\text{ J}$. ¿Cuál es el cambio en su energía interna? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$300\\text{ J}$", "correct": true },
+      { "text": "$700\\text{ J}$", "correct": false },
+      { "text": "$-300\\text{ J}$", "correct": false },
+      { "text": "$200\\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Considera la ecuación $Q = \\Delta U + W$ donde debes despejar el cambio de energía interna.",
+    "explanation": "Despejando obtenemos $\\Delta U = Q - W$. Sustituyendo valores: $\\Delta U = 500\\text{ J} - 200\\text{ J} = 300\\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PM",
+    "question": "Según la ley de ______, cuando la presión es constante, el volumen ocupado por un gas ideal es directamente proporcional a su temperatura _______. 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "Charles - absoluta", "correct": true },
+      { "text": "Boyle - relativa", "correct": false },
+      { "text": "Gay-Lussac - absoluta", "correct": false },
+      { "text": "Charles - relativa", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Recuerda que para el volumen directamente proporcional a la temperatura necesitas medir en grados Kelvin.",
+    "explanation": "La Ley de Charles dicta que a presión constante $V/T = k$, usando la escala de temperatura absoluta (Kelvin).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP01PN",
+    "question": "Un profesor del CEPREDIX mezcla $1\\text{ kg}$ de agua a $80^{\\circ}\\text{C}$ con $1\\text{ kg}$ de agua a $20^{\\circ}\\text{C}$ en un recipiente perfectamente aislado. Suponiendo que no hay pérdidas de energía, ¿cuál es la temperatura de equilibrio térmico? 🏷 Tema 3.3.6",
+    "image": null,
+    "options": [
+      { "text": "$50^{\\circ}\\text{C}$", "correct": true },
+      { "text": "$60^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$40^{\\circ}\\text{C}$", "correct": false },
+      { "text": "$100^{\\circ}\\text{C}$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["FÍSICA"],
+    "hint": "Plantea el balance térmico usando la fórmula $m_1 c (T_1 - T_f) = m_2 c (T_f - T_2)$ y despeja la temperatura final.",
+    "explanation": "Al tener la misma masa y la misma sustancia (agua), las capacidades se cancelan. El despeje de $T_f$ indica que es el promedio simple: $T_f = \\frac{80 + 20}{2} = 50^{\\circ}\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
