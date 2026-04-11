@@ -30402,5 +30402,653 @@
     "explanation": "Las oxisales cumplen rigurosamente con la estructura metal - no metal - oxígeno.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02JF",
+    "question": "¿En qué parte de la célula ocurre la glucólisis?",
+    "image": null,
+    "options": [
+      { "text": "Matriz mitocondrial", "correct": false },
+      { "text": "Citosol", "correct": true },
+      { "text": "Retículo endoplásmico", "correct": false },
+      { "text": "Núcleo", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que este proceso primitivo no requiere de organelos especializados con doble membrana para llevarse a cabo.",
+    "explanation": "La glucólisis es una ruta metabólica ancestral y universal que se lleva a cabo en la fracción líquida del citoplasma, conocida como citosol, en la cual se encuentran disueltas sus enzimas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JG",
+    "question": "¿Cuál es el producto neto de ATP por cada molécula de glucosa en la glucólisis anaerobia?",
+    "image": null,
+    "options": [
+      { "text": "4 ATP", "correct": false },
+      { "text": "1 ATP", "correct": false },
+      { "text": "2 ATP", "correct": true },
+      { "text": "36 ATP", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en cuenta que en la fase preparatoria se invierten 2 moléculas de ATP y en la fase de beneficio se producen 4.",
+    "explanation": "Aunque se generan 4 ATP en total durante las reacciones de la glucólisis, existe un consumo inicial de 2 ATP (por la hexoquinasa y la PFK-1), dando un rendimiento neto de $4 - 2 = 2$ ATP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JH",
+    "question": "¿Qué enzima realiza el primer paso limitante y comprometido de la glucólisis?",
+    "image": null,
+    "options": [
+      { "text": "Hexoquinasa", "correct": false },
+      { "text": "Piruvato quinasa", "correct": false },
+      { "text": "Fosfofructoquinasa-1 (PFK-1)", "correct": true },
+      { "text": "Aldolasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la enzima que fosforila a la fructosa-6-fosfato y es el principal punto de control de esta vía.",
+    "explanation": "La Fosfofructoquinasa-1 cataliza el paso comprometido porque su producto, la fructosa-1,6-bisfosfato, está destinado exclusivamente a continuar en la glucólisis, siendo el punto de regulación más importante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JI",
+    "question": "¿Cuál es el destino del piruvato en condiciones de anaerobiosis en el músculo humano?",
+    "image": null,
+    "options": [
+      { "text": "Acetil-CoA", "correct": false },
+      { "text": "Etanol", "correct": false },
+      { "text": "Lactato", "correct": true },
+      { "text": "Oxaloacetato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el producto de la fermentación homoláctica que genera fatiga muscular.",
+    "explanation": "En ausencia de oxígeno, la enzima lactato deshidrogenasa reduce el piruvato a lactato para poder regenerar el NAD+ necesario y permitir que la glucólisis continúe produciendo ATP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JJ",
+    "question": "¿Qué molécula es el inhibidor alostérico más importante de la PFK-1?",
+    "image": null,
+    "options": [
+      { "text": "AMP", "correct": false },
+      { "text": "ATP", "correct": true },
+      { "text": "Fructosa-2,6-bisfosfato", "correct": false },
+      { "text": "ADP", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Altas concentraciones de esta molécula indican que la célula tiene suficiente energía y no necesita seguir degradando glucosa.",
+    "explanation": "El ATP funciona tanto como sustrato como inhibidor alostérico. Cuando los niveles de energía celular son altos (mucho ATP), se une al sitio alostérico de la PFK-1 y disminuye su afinidad, frenando la glucólisis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JK",
+    "question": "¿Cuántos pasos de descarboxilación oxidativa ocurren en el ciclo de Krebs?",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera los pasos donde se pierde carbono en forma de $CO_2$ catalizados por la isocitrato deshidrogenasa y el complejo $\\alpha$-cetoglutarato deshidrogenasa.",
+    "explanation": "Existen 2 descarboxilaciones oxidativas en el ciclo: la conversión de isocitrato a $\\alpha$-cetoglutarato y de $\\alpha$-cetoglutarato a succinil-CoA.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JL",
+    "question": "¿Qué enzima del ciclo de Krebs está unida a la membrana mitocondrial interna?",
+    "image": null,
+    "options": [
+      { "text": "Citrato sintasa", "correct": false },
+      { "text": "Isocitrato deshidrogenasa", "correct": false },
+      { "text": "Succinato deshidrogenasa", "correct": true },
+      { "text": "Malato deshidrogenasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta enzima no está libre en la matriz y también participa de forma directa en la cadena de transporte de electrones (Complejo II).",
+    "explanation": "La succinato deshidrogenasa es única entre las enzimas del ciclo de Krebs porque está anclada a la membrana mitocondrial interna, donde transfiere los electrones directamente del FADH2 a la coenzima Q en la cadena respiratoria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JM",
+    "question": "¿Cuál es el sustrato inicial que se condensa con el oxaloacetato para iniciar el ciclo de Krebs?",
+    "image": null,
+    "options": [
+      { "text": "Piruvato", "correct": false },
+      { "text": "Succinil-CoA", "correct": false },
+      { "text": "Acetil-CoA", "correct": true },
+      { "text": "Citrato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un compuesto de dos carbonos que proviene de la descarboxilación del piruvato o la beta-oxidación de ácidos grasos.",
+    "explanation": "La enzima citrato sintasa cataliza la condensación del Acetil-CoA (2 carbonos) con el oxaloacetato (4 carbonos) para formar citrato (6 carbonos), iniciando así el ciclo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JN",
+    "question": "¿Cuál es la función principal de la vía de las pentosas fosfato?",
+    "image": null,
+    "options": [
+      { "text": "Producción de ATP", "correct": false },
+      { "text": "Producción de NADPH y ribosa-5-fosfato", "correct": true },
+      { "text": "Oxidación completa de glucosa", "correct": false },
+      { "text": "Síntesis de glucógeno", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta vía alterna de la oxidación de la glucosa no busca producir energía metabólica sino precursores para la biosíntesis reductiva y síntesis de ácidos nucleicos.",
+    "explanation": "El propósito primordial de esta ruta es generar NADPH, necesario para procesos anabólicos y defensas antioxidantes, y ribosa-5-fosfato, empleada en la síntesis de nucleótidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JO",
+    "question": "¿Qué enzima es el principal punto de control de la vía de las pentosas fosfato?",
+    "image": null,
+    "options": [
+      { "text": "Transacetolasa", "correct": false },
+      { "text": "Glucosa-6-fosfato deshidrogenasa", "correct": true },
+      { "text": "Lactonasa", "correct": false },
+      { "text": "Transaldolasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la enzima que cataliza el primer paso irreversible de la fase oxidativa de esta vía.",
+    "explanation": "La Glucosa-6-fosfato deshidrogenasa (G6PD) controla el paso limitante de la vía de las pentosas fosfato y es regulada fuertemente por la disponibilidad de NADP+.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JP",
+    "question": "¿Qué proceso define la conversión de piruvato a glucosa?",
+    "image": null,
+    "options": [
+      { "text": "Glucólisis", "correct": false },
+      { "text": "Glucogenólisis", "correct": false },
+      { "text": "Gluconeogénesis", "correct": true },
+      { "text": "Glucogenogénesis", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El nombre de esta vía hace alusión a la 'nueva formación' de azúcares a partir de precursores no carbohidratados.",
+    "explanation": "La gluconeogénesis es la vía anabólica que permite sintetizar glucosa a partir de precursores que no son carbohidratos, como el piruvato, lactato y ciertos aminoácidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JQ",
+    "question": "¿Cuál de estos órganos es el principal sitio de la gluconeogénesis?",
+    "image": null,
+    "options": [
+      { "text": "Músculo esquelético", "correct": false },
+      { "text": "Cerebro", "correct": false },
+      { "text": "Hígado", "correct": true },
+      { "text": "Páncreas", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el órgano principal encargado de mantener los niveles adecuados de glucosa en la sangre durante el ayuno.",
+    "explanation": "El hígado lleva a cabo cerca del 90% de la gluconeogénesis en el cuerpo (con contribución menor del riñón), siendo vital para proveer de glucosa al cerebro y eritrocitos en estado de ayuno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JR",
+    "question": "¿Qué enzima gluconeogénica revierte la reacción de la piruvato quinasa?",
+    "image": null,
+    "options": [
+      { "text": "Piruvato carboxilasa y PEP carboxiquinasa", "correct": true },
+      { "text": "Fructosa-1,6-bisfosfatasa", "correct": false },
+      { "text": "Glucosa-6-fosfatasa", "correct": false },
+      { "text": "Piruvato deshidrogenasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se requieren dos pasos enzimáticos sucesivos y consumo de energía para superar la enorme barrera termodinámica de este paso irreversible.",
+    "explanation": "Para revertir el último paso de la glucólisis, el piruvato primero se convierte en oxaloacetato por la piruvato carboxilasa, y luego este pasa a fosfoenolpiruvato (PEP) por la PEP carboxiquinasa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JS",
+    "question": "¿Qué cofactor es esencial para la piruvato carboxilasa?",
+    "image": null,
+    "options": [
+      { "text": "Tiamina (B1)", "correct": false },
+      { "text": "Biotina (B7)", "correct": true },
+      { "text": "Niacina (B3)", "correct": false },
+      { "text": "Riboflavina (B2)", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una vitamina hidrosoluble fundamental que actúa como transportador móvil de grupos carboxilo ($CO_2$ activado).",
+    "explanation": "La biotina se une covalentemente a las enzimas carboxilasas y funciona como el transportador de dióxido de carbono necesario para agregar un grupo carboxilo al piruvato, formando oxaloacetato.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JT",
+    "question": "¿Qué enzima descompone el glucógeno liberando glucosa-1-fosfato?",
+    "image": null,
+    "options": [
+      { "text": "Glucógeno sintasa", "correct": false },
+      { "text": "Glucógeno fosforilasa", "correct": true },
+      { "text": "Enzima desramificante", "correct": false },
+      { "text": "Fosfoglucomutasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cataliza una escisión fosforolítica en los extremos no reductores de la molécula ramificada.",
+    "explanation": "La glucógeno fosforilasa emplea fosfato inorgánico para escindir los enlaces $\\alpha-1,4$ glucosídicos del glucógeno, produciendo glucosa-1-fosfato sin la necesidad de utilizar moléculas de ATP en este paso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JU",
+    "question": "¿Cuál es el precursor activado para la síntesis de glucógeno?",
+    "image": null,
+    "options": [
+      { "text": "UDP-glucosa", "correct": true },
+      { "text": "Glucosa-6-fosfato", "correct": false },
+      { "text": "CDP-glucosa", "correct": false },
+      { "text": "Glucosa-1-fosfato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un derivado nucleotídico de azúcar catalizado a partir de la unión del UTP con la glucosa-1-fosfato.",
+    "explanation": "Para la glucogenogénesis, la glucosa debe activarse uniéndose al nucleótido uridina difosfato (UDP) para formar UDP-glucosa, el sustrato dador para la enzima glucógeno sintasa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JV",
+    "question": "¿Qué hormona estimula la glucogenólisis hepática durante el ayuno?",
+    "image": null,
+    "options": [
+      { "text": "Insulina", "correct": false },
+      { "text": "Glucagón", "correct": true },
+      { "text": "Cortisol", "correct": false },
+      { "text": "Estrógeno", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una hormona peptídica secretada por las células alfa de los islotes de Langerhans en el páncreas.",
+    "explanation": "En períodos de ayuno, el glucagón se libera para señalizar al hígado que degrade glucógeno (glucogenólisis) y sintetice glucosa nueva (gluconeogénesis) para mantener normoglucemia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JW",
+    "question": "¿Qué complejo enzimático convierte el piruvato en Acetil-CoA?",
+    "image": null,
+    "options": [
+      { "text": "Piruvato quinasa", "correct": false },
+      { "text": "Piruvato deshidrogenasa", "correct": true },
+      { "text": "Lactato deshidrogenasa", "correct": false },
+      { "text": "Malato deshidrogenasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este enorme complejo multienzimático se localiza en la matriz mitocondrial y lleva a cabo una descarboxilación oxidativa.",
+    "explanation": "El complejo de la Piruvato Deshidrogenasa (PDH) cataliza la conversión irreversible del piruvato en Acetil-CoA, sirviendo como el puente esencial entre la glucólisis citosólica y el ciclo de Krebs mitocondrial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JX",
+    "question": "¿En qué tejido NO se puede realizar gluconeogénesis?",
+    "image": null,
+    "options": [
+      { "text": "Hígado", "correct": false },
+      { "text": "Corteza renal", "correct": false },
+      { "text": "Músculo esquelético", "correct": true },
+      { "text": "Células epiteliales intestinales", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este tejido carece de la enzima glucosa-6-fosfatasa necesaria para liberar glucosa libre a la circulación sanguínea.",
+    "explanation": "El músculo esquelético puede degradar glucógeno para su uso local, pero no puede realizar gluconeogénesis ni aportar glucosa a la sangre porque carece de la glucosa-6-fosfatasa, enzima final del proceso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JY",
+    "question": "¿Qué molécula actúa como activador alostérico de la piruvato carboxilasa?",
+    "image": null,
+    "options": [
+      { "text": "Citrato", "correct": false },
+      { "text": "Acetil-CoA", "correct": true },
+      { "text": "AMP", "correct": false },
+      { "text": "Lactato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La acumulación de este intermediario de 2 carbonos indica que falta oxaloacetato para condensarse y continuar el ciclo de Krebs.",
+    "explanation": "El Acetil-CoA es un requerimiento absoluto como activador alostérico positivo para la piruvato carboxilasa, señalizando que se necesita oxaloacetato extra (reacción anaplerótica) o favoreciendo la vía de la gluconeogénesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02JZ",
+    "question": "¿Cuál es el balance de NADH producido por una vuelta completa del ciclo de Krebs?",
+    "image": null,
+    "options": [
+      { "text": "1 NADH", "correct": false },
+      { "text": "2 NADH", "correct": false },
+      { "text": "3 NADH", "correct": true },
+      { "text": "4 NADH", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuentan los pasos de las deshidrogenasas de isocitrato, $\\alpha$-cetoglutarato y malato.",
+    "explanation": "Por cada molécula de Acetil-CoA que ingresa al ciclo, se producen 3 NADH (mediante isocitrato DH, $\\alpha$-cetoglutarato DH y malato DH), además de 1 FADH2 y 1 GTP/ATP.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KA",
+    "question": "¿Qué enzima es deficiente en la enfermedad de Von Gierke?",
+    "image": null,
+    "options": [
+      { "text": "Glucógeno fosforilasa", "correct": false },
+      { "text": "Glucosa-6-fosfatasa", "correct": true },
+      { "text": "$\\alpha$-1,4-glucosidasa", "correct": false },
+      { "text": "Fosfofructoquinasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta patología de depósito de glucógeno (Tipo I) impide que el hígado libere glucosa a la sangre, causando hepatomegalia e hipoglucemia severa.",
+    "explanation": "La enfermedad de Von Gierke o glucogenosis tipo I es originada por una deficiencia en la glucosa-6-fosfatasa hepática, interrumpiendo el paso final crítico de la glucogenólisis y gluconeogénesis para regular la glucemia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KB",
+    "question": "¿Qué lanzadera permite el transporte de equivalentes reductores del NADH citosólico a la mitocondria?",
+    "image": null,
+    "options": [
+      { "text": "Lanzadera de malato-aspartato", "correct": true },
+      { "text": "Lanzadera de citrato", "correct": false },
+      { "text": "Lanzadera de carnitina", "correct": false },
+      { "text": "Lanzadera de urea", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta vía altamente activa en el corazón y el hígado transporta indirectamente los electrones transformando oxaloacetato.",
+    "explanation": "Como el NADH no puede cruzar la membrana mitocondrial interna, el sistema de la lanzadera del malato-aspartato transfiere sus equivalentes reductores hacia la matriz para que alimenten la cadena respiratoria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KC",
+    "question": "¿Cuál es la función del ciclo de Cori?",
+    "image": null,
+    "options": [
+      { "text": "Sintetizar urea", "correct": false },
+      { "text": "Reciclar lactato muscular en glucosa hepática", "correct": true },
+      { "text": "Transportar ácidos grasos", "correct": false },
+      { "text": "Degradar aminoácidos ramificados", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Involucra un intercambio metabólico continuo de sustratos entre el músculo bajo esfuerzo anaerobio y el hígado.",
+    "explanation": "El ciclo de Cori describe cómo el lactato generado por el músculo en anaerobiosis viaja a través de la sangre hacia el hígado, donde se convierte en glucosa vía gluconeogénesis, la cual retorna al músculo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KD",
+    "question": "¿Qué efecto tiene la fructosa-2,6-bisfosfato sobre la gluconeogénesis?",
+    "image": null,
+    "options": [
+      { "text": "La estimula", "correct": false },
+      { "text": "La inhibe", "correct": true },
+      { "text": "No tiene efecto", "correct": false },
+      { "text": "Aumenta la Km de las enzimas", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si este compuesto es el activador más potente de la vía contraria (la glucólisis), lógicamente ejercerá el efecto opuesto en la gluconeogénesis.",
+    "explanation": "La fructosa-2,6-bisfosfato inhibe alostéricamente a la enzima fructosa-1,6-bisfosfatasa, previniendo que se active la gluconeogénesis al mismo tiempo que la glucólisis (evitando un ciclo fútil).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KE",
+    "question": "¿Qué enzima rompe los enlaces $\\alpha-1,6$ en el glucógeno?",
+    "image": null,
+    "options": [
+      { "text": "Fosforilasa", "correct": false },
+      { "text": "Glucogenina", "correct": false },
+      { "text": "Enzima desramificante ($\\alpha-1,6$ glucosidasa)", "correct": true },
+      { "text": "Glucosa-6-fosfatasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta enzima elimina específicamente los puntos de ramificación en la estructura del carbohidrato de almacenamiento.",
+    "explanation": "La enzima desramificante posee actividad $\\alpha$-1,6 glucosidasa para hidrolizar el enlace del último residuo de glucosa en el punto de ramificación, liberándolo como glucosa libre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KF",
+    "question": "¿Cuántos enlaces de alta energía (ATP/GTP) se consumen para producir una glucosa vía gluconeogénesis?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un proceso que resulta energéticamente costoso, sumando el gasto de 4 ATPs y 2 GTPs partiendo de dos moléculas de piruvato.",
+    "explanation": "La gluconeogénesis tiene un costo energético alto necesario para superar la termodinámica. Requiere 4 moléculas de ATP (2 en la piruvato carboxilasa y 2 en la fosfoglicerato quinasa) más 2 moléculas de GTP (PEP carboxiquinasa), totalizando 6 por cada glucosa sintetizada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KG",
+    "question": "¿Cuál es el principal sustrato no glucídico para la gluconeogénesis durante el ejercicio intenso?",
+    "image": null,
+    "options": [
+      { "text": "Glicerol", "correct": false },
+      { "text": "Lactato", "correct": true },
+      { "text": "Alanina", "correct": false },
+      { "text": "Acetil-CoA", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el ácido orgánico responsable de la sensación de ardor muscular inducida por metabolismo anaeróbico agudo.",
+    "explanation": "Durante el ejercicio intenso, la glucólisis anaerobia rápida en el músculo produce masivas cantidades de lactato, el cual es liberado a la sangre y se vuelve el precursor preferido del hígado para producir nueva glucosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KH",
+    "question": "¿Qué metabolito del ciclo de Krebs es precursor para la síntesis de hemo?",
+    "image": null,
+    "options": [
+      { "text": "$\\alpha$-cetoglutarato", "correct": false },
+      { "text": "Succinil-CoA", "correct": true },
+      { "text": "Fumarato", "correct": false },
+      { "text": "Citrato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se condensa con el aminoácido glicina para formar ácido delta-aminolevulínico (ALA) en el primer paso de formación de porfirinas.",
+    "explanation": "El succinil-CoA, además de ser un intermediario de alta energía en el ciclo de Krebs, se desvía en la médula ósea y el hígado para funcionar como el precursor indispensable en la biosíntesis del grupo hemo de la hemoglobina.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KI",
+    "question": "¿Qué enzima de la glucólisis cataliza una fosforilación a nivel de sustrato?",
+    "image": null,
+    "options": [
+      { "text": "Hexoquinasa", "correct": false },
+      { "text": "Fosfoglicerato quinasa", "correct": true },
+      { "text": "Enolasa", "correct": false },
+      { "text": "Gliceraldehído-3-fosfato deshidrogenasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la responsable de recuperar la inversión energética inicial, formando el primer ATP de la vía al transferir un fosfato desde el 1,3-bisfosfoglicerato.",
+    "explanation": "La fosfoglicerato quinasa y la piruvato quinasa son las dos únicas enzimas en la glucólisis que generan ATP de manera directa acoplado a la conversión del sustrato, lo cual se denomina fosforilación a nivel de sustrato.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KJ",
+    "question": "¿En qué fase de la vía de las pentosas fosfato se produce la ribosa-5-fosfato?",
+    "image": null,
+    "options": [
+      { "text": "Fase oxidativa irreversible", "correct": false },
+      { "text": "Fase no oxidativa reversible", "correct": true },
+      { "text": "Ambas fases", "correct": false },
+      { "text": "Solo bajo estrés oxidativo", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Involucra un grupo de reacciones de isomerización e interconversión de azúcares catalizadas por transcetolasas y transaldolasas.",
+    "explanation": "Dependiendo de las necesidades de la célula, la fase no oxidativa reversible puede interconvertir intermediarios glucolíticos en ribosa-5-fosfato sin la necesidad de producir simultáneamente NADPH.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KK",
+    "question": "¿Cuál es el principal cofactor reducido que protege contra el daño por especies reactivas de oxígeno?",
+    "image": null,
+    "options": [
+      { "text": "NADH", "correct": false },
+      { "text": "FADH2", "correct": false },
+      { "text": "NADPH", "correct": true },
+      { "text": "ATP", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el poder reductor derivado de la ruta de las pentosas fosfato y es crucial para reciclar el glutatión celular.",
+    "explanation": "El NADPH actúa como el principal donador de electrones para mantener la molécula de glutatión en su estado reducido, el cual en conjunto con sus enzimas relacionadas se encarga de neutralizar los peróxidos y radicales libres celulares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KL",
+    "question": "¿Cuál de las siguientes enzimas es inactivada por fosforilación en respuesta al glucagón?",
+    "image": null,
+    "options": [
+      { "text": "Glucógeno fosforilasa", "correct": false },
+      { "text": "Piruvato quinasa (hepática)", "correct": true },
+      { "text": "Fructosa-1,6-bisfosfatasa", "correct": false },
+      { "text": "Piruvato carboxilasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando existe ayuno, el hígado detiene su propia glucólisis apagando la última enzima de esta vía para favorecer la salida de glucosa al resto del cuerpo.",
+    "explanation": "El glucagón activa la proteína quinasa A (PKA), que fosforila e inactiva la isoforma hepática de la piruvato quinasa, deteniendo el consumo de glucosa en el hígado y orientándolo a la gluconeogénesis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KM",
+    "question": "¿Qué compuesto es el inhibidor potente de la isocitrato deshidrogenasa?",
+    "image": null,
+    "options": [
+      { "text": "ADP", "correct": false },
+      { "text": "NADH", "correct": true },
+      { "text": "$Ca^{2+}$", "correct": false },
+      { "text": "Piruvato", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una alta concentración de esta coenzima reducida sirve como señalización directa de que la célula ya generó suficiente energía para la cadena respiratoria.",
+    "explanation": "El ciclo de Krebs se regula por la disponibilidad de sus productos. Altos niveles de ATP y de NADH bloquean alostéricamente a la isocitrato deshidrogenasa impidiendo la sobreproducción de intermediarios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KN",
+    "question": "¿Cuál es el papel de la enzima glucogenina?",
+    "image": null,
+    "options": [
+      { "text": "Degradar el glucógeno", "correct": false },
+      { "text": "Actuar como cebador para la síntesis de glucógeno", "correct": true },
+      { "text": "Transportar glucosa al interior de la mitocondria", "correct": false },
+      { "text": "Fosforilar la glucosa en el músculo", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La glucógeno sintasa solo puede alargar cadenas ya existentes, por lo que necesita de una proteína especial que inicie el proceso núcleo.",
+    "explanation": "La glucogenina es una proteína auto-glucosidante que sirve de cebador molecular, construyendo un corto oligosacárido inicial (de unos 8 residuos) sobre el cual la glucógeno sintasa puede empezar a ensamblar los polímeros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02KO",
+    "question": "¿Qué enzima convierte la glucosa-6-fosfato en glucosa-1-fosfato?",
+    "image": null,
+    "options": [
+      { "text": "Fosfofructoquinasa", "correct": false },
+      { "text": "Fosfoglucomutasa", "correct": true },
+      { "text": "Glucosa-6-fosfatasa", "correct": false },
+      { "text": "Hexoquinasa", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una reacción de isomerización donde el grupo fosfato simplemente es 'mudado' de una posición del carbono a otra.",
+    "explanation": "La enzima fosfoglucomutasa cataliza el desplazamiento reversible del grupo fosforilo del carbono 6 al carbono 1, un paso fundamental para activar la glucosa antes de integrarse en el glucógeno.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
