@@ -32058,5 +32058,869 @@
     "explanation": "Mismo texto en las 4 opciones para evaluar puntuación fina. La aposición explicativa 'Tokio' debe ir forzosamente entre dos comas para no afectar el flujo entre el sujeto ('La capital de Japón') y su verbo ('es').",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02MT",
+    "question": "Calcula la pendiente de la recta que pasa por los puntos $(1, 2)$ y $(3, 6)$.",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "0.5", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{6 - 2}{3 - 1} = \\frac{4}{2} = 2$. La pendiente es $2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MU",
+    "question": "Encuentra la ecuación de la recta con pendiente $m = 3$ que cruza el eje $y$ en $(0, 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$y = 3x + 2$", "correct": true },
+      { "text": "$y = 2x + 3$", "correct": false },
+      { "text": "$y = 3x - 2$", "correct": false },
+      { "text": "$y = -3x + 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación de la recta en su forma pendiente-ordenada al origen es $y = mx + b$.",
+    "explanation": "Usando la forma pendiente-intersección $y = mx + b$, sustituimos $m=3$ y $b=2$. Ecuación: $y = 3x + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MV",
+    "question": "Determina las coordenadas del vértice de la parábola $y = x^2 - 4x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(2, -1)$", "correct": true },
+      { "text": "$(-2, 1)$", "correct": false },
+      { "text": "$(4, 3)$", "correct": false },
+      { "text": "$(2, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La abscisa del vértice se calcula con $x = \\frac{-b}{2a}$.",
+    "explanation": "$x = \\frac{-b}{2a} = \\frac{-(-4)}{2(1)} = 2$. Sustituyendo $x=2$ en la ecuación: $y = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1$. Vértice: $(2, -1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MW",
+    "question": "Encuentra las raíces de la ecuación $x^2 - 9 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, x = -3$", "correct": true },
+      { "text": "$x = 9, x = -9$", "correct": false },
+      { "text": "$x = 3, x = 0$", "correct": false },
+      { "text": "$x = \\sqrt{3}, x = -\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $x^2$ y recuerda que la raíz cuadrada tiene dos signos.",
+    "explanation": "Despejamos $x^2$: $x^2 = 9$. Aplicamos raíz cuadrada: $x = \\pm\\sqrt{9}$. Raíces: $x = 3$ y $x = -3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MX",
+    "question": "Factoriza el trinomio $x^2 + 5x + 6$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 2)(x + 3)$", "correct": true },
+      { "text": "$(x - 2)(x - 3)$", "correct": false },
+      { "text": "$(x + 1)(x + 6)$", "correct": false },
+      { "text": "$(x + 5)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra dos números cuya suma sea el coeficiente lineal y su producto sea el término independiente.",
+    "explanation": "Buscamos dos números que sumados den $5$ y multiplicados den $6$ (son $2$ y $3$). Factorización: $(x + 2)(x + 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MY",
+    "question": "Factoriza la diferencia de cuadrados $4x^2 - 25$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 5)(2x + 5)$", "correct": true },
+      { "text": "$(2x - 5)^2$", "correct": false },
+      { "text": "$(4x - 5)(4x + 5)$", "correct": false },
+      { "text": "$(2x - 25)(2x + 25)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que $a^2 - b^2 = (a - b)(a + b)$.",
+    "explanation": "Raíz del primer término: $2x$. Raíz del segundo: $5$. Factorización: $(2x - 5)(2x + 5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02MZ",
+    "question": "Desarrolla el binomio al cuadrado $(x + 4)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 8x + 16$", "correct": true },
+      { "text": "$x^2 + 16$", "correct": false },
+      { "text": "$x^2 + 4x + 16$", "correct": false },
+      { "text": "$x^2 + 8x + 8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El desarrollo de un binomio al cuadrado es $(a + b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "$(A + B)^2 = A^2 + 2AB + B^2 \\rightarrow x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NA",
+    "question": "Resuelve el producto de binomios conjugados $(2x - 3)(2x + 3)$.",
+    "image": null,
+    "options": [
+      { "text": "$4x^2 - 9$", "correct": true },
+      { "text": "$4x^2 + 9$", "correct": false },
+      { "text": "$2x^2 - 9$", "correct": false },
+      { "text": "$4x^2 - 6x - 9$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto de binomios conjugados da como resultado una diferencia de cuadrados $a^2 - b^2$.",
+    "explanation": "$(A - B)(A + B) = A^2 - B^2 \\rightarrow (2x)^2 - (3)^2 = 4x^2 - 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NB",
+    "question": "En un triángulo rectángulo, la hipotenusa mide $10$. Calcula el cateto opuesto al ángulo de $30^\\circ$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$5\\sqrt{3}$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la razón trigonométrica $\\sin(\\theta) = \\frac{\\text{Cateto Opuesto}}{\\text{Hipotenusa}}$.",
+    "explanation": "$\\sin(30^\\circ) = \\frac{\\text{Opuesto}}{\\text{Hipotenusa}}$. $0.5 = \\frac{x}{10} \\rightarrow x = 10 \\cdot 0.5 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NC",
+    "question": "Determina el valor exacto de $\\tan(45^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\frac{\\sqrt{2}}{2}$", "correct": false },
+      { "text": "$\\sqrt{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que en un triángulo rectángulo isósceles los catetos miden lo mismo.",
+    "explanation": "En un triángulo rectángulo isósceles (ángulos de $45^\\circ$), los catetos son iguales. $\\tan(45^\\circ) = \\frac{\\text{Opuesto}}{\\text{Adyacente}} = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02ND",
+    "question": "Halla la hipotenusa de un triángulo rectángulo cuyos catetos miden $3$ y $4$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$25$", "correct": false },
+      { "text": "$\\sqrt{7}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el Teorema de Pitágoras: $c = \\sqrt{a^2 + b^2}$.",
+    "explanation": "$c = \\sqrt{a^2 + b^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NE",
+    "question": "Si la hipotenusa mide $13$ y un cateto mide $5$, ¿cuánto mide el otro cateto?",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$144$", "correct": false },
+      { "text": "$\\sqrt{194}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "De acuerdo con el Teorema de Pitágoras, $a = \\sqrt{c^2 - b^2}$.",
+    "explanation": "$a = \\sqrt{c^2 - b^2} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NF",
+    "question": "Dos rectas paralelas cortan dos transversales creando segmentos proporcionales de $2$ y $x$ en una, y de $4$ y $10$ en otra. Halla $x$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$2.5$", "correct": false },
+      { "text": "$12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Por el Teorema de Tales, establece la proporción $\\frac{2}{x} = \\frac{4}{10}$.",
+    "explanation": "$\\frac{2}{x} = \\frac{4}{10} \\rightarrow 4x = 20 \\rightarrow x = \\frac{20}{4} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NG",
+    "question": "Dos triángulos semejantes tienen lados correspondientes. Si los lados de uno miden $3$, $4$, $5$ y los del otro miden $6$, $8$ y $x$. Halla $x$.",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": true },
+      { "text": "$12$", "correct": false },
+      { "text": "$15$", "correct": false },
+      { "text": "$9$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la razón de semejanza dividiendo los lados correspondientes.",
+    "explanation": "La razón de semejanza es $\\frac{6}{3} = 2$. Entonces $x = 5 \\cdot 2 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NH",
+    "question": "Calcula el área de un rectángulo sabiendo que su base es $8$ y su altura es $5$.",
+    "image": null,
+    "options": [
+      { "text": "$40$", "correct": true },
+      { "text": "$26$", "correct": false },
+      { "text": "$13$", "correct": false },
+      { "text": "$20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula del área de un rectángulo es $A = b \\cdot h$.",
+    "explanation": "Área $= \\text{base} \\cdot \\text{altura} = 8 \\cdot 5 = 40 \\text{ unidades cuadradas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NI",
+    "question": "¿Cuál es la suma de los ángulos internos de un triángulo cualquiera?",
+    "image": null,
+    "options": [
+      { "text": "$180^\\circ$", "correct": true },
+      { "text": "$360^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false },
+      { "text": "$270^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el teorema fundamental de los triángulos sobre sus ángulos internos.",
+    "explanation": "Por postulado de geometría euclidiana, la suma de los ángulos interiores de todo triángulo es $180^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NJ",
+    "question": "Halla la ecuación general de la recta que pasa por $(2, 3)$ y $(-1, -3)$.",
+    "image": null,
+    "options": [
+      { "text": "$2x - y - 1 = 0$", "correct": true },
+      { "text": "$2x + y - 1 = 0$", "correct": false },
+      { "text": "$x - 2y + 1 = 0$", "correct": false },
+      { "text": "$2x - y + 1 = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero calcula la pendiente $m$ y luego usa la forma $y - y_1 = m(x - x_1)$.",
+    "explanation": "$m = \\frac{-3 - 3}{-1 - 2} = \\frac{-6}{-3} = 2$. Usando punto-pendiente: $y - 3 = 2(x - 2) \\rightarrow y = 2x - 1 \\rightarrow 2x - y - 1 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NK",
+    "question": "Encuentra la ecuación de la recta perpendicular a $y = 2x + 1$ que pasa por el punto $(4, 0)$.",
+    "image": null,
+    "options": [
+      { "text": "$y = -\\frac{1}{2}x + 2$", "correct": true },
+      { "text": "$y = \\frac{1}{2}x - 2$", "correct": false },
+      { "text": "$y = -2x + 8$", "correct": false },
+      { "text": "$y = 2x - 8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos rectas son perpendiculares si sus pendientes cumplen la relación $m_1 \\cdot m_2 = -1$.",
+    "explanation": "Pendiente perpendicular: $m_2 = -\\frac{1}{m_1} = -\\frac{1}{2}$. Ecuación: $y - 0 = -\\frac{1}{2}(x - 4) \\rightarrow y = -\\frac{1}{2}x + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NL",
+    "question": "Resuelve la ecuación $2x^2 - 5x - 3 = 0$ mediante fórmula general.",
+    "image": null,
+    "options": [
+      { "text": "$3$ y $-\\frac{1}{2}$", "correct": true },
+      { "text": "$-3$ y $\\frac{1}{2}$", "correct": false },
+      { "text": "$3$ y $\\frac{1}{2}$", "correct": false },
+      { "text": "$-3$ y $-\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.",
+    "explanation": "$x = \\frac{5 \\pm \\sqrt{(-5)^2 - 4(2)(-3)}}{4} = \\frac{5 \\pm \\sqrt{25 + 24}}{4} = \\frac{5 \\pm \\sqrt{49}}{4} = \\frac{5 \\pm 7}{4}$. Raíces: $3$ y $-\\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NM",
+    "question": "Determina el valor máximo de la función $y = -x^2 + 6x - 5$.",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El valor máximo de la parábola se encuentra en la coordenada $y$ del vértice.",
+    "explanation": "El máximo ocurre en el vértice $x = \\frac{-b}{2a} = \\frac{-6}{2(-1)} = 3$. Sustituyendo: $y = -(3)^2 + 6(3) - 5 = -9 + 18 - 5 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NN",
+    "question": "Factoriza la diferencia de cubos $x^3 - 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 2)(x^2 + 2x + 4)$", "correct": true },
+      { "text": "$(x - 2)^3$", "correct": false },
+      { "text": "$(x - 2)(x^2 - 2x + 4)$", "correct": false },
+      { "text": "$(x + 2)(x^2 - 2x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el producto notable $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$.",
+    "explanation": "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$. Si $a=x, b=2 \\rightarrow (x - 2)(x^2 + 2x + 4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NO",
+    "question": "Factoriza el trinomio de la forma $ax^2 + bx + c$: $3x^2 + 10x + 8$.",
+    "image": null,
+    "options": [
+      { "text": "$(x + 2)(3x + 4)$", "correct": true },
+      { "text": "$(3x + 2)(x + 4)$", "correct": false },
+      { "text": "$(3x + 1)(x + 8)$", "correct": false },
+      { "text": "$(x + 1)(3x + 8)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica y divide el trinomio por el coeficiente principal para facilitar la factorización.",
+    "explanation": "Multiplicando por $3$: $(3x)^2 + 10(3x) + 24$. Números que sumen $10$ y multipliquen $24$: $6$ y $4$. $\\frac{(3x+6)(3x+4)}{3} = (x+2)(3x+4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NP",
+    "question": "Desarrolla el binomio al cubo $(x - 2)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$x^3 - 6x^2 + 12x - 8$", "correct": true },
+      { "text": "$x^3 - 8$", "correct": false },
+      { "text": "$x^3 + 6x^2 + 12x + 8$", "correct": false },
+      { "text": "$x^3 - 3x^2 + 6x - 8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la regla $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$.",
+    "explanation": "$(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3 \\rightarrow x^3 - 3(x^2)(2) + 3(x)(4) - 8 = x^3 - 6x^2 + 12x - 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NQ",
+    "question": "Calcula el valor de $101^2$ usando productos notables.",
+    "image": null,
+    "options": [
+      { "text": "$10201$", "correct": true },
+      { "text": "$10101$", "correct": false },
+      { "text": "$10200$", "correct": false },
+      { "text": "$10001$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa $101$ como $(100 + 1)$ y desarrolla el binomio al cuadrado.",
+    "explanation": "$101^2 = (100 + 1)^2 = 100^2 + 2(100)(1) + 1^2 = 10000 + 200 + 1 = 10201$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NR",
+    "question": "Una escalera de $5 \\text{ m}$ se apoya en una pared, formando un ángulo de $60^\\circ$ con el suelo. ¿A qué altura llega?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5\\sqrt{3}}{2} \\text{ m}$", "correct": true },
+      { "text": "$\\frac{5}{2} \\text{ m}$", "correct": false },
+      { "text": "$5\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la función seno, que relaciona el cateto opuesto (altura) con la hipotenusa.",
+    "explanation": "$\\sin(60^\\circ) = \\frac{\\text{Altura}}{5} \\rightarrow \\text{Altura} = 5 \\cdot \\sin(60^\\circ) = 5\\left(\\frac{\\sqrt{3}}{2}\\right) \\approx 4.33 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NS",
+    "question": "Un árbol y su sombra miden lo mismo en un momento del día. ¿Cuál es el ángulo de elevación del sol?",
+    "image": null,
+    "options": [
+      { "text": "$45^\\circ$", "correct": true },
+      { "text": "$30^\\circ$", "correct": false },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si los catetos de un triángulo rectángulo miden lo mismo, la tangente del ángulo es $1$.",
+    "explanation": "$\\tan(\\theta) = \\frac{\\text{Opuesto}}{\\text{Adyacente}} = \\frac{x}{x} = 1$. $\\theta = \\arctan(1) = 45^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NT",
+    "question": "Calcula la distancia entre los puntos en el plano cartesiano $A(1, 1)$ y $B(4, 5)$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$\\sqrt{7}$", "correct": false },
+      { "text": "$25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la fórmula de la distancia: $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
+    "explanation": "$d = \\sqrt{(4 - 1)^2 + (5 - 1)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NU",
+    "question": "Calcula la longitud de la diagonal de un cuadrado cuyo lado mide $6 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$6\\sqrt{2} \\text{ cm}$", "correct": true },
+      { "text": "$12 \\text{ cm}$", "correct": false },
+      { "text": "$36 \\text{ cm}$", "correct": false },
+      { "text": "$6 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La diagonal de un cuadrado de lado $l$ se calcula con $d = l\\sqrt{2}$ por el Teorema de Pitágoras.",
+    "explanation": "Los lados forman un triángulo rectángulo. $d = \\sqrt{6^2 + 6^2} = \\sqrt{36 + 36} = \\sqrt{72} = 6\\sqrt{2} \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NV",
+    "question": "Un poste de $2 \\text{ m}$ proyecta una sombra de $3 \\text{ m}$. A la misma hora, un árbol proyecta una sombra de $12 \\text{ m}$. ¿Cuál es la altura del árbol?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ m}$", "correct": true },
+      { "text": "$18 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece una regla de tres simple por semejanza de triángulos.",
+    "explanation": "$\\frac{\\text{Altura del árbol}}{12} = \\frac{2}{3} \\rightarrow \\text{Altura del árbol} = 12 \\cdot \\left(\\frac{2}{3}\\right) = 8 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NW",
+    "question": "En un triángulo $ABC$, una paralela a la base corta los lados en segmentos proporcionales $x$, $x+2$ y en el otro lado $4$, $6$. Halla $x$.",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$8$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el Teorema de Tales para establecer la proporción $\\frac{x}{x+2} = \\frac{4}{6}$.",
+    "explanation": "$\\frac{x}{x + 2} = \\frac{4}{6} \\rightarrow 6x = 4x + 8 \\rightarrow 2x = 8 \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NX",
+    "question": "Calcula el área de un círculo inscrito en un cuadrado de lado $10$.",
+    "image": null,
+    "options": [
+      { "text": "$25\\pi$", "correct": true },
+      { "text": "$100\\pi$", "correct": false },
+      { "text": "$10\\pi$", "correct": false },
+      { "text": "$50\\pi$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El diámetro del círculo inscrito equivale a la longitud del lado del cuadrado.",
+    "explanation": "El diámetro del círculo es igual al lado del cuadrado ($10$), por lo que el radio $r = 5$. Área $= \\pi r^2 = 25\\pi$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NY",
+    "question": "Calcula el número total de diagonales de un hexágono.",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": true },
+      { "text": "$6$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $D = \\frac{n(n - 3)}{2}$.",
+    "explanation": "Fórmula: $D = \\frac{n(n - 3)}{2}$. Para $n=6$: $D = \\frac{6(6 - 3)}{2} = \\frac{6(3)}{2} = 9 \\text{ diagonales}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02NZ",
+    "question": "Halla la distancia más corta del punto $(3, 4)$ a la recta $3x + 4y - 10 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$15$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula de distancia de un punto a una recta $d = \\frac{|Ax + By + C|}{\\sqrt{A^2 + B^2}}$.",
+    "explanation": "Fórmula $d = \\frac{|Ax + By + C|}{\\sqrt{A^2 + B^2}}$. $d = \\frac{|3(3) + 4(4) - 10|}{\\sqrt{3^2 + 4^2}} = \\frac{|9 + 16 - 10|}{5} = \\frac{15}{5} = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OA",
+    "question": "Encuentra el ángulo agudo que forman las rectas $y = 2x$ y $y = -3x$.",
+    "image": null,
+    "options": [
+      { "text": "$45^\\circ$", "correct": true },
+      { "text": "$30^\\circ$", "correct": false },
+      { "text": "$60^\\circ$", "correct": false },
+      { "text": "$90^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula del ángulo entre dos rectas: $\\tan(\\alpha) = \\left|\\frac{m_2 - m_1}{1 + m_1m_2}\\right|$.",
+    "explanation": "$\\tan(\\alpha) = \\left|\\frac{m_2 - m_1}{1 + m_1 \\cdot m_2}\\right| = \\left|\\frac{-3 - 2}{1 + (-3)(2)}\\right| = \\left|\\frac{-5}{-5}\\right| = 1$. $\\alpha = \\arctan(1) = 45^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OB",
+    "question": "Encuentra los puntos de intersección entre la parábola $y = x^2$ y la recta $y = 2x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$(3, 9)$ y $(-1, 1)$", "correct": true },
+      { "text": "$(-3, 9)$ y $(1, 1)$", "correct": false },
+      { "text": "$(3, -3)$ y $(-1, -1)$", "correct": false },
+      { "text": "$(2, 4)$ y $(-1, 1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala las dos ecuaciones $y = y$ y resuelve la ecuación cuadrática resultante.",
+    "explanation": "Igualamos: $x^2 = 2x + 3 \\rightarrow x^2 - 2x - 3 = 0 \\rightarrow (x - 3)(x + 1) = 0$. $x=3 (y=9)$ y $x=-1 (y=1)$. Puntos: $(3, 9)$ y $(-1, 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OC",
+    "question": "Determina los valores de $k$ para que la ecuación $x^2 + kx + 9 = 0$ tenga una raíz doble.",
+    "image": null,
+    "options": [
+      { "text": "$k = \\pm 6$", "correct": true },
+      { "text": "$k = 36$", "correct": false },
+      { "text": "$k = \\pm 3$", "correct": false },
+      { "text": "$k = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que tenga una raíz doble, el discriminante $\\Delta = b^2 - 4ac$ debe ser igual a cero.",
+    "explanation": "El discriminante debe ser cero: $b^2 - 4ac = 0 \\rightarrow k^2 - 4(1)(9) = 0 \\rightarrow k^2 - 36 = 0 \\rightarrow k = \\pm 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OD",
+    "question": "Factoriza completamente la expresión polinómica $x^4 - 16$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 2)(x + 2)(x^2 + 4)$", "correct": true },
+      { "text": "$(x^2 - 4)(x^2 + 4)$", "correct": false },
+      { "text": "$(x - 2)^2(x^2 + 4)$", "correct": false },
+      { "text": "$(x - 2)^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica diferencia de cuadrados sucesivamente.",
+    "explanation": "Diferencia de cuadrados: $(x^2 - 4)(x^2 + 4)$. Factorizando nuevamente: $(x - 2)(x + 2)(x^2 + 4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OE",
+    "question": "Factoriza por agrupación el polinomio $x^3 - 3x^2 - 4x + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$(x - 3)(x - 2)(x + 2)$", "correct": true },
+      { "text": "$(x - 3)(x^2 - 4)$", "correct": false },
+      { "text": "$(x + 3)(x - 2)(x + 2)$", "correct": false },
+      { "text": "$(x - 3)^2(x + 2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los primeros dos términos y los dos últimos, luego extrae el factor común de cada grupo.",
+    "explanation": "Agrupamos: $x^2(x - 3) - 4(x - 3) = (x - 3)(x^2 - 4) = (x - 3)(x - 2)(x + 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OF",
+    "question": "Desarrolla el binomio a la cuarta potencia $(2x - y)^4$ usando el Teorema del Binomio.",
+    "image": null,
+    "options": [
+      { "text": "$16x^4 - 32x^3y + 24x^2y^2 - 8xy^3 + y^4$", "correct": true },
+      { "text": "$16x^4 + y^4$", "correct": false },
+      { "text": "$16x^4 - 8x^3y + 4x^2y^2 - 2xy^3 + y^4$", "correct": false },
+      { "text": "$16x^4 + 32x^3y + 24x^2y^2 + 8xy^3 + y^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza los coeficientes del Triángulo de Pascal: $1, 4, 6, 4, 1$.",
+    "explanation": "$1(2x)^4(-y)^0 + 4(2x)^3(-y)^1 + 6(2x)^2(-y)^2 + 4(2x)^1(-y)^3 + 1(2x)^0(-y)^4 = 16x^4 - 32x^3y + 24x^2y^2 - 8xy^3 + y^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OG",
+    "question": "Si se sabe que $x + \\frac{1}{x} = 3$, calcula el valor de $x^2 + \\frac{1}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$11$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva la ecuación original al cuadrado y desarrolla el binomio.",
+    "explanation": "Elevamos al cuadrado ambos lados: $\\left(x + \\frac{1}{x}\\right)^2 = 3^2 \\rightarrow x^2 + 2(x)\\left(\\frac{1}{x}\\right) + \\frac{1}{x^2} = 9 \\rightarrow x^2 + 2 + \\frac{1}{x^2} = 9 \\rightarrow x^2 + \\frac{1}{x^2} = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OH",
+    "question": "En un triángulo, el lado $a=10$, el ángulo $A=30^\\circ$ y $B=45^\\circ$. Usando Ley de Senos, calcula el lado $b$.",
+    "image": null,
+    "options": [
+      { "text": "$10\\sqrt{2}$", "correct": true },
+      { "text": "$5\\sqrt{2}$", "correct": false },
+      { "text": "$20$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la Ley de Senos: $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$.",
+    "explanation": "$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} \\rightarrow \\frac{10}{\\sin(30^\\circ)} = \\frac{b}{\\sin(45^\\circ)} \\rightarrow b = \\frac{10\\left(\\frac{\\sqrt{2}}{2}\\right)}{\\frac{1}{2}} = 10\\sqrt{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OI",
+    "question": "Simplifica la expresión trigonométrica: $\\frac{\\sin^2(x)}{1 - \\cos(x)}$.",
+    "image": null,
+    "options": [
+      { "text": "$1 + \\cos(x)$", "correct": true },
+      { "text": "$1 - \\cos(x)$", "correct": false },
+      { "text": "$\\sin(x)$", "correct": false },
+      { "text": "$\\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la identidad pitagórica $\\sin^2(x) = 1 - \\cos^2(x)$ y factoriza.",
+    "explanation": "Usando la identidad fundamental $\\sin^2(x) = 1 - \\cos^2(x)$. Sustituimos: $\\frac{1 - \\cos^2(x)}{1 - \\cos(x)} = \\frac{(1 - \\cos(x))(1 + \\cos(x))}{1 - \\cos(x)} = 1 + \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OJ",
+    "question": "Encuentra la diagonal espacial de un prisma rectangular con dimensiones $3$, $4$ y $12$.",
+    "image": null,
+    "options": [
+      { "text": "$13$", "correct": true },
+      { "text": "$19$", "correct": false },
+      { "text": "$15$", "correct": false },
+      { "text": "$12.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza el Teorema de Pitágoras en tres dimensiones: $d = \\sqrt{x^2 + y^2 + z^2}$.",
+    "explanation": "Diagonal 3D $= \\sqrt{l^2 + w^2 + h^2} = \\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OK",
+    "question": "Una cuerda de un círculo mide $16 \\text{ cm}$ y se encuentra a $6 \\text{ cm}$ del centro. Calcula el radio del círculo.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ cm}$", "correct": true },
+      { "text": "$14 \\text{ cm}$", "correct": false },
+      { "text": "$22 \\text{ cm}$", "correct": false },
+      { "text": "$8 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Dibuja un triángulo rectángulo usando el radio, la distancia al centro y la mitad de la cuerda.",
+    "explanation": "El radio, la apotema ($6$) y la mitad de la cuerda ($8$) forman un triángulo rectángulo. $r = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OL",
+    "question": "Desde un punto exterior $P$ se trazan dos secantes a un círculo. En una secante, el tramo exterior es $4$ y la secante completa es $10$. En la otra, el exterior es $5$. ¿Cuánto mide la secante completa?",
+    "image": null,
+    "options": [
+      { "text": "$8$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$12.5$", "correct": false },
+      { "text": "$10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto del tramo exterior por la secante completa es constante para ambas secantes.",
+    "explanation": "Teorema de las secantes (relacionado por semejanza): $PA \\cdot PB = PC \\cdot PD \\rightarrow 4 \\cdot 10 = 5 \\cdot PD \\rightarrow 40 = 5PD \\rightarrow PD = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OM",
+    "question": "En un trapecio de bases $10$ y $20$, un segmento paralelo a las bases divide los lados no paralelos en razón $2:3$ desde la base menor. ¿Cuánto mide el segmento?",
+    "image": null,
+    "options": [
+      { "text": "$14$", "correct": true },
+      { "text": "$15$", "correct": false },
+      { "text": "$16$", "correct": false },
+      { "text": "$12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula del segmento dividido proporcionalmente: $L = \\frac{rB + sb}{r + s}$.",
+    "explanation": "Por proporción en trapecios: Longitud $= \\frac{r \\cdot \\text{BaseMayor} + s \\cdot \\text{BaseMenor}}{r + s}$. $L = \\frac{2 \\cdot 20 + 3 \\cdot 10}{2 + 3} = \\frac{70}{5} = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02ON",
+    "question": "Calcula el área de la región comprendida entre un círculo de radio $4$ y un hexágono regular inscrito en él.",
+    "image": null,
+    "options": [
+      { "text": "$16\\pi - 24\\sqrt{3}$", "correct": true },
+      { "text": "$16\\pi - 16\\sqrt{3}$", "correct": false },
+      { "text": "$8\\pi - 12\\sqrt{3}$", "correct": false },
+      { "text": "$16\\pi - 48$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El área buscada es la diferencia entre el área del círculo y el área del hexágono (que equivale a $6$ triángulos equiláteros).",
+    "explanation": "Área círculo $= 16\\pi$. Hexágono son $6$ triángulos equiláteros de lado $4$: $6 \\cdot \\left(\\frac{\\sqrt{3}}{4} \\cdot 4^2\\right) = 24\\sqrt{3}$. Área buscada $= 16\\pi - 24\\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02OO",
+    "question": "Encuentra la suma de los ángulos internos de un polígono regular sabiendo que uno de sus ángulos exteriores mide $24^\\circ$.",
+    "image": null,
+    "options": [
+      { "text": "$2340^\\circ$", "correct": true },
+      { "text": "$2700^\\circ$", "correct": false },
+      { "text": "$2160^\\circ$", "correct": false },
+      { "text": "$360^\\circ$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero el número de lados $n = \\frac{360^\\circ}{\\text{Ángulo exterior}}$, luego usa $S = 180^\\circ(n - 2)$.",
+    "explanation": "El número de lados $n = \\frac{360^\\circ}{24^\\circ} = 15$. La suma de ángulos internos $S = 180^\\circ(n - 2) = 180^\\circ(15 - 2) = 180^\\circ(13) = 2340^\\circ$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
