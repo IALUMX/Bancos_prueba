@@ -33678,5 +33678,365 @@
     "explanation": "Las amidas se caracterizan por el enlace directo entre un átomo de nitrógeno y el carbono de un grupo carbonilo.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02QF",
+    "question": "Una motocicleta de $200 \\text{ kg}$ requiere una fuerza centrípeta de $400 \\text{ N}$ para mantenerse en una curva circular de $50 \\text{ m}$ de radio. ¿A qué velocidad constante se está moviendo la motocicleta?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": true },
+      { "text": "$20 \\text{ m/s}$", "correct": false },
+      { "text": "$100 \\text{ m/s}$", "correct": false },
+      { "text": "$50 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula de la fuerza centrípeta $F_c = \\frac{mv^2}{r}$ y despeja la velocidad $v$.",
+    "explanation": "Despejando la velocidad obtenemos $v = \\sqrt{\\frac{F_c \\cdot r}{m}}$. Sustituyendo los valores: $v = \\sqrt{\\frac{400 \\text{ N} \\cdot 50 \\text{ m}}{200 \\text{ kg}}} = \\sqrt{100} = 10 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QG",
+    "question": "Un automóvil ingresa a una rotonda de $100 \\text{ m}$ de radio a una velocidad de $72 \\text{ km/h}$. Si la fuerza centrípeta ejercida por los neumáticos es de $800 \\text{ N}$, ¿cuál es la masa del automóvil?",
+    "image": null,
+    "options": [
+      { "text": "$400 \\text{ kg}$", "correct": false },
+      { "text": "$200 \\text{ kg}$", "correct": true },
+      { "text": "$800 \\text{ kg}$", "correct": false },
+      { "text": "$1000 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte la velocidad a $\\text{m/s}$ y despeja la masa $m$ partiendo de la ecuación $F_c = \\frac{mv^2}{r}$.",
+    "explanation": "Primero convertimos la velocidad: $72 \\text{ km/h} = 20 \\text{ m/s}$. Despejando la masa obtenemos $m = \\frac{F_c \\cdot r}{v^2}$. Sustituyendo: $m = \\frac{800 \\text{ N} \\cdot 100 \\text{ m}}{(20 \\text{ m/s})^2} = \\frac{80000}{400} = 200 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QH",
+    "question": "Se hace girar una piedra atada a una cuerda. La piedra tiene una masa de $500 \\text{ g}$ y se mueve a una velocidad tangencial de $4 \\text{ m/s}$. Si la tensión de la cuerda (fuerza centrípeta) es de $16 \\text{ N}$, ¿cuál es el radio de giro?",
+    "image": null,
+    "options": [
+      { "text": "$1.0 \\text{ m}$", "correct": false },
+      { "text": "$2.0 \\text{ m}$", "correct": false },
+      { "text": "$0.5 \\text{ m}$", "correct": true },
+      { "text": "$4.0 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda convertir la masa a $\\text{kg}$. Utiliza la ecuación $F_c = \\frac{mv^2}{r}$ para despejar el radio $r$.",
+    "explanation": "La masa es $m = 0.5 \\text{ kg}$. Despejando el radio obtenemos $r = \\frac{mv^2}{F_c} = \\frac{0.5 \\text{ kg} \\cdot (4 \\text{ m/s})^2}{16 \\text{ N}} = \\frac{8}{16} = 0.5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QI",
+    "question": "Un camión de $1200 \\text{ kg}$ toma una curva de $50 \\text{ m}$ de radio a una velocidad constante de $90 \\text{ km/h}$. ¿Cuál es la magnitud de la fuerza centrípeta necesaria para que no se salga del camino?",
+    "image": null,
+    "options": [
+      { "text": "$15000 \\text{ N}$", "correct": true },
+      { "text": "$194400 \\text{ N}$", "correct": false },
+      { "text": "$2160 \\text{ N}$", "correct": false },
+      { "text": "$1500 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma los $90 \\text{ km/h}$ a $\\text{m/s}$ y, ya que no requieres despejes, aplica directamente la fórmula $F_c = \\frac{mv^2}{r}$.",
+    "explanation": "Primero convertimos $90 \\text{ km/h} = 25 \\text{ m/s}$. Aplicando la fórmula: $F_c = \\frac{1200 \\text{ kg} \\cdot (25 \\text{ m/s})^2}{50 \\text{ m}} = \\frac{1200 \\cdot 625}{50} = 15000 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QJ",
+    "question": "Un tren de juguete de $50 \\text{ kg}$ da vueltas en una pista circular de $10 \\text{ m}$ de radio. Si el riel ejerce una fuerza centrípeta de $500 \\text{ N}$ sobre el tren, ¿cuál es su velocidad?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}$", "correct": false },
+      { "text": "$10 \\text{ m/s}$", "correct": true },
+      { "text": "$50 \\text{ m/s}$", "correct": false },
+      { "text": "$100 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la velocidad $v$ partiendo de la ecuación del movimiento circular $F_c = \\frac{mv^2}{r}$.",
+    "explanation": "Despejando obtenemos $v = \\sqrt{\\frac{F_c \\cdot r}{m}} = \\sqrt{\\frac{500 \\text{ N} \\cdot 10 \\text{ m}}{50 \\text{ kg}}} = \\sqrt{100} = 10 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QK",
+    "question": "Un objeto viaja a $15 \\text{ m/s}$ en una trayectoria circular de $45 \\text{ m}$ de radio. Si la fuerza centrípeta sobre el objeto es de $300 \\text{ N}$, ¿cuál es su masa?",
+    "image": null,
+    "options": [
+      { "text": "$135 \\text{ kg}$", "correct": false },
+      { "text": "$900 \\text{ kg}$", "correct": false },
+      { "text": "$60 \\text{ kg}$", "correct": true },
+      { "text": "$45 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la masa $m$ al despejarla de la expresión original de fuerza $F_c = \\frac{mv^2}{r}$.",
+    "explanation": "Despejando la masa: $m = \\frac{F_c \\cdot r}{v^2} = \\frac{300 \\text{ N} \\cdot 45 \\text{ m}}{(15 \\text{ m/s})^2} = \\frac{13500}{225} = 60 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QL",
+    "question": "Un auto deportivo de $1000 \\text{ kg}$ viaja a $108 \\text{ km/h}$ y necesita una fuerza centrípeta de $4500 \\text{ N}$ para tomar una curva cerrada. ¿Cuál es el radio de dicha curva?",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ m}$", "correct": true },
+      { "text": "$259 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false },
+      { "text": "$150 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte la velocidad a $\\text{m/s}$ y despeja $r$ de la fórmula principal $F_c = \\frac{mv^2}{r}$.",
+    "explanation": "Convirtiendo $108 \\text{ km/h} = 30 \\text{ m/s}$. Despejando el radio obtenemos: $r = \\frac{mv^2}{F_c} = \\frac{1000 \\text{ kg} \\cdot (30 \\text{ m/s})^2}{4500 \\text{ N}} = \\frac{900000}{4500} = 200 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QM",
+    "question": "Un esquiador de $80 \\text{ kg}$ se desliza cuesta abajo por una pendiente de $30^\\circ$. ¿Cuál debe ser la fuerza de fricción entre sus esquís y la nieve para que descienda a velocidad constante? Considera $g = 10 \\text{ m/s}^2$, $\\sin(30^\\circ) = 0.500$, $\\cos(30^\\circ) = 0.866$ y $\\tan(30^\\circ) = 0.577$.",
+    "image": null,
+    "options": [
+      { "text": "$692.8 \\text{ N}$", "correct": false },
+      { "text": "$400.0 \\text{ N}$", "correct": true },
+      { "text": "$800.0 \\text{ N}$", "correct": false },
+      { "text": "$346.4 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La aceleración es cero. Utiliza la sumatoria de fuerzas en el eje paralelo al plano: $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = m \\cdot a$.",
+    "explanation": "Dado que la velocidad es constante ($a=0$), la fuerza de fricción iguala a la componente del peso paralela a la pendiente: $f_k = m \\cdot g \\cdot \\sin(30^\\circ) = 80 \\text{ kg} \\cdot 10 \\text{ m/s}^2 \\cdot 0.500 = 400.0 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QN",
+    "question": "Un bloque resbala sobre un plano inclinado a $45^\\circ$. Si la fuerza de fricción necesaria para que baje sin aceleración es de $707 \\text{ N}$, ¿cuál es la masa del bloque? Considera $g = 10 \\text{ m/s}^2$, $\\sin(45^\\circ) = 0.707$, $\\cos(45^\\circ) = 0.707$ y $\\tan(45^\\circ) = 1.000$.",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ kg}$", "correct": true },
+      { "text": "$50 \\text{ kg}$", "correct": false },
+      { "text": "$70.7 \\text{ kg}$", "correct": false },
+      { "text": "$141.4 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación de equilibrio $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = 0$ y despeja la masa $m$.",
+    "explanation": "Al no existir aceleración, $f_k = m \\cdot g \\cdot \\sin(45^\\circ)$. Despejando $m = \\frac{f_k}{g \\cdot \\sin(45^\\circ)} = \\frac{707 \\text{ N}}{10 \\text{ m/s}^2 \\cdot 0.707} = \\frac{707}{7.07} = 100 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QO",
+    "question": "Una caja de herramientas de $60 \\text{ kg}$ se encuentra en una rampa con un ángulo de inclinación de $25^\\circ$. Calcula el valor exacto de la fuerza de fricción estática máxima necesaria para que apenas comience a deslizarse a velocidad constante. Considera $g = 10 \\text{ m/s}^2$, $\\sin(25^\\circ) = 0.422$, $\\cos(25^\\circ) = 0.906$ y $\\tan(25^\\circ) = 0.466$.",
+    "image": null,
+    "options": [
+      { "text": "$543.6 \\text{ N}$", "correct": false },
+      { "text": "$253.2 \\text{ N}$", "correct": true },
+      { "text": "$600.0 \\text{ N}$", "correct": false },
+      { "text": "$271.8 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para mantener el equilibrio, la fricción debe contrarrestar la componente tangencial del peso. Parte de la ecuación $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_s = 0$.",
+    "explanation": "En el umbral del movimiento, la fuerza de fricción iguala a la componente del peso a lo largo de la rampa: $f_s = m \\cdot g \\cdot \\sin(25^\\circ) = 60 \\text{ kg} \\cdot 10 \\text{ m/s}^2 \\cdot 0.422 = 253.2 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QP",
+    "question": "Si una caja que desciende por una rampa de $53^\\circ$ requiere una fuerza de fricción de $478.8 \\text{ N}$ para no acelerar, ¿qué masa tiene dicha caja? Considera $g = 10 \\text{ m/s}^2$, $\\sin(53^\\circ) = 0.798$, $\\cos(53^\\circ) = 0.601$ y $\\tan(53^\\circ) = 1.327$.",
+    "image": null,
+    "options": [
+      { "text": "$80 \\text{ kg}$", "correct": false },
+      { "text": "$60 \\text{ kg}$", "correct": true },
+      { "text": "$47.8 \\text{ kg}$", "correct": false },
+      { "text": "$100 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece la condición de fuerzas balanceadas con $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = 0$ y despeja el valor de $m$.",
+    "explanation": "De la ecuación de equilibrio obtenemos $f_k = m \\cdot g \\cdot \\sin(53^\\circ)$. Despejando: $m = \\frac{f_k}{g \\cdot \\sin(53^\\circ)} = \\frac{478.8 \\text{ N}}{10 \\text{ m/s}^2 \\cdot 0.798} = \\frac{478.8}{7.98} = 60 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QQ",
+    "question": "Un paquete de $2500 \\text{ g}$ de masa se desliza cuesta abajo en una rampa inclinada $60^\\circ$. ¿Cuál debe ser el valor de la fuerza de fricción para mantener su velocidad constante? Considera $g = 10 \\text{ m/s}^2$, $\\sin(60^\\circ) = 0.866$, $\\cos(60^\\circ) = 0.500$ y $\\tan(60^\\circ) = 1.732$.",
+    "image": null,
+    "options": [
+      { "text": "$21.65 \\text{ N}$", "correct": true },
+      { "text": "$2165 \\text{ N}$", "correct": false },
+      { "text": "$12.50 \\text{ N}$", "correct": false },
+      { "text": "$43.30 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Asegúrate de convertir la masa a kilogramos. Después, aplica la ecuación de la primera ley de Newton: $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = 0$.",
+    "explanation": "Masa $m = 2.5 \\text{ kg}$. Por el equilibrio estático tangencial: $f_k = m \\cdot g \\cdot \\sin(60^\\circ) = 2.5 \\text{ kg} \\cdot 10 \\text{ m/s}^2 \\cdot 0.866 = 25 \\cdot 0.866 = 21.65 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QR",
+    "question": "Un carrito de supermercado cargado, con una masa total de $150 \\text{ kg}$, se desliza por una rampa suave de $15^\\circ$. Calcula la fuerza de fricción ejercida si el carrito baja a una velocidad estable. Considera $g = 10 \\text{ m/s}^2$, $\\sin(15^\\circ) = 0.258$, $\\cos(15^\\circ) = 0.965$ y $\\tan(15^\\circ) = 0.267$.",
+    "image": null,
+    "options": [
+      { "text": "$1447.5 \\text{ N}$", "correct": false },
+      { "text": "$387.0 \\text{ N}$", "correct": true },
+      { "text": "$400.5 \\text{ N}$", "correct": false },
+      { "text": "$774.0 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la sumatoria de fuerzas igualada a cero para un cuerpo que no acelera: $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = 0$.",
+    "explanation": "La fuerza de fricción equivale a la componente paralela del peso: $f_k = m \\cdot g \\cdot \\sin(15^\\circ) = 150 \\text{ kg} \\cdot 10 \\text{ m/s}^2 \\cdot 0.258 = 1500 \\cdot 0.258 = 387.0 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QS",
+    "question": "Una carga misteriosa es deslizada por un tobogán de carga a $30^\\circ$. Se registró que la fuerza de fricción opuesta al movimiento de la carga era exactamente de $250 \\text{ N}$ mientras bajaba sin aceleración. Determina la masa de la carga. Considera $g = 10 \\text{ m/s}^2$, $\\sin(30^\\circ) = 0.500$, $\\cos(30^\\circ) = 0.866$ y $\\tan(30^\\circ) = 0.577$.",
+    "image": null,
+    "options": [
+      { "text": "$50 \\text{ kg}$", "correct": true },
+      { "text": "$25 \\text{ kg}$", "correct": false },
+      { "text": "$125 \\text{ kg}$", "correct": false },
+      { "text": "$100 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al bajar sin aceleración, el sistema se encuentra en equilibrio cinético. Despeja $m$ de la expresión principal $\\sum F_x = m \\cdot g \\cdot \\sin(\\theta) - f_k = 0$.",
+    "explanation": "Despejando la masa: $m = \\frac{f_k}{g \\cdot \\sin(30^\\circ)} = \\frac{250 \\text{ N}}{10 \\text{ m/s}^2 \\cdot 0.500} = \\frac{250}{5} = 50 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QT",
+    "question": "Se coloca una espira de alambre cuya área es de $200 \\text{ cm}^2$ perpendicular a un campo magnético. Si la densidad de flujo magnético en la región es de $4 \\times 10^{-2} \\text{ T}$, ¿qué cantidad de flujo magnético la atraviesa?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\times 10^{-4} \\text{ Wb}$", "correct": true },
+      { "text": "$8 \\times 10^{-2} \\text{ Wb}$", "correct": false },
+      { "text": "$8 \\times 10^{0} \\text{ Wb}$", "correct": false },
+      { "text": "$8 \\times 10^{-6} \\text{ Wb}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte el área a metros cuadrados y aplica de manera directa la fórmula del flujo magnético $\\Phi = B \\cdot A \\cdot \\cos(\\theta)$ para $\\theta = 0^\\circ$.",
+    "explanation": "Transformando el área $A = 200 \\text{ cm}^2 = 0.02 \\text{ m}^2$. El flujo magnético es $\\Phi = B \\cdot A = (4 \\times 10^{-2} \\text{ T})(0.02 \\text{ m}^2) = 8 \\times 10^{-4} \\text{ Wb}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QU",
+    "question": "Las líneas de campo magnético atraviesan de forma perpendicular una superficie de $0.05 \\text{ m}^2$ generando un flujo magnético total de $1.5 \\times 10^{-3} \\text{ Wb}$. ¿Cuál es el valor de la densidad de flujo magnético $B$ en esa área?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\times 10^{-2} \\text{ T}$", "correct": true },
+      { "text": "$7.5 \\times 10^{-5} \\text{ T}$", "correct": false },
+      { "text": "$3 \\times 10^{-1} \\text{ T}$", "correct": false },
+      { "text": "$3 \\times 10^{-3} \\text{ T}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A partir de la ecuación general del flujo magnético $\\Phi = B \\cdot A$, despeja la densidad del flujo magnético $B$.",
+    "explanation": "Despejando $B$: $B = \\frac{\\Phi}{A} = \\frac{1.5 \\times 10^{-3} \\text{ Wb}}{0.05 \\text{ m}^2} = 30 \\times 10^{-3} \\text{ T} = 3 \\times 10^{-2} \\text{ T}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QV",
+    "question": "Un flujo magnético de $2 \\times 10^{-2} \\text{ Wb}$ pasa perpendicularmente a través de una placa de metal. Si la densidad de flujo magnético es constante a $5 \\times 10^{-1} \\text{ T}$, ¿cuál es el área de la placa expresada en centímetros cuadrados?",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ cm}^2$", "correct": false },
+      { "text": "$400 \\text{ cm}^2$", "correct": true },
+      { "text": "$4000 \\text{ cm}^2$", "correct": false },
+      { "text": "$4 \\text{ cm}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el área $A$ de la fórmula principal $\\Phi = B \\cdot A$ y convierte el resultado obtenido de $\\text{m}^2$ a $\\text{cm}^2$.",
+    "explanation": "El área es $A = \\frac{\\Phi}{B} = \\frac{2 \\times 10^{-2} \\text{ Wb}}{5 \\times 10^{-1} \\text{ T}} = 0.4 \\times 10^{-1} \\text{ m}^2 = 0.04 \\text{ m}^2$. Convirtiendo: $0.04 \\text{ m}^2 \\times 10000 = 400 \\text{ cm}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QW",
+    "question": "El lente de un dispositivo óptico sensible tiene un área muy pequeña de $5000 \\text{ mm}^2$. Un campo magnético con una densidad de $2 \\times 10^{-1} \\text{ T}$ lo atraviesa perpendicularmente. ¿Cuál es el flujo magnético en la superficie del lente?",
+    "image": null,
+    "options": [
+      { "text": "$1 \\times 10^{-3} \\text{ Wb}$", "correct": true },
+      { "text": "$1 \\times 10^{-1} \\text{ Wb}$", "correct": false },
+      { "text": "$1 \\times 10^{3} \\text{ Wb}$", "correct": false },
+      { "text": "$1 \\times 10^{-4} \\text{ Wb}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transforma los milímetros cuadrados a metros cuadrados dividiendo entre $10^6$. Luego aplica directamente $\\Phi = B \\cdot A$.",
+    "explanation": "Convirtiendo el área: $A = 5000 \\text{ mm}^2 = 5 \\times 10^{-3} \\text{ m}^2$. Calculando el flujo: $\\Phi = B \\cdot A = (2 \\times 10^{-1} \\text{ T})(5 \\times 10^{-3} \\text{ m}^2) = 10 \\times 10^{-4} \\text{ Wb} = 1 \\times 10^{-3} \\text{ Wb}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QX",
+    "question": "Un cuadro de $100 \\text{ cm}^2$ de área es colocado perpendicularmente en presencia de un imán. Si un medidor registra un flujo magnético de $6 \\times 10^{-4} \\text{ Wb}$ que pasa por el cuadro, ¿cuál debe ser la densidad de flujo magnético $B$?",
+    "image": null,
+    "options": [
+      { "text": "$6 \\times 10^{-6} \\text{ T}$", "correct": false },
+      { "text": "$6 \\times 10^{-2} \\text{ T}$", "correct": true },
+      { "text": "$6 \\times 10^{2} \\text{ T}$", "correct": false },
+      { "text": "$6 \\times 10^{-4} \\text{ T}$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "No olvides convertir el área a $\\text{m}^2$. A partir de la ecuación $\\Phi = B \\cdot A$, despeja el valor de la densidad $B$.",
+    "explanation": "Área $A = 100 \\text{ cm}^2 = 1 \\times 10^{-2} \\text{ m}^2$. Despejando: $B = \\frac{\\Phi}{A} = \\frac{6 \\times 10^{-4} \\text{ Wb}}{1 \\times 10^{-2} \\text{ m}^2} = 6 \\times 10^{-2} \\text{ T}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02QY",
+    "question": "Un potente electroimán genera una densidad de flujo magnético de $8 \\times 10^{-3} \\text{ T}$. Si se requiere que una placa plana intercepte exactamente un flujo total de $3.2 \\times 10^{-3} \\text{ Wb}$ perpendicularmente, ¿qué área deberá tener dicha placa en metros cuadrados?",
+    "image": null,
+    "options": [
+      { "text": "$2.5 \\text{ m}^2$", "correct": false },
+      { "text": "$4.0 \\text{ m}^2$", "correct": false },
+      { "text": "$0.4 \\text{ m}^2$", "correct": true },
+      { "text": "$0.04 \\text{ m}^2$", "correct": false }
+    ],
+    "uni_tags": ["FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la ecuación básica del flujo magnético $\\Phi = B \\cdot A$ y despeja el valor del área $A$.",
+    "explanation": "Despejando el área de la fórmula obtenemos $A = \\frac{\\Phi}{B} = \\frac{3.2 \\times 10^{-3} \\text{ Wb}}{8 \\times 10^{-3} \\text{ T}} = \\frac{3.2}{8} = 0.4 \\text{ m}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
