@@ -2630,602 +2630,278 @@
     "collapsible_text": null
   },
   {
-    "id": "CEP00AC",
-    "question": "Despeja la variable $x$ de la siguiente ecuación: $$x + 12 = 20$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 8$", "correct": true },
-      { "text": "$x = 32$", "correct": false },
-      { "text": "$x = -8$", "correct": false },
-      { "text": "$x = 1.6$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Aplica la operación inversa. Si el 12 está sumando, debe pasar al otro lado restando.",
-    "explanation": "Al restar 12 en ambos lados de la ecuación obtenemos $x = 20 - 12$, lo que resulta en $x = 8$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AD",
-    "question": "Despeja la variable $x$ de la siguiente ecuación: $$x - 8 = 15$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 23$", "correct": true },
-      { "text": "$x = 7$", "correct": false },
-      { "text": "$x = -7$", "correct": false },
-      { "text": "$x = 120$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Utiliza la operación contraria a la resta para aislar la incógnita.",
-    "explanation": "Al sumar 8 en ambos lados de la igualdad, tenemos $x = 15 + 8$, por lo tanto $x = 23$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AE",
-    "question": "Despeja la variable $x$ en la ecuación de un solo paso: $$5x = 35$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 7$", "correct": true },
-      { "text": "$x = 30$", "correct": false },
-      { "text": "$x = 40$", "correct": false },
-      { "text": "$x = 175$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El número 5 está multiplicando a la variable. Pásalo al otro lado con su operación inversa.",
-    "explanation": "Dividiendo ambos lados de la ecuación entre 5, obtenemos $x = \\frac{35}{5}$, lo que da $x = 7$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AF",
-    "question": "Encuentra el valor de $x$ al despejar la siguiente ecuación: $$\\frac{x}{6} = 4$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 24$", "correct": true },
-      { "text": "$x = 1.5$", "correct": false },
-      { "text": "$x = 10$", "correct": false },
-      { "text": "$x = -2$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El número 6 se encuentra dividiendo, por lo que debe pasar multiplicando.",
-    "explanation": "Al multiplicar ambos lados por 6 para despejar la incógnita, tenemos $x = 4 \\times 6$, lo que resulta en $x = 24$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AG",
-    "question": "A partir de la ecuación general $x + a = b$, ¿cuál es el despeje correcto para la variable $x$?",
-    "image": null,
-    "options": [
-      { "text": "$x = b - a$", "correct": true },
-      { "text": "$x = a - b$", "correct": false },
-      { "text": "$x = \\frac{b}{a}$", "correct": false },
-      { "text": "$x = a + b$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Identifica qué le estorba a la variable $x$ y pásalo al lado derecho con la operación contraria.",
-    "explanation": "Para dejar a la variable $x$ sola, restamos $a$ en ambos lados, obteniendo como resultado $x = b - a$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AH",
-    "question": "Despeja $x$ en la ecuación paramétrica: $$ax = b$$",
-    "image": null,
-    "options": [
-      { "text": "$x = \\frac{b}{a}$", "correct": true },
-      { "text": "$x = \\frac{a}{b}$", "correct": false },
-      { "text": "$x = b - a$", "correct": false },
-      { "text": "$x = a \\cdot b$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "La constante $a$ multiplica a $x$. Aplica la división para ambos lados.",
-    "explanation": "Como la letra $a$ está multiplicando a $x$, pasa al lado derecho dividiendo a $b$, por lo que $x = \\frac{b}{a}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AI",
-    "question": "Obtén la expresión para $x$ a partir de la ecuación: $$\\frac{x}{a} = b$$",
-    "image": null,
-    "options": [
-      { "text": "$x = a \\cdot b$", "correct": true },
-      { "text": "$x = \\frac{b}{a}$", "correct": false },
-      { "text": "$x = \\frac{a}{b}$", "correct": false },
-      { "text": "$x = b - a$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "La variable $a$ divide a $x$, pásala al otro lado realizando la acción inversa.",
-    "explanation": "Multiplicamos ambos lados de la igualdad por $a$, eliminando el denominador, obteniendo $x = ab$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AJ",
-    "question": "¿Cuál es el resultado de despejar la variable $x$ en la ecuación $x - y = z$?",
-    "image": null,
-    "options": [
-      { "text": "$x = z + y$", "correct": true },
-      { "text": "$x = z - y$", "correct": false },
-      { "text": "$x = y - z$", "correct": false },
-      { "text": "$x = z \\cdot y$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Pasa la variable $-y$ del lado de $z$ cambiando su signo aritmético.",
-    "explanation": "Al sumar $y$ en ambos lados para eliminarla del lado izquierdo, la ecuación queda como $x = z + y$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AK",
-    "question": "Despeja $x$ en la siguiente ecuación de dos pasos: $$2x + 4 = 14$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 5$", "correct": true },
-      { "text": "$x = 9$", "correct": false },
-      { "text": "$x = 10$", "correct": false },
-      { "text": "$x = -5$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Primero mueve el término que suma o resta (4), y después el que multiplica (2).",
-    "explanation": "Restando 4 a ambos lados tenemos $2x = 10$. Luego, dividiendo entre 2 resulta $x = \\frac{10}{2}$, es decir, $x = 5$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AL",
-    "question": "Calcula el valor de $x$ al resolver la ecuación: $$3x - 5 = 16$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 7$", "correct": true },
-      { "text": "$x = \\frac{11}{3}$", "correct": false },
-      { "text": "$x = 21$", "correct": false },
-      { "text": "$x = 4$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Suma 5 en ambos lados de la ecuación y posteriormente divide el resultado entre 3.",
-    "explanation": "Pasamos el 5 sumando al lado derecho: $3x = 16 + 5$, o sea $3x = 21$. Finalmente $x = \\frac{21}{3}$, lo que es igual a $7$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AM",
-    "question": "Encuentra el valor de $x$ en la expresión: $$\\frac{x}{2} + 3 = 10$$",
-    "image": null,
-    "options": [
-      { "text": "$x = 14$", "correct": true },
-      { "text": "$x = 7$", "correct": false },
-      { "text": "$x = 26$", "correct": false },
-      { "text": "$x = 6.5$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Primero elimina el 3 pasándolo a restar. Luego, el 2 que divide, pasará a multiplicar.",
-    "explanation": "Primero pasamos el 3 restando: $\\frac{x}{2} = 10 - 3$, es decir $\\frac{x}{2} = 7$. Luego multiplicamos por 2: $x = 7 \\cdot 2$, resultando $x = 14$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AN",
-    "question": "Despeja $x$ de manera algebraica a partir de la fórmula general: $$ax + b = c$$",
-    "image": null,
-    "options": [
-      { "text": "$x = \\frac{c - b}{a}$", "correct": true },
-      { "text": "$x = \\frac{c + b}{a}$", "correct": false },
-      { "text": "$x = c - b - a$", "correct": false },
-      { "text": "$x = a(c - b)$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Quita el término $b$ que está sumando antes de mover la variable $a$ que multiplica a la $x$.",
-    "explanation": "Restando $b$ de ambos lados queda $ax = c - b$. Al dividir ambos lados entre $a$ concluimos que $x = \\frac{c - b}{a}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AO",
-    "question": "Halla la forma equivalente para $x$ al despejar la siguiente ecuación: $$ax - b = c$$",
-    "image": null,
-    "options": [
-      { "text": "$x = \\frac{c + b}{a}$", "correct": true },
-      { "text": "$x = \\frac{c - b}{a}$", "correct": false },
-      { "text": "$x = c + b - a$", "correct": false },
-      { "text": "$x = a(c + b)$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Convierte la resta del término $b$ en suma al otro lado, y la multiplicación de $a$ en división.",
-    "explanation": "El término $-b$ pasa como $+b$, de forma que $ax = c + b$. Después, la constante $a$ pasa a dividir, por lo que $x = \\frac{c + b}{a}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AP",
-    "question": "Selecciona la expresión que corresponde al despeje de $x$ en la ecuación: $$\\frac{x + a}{b} = c$$",
-    "image": null,
-    "options": [
-      { "text": "$x = bc - a$", "correct": true },
-      { "text": "$x = \\frac{c - a}{b}$", "correct": false },
-      { "text": "$x = b(c - a)$", "correct": false },
-      { "text": "$x = \\frac{c}{b} - a$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Como $b$ divide a toda la parte superior, primero pásalo multiplicando.",
-    "explanation": "Multiplicando ambos lados por $b$, tenemos $x + a = bc$. Posteriormente restamos $a$ en ambos lados y queda $x = bc - a$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AQ",
-    "question": "Despeja $x$ de la ecuación con fracciones: $$\\frac{x}{a} + b = c$$",
-    "image": null,
-    "options": [
-      { "text": "$x = a(c - b)$", "correct": true },
-      { "text": "$x = \\frac{c - b}{a}$", "correct": false },
-      { "text": "$x = ac - b$", "correct": false },
-      { "text": "$x = a + c - b$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Ten cuidado, primero debes deshacerte del término $b$ antes de quitar el denominador $a$.",
-    "explanation": "Pasamos la constante $b$ restando: $\\frac{x}{a} = c - b$. Finalmente, $a$ pasa a multiplicar todo el lado derecho, por lo que $x = a(c - b)$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AR",
-    "question": "En la fórmula de la velocidad $v = \\frac{d}{t}$, despeja la distancia $d$.",
+    "id": "CEP00FL",
+    "question": "De la fórmula de la velocidad $v = \\frac{d}{t}$, despeja la distancia $d$.",
     "image": null,
     "options": [
       { "text": "$d = v \\cdot t$", "correct": true },
       { "text": "$d = \\frac{v}{t}$", "correct": false },
       { "text": "$d = \\frac{t}{v}$", "correct": false },
-      { "text": "$d = v - t$", "correct": false }
+      { "text": "$d = v + t$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El tiempo $t$ se encuentra dividiendo la distancia. Llévalo al otro extremo de la ecuación.",
-    "explanation": "Como $t$ está dividiendo a la $d$, multiplicamos ambos lados por $t$ dejando la expresión como $d = vt$.",
+    "hint": "Observa que la variable $t$ está dividiendo a $d$. Para despejar, aplica la operación inversa en el otro lado de la igualdad.",
+    "explanation": "Dado que el tiempo $t$ se encuentra dividiendo a la distancia, se pasa al lado contrario de la ecuación multiplicando a la velocidad $v$, resultando en $d = v \\cdot t$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AS",
-    "question": "Partiendo de la fórmula de velocidad $v = \\frac{d}{t}$, despeja el tiempo $t$.",
-    "image": null,
-    "options": [
-      { "text": "$t = \\frac{d}{v}$", "correct": true },
-      { "text": "$t = d \\cdot v$", "correct": false },
-      { "text": "$t = \\frac{v}{d}$", "correct": false },
-      { "text": "$t = d - v$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Recuerda que si el tiempo $t$ está dividiendo en el denominador, primero debe pasar multiplicando al otro lado.",
-    "explanation": "Al multiplicar ambos lados por $t$, queda $vt = d$. Luego, pasamos la velocidad $v$ dividiendo para aislar $t$, obteniendo $t = \\frac{d}{v}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AT",
-    "question": "De la Segunda Ley de Newton expresada matemáticamente como $F = ma$, despeja la masa $m$.",
-    "image": null,
-    "options": [
-      { "text": "$m = \\frac{F}{a}$", "correct": true },
-      { "text": "$m = F \\cdot a$", "correct": false },
-      { "text": "$m = \\frac{a}{F}$", "correct": false },
-      { "text": "$m = F - a$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "La aceleración $a$ está multiplicando a la masa. Pásala al lado contrario con la operación matemática inversa.",
-    "explanation": "Para encontrar el valor de $m$, simplemente se pasa el término $a$ dividiendo del otro lado, obteniendo $m = \\frac{F}{a}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AU",
-    "question": "Considerando la misma ecuación para la fuerza $F = ma$, ¿cómo se vería la expresión despejada para la aceleración $a$?",
+    "id": "CEP00FM",
+    "question": "Dada la Segunda Ley de Newton $F = ma$, ¿cuál es el despeje correcto para la aceleración $a$?",
     "image": null,
     "options": [
       { "text": "$a = \\frac{F}{m}$", "correct": true },
-      { "text": "$a = F \\cdot m$", "correct": false },
       { "text": "$a = \\frac{m}{F}$", "correct": false },
+      { "text": "$a = F \\cdot m$", "correct": false },
       { "text": "$a = F - m$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Identifica qué le impide a la aceleración estar sola. Si es la masa multiplicando, pásala dividiendo.",
-    "explanation": "Dividimos ambos lados de la ecuación entre la masa $m$, resultando en $a = \\frac{F}{m}$.",
+    "hint": "Para aislar la variable $a$, necesitas quitar la masa $m$ que la está multiplicando.",
+    "explanation": "La masa $m$ multiplica a la aceleración $a$. Al despejar, $m$ pasa al otro lado dividiendo a la fuerza $F$, obteniendo $a = \\frac{F}{m}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AV",
-    "question": "La densidad de un objeto se representa con la fórmula $d = \\frac{m}{V}$. Despeja la masa $m$.",
+    "id": "CEP00FN",
+    "question": "De la fórmula del área de un rectángulo $A = b \\cdot h$, despeja la base $b$.",
     "image": null,
     "options": [
-      { "text": "$m = d \\cdot V$", "correct": true },
-      { "text": "$m = \\frac{d}{V}$", "correct": false },
-      { "text": "$m = \\frac{V}{d}$", "correct": false },
-      { "text": "$m = V + d$", "correct": false }
+      { "text": "$b = \\frac{A}{h}$", "correct": true },
+      { "text": "$b = \\frac{h}{A}$", "correct": false },
+      { "text": "$b = A \\cdot h$", "correct": false },
+      { "text": "$b = A - h$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El volumen $V$ divide a la masa. Pásalo al lado de la densidad aplicando el producto.",
-    "explanation": "Multiplicando el volumen en ambos extremos obtenemos directamente que la masa es el producto de la densidad por el volumen: $m = d \\cdot V$.",
+    "hint": "La altura $h$ está multiplicando a la base $b$. Identifica cuál es la operación opuesta a la multiplicación.",
+    "explanation": "Como la variable $h$ está multiplicando a la base $b$, debe pasar al otro lado dividiendo al área $A$, quedando el despeje como $b = \\frac{A}{h}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AW",
-    "question": "En la fórmula de la densidad $d = \\frac{m}{V}$, realiza los pasos necesarios para despejar el volumen $V$.",
+    "id": "CEP00FO",
+    "question": "A partir de la Ley de Ohm expresada como $I = \\frac{V}{R}$, despeja el voltaje $V$.",
     "image": null,
     "options": [
-      { "text": "$V = \\frac{m}{d}$", "correct": true },
-      { "text": "$V = d \\cdot m$", "correct": false },
-      { "text": "$V = \\frac{d}{m}$", "correct": false },
-      { "text": "$V = m - d$", "correct": false }
+      { "text": "$V = I \\cdot R$", "correct": true },
+      { "text": "$V = \\frac{R}{I}$", "correct": false },
+      { "text": "$V = \\frac{I}{R}$", "correct": false },
+      { "text": "$V = I - R$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Este es un despeje en dos pasos. Al estar en el denominador, primero manda $V$ multiplicando al otro lado.",
-    "explanation": "Primero multiplicamos ambos lados por $V$ ($V \\cdot d = m$), y posteriormente dividimos ambos lados entre la densidad $d$, quedando $V = \\frac{m}{d}$.",
+    "hint": "La resistencia $R$ se encuentra dividiendo al voltaje $V$. Utiliza la operación inversa para mover $R$ al lado izquierdo.",
+    "explanation": "Para despejar el voltaje $V$, la resistencia $R$ que está en el denominador (dividiendo) pasa al otro lado multiplicando a la corriente $I$, de forma que $V = I \\cdot R$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AX",
-    "question": "El área de un rectángulo o paralelogramo se define como $A = b \\cdot h$. Despeja la altura $h$.",
+    "id": "CEP00FP",
+    "question": "Dada la fórmula de la potencia $P = \\frac{W}{t}$, selecciona el despeje correcto para el trabajo $W$.",
     "image": null,
     "options": [
-      { "text": "$h = \\frac{A}{b}$", "correct": true },
-      { "text": "$h = A \\cdot b$", "correct": false },
-      { "text": "$h = \\frac{b}{A}$", "correct": false },
-      { "text": "$h = A - b$", "correct": false }
+      { "text": "$W = P \\cdot t$", "correct": true },
+      { "text": "$W = \\frac{P}{t}$", "correct": false },
+      { "text": "$W = \\frac{t}{P}$", "correct": false },
+      { "text": "$W = P + t$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La base $b$ es un factor, aplícale la propiedad de cociente en el otro extremo.",
-    "explanation": "Pasando la base $b$ dividiendo del otro lado de la ecuación obtenemos el valor directo de la altura: $h = \\frac{A}{b}$.",
+    "hint": "La variable de tiempo $t$ se encuentra en el divisor, por lo que debes transponerla con la operación recíproca.",
+    "explanation": "Al estar el tiempo $t$ dividiendo al trabajo $W$, pasa al otro miembro de la ecuación multiplicando a la potencia $P$, dando como resultado $W = P \\cdot t$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AY",
-    "question": "El perímetro de un rectángulo es $P = 2L + 2W$. Despeja la longitud $L$.",
+    "id": "CEP00FQ",
+    "question": "De la ecuación de densidad $\\rho = \\frac{m}{V}$, ¿cómo queda despejada la masa $m$?",
     "image": null,
     "options": [
-      { "text": "$L = \\frac{P - 2W}{2}$", "correct": true },
-      { "text": "$L = \\frac{P}{2} - 2W$", "correct": false },
-      { "text": "$L = P - W$", "correct": false },
-      { "text": "$L = \\frac{P + 2W}{2}$", "correct": false }
+      { "text": "$m = \\rho \\cdot V$", "correct": true },
+      { "text": "$m = \\frac{V}{\\rho}$", "correct": false },
+      { "text": "$m = \\frac{\\rho}{V}$", "correct": false },
+      { "text": "$m = \\rho + V$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Resta primero todo el término del ancho ($2W$) y después quita el factor 2 de $L$.",
-    "explanation": "Restamos $2W$ en ambos lados: $P - 2W = 2L$. Por último, dividimos toda la expresión entre el número $2$ resultando en $L = \\frac{P - 2W}{2}$.",
+    "hint": "Para dejar la masa sola en su lado de la igualdad, analiza qué operación está realizando el volumen $V$ y pásalo haciendo lo contrario.",
+    "explanation": "El volumen $V$ está como denominador dividiendo a la masa. Pasa multiplicando a la densidad $\\rho$, obteniendo $m = \\rho \\cdot V$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00AZ",
-    "question": "A partir de la fórmula del área de un círculo $A = \\pi r^2$, despeja el radio $r$.",
+    "id": "CEP00FR",
+    "question": "Dada la ecuación de la recta $y = mx + b$, encuentra el despeje de la ordenada al origen $b$.",
     "image": null,
     "options": [
-      { "text": "$r = \\sqrt{\\frac{A}{\\pi}}$", "correct": true },
-      { "text": "$r = \\frac{A}{\\pi}$", "correct": false },
-      { "text": "$r = \\frac{\\sqrt{A}}{\\pi}$", "correct": false },
-      { "text": "$r = \\left(\\frac{A}{\\pi}\\right)^2$", "correct": false }
+      { "text": "$b = y - mx$", "correct": true },
+      { "text": "$b = y + mx$", "correct": false },
+      { "text": "$b = mx - y$", "correct": false },
+      { "text": "$b = \\frac{y}{mx}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Primero pasa dividiendo el número pi. Para eliminar un cuadrado, aplica una raíz cuadrada.",
-    "explanation": "Al dividir entre $\\pi$, queda $r^2 = \\frac{A}{\\pi}$. Para quitar el exponente cuadrático se aplica la raíz cuadrada en ambos lados: $r = \\sqrt{\\frac{A}{\\pi}}$.",
+    "hint": "El término $mx$ está sumando a la variable $b$. Pásalo completo al otro lado de la ecuación.",
+    "explanation": "Para despejar $b$, debes restar el término $mx$ en ambos lados de la ecuación, lo que equivale a pasarlo restando: $b = y - mx$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BA",
-    "question": "Dada la famosa ecuación de Einstein $E = mc^2$, despeja la masa $m$.",
+    "id": "CEP00FS",
+    "question": "De la fórmula del perímetro de una circunferencia $C = \\pi \\cdot d$, despeja el diámetro $d$.",
+    "image": null,
+    "options": [
+      { "text": "$d = \\frac{C}{\\pi}$", "correct": true },
+      { "text": "$d = C \\cdot \\pi$", "correct": false },
+      { "text": "$d = \\frac{\\pi}{C}$", "correct": false },
+      { "text": "$d = C - \\pi$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La constante $\\pi$ multiplica al diámetro $d$. Recuerda que $\\pi$ funciona matemáticamente como cualquier otro valor numérico.",
+    "explanation": "Dado que $\\pi$ multiplica a $d$, debe pasarse al lado opuesto dividiendo a la circunferencia $C$, de modo que el diámetro es $d = \\frac{C}{\\pi}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00FT",
+    "question": "A partir de la ecuación de equivalencia entre masa y energía $E = mc^2$, ¿cómo queda la masa $m$ despejada?",
     "image": null,
     "options": [
       { "text": "$m = \\frac{E}{c^2}$", "correct": true },
-      { "text": "$m = \\frac{E}{c}$", "correct": false },
       { "text": "$m = E \\cdot c^2$", "correct": false },
-      { "text": "$m = \\sqrt{\\frac{E}{c}}$", "correct": false }
+      { "text": "$m = \\frac{c^2}{E}$", "correct": false },
+      { "text": "$m = \\frac{E}{c}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El término completo $c^2$ funge como un factor, no es necesario sacar raíces.",
-    "explanation": "Como la constante de la velocidad de la luz al cuadrado ($c^2$) multiplica a $m$, ésta debe pasar dividiendo por completo al lado de $E$, resultando $m = \\frac{E}{c^2}$.",
+    "hint": "El término $c^2$ actúa como un solo valor multiplicando a la masa $m$. Muévelo en su conjunto hacia el lado de la energía $E$.",
+    "explanation": "El factor $c^2$ se encuentra multiplicando a la masa $m$, por consiguiente, al despejar se transpone dividiendo al lado izquierdo, resultando en $m = \\frac{E}{c^2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BB",
-    "question": "De la misma ecuación $E = mc^2$, despeja ahora la constante $c$.",
+    "id": "CEP00FU",
+    "question": "Del Teorema de Pitágoras $a^2 + b^2 = c^2$, encuentra el despeje correcto para el cuadrado del cateto $a^2$.",
     "image": null,
     "options": [
-      { "text": "$c = \\sqrt{\\frac{E}{m}}$", "correct": true },
-      { "text": "$c = \\frac{E}{m}$", "correct": false },
-      { "text": "$c = \\left(\\frac{E}{m}\\right)^2$", "correct": false },
-      { "text": "$c = \\frac{\\sqrt{E}}{m}$", "correct": false }
+      { "text": "$a^2 = c^2 - b^2$", "correct": true },
+      { "text": "$a^2 = c^2 + b^2$", "correct": false },
+      { "text": "$a^2 = (c - b)^2$", "correct": false },
+      { "text": "$a^2 = \\frac{c^2}{b^2}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Pasa la masa $m$ dividiendo, luego elimina el exponente aplicando la operación de raíz.",
-    "explanation": "Primero, se divide la energía $E$ entre la masa $m$ obteniendo $c^2 = \\frac{E}{m}$. Luego se aplica raíz cuadrada a ambos términos dando como resultado final $c = \\sqrt{\\frac{E}{m}}$.",
+    "hint": "El término $b^2$ está realizando una suma. Mueve el término completo a la derecha para dejar solo al $a^2$.",
+    "explanation": "Para aislar $a^2$, se debe restar $b^2$ de ambos lados de la ecuación. Así obtenemos el despeje $a^2 = c^2 - b^2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BC",
-    "question": "A partir del Teorema de Pitágoras $c^2 = a^2 + b^2$, encuentra el despeje correcto para el cateto $a$.",
+    "id": "CEP00FV",
+    "question": "Tomando la fórmula de la velocidad $v = \\frac{d}{t}$, despeja correctamente el tiempo $t$.",
     "image": null,
     "options": [
-      { "text": "$a = \\sqrt{c^2 - b^2}$", "correct": true },
-      { "text": "$a = \\sqrt{c^2 + b^2}$", "correct": false },
-      { "text": "$a = c - b$", "correct": false },
-      { "text": "$a = c^2 - b^2$", "correct": false }
+      { "text": "$t = \\frac{d}{v}$", "correct": true },
+      { "text": "$t = \\frac{v}{d}$", "correct": false },
+      { "text": "$t = d \\cdot v$", "correct": false },
+      { "text": "$t = v - d$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Resta el cuadrado del otro cateto, y después calcula la raíz cuadrada al resultado global.",
-    "explanation": "Al restar $b^2$ en ambos lados, tenemos $a^2 = c^2 - b^2$. Posteriormente sacamos la raíz cuadrada para eliminar el exponente de $a$, obteniendo $a = \\sqrt{c^2 - b^2}$.",
+    "hint": "Este es un despeje de dos pasos. Primero pasa $t$ multiplicando a $v$, y después pasa $v$ dividiendo.",
+    "explanation": "Primero multiplicamos ambos lados por $t$ para sacarlo del denominador, quedando $v \\cdot t = d$. Luego, dividimos entre $v$ resultando en $t = \\frac{d}{v}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BD",
-    "question": "La Ley de Ohm establece que el voltaje es igual al producto de corriente por resistencia: $V = I \\cdot R$. Despeja la corriente $I$.",
-    "image": null,
-    "options": [
-      { "text": "$I = \\frac{V}{R}$", "correct": true },
-      { "text": "$I = V \\cdot R$", "correct": false },
-      { "text": "$I = \\frac{R}{V}$", "correct": false },
-      { "text": "$I = V - R$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "La resistencia $R$ estorba a la intensidad $I$, divídela del otro lado de la igualdad.",
-    "explanation": "Pasando el valor de la resistencia $R$ con la operación inversa (división) respecto a $V$, resulta que $I = \\frac{V}{R}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BE",
-    "question": "Usando la misma Ley de Ohm ($V = I \\cdot R$), ¿cómo quedaría la fórmula despejada para la resistencia $R$?",
+    "id": "CEP00FW",
+    "question": "De la expresión $I = \\frac{V}{R}$, despeja la resistencia $R$.",
     "image": null,
     "options": [
       { "text": "$R = \\frac{V}{I}$", "correct": true },
-      { "text": "$R = \\frac{I}{V}$", "correct": false },
       { "text": "$R = V \\cdot I$", "correct": false },
-      { "text": "$R = I - V$", "correct": false }
+      { "text": "$R = \\frac{I}{V}$", "correct": false },
+      { "text": "$R = V + I$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Ahora es la corriente $I$ la que debe pasar a dividir debajo del voltaje $V$.",
-    "explanation": "Al multiplicar la corriente a $R$, la podemos despejar simplemente mandando la variable $I$ dividiendo hacia el lado del voltaje: $R = \\frac{V}{I}$.",
+    "hint": "Sigue los dos pasos lógicos: multiplicar ambos miembros por la variable que deseas despejar y luego quitar lo que le estorba.",
+    "explanation": "Al multiplicar por $R$ se obtiene $I \\cdot R = V$. Posteriormente, para dejar sola a $R$, se divide entre $I$, llegando a $R = \\frac{V}{I}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BF",
-    "question": "La fórmula para calcular calor específico está dada por $Q = mc\\Delta T$. Despeja la variación de temperatura $\\Delta T$.",
+    "id": "CEP00FX",
+    "question": "De la fórmula de la densidad $\\rho = \\frac{m}{V}$, ¿cuál es el despeje del volumen $V$?",
     "image": null,
     "options": [
-      { "text": "$\\Delta T = \\frac{Q}{mc}$", "correct": true },
-      { "text": "$\\Delta T = Q \\cdot mc$", "correct": false },
-      { "text": "$\\Delta T = \\frac{mc}{Q}$", "correct": false },
-      { "text": "$\\Delta T = Q - mc$", "correct": false }
+      { "text": "$V = \\frac{m}{\\rho}$", "correct": true },
+      { "text": "$V = \\rho \\cdot m$", "correct": false },
+      { "text": "$V = \\frac{\\rho}{m}$", "correct": false },
+      { "text": "$V = m - \\rho$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El producto de la masa por el calor específico ($mc$) actúa como un solo bloque que multiplica a $\\Delta T$.",
-    "explanation": "Los términos $m$ y $c$ están multiplicando a $\\Delta T$, por lo tanto, pueden pasar juntos dividiendo a la carga térmica $Q$, dando como resultado $\\Delta T = \\frac{Q}{mc}$.",
+    "hint": "No puedes despejar directamente una variable si se encuentra en el denominador. Pásala al lado contrario primero.",
+    "explanation": "Se requiere mover $V$ del denominador, por lo que pasa multiplicando: $\\rho \\cdot V = m$. Luego, la densidad $\\rho$ pasa dividiendo a la masa, quedando $V = \\frac{m}{\\rho}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BG",
-    "question": "La energía cinética se calcula mediante la fórmula $E_k = \\frac{1}{2}mv^2$. Despeja la masa $m$.",
+    "id": "CEP00FY",
+    "question": "Dada la ecuación de la recta $y = mx + b$, despeja la variable $x$.",
     "image": null,
     "options": [
-      { "text": "$m = \\frac{2E_k}{v^2}$", "correct": true },
-      { "text": "$m = \\frac{E_k}{2v^2}$", "correct": false },
-      { "text": "$m = \\frac{2E_k}{v}$", "correct": false },
-      { "text": "$m = 2E_k \\cdot v^2$", "correct": false }
+      { "text": "$x = \\frac{y - b}{m}$", "correct": true },
+      { "text": "$x = \\frac{y + b}{m}$", "correct": false },
+      { "text": "$x = y - b - m$", "correct": false },
+      { "text": "$x = \\frac{b - y}{m}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Pasa el 2 que divide a multiplicar, y la variable de velocidad al cuadrado divídela.",
-    "explanation": "Primero multiplicamos ambos lados por 2, obteniendo $2E_k = mv^2$. Luego, pasamos la velocidad al cuadrado dividiendo, lo que arroja $m = \\frac{2E_k}{v^2}$.",
+    "hint": "Empieza por aislar el término que contiene a la $x$ moviendo a $b$, y finalmente encárgate de $m$.",
+    "explanation": "Primero, la ordenada $b$ pasa restando: $y - b = mx$. Luego, la pendiente $m$ que está multiplicando a $x$, pasa dividiendo a todo el lado izquierdo, por lo que $x = \\frac{y - b}{m}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BH",
-    "question": "A partir de la ecuación de energía cinética $E_k = \\frac{1}{2}mv^2$, encuentra el despeje de la velocidad $v$.",
+    "id": "CEP00FZ",
+    "question": "A partir de la ecuación del movimiento rectilíneo uniformemente acelerado $v_f = v_i + at$, despeja la velocidad inicial $v_i$.",
     "image": null,
     "options": [
-      { "text": "$v = \\sqrt{\\frac{2E_k}{m}}$", "correct": true },
-      { "text": "$v = \\frac{2E_k}{m}$", "correct": false },
-      { "text": "$v = \\sqrt{\\frac{E_k}{2m}}$", "correct": false },
-      { "text": "$v = \\left(\\frac{2E_k}{m}\\right)^2$", "correct": false }
+      { "text": "$v_i = v_f - at$", "correct": true },
+      { "text": "$v_i = v_f + at$", "correct": false },
+      { "text": "$v_i = \\frac{v_f - a}{t}$", "correct": false },
+      { "text": "$v_i = \\frac{v_f}{at}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Después de despejar $v^2$, emplea la raíz cuadrada para llegar a la respuesta.",
-    "explanation": "Multiplicando por 2 y dividiendo entre $m$, tenemos que $v^2 = \\frac{2E_k}{m}$. Aplicando raíz cuadrada a ambos lados, el resultado es $v = \\sqrt{\\frac{2E_k}{m}}$.",
+    "hint": "Identifica al bloque completo $at$ como un solo término que está sumando a la variable objetivo.",
+    "explanation": "El producto $at$ es un término que está sumando a $v_i$. Para despejar, simplemente pasamos todo el término $at$ restando al lado de $v_f$, obteniendo $v_i = v_f - at$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BI",
-    "question": "En el MRUV, la ecuación para la velocidad final es $v_f = v_i + at$. Despeja la aceleración $a$.",
-    "image": null,
-    "options": [
-      { "text": "$a = \\frac{v_f - v_i}{t}$", "correct": true },
-      { "text": "$a = \\frac{v_f + v_i}{t}$", "correct": false },
-      { "text": "$a = \\frac{t}{v_f - v_i}$", "correct": false },
-      { "text": "$a = (v_f - v_i) \\cdot t$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Agrupa primero las velocidades restando $v_i$ y finalmente quita la variable del tiempo.",
-    "explanation": "Restando la velocidad inicial obtenemos $v_f - v_i = at$. Dividiendo ambos lados entre el tiempo resulta $a = \\frac{v_f - v_i}{t}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BJ",
-    "question": "De la misma ecuación de movimiento $v_f = v_i + at$, despeja ahora la variable para el tiempo $t$.",
+    "id": "CEP00GA",
+    "question": "De la misma fórmula $v_f = v_i + at$, despeja ahora el tiempo $t$.",
     "image": null,
     "options": [
       { "text": "$t = \\frac{v_f - v_i}{a}$", "correct": true },
@@ -3236,44 +2912,368 @@
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Resta la velocidad inicial y luego pasa la aceleración a dividir el conjunto de velocidades.",
-    "explanation": "Se resta la velocidad inicial de la final: $v_f - v_i = at$. Posteriormente pasamos el término de aceleración $a$ dividiendo del otro lado, obteniendo $t = \\frac{v_f - v_i}{a}$.",
+    "hint": "Primero resta la velocidad inicial en el otro lado para aislar el término que contiene al tiempo, después divide.",
+    "explanation": "Paso 1: Transponer $v_i$ restando, $v_f - v_i = at$. Paso 2: La aceleración $a$ que multiplica al tiempo se transpone dividiendo a todo el lado izquierdo, quedando $t = \\frac{v_f - v_i}{a}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BK",
-    "question": "Otra ecuación del MRUV es $v_f^2 = v_i^2 + 2ad$. Despeja la distancia $d$.",
+    "id": "CEP00GB",
+    "question": "Dada el área de un triángulo $A = \\frac{b \\cdot h}{2}$, despeja la altura $h$.",
+    "image": null,
+    "options": [
+      { "text": "$h = \\frac{2A}{b}$", "correct": true },
+      { "text": "$h = \\frac{A}{2b}$", "correct": false },
+      { "text": "$h = 2A + b$", "correct": false },
+      { "text": "$h = \\frac{2A}{b^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El $2$ está en el denominador general. Comienza pasándolo al otro lado multiplicando.",
+    "explanation": "El divisor $2$ pasa al otro lado de la igualdad multiplicando al área, obteniendo $2A = b \\cdot h$. Finalmente, la base $b$ pasa dividiendo, logrando $h = \\frac{2A}{b}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GC",
+    "question": "Para la fórmula del perímetro de un rectángulo $P = 2L + 2W$, despeja el ancho $W$.",
+    "image": null,
+    "options": [
+      { "text": "$W = \\frac{P - 2L}{2}$", "correct": true },
+      { "text": "$W = \\frac{P + 2L}{2}$", "correct": false },
+      { "text": "$W = P - L$", "correct": false },
+      { "text": "$W = 2P - 2L$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa el término $2L$ completo al otro lado, y por último maneja el factor que multiplica a la variable deseada.",
+    "explanation": "El término $2L$ se resta de ambos lados: $P - 2L = 2W$. Luego, el $2$ que multiplica a $W$ se pasa dividiendo a toda la expresión izquierda, por lo que $W = \\frac{P - 2L}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GD",
+    "question": "A partir de la ecuación de la energía cinética $E_k = \\frac{1}{2}mv^2$, despeja la masa $m$.",
+    "image": null,
+    "options": [
+      { "text": "$m = \\frac{2E_k}{v^2}$", "correct": true },
+      { "text": "$m = \\frac{E_k}{2v^2}$", "correct": false },
+      { "text": "$m = 2E_k \\cdot v^2$", "correct": false },
+      { "text": "$m = \\frac{v^2}{2E_k}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fracción $\\frac{1}{2}$ equivale a dividir todo entre $2$. Empieza resolviendo esa fracción y luego la velocidad al cuadrado.",
+    "explanation": "Multiplicamos por $2$ para eliminar la fracción, quedando $2E_k = m \\cdot v^2$. Luego, la variable $v^2$ pasa dividiendo a la parte izquierda, resultando $m = \\frac{2E_k}{v^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GE",
+    "question": "Usando de nuevo $E_k = \\frac{1}{2}mv^2$, ahora despeja la velocidad $v$.",
+    "image": null,
+    "options": [
+      { "text": "$v = \\sqrt{\\frac{2E_k}{m}}$", "correct": true },
+      { "text": "$v = \\frac{2E_k}{m}$", "correct": false },
+      { "text": "$v = \\sqrt{\\frac{E_k}{2m}}$", "correct": false },
+      { "text": "$v = \\sqrt{\\frac{m}{2E_k}}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza los mismos pasos que para despejar la masa, y al final aplica una raíz cuadrada a ambos lados para cancelar el exponente cuadrático.",
+    "explanation": "Al igual que el despeje anterior, partimos de $v^2 = \\frac{2E_k}{m}$. Para eliminar el exponente $2$, aplicamos raíz cuadrada en ambos términos: $v = \\sqrt{\\frac{2E_k}{m}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GF",
+    "question": "De la energía potencial gravitatoria $E_p = mgh$, despeja la altura $h$.",
+    "image": null,
+    "options": [
+      { "text": "$h = \\frac{E_p}{mg}$", "correct": true },
+      { "text": "$h = \\frac{mg}{E_p}$", "correct": false },
+      { "text": "$h = E_p \\cdot m \\cdot g$", "correct": false },
+      { "text": "$h = E_p - m \\cdot g$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los términos $m$ y $g$ están multiplicando a $h$ simultáneamente. Puedes agruparlos y moverlos en un solo paso.",
+    "explanation": "Como la masa $m$ y la gravedad $g$ están multiplicando a la altura $h$, ambas pueden pasar juntas al otro lado dividiendo a la energía potencial, resultando $h = \\frac{E_p}{mg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GG",
+    "question": "Con la fórmula de conversión de temperatura $C = \\frac{5}{9}(F - 32)$, encuentra el despeje para los grados Fahrenheit $F$.",
+    "image": null,
+    "options": [
+      { "text": "$F = \\frac{9C}{5} + 32$", "correct": true },
+      { "text": "$F = \\frac{5C}{9} + 32$", "correct": false },
+      { "text": "$F = \\frac{9}{5}(C + 32)$", "correct": false },
+      { "text": "$F = \\frac{9C}{5} - 32$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina primero la fracción multiplicando por su recíproco y, finalmente, elimina el número que está restando a $F$.",
+    "explanation": "Primero, se pasa el $9$ multiplicando y el $5$ dividiendo, resultando en $\\frac{9C}{5} = F - 32$. Luego, el $32$ pasa sumando al otro lado, obteniendo $F = \\frac{9C}{5} + 32$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GH",
+    "question": "De la fórmula del área de un círculo $A = \\pi r^2$, despeja el radio $r$.",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{A}{\\pi}}$", "correct": true },
+      { "text": "$r = \\frac{A}{\\pi}$", "correct": false },
+      { "text": "$r = \\left(\\frac{A}{\\pi}\\right)^2$", "correct": false },
+      { "text": "$r = \\frac{\\pi}{A}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se requiere una raíz cuadrada para eliminar una potencia cuadrática, pero antes debes quitar la constante $\\pi$.",
+    "explanation": "La constante $\\pi$ pasa dividiendo: $\\frac{A}{\\pi} = r^2$. A continuación, se extrae la raíz cuadrada en ambos miembros de la ecuación, obteniendo $r = \\sqrt{\\frac{A}{\\pi}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GI",
+    "question": "Dada la relación $c^2 = a^2 + b^2$, ¿cuál es el despeje directo del cateto $a$?",
+    "image": null,
+    "options": [
+      { "text": "$a = \\sqrt{c^2 - b^2}$", "correct": true },
+      { "text": "$a = c - b$", "correct": false },
+      { "text": "$a = \\sqrt{c^2 + b^2}$", "correct": false },
+      { "text": "$a = c^2 - b^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa $b^2$ con su operación inversa y luego aplica la propiedad de las raíces cuadradas a toda la expresión obtenida.",
+    "explanation": "Pasamos el término $b^2$ restando, obteniendo $a^2 = c^2 - b^2$. Posteriormente, sacamos la raíz cuadrada a toda la expresión de la derecha: $a = \\sqrt{c^2 - b^2}$. Es un error común creer que $\\sqrt{c^2 - b^2} = c - b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GJ",
+    "question": "En cinemática se usa $v_f^2 = v_i^2 + 2ad$. Despeja la distancia $d$.",
     "image": null,
     "options": [
       { "text": "$d = \\frac{v_f^2 - v_i^2}{2a}$", "correct": true },
       { "text": "$d = \\frac{v_f^2 + v_i^2}{2a}$", "correct": false },
-      { "text": "$d = \\sqrt{\\frac{v_f^2 - v_i^2}{2a}}$", "correct": false },
-      { "text": "$d = \\frac{v_f - v_i}{2a}$", "correct": false }
+      { "text": "$d = \\frac{(v_f - v_i)^2}{2a}$", "correct": false },
+      { "text": "$d = \\frac{2a}{v_f^2 - v_i^2}$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Cuidado con los exponentes cuadráticos, mantenlos en el numerador durante la resta.",
-    "explanation": "Al restar $v_i^2$ de ambos lados queda $v_f^2 - v_i^2 = 2ad$. Como el factor $2a$ multiplica a la distancia, éste debe pasar dividiendo: $d = \\frac{v_f^2 - v_i^2}{2a}$.",
+    "hint": "Hazlo por jerarquía. Transpone primero el término libre $v_i^2$ y al final los factores $2a$ que multiplican a tu variable de interés.",
+    "explanation": "El término completo $v_i^2$ pasa restando, lo que da $v_f^2 - v_i^2 = 2ad$. Posteriormente, el grupo $2a$ que está multiplicando a $d$ pasa dividiendo, resultando $d = \\frac{v_f^2 - v_i^2}{2a}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00BL",
-    "question": "En un péndulo simple, el periodo se define con la fórmula $T = 2\\pi \\sqrt{\\frac{L}{g}}$. Despeja la longitud $L$.",
+    "id": "CEP00GK",
+    "question": "A partir de la ecuación de transferencia de calor $Q = mc(T_f - T_i)$, despeja la temperatura final $T_f$.",
     "image": null,
     "options": [
-      { "text": "$L = g \\left(\\frac{T}{2\\pi}\\right)^2$", "correct": true },
-      { "text": "$L = \\frac{g T^2}{2\\pi}$", "correct": false },
-      { "text": "$L = \\sqrt{\\frac{g T}{2\\pi}}$", "correct": false },
-      { "text": "$L = g \\left(\\frac{2\\pi}{T}\\right)^2$", "correct": false }
+      { "text": "$T_f = \\frac{Q}{mc} + T_i$", "correct": true },
+      { "text": "$T_f = \\frac{Q + T_i}{mc}$", "correct": false },
+      { "text": "$T_f = \\frac{mc}{Q} + T_i$", "correct": false },
+      { "text": "$T_f = \\frac{Q}{mc} - T_i$", "correct": false }
     ],
     "uni_tags": ["MATEMÁTICAS"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Despeja la raíz dividiendo entre $2\\pi$, después eleva al cuadrado todo para quitar dicha raíz.",
-    "explanation": "Dividiendo por $2\\pi$ tenemos $\\frac{T}{2\\pi} = \\sqrt{\\frac{L}{g}}$. Elevando ambos lados al cuadrado obtenemos $\\left(\\frac{T}{2\\pi}\\right)^2 = \\frac{L}{g}$. Finalmente, pasamos $g$ multiplicando: $L = g \\left(\\frac{T}{2\\pi}\\right)^2$.",
+    "hint": "Considera el paréntesis como una sola variable al inicio. Mueve el bloque $mc$ y después desarma el paréntesis.",
+    "explanation": "El producto $mc$ multiplica al paréntesis completo, por lo que pasa dividiendo al calor: $\\frac{Q}{mc} = T_f - T_i$. Luego, $T_i$ que está restando, pasa sumando. $T_f = \\frac{Q}{mc} + T_i$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GL",
+    "question": "De la Ley de Gravitación Universal $F = G\\frac{m_1 m_2}{r^2}$, determina el despeje de la masa $m_1$.",
+    "image": null,
+    "options": [
+      { "text": "$m_1 = \\frac{F \\cdot r^2}{G \\cdot m_2}$", "correct": true },
+      { "text": "$m_1 = \\frac{G \\cdot m_2}{F \\cdot r^2}$", "correct": false },
+      { "text": "$m_1 = \\frac{F}{G \\cdot m_2 \\cdot r^2}$", "correct": false },
+      { "text": "$m_1 = F \\cdot G \\cdot m_2 \\cdot r^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Quita primero el divisor $r^2$ y luego agrupa las variables que quedan multiplicando a $m_1$.",
+    "explanation": "La distancia al cuadrado $r^2$ pasa multiplicando: $F \\cdot r^2 = G \\cdot m_1 \\cdot m_2$. Los factores $G$ y $m_2$ multiplican a $m_1$, así que pasan dividiendo al lado izquierdo, dando $m_1 = \\frac{F \\cdot r^2}{G \\cdot m_2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GM",
+    "question": "Utilizando nuevamente $F = G\\frac{m_1 m_2}{r^2}$, despeja el cuadrado de la distancia, es decir, la distancia $r$.",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{G \\cdot m_1 \\cdot m_2}{F}}$", "correct": true },
+      { "text": "$r = \\frac{G \\cdot m_1 \\cdot m_2}{F}$", "correct": false },
+      { "text": "$r = \\sqrt{\\frac{F}{G \\cdot m_1 \\cdot m_2}}$", "correct": false },
+      { "text": "$r = G \\cdot m_1 \\cdot m_2 \\cdot F$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al estar $r^2$ en el denominador, tu primer objetivo es multiplicarlo al otro lado de la igualdad para sacarlo de ahí.",
+    "explanation": "El denominador $r^2$ pasa multiplicando a la fuerza: $F \\cdot r^2 = G \\cdot m_1 \\cdot m_2$. La fuerza $F$ pasa dividiendo, logrando $r^2 = \\frac{G \\cdot m_1 \\cdot m_2}{F}$. Se finaliza sacando raíz cuadrada a ambos lados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GN",
+    "question": "Dada la ecuación de los gases ideales $PV = nRT$, despeja la temperatura $T$.",
+    "image": null,
+    "options": [
+      { "text": "$T = \\frac{PV}{nR}$", "correct": true },
+      { "text": "$T = \\frac{nR}{PV}$", "correct": false },
+      { "text": "$T = PV - nR$", "correct": false },
+      { "text": "$T = P \\cdot V \\cdot n \\cdot R$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las variables $n$ y $R$ están realizando la misma operación matemática respecto a $T$.",
+    "explanation": "Las constantes $n$ y $R$ multiplican directamente a la temperatura $T$. Por lo tanto, se pasan de forma agrupada dividiendo al término $PV$, quedando $T = \\frac{PV}{nR}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GO",
+    "question": "De la misma ecuación de estado $PV = nRT$, despeja ahora la cantidad de sustancia o número de moles $n$.",
+    "image": null,
+    "options": [
+      { "text": "$n = \\frac{PV}{RT}$", "correct": true },
+      { "text": "$n = \\frac{RT}{PV}$", "correct": false },
+      { "text": "$n = PV - RT$", "correct": false },
+      { "text": "$n = \\frac{P \\cdot V}{R}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El procedimiento es idéntico al que usarías para despejar la temperatura, pero modificando las variables que actúan como estorbo.",
+    "explanation": "Al igual que en el caso previo, los términos $R$ y $T$ se encuentran multiplicando a $n$. Su transposición se efectúa dividiendo al bloque izquierdo, dando lugar a $n = \\frac{PV}{RT}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GP",
+    "question": "Partiendo de la Ley General de los Gases $\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}$, determina el despeje de la temperatura final $T_2$.",
+    "image": null,
+    "options": [
+      { "text": "$T_2 = \\frac{P_2 \\cdot V_2 \\cdot T_1}{P_1 \\cdot V_1}$", "correct": true },
+      { "text": "$T_2 = \\frac{P_1 \\cdot V_1}{P_2 \\cdot V_2 \\cdot T_1}$", "correct": false },
+      { "text": "$T_2 = \\frac{P_1 \\cdot V_1 \\cdot T_1}{P_2 \\cdot V_2}$", "correct": false },
+      { "text": "$T_2 = \\frac{P_2 \\cdot V_2 + T_1}{P_1 \\cdot V_1}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la técnica de multiplicación cruzada (o producto en aspa) para eliminar todas las fracciones de un solo golpe.",
+    "explanation": "Multiplicando de manera cruzada: $P_1 \\cdot V_1 \\cdot T_2 = P_2 \\cdot V_2 \\cdot T_1$. Para dejar sola a la variable $T_2$, el bloque $P_1 \\cdot V_1$ que la multiplica pasa dividiendo: $T_2 = \\frac{P_2 \\cdot V_2 \\cdot T_1}{P_1 \\cdot V_1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GQ",
+    "question": "En la fórmula del periodo de un péndulo $T = 2\\pi \\sqrt{\\frac{L}{g}}$, despeja la longitud $L$.",
+    "image": null,
+    "options": [
+      { "text": "$L = \\frac{T^2 \\cdot g}{4\\pi^2}$", "correct": true },
+      { "text": "$L = \\frac{T^2}{4\\pi^2 \\cdot g}$", "correct": false },
+      { "text": "$L = \\frac{T \\cdot g}{2\\pi}$", "correct": false },
+      { "text": "$L = \\frac{2\\pi \\cdot T}{g}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja primero la raíz aislando la parte radical, eleva todo al cuadrado para cancelar dicha raíz, y luego aísla $L$.",
+    "explanation": "El factor $2\\pi$ pasa dividiendo: $\\frac{T}{2\\pi} = \\sqrt{\\frac{L}{g}}$. Elevamos ambos lados al cuadrado: $\\frac{T^2}{4\\pi^2} = \\frac{L}{g}$. Finalmente, la gravedad $g$ que divide a $L$, pasa multiplicando: $L = \\frac{T^2 \\cdot g}{4\\pi^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GR",
+    "question": "Con base en la fórmula del péndulo simple $T = 2\\pi \\sqrt{\\frac{L}{g}}$, despeja la gravedad $g$.",
+    "image": null,
+    "options": [
+      { "text": "$g = \\frac{4\\pi^2 L}{T^2}$", "correct": true },
+      { "text": "$g = \\frac{T^2}{4\\pi^2 L}$", "correct": false },
+      { "text": "$g = \\frac{2\\pi L}{T}$", "correct": false },
+      { "text": "$g = \\frac{4\\pi^2 T^2}{L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como en el ejercicio anterior, debes elevar al cuadrado antes de poder mover a la $g$. Recuerda que $g$ se encuentra dividiendo dentro del radical.",
+    "explanation": "Al quitar el radical elevando al cuadrado, se tiene $\\frac{T^2}{4\\pi^2} = \\frac{L}{g}$. Como $g$ está en el denominador, pasa multiplicando: $g \\cdot \\frac{T^2}{4\\pi^2} = L$. Por último, invertimos la fracción para despejar: $g = \\frac{4\\pi^2 L}{T^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GS",
+    "question": "De la fórmula de la suma de una progresión aritmética $S = \\frac{n(a_1 + a_n)}{2}$, despeja el último término $a_n$.",
+    "image": null,
+    "options": [
+      { "text": "$a_n = \\frac{2S}{n} - a_1$", "correct": true },
+      { "text": "$a_n = \\frac{S \\cdot n}{2} - a_1$", "correct": false },
+      { "text": "$a_n = \\frac{2S}{n} + a_1$", "correct": false },
+      { "text": "$a_n = \\frac{S}{2n} - a_1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Destruye la estructura fraccionaria primero, pasa dividiendo el factor $n$ y, en el último paso, extrae el término del paréntesis.",
+    "explanation": "El denominador $2$ pasa multiplicando: $2S = n(a_1 + a_n)$. A continuación, la $n$ pasa dividiendo: $\\frac{2S}{n} = a_1 + a_n$. Finalmente, se pasa $a_1$ restando para aislar la incógnita: $a_n = \\frac{2S}{n} - a_1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GT",
+    "question": "Dada la ecuación de desplazamiento $d = v_i t + \\frac{1}{2}at^2$, proporciona el despeje de la aceleración $a$.",
+    "image": null,
+    "options": [
+      { "text": "$a = \\frac{2(d - v_i \\cdot t)}{t^2}$", "correct": true },
+      { "text": "$a = \\frac{d - v_i \\cdot t}{2t^2}$", "correct": false },
+      { "text": "$a = \\frac{2d - v_i \\cdot t}{t^2}$", "correct": false },
+      { "text": "$a = \\frac{d - v_i \\cdot t}{t^2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero envía el término $v_i t$ restando, y después deshazte de los elementos numéricos y de la variable $t^2$ que conforman el segundo término.",
+    "explanation": "Pasamos restando el primer término al lado de la distancia: $d - v_i t = \\frac{1}{2}at^2$. El factor $\\frac{1}{2}$ pasa al lado izquierdo multiplicando todo el bloque por $2$, obteniendo $2(d - v_i t) = at^2$. Por último, el tiempo al cuadrado pasa dividiendo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GU",
+    "question": "A partir de la ecuación del volumen de un cono $V = \\frac{1}{3}\\pi r^2 h$, ¿cuál es el despeje correcto para el radio de la base $r$?",
+    "image": null,
+    "options": [
+      { "text": "$r = \\sqrt{\\frac{3V}{\\pi h}}$", "correct": true },
+      { "text": "$r = \\frac{3V}{\\pi h}$", "correct": false },
+      { "text": "$r = \\sqrt{\\frac{V}{3\\pi h}}$", "correct": false },
+      { "text": "$r = \\frac{\\sqrt{3V}}{\\pi h}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve primero la fracción enviando el divisor al otro lado. Luego reúne los coeficientes que acompañan al término cuadrático y sepáralos en bloque.",
+    "explanation": "Multiplicando todo por $3$, tenemos $3V = \\pi r^2 h$. El conjunto de variables $\\pi h$ pasa dividiendo de manera íntegra, quedando $r^2 = \\frac{3V}{\\pi h}$. Finalmente se anula la potencia mediante una raíz cuadrada: $r = \\sqrt{\\frac{3V}{\\pi h}}$.",
     "explanative_video": null,
     "collapsible_text": null
   }
