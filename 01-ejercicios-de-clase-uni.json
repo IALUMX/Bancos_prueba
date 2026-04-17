@@ -36126,5 +36126,437 @@
     "explanation": "El ancho se calcula multiplicando la base por la tangente: $20 \\text{ m} \\cdot \\tan(60^\\circ)$. Puesto que $\\tan(60^\\circ) = \\sqrt{3}$, la respuesta es $20\\sqrt{3} \\text{ m}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02VL",
+    "question": "Resuelve el siguiente límite matemático por factorización: $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la factorización de una diferencia de cuadrados: $a^2 - b^2 = (a - b)(a + b)$.",
+    "explanation": "Al evaluar directamente se obtiene la indeterminación $0/0$. Factorizando el numerador obtenemos $(x - 2)(x + 2)$. Al simplificar el factor común con el denominador, queda $\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VM",
+    "question": "Determina el valor del siguiente límite: $\\lim_{x \\to 3} \\frac{x^2 - x - 6}{x - 3}$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$-1$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca dos números que multiplicados den $-6$ y sumados den $-1$ para factorizar el trinomio de la forma $x^2 + bx + c$.",
+    "explanation": "El numerador se factoriza como $(x - 3)(x + 2)$. Se cancela el término $(x - 3)$ que causa la indeterminación, obteniendo $\\lim_{x \\to 3} (x + 2) = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VN",
+    "question": "Encuentra el límite de la siguiente función racional: $\\lim_{x \\to 1} \\frac{2x^2 + x - 3}{x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el trinomio del numerador de la forma $ax^2 + bx + c = (x - 1)(2x + 3)$.",
+    "explanation": "Al sustituir $x = 1$, resulta $0/0$. Factorizando $2x^2 + x - 3$ se obtiene $(2x + 3)(x - 1)$. Al cancelar el $(x - 1)$ y evaluar en $1$, queda $2(1) + 3 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VO",
+    "question": "Calcula el resultado del límite: $\\lim_{x \\to 2} \\frac{x^3 - 8}{x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la diferencia de cubos: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$.",
+    "explanation": "El numerador es una diferencia de cubos que se factoriza como $(x - 2)(x^2 + 2x + 4)$. Al eliminar $(x - 2)$ y evaluar, obtenemos $(2)^2 + 2(2) + 4 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VP",
+    "question": "Resuelve la siguiente expresión aplicando propiedades de límites: $\\lim_{x \\to 0} \\frac{3x^2 - 5x}{x}$",
+    "image": null,
+    "options": [
+      { "text": "$-5$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el término común en el numerador para eliminar la variable del denominador.",
+    "explanation": "Se factoriza por término común: $x(3x - 5)$. Al simplificar la $x$ del numerador con la del denominador, el límite es $\\lim_{x \\to 0} (3x - 5) = -5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VQ",
+    "question": "Evalúa el límite mediante simplificación algebraica: $\\lim_{x \\to -4} \\frac{x^2 + 8x + 16}{x + 4}$",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador es un trinomio cuadrado perfecto de la forma $(a + b)^2$.",
+    "explanation": "El numerador se factoriza como $(x + 4)^2$. Dividiendo entre $(x + 4)$, queda simplemente $\\lim_{x \\to -4} (x + 4) = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VR",
+    "question": "Determina el valor del límite factorizando ambos polinomios: $\\lim_{x \\to -1} \\frac{x^2 - 1}{x^2 + 3x + 2}$",
+    "image": null,
+    "options": [
+      { "text": "$-2$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$-1$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador como diferencia de cuadrados y el denominador como un producto de binomios.",
+    "explanation": "Numerador: $(x - 1)(x + 1)$. Denominador: $(x + 2)(x + 1)$. Simplificando $(x + 1)$ queda $(x - 1)/(x + 2)$. Evaluando en $-1$ resulta $(-1 - 1)/(-1 + 2) = -2/1 = -2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VS",
+    "question": "Resuelve el límite utilizando factorización por agrupación de términos: $\\lim_{x \\to 1} \\frac{x^3 - x^2 + 2x - 2}{x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los términos del numerador: $x^2(x - 1) + 2(x - 1)$.",
+    "explanation": "Factorizando por agrupación el numerador, se obtiene $(x^2 + 2)(x - 1)$. Al eliminar el denominador $(x - 1)$ y sustituir $x = 1$, resulta $1^2 + 2 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VT",
+    "question": "Calcula el resultado de la siguiente expresión: $\\lim_{x \\to -2} \\frac{x^4 - 16}{x + 2}$",
+    "image": null,
+    "options": [
+      { "text": "$-32$", "correct": true },
+      { "text": "$16$", "correct": false },
+      { "text": "$32$", "correct": false },
+      { "text": "$-16$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica doble diferencia de cuadrados en el numerador: $(x^2 - 4)(x^2 + 4)$.",
+    "explanation": "El numerador $x^4 - 16$ equivale a $(x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4)$. Simplificando $(x + 2)$ nos queda $(x - 2)(x^2 + 4)$. Evaluando en $-2$, tenemos $(-4)(8) = -32$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VU",
+    "question": "Evalúa el siguiente límite algebraico: $\\lim_{x \\to 5} \\frac{x^2 - 25}{x^2 - 6x + 5}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{2}$", "correct": true },
+      { "text": "$10$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza ambos polinomios y elimina el término común $(x - 5)$.",
+    "explanation": "Numerador: $(x - 5)(x + 5)$. Denominador: $(x - 5)(x - 1)$. Simplificando nos queda $(x + 5)/(x - 1)$. Evaluando $x = 5$, obtenemos $10/4$, que equivale a $5/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VV",
+    "question": "Encuentra el valor de: $\\lim_{x \\to -3} \\frac{2x^2 + 5x - 3}{x^2 - 9}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{6}$", "correct": true },
+      { "text": "$-\\frac{7}{6}$", "correct": false },
+      { "text": "$\\frac{6}{7}$", "correct": false },
+      { "text": "$-\\frac{6}{7}$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La diferencia de cuadrados del denominador genera un término $(x + 3)$ que cancela la raíz del numerador.",
+    "explanation": "El numerador es $(2x - 1)(x + 3)$ y el denominador es $(x - 3)(x + 3)$. Se elimina $(x + 3)$. Evaluando en $-3$ queda $(2(-3) - 1) / (-3 - 3) = -7 / -6 = 7/6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VW",
+    "question": "Determina el límite simplificando la fracción: $\\lim_{x \\to 4} \\frac{x^2 - 16}{2x - 8}$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En el denominador existe un factor común que debes extraer antes de simplificar.",
+    "explanation": "El numerador es $(x - 4)(x + 4)$ y el denominador es $2(x - 4)$. Se cancela $(x - 4)$, resultando $(x + 4)/2$. Sustituyendo $x = 4$ se obtiene $8/2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VX",
+    "question": "Calcula el siguiente límite al infinito: $\\lim_{x \\to \\infty} \\frac{3x^2 - 5x + 1}{2x^2 + 4x - 3}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{2}$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\infty$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando los polinomios tienen el mismo grado, el límite es el cociente de los coeficientes principales.",
+    "explanation": "Como el grado máximo del numerador y del denominador es $x^2$, dividimos todos los términos entre $x^2$. Los términos de menor grado tienden a 0 y nos queda la relación de coeficientes $3/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VY",
+    "question": "Evalúa el límite de la función racional: $\\lim_{x \\to \\infty} \\frac{5x^3 - 2x + 7}{4x^2 + 3x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\infty$", "correct": true },
+      { "text": "$\\frac{5}{4}$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa cuál de los polinomios crece más rápido comparando sus exponentes máximos.",
+    "explanation": "El grado del numerador (3) es mayor que el grado del denominador (2). Por lo tanto, el numerador crece infinitamente más rápido, por lo que el límite diverge a $\\infty$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VZ",
+    "question": "Determina el comportamiento de la función en el infinito: $\\lim_{x \\to \\infty} \\frac{7x^2 + 5x - 2}{3x^4 - 2x^2 + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$0$", "correct": true },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$\\infty$", "correct": false },
+      { "text": "$7$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si el polinomio del denominador tiene mayor grado, domina el crecimiento y absorbe al numerador.",
+    "explanation": "El grado del denominador (4) es mayor que el del numerador (2). Al dividir todo entre $x^4$, el numerador tiende a 0 mientras que el denominador tiende a 3. Por ende, el límite es 0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WA",
+    "question": "Halla el valor del límite cuando $x$ decrece indefinidamente: $\\lim_{x \\to -\\infty} \\frac{4x^3 + 2x^2}{5x^3 - x + 8}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{5}$", "correct": true },
+      { "text": "$-\\frac{4}{5}$", "correct": false },
+      { "text": "$\\infty$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aún cuando $x$ tienda a $-\\infty$, al tener el mismo grado impar en el numerador y denominador, los signos negativos se cancelarán.",
+    "explanation": "Los grados máximos son iguales ($x^3$). Dividiendo entre $x^3$, todos los demás términos se vuelven cero. La relación de los coeficientes principales nos da $4/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WB",
+    "question": "Resuelve el límite considerando la raíz cuadrada: $\\lim_{x \\to \\infty} \\frac{\\sqrt{9x^2 + 4x}}{5x - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{9}{5}$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para $x$ positiva, $\\sqrt{x^2} = x$. Divide el numerador y denominador entre $x$.",
+    "explanation": "Al introducir la $x$ en la raíz como $x^2$, nos queda $\\sqrt{(9x^2/x^2) + (4x/x^2)}$ en el numerador, lo cual tiende a $\\sqrt{9} = 3$. En el denominador, $(5x/x - 2/x)$ tiende a 5. El límite es $3/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WC",
+    "question": "Calcula el siguiente límite que involucra radicales: $\\lim_{x \\to \\infty} \\frac{2x + 3}{\\sqrt{16x^2 - 5}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$\\frac{1}{8}$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el término dominante de la raíz cuadrada sabiendo que el comportamiento a infinito lo define el mayor exponente.",
+    "explanation": "Dividimos todo entre $x$. En el numerador obtenemos $2$. En el denominador, dividimos entre $\\sqrt{x^2}$, resultando en $\\sqrt{16 - 5/x^2}$, lo cual tiende a $\\sqrt{16} = 4$. Por lo tanto, obtenemos $2/4$, que equivale a $1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WD",
+    "question": "Determina el comportamiento del siguiente polinomio: $\\lim_{x \\to \\infty} (x^3 - 5x^2 + 2x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\infty$", "correct": true },
+      { "text": "$-\\infty$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En un límite al infinito de un polinomio, el término con el mayor grado domina sobre el resto.",
+    "explanation": "Factorizando el término de mayor grado tenemos $x^3(1 - 5/x + 2/x^2)$. Los términos con divisiones por $x$ tienden a cero, dejando $x^3(1)$, lo cual resulta en $\\infty$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WE",
+    "question": "Resuelve la indeterminación $\\infty - \\infty$ multiplicando por el conjugado: $\\lim_{x \\to \\infty} (\\sqrt{x^2 + x} - x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la identidad $(A - B)(A + B) = A^2 - B^2$ multiplicando y dividiendo por $\\sqrt{x^2 + x} + x$.",
+    "explanation": "Al multiplicar por el conjugado queda $(x^2 + x - x^2) / (\\sqrt{x^2 + x} + x) = x / (\\sqrt{x^2 + x} + x)$. Dividiendo numerador y denominador entre $x$, queda $1 / (\\sqrt{1 + 1/x} + 1) = 1 / (1 + 1) = 1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WF",
+    "question": "Evalúa el límite con funciones exponenciales: $\\lim_{x \\to \\infty} \\frac{3^x + 5^x}{2^x + 5^{x+1}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{5}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\infty$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide todos los términos entre la base exponencial de mayor valor, en este caso $5^x$. Recuerda que $5^{x+1} = 5 \\cdot 5^x$.",
+    "explanation": "Dividiendo entre $5^x$ se obtiene: $((3/5)^x + 1) / ((2/5)^x + 5)$. Como $x \\to \\infty$, las fracciones $(3/5)^x$ y $(2/5)^x$ tienden a 0. Resulta $1 / 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WG",
+    "question": "Resuelve la expresión calculando los términos de mayor grado: $\\lim_{x \\to \\infty} \\frac{(2x-1)(3x+2)}{5x^2 - x + 4}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{6}{5}$", "correct": true },
+      { "text": "$\\frac{2}{5}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica mentalmente sólo los términos de mayor grado del numerador para poder compararlos con el denominador.",
+    "explanation": "El término principal del numerador surge de multiplicar $(2x)(3x) = 6x^2$. El denominador tiene como término principal $5x^2$. Al tener el mismo grado, el límite es la razón de sus coeficientes: $6/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WH",
+    "question": "Determina el límite analizando polinomios de grado 3: $\\lim_{x \\to \\infty} \\frac{(x+1)^3}{4x^3 - 2x^2 + x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuál sería el coeficiente del término $x^3$ al expandir el binomio al cubo $(x+1)^3$.",
+    "explanation": "Al expandir $(x+1)^3$, el término de mayor grado es $x^3$ cuyo coeficiente es 1. El término dominante en el denominador es $4x^3$. La relación de coeficientes es $1/4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WI",
+    "question": "Halla el valor del límite cuidando el signo algebraico: $\\lim_{x \\to -\\infty} \\frac{\\sqrt{x^2 + 1}}{x + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$-1$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$\\infty$", "correct": false }
+    ],
+    "uni_tags": ["CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Mucho cuidado: al tender a $-\\infty$, la raíz de un cuadrado no es $x$, sino $\\sqrt{x^2} = |x| = -x$.",
+    "explanation": "Dividimos por $x$. Dado que $x$ es negativo, entrar al radical implica usar $-x = \\sqrt{x^2}$. El numerador se convierte en $-\\sqrt{1 + 1/x^2}$ (el signo menos queda afuera) y el denominador en $1 + 1/x$. Esto resulta en $-1/1 = -1$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
