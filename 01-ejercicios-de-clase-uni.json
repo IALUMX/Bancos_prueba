@@ -15750,5 +15750,725 @@
     "explanation": "Dividimos por $x$. Dado que $x$ es negativo, entrar al radical implica usar $-x = \\sqrt{x^2}$. El numerador se convierte en $-\\sqrt{1 + 1/x^2}$ (el signo menos queda afuera) y el denominador en $1 + 1/x$. Esto resulta en $-1/1 = -1$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02WJ",
+    "question": "Resuelve la siguiente ecuación lineal y encuentra el valor de $x$: $5x - 3 = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 15$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para resolver este ejercicio necesitas despejar $x$, analiza la estructura a partir de esta forma: $12 = 5x - 3$.",
+    "explanation": "Sumamos 3 en ambos lados para obtener $5x = 15$. Al dividir entre 5, obtenemos $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WK",
+    "question": "Calcula el tiempo $t$ que tarda un objeto en recorrer una distancia de $45 \\text{ m}$ si viaja a una velocidad constante de $15 \\text{ m/s}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ s}$", "correct": true },
+      { "text": "$675 \\text{ s}$", "correct": false },
+      { "text": "$0.33 \\text{ s}$", "correct": false },
+      { "text": "$60 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el tiempo considerando la fórmula principal de la velocidad: $v = \\frac{d}{t}$.",
+    "explanation": "A partir de $v = \\frac{d}{t}$, despejamos el tiempo multiplicando por $t$ y dividiendo por $v$, resultando en $t = \\frac{d}{v}$. Sustituyendo: $t = \\frac{45 \\text{ m}}{15 \\text{ m/s}} = 3 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WL",
+    "question": "Determina la masa $m$ de un cuerpo que, al recibir una fuerza neta de $20 \\text{ N}$, experimenta una aceleración de $4 \\text{ m/s}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ kg}$", "correct": true },
+      { "text": "$80 \\text{ kg}$", "correct": false },
+      { "text": "$0.2 \\text{ kg}$", "correct": false },
+      { "text": "$16 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Necesitas encontrar la masa, básate en el despeje para la aceleración: $a = \\frac{F}{m}$.",
+    "explanation": "Por la Segunda Ley de Newton $F = ma$, despejamos la masa como $m = \\frac{F}{a}$. Al sustituir tenemos $m = \\frac{20 \\text{ N}}{4 \\text{ m/s}^2} = 5 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WM",
+    "question": "En un problema asignado por el CEPREDIX, un estudiante debe calcular la base $b$ de un triángulo cuya área es de $50 \\text{ cm}^2$ y su altura $h$ es de $10 \\text{ cm}$. Aplica la fórmula $A = \\frac{b \\cdot h}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ cm}$", "correct": true },
+      { "text": "$5 \\text{ cm}$", "correct": false },
+      { "text": "$25 \\text{ cm}$", "correct": false },
+      { "text": "$100 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para encontrar la base $b$, reflexiona sobre cómo despejarla apoyándote en el despeje de la altura: $h = \\frac{2A}{b}$.",
+    "explanation": "Despejamos la base multiplicando el Área por 2 y dividiendo entre la altura: $b = \\frac{2A}{h}$. Evaluando: $b = \\frac{2(50 \\text{ cm}^2)}{10 \\text{ cm}} = \\frac{100}{10} = 10 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WN",
+    "question": "Calcula la velocidad $v$ de un objeto de $2 \\text{ kg}$ de masa si posee una energía cinética de $100 \\text{ J}$, usando la fórmula $E_k = \\frac{1}{2}mv^2$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m/s}$", "correct": true },
+      { "text": "$50 \\text{ m/s}$", "correct": false },
+      { "text": "$100 \\text{ m/s}$", "correct": false },
+      { "text": "$5 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la velocidad tendrás que aislarla partiendo del despeje de la masa: $m = \\frac{2E_k}{v^2}$.",
+    "explanation": "Despejamos $v^2$ multiplicando por 2 y dividiendo entre $m$: $v^2 = \\frac{2E_k}{m}$. Luego sacamos raíz: $v = \\sqrt{\\frac{2(100)}{2}} = \\sqrt{100} = 10 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WO",
+    "question": "Haciendo uso de la Ley de Ohm ($V = IR$), calcula la resistencia eléctrica $R$ de un circuito sometido a un voltaje de $24 \\text{ V}$ si fluye una corriente de $3 \\text{ A}$.",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ }\\Omega$", "correct": true },
+      { "text": "$72 \\text{ }\\Omega$", "correct": false },
+      { "text": "$0.125 \\text{ }\\Omega$", "correct": false },
+      { "text": "$21 \\text{ }\\Omega$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para determinar la resistencia, despeja partiendo de la ecuación para la intensidad: $I = \\frac{V}{R}$.",
+    "explanation": "Al despejar $R$ de la ecuación, la intensidad pasa dividiendo al voltaje: $R = \\frac{V}{I}$. Sustituyendo, $R = \\frac{24 \\text{ V}}{3 \\text{ A}} = 8 \\text{ }\\Omega$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WP",
+    "question": "Si una máquina desarrolla una potencia mecánica de $500 \\text{ W}$ durante un tiempo de $10 \\text{ s}$, ¿cuál es el trabajo $W$ total realizado? Utiliza $P = \\frac{W}{t}$.",
+    "image": null,
+    "options": [
+      { "text": "$5000 \\text{ J}$", "correct": true },
+      { "text": "$50 \\text{ J}$", "correct": false },
+      { "text": "$0.02 \\text{ J}$", "correct": false },
+      { "text": "$510 \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para calcular el trabajo deberás usar las propiedades inversas aplicadas al despeje del tiempo: $t = \\frac{W}{P}$.",
+    "explanation": "Para aislar el trabajo $W$, el tiempo pasa multiplicando a la potencia: $W = P \\cdot t$. El cálculo resulta $W = 500 \\text{ W} \\cdot 10 \\text{ s} = 5000 \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WQ",
+    "question": "Encuentra la solución positiva de $x$ para la siguiente ecuación cuadrática: $x^2 - 16 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 4$", "correct": true },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = 16$", "correct": false },
+      { "text": "$x = 256$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve la ecuación considerando este equivalente inicial: $16 = x^2$.",
+    "explanation": "Se despeja el término cuadrático pasando el 16 del otro lado sumando: $x^2 = 16$. Luego se aplica la raíz cuadrada: $x = \\sqrt{16} = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WR",
+    "question": "Simplifica la siguiente expresión algebraica aplicando las leyes de los exponentes: $\\frac{x^5 \\cdot x^3}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^6$", "correct": true },
+      { "text": "$x^{13}$", "correct": false },
+      { "text": "$x^{15}$", "correct": false },
+      { "text": "$x^{7.5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los exponentes recordando que la forma general para el cociente es: $x^m = x^n \\cdot x^{m-n}$.",
+    "explanation": "Primero multiplicamos sumando los exponentes del numerador: $x^5 \\cdot x^3 = x^8$. Luego dividimos restando el exponente del denominador: $x^8 / x^2 = x^{8-2} = x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WS",
+    "question": "Un estudiante del CEPREDIX resuelve el siguiente sistema de ecuaciones lineales: $x + y = 10$ y $x - y = 2$. ¿Cuál es el valor numérico de la variable $x$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 6$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = 12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para encontrar $x$ rápidamente mediante reducción, fíjate en el despeje de la otra variable en la primera ecuación: $y = 10 - x$.",
+    "explanation": "Sumando ambas ecuaciones verticalmente (método de reducción): $(x+y) + (x-y) = 10 + 2$, lo que nos da $2x = 12$. Al dividir entre 2, tenemos $x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WT",
+    "question": "Un vehículo acelera uniformemente. Si su velocidad inicial es de $5 \\text{ m/s}$ y alcanza una velocidad final de $20 \\text{ m/s}$ en $3 \\text{ s}$, calcula la aceleración $a$ usando $v_f = v_i + at$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}^2$", "correct": true },
+      { "text": "$15 \\text{ m/s}^2$", "correct": false },
+      { "text": "$8.3 \\text{ m/s}^2$", "correct": false },
+      { "text": "$25 \\text{ m/s}^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La aceleración debe encontrarse manipulando la ecuación a partir de este formato que despeja al tiempo: $t = \\frac{v_f - v_i}{a}$.",
+    "explanation": "Despejamos la aceleración pasando $v_i$ restando y dividiendo entre el tiempo: $a = \\frac{v_f - v_i}{t}$. Evaluando los valores obtenemos $a = \\frac{20 - 5}{3} = \\frac{15}{3} = 5 \\text{ m/s}^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WU",
+    "question": "Determina la variación de temperatura $\\Delta T$ experimentada por un bloque de $2 \\text{ kg}$ cuyo calor específico es $100 \\text{ J/(kg}\\cdot ^\\circ\\text{C)}$ si absorbe un calor de $1000 \\text{ J}$. Fórmula: $Q = mc\\Delta T$.",
+    "image": null,
+    "options": [
+      { "text": "$5 ^\\circ\\text{C}$", "correct": true },
+      { "text": "$50 ^\\circ\\text{C}$", "correct": false },
+      { "text": "$0.2 ^\\circ\\text{C}$", "correct": false },
+      { "text": "$20 ^\\circ\\text{C}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la variación despejando a partir de la expresión aislada para la masa: $m = \\frac{Q}{c\\Delta T}$.",
+    "explanation": "La variación de temperatura se aísla dividiendo el calor entre el producto de la masa por el calor específico: $\\Delta T = \\frac{Q}{mc}$. Sustituyendo: $\\Delta T = \\frac{1000}{2 \\cdot 100} = \\frac{1000}{200} = 5 ^\\circ\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WV",
+    "question": "Calcula el volumen $V$ de un líquido que posee una densidad $\\rho = 5 \\text{ g/cm}^3$ sabiendo que su masa es de $100 \\text{ g}$. Usa la fórmula $\\rho = \\frac{m}{V}$.",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ cm}^3$", "correct": true },
+      { "text": "$500 \\text{ cm}^3$", "correct": false },
+      { "text": "$0.05 \\text{ cm}^3$", "correct": false },
+      { "text": "$95 \\text{ cm}^3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el volumen, sigue la lógica que utilizarías si tuvieras que usar este despeje para la masa: $m = \\rho \\cdot V$.",
+    "explanation": "Despejamos el volumen pasando la variable $V$ a multiplicar y la densidad $\\rho$ a dividir, logrando $V = \\frac{m}{\\rho}$. Operando resulta $V = \\frac{100 \\text{ g}}{5 \\text{ g/cm}^3} = 20 \\text{ cm}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WW",
+    "question": "Resuelve la ecuación lineal con fracción $\\frac{2x}{3} + 4 = 10$ y determina el valor correspondiente para $x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 9$", "correct": true },
+      { "text": "$x = 6$", "correct": false },
+      { "text": "$x = 21$", "correct": false },
+      { "text": "$x = 18$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar $x$, puedes reestructurar tu análisis desde esta forma alternativa: $x = \\frac{3(10 - 4)}{2}$.",
+    "explanation": "Se resta 4 a ambos lados: $\\frac{2x}{3} = 6$. Se multiplica por 3: $2x = 18$. Finalmente se divide entre 2: $x = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WX",
+    "question": "Si el trabajo mecánico es de $50 \\text{ J}$ y el objeto se ha desplazado $5 \\text{ m}$ paralelamente a la fuerza ($\\cos(0^\\circ) = 1$), calcula la magnitud de dicha fuerza $F$. Fórmula: $W = Fd \\cos \\theta$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ N}$", "correct": true },
+      { "text": "$250 \\text{ N}$", "correct": false },
+      { "text": "$0.1 \\text{ N}$", "correct": false },
+      { "text": "$45 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para encontrar la fuerza aplicada asumiendo el coseno unitario, utiliza tu conocimiento desde el despeje: $d = \\frac{W}{F}$.",
+    "explanation": "Como $\\cos(0^\\circ) = 1$, la fórmula se simplifica a $W = Fd$. Despejamos la fuerza dividiendo por la distancia: $F = \\frac{W}{d}$. Al evaluar obtenemos $F = \\frac{50 \\text{ J}}{5 \\text{ m}} = 10 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WY",
+    "question": "En una asesoría del CEPREDIX, debes hallar el valor del cateto $b$ de un triángulo rectángulo sabiendo que la hipotenusa $c$ mide $13 \\text{ cm}$ y el cateto $a$ mide $5 \\text{ cm}$. Aplica el Teorema de Pitágoras $c^2 = a^2 + b^2$.",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ cm}$", "correct": true },
+      { "text": "$18 \\text{ cm}$", "correct": false },
+      { "text": "$144 \\text{ cm}$", "correct": false },
+      { "text": "$8 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla el cateto guiándote de la similitud geométrica con el despeje del cateto opuesto: $a = \\sqrt{c^2 - b^2}$.",
+    "explanation": "Despejamos el cateto restando el cuadrado de $a$: $b^2 = c^2 - a^2$. Evaluando tenemos $b^2 = 13^2 - 5^2 = 169 - 25 = 144$. Extrayendo la raíz, $b = \\sqrt{144} = 12 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02WZ",
+    "question": "Un resorte con una constante $k = 200 \\text{ N/m}$ experimenta una fuerza restauradora de $40 \\text{ N}$. Utilizando la Ley de Hooke $F = kx$, calcula la elongación $x$.",
+    "image": null,
+    "options": [
+      { "text": "$0.2 \\text{ m}$", "correct": true },
+      { "text": "$5 \\text{ m}$", "correct": false },
+      { "text": "$8000 \\text{ m}$", "correct": false },
+      { "text": "$0.5 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la elongación debes aplicar el despeje correspondiente al usar esta constante elástica: $k = \\frac{F}{x}$.",
+    "explanation": "La elongación es el resultado de dividir la fuerza aplicada entre la constante del resorte ($x = \\frac{F}{k}$). El resultado es $x = \\frac{40 \\text{ N}}{200 \\text{ N/m}} = 0.2 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XA",
+    "question": "Determina la fuerza $F$ aplicada de manera perpendicular sobre una superficie de $2 \\text{ m}^2$ para que se genere una presión de $100 \\text{ Pa}$. Fórmula: $P = \\frac{F}{A}$.",
+    "image": null,
+    "options": [
+      { "text": "$200 \\text{ N}$", "correct": true },
+      { "text": "$50 \\text{ N}$", "correct": false },
+      { "text": "$0.02 \\text{ N}$", "correct": false },
+      { "text": "$102 \\text{ N}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja la fuerza comprendiendo que el divisor puede aislarse así: $A = \\frac{F}{P}$.",
+    "explanation": "Al despejar, el Área pasa multiplicando a la Presión: $F = P \\cdot A$. Reemplazando datos obtenemos $F = 100 \\text{ Pa} \\cdot 2 \\text{ m}^2 = 200 \\text{ N}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XB",
+    "question": "Encuentra el valor de $x$ que satisface la siguiente ecuación radical: $\\sqrt{3x + 1} = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 15$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para aislar $x$, es necesario comenzar por la eliminación del radical como se ve aquí: $3x = 4^2 - 1$.",
+    "explanation": "Elevamos ambos lados al cuadrado obteniendo $3x + 1 = 16$. Restamos 1 para llegar a $3x = 15$, y dividimos entre 3 para lograr la solución $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XC",
+    "question": "Calcula la longitud de onda $\\lambda$ de un sonido que se propaga con una velocidad de $340 \\text{ m/s}$ y tiene una frecuencia de $170 \\text{ Hz}$, usando $v = \\lambda f$.",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ m}$", "correct": true },
+      { "text": "$57800 \\text{ m}$", "correct": false },
+      { "text": "$0.5 \\text{ m}$", "correct": false },
+      { "text": "$510 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el valor guiándote a partir de esta reestructuración de la frecuencia: $f = \\frac{v}{\\lambda}$.",
+    "explanation": "Despejamos $\\lambda$ dividiendo la velocidad entre la frecuencia: $\\lambda = \\frac{v}{f}$. El resultado es $\\lambda = \\frac{340}{170} = 2 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XD",
+    "question": "Con base en la Ley de Ohm ($V = IR$), halla la intensidad de corriente $I$ de un circuito que se alimenta con $120 \\text{ V}$ y tiene una resistencia total de $40 \\text{ }\\Omega$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ A}$", "correct": true },
+      { "text": "$4800 \\text{ A}$", "correct": false },
+      { "text": "$0.33 \\text{ A}$", "correct": false },
+      { "text": "$80 \\text{ A}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica tu conocimiento del circuito apoyándote en el despeje para la resistencia: $R = \\frac{V}{I}$.",
+    "explanation": "Al despejar, la resistencia pasa a dividir al voltaje de modo que $I = \\frac{V}{R}$. Se sustituye y se divide $120 / 40 = 3 \\text{ A}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XE",
+    "question": "En un examen práctico del CEPREDIX de matemáticas, se pide evaluar el valor de $x$ en la ecuación algebraica $3(x - 2) = 15$. Calcula la respuesta correcta.",
+    "image": null,
+    "options": [
+      { "text": "$x = 7$", "correct": true },
+      { "text": "$x = 5$", "correct": false },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 11$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve la ecuación considerando un despeje rápido del paréntesis: $x - 2 = \\frac{15}{3}$.",
+    "explanation": "Dividiendo toda la expresión entre 3 nos queda la ecuación simple $x - 2 = 5$. Posteriormente sumamos 2 en ambos lados para descubrir que $x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XF",
+    "question": "Determina la masa $m$ de un cuerpo que posee una energía potencial gravitatoria de $490 \\text{ J}$ al estar situado a una altura de $10 \\text{ m}$. Considera $g = 9.8 \\text{ m/s}^2$ en la fórmula $E_p = mgh$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ kg}$", "correct": true },
+      { "text": "$50 \\text{ kg}$", "correct": false },
+      { "text": "$49 \\text{ kg}$", "correct": false },
+      { "text": "$0.2 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para lograr el despeje de la masa usa la lógica equivalente de altura: $h = \\frac{E_p}{mg}$.",
+    "explanation": "Para encontrar la masa el producto de $g$ y $h$ debe pasar dividiendo: $m = \\frac{E_p}{gh}$. Reemplazando se obtiene $m = \\frac{490}{9.8 \\cdot 10} = \\frac{490}{98} = 5 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XG",
+    "question": "Dada la ecuación de resistencia en paralelo $\\frac{1}{R_T} = \\frac{1}{R_1} + \\frac{1}{R_2}$, calcula el valor final de la resistencia equivalente $R_T$ si $R_1 = 3 \\text{ }\\Omega$ y $R_2 = 6 \\text{ }\\Omega$.",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ }\\Omega$", "correct": true },
+      { "text": "$9 \\text{ }\\Omega$", "correct": false },
+      { "text": "$0.5 \\text{ }\\Omega$", "correct": false },
+      { "text": "$18 \\text{ }\\Omega$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa correctamente aislando tu variable a partir de esta forma ya manipulada: $R_T = \\frac{R_1 R_2}{R_1 + R_2}$.",
+    "explanation": "Sustituyendo los valores en la inversa tenemos $\\frac{1}{R_T} = \\frac{1}{3} + \\frac{1}{6} = \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6}$. Simplificando $\\frac{3}{6} = \\frac{1}{2}$. Al invertir ambas partes obtenemos $R_T = 2 \\text{ }\\Omega$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XH",
+    "question": "Utilizando la fórmula del área del círculo $A = \\pi r^2$, halla la longitud del radio $r$ si la superficie mide exactamente $25\\pi \\text{ cm}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$25 \\text{ cm}$", "correct": false },
+      { "text": "$12.5 \\text{ cm}$", "correct": false },
+      { "text": "$625 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el radio, piensa en el proceso que lleva a este despeje de Pi: $\\pi = \\frac{A}{r^2}$.",
+    "explanation": "Pasamos $\\pi$ dividiendo resultando en $r^2 = \\frac{25\\pi}{\\pi} = 25$. Al extraer la raíz cuadrada nos queda $r = \\sqrt{25} = 5 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XI",
+    "question": "Sabiendo que el torque mecánico $\\tau$ se define como $\\tau = Fd$, calcula la distancia $d$ del brazo de palanca al aplicar una fuerza perpendicular de $40 \\text{ N}$ que produce un torque de $120 \\text{ N}\\cdot\\text{m}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ m}$", "correct": true },
+      { "text": "$4800 \\text{ m}$", "correct": false },
+      { "text": "$0.33 \\text{ m}$", "correct": false },
+      { "text": "$80 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la distancia asumiendo un despeje simétrico como el de la fuerza: $F = \\frac{\\tau}{d}$.",
+    "explanation": "Aislando la distancia pasamos la fuerza a dividir obteniendo $d = \\frac{\\tau}{F}$. Realizando la operación matemática $d = \\frac{120}{40} = 3 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XJ",
+    "question": "Un cuerpo parte del reposo ($v_i = 0$) y se desplaza con una aceleración constante de $2 \\text{ m/s}^2$ durante una distancia de $9 \\text{ m}$. Calcula su velocidad final $v_f$ usando $v_f^2 = v_i^2 + 2ad$.",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ m/s}$", "correct": true },
+      { "text": "$36 \\text{ m/s}$", "correct": false },
+      { "text": "$18 \\text{ m/s}$", "correct": false },
+      { "text": "$4.5 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes despejar guiándote a partir de la expresión que aisla a la aceleración en este movimiento: $a = \\frac{v_f^2 - v_i^2}{2d}$.",
+    "explanation": "Como la velocidad inicial es 0, la ecuación se simplifica a $v_f^2 = 2ad$. Sustituyendo valores obtenemos $v_f^2 = 2(2)(9) = 36$. Al sacar raíz cuadrada el resultado es $v_f = 6 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XK",
+    "question": "En un simulador del CEPREDIX, un problema de proporciones directas requiere solucionar la ecuación $\\frac{x}{8} = \\frac{3}{4}$. ¿Cuál es el valor algebraico de $x$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 6$", "correct": true },
+      { "text": "$x = 24$", "correct": false },
+      { "text": "$x = 32$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla $x$ observando cómo se cruzan los productos al considerar este despeje: $8 = \\frac{4x}{3}$.",
+    "explanation": "Para encontrar $x$ basta con pasar el número 8 multiplicando al lado derecho: $x = \\frac{3 \\cdot 8}{4} = \\frac{24}{4} = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XL",
+    "question": "Considerando la ecuación del péndulo simple $T = 2\\pi \\sqrt{\\frac{L}{g}}$, calcula la longitud del péndulo $L$ si sabemos que su periodo es de $T = 2\\pi \\text{ s}$ y asumimos una gravedad $g = 10 \\text{ m/s}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": true },
+      { "text": "$1 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m}$", "correct": false },
+      { "text": "$0.1 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la longitud, apóyate aislando variables como se haría con la gravedad: $g = L \\left( \\frac{2\\pi}{T} \\right)^2$.",
+    "explanation": "Despejamos $L$ pasando $2\\pi$ dividiendo, elevando al cuadrado y multiplicando por $g$: $L = g \\left( \\frac{T}{2\\pi} \\right)^2$. Al sustituir: $L = 10 \\left( \\frac{2\\pi}{2\\pi} \\right)^2 = 10(1)^2 = 10 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XM",
+    "question": "Aplica la Ley de Boyle $P_1 V_1 = P_2 V_2$ para hallar el volumen final $V_2$ de un gas que inicialmente ocupa $5 \\text{ L}$ a una presión de $2 \\text{ atm}$, y luego se expande hasta que su presión se reduce a $1 \\text{ atm}$.",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ L}$", "correct": true },
+      { "text": "$2.5 \\text{ L}$", "correct": false },
+      { "text": "$1 \\text{ L}$", "correct": false },
+      { "text": "$7 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja el volumen final notando cómo se formularía encontrar el volumen inicial: $V_1 = \\frac{P_2 V_2}{P_1}$.",
+    "explanation": "Aislamos $V_2$ pasando $P_2$ a dividir: $V_2 = \\frac{P_1 V_1}{P_2}$. Ejecutando el cálculo resulta en $V_2 = \\frac{2 \\text{ atm} \\cdot 5 \\text{ L}}{1 \\text{ atm}} = 10 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XN",
+    "question": "Haciendo uso correcto de las leyes de los exponentes para productos y potencias, simplifica completamente la expresión algebraica $(2x^3)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$4x^6$", "correct": true },
+      { "text": "$2x^6$", "correct": false },
+      { "text": "$4x^5$", "correct": false },
+      { "text": "$2x^5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para simplificar el monomio toma en cuenta la propiedad distributiva del exponente: $a^n \\cdot (x^m)^n$.",
+    "explanation": "El exponente exterior afecta tanto al coeficiente como a la variable. Elevamos el coeficiente $2^2 = 4$ y multiplicamos los exponentes de la literal $x^{3 \\cdot 2} = x^6$, obteniendo $4x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XO",
+    "question": "Halla el valor de la intensidad de corriente eléctrica $I$ sabiendo que una carga de $30 \\text{ C}$ atraviesa un conductor durante un tiempo de $5 \\text{ s}$. Ecuación base: $q = It$.",
+    "image": null,
+    "options": [
+      { "text": "$6 \\text{ A}$", "correct": true },
+      { "text": "$150 \\text{ A}$", "correct": false },
+      { "text": "$0.16 \\text{ A}$", "correct": false },
+      { "text": "$35 \\text{ A}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja tu variable entendiendo la relación inversa como en el tiempo: $t = \\frac{q}{I}$.",
+    "explanation": "Para encontrar la corriente, el tiempo debe pasar a dividir de modo que $I = \\frac{q}{t}$. Evaluando los valores se obtiene $I = \\frac{30 \\text{ C}}{5 \\text{ s}} = 6 \\text{ A}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XP",
+    "question": "Resuelve la ecuación lineal con la incógnita en ambos miembros y halla el valor de $x$: $5x - 2 = 3x + 8$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 5$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 10$", "correct": false },
+      { "text": "$x = -5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa variables partiendo del paso intermedio del despeje algebraico: $2x = 10$.",
+    "explanation": "Restamos $3x$ en ambos lados y sumamos 2 en ambos lados para agrupar variables: $5x - 3x = 8 + 2$. Esto se simplifica a $2x = 10$. Al dividir el total entre 2, tenemos $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XQ",
+    "question": "En un análisis del CEPREDIX sobre movimiento circular, un objeto de $2 \\text{ kg}$ se mueve a $5 \\text{ m/s}$ experimentando una fuerza centrípeta de $10 \\text{ N}$. Calcula el radio $r$ de su trayectoria utilizando $F_c = \\frac{mv^2}{r}$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m}$", "correct": true },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$25 \\text{ m}$", "correct": false },
+      { "text": "$1 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el radio, despeja apoyándote en la formulación de la masa en esta ecuación: $m = \\frac{F_c r}{v^2}$.",
+    "explanation": "Al realizar el despeje del radio el término $r$ sube multiplicando a la fuerza centrípeta y esta pasa a dividir, por lo que $r = \\frac{mv^2}{F_c}$. Resultando $r = \\frac{2(25)}{10} = \\frac{50}{10} = 5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XR",
+    "question": "Basándote en la fórmula de monto con interés simple $A = P(1+rt)$, despeja y calcula la tasa de interés anual $r$ (en decimal) si un capital $P$ de $1000$ genera un monto $A$ de $1200$ en un tiempo $t$ de $2$ años.",
+    "image": null,
+    "options": [
+      { "text": "$r = 0.1$", "correct": true },
+      { "text": "$r = 0.2$", "correct": false },
+      { "text": "$r = 0.05$", "correct": false },
+      { "text": "$r = 0.15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes encontrar la tasa de interés guiándote a partir del despeje temporal de la ecuación: $t = \\frac{A-P}{Pr}$.",
+    "explanation": "Primero multiplicamos para separar términos $A = P + Prt$. Luego despejamos restando el capital y dividiendo: $r = \\frac{A-P}{Pt}$. Operando numéricamente $r = \\frac{1200-1000}{1000 \\cdot 2} = \\frac{200}{2000} = 0.1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XS",
+    "question": "Halla el valor algebraico de la variable $x$ que cumple la igualdad en la siguiente ecuación logarítmica: $\\log_2(x) = 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 8$", "correct": true },
+      { "text": "$x = 6$", "correct": false },
+      { "text": "$x = 9$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para aislar $x$, la operación inversa equivale al exponente como en: $3 = \\log_2(x)$.",
+    "explanation": "Por definición de la propiedad logarítmica, una ecuación en la forma $\\log_b(a) = c$ equivale a $b^c = a$. Por lo tanto, en nuestro caso particular $x = 2^3$, lo que nos da como resultado $x = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XT",
+    "question": "La cantidad de movimiento o momento lineal se define como $p = mv$. Calcula la velocidad $v$ de un proyectil de $10 \\text{ kg}$ que lleva un momento lineal total de $50 \\text{ kg}\\cdot\\text{m/s}$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ m/s}$", "correct": true },
+      { "text": "$500 \\text{ m/s}$", "correct": false },
+      { "text": "$0.2 \\text{ m/s}$", "correct": false },
+      { "text": "$60 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja tu variable objetivo siguiendo la forma aplicable a la masa: $m = \\frac{p}{v}$.",
+    "explanation": "Aislamos la velocidad pasando la masa a dividir al lado contrario, logrando $v = \\frac{p}{m}$. Resolviendo la sustitución tenemos $v = \\frac{50}{10} = 5 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XU",
+    "question": "Aplica las leyes de los radicales para extraer términos y simplificar completamente la siguiente expresión matemática: $\\sqrt[3]{8x^6}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x^2$", "correct": true },
+      { "text": "$4x^2$", "correct": false },
+      { "text": "$2x^3$", "correct": false },
+      { "text": "$8x^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la propiedad distributiva de las raíces hacia sus factores individuales en: $\\sqrt[3]{8} \\cdot \\sqrt[3]{x^6}$.",
+    "explanation": "La raíz cúbica se aplica a cada factor. La raíz cúbica de 8 es 2, y por leyes de exponentes fraccionarios el exponente 6 se divide entre el índice 3 de la raíz ($6/3=2$), lo que nos da $2x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XV",
+    "question": "Calcula de forma exacta el radio $r$ de una esfera geométrica sabiendo que su volumen total es de $\\frac{32}{3}\\pi \\text{ cm}^3$ usando el modelo del volumen $V = \\frac{4}{3}\\pi r^3$.",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ cm}$", "correct": true },
+      { "text": "$8 \\text{ cm}$", "correct": false },
+      { "text": "$4 \\text{ cm}$", "correct": false },
+      { "text": "$2.5 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para lograr el despeje final es fundamental agrupar los números partiendo del radio cúbico asilado: $r^3 = \\frac{3V}{4\\pi}$.",
+    "explanation": "Sustituyendo el volumen dado: $r^3 = \\frac{3(\\frac{32}{3}\\pi)}{4\\pi}$. Se cancelan los 3 y las $\\pi$, resultando $r^3 = \\frac{32}{4} = 8$. Al aplicar la raíz cúbica se obtiene $r = \\sqrt[3]{8} = 2 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XW",
+    "question": "Un instructor del CEPREDIX plantea la siguiente ecuación racional para ser resuelta: $\\frac{x + 1}{2} = 5$. Determina cuál es el valor aritmético de la incógnita $x$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 9$", "correct": true },
+      { "text": "$x = 10$", "correct": false },
+      { "text": "$x = 4.5$", "correct": false },
+      { "text": "$x = 2.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS", "FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve prestando atención al paso posterior a eliminar el divisor numérico en la ecuación: $x + 1 = 10$.",
+    "explanation": "El denominador 2 pasa multiplicando al resultado de la derecha, dando como paso intermedio $x + 1 = 10$. Posteriormente el número 1 pasa restando, concluyendo que $x = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
