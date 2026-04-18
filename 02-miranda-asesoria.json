@@ -4450,5 +4450,653 @@
     "explanation": "La parábola tiene su vértice en $(0, 2)$ y abre hacia abajo. Esto nos indica que la ecuación base es $-x^2$ sumada a la traslación vertical de $2$, por lo que $y = -x^2 + 2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00JI",
+    "question": "Resolver la ecuación: $2x - (3x + 4) = 10 - (2x + 1)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 13$", "correct": true },
+      { "text": "$x = 9$", "correct": false },
+      { "text": "$x = 11$", "correct": false },
+      { "text": "$x = 7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye los signos negativos antes de agrupar términos semejantes.",
+    "explanation": "Al quitar paréntesis queda $2x - 3x - 4 = 10 - 2x - 1$. Simplificando obtenemos $-x - 4 = 9 - 2x$. Sumando $2x$ y $4$ en ambos lados obtenemos $x = 13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JJ",
+    "question": "Resolver la ecuación: $\\frac{4x + 2}{3} + \\frac{x - 1}{6} = 3$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = \\frac{17}{9}$", "correct": false },
+      { "text": "$x = \\frac{19}{9}$", "correct": true },
+      { "text": "$x = 3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica toda la ecuación por el mínimo común múltiplo de los denominadores ($6$).",
+    "explanation": "Se multiplica la ecuación completa por el mínimo común múltiplo para eliminar los denominadores, posteriormente se agrupan los términos semejantes y se despeja la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JK",
+    "question": "Resolver la ecuación: $\\frac{3x - 5}{2} = -4 + \\frac{x + 2}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{4}{5}$", "correct": true },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = \\frac{2}{5}$", "correct": false },
+      { "text": "$x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica ambos lados por $4$ para suprimir las fracciones.",
+    "explanation": "Al multiplicar por $4$, se eliminan los denominadores. Luego, se reducen los términos semejantes algebraicamente y se agrupan las variables de un lado para encontrar el valor de $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JL",
+    "question": "Resolver la ecuación: $4(x - 2) - 3(2x + 1) = 5(x + 4)$",
+    "image": null,
+    "options": [
+      { "text": "$x = -\\frac{31}{7}$", "correct": true },
+      { "text": "$x = -\\frac{29}{7}$", "correct": false },
+      { "text": "$x = -4$", "correct": false },
+      { "text": "$x = -5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la propiedad distributiva para eliminar los paréntesis.",
+    "explanation": "Desarrollando: $4x - 8 - 6x - 3 = 5x + 20 \\Rightarrow -2x - 11 = 5x + 20$. Agrupando términos: $-7x = 31$, por lo que $x = -\\frac{31}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JM",
+    "question": "Resolver la ecuación exponencial: $(3^{x-1})^2 = 81$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa el número $81$ como una potencia de base $3$ ($81 = 3^4$) y aplica leyes de los exponentes.",
+    "explanation": "Por leyes de exponentes $(a^m)^n = a^{m \\cdot n}$, así que $3^{2x-2} = 3^4$. Igualando los exponentes: $2x - 2 = 4 \\Rightarrow 2x = 6 \\Rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JN",
+    "question": "Resolver la ecuación: $6x + \\{x - (2x + 5)\\} = 20 - \\{3x + 2\\}$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{23}{8}$", "correct": true },
+      { "text": "$x = \\frac{21}{8}$", "correct": false },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = \\frac{19}{8}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve los signos de agrupación trabajando desde los paréntesis interiores hacia los exteriores.",
+    "explanation": "Quitando paréntesis: $6x + \\{x - 2x - 5\\} = 20 - 3x - 2$. Simplificando llaves: $6x - x - 5 = 18 - 3x \\Rightarrow 5x - 5 = 18 - 3x \\Rightarrow 8x = 23 \\Rightarrow x = \\frac{23}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JO",
+    "question": "Resolver la ecuación: $\\frac{x + 3}{5} - \\frac{x - 1}{2} = 1$",
+    "image": null,
+    "options": [
+      { "text": "$x = -\\frac{1}{3}$", "correct": false },
+      { "text": "$x = \\frac{1}{3}$", "correct": true },
+      { "text": "$x = -1$", "correct": false },
+      { "text": "$x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El mínimo común múltiplo de los denominadores es $10$.",
+    "explanation": "Multiplicando todo por $10$: $2(x+3) - 5(x-1) = 10 \\Rightarrow 2x + 6 - 5x + 5 = 10 \\Rightarrow -3x + 11 = 10 \\Rightarrow -3x = -1 \\Rightarrow x = \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JP",
+    "question": "Resolver la ecuación: $2(3x - 1) + 5 = 4(x + 2) - (x - 1)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye los factores y presta atención al signo negativo antes del último paréntesis.",
+    "explanation": "Desarrollando: $6x - 2 + 5 = 4x + 8 - x + 1$. Simplificando ambos lados: $6x + 3 = 3x + 9$. Agrupando: $3x = 6 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JQ",
+    "question": "Resolver la ecuación: $12 - (x + 4) = 3(x - 5) + 2x$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{23}{6}$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = \\frac{21}{6}$", "correct": false },
+      { "text": "$x = \\frac{19}{6}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El signo negativo invierte los signos de los términos dentro del primer paréntesis.",
+    "explanation": "Quitando paréntesis: $12 - x - 4 = 3x - 15 + 2x$. Simplificando: $8 - x = 5x - 15$. Agrupando: $23 = 6x \\Rightarrow x = \\frac{23}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JR",
+    "question": "Resolver la ecuación exponencial: $5^{2x-4} = 125$",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 3.5$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 2.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Convierte el $125$ a una base de $5$ recordando que $5^3 = 125$.",
+    "explanation": "Al igualar bases $5^{2x-4} = 5^3$, podemos igualar los exponentes: $2x - 4 = 3 \\Rightarrow 2x = 7 \\Rightarrow x = 3.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JS",
+    "question": "Resolver la ecuación: $\\frac{2x - 1}{4} + \\frac{3x + 2}{3} = 2$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{19}{18}$", "correct": true },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = \\frac{17}{18}$", "correct": false },
+      { "text": "$x = \\frac{20}{18}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica toda la expresión por $12$ (MCM de $4$ y $3$) para cancelar los denominadores.",
+    "explanation": "Multiplicando por $12$: $3(2x - 1) + 4(3x + 2) = 24 \\Rightarrow 6x - 3 + 12x + 8 = 24 \\Rightarrow 18x + 5 = 24 \\Rightarrow 18x = 19 \\Rightarrow x = \\frac{19}{18}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JT",
+    "question": "Resolver la ecuación: $7x - [2x - (x - 3)] = 10$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{13}{6}$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = \\frac{7}{6}$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Empieza eliminando el paréntesis circular, luego agrupa los términos dentro del corchete.",
+    "explanation": "$7x - [2x - x + 3] = 10 \\Rightarrow 7x - [x + 3] = 10$. Quitando el corchete: $7x - x - 3 = 10 \\Rightarrow 6x = 13 \\Rightarrow x = \\frac{13}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JU",
+    "question": "Resolver la ecuación: $5(2x - 3) - 2(x + 4) = 3(x + 1)$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{26}{5}$", "correct": true },
+      { "text": "$x = 5$", "correct": false },
+      { "text": "$x = \\frac{23}{5}$", "correct": false },
+      { "text": "$x = 6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los factores correspondientes manteniendo un control estricto de los signos.",
+    "explanation": "Desarrollando la ecuación obtenemos: $10x - 15 - 2x - 8 = 3x + 3$. Reduciendo: $8x - 23 = 3x + 3 \\Rightarrow 5x = 26 \\Rightarrow x = \\frac{26}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JV",
+    "question": "Resolver la ecuación: $\\frac{8x + 4}{2} - 3x = \\frac{x + 1}{5}$",
+    "image": null,
+    "options": [
+      { "text": "$x = -\\frac{9}{4}$", "correct": true },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$x = -\\frac{11}{4}$", "correct": false },
+      { "text": "$x = -1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero simplifica la primera fracción dividiendo entre $2$ antes de operar con el resto de la ecuación.",
+    "explanation": "Simplificando: $4x + 2 - 3x = \\frac{x+1}{5} \\Rightarrow x + 2 = \\frac{x+1}{5}$. Multiplicando por $5$: $5x + 10 = x + 1 \\Rightarrow 4x = -9 \\Rightarrow x = -\\frac{9}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JW",
+    "question": "Resolver la ecuación: $x + \\{3x - [x - (2x + 1)]\\} = 15$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{14}{5}$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = \\frac{16}{5}$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve la anidación de signos quitando primero el paréntesis, luego el corchete y finalmente las llaves.",
+    "explanation": "$x + \\{3x - [x - 2x - 1]\\} = 15 \\Rightarrow x + \\{3x - [-x - 1]\\} = 15 \\Rightarrow x + \\{3x + x + 1\\} = 15 \\Rightarrow x + 4x + 1 = 15 \\Rightarrow 5x = 14 \\Rightarrow x = \\frac{14}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JX",
+    "question": "Resolver la ecuación exponencial: $2^{3x-1} = 32$",
+    "image": null,
+    "options": [
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para igualar las expresiones, transforma el $32$ en una potencia de base $2$.",
+    "explanation": "Sabemos que $32 = 2^5$. Por lo tanto, igualamos exponentes: $3x - 1 = 5 \\Rightarrow 3x = 6 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JY",
+    "question": "Resolver la ecuación: $\\frac{x - 2}{3} + \\frac{x + 1}{4} = \\frac{x - 5}{6}$",
+    "image": null,
+    "options": [
+      { "text": "$x = -\\frac{1}{5}$", "correct": true },
+      { "text": "$x = -1$", "correct": false },
+      { "text": "$x = \\frac{1}{5}$", "correct": false },
+      { "text": "$x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el mínimo común múltiplo de $3, 4, 6$ (el cual es $12$) y multiplica toda la igualdad.",
+    "explanation": "Se utiliza el MCM ($12$) para eliminar las fracciones. Posteriormente, se agrupan los términos semejantes a la izquierda y las constantes a la derecha para despejar la incógnita $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JZ",
+    "question": "Resolver la ecuación: $10x - (3x + 4) = 5x + (x + 8)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 10$", "correct": false },
+      { "text": "$x = 12$", "correct": true },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x = 14$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica cada miembro de la ecuación por separado antes de trasladar términos.",
+    "explanation": "Operando: $10x - 3x - 4 = 6x + 8 \\Rightarrow 7x - 4 = 6x + 8$. Pasando las variables de un lado: $7x - 6x = 8 + 4 \\Rightarrow x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KA",
+    "question": "Resolver la ecuación: $4[x - (2x + 1)] = 2(x - 3)$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{1}{3}$", "correct": true },
+      { "text": "$x = \\frac{2}{3}$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina el paréntesis dentro del corchete primero para simplificar la expresión interior.",
+    "explanation": "$4[x - 2x - 1] = 2x - 6 \\Rightarrow 4[-x - 1] = 2x - 6 \\Rightarrow -4x - 4 = 2x - 6$. Despejando: $-4x - 2x = -6 + 4 \\Rightarrow -6x = -2 \\Rightarrow x = \\frac{1}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KB",
+    "question": "Resolver la ecuación: $\\frac{6x - 2}{4} = \\frac{3x + 1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "Sin solución", "correct": true },
+      { "text": "Infinitas soluciones", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica de forma cruzada y agrupa los términos que contienen $x$. Analiza el resultado.",
+    "explanation": "Al multiplicar cruzado: $2(6x - 2) = 4(3x + 1) \\Rightarrow 12x - 4 = 12x + 4$. Restando $12x$ en ambos lados obtenemos $-4 = 4$, lo cual es una falsedad matemática. La ecuación no tiene solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KC",
+    "question": "Resolver la ecuación: $3(x + 2) - 2(x - 1) = x + 8$",
+    "image": null,
+    "options": [
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "Infinitas soluciones", "correct": true },
+      { "text": "Sin solución", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el lado izquierdo de la igualdad y compara su forma reducida con el lado derecho.",
+    "explanation": "Desarrollando se tiene: $3x + 6 - 2x + 2 = x + 8 \\Rightarrow x + 8 = x + 8$. Esta es una identidad algebraica, lo que significa que la ecuación es válida para cualquier valor real, por tanto, tiene infinitas soluciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KD",
+    "question": "Resolver la ecuación: $\\frac{x + 1}{2} + \\frac{x + 2}{3} + \\frac{x + 3}{6} = 5$",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 3.5$", "correct": false },
+      { "text": "$x = 2.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el mínimo común múltiplo para los denominadores ($6$) y elimina las fracciones.",
+    "explanation": "Multiplicando la ecuación por el MCM se suprimen los denominadores, permitiendo expandir los numeradores para agrupar todas las incógnitas de un lado y resolver el despeje de la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KE",
+    "question": "Resolver la ecuación exponencial: $4^{x} = 64$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca cuántas veces debes multiplicar el $4$ por sí mismo para llegar a $64$.",
+    "explanation": "Sabiendo que $4 \\cdot 4 \\cdot 4 = 64$, reescribimos el problema como $4^x = 4^3$. Igualando exponentes, el resultado es $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KF",
+    "question": "Resolver la ecuación: $2x - [3x - (4x - 5)] = x + 1$",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuidado con los cambios de signo al suprimir paréntesis y corchetes precedidos de un signo negativo.",
+    "explanation": "$2x - [3x - 4x + 5] = x + 1 \\Rightarrow 2x - [-x + 5] = x + 1 \\Rightarrow 2x + x - 5 = x + 1 \\Rightarrow 3x - 5 = x + 1 \\Rightarrow 2x = 6 \\Rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KG",
+    "question": "Resolver la ecuación: $\\frac{5x - 1}{3} - \\frac{2x + 1}{2} = 1$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{11}{4}$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = \\frac{9}{4}$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica toda la expresión por $6$ para eliminar las fracciones, recordando colocar paréntesis en los numeradores.",
+    "explanation": "$2(5x - 1) - 3(2x + 1) = 6 \\Rightarrow 10x - 2 - 6x - 3 = 6 \\Rightarrow 4x - 5 = 6 \\Rightarrow 4x = 11 \\Rightarrow x = \\frac{11}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KH",
+    "question": "Resolver la ecuación: $8(x - 1) - 3(2x + 4) = 2(x + 5)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 15$", "correct": false },
+      { "text": "$x = 10$", "correct": false },
+      { "text": "Sin solución", "correct": true },
+      { "text": "$x = -15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla todo, agrupa las variables de un lado y analiza el resultado.",
+    "explanation": "$8x - 8 - 6x - 12 = 2x + 10 \\Rightarrow 2x - 20 = 2x + 10 \\Rightarrow -20 = 10$. Este es un absurdo matemático, por lo que la ecuación carece de solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KI",
+    "question": "Resolver la ecuación exponencial: $10^{x+2} = 1000$",
+    "image": null,
+    "options": [
+      { "text": "$x = 1$", "correct": true },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = -1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Escribe $1000$ como una potencia base $10$.",
+    "explanation": "Puesto que $10^3 = 1000$, la ecuación se puede reescribir como $10^{x+2} = 10^3$. Igualando los exponentes: $x + 2 = 3 \\Rightarrow x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KJ",
+    "question": "Resolver la ecuación: $\\frac{x}{2} + \\frac{x}{3} + \\frac{x}{4} = 13$",
+    "image": null,
+    "options": [
+      { "text": "$x = 12$", "correct": true },
+      { "text": "$x = 14$", "correct": false },
+      { "text": "$x = 10$", "correct": false },
+      { "text": "$x = 15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el común denominador ($12$) para realizar la suma de las fracciones con $x$.",
+    "explanation": "Multiplicando la ecuación por $12$: $6x + 4x + 3x = 156 \\Rightarrow 13x = 156 \\Rightarrow x = \\frac{156}{13} \\Rightarrow x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KK",
+    "question": "Resolver la ecuación: $5x - (2x + 3) = 3(x - 1)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "Infinitas soluciones", "correct": true },
+      { "text": "Sin solución", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica las expresiones en ambos extremos de la igualdad.",
+    "explanation": "Reduciendo términos: $5x - 2x - 3 = 3x - 3 \\Rightarrow 3x - 3 = 3x - 3$. Al llegar a una igualdad idéntica, decimos que la ecuación se cumple para todos los números reales (infinitas soluciones).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KL",
+    "question": "Resolver la ecuación: $\\frac{2x + 5}{3} = \\frac{x + 2}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$x = -4$", "correct": true },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = -2$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica productos cruzados (multiplicación en aspa) para deshacerte de las fracciones.",
+    "explanation": "Multiplicando en cruz: $2(2x + 5) = 3(x + 2) \\Rightarrow 4x + 10 = 3x + 6$. Restando $3x$ y $10$ de sus respectivos lados, se obtiene $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KM",
+    "question": "Resolver la ecuación: $4x - \\{2x + [x - (3x + 4)]\\} = 10$",
+    "image": null,
+    "options": [
+      { "text": "$x = 1$", "correct": true },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "$x = 1.5$", "correct": false },
+      { "text": "$x = 0.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Trabaja reduciendo los signos de adentro hacia afuera paso por paso para evitar confusiones en los signos.",
+    "explanation": "Se eliminan progresivamente los signos de agrupación desde el interior y se agrupan los términos semejantes algebraicos a fin de despejar de manera correcta la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KN",
+    "question": "Resolver la ecuación: $3(4x - 1) - 2(5x + 2) = 0$",
+    "image": null,
+    "options": [
+      { "text": "$x = 3.5$", "correct": false },
+      { "text": "$x = \\frac{7}{2}$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye las constantes en ambos binomios.",
+    "explanation": "$12x - 3 - 10x - 4 = 0 \\Rightarrow 2x - 7 = 0 \\Rightarrow 2x = 7 \\Rightarrow x = \\frac{7}{2}$. Observa que $\\frac{7}{2}$ es el formato exacto en fracción equivalente a $3.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KO",
+    "question": "Resolver la ecuación exponencial: $(2^{x})^3 = 64$",
+    "image": null,
+    "options": [
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica las leyes de los exponentes y expresa $64$ en base $2$.",
+    "explanation": "Al multiplicar exponentes $(a^m)^n = a^{m \\cdot n}$, la igualdad queda $2^{3x} = 2^6$. Igualando: $3x = 6 \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KP",
+    "question": "Resolver la ecuación: $\\frac{x + 4}{6} + \\frac{2x - 1}{3} = x$",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{2}{3}$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 0.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El común denominador de la parte izquierda es $6$.",
+    "explanation": "Multiplicando la ecuación por $6$: $x + 4 + 2(2x - 1) = 6x \\Rightarrow x + 4 + 4x - 2 = 6x \\Rightarrow 5x + 2 = 6x \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KQ",
+    "question": "Resolver la ecuación: $15 - 2(x - 3) = 4(x + 1) + 5$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuida que el signo negativo afecte a ambos elementos del primer paréntesis.",
+    "explanation": "$15 - 2x + 6 = 4x + 4 + 5 \\Rightarrow 21 - 2x = 4x + 9 \\Rightarrow 21 - 9 = 4x + 2x \\Rightarrow 12 = 6x \\Rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KR",
+    "question": "Resolver la ecuación: $\\frac{9x - 3}{3} = 2x + 1$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 0$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide directamente los elementos del numerador entre el denominador de manera individual.",
+    "explanation": "Al dividir se tiene: $3x - 1 = 2x + 1$. Agrupando valores se obtiene que $x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
