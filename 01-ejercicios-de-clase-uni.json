@@ -18846,5 +18846,652 @@
     "explanation": "'Anti' es el prefijo, 'revolucion' el lexema y 'ario' el sufijo que indica relación.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+    "id": "CEP02UB",
+    "question": "Calcula la longitud de la hipotenusa de un triángulo rectángulo cuyos catetos miden $3 \\text{ cm}$ y $4 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$7 \\text{ cm}$", "correct": false },
+      { "text": "$1 \\text{ cm}$", "correct": false },
+      { "text": "$25 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $c$ de la fórmula: $c = \\sqrt{a^2 + b^2}$.",
+    "explanation": "Aplicando el teorema de Pitágoras, la hipotenusa es $c = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UC",
+    "question": "Identifica cuáles de las siguientes ternas de números pueden representar las longitudes de los lados de un triángulo rectángulo: I) $5 \\text{ m}, 12 \\text{ m}, 13 \\text{ m}$; II) $6 \\text{ m}, 8 \\text{ m}, 10 \\text{ m}$; III) $4 \\text{ m}, 5 \\text{ m}, 6 \\text{ m}$; IV) $8 \\text{ m}, 15 \\text{ m}, 17 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "I, II, IV", "correct": true },
+      { "text": "I, III", "correct": false },
+      { "text": "II, III, IV", "correct": false },
+      { "text": "Solo II", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe cumplirse estrictamente la igualdad $c^2 = a^2 + b^2$, donde $c$ es el lado de mayor longitud.",
+    "explanation": "Al verificar, $13^2 = 5^2 + 12^2$, $10^2 = 6^2 + 8^2$, y $17^2 = 8^2 + 15^2$. La terna III no cumple porque $6^2 \\neq 4^2 + 5^2$ ($36 \\neq 16 + 25$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UD",
+    "question": "El teorema de ______ se aplica exclusivamente a triángulos ______, estableciendo una relación entre la longitud de sus catetos y la ______.",
+    "image": null,
+    "options": [
+      { "text": "Pitágoras, rectángulos, hipotenusa", "correct": true },
+      { "text": "Tales, isósceles, base", "correct": false },
+      { "text": "Euler, escalenos, altura", "correct": false },
+      { "text": "Pitágoras, acutángulos, mediana", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera el teorema que involucra un ángulo de $90^\\circ$ y las palabras clave de los lados de este triángulo.",
+    "explanation": "El teorema de Pitágoras ($a^2 + b^2 = c^2$) es un principio matemático específico para triángulos rectángulos y relaciona los dos catetos con la hipotenusa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UE",
+    "question": "Relaciona cada razón trigonométrica con su definición en un triángulo rectángulo: A) Seno, B) Coseno, C) Tangente; I) Cateto adyacente sobre hipotenusa, II) Cateto opuesto sobre cateto adyacente, III) Cateto opuesto sobre hipotenusa.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-III, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la regla mnemotécnica SOH-CAH-TOA para vincular cada función con sus lados correspondientes.",
+    "explanation": "El seno (SOH) es Opuesto/Hipotenusa (III), el coseno (CAH) es Adyacente/Hipotenusa (I) y la tangente (TOA) es Opuesto/Adyacente (II).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UF",
+    "question": "Un estudiante del CEPREDIX necesita determinar la altura de un poste de luz. Si el estudiante se aleja $10 \\text{ m}$ de la base del poste y observa su extremo superior con un ángulo de elevación de $45^\\circ$, ¿cuál es la altura del poste?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": true },
+      { "text": "$10\\sqrt{2} \\text{ m}$", "correct": false },
+      { "text": "$5 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula del cateto opuesto despejada: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "Usando $\\tan(45^\\circ) = \\frac{CO}{10 \\text{ m}}$, y sabiendo que $\\tan(45^\\circ) = 1$, despejamos $CO = 10 \\text{ m} \\cdot 1 = 10 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UG",
+    "question": "Identifica cuáles de las siguientes razones trigonométricas son inversas multiplicativas (recíprocas) del seno, coseno y tangente, respectivamente: I) Cotangente, II) Secante, III) Cosecante.",
+    "image": null,
+    "options": [
+      { "text": "III, II, I", "correct": true },
+      { "text": "I, II, III", "correct": false },
+      { "text": "II, III, I", "correct": false },
+      { "text": "III, I, II", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que la inversa del seno empieza con 'c', la del coseno empieza con 's', y la de la tangente empieza con 'c'.",
+    "explanation": "Las razones recíprocas son $\\csc(\\theta) = 1/\\sin(\\theta)$, $\\sec(\\theta) = 1/\\cos(\\theta)$, y $\\cot(\\theta) = 1/\\tan(\\theta)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UH",
+    "question": "Para medir una distancia horizontal inaccesible, se puede formar un triángulo rectángulo usando una ______ conocida y midiendo el ángulo de ______. Luego, se utiliza la función ______ para hallar la distancia.",
+    "image": null,
+    "options": [
+      { "text": "altura, elevación, tangente", "correct": true },
+      { "text": "sombra, depresión, hipotenusa", "correct": false },
+      { "text": "hipotenusa, refracción, seno", "correct": false },
+      { "text": "base, rotación, secante", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes relacionar el cateto opuesto (la altitud) con el adyacente (la distancia horizontal en el suelo).",
+    "explanation": "Conociendo la altura (Cateto Opuesto) y el ángulo de elevación, la tangente relaciona estos datos directamente con la distancia horizontal (Cateto Adyacente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UI",
+    "question": "Relaciona el ángulo notable con el valor exacto de su función seno: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $\\frac{\\sqrt{3}}{2}$, II) $\\frac{1}{2}$, III) $\\frac{\\sqrt{2}}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten en mente que el valor del seno aumenta de $0$ a $1$ en el primer cuadrante.",
+    "explanation": "Los valores exactos son $\\sin(30^\\circ) = 1/2$, $\\sin(45^\\circ) = \\sqrt{2}/2$, y $\\sin(60^\\circ) = \\sqrt{3}/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UJ",
+    "question": "Una escalera de $13 \\text{ m}$ de longitud está apoyada contra una pared vertical. Si la base de la escalera está a $5 \\text{ m}$ de la pared, ¿a qué altura alcanza la escalera sobre la pared?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ m}$", "correct": true },
+      { "text": "$14 \\text{ m}$", "correct": false },
+      { "text": "$8 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el despeje del cateto en el teorema de Pitágoras: $a = \\sqrt{c^2 - b^2}$.",
+    "explanation": "Usando el teorema de Pitágoras, la altura es un cateto: $\\text{altura} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UK",
+    "question": "En un triángulo rectángulo, si el cateto adyacente al ángulo $\\alpha$ mide $6 \\text{ u}$ y la hipotenusa mide $10 \\text{ u}$, ¿cuál es el valor numérico de $\\cos(\\alpha)$?",
+    "image": null,
+    "options": [
+      { "text": "$0.6$", "correct": true },
+      { "text": "$0.8$", "correct": false },
+      { "text": "$1.6$", "correct": false },
+      { "text": "$0.75$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula directa a utilizar es $\\cos(\\alpha) = \\frac{CA}{H}$.",
+    "explanation": "Al dividir el cateto adyacente sobre la hipotenusa, obtenemos $\\cos(\\alpha) = \\frac{6 \\text{ u}}{10 \\text{ u}} = 0.6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UL",
+    "question": "Un cable de acero sostiene una antena de telecomunicaciones. El cable mide $20 \\text{ m}$ y forma un ángulo de $60^\\circ$ con el suelo horizontal. ¿A qué altura está anclado el cable en la antena?",
+    "image": null,
+    "options": [
+      { "text": "$10\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$5\\sqrt{3} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar el cateto opuesto (altura), aplica el despeje: $CO = H \\cdot \\sin(\\theta)$.",
+    "explanation": "La altura se calcula como $20 \\text{ m} \\cdot \\sin(60^\\circ) = 20 \\text{ m} \\cdot \\frac{\\sqrt{3}}{2} = 10\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UM",
+    "question": "Identifica las identidades trigonométricas fundamentales correctas: I) $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$, II) $\\tan(\\theta) = \\frac{\\cos(\\theta)}{\\sin(\\theta)}$, III) $1 + \\tan^2(\\theta) = \\sec^2(\\theta)$, IV) $\\csc(\\theta) = \\frac{1}{\\cos(\\theta)}$.",
+    "image": null,
+    "options": [
+      { "text": "I, III", "correct": true },
+      { "text": "I, II, III", "correct": false },
+      { "text": "II, IV", "correct": false },
+      { "text": "I, IV", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que la tangente equivale a seno sobre coseno, y la secante es la función inversa del coseno.",
+    "explanation": "La opción II es incorrecta porque $\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}$. La opción IV es incorrecta porque $\\csc(\\theta) = \\frac{1}{\\sin(\\theta)}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UN",
+    "question": "En un triángulo rectángulo, el lado opuesto al ángulo recto se llama ______, y es siempre el lado de ______ longitud.",
+    "image": null,
+    "options": [
+      { "text": "hipotenusa, mayor", "correct": true },
+      { "text": "cateto, menor", "correct": false },
+      { "text": "hipotenusa, menor", "correct": false },
+      { "text": "cateto, mayor", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el principio geométrico de que a mayor ángulo se opone mayor lado.",
+    "explanation": "La hipotenusa se sitúa frente al ángulo de $90^\\circ$ (el más grande del triángulo rectángulo) y por definición es siempre el lado más largo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UO",
+    "question": "Relaciona el problema trigonométrico con el despeje necesario para resolverlo: A) Hallar la hipotenusa conociendo el cateto opuesto y el ángulo, B) Hallar el cateto adyacente conociendo la hipotenusa y el ángulo, C) Hallar el ángulo conociendo ambos catetos; I) $CA = H \\cdot \\cos(\\theta)$, II) $\\theta = \\arctan(\\frac{CO}{CA})$, III) $H = \\frac{CO}{\\sin(\\theta)}$.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Repasa las definiciones de SOH-CAH-TOA y observa cómo se despeja analíticamente cada variable.",
+    "explanation": "Para A, $\\sin(\\theta) = CO/H \\rightarrow H = CO/\\sin(\\theta)$. Para B, $\\cos(\\theta) = CA/H \\rightarrow CA = H \\cdot \\cos(\\theta)$. Para C, $\\tan(\\theta) = CO/CA \\rightarrow \\theta = \\arctan(CO/CA)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UP",
+    "question": "Un estudiante del CEPREDIX observa que un edificio proyecta una sombra de $15 \\text{ m}$ en el suelo. Si en ese momento los rayos del sol forman un ángulo de $45^\\circ$ con el suelo, ¿cuál es la altura del edificio?",
+    "image": null,
+    "options": [
+      { "text": "$15 \\text{ m}$", "correct": true },
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$7.5 \\text{ m}$", "correct": false },
+      { "text": "$15\\sqrt{2} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para relacionar sombra y altura usa el despeje: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "Cuando el ángulo es de $45^\\circ$, la tangente equivale a $1$. Esto indica que ambos catetos (altura y sombra) son de igual longitud: $15 \\text{ m} \\cdot 1 = 15 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UQ",
+    "question": "Desde un punto en el suelo a $40 \\text{ m}$ de la base de un risco, se observa la cima con un ángulo de elevación de $60^\\circ$. ¿Cuál es la altura del risco?",
+    "image": null,
+    "options": [
+      { "text": "$40\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$20 \\text{ m}$", "correct": false },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$80\\sqrt{3} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la función tangente mediante el despeje de altura: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "La altura corresponde al cateto opuesto, entonces: $CO = 40 \\text{ m} \\cdot \\tan(60^\\circ)$. Como $\\tan(60^\\circ) = \\sqrt{3}$, el resultado es $40\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UR",
+    "question": "Identifica los elementos que conforman exclusivamente un triángulo rectángulo: I) Un ángulo de $90^\\circ$, II) Dos ángulos obtusos, III) Dos catetos, IV) Una hipotenusa, V) Tres ángulos agudos.",
+    "image": null,
+    "options": [
+      { "text": "I, III, IV", "correct": true },
+      { "text": "II, IV, V", "correct": false },
+      { "text": "I, II, III", "correct": false },
+      { "text": "III, IV, V", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La propia palabra 'rectángulo' es un indicio geométrico del tipo específico de ángulo que contiene.",
+    "explanation": "Todo triángulo rectángulo debe poseer rigurosamente un ángulo recto ($90^\\circ$), dos lados que convergen en él llamados catetos, y el lado opuesto denominado hipotenusa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02US",
+    "question": "Al observar un objeto hacia arriba desde la línea horizontal, se forma un ángulo de ______; si el objeto se observa hacia abajo desde la línea horizontal, se forma un ángulo de ______.",
+    "image": null,
+    "options": [
+      { "text": "elevación, depresión", "correct": true },
+      { "text": "depresión, elevación", "correct": false },
+      { "text": "refracción, incidencia", "correct": false },
+      { "text": "agudo, obtuso", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Relaciona los conceptos con el movimiento de tus ojos: subir la mirada frente a bajarla.",
+    "explanation": "Por convención trigonométrica, el ángulo de elevación se mide trazando desde la horizontal hacia arriba, mientras que el de depresión se mide desde la horizontal hacia abajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UT",
+    "question": "Relaciona el ángulo notable con el valor exacto de su función tangente: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $1$, II) $\\sqrt{3}$, III) $\\frac{\\sqrt{3}}{3}$.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-II, B-I, C-III", "correct": false },
+      { "text": "A-I, B-III, C-II", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en cuenta que la tangente de $45^\\circ$ siempre equivale a la unidad debido a la simetría de sus catetos.",
+    "explanation": "Los valores convencionales son $\\tan(30^\\circ) = \\sqrt{3}/3$, $\\tan(45^\\circ) = 1$, y $\\tan(60^\\circ) = \\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UU",
+    "question": "Un avión comienza a descender hacia la pista de aterrizaje con un ángulo de depresión de $5^\\circ$. Si la altitud de vuelo es de $3000 \\text{ m}$, ¿cuál es la distancia horizontal directa a la pista en ese momento? (Toma $\\tan(5^\\circ) \\approx 0.0875$)",
+    "image": null,
+    "options": [
+      { "text": "$34285.7 \\text{ m}$", "correct": true },
+      { "text": "$262.5 \\text{ m}$", "correct": false },
+      { "text": "$30000 \\text{ m}$", "correct": false },
+      { "text": "$300 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula de la tangente despejada para encontrar la base horizontal: $CA = \\frac{CO}{\\tan(\\theta)}$.",
+    "explanation": "Sustituyendo los valores, obtenemos que la Distancia horizontal $= \\frac{3000 \\text{ m}}{0.0875} \\approx 34285.7 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UV",
+    "question": "¿Cuál es el valor del cateto faltante en un triángulo rectángulo si la hipotenusa mide $15 \\text{ cm}$ y el otro cateto mide $9 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ cm}$", "correct": true },
+      { "text": "$144 \\text{ cm}$", "correct": false },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$8 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la sustracción en la fórmula de Pitágoras: $b = \\sqrt{c^2 - a^2}$.",
+    "explanation": "El cateto desconocido es $b = \\sqrt{15^2 - 9^2} = \\sqrt{225 - 81} = \\sqrt{144} = 12 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UW",
+    "question": "De las siguientes propiedades, identifica las que permiten usar las razones trigonométricas sin importar el tamaño del triángulo: I) Semejanza de triángulos, II) Proporcionalidad de lados correspondientes, III) Congruencia de áreas, IV) Igualdad de perímetros.",
+    "image": null,
+    "options": [
+      { "text": "I, II", "correct": true },
+      { "text": "III, IV", "correct": false },
+      { "text": "I, III", "correct": false },
+      { "text": "II, IV", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que las funciones trigonométricas son cocientes que permanecen constantes siempre que la apertura angular no varíe.",
+    "explanation": "Las razones trigonométricas operan universalmente gracias a la semejanza de triángulos que garantiza la proporcionalidad directa de sus lados sin importar la escala.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UX",
+    "question": "El seno de un ángulo agudo es igual al ______ de su ángulo ______. Por ejemplo, $\\sin(30^\\circ) = \\cos(60^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "coseno, complementario", "correct": true },
+      { "text": "tangente, suplementario", "correct": false },
+      { "text": "secante, opuesto", "correct": false },
+      { "text": "seno, llano", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el caso de los ángulos interiores no rectos del triángulo rectángulo, cuya suma obligatoria es $90^\\circ$.",
+    "explanation": "En un triángulo rectángulo, los ángulos agudos son complementarios. Geométricamente, el cateto opuesto de un ángulo funge como el cateto adyacente del otro, por lo que el seno de uno corresponde al coseno del otro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UY",
+    "question": "Relaciona la expresión trigonométrica con su equivalente algebraico simplificado: A) $\\sin(\\alpha) \\cdot \\csc(\\alpha)$, B) $\\frac{\\sin(\\alpha)}{\\cos(\\alpha)}$, C) $\\cos(\\alpha) \\cdot \\sec(\\alpha)$; I) $1$, II) $\\tan(\\alpha)$.",
+    "image": null,
+    "options": [
+      { "text": "A-I, B-II, C-I", "correct": true },
+      { "text": "A-II, B-I, C-II", "correct": false },
+      { "text": "A-I, B-I, C-II", "correct": false },
+      { "text": "A-II, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que multiplicar cualquier número o función por su inversa multiplicativa resulta en la unidad.",
+    "explanation": "El producto de funciones inversas siempre da $1$ (por ende, $\\sin \\cdot \\csc = 1$ y $\\cos \\cdot \\sec = 1$). Por otra parte, la identidad de cociente indica que seno entre coseno es igual a tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UZ",
+    "question": "Si te desplazas $8 \\text{ km}$ hacia el Norte y luego $6 \\text{ km}$ hacia el Este, ¿cuál es la distancia en línea recta desde tu punto de partida?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ km}$", "correct": true },
+      { "text": "$14 \\text{ km}$", "correct": false },
+      { "text": "$12 \\text{ km}$", "correct": false },
+      { "text": "$2 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La trayectoria Norte y luego Este forma un ángulo de $90^\\circ$. Utiliza $c = \\sqrt{a^2 + b^2}$.",
+    "explanation": "La distancia directa funge como la hipotenusa del desplazamiento: $c = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10 \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VA",
+    "question": "Desde lo alto de un faro de $60 \\text{ m}$ sobre el nivel del mar, se observa un barco con un ángulo de depresión de $30^\\circ$. ¿A qué distancia de la base del faro se encuentra el barco?",
+    "image": null,
+    "options": [
+      { "text": "$60\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false },
+      { "text": "$120 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Por ángulos alternos internos, el ángulo de depresión es igual al de elevación desde el barco. Usa $CA = \\frac{CO}{\\tan(\\theta)}$.",
+    "explanation": "La distancia horizontal es $CA = \\frac{60 \\text{ m}}{\\tan(30^\\circ)} = \\frac{60}{\\sqrt{3}/3} = \\frac{180}{\\sqrt{3}} = 60\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VB",
+    "question": "Un niño vuela una cometa y ha soltado $50 \\text{ m}$ de hilo. Si el hilo está tenso y forma un ángulo con el suelo cuyo seno es $0.8$, ¿a qué altura se encuentra la cometa?",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ m}$", "correct": true },
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false },
+      { "text": "$50 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sabiendo que el seno es el cociente entre altura e hipotenusa, emplea $CO = H \\cdot \\sin(\\theta)$.",
+    "explanation": "Sustituyendo directamente en la fórmula, tenemos que Altura $= 50 \\text{ m} \\cdot 0.8 = 40 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VC",
+    "question": "Identifica las expresiones que son matemáticamente equivalentes a $\\sin(\\theta)$ para un ángulo agudo $\\theta$ en un triángulo rectángulo de catetos $a$ (opuesto), $b$ (adyacente) e hipotenusa $c$: I) $a/c$, II) $\\cos(90^\\circ - \\theta)$, III) $1/\\csc(\\theta)$, IV) $b/c$.",
+    "image": null,
+    "options": [
+      { "text": "I, II, III", "correct": true },
+      { "text": "I, IV", "correct": false },
+      { "text": "II, III, IV", "correct": false },
+      { "text": "Solo I y III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en consideración la definición geométrica, la ley de cofunciones complementarias y las identidades recíprocas fundamentales.",
+    "explanation": "El seno es opuesto sobre hipotenusa ($a/c$), equivale funcionalmente al coseno de su complemento, y representa el inverso de la cosecante. La opción $b/c$ corresponde al coseno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VD",
+    "question": "En la ecuación matemática $c^2 = a^2 + b^2$, la letra $c$ representa la ______ y debe ser obligatoriamente el lado ______ del triángulo rectángulo.",
+    "image": null,
+    "options": [
+      { "text": "hipotenusa, más largo", "correct": true },
+      { "text": "base, más corto", "correct": false },
+      { "text": "altura, intermedio", "correct": false },
+      { "text": "hipotenusa, más corto", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la suma de dos magnitudes cuadradas positivas siempre origina un valor mayor que cualquiera de las partes de manera aislada.",
+    "explanation": "El valor $c$ es la hipotenusa y al ser su cuadrado igual a la suma de los otros dos cuadrados, matemáticamente asegura que es el lado de mayor longitud geométrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VE",
+    "question": "Relaciona cada ángulo con el valor trigonométrico exacto de su coseno: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $\\frac{1}{2}$, II) $\\frac{\\sqrt{3}}{2}$, III) $\\frac{\\sqrt{2}}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica mentalmente que el valor del coseno disminuye progresivamente de $1$ a $0$ a lo largo del primer cuadrante.",
+    "explanation": "Los valores convencionales asignados son $\\cos(30^\\circ) = \\sqrt{3}/2$, $\\cos(45^\\circ) = \\sqrt{2}/2$, y $\\cos(60^\\circ) = 1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VF",
+    "question": "El diseño arquitectónico del CEPREDIX incluye una rampa de acceso para sillas de ruedas. La rampa debe salvar un desnivel de $1 \\text{ m}$ y tiene una longitud total de recorrido de $10 \\text{ m}$. ¿Cuál es el seno del ángulo de inclinación de la rampa?",
+    "image": null,
+    "options": [
+      { "text": "$0.1$", "correct": true },
+      { "text": "$10$", "correct": false },
+      { "text": "$0.01$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Implementa directamente la definición $\\sin(\\theta) = \\frac{CO}{H}$, donde la longitud de la rampa es la hipotenusa.",
+    "explanation": "Al establecer la relación matemática $\\sin(\\theta) = \\frac{1 \\text{ m}}{10 \\text{ m}}$, el resultado decimal es $0.1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VG",
+    "question": "Un globo aerostático está sujeto al suelo por un cable tenso de $100 \\text{ m}$ que forma un ángulo de $45^\\circ$ con la horizontal. Por la fuerza del viento, el globo baja hasta que el cable forma $30^\\circ$. ¿Cuántos metros descendió verticalmente el globo aproximadamente? (Usa $\\sqrt{2} \\approx 1.41$)",
+    "image": null,
+    "options": [
+      { "text": "$20.5 \\text{ m}$", "correct": true },
+      { "text": "$70.5 \\text{ m}$", "correct": false },
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$14.1 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la Altura inicial $= 100\\sin(45^\\circ)$ y la Altura final $= 100\\sin(30^\\circ)$. Luego, realiza una sustracción para obtener la diferencia.",
+    "explanation": "Altura inicial $= 100 \\cdot (\\sqrt{2}/2) = 50\\sqrt{2} \\approx 70.5 \\text{ m}$. Altura final $= 100 \\cdot (1/2) = 50 \\text{ m}$. El descenso es $70.5 - 50 = 20.5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VH",
+    "question": "Calcula la diagonal de una pantalla de televisión perfectamente cuadrada si cada uno de sus lados mide $50 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$50\\sqrt{2} \\text{ cm}$", "correct": true },
+      { "text": "$100 \\text{ cm}$", "correct": false },
+      { "text": "$2500 \\text{ cm}$", "correct": false },
+      { "text": "$25\\sqrt{2} \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Visualiza que la diagonal divide al cuadrado en dos triángulos rectángulos isósceles. Utiliza $d = \\sqrt{l^2 + l^2}$.",
+    "explanation": "Al aplicar el teorema, la diagonal $d = \\sqrt{50^2 + 50^2} = \\sqrt{2 \\cdot 50^2}$. Extrayendo la raíz, obtenemos $50\\sqrt{2} \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VI",
+    "question": "Un árbol de altura $h$ proyecta una sombra de $12 \\text{ m}$. En ese mismo instante, un poste vertical de $2 \\text{ m}$ proyecta una sombra de $3 \\text{ m}$. ¿Cuál es la altura del árbol usando razones trigonométricas de triángulos semejantes?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ m}$", "correct": true },
+      { "text": "$18 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false },
+      { "text": "$24 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que el sol impacta con el mismo ángulo de inclinación, la tangente ($\\tan(\\theta)$) es idéntica. Emplea la proporción $\\frac{h}{12} = \\frac{2}{3}$.",
+    "explanation": "Al resolver la equivalencia proporcional, determinamos que $h = 12 \\text{ m} \\cdot \\left(\\frac{2}{3}\\right) = 8 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VJ",
+    "question": "En un triángulo rectángulo cuyos lados miden $8 \\text{ m}$, $15 \\text{ m}$ y $17 \\text{ m}$, ¿cuál es el valor del coseno del ángulo adyacente al lado de $15 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$15/17$", "correct": true },
+      { "text": "$8/17$", "correct": false },
+      { "text": "$15/8$", "correct": false },
+      { "text": "$8/15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que la hipotenusa corresponde al lado de mayor medida y, tras ello, aplica de manera directa $\\cos(\\theta) = \\frac{CA}{H}$.",
+    "explanation": "La hipotenusa mide $17 \\text{ m}$. El cateto adyacente al ángulo referenciado es $15 \\text{ m}$. Por lo tanto, el coseno se expresa como la fracción $\\frac{15}{17}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VK",
+    "question": "Un equipo de topografía del CEPREDIX necesita medir el ancho de un río. Desde un punto $A$ en la orilla, observan un árbol en el punto $B$ justo en la orilla opuesta. Caminan $20 \\text{ m}$ por la orilla hasta un punto $C$. Desde $C$, el ángulo de visión hacia el árbol respecto a la orilla es de $60^\\circ$. ¿Cuál es el ancho del río?",
+    "image": null,
+    "options": [
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$10\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El ancho del río representa el cateto opuesto del triángulo rectángulo formado. Emplea la ecuación $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "El ancho se calcula multiplicando la base por la tangente: $20 \\text{ m} \\cdot \\tan(60^\\circ)$. Puesto que $\\tan(60^\\circ) = \\sqrt{3}$, la respuesta es $20\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
