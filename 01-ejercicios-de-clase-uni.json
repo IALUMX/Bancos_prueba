@@ -16470,5 +16470,1931 @@
     "explanation": "Consolida la liberación de contenido interno al elevar y engrandecer a un formato cuadrado los flancos dictando la pauta que $y^2 = \\frac{a-x}{b}$. Traspone multiplicando el divisor resultando el bloque unificado $b y^2 = a - x$. Suma con inversión equitativa la sustracción en su forma singular, intercambiando locaciones de modo que terminamos consolidando $x = a - b y^2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP02XX",
+    "question": "Un equipo de expedición del CEPREDIX está conformado por $90$ personas. Se cuenta con alimento para $24$ días considerando dar $3$ comidas diarias. Si se disminuyen las raciones a $2$ comidas diarias y se aumenta la tripulación sumando $20$ personas más, ¿cuántos días durarán los alimentos?",
+    "image": null,
+    "options": [
+      { "text": "$29.45$", "correct": true },
+      { "text": "$28.80$", "correct": false },
+      { "text": "$27.00$", "correct": false },
+      { "text": "$32.40$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza una regla de tres compuesta. Calcula primero el número total de raciones iniciales ($90 \\times 3 \\times 24$).",
+    "explanation": "El total de raciones de comida almacenadas es $90 \\times 3 \\times 24 = 6480$. Al aumentar la tripulación a $110$ personas ($90+20$) y disminuir a $2$ comidas diarias, se consumen $220$ raciones por día. Por lo tanto, los alimentos durarán $x = \\frac{6480}{220} \\approx 29.45$ días.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XY",
+    "question": "La capacidad de un tinaco es de $8400 \\text{ L}$. Si se llena con agua de un grifo a razón de $70 \\text{ L}$ cada $4$ minutos, ¿cuántos minutos tardará en llenarse por completo?",
+    "image": null,
+    "options": [
+      { "text": "$480$", "correct": true },
+      { "text": "$120$", "correct": false },
+      { "text": "$240$", "correct": false },
+      { "text": "$360$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero la cantidad de litros que se vierten en un solo minuto dividiendo $70$ entre $4$.",
+    "explanation": "La razón de llenado por minuto es $\\frac{70 \\text{ L}}{4 \\text{ min}} = 17.5 \\text{ L/min}$. Para llenar la capacidad total de $8400 \\text{ L}$, el tiempo requerido es $t = \\frac{8400}{17.5} = 480 \\text{ minutos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02XZ",
+    "question": "En una comunidad de $30$ personas, de las cuales $12$ son menores de edad, se tiene previsto que diariamente un adulto haga guardia nocturna de $22:00$ a $07:00$ horas. ¿Cuántas horas hace de guardia cada adulto durante un lapso de $300$ días?",
+    "image": null,
+    "options": [
+      { "text": "$150$", "correct": true },
+      { "text": "$300$", "correct": false },
+      { "text": "$200$", "correct": false },
+      { "text": "$250$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el número de horas que dura una noche de guardia, luego el total de horas en los $300$ días y repártelo entre el total de adultos disponibles.",
+    "explanation": "Cada noche de guardia de $22:00$ a $07:00$ dura $9$ horas. En un total de $300$ días se requieren $300 \\times 9 = 2700$ horas. El número de adultos es $30 - 12 = 18$. Las horas equitativas por cada adulto son $\\frac{2700}{18} = 150$ horas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YA",
+    "question": "Identifica la expresión matemática que utilice correctamente la jerarquía de los símbolos de agrupación.",
+    "image": null,
+    "options": [
+      { "text": "$2 - \\{5 + [3(4 - 6) - 2(-3)]\\}$", "correct": true },
+      { "text": "$2 - (5 + [3(4 - 6) - 2(-3)])$", "correct": false },
+      { "text": "$2 - \\{5[3(4 - 6) - 2(-3)]\\}$", "correct": false },
+      { "text": "$2 - [5 + \\{3(4 - 6) - 2(-3)\\}]$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el orden jerárquico estándar desde adentro hacia afuera es: primero paréntesis $()$, luego corchetes $[]$ y finalmente llaves $\\{\\}$.",
+    "explanation": "La expresión matemática debe utilizar los símbolos de agrupación ordenadamente de mayor a menor profundidad geométrica. Es decir, usa paréntesis para las operaciones más interiores, corchetes para las intermedias y llaves para las exteriores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YB",
+    "question": "Un estudiante del CEPREDIX calcula la trayectoria de un cometa. Si la velocidad de un cometa es de $3 \\times 10^6 \\text{ m/s}$ y la distancia rectilínea entre dos planetas es de $9.6 \\times 10^{12} \\text{ m}$, identifica el tiempo en segundos que tarda el cometa en viajar de un planeta a otro.",
+    "image": null,
+    "options": [
+      { "text": "$3.2 \\times 10^6$", "correct": true },
+      { "text": "$3.2 \\times 10^5$", "correct": false },
+      { "text": "$3.2 \\times 10^7$", "correct": false },
+      { "text": "$3.2 \\times 10^4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula $t = \\frac{d}{v}$. Al dividir números en notación científica, divide los coeficientes y resta los exponentes de las bases $10$.",
+    "explanation": "Al aplicar la fórmula del tiempo se divide la distancia entre la velocidad: $t = \\frac{9.6 \\times 10^{12}}{3 \\times 10^6} = \\left(\\frac{9.6}{3}\\right) \\times 10^{12 - 6} = 3.2 \\times 10^6 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YC",
+    "question": "Identifica el conjunto de factores primos correctos del número $420$.",
+    "image": null,
+    "options": [
+      { "text": "$2, 3, 5, 7$", "correct": true },
+      { "text": "$2, 3, 7$", "correct": false },
+      { "text": "$5, 7, 13$", "correct": false },
+      { "text": "$2, 5, 7, 11$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón el número dividiéndolo sucesivamente entre los números primos en orden ascendente ($2, 3, 5, 7\\dots$).",
+    "explanation": "Al realizar la descomposición prima obtenemos: $420 \\div 2 = 210$; $210 \\div 2 = 105$; $105 \\div 3 = 35$; $35 \\div 5 = 7$; $7 \\div 7 = 1$. Se factoriza como $420 = 2^2 \\times 3 \\times 5 \\times 7$. Sus factores primos son $2, 3, 5$ y $7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YD",
+    "question": "Un dispositivo electrónico requiere de $36 \\text{ V}$ para poder funcionar. Si un arreglo de $3$ baterías conectadas en serie proporciona $12 \\text{ V}$, ¿cuántas de estas baterías se necesitan conectar en serie para alcanzar los $36 \\text{ V}$ necesarios?",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": true },
+      { "text": "$6$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el voltaje que aporta una sola batería dividiendo el voltaje total entre el número de baterías.",
+    "explanation": "Si $3$ baterías conectadas en serie proveen un total de $12 \\text{ V}$, cada batería aporta $4 \\text{ V}$ (variación directa). Para llegar a $36 \\text{ V}$, se dividen los $36 \\text{ V}$ entre los $4 \\text{ V}$ que aporta cada una, obteniendo $\\frac{36}{4} = 9$ baterías.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YE",
+    "question": "En una población se detecta un virus en $5$ personas. La razón de crecimiento de la infección es que se triplica cada $4$ días. ¿Cuántos infectados habrá después de $28$ días completos?",
+    "image": null,
+    "options": [
+      { "text": "$10935$", "correct": true },
+      { "text": "$1215$", "correct": false },
+      { "text": "$405$", "correct": false },
+      { "text": "$135$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza una progresión geométrica o modelo exponencial $A_n = A_0 \\times r^{\\frac{t}{n}}$, donde $t$ es el tiempo total y $n$ el tiempo del ciclo.",
+    "explanation": "Se resuelve mediante progresión geométrica. El número de ciclos de propagación es de $\\frac{28}{4} = 7$ periodos. El cálculo de los infectados es $5 \\times 3^7 = 5 \\times 2187 = 10935$ personas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YF",
+    "question": "Una empresa tiene $4$ departamentos con distintas líneas telefónicas: el departamento A cuenta con $5$ extensiones, B con $2$, C con $6$ y D con $3$. Si el recibo telefónico total es de $\\$24,000$ y el pago es directamente proporcional al número de aparatos, ¿cuánto debe pagar el departamento B?",
+    "image": null,
+    "options": [
+      { "text": "$\\$3,000$", "correct": true },
+      { "text": "$\\$4,000$", "correct": false },
+      { "text": "$\\$5,000$", "correct": false },
+      { "text": "$\\$6,000$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma el total de extensiones en la empresa para conocer el valor prorrateado (costo individual) por cada extensión.",
+    "explanation": "El total de extensiones es $5 + 2 + 6 + 3 = 16$. El costo por cada extensión individual es $\\frac{\\$24,000}{16} = \\$1,500$. Por lo tanto, el departamento B que tiene $2$ extensiones debe pagar $2 \\times \\$1,500 = \\$3,000$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YG",
+    "question": "Un vehículo del CEPREDIX realiza un recorrido de vigilancia. El lunes avanza $120 \\text{ km}$. El martes avanza $1/4$ de lo recorrido el lunes, y el miércoles realiza un trayecto de regreso equivalente a $3/5$ de la distancia que avanzó el martes. ¿A cuántos kilómetros del punto de partida se encuentra al terminar el recorrido del miércoles?",
+    "image": null,
+    "options": [
+      { "text": "$132 \\text{ km}$", "correct": true },
+      { "text": "$96 \\text{ km}$", "correct": false },
+      { "text": "$84 \\text{ km}$", "correct": false },
+      { "text": "$108 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula de forma independiente la distancia de cada día. Suma las distancias de avance y resta la distancia de retroceso.",
+    "explanation": "El lunes avanza $120 \\text{ km}$. El martes avanza $\\frac{1}{4}$ de $120 \\text{ km}$, que equivale a $30 \\text{ km}$. El miércoles va de regreso $\\frac{3}{5}$ de $30 \\text{ km}$, que equivale a $18 \\text{ km}$. La posición final es $120 + 30 - 18 = 132 \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YH",
+    "question": "En un almacén de arroz, inicialmente existen $8000 \\text{ kg}$. Se concretan $4$ ventas de $450.5 \\text{ kg}$, posteriormente $6$ ventas de $320.25 \\text{ kg}$ y al final se reciben $2$ lotes de compras de $1000.75 \\text{ kg}$ cada uno. ¿Cuántos kilogramos quedan almacenados finalmente?",
+    "image": null,
+    "options": [
+      { "text": "$6278.00 \\text{ kg}$", "correct": true },
+      { "text": "$7365.50 \\text{ kg}$", "correct": false },
+      { "text": "$8250.25 \\text{ kg}$", "correct": false },
+      { "text": "$7010.00 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea una ecuación donde las compras y el almacenamiento inicial se suman, y todas las ventas se restan al inventario.",
+    "explanation": "Se expresa como una ecuación de balance: $8000 + 2(1000.75) - 4(450.5) - 6(320.25)$. Al resolver multiplicaciones: $8000 + 2001.5 - 1802 - 1921.5$. Efectuando las sumas y restas quedan $6278 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YI",
+    "question": "Identifica la representación correcta en lenguaje común de la expresión matemática $5^{2/3}$.",
+    "image": null,
+    "options": [
+      { "text": "Raíz cúbica de $5$ al cuadrado", "correct": true },
+      { "text": "Raíz cuadrada de $5$ al cubo", "correct": false },
+      { "text": "Dos tercios de $5$", "correct": false },
+      { "text": "El triple de $5$ al cuadrado", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En los exponentes fraccionarios de la forma $x^{m/n}$, el numerador es la potencia de la base y el denominador es el índice del radical.",
+    "explanation": "La expresión $5^{2/3}$ se reescribe como $\\sqrt[3]{5^2}$. El denominador ($3$) determina que el índice de la raíz es al cubo, y el numerador ($2$) indica que la base ($5$) está elevada al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YJ",
+    "question": "Resuelva la siguiente operación aritmética aplicando las leyes de jerarquía de operaciones: $64 \\div 4 + 2 - 3 \\times 6 + 5 \\times 2^2 \\div 2 - 8$.",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa primero potencias; segundo, divisiones y multiplicaciones (de izquierda a derecha); finalmente sumas y restas.",
+    "explanation": "Primero la potencia: $2^2 = 4$. Luego las multiplicaciones y divisiones: $64 \\div 4 = 16$; $-3 \\times 6 = -18$; y $5 \\times 4 \\div 2 = 10$. La expresión se reduce a sumar y restar: $16 + 2 - 18 + 10 - 8 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YK",
+    "question": "En un aeropuerto internacional existen vuelos de conexión constantes que parten cada $6, 10$ y $15$ horas. Si estas tres rutas coinciden a las $12:00$ de la tarde, ¿dentro de cuántas horas volverán a coincidir los tres vuelos simultáneamente por primera vez?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ horas}$", "correct": true },
+      { "text": "$60 \\text{ horas}$", "correct": false },
+      { "text": "$90 \\text{ horas}$", "correct": false },
+      { "text": "$45 \\text{ horas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando eventos de diferentes periodos necesitan coincidir, se debe utilizar el cálculo del Mínimo Común Múltiplo (MCM).",
+    "explanation": "Se debe hallar el MCM de los números correspondientes a las frecuencias de los vuelos. Al descomponer en factores primos $6, 10$ y $15$, se obtiene que el mínimo múltiplo en el que coinciden es $30$. Por ende, tardarán $30 \\text{ horas}$ en coincidir.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YL",
+    "question": "Un agricultor tiene $180 \\text{ L}$ de leche y $120 \\text{ L}$ de crema. Desea envasar ambos líquidos por separado en recipientes exactamente iguales que tengan la máxima capacidad posible y sin que sobre líquido. ¿Cuál debe ser esa capacidad máxima por recipiente?",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ L}$", "correct": true },
+      { "text": "$30 \\text{ L}$", "correct": false },
+      { "text": "$20 \\text{ L}$", "correct": false },
+      { "text": "$90 \\text{ L}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para dividir cantidades garantizando la máxima capacidad común sin sobrantes, calcula el Máximo Común Divisor (MCD).",
+    "explanation": "Encontrando el Máximo Común Divisor entre $180$ y $120$. Sus factores compartidos más grandes originan el $\\text{MCD}(180, 120) = 60 \\text{ L}$. Esta medida asegura el uso completo sin dejar residuos y el mayor envase posible.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YM",
+    "question": "Con un $25\\%$ de descuento aplicado en rebajas, un pantalón tiene un costo final de $\\$600$. ¿Cuál era su precio de exhibición original?",
+    "image": null,
+    "options": [
+      { "text": "$\\$800$", "correct": true },
+      { "text": "$\\$750$", "correct": false },
+      { "text": "$\\$700$", "correct": false },
+      { "text": "$\\$900$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si se aplicó un descuento del $25\\%$, el precio de venta de $\\$600$ representa el $75\\%$ del valor original ($100\\%$).",
+    "explanation": "El monto pagado es $\\$600$, el cual equivale al $75\\%$ de su costo. Realizando una regla de tres directa para encontrar el $100\\%$ completo de su valor original: $x = \\frac{600}{0.75} = \\$800$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YN",
+    "question": "El equipo de finanzas del CEPREDIX realiza un depósito de inversión por $\\$50,000$ a plazo de $4$ años. Al final del tiempo se efectúa un retiro por un total de $\\$70,000$. ¿Cuál fue la tasa de interés simple anual pactada en esta operación?",
+    "image": null,
+    "options": [
+      { "text": "$10\\%$", "correct": true },
+      { "text": "$20\\%$", "correct": false },
+      { "text": "$15\\%$", "correct": false },
+      { "text": "$5\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula de interés simple es $I = C \\cdot i \\cdot t$. Recuerda que $I$ es la ganancia por intereses, obtenida restando el retiro menos el depósito inicial.",
+    "explanation": "La ganancia en intereses es de $\\$70,000 - \\$50,000 = \\$20,000$. El porcentaje de incremento global es $\\frac{20,000}{50,000} = 0.4$, es decir el $40\\%$ durante todo el periodo. Si esto ocurrió en $4$ años, la tasa anualizada es $\\frac{40\\%}{4} = 10\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YO",
+    "question": "Una fábrica produce normalmente un total de $3000$ piezas utilizando su línea completa de $8$ máquinas trabajando simultáneamente durante $6$ horas. Si en un turno $3$ máquinas fallan, ¿en cuántas horas se incrementará el tiempo para poder completar la misma cuota de producción?",
+    "image": null,
+    "options": [
+      { "text": "$3.6 \\text{ horas}$", "correct": true },
+      { "text": "$2.4 \\text{ horas}$", "correct": false },
+      { "text": "$1.8 \\text{ horas}$", "correct": false },
+      { "text": "$4.8 \\text{ horas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza una regla de tres inversamente proporcional, ya que al haber menos máquinas se requerirá de un mayor tiempo. Luego resta al tiempo nuevo el tiempo inicial.",
+    "explanation": "Al fallar $3$ quedan operando $5$ máquinas. De modo inverso tenemos $8 \\times 6 = 5 \\times t$. Despejando $t = \\frac{48}{5} = 9.6 \\text{ horas}$. El incremento neto respecto del turno inicial de $6$ horas es la resta de $9.6 - 6.0 = 3.6 \\text{ horas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YP",
+    "question": "Identifique la situación donde matemáticamente se aplique en esencia el producto de un número negativo por un número positivo.",
+    "image": null,
+    "options": [
+      { "text": "Triplicar una temperatura de $-5^\\circ\\text{C}$", "correct": true },
+      { "text": "Duplicar un saldo a favor de $\\$2000$", "correct": false },
+      { "text": "Dividir una pérdida de $\\$1000$", "correct": false },
+      { "text": "Restar $\\$500$ a una deuda de $\\$1000$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica qué evento implica escalar una cantidad numéricamente expresada como menor que cero multiplicada por un número escalar natural mayor a cero.",
+    "explanation": "Una temperatura registrada bajo cero se considera un número negativo ($-5$). El acto de triplicarlo es multiplicarlo por un factor positivo de $3$. La expresión sería $3 \\times (-5) = -15^\\circ\\text{C}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YQ",
+    "question": "Seleccione el valor numérico que debe ir en el recuadro para que la igualdad sea correcta: $(((r)^5)^3)^4 = (r^5)^{\\Box}$.",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$20$", "correct": false },
+      { "text": "$60$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda las leyes de los exponentes: cuando se eleva una potencia a otra potencia, los exponentes se multiplican entre sí.",
+    "explanation": "Agrupando las potencias externas sobre la base común $(r^5)$, se multiplican directamente las jerarquías de exponentes externos: $3 \\times 4 = 12$. Por lo que quedaría la igualdad estructurada como $(r^5)^{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YR",
+    "question": "¿Qué conjunto de datos estadísticos presenta un comportamiento con mayor desviación estándar?",
+    "image": null,
+    "options": [
+      { "text": "$\\{20, 15, 25, 10, 18, 22\\}$", "correct": true },
+      { "text": "$\\{18, 18, 12, 12, 18, 18\\}$", "correct": false },
+      { "text": "$\\{14, 16, 15, 15, 16, 14\\}$", "correct": false },
+      { "text": "$\\{15, 15, 15, 15, 15, 15\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La desviación estándar es una medida de dispersión que indica qué tan alejados están los valores individuales del centro promedio. Entre más dispersos, el valor es mayor.",
+    "explanation": "El primer conjunto tiene un nivel de varianza muy grande pues el rango de separación entre el menor ($10$) y el mayor ($25$) de los datos es mucho más amplio que en los demás casos. Dicha amplitud indica un perfil de mayor desviación estándar entre su propia muestra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YS",
+    "question": "Un árbol crece constantemente a una tasa biológica de $0.5 \\text{ m}$ por cada año que pasa. Si en la actualidad se mide a una altura de $7.5 \\text{ m}$, ¿cuántos años de vida tiene?",
+    "image": null,
+    "options": [
+      { "text": "$15 \\text{ años}$", "correct": true },
+      { "text": "$10 \\text{ años}$", "correct": false },
+      { "text": "$12 \\text{ años}$", "correct": false },
+      { "text": "$20 \\text{ años}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se resuelve con una división del total de crecimiento entre el factor de razón por cada periodo de año.",
+    "explanation": "Solo hace falta dividir la longitud lograda por el árbol entre su crecimiento constante esperado. La operación es $\\frac{7.5}{0.5} = 15 \\text{ años}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YT",
+    "question": "Un profesor del CEPREDIX pide desarrollar algebraicamente una expresión en clase. ¿Qué opción presentada es estrictamente equivalente de manera matemática a $9(3x+y)(3x+y)$?",
+    "image": null,
+    "options": [
+      { "text": "$(9x+3y)^2$", "correct": true },
+      { "text": "$(27x+9y)^2$", "correct": false },
+      { "text": "$(27x+y)^2$", "correct": false },
+      { "text": "$(9x+y)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en cuenta que $9$ es igual a $3^2$. Agrupa el producto de binomios e ingresa el factor exterior dentro de la elevación general.",
+    "explanation": "Sabemos que el coeficiente multiplicador $9$ es equiparable a $3 \\times 3$. Por tanto, se distribuyen y multiplican ambos términos del binomio simultáneamente: $3(3x+y) \\times 3(3x+y)$, lo cual resulta en el binomio generalizado de forma factorizada $(9x+3y)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YU",
+    "question": "Si se lanzan dos dados cúbicos tradicionales al mismo tiempo, la probabilidad de que la suma resultante en sus caras muestre un $9$ es \\_\\_\\_\\_\\_\\_ la probabilidad teórica de que la suma sea un $6$.",
+    "image": null,
+    "options": [
+      { "text": "menor que", "correct": true },
+      { "text": "mayor que", "correct": false },
+      { "text": "igual a", "correct": false },
+      { "text": "el doble de", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Enlista y cuenta manualmente los posibles escenarios de suma entre todas las combinaciones posibles en pares.",
+    "explanation": "Para la suma $9$, los pares admisibles son $4$ combinaciones: $(3,6), (4,5), (5,4), (6,3)$, dando una $P(\\text{suma } 9) = \\frac{4}{36}$. Para la suma $6$, los pares de dados admisibles son $5$ combinaciones: $(1,5), (2,4), (3,3), (4,2), (5,1)$, lo cual nos indica que la $P(\\text{suma } 6) = \\frac{5}{36}$. Por lo tanto, $\\frac{4}{36}$ resulta ser menor que $\\frac{5}{36}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YV",
+    "question": "Un reloj de pared circular con un radio de $10 \\text{ cm}$ hace girar su manecilla pequeña de las horas desde las $2:00$ en punto hasta las $6:00$. Otro reloj circular de $20 \\text{ cm}$ de radio hace girar su manecilla correspondiente desde las $9:00$ en punto hasta las $12:00$. ¿Cuál de las siguientes afirmaciones relacionadas a la porción de giro (desplazamiento angular central) es la matemáticamente correcta?",
+    "image": null,
+    "options": [
+      { "text": "El primer reloj gira un ángulo mayor porque la manecilla avanza durante más horas", "correct": true },
+      { "text": "El segundo reloj gira un ángulo mayor porque tiene un radio más grande", "correct": false },
+      { "text": "Ambos giran exactamente el mismo ángulo porque el tamaño no importa", "correct": false },
+      { "text": "El segundo reloj gira el doble que el primero", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza la fórmula del desplazamiento angular en el tiempo. La longitud de un radio no afecta la cantidad de amplitud expresada como un ángulo de giro.",
+    "explanation": "El primer reloj viaja temporalmente durante $4$ horas, de este modo ha recorrido $4$ husos angulares horarios, lo que abarca $120^\\circ$. El reloj grande, aunque tenga el doble del radio, tan solo hace el avance de giro en el lapso de $3$ horas cubriendo meramente $90^\\circ$. El primer reloj indudablemente gira más espacio angular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YW",
+    "question": "En una venta de temporada, una falda tiene un precio de exhibición de $\\$250$ al cual le aplica un $20\\%$ de descuento, y una camisa marca un costo de $\\$300$ con un $50\\%$ de descuento. Adicionalmente, al efectuar el pago a la falda se le hace válido un $10\\%$ extra aplicable solo sobre la cantidad ya rebajada de la falda. ¿Cuánto se pagará en caja de forma total por ambas vestimentas?",
+    "image": null,
+    "options": [
+      { "text": "$\\$330$", "correct": true },
+      { "text": "$\\$340$", "correct": false },
+      { "text": "$\\$350$", "correct": false },
+      { "text": "$\\$360$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuidado con los descuentos acumulados en la falda. Primero obtén el valor restando el primer porcentaje, y la nueva cifra es a la que le restarás de nuevo su $10\\%$.",
+    "explanation": "El descuento principal de la falda es $\\$250 - 20\\% = \\$200$. El ajuste en caja de la falda restará nuevamente un $10\\%$ pero sobre $\\$200$, dando por precio neto un cobro de $\\$180$. La camisa es de $\\$300$ menos la mitad del costo en promoción finalizando en $\\$150$. La cuenta unificada que se debe pagar será $\\$180 + \\$150 = \\$330$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YX",
+    "question": "Con respecto a la búsqueda de la solución del enunciado algebraico o ecuación de tipo lineal $5p - s = 10$, ¿cuál sería la determinación correcta sobre sus resoluciones factibles?",
+    "image": null,
+    "options": [
+      { "text": "Tiene infinitas soluciones y $p=2, s=0$ es una de ellas", "correct": true },
+      { "text": "No tiene solución en los números reales", "correct": false },
+      { "text": "Su única solución es $p=2, s=0$", "correct": false },
+      { "text": "Su única solución es $p=0, s=-10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se trata de un problema que presenta una sola ecuación pero contiene un juego de dos variables o incógnitas diferentes.",
+    "explanation": "Matemáticamente, una ecuación de primer grado estructurada por dos incógnitas es posible trazarla de forma continua en el plano real, por tanto, presenta siempre una cantidad infinita o inagotable de soluciones. Analizando las respuestas, $p=2$ y $s=0$ es una coordenada cierta o resultado plausible.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YY",
+    "question": "Para modelar las regulaciones de la legislación laboral mediante una inecuación, se establece lo siguiente: en un trabajo se debe laborar de manera legal y reglamentada máximo un total general de $48$ horas a la semana, siendo obligatorio rendir a lo sumo $8$ horas al corte diario. Si asignamos que $x$ representa directamente el número de las horas trabajadas al día, ¿cómo debería ser su expresión?",
+    "image": null,
+    "options": [
+      { "text": "$x \\leq 8$", "correct": true },
+      { "text": "$x = 8$", "correct": false },
+      { "text": "$x \\geq 8$", "correct": false },
+      { "text": "$x < 8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El indicativo clave que denota el límite en la información para redactar una inecuación está en las palabras 'a lo sumo' o 'como máximo'.",
+    "explanation": "El dictamen redactado expresa textualmente que por ley todo operario trabajará 'a lo sumo $8$ horas', este marco indica sin lugar a confusiones que trabajar $8$ horas o un número menor entra dentro del estatus de la legalidad requerida en la normativa del empleo, estableciendo como tope inclusivo superior y exacto: $x \\leq 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02YZ",
+    "question": "En un taller de probabilidad del CEPREDIX se estudia el uso de un dado particular con defectos de fabricación y peso asimétrico, del cual se concluye que estadísticamente es tres veces más probable obtener tras un lance una cara que contenga un número par que una con un valor impar. Sabiendo estas características, ¿cuál es la probabilidad numérica en fracciones de obtener el número de valor $3$ exactamente?",
+    "image": null,
+    "options": [
+      { "text": "$1/12$", "correct": true },
+      { "text": "$1/8$", "correct": false },
+      { "text": "$1/6$", "correct": false },
+      { "text": "$1/4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para iniciar con la resolución, iguala las probabilidades de los dos grupos totales sabiendo que su conjunto conforma obligatoriamente el elemento $1$ (es decir, $P(\\text{pares}) + P(\\text{impares}) = 1$).",
+    "explanation": "El sustentante reconoce que los grupos no son equiprobables en bloque. Así $P(\\text{impar}) = x$ y por regla impuesta $P(\\text{par}) = 3x$. Agrupando por regla de suma total se tiene $x + 3x = 1$, despejando el valor de la incógnita deducimos que todo número impar tiene un valor grupal $P(\\text{impar}) = \\frac{1}{4}$. Considerando que hay disponibles $3$ dígitos impares individuales dentro de este grupo de probabilidad en un dado ($1, 3$ y $5$) el peso fraccionario interno se subdivide nuevamente, por lo que: $P(3) = \\frac{1/4}{3} = \\frac{1}{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02ZA",
+    "question": "Sabiendo que existe la función y magnitud trigonométrica generalizada como $\\csc \\beta = 13/5$ expresando teóricamente un ángulo de corte, calcule empleando propiedades de los triángulos rectángulos a qué equivale o valdría formalmente calcular el $\\cos \\beta$.",
+    "image": null,
+    "options": [
+      { "text": "$12/13$", "correct": true },
+      { "text": "$5/13$", "correct": false },
+      { "text": "$13/12$", "correct": false },
+      { "text": "$5/12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda minuciosamente a qué catetos e hipotenusa conciernen tanto la proporción dada (que indica cosecante) como el lado en la que se pide transcribir (que indica el coseno). Utiliza el Teorema de Pitágoras para resolverlo.",
+    "explanation": "La teoría indica para los triángulos rectángulos que matemáticamente $\\csc = \\frac{13}{5} = \\frac{\\text{h}}{\\text{CO}}$. Para el teorema o función de los valores faltantes resolvemos que el cateto adyacente vale: $\\text{CA} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$. La regla general sobre lo que se está solicitando nos formula que $\\cos \\beta = \\frac{\\text{CA}}{\\text{h}} = \\frac{12}{13}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02ZB",
+    "question": "Dados los múltiples valores expresados en la matriz matemática de los polinomios: $A = 2x - 1$, el segundo conjunto evaluado indica $B = 4x^3 - 2x^2$ y la tercera formulación es expresada en la magnitud $C = -3x^2 + 5x$. Calcule tras despejar y agrupar todo término, el resultado de la siguiente operación de forma algebraica descrita por: $A + 3B - 2C$.",
+    "image": null,
+    "options": [
+      { "text": "$12x^3 - 8x - 1$", "correct": true },
+      { "text": "$12x^3 + 4x^2 - 9x - 1$", "correct": false },
+      { "text": "$12x^3 + 5x^2 - 8x - 1$", "correct": false },
+      { "text": "$12x^3 + 2x^2 - 7x - 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa cada uno de los polinomios en paréntesis, multiplica todo el bloque por el escalar o número constante que lo acompaña previamente y cuida las leyes del signo.",
+    "explanation": "Realizando la distribución o vaciado total y multiplicador: $A + 3B - 2C = (2x - 1) + 3(4x^3 - 2x^2) - 2(-3x^2 + 5x)$. Realizando las multiplicaciones indicadas y la ley de signos: $2x - 1 + 12x^3 - 6x^2 + 6x^2 - 10x$. Sumando y restando los términos matemáticos semejantes procedentes del desarrollo, los bloques que contienen potencias al cuadrado se nulifican: $12x^3 - 8x - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SN",
+    "question": "¿Cuál es el hueso más largo y pesado del cuerpo humano, ubicado en la región del muslo?",
+    "image": null,
+    "options": [
+      { "text": "Tibia", "correct": false },
+      { "text": "Húmero", "correct": false },
+      { "text": "Fémur", "correct": true },
+      { "text": "Peroné", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Soporta el peso corporal y articula con la pelvis.",
+    "explanation": "El fémur se articula proximalmente con el hueso coxal y distalmente con la tibia y la rótula, soportando la mayor parte del peso del cuerpo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SO",
+    "question": "¿Qué músculo es el principal responsable de la abducción del brazo en la articulación del hombro?",
+    "image": null,
+    "options": [
+      { "text": "Pectoral mayor", "correct": false },
+      { "text": "Deltoides", "correct": true },
+      { "text": "Trapecio", "correct": false },
+      { "text": "Bíceps braquial", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el músculo que le da la forma redondeada al hombro.",
+    "explanation": "El deltoides, con sus fibras medias, eleva el brazo separándolo del cuerpo (abducción) más allá de los primeros 15 grados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SP",
+    "question": "¿Cómo se denomina a la región anatómica ubicada en la parte posterior de la rodilla?",
+    "image": null,
+    "options": [
+      { "text": "Región patelar", "correct": false },
+      { "text": "Región sural", "correct": false },
+      { "text": "Región crural", "correct": false },
+      { "text": "Región poplítea", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la zona hundida que permite el paso de vasos importantes detrás de la rodilla.",
+    "explanation": "La fosa o región poplítea es un espacio en forma de rombo detrás de la articulación de la rodilla, por donde pasan vasos sanguíneos y nervios importantes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SQ",
+    "question": "En terminología anatómica, ¿qué término describe una estructura que está más cerca del tronco o del punto de origen de una extremidad?",
+    "image": null,
+    "options": [
+      { "text": "Distal", "correct": false },
+      { "text": "Lateral", "correct": false },
+      { "text": "Proximal", "correct": true },
+      { "text": "Medial", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la palabra 'proximidad' a la raíz o centro del cuerpo.",
+    "explanation": "Proximal indica proximidad a la raíz de un miembro; por ejemplo, el hombro es proximal respecto al codo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SR",
+    "question": "¿Cuál es el único hueso del cuerpo humano que no se articula directamente con ningún otro hueso?",
+    "image": null,
+    "options": [
+      { "text": "Rótula", "correct": false },
+      { "text": "Hioides", "correct": true },
+      { "text": "Etmoides", "correct": false },
+      { "text": "Vómer", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se localiza en la región anterior del cuello y da soporte a la lengua.",
+    "explanation": "El hueso hioides, situado en la región anterior del cuello, se mantiene en su posición gracias a músculos y ligamentos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SS",
+    "question": "¿Cuántas vértebras conforman la región cervical de la columna vertebral humana?",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "7", "correct": true },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el mismo número de vértebras cervicales que posee la gran mayoría de los mamíferos, incluyendo a las jirafas.",
+    "explanation": "La columna cervical consta de 7 vértebras (C1 a C7), siendo las dos primeras el atlas y el axis, que permiten el movimiento de la cabeza.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02ST",
+    "question": "¿Cuál es la función principal del músculo masetero?",
+    "image": null,
+    "options": [
+      { "text": "Flexionar el cuello", "correct": false },
+      { "text": "Elevar la mandíbula (masticación)", "correct": true },
+      { "text": "Parpadear", "correct": false },
+      { "text": "Fruncir los labios", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre hace referencia al proceso de moler los alimentos en la boca.",
+    "explanation": "El masetero es uno de los músculos más fuertes del cuerpo humano y su función principal es cerrar la mandíbula durante la masticación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SU",
+    "question": "¿Qué pareja de huesos conforma la cintura escapular, uniendo los miembros superiores al tronco?",
+    "image": null,
+    "options": [
+      { "text": "Clavícula y esternón", "correct": false },
+      { "text": "Húmero y escápula", "correct": false },
+      { "text": "Escápula y clavícula", "correct": true },
+      { "text": "Costillas y vértebras dorsales", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Conecta el brazo con el esqueleto axial, uno es largo y curvado en el frente, el otro es plano en la espalda.",
+    "explanation": "La cintura escapular o pectoral está formada por la clavícula en la parte anterior y la escápula (omóplato) en la parte posterior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SV",
+    "question": "¿Cómo se llaman los huesos que conforman la estructura de los dedos, tanto de las manos como de los pies?",
+    "image": null,
+    "options": [
+      { "text": "Carpos", "correct": false },
+      { "text": "Metacarpos", "correct": false },
+      { "text": "Tarsos", "correct": false },
+      { "text": "Falanges", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se dividen en proximales, medias y distales.",
+    "explanation": "Cada dedo tiene tres falanges (proximal, media y distal), excepto el pulgar y el dedo gordo del pie, que solo tienen dos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SW",
+    "question": "¿Cuál es el músculo más superficial y voluminoso de la región posterior de la pierna (pantorrilla)?",
+    "image": null,
+    "options": [
+      { "text": "Sóleo", "correct": false },
+      { "text": "Tibial anterior", "correct": false },
+      { "text": "Gastrocnemio", "correct": true },
+      { "text": "Peroneo largo", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Coloquialmente se les conoce como 'gemelos'.",
+    "explanation": "Comúnmente llamado 'gemelos', el gastrocnemio es el músculo principal que da forma a la pantorrilla y se inserta en el talón mediante el tendón de Aquiles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SX",
+    "question": "¿Qué plano anatómico divide el cuerpo de forma vertical en mitades derecha e izquierda?",
+    "image": null,
+    "options": [
+      { "text": "Plano transversal", "correct": false },
+      { "text": "Plano frontal", "correct": false },
+      { "text": "Plano sagital", "correct": true },
+      { "text": "Plano oblicuo", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el plano que cruza a lo largo de la sutura que divide los huesos parietales del cráneo.",
+    "explanation": "El plano sagital medio divide el cuerpo en dos mitades simétricas (derecha e izquierda).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SY",
+    "question": "¿Qué músculo, con forma de paracaídas o cúpula, separa la cavidad torácica de la abdominal y es esencial para la respiración?",
+    "image": null,
+    "options": [
+      { "text": "Intercostal externo", "correct": false },
+      { "text": "Recto del abdomen", "correct": false },
+      { "text": "Serrato anterior", "correct": false },
+      { "text": "Diafragma", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el principal músculo inspiratorio que al contraerse aplana su forma y expande los pulmones.",
+    "explanation": "El diafragma es el principal músculo inspiratorio; al contraerse, desciende y permite la expansión de los pulmones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02SZ",
+    "question": "¿A qué zona específica del cuerpo humano se refiere la 'región axilar'?",
+    "image": null,
+    "options": [
+      { "text": "Al hombro", "correct": false },
+      { "text": "Al codo", "correct": false },
+      { "text": "A la axila", "correct": true },
+      { "text": "A la muñeca", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la zona de transición situada por debajo de la articulación glenohumeral.",
+    "explanation": "La región axilar es el área de transición entre el tronco y el miembro superior, comúnmente conocida como axila.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TA",
+    "question": "¿Cuál es el nombre anatómico del hueso que forma el talón del pie?",
+    "image": null,
+    "options": [
+      { "text": "Astrágalo", "correct": false },
+      { "text": "Escafoides", "correct": false },
+      { "text": "Calcáneo", "correct": true },
+      { "text": "Cuboides", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el hueso en el cual se inserta el tendón de Aquiles.",
+    "explanation": "El calcáneo es el hueso más grande del tarso y transfiere la mayor parte del peso corporal desde las extremidades inferiores al suelo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TB",
+    "question": "¿Qué músculo es el más largo del cuerpo humano, recorriendo el muslo en diagonal desde la cadera hasta la rodilla?",
+    "image": null,
+    "options": [
+      { "text": "Recto femoral", "correct": false },
+      { "text": "Sartorio", "correct": true },
+      { "text": "Tensor de la fascia lata", "correct": false },
+      { "text": "Grácil", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre proviene de la acción que facilita cruzar las piernas, como lo hacían los antiguos sastres.",
+    "explanation": "El músculo sartorio permite flexionar, abducir y rotar lateralmente el muslo, facilitando la postura de cruzar las piernas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TC",
+    "question": "¿Cómo se denominan las articulaciones fibrosas e inmóviles que unen la mayoría de los huesos del cráneo?",
+    "image": null,
+    "options": [
+      { "text": "Sinoviales", "correct": false },
+      { "text": "Gonfosis", "correct": false },
+      { "text": "Suturas", "correct": true },
+      { "text": "Sínfisis", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Parecen costuras que unen firmemente las placas óseas de la bóveda craneal.",
+    "explanation": "Las suturas son articulaciones exclusivas del cráneo que, en la etapa adulta, se osifican y brindan máxima protección al encéfalo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TD",
+    "question": "¿Qué músculo de la región posterior del brazo es el principal responsable de la extensión del antebrazo en la articulación del codo?",
+    "image": null,
+    "options": [
+      { "text": "Bíceps braquial", "correct": false },
+      { "text": "Braquial", "correct": false },
+      { "text": "Coracobraquial", "correct": false },
+      { "text": "Tríceps braquial", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre indica que posee tres vientres o cabezas musculares.",
+    "explanation": "El tríceps braquial, compuesto por tres cabezas (larga, lateral y medial), es el único músculo del compartimento posterior del brazo y su función es extender el codo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TE",
+    "question": "¿Cuál de los dos huesos largos del antebrazo se ubica en posición lateral (del lado del pulgar) en posición anatómica?",
+    "image": null,
+    "options": [
+      { "text": "Cúbito (Ulna)", "correct": false },
+      { "text": "Húmero", "correct": false },
+      { "text": "Radio", "correct": true },
+      { "text": "Clavícula", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una regla mnemotécnica común asocia este hueso con la 'antena' que sería el dedo pulgar.",
+    "explanation": "En posición anatómica (palmas hacia adelante), el radio se encuentra en la parte lateral del antebrazo, alineado con el dedo pulgar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TF",
+    "question": "¿Qué estructura ósea está formada por la fusión del ilion, el isquion y el pubis?",
+    "image": null,
+    "options": [
+      { "text": "El sacro", "correct": false },
+      { "text": "El hueso coxal", "correct": true },
+      { "text": "El cóccix", "correct": false },
+      { "text": "La vértebra lumbar", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos de estas estructuras forman junto con el sacro el anillo pélvico completo.",
+    "explanation": "El hueso coxal (o hueso ilíaco) se forma durante el desarrollo mediante la fusión de estos tres huesos, creando la pelvis ósea junto con el sacro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TG",
+    "question": "¿Qué músculo del cuello se encarga de flexionar y rotar la cabeza de lado a lado?",
+    "image": null,
+    "options": [
+      { "text": "Esplenio de la cabeza", "correct": false },
+      { "text": "Escalenos", "correct": false },
+      { "text": "Esternocleidomastoideo", "correct": true },
+      { "text": "Elevador de la escápula", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Su largo nombre menciona exactamente sus tres puntos de inserción ósea.",
+    "explanation": "Este músculo tiene inserciones en el esternón, la clavícula y la apófisis mastoides del cráneo, permitiendo rotar y flexionar el cuello.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TH",
+    "question": "¿Cuál es el músculo más grande y potente responsable de la extensión y rotación externa de la cadera?",
+    "image": null,
+    "options": [
+      { "text": "Glúteo medio", "correct": false },
+      { "text": "Glúteo mayor", "correct": true },
+      { "text": "Piriforme", "correct": false },
+      { "text": "Psoas ilíaco", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el músculo principal que da forma y volumen a la región posterior de la pelvis.",
+    "explanation": "El glúteo mayor es el músculo más superficial de la región glútea y es fundamental para actividades como levantarse de una silla o subir escaleras.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TI",
+    "question": "¿Qué término anatómico se utiliza para referirse a la región del cuello?",
+    "image": null,
+    "options": [
+      { "text": "Región cefálica", "correct": false },
+      { "text": "Región torácica", "correct": false },
+      { "text": "Región lumbar", "correct": false },
+      { "text": "Región cervical", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Relativo a las primeras 7 vértebras de la columna.",
+    "explanation": "El término cervical proviene del latín 'cervix', que significa cuello.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TJ",
+    "question": "¿Qué hueso plano e impar forma la frente y el techo de las órbitas oculares?",
+    "image": null,
+    "options": [
+      { "text": "Hueso parietal", "correct": false },
+      { "text": "Hueso occipital", "correct": false },
+      { "text": "Hueso frontal", "correct": true },
+      { "text": "Hueso temporal", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre indica su ubicación en la parte delantera o 'frente' del cráneo.",
+    "explanation": "El hueso frontal se ubica en la porción anterosuperior del cráneo, protegiendo el lóbulo frontal del cerebro y formando la frente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TK",
+    "question": "El grupo muscular ubicado en la parte anterior del muslo, cuya función principal es extender la rodilla, se llama:",
+    "image": null,
+    "options": [
+      { "text": "Isquiotibiales", "correct": false },
+      { "text": "Cuádriceps femoral", "correct": true },
+      { "text": "Tríceps sural", "correct": false },
+      { "text": "Aductores", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre se debe a que está constituido por cuatro cabezas o vientres musculares.",
+    "explanation": "Está compuesto por cuatro porciones (recto femoral, vasto lateral, vasto medial y vasto intermedio) que se unen en el tendón rotuliano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TL",
+    "question": "¿Qué término direccional significa 'más alejado de la línea media del cuerpo'?",
+    "image": null,
+    "options": [
+      { "text": "Medial", "correct": false },
+      { "text": "Proximal", "correct": false },
+      { "text": "Lateral", "correct": true },
+      { "text": "Superior", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el término opuesto a 'medial'.",
+    "explanation": "Lateral indica una posición alejada del plano sagital medio; por ejemplo, las orejas son laterales respecto a la nariz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TM",
+    "question": "La región anatómica correspondiente a la ingle, donde el muslo se une con el tronco, se conoce como:",
+    "image": null,
+    "options": [
+      { "text": "Región perineal", "correct": false },
+      { "text": "Región inguinal", "correct": true },
+      { "text": "Región glútea", "correct": false },
+      { "text": "Región pélvica", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una zona de debilidad en la pared abdominal inferior, frecuentemente asociada a hernias que llevan el mismo nombre.",
+    "explanation": "La región inguinal es un área de debilidad en la pared abdominal inferior, frecuentemente asociada a hernias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TN",
+    "question": "¿Cuál es el único hueso móvil del cráneo humano?",
+    "image": null,
+    "options": [
+      { "text": "Maxilar superior", "correct": false },
+      { "text": "Cigomático", "correct": false },
+      { "text": "Esfenoides", "correct": false },
+      { "text": "Mandíbula (Maxilar inferior)", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el hueso en el que se insertan los dientes inferiores y es indispensable para la masticación.",
+    "explanation": "La mandíbula se articula con los huesos temporales (articulación temporomandibular), permitiendo los movimientos de masticación y habla.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TO",
+    "question": "¿Qué plano anatómico divide el cuerpo en una sección anterior (frente) y una posterior (dorso)?",
+    "image": null,
+    "options": [
+      { "text": "Plano sagital", "correct": false },
+      { "text": "Plano transversal", "correct": false },
+      { "text": "Plano coronal (frontal)", "correct": true },
+      { "text": "Plano medio", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Lleva el nombre de la sutura craneal que separa el hueso frontal de los parietales, asemejando una diadema.",
+    "explanation": "El plano coronal o frontal es perpendicular al plano sagital y al transversal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TP",
+    "question": "¿Qué músculo ancho y plano cubre la mayor parte de la región inferior de la espalda y permite la extensión, aducción y rotación interna del brazo?",
+    "image": null,
+    "options": [
+      { "text": "Trapecio", "correct": false },
+      { "text": "Romboide mayor", "correct": false },
+      { "text": "Dorsal ancho", "correct": true },
+      { "text": "Redondo menor", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre latino es 'latissimus dorsi' y es esencial para el movimiento de remar.",
+    "explanation": "El dorsal ancho (latissimus dorsi) es un músculo potente que interviene en acciones como trepar, nadar o remar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TQ",
+    "question": "Las articulaciones que permiten una amplia gama de movimientos, como la rodilla o el hombro, y contienen líquido lubricante, se clasifican como:",
+    "image": null,
+    "options": [
+      { "text": "Sinartrosis", "correct": false },
+      { "text": "Anfiartrosis", "correct": false },
+      { "text": "Articulaciones cartilaginosas", "correct": false },
+      { "text": "Articulaciones sinoviales (Diartrosis)", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Reciben este nombre por el líquido encapsulado que poseen y se caracterizan por ser libremente móviles.",
+    "explanation": "Las articulaciones sinoviales se caracterizan por tener una cavidad articular llena de líquido sinovial que reduce la fricción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TR",
+    "question": "¿Cuál es el único hueso de la región anatómica del brazo (entre el hombro y el codo)?",
+    "image": null,
+    "options": [
+      { "text": "Húmero", "correct": true },
+      { "text": "Radio", "correct": false },
+      { "text": "Cúbito", "correct": false },
+      { "text": "Clavícula", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el hueso largo del miembro superior que articula con la cavidad glenoidea de la escápula.",
+    "explanation": "El húmero se articula proximalmente con la escápula y distalmente con el radio y el cúbito en la articulación del codo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TS",
+    "question": "¿Qué músculo superficial de la parte superior de la espalda y el cuello permite elevar los hombros (encogerse)?",
+    "image": null,
+    "options": [
+      { "text": "Dorsal ancho", "correct": false },
+      { "text": "Trapecio", "correct": true },
+      { "text": "Elevador de la escápula", "correct": false },
+      { "text": "Serrato anterior", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Tiene forma de figura geométrica de cuatro lados.",
+    "explanation": "El trapecio tiene forma triangular y sus fibras superiores son responsables de la elevación de la escápula (encoger los hombros).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TT",
+    "question": "¿Cuál es el hueso del antebrazo que se sitúa en posición medial (del lado del meñique)?",
+    "image": null,
+    "options": [
+      { "text": "Radio", "correct": false },
+      { "text": "Húmero", "correct": false },
+      { "text": "Cúbito (Ulna)", "correct": true },
+      { "text": "Escafoides", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el hueso responsable de formar la prominencia que llamamos 'codo'.",
+    "explanation": "El cúbito es más largo que el radio y en su extremo proximal forma la prominencia del codo, conocida como olécranon.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TU",
+    "question": "El músculo grande en forma de abanico que cubre la porción superior del tórax y aduce y flexiona el brazo es el:",
+    "image": null,
+    "options": [
+      { "text": "Pectoral menor", "correct": false },
+      { "text": "Pectoral mayor", "correct": true },
+      { "text": "Subclavio", "correct": false },
+      { "text": "Intercostal", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el músculo más superficial y evidente del pecho humano.",
+    "explanation": "El pectoral mayor tiene inserciones en la clavícula, el esternón y los cartílagos costales, y se inserta en el húmero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TV",
+    "question": "Los 8 pequeños huesos dispuestos en dos filas que forman la estructura de la muñeca se conocen como:",
+    "image": null,
+    "options": [
+      { "text": "Metacarpianos", "correct": false },
+      { "text": "Tarsianos", "correct": false },
+      { "text": "Huesos del carpo", "correct": true },
+      { "text": "Sesamoideos", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Comprenden al escafoides, semilunar y otros, formando una base para los metacarpos.",
+    "explanation": "Los huesos del carpo (escafoides, semilunar, piramidal, pisiforme, trapecio, trapezoide, grande y ganchoso) dan flexibilidad a la muñeca.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TW",
+    "question": "El grupo muscular ubicado en la parte posterior del muslo, encargado de flexionar la rodilla y extender la cadera, recibe el nombre de:",
+    "image": null,
+    "options": [
+      { "text": "Cuádriceps", "correct": false },
+      { "text": "Isquiotibiales", "correct": true },
+      { "text": "Gemelos", "correct": false },
+      { "text": "Aductores", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sus tendones conectan el isquion de la pelvis con la tibia.",
+    "explanation": "Los isquiotibiales comprenden tres músculos: bíceps femoral, semitendinoso y semimembranoso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TX",
+    "question": "¿Cuál es el hueso plano y alargado situado en el centro de la pared anterior del tórax, al que se unen las costillas verdaderas?",
+    "image": null,
+    "options": [
+      { "text": "Manubrio", "correct": false },
+      { "text": "Apófisis xifoides", "correct": false },
+      { "text": "Escápula", "correct": false },
+      { "text": "Esternón", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre alude a la protección central en el pecho de la cavidad torácica.",
+    "explanation": "El esternón protege el corazón y los pulmones, y consta de tres partes: manubrio, cuerpo y apófisis xifoides.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TY",
+    "question": "¿Qué nombre recibe la región anatómica correspondiente a la planta del pie?",
+    "image": null,
+    "options": [
+      { "text": "Región palmar", "correct": false },
+      { "text": "Región dorsal", "correct": false },
+      { "text": "Región plantar", "correct": true },
+      { "text": "Región calcánea", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Hace referencia a la cara inferior del pie que hace contacto con el suelo.",
+    "explanation": "La región plantar es la superficie inferior del pie, diseñada para soportar el peso y absorber impactos mediante gruesas capas de fascia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02TZ",
+    "question": "El hueso principal de la parte inferior de la pierna (espinilla), que articula con el fémur y soporta el peso del cuerpo, es la:",
+    "image": null,
+    "options": [
+      { "text": "Tibia", "correct": true },
+      { "text": "Peroné (Fíbula)", "correct": false },
+      { "text": "Rótula", "correct": false },
+      { "text": "Fémur", "correct": false }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el hueso más grueso de los dos que se encuentran por debajo de la rodilla.",
+    "explanation": "La tibia es el segundo hueso más largo del cuerpo y el principal hueso portador de peso en la parte inferior de la pierna, situado medialmente al peroné.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UA",
+    "question": "¿Cómo se conoce a la región anatómica situada en la parte inferior de la espalda, comprendida entre las costillas y la pelvis?",
+    "image": null,
+    "options": [
+      { "text": "Región torácica", "correct": false },
+      { "text": "Región sacra", "correct": false },
+      { "text": "Región glútea", "correct": false },
+      { "text": "Región lumbar", "correct": true }
+    ],
+    "uni_tags": ["PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el área de la espalda que soporta la mayor parte del peso y que se lesiona comúnmente en las lumbalgias.",
+    "explanation": "La región lumbar está formada por las 5 vértebras lumbares y es una zona que soporta gran parte del peso corporal, siendo susceptible a dolores y lesiones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UB",
+    "question": "Calcula la longitud de la hipotenusa de un triángulo rectángulo cuyos catetos miden $3 \\text{ cm}$ y $4 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$7 \\text{ cm}$", "correct": false },
+      { "text": "$1 \\text{ cm}$", "correct": false },
+      { "text": "$25 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $c$ de la fórmula: $c = \\sqrt{a^2 + b^2}$.",
+    "explanation": "Aplicando el teorema de Pitágoras, la hipotenusa es $c = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UC",
+    "question": "Identifica cuáles de las siguientes ternas de números pueden representar las longitudes de los lados de un triángulo rectángulo: I) $5 \\text{ m}, 12 \\text{ m}, 13 \\text{ m}$; II) $6 \\text{ m}, 8 \\text{ m}, 10 \\text{ m}$; III) $4 \\text{ m}, 5 \\text{ m}, 6 \\text{ m}$; IV) $8 \\text{ m}, 15 \\text{ m}, 17 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "I, II, IV", "correct": true },
+      { "text": "I, III", "correct": false },
+      { "text": "II, III, IV", "correct": false },
+      { "text": "Solo II", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debe cumplirse estrictamente la igualdad $c^2 = a^2 + b^2$, donde $c$ es el lado de mayor longitud.",
+    "explanation": "Al verificar, $13^2 = 5^2 + 12^2$, $10^2 = 6^2 + 8^2$, y $17^2 = 8^2 + 15^2$. La terna III no cumple porque $6^2 \\neq 4^2 + 5^2$ ($36 \\neq 16 + 25$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UD",
+    "question": "El teorema de ______ se aplica exclusivamente a triángulos ______, estableciendo una relación entre la longitud de sus catetos y la ______.",
+    "image": null,
+    "options": [
+      { "text": "Pitágoras, rectángulos, hipotenusa", "correct": true },
+      { "text": "Tales, isósceles, base", "correct": false },
+      { "text": "Euler, escalenos, altura", "correct": false },
+      { "text": "Pitágoras, acutángulos, mediana", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera el teorema que involucra un ángulo de $90^\\circ$ y las palabras clave de los lados de este triángulo.",
+    "explanation": "El teorema de Pitágoras ($a^2 + b^2 = c^2$) es un principio matemático específico para triángulos rectángulos y relaciona los dos catetos con la hipotenusa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UE",
+    "question": "Relaciona cada razón trigonométrica con su definición en un triángulo rectángulo: A) Seno, B) Coseno, C) Tangente; I) Cateto adyacente sobre hipotenusa, II) Cateto opuesto sobre cateto adyacente, III) Cateto opuesto sobre hipotenusa.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-III, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la regla mnemotécnica SOH-CAH-TOA para vincular cada función con sus lados correspondientes.",
+    "explanation": "El seno (SOH) es Opuesto/Hipotenusa (III), el coseno (CAH) es Adyacente/Hipotenusa (I) y la tangente (TOA) es Opuesto/Adyacente (II).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UF",
+    "question": "Un estudiante del CEPREDIX necesita determinar la altura de un poste de luz. Si el estudiante se aleja $10 \\text{ m}$ de la base del poste y observa su extremo superior con un ángulo de elevación de $45^\\circ$, ¿cuál es la altura del poste?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": true },
+      { "text": "$10\\sqrt{2} \\text{ m}$", "correct": false },
+      { "text": "$5 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula del cateto opuesto despejada: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "Usando $\\tan(45^\\circ) = \\frac{CO}{10 \\text{ m}}$, y sabiendo que $\\tan(45^\\circ) = 1$, despejamos $CO = 10 \\text{ m} \\cdot 1 = 10 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UG",
+    "question": "Identifica cuáles de las siguientes razones trigonométricas son inversas multiplicativas (recíprocas) del seno, coseno y tangente, respectivamente: I) Cotangente, II) Secante, III) Cosecante.",
+    "image": null,
+    "options": [
+      { "text": "III, II, I", "correct": true },
+      { "text": "I, II, III", "correct": false },
+      { "text": "II, III, I", "correct": false },
+      { "text": "III, I, II", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que la inversa del seno empieza con 'c', la del coseno empieza con 's', y la de la tangente empieza con 'c'.",
+    "explanation": "Las razones recíprocas son $\\csc(\\theta) = 1/\\sin(\\theta)$, $\\sec(\\theta) = 1/\\cos(\\theta)$, y $\\cot(\\theta) = 1/\\tan(\\theta)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UH",
+    "question": "Para medir una distancia horizontal inaccesible, se puede formar un triángulo rectángulo usando una ______ conocida y midiendo el ángulo de ______. Luego, se utiliza la función ______ para hallar la distancia.",
+    "image": null,
+    "options": [
+      { "text": "altura, elevación, tangente", "correct": true },
+      { "text": "sombra, depresión, hipotenusa", "correct": false },
+      { "text": "hipotenusa, refracción, seno", "correct": false },
+      { "text": "base, rotación, secante", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes relacionar el cateto opuesto (la altitud) con el adyacente (la distancia horizontal en el suelo).",
+    "explanation": "Conociendo la altura (Cateto Opuesto) y el ángulo de elevación, la tangente relaciona estos datos directamente con la distancia horizontal (Cateto Adyacente).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UI",
+    "question": "Relaciona el ángulo notable con el valor exacto de su función seno: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $\\frac{\\sqrt{3}}{2}$, II) $\\frac{1}{2}$, III) $\\frac{\\sqrt{2}}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten en mente que el valor del seno aumenta de $0$ a $1$ en el primer cuadrante.",
+    "explanation": "Los valores exactos son $\\sin(30^\\circ) = 1/2$, $\\sin(45^\\circ) = \\sqrt{2}/2$, y $\\sin(60^\\circ) = \\sqrt{3}/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UJ",
+    "question": "Una escalera de $13 \\text{ m}$ de longitud está apoyada contra una pared vertical. Si la base de la escalera está a $5 \\text{ m}$ de la pared, ¿a qué altura alcanza la escalera sobre la pared?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ m}$", "correct": true },
+      { "text": "$14 \\text{ m}$", "correct": false },
+      { "text": "$8 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el despeje del cateto en el teorema de Pitágoras: $a = \\sqrt{c^2 - b^2}$.",
+    "explanation": "Usando el teorema de Pitágoras, la altura es un cateto: $\\text{altura} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UK",
+    "question": "En un triángulo rectángulo, si el cateto adyacente al ángulo $\\alpha$ mide $6 \\text{ u}$ y la hipotenusa mide $10 \\text{ u}$, ¿cuál es el valor numérico de $\\cos(\\alpha)$?",
+    "image": null,
+    "options": [
+      { "text": "$0.6$", "correct": true },
+      { "text": "$0.8$", "correct": false },
+      { "text": "$1.6$", "correct": false },
+      { "text": "$0.75$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula directa a utilizar es $\\cos(\\alpha) = \\frac{CA}{H}$.",
+    "explanation": "Al dividir el cateto adyacente sobre la hipotenusa, obtenemos $\\cos(\\alpha) = \\frac{6 \\text{ u}}{10 \\text{ u}} = 0.6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UL",
+    "question": "Un cable de acero sostiene una antena de telecomunicaciones. El cable mide $20 \\text{ m}$ y forma un ángulo de $60^\\circ$ con el suelo horizontal. ¿A qué altura está anclado el cable en la antena?",
+    "image": null,
+    "options": [
+      { "text": "$10\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$5\\sqrt{3} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para hallar el cateto opuesto (altura), aplica el despeje: $CO = H \\cdot \\sin(\\theta)$.",
+    "explanation": "La altura se calcula como $20 \\text{ m} \\cdot \\sin(60^\\circ) = 20 \\text{ m} \\cdot \\frac{\\sqrt{3}}{2} = 10\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UM",
+    "question": "Identifica las identidades trigonométricas fundamentales correctas: I) $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$, II) $\\tan(\\theta) = \\frac{\\cos(\\theta)}{\\sin(\\theta)}$, III) $1 + \\tan^2(\\theta) = \\sec^2(\\theta)$, IV) $\\csc(\\theta) = \\frac{1}{\\cos(\\theta)}$.",
+    "image": null,
+    "options": [
+      { "text": "I, III", "correct": true },
+      { "text": "I, II, III", "correct": false },
+      { "text": "II, IV", "correct": false },
+      { "text": "I, IV", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que la tangente equivale a seno sobre coseno, y la secante es la función inversa del coseno.",
+    "explanation": "La opción II es incorrecta porque $\\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}$. La opción IV es incorrecta porque $\\csc(\\theta) = \\frac{1}{\\sin(\\theta)}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UN",
+    "question": "En un triángulo rectángulo, el lado opuesto al ángulo recto se llama ______, y es siempre el lado de ______ longitud.",
+    "image": null,
+    "options": [
+      { "text": "hipotenusa, mayor", "correct": true },
+      { "text": "cateto, menor", "correct": false },
+      { "text": "hipotenusa, menor", "correct": false },
+      { "text": "cateto, mayor", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el principio geométrico de que a mayor ángulo se opone mayor lado.",
+    "explanation": "La hipotenusa se sitúa frente al ángulo de $90^\\circ$ (el más grande del triángulo rectángulo) y por definición es siempre el lado más largo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UO",
+    "question": "Relaciona el problema trigonométrico con el despeje necesario para resolverlo: A) Hallar la hipotenusa conociendo el cateto opuesto y el ángulo, B) Hallar el cateto adyacente conociendo la hipotenusa y el ángulo, C) Hallar el ángulo conociendo ambos catetos; I) $CA = H \\cdot \\cos(\\theta)$, II) $\\theta = \\arctan(\\frac{CO}{CA})$, III) $H = \\frac{CO}{\\sin(\\theta)}$.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-II, B-III, C-I", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Repasa las definiciones de SOH-CAH-TOA y observa cómo se despeja analíticamente cada variable.",
+    "explanation": "Para A, $\\sin(\\theta) = CO/H \\rightarrow H = CO/\\sin(\\theta)$. Para B, $\\cos(\\theta) = CA/H \\rightarrow CA = H \\cdot \\cos(\\theta)$. Para C, $\\tan(\\theta) = CO/CA \\rightarrow \\theta = \\arctan(CO/CA)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UP",
+    "question": "Un estudiante del CEPREDIX observa que un edificio proyecta una sombra de $15 \\text{ m}$ en el suelo. Si en ese momento los rayos del sol forman un ángulo de $45^\\circ$ con el suelo, ¿cuál es la altura del edificio?",
+    "image": null,
+    "options": [
+      { "text": "$15 \\text{ m}$", "correct": true },
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$7.5 \\text{ m}$", "correct": false },
+      { "text": "$15\\sqrt{2} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para relacionar sombra y altura usa el despeje: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "Cuando el ángulo es de $45^\\circ$, la tangente equivale a $1$. Esto indica que ambos catetos (altura y sombra) son de igual longitud: $15 \\text{ m} \\cdot 1 = 15 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UQ",
+    "question": "Desde un punto en el suelo a $40 \\text{ m}$ de la base de un risco, se observa la cima con un ángulo de elevación de $60^\\circ$. ¿Cuál es la altura del risco?",
+    "image": null,
+    "options": [
+      { "text": "$40\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$20 \\text{ m}$", "correct": false },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$80\\sqrt{3} \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la función tangente mediante el despeje de altura: $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "La altura corresponde al cateto opuesto, entonces: $CO = 40 \\text{ m} \\cdot \\tan(60^\\circ)$. Como $\\tan(60^\\circ) = \\sqrt{3}$, el resultado es $40\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UR",
+    "question": "Identifica los elementos que conforman exclusivamente un triángulo rectángulo: I) Un ángulo de $90^\\circ$, II) Dos ángulos obtusos, III) Dos catetos, IV) Una hipotenusa, V) Tres ángulos agudos.",
+    "image": null,
+    "options": [
+      { "text": "I, III, IV", "correct": true },
+      { "text": "II, IV, V", "correct": false },
+      { "text": "I, II, III", "correct": false },
+      { "text": "III, IV, V", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La propia palabra 'rectángulo' es un indicio geométrico del tipo específico de ángulo que contiene.",
+    "explanation": "Todo triángulo rectángulo debe poseer rigurosamente un ángulo recto ($90^\\circ$), dos lados que convergen en él llamados catetos, y el lado opuesto denominado hipotenusa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02US",
+    "question": "Al observar un objeto hacia arriba desde la línea horizontal, se forma un ángulo de ______; si el objeto se observa hacia abajo desde la línea horizontal, se forma un ángulo de ______.",
+    "image": null,
+    "options": [
+      { "text": "elevación, depresión", "correct": true },
+      { "text": "depresión, elevación", "correct": false },
+      { "text": "refracción, incidencia", "correct": false },
+      { "text": "agudo, obtuso", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Relaciona los conceptos con el movimiento de tus ojos: subir la mirada frente a bajarla.",
+    "explanation": "Por convención trigonométrica, el ángulo de elevación se mide trazando desde la horizontal hacia arriba, mientras que el de depresión se mide desde la horizontal hacia abajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UT",
+    "question": "Relaciona el ángulo notable con el valor exacto de su función tangente: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $1$, II) $\\sqrt{3}$, III) $\\frac{\\sqrt{3}}{3}$.",
+    "image": null,
+    "options": [
+      { "text": "A-III, B-I, C-II", "correct": true },
+      { "text": "A-II, B-I, C-III", "correct": false },
+      { "text": "A-I, B-III, C-II", "correct": false },
+      { "text": "A-III, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en cuenta que la tangente de $45^\\circ$ siempre equivale a la unidad debido a la simetría de sus catetos.",
+    "explanation": "Los valores convencionales son $\\tan(30^\\circ) = \\sqrt{3}/3$, $\\tan(45^\\circ) = 1$, y $\\tan(60^\\circ) = \\sqrt{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UU",
+    "question": "Un avión comienza a descender hacia la pista de aterrizaje con un ángulo de depresión de $5^\\circ$. Si la altitud de vuelo es de $3000 \\text{ m}$, ¿cuál es la distancia horizontal directa a la pista en ese momento? (Toma $\\tan(5^\\circ) \\approx 0.0875$)",
+    "image": null,
+    "options": [
+      { "text": "$34285.7 \\text{ m}$", "correct": true },
+      { "text": "$262.5 \\text{ m}$", "correct": false },
+      { "text": "$30000 \\text{ m}$", "correct": false },
+      { "text": "$300 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula de la tangente despejada para encontrar la base horizontal: $CA = \\frac{CO}{\\tan(\\theta)}$.",
+    "explanation": "Sustituyendo los valores, obtenemos que la Distancia horizontal $= \\frac{3000 \\text{ m}}{0.0875} \\approx 34285.7 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UV",
+    "question": "¿Cuál es el valor del cateto faltante en un triángulo rectángulo si la hipotenusa mide $15 \\text{ cm}$ y el otro cateto mide $9 \\text{ cm}$?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\text{ cm}$", "correct": true },
+      { "text": "$144 \\text{ cm}$", "correct": false },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$8 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la sustracción en la fórmula de Pitágoras: $b = \\sqrt{c^2 - a^2}$.",
+    "explanation": "El cateto desconocido es $b = \\sqrt{15^2 - 9^2} = \\sqrt{225 - 81} = \\sqrt{144} = 12 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UW",
+    "question": "De las siguientes propiedades, identifica las que permiten usar las razones trigonométricas sin importar el tamaño del triángulo: I) Semejanza de triángulos, II) Proporcionalidad de lados correspondientes, III) Congruencia de áreas, IV) Igualdad de perímetros.",
+    "image": null,
+    "options": [
+      { "text": "I, II", "correct": true },
+      { "text": "III, IV", "correct": false },
+      { "text": "I, III", "correct": false },
+      { "text": "II, IV", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que las funciones trigonométricas son cocientes que permanecen constantes siempre que la apertura angular no varíe.",
+    "explanation": "Las razones trigonométricas operan universalmente gracias a la semejanza de triángulos que garantiza la proporcionalidad directa de sus lados sin importar la escala.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UX",
+    "question": "El seno de un ángulo agudo es igual al ______ de su ángulo ______. Por ejemplo, $\\sin(30^\\circ) = \\cos(60^\\circ)$.",
+    "image": null,
+    "options": [
+      { "text": "coseno, complementario", "correct": true },
+      { "text": "tangente, suplementario", "correct": false },
+      { "text": "secante, opuesto", "correct": false },
+      { "text": "seno, llano", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el caso de los ángulos interiores no rectos del triángulo rectángulo, cuya suma obligatoria es $90^\\circ$.",
+    "explanation": "En un triángulo rectángulo, los ángulos agudos son complementarios. Geométricamente, el cateto opuesto de un ángulo funge como el cateto adyacente del otro, por lo que el seno de uno corresponde al coseno del otro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UY",
+    "question": "Relaciona la expresión trigonométrica con su equivalente algebraico simplificado: A) $\\sin(\\alpha) \\cdot \\csc(\\alpha)$, B) $\\frac{\\sin(\\alpha)}{\\cos(\\alpha)}$, C) $\\cos(\\alpha) \\cdot \\sec(\\alpha)$; I) $1$, II) $\\tan(\\alpha)$.",
+    "image": null,
+    "options": [
+      { "text": "A-I, B-II, C-I", "correct": true },
+      { "text": "A-II, B-I, C-II", "correct": false },
+      { "text": "A-I, B-I, C-II", "correct": false },
+      { "text": "A-II, B-II, C-I", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que multiplicar cualquier número o función por su inversa multiplicativa resulta en la unidad.",
+    "explanation": "El producto de funciones inversas siempre da $1$ (por ende, $\\sin \\cdot \\csc = 1$ y $\\cos \\cdot \\sec = 1$). Por otra parte, la identidad de cociente indica que seno entre coseno es igual a tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02UZ",
+    "question": "Si te desplazas $8 \\text{ km}$ hacia el Norte y luego $6 \\text{ km}$ hacia el Este, ¿cuál es la distancia en línea recta desde tu punto de partida?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ km}$", "correct": true },
+      { "text": "$14 \\text{ km}$", "correct": false },
+      { "text": "$12 \\text{ km}$", "correct": false },
+      { "text": "$2 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La trayectoria Norte y luego Este forma un ángulo de $90^\\circ$. Utiliza $c = \\sqrt{a^2 + b^2}$.",
+    "explanation": "La distancia directa funge como la hipotenusa del desplazamiento: $c = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10 \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VA",
+    "question": "Desde lo alto de un faro de $60 \\text{ m}$ sobre el nivel del mar, se observa un barco con un ángulo de depresión de $30^\\circ$. ¿A qué distancia de la base del faro se encuentra el barco?",
+    "image": null,
+    "options": [
+      { "text": "$60\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false },
+      { "text": "$120 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Por ángulos alternos internos, el ángulo de depresión es igual al de elevación desde el barco. Usa $CA = \\frac{CO}{\\tan(\\theta)}$.",
+    "explanation": "La distancia horizontal es $CA = \\frac{60 \\text{ m}}{\\tan(30^\\circ)} = \\frac{60}{\\sqrt{3}/3} = \\frac{180}{\\sqrt{3}} = 60\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VB",
+    "question": "Un niño vuela una cometa y ha soltado $50 \\text{ m}$ de hilo. Si el hilo está tenso y forma un ángulo con el suelo cuyo seno es $0.8$, ¿a qué altura se encuentra la cometa?",
+    "image": null,
+    "options": [
+      { "text": "$40 \\text{ m}$", "correct": true },
+      { "text": "$30 \\text{ m}$", "correct": false },
+      { "text": "$60 \\text{ m}$", "correct": false },
+      { "text": "$50 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sabiendo que el seno es el cociente entre altura e hipotenusa, emplea $CO = H \\cdot \\sin(\\theta)$.",
+    "explanation": "Sustituyendo directamente en la fórmula, tenemos que Altura $= 50 \\text{ m} \\cdot 0.8 = 40 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VC",
+    "question": "Identifica las expresiones que son matemáticamente equivalentes a $\\sin(\\theta)$ para un ángulo agudo $\\theta$ en un triángulo rectángulo de catetos $a$ (opuesto), $b$ (adyacente) e hipotenusa $c$: I) $a/c$, II) $\\cos(90^\\circ - \\theta)$, III) $1/\\csc(\\theta)$, IV) $b/c$.",
+    "image": null,
+    "options": [
+      { "text": "I, II, III", "correct": true },
+      { "text": "I, IV", "correct": false },
+      { "text": "II, III, IV", "correct": false },
+      { "text": "Solo I y III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en consideración la definición geométrica, la ley de cofunciones complementarias y las identidades recíprocas fundamentales.",
+    "explanation": "El seno es opuesto sobre hipotenusa ($a/c$), equivale funcionalmente al coseno de su complemento, y representa el inverso de la cosecante. La opción $b/c$ corresponde al coseno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VD",
+    "question": "En la ecuación matemática $c^2 = a^2 + b^2$, la letra $c$ representa la ______ y debe ser obligatoriamente el lado ______ del triángulo rectángulo.",
+    "image": null,
+    "options": [
+      { "text": "hipotenusa, más largo", "correct": true },
+      { "text": "base, más corto", "correct": false },
+      { "text": "altura, intermedio", "correct": false },
+      { "text": "hipotenusa, más corto", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la suma de dos magnitudes cuadradas positivas siempre origina un valor mayor que cualquiera de las partes de manera aislada.",
+    "explanation": "El valor $c$ es la hipotenusa y al ser su cuadrado igual a la suma de los otros dos cuadrados, matemáticamente asegura que es el lado de mayor longitud geométrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VE",
+    "question": "Relaciona cada ángulo con el valor trigonométrico exacto de su coseno: A) $30^\\circ$, B) $45^\\circ$, C) $60^\\circ$; I) $\\frac{1}{2}$, II) $\\frac{\\sqrt{3}}{2}$, III) $\\frac{\\sqrt{2}}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "A-II, B-III, C-I", "correct": true },
+      { "text": "A-I, B-II, C-III", "correct": false },
+      { "text": "A-III, B-I, C-II", "correct": false },
+      { "text": "A-II, B-I, C-III", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica mentalmente que el valor del coseno disminuye progresivamente de $1$ a $0$ a lo largo del primer cuadrante.",
+    "explanation": "Los valores convencionales asignados son $\\cos(30^\\circ) = \\sqrt{3}/2$, $\\cos(45^\\circ) = \\sqrt{2}/2$, y $\\cos(60^\\circ) = 1/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VF",
+    "question": "El diseño arquitectónico del CEPREDIX incluye una rampa de acceso para sillas de ruedas. La rampa debe salvar un desnivel de $1 \\text{ m}$ y tiene una longitud total de recorrido de $10 \\text{ m}$. ¿Cuál es el seno del ángulo de inclinación de la rampa?",
+    "image": null,
+    "options": [
+      { "text": "$0.1$", "correct": true },
+      { "text": "$10$", "correct": false },
+      { "text": "$0.01$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Implementa directamente la definición $\\sin(\\theta) = \\frac{CO}{H}$, donde la longitud de la rampa es la hipotenusa.",
+    "explanation": "Al establecer la relación matemática $\\sin(\\theta) = \\frac{1 \\text{ m}}{10 \\text{ m}}$, el resultado decimal es $0.1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VG",
+    "question": "Un globo aerostático está sujeto al suelo por un cable tenso de $100 \\text{ m}$ que forma un ángulo de $45^\\circ$ con la horizontal. Por la fuerza del viento, el globo baja hasta que el cable forma $30^\\circ$. ¿Cuántos metros descendió verticalmente el globo aproximadamente? (Usa $\\sqrt{2} \\approx 1.41$)",
+    "image": null,
+    "options": [
+      { "text": "$20.5 \\text{ m}$", "correct": true },
+      { "text": "$70.5 \\text{ m}$", "correct": false },
+      { "text": "$50 \\text{ m}$", "correct": false },
+      { "text": "$14.1 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la Altura inicial $= 100\\sin(45^\\circ)$ y la Altura final $= 100\\sin(30^\\circ)$. Luego, realiza una sustracción para obtener la diferencia.",
+    "explanation": "Altura inicial $= 100 \\cdot (\\sqrt{2}/2) = 50\\sqrt{2} \\approx 70.5 \\text{ m}$. Altura final $= 100 \\cdot (1/2) = 50 \\text{ m}$. El descenso es $70.5 - 50 = 20.5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VH",
+    "question": "Calcula la diagonal de una pantalla de televisión perfectamente cuadrada si cada uno de sus lados mide $50 \\text{ cm}$.",
+    "image": null,
+    "options": [
+      { "text": "$50\\sqrt{2} \\text{ cm}$", "correct": true },
+      { "text": "$100 \\text{ cm}$", "correct": false },
+      { "text": "$2500 \\text{ cm}$", "correct": false },
+      { "text": "$25\\sqrt{2} \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Visualiza que la diagonal divide al cuadrado en dos triángulos rectángulos isósceles. Utiliza $d = \\sqrt{l^2 + l^2}$.",
+    "explanation": "Al aplicar el teorema, la diagonal $d = \\sqrt{50^2 + 50^2} = \\sqrt{2 \\cdot 50^2}$. Extrayendo la raíz, obtenemos $50\\sqrt{2} \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VI",
+    "question": "Un árbol de altura $h$ proyecta una sombra de $12 \\text{ m}$. En ese mismo instante, un poste vertical de $2 \\text{ m}$ proyecta una sombra de $3 \\text{ m}$. ¿Cuál es la altura del árbol usando razones trigonométricas de triángulos semejantes?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ m}$", "correct": true },
+      { "text": "$18 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$", "correct": false },
+      { "text": "$24 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que el sol impacta con el mismo ángulo de inclinación, la tangente ($\\tan(\\theta)$) es idéntica. Emplea la proporción $\\frac{h}{12} = \\frac{2}{3}$.",
+    "explanation": "Al resolver la equivalencia proporcional, determinamos que $h = 12 \\text{ m} \\cdot \\left(\\frac{2}{3}\\right) = 8 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VJ",
+    "question": "En un triángulo rectángulo cuyos lados miden $8 \\text{ m}$, $15 \\text{ m}$ y $17 \\text{ m}$, ¿cuál es el valor del coseno del ángulo adyacente al lado de $15 \\text{ m}$?",
+    "image": null,
+    "options": [
+      { "text": "$15/17$", "correct": true },
+      { "text": "$8/17$", "correct": false },
+      { "text": "$15/8$", "correct": false },
+      { "text": "$8/15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que la hipotenusa corresponde al lado de mayor medida y, tras ello, aplica de manera directa $\\cos(\\theta) = \\frac{CA}{H}$.",
+    "explanation": "La hipotenusa mide $17 \\text{ m}$. El cateto adyacente al ángulo referenciado es $15 \\text{ m}$. Por lo tanto, el coseno se expresa como la fracción $\\frac{15}{17}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP02VK",
+    "question": "Un equipo de topografía del CEPREDIX necesita medir el ancho de un río. Desde un punto $A$ en la orilla, observan un árbol en el punto $B$ justo en la orilla opuesta. Caminan $20 \\text{ m}$ por la orilla hasta un punto $C$. Desde $C$, el ángulo de visión hacia el árbol respecto a la orilla es de $60^\\circ$. ¿Cuál es el ancho del río?",
+    "image": null,
+    "options": [
+      { "text": "$20\\sqrt{3} \\text{ m}$", "correct": true },
+      { "text": "$10\\sqrt{3} \\text{ m}$", "correct": false },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$20 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El ancho del río representa el cateto opuesto del triángulo rectángulo formado. Emplea la ecuación $CO = CA \\cdot \\tan(\\theta)$.",
+    "explanation": "El ancho se calcula multiplicando la base por la tangente: $20 \\text{ m} \\cdot \\tan(60^\\circ)$. Puesto que $\\tan(60^\\circ) = \\sqrt{3}$, la respuesta es $20\\sqrt{3} \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
