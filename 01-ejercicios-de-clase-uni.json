@@ -3958,5 +3958,653 @@
     "explanation": "El relativo cuyas establece una concordancia catafórica obligatoria con el sustantivo decisiones (femenino plural). El número o género del antecedente líderes es irrelevante para esta concordancia.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00IM",
+    "question": "Despeja la variable $h$ de la fórmula del área de un triángulo $A = \\frac{bh}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "$h = \\frac{2A}{b}$", "correct": true },
+      { "text": "$h = \\frac{A}{2b}$", "correct": false },
+      { "text": "$h = 2Ab$", "correct": false },
+      { "text": "$h = \\frac{b}{2A}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero pasa el divisor al otro lado multiplicando y luego transfiere el factor que multiplica la incógnita dividiendo.",
+    "explanation": "El 2 pasa multiplicando al área obteniendo $2A = bh$. Luego, la variable $b$ que multiplica a la $h$ pasa dividiendo: $h = \\frac{2A}{b}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IN",
+    "question": "Despeja la variable $x$ de la ecuación de la recta $y = mx + b$.",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{y + b}{m}$", "correct": false },
+      { "text": "$x = \\frac{y - b}{m}$", "correct": true },
+      { "text": "$x = ym - b$", "correct": false },
+      { "text": "$x = \\frac{m}{y - b}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transfiere primero el término independiente y después el coeficiente de la incógnita.",
+    "explanation": "El término $b$ suma, así que pasa restando: $y - b = mx$. El coeficiente $m$ multiplica a la $x$, por lo que pasa dividiendo: $x = \\frac{y - b}{m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IO",
+    "question": "A partir de la fórmula de velocidad $v = \\frac{d}{t}$, determina el despeje correcto para la variable $t$.",
+    "image": null,
+    "options": [
+      { "text": "$t = v \\cdot d$", "correct": false },
+      { "text": "$t = \\frac{v}{d}$", "correct": false },
+      { "text": "$t = d - v$", "correct": false },
+      { "text": "$t = \\frac{d}{v}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al estar la variable en el denominador, primero debe pasar al numerador multiplicando del lado contrario.",
+    "explanation": "La variable $t$ pasa multiplicando: $vt = d$. Posteriormente, la $v$ pasa dividiendo, logrando $t = \\frac{d}{v}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IP",
+    "question": "Despeja la base $b$ de la ecuación correspondiente al perímetro de un rectángulo $P = 2b + 2h$.",
+    "image": null,
+    "options": [
+      { "text": "$b = P - h$", "correct": false },
+      { "text": "$b = \\frac{P + 2h}{2}$", "correct": false },
+      { "text": "$b = \\frac{P - 2h}{2}$", "correct": true },
+      { "text": "$b = \\frac{2h - P}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los términos que no contengan a la incógnita de un lado y por último elimina el coeficiente numérico.",
+    "explanation": "El término $2h$ pasa restando: $P - 2h = 2b$. El coeficiente 2 que multiplica a la $b$ pasa dividiendo a todo el binomio: $b = \\frac{P - 2h}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IQ",
+    "question": "En la expresión de la Segunda Ley de Newton $F = ma$, ¿cuál es el despeje correcto para la aceleración $a$?",
+    "image": null,
+    "options": [
+      { "text": "$a = F \\cdot m$", "correct": false },
+      { "text": "$a = \\frac{F}{m}$", "correct": true },
+      { "text": "$a = \\frac{m}{F}$", "correct": false },
+      { "text": "$a = F - m$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica qué operación realiza la variable acompañante y utiliza la operación contraria.",
+    "explanation": "La masa $m$ está multiplicando a la aceleración, por lo que debe pasar dividiendo a la fuerza: $a = \\frac{F}{m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IR",
+    "question": "Un problema del CEPREDIX requiere que se aísle el radio de un círculo dada su fórmula de área $A = \\pi r^2$. ¿Cuál es el despeje correcto para $r$?",
+    "image": null,
+    "options": [
+      { "text": "$r = \\frac{A}{\\pi}$", "correct": false },
+      { "text": "$r = \\frac{\\sqrt{A}}{\\pi}$", "correct": false },
+      { "text": "$r = \\pi \\sqrt{A}$", "correct": false },
+      { "text": "$r = \\sqrt{\\frac{A}{\\pi}}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes invertir tanto la multiplicación de la constante como el exponente cuadrático de la variable.",
+    "explanation": "Primero, el símbolo $\\pi$ pasa dividiendo: $\\frac{A}{\\pi} = r^2$. Finalmente, para quitar el cuadrado, se aplica raíz cuadrada a ambos lados: $r = \\sqrt{\\frac{A}{\\pi}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IS",
+    "question": "Despeja la variable de temperatura $T$ de la ley de los gases ideales $PV = nRT$.",
+    "image": null,
+    "options": [
+      { "text": "$T = \\frac{nR}{PV}$", "correct": false },
+      { "text": "$T = \\frac{PV}{nR}$", "correct": true },
+      { "text": "$T = PVnR$", "correct": false },
+      { "text": "$T = \\frac{P}{VnR}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza qué variables acompañan a la incógnita y mediante qué operación están relacionadas con ella.",
+    "explanation": "Las variables $n$ y $R$ están multiplicando a la temperatura $T$, de modo que pasan en conjunto dividiendo al otro lado de la igualdad: $T = \\frac{PV}{nR}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IT",
+    "question": "Con base en el teorema de Pitágoras $c^2 = a^2 + b^2$, ¿cómo se representa el despeje correcto para el cateto $a$?",
+    "image": null,
+    "options": [
+      { "text": "$a = \\sqrt{c^2 - b^2}$", "correct": true },
+      { "text": "$a = c - b$", "correct": false },
+      { "text": "$a = \\sqrt{c^2 + b^2}$", "correct": false },
+      { "text": "$a = c^2 - b^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Transfiere el término sumado y luego elimina la potencia de la incógnita aislando su valor unitario.",
+    "explanation": "El cateto al cuadrado $b^2$ pasa restando para obtener $a^2 = c^2 - b^2$. Para eliminar el exponente de la variable $a$, se aplica raíz cuadrada, resultando en $a = \\sqrt{c^2 - b^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IU",
+    "question": "Selecciona el despeje correcto de la velocidad $v$ de la fórmula correspondiente a la energía cinética $E = \\frac{1}{2}mv^2$.",
+    "image": null,
+    "options": [
+      { "text": "$v = \\frac{2E}{m}$", "correct": false },
+      { "text": "$v = \\sqrt{\\frac{E}{2m}}$", "correct": false },
+      { "text": "$v = \\sqrt{\\frac{2E}{m}}$", "correct": true },
+      { "text": "$v = \\frac{E}{2m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina la fracción pasando el denominador a multiplicar, transfiere la masa dividiendo y por último aplica la operación inversa al exponente.",
+    "explanation": "El número 2 pasa multiplicando: $2E = mv^2$. Posteriormente, la masa $m$ pasa dividiendo: $\\frac{2E}{m} = v^2$. Se aplica la raíz cuadrada al término completo: $v = \\sqrt{\\frac{2E}{m}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IV",
+    "question": "Si la densidad se define algebraicamente mediante $d = \\frac{m}{V}$, ¿cuál es el despeje apropiado para la variable de masa $m$?",
+    "image": null,
+    "options": [
+      { "text": "$m = \\frac{d}{V}$", "correct": false },
+      { "text": "$m = d \\cdot V$", "correct": true },
+      { "text": "$m = \\frac{V}{d}$", "correct": false },
+      { "text": "$m = d + V$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La variable a despejar se ubica como dividendo, identifica la operación para transferir al divisor.",
+    "explanation": "El volumen $V$ que divide a la masa $m$ es trasladado al otro lado de la igualdad realizando su operación inversa, que es la multiplicación, quedando $m = d \\cdot V$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IW",
+    "question": "A partir de la fórmula del volumen de un cilindro $V = \\pi r^2 h$, aísla correctamente la variable correspondiente a la altura $h$.",
+    "image": null,
+    "options": [
+      { "text": "$h = V \\pi r^2$", "correct": false },
+      { "text": "$h = \\frac{\\pi r^2}{V}$", "correct": false },
+      { "text": "$h = \\frac{V}{\\pi r}$", "correct": false },
+      { "text": "$h = \\frac{V}{\\pi r^2}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el conjunto de variables que están multiplicando a la altura y pásalas juntas al lado opuesto.",
+    "explanation": "El bloque entero expresado como $\\pi r^2$ está multiplicando a $h$. Por lo tanto, el bloque pasa dividiendo íntegramente al volumen $V$, dando como resultado $h = \\frac{V}{\\pi r^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IX",
+    "question": "Un estudiante del CEPREDIX requiere emplear la fórmula de interés simple $I = Prt$. Selecciona la opción que contenga el despeje adecuado para la tasa de interés $r$.",
+    "image": null,
+    "options": [
+      { "text": "$r = \\frac{I}{Pt}$", "correct": true },
+      { "text": "$r = I \\cdot P \\cdot t$", "correct": false },
+      { "text": "$r = \\frac{Pt}{I}$", "correct": false },
+      { "text": "$r = \\frac{I - P}{t}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las otras variables en el producto comparten el mismo factor operativo sobre tu incógnita.",
+    "explanation": "Al ser un producto de tres factores, $P$ y $t$ se encuentran multiplicando a $r$. Se transfieren conjuntamente mediante división, por lo que $r = \\frac{I}{Pt}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IY",
+    "question": "Despeja correctamente la velocidad final $v_f$ a partir de la ecuación de aceleración $a = \\frac{v_f - v_i}{t}$.",
+    "image": null,
+    "options": [
+      { "text": "$v_f = \\frac{a}{t} + v_i$", "correct": false },
+      { "text": "$v_f = a(t + v_i)$", "correct": false },
+      { "text": "$v_f = at + v_i$", "correct": true },
+      { "text": "$v_f = at - v_i$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Inicia la manipulación eliminando la fracción al transferir el tiempo al lado opuesto.",
+    "explanation": "El tiempo $t$ pasa multiplicando: $at = v_f - v_i$. Seguido, la velocidad inicial $v_i$ que está restando pasa sumando: $v_f = at + v_i$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IZ",
+    "question": "Aísla el volumen $V$ en la fórmula correspondiente a la molaridad de una disolución $M = \\frac{n}{V}$.",
+    "image": null,
+    "options": [
+      { "text": "$V = n \\cdot M$", "correct": false },
+      { "text": "$V = \\frac{M}{n}$", "correct": false },
+      { "text": "$V = n - M$", "correct": false },
+      { "text": "$V = \\frac{n}{M}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Como la variable buscada se encuentra en el denominador, es necesario llevarla primero a la posición de numerador en la otra mitad de la ecuación.",
+    "explanation": "Primero el volumen $V$ se pasa multiplicando a la molaridad $M$, formándose $MV = n$. Posteriormente la $M$ que multiplica a la $V$ pasa dividiendo: $V = \\frac{n}{M}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JA",
+    "question": "De la fórmula general para la presión física expresada como $P = \\frac{F}{A}$, ¿cómo se despeja correctamente el área $A$?",
+    "image": null,
+    "options": [
+      { "text": "$A = \\frac{F}{P}$", "correct": true },
+      { "text": "$A = F \\cdot P$", "correct": false },
+      { "text": "$A = \\frac{P}{F}$", "correct": false },
+      { "text": "$A = F - P$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el intercambio directo que puede hacerse entre una incógnita en un divisor y el valor aislado al otro lado de la igualdad.",
+    "explanation": "El área $A$ pasa de estar dividiendo a multiplicar a $P$, quedando $P \\cdot A = F$. Luego la presión $P$ se pasa dividiendo resultando en $A = \\frac{F}{P}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JB",
+    "question": "En la expresión matemática que modela la ley de Hooke $F = kx$, despeja de forma válida la constante $k$.",
+    "image": null,
+    "options": [
+      { "text": "$k = F \\cdot x$", "correct": false },
+      { "text": "$k = \\frac{x}{F}$", "correct": false },
+      { "text": "$k = \\frac{F}{x}$", "correct": true },
+      { "text": "$k = F - x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la operación contraria a la que ejerce el desplazamiento sobre la constante del resorte.",
+    "explanation": "Dado que la variable $x$ se encuentra multiplicando a la constante $k$, simplemente debe transferirse con la operación de división, quedando $k = \\frac{F}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JC",
+    "question": "Al emplear la ley de Ohm representada por $V = I \\cdot R$, identifica el despeje adecuado para la resistencia eléctrica $R$.",
+    "image": null,
+    "options": [
+      { "text": "$R = V \\cdot I$", "correct": false },
+      { "text": "$R = \\frac{V}{I}$", "correct": true },
+      { "text": "$R = \\frac{I}{V}$", "correct": false },
+      { "text": "$R = V - I$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que la variable no deseada está multiplicando y muévela de posición realizando la división respectiva.",
+    "explanation": "La intensidad de corriente $I$ multiplica a la resistencia $R$, de modo que transfiere al lado del voltaje $V$ con la operación inversa: $R = \\frac{V}{I}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JD",
+    "question": "En una evaluación del CEPREDIX, se solicita utilizar una simplificación de la ecuación de caída libre en la cual $d = \\frac{1}{2}at^2$. Despeja la aceleración $a$ correctamente.",
+    "image": null,
+    "options": [
+      { "text": "$a = \\frac{d}{2t^2}$", "correct": false },
+      { "text": "$a = 2d t^2$", "correct": false },
+      { "text": "$a = \\frac{2d}{t}$", "correct": false },
+      { "text": "$a = \\frac{2d}{t^2}$", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa el denominador de la fracción primero hacia el otro lado de la igualdad, y después transfiere el término cuadrático íntegro.",
+    "explanation": "El denominador 2 pasa multiplicando a la distancia dando $2d = at^2$. El cuadrado del tiempo es un solo factor multiplicativo, por lo que pasa dividiendo: $a = \\frac{2d}{t^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JE",
+    "question": "Identifica cuáles de los siguientes despejes algebraicos son completamente válidos si se inician a partir de la ecuación $v = v_0 + at$:\n1. $a = \\frac{v - v_0}{t}$\n2. $t = \\frac{v_0 - v}{a}$\n3. $v_0 = v - at$\n4. $a = \\frac{v}{t} - v_0$",
+    "image": null,
+    "options": [
+      { "text": "2 y 4", "correct": false },
+      { "text": "1 y 3", "correct": true },
+      { "text": "1 y 4", "correct": false },
+      { "text": "2 y 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa uno a uno los pasos para aislar la variable en el bloque respectivo. El orden de las operaciones combinadas es importante.",
+    "explanation": "El despeje 1 es correcto al restar $v_0$ y dividir entre $t$. El despeje 3 es correcto al restar todo el bloque $at$. Las opciones 2 y 4 tienen los signos o el orden de la división invertidos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JF",
+    "question": "Selecciona los despejes que se derivan correctamente a partir de la ecuación del perímetro $P = 2l + 2w$:\n1. $l = \\frac{P - 2w}{2}$\n2. $w = \\frac{P}{2} - l$\n3. $l = P - w$",
+    "image": null,
+    "options": [
+      { "text": "1 y 2", "correct": true },
+      { "text": "2 y 3", "correct": false },
+      { "text": "1 y 3", "correct": false },
+      { "text": "Solo 1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa con detenimiento que el despeje de la forma $\\frac{A-B}{C}$ puede separarse matemáticamente en $\\frac{A}{C} - \\frac{B}{C}$.",
+    "explanation": "El punto 1 es un despeje directo estándar. El punto 2 es matemáticamente equivalente al efectuar la división en ambos términos ($w = \\frac{P}{2} - \\frac{2l}{2}$). La opción 3 carece del factor divisional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JG",
+    "question": "Un ejercicio algebraico del CEPREDIX pide identificar secuencialmente los pasos válidos necesarios para despejar de forma correcta a la variable $x$ a partir de la ecuación parabólica $y = a(x - h)^2$:\n1. Dividir ambos lados entre $a$\n2. Restar $h$ a ambos lados de la ecuación\n3. Sacar la raíz cuadrada en ambos lados\n4. Sumar el término $h$ en ambos lados",
+    "image": null,
+    "options": [
+      { "text": "1, 2 y 3", "correct": false },
+      { "text": "2, 3 y 4", "correct": false },
+      { "text": "1, 3 y 4", "correct": true },
+      { "text": "1, 3 y 2", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El orden inverso de operaciones es clave en los despejes algebraicos complejos de paréntesis.",
+    "explanation": "Se debe iniciar liberando el binomio al dividir entre $a$ (paso 1), prosiguiendo con deshacer la potencia cuadrática aplicando raíz cuadrada (paso 3), y finalizando transfiriendo el elemento $h$ que resta, mediante suma (paso 4).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JH",
+    "question": "Identifica cuáles de los siguientes despejes que provienen de la fórmula matemática del área del rombo $A = \\frac{D \\cdot d}{2}$ han sido ejecutados de modo correcto:\n1. $D = \\frac{2A}{d}$\n2. $d = \\frac{A}{2D}$\n3. $d = \\frac{2A}{D}$",
+    "image": null,
+    "options": [
+      { "text": "1 y 2", "correct": false },
+      { "text": "1 y 3", "correct": true },
+      { "text": "2 y 3", "correct": false },
+      { "text": "Solo 1", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma nota de que el factor de división inicial en la primera ecuación siempre pasa hacia arriba.",
+    "explanation": "Las opciones 1 y 3 son deducciones válidas puesto que el 2 del divisor cruza de modo multiplicativo originando $2A$, y posteriormente la variable multiplicadora del numerador se traslada dividiendo, manteniendo en todos los casos la estructura de doble área sobre la diagonal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JI",
+    "question": "De la famosa ecuación de equivalencia $E = mc^2$, identifica qué numerales en la lista exponen un despeje correcto:\n1. $m = \\frac{E}{c^2}$\n2. $c = \\sqrt{\\frac{E}{m}}$\n3. $c = \\frac{E^2}{m}$",
+    "image": null,
+    "options": [
+      { "text": "2 y 3", "correct": false },
+      { "text": "1 y 3", "correct": false },
+      { "text": "Solo 1", "correct": false },
+      { "text": "1 y 2", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el tipo de exponente y evalúa si la operación inversa aplicada es la indicada.",
+    "explanation": "El punto 1 transfiere la velocidad cuadrática correctamente por medio de división. El punto 2 extrae exitosamente a la $c$ aislando su elemento y luego aplicando la raíz cuadrada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JJ",
+    "question": "A partir de la fórmula del volumen de un cono circular recto $V = \\frac{1}{3}\\pi r^2 h$, identifica las agrupaciones donde el despeje se efectuó de forma precisa:\n1. $h = \\frac{3V}{\\pi r^2}$\n2. $r = \\sqrt{\\frac{3V}{\\pi h}}$\n3. $r = \\frac{3V}{\\pi h}$",
+    "image": null,
+    "options": [
+      { "text": "2 y 3", "correct": false },
+      { "text": "1 y 3", "correct": false },
+      { "text": "Solo 2", "correct": false },
+      { "text": "1 y 2", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para eliminar el exponente de la base en la opción 3 es necesario añadir otro paso extra.",
+    "explanation": "El número 3 divisor siempre pasará multiplicando logrando $3V$. El despeje de la variable $h$ mostrado en la opción 1 traslada el factor $\\pi r^2$ dividiendo, siendo correcto. El despeje en 2 aplica la raíz cuadrada correctamente a toda la fracción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JK",
+    "question": "Para aislar y despejar el radio $r$ de la fórmula de la circunferencia $C = 2\\pi r$, se debe ______ la variable $C$ entre $2\\pi$, obteniendo como resultado algebraico final $r = $ ______.",
+    "image": null,
+    "options": [
+      { "text": "Multiplicar, $C \\cdot 2\\pi$", "correct": false },
+      { "text": "Dividir, $\\frac{C}{2\\pi}$", "correct": true },
+      { "text": "Restar, $C - 2\\pi$", "correct": false },
+      { "text": "Sumar, $C + 2\\pi$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor $2\\pi$ se visualiza de forma unitaria ya que ambos términos se encuentran en formato de multiplicación.",
+    "explanation": "Puesto que el conjunto numérico $2\\pi$ es el multiplicador, su acción inversa aplicable es la división en la forma de que $C$ actúe de numerador sobre el mismo conjunto divisorio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JL",
+    "question": "En un problema de modelado geométrico en una actividad del CEPREDIX se requiere el uso de la función $y = \\sqrt{x - 3}$. Para despejar $x$, en primer lugar es indispensable ______ a ambos lados de la ecuación, para luego en el paso final ______ el escalar numérico 3 en ambos lados.",
+    "image": null,
+    "options": [
+      { "text": "Sacar raíz, restar", "correct": false },
+      { "text": "Multiplicar por dos, dividir", "correct": false },
+      { "text": "Elevar al cuadrado, sumar", "correct": true },
+      { "text": "Dividir entre dos, multiplicar", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se busca suprimir el signo de radicación al principio ya que abarca o agrupa a todos los términos deseados.",
+    "explanation": "El símbolo de la raíz afecta todo el bloque numérico, de modo que elevar la expresión al cuadrado cancela dicha raíz de un lado y convierte al otro a $y^2$. Luego, el 3 restando pasa al lado opuesto del formato por medio de la suma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JM",
+    "question": "Para poder despejar exitosamente la variable de la masa $m_1$ en el desarrollo clásico $F = G\\frac{m_1 m_2}{r^2}$, se debe multiplicar la variable de fuerza $F$ por ______ y luego de eso se requiere ______ el producto obtenido entre $G m_2$.",
+    "image": null,
+    "options": [
+      { "text": "$r$, multiplicar", "correct": false },
+      { "text": "$r^2$, dividir", "correct": true },
+      { "text": "$r^2$, restar", "correct": false },
+      { "text": "$G$, sumar", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El denominador general de una fórmula tiene preponderancia al pasar al nivel inicial por multiplicación y la constante no es sumatoria.",
+    "explanation": "Se despeja sacando a $r^2$ del divisor para multiplicar en el otro lado ($F \\cdot r^2$). Los restantes $G m_2$ multiplican la incógnita, así que tendrán que fungir como divisores conjuntos para aislar a $m_1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JN",
+    "question": "Dentro del estudio de la ecuación termodinámica base $K = ^\\circ C + 273$, si se cuenta con el interés de despejar y dejar libre a los grados centígrados $^\\circ C$, es muy necesario ______ el valor numérico constante a la variable $K$, quedando finalmente la fórmula $^\\circ C = $ ______.",
+    "image": null,
+    "options": [
+      { "text": "Sumar, $K + 273$", "correct": false },
+      { "text": "Multiplicar, $273K$", "correct": false },
+      { "text": "Restar, $K - 273$", "correct": true },
+      { "text": "Dividir, $\\frac{K}{273}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aprecia el comportamiento aditivo de la cantidad numérica sobre los grados centígrados.",
+    "explanation": "El símbolo de suma (+) precede a la cifra de 273, indicando que debe ejecutarse una resta sobre $K$ en el sector opuesto de la expresión analítica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JO",
+    "question": "A fin de lograr despejar cabalmente la incógnita dependiente de la velocidad $v$ en la expresión $p = mv$, se debe ______ la magnitud original $p$ entre el factor numérico de la ______.",
+    "image": null,
+    "options": [
+      { "text": "Multiplicar, masa", "correct": false },
+      { "text": "Restar, densidad", "correct": false },
+      { "text": "Sumar, constante", "correct": false },
+      { "text": "Dividir, masa", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Como los componentes de la fórmula de cantidad de movimiento están unidos sin signos entre ellos, se están multiplicando.",
+    "explanation": "La masa identificada con $m$ efectúa el rol multiplicativo frente a la variable objetiva $v$. En consecuencia debe realizarse el cambio respectivo en donde esta divisa se transfiere dividiendo al parámetro $p$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JP",
+    "question": "Con el objetivo de aislar y obtener el resultado algebraico directo de la base $b$ correspondiente de la ecuación original $A = b \\cdot h$, el valor del área de la figura debe ser ______ directamente por el elemento de la ______.",
+    "image": null,
+    "options": [
+      { "text": "Multiplicado, altura", "correct": false },
+      { "text": "Dividido, altura", "correct": true },
+      { "text": "Restado, longitud", "correct": false },
+      { "text": "Sumado, hipotenusa", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al buscar separar los componentes de la fórmula asocia la acción mostrada con su inversa obligatoria.",
+    "explanation": "Puesto que la variable que hace alusión a la altura ($h$) interviene a modo de multiplicador, para despejar y liberar de forma integral la variable $b$, el área se ve en la necesidad de ser dividida por dicha magnitud.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JQ",
+    "question": "El departamento de evaluación del CEPREDIX te solicita relacionar de forma correspondiente la fórmula física original con el despeje adecuado de la variable dispuesta entre paréntesis:\n1. $F=ma$ (despejar $m$)\n2. $v=\\frac{d}{t}$ (despejar $d$)\n3. $w=mg$ (despejar $g$)\n\nA. $g=\\frac{w}{m}$\nB. $m=\\frac{F}{a}$\nC. $d=vt$",
+    "image": null,
+    "options": [
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-C, 2-A, 3-B", "correct": false },
+      { "text": "1-B, 2-A, 3-C", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa visualmente los elementos en la posición de numerador en cada término.",
+    "explanation": "Para la fórmula de fuerza, se transfiere la aceleración hacia la división dando B. En el caso de la velocidad, como $t$ está fraccionando, salta realizando una multiplicación conformando la opción C. Para peso, se procede análogamente al despeje lineal originando el reactivo A.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JR",
+    "question": "Relaciona correctamente la ecuación matemática original con su modelo de despeje adecuado para lograr aislar la variable individual $x$:\n1. $y = x + a$\n2. $y = ax$\n3. $y = \\frac{x}{a}$\n\nA. $x = \\frac{y}{a}$\nB. $x = ya$\nC. $x = y - a$",
+    "image": null,
+    "options": [
+      { "text": "1-C, 2-A, 3-B", "correct": true },
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para las tres funciones se utilizan operaciones elementales inversas a la adición, multiplicación y división de manera independiente.",
+    "explanation": "Si $a$ suma, la inversa es restarla formándose $x = y-a$ (C). Cuando $a$ multiplica se transfiere hacia divisor creando $x = \\frac{y}{a}$ (A). De forma análoga la divisoria se reescribe como $x = ya$ (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JS",
+    "question": "Relaciona cada estructura de fórmula geométrica para el cálculo de áreas con el respectivo despeje de su constante base o radio:\n1. $A = \\pi r^2$ (aislar $r$)\n2. $A = bh$ (aislar $b$)\n3. $A = \\frac{bh}{2}$ (aislar $b$)\n\nA. $b = \\frac{2A}{h}$\nB. $r = \\sqrt{\\frac{A}{\\pi}}$\nC. $b = \\frac{A}{h}$",
+    "image": null,
+    "options": [
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": true },
+      { "text": "1-B, 2-A, 3-C", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor numeral dos que divide al triángulo resulta clave para no equivocarse al relacionar el segundo y tercer segmento.",
+    "explanation": "El área del círculo precisa del inverso del exponencial, vinculando 1 con B. Al trabajar con el rectángulo la transferencia es directa, acoplando 2 con C. Para el polígono triangular se multiplica por 2 el lado libre previo a su división, generando 3 con A.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JT",
+    "question": "Asocia la ley termodinámica de gases respectiva con el modelo de despeje correcto de la variable señalada entre los paréntesis:\n1. $P_1 V_1 = P_2 V_2$ ($V_2$)\n2. $\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$ ($T_2$)\n3. $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$ ($P_1$)\n\nA. $P_1 = \\frac{P_2 T_1}{T_2}$\nB. $V_2 = \\frac{P_1 V_1}{P_2}$\nC. $T_2 = \\frac{V_2 T_1}{V_1}$",
+    "image": null,
+    "options": [
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-C, 2-A, 3-B", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": true },
+      { "text": "1-B, 2-A, 3-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que para el despeje de incógnitas dispuestas cruzadamente en fraccionarios idénticos se aplica la regla de tres.",
+    "explanation": "En el punto 1 el componente $P_2$ pasa simplemente fraccionando logrando 1-B. Para la expresión 2 al estar la variable en divisor se asocia como $T_2 = \\frac{V_2 \\cdot T_1}{V_1}$ correspondiendo a 2-C. La sección 3 efectúa una traslación hacia la cabecera acoplando 3-A.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JU",
+    "question": "Enlaza la ecuación cuadrática original listada con el resultado del despeje algebraico más adecuado aplicable sobre el término $x$:\n1. $x^2 = a$\n2. $x^2 + b = a$\n3. $cx^2 = a$\n\nA. $x = \\sqrt{\\frac{a}{c}}$\nB. $x = \\sqrt{a}$\nC. $x = \\sqrt{a - b}$",
+    "image": null,
+    "options": [
+      { "text": "1-C, 2-B, 3-A", "correct": false },
+      { "text": "1-B, 2-C, 3-A", "correct": true },
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-B, 2-A, 3-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa el procedimiento a realizar previa la aplicación global del signo y factor de la raíz.",
+    "explanation": "El escenario fundamental 1 requiere puramente radicar la constante asilada, uniendo con B. En la premisa 2 la sustracción de $b$ acontece en la etapa anterior originando un término interior de resta con C. Para el precepto 3 la división es preliminar a enraizar dando A.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00JV",
+    "question": "Relaciona de forma idónea el despeje directo de la variable universal de tiempo $t$ a partir de la expresión contenida en diferentes ramas matemáticas y físicas:\n1. $I = Prt$\n2. $v = \\frac{d}{t}$\n3. $a = \\frac{v}{t}$\n\nA. $t = \\frac{v}{a}$\nB. $t = \\frac{d}{v}$\nC. $t = \\frac{I}{Pr}$",
+    "image": null,
+    "options": [
+      { "text": "1-A, 2-C, 3-B", "correct": false },
+      { "text": "1-B, 2-A, 3-C", "correct": false },
+      { "text": "1-C, 2-A, 3-B", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": true }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier variable multiplicadora debe traspasarse hacia el bloque del denominador, del mismo modo sucede al estar ubicada en la división de forma alterna.",
+    "explanation": "Puesto que en la sección financiera $Pr$ son subelementos de factor se asocian en divisor a la magnitud de interés (1-C). De manera estructural idéntica, la velocidad cruza y fracciona al intervalo en movimiento 2-B. En las cuestiones de aceleración, de modo equitativo toma la estructura cruzada descrita en la figura de 3-A.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
