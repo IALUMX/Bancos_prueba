@@ -6766,5 +6766,563 @@
     "explanation": "La Guerra Fría se libró en foros diplomáticos, propagandísticos y tecnológicos (carrera espacial), apoyando guerras locales en otros continentes (conflictos proxy) sin llegar jamás a la confrontación armada directa.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00OM",
+    "question": "La tripulación de un barco está conformada por 50 personas. Se cuenta con alimento para 24 días con 4 comidas diarias. Si se disminuyen las raciones a 3 comidas diarias y se aumenta la tripulación con 10 personas, ¿Cuántos días durarán los alimentos?",
+    "image": null,
+    "options": [
+      { "text": "$26.66 \\text{ días}$", "correct": true },
+      { "text": "$32.00 \\text{ días}$", "correct": false },
+      { "text": "$20.50 \\text{ días}$", "correct": false },
+      { "text": "$18.33 \\text{ días}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el total de raciones iniciales multiplicando personas, días y comidas, luego divide entre el nuevo consumo diario.",
+    "explanation": "El total de raciones con las que se cuenta es $50 \\times 24 \\times 4 = 4800$. El nuevo consumo de raciones por día es de $60$ personas por $3$ comidas, es decir, $180$ raciones. Los días que durarán los alimentos son $4800 / 180 = 26.66$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ON",
+    "question": "La capacidad de una cisterna es de 8 400 L. Si se llena con agua de un grifo a razón de 70 L cada 4 minutos, ¿Cuántos minutos tardará en llenarse?",
+    "image": null,
+    "options": [
+      { "text": "480", "correct": true },
+      { "text": "360", "correct": false },
+      { "text": "520", "correct": false },
+      { "text": "400", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide el volumen total entre el volumen parcial para saber el número de ciclos y multiplica por el tiempo parcial de llenado.",
+    "explanation": "Si en $4 \\text{ minutos}$ se llenan $70 \\text{ L}$, el tiempo para $8400 \\text{ L}$ es $(8400 / 70) \\times 4 = 120 \\times 4 = 480 \\text{ minutos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OO",
+    "question": "En una comunidad de 30 personas, de las cuales 12 son menores, se tiene previsto que diariamente un adulto haga guardia nocturna para permitir el acceso a la comunidad. Se requiere un cronograma para que se turnen de manera equitativa de las 22:00 a las 07:00 horas del día siguiente. ¿Cuántas horas hace de guardia cada adulto durante 300 días?",
+    "image": null,
+    "options": [
+      { "text": "150", "correct": true },
+      { "text": "120", "correct": false },
+      { "text": "180", "correct": false },
+      { "text": "90", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el total de horas de guardia en los $300 \\text{ días}$ y divídelo entre el número de adultos disponibles.",
+    "explanation": "Hay $18$ adultos disponibles. Cada noche tiene $9 \\text{ horas}$ de guardia (de las 22:00 a las 07:00). En $300 \\text{ días}$ son $2700 \\text{ horas}$ totales. Al dividir de manera equitativa, $2700 / 18 = 150 \\text{ horas}$ por adulto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OP",
+    "question": "Evalúe la expresión matemática asegurando el uso correcto de los símbolos de agrupación: 5 - {8[3(6 - 4) - 2(-3)]}",
+    "image": null,
+    "options": [
+      { "text": "-91", "correct": true },
+      { "text": "91", "correct": false },
+      { "text": "-83", "correct": false },
+      { "text": "101", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve desde los paréntesis interiores hacia afuera, respetando la jerarquía de operaciones y leyes de signos.",
+    "explanation": "Resolvemos los paréntesis: $6 - 4 = 2$. Luego las multiplicaciones: $3(2) = 6$ y $-2(-3) = 6$. Sumamos dentro del corchete: $6 + 6 = 12$. Multiplicamos por el factor externo: $8(12) = 96$. Finalmente restamos: $5 - 96 = -91$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OQ",
+    "question": "Si la velocidad de un meteorito es de $3 \\times 10^6 \\text{ m/s}$, la distancia entre dos planetas es de $9.6 \\times 10^{12} \\text{ m}$ y la fórmula del tiempo es distancia sobre velocidad, identifique, en segundos, el tiempo que le toma al meteorito viajar de un planeta a otro.",
+    "image": null,
+    "options": [
+      { "text": "$3.2 \\times 10^6$", "correct": true },
+      { "text": "$3.2 \\times 10^5$", "correct": false },
+      { "text": "$2.88 \\times 10^{19}$", "correct": false },
+      { "text": "$3.2 \\times 10^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la propiedad de los exponentes para división, dividiendo los coeficientes y restando los exponentes de la base $10$.",
+    "explanation": "Sustituyendo los valores, $t = \\frac{9.6 \\times 10^{12}}{3 \\times 10^6} = 3.2 \\times 10^{12-6} = 3.2 \\times 10^6 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OR",
+    "question": "Identifique los factores primos del número 420.",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5, 7", "correct": true },
+      { "text": "2, 5, 7, 9", "correct": false },
+      { "text": "2, 3, 7, 11", "correct": false },
+      { "text": "3, 4, 5, 7", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón el número dividiendo sucesivamente por los números primos más pequeños hasta obtener un cociente de $1$.",
+    "explanation": "Al descomponer el $420$, obtenemos $420 = 2 \\times 210 = 2^2 \\times 105 = 2^2 \\times 3 \\times 35 = 2^2 \\times 3 \\times 5 \\times 7$. Los números primos que forman su base son $2, 3, 5 \\text{ y } 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OS",
+    "question": "Un aparato de sonido en casa requiere $36 \\text{ V}$ para alimentarse. Se sabe que 3 baterías de $4 \\text{ V}$ conectadas en serie proporcionan un voltaje de $12 \\text{ V}$. Si se desea hacer funcionar el aparato utilizando baterías, ¿Cuántas se necesitan?",
+    "image": null,
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Determina el voltaje que proporciona una sola batería de forma individual y divide el requerimiento total de voltaje entre ese valor.",
+    "explanation": "Si $3$ baterías proporcionan $12 \\text{ V}$ conectadas en serie, se deduce que cada una aporta $4 \\text{ V}$. Para obtener $36 \\text{ V}$, se dividen $36 / 4 = 9$ baterías.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OT",
+    "question": "En una población se detecta un nuevo virus en 5 personas. Al realizar los estudios pertinentes, la razón de crecimiento de infectados es de 3 cada 4 días. Después de 24 días, ¿Cuántos serán los infectados?",
+    "image": null,
+    "options": [
+      { "text": "23", "correct": true },
+      { "text": "18", "correct": false },
+      { "text": "29", "correct": false },
+      { "text": "35", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula cuántos periodos de tiempo completos transcurren y multiplícalos por el aumento constante por periodo, luego suma la cantidad inicial de pacientes.",
+    "explanation": "Transcurren un total de $24 / 4 = 6$ periodos de crecimiento. El aumento total es $6 \\times 3 = 18$ personas. Esta cifra se suma a los casos iniciales: $5 + 18 = 23$ infectados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OU",
+    "question": "Una empresa tiene 4 departamentos, cada uno de ellos con diferente número de extensiones telefónicas. Recursos Humanos cuenta con 5 extensiones; Sistemas, con 8; Finanzas, con 6, y Logística, con 4. La empresa dicta que el pago del servicio telefónico se realiza en forma proporcional al número de extensiones de cada departamento. Para este mes, el recibo asciende a $34,500.00. ¿Cuánto debe pagar el Departamento de Logística por el servicio?",
+    "image": null,
+    "options": [
+      { "text": "$$6,000.00$", "correct": true },
+      { "text": "$$12,000.00$", "correct": false },
+      { "text": "$$9,000.00$", "correct": false },
+      { "text": "$$7,500.00$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el costo unitario por cada extensión dividiendo el total del recibo entre el número global de extensiones, luego multiplica por las extensiones de Logística.",
+    "explanation": "El total global de extensiones es $5 + 8 + 6 + 4 = 23$. El costo unitario es $\\$34,500.00 / 23 = \\$1,500.00$. El departamento de Logística paga en proporción: $4 \\times \\$1,500.00 = \\$6,000.00$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OV",
+    "question": "Un trabajador aprovecha sus días vacacionales para ir de paseo en coche. El lunes recorrió 90 km, el martes avanzó 2/5 de la distancia recorrida el lunes y el miércoles manejó 3/4 de la distancia recorrida el martes, pero de vuelta a su casa. ¿A cuántos kilómetros, expresados en número entero, quedó el trabajador del punto de partida?",
+    "image": null,
+    "options": [
+      { "text": "$99 \\text{ km}$", "correct": true },
+      { "text": "$108 \\text{ km}$", "correct": false },
+      { "text": "$81 \\text{ km}$", "correct": false },
+      { "text": "$126 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los recorridos de ida partiendo del cálculo de fracciones de distancias pasadas y resta los recorridos que hizo de vuelta.",
+    "explanation": "El lunes avanzó $90 \\text{ km}$. El martes avanzó $\\frac{2}{5} \\times 90 = 36 \\text{ km}$. El miércoles regresó $\\frac{3}{4} \\times 36 = 27 \\text{ km}$. Su posición final neta respecto al origen es $90 + 36 - 27 = 99 \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OW",
+    "question": "En un almacén de maíz, al principio del periodo se contaba con 6 000 kg de producto. Primeramente, se realizaron 4 ventas de 250.5 kg cada una, luego 6 ventas de 180.75 kg cada una y, por último, se hicieron 5 compras de 500.4 kg cada una. ¿Cuántos kilogramos quedaron en el almacén al final del periodo, considerando el resultado redondeado a dos decimales?",
+    "image": null,
+    "options": [
+      { "text": "$6,415.50$", "correct": true },
+      { "text": "$5,584.50$", "correct": false },
+      { "text": "$7,417.50$", "correct": false },
+      { "text": "$6,417.00$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las ventas representan restas al inventario y las compras representan adiciones. Suma las compras al inventario inicial y resta el total agrupado de las ventas.",
+    "explanation": "Total de la primera venta = $4 \\times 250.5 = 1002 \\text{ kg}$. Total de la segunda venta = $6 \\times 180.75 = 1084.5 \\text{ kg}$. Total en compras = $5 \\times 500.4 = 2502 \\text{ kg}$. El inventario final de almacén es $6000 - 1002 - 1084.5 + 2502 = 6415.50 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OX",
+    "question": "Identifique la representación en lenguaje común correspondiente a la siguiente expresión matemática: $5^{3/2}$",
+    "image": null,
+    "options": [
+      { "text": "La raíz cuadrada del cubo de cinco", "correct": true },
+      { "text": "La raíz cúbica del cuadrado de cinco", "correct": false },
+      { "text": "La mitad del triple de cinco", "correct": false },
+      { "text": "El triple de la raíz cuadrada de cinco", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En un exponente fraccionario, el número situado en el numerador indica la potencia de la base y el denominador establece el índice de la raíz.",
+    "explanation": "La expresión general $x^{m/n}$ equivale a $\\sqrt[n]{x^m}$. En este caso, el denominador $2$ indica que es una raíz cuadrada y el numerador $3$ indica que el cinco está elevado al cubo, obteniendo la estructura $\\sqrt{5^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OY",
+    "question": "Identifique la solución de la siguiente expresión: 64 ÷ 4 + 5 - 3 x 6 + 2 x 3^2 ÷ 3 - 4",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "-3", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sigue estrictamente el orden de jerarquía de operaciones: primero potencias, enseguida multiplicaciones y divisiones (de izquierda a derecha), y por último sumas y restas.",
+    "explanation": "Resolvemos primero la potencia: $3^2 = 9$. Luego divisiones y multiplicaciones agrupadas: $64 \\div 4 = 16$, $3 \\times 6 = 18$, y $2 \\times 9 \\div 3 = 18 \\div 3 = 6$. Finalmente efectuamos sumas y restas: $16 + 5 - 18 + 6 - 4 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00OZ",
+    "question": "La torre de control de un aeródromo registra 3 vuelos diarios. Uno cada 6 horas, otro cada 10 horas y uno más cada 18 horas. Si los 3 vuelos coinciden en un momento determinado, ¿después de cuántas horas será la próxima vez que coincidan nuevamente de forma simultánea?",
+    "image": null,
+    "options": [
+      { "text": "90", "correct": true },
+      { "text": "180", "correct": false },
+      { "text": "60", "correct": false },
+      { "text": "120", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el mínimo común múltiplo (mcm) de los tres intervalos de tiempo descomponiendo en factores primos.",
+    "explanation": "Para hallar cuándo volverán a coincidir temporalmente, calculamos el mcm de los periodos. Al descomponer: $6 = 2 \\times 3$; $10 = 2 \\times 5$; $18 = 2 \\times 3^2$. El mcm(6, 10, 18) = $2 \\times 3^2 \\times 5 = 90 \\text{ horas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PA",
+    "question": "Un apicultor que produce miel y propóleo desea envasar la totalidad de su producción en recipientes iguales de la máxima capacidad posible. En sus últimas cosechas obtuvo 180 y 120 L, respectivamente. ¿Cuál tiene que ser la capacidad de dichos recipientes, expresada en litros?",
+    "image": null,
+    "options": [
+      { "text": "60", "correct": true },
+      { "text": "30", "correct": false },
+      { "text": "40", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para agrupar sin excedentes en la medida más amplia, calcula el máximo común divisor (MCD) de ambos volúmenes de cosecha.",
+    "explanation": "Para obtener recipientes de la máxima capacidad que puedan dividir ambos volúmenes exactamente y sin residuos, obtenemos el MCD. Descomponiendo: $180 = 2^2 \\times 3^2 \\times 5$ y $120 = 2^3 \\times 3 \\times 5$. Su MCD(180, 120) = $2^2 \\times 3 \\times 5 = 60 \\text{ L}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PB",
+    "question": "Con el 25% de descuento ya aplicado, un traje cuesta $1,500. ¿Cuál es su precio original sin descuento?",
+    "image": null,
+    "options": [
+      { "text": "$$2,000$", "correct": true },
+      { "text": "$$1,875$", "correct": false },
+      { "text": "$$2,250$", "correct": false },
+      { "text": "$$1,750$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si se redujo un porcentaje, la cantidad actual representa la diferencia de ese porcentaje respecto al $100\\%$. Utiliza regla de tres o división directa.",
+    "explanation": "Si al precio se le aplicó un descuento del $25\\%$, el cliente pagó el $75\\%$ del total. Dividimos la cantidad pagada entre la proporción: $\\$1,500 / 0.75 = \\$2,000$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PC",
+    "question": "Un hombre depositó $40,000 en un banco a un plazo fijo de 4 años. Al término del periodo, retiró $56,000, cantidad que corresponde al capital inicial más el interés generado. Identifique la tasa de interés simple anual que pagó el banco.",
+    "image": null,
+    "options": [
+      { "text": "$10\\%$", "correct": true },
+      { "text": "$16\\%$", "correct": false },
+      { "text": "$8\\%$", "correct": false },
+      { "text": "$12\\%$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta el capital inicial del retiro para saber el interés y despeja la tasa $r$ de la fórmula $I = C \\cdot r \\cdot t$.",
+    "explanation": "La ganancia pura o interés generado es de $\\$56,000 - \\$40,000 = \\$16,000$. Usando la fórmula general de interés simple y despejando obtenemos $r = I / (C \\cdot t)$. Sustituyendo, $16000 / (40000 \\times 4) = 16000 / 160000 = 0.10$, lo que equivale a un $10\\%$ anual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PD",
+    "question": "Diariamente, una fábrica produce 8 000 camisas utilizando 12 máquinas en un tiempo sostenido de 6 horas. Si se sabe que 3 de estas máquinas entrarán en mantenimiento y no podrán operar, ¿Cuántas horas se incrementará el tiempo de producción diario para cumplir la misma meta?",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta es una proporción inversa clásica. A menos máquinas disponibles, mayor tiempo requerido para la misma producción. Calcula el nuevo tiempo y resta el inicial para conocer el incremento.",
+    "explanation": "Si $12$ máquinas tardan $6$ horas en completar el trabajo, se requieren $(12 \\times 6) / 9 = 8$ horas con las $9$ máquinas funcionales que quedan disponibles. El incremento de tiempo para ese día es $8 - 6 = 2 \\text{ horas}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PE",
+    "question": "Identifique la situación en la que se aplica la ley de los signos que corresponde exactamente al producto de un número negativo por uno positivo.",
+    "image": null,
+    "options": [
+      { "text": "La temperatura de una ciudad es de $4 ^\\circ\\text{C}$ bajo cero y durante la madrugada desciende el triple.", "correct": true },
+      { "text": "Un buzo se encuentra a $4 \\text{ m}$ de profundidad y sube de golpe $3 \\text{ m}$ hacia la superficie.", "correct": false },
+      { "text": "Una persona adeuda un pago por $\\$4$ y enseguida recibe un bono inesperado de $\\$3$.", "correct": false },
+      { "text": "La temperatura inicial al amanecer es de $4 ^\\circ\\text{C}$ y aumenta $3 ^\\circ\\text{C}$ durante la tarde.", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca la opción que represente gramaticalmente una multiplicación directa de un valor inicial negativo por un factor de crecimiento o escala.",
+    "explanation": "La expresión 'descender el triple' partiendo de una temperatura 'bajo cero' implica matemáticamente multiplicar un número negativo ($-4$) por un escalar positivo puro ($3$), dando como resultado final $-12$. Las demás opciones describen sumas y adiciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PF",
+    "question": "Seleccione el valor numérico que debe colocarse en el recuadro de la potencia. La expresión $(((q)^5)^4)^3$ se puede simplificar y escribir directamente como $((q)^5)^\\square$.",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "60", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Por la ley fundamental de los exponentes para potencia de una potencia, los exponentes intermedios y exteriores se multiplican linealmente.",
+    "explanation": "Al aplicar la regla de la potencia de una potencia, los exponentes exteriores se multiplican directamente: $4 \\times 3 = 12$. Así, la expresión original manteniendo la base equivalente es igual a $((q)^5)^{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PG",
+    "question": "¿Qué conjunto de números presenta una desviación estándar mayor por su distribución general?",
+    "image": null,
+    "options": [
+      { "text": "$\\{5, 12, 18, 25, 30, 40\\}$", "correct": true },
+      { "text": "$\\{20, 21, 22, 23, 24, 25\\}$", "correct": false },
+      { "text": "$\\{15, 15, 16, 16, 17, 17\\}$", "correct": false },
+      { "text": "$\\{10, 12, 14, 16, 18, 20\\}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa a simple vista qué conjunto tiene los datos más dispersos y alejados respecto a su valor central, es decir, el mayor rango estadístico.",
+    "explanation": "La desviación estándar mide directamente la dispersión y alejamiento de los datos respecto a la media. El primer conjunto presenta la mayor distancia entre sus valores extremos (un rango amplio de $35$), por lo que su variabilidad es significativamente mayor a los otros grupos, los cuales están concentrados en márgenes cortos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PH",
+    "question": "Complete la oración con el valor faltante. Un árbol frutal crece en promedio _______ por año. Si el árbol mide actualmente $5.4 \\text{ m}$, significa que tiene exactamente $9$ años desde que brotó.",
+    "image": null,
+    "options": [
+      { "text": "$0.6 \\text{ m}$", "correct": true },
+      { "text": "$0.5 \\text{ m}$", "correct": false },
+      { "text": "$1.2 \\text{ m}$", "correct": false },
+      { "text": "$0.7 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la proporción dividiendo la altura total registrada entre la cantidad de años transcurridos para obtener la tasa anual constante.",
+    "explanation": "La tasa de crecimiento promedio es simplemente la altura total alcanzada dividida entre el periodo temporal de maduración: $5.4 \\text{ m} / 9 \\text{ años} = 0.6 \\text{ m}$ de crecimiento garantizado por año.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PI",
+    "question": "¿Qué opción es totalmente equivalente tras realizar operaciones a la expresión $9(3a + b)(3a + b)$?",
+    "image": null,
+    "options": [
+      { "text": "$81a^2 + 54ab + 9b^2$", "correct": true },
+      { "text": "$27a^2 + 9b^2$", "correct": false },
+      { "text": "$81a^2 + 9b^2$", "correct": false },
+      { "text": "$27a^2 + 18ab + 9b^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla primero algebraicamente el binomio al cuadrado que forman los factores y después multiplica cada término del trinomio por el coeficiente externo.",
+    "explanation": "La expresión contiene el producto $(3a + b)^2$, cuyo desarrollo arroja $9a^2 + 6ab + b^2$. Al multiplicar posteriormente todo el trinomio por el factor $9$, obtenemos finalmente $9(9a^2) + 9(6ab) + 9(b^2) = 81a^2 + 54ab + 9b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PJ",
+    "question": "Al lanzar 2 dados, la probabilidad de que la suma de sus caras superiores sea exactamente 9 es _______ la probabilidad de que la suma de dichas caras resulte en 6.",
+    "image": null,
+    "options": [
+      { "text": "Menor que", "correct": true },
+      { "text": "Mayor que", "correct": false },
+      { "text": "Igual a", "correct": false },
+      { "text": "El doble de", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Evalúa y cuenta cuántos casos favorables existen individualmente para conformar cada suma específica antes de comparar las fracciones de probabilidad.",
+    "explanation": "Para la suma de $9$ existen $4$ combinaciones posibles: $(3,6), (4,5), (5,4), (6,3)$. Para la suma de $6$ existen $5$ combinaciones: $(1,5), (2,4), (3,3), (4,2), (5,1)$. Al existir más combinaciones favorables para la segunda suma, resulta evidente que la primera probabilidad es menor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PK",
+    "question": "Ana construye un reloj en una circunferencia de radio igual a 8 cm y otro en una circunferencia de radio igual a 16 cm. Ana gira la manecilla del primer reloj de las 2:00 a las 6:00 horas y la manecilla del segundo de las 11:00 a las 4:00 horas. De acuerdo con esta información de giro, ¿cuál afirmación es correcta?",
+    "image": null,
+    "options": [
+      { "text": "El ángulo de giro central descrito por la segunda manecilla es mayor.", "correct": true },
+      { "text": "El ángulo de giro central descrito por la primera manecilla es mayor.", "correct": false },
+      { "text": "Ambas manecillas giraron de manera equivalente y en el mismo ángulo.", "correct": false },
+      { "text": "El primer reloj describe un arco sectorial de mucha mayor longitud que el segundo.", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que el desplazamiento de cada bloque de hora exacta en un reloj de manecillas abarca un ángulo de rotación de $30^\\circ$. El radio es irrelevante para el cálculo del ángulo central.",
+    "explanation": "El primer reloj experimenta un avance numérico de $4 \\text{ horas}$ efectivas ($4 \\times 30^\\circ = 120^\\circ$ de rotación). El segundo reloj tiene un avance horario mayor, cubriendo $5 \\text{ horas}$ completas (de las 11 a las 4, resultando en $5 \\times 30^\\circ = 150^\\circ$). Independientemente del radio utilizado en la estructura, la amplitud angular central del segundo reloj es decididamente superior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PL",
+    "question": "Silvia va a comprar su uniforme. Una blusa cuesta $200.00, pero le aplicarán 20% de descuento directo en piso; unos pantalones cuestan $350.00 y le harán 60% de rebaja por promoción. Al llegar a la caja para pagar, le comentan que además todas las blusas tienen 10% de descuento adicional aplicado directamente sobre el precio ya rebajado en piso. ¿Cuál es la cantidad redondeada total que Silvia pagará si compra ambas prendas?",
+    "image": null,
+    "options": [
+      { "text": "$$284$", "correct": true },
+      { "text": "$$260$", "correct": false },
+      { "text": "$$310$", "correct": false },
+      { "text": "$$320$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la matemática aplicando los descuentos de manera sucesiva y secuencial. El $10\\%$ extra sobre la blusa jamás se suma en una exhibición al $20\\%$ inicial, sino que procede tras la primera reducción.",
+    "explanation": "Calculando el nuevo precio para la blusa en piso con el primer descuento: $200 \\times 0.80 = \\$160$. Aplicando posteriormente el descuento en caja: $160 \\times 0.90 = \\$144$. El precio final para los pantalones es: $350 \\times 0.40 = \\$140$. La suma de las prendas es $\\$144 + \\$140 = \\$284$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PM",
+    "question": "¿Cuál es la pareja ordenada que representa matemáticamente una solución probada de la ecuación lineal $5x - 2y = 15$?",
+    "image": null,
+    "options": [
+      { "text": "$x = 3, y = 0$", "correct": true },
+      { "text": "$x = 5, y = 10$", "correct": false },
+      { "text": "$x = 0, y = 7.5$", "correct": false },
+      { "text": "$x = 2, y = -3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dado que es una ecuación general con dos incógnitas, procede a sustituir directamente cada par de valores en el lugar de $x$ e $y$ y evalúa cuál resulta de manera fidedigna en la igualdad de la ecuación.",
+    "explanation": "Procediendo al método de comprobación y sustituyendo $x=3$ y $y=0$ en el esqueleto de la ecuación, evaluamos el lado izquierdo: $5(3) - 2(0) = 15 - 0 = 15$, lo cual embona cabalmente con la igualdad planteada del lado derecho.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PN",
+    "question": "Identifique la inecuación que describe adecuadamente el siguiente fenómeno. De acuerdo con la Ley Federal del Trabajo, una persona debe laborar como máximo 48 horas semanales en el horario diurno; es decir, la exigencia determina que puede laborar a lo sumo 8 horas diarias para cumplir íntegramente con esta jornada.",
+    "image": null,
+    "options": [
+      { "text": "$x \\le 8$", "correct": true },
+      { "text": "$x < 8$", "correct": false },
+      { "text": "$x > 8$", "correct": false },
+      { "text": "$x \\ge 8$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma nota de que expresiones limitantes en el lenguaje como 'a lo sumo' o 'como máximo' indican formalmente la inclusión liminal del punto pero la restricción estricta de rebasarlo en mayor volumen.",
+    "explanation": "El postulado limitante de 'a lo sumo $8 \\text{ horas}$ diarias' se traduce matemáticamente en que la variable $x$ que contiene al número de horas puede adoptar valores precisos a la magnitud $8$ y decaer hacia valores menores, representándose sólidamente como $x \\le 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PO",
+    "question": "En un juego de feria se utiliza un dado que ha sido manipulado, con el cual es tres veces más probable que salga como resultado un número par que uno impar. ¿Cuál es la probabilidad exacta de que al lanzarlo salga exclusivamente el número 3?",
+    "image": null,
+    "options": [
+      { "text": "$1/12$", "correct": true },
+      { "text": "$1/6$", "correct": false },
+      { "text": "$1/4$", "correct": false },
+      { "text": "$1/9$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece la regla en donde si la probabilidad total de un impar en el dado es $x$, la del par se eleva a $3x$. El marco teórico probabilístico obliga a que la suma estricta de las seis caras equivalga siempre a un rotundo $1$.",
+    "explanation": "Definiendo algebraicamente como $x$ la probabilidad base de cualquier número impar. Sumando la probabilidad global encontramos que los tres números pares aportan $3(3x)=9x$ al sistema y los tres impares aportan orgánicamente un global de $3x$. La totalidad del sistema demanda $12x = 1$, despejando el axioma resulta que la probabilidad de un impar aislado (como el número $3$) se limita a $x = 1/12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PP",
+    "question": "Con base en conocimientos de trigonometría plana elemental, si el valor otorgado a $\\sec \\beta = 13/5$, calcule procedimentalmente el valor correspondiente para $\\tan \\beta$.",
+    "image": null,
+    "options": [
+      { "text": "$12/5$", "correct": true },
+      { "text": "$5/12$", "correct": false },
+      { "text": "$13/12$", "correct": false },
+      { "text": "$12/13$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para llegar al despeje necesario, te resultará bastante útil usar la identidad trigonométrica pitagórica $\\tan^2 \\beta + 1 = \\sec^2 \\beta$, sustituyendo y aislando a la tangente como variable final.",
+    "explanation": "Interpretando el problema gráficamente, un triángulo rectángulo que cumple dicha condición geométrica posee una hipotenusa asignada de $13$ e indiscutiblemente su cateto adyacente goza de un valor de $5$. Por el teorema fundamental de Pitágoras localizamos su cateto opuesto que equivale a $\\sqrt{13^2 - 5^2} = 12$. Aceptando la fórmula, extraemos la razón $\\tan \\beta = \\frac{\\text{opuesto}}{\\text{adyacente}} = \\frac{12}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00PQ",
+    "question": "Considerando detalladamente el siguiente sistema de polinomios: $A = 2x + 1$; $B = 4x^3 - 3x^2$; $C = -2x^2 + 5x$. ¿Cuál es el resultado absoluto y verificado al solicitar la operación aritmética de $A + 3B - 2C$?",
+    "image": null,
+    "options": [
+      { "text": "$12x^3 - 5x^2 - 8x + 1$", "correct": true },
+      { "text": "$12x^3 - 13x^2 + 12x + 1$", "correct": false },
+      { "text": "$4x^3 - 5x^2 - 3x + 1$", "correct": false },
+      { "text": "$12x^3 + 5x^2 + 8x - 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye de manera cauta y multiplica cada término componente del polinomio base por su propio factor o coeficiente escalar solicitado. Finaliza el procedimiento realizando la adecuada agrupación horizontal de aquellos elementos tipificados como términos semejantes.",
+    "explanation": "Calculando ordenadamente las magnitudes expandidas: el polinomio base no alterado es $A = 2x + 1$; la multiplicación requerida en la instrucción arroja $3B = 12x^3 - 9x^2$; el balance con signos en la resta obliga a $-2C = 4x^2 - 10x$. Terminando, la suma algorítmica organizando sus magnitudes por grado decreciente produce: $12x^3 + (-9+4)x^2 + (2-10)x + 1$, traduciéndose en el polinomio sintético $12x^3 - 5x^2 - 8x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
