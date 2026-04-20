@@ -3276,5 +3276,1355 @@
     "explanation": "Multiplicando todo por $3$, tenemos $3V = \\pi r^2 h$. El conjunto de variables $\\pi h$ pasa dividiendo de manera íntegra, quedando $r^2 = \\frac{3V}{\\pi h}$. Finalmente se anula la potencia mediante una raíz cuadrada: $r = \\sqrt{\\frac{3V}{\\pi h}}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00GV",
+    "question": "Todo lo que tiene masa y ocupa un lugar en el espacio.",
+    "image": null,
+    "options": [
+      { "text": "Materia", "correct": true },
+      { "text": "Energía", "correct": false },
+      { "text": "Densidad", "correct": false },
+      { "text": "Volumen", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Constituye el universo físico.",
+    "explanation": "La materia se define como cualquier cosa que tenga masa y volumen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GW",
+    "question": "Unidad básica y mínima de la materia.",
+    "image": null,
+    "options": [
+      { "text": "Célula", "correct": false },
+      { "text": "Átomo", "correct": true },
+      { "text": "Molécula", "correct": false },
+      { "text": "Protón", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Del griego indivisible.",
+    "explanation": "El átomo es la porción más pequeña en la que se puede dividir un elemento conservando sus propiedades químicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GX",
+    "question": "Unión de dos o más átomos mediante enlaces químicos.",
+    "image": null,
+    "options": [
+      { "text": "Mezcla", "correct": false },
+      { "text": "Elemento", "correct": false },
+      { "text": "Molécula", "correct": true },
+      { "text": "Isótopo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El agua es un ejemplo de esto.",
+    "explanation": "Una molécula es una agrupación definida y ordenada de átomos que constituye la porción más pequeña de una sustancia pura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GY",
+    "question": "Sustancia pura formada por un solo tipo de átomos.",
+    "image": null,
+    "options": [
+      { "text": "Compuesto", "correct": false },
+      { "text": "Disolución", "correct": false },
+      { "text": "Polímero", "correct": false },
+      { "text": "Elemento", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "No puede descomponerse en sustancias más simples.",
+    "explanation": "Un elemento químico está constituido por átomos con el mismo número de protones en su núcleo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GZ",
+    "question": "Sustancia formada por la unión de dos o más elementos diferentes.",
+    "image": null,
+    "options": [
+      { "text": "Compuesto", "correct": true },
+      { "text": "Aleación", "correct": false },
+      { "text": "Elemento", "correct": false },
+      { "text": "Coloide", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tiene una fórmula química definida.",
+    "explanation": "Los compuestos se forman cuando átomos de distintos elementos se enlazan químicamente en proporciones fijas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HA",
+    "question": "Combinación física de dos o más sustancias sin reacción química.",
+    "image": null,
+    "options": [
+      { "text": "Sustancia pura", "correct": false },
+      { "text": "Mezcla", "correct": true },
+      { "text": "Compuesto", "correct": false },
+      { "text": "Enlace", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Sus componentes mantienen sus identidades.",
+    "explanation": "En una mezcla, los componentes se pueden separar por métodos físicos, ya que no forman enlaces entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HB",
+    "question": "Mezcla cuyos componentes no se distinguen a simple vista.",
+    "image": null,
+    "options": [
+      { "text": "Heterogénea", "correct": false },
+      { "text": "Inmiscible", "correct": false },
+      { "text": "Homogénea", "correct": true },
+      { "text": "Saturada", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Presenta una sola fase visible.",
+    "explanation": "Las mezclas homogéneas o disoluciones tienen una composición uniforme en toda su extensión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HC",
+    "question": "Mezcla donde se pueden observar sus componentes fácilmente.",
+    "image": null,
+    "options": [
+      { "text": "Homogénea", "correct": false },
+      { "text": "Pura", "correct": false },
+      { "text": "Concentrada", "correct": false },
+      { "text": "Heterogénea", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Una ensalada es un buen ejemplo.",
+    "explanation": "Las mezclas heterogéneas no son uniformes y presentan dos o más fases distinguibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HD",
+    "question": "Partícula con carga positiva situada en el núcleo atómico.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": true },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Electrón", "correct": false },
+      { "text": "Positrón", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Determina el número atómico del elemento.",
+    "explanation": "Los protones son partículas subatómicas fundamentales en el núcleo atómico que poseen carga eléctrica positiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HE",
+    "question": "Partícula sin carga eléctrica que se encuentra en el núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": true },
+      { "text": "Electrón", "correct": false },
+      { "text": "Quark", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre indica su neutralidad eléctrica.",
+    "explanation": "El neutrón estabiliza el núcleo atómico al reducir la repulsión entre los protones positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HF",
+    "question": "Partícula con carga negativa que orbita alrededor del núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Electrón", "correct": true },
+      { "text": "Núcleo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Responsable de formar enlaces químicos.",
+    "explanation": "El electrón es una partícula subatómica de masa casi nula y carga negativa que se desplaza en orbitales atómicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HG",
+    "question": "Parte central del átomo que contiene protones y neutrones.",
+    "image": null,
+    "options": [
+      { "text": "Orbital", "correct": false },
+      { "text": "Corteza", "correct": false },
+      { "text": "Nube", "correct": false },
+      { "text": "Núcleo", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Concentra casi toda la masa del átomo.",
+    "explanation": "El núcleo atómico es la región pequeña y densa en el centro del átomo, cargada positivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HH",
+    "question": "Estado de la materia con forma y volumen definidos.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": true },
+      { "text": "Líquido", "correct": false },
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Las partículas están fuertemente unidas.",
+    "explanation": "En el estado sólido, las fuerzas de cohesión son muy intensas, lo que otorga rigidez y volumen constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HI",
+    "question": "Estado con volumen constante pero forma variable según el envase.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": true },
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Puede fluir y adaptarse a la forma del recipiente.",
+    "explanation": "Los líquidos mantienen un volumen fijo porque sus partículas siguen cohesionadas, pero tienen libertad para deslizarse.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HJ",
+    "question": "Estado de la materia sin forma ni volumen definidos.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Gaseoso", "correct": true },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tiende a expandirse para ocupar todo el recipiente.",
+    "explanation": "En un gas, las moléculas están muy separadas y se mueven rápidamente en todas direcciones debido a la baja cohesión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HK",
+    "question": "Estado de la materia altamente ionizado, común en las estrellas.",
+    "image": null,
+    "options": [
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Sólido", "correct": false },
+      { "text": "Plasma", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es el cuarto estado de la materia.",
+    "explanation": "El plasma es un gas ionizado, lo que significa que sus átomos han perdido electrones, dotándolo de conductividad eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HL",
+    "question": "Cambio de estado de sólido a líquido.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": true },
+      { "text": "Solidificación", "correct": false },
+      { "text": "Condensación", "correct": false },
+      { "text": "Sublimación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ocurre cuando el hielo se derrite.",
+    "explanation": "La fusión es el proceso endotérmico por el cual una sustancia sólida adquiere energía térmica y pasa a fase líquida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HM",
+    "question": "Paso de una sustancia de estado líquido a sólido.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": false },
+      { "text": "Solidificación", "correct": true },
+      { "text": "Evaporación", "correct": false },
+      { "text": "Sublimación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ocurre al congelar agua.",
+    "explanation": "La solidificación es el proceso físico en el que un líquido disminuye su temperatura hasta cristalizarse y volverse sólido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HN",
+    "question": "Cambio de estado de líquido a gas.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": false },
+      { "text": "Condensación", "correct": false },
+      { "text": "Vaporización", "correct": true },
+      { "text": "Solidificación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se relaciona con el proceso de ebullición.",
+    "explanation": "La vaporización es la conversión de un líquido en gas al aumentar su temperatura, rompiendo interacciones moleculares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HO",
+    "question": "Paso de estado gaseoso a líquido.",
+    "image": null,
+    "options": [
+      { "text": "Vaporización", "correct": false },
+      { "text": "Sublimación", "correct": false },
+      { "text": "Deposición", "correct": false },
+      { "text": "Condensación", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se observa como rocío en las mañanas frías.",
+    "explanation": "La condensación es el cambio de estado en el que un gas pierde calor, acercando sus moléculas para formar un líquido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HP",
+    "question": "Cambio directo de sólido a gas sin pasar por líquido.",
+    "image": null,
+    "options": [
+      { "text": "Sublimación", "correct": true },
+      { "text": "Condensación", "correct": false },
+      { "text": "Fusión", "correct": false },
+      { "text": "Vaporización", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El hielo seco lo hace a temperatura ambiente.",
+    "explanation": "La sublimación es el proceso físico endotérmico que transforma un sólido directamente a gas, ignorando la fase líquida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HQ",
+    "question": "Esquema que organiza los elementos por su número atómico.",
+    "image": null,
+    "options": [
+      { "text": "Modelo atómico", "correct": false },
+      { "text": "Tabla periódica", "correct": true },
+      { "text": "Enlace químico", "correct": false },
+      { "text": "Regla del octeto", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Fue propuesta en su versión primitiva por Mendeléyev.",
+    "explanation": "La tabla periódica es una disposición tabular de los elementos químicos, ordenados según su número atómico y propiedades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HR",
+    "question": "Abreviatura de una o dos letras que representa a un elemento.",
+    "image": null,
+    "options": [
+      { "text": "Fórmula", "correct": false },
+      { "text": "Ecuación", "correct": false },
+      { "text": "Símbolo", "correct": true },
+      { "text": "Coeficiente", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Como la 'C' para el carbono.",
+    "explanation": "El símbolo químico es una notación estándar internacionalmente aceptada para referirse a los diferentes elementos químicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HS",
+    "question": "Cantidad de protones que tiene un átomo en su núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Masa atómica", "correct": false },
+      { "text": "Valencia", "correct": false },
+      { "text": "Isótopo", "correct": false },
+      { "text": "Número atómico", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se representa con la letra Z.",
+    "explanation": "El número atómico determina la identidad química del elemento y su posición en la tabla periódica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HT",
+    "question": "Suma de las masas de protones y neutrones de un átomo.",
+    "image": null,
+    "options": [
+      { "text": "Masa atómica", "correct": true },
+      { "text": "Número atómico", "correct": false },
+      { "text": "Electrones", "correct": false },
+      { "text": "Ionización", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Representa la totalidad de la masa en el núcleo atómico.",
+    "explanation": "La masa atómica relativa o número másico refleja la suma de nucleones (protones y neutrones) presentes en el átomo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GV",
+    "question": "Todo lo que tiene masa y ocupa un lugar en el espacio.",
+    "image": null,
+    "options": [
+      { "text": "Materia", "correct": true },
+      { "text": "Energía", "correct": false },
+      { "text": "Densidad", "correct": false },
+      { "text": "Volumen", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Constituye el universo físico.",
+    "explanation": "La materia se define como cualquier cosa que tenga masa y volumen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GW",
+    "question": "Unidad básica y mínima de la materia.",
+    "image": null,
+    "options": [
+      { "text": "Célula", "correct": false },
+      { "text": "Átomo", "correct": true },
+      { "text": "Molécula", "correct": false },
+      { "text": "Protón", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Del griego indivisible.",
+    "explanation": "El átomo es la porción más pequeña en la que se puede dividir un elemento conservando sus propiedades químicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GX",
+    "question": "Unión de dos o más átomos mediante enlaces químicos.",
+    "image": null,
+    "options": [
+      { "text": "Mezcla", "correct": false },
+      { "text": "Elemento", "correct": false },
+      { "text": "Molécula", "correct": true },
+      { "text": "Isótopo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El agua es un ejemplo de esto.",
+    "explanation": "Una molécula es una agrupación definida y ordenada de átomos que constituye la porción más pequeña de una sustancia pura.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GY",
+    "question": "Sustancia pura formada por un solo tipo de átomos.",
+    "image": null,
+    "options": [
+      { "text": "Compuesto", "correct": false },
+      { "text": "Disolución", "correct": false },
+      { "text": "Polímero", "correct": false },
+      { "text": "Elemento", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "No puede descomponerse en sustancias más simples.",
+    "explanation": "Un elemento químico está constituido por átomos con el mismo número de protones en su núcleo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00GZ",
+    "question": "Sustancia formada por la unión de dos o más elementos diferentes.",
+    "image": null,
+    "options": [
+      { "text": "Compuesto", "correct": true },
+      { "text": "Aleación", "correct": false },
+      { "text": "Elemento", "correct": false },
+      { "text": "Coloide", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tiene una fórmula química definida.",
+    "explanation": "Los compuestos se forman cuando átomos de distintos elementos se enlazan químicamente en proporciones fijas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HA",
+    "question": "Combinación física de dos o más sustancias sin reacción química.",
+    "image": null,
+    "options": [
+      { "text": "Sustancia pura", "correct": false },
+      { "text": "Mezcla", "correct": true },
+      { "text": "Compuesto", "correct": false },
+      { "text": "Enlace", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Sus componentes mantienen sus identidades.",
+    "explanation": "En una mezcla, los componentes se pueden separar por métodos físicos, ya que no forman enlaces entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HB",
+    "question": "Mezcla cuyos componentes no se distinguen a simple vista.",
+    "image": null,
+    "options": [
+      { "text": "Heterogénea", "correct": false },
+      { "text": "Inmiscible", "correct": false },
+      { "text": "Homogénea", "correct": true },
+      { "text": "Saturada", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Presenta una sola fase visible.",
+    "explanation": "Las mezclas homogéneas o disoluciones tienen una composición uniforme en toda su extensión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HC",
+    "question": "Mezcla donde se pueden observar sus componentes fácilmente.",
+    "image": null,
+    "options": [
+      { "text": "Homogénea", "correct": false },
+      { "text": "Pura", "correct": false },
+      { "text": "Concentrada", "correct": false },
+      { "text": "Heterogénea", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Una ensalada es un buen ejemplo.",
+    "explanation": "Las mezclas heterogéneas no son uniformes y presentan dos o más fases distinguibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HD",
+    "question": "Partícula con carga positiva situada en el núcleo atómico.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": true },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Electrón", "correct": false },
+      { "text": "Positrón", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Determina el número atómico del elemento.",
+    "explanation": "Los protones son partículas subatómicas fundamentales en el núcleo atómico que poseen carga eléctrica positiva.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HE",
+    "question": "Partícula sin carga eléctrica que se encuentra en el núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": true },
+      { "text": "Electrón", "correct": false },
+      { "text": "Quark", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre indica su neutralidad eléctrica.",
+    "explanation": "El neutrón estabiliza el núcleo atómico al reducir la repulsión entre los protones positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HF",
+    "question": "Partícula con carga negativa que orbita alrededor del núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Electrón", "correct": true },
+      { "text": "Núcleo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Responsable de formar enlaces químicos.",
+    "explanation": "El electrón es una partícula subatómica de masa casi nula y carga negativa que se desplaza en orbitales atómicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HG",
+    "question": "Parte central del átomo que contiene protones y neutrones.",
+    "image": null,
+    "options": [
+      { "text": "Orbital", "correct": false },
+      { "text": "Corteza", "correct": false },
+      { "text": "Nube", "correct": false },
+      { "text": "Núcleo", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Concentra casi toda la masa del átomo.",
+    "explanation": "El núcleo atómico es la región pequeña y densa en el centro del átomo, cargada positivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HH",
+    "question": "Estado de la materia con forma y volumen definidos.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": true },
+      { "text": "Líquido", "correct": false },
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Las partículas están fuertemente unidas.",
+    "explanation": "En el estado sólido, las fuerzas de cohesión son muy intensas, lo que otorga rigidez y volumen constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HI",
+    "question": "Estado con volumen constante pero forma variable según el envase.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": true },
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Puede fluir y adaptarse a la forma del recipiente.",
+    "explanation": "Los líquidos mantienen un volumen fijo porque sus partículas siguen cohesionadas, pero tienen libertad para deslizarse.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HJ",
+    "question": "Estado de la materia sin forma ni volumen definidos.",
+    "image": null,
+    "options": [
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Gaseoso", "correct": true },
+      { "text": "Plasma", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tiende a expandirse para ocupar todo el recipiente.",
+    "explanation": "En un gas, las moléculas están muy separadas y se mueven rápidamente en todas direcciones debido a la baja cohesión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HK",
+    "question": "Estado de la materia altamente ionizado, común en las estrellas.",
+    "image": null,
+    "options": [
+      { "text": "Gaseoso", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Sólido", "correct": false },
+      { "text": "Plasma", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es el cuarto estado de la materia.",
+    "explanation": "El plasma es un gas ionizado, lo que significa que sus átomos han perdido electrones, dotándolo de conductividad eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HL",
+    "question": "Cambio de estado de sólido a líquido.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": true },
+      { "text": "Solidificación", "correct": false },
+      { "text": "Condensación", "correct": false },
+      { "text": "Sublimación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ocurre cuando el hielo se derrite.",
+    "explanation": "La fusión es el proceso endotérmico por el cual una sustancia sólida adquiere energía térmica y pasa a fase líquida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HM",
+    "question": "Paso de una sustancia de estado líquido a sólido.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": false },
+      { "text": "Solidificación", "correct": true },
+      { "text": "Evaporación", "correct": false },
+      { "text": "Sublimación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ocurre al congelar agua.",
+    "explanation": "La solidificación es el proceso físico en el que un líquido disminuye su temperatura hasta cristalizarse y volverse sólido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HN",
+    "question": "Cambio de estado de líquido a gas.",
+    "image": null,
+    "options": [
+      { "text": "Fusión", "correct": false },
+      { "text": "Condensación", "correct": false },
+      { "text": "Vaporización", "correct": true },
+      { "text": "Solidificación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se relaciona con el proceso de ebullición.",
+    "explanation": "La vaporización es la conversión de un líquido en gas al aumentar su temperatura, rompiendo interacciones moleculares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HO",
+    "question": "Paso de estado gaseoso a líquido.",
+    "image": null,
+    "options": [
+      { "text": "Vaporización", "correct": false },
+      { "text": "Sublimación", "correct": false },
+      { "text": "Deposición", "correct": false },
+      { "text": "Condensación", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se observa como rocío en las mañanas frías.",
+    "explanation": "La condensación es el cambio de estado en el que un gas pierde calor, acercando sus moléculas para formar un líquido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HP",
+    "question": "Cambio directo de sólido a gas sin pasar por líquido.",
+    "image": null,
+    "options": [
+      { "text": "Sublimación", "correct": true },
+      { "text": "Condensación", "correct": false },
+      { "text": "Fusión", "correct": false },
+      { "text": "Vaporización", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El hielo seco lo hace a temperatura ambiente.",
+    "explanation": "La sublimación es el proceso físico endotérmico que transforma un sólido directamente a gas, ignorando la fase líquida.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HQ",
+    "question": "Esquema que organiza los elementos por su número atómico.",
+    "image": null,
+    "options": [
+      { "text": "Modelo atómico", "correct": false },
+      { "text": "Tabla periódica", "correct": true },
+      { "text": "Enlace químico", "correct": false },
+      { "text": "Regla del octeto", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Fue propuesta en su versión primitiva por Mendeléyev.",
+    "explanation": "La tabla periódica es una disposición tabular de los elementos químicos, ordenados según su número atómico y propiedades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HR",
+    "question": "Abreviatura de una o dos letras que representa a un elemento.",
+    "image": null,
+    "options": [
+      { "text": "Fórmula", "correct": false },
+      { "text": "Ecuación", "correct": false },
+      { "text": "Símbolo", "correct": true },
+      { "text": "Coeficiente", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Como la 'C' para el carbono.",
+    "explanation": "El símbolo químico es una notación estándar internacionalmente aceptada para referirse a los diferentes elementos químicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HS",
+    "question": "Cantidad de protones que tiene un átomo en su núcleo.",
+    "image": null,
+    "options": [
+      { "text": "Masa atómica", "correct": false },
+      { "text": "Valencia", "correct": false },
+      { "text": "Isótopo", "correct": false },
+      { "text": "Número atómico", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se representa con la letra Z.",
+    "explanation": "El número atómico determina la identidad química del elemento y su posición en la tabla periódica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HT",
+    "question": "Suma de las masas de protones y neutrones de un átomo.",
+    "image": null,
+    "options": [
+      { "text": "Masa atómica", "correct": true },
+      { "text": "Número atómico", "correct": false },
+      { "text": "Electrones", "correct": false },
+      { "text": "Ionización", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Representa la totalidad de la masa en el núcleo atómico.",
+    "explanation": "La masa atómica relativa o número másico refleja la suma de nucleones (protones y neutrones) presentes en el átomo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HU",
+    "question": "Columna vertical de la tabla periódica.",
+    "image": null,
+    "options": [
+      { "text": "Periodo", "correct": false },
+      { "text": "Bloque", "correct": false },
+      { "text": "Grupo", "correct": true },
+      { "text": "Nivel", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Elementos con propiedades químicas similares.",
+    "explanation": "Los grupos o familias son las columnas verticales en la tabla periódica que agrupan elementos con la misma valencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HV",
+    "question": "Fila horizontal de la tabla periódica.",
+    "image": null,
+    "options": [
+      { "text": "Grupo", "correct": false },
+      { "text": "Periodo", "correct": true },
+      { "text": "Nivel", "correct": false },
+      { "text": "Serie", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Indica el número de niveles energéticos del átomo.",
+    "explanation": "Los periodos corresponden a las filas horizontales y determinan el número de capas de electrones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HW",
+    "question": "Elemento buen conductor de calor y electricidad.",
+    "image": null,
+    "options": [
+      { "text": "No metal", "correct": false },
+      { "text": "Metaloide", "correct": false },
+      { "text": "Metal", "correct": true },
+      { "text": "Halógeno", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Suelen ser sólidos brillantes a temperatura ambiente.",
+    "explanation": "Los metales se caracterizan por su alta conductividad térmica y eléctrica debido a sus electrones libres.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HX",
+    "question": "Elemento que generalmente es mal conductor de electricidad.",
+    "image": null,
+    "options": [
+      { "text": "No metal", "correct": true },
+      { "text": "Metal", "correct": false },
+      { "text": "Metaloide", "correct": false },
+      { "text": "Lantánido", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Son aislantes térmicos y eléctricos.",
+    "explanation": "Los no metales carecen de electrones libres, lo que los hace malos conductores de electricidad y calor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HY",
+    "question": "Elemento con propiedades intermedias entre metales y no metales.",
+    "image": null,
+    "options": [
+      { "text": "Transición", "correct": false },
+      { "text": "Anfótero", "correct": false },
+      { "text": "Metaloide", "correct": true },
+      { "text": "Halógeno", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Actúan como semiconductores eléctricos.",
+    "explanation": "Los metaloides tienen características físicas y químicas que los sitúan entre los metales y no metales en la tabla periódica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00HZ",
+    "question": "Elementos del grupo 18, conocidos por su baja reactividad.",
+    "image": null,
+    "options": [
+      { "text": "Gases nobles", "correct": true },
+      { "text": "Alcalinos", "correct": false },
+      { "text": "Halógenos", "correct": false },
+      { "text": "Actínidos", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tienen su capa de valencia completa.",
+    "explanation": "Los gases nobles son monoatómicos e inertes debido a que poseen ocho electrones en su último nivel de energía.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IA",
+    "question": "Elementos muy reactivos pertenecientes al grupo 17.",
+    "image": null,
+    "options": [
+      { "text": "Anfígenos", "correct": false },
+      { "text": "Halógenos", "correct": true },
+      { "text": "Alcalinotérreos", "correct": false },
+      { "text": "Gases nobles", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Forman sales al combinarse con metales.",
+    "explanation": "Los halógenos necesitan ganar un solo electrón para completar su octeto, lo que los hace altamente reactivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IB",
+    "question": "Capacidad de un átomo para combinarse con otros.",
+    "image": null,
+    "options": [
+      { "text": "Afinidad", "correct": false },
+      { "text": "Electronegatividad", "correct": false },
+      { "text": "Valencia", "correct": true },
+      { "text": "Oxidación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Depende de los electrones en la última capa.",
+    "explanation": "La valencia indica el número de electrones que un átomo utiliza para formar enlaces químicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IC",
+    "question": "Fuerza de atracción que mantiene unidos a los átomos.",
+    "image": null,
+    "options": [
+      { "text": "Atracción", "correct": false },
+      { "text": "Enlace químico", "correct": true },
+      { "text": "Fuerza nuclear", "correct": false },
+      { "text": "Magnetismo", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Permite la formación de moléculas y compuestos.",
+    "explanation": "El enlace químico es el proceso físico responsable de las interacciones atractivas entre átomos y moléculas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ID",
+    "question": "Unión basada en la transferencia de electrones.",
+    "image": null,
+    "options": [
+      { "text": "Enlace covalente", "correct": false },
+      { "text": "Enlace iónico", "correct": true },
+      { "text": "Enlace metálico", "correct": false },
+      { "text": "Puente hidrógeno", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ocurre típicamente entre un metal y un no metal.",
+    "explanation": "En el enlace iónico, un átomo cede electrones a otro, formando iones de carga opuesta que se atraen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IE",
+    "question": "Unión donde los átomos comparten electrones.",
+    "image": null,
+    "options": [
+      { "text": "Enlace iónico", "correct": false },
+      { "text": "Enlace metálico", "correct": false },
+      { "text": "Interacción polar", "correct": false },
+      { "text": "Enlace covalente", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se da generalmente entre elementos no metálicos.",
+    "explanation": "Los átomos alcanzan la estabilidad electrónica compartiendo pares de electrones en el enlace covalente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IF",
+    "question": "Capacidad de un átomo para atraer electrones hacia sí.",
+    "image": null,
+    "options": [
+      { "text": "Ionización", "correct": false },
+      { "text": "Electronegatividad", "correct": true },
+      { "text": "Afinidad atómica", "correct": false },
+      { "text": "Radio atómico", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Aumenta de izquierda a derecha en la tabla periódica.",
+    "explanation": "La electronegatividad es una medida de la fuerza con la que un átomo atrae los electrones compartidos en un enlace.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IG",
+    "question": "Proceso donde unas sustancias se transforman en otras.",
+    "image": null,
+    "options": [
+      { "text": "Cambio físico", "correct": false },
+      { "text": "Disolución", "correct": false },
+      { "text": "Reacción química", "correct": true },
+      { "text": "Mezcla acuosa", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Implica la ruptura y formación de enlaces.",
+    "explanation": "En una reacción química, los reactivos experimentan un cambio profundo en su estructura para generar productos nuevos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IH",
+    "question": "Sustancia inicial de una reacción química.",
+    "image": null,
+    "options": [
+      { "text": "Catalizador", "correct": false },
+      { "text": "Reactivo", "correct": true },
+      { "text": "Producto", "correct": false },
+      { "text": "Soluto", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se encuentra del lado izquierdo de la ecuación química.",
+    "explanation": "Los reactivos son los materiales de partida que se consumen durante el transcurso de una reacción química.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00II",
+    "question": "Sustancia final que resulta de una reacción química.",
+    "image": null,
+    "options": [
+      { "text": "Reactivo", "correct": false },
+      { "text": "Solvente", "correct": false },
+      { "text": "Precipitado", "correct": false },
+      { "text": "Producto", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se ubica a la derecha de la flecha en una ecuación.",
+    "explanation": "Los productos son las nuevas sustancias formadas como consecuencia de la transformación de los reactivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IJ",
+    "question": "Representación simbólica de una reacción química.",
+    "image": null,
+    "options": [
+      { "text": "Fórmula", "correct": false },
+      { "text": "Ecuación química", "correct": true },
+      { "text": "Estructura", "correct": false },
+      { "text": "Constante", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Utiliza fórmulas y coeficientes estequiométricos.",
+    "explanation": "La ecuación química describe de manera escrita lo que sucede matemáticamente y químicamente en una reacción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IK",
+    "question": "Número que indica la cantidad de moléculas en una ecuación.",
+    "image": null,
+    "options": [
+      { "text": "Subíndice", "correct": false },
+      { "text": "Coeficiente", "correct": true },
+      { "text": "Número atómico", "correct": false },
+      { "text": "Exponente", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se escribe antes de la fórmula del compuesto.",
+    "explanation": "Los coeficientes estequiométricos se utilizan para balancear la ecuación, cumpliendo la ley de conservación de la masa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IL",
+    "question": "Sustancia que acelera una reacción sin consumirse.",
+    "image": null,
+    "options": [
+      { "text": "Catalizador", "correct": true },
+      { "text": "Inhibidor", "correct": false },
+      { "text": "Reactivo", "correct": false },
+      { "text": "Indicador", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Disminuye la energía de activación.",
+    "explanation": "Un catalizador proporciona una ruta alternativa de menor energía para que la reacción ocurra más rápido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IM",
+    "question": "Reacción química que libera energía en forma de calor.",
+    "image": null,
+    "options": [
+      { "text": "Endotérmica", "correct": false },
+      { "text": "Exotérmica", "correct": true },
+      { "text": "Isotérmica", "correct": false },
+      { "text": "Adiabática", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El entorno se calienta durante este proceso.",
+    "explanation": "Las reacciones exotérmicas tienen una variación de entalpía negativa, liberando energía térmica al medio ambiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IN",
+    "question": "Reacción que absorbe energía del entorno.",
+    "image": null,
+    "options": [
+      { "text": "Exotérmica", "correct": false },
+      { "text": "Combustión", "correct": false },
+      { "text": "Endotérmica", "correct": true },
+      { "text": "Espontánea", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El recipiente se enfría al ocurrir la reacción.",
+    "explanation": "En una reacción endotérmica, los productos tienen mayor energía que los reactivos, requiriendo calor continuo para suceder.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IO",
+    "question": "Reacción de oxidación rápida que produce luz y calor.",
+    "image": null,
+    "options": [
+      { "text": "Fermentación", "correct": false },
+      { "text": "Combustión", "correct": true },
+      { "text": "Sublimación", "correct": false },
+      { "text": "Hidrólisis", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Requiere un combustible y oxígeno.",
+    "explanation": "La combustión es un tipo específico de reacción exotérmica donde un material se quema en presencia de un comburente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IP",
+    "question": "Pérdida de electrones de un átomo o molécula.",
+    "image": null,
+    "options": [
+      { "text": "Reducción", "correct": false },
+      { "text": "Ionización", "correct": false },
+      { "text": "Electrólisis", "correct": false },
+      { "text": "Oxidación", "correct": true }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su número de oxidación aumenta.",
+    "explanation": "La oxidación ocurre de manera simultánea a la reducción y se define estrictamente como la cesión de electrones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IQ",
+    "question": "Ganancia de electrones por parte de una sustancia.",
+    "image": null,
+    "options": [
+      { "text": "Reducción", "correct": true },
+      { "text": "Oxidación", "correct": false },
+      { "text": "Evaporación", "correct": false },
+      { "text": "Disociación", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su número de oxidación disminuye.",
+    "explanation": "La reducción implica aceptar electrones en una reacción redox, lo que reduce la carga neta del átomo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IR",
+    "question": "Unidad que mide la cantidad de sustancia en el SI.",
+    "image": null,
+    "options": [
+      { "text": "Kilogramo", "correct": false },
+      { "text": "Litro", "correct": false },
+      { "text": "Mol", "correct": true },
+      { "text": "Amperio", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Equivale a $6.022 \\times 10^{23}$ entidades elementales.",
+    "explanation": "El mol es la unidad básica del Sistema Internacional para contar partículas microscópicas como átomos o moléculas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00IS",
+    "question": "Masa en gramos de un mol de una sustancia determinada.",
+    "image": null,
+    "options": [
+      { "text": "Masa atómica", "correct": false },
+      { "text": "Masa molar", "correct": true },
+      { "text": "Peso elemental", "correct": false },
+      { "text": "Densidad", "correct": false }
+    ],
+    "uni_tags": ["QUÍMICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se expresa en $\\text{g/mol}$.",
+    "explanation": "La masa molar relaciona la cantidad de sustancia (moles) con su masa medible en el laboratorio (gramos).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
