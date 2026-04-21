@@ -5458,5 +5458,365 @@
     "explanation": "Las frases 1, 3 y 5 utilizan un lenguaje limitativo que se expresa con símbolos como '$\\geq$', '$\\leq$' y '$<$', respectivamente. En cambio, los enunciados 2 y 4 contienen términos estáticos como 'es' y 'equivale', que son interpretaciones directas de la igualdad matemática.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00LM",
+    "question": "¿Cuál es la expresión algebraica que representa 'el cociente de la suma de dos números entre su diferencia'?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + y}{x - y}$", "correct": true },
+      { "text": "$\\frac{x}{y} + \\frac{x}{y}$", "correct": false },
+      { "text": "$\\frac{x + y}{xy}$", "correct": false },
+      { "text": "$(x+y)(x-y)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'cociente' significa división. El numerador debe ser la suma y el denominador la resta de ambas cantidades.",
+    "explanation": "Al plantear un cociente, creamos una fracción donde la operación de suma de las variables '$x+y$' se ubica en la parte superior y la diferencia '$x-y$' en la parte inferior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LN",
+    "question": "Un estudiante del CEPREDIX necesita modelar el siguiente problema: 'La edad de Carlos es el triple de la edad de Ana, y dentro de $5$ años, la suma de sus edades será $46$'. Si la edad actual de Ana es '$x$', ¿qué ecuación permite resolver el problema?",
+    "image": null,
+    "options": [
+      { "text": "$(x + 5) + (3x + 5) = 46$", "correct": true },
+      { "text": "$x + 3x + 5 = 46$", "correct": false },
+      { "text": "$3x(x + 5) = 46$", "correct": false },
+      { "text": "$x + 5 + 3x = 46$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el paso del tiempo afecta a ambas personas por igual, por lo que debes sumar $5$ años tanto a la edad de Ana como a la edad de Carlos.",
+    "explanation": "La edad actual de Ana es '$x$' y la de Carlos es '$3x$'. En cinco años, Ana tendrá '$x + 5$' y Carlos '$3x + 5$'. La suma de ambas edades futuras equivale a $46$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LO",
+    "question": "Completa el enunciado: 'Para representar algebraicamente tres números enteros pares consecutivos, si el primer número se define de manera general como '$2x$', el segundo par será ______ y el tercer número par se expresará como ______.'",
+    "image": null,
+    "options": [
+      { "text": "$2x + 2$, $2x + 4$", "correct": true },
+      { "text": "$2x + 1$, $2x + 2$", "correct": false },
+      { "text": "$x + 2$, $x + 4$", "correct": false },
+      { "text": "$2x + 3$, $2x + 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los números pares siempre tienen una separación exacta de dos unidades entre un elemento y el siguiente.",
+    "explanation": "Cualquier número par se asegura multiplicando por dos ('$2x$'). El par consecutivo a este se halla sumándole dos unidades ('$2x + 2$'), y el siguiente sumando otras dos ('$2x + 4$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LP",
+    "question": "Identifica cuáles de las siguientes expresiones representan de manera correcta y equivalente 'el $30\\%$ del cuadrado de un número': 1) $0.30x^2$; 2) $\\frac{30}{100}x^2$; 3) $(0.30x)^2$; 4) $\\frac{3}{10}x^2$; 5) $30x^2$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El porcentaje debe expresarse en su forma decimal o fraccionaria multiplicando únicamente a la variable ya elevada al cuadrado, sin introducir el porcentaje dentro de la potencia.",
+    "explanation": "El $30\\%$ se puede transcribir como decimal ($0.30$), como fracción original ($\\frac{30}{100}$) o como fracción simplificada ($\\frac{3}{10}$). Todas ellas multiplicando al término '$x^2$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LQ",
+    "question": "Relaciona los enunciados con su modelo algebraico correspondiente, utilizando '$x$' e '$y$' como las variables: I. El cuadrado de la diferencia de dos números; II. La diferencia de los cuadrados de dos números; III. La mitad del cuadrado de un número. Modelos: A. $x^2 - y^2$; B. $\\frac{x^2}{2}$; C. $(x - y)^2$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La frase 'el cuadrado de' indica que la potencia engloba a toda la operación mediante el uso de paréntesis.",
+    "explanation": "El cuadrado de la diferencia engloba la resta antes de elevating ('$(x-y)^2$'); la diferencia de cuadrados resta las potencias individuales ('$x^2 - y^2$'); y la mitad de un cuadrado es dividir su potencia entre dos ('$\\frac{x^2}{2}$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LR",
+    "question": "En un museo, la entrada de adulto cuesta el doble que la de niño. Si una familia compra $2$ entradas de adulto y $3$ de niño pagando un total de $\\$350$, ¿qué ecuación representa la situación si '$x$' es el precio de la entrada de niño?",
+    "image": null,
+    "options": [
+      { "text": "$2(2x) + 3x = 350$", "correct": true },
+      { "text": "$2x + 3x = 350$", "correct": false },
+      { "text": "$2(x) + 3(2x) = 350$", "correct": false },
+      { "text": "$\\frac{x}{2} + 3x = 350$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que cada adulto paga una cantidad equivalente a '$2x$'. Al comprar dos boletos de adulto, esa cantidad debe ser duplicada.",
+    "explanation": "El precio de niño es '$x$' y el de adulto es '$2x$'. Al adquirir $2$ boletos de adulto el costo es '$2(2x)$', que sumado a los $3$ boletos de niño ('$3x$') equivale al gasto total de $350$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LS",
+    "question": "¿Cuál es la representación matemática exacta del enunciado 'las dos terceras partes de un número disminuidas en cuatro unidades equivalen a la mitad del mismo número'?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}x - 4 = \\frac{x}{2}$", "correct": true },
+      { "text": "$\\frac{2}{3}(x - 4) = \\frac{x}{2}$", "correct": false },
+      { "text": "$\\frac{2x - 4}{3} = \\frac{x}{2}$", "correct": false },
+      { "text": "$\\frac{2}{3}x - 4 = \\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fracción que indica 'dos tercios' multiplica directamente a la variable aislada, y la palabra 'disminuidas' establece una resta independiente fuera de la fracción.",
+    "explanation": "Las dos terceras partes de un número se escriben como '$\\frac{2}{3}x$'. A este término se le restan cuatro unidades ('$- 4$') y se iguala a la expresión de su propia mitad ('$\\frac{x}{2}$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LT",
+    "question": "Completa el enunciado: 'Al traducir al lenguaje algebraico un problema de un número de dos cifras, si '$x$' representa el dígito de las decenas e '$y$' el dígito de las unidades, el valor posicional real del número se expresa como ______, mientras que la simple suma de sus cifras es ______.'",
+    "image": null,
+    "options": [
+      { "text": "$10x + y$, $x + y$", "correct": true },
+      { "text": "$x + y$, $10x + y$", "correct": false },
+      { "text": "$xy$, $x + y$", "correct": false },
+      { "text": "$10(x + y)$, $x \\cdot y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda nuestro sistema decimal: un dígito ubicado en la posición de las decenas siempre multiplicará su valor por diez.",
+    "explanation": "En el sistema base 10, la cifra en la posición de las decenas aporta un valor de '$10x$' y las unidades aportan '$y$'. Sin embargo, la simple sumatoria de sus componentes nominales es solo '$x+y$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LU",
+    "question": "Selecciona las expresiones que son matemáticamente equivalentes para el enunciado 'el exceso de un número $A$ sobre otro número $B$ es igual a $15$': 1) $A - B = 15$; 2) $A = B + 15$; 3) $B - A = 15$; 4) $B = A - 15$; 5) $A + B = 15$.",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'exceso' hace referencia a la cantidad que sobra al comparar una magnitud mayor contra una menor por medio de una sustracción.",
+    "explanation": "El exceso de '$A$' sobre '$B$' se plantea originalmente como la diferencia '$A - B = 15$' (opción 1). Despejando '$A$' se obtiene '$A = B + 15$' (opción 2) y despejando '$B$' se obtiene '$B = A - 15$' (opción 4).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LV",
+    "question": "Relaciona los problemas financieros con su modelo algebraico exacto, siendo '$x$' la cantidad de dinero invertido al $5\\%$ e '$y$' la invertida al $8\\%$: I. El interés total anual ganado es $\\$500$; II. Se invirtió $\\$500$ más en la tasa del $8\\%$ que en la del $5\\%$; III. El capital total invertido entre ambas cuentas es $\\$500$. Fórmulas: A. $x + y = 500$; B. $0.05x + 0.08y = 500$; C. $y - x = 500$.",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El interés financiero se calcula multiplicando el porcentaje convertido a decimal por el capital. Una ventaja o diferencia se representa restando las variables.",
+    "explanation": "El interés total suma los rendimientos decimales ('$0.05x + 0.08y = 500$'); la diferencia de capitales se plasma como '$y - x = 500$'; y la suma simple de los capitales equivale a '$x + y = 500$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LW",
+    "question": "Un rectángulo posee un área total de $120 \\text{ cm}^2$. Si se sabe que su base mide $7 \\text{ cm}$ más que su altura '$h$', ¿qué ecuación permite calcular directamente la altura de dicha figura geométrica?",
+    "image": null,
+    "options": [
+      { "text": "$h(h + 7) = 120$", "correct": true },
+      { "text": "$h + (h + 7) = 120$", "correct": false },
+      { "text": "$2h + 2(h + 7) = 120$", "correct": false },
+      { "text": "$h(7h) = 120$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El cálculo del área en un rectángulo se ejecuta multiplicando el valor de la base por la altura. Debes agrupar la base como un solo binomio.",
+    "explanation": "La altura está definida por '$h$' y la base excede en siete unidades, siendo '$h + 7$'. La fórmula del área demanda multiplicar ambos términos: '$h(h + 7) = 120$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LX",
+    "question": "¿Cuál es la estructura algebraica adecuada para interpretar el enunciado 'la raíz cuadrada del producto de tres números cualesquiera'?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{xyz}$", "correct": true },
+      { "text": "$\\sqrt{x} \\cdot \\sqrt{y} \\cdot \\sqrt{z}$", "correct": false },
+      { "text": "$\\sqrt{x + y + z}$", "correct": false },
+      { "text": "$3\\sqrt{xyz}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El contenido interno del radical (lo que se coloca debajo del símbolo de la raíz) debe ser la operación multiplicativa conjunta de las tres variables.",
+    "explanation": "El producto de tres literales se consolida escribiéndolas juntas ('$xyz$'). La frase 'la raíz cuadrada de' indica que todo este término multiplicativo funge como el radicando.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LY",
+    "question": "Completa el texto para resolver problemas de trabajo compartido: 'Si una bomba llena una cisterna en '$x$' horas, la fracción de volumen que aporta en una sola hora se representa como ______. Si una segunda bomba tarda '$y$' horas en llenarla por sí sola, trabajando ambas juntas en una hora logran llenar ______ del tanque.'",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x}$, $\\frac{1}{x} + \\frac{1}{y}$", "correct": true },
+      { "text": "$\\frac{x}{1}$, $x + y$", "correct": false },
+      { "text": "$x$, $xy$", "correct": false },
+      { "text": "$\\frac{1}{x}$, $xy + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En problemas de tiempos simultáneos se analiza el rendimiento calculando la cuota de trabajo por unidad de tiempo, la cual es siempre el recíproco del tiempo total.",
+    "explanation": "El rendimiento individual horario de cada máquina es el inverso de su tiempo total ('$\\frac{1}{x}$' y '$\\frac{1}{y}$'). Al operar juntas, sus rendimientos horarios simplemente se suman de manera fraccionaria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LZ",
+    "question": "Identifica los elementos que forman parte de expresiones algebraicas válidas y derivadas del Teorema de Pitágoras en un triángulo rectángulo de catetos '$a$' y '$b$', e hipotenusa '$c$': 1) $a^2 + b^2 = c^2$; 2) $c = a + b$; 3) $\\sqrt{a^2 + b^2} = c$; 4) $a^2 = c^2 - b^2$; 5) $a \\cdot b = c^2$.",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos y que puedes realizar despejes aplicando raíces cuadradas o restas.",
+    "explanation": "La expresión fundamental es '$a^2 + b^2 = c^2$' (1). Al despejar '$c$' aplicando raíz cuadrada se obtiene la (3). Al despejar el cateto '$a^2$', restamos el otro cateto generando la (4).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MA",
+    "question": "Relaciona cada enunciado analítico con su ecuación respectiva, asumiendo que un número es '$x$' y otro es '$y$': I. El cociente de la suma de dos números entre su producto equivale a cinco; II. La suma de los recíprocos de dos números es cinco; III. El producto de dos números sumado a su cociente es igual a cinco. Expresiones: A. $\\frac{1}{x} + \\frac{1}{y} = 5$; B. $xy + \\frac{x}{y} = 5$; C. $\\frac{x+y}{xy} = 5$.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las jerarquías de las palabras. El recíproco o inverso multiplicativo de cualquier número es una fracción con un uno en el numerador.",
+    "explanation": "El cociente de una suma ('$x+y$') entre su producto ('$xy$') empata con C. La suma de fracciones recíprocas ('$\\frac{1}{x} + \\frac{1}{y}$') es A. Un producto ('$xy$') más una división ('$\\frac{x}{y}$') corresponde a B.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MB",
+    "question": "Un tanque industrial se está llenando a una tasa de flujo constante. Si actualmente contiene de reserva $50 \\text{ litros}$ y se bombean al interior $5 \\text{ litros}$ extra cada minuto, ¿qué expresión lineal dicta el volumen de agua acumulado en el tanque después de '$m$' minutos?",
+    "image": null,
+    "options": [
+      { "text": "$50 + 5m$", "correct": true },
+      { "text": "$50m + 5$", "correct": false },
+      { "text": "$55m$", "correct": false },
+      { "text": "$50(m + 5)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuál es el valor inicial constante que no depende del tiempo y cuál es la variable de cambio que debe multiplicarse por los minutos transcurridos.",
+    "explanation": "El tanque posee un piso basal de $50 \\text{ litros}$ (término independiente). A este volumen original se le adicionan $5 \\text{ litros}$ condicionados por cada minuto '$m$' que pasa (término '$5m$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MC",
+    "question": "Si en un problema de lógica matemática el dígito de las unidades de una cifra bidimensional es '$u$' y el dígito posicional de las decenas es '$d$', ¿cuál es la correcta expresión algebraica para plantear el número nuevo que resulta al invertir sus dígitos originales?",
+    "image": null,
+    "options": [
+      { "text": "$10u + d$", "correct": true },
+      { "text": "$10d + u$", "correct": false },
+      { "text": "$u \\cdot d$", "correct": false },
+      { "text": "$u + 10d$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al invertir el orden de los dígitos, el carácter que antes habitaba las unidades pasa al lado izquierdo, por lo que su valor ponderado ahora debe ser afectado multiplicándolo por diez.",
+    "explanation": "El número ordinario es '$10d + u$'. Al permutar las posiciones, '$u$' adquiere el estatus de las decenas y de ahora en adelante vale diez veces su valor nominal, formando el término '$10u + d$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MD",
+    "question": "Un profesor del CEPREDIX diseña un problema estadístico: 'El promedio aritmético de tres números es exactamente $15$. Si se conoce que dos de esos números son '$a$' y '$b$', ¿cuál es la fórmula algebraica despejada que revela el valor del tercer número?'",
+    "image": null,
+    "options": [
+      { "text": "$45 - a - b$", "correct": true },
+      { "text": "$15 - a - b$", "correct": false },
+      { "text": "$\\frac{a + b}{3} - 15$", "correct": false },
+      { "text": "$3(a + b) - 15$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula genérica del promedio de tres datos dicta que la suma de los tres dividida entre tres te da el promedio. Si pasas el tres multiplicando, conocerás la suma total.",
+    "explanation": "La ecuación de origen es '$\\frac{a + b + c}{3} = 15$'. Al multiplicar por $3$, queda '$a + b + c = 45$'. Despejando el tercer número '$c$', restamos las otras dos variables obteniendo '$45 - a - b$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ME",
+    "question": "¿Qué polinomio resulta al traducir fielmente la oración matemática 'el cuadrado de un número menos el producto de ese mismo número multiplicado por su entero consecutivo'?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - x(x + 1)$", "correct": true },
+      { "text": "$(x - x(x+1))^2$", "correct": false },
+      { "text": "$x^2 - x(x - 1)$", "correct": false },
+      { "text": "$x^2 - x + 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La redacción separa dos términos grandes mediante la palabra 'menos'. El sucesor directo de un número entero '$x$' se denota como un binomio entre paréntesis.",
+    "explanation": "La primera parte establece el término '$x^2$'. Luego interviene una resta ('$-$') y posteriormente la multiplicación de la base inicial '$x$' por su inmediato posterior, que es '$(x + 1)$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MF",
+    "question": "En economía, si el costo total de fabricar '$x$' artículos informáticos está modulado por un gasto operativo fijo de $\\$1000$ más un importe variable de $\\$150$ por cada artículo, ¿cuál es la expresión algebraica racional que dicta el costo promedio por unidad producida?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1000 + 150x}{x}$", "correct": true },
+      { "text": "$1000 + 150x$", "correct": false },
+      { "text": "$\\frac{1000}{x} + 150x$", "correct": false },
+      { "text": "$1000x + 150$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El costo unitario o promedio se averigua configurando el costo total global como el numerador y dividiendo dicho bloque entero entre el número de unidades fabricadas.",
+    "explanation": "El costo acumulado general de la fábrica es '$1000 + 150x$'. Para prorratear ese dinero y obtener el valor representativo por pieza, toda la expresión debe dividirse entre el total de piezas '$x$'.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
