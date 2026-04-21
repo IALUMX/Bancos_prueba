@@ -5098,5 +5098,365 @@
     "explanation": "Al dividir se tiene: $3x - 1 = 2x + 1$. Agrupando valores se obtiene que $x = 2$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00KS",
+    "question": "Un estudiante del CEPREDIX necesita expresar algebraicamente el perímetro de un terreno rectangular donde el largo es el doble del ancho. Si el ancho se representa con la literal '$x$', ¿cuál es la expresión correcta para el perímetro?",
+    "image": null,
+    "options": [
+      { "text": "$6x$", "correct": true },
+      { "text": "$3x$", "correct": false },
+      { "text": "$2x^2$", "correct": false },
+      { "text": "$4x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El perímetro es la suma de los cuatro lados. Si el ancho es '$x$', el largo es '$2x$'.",
+    "explanation": "El perímetro se calcula sumando todos los lados: $x + 2x + x + 2x = 6x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KT",
+    "question": "¿Cómo se expresa algebraicamente 'el cuadrado de la suma de dos números cualesquiera'?",
+    "image": null,
+    "options": [
+      { "text": "$(x + y)^2$", "correct": true },
+      { "text": "$x^2 + y^2$", "correct": false },
+      { "text": "$2(x + y)$", "correct": false },
+      { "text": "$x^2 + y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero se indica la operación de adición entre paréntesis, y después se eleva todo el resultado a la segunda potencia.",
+    "explanation": "La suma de dos números se representa aglutinándolos entre paréntesis como $(x + y)$. Al elevar toda esta suma al cuadrado, obtenemos $(x + y)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KU",
+    "question": "Completa el enunciado: 'En el lenguaje algebraico, el ______ de un número se representa multiplicando dicho número por dos, mientras que su ______ se expresa dividiéndolo entre dos.'",
+    "image": null,
+    "options": [
+      { "text": "doble, mitad", "correct": true },
+      { "text": "triple, tercera parte", "correct": false },
+      { "text": "cuadrado, raíz", "correct": false },
+      { "text": "producto, cociente", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en el significado de la multiplicación por dos y la división entre dos.",
+    "explanation": "El concepto de 'doble' indica una multiplicación directa por $2$ (ejemplo $2x$), y la 'mitad' hace referencia a partir el entero mediante una división entre $2$ (ejemplo $x/2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KV",
+    "question": "Relaciona las frases en lenguaje común con su respectiva expresión algebraica: I. El triple de un número; II. La tercera parte de un número; III. Un número aumentado en tres. Expresiones: A. '$x + 3$', B. '$3x$', C. '$\\frac{x}{3}$'",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que 'aumentado' significa realizar una suma, y 'triple' representa una multiplicación.",
+    "explanation": "El triple de una cantidad implica multiplicarla por tres ($3x$), su tercera parte es dividirla ($x/3$), y aumentarla es sumarle unidades ($x + 3$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KW",
+    "question": "Selecciona las expresiones que representan ecuaciones de primer grado con una sola incógnita: 1) '$3x + 5 = 10$', 2) '$x^2 - 4 = 0$', 3) '$y = 2x + 1$', 4) '$7 - 2m = 4m$', 5) '$x + y = 5$'",
+    "image": null,
+    "options": [
+      { "text": "1, 4", "correct": true },
+      { "text": "2, 3", "correct": false },
+      { "text": "1, 5", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica aquellas expresiones algebraicas que posean una única letra cuyo exponente mayor sea la unidad.",
+    "explanation": "Las expresiones 1 y 4 contienen una sola variable ('$x$' y '$m$', respectivamente) elevada a la primera potencia. La número 2 es cuadrática, mientras que la 3 y la 5 son lineales pero con dos variables.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KX",
+    "question": "¿Cuál de las siguientes expresiones corresponde a 'la suma de tres números enteros consecutivos'?",
+    "image": null,
+    "options": [
+      { "text": "$x + (x+1) + (x+2)$", "correct": true },
+      { "text": "$x + y + z$", "correct": false },
+      { "text": "$3x$", "correct": false },
+      { "text": "$x + 2x + 3x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si un número entero se denomina con la letra '$x$', su número consecutivo inmediato se obtiene sumándole la unidad.",
+    "explanation": "Los números enteros consecutivos difieren exactamente en una unidad. Si el primero es '$x$', los dos siguientes obligatoriamente deben expresarse como '$x+1$' y '$x+2$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KY",
+    "question": "Un profesor del CEPREDIX pide calcular la edad de Ana si se sabe que 'el doble de su edad disminuido en $5$ años es igual a $25$ años'. ¿Qué ecuación modela esta situación considerando a '$x$' como la edad de Ana?",
+    "image": null,
+    "options": [
+      { "text": "$2x - 5 = 25$", "correct": true },
+      { "text": "$2(x - 5) = 25$", "correct": false },
+      { "text": "$\\frac{x}{2} - 5 = 25$", "correct": false },
+      { "text": "$2x + 5 = 25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La frase 'el doble' indica un producto por dos, y el término 'disminuido' señala una operación de sustracción o resta.",
+    "explanation": "El doble de la edad de Ana se representa como '$2x$'. Al restarle $5$ unidades, obtenemos el binomio '$2x - 5$', que según el problema equivale a $25$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00KZ",
+    "question": "Completa la siguiente definición: 'Una ______ es una igualdad matemática entre dos expresiones algebraicas, denominadas ______, las cuales están separadas por el signo igual.'",
+    "image": null,
+    "options": [
+      { "text": "ecuación, miembros", "correct": true },
+      { "text": "función, variables", "correct": false },
+      { "text": "inecuación, términos", "correct": false },
+      { "text": "identidad, coeficientes", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el concepto fundamental del álgebra utilizado para encontrar el valor de variables desconocidas mediante el establecimiento de una equivalencia.",
+    "explanation": "Una ecuación es una igualdad condicionada que está estructurada formalmente por dos grandes bloques matemáticos llamados miembros (izquierdo y derecho) separados por un signo '$=$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LA",
+    "question": "Relaciona cada operación descrita en lenguaje verbal con su representación algebraica correcta, usando '$a$' y '$b$' como números cualesquiera: I. El cociente de dos números; II. La diferencia de dos números; III. El producto de dos números. Expresiones: A. '$a - b$', B. '$ab$', C. '$\\frac{a}{b}$'",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Asocia el cociente con una fracción, la diferencia con una resta y el producto con la unión de las literales.",
+    "explanation": "En el glosario matemático, el cociente es sinónimo del resultado de la división ('$\\frac{a}{b}$'), la diferencia proviene de la resta ('$a - b$'), y el producto es la multiplicación que usualmente se escribe uniendo las variables ('$ab$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LB",
+    "question": "Identifica cuáles de las siguientes frases se traducen algebraicamente de manera exacta como '$2x + 5$': 1) El doble de un número aumentado en cinco; 2) Un número al cuadrado más cinco; 3) Dos veces un número más cinco; 4) El doble de la suma de un número y cinco; 5) Cinco unidades más que el doble de un número",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descarta aquellas opciones que requieran el uso forzoso de paréntesis para priorizar la suma o que involucren elevar a potencias mayores.",
+    "explanation": "Las descripciones 1, 3 y 5 se transcriben directamente como '$2x + 5$'. La número 2 indica una potencia ('$x^2 + 5$') y la número 4 describe una multiplicación que afecta a un binomio completo ('$2(x + 5)$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LC",
+    "question": "¿Qué expresión algebraica corresponde con precisión al enunciado 'la diferencia entre el cuadrado de un número y la mitad de otro'?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - \\frac{y}{2}$", "correct": true },
+      { "text": "$(x - y)^2$", "correct": false },
+      { "text": "$2x - \\frac{y}{2}$", "correct": false },
+      { "text": "$\\frac{x^2 - y}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'diferencia' establece la resta principal que separa dos elementos con características diferentes en cuanto a variables.",
+    "explanation": "El cuadrado del primer número se plantea como '$x^2$', la mitad del segundo número emplea una nueva variable '$y$' dividida entre dos ('$\\frac{y}{2}$'), y la diferencia señala la resta que los vincula: '$x^2 - \\frac{y}{2}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LD",
+    "question": "Si '$x$' representa el precio original de un videojuego en dólares, ¿cómo se expresa el monto exacto del descuento si este tiene una rebaja del $20\\%$?",
+    "image": null,
+    "options": [
+      { "text": "$0.20x$", "correct": true },
+      { "text": "$x - 20$", "correct": false },
+      { "text": "$1.20x$", "correct": false },
+      { "text": "$0.80x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El valor del descuento corresponde a una fracción o decimal aplicado directamente mediante multiplicación sobre el costo total original.",
+    "explanation": "El porcentaje del $20\\%$ equivale al valor decimal de $0.20$. Para calcular exclusivamente de cuánto dinero es ese descuento sobre un precio '$x$', se realiza el producto '$0.20x$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LE",
+    "question": "Completa el enunciado algebraico: 'En un monomio como $-5x^3$, el número $-5$ recibe el nombre de ______, la letra '$x$' es la ______ y el número superior $3$ se conoce como el ______.'",
+    "image": null,
+    "options": [
+      { "text": "coeficiente, literal, exponente", "correct": true },
+      { "text": "exponente, base, coeficiente", "correct": false },
+      { "text": "factor, variable, radicando", "correct": false },
+      { "text": "coeficiente, potencia, índice", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El dígito que multiplica a toda la expresión se sitúa comúnmente a la izquierda de las letras.",
+    "explanation": "Un término algebraico estándar consta de tres partes morfológicas básicas: el coeficiente numérico (que incluye el signo), la parte literal (variables) y el exponente (que señala el grado).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LF",
+    "question": "Relaciona de forma exacta cada expresión algebraica con su lectura correspondiente en lenguaje verbal común: I. '$x^3 - y^3$'; II. '$(x - y)^3$'; III. '$3(x - y)$'. Textos: A. El cubo de la diferencia de dos números, B. El triple de la diferencia de dos números, C. La diferencia de los cubos de dos números.",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica dónde están situados los exponentes. Un exponente por fuera del paréntesis influye sobre la operación que se realizó previamente en el interior.",
+    "explanation": "La expresión '$x^3 - y^3$' es la diferencia de cubos (C); la expresión '$(x - y)^3$' engloba primero la resta y la eleva (A); y '$3(x - y)$' denota el producto por tres (B).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LG",
+    "question": "¿Cuáles de los siguientes términos algebraicos se clasifican estrictamente como términos semejantes a '$4x^2y$'? 1) '$-7x^2y$', 2) '$4xy^2$', 3) '$\\frac{1}{2}x^2y$', 4) '$4x^2$', 5) '$y x^2$'",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para que dos elementos sean semejantes, su componente literal (las letras y sus respectivos exponentes unidos a cada una) debe ser idéntica sin importar el coeficiente.",
+    "explanation": "La parte literal clave es '$x^2y$'. Las opciones 1, 3 y 5 contienen exactamente estas letras con esos exponentes (nota que en la opción 5 el orden '$y x^2$' representa lo mismo por propiedad conmutativa).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LH",
+    "question": "Un diseñador del CEPREDIX está fabricando una caja con tapa donde la base tiene una longitud definida como '$x$' centímetros. Si el ancho de dicha base es $3 \\text{ cm}$ menor que el largo y la altura del contenedor es fija de $5 \\text{ cm}$, ¿cuál es la expresión matemática para obtener su volumen?",
+    "image": null,
+    "options": [
+      { "text": "$5x(x - 3)$", "correct": true },
+      { "text": "$x(x - 3)$", "correct": false },
+      { "text": "$5x + x - 3$", "correct": false },
+      { "text": "$5(2x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen de cualquier prisma rectangular obedece a la fórmula del producto del largo por el ancho por su altura.",
+    "explanation": "Las dimensiones son: Largo $= x$, Ancho $= x - 3$, Altura $= 5$. Al multiplicar las tres mediciones, el volumen resulta en $5 \\cdot x \\cdot (x - 3)$, que simplificado se escribe como $5x(x - 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LI",
+    "question": "Lee el siguiente postulado: 'La suma conjunta de las edades de Juan y María nos arroja $45$ años. Si a la edad de Juan se le asigna la variable '$x$', ¿cómo se representa algebraicamente la edad de María?'",
+    "image": null,
+    "options": [
+      { "text": "$45 - x$", "correct": true },
+      { "text": "$x - 45$", "correct": false },
+      { "text": "$45 + x$", "correct": false },
+      { "text": "$45x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si conoces el total que suman dos partes y dispones del valor de una de ellas, basta con realizar una resta para encontrar la porción faltante.",
+    "explanation": "Planteando la ecuación '$x + \\text{Edad de María} = 45$', despejamos el valor desconocido para obtener que la Edad de María equivale exactamente al total '$45$' restándole la variable '$x$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LJ",
+    "question": "Completa el siguiente texto instructivo: 'Para traducir la frase 'la semisuma de dos cantidades cualesquiera' al lenguaje algebraico, utilizando las literales '$x$' e '$y$', sumamos ambas variables y el resultado final se ______ entre ______.'",
+    "image": null,
+    "options": [
+      { "text": "divide, dos", "correct": true },
+      { "text": "multiplica, dos", "correct": false },
+      { "text": "eleva, dos", "correct": false },
+      { "text": "resta, dos", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'semi' en geometría y matemáticas tiene la connotación directa de fraccionar exactamente a la mitad un entero o suma completa.",
+    "explanation": "La operación de semisuma implica necesariamente primero conglomerar ambas cantidades ('$x+y$') y posteriormente dividir la expresión entera entre el denominador dos ('$\\frac{x+y}{2}$').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LK",
+    "question": "Relaciona cada uno de los enunciados de lenguaje común con el concepto numérico o literal que representa algebraicamente: I. El producto de un número distinto de cero por sí mismo; II. El cociente de un número entre sí mismo; III. La suma de un número y su inverso aditivo. Conceptos: A. Cero ('$0$'), B. Uno ('$1$'), C. El cuadrado del número ('$x^2$')",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La multiplicación de bases iguales da como resultado una potencia. La suma de un número y su reflejo negativo se anula.",
+    "explanation": "Multiplicar '$x \\cdot x$' nos genera la potencia '$x^2$' (C); dividir una cantidad entre ella misma ('$\\frac{x}{x}$') es igual a la unidad '$1$' (B); y sumar un número con su simétrico ('$x + (-x)$') siempre arroja el neutro aditivo '$0$' (A).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00LL",
+    "question": "Selecciona los enunciados verbales que requieren traducirse obligatoriamente como una desigualdad matemática (inecuación) y no como una ecuación simple: 1) Un número es por lo menos igual a diez; 2) La diferencia de dos números es cinco; 3) El costo de un servicio no supera los $\\$50$; 4) El triple de un número equivale a quince; 5) La edad límite del estudiante es menor de $12$ años",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca frases que impliquen que la respuesta admita más de un solo valor puntual, utilizando términos de restricción en lugar de palabras de equidad.",
+    "explanation": "Las frases 1, 3 y 5 utilizan un lenguaje limitativo que se expresa con símbolos como '$\\geq$', '$\\leq$' y '$<$', respectivamente. En cambio, los enunciados 2 y 4 contienen términos estáticos como 'es' y 'equivale', que son interpretaciones directas de la igualdad matemática.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
