@@ -5818,5 +5818,365 @@
     "explanation": "El costo acumulado general de la fábrica es '$1000 + 150x$'. Para prorratear ese dinero y obtener el valor representativo por pieza, toda la expresión debe dividirse entre el total de piezas '$x$'.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00MG",
+    "question": "¿Cuál es la expresión algebraica para 'el doble de un número más el cuadrado de otro'?",
+    "image": null,
+    "options": [
+      { "text": "$2x + y^2$", "correct": true },
+      { "text": "$(2x + y)^2$", "correct": false },
+      { "text": "$2(x + y^2)$", "correct": false },
+      { "text": "$x^2 + 2y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El doble implica multiplicar por $2$ un número, y el cuadrado es otro número elevado a la potencia $2$.",
+    "explanation": "Se tienen dos números distintos '$x$' e '$y$'. El doble del primero es '$2x$' y se le suma el cuadrado del segundo '$y^2$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MH",
+    "question": "La suma de dos números es $50$ y su diferencia es $12$. Si el mayor es '$x$', ¿cuál de las siguientes ecuaciones permite hallar el menor '$y$' en función de '$x$' utilizando el dato de la diferencia?",
+    "image": null,
+    "options": [
+      { "text": "$x - y = 12$", "correct": true },
+      { "text": "$y - x = 12$", "correct": false },
+      { "text": "$x + y = 12$", "correct": false },
+      { "text": "$12 - x = y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La diferencia es el resultado de restar el número menor al número mayor.",
+    "explanation": "Al ser '$x$' el número mayor e '$y$' el menor, su diferencia matemática directa se escribe como '$x - y = 12$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MI",
+    "question": "Si el largo de un rectángulo excede a su ancho en $4 \\text{ m}$ y su perímetro es de $36 \\text{ m}$, ¿qué ecuación representa esta situación si '$x$' es el ancho?",
+    "image": null,
+    "options": [
+      { "text": "$2x + 2(x + 4) = 36$", "correct": true },
+      { "text": "$x + (x + 4) = 36$", "correct": false },
+      { "text": "$x(x + 4) = 36$", "correct": false },
+      { "text": "$2x + (x + 4) = 36$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El perímetro es la suma de los cuatro lados: dos veces el ancho más dos veces el largo.",
+    "explanation": "El ancho es '$x$' y el largo es '$x+4$'. El perímetro se calcula multiplicando cada dimensión por dos y sumándolas: '$2x + 2(x + 4) = 36$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MJ",
+    "question": "Expresa en lenguaje algebraico: 'la tercera parte de la diferencia de dos números al cuadrado'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^2 - y^2}{3}$", "correct": true },
+      { "text": "$\\frac{(x - y)^2}{3}$", "correct": false },
+      { "text": "$\\frac{x - y}{3}^2$", "correct": false },
+      { "text": "$3(x^2 - y^2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero se calcula la diferencia de los cuadrados y finalmente se divide todo el resultado entre tres.",
+    "explanation": "La 'diferencia de dos números al cuadrado' se refiere a la resta de los cuadrados individuales '$x^2 - y^2$', y su 'tercera parte' implica dividir esto entre $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MK",
+    "question": "¿Cuál es la expresión para calcular el área de un triángulo si su altura es el doble de su base '$b$'?",
+    "image": null,
+    "options": [
+      { "text": "$b^2$", "correct": true },
+      { "text": "$\\frac{b^2}{2}$", "correct": false },
+      { "text": "$2b^2$", "correct": false },
+      { "text": "$\\frac{3b}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula del área es base por altura sobre dos. Sustituye la altura por '$2b$'.",
+    "explanation": "Área $= \\frac{b \\cdot h}{2}$. Si $h = 2b$, entonces Área $= \\frac{b(2b)}{2} = \\frac{2b^2}{2} = b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00ML",
+    "question": "El precio inicial de un artículo '$p$' aumenta un $15\\%$. ¿Cuál es la expresión algebraica del nuevo precio final?",
+    "image": null,
+    "options": [
+      { "text": "$1.15p$", "correct": true },
+      { "text": "$0.15p$", "correct": false },
+      { "text": "$p + 15$", "correct": false },
+      { "text": "$0.85p$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al precio base ($100\\%$) se le suma el incremento ($15\\%$), lo que equivale al $115\\%$ del precio original expresado en forma decimal.",
+    "explanation": "El aumento se representa como $0.15p$. El precio total resulta de sumar el costo base más el incremento: $p + 0.15p = 1.15p$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MM",
+    "question": "Traduce al lenguaje algebraico: 'el producto de un número y su recíproco es igual a la unidad'.",
+    "image": null,
+    "options": [
+      { "text": "$x(\\frac{1}{x}) = 1$", "correct": true },
+      { "text": "$x(-x) = 1$", "correct": false },
+      { "text": "$x + \\frac{1}{x} = 1$", "correct": false },
+      { "text": "$\\frac{x}{1} = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El recíproco o inverso multiplicativo de '$x$' es '$\\frac{1}{x}$'.",
+    "explanation": "Al multiplicar cualquier número distinto de cero '$x$' por su inverso multiplicativo o recíproco '$\\frac{1}{x}$', el resultado siempre equivale a la unidad '$1$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MN",
+    "question": "Un número excede a otro en $8$. Si la suma de ambos es $42$ y el menor es '$x$', ¿cuál es la ecuación que resuelve el problema?",
+    "image": null,
+    "options": [
+      { "text": "$x + (x + 8) = 42$", "correct": true },
+      { "text": "$x + (x - 8) = 42$", "correct": false },
+      { "text": "$x + 8 = 42$", "correct": false },
+      { "text": "$2x(x + 8) = 42$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si el menor es '$x$', el mayor debe expresarse sumándole las $8$ unidades de exceso.",
+    "explanation": "El menor es '$x$' y el mayor es '$x + 8$'. La suma conjunta de ambos se expresa matemáticamente como '$x + (x + 8) = 42$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MO",
+    "question": "La edad de Pedro hace $5$ años era la mitad de la edad que tendrá dentro de $10$ años. Si su edad actual es '$x$', ¿cuál es la ecuación correspondiente?",
+    "image": null,
+    "options": [
+      { "text": "$x - 5 = \\frac{x + 10}{2}$", "correct": true },
+      { "text": "$\\frac{x - 5}{2} = x + 10$", "correct": false },
+      { "text": "$x - 5 = 2(x + 10)$", "correct": false },
+      { "text": "$5 - x = \\frac{10 - x}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa '$x-5$' para la edad pasada y '$x+10$' para la futura, aplicando la mitad a la expresión de la edad futura.",
+    "explanation": "La edad pasada se escribe '$x - 5$' y la edad futura '$x + 10$'. La igualdad plantea que la pasada es la mitad de la futura: '$x - 5 = \\frac{x + 10}{2}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MP",
+    "question": "En un corral hay gallinas ('$g$') y conejos ('$c$'). Si al contar las patas de todos los animales el total es $60$, ¿qué ecuación lineal se forma?",
+    "image": null,
+    "options": [
+      { "text": "$2g + 4c = 60$", "correct": true },
+      { "text": "$g + c = 60$", "correct": false },
+      { "text": "$4g + 2c = 60$", "correct": false },
+      { "text": "$g \\cdot c = 60$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las gallinas aportan $2$ patas cada una y los conejos $4$ patas.",
+    "explanation": "El número total de patas de las gallinas es '$2g$' y el de los conejos es '$4c$'. La suma total de extremidades es '$2g + 4c = 60$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MQ",
+    "question": "Expresa algebraicamente: 'el cociente de la suma de los cuadrados de dos números entre el producto de los mismos'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^2 + y^2}{xy}$", "correct": true },
+      { "text": "$\\frac{(x + y)^2}{xy}$", "correct": false },
+      { "text": "$\\frac{xy}{x^2 + y^2}$", "correct": false },
+      { "text": "$\\frac{x^2 y^2}{x + y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En el numerador debe ir la suma de potencias al cuadrado y en el denominador la multiplicación de ambas literales.",
+    "explanation": "La 'suma de los cuadrados' es '$x^2 + y^2$'. 'El producto de los mismos' es '$xy$'. El cociente establece la división entre ambas partes: '$\\frac{x^2 + y^2}{xy}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MR",
+    "question": "Un grifo llena un tanque en '$a$' horas y un desagüe lo vacía en '$b$' horas ($b > a$). ¿Qué fracción del tanque se llena en una sola hora si ambos están abiertos?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{a} - \\frac{1}{b}$", "correct": true },
+      { "text": "$\\frac{1}{a} + \\frac{1}{b}$", "correct": false },
+      { "text": "$\\frac{a - b}{ab}$", "correct": false },
+      { "text": "$\\frac{1}{a - b}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula el rendimiento individual de llenado y réstale el rendimiento de vaciado.",
+    "explanation": "El grifo aporta '$\\frac{1}{a}$' del volumen por hora y el desagüe retira '$\\frac{1}{b}$' por hora. El resultado neto horario es la diferencia: '$\\frac{1}{a} - \\frac{1}{b}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MS",
+    "question": "Halla la expresión para: 'la diferencia entre el cubo de un número y el triple de su cuadrado'.",
+    "image": null,
+    "options": [
+      { "text": "$x^3 - 3x^2$", "correct": true },
+      { "text": "$(x - 3x)^2$", "correct": false },
+      { "text": "$3x^3 - x^2$", "correct": false },
+      { "text": "$x^3 - (3x)^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La diferencia es la resta principal. El minuendo es un cubo y el sustraendo es el cuadrado del número multiplicado por tres.",
+    "explanation": "El cubo del número es '$x^3$' y el triple de su cuadrado es '$3x^2$'. La diferencia que los separa se representa como '$x^3 - 3x^2$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MT",
+    "question": "Un tren viaja a velocidad '$v$'. Si el tiempo original para recorrer $200 \\text{ km}$ era '$t = \\frac{200}{v}$', ¿cómo se expresa el nuevo tiempo si su velocidad aumenta en $20 \\text{ km/h}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{200}{v + 20}$", "correct": true },
+      { "text": "$\\frac{200}{v} - 20$", "correct": false },
+      { "text": "$\\frac{220}{v}$", "correct": false },
+      { "text": "$\\frac{200}{v} + 20$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La distancia es constante. La nueva velocidad es la base del denominador para la fórmula del tiempo modificado.",
+    "explanation": "El tiempo se define como distancia sobre velocidad. Si la nueva velocidad es '$v + 20$', el nuevo tiempo requerido para la misma distancia es '$\\frac{200}{v + 20}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MU",
+    "question": "Expresa de forma desarrollada un número de dos cifras donde el dígito de las decenas ('$d$') es el triple del dígito de las unidades ('$u$').",
+    "image": null,
+    "options": [
+      { "text": "$10(3u) + u$", "correct": true },
+      { "text": "$3u + u$", "correct": false },
+      { "text": "$10u + 3u$", "correct": false },
+      { "text": "$3d + u$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El valor general de un número de dos cifras es '$10d + u$'. Sustituye '$d$' usando la relación dada.",
+    "explanation": "Como '$d = 3u$', sustituimos esta equivalencia en el formato de valor posicional '$10d + u$', obteniendo la expresión '$10(3u) + u$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MV",
+    "question": "Se mezcla café de $\\$120$ el kilo con café de $\\$80$ el kilo para formar una partida de $50 \\text{ kg}$. Si se utilizan '$x$' kilogramos del más caro, ¿cuál es la expresión para el costo total de la mezcla?",
+    "image": null,
+    "options": [
+      { "text": "$120x + 80(50 - x)$", "correct": true },
+      { "text": "$120x + 80x$", "correct": false },
+      { "text": "$120(50 - x) + 80x$", "correct": false },
+      { "text": "$200(50)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si hay '$x$' kilos del primer café, el resto para completar los $50$ kilos debe ser '$(50 - x)$'.",
+    "explanation": "El costo del café caro es '$120x$'. La cantidad del café barato es '$(50 - x)$', costando '$80(50 - x)$'. La suma de ambos importes conforma el costo total de la mezcla.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MW",
+    "question": "El numerador de una fracción excede a su denominador '$d$' en $3$ unidades. ¿Cuál es la representación algebraica de esta fracción?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d + 3}{d}$", "correct": true },
+      { "text": "$\\frac{d}{d + 3}$", "correct": false },
+      { "text": "$\\frac{d - 3}{d}$", "correct": false },
+      { "text": "$\\frac{3d}{d}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador está en la parte superior y se le deben sumar $3$ unidades en relación a la variable de abajo.",
+    "explanation": "Si el denominador es '$d$', el numerador al excederlo en tres adopta la forma '$d + 3$'. Formando la fracción obtenemos '$\\frac{d + 3}{d}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MX",
+    "question": "La suma de tres números impares consecutivos es $81$. Si el primer impar está definido como '$2x + 1$', ¿cuál es la ecuación para resolver el problema?",
+    "image": null,
+    "options": [
+      { "text": "$(2x + 1) + (2x + 3) + (2x + 5) = 81$", "correct": true },
+      { "text": "$(2x + 1) + (2x + 2) + (2x + 3) = 81$", "correct": false },
+      { "text": "$(x) + (x + 2) + (x + 4) = 81$", "correct": false },
+      { "text": "$3(2x + 1) = 81$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los números impares consecutivos avanzan de dos en dos, al igual que los pares.",
+    "explanation": "Si el primer impar es '$2x+1$', el siguiente debe ser '$2x+3$' y el tercero '$2x+5$'. La sumatoria igualada a $81$ es la ecuación correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MY",
+    "question": "La suma de los ángulos internos de un polígono de '$n$' lados es '$180^\\circ(n-2)$'. ¿Cómo se expresa la medida de un solo ángulo interno si el polígono es regular?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{180^\\circ(n-2)}{n}$", "correct": true },
+      { "text": "$\\frac{180^\\circ(n-2)}{2}$", "correct": false },
+      { "text": "$180^\\circ(n-2) - n$", "correct": false },
+      { "text": "$\\frac{180^\\circ n}{n-2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "En un polígono regular, todos sus ángulos internos miden lo mismo, por lo que el total debe dividirse equitativamente entre sus '$n$' lados.",
+    "explanation": "Para repartir equitativamente la suma total de los ángulos internos entre el número total de vértices o lados, se divide la fórmula completa entre '$n$'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00MZ",
+    "question": "¿Cuál es la expresión algebraica para 'la raíz cúbica de la suma de los cuadrados de dos números distintos'?",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt[3]{x^2 + y^2}$", "correct": true },
+      { "text": "$\\sqrt[3]{(x + y)^2}$", "correct": false },
+      { "text": "$\\sqrt[3]{x^2} + \\sqrt[3]{y^2}$", "correct": false },
+      { "text": "$(\\sqrt[3]{x + y})^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El radicando (lo que va dentro de la raíz) debe ser la sumatoria de dos literales elevadas al cuadrado de forma individual.",
+    "explanation": "La 'suma de los cuadrados' se denota como '$x^2 + y^2$'. Todo este binomio se encierra dentro de un radical con índice $3$, formando '$\\sqrt[3]{x^2 + y^2}$'.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
