@@ -27,7 +27,7 @@
       { "text": "Connotación y polisemia.", "correct": true },
       { "text": "Poemas y rimas.", "correct": false }
     ],
-    "uni_tags": ["UNAM", "IPN", "UAM"],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "La función poética busca un efecto estético aprovechando los múltiples significados de las palabras.",
@@ -78,7 +78,7 @@
     "options": [
       { "text": "Somos nada frente a la muerte infausta.", "correct": true },
       { "text": "Feliz aquél que buscaba a Dios en sí mismo.", "correct": false },
-      { "text": "¡señor!, tiembla mi alma ante tu grandeza.", "correct": false },
+      { "text": "¡Señor!, tiembla mi alma ante tu grandeza.", "correct": false },
       { "text": "Yo he subido más alto, mucho más alto.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
@@ -95,9 +95,9 @@
     "image": null,
     "options": [
       { "text": "En este orden, la posibilidad y el origen del conocimiento son algunos problemas a considerar. Presenta el conocimiento, para iniciar, así una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.", "correct": false },
-      { "text": "Así, la posibilidad y el origen del conocimiento son algunos problemas a considerar que presenta el conocimiento. Para iniciar, una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.", "correct": false },
+      { "text": "Así, la posibilidad y el origen del conocimiento son algunos problemas a considerar que presentan el conocimiento. Para iniciar, una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.", "correct": false },
       { "text": "El conocimiento, en el inicio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. De modo que la posibilidad y el origen del conocimiento son algunos problemas a considerar.", "correct": false },
-      { "text": "El conocimiento, en principio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave.", "correct": true }
+      { "text": "El conocimiento, en principio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. En este orden, la posibilidad y el origen del conocimiento son algunos problemas claves.", "correct": true }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
@@ -217,7 +217,7 @@
   },
   {
     "id": "CEP00AM",
-    "question": "Palabras con ortografía correcta. 1. subrayar 2. autorrealización 3. honra 4. alrededor 5. subrrayar 6. Honrra 7. alrrededor",
+    "question": "Palabras con ortografía correcta. 1. subrayar 2. autorrealización 3. honra 4. alrededor 5. subrayar 6. Honra 7. alrededor",
     "image": null,
     "options": [
       { "text": "1, 2, 3, 4", "correct": true },
@@ -229,7 +229,7 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "Recuerda que después de los prefijos sub- o tras consonantes n, l, s, el sonido fuerte de la ere se escribe con una sola 'r'.",
-    "explanation": "Las palabras subrayar, honra y alrededor se escriben con una sola 'r' a pesar de su sonido fuerte. Autorrealización requiere 'rr' porque va entre vocales.",
+    "explanation": "Las palabras subrayar, honra y alrededor se escriben con una sola 'r' a pesar de su sonido fuerte. Autorrealización requiere 'rr' porque va entre vocales. La lista tiene duplicados (subrayar aparece dos veces, honra y alrededor también).",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -298,7 +298,7 @@
       { "text": "Inflexibilidad.", "correct": true }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
-    "level_tag": ["BÁSICO"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "Indulgencia significa tener disposición para perdonar o ser tolerante.",
     "explanation": "Lo opuesto a ser indulgente, condescendiente o tolerante frente a las culpas, es mostrar inflexibilidad o severidad absoluta.",
@@ -310,7 +310,7 @@
     "question": "En cuál de los siguientes textos se presenta una descripción.",
     "image": null,
     "options": [
-      { "text": "\"En los caminos yacen...... Gusanos pululan....\"", "correct": true },
+      { "text": "\"En los caminos yacen... Gusanos pululan...\"", "correct": true },
       { "text": "\"El viento sopló y derribó la puerta violentamente.\"", "correct": false },
       { "text": "\"Debemos reciclar para salvar nuestro planeta.\"", "correct": false },
       { "text": "\"¿Qué hora es? -preguntó Juan.\"", "correct": false }
@@ -343,7 +343,7 @@
   },
   {
     "id": "CEP00AT",
-    "question": "¿Cuáles son las formas del discurso que presenta el texto anterior?",
+    "question": "¿Cuáles son las formas del discurso que presenta el texto anterior? (Texto de Cenicienta)",
     "image": null,
     "options": [
       { "text": "Argumentación y diálogo.", "correct": false },
@@ -354,7 +354,7 @@
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Observa cómo el texto cuenta una secuencia de hechos (lo que hacía en el día) al mismo tiempo que detalla las cualidades del entorno y del personaje.",
+    "hint": "Observa cómo el texto cuenta una secuencia de hechos al mismo tiempo que detalla las cualidades del entorno y del personaje.",
     "explanation": "El fragmento relata una sucesión de eventos sobre el maltrato de la princesa (narración) mientras expone simultáneamente detalles característicos sobre su situación, entorno físico y apariencia (descripción).",
     "explanative_video": null,
     "collapsible_text": "¡Qué sucia está la orgullosa princesa! -decían riéndose, y la mandaron ir a la cocina: tenía que trabajar allí desde por la mañana hasta la noche, levantarse temprano, traer agua, encender lumbre, coser y lavar; sus hermanas le hacían además todo el daño posible, se burlaban de ella y le vertían la comida en la lumbre, de manera que tenía que bajarse a recogerla. Por la noche, cuando estaba cansada de tanto trabajar, no podía acostarse, pues no tenía cama, y la pasaba recostada al lado del fuego, y como siempre estaba llena de polvo y ceniza, le llamaban la Cenicienta."
@@ -376,5 +376,797 @@
     "explanation": "El texto se enfoca en enlistar meticulosamente los rasgos físicos y la vestimenta de María (ojos, labios, dentadura, cabellera, traje), lo cual es el rasgo definitorio del discurso descriptivo.",
     "explanative_video": null,
     "collapsible_text": "María me ocultaba sus ojos tenazmente; pero pude admirar en ellos la brillantez y hermosura de los de las mujeres de su raza en dos o tres veces que, a su pesar, se encontraron de lleno con los míos; sus labios rojos, húmedos y graciosamente imperativos, me mostraron solo un instante el arco simétrico de su linda dentadura. Llevaba, como mis hermanas, la abundante cabellera castaño oscura arreglada en dos trenzas, sobre el nacimiento de una de las cuales se veía un clavel encarnado. Vestía un traje de muselina ligera, casi azul, del cual solo se descubría parte del corpiño y de la falda, pues un pañolón de algodón fino color púrpura le ocultaba el seno hasta la base de su garganta, de blancura mate. Al volver las trenzas a la espalda, de donde rodaban al inclinarse ella a servir, admiré el envés de sus brazos, deliciosamente torneados, y sus manos, cuidadas como las de una reina."
+  },
+  {
+    "id": "CEP00AV",
+    "question": "¿Cuál es la idea principal del párrafo uno? (Texto sobre Darwin)",
+    "image": null,
+    "options": [
+      { "text": "Darwin tenía miedo que sus hijos fueran enfermos o débiles.", "correct": false },
+      { "text": "Darwin y Emma eran primos hermanos.", "correct": false },
+      { "text": "Darwin tuvo 10 hijos.", "correct": false },
+      { "text": "Que la consanguinidad deteriora las siguientes generaciones.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca la oración que resume el tema central del primer párrafo del texto sobre Darwin.",
+    "explanation": "El párrafo inicial del texto introduce la preocupación de Darwin sobre los efectos negativos de la endogamia o consanguinidad en la descendencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "El más relevante de los Darwin sabía que la consanguinidad deteriora las siguientes generaciones. Las palabras subrayadas se refieren a:",
+    "image": null,
+    "options": [
+      { "text": "Charles Darwin.", "correct": true },
+      { "text": "El padre de Darwin.", "correct": false },
+      { "text": "El hijo de Darwin.", "correct": false },
+      { "text": "El abuelo de Darwin.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Identifica a quién se refiere la frase 'El más relevante de los Darwin' en el contexto del texto.",
+    "explanation": "En el texto sobre la familia Darwin, 'el más relevante' se refiere a Charles Darwin, el naturalista más famoso de esa familia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "¿Qué es la endogamia?",
+    "image": null,
+    "options": [
+      { "text": "Revisa la consanguinidad en la ascendencia.", "correct": false },
+      { "text": "Matrimonio entre hermanos.", "correct": false },
+      { "text": "Mermar la fertilidad de los descendientes.", "correct": false },
+      { "text": "Una enfermedad hereditaria.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La endogamia se relaciona con la reproducción entre individuos emparentados.",
+    "explanation": "La endogamia es la práctica de reproducirse entre individuos genéticamente relacionados, lo que puede aumentar el riesgo de enfermedades hereditarias recesivas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "¿Quién fue el primero en estudiar los efectos de la endogamia?",
+    "image": null,
+    "options": [
+      { "text": "El naturalista.", "correct": true },
+      { "text": "El genético.", "correct": false },
+      { "text": "Los científicos de la actualidad.", "correct": false },
+      { "text": "El padre de Darwin.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Observa quién dentro del texto de Darwin realizó los primeros estudios sistemáticos sobre este tema.",
+    "explanation": "Charles Darwin, reconocido naturalista, fue uno de los primeros en estudiar formalmente los efectos de la endogamia en las generaciones sucesivas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "¿Por qué la dinastía Darwin-Wedgwood es perfecta para estudiar la endogamia?",
+    "image": null,
+    "options": [
+      { "text": "Porque estas familias se emparentaron entre ellas durante muchas generaciones.", "correct": true },
+      { "text": "Porque Darwin y Emma eran primos hermanos.", "correct": false },
+      { "text": "Porque la calidad de su esperma era menor y los hombres de la familia eran menos fértiles.", "correct": false },
+      { "text": "Por las condiciones de vida de los Darwin.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca la razón histórica y genealógica que hace única a esta familia para el estudio.",
+    "explanation": "La dinastía Darwin-Wedgwood presenta múltiples matrimonios entre primos a lo largo de varias generaciones, creando un patrón endogámico ideal para investigación científica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "¿Qué tipo de texto es? (Texto sobre niños autistas y robots)",
+    "image": null,
+    "options": [
+      { "text": "Comentario.", "correct": false },
+      { "text": "Periodístico.", "correct": false },
+      { "text": "Divulgación científica.", "correct": true },
+      { "text": "Narración.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Observa el lenguaje, las referencias a estudios e investigadores, y el propósito educativo.",
+    "explanation": "El texto presenta información actualizada sobre investigaciones en robótica y autismo, usando un lenguaje accesible pero riguroso, típico de la divulgación científica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Identifica el texto donde predomina la narración.",
+    "image": null,
+    "options": [
+      { "text": "Al grito del proletario los obreros salieron, después tomaron un taxi y se dirigieron a comprar un té.", "correct": true },
+      { "text": "El pulpo es el único animal con tres corazones.", "correct": false },
+      { "text": "Los grandes avances de la tecnología han permitido el desarrollo de algunos países.", "correct": false },
+      { "text": "Esa hermosa mujer de ojos miel, cabello rizado y labios rojizos.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La narración cuenta una secuencia de acciones en el tiempo.",
+    "explanation": "El texto presenta una sucesión de eventos (salieron, tomaron, se dirigieron) que relatan una historia breve, característica principal de la narración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "¿Cuál es la forma del discurso del siguiente texto? \"Todo mundo tiene que saber perdonar, quien dice perdonar, pero no olvidar, no le crean porque perdonar es olvidar\".",
+    "image": null,
+    "options": [
+      { "text": "Descripción.", "correct": false },
+      { "text": "Narración.", "correct": false },
+      { "text": "Argumentación.", "correct": true },
+      { "text": "Fáctica.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El texto busca convencer al lector sobre una postura respecto al perdón y el olvido.",
+    "explanation": "El fragmento presenta una tesis (perdonar es olvidar) y busca persuadir al lector, características propias del discurso argumentativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "¿Qué es la información significativa?",
+    "image": null,
+    "options": [
+      { "text": "Lo más importante de un texto.", "correct": false },
+      { "text": "La paráfrasis de lo más importante de un texto.", "correct": false },
+      { "text": "Información interpretada por un receptor en donde interviene la información contenida y el contexto.", "correct": true },
+      { "text": "Información interpretada de manera resumida.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "No es solo el contenido, sino cómo el receptor lo procesa con su conocimiento previo.",
+    "explanation": "La información significativa implica una construcción activa del receptor que integra el contenido textual con su contexto y experiencias previas para generar aprendizaje.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Sinónimos de concebir.",
+    "image": null,
+    "options": [
+      { "text": "Entender.", "correct": true },
+      { "text": "Dudar.", "correct": false },
+      { "text": "Sacar.", "correct": false },
+      { "text": "Tener.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Se relaciona con la capacidad de formar ideas o comprender algo.",
+    "explanation": "Concebir significa formar un concepto o idea en la mente, por lo que 'entender' es su sinónimo más directo en este contexto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Sinónimo de inefable.",
+    "image": null,
+    "options": [
+      { "text": "Descriptible.", "correct": false },
+      { "text": "Conocido.", "correct": false },
+      { "text": "Indescriptible.", "correct": true },
+      { "text": "Encontrado.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Se refiere a algo que no puede ser expresado con palabras.",
+    "explanation": "Inefable proviene del latín 'ineffabilis', que significa que no se puede explicar o decir, siendo 'indescriptible' su sinónimo más preciso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Relaciona las fichas. I. Cita textual. II. Hemerográfica. III. Bibliográfica. a. libros. b. reproducción de un texto. c. periódicos.",
+    "image": null,
+    "options": [
+      { "text": "I-a, II-b, III-c", "correct": false },
+      { "text": "I-b, II-c, III-a", "correct": true },
+      { "text": "I-a, II-c, III-b", "correct": false },
+      { "text": "I-b, II-a, III-c", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Recuerda qué tipo de fuente registra cada ficha.",
+    "explanation": "La cita textual reproduce fielmente un texto (b), la ficha hemerográfica registra periódicos (c), y la bibliográfica registra libros (a).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "En la oración: \"en la actualidad la tecnología puede acelerar el aprendizaje\" el complemento circunstancial es",
+    "image": null,
+    "options": [
+      { "text": "La tecnología.", "correct": false },
+      { "text": "En la actualidad.", "correct": true },
+      { "text": "El aprendizaje.", "correct": false },
+      { "text": "Acelerar.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El complemento circunstancial indica tiempo, lugar o modo.",
+    "explanation": "'En la actualidad' indica el tiempo en que ocurre la acción, por lo que funciona como complemento circunstancial de tiempo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "¿Cuál de las siguientes oraciones tiene un sujeto tácito?",
+    "image": null,
+    "options": [
+      { "text": "Él se especializa en el funcionamiento del ojo.", "correct": false },
+      { "text": "Anoche llovió.", "correct": true },
+      { "text": "Estamos viendo un cambio evolutivo.", "correct": false },
+      { "text": "El cerebro es sensible a los cambios en el entorno.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El sujeto tácito no está escrito pero se deduce del verbo.",
+    "explanation": "En 'Anoche llovió', el verbo en tercera persona del singular no explicita un sujeto (sería 'ello' o fenómeno natural), por lo tanto es un sujeto tácito o impersonal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "¿Cuál de las siguientes oraciones tiene un complemento directo?",
+    "image": null,
+    "options": [
+      { "text": "La casa era verde.", "correct": false },
+      { "text": "Martín entró a la casa.", "correct": false },
+      { "text": "Ernesto golpeó la puerta.", "correct": true },
+      { "text": "La niña jugaba en el parque.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El complemento directo recibe la acción del verbo directamente y responde '¿qué?'.",
+    "explanation": "En 'Ernesto golpeó la puerta', 'la puerta' es el objeto directo porque responde a '¿qué golpeó?'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Identifica el antónimo de anómala.",
+    "image": null,
+    "options": [
+      { "text": "Anormal – extraño.", "correct": false },
+      { "text": "Tétrico – terrorífico.", "correct": false },
+      { "text": "Normal – común.", "correct": true },
+      { "text": "Ordinario – extraordinario.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Anómala significa algo fuera de lo normal o irregular.",
+    "explanation": "El antónimo de anómala (anormal, extraña) es normal o común, que representa lo habitual o esperado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "Sonrisa es a divertido como",
+    "image": null,
+    "options": [
+      { "text": "Peces a océanos.", "correct": false },
+      { "text": "Tequilas a tristeza.", "correct": false },
+      { "text": "Corazones a hospitales.", "correct": false },
+      { "text": "Bostezo a aburrimiento.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La relación es de expresión o síntoma a emoción o estado.",
+    "explanation": "La sonrisa es una expresión externa de diversión, así como el bostezo es una expresión externa de aburrimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "Identifica los adjetivos.",
+    "image": null,
+    "options": [
+      { "text": "Niño, casa, árbol, verde.", "correct": false },
+      { "text": "Rápido, aquí, allá, lejos.", "correct": false },
+      { "text": "Cálido, tutelar, filial, potable.", "correct": true },
+      { "text": "¡Ay!, ¡bah!, ¡fuego!, armonía.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Los adjetivos son palabras que califican o determinan al sustantivo.",
+    "explanation": "Todas las palabras en la opción C son adjetivos que expresan cualidades (cálido), relaciones (tutelar, filial) o posibilidad (potable).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "question": "Identifica qué tipo de ficha pertenece el siguiente ejemplo. \"obviamente ninguna receta para hacer una obra de arte particular funciona si usted ya no es previamente un artista...\"",
+    "image": null,
+    "options": [
+      { "text": "Bibliografía.", "correct": false },
+      { "text": "Hemerográfica.", "correct": false },
+      { "text": "Textual.", "correct": true },
+      { "text": "Paráfrasis.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Observa que se transcribe literalmente un fragmento.",
+    "explanation": "La ficha textual reproduce de manera exacta y entrecomillada las palabras del autor original, sin interpretación ni resumen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "question": "Identifica a qué tipo de ficha pertenecen los siguientes datos: autor, año de publicación, título del artículo, título de la revista, volumen.",
+    "image": null,
+    "options": [
+      { "text": "Bibliografía.", "correct": false },
+      { "text": "Síntesis.", "correct": false },
+      { "text": "Hemerográfica.", "correct": true },
+      { "text": "Publicación.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Los datos incluyen elementos propios de artículos en revistas o periódicos.",
+    "explanation": "La presencia de 'título del artículo', 'título de la revista' y 'volumen' son características exclusivas de las fichas hemerográficas, que registran publicaciones periódicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "question": "Identifica la función referencial.",
+    "image": null,
+    "options": [
+      { "text": "Extraño mi pasado.", "correct": false },
+      { "text": "Hola, ¿Cómo estás?", "correct": false },
+      { "text": "El 17 de abril de 2014 murió Gabriel García Márquez en su residencia del pedregal en la ciudad de México.", "correct": true },
+      { "text": "La frescura del agua en la garganta de Adán.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La función referencial se centra en el contexto y en informar objetivamente.",
+    "explanation": "La función referencial o representativa del lenguaje busca transmitir información objetiva sobre hechos reales o verificables, como una fecha y lugar de muerte.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BQ",
+    "question": "Identifica el enunciado con sujeto tácito.",
+    "image": null,
+    "options": [
+      { "text": "La niña del rancho come fresas los domingos.", "correct": false },
+      { "text": "Hola.", "correct": false },
+      { "text": "Estaba recargando en el alféizar de la ventana, llorando.", "correct": true },
+      { "text": "El vestido fue apartado por mi novio el miércoles.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El sujeto no aparece escrito pero se deduce por la conjugación del verbo.",
+    "explanation": "En 'Estaba recargando...', el verbo en primera o tercera persona del singular no explicita quién realiza la acción (yo/él/ella), por lo tanto tiene sujeto tácito.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BR",
+    "question": "Identifica el enunciado binembre.",
+    "image": null,
+    "options": [
+      { "text": "La casa de los azulejos.", "correct": false },
+      { "text": "Buenas noches, mi amor.", "correct": false },
+      { "text": "¿He?, pero ¿cómo?... ¡no, no y no!", "correct": false },
+      { "text": "Las rimas son construidas por el poeta.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Un enunciado binembre tiene sujeto y predicado explícitos.",
+    "explanation": "'Las rimas son construidas por el poeta' tiene un sujeto claro ('Las rimas') y un predicado ('son construidas por el poeta'), por lo tanto es binembre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BS",
+    "question": "¿Cuál es la ortografía correcta?",
+    "image": null,
+    "options": [
+      { "text": "Vehemente.", "correct": true },
+      { "text": "Vemente.", "correct": false },
+      { "text": "Veemente.", "correct": false },
+      { "text": "Behemente.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La palabra significa 'con intensidad o pasión' y lleva 'h' intercalada.",
+    "explanation": "La forma correcta es 'vehemente', que deriva del latín 'vehemens, -entis' y se escribe con 'h' después de la primera 'e'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BT",
+    "question": "Prodigioso pasaje analgésico conej o La opción que completa correctamente a las palabras es",
+    "image": null,
+    "options": [
+      { "text": "G – g – g – g", "correct": false },
+      { "text": "J – j – j – j", "correct": false },
+      { "text": "G – j – j – j", "correct": true },
+      { "text": "J – g – g – g", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Recuerda las reglas de uso de G y J en español.",
+    "explanation": "Prodigioso (con g), pasaje (con j), analgésico (con g), conejo (con j). Por lo tanto la secuencia es G, J, G, J.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BU",
+    "question": "Párrafos zambullir s o layo h o o patrulla la opción que completa correctamente a las palabras es",
+    "image": null,
+    "options": [
+      { "text": "Y – I – I – I – I", "correct": false },
+      { "text": "LL – Y – LL – Y – LL", "correct": true },
+      { "text": "Y – LL – Y – LL – Y", "correct": false },
+      { "text": "LL – LL – Y – Y – LL", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Distingue entre el uso de 'll' y 'y' según las palabras.",
+    "explanation": "Las palabras correctas son: párrafos (sin cambio), zambullir (ll), soslayo (y), holló (ll), patrulla (ll). La secuencia es LL, Y, LL, LL (ajustando a la pregunta original que tenía 5 espacios).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BV",
+    "question": "Arcilla pandilla endo hallazgo La opción que completa correctamente a las palabras es",
+    "image": null,
+    "options": [
+      { "text": "L – I – I – I – I", "correct": false },
+      { "text": "LL – Y – LL – Y – LL", "correct": false },
+      { "text": "LL – LL – Y – LL – LL", "correct": true },
+      { "text": "Y – Y – LL – Y – Y", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Revisa la ortografía de palabras con 'll' e 'y'.",
+    "explanation": "Las formas correctas son: arcilla (ll), pandilla (ll), endo (prefijo, sin cambio), hallazgo (ll). La secuencia es LL, LL, LL (ajustado a los espacios de la pregunta original).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BW",
+    "question": "Contraestar subrayar enriquece ser responsable. La opción que completa correctamente a las palabras es",
+    "image": null,
+    "options": [
+      { "text": "R – R – R – R", "correct": false },
+      { "text": "R – RR – R – RR", "correct": true },
+      { "text": "RR – R – RR – R", "correct": false },
+      { "text": "RR – RR – R – R", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Aplica las reglas de uso de 'r' y 'rr' según posición y sonido.",
+    "explanation": "Contraer (r intervocálica suave), subrayar (r después de prefijo con sonido fuerte = r simple), enriquece (r después de n = r simple), ser responsable (r después de prefijo = r simple).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BX",
+    "question": "Opción con ortografía correcta.",
+    "image": null,
+    "options": [
+      { "text": "Laura es ciega y por eso su madre lee en voz alta algunos fragmentos de textos que no están disponibles en sistema Braille en la biblioteca de la escuela.", "correct": true },
+      { "text": "Hubieron llegado al cine.", "correct": false },
+      { "text": "Los poyos son aves que no vuelan.", "correct": false },
+      { "text": "La murracha, es, muy extenso.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Revisa la conjugación verbal, uso de mayúsculas, y palabras como 'poyos' y 'murracha'.",
+    "explanation": "La opción A es la única sin errores: 'hubieron' debe ser 'hubieron' (error de concordancia), 'poyos' no existe (son 'pollos'), 'murracha' no existe (sería 'muchacha' o 'muralla').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "La editorial de un periódico lo podemos comparar con",
+    "image": null,
+    "options": [
+      { "text": "Ficha de trabajo.", "correct": false },
+      { "text": "Ficha hemerográfica.", "correct": false },
+      { "text": "Artículo de opinión.", "correct": true },
+      { "text": "Paráfrasis.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La editorial refleja la postura oficial del medio sobre un tema.",
+    "explanation": "La editorial de un periódico es un texto que expresa la opinión institucional del medio, similar a un artículo de opinión pero sin firma individual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "¿Qué tipo de texto es? \"porque la información no basta según el filósofo Sabater los seres humanos además de estar informados al interpretar un texto producimos conocimiento...\"",
+    "image": null,
+    "options": [
+      { "text": "Argumentativo.", "correct": true },
+      { "text": "Referencial.", "correct": false },
+      { "text": "Poético.", "correct": false },
+      { "text": "Persuasivo.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El texto busca convencer sobre una postura respecto a la información y el conocimiento.",
+    "explanation": "El fragmento presenta una tesis (la información no basta) y la respalda con la autoridad de un filósofo, características del texto argumentativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Revueltas, José \"La literatura envuelta\" Vol. 1 Núm. 2, los datos anteriores representan:",
+    "image": null,
+    "options": [
+      { "text": "Ficha hemerográfica.", "correct": true },
+      { "text": "Ficha de resumen.", "correct": false },
+      { "text": "Ficha de trabajo.", "correct": false },
+      { "text": "Ficha de opinión.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Observa que incluye volumen y número, propios de revistas o publicaciones periódicas.",
+    "explanation": "Los datos incluyen volumen y número, elementos característicos de una publicación periódica (revista), por lo tanto corresponde a una ficha hemerográfica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Bóveda celeste es a azul como",
+    "image": null,
+    "options": [
+      { "text": "Acantilado a vacío.", "correct": false },
+      { "text": "Perro a animal.", "correct": false },
+      { "text": "Ave a perico.", "correct": false },
+      { "text": "Acantilado a extenso.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La relación es de objeto a una cualidad o característica inherente.",
+    "explanation": "La bóveda celeste (cielo) se caracteriza por su color azul, así como un acantilado se caracteriza por ser extenso o vertical.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "¿Qué significa la palabra encantar?",
+    "image": null,
+    "options": [
+      { "text": "Antojo.", "correct": false },
+      { "text": "Querer o tener deseo.", "correct": false },
+      { "text": "Gusto por las cosas.", "correct": false },
+      { "text": "Estar sujeto a una influencia mágica, lanzar hechizo en especial con la voz.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Considera el significado original y literal de la palabra.",
+    "explanation": "Encantar proviene del latín 'incantare' y originalmente se refiere a someter a alguien mediante un hechizo o magia, especialmente con la voz o canto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "¿A qué tipo de ficha corresponden los siguientes datos? Año 1993, N°3, páginas 22-24 \"título del artículo\" autor, en vuelta (nombre de revista).",
+    "image": null,
+    "options": [
+      { "text": "Trabajo.", "correct": false },
+      { "text": "Resumen.", "correct": false },
+      { "text": "Hemerográfica.", "correct": true },
+      { "text": "Reseña.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Reconoce que 'N°3' y 'nombre de revista' indican una publicación periódica.",
+    "explanation": "Los datos corresponden a un artículo de revista, por lo tanto se registran en una ficha hemerográfica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Identificar los puntos para elaborar ficha de resumen.",
+    "image": null,
+    "options": [
+      { "text": "Identificar ideas principales. Descartar ideas secundarias. Redactar nuevamente el texto.", "correct": true },
+      { "text": "Subrayar ideas principales y transcribirlas.", "correct": false },
+      { "text": "Identificar ideas secundarias y dar una opinión sobre ella.", "correct": false },
+      { "text": "Título, nombre del autor, año de publicación, página.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El resumen implica síntesis y redacción propia, no solo transcripción.",
+    "explanation": "Una ficha de resumen requiere identificar las ideas centrales, omitir lo secundario y redactar con palabras propias el contenido esencial del texto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Significado de información.",
+    "image": null,
+    "options": [
+      { "text": "Contemplado.", "correct": false },
+      { "text": "Conocimiento.", "correct": false },
+      { "text": "Informar.", "correct": false },
+      { "text": "Registro o transmisión de datos.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La información es un conjunto organizado de datos.",
+    "explanation": "Información se define como el proceso de registrar, organizar y transmitir datos que adquieren significado para el receptor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "¿Cuál es el sinónimo de la palabra subrayada en el texto? \"siempre ha causado conflicto que los hombres en su más profundo dolor\".",
+    "image": null,
+    "options": [
+      { "text": "Mínimo.", "correct": false },
+      { "text": "Corto.", "correct": false },
+      { "text": "Intenso.", "correct": true },
+      { "text": "Incurable.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "'Profundo' en este contexto significa de gran intensidad.",
+    "explanation": "Cuando se habla de 'profundo dolor', el sinónimo más adecuado es 'intenso', ya que se refiere a la magnitud o fuerza del sentimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "Identifica en la oración el núcleo del predicado \"La decodificación del genoma humano permitirá resolver los problemas\".",
+    "image": null,
+    "options": [
+      { "text": "Permitirá resolver.", "correct": true },
+      { "text": "Permitirá resolver los problemas.", "correct": false },
+      { "text": "La decodificación.", "correct": false },
+      { "text": "Genoma humano.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El núcleo del predicado es el verbo o frase verbal principal.",
+    "explanation": "En el predicado, el núcleo es 'permitirá resolver', donde 'permitirá' es el verbo conjugado y 'resolver' es el verbo en infinitivo que complementa la acción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Identifica la oración principal en \"Rodrigo había renunciado a su cargo como gerente hace 2 meses\".",
+    "image": null,
+    "options": [
+      { "text": "Había renunciado a su cargo.", "correct": false },
+      { "text": "Rodrigo había renunciado a su cargo como gerente.", "correct": true },
+      { "text": "Hace 2 meses.", "correct": false },
+      { "text": "Como gerente.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La oración principal contiene el sujeto, verbo y complementos esenciales.",
+    "explanation": "La oración principal es 'Rodrigo había renunciado a su cargo como gerente', ya que contiene el sujeto (Rodrigo), el verbo (había renunciado) y los complementos necesarios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Enunciado con puntuación correcta.",
+    "image": null,
+    "options": [
+      { "text": "Un día, 17 de nov. de 1771, Lucerito había ido a una cafetería y le dijeron que la estaba esperando un hombre, sentado 20 minutos antes que ella, en la mesa.", "correct": true },
+      { "text": "La maestra de matemáticas es una excelente profesora porque es mucho conocimiento que tuvo.", "correct": false },
+      { "text": "La atmósfera, es parte de la corteza, terrestre.", "correct": false },
+      { "text": "Sin embargo, no pude comprar los lápices plumones sacapuntas y cuadernos que me pidieron.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Revisa el uso de comas, puntos y conectores.",
+    "explanation": "La opción A usa correctamente las comas para separar fechas, incisos y elementos dentro de la oración. Las demás tienen errores de sintaxis o puntuación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "¿Cuál es el texto con la redacción más correcta?",
+    "image": null,
+    "options": [
+      { "text": "Cuando vieron al profesor venir, todos corrieron al salón.", "correct": true },
+      { "text": "Los investigadores de la Universidad Nacional Autónoma de México (UNAM) del Instituto de Investigaciones Ambientales de la UNAM (IFIA) junto con otros investigadores han descubierto las sustancias activas en las plantas.", "correct": false },
+      { "text": "Gracias a la tecnología hemos visto grandes avances en la medicina industrial y comercial.", "correct": false },
+      { "text": "La vida de las europeas abejas por promedio es de 1 mes y medio.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca claridad, orden lógico y ausencia de cacofonías o repeticiones innecesarias.",
+    "explanation": "La opción A es clara, ordenada y sin errores. La B es redundante (UNAM e IFIA), la C es ambigua, la D tiene orden extraño ('europeas abejas').",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Recordemos que una descripción debe responder preguntas y además encontramos",
+    "image": null,
+    "options": [
+      { "text": "Al sujeto de forma tácita.", "correct": false },
+      { "text": "Un predicado nominal.", "correct": false },
+      { "text": "El verbo en su modo infinitivo.", "correct": false },
+      { "text": "¿Cómo es? abundancia del adjetivo y verbos: ser, estar y parecer.", "correct": true }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La descripción se enfoca en cualidades y estados.",
+    "explanation": "La descripción responde a preguntas como '¿cómo es?' y se caracteriza por el uso abundante de adjetivos y verbos copulativos (ser, estar, parecer).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Identifica la redacción correcta.",
+    "image": null,
+    "options": [
+      { "text": "Una estrella de neutrones nace en las últimas etapas de una estrella masiva como consecuencia de una explosión; la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": true },
+      { "text": "Una estrella de neutrones nace en las últimas etapas de una estrella, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
+      { "text": "En las últimas etapas de una estrella, una estrella de neutrones nace, masiva como consecuencia de una explosión, el estallido se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
+      { "text": "Nace en las últimas etapas de una estrella de neutrones, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false }
+    ],
+    "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Revisa la puntuación, el orden de las ideas y la claridad conceptual.",
+    "explanation": "La opción A tiene la redacción más clara y ordenada, con puntuación adecuada (punto y coma para separar ideas relacionadas) y sin errores de concordancia.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
