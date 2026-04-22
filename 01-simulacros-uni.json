@@ -97,7 +97,7 @@
       { "text": "En este orden, la posibilidad y el origen del conocimiento son algunos problemas a considerar. Presenta el conocimiento, para iniciar, así una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.", "correct": false },
       { "text": "Así, la posibilidad y el origen del conocimiento son algunos problemas a considerar que presentan el conocimiento. Para iniciar, una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.", "correct": false },
       { "text": "El conocimiento, en el inicio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. De modo que la posibilidad y el origen del conocimiento son algunos problemas a considerar.", "correct": false },
-      { "text": "El conocimiento, en principio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. En este orden, la posibilidad y el origen del conocimiento son algunos problemas claves.", "correct": true }
+      { "text": "El conocimiento, en principio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave.", "correct": true }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
@@ -217,7 +217,7 @@
   },
   {
     "id": "CEP00AM",
-    "question": "Palabras con ortografía correcta. 1. subrayar 2. autorrealización 3. honra 4. alrededor 5. subrayar 6. Honra 7. alrededor",
+    "question": "Palabras con ortografía correcta.\n1. subrayar\n2. autorrealización\n3. honra\n4. alrededor\n5. subrrayar\n6. Honrra\n7. alrrededor",
     "image": null,
     "options": [
       { "text": "1, 2, 3, 4", "correct": true },
@@ -229,7 +229,7 @@
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "Recuerda que después de los prefijos sub- o tras consonantes n, l, s, el sonido fuerte de la ere se escribe con una sola 'r'.",
-    "explanation": "Las palabras subrayar, honra y alrededor se escriben con una sola 'r' a pesar de su sonido fuerte. Autorrealización requiere 'rr' porque va entre vocales. La lista tiene duplicados (subrayar aparece dos veces, honra y alrededor también).",
+    "explanation": "Las palabras subrayar, honra y alrededor se escriben con una sola 'r' a pesar de su sonido fuerte. Autorrealización requiere 'rr' porque va entre vocales. Las opciones 5, 6 y 7 presentan errores ortográficos intencionales.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -382,22 +382,22 @@
     "question": "¿Cuál es la idea principal del párrafo uno? (Texto sobre Darwin)",
     "image": null,
     "options": [
-      { "text": "Darwin tenía miedo que sus hijos fueran enfermos o débiles.", "correct": false },
+      { "text": "Darwin tenía miedo que sus hijos fueran enfermizos o débiles.", "correct": true },
       { "text": "Darwin y Emma eran primos hermanos.", "correct": false },
       { "text": "Darwin tuvo 10 hijos.", "correct": false },
-      { "text": "Que la consanguinidad deteriora las siguientes generaciones.", "correct": true }
+      { "text": "Que la consanguinidad deteriora las siguientes generaciones.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Busca la oración que resume el tema central del primer párrafo del texto sobre Darwin.",
-    "explanation": "El párrafo inicial del texto introduce la preocupación de Darwin sobre los efectos negativos de la endogamia o consanguinidad en la descendencia.",
+    "hint": "Presta atención a la preocupación inicial del científico sobre su descendencia.",
+    "explanation": "En el primer párrafo del texto original se expone la inquietud directa de Darwin respecto a la salud de sus hijos, temiendo que la consanguinidad con su esposa afectara su descendencia.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AW",
-    "question": "El más relevante de los Darwin sabía que la consanguinidad deteriora las siguientes generaciones. Las palabras subrayadas se refieren a:",
+    "question": "<u>El más relevante de los Darwin</u> sabía que la consanguinidad deteriora las siguientes generaciones.\nLas palabras subrayadas se refieren a:",
     "image": null,
     "options": [
       { "text": "Charles Darwin.", "correct": true },
@@ -418,16 +418,16 @@
     "question": "¿Qué es la endogamia?",
     "image": null,
     "options": [
-      { "text": "Revisa la consanguinidad en la ascendencia.", "correct": false },
+      { "text": "Revisa la consanguinidad en la ascendencia.", "correct": true },
       { "text": "Matrimonio entre hermanos.", "correct": false },
       { "text": "Mermar la fertilidad de los descendientes.", "correct": false },
-      { "text": "Una enfermedad hereditaria.", "correct": true }
+      { "text": "Una enfermedad hereditaria.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "La endogamia se relaciona con la reproducción entre individuos emparentados.",
-    "explanation": "La endogamia es la práctica de reproducirse entre individuos genéticamente relacionados, lo que puede aumentar el riesgo de enfermedades hereditarias recesivas.",
+    "hint": "De acuerdo a la lectura, considera el aspecto que se analiza al estudiar este fenómeno en las familias.",
+    "explanation": "En el contexto de las investigaciones mencionadas en el texto sobre la familia Darwin, el estudio de la endogamia se centra en revisar los grados de consanguinidad en la ascendencia familiar.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -451,7 +451,7 @@
   },
   {
     "id": "CEP00AZ",
-    "question": "¿Por qué la dinastía Darwin-Wedgwood es perfecta para estudiar la endogamia?",
+    "question": "¿Por qué la dinastía Darwin-wedgwood es perfecta para estudiar la endogamia?",
     "image": null,
     "options": [
       { "text": "Porque estas familias se emparentaron entre ellas durante muchas generaciones.", "correct": true },
@@ -505,7 +505,7 @@
   },
   {
     "id": "CEP00BC",
-    "question": "¿Cuál es la forma del discurso del siguiente texto? \"Todo mundo tiene que saber perdonar, quien dice perdonar, pero no olvidar, no le crean porque perdonar es olvidar\".",
+    "question": "¿Cuál es la forma del discurso del siguiente texto?\n\"Todo mundo tiene que saber perdonar, quien dice perdonar, pero no olvidar, no le crean porque perdonar es olvidar\".",
     "image": null,
     "options": [
       { "text": "Descripción.", "correct": false },
@@ -577,7 +577,7 @@
   },
   {
     "id": "CEP00BG",
-    "question": "Relaciona las fichas. I. Cita textual. II. Hemerográfica. III. Bibliográfica. a. libros. b. reproducción de un texto. c. periódicos.",
+    "question": "Relaciona las fichas.\nI. Cita textual.\nII. Hemerográfica.\nIII. Bibliográfica.\n\na. libros.\nb. reproducción de un texto.\nc. periódicos.",
     "image": null,
     "options": [
       { "text": "I-a, II-b, III-c", "correct": false },
@@ -617,15 +617,15 @@
     "image": null,
     "options": [
       { "text": "Él se especializa en el funcionamiento del ojo.", "correct": false },
-      { "text": "Anoche llovió.", "correct": true },
-      { "text": "Estamos viendo un cambio evolutivo.", "correct": false },
+      { "text": "Anoche llovió.", "correct": false },
+      { "text": "Estamos viendo un cambio evolutivo.", "correct": true },
       { "text": "El cerebro es sensible a los cambios en el entorno.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "El sujeto tácito no está escrito pero se deduce del verbo.",
-    "explanation": "En 'Anoche llovió', el verbo en tercera persona del singular no explicita un sujeto (sería 'ello' o fenómeno natural), por lo tanto es un sujeto tácito o impersonal.",
+    "hint": "Busca la oración donde el sujeto (nosotros) no esté escrito pero se sobreentienda por la conjugación.",
+    "explanation": "En la oración 'Estamos viendo un cambio evolutivo', el sujeto 'Nosotros' no está explícito en la frase, pero se deduce claramente por la terminación del verbo 'estamos'. ('Anoche llovió' es una oración impersonal sin sujeto).",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -649,7 +649,7 @@
   },
   {
     "id": "CEP00BK",
-    "question": "Identifica el antónimo de anómala.",
+    "question": "Identifica el antónimo de anómalo.",
     "image": null,
     "options": [
       { "text": "Anormal – extraño.", "correct": false },
@@ -660,8 +660,8 @@
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Anómala significa algo fuera de lo normal o irregular.",
-    "explanation": "El antónimo de anómala (anormal, extraña) es normal o común, que representa lo habitual o esperado.",
+    "hint": "Anómalo significa algo fuera de lo normal o irregular.",
+    "explanation": "El antónimo de anómalo (anormal, extraña) es normal o común, que representa lo habitual o esperado.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -703,7 +703,7 @@
   },
   {
     "id": "CEP00BN",
-    "question": "Identifica qué tipo de ficha pertenece el siguiente ejemplo. \"obviamente ninguna receta para hacer una obra de arte particular funciona si usted ya no es previamente un artista...\"",
+    "question": "Identifica que tipo de ficha pertenece el siguiente ejemplo.\n\"obviamente ninguna receta para hacer una obra de arte particular funciona si usted ya no es previamente un artista, por lo menos debe tener contacto con gente que ya no es artista. Más que la obra de arte, lo importante es que lo reconozca como artista\"",
     "image": null,
     "options": [
       { "text": "Bibliografía.", "correct": false },
@@ -721,10 +721,10 @@
   },
   {
     "id": "CEP00BO",
-    "question": "Identifica a qué tipo de ficha pertenecen los siguientes datos: autor, año de publicación, título del artículo, título de la revista, volumen.",
+    "question": "Identifica a qué tipo de ficha pertenecen los siguientes datos:\nautor, año de publicación, título del artículo, título de la revista, volumen.",
     "image": null,
     "options": [
-      { "text": "Bibliografía.", "correct": false },
+      { "text": "Bibliográfica.", "correct": false },
       { "text": "Síntesis.", "correct": false },
       { "text": "Hemerográfica.", "correct": true },
       { "text": "Publicación.", "correct": false }
@@ -762,20 +762,20 @@
     "options": [
       { "text": "La niña del rancho come fresas los domingos.", "correct": false },
       { "text": "Hola.", "correct": false },
-      { "text": "Estaba recargando en el alféizar de la ventana, llorando.", "correct": true },
+      { "text": "Estaba recargado en el alféizar de la ventana, llorando.", "correct": true },
       { "text": "El vestido fue apartado por mi novio el miércoles.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "El sujeto no aparece escrito pero se deduce por la conjugación del verbo.",
-    "explanation": "En 'Estaba recargando...', el verbo en primera o tercera persona del singular no explicita quién realiza la acción (yo/él/ella), por lo tanto tiene sujeto tácito.",
+    "explanation": "En 'Estaba recargado...', el verbo en primera o tercera persona del singular no explicita quién realiza la acción (yo/él/ella), por lo tanto tiene sujeto tácito.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BR",
-    "question": "Identifica el enunciado binembre.",
+    "question": "Identifica el enunciado bimembre.",
     "image": null,
     "options": [
       { "text": "La casa de los azulejos.", "correct": false },
@@ -786,8 +786,8 @@
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Un enunciado binembre tiene sujeto y predicado explícitos.",
-    "explanation": "'Las rimas son construidas por el poeta' tiene un sujeto claro ('Las rimas') y un predicado ('son construidas por el poeta'), por lo tanto es binembre.",
+    "hint": "Un enunciado bimembre tiene sujeto y predicado explícitos.",
+    "explanation": "'Las rimas son construidas por el poeta' tiene un sujeto claro ('Las rimas') y un predicado ('son construidas por el poeta'), por lo tanto es bimembre.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -811,13 +811,13 @@
   },
   {
     "id": "CEP00BT",
-    "question": "Prodigioso pasaje analgésico conej o La opción que completa correctamente a las palabras es",
+    "question": "Prodi_ioso pasa_e anal_ésico cone_o\nLa opción que completa correctamente a las palabras es",
     "image": null,
     "options": [
       { "text": "G – g – g – g", "correct": false },
-      { "text": "J – j – j – j", "correct": false },
-      { "text": "G – j – j – j", "correct": true },
-      { "text": "J – g – g – g", "correct": false }
+      { "text": "J – g – j – g", "correct": false },
+      { "text": "G – j – g – j", "correct": true },
+      { "text": "J – j – g – g", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
@@ -829,55 +829,55 @@
   },
   {
     "id": "CEP00BU",
-    "question": "Párrafos zambullir s o layo h o o patrulla la opción que completa correctamente a las palabras es",
+    "question": "Pararra_os zambu_ir sosla_o ho_o patru_a\nLa opción que completa correctamente a las palabras es",
     "image": null,
     "options": [
-      { "text": "Y – I – I – I – I", "correct": false },
-      { "text": "LL – Y – LL – Y – LL", "correct": true },
-      { "text": "Y – LL – Y – LL – Y", "correct": false },
-      { "text": "LL – LL – Y – Y – LL", "correct": false }
+      { "text": "Y – ll – y – y – ll", "correct": true },
+      { "text": "Y – y – y – ll – ll", "correct": false },
+      { "text": "Ll – ll – y – ll – ll", "correct": false },
+      { "text": "Y – y – y – ll – y", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Distingue entre el uso de 'll' y 'y' según las palabras.",
-    "explanation": "Las palabras correctas son: párrafos (sin cambio), zambullir (ll), soslayo (y), holló (ll), patrulla (ll). La secuencia es LL, Y, LL, LL (ajustando a la pregunta original que tenía 5 espacios).",
+    "hint": "Distingue entre el uso de 'll' y 'y' según las reglas de cada palabra.",
+    "explanation": "Las palabras correctas son: pararrayos (y), zambullir (ll), soslayo (y), hoyo (y), patrulla (ll). La secuencia correcta es Y, ll, y, y, ll.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BV",
-    "question": "Arcilla pandilla endo hallazgo La opción que completa correctamente a las palabras es",
+    "question": "Arci_a pandi_a _endo ha_azgo\nLa opción que completa correctamente a las palabras es",
     "image": null,
     "options": [
-      { "text": "L – I – I – I – I", "correct": false },
-      { "text": "LL – Y – LL – Y – LL", "correct": false },
-      { "text": "LL – LL – Y – LL – LL", "correct": true },
-      { "text": "Y – Y – LL – Y – Y", "correct": false }
+      { "text": "Ll – ll – ll – y", "correct": false },
+      { "text": "Y – ll – ll – ll", "correct": false },
+      { "text": "Ll – ll – y – ll", "correct": true },
+      { "text": "Y – y – y – y", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Revisa la ortografía de palabras con 'll' e 'y'.",
-    "explanation": "Las formas correctas son: arcilla (ll), pandilla (ll), endo (prefijo, sin cambio), hallazgo (ll). La secuencia es LL, LL, LL (ajustado a los espacios de la pregunta original).",
+    "hint": "Revisa la ortografía del gerundio de 'ir' y las palabras terminadas en '-illa' y '-azgo'.",
+    "explanation": "Las formas correctas son: arcilla (ll), pandilla (ll), yendo (gerundio de ir, con y), hallazgo (ll). La secuencia es Ll, ll, y, ll.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BW",
-    "question": "Contraestar subrayar enriquece ser responsable. La opción que completa correctamente a las palabras es",
+    "question": "Contra_estar sub_ayar en_iquece_se i_esponsable.\nLa opción que completa correctamente a las palabras es",
     "image": null,
     "options": [
-      { "text": "R – R – R – R", "correct": false },
-      { "text": "R – RR – R – RR", "correct": true },
-      { "text": "RR – R – RR – R", "correct": false },
-      { "text": "RR – RR – R – R", "correct": false }
+      { "text": "rr – r – r – r – rr", "correct": true },
+      { "text": "r – rr – rr – r – rr", "correct": false },
+      { "text": "rr – rr – r – r – r", "correct": false },
+      { "text": "r – r – r – rr – r", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Aplica las reglas de uso de 'r' y 'rr' según posición y sonido.",
-    "explanation": "Contraer (r intervocálica suave), subrayar (r después de prefijo con sonido fuerte = r simple), enriquece (r después de n = r simple), ser responsable (r después de prefijo = r simple).",
+    "hint": "Aplica las reglas de uso de 'r' y 'rr' según su posición (intervocálica o tras consonante/prefijo).",
+    "explanation": "Contrarrestar (rr intervocálica suave para prefijo), subrayar (r después de prefijo con sonido fuerte = r simple), enriquecerse (r después de n y r suave al final), irresponsable (rr intervocálica).",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -889,13 +889,13 @@
       { "text": "Laura es ciega y por eso su madre lee en voz alta algunos fragmentos de textos que no están disponibles en sistema Braille en la biblioteca de la escuela.", "correct": true },
       { "text": "Hubieron llegado al cine.", "correct": false },
       { "text": "Los poyos son aves que no vuelan.", "correct": false },
-      { "text": "La murracha, es, muy extenso.", "correct": false }
+      { "text": "La muraya china, es, muy extenso.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Revisa la conjugación verbal, uso de mayúsculas, y palabras como 'poyos' y 'murracha'.",
-    "explanation": "La opción A es la única sin errores: 'hubieron' debe ser 'hubieron' (error de concordancia), 'poyos' no existe (son 'pollos'), 'murracha' no existe (sería 'muchacha' o 'muralla').",
+    "hint": "Revisa la conjugación verbal, uso de mayúsculas y escritura correcta de palabras como 'pollos' y 'muralla'.",
+    "explanation": "La opción A es la única sin errores. 'Hubieron llegado' es incorrecto (hubían/habían llegado), 'poyos' no existe en este contexto (son 'pollos'), 'muraya' es incorrecto (es 'muralla') y carece de concordancia de género ('extensa').",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -1012,7 +1012,7 @@
     "question": "Identificar los puntos para elaborar ficha de resumen.",
     "image": null,
     "options": [
-      { "text": "Identificar ideas principales. Descartar ideas secundarias. Redactar nuevamente el texto.", "correct": true },
+      { "text": "Identificar ideas principales, Descartar ideas secundarias, Redactar nuevamente el texto.", "correct": true },
       { "text": "Subrayar ideas principales y transcribirlas.", "correct": false },
       { "text": "Identificar ideas secundarias y dar una opinión sobre ella.", "correct": false },
       { "text": "Título, nombre del autor, año de publicación, página.", "correct": false }
@@ -1033,7 +1033,7 @@
       { "text": "Contemplado.", "correct": false },
       { "text": "Conocimiento.", "correct": false },
       { "text": "Informar.", "correct": false },
-      { "text": "Registro o transmisión de datos.", "correct": true }
+      { "text": "Registro o transmisión", "correct": true }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["BÁSICO"],
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "CEP00CI",
-    "question": "Identifica la oración principal en \"Rodrigo había renunciado a su cargo como gerente hace 2 meses\".",
+    "question": "Identifica la oración principal en \"Rodrigo había renunciado a su cargo, como gerente hace 2 meses\".",
     "image": null,
     "options": [
       { "text": "Había renunciado a su cargo.", "correct": false },
@@ -1120,16 +1120,16 @@
     "question": "¿Cuál es el texto con la redacción más correcta?",
     "image": null,
     "options": [
-      { "text": "Cuando vieron al profesor venir, todos corrieron al salón.", "correct": true },
-      { "text": "Los investigadores de la Universidad Nacional Autónoma de México (UNAM) del Instituto de Investigaciones Ambientales de la UNAM (IFIA) junto con otros investigadores han descubierto las sustancias activas en las plantas.", "correct": false },
-      { "text": "Gracias a la tecnología hemos visto grandes avances en la medicina industrial y comercial.", "correct": false },
+      { "text": "Cuando vieron al profesor venir, todos corrieron al salón.", "correct": false },
+      { "text": "Los investigadores de la Universidad Nacional Autónoma de México (UNAM) del instituto de Investigaciones ambiental de la UNAM (IFA) junto con otros investigadores han descubierto las sustancias activas en las plantas.", "correct": true },
+      { "text": "Gracias a la tecnología hemos visto grandes avances en la medicina industria y comercio.", "correct": false },
       { "text": "La vida de las europeas abejas por promedio es de 1 mes y medio.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["ESPAÑOL"],
-    "hint": "Busca claridad, orden lógico y ausencia de cacofonías o repeticiones innecesarias.",
-    "explanation": "La opción A es clara, ordenada y sin errores. La B es redundante (UNAM e IFIA), la C es ambigua, la D tiene orden extraño ('europeas abejas').",
+    "hint": "Revisa la opción que integra la información institucional y del descubrimiento, tal como se resalta en el banco original.",
+    "explanation": "Según el criterio del banco de preguntas original, esta opción es considerada la correcta por detallar las instituciones involucradas (UNAM, IFA) y el hallazgo de los investigadores (aunque pueda parecer redundante, es la respuesta oficial esperada).",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -1156,16 +1156,16 @@
     "question": "Identifica la redacción correcta.",
     "image": null,
     "options": [
-      { "text": "Una estrella de neutrones nace en las últimas etapas de una estrella masiva como consecuencia de una explosión; la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": true },
-      { "text": "Una estrella de neutrones nace en las últimas etapas de una estrella, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
-      { "text": "En las últimas etapas de una estrella, una estrella de neutrones nace, masiva como consecuencia de una explosión, el estallido se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
-      { "text": "Nace en las últimas etapas de una estrella de neutrones, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false }
+      { "text": "Una estrella de neutrones nace en las últimas etapas de una estrella, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": true },
+      { "text": "Una estrella de neutrones, aparece en las últimas etapas de una estrella masiva como consecuencia de una explosión no obstante se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
+      { "text": "En las últimas etapas de una estrella, Una estrella de neutrones nace, masiva como consecuencia de una explosión, el estallido se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false },
+      { "text": "Nace en las últimas etapas Una estrella de neutrones, masiva como consecuencia de una explosión, la implosión se da después de que se lleva a cabo la fotodesintegración de hierro en el núcleo de la estrella y los electrones se unen a los protones, neutrones y neutrinos.", "correct": false }
     ],
     "uni_tags": ["UNAM", "IPN", "UAM", "EXANI", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["ESPAÑOL"],
     "hint": "Revisa la puntuación, el orden de las ideas y la claridad conceptual.",
-    "explanation": "La opción A tiene la redacción más clara y ordenada, con puntuación adecuada (punto y coma para separar ideas relacionadas) y sin errores de concordancia.",
+    "explanation": "La opción A tiene la redacción más clara y ordenada (acorde a las respuestas originales del examen), manteniendo la secuencia causal de eventos astronómicos con mejor puntuación.",
     "explanative_video": null,
     "collapsible_text": null
   }
