@@ -898,5 +898,1805 @@
     "explanation": "El símbolo expuesto demanda de la parte inferior pasar irremediablemente a ser denominador en pos del saldo en positivo innegociable de la susodicha letra.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP12QW",
+    "question": "¿Qué nombre recibe la expresión algebraica que tiene más de un término?",
+    "image": null,
+    "options": [
+      { "text": "Polinomio", "correct": true },
+      { "text": "Monomio", "correct": false },
+      { "text": "Ecuación", "correct": false },
+      { "text": "Constante", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El prefijo griego utilizado significa 'muchos' o 'varios'.",
+    "explanation": "Un polinomio es una expresión matemática constituida por la suma algebraica o resta de dos o más términos independientes entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QX",
+    "question": "¿Cuál es el grado absoluto del monomio $5x^3y^2$?",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El grado absoluto de un monomio con múltiples variables se calcula sumando todos los exponentes de su parte literal.",
+    "explanation": "Para encontrar el grado absoluto, simplemente sumamos los exponentes de $x$ e $y$, es decir, $3 + 2 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QY",
+    "question": "¿Cómo se denomina el mayor exponente de la variable en un polinomio de una sola variable?",
+    "image": null,
+    "options": [
+      { "text": "Grado del polinomio", "correct": true },
+      { "text": "Coeficiente principal", "correct": false },
+      { "text": "Término independiente", "correct": false },
+      { "text": "Valor absoluto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta característica dictamina el número máximo de soluciones o raíces reales y complejas que podrá tener si se iguala a cero.",
+    "explanation": "El grado de un polinomio de una sola literal queda establecido por la potencia más alta a la que se encuentra elevada su variable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QZ",
+    "question": "¿Qué tipo de factorización corresponde a la expresión $a^2 + 2a + 1$?",
+    "image": null,
+    "options": [
+      { "text": "Trinomio cuadrado perfecto", "correct": true },
+      { "text": "Diferencia de cuadrados", "correct": false },
+      { "text": "Factor común", "correct": false },
+      { "text": "Suma de cubos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Las raíces cuadradas de los extremos multiplicadas por dos te arrojan exactamente el término central del polinomio.",
+    "explanation": "Al extraer la raíz del primer término ($a$) y la del tercero ($1$), su doble producto algebraico cumple con ser $2a$, por lo tanto, la expresión es un trinomio cuadrado perfecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RA",
+    "question": "¿Cuál es la fórmula del trinomio cuadrado perfecto proveniente del desarrollo de una resta al cuadrado?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 - 2ab + b^2 = (a - b)^2$", "correct": true },
+      { "text": "$a^2 + 2ab + b^2 = (a + b)^2$", "correct": false },
+      { "text": "$a^2 - b^2 = (a - b)(a + b)$", "correct": false },
+      { "text": "$a^2 - 2ab - b^2 = (a - b)^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta fórmula es reconocible gracias a que su término de doble producto intermedio lleva invariablemente un signo negativo.",
+    "explanation": "La factorización se expresa compactando en un binomio el cual integra la raíz del primer elemento, un signo de resta, y la raíz del tercer elemento; todo elevado al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RB",
+    "question": "¿Qué nombre recibe formalmente la expresión $(a + b + c)^2$ antes de ser sometida al proceso de desarrollo?",
+    "image": null,
+    "options": [
+      { "text": "Cuadrado de un trinomio", "correct": true },
+      { "text": "Cubo de un binomio", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false },
+      { "text": "Producto de factores comunes", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es la elevación a la segunda potencia de un conjunto algebraico compuesto rigurosamente por tres partes diferentes.",
+    "explanation": "Al poseer tres elementos algebraicos dentro del paréntesis elevados a la potencia de dos, el término más adecuado para referirse a la expresión es cuadrado de un trinomio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RC",
+    "question": "¿Cuál es la fórmula matemática desarrollada que corresponde correctamente al cuadrado de un trinomio $(a + b + c)^2$?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 + b^2 + c^2 + 2ab + 2ac + 2bc$", "correct": true },
+      { "text": "$a^2 + b^2 + c^2$", "correct": false },
+      { "text": "$a^2 + b^2 + c^2 + ab + ac + bc$", "correct": false },
+      { "text": "$a^2 + b^2 + c^2 + 3abc$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Involucra la suma de cada término elevado al cuadrado de manera individual, más todos los dobles productos posibles combinando las variables dos a dos.",
+    "explanation": "El desarrollo consta de elevar al cuadrado cada componente por separado y posteriormente sumarle el doble producto de las mezclas algebraicas entre las literales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RD",
+    "question": "¿Cuál es el resultado plenamente simplificado de la primera identidad algebraica de Legendre $(a + b)^2 - (a - b)^2$?",
+    "image": null,
+    "options": [
+      { "text": "$4ab$", "correct": true },
+      { "text": "$2a^2 + 2b^2$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$a^2 - b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Al expandir ambos binomios cuadrados y aplicar el signo de resta central, los términos cuadrados se cancelan mutuamente dejando los productos combinados.",
+    "explanation": "Desarrollando los términos obtendrás $(a^2 + 2ab + b^2) - (a^2 - 2ab + b^2)$, lo que al hacer las sustracciones te dejará únicamente la suma $2ab + 2ab = 4ab$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RE",
+    "question": "¿Qué tipo de producto notable genera la expresión particular $x^2 + (a + b)x + ab$ al factorizarse correctamete?",
+    "image": null,
+    "options": [
+      { "text": "Producto de binomios con término común", "correct": true },
+      { "text": "Cuadrado de un binomio", "correct": false },
+      { "text": "Binomios conjugados", "correct": false },
+      { "text": "Producto de binomios con términos semejantes", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que el término central se nutre de la suma de dos constantes, mientras que el extremo es su producto, formando un esquema asimétrico.",
+    "explanation": "Esta estructura proviene invariablemente de multiplicar expresiones como $(x + a)(x + b)$, en donde se aprecia una variable unificadora y dos números heterogéneos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RF",
+    "question": "¿Cómo se denomina de manera técnica al coeficiente numérico del término que posee el mayor exponente en un polinomio?",
+    "image": null,
+    "options": [
+      { "text": "Coeficiente principal", "correct": true },
+      { "text": "Coeficiente independiente", "correct": false },
+      { "text": "Coeficiente absoluto", "correct": false },
+      { "text": "Coeficiente literal líder", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se trata de la cifra cardinal que escolta a la variable definitoria del grado absoluto de la ecuación.",
+    "explanation": "El coeficiente principal sirve frecuentemente para normalizar ecuaciones, siendo el número que multiplica a la variable dotada de mayor nivel jerárquico dentro de los exponentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RG",
+    "question": "¿Cuál es el nombre de la representación matemática orientada fundamentalmente a igualar los valores de dos expresiones algebraicas?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación", "correct": true },
+      { "text": "Identidad", "correct": false },
+      { "text": "Inexactitud", "correct": false },
+      { "text": "Proporción", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es un postulado de correspondencia que contiene incógnitas y que busca resolverse hallando un valor verídico específico.",
+    "explanation": "Una ecuación consta de establecer una paridad explícita uniendo dos bloques algebraicos mediante el característico signo de igualdad matemática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RH",
+    "question": "¿Qué tipo de ecuación se representa convencionalmente con la forma general esquematizada como $ax + b = 0$?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación lineal o de primer grado", "correct": true },
+      { "text": "Ecuación cuadrática o de segundo grado", "correct": false },
+      { "text": "Ecuación racional acotada", "correct": false },
+      { "text": "Ecuación exponencial logarítmica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que el exponente máximo ostentado en la variable independiente de la expresión general equivale tan solo a uno.",
+    "explanation": "Al carecer de exponentes superiores a la unidad ($x^1$), se grafica como una línea y se le otorga la jerarquía de primera categoría o nivel uno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RI",
+    "question": "¿Cómo se llama la ecuación que tiene impuesta como su forma matemática estructural el modelo $ax^2 + bx + c = 0$?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación cuadrática o de segundo grado", "correct": true },
+      { "text": "Ecuación lineal o de primer grado", "correct": false },
+      { "text": "Ecuación de formato cúbico integral", "correct": false },
+      { "text": "Ecuación irracional con discriminante nulo", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La prominencia de un exponente elevado al cuadrado rige por completo su clasificación teórica.",
+    "explanation": "Por presentar invariablemente la presencia rectora de una literal elevada a la potencia dos, estas formulaciones toman un estatus enfocado en lo cuadrático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RJ",
+    "question": "¿Qué nombre recibe una ecuación cuadrática que carece completamente del término intermedio ligado a una forma lineal ($bx$)?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación cuadrática pura", "correct": true },
+      { "text": "Ecuación cuadrática completa", "correct": false },
+      { "text": "Ecuación cuadrática mixta", "correct": false },
+      { "text": "Ecuación cuadrática trivial o residual", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Solo contiene un componente encuadrado y una cifra independiente, permitiendo despejes sencillos empleando exclusivamente la raíz.",
+    "explanation": "Se le llama cuadrática pura precisamente porque no tiene la variable con potencia uno interrumpiendo el despeje fluido y natural de las bases cuadráticas de la igualdad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RK",
+    "question": "¿Cuál es la fórmula utilizada universalmente en la academia para solucionar ecuaciones cuadráticas en su forma completa?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$", "correct": true },
+      { "text": "$x = \\frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$", "correct": false },
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$", "correct": false },
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{a}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El denominador involucra siempre a la multiplicación de la base constante por el doble del término inicial.",
+    "explanation": "La resolución de ecuaciones mediante la fórmula general requiere seguir este orden de signos para encontrar efectivamente ambas ramas potenciales mediante el uso del sumador y restador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RL",
+    "question": "¿Cómo se denomina la propiedad algebraica fundamental utilizada como atajo para resolver ecuaciones cuadráticas igualadas a cero a través de la factorización?",
+    "image": null,
+    "options": [
+      { "text": "Propiedad del producto cero", "correct": true },
+      { "text": "Propiedad distributiva de la multiplicación cruzada", "correct": false },
+      { "text": "Propiedad conmutativa del álgebra moderna", "correct": false },
+      { "text": "Ley de los signos matemáticos aditivos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Garantiza con base en la lógica que cuando tienes multiplicadores produciendo nada, al menos un multiplicador debía estar vacío o nulo.",
+    "explanation": "Si dos o más factores se entrelazan y el saldo equivale a cero es inevitable establecer mediante la propiedad del factor nulo que la anulación procedió de alguna de sus raíces divisibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RM",
+    "question": "¿Qué tipo de ecuación exige como su reto principal el aislar la variable o incógnita la cual está enclaustrada dentro del interior de un radical?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación radical", "correct": true },
+      { "text": "Ecuación racional", "correct": false },
+      { "text": "Ecuación trascendente", "correct": false },
+      { "text": "Ecuación fraccionaria de variables combinadas", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Comparte el apelativo ligado a las raíces e indica una barrera inicial para ejecutar simples manipulaciones numéricas.",
+    "explanation": "Toda formulación matemática de este tipo amerita su etiqueta radical debido a que su pilar funcional se erige confinando incógnitas por debajo de componentes encasillados en raíces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RN",
+    "question": "¿Cómo se llama a la maniobra algebraica consistente en elevar al cuadrado ambos márgenes de una ecuación radical con el fin primordial de eliminar la incómoda raíz?",
+    "image": null,
+    "options": [
+      { "text": "Eliminación del radical o potenciación del entorno", "correct": true },
+      { "text": "Racionalización estricta del denominador", "correct": false },
+      { "text": "Extracción y consolidación de raíces cuadradas", "correct": false },
+      { "text": "Completar equitativamente el trinomio cuadrado", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta técnica funge como una herramienta destructiva de la caparazón de una raíz con la intención de propiciar el libre despeje.",
+    "explanation": "El proceso aboca a elevar en igualdad de condiciones a nivel cuadrado ambas latitudes de una ecuación, provocando el ansiado despeje visual y cancelación de cualquier barrera de carácter radical.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RO",
+    "question": "¿Qué nombre recibe la ecuación matemática fraccionaria en la cual la variable principal o incógnita aparece ubicada en el denominador de la relación?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación racional", "correct": true },
+      { "text": "Ecuación radical", "correct": false },
+      { "text": "Ecuación de segundo grado asimétrica", "correct": false },
+      { "text": "Ecuación logarítmica de variable acotada", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La naturaleza fraccional del caso sugiere nombrar la ecuación empleando un sinónimo equivalente al término razón o división de números no exactos.",
+    "explanation": "El adjetivo racional recae en todas esas expresiones provistas de cocientes polinómicos donde de manera imperativa el factor del divisor incorpora a una letra o variable de índole dependiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RP",
+    "question": "¿Cuál representa el primer paso metodológico fundamental para resolver satisfactoriamente una ecuación racional con multiplicidad de denominadores variables?",
+    "image": null,
+    "options": [
+      { "text": "Encontrar el mínimo común denominador (MCD)", "correct": true },
+      { "text": "Elevar irremediablemente al cuadrado la estructura entera", "correct": false },
+      { "text": "Sustituir y anular las variables fraccionarias utilizando ceros", "correct": false },
+      { "text": "Aplicar de lleno la fórmula general cuadrática", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Requiere unificar el campo de juego de toda la expresión para poder condensar o extinguir los pisos inferiores del problema.",
+    "explanation": "Sin un terreno compartido propiciado por el mínimo común denominador para fusionar la ecuación a un solo plano lineal, el avance matemático se vería bloqueado y confuso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RQ",
+    "question": "¿Cómo se llama la propiedad de las fracciones matemáticas que concede el privilegio de resolver proporciones de manera cruzada igualando sendos productos?",
+    "image": null,
+    "options": [
+      { "text": "Propiedad fundamental de las proporciones", "correct": true },
+      { "text": "Propiedad asociativa de la multiplicación interna", "correct": false },
+      { "text": "Ley obligatoria de los exponentes de corte fraccionario", "correct": false },
+      { "text": "Teorema comprobable orientado al factor algebraico", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta útil directriz estipula que en cualquier equivalencia, la multiplicación de los factores catalogados como extremos cuadra de manera inobjetable con la de los medios.",
+    "explanation": "La multiplicación cruzada conforma la espina dorsal para destrabar proporcionalidades algebraicas basándose en las más puras demostraciones y propiedades axiomáticas ligadas a la aritmética de proporciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RR",
+    "question": "¿Qué tipo de modelo o sistema de ecuaciones es el que suele representarse de forma canónica mediante los esquemas duales de $ax + by = c$ sumado a $dx + ey = f$?",
+    "image": null,
+    "options": [
+      { "text": "Sistema de ecuaciones lineales $2 \\times 2$", "correct": true },
+      { "text": "Sistema dependiente de ecuaciones de segundo orden o grado", "correct": false },
+      { "text": "Sistema englobador enfocado en ecuaciones paramétricas", "correct": false },
+      { "text": "Sistema superior de matrices de ecuaciones diferenciales", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Consiste invariablemente en un acoplamiento simétrico de dos líneas rectas entremezclando dos literales desconocidas distintas.",
+    "explanation": "Poseer dos renglones que albergan un nivel de grado máximo con valor a la unidad, junto a exactamente dos incógnitas lo reviste plenamente como modelo lineal dos por dos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RS",
+    "question": "¿Cómo se denomina comúnmente al método de resolución de sistemas que insiste en despejar el rastro de una variable en algún nivel para así lograr reemplazarla eficazmente en la línea subsecuente?",
+    "image": null,
+    "options": [
+      { "text": "Método de sustitución", "correct": true },
+      { "text": "Método de igualación formal e independiente", "correct": false },
+      { "text": "Método abocado a la reducción y posterior suma matemática", "correct": false },
+      { "text": "Método de resoluciones avalado por las matrices de determinantes", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre relata a ciencia cierta su modo de obrar; quitas el hueco de algo para acomodarlo como relevo suplente en otra posición.",
+    "explanation": "Sustituir abarca enteramente el desvelar el manto de la variable en una ecuación madre para insertarlo sin disimulo dentro de las entrañas estructurales correspondientes a la segunda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RT",
+    "question": "¿Qué procedimiento de resolución para sistemas persigue multiplicar las ecuaciones disponibles en pos de poder igualar los coeficientes de alguna variable, permitiendo así su eliminación mediante el acto de suma o resta?",
+    "image": null,
+    "options": [
+      { "text": "Método de reducción o suma y resta", "correct": true },
+      { "text": "Método directo enfocado a la igualación compartida de las variables", "correct": false },
+      { "text": "Método de transposición y sustitución de un marco algebraico", "correct": false },
+      { "text": "Método basado en la extrapolación de gráfico mediante intersección visual", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Busca amalgamar las ecuaciones haciendo chocar frontalmente sus piezas para causar el derrumbe de una incógnita.",
+    "explanation": "Al adecuar minuciosamente un par de ecuaciones en forma de espejo alterado para ser confrontadas verticalmente, se logra mermar o reducir hasta la anulación de una variable por la simple suma ponderada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RU",
+    "question": "¿Cómo se hace llamar el popular método de corte algebraico que centra toda su atención en realizar un despeje idéntico de la misma variable en ambas ecuaciones y acto continuo empatar y comparar a ambas expresiones recién obtenidas?",
+    "image": null,
+    "options": [
+      { "text": "Método de igualación", "correct": true },
+      { "text": "Método de reducción simplificada y sumatoria", "correct": false },
+      { "text": "Método resolutivo auxiliado por el cuadro de determinantes", "correct": false },
+      { "text": "Método enmarcado en el proceso gradual de la sustitución", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su accionar transita en equiparar condiciones a priori para fundir al par de ecuaciones creando un canal de paridad innegable.",
+    "explanation": "Igualar, en este marco de matemáticas básicas, requiere tomar dos verdades derivadas referentes al mismo núcleo literal, posándolas frente a frente bajo la premisa de equivalencia total.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RV",
+    "question": "¿Qué nombre recibe formalmente en el campo analítico el conjunto de números que congrega y agrupa a todas las soluciones matemáticamente factibles y comprobadas para validar una determinada ecuación o inecuación?",
+    "image": null,
+    "options": [
+      { "text": "Conjunto solución", "correct": true },
+      { "text": "Dominio limitante inherente al rango de una función", "correct": false },
+      { "text": "Rango disperso englobado por factores de la ecuación", "correct": false },
+      { "text": "Espacio virtual muestral o subgrupo de corte matemático", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta congregación se encarga de empaquetar de una vez por todas todas aquellas piezas clave que tienen la potestad innegable de cumplir sin problemas la condición requerida.",
+    "explanation": "La finalidad cumbre tras abordar desigualdades algebraicas e incógnitas complicadas es develar sin dejar una arista suelta, al conjunto solución integral para dicha disyuntiva matemática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RW",
+    "question": "¿Cómo se suele denominar con firmeza a la representación gráfica visualizada en el marco del plano cartesiano que corresponde de manera leal y biunívoca a una ecuación de carácter puramente lineal involucrando dos variables interactuantes?",
+    "image": null,
+    "options": [
+      { "text": "Línea recta", "correct": true },
+      { "text": "Curva con naturaleza netamente parabólica", "correct": false },
+      { "text": "Sección cónica de curvatura variable y progresiva", "correct": false },
+      { "text": "Hipérbola equilátera de tendencia y orientación asintótica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Basta de manera insoslayable poseer una dualidad de puntos en todo el espacio para dibujar la figura mencionada de forma infinitamente extendida y directa.",
+    "explanation": "La totalidad de las formulaciones polinómicas con potencia de límite 1 en su dupla variable trazan por default geométrico una sucesión prolongada en infinitud descrita como línea recta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RX",
+    "question": "¿Cuál es la letra asignada o el parámetro convenido y estandarizado que representa formalmente y matemáticamente hablando la pendiente y la inclinación de una recta bajo el esquema de la famosa ecuación ordinaria o simplificada de la línea $y = mx + b$?",
+    "image": null,
+    "options": [
+      { "text": "$m$", "correct": true },
+      { "text": "$b$", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$y$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Este factor ejerce una multiplicación contundente ante la variable de carácter independiente y delinea cuán escarpada resultará su elevación.",
+    "explanation": "El símbolo de la letra eme minúscula indica de acuerdo al ordenamiento histórico del análisis matemático el indicador referencial exacto correspondiente a la pendiente o razón constante de incremento experimentada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RY",
+    "question": "¿Qué nombre técnico o alias geométrico ostenta la constante individual denotada como $b$ anclada férreamente a la ecuación lineal comúnmente conocida con la forma de la estructura $y = mx + b$?",
+    "image": null,
+    "options": [
+      { "text": "Ordenada al origen", "correct": true },
+      { "text": "Constante directriz unificada o pendiente de la recta", "correct": false },
+      { "text": "Punto de base y raíz ineludible del modelo de tipo polinomio", "correct": false },
+      { "text": "Abscisa central interceptada visualmente justo al origen", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se encarga de delimitar con precisión milimétrica la zona de la coordenada vertical (eje de las $y$) que fungirá como zona de aterrizaje para cruzar.",
+    "explanation": "El número libre localizado al extremo nos confiere a manera de radiografía la altura puntual precisa de la coordenada cero sobre el eje $y$, llamándosele de manera pertinente intersección u ordenada al origen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12RZ",
+    "question": "¿Cómo se llama la forma específica de encasillar una ecuación lineal basándose sólidamente en el esquema o fórmula de representación de las características geométricas plasmada como $y - y_1 = m(x - x_1)$?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación punto-pendiente", "correct": true },
+      { "text": "Ecuación englobadora general asociada a de la recta", "correct": false },
+      { "text": "Ecuación simétrica dictaminada u ordenada visual pura", "correct": false },
+      { "text": "Ecuación cuadrática envestida en su forma base canónica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Requiere ineludiblemente tener dominio y conocimiento de dos detalles clave; las proporciones de inclinación y de igual forma un simple y arbitrario eslabón de cruce.",
+    "explanation": "Este arreglo se hace llamar así pues su mera existencia necesita a la par como combustible vital en el engranaje a las coordenadas de intersección y al factor numeral que describe al grado natural de pendiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SA",
+    "question": "¿Qué tipo de producto notable ya desarrollado o trinomio factorizable representa con lujo de exactitud la popular expresión algebraica condensada como $x^2 + 2x + 1$?",
+    "image": null,
+    "options": [
+      { "text": "Trinomio cuadrado perfecto", "correct": true },
+      { "text": "Diferencia sustancial de cuadrados simétricos formados", "correct": false },
+      { "text": "Cubo de un binomio desarrollado en sus múltiples extensiones", "correct": false },
+      { "text": "Producto de resolución de binomios catalogados como conjugados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Notarás a simple vista que tanto su inicio como su conclusión portan raíces perfectas y exactas que se asocian de maravilla con la multiplicidad de dos.",
+    "explanation": "En caso de colapsarlo a factor, la reducción desembocaría nítidamente a la forma de $(x+1)$ elevada al orden dos; esto evidencia el pedigrí inconfundible de ser un modelo clásico de trinomio en formato cuadrado perfecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SB",
+    "question": "¿Cuál resulta ser a todas luces la expresión y desarrollo final expandido y fiel obtenido por la pura matemática al momento cumbre de lograr elevar el binomio mixto en forma de $(3x + 2y)^2$?",
+    "image": null,
+    "options": [
+      { "text": "$9x^2 + 12xy + 4y^2$", "correct": true },
+      { "text": "$9x^2 + 4y^2$", "correct": false },
+      { "text": "$9x^2 + 6xy + 4y^2$", "correct": false },
+      { "text": "$3x^2 + 12xy + 2y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Recuerda no desvincular al término rector posicionado centralmente el cual siempre asimila una cifra equivalente de la suma o doble emparejamiento numérico dictado.",
+    "explanation": "Al obedecer el dictamen fundamental del binomio procedemos con $3^2=9$, a su vez el extremo resulta $2^2=4$ mientras que su núcleo interno engloba el $2(3)(2) = 12$ dejando sus correspondientes incógnitas entretejidas con exactitud.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SC",
+    "question": "¿Cómo se llega a denominar comúnmente a la operación o ruta paralela y a su vez rigurosamente contraria capaz de regresar al estado encogido natural de matriz a lo que antes fue el desarrollar y expandir extensamente un producto notable?",
+    "image": null,
+    "options": [
+      { "text": "Factorización", "correct": true },
+      { "text": "Racionalización intensiva de formato matemático compuesto", "correct": false },
+      { "text": "Reducción y compactación simétrica de exponentes fraccionarios", "correct": false },
+      { "text": "Evaluación polinómica orientada a nivel fundamental y sustitución", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta denominación alude explícitamente a su rol para fragmentar en unidades independientes llamadas factores una suma que parecía en su comienzo ya acabada y compacta.",
+    "explanation": "La asombrosa destreza o pericia técnica referida bajo este rubro puntual nos proporciona las herramientas exactas para transformar expresiones amplias plagadas de adiciones interminables por bloques unitarios dispuestos para multiplicar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SD",
+    "question": "¿Qué nombre técnico o apodo ostenta la inquebrantable identidad algebraica y patrón constante universal conocido sin ninguna duda bajo la rúbrica formal del formato de la ecuación modelo de $(a + b)^2 = a^2 + 2ab + b^2$?",
+    "image": null,
+    "options": [
+      { "text": "Binomio al cuadrado (suma)", "correct": true },
+      { "text": "Diferencia de cuadrados comprobables generados (resta)", "correct": false },
+      { "text": "Binomios mixtos combinados y a su vez conjugados (producto)", "correct": false },
+      { "text": "Suma de cubos puros y escalonados en formato de desarrollo total", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La propia etiqueta con la cual el estudiante lo identifica desdeña el resultado y prefiere rendirle un tributo o centrarse en nombrar meramente al actor original.",
+    "explanation": "Identificar velozmente y sin miramientos su nombre no resulta un engorro si desglosas la fuente original; posees literalmente dos literales adheridas y a eso se lo está encuadrando de golpe al grado dos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SE",
+    "question": "¿Cuál figura ser inequívocamente la correcta y fidedigna factorización final o respuesta comprimida de la intrincada y apantallante expresión algebraica delineada como el formato matemático puro de $49x^2 - 36y^2$ apoyándose fervientemente en los dictámenes y reglas clásicas de los invaluables productos notables?",
+    "image": null,
+    "options": [
+      { "text": "$(7x - 6y)(7x + 6y)$", "correct": true },
+      { "text": "$(7x - 6y)^2$", "correct": false },
+      { "text": "$(7x + 6y)^2$", "correct": false },
+      { "text": "$(49x - 36y)(x + y)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta fórmula es un desdoble evidente que apela innegablemente a recurrir hacia extraer sin piedad la dupla de raíces, pero a la postre emparejándolas al combinarlas mutando sus centros.",
+    "explanation": "Extrayendo a destajo su raíz inicial que resulta en base siete sobre variable equis, a la cual a su vez contrapone raíz de seis sobre la variable y, la fórmula estelar designada como los innegables conjugados surge nítidamente frente a nuestra atención revelando ambos hemisferios idénticos en valor pero divorciados por sus contrastantes signos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SF",
+    "question": "¿Qué tipo de expresión es o de qué denominación hace gala la unión de los factores en $a^2 + b^2$ por sí sola, flotando o apareciendo de manera desprotegida a merced en el enorme e insondable conjunto del universo que comprende a los rigurosos números reales sin contar con un puente auxiliar que la enlace?",
+    "image": null,
+    "options": [
+      { "text": "Suma de cuadrados, la cual no es factorizable", "correct": true },
+      { "text": "Trinomio cuadrado perfecto truncado o simplificado y resolutivo", "correct": false },
+      { "text": "Diferencia de cuadrados invertida en un arreglo para ser despejada", "correct": false },
+      { "text": "Binomios conjugados con sus bases dispuestas en un esquema de pares idénticos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ten suma precaución ante esta emboscada recurrente e inadvertida debido a que sin apelar al espectro del grupo de los números complejos su partición se vuelve una hazaña o tarea imposible.",
+    "explanation": "Una de las lecciones rudas dictadas por las letras y los números asegura con toda determinación y rigidez que en lo tocante al reino restringido de los números provistos de un valor verdaderamente real esta sumatoria de tipo cuadrática y solitaria choca con barreras para su reducción desvinculante y fragmentadora.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SG",
+    "question": "¿Cómo se representa a modo de fragmentos o ramas separables la compactación y factorización exitosa de origen o estructura totalmente correcta nacida del humilde pero enigmático trinomio conformado matemáticamente por $x^2 + 5x + 6$?",
+    "image": null,
+    "options": [
+      { "text": "$(x + 2)(x + 3)$", "correct": true },
+      { "text": "$(x + 1)(x + 6)$", "correct": false },
+      { "text": "$(x - 2)(x - 3)$", "correct": false },
+      { "text": "$(x + 5)(x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Dedica un instante sereno para la cacería analítica que busca conjugar mágicamente un dúo muy especial y armonioso de números que fusionados logren alcanzar o atrapar simultáneamente a las cotas fijas de adición y multiplicación dadas.",
+    "explanation": "El camino natural para diseccionar trinomios de esta genealogía recae y pivota firmemente ante la demanda y obligación de localizar un par inseparable que aditivamente origine o provea un cinco limpio de acompañamientos, pero que multiplicados o combinados mutuamente logren proveernos con el indispensable y solicitado valor constante final, o sea el gran seis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SH",
+    "question": "¿Qué método comprobado de factorización de tipo tradicional pero meticuloso resulta sin temor a equivocaciones ser el sendero más ágil, el más certero o más directo y preferido para poder domar y procesar hasta pulverizar de tajo a la expresión mixta de $2x^2 + 5x + 2$?",
+    "image": null,
+    "options": [
+      { "text": "Factorización por agrupación o tijera", "correct": true },
+      { "text": "Factorización apoyada integralmente y de lleno por suma de cubos", "correct": false },
+      { "text": "Extracción directa en un solo paso magistral de factor común global", "correct": false },
+      { "text": "Desarrollo meticuloso de bases enmarcadas en rígidos binomios conjugados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se aleja y marca un tanto la pauta debido a su notoria imposibilidad o terquedad para asimilarse sin intermediarios desde las reglas más pueriles a causa de su número constante pionero el cual en este caso en particular repudia valer tan solo uno.",
+    "explanation": "La presencia incómoda aunque insoslayable de contar obligatoriamente con el fastidioso coeficiente asimétrico (es decir un inmenso dos o en general algo desigual o superior a la unidad) encabezando al batallón te avoca en la mayoría de las ocasiones de la enseñanza escolar y rutinaria a usar aspas o fraccionamientos por conjuntos que propicien y apalanquen o aseguren un cierre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SI",
+    "question": "¿Cuál es el principio cardinal de operación a lo largo de la manipulación orientada a la siempre retadora factorización exigida para un indomable trinomio de la forma clásica u original general que ostenta o posee la fisonomía $ax^2 + bx + c$ particularmente cuando la cifra dictada como su líder $a \\neq 1$?",
+    "image": null,
+    "options": [
+      { "text": "Buscar emparejar combinaciones de un par denotadas como $m$ y $n$ que unidas de modo que $mn = ac$ e idénticamente satisfagan la unión $m + n = b$, luego reagrupar de manera inteligente el cuerpo central para la extracción cruzada", "correct": true },
+      { "text": "Ensayar extraer indiscriminadamente la raíz cruda del inicio $a$ con un abordaje similar sumado a la de raíz final proveniente de $c$ directamente sin mediar o detenerse a meditar", "correct": false },
+      { "text": "Exigir a fuerza multiplicar la totalidad el ancho total de ese trinomio de forma imperativa y caprichosa apoyado exclusivamente por factor numérico único y constante fijado en el rincón derecho o $c$", "correct": false },
+      { "text": "Igualar caprichosa y tajantemente con urgencia esta clase entera de expresión imponiéndola en el rango de nulo o cero y a posteriori borrar toda huella de manera atroz del molesto coeficiente o jefe principal", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta artimaña a decir verdad es una treta ingeniosa diseñada específicamente para lograr de a poco inflar ficticiamente y manipular fríamente el medio para partirlo en cuartos en un par de mitades perfectas.",
+    "explanation": "Este ingenioso y legendario recurso de la descomposición central se apropia de la capacidad o talento para seccionar estratégicamente el eslabón o parte media originando que de las cenizas se erija orgulloso y ordenado un nuevo o fresco polinomio tetranomio de gran abolengo plenamente compatible u dócil con los esquemas ordinarios de factorización emparejada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SJ",
+    "question": "¿Cómo se denomina y califica conceptualmente de forma correcta y precisa a toda digna expresión algebraica de alta categoría que se jacta y representa fidedignamente al esquema de una hermética y absoluta igualdad matemática; la cual presume que en todo lugar se cumple sin importar lo absoluto o variable en esencia los diferentes valores numéricos puros que en todo escenario tomen las referidas letras o sus variables dependientes e independientes en conjunto?",
+    "image": null,
+    "options": [
+      { "text": "Identidad algebraica", "correct": true },
+      { "text": "Ecuación de estado riguroso condicional y restringida", "correct": false },
+      { "text": "Función analítica o sistema de variables netamente paramétrica", "correct": false },
+      { "text": "Desigualdad absoluta y generalizada de rango incondicional y fijo", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Dicha cualidad mágica o universal no hace ningún tipo de acepciones sin discriminar el número con el cual llenes las piezas ya que en su ADN o médula son realmente sinónimos.",
+    "explanation": "La sutil aunque enorme muralla divisoria contra la naturaleza de una simple ecuación recae puramente en la omnipresencia de su afirmación; ya que si de entrada es verdad universal independientemente del llenado o sustitución que tú inventes al no requerir comprobaciones específicas entonces forzosamente porta un abolengo que la categoriza y sella firmemente en el bando de las entidades llamadas y conocidas como identidades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SK",
+    "question": "¿Qué tipo formal y estricto de rama o identidad algebraica resulta ser de hecho específicamente sin margen a conjeturas el muy socorrido y repetido pilar matemático modelado o delineado con el molde la famosa e inamovible ecuación formulada como un rotundo $(a + b)^2 = a^2 + 2ab + b^2$?",
+    "image": null,
+    "options": [
+      { "text": "Identidad notable o producto notable", "correct": true },
+      { "text": "Identidad puramente ligada y orientada hacia lo trigonométrico", "correct": false },
+      { "text": "Identidad cimentada en bases de lo trascendente o escala logarítmica", "correct": false },
+      { "text": "Identidad con cimientos en el rango netamente y estrictamente de curva exponencial o variable paramétrica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Comparte indudablemente con mucho arraigo este tipo de honorífico apelativo estelar junto a otras fórmulas gemelas a la hora de las expansiones.",
+    "explanation": "Su altísimo valor de uso constante repetitivo y frecuente aparición innegable e inevitable como atajo primordial durante todo cálculo polinómico, en general de manera empírica, lo inviste solemnemente en ser universalmente clasificado o encasillado como el amo y señor de lo que solemos definir, usar o catalogar de igual forma como producto inconfundible y verdaderamente notable o destacado dentro de su estirpe.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SL",
+    "question": "¿Cómo se llama universal y popularmente a la norma inquebrantable, dogma o regla que decreta y establece de manera imponente en la ley inicial de los cursos o manuales, que asombrosamente al llevar a cabo la noble tarea de emparejar o multiplicar mutuamente el cruce de dos cifras o números negativos en todo el campo del álgebra a la sazón el resultado se transformará y será indefectiblemente un portento de valor de rango puramente o categóricamente de nivel positivo?",
+    "image": null,
+    "options": [
+      { "text": "Ley de los signos para la multiplicación", "correct": true },
+      { "text": "Propiedad orientada y delineada como conmutativa aplicable estrictamente para un caso de la suma", "correct": false },
+      { "text": "Axioma universal derivado directamente partiendo del elemento neutro inamovible o inalterado", "correct": false },
+      { "text": "Teorema comprobable, innegociable, supremo y universal además de ser llamado fundamental para todas las artes dentro de la incansable aritmética", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta joya incrustada en lo básico es la reina de las mnemotecnias donde afirman o declaran que todo enemigo que a su vez se convierte en adversario o archienemigo personal y declarado de tu viejo e indeseable propio enemigo... terminará en forma gloriosa transformándose a la postre y para tu gran fortuna fungiendo lealmente como un incondicional e indudable aliado, pilar y un inigualable amigo.",
+    "explanation": "Dicho y a la vez popular dictamen básico pertenece invariablemente o de lleno y con autoridad al legendario pilar central o bloque formador de los preceptos o directrices iniciales que comandan el ritmo a la tan vitoreada e irrompible ley incesante de los signos de cruces o multiplicación, de la cual nace o resulta además la infalible rima cantada y recordada por todos la cual proclama con ahínco que un negativo conjugado mediante y por con otro negativo forja y produce de manera radiante, instantánea y veloz un impecable o bello balance positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SM",
+    "question": "¿Qué nombre recibe el elemento matemático conformado por el producto de un coeficiente numérico y una variable elevada a cierta potencia?",
+    "image": null,
+    "options": [
+      { "text": "Término algebraico", "correct": true },
+      { "text": "Grado polinómico", "correct": false },
+      { "text": "Factor literal independiente", "correct": false },
+      { "text": "Radical simplificado", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es la unidad de construcción fundamental separada por los signos de suma o resta.",
+    "explanation": "Un término algebraico representa un bloque individual o indivisible en las sumatorias y restas de la notación de las expresiones de tipo algebraico que aglomera a la unidad de cifras conjuntas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SN",
+    "question": "¿Cómo se denomina a la propiedad que permite multiplicar un monomio externo por cada uno de los términos dentro de un polinomio agrupado?",
+    "image": null,
+    "options": [
+      { "text": "Propiedad distributiva de la multiplicación", "correct": true },
+      { "text": "Propiedad asociativa de los exponentes", "correct": false },
+      { "text": "Propiedad conmutativa de las variables", "correct": false },
+      { "text": "Ley de transitividad algebraica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es la mecánica por la cual repartes un mismo factor a todos los miembros dentro de un paréntesis.",
+    "explanation": "La propiedad distributiva legitima y permite desglosar un producto compuesto expandiéndolo mediante el choque o reparto equitativo del término exterior hacia la totalidad del mundo interior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SO",
+    "question": "¿Cuál es la expresión desarrollada del área de un cuadrado cuyo lado mide $(x + 3)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 6x + 9$", "correct": true },
+      { "text": "$x^2 + 9$", "correct": false },
+      { "text": "$x^2 + 3x + 9$", "correct": false },
+      { "text": "$2x + 6$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Para calcular el área, debes elevar el lado al cuadrado, desarrollando el binomio correspondiente.",
+    "explanation": "Dado que el área es el lado al cuadrado, desarrollamos $(x + 3)^2 = x^2 + 2(x)(3) + 3^2 = x^2 + 6x + 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SP",
+    "question": "¿Qué polinomio resulta de elevar al cubo de manera correcta el binomio $(2a - b)$?",
+    "image": null,
+    "options": [
+      { "text": "$8a^3 - 12a^2b + 6ab^2 - b^3$", "correct": true },
+      { "text": "$8a^3 - b^3$", "correct": false },
+      { "text": "$8a^3 + 12a^2b + 6ab^2 + b^3$", "correct": false },
+      { "text": "$8a^3 - 6a^2b + 12ab^2 - b^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Aplica la fórmula $(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3$ prestando atención a los coeficientes numéricos.",
+    "explanation": "El cubo del binomio se expande como $(2a)^3 - 3(2a)^2(b) + 3(2a)(b)^2 - b^3$, lo que genera un tetranomio con alternancia pura de signos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SQ",
+    "question": "¿Cómo se llama la operación matemática de elevar al cuadrado la expresión $(x + y + z)$ sin tener que multiplicar término a término de forma manual?",
+    "image": null,
+    "options": [
+      { "text": "Cuadrado de un trinomio", "correct": true },
+      { "text": "Cubo de un trinomio extendido", "correct": false },
+      { "text": "Desarrollo de binomios múltiples", "correct": false },
+      { "text": "Producto notable de tres factores", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa con atención cuántos elementos literales figuran atrapados juntos al interior del gran paréntesis protector.",
+    "explanation": "Al poseer una agrupación o arreglo de carácter trinomial expuesto frontalmente hacia un incremento cuadrático, su regla propia de resolución directa lo denomina categóricamente así en su nomenclatura estándar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SR",
+    "question": "¿Cuál es la fórmula del desarrollo algebraico correspondiente al cubo de un binomio $(a + b)^3$?",
+    "image": null,
+    "options": [
+      { "text": "$a^3 + 3a^2b + 3ab^2 + b^3$", "correct": true },
+      { "text": "$a^3 + b^3$", "correct": false },
+      { "text": "$a^3 + 3ab + b^3$", "correct": false },
+      { "text": "$a^3 - 3a^2b + 3ab^2 - b^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta identidad produce una forma polinomial con cuatro términos, y al ser una suma base, requiere tener forzosamente y en su totalidad puros símbolos indicativos de avance de tipo sumativo y positivo.",
+    "explanation": "La expasión matemática oficial nos orienta sin preámbulos a combinar las raíces y potencias cúbicas con el aderezo rítmico central dictaminado por los dobles grupos triples simétricos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SS",
+    "question": "¿Cuál es la factorización correcta del trinomio cuadrado $x^2 - 5x + 6$?",
+    "image": null,
+    "options": [
+      { "text": "$(x - 2)(x - 3)$", "correct": true },
+      { "text": "$(x - 1)(x - 6)$", "correct": false },
+      { "text": "$(x + 2)(x + 3)$", "correct": false },
+      { "text": "$(x + 6)(x - 1)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La tarea requiere indagar sin descanso por una dupla de números que combinados y sumados apunten hacia un saldo en $-5$, mas sin embargo su producto te garantice un flamante $6$ de corte positivo.",
+    "explanation": "Al ejecutar el método de tijeras simples, descubrimos empíricamente que los números infalibles resultan ser $-2$ y $-3$, dado que su adición mutua decanta fielmente en el vital $-5$ y simultáneamente aseguran por su producto natural derivar al valioso término independiente o tercer eslabón que es el rotundo $6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12ST",
+    "question": "¿Cómo se denomina invariablemente a la curva que surge como representación gráfica de cualquier ecuación cuadrática en el plano cartesiano?",
+    "image": null,
+    "options": [
+      { "text": "Parábola", "correct": true },
+      { "text": "Hipérbola", "correct": false },
+      { "text": "Elipse", "correct": false },
+      { "text": "Circunferencia", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta figura cuenta con un característico punto clave de nombre vértice y se abre majestuosamente como un tazón con ambas riendas hacia el cielo despejado o apuntaladas directamente con ímpetu hacia la gravedad inferior.",
+    "explanation": "Toda expresión modelada que incorpore a la variable que gobierna su dominio portando dignamente un exponente cuadrático y que por lo tanto asigne sus valores de manera proporcional e inversa a través de un eje focal, forja invariablemente en su lienzo cuadriculado al clásico trazo curvilíneo catalogado en geometría analítica como parábola en plena acción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SU",
+    "question": "¿Cuál es la fórmula algebraica para hallar la abscisa del vértice de una parábola descrita por la ecuación $y = ax^2 + bx + c$?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{-b}{2a}$", "correct": true },
+      { "text": "$x = \\frac{b}{2a}$", "correct": false },
+      { "text": "$x = \\frac{-b}{a}$", "correct": false },
+      { "text": "$x = \\frac{b^2}{4a}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta fórmula se deriva directamente de completar el cuadrado o del eje de simetría en la fórmula general cuadrática.",
+    "explanation": "El vértice de una función cuadrática se localiza en la coordenada $x$ calculada por el cociente del coeficiente lineal negativo sobre el doble del coeficiente cuadrático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SV",
+    "question": "¿Cuál es la fórmula general utilizada para factorizar un trinomio cuadrado perfecto que posee un signo de resta en su término central?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 - 2ab + b^2 = (a - b)^2$", "correct": true },
+      { "text": "$a^2 - 2ab - b^2 = (a - b)^2$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2 = (a - b)^2$", "correct": false },
+      { "text": "$a^2 - b^2 = (a - b)(a + b)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El resultado final compactado preserva el signo negativo dentro del binomio elevado al cuadrado.",
+    "explanation": "Un trinomio cuadrado perfecto con término medio negativo se factoriza siempre como el cuadrado de la diferencia de las raíces de sus extremos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SW",
+    "question": "¿Qué tipo de expresión algebraica está representada por el polinomio de dos términos $8x^3 + 27y^3$?",
+    "image": null,
+    "options": [
+      { "text": "Suma de cubos", "correct": true },
+      { "text": "Diferencia de cubos", "correct": false },
+      { "text": "Cubo de un binomio", "correct": false },
+      { "text": "Suma de cuadrados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Identifica que ambos coeficientes numéricos ($8$ y $27$) poseen raíz cúbica exacta y están unidos por un signo de adición.",
+    "explanation": "Al tener dos términos que son cubos perfectos ($(2x)^3$ y $(3y)^3$) enlazados mediante un operador de suma, la expresión se clasifica como suma de cubos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SX",
+    "question": "¿Cuál es la factorización final completamente desarrollada del polinomio $8x^3 - 27y^3$?",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3y)(4x^2 + 6xy + 9y^2)$", "correct": true },
+      { "text": "$(2x + 3y)(4x^2 - 6xy + 9y^2)$", "correct": false },
+      { "text": "$(2x - 3y)(4x^2 - 6xy + 9y^2)$", "correct": false },
+      { "text": "$(2x - 3y)^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Para una diferencia de cubos, el primer factor lleva el signo negativo y el trinomio resultante consta de términos totalmente positivos.",
+    "explanation": "La diferencia de cubos $a^3 - b^3$ se factoriza como $(a - b)(a^2 + ab + b^2)$, que al sustituir $a=2x$ y $b=3y$ genera la respuesta correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SY",
+    "question": "¿Qué nombre recibe el método algebraico inverso que emplea estructuralmente el producto notable de los binomios conjugados?",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cuadrados", "correct": true },
+      { "text": "Trinomio cuadrado perfecto", "correct": false },
+      { "text": "Factor común por agrupación", "correct": false },
+      { "text": "Suma de cubos perfectos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Al multiplicar conjugados obtienes dos cuadrados que siempre se están restando.",
+    "explanation": "El producto notable conocido como binomios conjugados resulta invariablemente en una diferencia de cuadrados al aplicar sus propiedades de expansión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12SZ",
+    "question": "¿Cuál es la condición matemática indispensable para poder aplicar correctamente la fórmula de la diferencia de cuadrados?",
+    "image": null,
+    "options": [
+      { "text": "Dos términos cuadrados perfectos restándose", "correct": true },
+      { "text": "Tres términos con un grado absoluto superior a dos", "correct": false },
+      { "text": "Dos términos lineales unidos por un signo positivo", "correct": false },
+      { "text": "Variables idénticas elevadas a potencias fraccionarias", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su propio nombre indica los dos requerimientos estructurales fundamentales para poder aplicar el método de factorización.",
+    "explanation": "Para poder aplicar una diferencia de cuadrados se requiere forzosamente un binomio donde ambos términos contengan raíz cuadrada exacta y uno de ellos sea negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TA",
+    "question": "¿Cómo se denomina la propiedad de los exponentes que permite reescribir la expresión condensada $(\\frac{a}{b})^n$?",
+    "image": null,
+    "options": [
+      { "text": "Potencia de un cociente: $\\frac{a^n}{b^n}$", "correct": true },
+      { "text": "Cociente de potencias iguales: $a^{n-b}$", "correct": false },
+      { "text": "Potencia de una potencia: $a^{b \\cdot n}$", "correct": false },
+      { "text": "Suma de exponentes fraccionarios: $a^n + b^n$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El exponente exterior se reparte de forma equitativa tanto al numerador como al denominador de la fracción.",
+    "explanation": "La regla matemática de la potencia de un cociente establece que al elevar una fracción a una potencia, ambas partes numéricas se elevan a dicha potencia individualmente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TB",
+    "question": "¿Cuál es el valor algebraico final de la expresión $(a^m)^n$ desde el punto de vista del comportamiento de los exponentes?",
+    "image": null,
+    "options": [
+      { "text": "$a^{m \\cdot n}$", "correct": true },
+      { "text": "$a^{m + n}$", "correct": false },
+      { "text": "$a^{m - n}$", "correct": false },
+      { "text": "$a^{m^n}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Cuando una potencia es elevada por una nueva potencia exterior, los números indicadores se combinan mediante una multiplicación.",
+    "explanation": "La ley de los exponentes para potencia de potencia decreta de forma inalterable que los exponentes en conflicto se deben multiplicar para consolidar la base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TC",
+    "question": "¿Qué tipo de expresión algebraica final requiere para su factorización el uso de la fórmula general $(a+b)(a^2 - ab + b^2)$?",
+    "image": null,
+    "options": [
+      { "text": "Suma de cubos", "correct": true },
+      { "text": "Diferencia de cubos", "correct": false },
+      { "text": "Cubo de un binomio", "correct": false },
+      { "text": "Cuadrado de un trinomio", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Si multiplicas el primer término del binomio por el primer término del trinomio consigues la pista sobre la potencia resultante.",
+    "explanation": "La expansión de estos dos factores matemáticos produce invariablemente la anulación de términos intermedios, restando de manera final una suma de dos potencias cúbicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TD",
+    "question": "¿Cómo se llama el proceso de reescribir matemáticamente una fracción algebraica pesada como la suma o resta de fracciones mucho más simples?",
+    "image": null,
+    "options": [
+      { "text": "Descomposición en fracciones parciales", "correct": true },
+      { "text": "Racionalización general de denominadores", "correct": false },
+      { "text": "Simplificación por división larga polinómica", "correct": false },
+      { "text": "Evaluación distributiva de límites racionales", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre alude directamente a dividir o fragmentar algo entero en partes más diminutas y manejables.",
+    "explanation": "La descomposición en fracciones parciales es un algoritmo empleado para dividir una expresión racional en la suma de dos o más expresiones racionales simples.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TE",
+    "question": "¿Qué nombre recibe estructuralmente la igualdad modelada como $(x + a)(x + b) = x^2 + (a+b)x + ab$?",
+    "image": null,
+    "options": [
+      { "text": "Producto de binomios con término común", "correct": true },
+      { "text": "Cuadrado de un binomio en desarrollo", "correct": false },
+      { "text": "Multiplicación pura de binomios conjugados", "correct": false },
+      { "text": "Factorización de un trinomio irregular mixto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ambos factores enlazados por el producto ostentan una variable idéntica pero acompañantes totalmente distintos.",
+    "explanation": "La presencia de la misma literal $x$ en ambos paréntesis lo califica indiscutiblemente como una multiplicación de binomios con un término en común.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TF",
+    "question": "¿Cuál es la fórmula del producto resultante de la suma por la diferencia de dos términos algebraicos idénticos?",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)(a - b) = a^2 - b^2$", "correct": true },
+      { "text": "$(a + b)(a - b) = a^2 + b^2$", "correct": false },
+      { "text": "$(a + b)(a - b) = a^2 - 2ab + b^2$", "correct": false },
+      { "text": "$(a + b)(a - b) = a^2 - ab - b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta multiplicación cancela la aparición de los elementos intermedios durante el desarrollo de la propiedad distributiva.",
+    "explanation": "El producto notable de la suma por la diferencia de dos cantidades es sinónimo absoluto de la obtención directa de una diferencia de cuadrados perfectos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TG",
+    "question": "¿Qué tipo de producto notable representa la expresión compuesta por $(m^2 + n^2)(m^2 - n^2)$?",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cuadrados", "correct": true },
+      { "text": "Suma de cuadrados generalizada", "correct": false },
+      { "text": "Diferencia absoluta de cubos", "correct": false },
+      { "text": "Binomio mixto de exponente variante", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que son dos factores casi iguales que únicamente difieren en el signo central que los separa.",
+    "explanation": "A pesar de que las variables internamente ya están elevadas a la potencia dos, la estructura macro representa una multiplicación de binomios conjugados, lo que origina una diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TH",
+    "question": "¿Cómo se denomina o representa la expresión matemática algebraica $(x + y)^2 - 4xy$ una vez que ha sido reducida y simplificada al máximo?",
+    "image": null,
+    "options": [
+      { "text": "$(x - y)^2$", "correct": true },
+      { "text": "$x^2 - y^2$", "correct": false },
+      { "text": "$(x + y)^2$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Al expandir el binomio al cuadrado y restarle el término adicional, el signo del núcleo de la expresión original experimenta una mutación.",
+    "explanation": "Al expandir se obtiene $x^2 + 2xy + y^2$. Al restarle $4xy$, el resultado se convierte en $x^2 - 2xy + y^2$, lo cual es equivalente algebraicamente a $(x - y)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TI",
+    "question": "¿Cuál es la fórmula o identidad matemática que relaciona certeramente el cuadrado de una suma y el cuadrado de una resta sumados en conjunto?",
+    "image": null,
+    "options": [
+      { "text": "$(a+b)^2 + (a-b)^2 = 2(a^2 + b^2)$", "correct": true },
+      { "text": "$(a+b)^2 + (a-b)^2 = 4ab$", "correct": false },
+      { "text": "$(a+b)^2 + (a-b)^2 = a^2 - b^2$", "correct": false },
+      { "text": "$(a+b)^2 + (a-b)^2 = 2ab$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "A esta identidad se le conoce clásicamente como una de las identidades elementales derivadas de Legendre.",
+    "explanation": "Al sumar la expansión de ambos binomios cuadrados, los términos cruzados (positivos y negativos) de valor $2ab$ se anulan y persisten únicamente duplicados los términos con cuadrados puros.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TJ",
+    "question": "¿Cómo se llama la identidad que permite expresar analíticamente $a^3 + b^3$ en función directa de sus sumas $(a+b)$ y sus productos combinados $(ab)$?",
+    "image": null,
+    "options": [
+      { "text": "$a^3 + b^3 = (a+b)^3 - 3ab(a+b)$", "correct": true },
+      { "text": "$a^3 + b^3 = (a+b)^3 + 3ab(a+b)$", "correct": false },
+      { "text": "$a^3 + b^3 = (a+b)^3 - ab(a+b)$", "correct": false },
+      { "text": "$a^3 + b^3 = (a-b)^3 - 3ab(a-b)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta fórmula se obtiene despejando los términos cúbicos de la fórmula general del cubo de un binomio perfecto.",
+    "explanation": "Esta es la identidad de Cauchy para la suma de cubos y es enormemente útil para simplificar valores polinomiales cuando únicamente se conocen de origen las sumas y multiplicaciones independientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TK",
+    "question": "¿Qué tipo de factorización matemática requiere en su desarrollo inicial el uso indispensable del cálculo del máximo común divisor polinomial?",
+    "image": null,
+    "options": [
+      { "text": "Factor común polinomio", "correct": true },
+      { "text": "Trinomio cuadrado perfecto base", "correct": false },
+      { "text": "Suma simétrica de variables cúbicas", "correct": false },
+      { "text": "Estructuración de factores mixtos escalonados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Este método persigue encontrar el mayor segmento o bloque algebraico que esté repetido o presente en toda la ecuación para extraerlo como puente.",
+    "explanation": "El proceso de factorización por factor común basa su éxito en agrupar coeficientes y literales utilizando la herramienta del MCD de todos los integrantes de la matriz inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TL",
+    "question": "¿Cuál es la fórmula o procedimiento estandarizado para lograr racionalizar el denominador binomio tipificado como $\\sqrt{a} - \\sqrt{b}$?",
+    "image": null,
+    "options": [
+      { "text": "Multiplicar por el conjugado $\\sqrt{a} + \\sqrt{b}$", "correct": true },
+      { "text": "Multiplicar simétricamente por la constante $\\sqrt{ab}$", "correct": false },
+      { "text": "Elevar al cuadrado enteramente el denominador inferior", "correct": false },
+      { "text": "Invertir la fracción hacia el numerador usando $\\sqrt{a} - \\sqrt{b}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Requieres construir artificialmente una diferencia de cuadrados forzando a que las raíces resulten elevadas y anuladas.",
+    "explanation": "La multiplicación por el conjugado produce la eliminación de los radicales basándose en la resolución general de diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TM",
+    "question": "¿Cómo se llama la expresión matemática o igualdad algebraica donde la variable principal se encuentra ubicada inamoviblemente en el lugar del exponente?",
+    "image": null,
+    "options": [
+      { "text": "Ecuación exponencial", "correct": true },
+      { "text": "Ecuación trascendente general", "correct": false },
+      { "text": "Ecuación logarítmica", "correct": false },
+      { "text": "Desigualdad de variable flotante", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Comparte la denominación de manera lógica con el término utilizado para describir potencias que suben con mucha rapidez.",
+    "explanation": "Se denomina ecuación exponencial a aquella igualdad algebraica cuya incógnita u objeto de estudio se localiza desempeñando el rol matemático del exponente de una base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TN",
+    "question": "¿Qué nombre recibe la propiedad axiomática elemental que permite resolver de forma directa las ecuaciones del tipo $a^x = a^y$ igualando sus respectivos exponentes?",
+    "image": null,
+    "options": [
+      { "text": "Propiedad de igualdad de bases", "correct": true },
+      { "text": "Ley obligatoria de cancelación simétrica", "correct": false },
+      { "text": "Teorema de resolución de potencias unificadas", "correct": false },
+      { "text": "Propiedad distributiva de igualdades cruzadas", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta regla postula que ante dos cimientos equivalentes en magnitud, sus alturas deben forzosamente estar niveladas.",
+    "explanation": "La propiedad uno a uno de funciones exponenciales estipula que si las bases son exactamente iguales y la función está igualada, no existe otra alternativa mas que la plena igualdad entre exponentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TO",
+    "question": "¿Cuál es la fórmula o recurso del logaritmo destinado a resolver variables en exponentes de la forma general $a^x = b$?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\log_a(b)$", "correct": true },
+      { "text": "$x = \\log_b(a)$", "correct": false },
+      { "text": "$x = a \\log(b)$", "correct": false },
+      { "text": "$x = \\frac{b}{\\log(a)}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Recuerda el mantra: 'El logaritmo no es otra cosa más que el propio exponente que estabas buscando'.",
+    "explanation": "La definición base del logaritmo nos plantea que si pretendemos bajar una variable del exponente, debemos formularlo como el logaritmo en la misma base original del resultado esperado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TP",
+    "question": "¿Cómo se denomina formalmente al valor numérico resultante tras el proceso de sustituir y operar las variables de un polinomio por cantidades específicas?",
+    "image": null,
+    "options": [
+      { "text": "Evaluación del polinomio", "correct": true },
+      { "text": "Simplificación racional del término", "correct": false },
+      { "text": "Cálculo estructural de constantes base", "correct": false },
+      { "text": "Factorización de grado numeral puro", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "También se suele decir que se 'valúa' la expresión de acuerdo a las cifras dadas como entrada al sistema.",
+    "explanation": "La acción analítica de insertar un número designado en el lugar de cada letra incógnita y resolver la cascada de operaciones se titula correctamente como evaluación de un polinomio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TQ",
+    "question": "¿Qué tipo de sistema de ecuaciones lineales se caracteriza inherentemente por presentar y alojar un número infinito de resoluciones o soluciones posibles?",
+    "image": null,
+    "options": [
+      { "text": "Sistema dependiente o compatible indeterminado", "correct": true },
+      { "text": "Sistema incompatible de trazo libre constante", "correct": false },
+      { "text": "Sistema consistente de formato único matricial", "correct": false },
+      { "text": "Sistema irregular de corte analítico y transversal", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Gráficamente estas ecuaciones se representan como líneas sobrepuestas una sobre la otra, tocándose en todos sus puntos imaginables.",
+    "explanation": "Un sistema cuyas líneas componentes sean coincidentes no poseerá solo una intersección para marcar la respuesta, sino infinitas, por lo cual se califica como compatible indeterminado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TR",
+    "question": "¿Cómo se llama de manera teórica un sistema de ecuaciones donde las rectas nunca se cruzan dejándolo desprovisto de cualquier atisbo de solución?",
+    "image": null,
+    "options": [
+      { "text": "Sistema incompatible", "correct": true },
+      { "text": "Sistema dependiente", "correct": false },
+      { "text": "Sistema asimétrico", "correct": false },
+      { "text": "Sistema compatible indeterminado", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se trata de un modelo en el que no existe concordancia matemática ni armonía para hallar una coincidencia común.",
+    "explanation": "Un sistema se cataloga como incompatible cuando presenta paralelismo rígido en sus gráficas u orientaciones impidiendo geométricamente una solución mutua que satisfaga al modelo en su conjunto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TS",
+    "question": "¿Cuál es la condición fundamental ligada a las pendientes para asegurar que dos rectas algebraicas representadas en el plano resulten ser totalmente paralelas?",
+    "image": null,
+    "options": [
+      { "text": "$m_1 = m_2$", "correct": true },
+      { "text": "$m_1 \\cdot m_2 = -1$", "correct": false },
+      { "text": "$m_1 + m_2 = 0$", "correct": false },
+      { "text": "$m_1 - m_2 = 1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Para que dos vehículos mantengan siempre la misma distancia visual en trayectorias planas deben ostentar el mismo nivel de ascenso e inclinación constante.",
+    "explanation": "Dos trayectorias o líneas rectas se categorizan formalmente como paralelas solo sí su proporción de avance y altura son idénticas de forma analítica, implicando igualdad de pendientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TT",
+    "question": "¿Qué relación algebraica ineludible y característica de sus pendientes nos indica y garantiza a plenitud la perpendicularidad total de dos rectas cruzadas?",
+    "image": null,
+    "options": [
+      { "text": "$m_1 \\cdot m_2 = -1$", "correct": true },
+      { "text": "$m_1 = m_2$", "correct": false },
+      { "text": "$m_1 \\cdot m_2 = 1$", "correct": false },
+      { "text": "$\\frac{m_1}{m_2} = -1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La relación indica que la segunda recta requiere tener la pendiente de la primera pero vuelta al revés de cabeza y con el signo frontal conmutado.",
+    "explanation": "El cruce formando ángulos rectos puros exige analíticamente que las inclinaciones de dichas entidades respondan a una relación de inverso multiplicativo aderezada con una carga en negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TU",
+    "question": "¿Cómo se denomina y se representa la fórmula general inicial obligada para modelar una recta apoyándose netamente en dos puntos designados como $(x_1,y_1)$ y $(x_2,y_2)$?",
+    "image": null,
+    "options": [
+      { "text": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$", "correct": true },
+      { "text": "$m = \\frac{x_2 - x_1}{y_2 - y_1}$", "correct": false },
+      { "text": "$m = (y_2 - y_1)(x_2 - x_1)$", "correct": false },
+      { "text": "$m = \\frac{y_2 + y_1}{x_2 + x_1}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La pendiente equivale invariablemente a computar la diferencia total mostrada en alturas seccionada y mediada por el cambio en el largo de los desplazamientos horizontales.",
+    "explanation": "La inclinación real de un segmento uniendo dos puntos no es sino el cociente del cambio manifestado en su eje de abscisas versus la ordenada (la clásica elevación dividiendo el recorrido).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TV",
+    "question": "¿Qué nombre recibe el proceso operativo minucioso encargado de ir trasladando factores de un lado al otro para así resolver la ecuación orientada a una variable específica?",
+    "image": null,
+    "options": [
+      { "text": "Despeje o transposición de términos", "correct": true },
+      { "text": "Asimilación global de valores polinómicos", "correct": false },
+      { "text": "Racionalización invertida y fraccionaria", "correct": false },
+      { "text": "Ajuste equitativo del trinomio estructural", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta técnica involucra acciones básicas como el pasar sumando al restar en contraparte u orientar las bases que multiplican al sendero de la partición.",
+    "explanation": "La estrategia que se emplea sistemáticamente invirtiendo las operaciones activas con la aspiración de dejar desnuda y sola a una literal se titula despeje en el entorno matemático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TW",
+    "question": "¿Cuál resulta ser en su formato polinómico final el área geométrica de un rectángulo si la longitud de sus bases se expresan respectivamente con las formas abstractas $(x + 2)$ y $(x - 2)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 4$", "correct": true },
+      { "text": "$x^2 + 4$", "correct": false },
+      { "text": "$x^2 - 4x + 4$", "correct": false },
+      { "text": "$x^2 + 4x - 4$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Para llegar al cálculo definitivo de la superficie del recinto bastará simplemente con evocar un notable producto entre binomios emparejados en conjugación directa.",
+    "explanation": "Al cruzar el vector que engloba la medida larga versus la pequeña se orquesta y materializa la expresión natural que deviene inexorablemente en una limpia e innegable diferencia de orden cuadrático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TX",
+    "question": "¿Cómo se llama en los círculos de estudio el mítico teorema o andamiaje matemático que consiente y agiliza calcular de golpe potencias astronómicas de binomios auxilidado por un bloque de coeficientes combinatorios?",
+    "image": null,
+    "options": [
+      { "text": "Binomio de Newton", "correct": true },
+      { "text": "Triángulo algebraico de la sucesión de Pascal", "correct": false },
+      { "text": "Regla empírica fundamental de L'Hôpital extendida", "correct": false },
+      { "text": "Lema matemático general propuesto por el teórico Gauss", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre ensalza la figura del icónico físico con la anécdota de la manzana el cual modeló su formalización moderna.",
+    "explanation": "El aclamado teorema postulado por el matemático sir Isaac Newton entrega una herramienta magistral capaz de desenvolver binomios con potencias superiores guiando sus componentes al compás de variaciones en factoriales algebraicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TY",
+    "question": "¿Cuál es la expresión genérica de suma ligada estrechamente a la fórmula del legendario Binomio de Newton utilizado masivamente para desmenuzar las entrañas de $(a+b)^n$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sum_{k=0}^n C(n,k) a^{n-k} b^k$", "correct": true },
+      { "text": "$\\sum_{k=1}^n n! a^{n-k} b^{k+1}$", "correct": false },
+      { "text": "$\\sum_{k=0}^n \\frac{n}{k} a^n b^k$", "correct": false },
+      { "text": "$\\sum_{k=0}^n C(n,k) (ab)^{n-k}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Apreciarás de inmediato que los numerales enarbolando el poder de la base principal comienzan a ceder su cuantía escalón a escalón otorgándole la soberanía al segundo elemento gradualmente.",
+    "explanation": "El sumatorio dicta la pauta general que el primer segmento declina su exponente descendiendo suavemente desde $n$ al peldaño nulo al tanto que la otra letra del binomio florece a la par auxiliada en su nacimiento por los coeficientes combinacionales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12TZ",
+    "question": "¿Qué nombre de cuño o etiqueta técnica reciben los valiosos coeficientes del enaltecido binomio de Newton que curiosamente se obtienen trazando o descifrando el célebre triángulo de Pascal?",
+    "image": null,
+    "options": [
+      { "text": "Coeficientes binomiales", "correct": true },
+      { "text": "Coeficientes correlativos independientes", "correct": false },
+      { "text": "Bases de numeración simétricas relativas", "correct": false },
+      { "text": "Constantes de asimilación geométrica pura", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El sobrenombre adoptado obedece fidedignamente al hecho ineludible de brotar de la expansión sistemática propia de los denominados binomios.",
+    "explanation": "Los guarismos organizados celosamente en la estructura piramidal francesa del matemático Blaise Pascal ostentan el rimbombante título oficial de coeficientes binomiales dado su uso inherente enfocado a la combinatoria matemática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UA",
+    "question": "¿Cómo se denomina la condensación factorizada lograda al amalgamar la multiplicación extensa de $(x + y)(x^2 - xy + y^2)$?",
+    "image": null,
+    "options": [
+      { "text": "Suma de cubos", "correct": true },
+      { "text": "Diferencia extendida de potencias cúbicas", "correct": false },
+      { "text": "Trinomio unificado al margen de su nivel cúbico", "correct": false },
+      { "text": "Binomio en su base con exponente progresivo", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta disposición evoca exactamente el andamiaje dispuesto como factor inicial provisto de una suma general o adición primaria.",
+    "explanation": "Pese a parecer un desarrollo de magnitudes mayores al multiplicar metódicamente todos los frentes posibles se anularán los engranajes intermedios revelando únicamente dos figuras elevadas firmemente al cubo separadas por una franca suma.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UB",
+    "question": "¿Qué tipo de identidad matemática de abolengo representa el andamiaje compuesto por la formación de $(x - y)(x^2 + xy + y^2)$?",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cubos factorizada", "correct": true },
+      { "text": "Suma simétrica fraccionada de polinomios cúbicos", "correct": false },
+      { "text": "Diferencia base de los cuadrados en expansión mayor", "correct": false },
+      { "text": "Exponente asimétrico derivado de su binomio mixto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Visualiza sin errar que el pequeño elemento o paréntesis de la izquierda ostenta una sustracción explícita para comandar la acción.",
+    "explanation": "La conformación exhibida pertenece indubitablemente al manual o protocolo estándar que se exige paso a paso con miras a diseccionar en sus elementos originales a una tradicional y genuina diferencia dictada mediante cubos perfectos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UC",
+    "question": "¿Cuál es la fórmula o expresión de desarrollo estandarizada ligada al binomio $(1 + x)^n$ considerando plenamente a la literal $n$ en su papel de un natural comprobado?",
+    "image": null,
+    "options": [
+      { "text": "$1 + nx + \\frac{n(n-1)}{2!}x^2 + \\dots$", "correct": true },
+      { "text": "$1 + x^n + \\frac{n(x+1)}{2} + \\dots$", "correct": false },
+      { "text": "$1 + \\frac{nx}{n!} + \\frac{(x-1)}{2!}x^2 + \\dots$", "correct": false },
+      { "text": "$n + x^n + nx^2 + \\dots$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Al iniciar con el número unitario, toda la fórmula asimila una mutación veloz donde las iteraciones recaen con brutalidad exclusiva hacia la única variable o término latente $x$.",
+    "explanation": "Con base en la reglamentación que impera dictada por Newton, el esquema se desgrana ubicando invariablemente divisores factoriales a medida que la literal se apodera progresivamente de las potencias ascendentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UD",
+    "question": "¿Cómo se llama la identidad simplificada y unificada de Legendre que resulta de la sumatoria explícita descrita como $(a+b)^2 + (a-b)^2$?",
+    "image": null,
+    "options": [
+      { "text": "$2(a^2 + b^2)$", "correct": true },
+      { "text": "$4ab$", "correct": false },
+      { "text": "$a^2 + b^2$", "correct": false },
+      { "text": "$2(a^2 - b^2)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es la identidad hermanada con la diferencia; en esta iteración sin embargo los factores conjugados entran en franco declive salvándose a la vista únicamente una estricta dualidad cuadrática.",
+    "explanation": "Cuando operamos la suma franca de ambos desarrollos, el balance central cruzado (es decir $2ab$ contrapuesto a su adversario negativo) queda enteramente suprimido dejando en pie majestuosamente el par idéntico duplicado de las bases elevadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UE",
+    "question": "¿Qué nombre genérico o alias recibe el procedimiento algebraico abocado a generar o construir un trinomio cuadrado perfecto de la nada tomando de inspiración la base coja de $x^2 + bx$?",
+    "image": null,
+    "options": [
+      { "text": "Completar el cuadrado", "correct": true },
+      { "text": "Racionalización parcial de ecuación de grado doble", "correct": false },
+      { "text": "Integración del coeficiente central en arreglo simétrico", "correct": false },
+      { "text": "Agrupamiento y reducción del formato cuadrático inestable", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La propia etiqueta con la cual se le bautiza a este truco revela su verdadera esencia y misión oculta que es dotar al polinomio irregular de la pieza exacta que le faltaba para cerrar un área en equilibrio geométrico.",
+    "explanation": "El ardid o trampa metodológica de proveer forzosamente al polinomio truncado de la cifra o cola aditiva necesaria que logre encuadrarlo satisfactoriamente dentro de un desarrollo de binomio se intitula o llama completar el cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UF",
+    "question": "¿Cuál es exactamente el término o expresión que se requiere sumar y restar equitativamente de forma simultánea para poder completar el famoso cuadrado valiéndose de la base preexistente en $x^2 + bx$?",
+    "image": null,
+    "options": [
+      { "text": "$(\\frac{b}{2})^2$", "correct": true },
+      { "text": "$\\frac{b^2}{4a}$", "correct": false },
+      { "text": "$(\\frac{b}{a})^2$", "correct": false },
+      { "text": "$(\\frac{x}{2})^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El valor del remiendo se fragua extirpando a la mitad de la cifra que acompañe a la equis unitaria y procediendo a darle fuertemente un empujón al multiplicarla consigo misma a la dos.",
+    "explanation": "Para garantizar y rubricar de manera incuestionable el balance numérico deseado, la regla de oro nos prescribe tajantemente tomar la mitad justa del factor $b$ para después exponerlo ineludiblemente bajo un certero cuadrado perfecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UG",
+    "question": "¿Cómo se llama el formato o silueta característica de una ecuación cuadrática exhibida sin tapujos de la manera matemática descrita como $a(x - h)^2 + k = 0$?",
+    "image": null,
+    "options": [
+      { "text": "Forma canónica", "correct": true },
+      { "text": "Forma polinómica o modo extendido universal", "correct": false },
+      { "text": "Forma resolutiva pura o formato integral generalizado", "correct": false },
+      { "text": "Forma mixta y seccionada en variables de grado múltiple", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta modalidad de escritura gráfica presume o grita fuertemente de tajo el punto de vértice o eje pivote, lo que la reviste de un carácter inconfundible y modelo de enseñanza áulica.",
+    "explanation": "A la disposición organizada de la manera descrita, que entremezcla binomios al cuadrado perfectos anexados a desplazamientos verticales fijos se le denomina usualmente bajo el rimbombante título de ecuación generalizada expresada en forma canónica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UH",
+    "question": "¿Qué nombre técnico o alias detenta y recibe la vital expresión encasillada como $b^2 - 4ac$ al momento de diseccionar e investigar la naturaleza íntima propia de una fórmula cuadrática en acción?",
+    "image": null,
+    "options": [
+      { "text": "Discriminante", "correct": true },
+      { "text": "Coeficiente radical orientador de la parábola", "correct": false },
+      { "text": "Factor asimétrico generador de cortes sobre el eje vertical", "correct": false },
+      { "text": "Término independiente mutado al cuadrado numérico puro", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre atestigua y alude directamente a su potestad incuestionable e irrebatible de dictar la suerte y discriminar las clases o la carencia de las raíces numéricas presentes.",
+    "explanation": "El discriminante ostenta en la cumbre del álgebra este rol fundamental al sentenciar si la parábola perforará la línea con dos intersecciones evidentes, con solo una suave caricia tangencial, o si acaso flotará perpetuamente evadiendo su roce.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UI",
+    "question": "¿Cuál es la condición estricta e innegociable de asimetría impuesta al determinante o discriminante $\\Delta$ que se requiere para garantizar el feliz arribo de dos sólidas y diferenciadas soluciones u opciones reales cruzando el plano?",
+    "image": null,
+    "options": [
+      { "text": "Discriminante mayor que cero ($\\Delta > 0$)", "correct": true },
+      { "text": "Discriminante igualado de tajo en el número nulo ($\\Delta = 0$)", "correct": false },
+      { "text": "Discriminante hundido por debajo del margen neutral ($\\Delta < 0$)", "correct": false },
+      { "text": "Discriminante expresado forzosamente como fracción fraccionaria exacta", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Imagina la barrera de la raíz; si a ésta la nutres y agasajas con el fruto de una cantidad o alimento afirmativamente positivo te devolverá indudablemente frutos gemelos con signo cambiante en suma y resta.",
+    "explanation": "La exigencia rigurosa de tener a la vista un discriminante ostentando un marco netamente positivo otorga automáticamente vía libre a que la resolutiva general genere y provea par de valores funcionales totalmente viables, lógicos y desiguales entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UJ",
+    "question": "¿Cómo se calcula o se denomina a nivel de fórmula condensada la suma general directa de las incógnitas o raíces desprendidas de una típica ecuación cuadrática delineada por el molde de $ax^2 + bx + c = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{-b}{a}$ (relaciones de Cardano-Vieta)", "correct": true },
+      { "text": "$\\frac{c}{a}$", "correct": false },
+      { "text": "$\\frac{-c}{b}$", "correct": false },
+      { "text": "$\\frac{a}{b}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta singularidad es desenterrada al contrastar con sagacidad la equivalencia del opuesto ligado al sector lineal versus la omnipresencia del acompañante de la zona cuadrática.",
+    "explanation": "Gracias al aporte analítico de las inmortales fórmulas o demostraciones originadas por Vieta resulta sumamente revelador y expedito advertir que la agrupación sumatoria de ambas vertientes o soluciones del binomio recae en el cociente negativizado del número $b$ alzado sobre el coeficiente principal $a$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UK",
+    "question": "¿Cuál es en síntesis la fórmula del teorema de vieta que encapsula indudablemente al producto directo resultante de multiplicar entre sí ambas ramas de las raíces de una clásica ecuación de orden dos?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{c}{a}$", "correct": true },
+      { "text": "$\\frac{-b}{a}$", "correct": false },
+      { "text": "$\\frac{c}{b}$", "correct": false },
+      { "text": "$\\frac{a}{c}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Pese a lo enrevesado que pudiera lucir el panorama de las expansiones numéricas para adivinar el cruce de multiplicaciones bastará confrontar llanamente el elemento solitario contra la fuerza que dirige el cuadrado sin asomo de mutar sus signos vitales.",
+    "explanation": "El producto o saldo de la cruza de un par de opciones resolutivas destiladas con origen en ecuaciones de la referida casta o estirpe cuadrática se ciñe irrevocablemente al radio exacto existente entre la marca o cota constante denominada c partiendo del nivel de factor jefe o letra a.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UL",
+    "question": "¿Qué famoso teorema algebraico corrobora de manera tajante la premisa que postula que si en un caso hipotético al efectuar una evaluación $P(c)$ nos resulta en cero, forzosamente la pieza $(x-c)$ funge obligatoriamente y sin peros como un factor divisor fiel de dicho polinomio?",
+    "image": null,
+    "options": [
+      { "text": "Teorema del factor", "correct": true },
+      { "text": "Teorema fundamental inherente al plano del álgebra de Descartes", "correct": false },
+      { "text": "Teorema del residuo absoluto para partición sintética", "correct": false },
+      { "text": "Teorema de la base de raíces múltiples y complejas correlativas", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta confirmación actúa como la consecuencia empírica o hermana melliza derivada orgánicamente de todo lo expuesto por el axioma o premisa del residuo y nos indica en palabras muy breves qué fragmentos originan una división exacta.",
+    "explanation": "El reputado teorema dictaminado en favor del factor nos sella en la mente la incuestionable aseveración de poseer al alcance una división carente de sobras o residuos siempre que probemos insertarle una cifra y la cota resultante sea engullida hasta el abismo de la nulidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UM",
+    "question": "¿Cómo se le denomina conceptualmente a cualquier enramada de expresión de corte fraccionario donde el potencial o grado expuesto por el equipo apostado en el numerador logre equiparar sin esfuerzo o rebasar altivamente en grado a su similar del nivel o piso denominador?",
+    "image": null,
+    "options": [
+      { "text": "Fracción algebraica impropia", "correct": true },
+      { "text": "Fracción algebraica parcial y desglosable", "correct": false },
+      { "text": "Fracción algebraica estandarizada y normal de grado múltiple", "correct": false },
+      { "text": "Expresión racional de magnitud asimétrica y mixta", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Se sirve fielmente del concepto ya afianzado en la aritmética más precoz dictando que ante una corpulencia superior ubicada en la capa superior la naturaleza se vuelca fuera de la zona considerada equilibrada o correcta.",
+    "explanation": "Estas formas catalogadas a la usanza como desproporcionadas o impropias fungen a lo largo del álgebra fungiendo un rol esencial para incitar a posteriori una ruptura forzada y obligatoria del marco acudiendo frecuentemente al mecanismo rudimentario que nos asiste como división larga e iterativa del mundo polinómico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UN",
+    "question": "¿Qué precisa y milenaria operación del terreno algebraico consiente y permite desahogar la presión y convertir el exceso propio de una fracción impropia disgregándola finalmente en un remanso compuesto por la suma virtuosa de un lindo polinomio agregándole un fleco que funge en un rol de dócil fracción remanente de casta propia?",
+    "image": null,
+    "options": [
+      { "text": "División larga de polinomios", "correct": true },
+      { "text": "Reducción mediante asimilación de términos y literales semejantes", "correct": false },
+      { "text": "Separación de estructuras con métodos rigurosos de adición sintética y lateral", "correct": false },
+      { "text": "Sustitución algorítmica iterada de rangos múltiples fraccionarios", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta labor artesanal exige acoplar en escalera o caseta la estructura en discordia tal y cual solíamos trazar los encuadres de la aritmética del pupitre de forma metódica.",
+    "explanation": "El encause y desenlace de acomodar a fuerza y ejecutar el minucioso recorrido característico acompasado por una gran división de trayecto largo rinde los jugosos frutos consistentes en obsequiar un cociente limpio en formato de bloque polinómico adjuntándole una cola de residuo que subsiste subyugada al yugo del divisor que quedó inalterable en el piso inferior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UO",
+    "question": "¿Cuál es en su formato ya expandido de cabo a rabo la fórmula inamovible necesaria y resolutiva para poder cuantificar la capacidad en volumen que ostentará o rellenará un hipotético cubo provisto de una arista dimensionada como $(x + 1)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^3 + 3x^2 + 3x + 1$", "correct": true },
+      { "text": "$x^3 + x^2 + x + 1$", "correct": false },
+      { "text": "$x^3 + 1$", "correct": false },
+      { "text": "$x^3 + 3x + 1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Por supuesto que deberás empujar todo el conjunto a volar sin temor hasta atrapar la tercera potencia asimilando y engullendo de paso los requerimientos expuestos desde el núcleo conceptual del desarrollo del binomio elevado al cubo.",
+    "explanation": "La operación nos dirige a asentar $(x + 1)^3$ lo que mediante una expansión fiel despliega airoso la serie de la variable principal declinando, coronada por el auxilio incondicional de los valores escalonados del legendario compás triple extraído desde Pascal dando como saldo $x^3 + 3x^2 + 3x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UP",
+    "question": "¿Qué nombre recibe formalmente en la comunidad escolar la acción simple emanada de la ley conmutativa empleada usualmente para trastocar sin miedo a represalias y cambiar hábilmente la posición en que figuran entrelazados por una suma algebraica los variopintos bloques o términos a nuestra entera conveniencia?",
+    "image": null,
+    "options": [
+      { "text": "Reordenamiento de términos", "correct": true },
+      { "text": "Extracción y consolidación de factores unitarios simples", "correct": false },
+      { "text": "Simplificación por asimilación reductiva de grados", "correct": false },
+      { "text": "Cancelación sistémica por paridad simétrica mutua", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esto es simplemente tomar lo del principio para ponerlo al cabo y viceversa sin dañar o mermar al delicado esqueleto gracias al aval de las igualdades aditivas.",
+    "explanation": "Este derecho natural cobijado bajo la premisa de que los factores no mutarán el final al enmendar su sitio nos propicia y favorece con un gran recurso que catalogamos como un lícito reacomodo, mutación o simplemente el reordenamiento estético y organizativo en las huestes de la matemática sin dañar la igualdad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UQ",
+    "question": "¿Cuál es en resumen de cuentas el monto asimilado o el saldo del valor ostentado a fuerza por el gran discriminante matemático ($\\Delta$) en el preciso instante en que una función con ascendencia y herencia cuadrática claudica y ostenta el gran rasgo de contar con resoluciones con paridad doble o mejor conocidas como raíces puras reales idénticas y gemelas en su trazo?",
+    "image": null,
+    "options": [
+      { "text": "Discriminante igual a cero ($\\Delta = 0$)", "correct": true },
+      { "text": "Discriminante de gran valor que asimile una base positiva y expansiva ($\\Delta > 0$)", "correct": false },
+      { "text": "Discriminante asimétrico y desigual cargado por el estigma del valor negativo incipiente ($\\Delta < 0$)", "correct": false },
+      { "text": "Discriminante volátil oscilando entre la unidad natural y el uno en negativo absoluto ($\\Delta = \\pm 1$)", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Solamente al extinguir la luz o evaporar el residuo o corazón palpitante y escondido dentro de los cimientos profundos de la afamada raíz nos forzará matemáticamente a claudicar ante una opción única y desprovista del par gemelo habitual que oscila entre un avance más el forzoso retroceso o resta.",
+    "explanation": "Saber que se pisa un terreno resguardado a la par que acorralado en la gran cifra del cero o la nulidad anula irreversiblemente por completo la bifurcación obligatoria inherente o emanada de la estandarizada general dictaminada causando así la fusión en una sola línea que conforma la solución duplicada en su seno íntimo de un valor tangencial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UR",
+    "question": "¿Qué singular nombre recae con gran fuerza sobre las espaldas del icónico y legendario punto céntrico que actúa a manera de ancla y eje vital y es el paraje geométrico inamovible donde coinciden irremediablemente al chocar los afamados y perpendiculares ejes que dan vida y rigen al infalible sistema ordenado o cuadriculado del plano o cuadrante que conocemos en honor de Descartes?",
+    "image": null,
+    "options": [
+      { "text": "Origen de coordenadas", "correct": true },
+      { "text": "Punto de fuga asintótico e irregular inmarcable en zona neutral", "correct": false },
+      { "text": "Centro focal estandarizado de curva proyectada o radián nulo", "correct": false },
+      { "text": "Vértice matriz general y superior orientador y conector para la cónica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta locación atípica que se jacta innegablemente de valer nada al ubicarse incrustada al son del doble y puro unísono o marca en valor $(0,0)$ nos traza el punto o lugar de inicio natural universal.",
+    "explanation": "La encrucijada donde la recta de las x entrelaza rumbos e irrumpe atravesando fidedignamente al sendero recto y perpendicular marcado desde arriba por las y se reconoce bajo el alias de origen de plano para fungir desde entonces y para siempre como el inicio o partida desde la nulidad general y global.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
