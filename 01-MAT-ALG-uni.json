@@ -1,0 +1,902 @@
+[
+  {
+    "id": "CEP12OY",
+    "question": "¿Cómo se llama el elemento numérico que multiplica a una variable o incógnita en un término algebraico?",
+    "image": null,
+    "options": [
+      { "text": "Coeficiente", "correct": true },
+      { "text": "Exponente", "correct": false },
+      { "text": "Literal", "correct": false },
+      { "text": "Radical", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es el número que acompaña a la letra, por ejemplo, el $5$ en la expresión $5x$.",
+    "explanation": "El coeficiente es el factor numérico que multiplica a la parte literal en un término algebraico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12OZ",
+    "question": "¿Cuál es la fórmula general de la diferencia de cuadrados?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 - b^2 = (a - b)(a + b)$", "correct": true },
+      { "text": "$a^2 - b^2 = (a - b)^2$", "correct": false },
+      { "text": "$a^2 - b^2 = a^2 - 2ab + b^2$", "correct": false },
+      { "text": "$a^2 + b^2 = (a + b)(a - b)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El resultado es el producto de dos binomios conjugados.",
+    "explanation": "La diferencia de cuadrados se factoriza siempre como el producto de un binomio suma por un binomio resta con los mismos términos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PA",
+    "question": "¿Qué tipo de producto notable es la expresión $4x^4 - 121$?",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cuadrados", "correct": true },
+      { "text": "Binomio al cuadrado", "correct": false },
+      { "text": "Suma de cubos", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que ambos términos tienen raíz cuadrada exacta y están restándose.",
+    "explanation": "La expresión representa una diferencia de cuadrados ya que ambos términos ($4x^4$ y $121$) son cuadrados perfectos separados por un signo menos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PB",
+    "question": "¿Cómo se llama la expresión algebraica que consta de un solo término?",
+    "image": null,
+    "options": [
+      { "text": "Monomio", "correct": true },
+      { "text": "Binomio", "correct": false },
+      { "text": "Trinomio", "correct": false },
+      { "text": "Polinomio", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El prefijo griego que significa 'uno' te dará la respuesta.",
+    "explanation": "Un monomio es una expresión algebraica compuesta por un único término, sin sumas ni restas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PC",
+    "question": "¿Cuál es la fórmula del cuadrado de un binomio (suma)?",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)^2 = a^2 + 2ab + b^2$", "correct": true },
+      { "text": "$(a + b)^2 = a^2 + b^2$", "correct": false },
+      { "text": "$(a + b)^2 = a^2 + ab + b^2$", "correct": false },
+      { "text": "$(a + b)^2 = a^2 - 2ab + b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Recuerda que el desarrollo genera un trinomio cuadrado perfecto.",
+    "explanation": "El cuadrado de la suma de dos cantidades es igual al cuadrado de la primera, más el doble producto de ambas, más el cuadrado de la segunda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PD",
+    "question": "¿Qué tipo de producto notable corresponde a la expresión $(x + 5)^2$?",
+    "image": null,
+    "options": [
+      { "text": "Binomio al cuadrado (suma)", "correct": true },
+      { "text": "Binomios conjugados", "correct": false },
+      { "text": "Binomios con término común", "correct": false },
+      { "text": "Diferencia de cuadrados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que es una suma de dos términos elevada a la potencia dos.",
+    "explanation": "La expresión es un binomio (dos términos) elevado al cuadrado, cuyo desarrollo resulta en un trinomio cuadrado perfecto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PE",
+    "question": "¿Cómo se denomina el término que no tiene variable explícita en una expresión algebraica?",
+    "image": null,
+    "options": [
+      { "text": "Término independiente", "correct": true },
+      { "text": "Coeficiente principal", "correct": false },
+      { "text": "Grado absoluto", "correct": false },
+      { "text": "Factor común", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es el número que aparece solo, sin estar acompañado por una letra visible.",
+    "explanation": "El término independiente es aquel que no está acompañado de una variable visible, lo que significa que su grado respecto a la variable es cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PF",
+    "question": "¿Cuál es la fórmula del cuadrado de un binomio (resta)?",
+    "image": null,
+    "options": [
+      { "text": "$(a - b)^2 = a^2 - 2ab + b^2$", "correct": true },
+      { "text": "$(a - b)^2 = a^2 - b^2$", "correct": false },
+      { "text": "$(a - b)^2 = a^2 + 2ab - b^2$", "correct": false },
+      { "text": "$(a - b)^2 = a^2 + b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El término central del trinomio resultante siempre lleva signo negativo.",
+    "explanation": "El cuadrado de la resta de dos cantidades es el cuadrado de la primera, menos el doble producto de ambas, más el cuadrado de la segunda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PG",
+    "question": "¿Qué tipo de producto notable se identifica en la expresión $(2x - 3)^2$?",
+    "image": null,
+    "options": [
+      { "text": "Binomio al cuadrado (resta)", "correct": true },
+      { "text": "Binomios conjugados", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false },
+      { "text": "Diferencia de cuadrados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es una resta de dos cantidades elevada a la segunda potencia.",
+    "explanation": "Al tratarse de la sustracción de dos términos elevada al cuadrado, se clasifica como el cuadrado de un binomio en su forma de resta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PH",
+    "question": "¿Cómo se llama la expresión algebraica compuesta por exactamente dos términos?",
+    "image": null,
+    "options": [
+      { "text": "Binomio", "correct": true },
+      { "text": "Monomio", "correct": false },
+      { "text": "Trinomio", "correct": false },
+      { "text": "Ecuación", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Utiliza el prefijo que indica 'dos', como en el caso de bicicleta.",
+    "explanation": "Un binomio es un polinomio que consta de exactamente dos términos algebraicos unidos por un signo de suma o resta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PI",
+    "question": "¿Cuál es la fórmula del producto de binomios conjugados?",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)(a - b) = a^2 - b^2$", "correct": true },
+      { "text": "$(a + b)(a - b) = a^2 - 2ab + b^2$", "correct": false },
+      { "text": "$(a + b)(a - b) = a^2 + b^2$", "correct": false },
+      { "text": "$(a + b)(a - b) = (a - b)^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El resultado final de esta operación solo tiene dos términos y siempre se están restando.",
+    "explanation": "El producto de dos binomios conjugados da siempre como resultado una diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PJ",
+    "question": "¿Qué nombre recibe la expresión $(x + 7)(x - 7)$ sin desarrollarla?",
+    "image": null,
+    "options": [
+      { "text": "Binomios conjugados", "correct": true },
+      { "text": "Binomios con término común", "correct": false },
+      { "text": "Diferencia de cuadrados", "correct": false },
+      { "text": "Binomio al cuadrado", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa que los binomios son casi idénticos, únicamente cambia el signo central.",
+    "explanation": "Son binomios conjugados porque tienen los mismos términos exactos, pero uno es una suma y el otro es una diferencia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PK",
+    "question": "¿Cuál es la fórmula del cubo de un binomio (suma)?",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$", "correct": true },
+      { "text": "$(a + b)^3 = a^3 + b^3$", "correct": false },
+      { "text": "$(a + b)^3 = a^3 + 3ab + b^3$", "correct": false },
+      { "text": "$(a + b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El desarrollo matemático completo produce un polinomio de cuatro términos, todos con signo positivo.",
+    "explanation": "El cubo de una suma involucra los cubos de cada término más los triples productos intercalando los cuadrados correspondientes de los términos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PL",
+    "question": "¿Cómo se llama la regla de productos notables que permite desarrollar $(a + b)^3$?",
+    "image": null,
+    "options": [
+      { "text": "Cubo de un binomio", "correct": true },
+      { "text": "Suma de cubos", "correct": false },
+      { "text": "Trinomio al cubo", "correct": false },
+      { "text": "Cuadrado de un binomio", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La expresión base es un polinomio de dos términos y está elevada a la potencia tres.",
+    "explanation": "La operación consiste en elevar a la tercera potencia un polinomio conformado por dos términos, por lo que se denomina cubo de un binomio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PM",
+    "question": "¿Qué nombre recibe la expresión algebraica que contiene exactamente tres términos?",
+    "image": null,
+    "options": [
+      { "text": "Trinomio", "correct": true },
+      { "text": "Monomio", "correct": false },
+      { "text": "Binomio", "correct": false },
+      { "text": "Cuatrinomio", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El prefijo griego que debes usar es el mismo que se utiliza para figuras de tres lados.",
+    "explanation": "Un trinomio es un tipo de expresión algebraica que consta estrictamente de tres términos sumados o restados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PN",
+    "question": "¿Cuál es la fórmula del cubo de un binomio (resta)?",
+    "image": null,
+    "options": [
+      { "text": "$(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$", "correct": true },
+      { "text": "$(a - b)^3 = a^3 - b^3$", "correct": false },
+      { "text": "$(a - b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$", "correct": false },
+      { "text": "$(a - b)^3 = a^3 - 3ab - b^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "En el desarrollo resultante de cuatro términos, los signos se alternan comenzando siempre con positivo.",
+    "explanation": "El desarrollo del cubo de una diferencia genera cuatro términos donde los signos se van alternando en secuencia: $+$, $-$, $+$, $-$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PO",
+    "question": "¿Qué tipo de producto notable corresponde a la expresión $(2x - 1)^3$?",
+    "image": null,
+    "options": [
+      { "text": "Cubo de un binomio (resta)", "correct": true },
+      { "text": "Diferencia de cubos", "correct": false },
+      { "text": "Binomio al cuadrado", "correct": false },
+      { "text": "Trinomio al cubo", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa con atención que hay dos términos restándose y que todo el conjunto está elevado a la tercera potencia.",
+    "explanation": "Es el cubo de un binomio, específicamente de una resta, y su expansión constará de cuatro términos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PP",
+    "question": "¿Cómo se denomina el proceso de escribir una expresión algebraica como el producto de sus factores?",
+    "image": null,
+    "options": [
+      { "text": "Factorización", "correct": true },
+      { "text": "Simplificación", "correct": false },
+      { "text": "Desarrollo", "correct": false },
+      { "text": "Racionalización", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Este procedimiento consiste en transformar sumas y restas complejas en multiplicaciones indicadas.",
+    "explanation": "La factorización es la descomposición sistemática de una expresión matemática en forma de multiplicación de expresiones más simples.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PQ",
+    "question": "¿Cuál es la fórmula correcta para factorizar una diferencia de cubos?",
+    "image": null,
+    "options": [
+      { "text": "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$", "correct": true },
+      { "text": "$a^3 - b^3 = (a - b)(a^2 - ab + b^2)$", "correct": false },
+      { "text": "$a^3 - b^3 = (a - b)^3$", "correct": false },
+      { "text": "$a^3 - b^3 = (a + b)(a^2 - ab + b^2)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El primer factor mantiene el signo de resta inicial y el trinomio resultante contiene puros signos positivos.",
+    "explanation": "Una diferencia de cubos siempre se factoriza multiplicando el binomio diferencia de sus raíces cúbicas por un trinomio de signos enteramente positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PR",
+    "question": "¿Qué tipo de factorización se debe aplicar a la expresión $x^3 - 8$?",
+    "image": null,
+    "options": [
+      { "text": "Diferencia de cubos", "correct": true },
+      { "text": "Diferencia de cuadrados", "correct": false },
+      { "text": "Cubo de un binomio", "correct": false },
+      { "text": "Factor común", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Ambos términos que conforman la expresión poseen raíz cúbica exacta y se encuentran separados por un signo negativo.",
+    "explanation": "La expresión matemática representa una diferencia de cubos debido a que $x^3$ y $8$ (que equivale a $2^3$) se están restando.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PS",
+    "question": "¿Cuál es la fórmula correcta para factorizar una suma de cubos?",
+    "image": null,
+    "options": [
+      { "text": "$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$", "correct": true },
+      { "text": "$a^3 + b^3 = (a + b)(a^2 + ab + b^2)$", "correct": false },
+      { "text": "$a^3 + b^3 = (a + b)^3$", "correct": false },
+      { "text": "$a^3 + b^3 = (a - b)(a^2 + ab + b^2)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El primer factor corresponde a la suma de las raíces y el trinomio tiene un signo negativo localizado en su término central.",
+    "explanation": "La suma de cubos se factoriza multiplicando el binomio suma de las raíces cúbicas por un trinomio que se encarga de alternar los signos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PT",
+    "question": "¿Qué tipo de factorización corresponde a la expresión $27x^3 + 64$?",
+    "image": null,
+    "options": [
+      { "text": "Suma de cubos", "correct": true },
+      { "text": "Trinomio cuadrado perfecto", "correct": false },
+      { "text": "Diferencia de cubos", "correct": false },
+      { "text": "Factor común por agrupación", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tanto el coeficiente número $27$ como el $64$ tienen raíz cúbica exacta, y están unidos por un signo positivo.",
+    "explanation": "Dado que ambos términos son cubos perfectos ($(3x)^3$ y $4^3$) unidos por un signo de suma, se identifica como suma de cubos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PU",
+    "question": "¿Cómo se llama el método de factorización que extrae la parte literal o numérica presente en todos los términos de un polinomio?",
+    "image": null,
+    "options": [
+      { "text": "Factor común monomio", "correct": true },
+      { "text": "Diferencia de cuadrados", "correct": false },
+      { "text": "Agrupación de términos", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta técnica es esencialmente la operación inversa a aplicar la propiedad distributiva de la multiplicación.",
+    "explanation": "La factorización por factor común consiste en aislar el máximo común divisor de absolutamente todos los términos que conforman la expresión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PV",
+    "question": "¿Cuál es la expresión general de la fórmula del trinomio cuadrado perfecto?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 + 2ab + b^2 = (a + b)^2$", "correct": true },
+      { "text": "$a^2 + 2ab + b^2 = (a + b)(a - b)$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2 = a^2 + b^2$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2 = (a - b)^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El resultado simplificado equivale a un binomio elevado a la segunda potencia.",
+    "explanation": "Todo trinomio cuadrado perfecto proviene analíticamente del desarrollo del cuadrado de un binomio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PW",
+    "question": "¿Qué tipo de factorización se aplica directamente a la expresión $x^2 + 6x + 9$?",
+    "image": null,
+    "options": [
+      { "text": "Trinomio cuadrado perfecto", "correct": true },
+      { "text": "Diferencia de cuadrados", "correct": false },
+      { "text": "Suma de cubos", "correct": false },
+      { "text": "Factor común", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La raíz del primer término multiplicada por la del tercer término y luego multiplicadas por dos te arroja el término central.",
+    "explanation": "El primer y tercer término resultan ser cuadrados perfectos positivos, y el término medio es justamente el doble producto de sus raíces.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PX",
+    "question": "¿Cómo se denomina la expresión $a^2 + 2ab + b^2$ antes de ser sometida a factorización?",
+    "image": null,
+    "options": [
+      { "text": "Trinomio cuadrado perfecto", "correct": true },
+      { "text": "Binomio al cuadrado", "correct": false },
+      { "text": "Trinomio de la forma general", "correct": false },
+      { "text": "Polinomio irregular", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es un polinomio de tres términos cuyas características intrínsecas permiten agruparlo en un cuadrado exacto.",
+    "explanation": "Se le llama trinomio cuadrado perfecto porque es el resultado exacto obtenido al elevar un binomio al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PY",
+    "question": "¿Cuál es la fórmula general utilizada típicamente para resolver ecuaciones de segundo grado (fórmula cuadrática)?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$", "correct": true },
+      { "text": "$x = \\frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$", "correct": false },
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$", "correct": false },
+      { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{a}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La fórmula incluye el discriminante encapsulado dentro de una raíz cuadrada y divide toda la expresión por el doble del coeficiente principal.",
+    "explanation": "La fórmula general de ecuaciones de segundo grado proporciona las soluciones posibles de una ecuación cuadrática al igualarla a cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12PZ",
+    "question": "¿Cómo se llama el fragmento de la fórmula cuadrática que está contenido dentro de la raíz cuadrada ($b^2 - 4ac$)?",
+    "image": null,
+    "options": [
+      { "text": "Discriminante", "correct": true },
+      { "text": "Coeficiente principal", "correct": false },
+      { "text": "Radical neutro", "correct": false },
+      { "text": "Factor constante", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su nombre hace referencia directa a su utilidad para 'discriminar' o clasificar la naturaleza de las raíces de la ecuación.",
+    "explanation": "El discriminante sirve para determinar matemáticamente si las raíces de la ecuación son reales distintas, reales iguales o complejas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QA",
+    "question": "¿Qué nombre recibe el valor numérico que al sustituirse anula un polinomio haciéndolo igual a cero?",
+    "image": null,
+    "options": [
+      { "text": "Raíz o cero del polinomio", "correct": true },
+      { "text": "Término independiente", "correct": false },
+      { "text": "Coeficiente principal", "correct": false },
+      { "text": "Grado absoluto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "También se le conoce coloquialmente como la solución de la ecuación obtenida al momento en que el polinomio se iguala a cero.",
+    "explanation": "Las raíces o ceros de un polinomio representan aquellos valores de la variable que logran que toda la expresión valga cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QB",
+    "question": "¿Cuál es la fórmula resultante del producto de dos binomios con término común del tipo $(x + a)(x + b)$?",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + (a + b)x + ab$", "correct": true },
+      { "text": "$x^2 + abx + (a + b)$", "correct": false },
+      { "text": "$x^2 + 2abx + b^2$", "correct": false },
+      { "text": "$x^2 + ax + bx + a^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El coeficiente asociado al término lineal es la suma de los no comunes, y el número independiente es precisamente su producto.",
+    "explanation": "Al aplicar la regla distributiva y simplificar, se obtiene $x^2$ sumado a la suma de $a$ y $b$ multiplicada por $x$, agregando el producto de $a$ y $b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QC",
+    "question": "¿Qué tipo de producto notable se aprecia con claridad en la expresión $(x + 3)(x + 5)$?",
+    "image": null,
+    "options": [
+      { "text": "Binomios con término común", "correct": true },
+      { "text": "Binomios conjugados", "correct": false },
+      { "text": "Binomio al cuadrado", "correct": false },
+      { "text": "Suma de cuadrados", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Observa con atención que tienen la variable $x$ idéntica en ambos paréntesis, pero sus cifras acompañantes difieren.",
+    "explanation": "Estas expresiones algebraicas se catalogan como binomios con término común dado que comparten un término idéntico pero sus componentes numéricos varían.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QD",
+    "question": "¿Cómo se describe el método de factorización adecuado para trinomios de la forma $x^2 + bx + c$?",
+    "image": null,
+    "options": [
+      { "text": "Búsqueda de dos números que sumen $b$ y multipliquen $c$", "correct": true },
+      { "text": "Extraer la raíz cuadrada del primer y tercer término", "correct": false },
+      { "text": "Agrupar el polinomio en pares y sacar un factor común", "correct": false },
+      { "text": "Aplicar de manera directa el algoritmo de división sintética", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Este procedimiento se fundamenta de forma inversa a lo que ocurre durante el desarrollo de binomios que poseen un término en común.",
+    "explanation": "Para poder factorizar un trinomio bajo esta forma, se indagan dos cantidades que cumplan con total simultaneidad el sumar al coeficiente lineal y multiplicar al término numérico independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QE",
+    "question": "¿Cuál es la propiedad del álgebra que decreta que si el producto $ab = 0$, consecuentemente $a = 0$ o $b = 0$?",
+    "image": null,
+    "options": [
+      { "text": "Propiedad del producto cero", "correct": true },
+      { "text": "Propiedad distributiva", "correct": false },
+      { "text": "Propiedad conmutativa", "correct": false },
+      { "text": "Ley de cancelación", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Esta propiedad en específico resulta vital cuando se requiere resolver ecuaciones algebraicas debidamente factorizadas e igualadas a cero.",
+    "explanation": "La propiedad del producto cero establece con firmeza que la única posibilidad real de que una multiplicación tenga cero como resultado es que cuando menos uno de sus factores individuales valga cero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QF",
+    "question": "¿Cómo se le llama formalmente al procedimiento empleado para llevar a cabo la división de un polinomio entre otro polinomio distinto?",
+    "image": null,
+    "options": [
+      { "text": "División algebraica", "correct": true },
+      { "text": "Multiplicación polinómica", "correct": false },
+      { "text": "Fracción parcial", "correct": false },
+      { "text": "Racionalización cruzada", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es la operación analítica homóloga a la conocida división larga ejecutada con números enteros, pero aplicada en el terreno de las literales algebraicas.",
+    "explanation": "Se le llama división algebraica al algoritmo debidamente estructurado cuyo propósito es encontrar con precisión el cociente y el residuo derivado entre dos expresiones algebraicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QG",
+    "question": "¿Cuál es el nombre otorgado a la regla o método para efectuar la división de un polinomio entre un factor $(x - c)$ de forma simplificada?",
+    "image": null,
+    "options": [
+      { "text": "Regla de Ruffini o división sintética", "correct": true },
+      { "text": "Teorema del resto", "correct": false },
+      { "text": "Regla de Cramer", "correct": false },
+      { "text": "Método de igualación", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Además de su nombre epónimo, se le reconoce extensamente en el ámbito académico como un tipo de división sintética.",
+    "explanation": "La regla de Ruffini, también denominada como división sintética, constituye un algoritmo acelerado que utiliza los coeficientes numéricos para realizar divisiones polinómicas ágilmente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QH",
+    "question": "¿Qué importante teorema postula que el resto o residuo obtenido al dividir un polinomio $P(x)$ entre el divisor $(x - c)$ es exactamente $P(c)$?",
+    "image": null,
+    "options": [
+      { "text": "Teorema del resto", "correct": true },
+      { "text": "Teorema del factor", "correct": false },
+      { "text": "Teorema fundamental del álgebra", "correct": false },
+      { "text": "Ley de los exponentes", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Tiene una enorme utilidad matemática porque permite averiguar el sobrante de una división en particular sin la necesidad imperiosa de ejecutarla.",
+    "explanation": "El teorema del resto asegura fehacientemente que la acción de evaluar el polinomio en determinado valor $c$, produce el mismo resultado que el residuo extraído de la división matemática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QI",
+    "question": "¿Cómo se llama el teorema útil para localizar las potenciales raíces racionales vinculando a un polinomio con sus coeficientes numéricos?",
+    "image": null,
+    "options": [
+      { "text": "Teorema de la raíz racional", "correct": true },
+      { "text": "Teorema del residuo", "correct": false },
+      { "text": "Ley de los signos de Descartes", "correct": false },
+      { "text": "Regla de L'Hôpital", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Su metodología se cimenta fundamentalmente en fraccionar los divisores del coeficiente independiente sobre aquellos del coeficiente líder o principal.",
+    "explanation": "El teorema mencionado provee un catálogo cerrado de fracciones numéricas que representan las únicas candidatas reales para poder fungir como raíces de carácter racional del polinomio en cuestión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QJ",
+    "question": "¿Cuál es la expresión general en forma desarrollada obtenida de elevar un binomio genérico al cuadrado?",
+    "image": null,
+    "options": [
+      { "text": "$a^2 \\pm 2ab + b^2$", "correct": true },
+      { "text": "$a^2 \\pm ab + b^2$", "correct": false },
+      { "text": "$a^2 + b^2$", "correct": false },
+      { "text": "$a^2 - b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Recuerda siempre que este desarrollo ostenta los cuadrados perfectos pertenecientes a cada extremo junto al doble producto correspondiente en el centro.",
+    "explanation": "El procedimiento de expandir $(a \\pm b)^2$, arrojará invariablemente un trinomio estructurado con el cuadrado del primer constituyente, el doble producto cruzado y el cuadrado del último factor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QK",
+    "question": "¿Qué nombre acapara el producto notable expresado como $(a + b)(c + d)$ previo a la aplicación rigurosa de la propiedad distributiva?",
+    "image": null,
+    "options": [
+      { "text": "Producto de binomios", "correct": true },
+      { "text": "Suma de cuadrados", "correct": false },
+      { "text": "Binomios conjugados", "correct": false },
+      { "text": "Trinomio cuadrado perfecto", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Visualmente se compone de la yuxtaposición de dos agrupaciones polinomiales distintas donde cada cual porta dos términos.",
+    "explanation": "En vista de que cada paréntesis aloja una expresión compuesta por dos elementos independientes, se acostumbra a referirse a la multiplicación general simplemente como un producto ordinario de binomios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QL",
+    "question": "¿Cómo se llama aquella manifestación o expresión algebraica que alberga variables bajo el interior del símbolo de una raíz?",
+    "image": null,
+    "options": [
+      { "text": "Expresión radical algebraica", "correct": true },
+      { "text": "Expresión logarítmica", "correct": false },
+      { "text": "Polinomio entero", "correct": false },
+      { "text": "Fracción algebraica", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La terminología usada para designarla posee un estrecho parentesco lingüístico con el signo empleado habitualmente para denotar una raíz matemática.",
+    "explanation": "Toda expresión calificada bajo el nombre de radical algebraica se distingue por tener sus incógnitas resguardadas dentro del área designada como radicando de cualquier tipo de raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QM",
+    "question": "¿Cuál es la metodología principal aceptada para racionalizar convenientemente un denominador monomio que posea la tipología $\\sqrt{a}$?",
+    "image": null,
+    "options": [
+      { "text": "Multiplicar numerador y denominador por $\\sqrt{a}$", "correct": true },
+      { "text": "Elevar integralmente la fracción entera a su cuadrado", "correct": false },
+      { "text": "Añadir de manera sumativa $\\sqrt{a}$ a ambos lados", "correct": false },
+      { "text": "Proceder a multiplicar exclusivamente la zona del denominador por $\\sqrt{a}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Requieres forzosamente ejecutar una multiplicación global empleando una fracción neutra que sea capaz de neutralizar de forma efectiva el componente del denominador inferior.",
+    "explanation": "El acto de efectuar multiplicaciones en las zonas superior e inferior empleando exactamente idéntica raíz propicia que el denominador derive en $\\sqrt{a} \\cdot \\sqrt{a} = a$, suprimiendo eficazmente la incómoda raíz.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QN",
+    "question": "¿Qué clase de mecanismo de racionalización amerita ser ejecutado cuando se tiene de frente un denominador estructurado como el binomio $a + \\sqrt{b}$?",
+    "image": null,
+    "options": [
+      { "text": "Racionalización por conjugado", "correct": true },
+      { "text": "Factorización apoyada en un factor común", "correct": false },
+      { "text": "Extracción forzosa de raíz tipo doble", "correct": false },
+      { "text": "Técnica matemática orientada en la sustitución", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Es necesario sacar provecho absoluto a la maniobra del producto notable capaz de forjar de la nada una pertinente diferencia orientada a los cuadrados.",
+    "explanation": "La operación de multiplicar simétricamente las zonas del numerador e inferior con el denominado conjugado del binomio origina en su lugar geométrico una provechosa diferencia de cuadrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QO",
+    "question": "¿Cómo se suele denominar la mecánica de sumar y también restar secciones que ostentan exactamente las mismas literales con sus exponentes dentro del marco algebraico?",
+    "image": null,
+    "options": [
+      { "text": "Reducción de términos semejantes", "correct": true },
+      { "text": "Factorización genérica adscrita a monomios", "correct": false },
+      { "text": "Técnica de despeje pertinente de incógnitas", "correct": false },
+      { "text": "Rutina formal de evaluación de corte polinómico", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Este hábito de trabajo concentra sus esfuerzos en disminuir el tamaño visual englobando todo lo que resulte coincidente.",
+    "explanation": "La práctica bautizada formalmente como reducción de términos abarca concretamente la amalgama a través de suma y resta de todo coeficiente siempre que cuenten con una base letrada en total paridad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QP",
+    "question": "¿Qué apelativo reciben colectivamente las fracciones de un polinomio integradas por variables idénticas acompañadas por sus exponentes idénticos?",
+    "image": null,
+    "options": [
+      { "text": "Términos semejantes", "correct": true },
+      { "text": "Términos de carácter puramente independiente", "correct": false },
+      { "text": "Estructuras ligadas a binomios conjugados", "correct": false },
+      { "text": "Unidades desglosadas por factores comunes", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "A pesar de la discrepancia obvia de los coeficientes precedentes, sus partes simbólicas resultan copias perfectas inalteradas.",
+    "explanation": "Estos grupos catalogados como semejantes detentan el privilegio exclusivo de poder adicionarse matemáticamente o disminuir su valor entre sí dadas sus insuperables homologías.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QQ",
+    "question": "¿Cuál es la pauta a seguir emanada de las rigurosas leyes de exponentes para culminar a buen término una operación de multiplicación como $a^m \\cdot a^n$?",
+    "image": null,
+    "options": [
+      { "text": "Producto de potencias de igual base sumando exponentes: $a^{m+n}$", "correct": true },
+      { "text": "Producto originando potencias mutuas: $a^{m \\cdot n}$", "correct": false },
+      { "text": "Restructuración disminuida de la fracción superior: $a^{m-n}$", "correct": false },
+      { "text": "División subyacente impuesta por el factor: $a^{m/n}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "En los escenarios que muestran una base replicada sometida al impacto de multiplicar, sus marcadores potentes resuelven integrándose mediante adición.",
+    "explanation": "La preceptiva en este rubro matemático subraya meridianamente que es indispensable retener el símbolo principal intacto mientras que la sección dependiente debe adicionarse formalmente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QR",
+    "question": "¿De qué modo se condensa sistemáticamente la configuración $(a^m)^n$ invocando el peso estricto de las convenciones ligadas a las potencias de exponentes?",
+    "image": null,
+    "options": [
+      { "text": "Potencia de una potencia multiplicando índices: $a^{m \\cdot n}$", "correct": true },
+      { "text": "Suma ascendente propiciada de los estratos: $a^{m+n}$", "correct": false },
+      { "text": "Cálculo intrínseco de fuerza encadenada: $a^{m^n}$", "correct": false },
+      { "text": "Detracción numérica impuesta en el índice: $a^{m-n}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "La norma que supervisa el fenómeno en que la propia potencia se somete al poder de otra requiere obligatoriamente concretarse a través de un simple cruce o multiplicación.",
+    "explanation": "Acorde a las pautas establecidas con un consenso innegable por la normativa algebrista de exponente a exponente, debe procederse a un encuentro puramente multiplicativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QS",
+    "question": "¿Cuál asoma como la equivalencia correcta de índole polinomial para interpretar certeramente a la forma del producto condicionado $(ab)^n$?",
+    "image": null,
+    "options": [
+      { "text": "Potencia de un producto asimilado: $a^n b^n$", "correct": true },
+      { "text": "Derivación aislada de factores frontales: $a^n b$", "correct": false },
+      { "text": "Anclaje terminal de potencias unificadas: $ab^n$", "correct": false },
+      { "text": "Expansión simétrica de órdenes ascendentes: $a^{n+1} b^{n+1}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El factor de fuerza exponencial que merodea externamente recae sin concesiones por igual sobre la integridad de todos los integrantes.",
+    "explanation": "La derivación estipulada para una multiplicación interna recubierta, es francamente similar en resultados al impacto singular y por separado que experimentan los entes involucrados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QT",
+    "question": "¿Cuál es la denominación reglamentaria y el producto final tras dividir un par de bases homólogas dispuestas como $\\frac{a^m}{a^n}$ (con $a \\neq 0$)?",
+    "image": null,
+    "options": [
+      { "text": "Cociente de potencias de igual base restando sus potencias: $a^{m-n}$", "correct": true },
+      { "text": "Fusión agregada de exponentes dispares procedentes: $a^{m+n}$", "correct": false },
+      { "text": "Cruce de operaciones divididas simétricamente: $a^{m/n}$", "correct": false },
+      { "text": "Desglose por emparejamiento numérico proporcional: $a^{m \\cdot n}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El enfrentamiento de dos denominaciones idénticas, deriva en una reducción de su potencia, un camino complementario pero inverso a cuando se ven multiplicadas.",
+    "explanation": "Se procede invariablemente con el salvaguardo de la figura céntrica y al poder original que posaba altivo, se le recorta o resta con fiereza la porción subordinada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QU",
+    "question": "¿Cuál será la determinación inapelable provista por las esferas del álgebra frente a una cantidad dispar al cero encumbrada al poder del cero ($a^0$, asumiendo $a \\neq 0$)?",
+    "image": null,
+    "options": [
+      { "text": "$1$ (salvo que la base equigale a un cero manifiesto)", "correct": true },
+      { "text": "$0$ (remanente de un saldo matemático inactivo)", "correct": false },
+      { "text": "$a$ (permanencia fija tras una aparente anulación)", "correct": false },
+      { "text": "$-1$ (inmersión en cifras de ámbito negativo directo)", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "Puede deducirse imaginando una división crasa y pura entre un todo consigo propio de acuerdo con un patrón estandarizado constante.",
+    "explanation": "Todo cuerpo analítico y cifra comprobable ajenos en esencia al cero resultará forzosamente equivalentes a una unidad de no estar impedidos de ser elevados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QV",
+    "question": "¿De qué precisa forma se debe tratar o reescribir una potencia amarrada indiscutiblemente a cifras en negativo representadas por un claro $a^{-n}$?",
+    "image": null,
+    "options": [
+      { "text": "$1 / (a^n)$ invirtiendo con firmeza de posición a la base implicada", "correct": true },
+      { "text": "$-a^n$ anexando de plano la negatividad y conservando el nivel base", "correct": false },
+      { "text": "$\\frac{1}{a^{-n}}$ bajando la pieza a cuestas portando el lastre original adscrito", "correct": false },
+      { "text": "$a^{1/n}$ procediendo al mutado hacia fracciones para limpiar su rango", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["MEMO", "TEST"],
+    "hint": "El indicativo restador adherido sin remedio fuge en verdad como una clara proclama exigente al inverso multiplicativo de dicha letra en disputa.",
+    "explanation": "El símbolo expuesto demanda de la parte inferior pasar irremediablemente a ser denominador en pos del saldo en positivo innegociable de la susodicha letra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
