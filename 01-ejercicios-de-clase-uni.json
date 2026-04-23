@@ -1,204 +1,204 @@
 [
   {
-    "id": "CEP00VG",
-    "question": "Un alumno puede inscribirse en solo una de las siguientes actividades: $5$ talleres de lectura, $3$ de ajedrez y $4$ clases de pintura. ¿De cuántas formas puede elegir su actividad?",
-    "image": null,
-    "options": [
-      { "text": "$60$", "correct": false },
-      { "text": "$12$", "correct": true },
-      { "text": "$15$", "correct": false },
-      { "text": "$7$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Dado que los eventos son mutuamente excluyentes, aplica el principio de adición sumando las opciones disponibles.",
-    "explanation": "Se suman las opciones de cada categoría ya que solo puede elegir una sola actividad en total: $5 + 3 + 4 = 12$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
     "id": "CEP00VH",
-    "question": "En una papelería hay $7$ tipos de bolígrafos, $5$ tipos de lápices y $3$ tipos de marcadores. Si un cliente compra solo un artículo, ¿cuántas opciones tiene?",
+    "question": "Un alumno del CEPREDIX puede inscribirse en solo una de las siguientes actividades: 5 talleres de lectura, 3 de ajedrez y 4 clases de pintura. ¿De cuántas formas puede elegir su actividad?",
     "image": null,
     "options": [
-      { "text": "$105$", "correct": false },
-      { "text": "$12$", "correct": false },
-      { "text": "$15$", "correct": true },
-      { "text": "$8$", "correct": false }
+      { "text": "12", "correct": true },
+      { "text": "60", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "7", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Como solo se tomará una decisión única entre varios conjuntos diferentes, se debe usar la regla de la suma.",
-    "explanation": "Aplicando el principio aditivo, se suma la cantidad de cada tipo de artículo: $7 + 5 + 3 = 15$ opciones.",
+    "hint": "Aplica el principio aditivo de conteo, ya que solo puede elegir una actividad en total.",
+    "explanation": "Como solo puede elegir una actividad (son eventos mutuamente excluyentes), se suman las opciones: $5 + 3 + 4 = 12$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VI",
-    "question": "Para el postre, puedes elegir entre $4$ sabores de helado, $2$ pasteles o $3$ gelatinas. Si solo puedes elegir un postre, ¿cuántas opciones diferentes tienes?",
+    "question": "En una papelería hay 7 tipos de bolígrafos, 5 tipos de lápices y 3 tipos de marcadores. Si un cliente compra solo un artículo, ¿cuántas opciones tiene?",
     "image": null,
     "options": [
-      { "text": "$24$", "correct": false },
-      { "text": "$6$", "correct": false },
-      { "text": "$9$", "correct": true },
-      { "text": "$12$", "correct": false }
+      { "text": "15", "correct": true },
+      { "text": "105", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Identifica que la elección es única e independiente, por lo que las opciones se suman entre sí.",
-    "explanation": "Al poder elegir únicamente un postre del total disponible, se suman todas las alternativas: $4 + 2 + 3 = 9$.",
+    "hint": "Como los eventos no ocurren simultáneamente, debes sumar todas las posibilidades.",
+    "explanation": "Aplicamos el principio aditivo porque solo comprará un artículo en total: $7 + 5 + 3 = 15$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VJ",
-    "question": "Una tienda de mascotas tiene $8$ perros, $6$ gatos y $2$ conejos en adopción. Si una familia decide adoptar solo una mascota, ¿cuántas opciones tienen?",
+    "question": "Para el postre, puedes elegir entre 4 sabores de helado, 2 pasteles o 3 gelatinas. Si solo puedes elegir un postre, ¿cuántas opciones diferentes tienes?",
     "image": null,
     "options": [
-      { "text": "$96$", "correct": false },
-      { "text": "$14$", "correct": false },
-      { "text": "$16$", "correct": true },
-      { "text": "$10$", "correct": false }
+      { "text": "9", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "12", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Al llevarse exclusivamente un ejemplar, se agrupan todas las especies en un solo total disponible.",
-    "explanation": "El total de opciones corresponde a la suma de todas las mascotas disponibles en la tienda: $8 + 6 + 2 = 16$.",
+    "hint": "Recuerda que la palabra 'o' en probabilidad y combinatoria generalmente indica suma.",
+    "explanation": "Dado que solo se puede tomar una decisión excluyente entre las tres categorías, sumamos: $4 + 2 + 3 = 9$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VK",
-    "question": "En una repisa se deben colocar $5$ trofeos distintos en línea recta. ¿De cuántas maneras diferentes se pueden ordenar?",
+    "question": "Una tienda de mascotas tiene 8 perros, 6 gatos y 2 conejos en adopción. Si una familia decide adoptar solo una mascota, ¿cuántas opciones tienen?",
     "image": null,
     "options": [
-      { "text": "$25$", "correct": false },
-      { "text": "$120$", "correct": true },
-      { "text": "$15$", "correct": false },
-      { "text": "$5$", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "96", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "10", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "EXANI II"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Para ordenar elementos distintos en una fila donde importa el orden y se usan todos, calcula el factorial $n!$.",
-    "explanation": "Se aplica el cálculo de permutaciones lineales utilizando el factorial de cinco: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
+    "hint": "Suma el total de animales disponibles.",
+    "explanation": "La familia solo adoptará un animal de todos los disponibles, por lo que aplicamos la suma: $8 + 6 + 2 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VL",
-    "question": "$4$ amigos van al cine y se sientan en $4$ asientos contiguos. ¿De cuántas formas diferentes pueden acomodarse?",
+    "question": "En una repisa se deben colocar 5 trofeos distintos en línea recta. ¿De cuántas maneras diferentes se pueden ordenar?",
     "image": null,
     "options": [
-      { "text": "$24$", "correct": true },
-      { "text": "$16$", "correct": false },
-      { "text": "$12$", "correct": false },
-      { "text": "$8$", "correct": false }
+      { "text": "120", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "5", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Dado que el orden de los lugares es relevante y todos toman asiento, debes utilizar una permutación de todos los elementos.",
-    "explanation": "El número total de acomodos es el factorial de la cantidad de amigos: $4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+    "hint": "Cuando ordenas la totalidad de elementos distintos en una línea, aplicas el factorial: $n!$.",
+    "explanation": "Para ordenar $n$ elementos diferentes en $n$ posiciones, calculamos el factorial: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VM",
-    "question": "¿Cuántas palabras diferentes (con o sin sentido) se pueden formar con todas las letras de la palabra 'SOL'?",
+    "question": "4 amigos van al cine y se sientan en 4 asientos contiguos. ¿De cuántas formas diferentes pueden acomodarse?",
     "image": null,
     "options": [
-      { "text": "$9$", "correct": false },
-      { "text": "$3$", "correct": false },
-      { "text": "$6$", "correct": true },
-      { "text": "$12$", "correct": false }
+      { "text": "24", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "IPN", "UAM"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La palabra tiene tres letras diferentes y se requiere ordenarlas todas, lo cual corresponde al cálculo de su factorial.",
-    "explanation": "Las combinaciones posibles con $3$ letras distintas se obtienen operando su factorial: $3! = 3 \\times 2 \\times 1 = 6$.",
+    "hint": "Calcula la permutación de 4 elementos ($4!$).",
+    "explanation": "El número de formas de ordenar 4 personas en 4 asientos es la permutación $P_4 = 4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VN",
-    "question": "Un profesor tiene $8$ exámenes distintos para entregar a $8$ alumnos. ¿De cuántas maneras diferentes puede repartir los exámenes?",
+    "question": "¿Cuántas palabras diferentes (con o sin sentido) se pueden formar con todas las letras de la palabra 'SOL'?",
     "image": null,
     "options": [
-      { "text": "$40,320$", "correct": true },
-      { "text": "$5,040$", "correct": false },
-      { "text": "$8$", "correct": false },
-      { "text": "$64$", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "12", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "UNAM", "EXANI II"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Multiplica en orden descendente desde el número total de exámenes hasta la unidad para hallar la permutación total.",
-    "explanation": "Las maneras distintas de repartirlos equivalen al factorial de ocho: $8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 40,320$.",
+    "hint": "Cuenta el número de letras y realiza la permutación total.",
+    "explanation": "La palabra tiene 3 letras diferentes, por lo que las formas de ordenarlas son $3! = 3 \\times 2 \\times 1 = 6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VO",
-    "question": "En una carrera de $100 \\text{ metros}$ participan $3$ corredores. ¿De cuántas formas diferentes pueden quedar en 1ro, 2do y 3er lugar?",
+    "question": "Un profesor del CEPREDIX tiene 8 exámenes distintos para entregar a 8 alumnos. ¿De cuántas maneras diferentes puede repartir los exámenes?",
     "image": null,
     "options": [
-      { "text": "$9$", "correct": false },
-      { "text": "$6$", "correct": true },
-      { "text": "$3$", "correct": false },
-      { "text": "$12$", "correct": false }
+      { "text": "40,320", "correct": true },
+      { "text": "5,040", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "64", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para definir las posiciones se tienen opciones que disminuyen por cada lugar ocupado, multiplicándose entre sí.",
-    "explanation": "Existen $3$ candidatos para el primer lugar, $2$ para el segundo y $1$ para el tercero, lo cual da: $3 \\times 2 \\times 1 = 6$ formas.",
+    "hint": "Aplica $n!$ para encontrar de cuántas formas se pueden asignar los exámenes a los estudiantes.",
+    "explanation": "Dado que importa el orden y se entregan todos los exámenes a diferentes estudiantes, es $8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 40,320$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VP",
-    "question": "Se tienen $7$ cuadros diferentes que se van a colgar en una pared en línea. ¿De cuántas formas distintas se pueden organizar?",
+    "question": "En una carrera de 100 metros participan 3 corredores. ¿De cuántas formas diferentes pueden quedar en 1ro, 2do y 3er lugar?",
     "image": null,
     "options": [
-      { "text": "$720$", "correct": false },
-      { "text": "$5,040$", "correct": true },
-      { "text": "$49$", "correct": false },
-      { "text": "$343$", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "12", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El acomodo lineal sin repetición de todos los elementos disponibles implica calcular la permutación de todos ellos.",
-    "explanation": "Al ordenar $7$ elementos distintos en una fila, se calcula su factorial: $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5,040$.",
+    "hint": "Identifica que se ocupan todos los corredores en distintas posiciones.",
+    "explanation": "El cálculo corresponde a la permutación $3!$, la cual equivale a $3 \\times 2 \\times 1 = 6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VQ",
-    "question": "Una pista circular tiene un perímetro de $62.8 \\text{ m}$. Considerando $\\pi = 3.14$, ¿cuál es el radio de la pista?",
+    "question": "Se tienen 7 cuadros diferentes que se van a colgar en una pared en línea. ¿De cuántas formas distintas se pueden organizar?",
     "image": null,
     "options": [
-      { "text": "$20 \\text{ m}$", "correct": false },
-      { "text": "$10 \\text{ m}$", "correct": true },
-      { "text": "$31.4 \\text{ m}$", "correct": false },
-      { "text": "$5 \\text{ m}$", "correct": false }
+      { "text": "5,040", "correct": true },
+      { "text": "720", "correct": false },
+      { "text": "49", "correct": false },
+      { "text": "343", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "BUAP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para encontrar el radio requieres despejarlo de la fórmula del perímetro que es $P = 2\\pi r$.",
-    "explanation": "Al despejar se obtiene $r = \\frac{P}{2\\pi}$. Sustituyendo: $r = \\frac{62.8}{2(3.14)} = \\frac{62.8}{6.28} = 10 \\text{ m}$.",
+    "hint": "Usa el factorial de 7 para calcular las combinaciones de posiciones.",
+    "explanation": "Al usar 7 elementos distintos en 7 lugares, el resultado es la permutación $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5,040$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VR",
+    "question": "Una pista circular tiene un perímetro de $62.8 \\text{ m}$. Considerando $\\pi = 3.14$, ¿cuál es el radio de la pista?",
+    "image": null,
+    "options": [
+      { "text": "$10 \\text{ m}$", "correct": true },
+      { "text": "$20 \\text{ m}$", "correct": false },
+      { "text": "$31.4 \\text{ m}$", "correct": false },
+      { "text": "$5 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula del perímetro es $P = 2\\pi r$. Debes usar el despeje $r = \\frac{P}{2\\pi}$.",
+    "explanation": "Sustituyendo el perímetro y el valor de pi: $r = \\frac{62.8}{2(3.14)} = \\frac{62.8}{6.28} = 10 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VS",
     "question": "El diámetro de una llanta de bicicleta es de $70 \\text{ cm}$. ¿Cuál es su perímetro (circunferencia)? (Usa $\\pi = 3.14$)",
     "image": null,
     "options": [
@@ -207,52 +207,52 @@
       { "text": "$439.6 \\text{ cm}$", "correct": false },
       { "text": "$35 \\text{ cm}$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Toma en consideración la fórmula donde se despejó el diámetro a partir del perímetro: $d = \\frac{P}{\\pi}$.",
-    "explanation": "El perímetro se halla multiplicando $\\pi$ directamente por el diámetro completo de la figura: $P = (3.14)(70) = 219.8 \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VS",
-    "question": "El perímetro de un espejo circular es de $15.7 \\text{ cm}$. ¿Cuál es su diámetro? (Usa $\\pi = 3.14$)",
-    "image": null,
-    "options": [
-      { "text": "$2.5 \\text{ cm}$", "correct": false },
-      { "text": "$5 \\text{ cm}$", "correct": true },
-      { "text": "$10 \\text{ cm}$", "correct": false },
-      { "text": "$7.85 \\text{ cm}$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Para obtener este resultado es necesario despejar la variable requerida de la fórmula de circunferencia $P = \\pi d$.",
-    "explanation": "Al realizar el despeje del diámetro la ecuación queda como $d = \\frac{P}{\\pi}$. Sustituyendo obtenemos $d = \\frac{15.7}{3.14} = 5 \\text{ cm}$.",
+    "hint": "Dado que te dan el diámetro completo, aplica directamente $P = \\pi d$.",
+    "explanation": "El perímetro se obtiene multiplicando el diámetro por pi: $P = (3.14)(70 \\text{ cm}) = 219.8 \\text{ cm}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VT",
-    "question": "Una moneda tiene un radio de $1.5 \\text{ cm}$. ¿Cuál es la longitud de su circunferencia? (Usa $\\pi = 3.14$)",
+    "question": "El perímetro de un espejo circular es de $15.7 \\text{ cm}$. ¿Cuál es su diámetro? (Usa $\\pi = 3.14$)",
     "image": null,
     "options": [
-      { "text": "$4.71 \\text{ cm}$", "correct": false },
-      { "text": "$7.065 \\text{ cm}$", "correct": false },
-      { "text": "$9.42 \\text{ cm}$", "correct": true },
-      { "text": "$3 \\text{ cm}$", "correct": false }
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$2.5 \\text{ cm}$", "correct": false },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$7.85 \\text{ cm}$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "EXANI II"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Ten presente la relación matemática expresada como $r = \\frac{C}{2\\pi}$ de donde puedes despejar la circunferencia.",
-    "explanation": "Sustituyendo el valor directo en la fórmula lineal: $C = 2\\pi r = 2(3.14)(1.5) = 9.42 \\text{ cm}$.",
+    "hint": "Partiendo de la fórmula $P = \\pi d$, el despeje directo que requieres es $d = \\frac{P}{\\pi}$.",
+    "explanation": "Sustituimos el perímetro: $d = \\frac{15.7 \\text{ cm}}{3.14} = 5 \\text{ cm}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VU",
+    "question": "Una moneda tiene un radio de $1.5 \\text{ cm}$. ¿Cuál es la longitud de su circunferencia? (Usa $\\pi = 3.14$)",
+    "image": null,
+    "options": [
+      { "text": "$9.42 \\text{ cm}$", "correct": true },
+      { "text": "$4.71 \\text{ cm}$", "correct": false },
+      { "text": "$7.065 \\text{ cm}$", "correct": false },
+      { "text": "$3 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la circunferencia con el radio utiliza la fórmula $C = 2\\pi r$.",
+    "explanation": "Calculamos $C = 2(3.14)(1.5 \\text{ cm})$. Al multiplicar $2 \\times 1.5$ obtenemos $3$, y $3 \\times 3.14 = 9.42 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VV",
     "question": "Si la circunferencia de una mesa es $125.6 \\text{ cm}$, ¿cuál es la medida de su radio? (Usa $\\pi = 3.14$)",
     "image": null,
     "options": [
@@ -261,305 +261,305 @@
       { "text": "$10 \\text{ cm}$", "correct": false },
       { "text": "$62.8 \\text{ cm}$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Debes realizar un despeje matemático a partir de la ecuación primaria de la circunferencia que dicta $C = 2\\pi r$.",
-    "explanation": "Despejamos el radio dividiendo el valor de la circunferencia entre el doble de pi: $r = \\frac{C}{2\\pi} = \\frac{125.6}{6.28} = 20 \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VV",
-    "question": "Una persona tiene $4$ blusas, $3$ faldas y $2$ pares de zapatos. ¿Cuántos outfits diferentes puede armar si usa una prenda de cada categoría?",
-    "image": null,
-    "options": [
-      { "text": "$9$", "correct": false },
-      { "text": "$24$", "correct": true },
-      { "text": "$14$", "correct": false },
-      { "text": "$36$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Cuando varias decisiones secuenciales se unen para formar un conjunto, se utiliza el principio multiplicativo.",
-    "explanation": "Las combinaciones totales se determinan multiplicando las opciones de cada grupo: $4 \\times 3 \\times 2 = 24$ atuendos.",
+    "hint": "Usa el despeje $r = \\frac{C}{2\\pi}$ para hallar el radio a partir de la circunferencia.",
+    "explanation": "Aplicamos el despeje: $r = \\frac{125.6}{2(3.14)} = \\frac{125.6}{6.28} = 20 \\text{ cm}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VW",
-    "question": "En un restaurante ofrecen $3$ tipos de sopa, $4$ guisados y $2$ postres. ¿Cuántos menús diferentes de tres tiempos se pueden elegir?",
+    "question": "Un estudiante del CEPREDIX tiene 4 blusas, 3 faldas y 2 pares de zapatos. ¿Cuántos outfits diferentes puede armar si usa una prenda de cada categoría?",
     "image": null,
     "options": [
-      { "text": "$24$", "correct": true },
-      { "text": "$9$", "correct": false },
-      { "text": "$12$", "correct": false },
-      { "text": "$18$", "correct": false }
+      { "text": "24", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "36", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para armar el menú requieres forzosamente un platillo de cada tiempo, por ende debes multiplicar las opciones disponibles.",
-    "explanation": "El producto aritmético de las cantidades nos arroja el universo de menús: $3 \\times 4 \\times 2 = 24$ combinaciones.",
+    "hint": "Aplica el principio multiplicativo de probabilidad debido a que los eventos ocurren de forma simultánea.",
+    "explanation": "Se multiplica la cantidad de opciones disponibles para cada categoría de forma simultánea: $4 \\times 3 \\times 2 = 24$ combinaciones posibles.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VX",
-    "question": "Un estudiante tiene $5$ playeras y $4$ pantalones. Sin embargo, hay $1$ playera roja que no se puede usar con $1$ pantalón verde porque no combinan. ¿Cuántos outfits diferentes puede formar?",
+    "question": "En un restaurante ofrecen 3 tipos de sopa, 4 guisados y 2 postres. ¿Cuántos menús diferentes de tres tiempos se pueden elegir?",
     "image": null,
     "options": [
-      { "text": "$20$", "correct": false },
-      { "text": "$19$", "correct": true },
-      { "text": "$18$", "correct": false },
-      { "text": "$9$", "correct": false }
+      { "text": "24", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "18", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "EXANI II"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Calcula el número máximo de combinaciones como si no existieran impedimentos y posteriormente resta los casos inviables.",
-    "explanation": "El total sin restricciones sería $5 \\times 4 = 20$. Al restar el único atuendo que no se usará, el resultado válido es $20 - 1 = 19$.",
+    "hint": "Usa la regla de la multiplicación para eventos combinados en tiempos simultáneos.",
+    "explanation": "Multiplicando las opciones de cada tiempo: $3 \\times 4 \\times 2 = 24$ menús diferentes.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VY",
-    "question": "En una heladería hay $3$ tipos de cono y $5$ sabores de helado. ¿Cuántas combinaciones diferentes de cono y un sabor de helado se pueden pedir?",
+    "question": "Un estudiante tiene 5 playeras y 4 pantalones. Sin embargo, hay 1 playera roja que no se puede usar con 1 pantalón verde porque no combinan. ¿Cuántos outfits diferentes puede formar?",
     "image": null,
     "options": [
-      { "text": "$15$", "correct": true },
-      { "text": "$8$", "correct": false },
-      { "text": "$10$", "correct": false },
-      { "text": "$25$", "correct": false }
+      { "text": "19", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "18", "correct": false },
+      { "text": "9", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El principio multiplicativo dicta que al requerir un elemento de un grupo y otro del segundo, se multiplican las posibilidades.",
-    "explanation": "Siguiendo la regla fundamental del conteo, el total es el producto de conos por sabores: $3 \\times 5 = 15$.",
+    "hint": "Obtén primero el total de combinaciones posibles mediante el principio multiplicativo y réstale la combinación condicional que no puede ser utilizada.",
+    "explanation": "El total de combinaciones teóricas es $5 \\times 4 = 20$. Como hay una mezcla exacta que no se usará, la restamos: $20 - 1 = 19$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00VZ",
-    "question": "Para comprar un auto, puedes elegir entre $4$ colores exteriores, $2$ tipos de tapicería y $2$ tipos de motor. ¿Cuántas configuraciones diferentes del auto existen?",
+    "question": "En una heladería hay 3 tipos de cono y 5 sabores de helado. ¿Cuántas combinaciones diferentes de cono y un sabor de helado se pueden pedir?",
     "image": null,
     "options": [
-      { "text": "$8$", "correct": false },
-      { "text": "$12$", "correct": false },
-      { "text": "$16$", "correct": true },
-      { "text": "$64$", "correct": false }
+      { "text": "15", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Dado que ninguna elección anula las demás y se debe conformar un vehículo completo, las opciones se deben multiplicar.",
-    "explanation": "Multiplicando las opciones independientes de cada nivel de personalización obtenemos: $4 \\times 2 \\times 2 = 16$.",
+    "hint": "Al ser un cono 'y' un helado, la conjunción indica multiplicación.",
+    "explanation": "Las combinaciones se determinan con $3 \\times 5 = 15$ opciones distintas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WA",
-    "question": "Una compañía A cobra $\$40 \\text{ pesos}$ de renta mensual más $\$3 \\text{ pesos}$ por minuto. La compañía B cobra $\$20 \\text{ pesos}$ de renta mensual más $\$5 \\text{ pesos}$ por minuto. ¿Después de cuántos minutos ambos planes cuestan lo mismo?",
+    "question": "Para comprar un auto, puedes elegir entre 4 colores exteriores, 2 tipos de tapicería y 2 tipos de motor. ¿Cuántas configuraciones diferentes del auto existen?",
     "image": null,
     "options": [
-      { "text": "$5 \\text{ minutos}$", "correct": false },
-      { "text": "$10 \\text{ minutos}$", "correct": true },
-      { "text": "$15 \\text{ minutos}$", "correct": false },
-      { "text": "$20 \\text{ minutos}$", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "64", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Desarrolla una ecuación lineal estructurada igualando el plan A con el plan B como $40 + 3x = 20 + 5x$.",
-    "explanation": "Resolviendo la ecuación para $x$: se resta $20$ a $40$ y $3x$ a $5x$, obteniendo $20 = 2x$, lo que se reduce a $x = 10$.",
+    "hint": "Calcula el producto de las opciones disponibles.",
+    "explanation": "Empleando el principio multiplicativo: $4 \\times 2 \\times 2 = 16$ configuraciones.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WB",
-    "question": "Un salón de fiestas A cobra $\$1500 \\text{ pesos}$ de renta más $\$50 \\text{ pesos}$ por invitado. El salón B cobra $\$500 \\text{ pesos}$ de renta más $\$100 \\text{ pesos}$ por invitado. ¿Con cuántos invitados cobrarán lo mismo?",
+    "question": "Una compañía A cobra $\\$40$ pesos de renta mensual más $\\$3$ pesos por minuto. La compañía B cobra $\\$20$ de renta mensual más $\\$5$ pesos por minuto. ¿Después de cuántos minutos ambos planes cuestan lo mismo?",
     "image": null,
     "options": [
-      { "text": "$10 \\text{ invitados}$", "correct": false },
-      { "text": "$15 \\text{ invitados}$", "correct": false },
-      { "text": "$20 \\text{ invitados}$", "correct": true },
-      { "text": "$25 \\text{ invitados}$", "correct": false }
+      { "text": "$10 \\text{ minutos}$", "correct": true },
+      { "text": "$5 \\text{ minutos}$", "correct": false },
+      { "text": "$15 \\text{ minutos}$", "correct": false },
+      { "text": "$20 \\text{ minutos}$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "El punto de equilibrio se localiza donde el cobro base sumado al costo por persona del salón A iguala al del salón B.",
-    "explanation": "Se iguala $1500 + 50x = 500 + 100x$. Acomodando términos afines: $1000 = 50x$, lo cual tras dividir entrega $x = 20$.",
+    "hint": "Iguala ambas ecuaciones para conocer el punto de intersección: $40 + 3x = 20 + 5x$.",
+    "explanation": "Al igualar: $40 + 3x = 20 + 5x$. Agrupando términos tenemos $40 - 20 = 5x - 3x$, lo que resulta en $20 = 2x$. Al dividir, obtenemos $x = 10 \\text{ minutos}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WC",
-    "question": "Juan tiene ahorrados $\$300 \\text{ pesos}$ y planea ahorrar $\$40 \\text{ pesos}$ semanales. Pedro tiene $\$100 \\text{ pesos}$ y ahorrará $\$80 \\text{ pesos}$ a la semana. ¿En cuántas semanas tendrán la misma cantidad?",
+    "question": "Un salón de fiestas A cobra $\\$1500$ pesos de renta más $\\$50$ pesos por invitado. El salón B cobra $\\$500$ pesos de renta más $\\$100$ pesos por invitado. ¿Con cuántos invitados cobrarán lo mismo?",
     "image": null,
     "options": [
-      { "text": "$3 \\text{ semanas}$", "correct": false },
-      { "text": "$4 \\text{ semanas}$", "correct": false },
-      { "text": "$5 \\text{ semanas}$", "correct": true },
-      { "text": "$6 \\text{ semanas}$", "correct": false }
+      { "text": "20", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "25", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Plantea que la base ahorrada más el ingreso semanal por el número de semanas debe ser igual para ambos: $300 + 40x = 100 + 80x$.",
-    "explanation": "Agrupando literales y constantes se obtiene $300 - 100 = 80x - 40x$, que da como resultado la simplificación $200 = 40x$, es decir $x = 5$.",
+    "hint": "Plantea la ecuación lineal igualando los modelos de ambos salones usando 'x' como número de invitados.",
+    "explanation": "$1500 + 50x = 500 + 100x$. Resolviendo: $1500 - 500 = 100x - 50x \\implies 1000 = 50x \\implies x = \\frac{1000}{50} = 20$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WD",
-    "question": "El gimnasio 'Fuerza' cobra $\$500 \\text{ pesos}$ de inscripción y $\$300 \\text{ pesos}$ mensuales. El gimnasio 'Salud' cobra $\$200 \\text{ pesos}$ de inscripción y $\$400 \\text{ pesos}$ mensuales. ¿A los cuántos meses habrás pagado lo mismo en ambos?",
+    "question": "Juan, estudiante del CEPREDIX, tiene ahorrados $\\$300$ pesos y planea ahorrar $\\$40$ pesos semanales. Pedro tiene $\\$100$ pesos y ahorrará $\\$80$ pesos a la semana. ¿En cuántas semanas tendrán la misma cantidad de dinero?",
     "image": null,
     "options": [
-      { "text": "$2 \\text{ meses}$", "correct": false },
-      { "text": "$3 \\text{ meses}$", "correct": true },
-      { "text": "$4 \\text{ meses}$", "correct": false },
-      { "text": "$5 \\text{ meses}$", "correct": false }
+      { "text": "5", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UAM", "BUAP"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Identifica la inscripción como la constante inicial y la mensualidad como el factor multiplicado por la variable de tiempo.",
-    "explanation": "Planteamos algebraicamente $500 + 300x = 200 + 400x$. Al restar se tiene $300 = 100x$, concluyendo en que $x = 3$.",
+    "hint": "Iguala los ahorros iniciales más la tasa de incremento por tiempo 'x'.",
+    "explanation": "La ecuación es $300 + 40x = 100 + 80x$. Despejando: $200 = 40x$, por tanto $x = \\frac{200}{40} = 5$ semanas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WE",
-    "question": "Un servicio de streaming A cobra $\$120 \\text{ pesos}$ al mes sin costo extra por película. El servicio B cobra $\$60 \\text{ pesos}$ al mes más $\$15 \\text{ pesos}$ por cada película. ¿Cuántas películas debes ver para pagar lo mismo en ambos?",
+    "question": "El gimnasio 'Fuerza' cobra $\\$500$ pesos de inscripción y $\\$300$ pesos mensuales. El gimnasio 'Salud' cobra $\\$200$ pesos de inscripción y $\\$400$ pesos mensuales. ¿A los cuántos meses habrás pagado lo mismo en ambos?",
     "image": null,
     "options": [
-      { "text": "$2 \\text{ películas}$", "correct": false },
-      { "text": "$3 \\text{ películas}$", "correct": false },
-      { "text": "$4 \\text{ películas}$", "correct": true },
-      { "text": "$5 \\text{ películas}$", "correct": false }
+      { "text": "3", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["GENERAL", "EXANI II"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Crea una igualdad donde un lado sea estrictamente constante y el otro una suma de la tarifa base con el cobro por filme: $120 = 60 + 15x$.",
-    "explanation": "Despejamos la ecuación pasando el costo fijo al otro lado: $120 - 60 = 15x \\Rightarrow 60 = 15x$, al dividir se concluye que $x = 4$.",
+    "hint": "Transforma el problema a una igualdad $500 + 300x = 200 + 400x$.",
+    "explanation": "$500 + 300x = 200 + 400x \\implies 500 - 200 = 400x - 300x \\implies 300 = 100x \\implies x = 3$ meses.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WF",
-    "question": "Un vendedor A tiene sueldo fijo de $\$2000 \\text{ pesos}$ más $\$50 \\text{ pesos}$ por producto vendido. El vendedor B no tiene sueldo fijo, pero gana $\$150 \\text{ pesos}$ por producto. ¿Cuántos productos deben vender para ganar igual?",
+    "question": "Un servicio de streaming A cobra $\\$120$ pesos al mes sin costo extra por película. El servicio B cobra $\\$60$ pesos al mes más $\\$15$ pesos por cada película. ¿Cuántas películas debes ver para pagar lo mismo en ambos?",
     "image": null,
     "options": [
-      { "text": "$10 \\text{ productos}$", "correct": false },
-      { "text": "$15 \\text{ productos}$", "correct": false },
-      { "text": "$20 \\text{ productos}$", "correct": true },
-      { "text": "$25 \\text{ productos}$", "correct": false }
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "5", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Notando que el modelo de B carece de constante inicial, iguala la expresión $2000 + 50x = 150x$ para descubrir el cruce.",
-    "explanation": "Mandando las variables a un solo lado: $2000 = 150x - 50x \\Rightarrow 2000 = 100x$. Por ende, la respuesta es $x = 20$.",
+    "hint": "Iguala el cobro estático a la ecuación de cobro mixto.",
+    "explanation": "Planteamos $120 = 60 + 15x$. Restamos $60$ en ambos lados para tener $60 = 15x$, lo que da $x = \\frac{60}{15} = 4$ películas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WG",
-    "question": "Una arrendadora de autos A cobra $\$800 \\text{ pesos}$ fijos diarios más $\$5 \\text{ pesos}$ por km. Otra B cobra $\$500 \\text{ pesos}$ fijos más $\$8 \\text{ pesos}$ por km. ¿A cuántos km de recorrido cobran lo mismo?",
+    "question": "Un vendedor A tiene sueldo fijo de $\\$2000$ pesos más $\\$50$ pesos por producto vendido. El vendedor B no tiene sueldo fijo, pero gana $\\$150$ pesos por producto. ¿Cuántos productos deben vender para ganar igual?",
     "image": null,
     "options": [
-      { "text": "$50 \\text{ km}$", "correct": false },
-      { "text": "$100 \\text{ km}$", "correct": true },
-      { "text": "$150 \\text{ km}$", "correct": false },
-      { "text": "$200 \\text{ km}$", "correct": false }
+      { "text": "20", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "25", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Vincula el precio final igualando las tarifas diarias fijadas más el incremento por kilómetro: $800 + 5x = 500 + 8x$.",
-    "explanation": "Reestructurando la igualdad: $800 - 500 = 8x - 5x \\Rightarrow 300 = 3x$. Con esto, la división muestra que $x = 100$.",
+    "hint": "La ecuación debe quedar del tipo $2000 + 50x = 150x$.",
+    "explanation": "Al igualar las ganancias $2000 + 50x = 150x$, despejamos pasando los $50x$ restando: $2000 = 100x$, resultando en $x = 20$ productos.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WH",
-    "question": "Ana tiene $\$1000 \\text{ pesos}$ y gasta $\$50 \\text{ pesos}$ diarios. Luis tiene $\$400 \\text{ pesos}$ y recibe $\$50 \\text{ pesos}$ diarios. ¿En cuántos días tendrán el mismo dinero?",
+    "question": "Una arrendadora de autos A cobra $\\$800$ pesos fijos diarios más $\\$5$ pesos por km recorrido. Otra B cobra $\\$500$ pesos fijos más $\\$8$ pesos por km. ¿A cuántos km de recorrido cobran lo mismo?",
     "image": null,
     "options": [
-      { "text": "$5 \\text{ días}$", "correct": false },
-      { "text": "$6 \\text{ días}$", "correct": true },
-      { "text": "$8 \\text{ días}$", "correct": false },
-      { "text": "$10 \\text{ días}$", "correct": false }
+      { "text": "100", "correct": true },
+      { "text": "50", "correct": false },
+      { "text": "150", "correct": false },
+      { "text": "200", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "IPN", "UAM"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Considera que los gastos merman el balance utilizando un signo de resta en tu modelo lineal: $1000 - 50x = 400 + 50x$.",
-    "explanation": "Al reubicar los términos: $1000 - 400 = 50x + 50x$, que da como paso intermedio $600 = 100x$, arrojando $x = 6$.",
+    "hint": "Crea una igualdad con las tarifas usando 'x' como la variable de los kilómetros.",
+    "explanation": "La ecuación lineal es $800 + 5x = 500 + 8x$. Agrupando: $300 = 3x$, por lo tanto $x = \\frac{300}{3} = 100$ kilómetros.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WI",
-    "question": "Una imprenta A cobra $\$50 \\text{ pesos}$ por diseño más $\$2 \\text{ pesos}$ por hoja. La imprenta B cobra $\$10 \\text{ pesos}$ por diseño más $\$4 \\text{ pesos}$ por hoja. ¿Cuántas hojas deben imprimirse para que el costo sea el mismo?",
+    "question": "Ana, aspirante del CEPREDIX, tiene $\\$1000$ pesos y gasta $\\$50$ diarios. Luis tiene $\\$400$ pesos y recibe $\\$50$ diarios. ¿En cuántos días tendrán el mismo dinero?",
     "image": null,
     "options": [
-      { "text": "$15 \\text{ hojas}$", "correct": false },
-      { "text": "$20 \\text{ hojas}$", "correct": true },
-      { "text": "$25 \\text{ hojas}$", "correct": false },
-      { "text": "$30 \\text{ hojas}$", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "10", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Resuelve la ecuación lineal surgida de confrontar las tarifas base más los costos añadidos: $50 + 2x = 10 + 4x$.",
-    "explanation": "Al reducir los datos similares queda: $50 - 10 = 4x - 2x \\Rightarrow 40 = 2x$. Dividiendo la expresión se obtiene $x = 20$.",
+    "hint": "Dado que Ana gasta su dinero, la variable para Ana tiene un coeficiente negativo.",
+    "explanation": "Para Ana, la ecuación de su dinero es $1000 - 50x$. Para Luis, es $400 + 50x$. Igualando: $1000 - 50x = 400 + 50x$. Esto se reduce a $600 = 100x \\implies x = 6$ días.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WJ",
-    "question": "Para reparar una tubería, el fontanero A cobra $\$250 \\text{ pesos}$ por visita más $\$100 \\text{ pesos}$ por hora. El fontanero B cobra $\$150 \\text{ pesos}$ por visita más $\$150 \\text{ pesos}$ por hora. ¿A las cuántas horas de trabajo cobran lo mismo?",
+    "question": "Una imprenta A cobra $\\$50$ pesos por diseño más $\\$2$ pesos por hoja. La imprenta B cobra $\\$10$ pesos por diseño más $\\$4$ pesos por hoja. ¿Cuántas hojas deben imprimirse para que el costo sea el mismo?",
     "image": null,
     "options": [
-      { "text": "$1 \\text{ hora}$", "correct": false },
-      { "text": "$2 \\text{ horas}$", "correct": true },
-      { "text": "$3 \\text{ horas}$", "correct": false },
-      { "text": "$4 \\text{ horas}$", "correct": false }
+      { "text": "20", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "30", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "EXANI II"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Empata los esquemas de pago modelados mediante la igualdad $250 + 100x = 150 + 150x$ y resuelve.",
-    "explanation": "Al trasladar valores para resolver: $250 - 150 = 150x - 100x \\Rightarrow 100 = 50x$, lo que se define resolutivamente en $x = 2$.",
+    "hint": "Crea una ecuación para conocer la intersección.",
+    "explanation": "$50 + 2x = 10 + 4x$. Agrupando términos queda $40 = 2x$, lo que indica que $x = 20$ hojas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WK",
-    "question": "Resuelve la ecuación: $4(3x - 2) = 2(x + 6)$.",
+    "question": "Para reparar una tubería, el fontanero A cobra $\\$250$ pesos por visita más $\\$100$ pesos por hora. El fontanero B cobra $\\$150$ pesos por visita más $\\$150$ pesos por hora. ¿A las cuántas horas de trabajo cobran lo mismo?",
     "image": null,
     "options": [
-      { "text": "$x = 1$", "correct": false },
-      { "text": "$x = 2$", "correct": true },
-      { "text": "$x = 3$", "correct": false },
-      { "text": "$x = 4$", "correct": false }
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Antes de mover literales debes suprimir los paréntesis efectuando multiplicaciones distributivas en ambas partes de la igualdad.",
-    "explanation": "Aplicando el factor: $12x - 8 = 2x + 12$. Acomodando términos semejantes: $12x - 2x = 12 + 8 \\Rightarrow 10x = 20 \\Rightarrow x = 2$.",
+    "hint": "Halla la cantidad de horas 'x' igualando $250 + 100x$ con $150 + 150x$.",
+    "explanation": "Al resolver $250 + 100x = 150 + 150x$, resulta $100 = 50x$, por lo que $x = \\frac{100}{50} = 2$ horas.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WL",
-    "question": "Obtén el valor de $x$ en la expresión: $\\frac{5x - 3}{2} = \\frac{2x + 4}{3}$.",
+    "question": "Resuelve la ecuación lineal: $4(3x - 2) = 2(x + 6)$",
+    "image": null,
+    "options": [
+      { "text": "$x = 2$", "correct": true },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "$x = 3$", "correct": false },
+      { "text": "$x = 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla los paréntesis multiplicando los coeficientes por cada término interior antes de agrupar términos semejantes.",
+    "explanation": "Multiplicando: $12x - 8 = 2x + 12$. Agrupamos variables de un lado: $12x - 2x = 12 + 8 \\implies 10x = 20 \\implies x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WM",
+    "question": "Obtén el valor de $x$ en la expresión: $\\frac{5x - 3}{2} = \\frac{2x + 4}{3}$",
     "image": null,
     "options": [
       { "text": "$x = \\frac{17}{11}$", "correct": true },
@@ -567,89 +567,89 @@
       { "text": "$x = 1$", "correct": false },
       { "text": "$x = 17$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La forma más simple de anular las fracciones es aplicar la técnica de la multiplicación cruzada de sus elementos.",
-    "explanation": "Efectuando el cruce: $3(5x - 3) = 2(2x + 4) \\Rightarrow 15x - 9 = 4x + 8$. Despejando la variable: $11x = 17 \\Rightarrow x = \\frac{17}{11}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WM",
-    "question": "Encuentra el valor de $x$: $5(x + 2) = 3(2x - 1)$.",
-    "image": null,
-    "options": [
-      { "text": "$x = 7$", "correct": false },
-      { "text": "$x = 13$", "correct": true },
-      { "text": "$x = -13$", "correct": false },
-      { "text": "$x = -7$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Para revelar la estructura de la ecuación debes multiplicar el número exterior por las partes interiores del binomio.",
-    "explanation": "Al expandir se llega a $5x + 10 = 6x - 3$. Ajustando los números por un lado y literales por el otro: $10 + 3 = 6x - 5x \\Rightarrow 13 = x$.",
+    "hint": "Multiplica de forma cruzada para eliminar los denominadores (el 3 multiplica a la izquierda y el 2 a la derecha).",
+    "explanation": "Al multiplicar cruzado obtenemos $3(5x - 3) = 2(2x + 4)$, lo que se desarrolla como $15x - 9 = 4x + 8$. Agrupando: $11x = 17$, resultando en $x = \\frac{17}{11}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WN",
-    "question": "Resuelve: $\\frac{3x + 1}{4} = 2x - 5$.",
+    "question": "Encuentra el valor de $x$ tras resolver: $5(x + 2) = 3(2x - 1)$",
     "image": null,
     "options": [
-      { "text": "$x = \\frac{19}{5}$", "correct": false },
-      { "text": "$x = \\frac{21}{5}$", "correct": true },
-      { "text": "$x = 4$", "correct": false },
-      { "text": "$x = 5$", "correct": false }
+      { "text": "$x = 13$", "correct": true },
+      { "text": "$x = 7$", "correct": false },
+      { "text": "$x = -13$", "correct": false },
+      { "text": "$x = -7$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "EXANI II"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Destruye el denominador enviándolo a multiplicar todo el bloque algebraico que se ubica en el lado contrario.",
-    "explanation": "Multiplicando por 4 queda: $3x + 1 = 4(2x - 5) \\Rightarrow 3x + 1 = 8x - 20$. Trasponiendo: $1 + 20 = 8x - 3x \\Rightarrow 21 = 5x \\Rightarrow x = \\frac{21}{5}$.",
+    "hint": "Quita los paréntesis realizando la ley distributiva y reúne los términos con 'x' de un solo lado.",
+    "explanation": "Distribuyendo los valores: $5x + 10 = 6x - 3$. Pasando los números a la izquierda y las $x$ a la derecha: $10 + 3 = 6x - 5x$, por ende $x = 13$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WO",
-    "question": "Analiza la ecuación: $2(4x - 1) = 4(2x + 3)$. ¿Cuál es el resultado?",
+    "question": "Resuelve algebraicamente: $\\frac{3x + 1}{4} = 2x - 5$",
     "image": null,
     "options": [
-      { "text": "$x = 0$", "correct": false },
-      { "text": "$x = 2$", "correct": false },
-      { "text": "Infinitas soluciones", "correct": false },
-      { "text": "Sin solución", "correct": true }
+      { "text": "$x = \\frac{21}{5}$", "correct": true },
+      { "text": "$x = \\frac{19}{5}$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = 5$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Presta atención a los coeficientes de las equis luego de desarrollar la ecuación; si las incógnitas se anulan, revisa la proposición.",
-    "explanation": "Al ampliar se tiene $8x - 2 = 8x + 12$. Al suprimir las $8x$ restándolas en ambas orillas la respuesta es $-2 = 12$, que es un absurdo matemático.",
+    "hint": "Pasa el 4 que está dividiendo a multiplicar todo el lado derecho de la ecuación.",
+    "explanation": "Al despejar el 4 obtenemos $3x + 1 = 4(2x - 5)$. Desarrollando: $3x + 1 = 8x - 20$. Agrupando: $21 = 5x$, lo que se despeja como $x = \\frac{21}{5}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WP",
-    "question": "Halla el valor de $x$: $\\frac{x - 2}{5} = \\frac{x + 1}{4}$.",
+    "question": "En una sesión de tutoría del CEPREDIX se analiza la ecuación: $2(4x - 1) = 4(2x + 3)$. ¿Cuál es el resultado de la variable $x$?",
     "image": null,
     "options": [
-      { "text": "$x = 13$", "correct": false },
-      { "text": "$x = -13$", "correct": true },
-      { "text": "$x = \\frac{3}{9}$", "correct": false },
-      { "text": "$x = -3$", "correct": false }
+      { "text": "Sin solución", "correct": true },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 2$", "correct": false },
+      { "text": "Infinitas soluciones", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["GENERAL", "IPN", "UAM"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Aborda el ejercicio aplicando la multiplicación cruzada de los denominadores para disolver el formato de fracción.",
-    "explanation": "Con la técnica en cruz: $4(x - 2) = 5(x + 1) \\Rightarrow 4x - 8 = 5x + 5$. Modificando su posición: $-8 - 5 = 5x - 4x \\Rightarrow -13 = x$.",
+    "hint": "Desarrolla las expresiones en ambos lados. Si las variables se eliminan pero la igualdad no es cierta, entonces es un absurdo matemático.",
+    "explanation": "Distribuyendo obtenemos $8x - 2 = 8x + 12$. Al intentar agrupar términos, los $8x$ se cancelan ($8x - 8x = 0$) resultando en $-2 = 12$. Esta es una contradicción, por lo que la ecuación no tiene solución.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WQ",
-    "question": "Resuelve: $7(x - 3) = 2(3x + 4)$.",
+    "question": "Halla el valor de $x$ resolviendo: $\\frac{x - 2}{5} = \\frac{x + 1}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$x = -13$", "correct": true },
+      { "text": "$x = 13$", "correct": false },
+      { "text": "$x = \\frac{3}{9}$", "correct": false },
+      { "text": "$x = -3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Ejecuta una multiplicación cruzada para eliminar la forma fraccionaria de la ecuación.",
+    "explanation": "Multiplicamos cruzado: $4(x - 2) = 5(x + 1)$. Desarrollando: $4x - 8 = 5x + 5$. Agrupando las variables a la derecha: $-8 - 5 = 5x - 4x$, obteniendo $x = -13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WR",
+    "question": "Resuelve la siguiente ecuación: $7(x - 3) = 2(3x + 4)$",
     "image": null,
     "options": [
       { "text": "$x = 29$", "correct": true },
@@ -657,65 +657,65 @@
       { "text": "$x = 13$", "correct": false },
       { "text": "$x = -13$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Inicia ingresando el multiplicador externo a cada factor del paréntesis respectivo.",
-    "explanation": "Al expandir: $7x - 21 = 6x + 8$. Llevando términos con variables de un lado: $7x - 6x = 8 + 21 \\Rightarrow x = 29$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WR",
-    "question": "Encuentra la incógnita: $\\frac{4x - 5}{3} = \\frac{3x + 2}{2}$.",
-    "image": null,
-    "options": [
-      { "text": "$x = 16$", "correct": false },
-      { "text": "$x = -16$", "correct": true },
-      { "text": "$x = 4$", "correct": false },
-      { "text": "$x = -4$", "correct": false }
-    ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Convierte la proporción fraccionaria en una expresión de orden lineal al realizar productos aspasados.",
-    "explanation": "Se aplica multiplicación aspasada: $2(4x - 5) = 3(3x + 2) \\Rightarrow 8x - 10 = 9x + 6$. Concentrando las piezas: $8x - 9x = 6 + 10 \\Rightarrow -x = 16 \\Rightarrow x = -16$.",
+    "hint": "Quita paréntesis y utiliza el método de transposición de términos.",
+    "explanation": "Se desarrolla como $7x - 21 = 6x + 8$. Agrupando términos de 'x' a un solo lado: $7x - 6x = 8 + 21$, lo cual da inmediatamente $x = 29$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WS",
-    "question": "Resuelve la ecuación: $3(x - 4) = 2(x - 6)$.",
+    "question": "Encuentra la incógnita $x$ de la expresión: $\\frac{4x - 5}{3} = \\frac{3x + 2}{2}$",
     "image": null,
     "options": [
-      { "text": "$x = 12$", "correct": false },
-      { "text": "$x = -12$", "correct": false },
-      { "text": "$x = 0$", "correct": true },
-      { "text": "$x = 2$", "correct": false }
+      { "text": "$x = -16$", "correct": true },
+      { "text": "$x = 16$", "correct": false },
+      { "text": "$x = 4$", "correct": false },
+      { "text": "$x = -4$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["GENERAL", "UNAM", "IPN"],
+    "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Borra la agrupación mediante la ley distributiva antes de concentrar los miembros homólogos.",
-    "explanation": "Extrayendo la operación: $3x - 12 = 2x - 12$. Agrupando por sus similitudes: $3x - 2x = -12 + 12 \\Rightarrow x = 0$.",
+    "hint": "Aplica productos cruzados para despejar los numeradores, es decir, el 2 multiplica a todo el lado izquierdo y el 3 al derecho.",
+    "explanation": "Mediante el producto cruzado: $2(4x - 5) = 3(3x + 2)$. Al operar queda $8x - 10 = 9x + 6$. Despejando: $-10 - 6 = 9x - 8x$, resultando en $x = -16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00WT",
-    "question": "Determina el valor de $x$: $6(2x + 1) = 3(4x + 2)$.",
+    "question": "Resuelve la ecuación algebraica: $3(x - 4) = 2(x - 6)$",
     "image": null,
     "options": [
-      { "text": "$x = 0$", "correct": false },
-      { "text": "$x = 1$", "correct": false },
-      { "text": "Infinitas soluciones", "correct": true },
-      { "text": "Sin solución", "correct": false }
+      { "text": "$x = 0$", "correct": true },
+      { "text": "$x = 12$", "correct": false },
+      { "text": "$x = -12$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
     ],
-    "uni_tags": ["MATEMÁTICAS"],
+    "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
     "type_tag": ["TEST"],
-    "hint": "Resuelve la expresión y examina con cuidado si la configuración restante constituye una identidad irrefutable.",
-    "explanation": "Al multiplicar se revela que: $12x + 6 = 12x + 6$. Al existir equidad total sin importar el valor adjudicado a la variable, el universo de soluciones es infinito.",
+    "hint": "Realiza la multiplicación en ambos miembros e iguala términos para despejar 'x'. Ten cuidado con los signos negativos.",
+    "explanation": "Se aplica la distributiva: $3x - 12 = 2x - 12$. Agrupando términos: $3x - 2x = -12 + 12$. Al reducir ambos lados nos queda que $x = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WU",
+    "question": "Un alumno del CEPREDIX intenta determinar $x$ en la ecuación: $6(2x + 1) = 3(4x + 2)$. ¿Cuál es el resultado de la variable?",
+    "image": null,
+    "options": [
+      { "text": "Infinitas soluciones", "correct": true },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 1$", "correct": false },
+      { "text": "Sin solución", "correct": false }
+    ],
+    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve ambos lados multiplicando los coeficientes. Verifica si se genera una identidad donde ambos lados sean exactamente iguales.",
+    "explanation": "Al multiplicar se obtiene $12x + 6 = 12x + 6$. Dado que ambos lados son perfectamente idénticos, se genera una identidad matemática. Por lo tanto, cualquier número real cumple la igualdad y la ecuación tiene infinitas soluciones.",
     "explanative_video": null,
     "collapsible_text": null
   }
