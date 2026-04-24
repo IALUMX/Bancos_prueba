@@ -1,721 +1,811 @@
 [
   {
-    "id": "CEP00VH",
-    "question": "Un alumno del CEPREDIX puede inscribirse en solo una de las siguientes actividades: 5 talleres de lectura, 3 de ajedrez y 4 clases de pintura. ¿De cuántas formas puede elegir su actividad?",
-    "image": null,
+    "id": "CEP66OV",
+    "question": "¿Cuál es la derivada de $f(x) = 12$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "12", "correct": true },
-      { "text": "60", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "7", "correct": false }
+      { "text": "$f'(x) = 12$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = 12x$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Aplica el principio aditivo de conteo, ya que solo puede elegir una actividad en total.",
-    "explanation": "Como solo puede elegir una actividad (son eventos mutuamente excluyentes), se suman las opciones: $5 + 3 + 4 = 12$.",
+    "hint": "La derivada de cualquier constante numérica sin variable siempre da el mismo resultado.",
+    "explanation": "La regla de derivación establece que para toda constante $c$, su derivada respecto a $x$ es cero: $\\frac{d}{dx} c = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VI",
-    "question": "En una papelería hay 7 tipos de bolígrafos, 5 tipos de lápices y 3 tipos de marcadores. Si un cliente compra solo un artículo, ¿cuántas opciones tiene?",
-    "image": null,
+    "id": "CEP66OW",
+    "question": "¿Cuál es la derivada de $f(x) = -7$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "15", "correct": true },
-      { "text": "105", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "8", "correct": false }
+      { "text": "$f'(x) = -7x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = x$", "correct": false },
+      { "text": "$f'(x) = -7$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Como los eventos no ocurren simultáneamente, debes sumar todas las posibilidades.",
-    "explanation": "Aplicamos el principio aditivo porque solo comprará un artículo en total: $7 + 5 + 3 = 15$.",
+    "hint": "Aunque sea un número negativo, sigue considerándose un término independiente.",
+    "explanation": "La regla de derivación establece que para toda constante $c$, su derivada es cero: $\\frac{d}{dx} c = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VJ",
-    "question": "Para el postre, puedes elegir entre 4 sabores de helado, 2 pasteles o 3 gelatinas. Si solo puedes elegir un postre, ¿cuántas opciones diferentes tienes?",
-    "image": null,
+    "id": "CEP66OX",
+    "question": "¿Cuál es la derivada de $f(x) = \\pi$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "9", "correct": true },
-      { "text": "24", "correct": false },
-      { "text": "6", "correct": false },
-      { "text": "12", "correct": false }
+      { "text": "$f'(x) = \\pi x$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = \\pi$", "correct": false }
     ],
-    "uni_tags": ["GENERAL"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda que la palabra 'o' en probabilidad y combinatoria generalmente indica suma.",
-    "explanation": "Dado que solo se puede tomar una decisión excluyente entre las tres categorías, sumamos: $4 + 2 + 3 = 9$.",
+    "hint": "Recuerda que $\\pi$ es un número irracional, por lo que actúa como un valor constante.",
+    "explanation": "Como $\\pi$ representa una constante numérica, al aplicar la regla de la constante el resultado es $0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VK",
-    "question": "Una tienda de mascotas tiene 8 perros, 6 gatos y 2 conejos en adopción. Si una familia decide adoptar solo una mascota, ¿cuántas opciones tienen?",
-    "image": null,
+    "id": "CEP66OY",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{3}{5}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "16", "correct": true },
-      { "text": "96", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "$f'(x) = \\frac{3}{5}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{5}x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = 1$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "EXANI II"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Suma el total de animales disponibles.",
-    "explanation": "La familia solo adoptará un animal de todos los disponibles, por lo que aplicamos la suma: $8 + 6 + 2 = 16$.",
+    "hint": "Las fracciones que no están acompañadas de una variable se consideran términos independientes.",
+    "explanation": "La fracción es una constante $c$, y su derivada en el cálculo diferencial siempre es igual a $0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VL",
-    "question": "En una repisa se deben colocar 5 trofeos distintos en línea recta. ¿De cuántas maneras diferentes se pueden ordenar?",
-    "image": null,
+    "id": "CEP66OZ",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt{5}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "120", "correct": true },
-      { "text": "25", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{5}}$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = \\sqrt{5}$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Cuando ordenas la totalidad de elementos distintos en una línea, aplicas el factorial: $n!$.",
-    "explanation": "Para ordenar $n$ elementos diferentes en $n$ posiciones, calculamos el factorial: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VM",
-    "question": "4 amigos van al cine y se sientan en 4 asientos contiguos. ¿De cuántas formas diferentes pueden acomodarse?",
-    "image": null,
-    "options": [
-      { "text": "24", "correct": true },
-      { "text": "16", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "8", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "IPN", "UAM"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Calcula la permutación de 4 elementos ($4!$).",
-    "explanation": "El número de formas de ordenar 4 personas en 4 asientos es la permutación $P_4 = 4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VN",
-    "question": "¿Cuántas palabras diferentes (con o sin sentido) se pueden formar con todas las letras de la palabra 'SOL'?",
-    "image": null,
-    "options": [
-      { "text": "6", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "12", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "EXANI II"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Cuenta el número de letras y realiza la permutación total.",
-    "explanation": "La palabra tiene 3 letras diferentes, por lo que las formas de ordenarlas son $3! = 3 \\times 2 \\times 1 = 6$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VO",
-    "question": "Un profesor del CEPREDIX tiene 8 exámenes distintos para entregar a 8 alumnos. ¿De cuántas maneras diferentes puede repartir los exámenes?",
-    "image": null,
-    "options": [
-      { "text": "40,320", "correct": true },
-      { "text": "5,040", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "64", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Aplica $n!$ para encontrar de cuántas formas se pueden asignar los exámenes a los estudiantes.",
-    "explanation": "Dado que importa el orden y se entregan todos los exámenes a diferentes estudiantes, es $8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 40,320$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VP",
-    "question": "En una carrera de 100 metros participan 3 corredores. ¿De cuántas formas diferentes pueden quedar en 1ro, 2do y 3er lugar?",
-    "image": null,
-    "options": [
-      { "text": "6", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "12", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Identifica que se ocupan todos los corredores en distintas posiciones.",
-    "explanation": "El cálculo corresponde a la permutación $3!$, la cual equivale a $3 \\times 2 \\times 1 = 6$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VQ",
-    "question": "Se tienen 7 cuadros diferentes que se van a colgar en una pared en línea. ¿De cuántas formas distintas se pueden organizar?",
-    "image": null,
-    "options": [
-      { "text": "5,040", "correct": true },
-      { "text": "720", "correct": false },
-      { "text": "49", "correct": false },
-      { "text": "343", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "BUAP"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Usa el factorial de 7 para calcular las combinaciones de posiciones.",
-    "explanation": "Al usar 7 elementos distintos en 7 lugares, el resultado es la permutación $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5,040$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VR",
-    "question": "Una pista circular tiene un perímetro de $62.8 \\text{ m}$. Considerando $\\pi = 3.14$, ¿cuál es el radio de la pista?",
-    "image": null,
-    "options": [
-      { "text": "$10 \\text{ m}$", "correct": true },
-      { "text": "$20 \\text{ m}$", "correct": false },
-      { "text": "$31.4 \\text{ m}$", "correct": false },
-      { "text": "$5 \\text{ m}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La fórmula del perímetro es $P = 2\\pi r$. Debes usar el despeje $r = \\frac{P}{2\\pi}$.",
-    "explanation": "Sustituyendo el perímetro y el valor de pi: $r = \\frac{62.8}{2(3.14)} = \\frac{62.8}{6.28} = 10 \\text{ m}$.",
+    "hint": "No confundas la derivada de una constante expresada como raíz con la regla de la raíz de una variable.",
+    "explanation": "El valor $\\sqrt{5}$ es un número constante, por lo tanto, su derivada es $0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VS",
-    "question": "El diámetro de una llanta de bicicleta es de $70 \\text{ cm}$. ¿Cuál es su perímetro (circunferencia)? (Usa $\\pi = 3.14$)",
-    "image": null,
+    "id": "CEP66PA",
+    "question": "¿Cuál es la derivada de $f(x) = 6x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$219.8 \\text{ cm}$", "correct": true },
-      { "text": "$109.9 \\text{ cm}$", "correct": false },
-      { "text": "$439.6 \\text{ cm}$", "correct": false },
-      { "text": "$35 \\text{ cm}$", "correct": false }
+      { "text": "$f'(x) = 6x$", "correct": false },
+      { "text": "$f'(x) = 6$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Dado que te dan el diámetro completo, aplica directamente $P = \\pi d$.",
-    "explanation": "El perímetro se obtiene multiplicando el diámetro por pi: $P = (3.14)(70 \\text{ cm}) = 219.8 \\text{ cm}$.",
+    "hint": "La derivada de un término lineal $cx$ equivale simplemente a su coeficiente.",
+    "explanation": "Al aplicar la regla de una constante por una variable de primer grado $\\frac{d}{dx} cx = c$, obtenemos $6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VT",
-    "question": "El perímetro de un espejo circular es de $15.7 \\text{ cm}$. ¿Cuál es su diámetro? (Usa $\\pi = 3.14$)",
-    "image": null,
+    "id": "CEP66PB",
+    "question": "¿Cuál es la derivada de $f(x) = -4x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$5 \\text{ cm}$", "correct": true },
-      { "text": "$2.5 \\text{ cm}$", "correct": false },
-      { "text": "$10 \\text{ cm}$", "correct": false },
-      { "text": "$7.85 \\text{ cm}$", "correct": false }
+      { "text": "$f'(x) = 4$", "correct": false },
+      { "text": "$f'(x) = -4x$", "correct": false },
+      { "text": "$f'(x) = -4$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "EXANI II"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Partiendo de la fórmula $P = \\pi d$, el despeje directo que requieres es $d = \\frac{P}{\\pi}$.",
-    "explanation": "Sustituimos el perímetro: $d = \\frac{15.7 \\text{ cm}}{3.14} = 5 \\text{ cm}$.",
+    "hint": "Conserva el signo del coeficiente que multiplica a la variable.",
+    "explanation": "Para toda función del tipo $f(x) = cx$, su derivada es $f'(x) = c$. En este caso es $-4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VU",
-    "question": "Una moneda tiene un radio de $1.5 \\text{ cm}$. ¿Cuál es la longitud de su circunferencia? (Usa $\\pi = 3.14$)",
-    "image": null,
+    "id": "CEP66PC",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{1}{3}x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$9.42 \\text{ cm}$", "correct": true },
-      { "text": "$4.71 \\text{ cm}$", "correct": false },
-      { "text": "$7.065 \\text{ cm}$", "correct": false },
-      { "text": "$3 \\text{ cm}$", "correct": false }
+      { "text": "$f'(x) = \\frac{1}{3}x$", "correct": false },
+      { "text": "$f'(x) = x$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{3}$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false }
     ],
-    "uni_tags": ["GENERAL"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Para obtener la circunferencia con el radio utiliza la fórmula $C = 2\\pi r$.",
-    "explanation": "Calculamos $C = 2(3.14)(1.5 \\text{ cm})$. Al multiplicar $2 \\times 1.5$ obtenemos $3$, y $3 \\times 3.14 = 9.42 \\text{ cm}$.",
+    "hint": "Aplica la regla de la función lineal tomando la fracción como coeficiente completo.",
+    "explanation": "La derivada de $cx$ es $c$. Aquí la constante fraccionaria acompaña a la $x$, quedando como resultado $\\frac{1}{3}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00VV",
-    "question": "Si la circunferencia de una mesa es $125.6 \\text{ cm}$, ¿cuál es la medida de su radio? (Usa $\\pi = 3.14$)",
-    "image": null,
+    "id": "CEP66PD",
+    "question": "¿Cuál es la derivada de $f(x) = \\pi x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$20 \\text{ cm}$", "correct": true },
-      { "text": "$40 \\text{ cm}$", "correct": false },
-      { "text": "$10 \\text{ cm}$", "correct": false },
-      { "text": "$62.8 \\text{ cm}$", "correct": false }
+      { "text": "$f'(x) = \\pi x$", "correct": false },
+      { "text": "$f'(x) = \\pi$", "correct": true },
+      { "text": "$f'(x) = x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Usa el despeje $r = \\frac{C}{2\\pi}$ para hallar el radio a partir de la circunferencia.",
-    "explanation": "Aplicamos el despeje: $r = \\frac{125.6}{2(3.14)} = \\frac{125.6}{6.28} = 20 \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VW",
-    "question": "Un estudiante del CEPREDIX tiene 4 blusas, 3 faldas y 2 pares de zapatos. ¿Cuántos outfits diferentes puede armar si usa una prenda de cada categoría?",
-    "image": null,
-    "options": [
-      { "text": "24", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "36", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Aplica el principio multiplicativo de probabilidad debido a que los eventos ocurren de forma simultánea.",
-    "explanation": "Se multiplica la cantidad de opciones disponibles para cada categoría de forma simultánea: $4 \\times 3 \\times 2 = 24$ combinaciones posibles.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VX",
-    "question": "En un restaurante ofrecen 3 tipos de sopa, 4 guisados y 2 postres. ¿Cuántos menús diferentes de tres tiempos se pueden elegir?",
-    "image": null,
-    "options": [
-      { "text": "24", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "18", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI II"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Usa la regla de la multiplicación para eventos combinados en tiempos simultáneos.",
-    "explanation": "Multiplicando las opciones de cada tiempo: $3 \\times 4 \\times 2 = 24$ menús diferentes.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VY",
-    "question": "Un estudiante tiene 5 playeras y 4 pantalones. Sin embargo, hay 1 playera roja que no se puede usar con 1 pantalón verde porque no combinan. ¿Cuántos outfits diferentes puede formar?",
-    "image": null,
-    "options": [
-      { "text": "19", "correct": true },
-      { "text": "20", "correct": false },
-      { "text": "18", "correct": false },
-      { "text": "9", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Obtén primero el total de combinaciones posibles mediante el principio multiplicativo y réstale la combinación condicional que no puede ser utilizada.",
-    "explanation": "El total de combinaciones teóricas es $5 \\times 4 = 20$. Como hay una mezcla exacta que no se usará, la restamos: $20 - 1 = 19$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00VZ",
-    "question": "En una heladería hay 3 tipos de cono y 5 sabores de helado. ¿Cuántas combinaciones diferentes de cono y un sabor de helado se pueden pedir?",
-    "image": null,
-    "options": [
-      { "text": "15", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "25", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Al ser un cono 'y' un helado, la conjunción indica multiplicación.",
-    "explanation": "Las combinaciones se determinan con $3 \\times 5 = 15$ opciones distintas.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WA",
-    "question": "Para comprar un auto, puedes elegir entre 4 colores exteriores, 2 tipos de tapicería y 2 tipos de motor. ¿Cuántas configuraciones diferentes del auto existen?",
-    "image": null,
-    "options": [
-      { "text": "16", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "64", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Calcula el producto de las opciones disponibles.",
-    "explanation": "Empleando el principio multiplicativo: $4 \\times 2 \\times 2 = 16$ configuraciones.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WB",
-    "question": "Una compañía A cobra $\\$40$ pesos de renta mensual más $\\$3$ pesos por minuto. La compañía B cobra $\\$20$ de renta mensual más $\\$5$ pesos por minuto. ¿Después de cuántos minutos ambos planes cuestan lo mismo?",
-    "image": null,
-    "options": [
-      { "text": "$10 \\text{ minutos}$", "correct": true },
-      { "text": "$5 \\text{ minutos}$", "correct": false },
-      { "text": "$15 \\text{ minutos}$", "correct": false },
-      { "text": "$20 \\text{ minutos}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Iguala ambas ecuaciones para conocer el punto de intersección: $40 + 3x = 20 + 5x$.",
-    "explanation": "Al igualar: $40 + 3x = 20 + 5x$. Agrupando términos tenemos $40 - 20 = 5x - 3x$, lo que resulta en $20 = 2x$. Al dividir, obtenemos $x = 10 \\text{ minutos}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WC",
-    "question": "Un salón de fiestas A cobra $\\$1500$ pesos de renta más $\\$50$ pesos por invitado. El salón B cobra $\\$500$ pesos de renta más $\\$100$ pesos por invitado. ¿Con cuántos invitados cobrarán lo mismo?",
-    "image": null,
-    "options": [
-      { "text": "20", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "25", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Plantea la ecuación lineal igualando los modelos de ambos salones usando 'x' como número de invitados.",
-    "explanation": "$1500 + 50x = 500 + 100x$. Resolviendo: $1500 - 500 = 100x - 50x \\implies 1000 = 50x \\implies x = \\frac{1000}{50} = 20$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WD",
-    "question": "Juan, estudiante del CEPREDIX, tiene ahorrados $\\$300$ pesos y planea ahorrar $\\$40$ pesos semanales. Pedro tiene $\\$100$ pesos y ahorrará $\\$80$ pesos a la semana. ¿En cuántas semanas tendrán la misma cantidad de dinero?",
-    "image": null,
-    "options": [
-      { "text": "5", "correct": true },
-      { "text": "3", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "6", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UAM", "BUAP"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Iguala los ahorros iniciales más la tasa de incremento por tiempo 'x'.",
-    "explanation": "La ecuación es $300 + 40x = 100 + 80x$. Despejando: $200 = 40x$, por tanto $x = \\frac{200}{40} = 5$ semanas.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WE",
-    "question": "El gimnasio 'Fuerza' cobra $\\$500$ pesos de inscripción y $\\$300$ pesos mensuales. El gimnasio 'Salud' cobra $\\$200$ pesos de inscripción y $\\$400$ pesos mensuales. ¿A los cuántos meses habrás pagado lo mismo en ambos?",
-    "image": null,
-    "options": [
-      { "text": "3", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "5", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI II"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Transforma el problema a una igualdad $500 + 300x = 200 + 400x$.",
-    "explanation": "$500 + 300x = 200 + 400x \\implies 500 - 200 = 400x - 300x \\implies 300 = 100x \\implies x = 3$ meses.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WF",
-    "question": "Un servicio de streaming A cobra $\\$120$ pesos al mes sin costo extra por película. El servicio B cobra $\\$60$ pesos al mes más $\\$15$ pesos por cada película. ¿Cuántas películas debes ver para pagar lo mismo en ambos?",
-    "image": null,
-    "options": [
-      { "text": "4", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "5", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Iguala el cobro estático a la ecuación de cobro mixto.",
-    "explanation": "Planteamos $120 = 60 + 15x$. Restamos $60$ en ambos lados para tener $60 = 15x$, lo que da $x = \\frac{60}{15} = 4$ películas.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WG",
-    "question": "Un vendedor A tiene sueldo fijo de $\\$2000$ pesos más $\\$50$ pesos por producto vendido. El vendedor B no tiene sueldo fijo, pero gana $\\$150$ pesos por producto. ¿Cuántos productos deben vender para ganar igual?",
-    "image": null,
-    "options": [
-      { "text": "20", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "25", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "La ecuación debe quedar del tipo $2000 + 50x = 150x$.",
-    "explanation": "Al igualar las ganancias $2000 + 50x = 150x$, despejamos pasando los $50x$ restando: $2000 = 100x$, resultando en $x = 20$ productos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WH",
-    "question": "Una arrendadora de autos A cobra $\\$800$ pesos fijos diarios más $\\$5$ pesos por km recorrido. Otra B cobra $\\$500$ pesos fijos más $\\$8$ pesos por km. ¿A cuántos km de recorrido cobran lo mismo?",
-    "image": null,
-    "options": [
-      { "text": "100", "correct": true },
-      { "text": "50", "correct": false },
-      { "text": "150", "correct": false },
-      { "text": "200", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "IPN", "UAM"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Crea una igualdad con las tarifas usando 'x' como la variable de los kilómetros.",
-    "explanation": "La ecuación lineal es $800 + 5x = 500 + 8x$. Agrupando: $300 = 3x$, por lo tanto $x = \\frac{300}{3} = 100$ kilómetros.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WI",
-    "question": "Ana, aspirante del CEPREDIX, tiene $\\$1000$ pesos y gasta $\\$50$ diarios. Luis tiene $\\$400$ pesos y recibe $\\$50$ diarios. ¿En cuántos días tendrán el mismo dinero?",
-    "image": null,
-    "options": [
-      { "text": "6", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "10", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Dado que Ana gasta su dinero, la variable para Ana tiene un coeficiente negativo.",
-    "explanation": "Para Ana, la ecuación de su dinero es $1000 - 50x$. Para Luis, es $400 + 50x$. Igualando: $1000 - 50x = 400 + 50x$. Esto se reduce a $600 = 100x \\implies x = 6$ días.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WJ",
-    "question": "Una imprenta A cobra $\\$50$ pesos por diseño más $\\$2$ pesos por hoja. La imprenta B cobra $\\$10$ pesos por diseño más $\\$4$ pesos por hoja. ¿Cuántas hojas deben imprimirse para que el costo sea el mismo?",
-    "image": null,
-    "options": [
-      { "text": "20", "correct": true },
-      { "text": "15", "correct": false },
-      { "text": "25", "correct": false },
-      { "text": "30", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI II"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Crea una ecuación para conocer la intersección.",
-    "explanation": "$50 + 2x = 10 + 4x$. Agrupando términos queda $40 = 2x$, lo que indica que $x = 20$ hojas.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WK",
-    "question": "Para reparar una tubería, el fontanero A cobra $\\$250$ pesos por visita más $\\$100$ pesos por hora. El fontanero B cobra $\\$150$ pesos por visita más $\\$150$ pesos por hora. ¿A las cuántas horas de trabajo cobran lo mismo?",
-    "image": null,
-    "options": [
-      { "text": "2", "correct": true },
-      { "text": "1", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "4", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Halla la cantidad de horas 'x' igualando $250 + 100x$ con $150 + 150x$.",
-    "explanation": "Al resolver $250 + 100x = 150 + 150x$, resulta $100 = 50x$, por lo que $x = \\frac{100}{50} = 2$ horas.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00WL",
-    "question": "Resuelve la ecuación lineal: $4(3x - 2) = 2(x + 6)$",
-    "image": null,
-    "options": [
-      { "text": "$x = 2$", "correct": true },
-      { "text": "$x = 1$", "correct": false },
-      { "text": "$x = 3$", "correct": false },
-      { "text": "$x = 4$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Desarrolla los paréntesis multiplicando los coeficientes por cada término interior antes de agrupar términos semejantes.",
-    "explanation": "Multiplicando: $12x - 8 = 2x + 12$. Agrupamos variables de un lado: $12x - 2x = 12 + 8 \\implies 10x = 20 \\implies x = 2$.",
+    "hint": "Identifica qué parte de la expresión funciona como coeficiente numérico constante.",
+    "explanation": "Dado que $\\pi$ es el coeficiente constante que multiplica a la variable lineal, la derivada es $\\pi$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WM",
-    "question": "Obtén el valor de $x$ en la expresión: $\\frac{5x - 3}{2} = \\frac{2x + 4}{3}$",
-    "image": null,
+    "id": "CEP66PE",
+    "question": "¿Cuál es la derivada de $f(x) = -x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = \\frac{17}{11}$", "correct": true },
-      { "text": "$x = \\frac{11}{17}$", "correct": false },
-      { "text": "$x = 1$", "correct": false },
-      { "text": "$x = 17$", "correct": false }
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = -1$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = -x$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
     "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Multiplica de forma cruzada para eliminar los denominadores (el 3 multiplica a la izquierda y el 2 a la derecha).",
-    "explanation": "Al multiplicar cruzado obtenemos $3(5x - 3) = 2(2x + 4)$, lo que se desarrolla como $15x - 9 = 4x + 8$. Agrupando: $11x = 17$, resultando en $x = \\frac{17}{11}$.",
+    "hint": "Recuerda que una variable sola con signo negativo equivale a estar multiplicada por una constante entera.",
+    "explanation": "El coeficiente implícito de $-x$ es $-1$. Al derivar una función lineal $cx$, el resultado es $c$, por ende es $-1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WN",
-    "question": "Encuentra el valor de $x$ tras resolver: $5(x + 2) = 3(2x - 1)$",
-    "image": null,
+    "id": "CEP66PF",
+    "question": "¿Cuál es la derivada de $f(x) = 0.8x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = 13$", "correct": true },
-      { "text": "$x = 7$", "correct": false },
-      { "text": "$x = -13$", "correct": false },
-      { "text": "$x = -7$", "correct": false }
+      { "text": "$f'(x) = 0.8$", "correct": true },
+      { "text": "$f'(x) = 8$", "correct": false },
+      { "text": "$f'(x) = 0.8x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "EXANI II"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Quita los paréntesis realizando la ley distributiva y reúne los términos con 'x' de un solo lado.",
-    "explanation": "Distribuyendo los valores: $5x + 10 = 6x - 3$. Pasando los números a la izquierda y las $x$ a la derecha: $10 + 3 = 6x - 5x$, por ende $x = 13$.",
+    "hint": "El valor decimal funciona de la misma manera que una fracción o entero acompañando a la variable.",
+    "explanation": "La derivada de la función $f(x) = cx$ es la misma constante $c$, arrojando $0.8$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WO",
-    "question": "Resuelve algebraicamente: $\\frac{3x + 1}{4} = 2x - 5$",
-    "image": null,
+    "id": "CEP66PG",
+    "question": "¿Cuál es la derivada de $f(x) = -\\frac{2}{7}x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = \\frac{21}{5}$", "correct": true },
-      { "text": "$x = \\frac{19}{5}$", "correct": false },
-      { "text": "$x = 4$", "correct": false },
-      { "text": "$x = 5$", "correct": false }
+      { "text": "$f'(x) = \\frac{2}{7}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{2}{7}$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Pasa el 4 que está dividiendo a multiplicar todo el lado derecho de la ecuación.",
-    "explanation": "Al despejar el 4 obtenemos $3x + 1 = 4(2x - 5)$. Desarrollando: $3x + 1 = 8x - 20$. Agrupando: $21 = 5x$, lo que se despeja como $x = \\frac{21}{5}$.",
+    "hint": "Asegúrate de conservar el signo al derivar el término lineal fraccionario.",
+    "explanation": "Al estar multiplicada la variable por el coeficiente fraccionario $-\\frac{2}{7}$, este último es el resultado de la derivación.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WP",
-    "question": "En una sesión de tutoría del CEPREDIX se analiza la ecuación: $2(4x - 1) = 4(2x + 3)$. ¿Cuál es el resultado de la variable $x$?",
-    "image": null,
+    "id": "CEP66PH",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt{2}x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "Sin solución", "correct": true },
-      { "text": "$x = 0$", "correct": false },
-      { "text": "$x = 2$", "correct": false },
-      { "text": "Infinitas soluciones", "correct": false }
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{2}}$", "correct": false },
+      { "text": "$f'(x) = \\sqrt{2}$", "correct": true },
+      { "text": "$f'(x) = x$", "correct": false },
+      { "text": "$f'(x) = 2$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "IPN", "UAM"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Desarrolla las expresiones en ambos lados. Si las variables se eliminan pero la igualdad no es cierta, entonces es un absurdo matemático.",
-    "explanation": "Distribuyendo obtenemos $8x - 2 = 8x + 12$. Al intentar agrupar términos, los $8x$ se cancelan ($8x - 8x = 0$) resultando en $-2 = 12$. Esta es una contradicción, por lo que la ecuación no tiene solución.",
+    "hint": "La raíz actúa como coeficiente, no se aplica la regla de derivación de raíces sobre la variable.",
+    "explanation": "El número $\\sqrt{2}$ multiplica a la variable elevada a la potencia de uno, por lo cual la derivada es simplemente $\\sqrt{2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WQ",
-    "question": "Halla el valor de $x$ resolviendo: $\\frac{x - 2}{5} = \\frac{x + 1}{4}$",
-    "image": null,
+    "id": "CEP66PI",
+    "question": "¿Cuál es la derivada de $f(x) = 15x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = -13$", "correct": true },
-      { "text": "$x = 13$", "correct": false },
-      { "text": "$x = \\frac{3}{9}$", "correct": false },
-      { "text": "$x = -3$", "correct": false }
+      { "text": "$f'(x) = 15x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = 15$", "correct": true },
+      { "text": "$f'(x) = x$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "BUAP"],
-    "level_tag": ["INTERMEDIO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Ejecuta una multiplicación cruzada para eliminar la forma fraccionaria de la ecuación.",
-    "explanation": "Multiplicamos cruzado: $4(x - 2) = 5(x + 1)$. Desarrollando: $4x - 8 = 5x + 5$. Agrupando las variables a la derecha: $-8 - 5 = 5x - 4x$, obteniendo $x = -13$.",
+    "hint": "Elimina el término lineal y conserva la magnitud que la acompaña.",
+    "explanation": "Derivando $f(x) = 15x$ respecto a $x$, solo se mantiene el coeficiente, es decir $15$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WR",
-    "question": "Resuelve la siguiente ecuación: $7(x - 3) = 2(3x + 4)$",
-    "image": null,
+    "id": "CEP66PJ",
+    "question": "¿Cuál es la derivada de $f(x) = -100x$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = 29$", "correct": true },
-      { "text": "$x = -29$", "correct": false },
-      { "text": "$x = 13$", "correct": false },
-      { "text": "$x = -13$", "correct": false }
+      { "text": "$f'(x) = 100$", "correct": false },
+      { "text": "$f'(x) = -100$", "correct": true },
+      { "text": "$f'(x) = -100x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Quita paréntesis y utiliza el método de transposición de términos.",
-    "explanation": "Se desarrolla como $7x - 21 = 6x + 8$. Agrupando términos de 'x' a un solo lado: $7x - 6x = 8 + 21$, lo cual da inmediatamente $x = 29$.",
+    "hint": "Conserva el coeficiente y su signo tras la eliminación de la variable.",
+    "explanation": "La derivada respecto a $x$ de $-100x$ resulta en el coeficiente constante $-100$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WS",
-    "question": "Encuentra la incógnita $x$ de la expresión: $\\frac{4x - 5}{3} = \\frac{3x + 2}{2}$",
-    "image": null,
+    "id": "CEP66PK",
+    "question": "¿Cuál es la derivada de $f(x) = x^5$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = -16$", "correct": true },
-      { "text": "$x = 16$", "correct": false },
-      { "text": "$x = 4$", "correct": false },
-      { "text": "$x = -4$", "correct": false }
+      { "text": "$f'(x) = 4x^5$", "correct": false },
+      { "text": "$f'(x) = 5x^6$", "correct": false },
+      { "text": "$f'(x) = 5x^4$", "correct": true },
+      { "text": "$f'(x) = x^4$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Aplica productos cruzados para despejar los numeradores, es decir, el 2 multiplica a todo el lado izquierdo y el 3 al derecho.",
-    "explanation": "Mediante el producto cruzado: $2(4x - 5) = 3(3x + 2)$. Al operar queda $8x - 10 = 9x + 6$. Despejando: $-10 - 6 = 9x - 8x$, resultando en $x = -16$.",
+    "hint": "Aplica la regla de la potencia: el exponente baja a multiplicar y se le resta uno al nuevo exponente.",
+    "explanation": "Usando la fórmula $\\frac{d}{dx} x^n = n x^{n-1}$, se multiplica por $5$ y se resta $1$ al grado, obteniendo $5x^4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WT",
-    "question": "Resuelve la ecuación algebraica: $3(x - 4) = 2(x - 6)$",
-    "image": null,
+    "id": "CEP66PL",
+    "question": "¿Cuál es la derivada de $f(x) = x^8$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "$x = 0$", "correct": true },
-      { "text": "$x = 12$", "correct": false },
-      { "text": "$x = -12$", "correct": false },
-      { "text": "$x = 2$", "correct": false }
+      { "text": "$f'(x) = 8x^7$", "correct": true },
+      { "text": "$f'(x) = 7x^8$", "correct": false },
+      { "text": "$f'(x) = x^7$", "correct": false },
+      { "text": "$f'(x) = 8x$", "correct": false }
     ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Realiza la multiplicación en ambos miembros e iguala términos para despejar 'x'. Ten cuidado con los signos negativos.",
-    "explanation": "Se aplica la distributiva: $3x - 12 = 2x - 12$. Agrupando términos: $3x - 2x = -12 + 12$. Al reducir ambos lados nos queda que $x = 0$.",
+    "hint": "Identifica qué valor toma el coeficiente y qué valor se deduce para el grado polinomial.",
+    "explanation": "Al derivar, bajamos el $8$ y el nuevo exponente de la variable será $8-1=7$, resultando $8x^7$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP00WU",
-    "question": "Un alumno del CEPREDIX intenta determinar $x$ en la ecuación: $6(2x + 1) = 3(4x + 2)$. ¿Cuál es el resultado de la variable?",
-    "image": null,
+    "id": "CEP66PM",
+    "question": "¿Cuál es la derivada de $f(x) = x^{12}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
     "options": [
-      { "text": "Infinitas soluciones", "correct": true },
-      { "text": "$x = 0$", "correct": false },
-      { "text": "$x = 1$", "correct": false },
-      { "text": "Sin solución", "correct": false }
+      { "text": "$f'(x) = 11x^{12}$", "correct": false },
+      { "text": "$f'(x) = 12x^{11}$", "correct": true },
+      { "text": "$f'(x) = 12x$", "correct": false },
+      { "text": "$f'(x) = x^{11}$", "correct": false }
     ],
-    "uni_tags": ["GENERAL", "UNAM", "IPN", "UAM", "EXANI II", "BUAP", "USEP"],
-    "level_tag": ["AVANZADO"],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Resuelve ambos lados multiplicando los coeficientes. Verifica si se genera una identidad donde ambos lados sean exactamente iguales.",
-    "explanation": "Al multiplicar se obtiene $12x + 6 = 12x + 6$. Dado que ambos lados son perfectamente idénticos, se genera una identidad matemática. Por lo tanto, cualquier número real cumple la igualdad y la ecuación tiene infinitas soluciones.",
+    "hint": "Recuerda la estructura básica para derivar potencias de grado superior enteras.",
+    "explanation": "Aplicamos la regla general de derivación para potencias y el exponente $12$ multiplica a la base elevada al grado $11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PN",
+    "question": "¿Cuál es la derivada de $f(x) = x^{-2}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -2x^{-1}$", "correct": false },
+      { "text": "$f'(x) = -2x^{-3}$", "correct": true },
+      { "text": "$f'(x) = 2x^{-3}$", "correct": false },
+      { "text": "$f'(x) = -x^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten cuidado con los signos al momento de restarle uno al grado.",
+    "explanation": "Al bajar el $-2$ y restarle uno obtenemos un exponente de $-2-1=-3$, por lo que da $-2x^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PO",
+    "question": "¿Cuál es la derivada de $f(x) = x^{-4}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -4x^{-5}$", "correct": true },
+      { "text": "$f'(x) = -4x^{-3}$", "correct": false },
+      { "text": "$f'(x) = 4x^{-5}$", "correct": false },
+      { "text": "$f'(x) = -x^{-5}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El valor absoluto del exponente aumenta cuando el número es negativo y se le resta uno.",
+    "explanation": "Utilizando la regla $\\frac{d}{dx} x^n = n x^{n-1}$, con $n=-4$, da como resultado $-4x^{-5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PP",
+    "question": "¿Cuál es la derivada de $f(x) = x^{-1}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = x^{-2}$", "correct": false },
+      { "text": "$f'(x) = -x^{-2}$", "correct": true },
+      { "text": "$f'(x) = -x^{-1}$", "correct": false },
+      { "text": "$f'(x) = -1$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Derivar la inversa equivale a multiplicar por menos uno y reducir el exponente negativo.",
+    "explanation": "El exponente $-1$ pasa multiplicando y se resta uno al grado ($-1-1=-2$), generando $-x^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PQ",
+    "question": "¿Cuál es la derivada de $f(x) = x^{100}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = 100x^{99}$", "correct": true },
+      { "text": "$f'(x) = 99x^{100}$", "correct": false },
+      { "text": "$f'(x) = x^{99}$", "correct": false },
+      { "text": "$f'(x) = 100x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la propiedad polinomial sin importar cuán grande sea el número escalar del exponente.",
+    "explanation": "Se aplica la regla general: el exponente baja y se reduce en uno: $100x^{99}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PR",
+    "question": "¿Cuál es la derivada de $f(x) = x^{-7}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -7x^{-6}$", "correct": false },
+      { "text": "$f'(x) = -7x^{-8}$", "correct": true },
+      { "text": "$f'(x) = 7x^{-8}$", "correct": false },
+      { "text": "$f'(x) = -x^{-8}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Asegúrate de conservar el signo al realizar la resta correspondiente para el nuevo exponente.",
+    "explanation": "Al aplicar la fórmula el $-7$ multiplica la base, y la resta de $-7-1$ se convierte en $-8$, de donde $-7x^{-8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PS",
+    "question": "¿Cuál es la derivada de $f(x) = x^3$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = 2x^3$", "correct": false },
+      { "text": "$f'(x) = x^2$", "correct": false },
+      { "text": "$f'(x) = 3x^2$", "correct": true },
+      { "text": "$f'(x) = 3x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Baja la cifra cúbica como factor e identifica el grado cuadrático resultante.",
+    "explanation": "Con la regla de la potencia para $x^3$, el $3$ se vuelve multiplicador y el exponente cambia a $2$, logrando $3x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PT",
+    "question": "¿Cuál es la derivada de $f(x) = x^{-10}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -10x^{-9}$", "correct": false },
+      { "text": "$f'(x) = 10x^{-11}$", "correct": false },
+      { "text": "$f'(x) = -x^{-11}$", "correct": false },
+      { "text": "$f'(x) = -10x^{-11}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No olvides que restar a un número negativo desplaza el valor más a la izquierda en la recta numérica.",
+    "explanation": "El número $-10$ multiplica a la variable, el exponente adquiere valor de $-11$ restando una unidad y así se forma $-10x^{-11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PU",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = 2\\sqrt{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2}x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa la raíz como exponente fraccionario para facilitar su derivación general.",
+    "explanation": "Puesto que $\\sqrt{x}$ es equivalente a $x^{1/2}$, su derivada se calcula como $\\frac{1}{2}x^{-1/2}$, transformado a $\\frac{1}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PV",
+    "question": "¿Cuál es la derivada de $f(x) = 3\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{3}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{3x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = 3x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La constante multiplicativa se mantiene arriba al aplicar la regla de la raíz.",
+    "explanation": "Al derivar $c\\sqrt{x}$, el resultado toma la forma de $\\frac{c}{2\\sqrt{x}}$, de manera que se llega a $\\frac{3}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PW",
+    "question": "¿Cuál es la derivada de $f(x) = -2\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{1}{\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = -\\frac{2}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -2x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Realiza la simplificación de la fracción en caso de obtener factores numéricos iguales en numerador y denominador.",
+    "explanation": "Aplicamos la regla dando $\\frac{-2}{2\\sqrt{x}}$ y al simplificar o anular los factores número dos nos queda $-\\frac{1}{\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PX",
+    "question": "¿Cuál es la derivada de $f(x) = 5\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2}{5\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = 5$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Incorpora la constante sobre la derivada propia de la raíz cuadrada de equis.",
+    "explanation": "De acuerdo con el modelo $c\\sqrt{x} \\to \\frac{c}{2\\sqrt{x}}$, al multiplicar por $5$, se transforma en $\\frac{5}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PY",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{1}{2}\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{4\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{4}x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa el producto de los números denominadores que se forman en la operación.",
+    "explanation": "La derivada de la raíz incluye un medio, si la multiplicamos por $\\frac{1}{2}$ inicial nos aporta $\\frac{1}{4\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66PZ",
+    "question": "¿Cuál es la derivada de $f(x) = -4\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{4}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{2}{\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -2x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No omitas la división del coeficiente entre el valor base que genera la derivada de raíz cuadrada.",
+    "explanation": "Al ubicar $\\frac{-4}{2\\sqrt{x}}$, se simplifica la fracción originando el resultado reducido de $-\\frac{2}{\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QA",
+    "question": "¿Cuál es la derivada de $f(x) = 10\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{10}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{5\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = 5x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la mitad matemática del coeficiente inicial.",
+    "explanation": "Evaluando la fracción $\\frac{10}{2\\sqrt{x}}$ con el propósito de simplificarla se deduce que la respuesta será $\\frac{5}{\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QB",
+    "question": "¿Cuál es la derivada de $f(x) = -\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{1}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = -\\frac{1}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Trátalo como la regla regular con un menos que antecede al procedimiento principal.",
+    "explanation": "El símbolo de menos se asume como el coeficiente entero $-1$, multiplicando la derivada normal queda $-\\frac{1}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QC",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{3}{4}\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{3}{4\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{2\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{8\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{3}{8}x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica matemáticamente los dos números denominadores vinculados al derivar la función.",
+    "explanation": "Multiplicando fracciones: $(\\frac{3}{4}) \\cdot (\\frac{1}{2\\sqrt{x}})$, que al multiplicar numeradores y denominadores es $\\frac{3}{8\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QD",
+    "question": "¿Cuál es la derivada de $f(x) = 7\\sqrt{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{7}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{14\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{7}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = 7$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Como no es posible lograr una simplificación exacta, debes mantener la estructura de fracción originada.",
+    "explanation": "Para la derivada de la forma $c\\sqrt{x}$, el valor $7$ se coloca en el numerador para obtener finalmente $\\frac{7}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QE",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt[3]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{3\\sqrt{x^3}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{3}x^2$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{3\\sqrt[3]{x^2}}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula que convierte exponentes fraccionarios restando la unidad matemática al mismo.",
+    "explanation": "Se expresa $x^{1/3}$. Derivando es $\\frac{1}{3}x^{-2/3}$, que al ser colocado en formato de radical da $\\frac{1}{3\\sqrt[3]{x^2}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QF",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt[4]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{4\\sqrt[3]{x^4}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[4]{x^3}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{4\\sqrt[4]{x^3}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{4}x^3$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Sigue el patrón de la derivada de la raíz donde el índice n-ésimo está directamente relacionado con la expresión base resultante.",
+    "explanation": "Derivar un elemento $x^{1/4}$ da $\\frac{1}{4}x^{-3/4}$. Reorganizando algebraicamente la fracción con exponente se forma $\\frac{1}{4\\sqrt[4]{x^3}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QG",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt[5]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{5\\sqrt[4]{x^5}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{5\\sqrt[5]{x^4}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[5]{x^4}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{5}x^4$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Coteja cómo el índice y exponente asumen su acomodo interior dentro de la forma $\\frac{1}{n\\sqrt[n]{x^{n-1}}}$.",
+    "explanation": "Al derivar, la base toma exponente fraccionario $x^{1/5}$ cuya transformación final tras restar uno al exponente equivale a $\\frac{1}{5\\sqrt[5]{x^4}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QH",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt[6]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{6\\sqrt[5]{x^6}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[6]{x^5}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{6\\sqrt[6]{x^5}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{6}x^5$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La reducción en el exponente numérico se verá afectada por el número del grado original radicular.",
+    "explanation": "Transformando y derivando como $(x)^{1/6}$, el formato radicular correspondiente final resulta $\\frac{1}{6\\sqrt[6]{x^5}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QI",
+    "question": "¿Cuál es la derivada de $f(x) = \\sqrt[7]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{7\\sqrt[6]{x^7}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{7\\sqrt[7]{x^6}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[7]{x^6}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{7}x^6$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Respeta que el denominador refleja el mismo índice y la potencia de equis es inferior en una unidad.",
+    "explanation": "Siguiendo la regla genérica en donde $\\frac{d}{dx} \\sqrt[n]{x} = \\frac{1}{n\\sqrt[n]{x^{n-1}}}$, adaptando para $7$ se consigue $\\frac{1}{7\\sqrt[7]{x^6}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QJ",
+    "question": "¿Cuál es la derivada de $f(x) = 2\\sqrt[3]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{3\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2}{\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2}{3\\sqrt[3]{x^2}}$", "correct": true },
+      { "text": "$f'(x) = 2x^2$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Incluye el coeficiente que preexiste al efectuar la derivación enésima de forma directa.",
+    "explanation": "Se aplica la regla generalizada y se multiplica por $2$ al final para estructurarlo como $\\frac{2}{3\\sqrt[3]{x^2}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QK",
+    "question": "¿Cuál es la derivada de $f(x) = 3\\sqrt[4]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{4\\sqrt[4]{x^3}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{\\sqrt[4]{x^3}}$", "correct": false },
+      { "text": "$f'(x) = 3x^3$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{4\\sqrt[4]{x^3}}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica que el coeficiente fraccionario final refleje al número entero sobre el índice.",
+    "explanation": "La derivada para esta función toma el índice en el divisor y traslada el $3$ arriba, entregando $\\frac{3}{4\\sqrt[4]{x^3}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QL",
+    "question": "¿Cuál es la derivada de $f(x) = -5\\sqrt[3]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{1}{3\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{5}{3\\sqrt[3]{x^2}}$", "correct": true },
+      { "text": "$f'(x) = -\\frac{5}{\\sqrt[3]{x^2}}$", "correct": false },
+      { "text": "$f'(x) = -5x^2$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Maneja el signo negativo del coeficiente acompañando invariablemente el numerador final.",
+    "explanation": "La constante $-5$ multiplica el procedimiento normal $\\frac{1}{3\\sqrt[3]{x^2}}$, uniendo así la solución de $-\\frac{5}{3\\sqrt[3]{x^2}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QM",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{1}{2}\\sqrt[5]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{5\\sqrt[5]{x^4}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt[5]{x^4}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{10\\sqrt[5]{x^4}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{10}x^4$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Presta atención a la interacción geométrica al unir coeficientes en la fracción inferior del radical.",
+    "explanation": "Combinando la regla, se obtendría $\\frac{1}{5\\sqrt[5]{x^4}}$, al multiplicarlo por el constante factor $\\frac{1}{2}$ surge $\\frac{1}{10\\sqrt[5]{x^4}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QN",
+    "question": "¿Cuál es la derivada de $f(x) = 10\\sqrt[6]{x}$?",
+    "image": "https://www.funciones.xyz/wp-content/uploads/2021/10/tabla-derivadas-inmediatas-formulas-1024x942.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{3\\sqrt[6]{x^5}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{10}{\\sqrt[6]{x^5}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{\\sqrt[6]{x^5}}$", "correct": false },
+      { "text": "$f'(x) = 10x^5$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "No omitas el factor de reducción matemática al acomodar la constante con el divisor asociado al índice en la derivación.",
+    "explanation": "Calculando tenemos el coeficiente diez sobre el denominador seis originando $\\frac{10}{6\\sqrt[6]{x^5}}$, reduciendo su mínima expresión esto da $\\frac{5}{3\\sqrt[6]{x^5}}$.",
     "explanative_video": null,
     "collapsible_text": null
   }
