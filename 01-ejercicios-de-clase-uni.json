@@ -808,5 +808,905 @@
     "explanation": "Calculando tenemos el coeficiente diez sobre el denominador seis originando $\\frac{10}{6\\sqrt[6]{x^5}}$, reduciendo su mínima expresión esto da $\\frac{5}{3\\sqrt[6]{x^5}}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP66QO",
+    "question": "Desarrolla el siguiente binomio al cuadrado: $(x + 5)^2$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 + 10x + 25$", "correct": true },
+      { "text": "$x^2 + 25$", "correct": false },
+      { "text": "$x^2 + 5x + 25$", "correct": false },
+      { "text": "$x^2 - 10x + 25$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula del binomio al cuadrado: $(a+b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "Elevamos el primero al cuadrado $(x^2)$, más el doble del primero por el segundo $2(x)(5) = 10x$, más el segundo al cuadrado $(5^2 = 25)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QP",
+    "question": "Desarrolla el siguiente binomio al cuadrado: $(x - 3)^2$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 6x + 9$", "correct": true },
+      { "text": "$x^2 - 9$", "correct": false },
+      { "text": "$x^2 + 6x - 9$", "correct": false },
+      { "text": "$x^2 - 3x + 9$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula: $(a-b)^2 = a^2 - 2ab + b^2$.",
+    "explanation": "El desarrollo resulta en $(x)^2 - 2(x)(3) + (3)^2 = x^2 - 6x + 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QQ",
+    "question": "Factoriza la siguiente diferencia de cuadrados: $x^2 - 25$",
+    "image": null,
+    "options": [
+      { "text": "$(x - 5)(x + 5)$", "correct": true },
+      { "text": "$(x - 25)(x + 1)$", "correct": false },
+      { "text": "$(x - 5)^2$", "correct": false },
+      { "text": "$(x + 5)^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula de diferencia de cuadrados: $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "La raíz cuadrada de $x^2$ es $x$, y la de $25$ es $5$. Formamos binomios conjugados: $(x-5)(x+5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QR",
+    "question": "Factoriza la expresión: $4x^2 - 9$",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 3)(2x + 3)$", "correct": true },
+      { "text": "$(4x - 3)(4x + 3)$", "correct": false },
+      { "text": "$(2x - 9)(2x + 1)$", "correct": false },
+      { "text": "$(2x - 3)^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica que ambos términos tienen raíz cuadrada exacta. Aplica $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "Raíz de $4x^2$ es $2x$, raíz de $9$ es $3$. Los factores son $(2x-3)(2x+3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QS",
+    "question": "Desarrolla el siguiente binomio al cubo: $(x + 2)^3$",
+    "image": null,
+    "options": [
+      { "text": "$x^3 + 6x^2 + 12x + 8$", "correct": true },
+      { "text": "$x^3 + 8$", "correct": false },
+      { "text": "$x^3 + 2x^2 + 4x + 8$", "correct": false },
+      { "text": "$x^3 + 6x^2 + 6x + 8$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula: $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$.",
+    "explanation": "Sustituyendo obtenemos $x^3 + 3(x^2)(2) + 3(x)(2^2) + 2^3 = x^3 + 6x^2 + 12x + 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QT",
+    "question": "Desarrolla el binomio al cubo: $(x - 1)^3$",
+    "image": null,
+    "options": [
+      { "text": "$x^3 - 3x^2 + 3x - 1$", "correct": true },
+      { "text": "$x^3 - 1$", "correct": false },
+      { "text": "$x^3 - 3x^2 - 3x - 1$", "correct": false },
+      { "text": "$x^3 + 3x^2 - 3x + 1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula con signo negativo alternado: $(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$.",
+    "explanation": "Sustituyendo resulta en $x^3 - 3(x^2)(1) + 3(x)(1^2) - 1^3 = x^3 - 3x^2 + 3x - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QU",
+    "question": "Factoriza la siguiente diferencia de cubos: $x^3 - 27$",
+    "image": null,
+    "options": [
+      { "text": "$(x - 3)(x^2 + 3x + 9)$", "correct": true },
+      { "text": "$(x - 3)(x^2 - 3x + 9)$", "correct": false },
+      { "text": "$(x + 3)(x^2 - 3x + 9)$", "correct": false },
+      { "text": "$(x - 3)^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula para diferencia de cubos: $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$.",
+    "explanation": "Con $a=x$ y $b=3$, la factorización resulta en $(x-3)(x^2 + 3x + 9)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QV",
+    "question": "Factoriza la suma de cubos: $x^3 + 8$",
+    "image": null,
+    "options": [
+      { "text": "$(x + 2)(x^2 - 2x + 4)$", "correct": true },
+      { "text": "$(x + 2)(x^2 + 2x + 4)$", "correct": false },
+      { "text": "$(x - 2)(x^2 + 2x + 4)$", "correct": false },
+      { "text": "$(x + 2)^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula para suma de cubos: $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$.",
+    "explanation": "Con $a=x$ y $b=2$, aplicamos la fórmula y obtenemos $(x+2)(x^2 - 2x + 4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QW",
+    "question": "Extrae el factor común de la expresión: $2x^2 + 4x$",
+    "image": null,
+    "options": [
+      { "text": "$2x(x + 2)$", "correct": true },
+      { "text": "$x(2x + 4)$", "correct": false },
+      { "text": "$2(x^2 + 2x)$", "correct": false },
+      { "text": "$2x(x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca el Máximo Común Divisor (MCD) de los coeficientes y la variable con el menor exponente. $ab + ac = a(b+c)$.",
+    "explanation": "El MCD de $2$ y $4$ es $2$. La variable común con menor exponente es $x$. Factorizando $2x$ obtenemos $2x(x + 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QX",
+    "question": "Factoriza completamente usando factor común: $5x^3 - 15x^2$",
+    "image": null,
+    "options": [
+      { "text": "$5x^2(x - 3)$", "correct": true },
+      { "text": "$5x(x^2 - 3x)$", "correct": false },
+      { "text": "$x^2(5x - 15)$", "correct": false },
+      { "text": "$5x^2(x - 5)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica el MCD numérico y literal: $ab - ac = a(b-c)$.",
+    "explanation": "El MCD de los coeficientes es $5$ y la literal común con menor exponente es $x^2$. Obtenemos $5x^2(x - 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QY",
+    "question": "Desarrolla el siguiente binomio: $(2x + 3)^2$",
+    "image": null,
+    "options": [
+      { "text": "$4x^2 + 12x + 9$", "correct": true },
+      { "text": "$4x^2 + 9$", "correct": false },
+      { "text": "$4x^2 + 6x + 9$", "correct": false },
+      { "text": "$2x^2 + 12x + 9$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica $(a+b)^2 = a^2 + 2ab + b^2$.",
+    "explanation": "Sustituyendo obtenemos $(2x)^2 + 2(2x)(3) + 3^2 = 4x^2 + 12x + 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66QZ",
+    "question": "Factoriza la expresión algebraica: $16x^2 - 49y^2$",
+    "image": null,
+    "options": [
+      { "text": "$(4x - 7y)(4x + 7y)$", "correct": true },
+      { "text": "$(16x - 49y)(16x + 49y)$", "correct": false },
+      { "text": "$(4x - 7y)^2$", "correct": false },
+      { "text": "$(4x^2 - 7y^2)(4x^2 + 7y^2)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es una diferencia de cuadrados perfectos. $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "Raíz de $16x^2$ es $4x$, raíz de $49y^2$ es $7y$. Los binomios conjugados son $(4x - 7y)(4x + 7y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RA",
+    "question": "Identifica la factorización correcta del trinomio cuadrado perfecto: $x^2 - 8x + 16$",
+    "image": null,
+    "options": [
+      { "text": "$(x - 4)^2$", "correct": true },
+      { "text": "$(x + 4)^2$", "correct": false },
+      { "text": "$(x - 8)^2$", "correct": false },
+      { "text": "$(x - 4)(x + 4)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa si el término central cumple ser el doble producto de las raíces de los extremos. $a^2 - 2ab + b^2 = (a-b)^2$.",
+    "explanation": "La raíz de $x^2$ es $x$, la de $16$ es $4$. El doble de su producto es $2(x)(4) = 8x$. El signo es negativo, resultando en $(x-4)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RB",
+    "question": "Factoriza el siguiente trinomio: $9x^2 + 12x + 4$",
+    "image": null,
+    "options": [
+      { "text": "$(3x + 2)^2$", "correct": true },
+      { "text": "$(3x + 4)^2$", "correct": false },
+      { "text": "$(9x + 2)^2$", "correct": false },
+      { "text": "$(3x + 2)(3x - 2)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Verifica si es un trinomio cuadrado perfecto aplicando $a^2 + 2ab + b^2 = (a+b)^2$.",
+    "explanation": "Raíz de $9x^2$ es $3x$, raíz de $4$ es $2$. El doble producto es $2(3x)(2) = 12x$. Por lo tanto, factoriza como $(3x+2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RC",
+    "question": "Factoriza la diferencia de cubos: $27x^3 - 1$",
+    "image": null,
+    "options": [
+      { "text": "$(3x - 1)(9x^2 + 3x + 1)$", "correct": true },
+      { "text": "$(3x - 1)(9x^2 - 3x + 1)$", "correct": false },
+      { "text": "$(27x - 1)(x^2 + x + 1)$", "correct": false },
+      { "text": "$(3x - 1)^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula: $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$.",
+    "explanation": "Identificando raíces cúbicas: $a = 3x$ y $b = 1$. Sustituyendo, queda $(3x - 1)((3x)^2 + (3x)(1) + 1^2) = (3x - 1)(9x^2 + 3x + 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RD",
+    "question": "Desarrolla la factorización de la suma: $125x^3 + 64$",
+    "image": null,
+    "options": [
+      { "text": "$(5x + 4)(25x^2 - 20x + 16)$", "correct": true },
+      { "text": "$(5x + 4)(25x^2 + 20x + 16)$", "correct": false },
+      { "text": "$(5x - 4)(25x^2 + 20x + 16)$", "correct": false },
+      { "text": "$(25x + 8)(5x^2 - 40x + 8)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Fórmula: $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$.",
+    "explanation": "Las raíces cúbicas son $5x$ y $4$. Aplicando la fórmula obtenemos $(5x + 4)(25x^2 - 20x + 16)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RE",
+    "question": "Extrae el factor común de la expresión: $x^2y - xy^2$",
+    "image": null,
+    "options": [
+      { "text": "$xy(x - y)$", "correct": true },
+      { "text": "$x(xy - y^2)$", "correct": false },
+      { "text": "$y(x^2 - xy)$", "correct": false },
+      { "text": "$x^2y^2(x - y)$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Busca las literales presentes en ambos términos con su menor exponente. Aplica $ab - ac = a(b-c)$.",
+    "explanation": "La literal común $x$ tiene menor exponente $1$, y $y$ tiene menor exponente $1$. Factorizando $xy$, obtenemos $xy(x - y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RF",
+    "question": "Efectúa el producto notable de binomios conjugados: $(a+b)(a-b)$",
+    "image": null,
+    "options": [
+      { "text": "$a^2 - b^2$", "correct": true },
+      { "text": "$a^2 + b^2$", "correct": false },
+      { "text": "$a^2 - 2ab + b^2$", "correct": false },
+      { "text": "$a^2 + 2ab + b^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los binomios conjugados siempre resultan en una diferencia de cuadrados. $(x+y)(x-y) = x^2 - y^2$.",
+    "explanation": "El producto de la suma por la diferencia de dos cantidades es igual al cuadrado de la primera menos el cuadrado de la segunda: $a^2 - b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RG",
+    "question": "Desarrolla el siguiente binomio al cubo: $(3a - 2b)^3$",
+    "image": null,
+    "options": [
+      { "text": "$27a^3 - 54a^2b + 36ab^2 - 8b^3$", "correct": true },
+      { "text": "$27a^3 - 18a^2b + 12ab^2 - 8b^3$", "correct": false },
+      { "text": "$27a^3 + 54a^2b + 36ab^2 + 8b^3$", "correct": false },
+      { "text": "$9a^3 - 27a^2b + 27ab^2 - 4b^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza $(x-y)^3 = x^3 - 3x^2y + 3xy^2 - y^3$.",
+    "explanation": "Al sustituir: $(3a)^3 - 3(3a)^2(2b) + 3(3a)(2b)^2 - (2b)^3 = 27a^3 - 54a^2b + 36ab^2 - 8b^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RH",
+    "question": "Factoriza completamente la expresión: $x^4 - 81$",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 9)(x + 3)(x - 3)$", "correct": true },
+      { "text": "$(x^2 - 9)(x^2 + 9)$", "correct": false },
+      { "text": "$(x^2 - 9)^2$", "correct": false },
+      { "text": "$(x - 3)^4$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica diferencia de cuadrados dos veces de manera sucesiva. Primero $a^4 - b^4 = (a^2-b^2)(a^2+b^2)$.",
+    "explanation": "$x^4 - 81$ se factoriza como $(x^2 - 9)(x^2 + 9)$. Luego, el primer factor es otra diferencia de cuadrados, resultando en $(x - 3)(x + 3)(x^2 + 9)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RI",
+    "question": "Simplifica la siguiente expresión algebraica racional: $\\frac{x^2 - 36}{x + 6}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 6$", "correct": true },
+      { "text": "$x + 6$", "correct": false },
+      { "text": "$x^2 - 6$", "correct": false },
+      { "text": "$x - 36$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador usando diferencia de cuadrados: $a^2 - b^2 = (a-b)(a+b)$ y luego simplifica la fracción.",
+    "explanation": "El numerador se factoriza como $(x-6)(x+6)$. Al dividir entre $(x+6)$, el resultado es $x-6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RJ",
+    "question": "Simplifica la fracción algebraica: $\\frac{x^2 - 8x + 16}{x - 4}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 4$", "correct": true },
+      { "text": "$x + 4$", "correct": false },
+      { "text": "$x^2 - 4$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reconoce el trinomio cuadrado perfecto en el numerador: $a^2 - 2ab + b^2 = (a-b)^2$.",
+    "explanation": "El numerador equivale a $(x-4)^2$. Dividiendo $(x-4)^2$ entre $(x-4)$, resulta en $x-4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RK",
+    "question": "Realiza la simplificación de: $\\frac{2x^2 - 18}{x + 3}$",
+    "image": null,
+    "options": [
+      { "text": "$2x - 6$", "correct": true },
+      { "text": "$2x + 6$", "correct": false },
+      { "text": "$2x - 9$", "correct": false },
+      { "text": "$x - 3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero extrae factor común en el numerador $a(b^2 - c^2)$ y luego aplica diferencia de cuadrados.",
+    "explanation": "El numerador es $2(x^2 - 9) = 2(x-3)(x+3)$. Al dividir por $(x+3)$, obtenemos $2(x-3) = 2x - 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RL",
+    "question": "Simplifica la siguiente expresión matemática: $\\frac{x^3 - 27}{x^2 + 3x + 9}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 3$", "correct": true },
+      { "text": "$x + 3$", "correct": false },
+      { "text": "$x^2 - 3$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador utilizando diferencia de cubos: $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$.",
+    "explanation": "El numerador $x^3 - 27$ se factoriza como $(x-3)(x^2 + 3x + 9)$. Al simplificar con el denominador idéntico, queda $x-3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RM",
+    "question": "Simplifica la siguiente expresión: $\\frac{3x^3 + 15x^2}{x + 5}$",
+    "image": null,
+    "options": [
+      { "text": "$3x^2$", "correct": true },
+      { "text": "$3x$", "correct": false },
+      { "text": "$x^2$", "correct": false },
+      { "text": "$3x^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica y extrae el factor común en el numerador: $ab + ac = a(b+c)$.",
+    "explanation": "Factor común en el numerador es $3x^2$, resultando en $3x^2(x + 5)$. Al dividir entre $x+5$, la respuesta es $3x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RN",
+    "question": "Reduce a su mínima expresión: $\\frac{x^2 - y^2}{x - y}$",
+    "image": null,
+    "options": [
+      { "text": "$x + y$", "correct": true },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$xy$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el producto notable conjugado para factorizar el numerador: $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "Sustituyendo el numerador por $(x-y)(x+y)$ y dividiendo por $(x-y)$, el resultado final es $x+y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RO",
+    "question": "Simplifica la expresión fraccionaria: $\\frac{(x+2)^2 - 9}{x + 5}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1$", "correct": true },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x + 2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador es una diferencia de cuadrados donde $a = (x+2)$ y $b = 3$. Aplica $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "El numerador es $((x+2)-3)((x+2)+3) = (x-1)(x+5)$. Al dividir entre el denominador $(x+5)$, se obtiene $x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RP",
+    "question": "Encuentra el resultado simplificado de: $\\frac{4a^2 - 16b^2}{2a - 4b}$",
+    "image": null,
+    "options": [
+      { "text": "$2a + 4b$", "correct": true },
+      { "text": "$2a - 4b$", "correct": false },
+      { "text": "$a + 2b$", "correct": false },
+      { "text": "$4a + 8b$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza el numerador por diferencia de cuadrados $x^2 - y^2 = (x-y)(x+y)$ y el denominador por factor común.",
+    "explanation": "Numerador: $(2a-4b)(2a+4b)$. Denominador: $2a-4b$. Al cancelar el factor común $(2a-4b)$, resulta $2a+4b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RQ",
+    "question": "Efectúa la simplificación: $\\frac{x^4 - 1}{x^2 + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 1$", "correct": true },
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$x - 1$", "correct": false },
+      { "text": "$x^3 - 1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador es una diferencia de cuadrados $a^4 - b^4 = (a^2-b^2)(a^2+b^2)$.",
+    "explanation": "$x^4 - 1$ factoriza como $(x^2 - 1)(x^2 + 1)$. Cancelando con el denominador, queda $x^2 - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RR",
+    "question": "Simplifica algebraicamente: $\\frac{x^3 + 64}{x + 4}$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 4x + 16$", "correct": true },
+      { "text": "$x^2 + 4x + 16$", "correct": false },
+      { "text": "$x^2 - 8x + 16$", "correct": false },
+      { "text": "$x^2 + 16$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la factorización de suma de cubos en el numerador: $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$.",
+    "explanation": "El numerador es $(x+4)(x^2 - 4x + 16)$. Simplificando la fracción, eliminamos el $(x+4)$ y el resultado es $x^2 - 4x + 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RS",
+    "question": "Simplifica la fracción: $\\frac{5x^2 - 20x}{x - 4}$",
+    "image": null,
+    "options": [
+      { "text": "$5x$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$x - 4$", "correct": false },
+      { "text": "$5x - 4$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común del numerador: $ab - ac = a(b-c)$.",
+    "explanation": "El factor común del numerador es $5x$, entonces queda $5x(x - 4)$. Dividido por $(x-4)$, resulta $5x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RT",
+    "question": "Aplica productos notables para simplificar: $\\frac{x^2 + 2xy + y^2}{x + y}$",
+    "image": null,
+    "options": [
+      { "text": "$x + y$", "correct": true },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$xy$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reconoce el numerador como un trinomio cuadrado perfecto: $a^2 + 2ab + b^2 = (a+b)^2$.",
+    "explanation": "Sustituyendo el numerador por $(x+y)^2$ y dividiendo entre $(x+y)$, resulta en $x+y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RU",
+    "question": "Halla la forma más simple de: $\\frac{(x-1)^2 - y^2}{x - 1 - y}$",
+    "image": null,
+    "options": [
+      { "text": "$x - 1 + y$", "correct": true },
+      { "text": "$x + 1 - y$", "correct": false },
+      { "text": "$x - 1 - y$", "correct": false },
+      { "text": "$x + 1 + y$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica diferencia de cuadrados en el numerador: $a^2 - b^2 = (a-b)(a+b)$, donde $a=(x-1)$.",
+    "explanation": "El numerador se descompone en $((x-1) - y)((x-1) + y) = (x - 1 - y)(x - 1 + y)$. Al simplificar, se obtiene $x - 1 + y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RV",
+    "question": "Simplifica la expresión: $\\frac{27a^3 - 8}{3a - 2}$",
+    "image": null,
+    "options": [
+      { "text": "$9a^2 + 6a + 4$", "correct": true },
+      { "text": "$9a^2 - 6a + 4$", "correct": false },
+      { "text": "$3a^2 + 6a + 2$", "correct": false },
+      { "text": "$9a^2 + 12a + 4$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El numerador es una diferencia de cubos: $x^3 - y^3 = (x-y)(x^2 + xy + y^2)$.",
+    "explanation": "Las raíces cúbicas son $3a$ y $2$. Numerador: $(3a-2)(9a^2 + 6a + 4)$. Al dividir entre $(3a-2)$, obtenemos el trinomio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RW",
+    "question": "Simplifica racionalmente: $\\frac{x^2 - 100}{2x - 20}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x + 10}{2}$", "correct": true },
+      { "text": "$x + 10$", "correct": false },
+      { "text": "$\\frac{x - 10}{2}$", "correct": false },
+      { "text": "$x - 50$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza numerador (diferencia de cuadrados $a^2-b^2=(a-b)(a+b)$) y denominador (factor común).",
+    "explanation": "Numerador: $(x-10)(x+10)$. Denominador: $2(x-10)$. Cancelando $(x-10)$, nos queda $\\frac{x+10}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RX",
+    "question": "Halla la mínima expresión para: $\\frac{16x^2 - 8x + 1}{4x - 1}$",
+    "image": null,
+    "options": [
+      { "text": "$4x - 1$", "correct": true },
+      { "text": "$4x + 1$", "correct": false },
+      { "text": "$16x - 1$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Visualiza el trinomio cuadrado perfecto en la parte superior: $a^2 - 2ab + b^2 = (a-b)^2$.",
+    "explanation": "El numerador es $(4x-1)^2$. Al dividir esta expresión entre $(4x-1)$, el cociente es $4x-1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RY",
+    "question": "Simplifica agrupando términos: $\\frac{ax + ay + bx + by}{x + y}$",
+    "image": null,
+    "options": [
+      { "text": "$a + b$", "correct": true },
+      { "text": "$ab$", "correct": false },
+      { "text": "$x + y$", "correct": false },
+      { "text": "$a - b$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica factor común por agrupación de términos en el numerador: $a(x+y) + b(x+y)$.",
+    "explanation": "Agrupamos: $a(x+y) + b(x+y) = (a+b)(x+y)$. Al dividir entre $(x+y)$, resulta $a+b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66RZ",
+    "question": "Reduce algebraicamente la siguiente fracción: $\\frac{x^3y - xy^3}{xy}$",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - y^2$", "correct": true },
+      { "text": "$x^2 + y^2$", "correct": false },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$x^2y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el factor común en el numerador: $ab - ac = a(b-c)$.",
+    "explanation": "Factor común es $xy$. Numerador: $xy(x^2 - y^2)$. Al dividir entre $xy$, obtenemos $x^2 - y^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SA",
+    "question": "Simplifica la expresión: $\\frac{m^3 + n^3}{m^2 - mn + n^2}$",
+    "image": null,
+    "options": [
+      { "text": "$m + n$", "correct": true },
+      { "text": "$m - n$", "correct": false },
+      { "text": "$m^2 + n^2$", "correct": false },
+      { "text": "$mn$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza la suma de cubos en el numerador: $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$.",
+    "explanation": "El numerador es $(m+n)(m^2 - mn + n^2)$. Se cancela el trinomio con el denominador, dejando $m+n$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SB",
+    "question": "Simplifica correctamente: $\\frac{4x^2 - 25y^2}{2x + 5y}$",
+    "image": null,
+    "options": [
+      { "text": "$2x - 5y$", "correct": true },
+      { "text": "$2x + 5y$", "correct": false },
+      { "text": "$4x - 25y$", "correct": false },
+      { "text": "$2x - 5y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la diferencia de cuadrados en la parte superior: $a^2 - b^2 = (a-b)(a+b)$.",
+    "explanation": "El numerador es $(2x-5y)(2x+5y)$. Al dividir entre el factor positivo del denominador, queda $(2x-5y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SC",
+    "question": "Realiza la operación y simplifica a su mínima expresión: $\\frac{x^4 - 16}{x^2 + 4} \\div (x - 2)$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x^2 + 2$", "correct": false },
+      { "text": "$x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica factorización de diferencia de cuadrados iterativamente: $a^4 - b^4 = (a^2-b^2)(a^2+b^2)$ y luego pasa la división a multiplicación.",
+    "explanation": "$\\frac{x^4 - 16}{x^2 + 4} = \\frac{(x^2 - 4)(x^2 + 4)}{x^2 + 4} = x^2 - 4$. Al dividir esto entre $x-2$, factorizamos como $\\frac{(x-2)(x+2)}{x-2} = x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SD",
+    "question": "Simplifica el siguiente producto de expresiones racionales: $\\frac{x^3 - 8}{x^2 - 4} \\cdot \\frac{x + 2}{x^2 + 2x + 4}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$0$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón $x^3-8$ (diferencia de cubos) y $x^2-4$ (diferencia de cuadrados). Simplifica cruzado.",
+    "explanation": "Sustituyendo: $\\frac{(x-2)(x^2+2x+4)}{(x-2)(x+2)} \\cdot \\frac{x+2}{x^2+2x+4}$. Todos los términos en el numerador se cancelan con el denominador idéntico, resultando en $1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SE",
+    "question": "Simplifica la fracción algebraica compleja: $\\frac{(a+b)^3 - c^3}{a^2 + 2ab + b^2 + ac + bc + c^2}$",
+    "image": null,
+    "options": [
+      { "text": "$a + b - c$", "correct": true },
+      { "text": "$a + b + c$", "correct": false },
+      { "text": "$a^2 + b^2 - c^2$", "correct": false },
+      { "text": "$a - b - c$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa términos en el denominador para formar un trinomio equivalente a la fórmula de diferencia de cubos: $x^3-y^3 = (x-y)(x^2+xy+y^2)$.",
+    "explanation": "El denominador puede verse como $(a+b)^2 + c(a+b) + c^2$. El numerador factoriza como $((a+b)-c)((a+b)^2 + (a+b)c + c^2)$. Se cancelan los trinomios largos, quedando $a+b-c$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SF",
+    "question": "Encuentra la mínima expresión de: $\\frac{x^2 - y^2 - x - y}{x + y}$",
+    "image": null,
+    "options": [
+      { "text": "$x - y - 1$", "correct": true },
+      { "text": "$x + y - 1$", "correct": false },
+      { "text": "$x - y + 1$", "correct": false },
+      { "text": "$x + y + 1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa el numerador como $(x^2 - y^2) - (x + y)$ y extrae un factor común polinómico.",
+    "explanation": "El numerador es $(x-y)(x+y) - 1(x+y) = (x+y)(x - y - 1)$. Dividiendo entre $(x+y)$ obtenemos $x - y - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SG",
+    "question": "Simplifica la expresión: $\\frac{x^4 - y^4}{x^3 - x^2y + xy^2 - y^3}$",
+    "image": null,
+    "options": [
+      { "text": "$x + y$", "correct": true },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false },
+      { "text": "$x^2 - y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Factoriza numerador (diferencias sucesivas) y denominador por agrupación $x^2(x-y)+y^2(x-y)$.",
+    "explanation": "Denominador: $(x-y)(x^2+y^2)$. Numerador: $(x^2-y^2)(x^2+y^2) = (x-y)(x+y)(x^2+y^2)$. Cancelando factores idénticos, queda $x+y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SH",
+    "question": "Reduce a su mínima expresión: $\\frac{a^2 - b^2 - 2bc - c^2}{a + b + c}$",
+    "image": null,
+    "options": [
+      { "text": "$a - b - c$", "correct": true },
+      { "text": "$a + b - c$", "correct": false },
+      { "text": "$a - b + c$", "correct": false },
+      { "text": "$a + b + c$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los últimos tres términos en el numerador para formar un trinomio cuadrado perfecto: $a^2 - (b^2 + 2bc + c^2)$.",
+    "explanation": "El numerador es $a^2 - (b+c)^2$, una diferencia de cuadrados. Factorizado: $(a - (b+c))(a + (b+c)) = (a-b-c)(a+b+c)$. Dividido entre el denominador resulta en $a-b-c$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SI",
+    "question": "Simplifica la expresión racional: $\\frac{2x^3 - 18x}{x^3 + 3x^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2(x - 3)}{x}$", "correct": true },
+      { "text": "$\\frac{2(x + 3)}{x}$", "correct": false },
+      { "text": "$\\frac{2x - 3}{x^2}$", "correct": false },
+      { "text": "$2x - 6$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae el mayor factor común tanto del numerador como del denominador antes de aplicar diferencia de cuadrados.",
+    "explanation": "Numerador: $2x(x^2 - 9) = 2x(x-3)(x+3)$. Denominador: $x^2(x+3)$. Cancelando factor $x(x+3)$ de ambos, queda $\\frac{2(x-3)}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SJ",
+    "question": "Efectúa el producto y simplifica: $\\frac{(x^2 - 1)(x^2 + 1)}{x^4 - 2x^2 + 1} \\cdot \\frac{x - 1}{x^2 + 1}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{x + 1}$", "correct": true },
+      { "text": "$\\frac{1}{x - 1}$", "correct": false },
+      { "text": "$x + 1$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que el denominador del primer término es un trinomio cuadrado perfecto: $(x^2-1)^2$.",
+    "explanation": "Simplificando la primera fracción: $\\frac{x^4-1}{(x^2-1)^2} = \\frac{x^2+1}{x^2-1}$. Multiplicando: $\\frac{x^2+1}{(x-1)(x+1)} \\cdot \\frac{x-1}{x^2+1}$. Eliminando términos afines, obtenemos $\\frac{1}{x+1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SK",
+    "question": "Encuentra la mínima expresión equivalente de: $\\frac{x^3 + y^3}{(x-y)^2 + xy}$",
+    "image": null,
+    "options": [
+      { "text": "$x + y$", "correct": true },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false },
+      { "text": "$x^2 - y^2$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla el binomio al cuadrado en el denominador y luego usa la fórmula para la suma de cubos en el numerador.",
+    "explanation": "Denominador: $x^2 - 2xy + y^2 + xy = x^2 - xy + y^2$. Numerador: $(x+y)(x^2 - xy + y^2)$. Al dividir el numerador por el denominador resulta en $x+y$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP66SL",
+    "question": "Simplifica al máximo la expresión: $\\frac{x^6 - 64}{x^4 + 4x^2 + 16} \\div (x - 2)$",
+    "image": null,
+    "options": [
+      { "text": "$x + 2$", "correct": true },
+      { "text": "$x - 2$", "correct": false },
+      { "text": "$x^2 + 4$", "correct": false },
+      { "text": "$x^2 - 4$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Trata el numerador como una diferencia de cubos considerando $a = x^2$ y $b = 4$.",
+    "explanation": "El numerador es $(x^2)^3 - 4^3 = (x^2 - 4)(x^4 + 4x^2 + 16)$. Dividido entre su mismo factor largo, queda $x^2 - 4$. Al dividir $x^2-4$ por $x-2$, se obtiene $x+2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
