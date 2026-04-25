@@ -1,0 +1,902 @@
+[
+  {
+    "id": "CEP20SM",
+    "question": "Derivada de una constante",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(c) = 0$", "correct": true },
+      { "text": "$\\frac{d}{dx}(c) = 1$", "correct": false },
+      { "text": "$\\frac{d}{dx}(c) = c$", "correct": false },
+      { "text": "$\\frac{d}{dx}(c) = x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La derivada representa la tasa de cambio; un valor que no varía tiene un cambio nulo.",
+    "explanation": "La derivada de cualquier valor constante aislada es siempre cero, ya que no existe variación respecto a la variable independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SN",
+    "question": "Derivada de $x^n$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(x^n) = n x^{n-1}$", "correct": true },
+      { "text": "$\\frac{d}{dx}(x^n) = x^{n-1}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(x^n) = n x^n$", "correct": false },
+      { "text": "$\\frac{d}{dx}(x^n) = \\frac{x^{n+1}}{n+1}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aplica la regla de la potencia: el exponente baja a multiplicar y se le resta uno.",
+    "explanation": "Por la regla de la potencia básica, se multiplica la base por el exponente original y el nuevo exponente se reduce en una unidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SO",
+    "question": "Derivada de $e^x$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(e^x) = e^x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(e^x) = x e^{x-1}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(e^x) = e^x \\ln(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}(e^x) = e^{x+1}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la única función básica cuya derivada es exactamente igual a sí misma.",
+    "explanation": "La función exponencial natural tiene la propiedad única de que su tasa de crecimiento es igual a su valor en cualquier punto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SP",
+    "question": "Derivada de $a^x \\ (a > 0)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(a^x) = a^x \\ln(a)$", "correct": true },
+      { "text": "$\\frac{d}{dx}(a^x) = x a^{x-1}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(a^x) = \\frac{a^x}{\\ln(a)}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(a^x) = a^x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es similar a la función exponencial natural, pero requiere un factor de corrección multiplicativo.",
+    "explanation": "Para bases distintas de 'e', la derivada requiere multiplicar la función original por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SQ",
+    "question": "Derivada de $\\ln(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\ln x) = \\frac{1}{x^2}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\ln x) = e^x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\ln x) = \\frac{\\ln(x)}{x}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El resultado de esta derivada es la función inversa multiplicativa de la variable.",
+    "explanation": "La derivada del logaritmo natural de una variable 'x' es exactamente uno sobre dicha variable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SR",
+    "question": "Derivada de $\\sin(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\sin x) = \\cos x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\sin x) = -\\cos x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\sin x) = -\\sin x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\sin x) = \\sec^2 x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La derivada del seno es su cofunción directa con signo positivo.",
+    "explanation": "La tasa de cambio de la función seno corresponde directamente a la función coseno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SS",
+    "question": "Derivada de $\\cos(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\cos x) = -\\sin x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\cos x) = \\sin x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\cos x) = -\\cos x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\cos x) = \\csc^2 x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Las derivadas de las cofunciones trigonométricas siempre llevan signo negativo.",
+    "explanation": "La derivada del coseno es el seno, pero con signo negativo, indicando que disminuye cuando el seno es positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20ST",
+    "question": "Derivada de $\\tan(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\tan x) = \\sec^2 x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\tan x) = -\\csc^2 x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\tan x) = \\sec x \\tan x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\tan x) = \\cot^2 x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La derivada se relaciona con la función secante elevada al cuadrado.",
+    "explanation": "Aplicando la regla del cociente a sen(x)/cos(x) se obtiene que la derivada es la secante cuadrada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SU",
+    "question": "Regla de la suma: derivada de $f+g$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x)$", "correct": true },
+      { "text": "$\\frac{d}{dx}[f(x) + g(x)] = f'(x) - g'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(x) + g(x)] = f'(x)g'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(x) + g(x)] = f(x)g'(x) + f'(x)g(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La derivada es un operador lineal, por lo que se distribuye directamente en sumas.",
+    "explanation": "La derivada de una suma de funciones es simplemente la suma de las derivadas individuales de cada función.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SV",
+    "question": "Regla del producto",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$", "correct": true },
+      { "text": "$\\frac{d}{dx}[f(x)g(x)] = f'(x)g'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) - f(x)g'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(x)g(x)] = f(x)g(x) + f'(x)g'(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se deriva el primero por el segundo sin derivar, más el primero sin derivar por la derivada del segundo.",
+    "explanation": "Conocida como la regla de Leibniz, establece que no es el producto de las derivadas, sino una suma cruzada de derivadas y funciones originales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SW",
+    "question": "Regla del cociente",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$", "correct": true },
+      { "text": "$\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)g(x) + f(x)g'(x)}{[g(x)]^2}$", "correct": false },
+      { "text": "$\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f(x)g'(x) - f'(x)g(x)}{[g(x)]^2}$", "correct": false },
+      { "text": "$\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)}{g'(x)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Incluye una resta en el numerador y el denominador de la función original se eleva al cuadrado.",
+    "explanation": "El numerador es similar a la regla del producto pero con un signo negativo, y el denominador siempre queda al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SX",
+    "question": "Regla de la cadena",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$", "correct": true },
+      { "text": "$\\frac{d}{dx}[f(g(x))] = f'(g(x))$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(g(x))] = f'(x)g'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[f(g(x))] = f(g'(x)) \\cdot g(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se deriva la función exterior evaluada en la interior, multiplicada por la derivada de la interior.",
+    "explanation": "La regla de la cadena es fundamental para funciones compuestas; permite derivar desde la capa más externa hasta la más interna de forma secuencial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SY",
+    "question": "Integral indefinida de $x^n$ ($n \\neq -1$)",
+    "image": null,
+    "options": [
+      { "text": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$", "correct": true },
+      { "text": "$\\int x^n dx = n x^{n-1} + C$", "correct": false },
+      { "text": "$\\int x^n dx = \\frac{x^n}{n+1} + C$", "correct": false },
+      { "text": "$\\int x^n dx = \\frac{x^{n+1}}{n} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la operación opuesta a la derivada: suma uno al exponente y divide por el nuevo valor.",
+    "explanation": "La regla de la potencia para integrales aumenta el grado del exponente en una unidad y divide todo por ese mismo exponente incrementado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SZ",
+    "question": "Integral de $e^x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int e^x dx = e^x + C$", "correct": true },
+      { "text": "$\\int e^x dx = e^x \\ln(x) + C$", "correct": false },
+      { "text": "$\\int e^x dx = e^{x+1} + C$", "correct": false },
+      { "text": "$\\int e^x dx = x e^x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al igual que en la derivación, esta función permanece inalterada tras el proceso.",
+    "explanation": "Dado que la derivada de esta función exponencial es ella misma, su antiderivada también será la misma función más la constante de integración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TA",
+    "question": "Integral de $a^x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int a^x dx = \\frac{a^x}{\\ln a} + C$", "correct": true },
+      { "text": "$\\int a^x dx = a^x \\ln(a) + C$", "correct": false },
+      { "text": "$\\int a^x dx = x a^{x-1} + C$", "correct": false },
+      { "text": "$\\int a^x dx = \\frac{a^{x+1}}{x+1} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "En la derivada se multiplica por el logaritmo de la base, en la integral se realiza la operación opuesta.",
+    "explanation": "Para compensar la regla de derivación, al integrar una función exponencial de base distinta de 'e', se debe dividir entre el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TB",
+    "question": "Integral de $1/x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\frac{1}{x} dx = \\ln|x| + C$", "correct": true },
+      { "text": "$\\int \\frac{1}{x} dx = -\\frac{1}{x^2} + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{x} dx = e^x + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{x} dx = \\frac{1}{x^2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el caso especial donde la regla de la potencia no aplica porque el exponente sería cero en el denominador.",
+    "explanation": "La integral de la función inversa de 'x' es el logaritmo natural del valor absoluto de 'x', completando el vacío dejado por la regla de la potencia cuando n = -1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TC",
+    "question": "Integral de $\\sin(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sin x dx = -\\cos x + C$", "correct": true },
+      { "text": "$\\int \\sin x dx = \\cos x + C$", "correct": false },
+      { "text": "$\\int \\sin x dx = -\\sin x + C$", "correct": false },
+      { "text": "$\\int \\sin x dx = \\sec^2 x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Considera qué función tiene como derivada el seno positivo. (Recuerda que derivar coseno da seno negativo).",
+    "explanation": "Dado que la derivada del coseno es negativa, integrar un seno positivo requiere de un signo negativo para compensar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TD",
+    "question": "Integral de $\\cos(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\cos x dx = \\sin x + C$", "correct": true },
+      { "text": "$\\int \\cos x dx = -\\sin x + C$", "correct": false },
+      { "text": "$\\int \\cos x dx = -\\cos x + C$", "correct": false },
+      { "text": "$\\int \\cos x dx = \\sec x \\tan x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Integra directamente a la función trigonométrica base sin cambio de signo.",
+    "explanation": "Como la derivada del seno es directamente el coseno, su integral indefinida nos devuelve el seno con signo positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TE",
+    "question": "Integral de $\\sec^2(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sec^2 x dx = \\tan x + C$", "correct": true },
+      { "text": "$\\int \\sec^2 x dx = -\\cot x + C$", "correct": false },
+      { "text": "$\\int \\sec^2 x dx = \\sec x \\tan x + C$", "correct": false },
+      { "text": "$\\int \\sec^2 x dx = \\frac{\\sec^3 x}{3} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Corresponde a la antiderivada directa de la regla de derivación para la tangente.",
+    "explanation": "Sabemos que al derivar la función tangente obtenemos la secante al cuadrado; por ello, la integral de la secante cuadrada es la tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TF",
+    "question": "Integral de $\\csc^2(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\csc^2 x dx = -\\cot x + C$", "correct": true },
+      { "text": "$\\int \\csc^2 x dx = \\tan x + C$", "correct": false },
+      { "text": "$\\int \\csc^2 x dx = -\\csc x \\cot x + C$", "correct": false },
+      { "text": "$\\int \\csc^2 x dx = \\cot^2 x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta función está vinculada a una cofunción, por lo tanto, la antiderivada lleva un signo negativo.",
+    "explanation": "La derivada de la cotangente es la cosecante cuadrada negativa. Para integrar la versión positiva, la cotangente debe llevar el signo negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TG",
+    "question": "Integral de $\\sec(x)\\tan(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sec x \\tan x dx = \\sec x + C$", "correct": true },
+      { "text": "$\\int \\sec x \\tan x dx = \\tan x + C$", "correct": false },
+      { "text": "$\\int \\sec x \\tan x dx = -\\csc x + C$", "correct": false },
+      { "text": "$\\int \\sec x \\tan x dx = \\sec^2 x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Reconoce qué función tiene exactamente este producto como resultado de su derivación.",
+    "explanation": "La regla de derivación básica dicta que la derivada de la secante es el producto de sí misma por la tangente; esta integral solo revierte ese proceso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TH",
+    "question": "Integral de $\\csc(x)\\cot(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\csc x \\cot x dx = -\\csc x + C$", "correct": true },
+      { "text": "$\\int \\csc x \\cot x dx = \\csc x + C$", "correct": false },
+      { "text": "$\\int \\csc x \\cot x dx = -\\cot x + C$", "correct": false },
+      { "text": "$\\int \\csc x \\cot x dx = \\sec x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al estar compuesto por cofunciones trigonométricas, su antiderivada incorpora un signo menos.",
+    "explanation": "La derivada de la cosecante arroja este producto en forma negativa; para integrar la versión positiva se requiere el signo opuesto en el resultado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TI",
+    "question": "Teorema fundamental del cálculo (derivada de integral)",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\int_a^x f(t) dt = f(x)$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\int_a^x f(t) dt = F(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\int_a^x f(t) dt = f'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\int_a^x f(t) dt = \\int f(x) dx$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Este teorema demuestra que la derivación e integración son procesos matemáticos inversos.",
+    "explanation": "El primer teorema fundamental del cálculo estipula que si derivamos una función definida por una integral con límite superior variable, recuperamos la función original del integrando evaluada en dicho límite.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TJ",
+    "question": "Regla de la constante por una función",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}[c f(x)] = c f'(x)$", "correct": true },
+      { "text": "$\\frac{d}{dx}[c f(x)] = c + f'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[c f(x)] = c' f(x) + c f'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx}[c f(x)] = f'(cx)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Los valores fijos que multiplican a una función pueden extraerse fuera del operador derivada sin ser afectados.",
+    "explanation": "Debido a la linealidad del operador diferencial, cualquier constante multiplicativa se mantiene intacta acompañando a la derivada de la función principal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TK",
+    "question": "Linealidad de la integral",
+    "image": null,
+    "options": [
+      { "text": "$\\int [a f(x) + b g(x)] dx = a \\int f(x) dx + b \\int g(x) dx$", "correct": true },
+      { "text": "$\\int [a f(x) + b g(x)] dx = \\int a f(x) g(x) dx$", "correct": false },
+      { "text": "$\\int [a f(x) + b g(x)] dx = ab \\int f(x)g(x) dx$", "correct": false },
+      { "text": "$\\int [a f(x) + b g(x)] dx = a f'(x) + b g'(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La integral permite separar sumas y extraer factores constantes fuera del símbolo de integración.",
+    "explanation": "El operador integral es lineal, lo que significa que distribuye sobre la suma de funciones y permite sacar los coeficientes escalares multiplicativos constantes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TL",
+    "question": "Derivada de $\\arcsin(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{\\sqrt{1-x^2}}$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\arcsin x) = -\\frac{1}{\\sqrt{1-x^2}}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{1+x^2}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{|x|\\sqrt{x^2-1}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aparece un radical en el denominador con una resta empezando por la constante uno.",
+    "explanation": "Esta forma se deriva geométricamente del teorema de Pitágoras aplicado al triángulo rectángulo definido por la función inversa del seno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TM",
+    "question": "Derivada de $\\arctan(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\arctan x) = \\frac{1}{1+x^2}$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\arctan x) = \\frac{1}{\\sqrt{1-x^2}}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\arctan x) = \\frac{1}{1-x^2}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\arctan x) = -\\frac{1}{1+x^2}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "A diferencia de las inversas del seno y coseno, esta fórmula no contiene ninguna raíz cuadrada en el denominador.",
+    "explanation": "La derivada de la función arco tangente es una expresión racional sencilla que es fundamental para muchas integrales racionales en el cálculo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TN",
+    "question": "Derivada de $\\ln|\\sec x + \\tan x|$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\ln|\\sec x + \\tan x| = \\sec x$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\ln|\\sec x + \\tan x| = \\tan x$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln|\\sec x + \\tan x| = \\sec x \\tan x$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln|\\sec x + \\tan x| = \\sec^2 x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta derivada te enseña por qué la integral de cierta función trigonométrica directa da lugar a este logaritmo tan peculiar.",
+    "explanation": "Al derivar este logaritmo usando la regla de la cadena, el denominador se cancela parcialmente con el numerador factorizado, dejando un resultado simple.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TO",
+    "question": "Derivada de $x^x$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(x^x) = x^x (1 + \\ln x)$", "correct": true },
+      { "text": "$\\frac{d}{dx}(x^x) = x^x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(x^x) = x^{x-1}$", "correct": false },
+      { "text": "$\\frac{d}{dx}(x^x) = x^x \\ln x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Para derivar esta expresión necesitas aplicar diferenciación logarítmica, apareciendo el término de la función original junto a un binomio.",
+    "explanation": "Se aplica logaritmo natural en ambos lados y se deriva implícitamente, revelando que la respuesta combina la función exponencial con derivadas de producto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TP",
+    "question": "Derivada de $\\ln(\\ln x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\ln(\\ln x) = \\frac{1}{x \\ln x}$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\ln(\\ln x) = \\frac{1}{\\ln x}$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln(\\ln x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln(\\ln x) = \\frac{\\ln x}{x}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Utiliza la regla de la cadena para funciones anidadas, derivando de afuera hacia adentro.",
+    "explanation": "Derivar el logaritmo externo produce un inverso del logaritmo interno, que se multiplica por la derivada del logaritmo interno resultando en este producto en el denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TQ",
+    "question": "Derivada de $\\sinh(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\sinh x) = \\cosh x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\sinh x) = -\\cosh x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\sinh x) = \\cosh^2 x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\sinh x) = -\\sinh x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Las derivadas hiperbólicas son parecidas a las trigonométricas pero a menudo sin el cambio de signo.",
+    "explanation": "El seno hiperbólico se deriva obteniendo el coseno hiperbólico de forma directa y positiva, a diferencia de las funciones circulares donde hay alternancia de signos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TR",
+    "question": "Derivada de $\\tanh(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx}(\\tanh x) = \\operatorname{sech}^2 x$", "correct": true },
+      { "text": "$\\frac{d}{dx}(\\tanh x) = -\\operatorname{csch}^2 x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\tanh x) = \\operatorname{sech} x \\tanh x$", "correct": false },
+      { "text": "$\\frac{d}{dx}(\\tanh x) = \\cosh^2 x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La forma es idéntica a la regla de su equivalente en trigonometría circular.",
+    "explanation": "Así como la derivada de la tangente circular es la secante cuadrada, la derivada de la tangente hiperbólica corresponde a la secante hiperbólica al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TS",
+    "question": "Derivada de $\\ln(\\sec x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\ln(\\sec x) = \\tan x$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\ln(\\sec x) = \\sec x \\tan x$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln(\\sec x) = \\sec x$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\ln(\\sec x) = \\cot x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aplica la regla de la cadena: uno sobre secante multiplicado por el producto de secante y tangente.",
+    "explanation": "La fracción resultante de aplicar la regla de la cadena permite simplificar la secante en numerador y denominador, aislando completamente a la tangente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TT",
+    "question": "Derivada de $e^{\\sin x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} e^{\\sin x} = e^{\\sin x} \\cos x$", "correct": true },
+      { "text": "$\\frac{d}{dx} e^{\\sin x} = e^{\\sin x}$", "correct": false },
+      { "text": "$\\frac{d}{dx} e^{\\sin x} = e^{\\cos x}$", "correct": false },
+      { "text": "$\\frac{d}{dx} e^{\\sin x} = e^{\\sin x} \\sin x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al derivar una función exponencial compuesta, se mantiene la base elevada al mismo exponente, multiplicada por la derivada del exponente.",
+    "explanation": "Mediante la regla de la cadena, la parte exponencial se queda igual y se multiplica por la derivada de su argumento trigonométrico interno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TU",
+    "question": "Derivada de $\\cos^2(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\cos^2 x = -2 \\cos x \\sin x = -\\sin(2x)$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\cos^2 x = \\sin(2x)$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\cos^2 x = 2 \\cos x$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\cos^2 x = -2 \\sin x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Usa la regla de la potencia primero para la función exterior y luego deriva la función interna. Contiene un signo negativo.",
+    "explanation": "Al derivar queda el producto del exponente por el coseno, y luego esto se multiplica por el seno negativo. Esto forma la identidad de ángulo doble con signo invertido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TV",
+    "question": "Integral de $\\tan(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\tan x dx = -\\ln|\\cos x| + C = \\ln|\\sec x| + C$", "correct": true },
+      { "text": "$\\int \\tan x dx = \\ln|\\cos x| + C$", "correct": false },
+      { "text": "$\\int \\tan x dx = \\sec^2 x + C$", "correct": false },
+      { "text": "$\\int \\tan x dx = \\frac{\\tan^2 x}{2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Suele resolverse convirtiendo la función a cociente y realizando una sustitución de variable en el denominador.",
+    "explanation": "Reescribiendo la tangente como seno dividido por coseno, se aplica sustitución simple para generar una respuesta en forma de logaritmo natural.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TW",
+    "question": "Integral de $\\sec(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sec x dx = \\ln|\\sec x + \\tan x| + C$", "correct": true },
+      { "text": "$\\int \\sec x dx = \\ln|\\sec x - \\tan x| + C$", "correct": false },
+      { "text": "$\\int \\sec x dx = \\sec x \\tan x + C$", "correct": false },
+      { "text": "$\\int \\sec x dx = \\tan x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "La solución involucra la suma de la función principal con su par trigonométrico emparentado alojados en un logaritmo.",
+    "explanation": "Mediante el truco algebraico de multiplicar por una fracción unitaria conformada por el binomio del resultado, se facilita una integración por sustitución logarítmica directa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TX",
+    "question": "Integral de $\\csc(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\csc x dx = -\\ln|\\csc x + \\cot x| + C$", "correct": true },
+      { "text": "$\\int \\csc x dx = \\ln|\\csc x + \\cot x| + C$", "correct": false },
+      { "text": "$\\int \\csc x dx = -\\csc x \\cot x + C$", "correct": false },
+      { "text": "$\\int \\csc x dx = \\ln|\\sin x| + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Sigue una lógica similar a la secante, pero incorporando las cofunciones correspondientes y un signo de compensación.",
+    "explanation": "El proceso es paralelo a la integral de la secante, pero los signos negativos generados por las cofunciones derivan en un signo principal negativo en el resultado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TY",
+    "question": "Integral de $\\sin^2(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sin^2 x dx = \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C$", "correct": true },
+      { "text": "$\\int \\sin^2 x dx = \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C$", "correct": false },
+      { "text": "$\\int \\sin^2 x dx = \\frac{\\sin^3 x}{3} + C$", "correct": false },
+      { "text": "$\\int \\sin^2 x dx = -\\frac{\\cos(2x)}{2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Emplea la identidad del ángulo mitad para linealizar el integrando y generar una resta en el resultado final.",
+    "explanation": "Para resolver integrales de funciones trigonométricas al cuadrado se aplican fórmulas de reducción de potencias; para el seno, esto introduce un coseno de ángulo doble que al integrarse forma un seno con signo negativo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TZ",
+    "question": "Integral de $\\cos^2(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\cos^2 x dx = \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C$", "correct": true },
+      { "text": "$\\int \\cos^2 x dx = \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C$", "correct": false },
+      { "text": "$\\int \\cos^2 x dx = \\frac{\\cos^3 x}{3} + C$", "correct": false },
+      { "text": "$\\int \\cos^2 x dx = \\frac{\\sin(2x)}{2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Casi idéntica al caso del seno cuadrado, pero su identidad de reducción presenta el signo principal como suma.",
+    "explanation": "La reducción de la potencia usa una identidad de ángulo doble aditiva, generando términos de integral positivos sin alteraciones de signo a lo largo del proceso.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UA",
+    "question": "Integral de $\\frac{1}{a^2 + x^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\frac{1}{a^2 + x^2} dx = \\frac{1}{a} \\arctan\\left(\\frac{x}{a}\\right) + C$", "correct": true },
+      { "text": "$\\int \\frac{1}{a^2 + x^2} dx = \\arctan\\left(\\frac{x}{a}\\right) + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{a^2 + x^2} dx = \\arcsin\\left(\\frac{x}{a}\\right) + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{a^2 + x^2} dx = \\frac{1}{a} \\arcsin\\left(\\frac{x}{a}\\right) + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Identifica este patrón racional como la primitiva de una función trigonométrica inversa; requiere compensar los coeficientes.",
+    "explanation": "Esta es la integral estándar que da lugar al arcotangente generalizado, requiriendo un factor 1/a externo para contrarrestar la regla de la cadena.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UB",
+    "question": "Integral de $\\frac{1}{\\sqrt{a^2 - x^2}}$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\arcsin\\left(\\frac{x}{a}\\right) + C$", "correct": true },
+      { "text": "$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\frac{1}{a} \\arcsin\\left(\\frac{x}{a}\\right) + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\arccos\\left(\\frac{x}{a}\\right) + C$", "correct": false },
+      { "text": "$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\frac{1}{a} \\arctan\\left(\\frac{x}{a}\\right) + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta fórmula es la generalización de la primitiva inversa del seno y se caracteriza por no requerir de la constante divisoria externa.",
+    "explanation": "La integral que involucra la raíz de una diferencia de cuadrados conforma la respuesta arcoseno sin coeficientes fraccionarios en el exterior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UC",
+    "question": "Integral de $\\sinh x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sinh x dx = \\cosh x + C$", "correct": true },
+      { "text": "$\\int \\sinh x dx = -\\cosh x + C$", "correct": false },
+      { "text": "$\\int \\sinh x dx = \\cosh^2 x + C$", "correct": false },
+      { "text": "$\\int \\sinh x dx = \\tanh x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Recuerda que en el mundo hiperbólico, derivar e integrar estas funciones directas no alterna ningún signo.",
+    "explanation": "Tanto el seno como el coseno hiperbólicos se convierten el uno en el otro bajo diferenciación o integración, conservando valores positivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UD",
+    "question": "Integral de $\\cosh x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\cosh x dx = \\sinh x + C$", "correct": true },
+      { "text": "$\\int \\cosh x dx = -\\sinh x + C$", "correct": false },
+      { "text": "$\\int \\cosh x dx = \\sinh^2 x + C$", "correct": false },
+      { "text": "$\\int \\cosh x dx = \\operatorname{sech} x + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta integración nos devuelve al estado hiperbólico complementario conservando la positividad.",
+    "explanation": "Similar al caso de la integral de su variante trigonométrica, el resultado no tiene inversión de signo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UE",
+    "question": "Integral de $\\ln x$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\ln x dx = x \\ln x - x + C$", "correct": true },
+      { "text": "$\\int \\ln x dx = \\frac{1}{x} + C$", "correct": false },
+      { "text": "$\\int \\ln x dx = x \\ln x + x + C$", "correct": false },
+      { "text": "$\\int \\ln x dx = \\frac{\\ln^2 x}{2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es un ejemplo clásico resuelto usando integración por partes con el factor adicional uno.",
+    "explanation": "Aplicando 'u = ln x' y 'dv = dx' en integración por partes, el término cruzado 'v du' se simplifica fácilmente en una resta lineal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UF",
+    "question": "Integral de $e^{ax} \\sin(bx)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int e^{ax} \\sin(bx) dx = \\frac{e^{ax} (a \\sin(bx) - b \\cos(bx))}{a^2 + b^2} + C$", "correct": true },
+      { "text": "$\\int e^{ax} \\sin(bx) dx = \\frac{e^{ax} (b \\sin(bx) - a \\cos(bx))}{a^2 + b^2} + C$", "correct": false },
+      { "text": "$\\int e^{ax} \\sin(bx) dx = \\frac{e^{ax} (a \\cos(bx) + b \\sin(bx))}{a^2 + b^2} + C$", "correct": false },
+      { "text": "$\\int e^{ax} \\sin(bx) dx = \\frac{e^{ax}}{b} \\cos(bx) + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Corresponde a una integral cíclica que combina los coeficientes en un factor común de suma de cuadrados.",
+    "explanation": "Se resuelve aplicando integración por partes dos veces, lo cual genera la misma integral original creando una ecuación algebraica, resolviendo con una división entre coeficientes cuadráticos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UG",
+    "question": "Integral de $x e^{x}$",
+    "image": null,
+    "options": [
+      { "text": "$\\int x e^x dx = e^x (x - 1) + C$", "correct": true },
+      { "text": "$\\int x e^x dx = e^x (x + 1) + C$", "correct": false },
+      { "text": "$\\int x e^x dx = x e^x - \\frac{e^x}{2} + C$", "correct": false },
+      { "text": "$\\int x e^x dx = \\frac{x^2 e^x}{2} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al aplicar la integración por partes, el término original polinomial sufre un desdoblamiento restando la base exponencial.",
+    "explanation": "Es el caso más sencillo de integración por partes donde 'u=x' se degrada y 'dv=e^x' se mantiene cíclicamente con la exponencial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UH",
+    "question": "Integral de $\\sec^3(x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\int \\sec^3 x dx = \\frac{1}{2} \\left( \\sec x \\tan x + \\ln|\\sec x + \\tan x| \\right) + C$", "correct": true },
+      { "text": "$\\int \\sec^3 x dx = \\frac{1}{3} \\sec^3 x + C$", "correct": false },
+      { "text": "$\\int \\sec^3 x dx = \\frac{1}{2} \\sec x \\tan x + C$", "correct": false },
+      { "text": "$\\int \\sec^3 x dx = \\frac{\\sec^4 x}{4} + C$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta resolución cíclica une la parte trigonométrica multiplicativa con la solución de la secante de potencia uno.",
+    "explanation": "La resolución exige separar un término cuadrado para poder integrar por partes, uniendo el logaritmo asociado con la secante simple multiplicada por una mitad compensatoria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UI",
+    "question": "Derivada de $\\arctan(\\ln x)$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\arctan(\\ln x) = \\frac{1}{x(1 + \\ln^2 x)}$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\arctan(\\ln x) = \\frac{1}{1 + \\ln^2 x}$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\arctan(\\ln x) = \\frac{1}{x\\sqrt{1 - \\ln^2 x}}$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\arctan(\\ln x) = \\frac{1}{x(1 - \\ln^2 x)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aplica la regla de la cadena: deriva la función arco y multiplícala por la derivada del logaritmo interno.",
+    "explanation": "La capa externa genera el denominador racional cuadrático en función del logaritmo, para finalmente añadir '1/x' en el multiplicador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UJ",
+    "question": "Derivada de $f(x)^{g(x)}$ con $f(x)>0$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{d}{dx} \\left[ f(x)^{g(x)} \\right] = f(x)^{g(x)} \\left( g'(x) \\ln f(x) + \\frac{g(x) f'(x)}{f(x)} \\right)$", "correct": true },
+      { "text": "$\\frac{d}{dx} \\left[ f(x)^{g(x)} \\right] = f(x)^{g(x)} g'(x) \\ln f(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\left[ f(x)^{g(x)} \\right] = g(x) f(x)^{g(x)-1} f'(x)$", "correct": false },
+      { "text": "$\\frac{d}{dx} \\left[ f(x)^{g(x)} \\right] = f(x)^{g(x)} \\ln f(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la fórmula generalizada obtenida mediante el proceso de derivación logarítmica combinando reglas de producto.",
+    "explanation": "Al aplicar diferenciación logarítmica, la respuesta une factores de derivadas exponenciales y polinomiales, respetando ambas funciones dependientes de la misma variable base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
