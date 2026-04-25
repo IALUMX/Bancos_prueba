@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "CEP18MU",
+    "question": "Conjunto completo de individuos u objetos de interés en un estudio estadístico",
+    "image": null,
+    "options": [
+      { "text": "Población", "correct": true },
+      { "text": "Muestra", "correct": false },
+      { "text": "Espacio muestral", "correct": false },
+      { "text": "Variable", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el todo, el grupo completo que se desea analizar.",
+    "explanation": "La población estadística es el conjunto total de elementos que son objeto de estudio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18MV",
+    "question": "Subconjunto representativo de la población",
+    "image": null,
+    "options": [
+      { "text": "Muestra", "correct": true },
+      { "text": "Población", "correct": false },
+      { "text": "Parámetro", "correct": false },
+      { "text": "Censo", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es una fracción o parte del total.",
+    "explanation": "Una muestra es una selección representativa extraída de la población para realizar el análisis.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18MW",
+    "question": "Variable que toma valores numéricos (ej. estatura)",
+    "image": null,
+    "options": [
+      { "text": "Cuantitativa", "correct": true },
+      { "text": "Cualitativa", "correct": false },
+      { "text": "Categórica", "correct": false },
+      { "text": "Nominal", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Hace referencia a la 'cantidad'.",
+    "explanation": "Las variables cuantitativas son aquellas que se pueden medir o contar expresándose numéricamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18MX",
+    "question": "Variable que describe cualidades o categorías (ej. color de ojos)",
+    "image": null,
+    "options": [
+      { "text": "Cualitativa", "correct": true },
+      { "text": "Cuantitativa", "correct": false },
+      { "text": "Discreta", "correct": false },
+      { "text": "Continua", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Hace referencia a las 'cualidades' del objeto.",
+    "explanation": "Las variables cualitativas expresan atributos, categorías o características no numéricas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18MY",
+    "question": "Variable cuantitativa con valores enteros (ej. número de hijos)",
+    "image": null,
+    "options": [
+      { "text": "Discreta", "correct": true },
+      { "text": "Continua", "correct": false },
+      { "text": "Nominal", "correct": false },
+      { "text": "Ordinal", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Son valores contables que no aceptan fracciones.",
+    "explanation": "Las variables discretas toman valores aislados, generalmente enteros, producto de un conteo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18MZ",
+    "question": "Variable cuantitativa que puede tomar cualquier valor en un intervalo (ej. peso)",
+    "image": null,
+    "options": [
+      { "text": "Continua", "correct": true },
+      { "text": "Discreta", "correct": false },
+      { "text": "Binomial", "correct": false },
+      { "text": "Categórica", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Permite el uso de decimales y valores intermedios.",
+    "explanation": "Las variables continuas provienen de mediciones y pueden tomar infinitos valores dentro de un rango.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NA",
+    "question": "Número de veces que aparece un valor en un conjunto de datos",
+    "image": null,
+    "options": [
+      { "text": "Frecuencia absoluta", "correct": true },
+      { "text": "Frecuencia relativa", "correct": false },
+      { "text": "Frecuencia acumulada", "correct": false },
+      { "text": "Frecuencia porcentual", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el conteo directo y puro de cada dato.",
+    "explanation": "La frecuencia absoluta representa exactamente la cantidad de repeticiones de una observación específica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NB",
+    "question": "Frecuencia absoluta dividida entre el total de datos",
+    "image": null,
+    "options": [
+      { "text": "Frecuencia relativa", "correct": true },
+      { "text": "Frecuencia absoluta", "correct": false },
+      { "text": "Frecuencia acumulada", "correct": false },
+      { "text": "Marca de clase", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Expresa la proporción de un valor respecto al todo.",
+    "explanation": "La frecuencia relativa es el cociente que muestra la proporción que representa una categoría respecto al total.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NC",
+    "question": "Suma de las frecuencias absolutas hasta una categoría dada",
+    "image": null,
+    "options": [
+      { "text": "Frecuencia acumulada", "correct": true },
+      { "text": "Frecuencia relativa", "correct": false },
+      { "text": "Frecuencia porcentual", "correct": false },
+      { "text": "Varianza", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Indica el total agrupado paso a paso.",
+    "explanation": "La frecuencia acumulada suma consecutivamente las frecuencias absolutas de las clases anteriores y la actual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18ND",
+    "question": "Frecuencia relativa multiplicada por $100$",
+    "image": null,
+    "options": [
+      { "text": "Frecuencia porcentual", "correct": true },
+      { "text": "Frecuencia absoluta", "correct": false },
+      { "text": "Frecuencia acumulada", "correct": false },
+      { "text": "Desviación estándar", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Transforma la proporción a base $100$.",
+    "explanation": "La frecuencia porcentual expresa la frecuencia relativa como un porcentaje del total.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NE",
+    "question": "Gráfica de barras para datos cualitativos o discretos",
+    "image": null,
+    "options": [
+      { "text": "Diagrama de barras", "correct": true },
+      { "text": "Histograma", "correct": false },
+      { "text": "Ojiva", "correct": false },
+      { "text": "Polígono de frecuencias", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Utiliza rectángulos separados para representar categorías.",
+    "explanation": "El diagrama de barras es la representación gráfica estándar para comparar frecuencias en datos discretos o cualitativos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NF",
+    "question": "Gráfica circular que muestra proporciones",
+    "image": null,
+    "options": [
+      { "text": "Gráfico de pastel", "correct": true },
+      { "text": "Histograma", "correct": false },
+      { "text": "Diagrama de dispersión", "correct": false },
+      { "text": "Diagrama de caja", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "También conocido como gráfica de sectores.",
+    "explanation": "El gráfico de pastel divide un círculo en proporciones correspondientes a la frecuencia porcentual de cada categoría.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NG",
+    "question": "Gráfica de líneas para tendencias en el tiempo",
+    "image": null,
+    "options": [
+      { "text": "Polígono de frecuencias", "correct": true },
+      { "text": "Histograma", "correct": false },
+      { "text": "Diagrama de sectores", "correct": false },
+      { "text": "Ojiva", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se construye uniendo los puntos medios superiores.",
+    "explanation": "El polígono de frecuencias une las marcas de clase y es ideal para observar la evolución o tendencia de los datos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NH",
+    "question": "Gráfica de barras sin separación para datos continuos agrupados",
+    "image": null,
+    "options": [
+      { "text": "Histograma", "correct": true },
+      { "text": "Diagrama de barras", "correct": false },
+      { "text": "Polígono de frecuencias", "correct": false },
+      { "text": "Diagrama de tallo y hojas", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Las columnas van pegadas representando intervalos.",
+    "explanation": "En un histograma, la falta de separación entre barras refleja la continuidad de la variable agrupada en intervalos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NI",
+    "question": "Medida de tendencia central conocida como 'promedio'",
+    "image": null,
+    "options": [
+      { "text": "Media", "correct": true },
+      { "text": "Moda", "correct": false },
+      { "text": "Mediana", "correct": false },
+      { "text": "Varianza", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la suma de todos los valores dividida por el total.",
+    "explanation": "La media aritmética se calcula sumando todos los datos y dividiéndolos entre el número total de observaciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NJ",
+    "question": "Valor que más se repite en un conjunto de datos",
+    "image": null,
+    "options": [
+      { "text": "Moda", "correct": true },
+      { "text": "Media", "correct": false },
+      { "text": "Mediana", "correct": false },
+      { "text": "Rango", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la categoría con la mayor frecuencia absoluta.",
+    "explanation": "La moda es simplemente el valor o categoría que ocurre con mayor frecuencia en la muestra.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NK",
+    "question": "Valor central cuando los datos están ordenados",
+    "image": null,
+    "options": [
+      { "text": "Mediana", "correct": true },
+      { "text": "Media", "correct": false },
+      { "text": "Moda", "correct": false },
+      { "text": "Cuartil", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Divide la distribución exactamente a la mitad.",
+    "explanation": "La mediana es el valor que deja el $50\\%$ de las observaciones por debajo y el otro $50\\%$ por encima al ordenarlos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NL",
+    "question": "Medida de dispersión que es el promedio de cuadrados de las desviaciones",
+    "image": null,
+    "options": [
+      { "text": "Varianza", "correct": true },
+      { "text": "Desviación estándar", "correct": false },
+      { "text": "Rango", "correct": false },
+      { "text": "Coeficiente de variación", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Sus unidades se expresan siempre al cuadrado.",
+    "explanation": "La varianza cuantifica la dispersión elevando al cuadrado la distancia de cada dato respecto a la media.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NM",
+    "question": "Raíz cuadrada de la varianza",
+    "image": null,
+    "options": [
+      { "text": "Desviación estándar", "correct": true },
+      { "text": "Varianza", "correct": false },
+      { "text": "Rango intercuartil", "correct": false },
+      { "text": "Sesgo", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Devuelve las unidades a su escala original.",
+    "explanation": "La desviación estándar es la medida de dispersión más común, calculada extrayendo la raíz cuadrada de la varianza.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NN",
+    "question": "Medida de posición que divide los datos ordenados en $100$ partes iguales",
+    "image": null,
+    "options": [
+      { "text": "Percentil", "correct": true },
+      { "text": "Cuartil", "correct": false },
+      { "text": "Decil", "correct": false },
+      { "text": "Mediana", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Su nombre alude a un porcentaje.",
+    "explanation": "Los percentiles son los $99$ valores que dividen una serie de datos ordenados en $100$ fragmentos iguales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NO",
+    "question": "Conjunto de todos los resultados posibles de un experimento aleatorio",
+    "image": null,
+    "options": [
+      { "text": "Espacio muestral", "correct": true },
+      { "text": "Evento", "correct": false },
+      { "text": "Población", "correct": false },
+      { "text": "Muestra", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se denota comúnmente con la letra griega Omega o la letra S.",
+    "explanation": "El espacio muestral contiene absolutamente todos los desenlaces que pueden ocurrir en el experimento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NP",
+    "question": "Número de elementos en el espacio muestral",
+    "image": null,
+    "options": [
+      { "text": "Cardinalidad", "correct": true },
+      { "text": "Frecuencia", "correct": false },
+      { "text": "Probabilidad", "correct": false },
+      { "text": "Varianza", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Término matemático para el tamaño de un conjunto.",
+    "explanation": "La cardinalidad de un conjunto, incluido el espacio muestral, es simplemente la cantidad de elementos que posee.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NQ",
+    "question": "Subconjunto del espacio muestral",
+    "image": null,
+    "options": [
+      { "text": "Evento", "correct": true },
+      { "text": "Experimento", "correct": false },
+      { "text": "Población", "correct": false },
+      { "text": "Dato", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es un resultado o conjunto de resultados de interés.",
+    "explanation": "Un evento o suceso es cualquier combinación específica de posibles desenlaces dentro del espacio muestral.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NR",
+    "question": "Operación de conjuntos que une elementos de dos eventos",
+    "image": null,
+    "options": [
+      { "text": "Unión", "correct": true },
+      { "text": "Intersección", "correct": false },
+      { "text": "Complemento", "correct": false },
+      { "text": "Diferencia", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Corresponde a la palabra lógica 'O'.",
+    "explanation": "La unión de dos eventos contiene los elementos de ambos, significando que ocurre el evento A, el B, o ambos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NS",
+    "question": "Operación de conjuntos que toma elementos comunes",
+    "image": null,
+    "options": [
+      { "text": "Intersección", "correct": true },
+      { "text": "Unión", "correct": false },
+      { "text": "Complemento", "correct": false },
+      { "text": "Diferencia simétrica", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Corresponde a la palabra lógica 'Y'.",
+    "explanation": "La intersección incluye solo aquellos desenlaces que pertenecen a ambos eventos simultáneamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NT",
+    "question": "Evento que contiene todo lo que no está en A",
+    "image": null,
+    "options": [
+      { "text": "Complemento", "correct": true },
+      { "text": "Intersección", "correct": false },
+      { "text": "Unión", "correct": false },
+      { "text": "Conjunto vacío", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es lo que le 'falta' para ser el total.",
+    "explanation": "El complemento de un evento A agrupa todos los resultados posibles del espacio muestral que no pertenecen a A.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NU",
+    "question": "Evento sin elementos (vacío)",
+    "image": null,
+    "options": [
+      { "text": "Conjunto vacío", "correct": true },
+      { "text": "Evento seguro", "correct": false },
+      { "text": "Evento simple", "correct": false },
+      { "text": "Complemento", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Representa una probabilidad de ocurrencia de $0$.",
+    "explanation": "Un conjunto vacío describe un evento imposible que no tiene resultados favorables dentro del experimento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NV",
+    "question": "Arreglo donde el orden importa y se usan todos los elementos",
+    "image": null,
+    "options": [
+      { "text": "Permutación", "correct": true },
+      { "text": "Combinación", "correct": false },
+      { "text": "Variación", "correct": false },
+      { "text": "Intersección", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se calcula comúnmente usando el factorial $n!$.",
+    "explanation": "En una permutación completa, todos los elementos se ordenan en distintas posiciones, siendo el orden el único diferenciador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NW",
+    "question": "Arreglo donde el orden importa pero no todos los elementos",
+    "image": null,
+    "options": [
+      { "text": "Variación", "correct": true },
+      { "text": "Permutación", "correct": false },
+      { "text": "Combinación", "correct": false },
+      { "text": "Muestra", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es un subconjunto ordenado de los datos.",
+    "explanation": "La variación toma un número específico de elementos de un conjunto mayor y los organiza en un orden particular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NX",
+    "question": "Agrupación donde el orden no importa",
+    "image": null,
+    "options": [
+      { "text": "Combinación", "correct": true },
+      { "text": "Permutación", "correct": false },
+      { "text": "Variación", "correct": false },
+      { "text": "Arreglo", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Da igual si eliges primero A y luego B, o al revés.",
+    "explanation": "En las combinaciones se forman subconjuntos sin importar la posición o el orden jerárquico de sus elementos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NY",
+    "question": "Principio básico que multiplica opciones independientes",
+    "image": null,
+    "options": [
+      { "text": "Principio multiplicativo", "correct": true },
+      { "text": "Principio aditivo", "correct": false },
+      { "text": "Teorema de Bayes", "correct": false },
+      { "text": "Ley de los grandes números", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se usa cuando un evento ocurre AND el otro ocurre.",
+    "explanation": "Si un suceso tiene M opciones y otro independiente N opciones, ocurren juntos de $M \\times N$ formas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18NZ",
+    "question": "Regla de la probabilidad: $P(A)$ debe estar entre $0$ y $1$",
+    "image": null,
+    "options": [
+      { "text": "Axioma de no negatividad", "correct": true },
+      { "text": "Axioma de certeza", "correct": false },
+      { "text": "Axioma de aditividad", "correct": false },
+      { "text": "Regla de Laplace", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Las probabilidades no pueden ser números negativos.",
+    "explanation": "El primer axioma de Kolmogórov establece que la probabilidad de cualquier evento siempre es mayor o igual a cero y máximo uno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OA",
+    "question": "Axioma: $P(\\text{espacio muestral}) = 1$",
+    "image": null,
+    "options": [
+      { "text": "Axioma de certeza", "correct": true },
+      { "text": "Axioma de no negatividad", "correct": false },
+      { "text": "Axioma de aditividad", "correct": false },
+      { "text": "Teorema de probabilidad total", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es seguro que ocurrirá alguno de los posibles resultados.",
+    "explanation": "El axioma de certeza determina que el total de la probabilidad en un experimento aleatorio equivale exactamente al $100\\%$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OB",
+    "question": "Axioma: $P(A \\cup B) = P(A) + P(B)$ si A y B son mutuamente excluyentes",
+    "image": null,
+    "options": [
+      { "text": "Axioma de aditividad", "correct": true },
+      { "text": "Axioma de certeza", "correct": false },
+      { "text": "Axioma de no negatividad", "correct": false },
+      { "text": "Regla de multiplicación", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Implica la suma directa de probabilidades separadas.",
+    "explanation": "El axioma de aditividad aplica para eventos incompatibles que no pueden ocurrir al mismo tiempo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OC",
+    "question": "Probabilidad de que ocurra A sabiendo que ocurrió B",
+    "image": null,
+    "options": [
+      { "text": "Probabilidad condicional", "correct": true },
+      { "text": "Probabilidad conjunta", "correct": false },
+      { "text": "Probabilidad marginal", "correct": false },
+      { "text": "Probabilidad a priori", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Está sujeta a una condición previa.",
+    "explanation": "La probabilidad condicional $P(A|B)$ mide la posibilidad de un evento dado que otro evento ya ha sucedido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OD",
+    "question": "Eventos donde la ocurrencia de uno no afecta al otro",
+    "image": null,
+    "options": [
+      { "text": "Eventos independientes", "correct": true },
+      { "text": "Eventos mutuamente excluyentes", "correct": false },
+      { "text": "Eventos dependientes", "correct": false },
+      { "text": "Eventos complementarios", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El resultado de uno no cambia la probabilidad del otro.",
+    "explanation": "Dos eventos son independientes cuando el suceso de uno no altera la posibilidad matemática del otro.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OE",
+    "question": "Distribución de probabilidad para experimentos con dos resultados (ej. éxito/fracaso)",
+    "image": null,
+    "options": [
+      { "text": "Distribución Bernoulli", "correct": true },
+      { "text": "Distribución binomial", "correct": false },
+      { "text": "Distribución normal", "correct": false },
+      { "text": "Distribución Poisson", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la base de las pruebas donde solo importa si algo ocurre o no en un solo ensayo.",
+    "explanation": "La distribución de Bernoulli es un experimento aleatorio en el que sólo pueden obtenerse dos resultados mutuamente excluyentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OF",
+    "question": "Número de éxitos en n ensayos Bernoulli independientes",
+    "image": null,
+    "options": [
+      { "text": "Distribución binomial", "correct": true },
+      { "text": "Distribución geométrica", "correct": false },
+      { "text": "Distribución hipergeométrica", "correct": false },
+      { "text": "Distribución de Poisson", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Agrupa una serie de ensayos simples continuos.",
+    "explanation": "La distribución binomial describe el número total de éxitos obtenidos tras repetir n veces un ensayo de Bernoulli.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OG",
+    "question": "Modelo para el número de ensayos hasta el primer éxito",
+    "image": null,
+    "options": [
+      { "text": "Distribución geométrica", "correct": true },
+      { "text": "Distribución binomial", "correct": false },
+      { "text": "Distribución exponencial", "correct": false },
+      { "text": "Distribución uniforme", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Evalúa cuántos fracasos ocurren antes de ganar por primera vez.",
+    "explanation": "La distribución geométrica modela la probabilidad de que el primer éxito se observe en el k-ésimo ensayo independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OH",
+    "question": "Distribución continua simétrica en forma de campana",
+    "image": null,
+    "options": [
+      { "text": "Distribución normal", "correct": true },
+      { "text": "Distribución t de Student", "correct": false },
+      { "text": "Distribución exponencial", "correct": false },
+      { "text": "Distribución Chi-cuadrada", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la curva descubierta por Gauss.",
+    "explanation": "La distribución normal (campana de Gauss) es el modelo probabilístico más utilizado para describir variables continuas en la naturaleza.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OI",
+    "question": "Media de la distribución binomial (en términos de $n$ y $p$)",
+    "image": null,
+    "options": [
+      { "text": "$np$", "correct": true },
+      { "text": "$np(1-p)$", "correct": false },
+      { "text": "$n/p$", "correct": false },
+      { "text": "$p(1-p)/n$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el producto directo de la cantidad de ensayos y la probabilidad de éxito.",
+    "explanation": "La esperanza o media esperada de una distribución binomial se obtiene multiplicando el número total de ensayos por la probabilidad de un éxito.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OJ",
+    "question": "Varianza de la distribución binomial",
+    "image": null,
+    "options": [
+      { "text": "$np(1-p)$", "correct": true },
+      { "text": "$np$", "correct": false },
+      { "text": "$n/p$", "correct": false },
+      { "text": "$p(1-p)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Considera la probabilidad de éxito y también de fracaso ($1-p$).",
+    "explanation": "La varianza binomial multiplica el número de ensayos por la probabilidad de éxito y por la probabilidad de fracaso conjunta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OK",
+    "question": "Función que asigna probabilidades a cada valor de una variable aleatoria discreta",
+    "image": null,
+    "options": [
+      { "text": "Función de probabilidad", "correct": true },
+      { "text": "Función de distribución", "correct": false },
+      { "text": "Función de densidad", "correct": false },
+      { "text": "Función generadora de momentos", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Asigna valores puntuales en un espectro discreto.",
+    "explanation": "La función de masa o probabilidad discreta devuelve exactamente la probabilidad teórica de un evento singular definido.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OL",
+    "question": "Función que acumula probabilidades $P(X \\le x)$",
+    "image": null,
+    "options": [
+      { "text": "Función de distribución", "correct": true },
+      { "text": "Función de densidad", "correct": false },
+      { "text": "Función de masa", "correct": false },
+      { "text": "Función característica", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Su nombre alude a cómo se reparten los valores hasta un punto.",
+    "explanation": "La función de distribución acumulativa suma todas las probabilidades previas y la actual en un punto específico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OM",
+    "question": "Otro nombre para la función de densidad en variables continuas",
+    "image": null,
+    "options": [
+      { "text": "Función de densidad de probabilidad", "correct": true },
+      { "text": "Función de distribución acumulada", "correct": false },
+      { "text": "Función de masa de probabilidad", "correct": false },
+      { "text": "Función cuantil", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se integra sobre un intervalo para dar el área bajo la curva.",
+    "explanation": "En variables continuas, la probabilidad puntual es $0$, por lo que se utiliza una función de densidad para calcular probabilidades en intervalos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18ON",
+    "question": "Medida de forma que indica asimetría de una distribución",
+    "image": null,
+    "options": [
+      { "text": "Sesgo", "correct": true },
+      { "text": "Curtosis", "correct": false },
+      { "text": "Varianza", "correct": false },
+      { "text": "Desviación estándar", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Indica si los datos están tirados hacia la izquierda o la derecha.",
+    "explanation": "El coeficiente de sesgo (o asimetría) muestra hacia qué lado de la distribución se concentra la mayor proporción de datos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OO",
+    "question": "Medida de forma que indica cuán puntiaguda es una distribución",
+    "image": null,
+    "options": [
+      { "text": "Curtosis", "correct": true },
+      { "text": "Sesgo", "correct": false },
+      { "text": "Rango", "correct": false },
+      { "text": "Coeficiente de variación", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Determina si la campana es leptocúrtica o platicúrtica.",
+    "explanation": "La curtosis es el indicador estadístico que mide el grado de concentración o apuntamiento relativo al modelo normal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OP",
+    "question": "Teorema que dice que la suma de muchas variables independientes tiende a la normal",
+    "image": null,
+    "options": [
+      { "text": "Teorema del límite central", "correct": true },
+      { "text": "Ley de los grandes números", "correct": false },
+      { "text": "Teorema de Bayes", "correct": false },
+      { "text": "Desigualdad de Chebyshev", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Establece el comportamiento de las medias muestrales cuando N es grande.",
+    "explanation": "El Teorema del Límite Central es clave en inferencia estadística al permitir usar distribuciones normales independientemente de la población original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OQ",
+    "question": "Rango percentil del valor que deja el $25\\%$ de los datos por debajo",
+    "image": null,
+    "options": [
+      { "text": "Primer cuartil ($Q_1$)", "correct": true },
+      { "text": "Tercer cuartil ($Q_3$)", "correct": false },
+      { "text": "Mediana", "correct": false },
+      { "text": "Decil 2", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la cuarta parte inicial de la serie de datos.",
+    "explanation": "El primer cuartil ($Q_1$) es la métrica de posición que segmenta el $25\\%$ de las observaciones más pequeñas del resto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OR",
+    "question": "Diferencia entre $Q_3$ y $Q_1$",
+    "image": null,
+    "options": [
+      { "text": "Rango intercuartil", "correct": true },
+      { "text": "Rango total", "correct": false },
+      { "text": "Varianza", "correct": false },
+      { "text": "Desviación media", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es una medida de dispersión usada en diagramas de caja.",
+    "explanation": "El rango intercuartílico mide la dispersión del $50\\%$ central de los datos, eliminando la influencia de valores atípicos extremos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OS",
+    "question": "Diagrama que muestra mediana, cuartiles y valores atípicos",
+    "image": null,
+    "options": [
+      { "text": "Diagrama de caja y bigotes", "correct": true },
+      { "text": "Diagrama de dispersión", "correct": false },
+      { "text": "Histograma", "correct": false },
+      { "text": "Ojiva", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Su estructura gráfica parece un rectángulo central con líneas extendidas a los lados.",
+    "explanation": "El diagrama de caja y bigotes es ideal para visualizar la distribución de los datos a través de sus cuartiles, resaltando la mediana y marcando claramente los valores atípicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OT",
+    "question": "Punto en un conjunto de datos que se aleja mucho del resto",
+    "image": null,
+    "options": [
+      { "text": "Valor atípico", "correct": true },
+      { "text": "Mediana", "correct": false },
+      { "text": "Moda", "correct": false },
+      { "text": "Percentil", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es una observación que parece no pertenecer al mismo patrón o distribución.",
+    "explanation": "Un valor atípico (o outlier) es una observación que es numéricamente muy distinta al resto del conjunto de datos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OU",
+    "question": "Muestra obtenida cuando todos los individuos tienen la misma probabilidad de ser elegidos",
+    "image": null,
+    "options": [
+      { "text": "Muestra aleatoria simple", "correct": true },
+      { "text": "Muestra estratificada", "correct": false },
+      { "text": "Muestra por conveniencia", "correct": false },
+      { "text": "Muestra por conglomerados", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el método más básico y equitativo de selección.",
+    "explanation": "En el muestreo aleatorio simple, cada miembro de la población tiene una oportunidad idéntica de ser seleccionado, garantizando la falta de sesgo sistemático.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OV",
+    "question": "Técnica de muestreo que divide la población en grupos y luego selecciona algunos grupos completos",
+    "image": null,
+    "options": [
+      { "text": "Muestreo por conglomerados", "correct": true },
+      { "text": "Muestreo sistemático", "correct": false },
+      { "text": "Muestreo estratificado", "correct": false },
+      { "text": "Muestreo aleatorio simple", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se seleccionan conjuntos enteros naturales, como escuelas o vecindarios.",
+    "explanation": "El muestreo por conglomerados agrupa a la población en bloques (conglomerados) y elige aleatoriamente bloques completos para ser estudiados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OW",
+    "question": "Muestreo que divide en estratos y toma aleatorios de cada estrato",
+    "image": null,
+    "options": [
+      { "text": "Muestreo estratificado", "correct": true },
+      { "text": "Muestreo por conglomerados", "correct": false },
+      { "text": "Muestreo de bola de nieve", "correct": false },
+      { "text": "Muestreo sistemático", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Asegura que todos los subgrupos (como edades o géneros) estén representados.",
+    "explanation": "El muestreo estratificado divide la población en grupos homogéneos (estratos) y de cada uno se extrae una muestra aleatoria para asegurar la representatividad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OX",
+    "question": "Tabla que resume frecuencias para dos variables categóricas",
+    "image": null,
+    "options": [
+      { "text": "Tabla de contingencia", "correct": true },
+      { "text": "Tabla de distribución discreta", "correct": false },
+      { "text": "Polígono de frecuencias", "correct": false },
+      { "text": "Matriz de correlación", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "También se conoce como tabla cruzada.",
+    "explanation": "Las tablas de contingencia muestran la distribución conjunta de dos o más variables cualitativas, tabulando las frecuencias en filas y columnas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OY",
+    "question": "Medida que relaciona la variabilidad con la media ($CV$)",
+    "image": null,
+    "options": [
+      { "text": "Coeficiente de variación", "correct": true },
+      { "text": "Varianza", "correct": false },
+      { "text": "Desviación estándar", "correct": false },
+      { "text": "Rango intercuartil", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Permite comparar la dispersión de conjuntos de datos que tienen unidades diferentes.",
+    "explanation": "El coeficiente de variación ($CV$) es una medida de dispersión relativa que se obtiene dividiendo la desviación estándar entre la media.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18OZ",
+    "question": "Valor que divide al conjunto de datos en dos mitades iguales (sin promediar si es impar)",
+    "image": null,
+    "options": [
+      { "text": "Mediana", "correct": true },
+      { "text": "Media", "correct": false },
+      { "text": "Moda", "correct": false },
+      { "text": "Cuartil superior", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la medida que se ubica exactamente en el centro geométrico de los datos ordenados.",
+    "explanation": "La mediana es la medida de tendencia central que representa el valor medio exacto de un conjunto de datos jerarquizado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PA",
+    "question": "Gráfica de puntos acumulados para percentiles",
+    "image": null,
+    "options": [
+      { "text": "Ojiva", "correct": true },
+      { "text": "Histograma", "correct": false },
+      { "text": "Polígono de frecuencias", "correct": false },
+      { "text": "Diagrama de sectores", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se construye trazando puntos que representan las frecuencias acumuladas y uniéndolos con líneas.",
+    "explanation": "La ojiva es una gráfica asociada a la distribución de frecuencias acumuladas, útil para estimar fácilmente percentiles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PB",
+    "question": "Regla que dice: al menos $75\\%$ de los datos está a $2$ desviaciones estándar de la media",
+    "image": null,
+    "options": [
+      { "text": "Desigualdad de Chebyshev", "correct": true },
+      { "text": "Regla empírica", "correct": false },
+      { "text": "Teorema de Bayes", "correct": false },
+      { "text": "Ley de los grandes números", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es un teorema aplicable a cualquier distribución, sin importar si es o no normal.",
+    "explanation": "La desigualdad de Chebyshev garantiza que, para cualquier conjunto de datos, la proporción de valores que se encuentran a menos de $k$ desviaciones estándar de la media es al menos $1 - (1/k^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PC",
+    "question": "Modelo de probabilidad para eventos que ocurren en un intervalo de tiempo fijo",
+    "image": null,
+    "options": [
+      { "text": "Distribución Poisson", "correct": true },
+      { "text": "Distribución binomial", "correct": false },
+      { "text": "Distribución normal", "correct": false },
+      { "text": "Distribución exponencial", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se utiliza comúnmente para contar la llegada de clientes, llamadas por hora, o accidentes por día.",
+    "explanation": "La distribución de Poisson modela la probabilidad de que ocurra un número determinado de eventos independientes en un intervalo fijo de tiempo o espacio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PD",
+    "question": "Media de la distribución Poisson",
+    "image": null,
+    "options": [
+      { "text": "$\\lambda$ (lambda)", "correct": true },
+      { "text": "$np$", "correct": false },
+      { "text": "$\\mu$", "correct": false },
+      { "text": "$\\sigma^2$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la letra griega que representa la tasa promedio de ocurrencia.",
+    "explanation": "En la distribución de Poisson, el parámetro $\\lambda$ representa la media o valor esperado de eventos en el intervalo especificado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PE",
+    "question": "Varianza de la distribución Poisson",
+    "image": null,
+    "options": [
+      { "text": "$\\lambda$ (lambda)", "correct": true },
+      { "text": "$np(1-p)$", "correct": false },
+      { "text": "$\\sigma^2$", "correct": false },
+      { "text": "$\\frac{1}{p}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Tiene una propiedad especial: su dispersión numérica es exactamente igual a su media.",
+    "explanation": "Una característica definitoria de la distribución de Poisson es que su media y su varianza son idénticas y equivalen a $\\lambda$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PF",
+    "question": "Distribución continua que modela tiempos de espera",
+    "image": null,
+    "options": [
+      { "text": "Distribución exponencial", "correct": true },
+      { "text": "Distribución normal", "correct": false },
+      { "text": "Distribución de Poisson", "correct": false },
+      { "text": "Distribución uniforme", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Mide la distancia temporal entre eventos que siguen un proceso de Poisson.",
+    "explanation": "La distribución exponencial es un modelo continuo frecuentemente utilizado para representar el tiempo de espera hasta que ocurre el próximo evento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PG",
+    "question": "Gráfica de puntos para visualizar la relación entre dos variables cuantitativas",
+    "image": null,
+    "options": [
+      { "text": "Diagrama de dispersión", "correct": true },
+      { "text": "Histograma", "correct": false },
+      { "text": "Gráfico de líneas", "correct": false },
+      { "text": "Diagrama de caja", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Muestra una nube de datos en el plano cartesiano.",
+    "explanation": "El diagrama de dispersión traza las intersecciones de dos variables en los ejes X e Y, permitiendo identificar visualmente si existe una relación o patrón.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PH",
+    "question": "Medida de fuerza y dirección de relación lineal entre dos variables",
+    "image": null,
+    "options": [
+      { "text": "Correlación", "correct": true },
+      { "text": "Varianza", "correct": false },
+      { "text": "Regresión", "correct": false },
+      { "text": "Desviación estándar", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Cuyo coeficiente de Pearson oscila entre $-1$ y $1$.",
+    "explanation": "La correlación cuantifica numéricamente la intensidad y el sentido del vínculo lineal entre dos variables aleatorias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PI",
+    "question": "Recta que minimiza la suma de cuadrados de residuos",
+    "image": null,
+    "options": [
+      { "text": "Recta de regresión mínimo cuadrática", "correct": true },
+      { "text": "Recta tangente", "correct": false },
+      { "text": "Asíntota oblicua", "correct": false },
+      { "text": "Secante principal", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la línea de 'mejor ajuste' a través de los datos.",
+    "explanation": "El método de mínimos cuadrados traza una recta de regresión ajustada de manera que la distancia cuadrática total entre los puntos y la recta sea la menor posible.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PJ",
+    "question": "Diferencia entre valor observado y valor predicho",
+    "image": null,
+    "options": [
+      { "text": "Residuo", "correct": true },
+      { "text": "Error estándar", "correct": false },
+      { "text": "Sesgo", "correct": false },
+      { "text": "Intercepto", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el sobrante, lo que no logra explicar el modelo predictivo.",
+    "explanation": "Un residuo en estadística es la diferencia aritmética vertical entre un dato real (observado) y el valor que estimó el modelo de regresión (predicho).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PK",
+    "question": "Medida del porcentaje de variabilidad explicada por el modelo de regresión",
+    "image": null,
+    "options": [
+      { "text": "$R^2$ (coeficiente de determinación)", "correct": true },
+      { "text": "Coeficiente de Pearson", "correct": false },
+      { "text": "Varianza explicada ($S^2$)", "correct": false },
+      { "text": "Alfa de Cronbach", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se expresa comúnmente como un porcentaje derivado del cuadrado de un coeficiente previo.",
+    "explanation": "El coeficiente de determinación ($R^2$) indica qué proporción de la varianza total de la variable dependiente es explicada por la variable independiente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PL",
+    "question": "Teorema que permite calcular probabilidades usando particiones del espacio muestral",
+    "image": null,
+    "options": [
+      { "text": "Teorema de probabilidad total", "correct": true },
+      { "text": "Teorema de Bayes", "correct": false },
+      { "text": "Ley de los grandes números", "correct": false },
+      { "text": "Teorema del límite central", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se encarga de evaluar la probabilidad global de un evento a partir de probabilidades condicionales aisladas.",
+    "explanation": "El teorema de probabilidad total permite deducir la probabilidad general de un suceso desglosándolo en las distintas ramas o particiones mutuamente excluyentes que lo conforman.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PM",
+    "question": "Media aritmética para datos no agrupados ($n$ datos)",
+    "image": null,
+    "options": [
+      { "text": "$\\bar{x} = \\frac{\\sum_{i=1}^{n} x_i}{n}$", "correct": true },
+      { "text": "$\\bar{x} = \\frac{\\sum f_i x_i}{n}$", "correct": false },
+      { "text": "$\\sigma = \\sqrt{\\frac{\\sum (x_i-\\bar{x})^2}{n}}$", "correct": false },
+      { "text": "$\\mu = n p$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Representa una simple suma dividida por el total de elementos.",
+    "explanation": "Para encontrar la media de datos aislados, se suman todos los valores observados ($x_i$) y el resultado se divide entre el tamaño de la muestra ($n$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PN",
+    "question": "Varianza poblacional ($\\sigma^2$) con datos no agrupados",
+    "image": null,
+    "options": [
+      { "text": "$\\sigma^2 = \\frac{\\sum_{i=1}^{N} (x_i - \\mu)^2}{N}$", "correct": true },
+      { "text": "$s^2 = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}$", "correct": false },
+      { "text": "$\\sigma = \\sqrt{np(1-p)}$", "correct": false },
+      { "text": "$\\sigma^2 = \\frac{\\sum x_i}{N}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se divide entre el total completo $N$, no se resta uno al denominador.",
+    "explanation": "La varianza de una población es el promedio estricto de las desviaciones cuadráticas de todos los elementos respecto a la media poblacional $\\mu$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PO",
+    "question": "Varianza muestral insesgada ($s^2$)",
+    "image": null,
+    "options": [
+      { "text": "$s^2 = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}$", "correct": true },
+      { "text": "$s^2 = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n}$", "correct": false },
+      { "text": "$\\sigma^2 = \\frac{\\sum (x_i - \\mu)^2}{N}$", "correct": false },
+      { "text": "$s = \\sqrt{\\frac{\\sum (x_i - \\bar{x})^2}{n-1}}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Utiliza los grados de libertad en el denominador restando $1$ al tamaño de muestra.",
+    "explanation": "Para evitar sesgos y subestimar la varianza, al calcularla sobre una muestra se divide entre $n-1$ en lugar de $n$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PP",
+    "question": "Desviación estándar muestral",
+    "image": null,
+    "options": [
+      { "text": "$s = \\sqrt{s^2}$", "correct": true },
+      { "text": "$\\sigma = \\sqrt{\\sigma^2}$", "correct": false },
+      { "text": "$s = s^2$", "correct": false },
+      { "text": "$\\mu = \\frac{\\sum x}{n}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la operación inversa al cuadrado sobre la varianza muestral.",
+    "explanation": "La desviación estándar es simplemente la raíz cuadrada positiva de la varianza, lo que regresa las unidades a la misma escala de los datos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PQ",
+    "question": "Regla de Laplace para probabilidad de un evento $A$",
+    "image": null,
+    "options": [
+      { "text": "$P(A) = \\frac{\\text{casos favorables}}{\\text{casos posibles}}$", "correct": true },
+      { "text": "$P(A) = 1 - P(A^c)$", "correct": false },
+      { "text": "$P(A) = P(A \\cap B) / P(B)$", "correct": false },
+      { "text": "$P(A) = \\sum P(A|B_i)P(B_i)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aplica asumiendo que todos los resultados son equiprobables.",
+    "explanation": "La regla de Laplace establece que la probabilidad teórica es el cociente entre las alternativas que buscamos y el total del espacio muestral.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PR",
+    "question": "Probabilidad de la unión de dos eventos no excluyentes",
+    "image": null,
+    "options": [
+      { "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$", "correct": true },
+      { "text": "$P(A \\cup B) = P(A) + P(B)$", "correct": false },
+      { "text": "$P(A \\cup B) = P(A) \\cdot P(B)$", "correct": false },
+      { "text": "$P(A \\cup B) = 1 - P(A \\cap B)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Requiere restar el área común para no contabilizarla doble.",
+    "explanation": "Al sumar las probabilidades individuales de eventos compatibles, se duplica la intersección temporal, por lo que es necesario restarla al final.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PS",
+    "question": "Probabilidad de la unión de eventos mutuamente excluyentes",
+    "image": null,
+    "options": [
+      { "text": "$P(A \\cup B) = P(A) + P(B)$", "correct": true },
+      { "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$", "correct": false },
+      { "text": "$P(A \\cup B) = P(A) \\cdot P(B)$", "correct": false },
+      { "text": "$P(A \\cup B) = P(A|B)P(B)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "No es necesario restar nada porque la intersección es nula o vacía.",
+    "explanation": "Cuando dos eventos no pueden suceder al mismo tiempo, la probabilidad de que ocurra uno o el otro es simplemente la suma de sus probabilidades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PT",
+    "question": "Probabilidad del complemento de $A$",
+    "image": null,
+    "options": [
+      { "text": "$P(A^c) = 1 - P(A)$", "correct": true },
+      { "text": "$P(A^c) = P(A) - 1$", "correct": false },
+      { "text": "$P(A^c) = 1 / P(A)$", "correct": false },
+      { "text": "$P(A^c) = P(A) + 1$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la parte de la probabilidad total que resta para llegar al $100\\%$.",
+    "explanation": "El complemento mide la probabilidad de que algo no ocurra, derivado de restar la probabilidad del evento $A$ al todo o la certeza ($1$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PU",
+    "question": "Probabilidad condicional de $A$ dado $B$",
+    "image": null,
+    "options": [
+      { "text": "$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$", "correct": true },
+      { "text": "$P(A|B) = \\frac{P(A \\cup B)}{P(B)}$", "correct": false },
+      { "text": "$P(A|B) = P(A) \\cdot P(B)$", "correct": false },
+      { "text": "$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El denominador representa el evento que sabemos que ya sucedió.",
+    "explanation": "Se calcula dividiendo la probabilidad de que ambos ocurran entre la probabilidad total de aquel evento que funge como nueva condición o subespacio.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PV",
+    "question": "Regla de multiplicación para eventos independientes",
+    "image": null,
+    "options": [
+      { "text": "$P(A \\cap B) = P(A) \\cdot P(B)$", "correct": true },
+      { "text": "$P(A \\cap B) = P(A) + P(B)$", "correct": false },
+      { "text": "$P(A \\cap B) = P(A) \\cdot P(B|A)$", "correct": false },
+      { "text": "$P(A \\cap B) = P(A \\cup B) - P(A)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al no afectar un evento al otro, no hay términos condicionales en la fórmula.",
+    "explanation": "Si dos eventos son puramente independientes, la probabilidad conjunta de que ambos pasen es el producto directo de sus probabilidades individuales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PW",
+    "question": "Regla de multiplicación general",
+    "image": null,
+    "options": [
+      { "text": "$P(A \\cap B) = P(A) \\cdot P(B|A)$", "correct": true },
+      { "text": "$P(A \\cap B) = P(A) \\cdot P(B)$", "correct": false },
+      { "text": "$P(A \\cap B) = P(A) + P(B|A)$", "correct": false },
+      { "text": "$P(A \\cap B) = \\frac{P(A|B)}{P(B)}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Considera la influencia que tiene el primer evento sobre el segundo.",
+    "explanation": "Despejada de la probabilidad condicional, esta regla permite calcular la intersección ajustando la probabilidad del segundo evento asumiendo que el primero sucedió.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PX",
+    "question": "Teorema de Bayes (forma básica)",
+    "image": null,
+    "options": [
+      { "text": "$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$", "correct": true },
+      { "text": "$P(A|B) = \\frac{P(A \\cap B)}{P(A)}$", "correct": false },
+      { "text": "$P(A|B) = P(B|A) \\cdot P(A)$", "correct": false },
+      { "text": "$P(A|B) = 1 - P(B|A)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Permite revertir la condicionalidad invirtiendo las relaciones de probabilidad conocidas.",
+    "explanation": "El teorema de Bayes calcula la probabilidad posterior de un evento apoyándose en información a priori y probabilidades observadas condicionalmente a la inversa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PY",
+    "question": "Número de permutaciones de $n$ elementos tomados todos",
+    "image": null,
+    "options": [
+      { "text": "$P_n = n!$", "correct": true },
+      { "text": "$P_n = n^2$", "correct": false },
+      { "text": "$P_n = 2^n$", "correct": false },
+      { "text": "$P_n = n(n-1)$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se resuelve mediante la multiplicación progresiva descendente de los elementos.",
+    "explanation": "Si deseamos acomodar todos los elementos distintos en filas ordenadas, las permutaciones se determinan con el factorial del total de elementos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18PZ",
+    "question": "Permutaciones de $n$ elementos tomando $r$ a la vez (orden importa)",
+    "image": null,
+    "options": [
+      { "text": "$P(n,r) = \\frac{n!}{(n-r)!}$", "correct": true },
+      { "text": "$C(n,r) = \\frac{n!}{r!(n-r)!}$", "correct": false },
+      { "text": "$P(n,r) = n^r$", "correct": false },
+      { "text": "$P(n,r) = \\frac{n!}{r!}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "A diferencia de las combinaciones, aquí el denominador no incluye un factorial de $r$.",
+    "explanation": "Al importar el orden, se seleccionan $r$ posiciones de entre $n$ alternativas cancelando los elementos restantes en el subconjunto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QA",
+    "question": "Combinaciones de $n$ elementos tomando $r$ a la vez (orden no importa)",
+    "image": null,
+    "options": [
+      { "text": "$C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$", "correct": true },
+      { "text": "$P(n,r) = \\frac{n!}{(n-r)!}$", "correct": false },
+      { "text": "$C(n,r) = n^r$", "correct": false },
+      { "text": "$C(n,r) = \\frac{(n-r)!}{n!}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al no importar el orden, se añade $r!$ al denominador para eliminar duplicados de arreglos.",
+    "explanation": "La fórmula de la combinación compensa las agrupaciones equivalentes dividiendo la ecuación de permutación entre el factorial de los elementos tomados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QB",
+    "question": "Función de probabilidad binomial ($P(X = k)$)",
+    "image": null,
+    "options": [
+      { "text": "$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$", "correct": true },
+      { "text": "$P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$", "correct": false },
+      { "text": "$P(X=k) = (1-p)^{k-1} p$", "correct": false },
+      { "text": "$P(X=k) = p^k (1-p)^{n-k}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Mezcla la combinatoria del arreglo de fracasos y éxitos junto con sus probabilidades multiplicadas.",
+    "explanation": "Esta fórmula calcula todas las posibles maneras en las que pueden suceder $k$ éxitos en $n$ ensayos, valorando ambos componentes (éxito/fracaso).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QC",
+    "question": "Media para distribución binomial",
+    "image": null,
+    "options": [
+      { "text": "$\\mu = n p$", "correct": true },
+      { "text": "$\\mu = n p (1-p)$", "correct": false },
+      { "text": "$\\mu = \\frac{1}{p}$", "correct": false },
+      { "text": "$\\mu = \\lambda$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la simple cantidad de ensayos que se realiza por la probabilidad de ganar en cada uno.",
+    "explanation": "El valor esperado (media) en un entorno binomial resulta de la multiplicación directa del tamaño de la muestra por la probabilidad de obtener éxito.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QD",
+    "question": "Varianza para distribución binomial",
+    "image": null,
+    "options": [
+      { "text": "$\\sigma^2 = n p (1-p)$", "correct": true },
+      { "text": "$\\sigma^2 = n p$", "correct": false },
+      { "text": "$\\sigma^2 = \\frac{1-p}{p^2}$", "correct": false },
+      { "text": "$\\sigma^2 = \\lambda$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Incorpora la probabilidad de fracaso ($q$ o $1-p$).",
+    "explanation": "La varianza toma la media esperada ($np$) y la pondera ajustándola según la probabilidad complementaria de fracaso para medir la dispersión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QE",
+    "question": "Función de probabilidad Poisson ($P(X=k)$)",
+    "image": null,
+    "options": [
+      { "text": "$P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$", "correct": true },
+      { "text": "$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$", "correct": false },
+      { "text": "$P(X=k) = (1-p)^{k-1} p$", "correct": false },
+      { "text": "$P(X=k) = \\lambda e^{-\\lambda k}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Usa una base logarítmica natural ($e$) elevada a menos lambda.",
+    "explanation": "Esta fórmula exponencial asocia de manera discreta la posibilidad de observar $k$ sucesos, dependiendo del parámetro central de ocurrencia lambda.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QF",
+    "question": "Función de densidad normal estándar ($\\phi(z)$)",
+    "image": null,
+    "options": [
+      { "text": "$\\phi(z) = \\frac{1}{\\sqrt{2\\pi}} e^{-z^2/2}$", "correct": true },
+      { "text": "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/2\\sigma^2}$", "correct": false },
+      { "text": "$f(x) = \\lambda e^{-\\lambda x}$", "correct": false },
+      { "text": "$\\phi(z) = \\frac{1}{\\pi(1+z^2)}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Al estar estandarizada, la media es $0$ y la desviación estándar es $1$, lo cual simplifica enormemente la fórmula original.",
+    "explanation": "La densidad normal estándar evalúa la altura probabilística de la campana en la coordenada $z$, libre de los parámetros originales $\\mu$ y $\\sigma$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QG",
+    "question": "Tipificación a normal estándar",
+    "image": null,
+    "options": [
+      { "text": "$z = \\frac{x - \\mu}{\\sigma}$", "correct": true },
+      { "text": "$z = \\frac{x - \\bar{x}}{n}$", "correct": false },
+      { "text": "$z = \\frac{\\sigma}{\\mu}$", "correct": false },
+      { "text": "$z = \\mu \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la resta para ubicar el dato desde el centro, sobre la dispersión métrica de esa variable.",
+    "explanation": "La tipificación o estandarización es un ajuste que dice cuántas desviaciones estándar por encima o debajo de la media está situado un valor real $x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QH",
+    "question": "Coeficiente de variación ($CV$)",
+    "image": null,
+    "options": [
+      { "text": "$CV = \\frac{\\sigma}{\\mu}$", "correct": true },
+      { "text": "$CV = \\frac{\\mu}{\\sigma}$", "correct": false },
+      { "text": "$CV = \\sigma^2$", "correct": false },
+      { "text": "$CV = \\frac{s}{\\sqrt{n}}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Compara el ruido (dispersión) contra la señal (centro).",
+    "explanation": "Se define matemáticamente como la proporción en la que la desviación estándar afecta o figura respecto al tamaño general de la media.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QI",
+    "question": "Percentil $p$ en datos ordenados (posición)",
+    "image": null,
+    "options": [
+      { "text": "$L_p = \\frac{p}{100} \\cdot (n+1)$", "correct": true },
+      { "text": "$L_p = \\frac{p}{10}$", "correct": false },
+      { "text": "$L_p = \\frac{n}{p}$", "correct": false },
+      { "text": "$L_p = p \\cdot n$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Fracciona el porcentaje y lo multiplica por el tamaño de muestra más uno.",
+    "explanation": "Esta fórmula es un estimador para localizar rápidamente la posición interpolada ordinal de un percentil dentro de un set tabulado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QJ",
+    "question": "Rango intercuartil ($IQR$)",
+    "image": null,
+    "options": [
+      { "text": "$IQR = Q_3 - Q_1$", "correct": true },
+      { "text": "$IQR = Q_4 - Q_1$", "correct": false },
+      { "text": "$IQR = Q_3 + Q_1$", "correct": false },
+      { "text": "$IQR = \\frac{Q_3 - Q_1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Cubre la franja que encierra al $50\\%$ de los datos centrales.",
+    "explanation": "El rango intercuartílico simplemente toma el punto que marca el $75\\%$ ($Q_3$) y le resta el punto que delimita el inicio del primer $25\\%$ ($Q_1$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QK",
+    "question": "Valores atípicos (cercas superior e inferior)",
+    "image": null,
+    "options": [
+      { "text": "$Q_1 - 1.5 \\cdot IQR$ y $Q_3 + 1.5 \\cdot IQR$", "correct": true },
+      { "text": "$Q_1 - 2 \\cdot IQR$ y $Q_3 + 2 \\cdot IQR$", "correct": false },
+      { "text": "$\\mu - 3\\sigma$ y $\\mu + 3\\sigma$", "correct": false },
+      { "text": "$Q_1 - 1.5 \\sigma$ y $Q_3 + 1.5 \\sigma$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Utiliza una longitud y media del ancho del cuerpo central de la caja del diagrama.",
+    "explanation": "Por convención estandarizada en diagramas de Tukey, se consideran atípicos los que sobrepasen $1.5$ veces el rango intercuartil más allá de sus cuartiles adyacentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QL",
+    "question": "Probabilidad en distribución geométrica (primer éxito en ensayo $k$)",
+    "image": null,
+    "options": [
+      { "text": "$P(X=k) = (1-p)^{k-1} p$", "correct": true },
+      { "text": "$P(X=k) = p^{k-1} (1-p)$", "correct": false },
+      { "text": "$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$", "correct": false },
+      { "text": "$P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Hay fracasos consistentes antes de llegar finalmente a ese éxito único deseado.",
+    "explanation": "Indica matemáticamente que ocurrieron $k-1$ fracasos en fila, cada uno con probabilidad $(1-p)$, seguidos exactamente de un gran éxito terminal $p$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QM",
+    "question": "Media de la distribución geométrica",
+    "image": null,
+    "options": [
+      { "text": "$\\mu = \\frac{1}{p}$", "correct": true },
+      { "text": "$\\mu = np$", "correct": false },
+      { "text": "$\\mu = \\frac{1-p}{p^2}$", "correct": false },
+      { "text": "$\\mu = \\lambda$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Si un evento tiene $20\\%$ de probabilidad de ganar, en promedio tendrás que intentarlo $5$ veces.",
+    "explanation": "Se estima como el número recíproco o inverso a la probabilidad puntual de que ocurra el evento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QN",
+    "question": "Varianza de la distribución geométrica",
+    "image": null,
+    "options": [
+      { "text": "$\\sigma^2 = \\frac{1-p}{p^2}$", "correct": true },
+      { "text": "$\\sigma^2 = np(1-p)$", "correct": false },
+      { "text": "$\\sigma^2 = \\frac{1}{p}$", "correct": false },
+      { "text": "$\\sigma^2 = \\lambda$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Usa la probabilidad de fracaso en el numerador, dividida sobre el éxito al cuadrado.",
+    "explanation": "Es la medida que cuantifica qué tan dispersa es la probabilidad en intentos de Bernoulli al buscar el primer suceso ganador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QO",
+    "question": "Probabilidad en modelo exponencial (función de densidad)",
+    "image": null,
+    "options": [
+      { "text": "$f(x; \\lambda) = \\lambda e^{-\\lambda x}, \\quad x \\ge 0$", "correct": true },
+      { "text": "$f(x) = \\frac{1}{\\lambda} e^{-x/\\lambda}$", "correct": false },
+      { "text": "$P(X=x) = \\frac{e^{-\\lambda} \\lambda^x}{x!}$", "correct": false },
+      { "text": "$f(x) = \\lambda e^x$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la contraparte continua de Poisson, con un exponente negativo.",
+    "explanation": "Esta densidad decae a lo largo del tiempo denotando que, comúnmente, los tiempos de espera más cortos son los que ostentan mayor densidad inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP18QP",
+    "question": "Coeficiente de correlación de Pearson muestral (fórmula abreviada)",
+    "image": null,
+    "options": [
+      { "text": "$r = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_i - \\bar{x})^2 \\sum (y_i - \\bar{y})^2}}$", "correct": true },
+      { "text": "$r = \\frac{\\sum xy}{\\sum x \\sum y}$", "correct": false },
+      { "text": "$r = \\frac{n\\sum xy - \\sum x \\sum y}{n^2}$", "correct": false },
+      { "text": "$r = 1 - \\frac{6\\sum d_i^2}{n(n^2-1)}$", "correct": false }
+    ],
+    "uni_tags": ["🎲 MAT PROB Y EST"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el ratio entre la covarianza de las variables y el producto separado de sus desviaciones estándar.",
+    "explanation": "El coeficiente de Pearson emplea las desviaciones cuadráticas y mixtas respecto a la media de ambas variables para ubicar el grado de paralelismo de la información.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
