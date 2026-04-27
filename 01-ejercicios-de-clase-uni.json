@@ -1,1081 +1,649 @@
 [
   {
     "id": "CEP73FW",
-    "question": "Dos líneas transversales son cortadas por rectas paralelas formando segmentos proporcionales. En la primera línea, el segmento $AB$ mide $x - 2$ y $BC$ mide $4$. En la segunda línea, el segmento $DE$ mide $x + 3$ y $EF$ mide $6$. ¿Cuál es el valor de $x$ para que se cumpla la proporción de Tales?",
+    "question": "¿Cuál es la distancia entre los puntos $A(3, 4)$ y $B(1, 8)$?",
     "image": null,
     "options": [
-      { "text": "12", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "14", "correct": false }
+      { "text": "$10$", "correct": false },
+      { "text": "$\\sqrt{20}$", "correct": true },
+      { "text": "$\\sqrt{10}$", "correct": false },
+      { "text": "$20$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Teorema de Tales. La proporción se plantea como $\\frac{AB}{BC} = \\frac{DE}{EF}$.",
-    "explanation": "Sustituyendo en la igualdad: $\\frac{x-2}{4} = \\frac{x+3}{6} \\Rightarrow 6(x-2) = 4(x+3) \\Rightarrow 6x - 12 = 4x + 12 \\Rightarrow 2x = 24 \\Rightarrow x = 12$.",
+    "hint": "Utiliza la fórmula de distancia entre dos puntos $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
+    "explanation": "Sustituyendo los valores en la fórmula: $d = \\sqrt{(1 - 3)^2 + (8 - 4)^2} = \\sqrt{(-2)^2 + (4)^2} = \\sqrt{4 + 16} = \\sqrt{20}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73FX",
-    "question": "En un esquema geométrico basado en el Teorema de Tales, los segmentos de una recta secante miden $AB = 5$ y $BC = y + 1$. Los segmentos correspondientes en la otra secante miden $DE = 10$ y $EF = 3y - 2$. ¿Qué valor debe tomar $y$?",
+    "question": "El valor positivo que debe tomar $x$ para que la distancia entre los puntos $A(-1, 2)$ y $B(x, 10)$ sea igual a $10$ es:",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
-      { "text": "3", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "2", "correct": false }
+      { "text": "$12$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$5$", "correct": true },
+      { "text": "$2$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Plantea la igualdad de las razones geométricas transversales: $\\frac{BC}{AB} = \\frac{EF}{DE}$.",
-    "explanation": "Resolviendo la proporción: $\\frac{5}{y+1} = \\frac{10}{3y-2} \\Rightarrow 5(3y-2) = 10(y+1) \\Rightarrow 15y - 10 = 10y + 10 \\Rightarrow 5y = 20 \\Rightarrow y = 4$.",
+    "hint": "Sustituye la distancia y los puntos en $d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$ y resuelve para $x$.",
+    "explanation": "Tenemos $10^2 = (x - (-1))^2 + (10 - 2)^2$. Esto da $100 = (x + 1)^2 + 64$. Despejando: $(x + 1)^2 = 36$, por lo que $x + 1 = \\pm 6$. El valor positivo se obtiene con $x = 6 - 1 = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73FY",
-    "question": "Un estudiante del CEPREDIX resuelve un ejercicio de proporcionalidad. Si las medidas de los segmentos en una transversal son $m + 5$ y $8$, y en la otra transversal son $m - 1$ y $4$ respectivamente, ¿cuál es el valor de $m$?",
+    "question": "¿Cuál es la distancia entre los puntos $A(-3, 5)$ y $B(7, 6)$?",
     "image": null,
     "options": [
-      { "text": "7", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "9", "correct": false },
-      { "text": "3", "correct": false }
+      { "text": "$\\sqrt{101}$", "correct": true },
+      { "text": "$101$", "correct": false },
+      { "text": "$17$", "correct": false },
+      { "text": "$\\sqrt{17}$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Escribe la ecuación igualando las divisiones de los segmentos paralelos.",
-    "explanation": "Se plantea: $\\frac{m+5}{8} = \\frac{m-1}{4} \\Rightarrow 4(m+5) = 8(m-1) \\Rightarrow 4m + 20 = 8m - 8 \\Rightarrow 4m = 28 \\Rightarrow m = 7$.",
+    "hint": "Aplica la fórmula de distancia: $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
+    "explanation": "$d = \\sqrt{(7 - (-3))^2 + (6 - 5)^2} = \\sqrt{10^2 + 1^2} = \\sqrt{100 + 1} = \\sqrt{101}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73FZ",
-    "question": "Al trazar rectas paralelas que cortan dos transversales, se obtienen segmentos proporcionales. Si en la primera transversal los segmentos miden $3$ y $7$, y en la segunda miden $k - 2$ y $2k + 1$, encuentra el valor de $k$.",
+    "question": "El valor negativo que debe tomar $y$, para que la distancia entre los puntos $A(6, 10)$ y $B(1, y)$ sea igual a $13$ es:",
     "image": null,
     "options": [
-      { "text": "17", "correct": true },
-      { "text": "15", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "19", "correct": false }
+      { "text": "$-4$", "correct": false },
+      { "text": "$-3$", "correct": false },
+      { "text": "$-2$", "correct": true },
+      { "text": "$4$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Usa la relación constante de segmentos $\\frac{a}{b} = \\frac{c}{d}$ y resuelve la ecuación lineal.",
-    "explanation": "La ecuación es $\\frac{3}{7} = \\frac{k-2}{2k+1} \\Rightarrow 3(2k+1) = 7(k-2) \\Rightarrow 6k + 3 = 7k - 14 \\Rightarrow 17 = k$.",
+    "hint": "Eleva al cuadrado la fórmula de distancia: $d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$.",
+    "explanation": "$13^2 = (1 - 6)^2 + (y - 10)^2 \\Rightarrow 169 = (-5)^2 + (y - 10)^2 \\Rightarrow 169 = 25 + (y - 10)^2$. Despejando: $(y - 10)^2 = 144 \\Rightarrow y - 10 = \\pm 12$. El valor negativo es $y = 10 - 12 = -2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GA",
-    "question": "En un plano arquitectónico, las distancias entre muros paralelos sobre dos líneas de visión miden $2w$ y $w + 4$ para la primera línea, y $6 \\text{ m}$ y $5 \\text{ m}$ para la segunda. Calcula el valor numérico de $w$.",
+    "question": "El valor negativo que debe tomar $x$ para que la distancia entre los puntos $P(1, 1)$ y $Q(x, -4)$ sea igual a $\\sqrt{41}$ es:",
     "image": null,
     "options": [
-      { "text": "6", "correct": true },
-      { "text": "4", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "$-4$", "correct": false },
+      { "text": "$-3$", "correct": true },
+      { "text": "$-5$", "correct": false },
+      { "text": "$-1$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La razón entre las medidas de la primera línea de visión es idéntica a la razón de la segunda línea.",
-    "explanation": "Igualamos proporciones: $\\frac{2w}{w+4} = \\frac{6}{5} \\Rightarrow 10w = 6(w+4) \\Rightarrow 10w = 6w + 24 \\Rightarrow 4w = 24 \\Rightarrow w = 6$.",
+    "hint": "Sustituye en la ecuación de distancia al cuadrado: $41 = (x - 1)^2 + (-4 - 1)^2$.",
+    "explanation": "$41 = (x - 1)^2 + (-5)^2 \\Rightarrow 41 = (x - 1)^2 + 25 \\Rightarrow (x - 1)^2 = 16$. Por lo tanto, $x - 1 = \\pm 4$. El valor negativo es $x = 1 - 4 = -3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GB",
-    "question": "El elevador de carga de un edificio comercial advierte que su capacidad máxima soportada es de $400 \\text{ kg}$. Si $C$ representa la carga ingresada al elevador, ¿cuál expresión matemática modela correctamente esta restricción de seguridad?",
+    "question": "¿Cuáles son las coordenadas del punto medio del segmento que une los puntos $P_1(5, 2)$ y $P_2(7, -3)$?",
     "image": null,
     "options": [
-      { "text": "$C \\leq 400$", "correct": true },
-      { "text": "$C \\geq 400$", "correct": false },
-      { "text": "$C < 400$", "correct": false },
-      { "text": "$C > 400$", "correct": false }
+      { "text": "$(-\\frac{1}{2}, 6)$", "correct": false },
+      { "text": "$(6, \\frac{1}{2})$", "correct": false },
+      { "text": "$(\\frac{1}{2}, 6)$", "correct": false },
+      { "text": "$(6, -\\frac{1}{2})$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Considera el significado matemático de la palabra 'máxima'.",
-    "explanation": "La palabra 'máxima' significa que el peso puede ser exactamente igual a $400 \\text{ kg}$ o cualquier valor inferior a este. Se representa con $C \\leq 400$.",
+    "hint": "Usa la fórmula del punto medio: $P_m = (\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$.",
+    "explanation": "$P_m = (\\frac{5 + 7}{2}, \\frac{2 - 3}{2}) = (\\frac{12}{2}, -\\frac{1}{2}) = (6, -\\frac{1}{2})$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GC",
-    "question": "Para mantener la beca de excelencia, un estudiante del CEPREDIX necesita que su calificación final ($P$) supere estrictamente los $80$ puntos. Selecciona la desigualdad que representa esta condición académica.",
+    "question": "¿Cuáles son las coordenadas del punto medio del segmento que une los puntos $P_1(8, 4)$ y $P_2(6, -2)$?",
     "image": null,
     "options": [
-      { "text": "$P > 80$", "correct": true },
-      { "text": "$P \\geq 80$", "correct": false },
-      { "text": "$P < 80$", "correct": false },
-      { "text": "$P \\leq 80$", "correct": false }
+      { "text": "$(1, 3)$", "correct": false },
+      { "text": "$(7, 1)$", "correct": true },
+      { "text": "$(14, 2)$", "correct": false },
+      { "text": "$(2, 2)$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La expresión 'supere estrictamente' excluye la posibilidad de empate o igualdad con el límite.",
-    "explanation": "Como el puntaje debe ser mayor y no puede ser igual a $80$ para mantener el beneficio, se utiliza el signo de desigualdad estricta $P > 80$.",
+    "hint": "Promedia las coordenadas en $x$ y en $y$.",
+    "explanation": "$x_m = \\frac{8 + 6}{2} = 7$ y $y_m = \\frac{4 - 2}{2} = 1$. El punto medio es $(7, 1)$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GD",
-    "question": "Un parque de diversiones indica en su reglamento que la edad mínima para ingresar a la casa del terror es de $18$ años. Si $E$ simboliza la edad del visitante, ¿qué expresión algebraica define a las personas que pueden entrar?",
+    "question": "Las coordenadas del punto medio son $(3, -4)$. Si uno de los extremos es $(5, 10)$, el valor de $x$ del otro extremo es:",
     "image": null,
     "options": [
-      { "text": "$E \\geq 18$", "correct": true },
-      { "text": "$E > 18$", "correct": false },
-      { "text": "$E \\leq 18$", "correct": false },
-      { "text": "$E < 18$", "correct": false }
+      { "text": "$1$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$3$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El término 'edad mínima' implica que el valor inferior de referencia también está permitido para el ingreso.",
-    "explanation": "La edad debe ser de $18$ años en adelante, lo que significa que incluye el $18$ y todos los valores mayores. Esto se escribe como $E \\geq 18$.",
+    "hint": "Plantea la ecuación para la coordenada $x$: $x_m = \\frac{x_1 + x_2}{2}$.",
+    "explanation": "Sabemos que $3 = \\frac{5 + x_2}{2}$. Multiplicando por 2: $6 = 5 + x_2$, por lo que $x_2 = 1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GE",
-    "question": "Un turista planifica un viaje con la condición de gastar, a lo sumo, $\\$1500$. Si la variable $B$ representa el presupuesto gastado, ¿cuál de las siguientes inecuaciones describe esta situación financiera?",
+    "question": "Las coordenadas del punto medio entre dos puntos son $(2, 1)$, si uno de los extremos es $(7, -3)$. El valor de $y$, del otro extremo es:",
     "image": null,
     "options": [
-      { "text": "$B \\leq 1500$", "correct": true },
-      { "text": "$B \\geq 1500$", "correct": false },
-      { "text": "$B < 1500$", "correct": false },
-      { "text": "$B = 1500$", "correct": false }
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false },
+      { "text": "$5$", "correct": true },
+      { "text": "$12$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La frase 'a lo sumo' actúa como un sinónimo de límite superior máximo permitido.",
-    "explanation": "Decir 'a lo sumo' indica que el gasto no puede exceder esa cantidad, pero sí se permite gastar exactamente los $\\$1500$. Su representación es $B \\leq 1500$.",
+    "hint": "Usa la fórmula del punto medio para las ordenadas: $y_m = \\frac{y_1 + y_2}{2}$.",
+    "explanation": "Sustituyendo los valores: $1 = \\frac{-3 + y_2}{2} \\Rightarrow 2 = -3 + y_2 \\Rightarrow y_2 = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GF",
-    "question": "Para el transporte y conservación de una vacuna, los protocolos sanitarios exigen que la temperatura ambiente ($T$) se mantenga en todo momento por debajo de los $5^\\circ \\text{C}$. Identifica la representación matemática de esta regla.",
+    "question": "¿Cuáles son las coordenadas del punto medio del segmento que une los puntos $A(10, -2)$ y $B(1, -7)$?",
     "image": null,
     "options": [
-      { "text": "$T < 5$", "correct": true },
-      { "text": "$T \\leq 5$", "correct": false },
-      { "text": "$T > 5$", "correct": false },
-      { "text": "$T \\geq 5$", "correct": false }
+      { "text": "$(\\frac{9}{2}, -\\frac{11}{2})$", "correct": false },
+      { "text": "$(\\frac{11}{2}, \\frac{9}{2})$", "correct": false },
+      { "text": "$(-\\frac{11}{2}, -\\frac{9}{2})$", "correct": false },
+      { "text": "$(\\frac{11}{2}, -\\frac{9}{2})$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "La instrucción 'por debajo de' restringe que la temperatura alcance exactamente el valor mencionado.",
-    "explanation": "Se requiere que la temperatura sea estrictamente menor a $5$, por lo que se excluye la posibilidad de que sea $5$. La notación correcta es $T < 5$.",
+    "hint": "Promedia las abscisas y las ordenadas por separado.",
+    "explanation": "$x_m = \\frac{10 + 1}{2} = \\frac{11}{2}$. $y_m = \\frac{-2 - 7}{2} = -\\frac{9}{2}$. El punto medio es $(\\frac{11}{2}, -\\frac{9}{2})$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GG",
-    "question": "Resuelve la siguiente ecuación exponencial aplicando las propiedades de los exponentes: $(3^{1/3})^6 = 3^x$. ¿Cuál es el valor que satisface la igualdad para $x$?",
+    "question": "¿Cuál es la pendiente de la recta que pasa por los puntos $A(3, -4)$ y $B(5, 1)$?",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "3", "correct": false },
-      { "text": "1/2", "correct": false },
-      { "text": "6", "correct": false }
+      { "text": "$\\frac{2}{5}$", "correct": false },
+      { "text": "$-\\frac{5}{2}$", "correct": false },
+      { "text": "$-\\frac{2}{5}$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda la regla de las potencias: al elevar una potencia a otro exponente, ambos se multiplican.",
-    "explanation": "Usamos la propiedad $(a^m)^n = a^{m \\cdot n}$. Multiplicando los exponentes: $1/3 \\times 6 = 6/3 = 2$. Obtenemos $3^2 = 3^x$, de donde concluimos que $x = 2$.",
+    "hint": "Usa la fórmula de la pendiente: $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{1 - (-4)}{5 - 3} = \\frac{1 + 4}{2} = \\frac{5}{2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GH",
-    "question": "Determina el valor de la incógnita $x$ que hace válida la siguiente expresión algebraica: $(7^{2/5})^{10} = 7^x$.",
+    "question": "¿Cuál es la pendiente de la recta que pasa por los puntos $A(-1, 7)$ y $B(5, 1)$?",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
-      { "text": "20", "correct": false },
-      { "text": "2/5", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "$1$", "correct": false },
+      { "text": "$-1$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El producto de un número entero por una fracción se realiza multiplicando el numerador por dicho entero.",
-    "explanation": "Al elevar una potencia a otra potencia, sus exponentes se multiplican: $2/5 \\times 10 = 20/5 = 4$. Al igualar los exponentes de bases iguales, $x = 4$.",
+    "hint": "Aplica $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{1 - 7}{5 - (-1)} = \\frac{-6}{6} = -1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GI",
-    "question": "En un ejercicio del CEPREDIX se pide simplificar y encontrar el valor de $x$ en la ecuación: $(2^{3/4})^8 = 2^x$. Identifica el resultado correcto.",
+    "question": "La pendiente de una recta es $-\\frac{2}{3}$, si pasa por el punto $M(2, -1)$ y el punto $P$ cuya abscisa es $-10$, el valor de la ordenada de $P$ es:",
     "image": null,
     "options": [
-      { "text": "6", "correct": true },
-      { "text": "3", "correct": false },
-      { "text": "8/3", "correct": false },
-      { "text": "24", "correct": false }
+      { "text": "$7$", "correct": true },
+      { "text": "$-7$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-1$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Realiza la multiplicación de fracciones y luego reduce la expresión resultante a un número entero.",
-    "explanation": "Siguiendo la regla de los exponentes, multiplicamos: $\\frac{3}{4} \\times 8 = \\frac{24}{4} = 6$. Por identidad matemática de bases iguales, obtenemos que $x = 6$.",
+    "hint": "Iguala la pendiente dada con la expresión $m = \\frac{y - y_1}{x - x_1}$.",
+    "explanation": "$-\\frac{2}{3} = \\frac{y - (-1)}{-10 - 2} \\Rightarrow -\\frac{2}{3} = \\frac{y + 1}{-12}$. Multiplicando por -12: $8 = y + 1 \\Rightarrow y = 7$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GJ",
-    "question": "Aplicando las leyes de los exponentes, halla el valor de $x$ correspondiente a la igualdad: $(11^{1/5})^{15} = 11^x$.",
+    "question": "La pendiente de una recta es $5$, si pasa por el punto $A(3, 4)$ y el punto $B$ cuya abscisa es $2$, el valor de la ordenada de $B$ es:",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "1/3", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "15", "correct": false }
+      { "text": "$3$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$-1$", "correct": true },
+      { "text": "$1$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La ley de exponentes para estos casos es $(a^m)^n = a^{m \\cdot n}$.",
-    "explanation": "Se aplica el producto sobre los exponentes: $1/5 \\times 15 = 15/5 = 3$. Igualando el término simplificado con el lado derecho, se concluye que $x = 3$.",
+    "hint": "Sustituye los datos en la fórmula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ y despeja $y_2$.",
+    "explanation": "$5 = \\frac{y - 4}{2 - 3} \\Rightarrow 5 = \\frac{y - 4}{-1} \\Rightarrow -5 = y - 4 \\Rightarrow y = -1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GK",
-    "question": "Calcula el valor que debe tener $x$ para mantener el equilibrio en la siguiente relación matemática: $(13^{2/3})^9 = 13^x$.",
+    "question": "La pendiente de una recta es $\\frac{7}{10}$, si pasa por el punto $P(6, 9)$ y el punto $Q$ cuya abscisa es $-4$, el valor de la ordenada de $Q$ es:",
     "image": null,
     "options": [
-      { "text": "6", "correct": true },
-      { "text": "18", "correct": false },
-      { "text": "2/9", "correct": false },
-      { "text": "3", "correct": false }
+      { "text": "$9$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$2$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Una base elevada a un exponente y seguidamente a otro equivale a mantener la base elevada al producto aritmético de ambos.",
-    "explanation": "Multiplicando los valores de las potencias tenemos: $2/3 \\times 9 = 18/3 = 6$. La ecuación equivalente es $13^6 = 13^x$, lo cual confirma que $x = 6$.",
+    "hint": "Despeja $y$ de la ecuación de pendiente con los puntos dados.",
+    "explanation": "$\\frac{7}{10} = \\frac{y - 9}{-4 - 6} \\Rightarrow \\frac{7}{10} = \\frac{y - 9}{-10}$. Multiplicando por -10: $-7 = y - 9 \\Rightarrow y = 2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GL",
-    "question": "Un cliente adquirió un reloj de pulsera por el que finalmente pagó $\\$680$. Si el artículo tenía aplicado un descuento del $15\\%$, ¿cuál era su precio original antes de la rebaja?",
+    "question": "La ecuación de la recta que pasa por el punto $(1, 6)$ y su pendiente es $\\frac{1}{2}$ es:",
     "image": null,
     "options": [
-      { "text": "\\$800.00", "correct": true },
-      { "text": "\\$782.00", "correct": false },
-      { "text": "\\$850.00", "correct": false },
-      { "text": "\\$750.00", "correct": false }
+      { "text": "$x - 2y + 11 = 0$", "correct": true },
+      { "text": "$x - 2y - 11 = 0$", "correct": false },
+      { "text": "$x + 2y + 11 = 0$", "correct": false },
+      { "text": "$x + 2y - 11 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Estructura la solución con una ecuación del tipo $P_{final} = P_{original} \\times (1 - d)$, donde $d$ es el descuento en formato decimal.",
-    "explanation": "Con un descuento del $15\\%$, el cliente abonó el $85\\%$ del precio original ($100\\% - 15\\%$). Matemáticamente: $P_o \\times 0.85 = \\$680$. Despejando: $P_o = \\$680 / 0.85 = \\$800$.",
+    "hint": "Usa la forma punto-pendiente: $y - y_1 = m(x - x_1)$.",
+    "explanation": "$y - 6 = \\frac{1}{2}(x - 1) \\Rightarrow 2(y - 6) = x - 1 \\Rightarrow 2y - 12 = x - 1$. Igualando a cero: $x - 2y + 11 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GM",
-    "question": "Durante una venta especial, unos tenis deportivos se liquidaron por $\\$340$ tras aplicarles un descuento equivalente al $20\\%$. ¿A cuánto ascendía su costo etiquetado inicial?",
+    "question": "¿Cuál es la ecuación de la recta que pasa por los puntos $A(4, 5)$ y $B(3, -2)$?",
     "image": null,
     "options": [
-      { "text": "\\$425.00", "correct": true },
-      { "text": "\\$408.00", "correct": false },
-      { "text": "\\$380.00", "correct": false },
-      { "text": "\\$450.00", "correct": false }
+      { "text": "$10x + 7y - 5 = 0$", "correct": false },
+      { "text": "$7x - y - 23 = 0$", "correct": true },
+      { "text": "$10x + 7y + 5 = 0$", "correct": false },
+      { "text": "$7x + y - 33 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "El dinero pagado representa la diferencia entre el total y el porcentaje que fue descontado.",
-    "explanation": "Tras el descuento del $20\\%$, se pagó únicamente el $80\\%$ del costo total. La relación es $P_o \\times 0.80 = \\$340$. Por tanto, el costo base es $P_o = \\$340 / 0.80 = \\$425$.",
+    "hint": "Primero calcula la pendiente y luego usa la forma punto-pendiente.",
+    "explanation": "Pendiente $m = \\frac{-2 - 5}{3 - 4} = \\frac{-7}{-1} = 7$. Usando $A(4, 5)$: $y - 5 = 7(x - 4) \\Rightarrow y - 5 = 7x - 28 \\Rightarrow 7x - y - 23 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GN",
-    "question": "Un estudiante del CEPREDIX compró una calculadora científica por $\\$150$ porque contaba con un cupón de descuento del $25\\%$. ¿Cuál era el precio regular de la calculadora en la tienda?",
+    "question": "¿Cuál es la ecuación de la recta que interseca al eje $Y$ en $3$ y pendiente $5$?",
     "image": null,
     "options": [
-      { "text": "\\$200.00", "correct": true },
-      { "text": "\\$187.50", "correct": false },
-      { "text": "\\$195.00", "correct": false },
-      { "text": "\\$225.00", "correct": false }
+      { "text": "$3x - y - 5 = 0$", "correct": false },
+      { "text": "$3x + y + 5 = 0$", "correct": false },
+      { "text": "$5x - y - 3 = 0$", "correct": false },
+      { "text": "$5x - y + 3 = 0$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Si hubo un descuento del $25\\%$, entonces el costo cubierto por el estudiante es igual al resto del porcentaje hasta alcanzar el $100\\%$.",
-    "explanation": "El alumno pagó el equivalente al $75\\%$ del precio etiquetado. La fórmula es $P_o \\times 0.75 = \\$150 \\Rightarrow P_o = \\$150 / 0.75 = \\$200$.",
+    "hint": "Usa la forma pendiente-ordenada al origen: $y = mx + b$.",
+    "explanation": "Tenemos $m = 5$ y $b = 3$, entonces $y = 5x + 3$. Pasando todo a un lado: $5x - y + 3 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GO",
-    "question": "Por una consola de videojuegos usada se pagaron $\\$855$ después de aplicar una rebaja del $5\\%$. Selecciona la cantidad que representa el valor de la consola sin la rebaja.",
+    "question": "El valor de la pendiente de la recta $3x + 5y - 10 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "\\$900.00", "correct": true },
-      { "text": "\\$897.75", "correct": false },
-      { "text": "\\$950.00", "correct": false },
-      { "text": "\\$905.00", "correct": false }
+      { "text": "$3$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$-\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{3}{5}$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El cálculo se basa en la equivalencia: Precio Pagado es igual al Precio Original multiplicado por el porcentaje a pagar en forma de número decimal.",
-    "explanation": "Puesto que hubo una deducción del $5\\%$, el pago de $\\$855$ corresponde exactamente al $95\\%$ del precio total. Se calcula despejando: $P_o = \\$855 / 0.95 = \\$900$.",
+    "hint": "Escribe la ecuación en la forma $y = mx + b$ o usa $m = -\\frac{A}{B}$.",
+    "explanation": "Despejando $y$: $5y = -3x + 10 \\Rightarrow y = -\\frac{3}{5}x + 2$. La pendiente es $-\\frac{3}{5}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GP",
-    "question": "En una tienda de electrónica, un monitor curvo fue adquirido por $\\$1050$ debido a un descuento promocional del $30\\%$. ¿Cuál era el precio de lista original del producto?",
+    "question": "La pendiente de la recta $3x + 6y - 12 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "\\$1500.00", "correct": true },
-      { "text": "\\$1365.00", "correct": false },
-      { "text": "\\$1450.00", "correct": false },
-      { "text": "\\$1600.00", "correct": false }
+      { "text": "$-\\frac{1}{2}$", "correct": true },
+      { "text": "$-2$", "correct": false },
+      { "text": "$\\frac{1}{6}$", "correct": false },
+      { "text": "$4$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El beneficio de un descuento del $30\\%$ significa que se pagó proporcionalmente el $70\\%$ del costo del artículo.",
-    "explanation": "Sabiendo que se liquidó el $70\\%$, la ecuación es $0.70 \\times P_o = \\$1050$. Al aislar la variable del precio original tenemos $P_o = \\$1050 / 0.70 = \\$1500$.",
+    "hint": "Identifica $A$ y $B$ de la forma general $Ax + By + C = 0$, la pendiente es $m = -\\frac{A}{B}$.",
+    "explanation": "Con $A = 3$ y $B = 6$, $m = -\\frac{3}{6} = -\\frac{1}{2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GQ",
-    "question": "En un juego de mesa se emplea un dado de seis caras alterado, en el cual el número seis tiene el doble de probabilidad de caer en comparación con cualquier otro número. ¿Cuál es la probabilidad de obtener un tres al lanzarlo?",
+    "question": "La ecuación de la recta que pasa por el punto $(-6, -1)$ y su pendiente es $-\\frac{3}{4}$ es:",
     "image": null,
     "options": [
-      { "text": "1/7", "correct": true },
-      { "text": "1/6", "correct": false },
-      { "text": "1/8", "correct": false },
-      { "text": "2/7", "correct": false }
+      { "text": "$3x + 4y + 22 = 0$", "correct": true },
+      { "text": "$3x - 4y - 22 = 0$", "correct": false },
+      { "text": "$4x - 3y + 22 = 0$", "correct": false },
+      { "text": "$4x + 3y - 22 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Otorga el valor de una variable 'p' a las caras normales y asegúrate de que la suma total sea exactamente igual a la unidad (1).",
-    "explanation": "Llamemos $p$ a la probabilidad de cada cara normal (del 1 al 5). La cara del seis tiene una probabilidad de $2p$. La sumatoria total es $5(p) + 2p = 7p = 1$, despejando $p = 1/7$. Como el tres es una cara normal, su probabilidad es $1/7$.",
+    "hint": "Emplea la ecuación punto-pendiente $y - y_1 = m(x - x_1)$.",
+    "explanation": "$y - (-1) = -\\frac{3}{4}(x - (-6)) \\Rightarrow 4(y + 1) = -3(x + 6) \\Rightarrow 4y + 4 = -3x - 18 \\Rightarrow 3x + 4y + 22 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GR",
-    "question": "Un problema del CEPREDIX describe un dado trucado donde todos los números pares tienen el doble de probabilidad de aparecer que cualquier número impar. ¿Cuál es la probabilidad de que al lanzarlo salga el número cinco?",
+    "question": "¿Cuál es la ecuación de la recta que pasa por los puntos $P(-4, 7)$ y $Q(-10, -2)$?",
     "image": null,
     "options": [
-      { "text": "1/9", "correct": true },
-      { "text": "1/6", "correct": false },
-      { "text": "2/9", "correct": false },
-      { "text": "1/3", "correct": false }
+      { "text": "$y = \\frac{2}{3}x + 13$", "correct": false },
+      { "text": "$y = -\\frac{2}{3}x - 13$", "correct": false },
+      { "text": "$y = \\frac{3}{2}x + 13$", "correct": true },
+      { "text": "$y = -\\frac{3}{2}x - 13$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Considera la cantidad total de números pares e impares dentro de un dado convencional para armar tu ecuación.",
-    "explanation": "Definimos $p$ para un impar y $2p$ para un par. Hay tres impares y tres pares. Total $= 3(p) + 3(2p) = 3p + 6p = 9p = 1 \\Rightarrow p = 1/9$. Al ser el cinco un número impar, la probabilidad pedida es $1/9$.",
+    "hint": "Obtén la pendiente $m$ primero y luego formula la ecuación de la recta.",
+    "explanation": "$m = \\frac{-2 - 7}{-10 - (-4)} = \\frac{-9}{-6} = \\frac{3}{2}$. Usando $P(-4, 7)$: $y - 7 = \\frac{3}{2}(x + 4) \\Rightarrow y = \\frac{3}{2}x + 6 + 7 \\Rightarrow y = \\frac{3}{2}x + 13$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GS",
-    "question": "Al jugar a los volados con una moneda cargada, se sabe que la probabilidad de que caiga 'Águila' es cuatro veces mayor que la probabilidad de que caiga 'Sol'. ¿Cuál es la probabilidad exacta de que el resultado sea 'Sol'?",
+    "question": "¿Cuál es la ecuación de la recta que interseca al eje $Y$ en $8$ y pendiente $-3$?",
     "image": null,
     "options": [
-      { "text": "1/5", "correct": true },
-      { "text": "1/4", "correct": false },
-      { "text": "4/5", "correct": false },
-      { "text": "1/2", "correct": false }
+      { "text": "$y = 3x - 8$", "correct": false },
+      { "text": "$y = -8x + 3$", "correct": false },
+      { "text": "$y = -3x + 8$", "correct": true },
+      { "text": "$y = 8x + 3$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Representa el evento de menor ocurrencia como 'x' y escribe el evento de mayor ocurrencia dependiente de este valor.",
-    "explanation": "Si definimos la probabilidad de 'Sol' como $x$, entonces la de 'Águila' corresponde a $4x$. Ambos eventos suman uno: $4x + x = 5x = 1$, concluyendo que $x = 1/5$.",
+    "hint": "Utiliza la forma $y = mx + b$.",
+    "explanation": "Como $m = -3$ y la ordenada al origen es $b = 8$, la ecuación es $y = -3x + 8$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GT",
-    "question": "Una ruleta de feria tiene solo tres colores: rojo, azul y verde. La probabilidad de que caiga rojo es el triple que la de azul, y la de verde es exactamente igual a la de azul. ¿Qué probabilidad existe de que el giro se detenga en el color azul?",
+    "question": "El valor de la pendiente de la recta $3x + 5y - 9 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "1/5", "correct": true },
-      { "text": "1/3", "correct": false },
-      { "text": "3/5", "correct": false },
-      { "text": "1/4", "correct": false }
+      { "text": "$\\frac{3}{5}$", "correct": false },
+      { "text": "$-\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{5}{3}$", "correct": false },
+      { "text": "$-\\frac{5}{3}$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "El principio de la probabilidad dicta que la sumatoria de todas las posibles combinaciones en un espacio muestral siempre es el entero $1$.",
-    "explanation": "Denotemos por $p$ la probabilidad del sector azul. El verde es igual ($p$), y el rojo es el triple ($3p$). La sumatoria es $3p + p + p = 5p = 1 \\Rightarrow p = 1/5$.",
+    "hint": "Despeja la variable $y$ para obtener la forma $y = mx + b$.",
+    "explanation": "Despejando $y$: $5y = -3x + 9 \\Rightarrow y = -\\frac{3}{5}x + \\frac{9}{5}$. Por lo que $m = -\\frac{3}{5}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GU",
-    "question": "Se diseñó un dado especial para un juego de rol donde la cara del número dos es cuatro veces más probable que cualquiera de las otras cinco caras restantes. Calcula la probabilidad de que el dado caiga exactamente en la cara con el número dos.",
+    "question": "¿Cuál es la ecuación de la recta que interseca al eje $X$ en $9$ y al eje $Y$ en $-5$?",
     "image": null,
     "options": [
-      { "text": "4/9", "correct": true },
-      { "text": "1/9", "correct": false },
-      { "text": "1/5", "correct": false },
-      { "text": "4/5", "correct": false }
+      { "text": "$5x - 9y - 45 = 0$", "correct": true },
+      { "text": "$9x + 5y - 45 = 0$", "correct": false },
+      { "text": "$9x - 5y - 45 = 0$", "correct": false },
+      { "text": "$5x + 9y - 45 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Plantea una ecuación donde las cinco caras ordinarias equivalen al mismo valor base y el número dos tiene un valor alterado multiplicativo.",
-    "explanation": "Las cinco caras normales aportan $5p$ en total. La cara del dos aporta $4p$. Todo debe sumar $1$: $5p + 4p = 9p = 1 \\Rightarrow p = 1/9$. Como el dos posee una probabilidad del $4p$, su probabilidad se resuelve como $4(1/9) = 4/9$.",
+    "hint": "Aplica la forma simétrica de la recta: $\\frac{x}{a} + \\frac{y}{b} = 1$.",
+    "explanation": "Sustituyendo $a = 9$ y $b = -5$: $\\frac{x}{9} + \\frac{y}{-5} = 1$. Multiplicando por 45: $5x - 9y = 45 \\Rightarrow 5x - 9y - 45 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GV",
-    "question": "Si en un triángulo rectángulo se conoce que el coseno de uno de sus ángulos agudos $\\alpha$ es $5/13$, ¿cuál es el valor correspondiente de su cosecante ($\\csc \\alpha$)?",
+    "question": "La ecuación de la recta que pasa por el punto $(7, 6)$ y su pendiente es $-\\frac{1}{4}$, es:",
     "image": null,
     "options": [
-      { "text": "13/12", "correct": true },
-      { "text": "12/13", "correct": false },
-      { "text": "13/5", "correct": false },
-      { "text": "12/5", "correct": false }
+      { "text": "$x + 4y - 31 = 0$", "correct": true },
+      { "text": "$x - 4y - 31 = 0$", "correct": false },
+      { "text": "$x - 4y - 34 = 0$", "correct": false },
+      { "text": "$x - 4y + 34 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Emplea el Teorema de Pitágoras para hallar la magnitud del cateto faltante. Cosecante es hipotenusa entre cateto opuesto.",
-    "explanation": "Sabemos que $\\cos \\alpha = A/H = 5/13$. Aplicando Pitágoras, el opuesto es $O = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$. Por definición, $\\csc \\alpha = H/O = 13/12$.",
+    "hint": "Forma punto-pendiente: $y - y_1 = m(x - x_1)$.",
+    "explanation": "$y - 6 = -\\frac{1}{4}(x - 7) \\Rightarrow 4y - 24 = -x + 7 \\Rightarrow x + 4y - 31 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GW",
-    "question": "Un estudiante evalúa las funciones trigonométricas y establece que la tangente del ángulo $\\beta$ es $3/4$. Con base en este dato, determina el valor de su coseno ($\\cos \\beta$).",
+    "question": "¿Cuál es la ecuación de la recta que pasa por los puntos $P(-3, -7)$ y $Q(-8, -4)$?",
     "image": null,
     "options": [
-      { "text": "4/5", "correct": true },
-      { "text": "3/5", "correct": false },
-      { "text": "5/4", "correct": false },
-      { "text": "5/3", "correct": false }
+      { "text": "$3x - 5y - 44 = 0$", "correct": false },
+      { "text": "$3x + 5y - 44 = 0$", "correct": false },
+      { "text": "$3x + 5y + 44 = 0$", "correct": true },
+      { "text": "$3x - 5y + 44 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La función tangente vincula el cateto opuesto y el adyacente. Inicia calculando la longitud de la hipotenusa.",
-    "explanation": "Del dato $\\tan \\beta = O/A = 3/4$, usamos Pitágoras para hallar la hipotenusa: $H = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$. La razón es $\\cos \\beta = A/H = 4/5$.",
+    "hint": "Calcula primero la pendiente con $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "$m = \\frac{-4 - (-7)}{-8 - (-3)} = \\frac{3}{-5} = -\\frac{3}{5}$. Con $P(-3, -7)$: $y + 7 = -\\frac{3}{5}(x + 3) \\Rightarrow 5y + 35 = -3x - 9 \\Rightarrow 3x + 5y + 44 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GX",
-    "question": "Sabiendo que el seno de un ángulo $\\gamma$ en un triángulo rectángulo es igual a $7/25$, ¿cuál será el valor de su cotangente ($\\cot \\gamma$)?",
+    "question": "¿Cuál es la ecuación de la recta que interseca al eje $Y$ en $-5$ y pendiente $-2$?",
     "image": null,
     "options": [
-      { "text": "24/7", "correct": true },
-      { "text": "7/24", "correct": false },
-      { "text": "25/7", "correct": false },
-      { "text": "24/25", "correct": false }
+      { "text": "$5x + y - 2 = 0$", "correct": false },
+      { "text": "$5x - y + 2 = 0$", "correct": false },
+      { "text": "$2x - y - 5 = 0$", "correct": false },
+      { "text": "$2x + y + 5 = 0$", "correct": true }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La cotangente se define como el cateto adyacente dividido por el cateto opuesto.",
-    "explanation": "Con $\\sin \\gamma = O/H = 7/25$, determinamos el cateto adyacente con Pitágoras: $A = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$. La función buscada $\\cot \\gamma = A/O = 24/7$.",
+    "hint": "Sustituye en la ecuación pendiente-ordenada $y = mx + b$.",
+    "explanation": "Con $m = -2$ y $b = -5$, se tiene $y = -2x - 5$. Igualando a cero queda $2x + y + 5 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GY",
-    "question": "En un análisis trigonométrico del CEPREDIX, se determinó que la cotangente de un ángulo $\\phi$ tiene un valor de $8/15$. A partir de esto, calcula el seno ($\\sin \\phi$) del mismo ángulo.",
+    "question": "El valor de la pendiente de la recta $4x - 7y - 21 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "15/17", "correct": true },
-      { "text": "8/17", "correct": false },
-      { "text": "17/15", "correct": false },
-      { "text": "15/8", "correct": false }
+      { "text": "$\\frac{7}{4}$", "correct": false },
+      { "text": "$-\\frac{4}{7}$", "correct": false },
+      { "text": "$\\frac{4}{7}$", "correct": true },
+      { "text": "$-\\frac{7}{4}$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
-    "level_tag": ["INTERMEDIO"],
+    "level_tag": ["BÁSICO"],
     "type_tag": ["TEST"],
-    "hint": "Si la cotangente es la razón entre el cateto adyacente y el cateto opuesto, requieres calcular primero la hipotenusa.",
-    "explanation": "Si $\\cot \\phi = A/O = 8/15$, la hipotenusa se encuentra así: $H = \\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$. El valor del $\\sin \\phi = O/H = 15/17$.",
+    "hint": "Recuerda que para la forma $Ax + By + C = 0$, la pendiente es $m = -\\frac{A}{B}$.",
+    "explanation": "Despejando $y$ tenemos: $7y = 4x - 21 \\Rightarrow y = \\frac{4}{7}x - 3$. Por lo que $m = \\frac{4}{7}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73GZ",
-    "question": "Dada la función trigonométrica secante de un ángulo $\\theta$ con un valor de $17/8$, encuentra el valor correspondiente de la tangente ($\\tan \\theta$).",
+    "question": "La ecuación de la recta que pasa por el punto $(2, 7)$ y que es paralela a la recta $3x - 5y + 15 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "15/8", "correct": true },
-      { "text": "8/15", "correct": false },
-      { "text": "15/17", "correct": false },
-      { "text": "17/15", "correct": false }
+      { "text": "$3x - 5y + 29 = 0$", "correct": true },
+      { "text": "$5x + 3y - 31 = 0$", "correct": false },
+      { "text": "$5x - 3y + 31 = 0$", "correct": false },
+      { "text": "$5x + 3y - 29 = 0$", "correct": false }
     ],
     "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "La función secante se entiende como el cociente de la hipotenusa entre el cateto adyacente. Usa Pitágoras para sacar el opuesto.",
-    "explanation": "Sabiendo que $\\sec \\theta = H/A = 17/8$. El cateto opuesto se calcula como $O = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$. Por lo tanto, $\\tan \\theta = O/A = 15/8$.",
+    "hint": "Dos rectas paralelas tienen la misma pendiente.",
+    "explanation": "La pendiente de $3x - 5y + 15 = 0$ es $m = \\frac{3}{5}$. Usando $(2, 7)$: $y - 7 = \\frac{3}{5}(x - 2) \\Rightarrow 5y - 35 = 3x - 6 \\Rightarrow 3x - 5y + 29 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HA",
-    "question": "¿Cuál es el componente estructural principal de la membrana celular que regula el paso selectivo de sustancias a través de ella?",
+    "question": "¿Cuál es la pendiente de la recta que es perpendicular a la recta que pasa por los puntos $A(-3, 11)$ y $B(-1, 7)$?",
     "image": null,
     "options": [
-      { "text": "La bicapa lipídica con proteínas insertadas", "correct": true },
-      { "text": "El citoesqueleto intracelular", "correct": false },
-      { "text": "Los carbohidratos superficiales hidrofílicos", "correct": false },
-      { "text": "El núcleo celular", "correct": false }
+      { "text": "$-2$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$-\\frac{1}{2}$", "correct": false }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Piensa en la estructura de doble capa que repele el agua en su interior.",
-    "explanation": "La membrana está formada por una bicapa de fosfolípidos que actúa como la principal barrera, permitiendo el paso diferencial de moléculas según su liposolubilidad.",
+    "hint": "Las pendientes de rectas perpendiculares cumplen $m_1 \\cdot m_2 = -1$.",
+    "explanation": "La pendiente de $AB$ es $m_1 = \\frac{7 - 11}{-1 - (-3)} = \\frac{-4}{2} = -2$. La pendiente perpendicular es $m_2 = -\\frac{1}{-2} = \\frac{1}{2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HB",
-    "question": "Es el proceso farmacocinético que describe el paso de un fármaco desde su sitio de administración hasta el torrente sanguíneo:",
+    "question": "¿Cuál de las siguientes rectas es perpendicular a la recta $3x - 7y - 14 = 0$?",
     "image": null,
     "options": [
-      { "text": "Distribución", "correct": false },
-      { "text": "Absorción", "correct": true },
-      { "text": "Metabolismo", "correct": false },
-      { "text": "Excreción", "correct": false }
+      { "text": "$y = -\\frac{7}{3}x + 5$", "correct": true },
+      { "text": "$y = \\frac{7}{3}x + 5$", "correct": false },
+      { "text": "$y = \\frac{3}{7}x + 5$", "correct": false },
+      { "text": "$y = -\\frac{3}{7}x + 5$", "correct": false }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Es la letra 'A' del acrónimo LADME.",
-    "explanation": "La absorción es el movimiento de un fármaco desde el lugar donde se administró hacia la circulación sistémica (la 'A' del modelo LADME).",
+    "hint": "Calcula la pendiente y usa la propiedad de perpendicularidad (recíproco con signo opuesto).",
+    "explanation": "La recta original tiene $m = \\frac{3}{7}$. Una recta perpendicular debe tener $m_\\perp = -\\frac{7}{3}$. La única opción con esa pendiente es $y = -\\frac{7}{3}x + 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HC",
-    "question": "Identifica el grupo de fármacos cuya función biológica principal es combatir las infecciones causadas por agentes bacterianos.",
+    "question": "¿Cuál de las siguientes rectas es perpendicular a la que pasa por los puntos $(8, -3)$ y $(2, 1)$?",
     "image": null,
     "options": [
-      { "text": "Antivirales", "correct": false },
-      { "text": "Antimicóticos", "correct": false },
-      { "text": "Antibióticos", "correct": true },
-      { "text": "Antiparasitarios", "correct": false }
+      { "text": "$y = -\\frac{3}{2}x - 6$", "correct": false },
+      { "text": "$y = \\frac{3}{2}x - 6$", "correct": true },
+      { "text": "$y = -\\frac{2}{3}x - 6$", "correct": false },
+      { "text": "$y = \\frac{2}{3}x - 6$", "correct": false }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Recuerda el prefijo que significa 'contra la vida' de microorganismos procariontes.",
-    "explanation": "De acuerdo con la clasificación funcional, los antibióticos se encargan de combatir bacterias, los antivirales a virus y los antimicóticos a hongos.",
+    "hint": "Calcula la pendiente entre los puntos y encuentra su inverso negativo.",
+    "explanation": "Pendiente inicial $m_1 = \\frac{1 - (-3)}{2 - 8} = \\frac{4}{-6} = -\\frac{2}{3}$. La recta perpendicular debe tener pendiente $m_2 = \\frac{3}{2}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HD",
-    "question": "¿Qué rama de la ciencia define 'lo que el fármaco le hace al cuerpo', abarcando el estudio de los efectos fisiológicos y el mecanismo de acción a nivel de receptores?",
+    "question": "La ecuación de la recta que pasa por el punto $(3, -2)$ y que es perpendicular a la recta $2x - 9y - 18 = 0$ es:",
     "image": null,
     "options": [
-      { "text": "Farmacocinética", "correct": false },
-      { "text": "Toxicología", "correct": false },
-      { "text": "Farmacogenética", "correct": false },
-      { "text": "Farmacodinamia", "correct": true }
+      { "text": "$9x - 2y - 23 = 0$", "correct": false },
+      { "text": "$2x - 9y - 20 = 0$", "correct": false },
+      { "text": "$9x + 2y - 23 = 0$", "correct": true },
+      { "text": "$2x - 9y + 20 = 0$", "correct": false }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Se centra en la 'dinámica' de los efectos y mecanismos.",
-    "explanation": "La farmacodinamia responde a 'qué hace y cómo' funciona un fármaco en el organismo (efectos bioquímicos y de receptores).",
+    "hint": "Obtén el inverso negativo de la pendiente dada y usa punto-pendiente.",
+    "explanation": "La recta original tiene $m_1 = \\frac{2}{9}$. La pendiente perpendicular es $m_2 = -\\frac{9}{2}$. Con $(3, -2)$: $y + 2 = -\\frac{9}{2}(x - 3) \\Rightarrow 2y + 4 = -9x + 27 \\Rightarrow 9x + 2y - 23 = 0$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HE",
-    "question": "¿Qué vía de administración parenteral se caracteriza por ofrecer una biodisponibilidad inmediata del $100\\%$ al introducir el fármaco directamente al plasma?",
+    "question": "¿Cuál es la ecuación de la recta que es paralela a la recta que pasa por los puntos $A(1, -4)$ y $B(8, -6)$?",
     "image": null,
     "options": [
-      { "text": "Intramuscular", "correct": false },
-      { "text": "Intravenosa", "correct": true },
-      { "text": "Sublingual", "correct": false },
-      { "text": "Oral", "correct": false }
+      { "text": "$y = \\frac{2}{7}x + 3$", "correct": false },
+      { "text": "$y = -\\frac{2}{7}x + 3$", "correct": true },
+      { "text": "$y = \\frac{7}{2}x - 3$", "correct": false },
+      { "text": "$y = -\\frac{7}{2}x - 3$", "correct": false }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Vía que va directo a la vena, evitando barreras.",
-    "explanation": "La vía intravenosa sortea el proceso de absorción tisular y el metabolismo de primer paso, depositando la totalidad de la dosis en la sangre.",
+    "hint": "Las rectas paralelas tienen la misma pendiente.",
+    "explanation": "Pendiente de $AB$: $m = \\frac{-6 - (-4)}{8 - 1} = \\frac{-2}{7}$. La recta paralela debe tener $m = -\\frac{2}{7}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP73HF",
-    "question": "¿Cómo se le denomina a una molécula que se une a un receptor celular y desencadena una respuesta biológica similar al mediador o sustancia natural del cuerpo?",
+    "question": "¿Cuál de las siguientes rectas es paralela a la recta $7x - 5y - 15 = 0$?",
     "image": null,
     "options": [
-      { "text": "Antagonista", "correct": false },
-      { "text": "Agonista", "correct": true },
-      { "text": "Enzima", "correct": false },
-      { "text": "Modulador alostérico", "correct": false }
+      { "text": "$y = \\frac{5}{7}x - 1$", "correct": false },
+      { "text": "$y = -\\frac{7}{5}x - 1$", "correct": false },
+      { "text": "$y = -\\frac{5}{7}x - 1$", "correct": false },
+      { "text": "$y = \\frac{7}{5}x - 1$", "correct": true }
     ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Aquello que 'activa' o imita la función.",
-    "explanation": "Un agonista imita el efecto de un compuesto natural al interactuar con un receptor fisiológico y activarlo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HG",
-    "question": "¿Cuál es el órgano principal encargado de la fase de metabolismo o biotransformación de la mayoría de los medicamentos?",
-    "image": null,
-    "options": [
-      { "text": "Riñón", "correct": false },
-      { "text": "Hígado", "correct": true },
-      { "text": "Estómago", "correct": false },
-      { "text": "Páncreas", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "El órgano principal del metabolismo y desintoxicación del cuerpo.",
-    "explanation": "El hígado actúa como el 'laboratorio' central de biotransformación gracias a sus enzimas, como las del complejo Citocromo P450.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HH",
-    "question": "Término farmacocinético que define el tiempo requerido para que la concentración plasmática de un fármaco se reduzca exactamente a la mitad de su valor inicial.",
-    "image": null,
-    "options": [
-      { "text": "Vida media ($t_{1/2}$)", "correct": true },
-      { "text": "Aclaramiento (Clearance)", "correct": false },
-      { "text": "Estado estacionario", "correct": false },
-      { "text": "Volumen de distribución", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Tiempo para que la concentración baje al 50%.",
-    "explanation": "La vida media o semivida es el lapso temporal estándar para medir la velocidad con la que un fármaco es depurado del cuerpo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HI",
-    "question": "¿Cuál es la clase de medicamentos utilizada específicamente para contrarrestar la hipertermia o fiebre corporal?",
-    "image": null,
-    "options": [
-      { "text": "Analgésicos", "correct": false },
-      { "text": "Antiinflamatorios", "correct": false },
-      { "text": "Antihistamínicos", "correct": false },
-      { "text": "Antipiréticos", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "'Piro' significa fuego o calor.",
-    "explanation": "Aunque un fármaco puede tener múltiples propiedades, los 'antipiréticos' son por definición los agentes que disminuyen la fiebre.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HJ",
-    "question": "¿Qué mecanismo de transporte a través de la membrana biológica ocurre a favor de un gradiente de concentración celular sin requerir gasto de ATP?",
-    "image": null,
-    "options": [
-      { "text": "Endocitosis mediada por receptor", "correct": false },
-      { "text": "Transporte activo primario", "correct": false },
-      { "text": "Transporte pasivo", "correct": true },
-      { "text": "Exocitosis", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["BÁSICO"],
-    "type_tag": ["TEST"],
-    "hint": "Movimiento a favor de gradiente, sin gastar energía.",
-    "explanation": "El transporte pasivo (como la difusión simple o facilitada) aprovecha la energía cinética de las moléculas moviéndose de alta a baja concentración, sin usar ATP.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HK",
-    "question": "Para que un fármaco metabolizado en el cuerpo sea excretado eficientemente a través de la orina, las enzimas hepáticas suelen transformarlo químicamente en un compuesto:",
-    "image": null,
-    "options": [
-      { "text": "Más liposoluble y apolar", "correct": false },
-      { "text": "Más hidrosoluble y polar", "correct": true },
-      { "text": "De mayor peso molecular que no filtre", "correct": false },
-      { "text": "Con mayor unión a proteínas plasmáticas", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
+    "uni_tags": ["👨‍🏫 CLASE"],
     "level_tag": ["INTERMEDIO"],
     "type_tag": ["TEST"],
-    "hint": "Para que salga por la orina (agua), debe ser afín al agua.",
-    "explanation": "La función del metabolismo (Fase 1 y 2) es hacer a las moléculas más polares (hidrosolubles) para impedir su reabsorción en el riñón y facilitar su excreción por orina.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HL",
-    "question": "Si un medicamento se caracteriza por poseer un índice terapéutico estrecho o bajo, ¿qué consideración médica es imprescindible durante su uso?",
-    "image": null,
-    "options": [
-      { "text": "El paciente puede autoadministrarse dosis altas debido a su alto margen de seguridad.", "correct": false },
-      { "text": "El fármaco es completamente seguro para mujeres embarazadas.", "correct": false },
-      { "text": "Se requiere un monitoreo estricto en el paciente porque una variación leve en la dosis podría provocar toxicidad.", "correct": true },
-      { "text": "Se debe recetar exclusivamente por vía tópica para evitar su rápida excreción renal.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El margen entre la dosis efectiva y la tóxica es muy pequeño.",
-    "explanation": "Un IT bajo significa que la dosis terapéutica está muy cerca de la dosis tóxica, requiriendo vigilancia constante en los niveles en sangre.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HM",
-    "question": "En un contexto celular, si un eritrocito se coloca en una solución y como resultado se deshidrata y arruga por pérdida neta de agua, se concluye por ósmosis que el medio externo es:",
-    "image": null,
-    "options": [
-      { "text": "Isotónico", "correct": false },
-      { "text": "Hipotónico", "correct": false },
-      { "text": "Plasmolizado", "correct": false },
-      { "text": "Hipertónico", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "'Hiper' significa más concentración de solutos afuera, 'jalando' el agua.",
-    "explanation": "En una solución hipertónica, la concentración de solutos es mayor afuera, por lo que el agua sale de la célula hacia el exterior, causando su contracción o crenación.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HN",
-    "question": "Un agente farmacológico se une a todos los receptores disponibles de una célula diana; sin embargo, no logra generar la respuesta fisiológica máxima que sí produce el neurotransmisor endógeno. Este agente se clasifica como:",
-    "image": null,
-    "options": [
-      { "text": "Antagonista no competitivo", "correct": false },
-      { "text": "Agonista inverso", "correct": false },
-      { "text": "Modulador alostérico negativo", "correct": false },
-      { "text": "Agonista parcial", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Activa el receptor, pero 'parcialmente', sin llegar al máximo.",
-    "explanation": "Un agonista parcial activa el receptor, pero tiene una eficacia intrínseca menor a 1, produciendo un efecto techo menor incluso si satura los receptores.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HO",
-    "question": "Un individuo consume alimentos que son conocidos por inhibir temporalmente ciertas enzimas del Citocromo P450 (como el CYP3A4). Si simultáneamente consume un medicamento que es degradado por dichas enzimas, ocurrirá:",
-    "image": null,
-    "options": [
-      { "text": "Una rápida eliminación renal del fármaco inalterado.", "correct": false },
-      { "text": "Un aumento de la concentración plasmática del fármaco inalterado, elevando el riesgo de toxicidad.", "correct": true },
-      { "text": "Una disminución acelerada del efecto terapéutico debido al rápido metabolismo hepático.", "correct": false },
-      { "text": "Un bloqueo de la absorción intestinal del fármaco por saturación de transportadores.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Si inhibes la enzima que lo destruye, el fármaco se acumula.",
-    "explanation": "Al inhibir las enzimas encargadas del metabolismo, el fármaco no se biotransforma ni se elimina, por lo que se acumula en la sangre.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HP",
-    "question": "Desde el punto de vista farmacocinético, si un compuesto presenta un Volumen aparente de Distribución (Vd) equivalente a 80 Litros en un adulto de 70 kg, ¿qué se infiere de su distribución?",
-    "image": null,
-    "options": [
-      { "text": "Que el fármaco permanece confinado en el plasma sanguíneo sin ingresar a las células.", "correct": false },
-      { "text": "Que el fármaco es eliminado antes de poder alcanzar los órganos diana.", "correct": false },
-      { "text": "Que el fármaco se distribuye y se acumula ampliamente en los tejidos u órganos.", "correct": true },
-      { "text": "Que el fármaco se excreta íntegramente por las heces.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "El agua del cuerpo son aproximadamente 42 L. Si el Vd es mayor, está fuera del plasma.",
-    "explanation": "El agua corporal de un humano promedio es de ~42 L. Un Vd mayor a este volumen total implica que la sustancia ha dejado el plasma y se encuentra retenida extensamente en tejidos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HQ",
-    "question": "Para revertir los efectos de un agonista tóxico empleando un antagonista competitivo, ¿qué condición se debe cumplir fisiológicamente en el sitio de acción?",
-    "image": null,
-    "options": [
-      { "text": "Que el antagonista se una a un sitio alostérico distinto del que utiliza el tóxico en el receptor.", "correct": false },
-      { "text": "Administrar una dosis del antagonista lo suficientemente alta para superar y desplazar al tóxico del mismo sitio receptor.", "correct": true },
-      { "text": "Inducir a nivel genético la sobreproducción de nuevos receptores en la membrana extracelular.", "correct": false },
-      { "text": "Reducir el pH sanguíneo para ionizar el agonista tóxico.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Al ser competitivo, compiten por el mismo lugar; gana el que tiene más cantidad.",
-    "explanation": "Los antagonistas competitivos compiten reversiblemente por el mismo sitio activo; un aumento en la concentración del antagonista desplazará al agonista.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HR",
-    "question": "Considerando las propiedades fisicoquímicas celulares, un medicamento de carácter débilmente ácido ingerido oralmente llegará al estómago (cuyo ambiente tiene un pH altamente ácido). En este entorno, el medicamento:",
-    "image": null,
-    "options": [
-      { "text": "Se ionizará en su totalidad, reduciendo su liposolubilidad e impidiendo totalmente su absorción local.", "correct": false },
-      { "text": "Requerirá obligatoriamente de transporte activo primario mediado por ATP para no ser degradado.", "correct": false },
-      { "text": "Sufrirá un metabolismo de primer paso inmediato en la mucosa gástrica.", "correct": false },
-      { "text": "Se mantendrá predominantemente en forma no ionizada, favoreciendo su cruce a través de las membranas gástricas.", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Ácido en medio ácido no se ioniza (forma neutra), y lo neutro cruza fácil.",
-    "explanation": "Los ácidos débiles en medios ácidos no se ionizan (pierden su carga), lo que incrementa su liposolubilidad y les permite atravesar por difusión pasiva.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HS",
-    "question": "El ingreso de glucosa acoplado al movimiento de sodio a través del epitelio intestinal, que utiliza la energía generada de antemano por la bomba $Na^+/K^+$ ATPasa, es considerado un proceso celular de:",
-    "image": null,
-    "options": [
-      { "text": "Difusión facilitada por poros inespecíficos.", "correct": false },
-      { "text": "Transporte en masa tipo endocitosis.", "correct": false },
-      { "text": "Transporte activo secundario (Cotransporte).", "correct": true },
-      { "text": "Difusión simple a través de la bicapa lipídica.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Usa la energía de un gradiente ya establecido por una bomba previa.",
-    "explanation": "Es transporte secundario porque no usa ATP en ese mismo instante, sino que aprovecha el gradiente iónico creado por un transporte activo primario previo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HT",
-    "question": "Respuesta biológica clínica y favorable observada en un paciente derivada exclusivamente de factores psicológicos, después de recibir una formulación inactiva o inerte.",
-    "image": null,
-    "options": [
-      { "text": "Efecto placebo", "correct": true },
-      { "text": "Aclaramiento orgánico", "correct": false },
-      { "text": "Tolerancia cruzada", "correct": false },
-      { "text": "Idiosincrasia farmacológica", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Mejora psicológica sin usar un principio activo real.",
-    "explanation": "El efecto placebo se define como la respuesta terapéutica mediada por las expectativas del paciente ante la ingesta de una sustancia inerte que carece de acción farmacológica real.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HU",
-    "question": "¿Qué variable farmacocinética determina principalmente la frecuencia con la que se debe administrar un fármaco de manera repetida para mantener una concentración estable en sangre?",
-    "image": null,
-    "options": [
-      { "text": "El volumen aparente de distribución", "correct": false },
-      { "text": "El grado de unión a albúmina", "correct": false },
-      { "text": "La biodisponibilidad oral", "correct": false },
-      { "text": "La vida media de eliminación", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Nos dice cuánto tarda el cuerpo en eliminar la mitad del fármaco.",
-    "explanation": "La vida media indica qué tan rápido baja la concentración, por lo que es la principal variable que dictamina el intervalo de dosificación (ej. darlo cada 8h o cada 24h).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HV",
-    "question": "¿En qué se diferencian el transporte activo y la difusión facilitada si en ambos mecanismos las sustancias son movilizadas por proteínas estructurales insertadas en la membrana?",
-    "image": null,
-    "options": [
-      { "text": "El transporte activo sucede siempre a través de canales no selectivos y permite flujo bidireccional libre.", "correct": false },
-      { "text": "La difusión facilitada solo funciona para movilizar sustancias insolubles como lípidos estructurales.", "correct": false },
-      { "text": "La difusión facilitada no requiere consumo de energía metabólica (ATP), operando a favor de un gradiente.", "correct": true },
-      { "text": "El transporte activo siempre ocurre a favor del gradiente eléctrico.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "La palabra 'facilitada' sigue siendo difusión pasiva (sin ATP).",
-    "explanation": "La difusión facilitada pertenece al transporte pasivo; usa proteínas transportadoras pero el movimiento de las moléculas ocurre por diferencia de gradiente sin gasto de ATP.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HW",
-    "question": "¿Qué tipo de receptores biológicos se asocian comúnmente con ligando altamente liposolubles (como hormonas esteroides), los cuales actúan directamente a nivel genético celular?",
-    "image": null,
-    "options": [
-      { "text": "Receptores acoplados a proteína G", "correct": false },
-      { "text": "Canales iónicos activados por ligando", "correct": false },
-      { "text": "Receptores tirosina quinasa", "correct": false },
-      { "text": "Receptores intracelulares", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Las hormonas esteroides cruzan la membrana celular; sus receptores están adentro.",
-    "explanation": "Como las hormonas esteroides pueden atravesar pasivamente la membrana lipídica, sus receptores diana se localizan en el citoplasma o el núcleo de la célula.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HX",
-    "question": "Durante una intoxicación aguda en urgencias, un médico decide modificar el pH urinario utilizando bicarbonato de sodio para favorecer la excreción de un analgésico de carácter ácido. Fisiológicamente, la meta de este abordaje es:",
-    "image": null,
-    "options": [
-      { "text": "Reducir la filtración glomerular del fármaco para evitar daño estructural en la nefrona.", "correct": false },
-      { "text": "Favorecer la reabsorción del tóxico para derivarlo hacia el hígado y forzar su biotransformación.", "correct": false },
-      { "text": "Aumentar el volumen aparente de distribución del fármaco.", "correct": false },
-      { "text": "Ionizar al fármaco en los túbulos renales para inhibir su reabsorción pasiva hacia la sangre.", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Ionizar un ácido significa darle carga para que no pueda cruzar membranas y volver a la sangre.",
-    "explanation": "Alcalinizar la orina hace que los fármacos ácidos se ionicen (ganen carga). Un fármaco ionizado es menos liposoluble y no puede difundir de regreso a la sangre a través de los túbulos, siendo excretado.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HY",
-    "question": "Respecto a las curvas de dosis-respuesta de los fármacos. Si el agente X produce su máximo efecto a los $2 \\text{ mg}$, y el agente Y alcanza ese mismo efecto máximo pero con $50 \\text{ mg}$. ¿Qué afirmación biológica es correcta?",
-    "image": null,
-    "options": [
-      { "text": "El agente X es más potente que el agente Y.", "correct": true },
-      { "text": "El agente Y tiene mayor eficacia máxima que el agente X.", "correct": false },
-      { "text": "Ambos agentes difieren en eficacia, pero poseen la misma potencia alostérica.", "correct": false },
-      { "text": "Ambos agentes son antagonistas competitivos.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["INTERMEDIO"],
-    "type_tag": ["TEST"],
-    "hint": "Menor dosis para el mismo efecto significa que es más potente.",
-    "explanation": "La potencia se define por la cantidad de dosis requerida para lograr un efecto; menor dosis significa mayor potencia. Si ambos logran el mismo tope biológico, comparten la misma eficacia.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73HZ",
-    "question": "En un régimen farmacológico continuado para un paciente crónico, se receta una tableta cada 8 horas. Si la vida media plasmática de eliminación de esta molécula es de 12 horas, ¿en qué punto de la terapia se espera alcanzar el denominado 'estado estacionario'?",
-    "image": null,
-    "options": [
-      { "text": "Entre las 12 y las 16 horas después de iniciar el tratamiento oral.", "correct": false },
-      { "text": "Al momento de administrar la segunda dosis (hora 8).", "correct": false },
-      { "text": "Entre las 48 y las 60 horas posteriores a la primera dosis.", "correct": true },
-      { "text": "Inmediatamente después de la primera dosis en bolo.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Se requieren aproximadamente de 4 a 5 vidas medias para estabilizar la concentración.",
-    "explanation": "Farmacocinéticamente, el estado estacionario se logra transcurridas aproximadamente de 4 a 5 vidas medias de la sustancia. (4 a 5 x 12 horas = 48 a 60 horas), sin importar el intervalo de dosificación.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73IA",
-    "question": "Un nuevo compuesto se une a una enzima clave en el metabolismo celular y forma un fuerte enlace covalente, inactivándola de manera irreversible. Según la cinética de receptores y la fisiología, la restauración del proceso biológico en la célula afectada dependerá exclusivamente de:",
-    "image": null,
-    "options": [
-      { "text": "La saturación enzimática y la administración de antagonistas alostéricos endógenos.", "correct": false },
-      { "text": "La excreción renal del fármaco después de culminadas cuatro vidas medias plasmáticas.", "correct": false },
-      { "text": "La disociación espontánea del complejo fármaco-receptor.", "correct": false },
-      { "text": "La síntesis intracelular de nuevas moléculas enzimáticas de novo (recambio celular).", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Si el receptor está inutilizado para siempre, la célula debe fabricar uno nuevo.",
-    "explanation": "Como el antagonismo es irreversible (enlace covalente), no sirve desplazar el fármaco ni aumentar la concentración natural de mediadores. La célula está obligada a transcribir y crear nuevas enzimas funcionales.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73IB",
-    "question": "Fisiológicamente, si un fármaco cardiovascular actúa bloqueando directamente a la enzima $Na^+/K^+$ ATPasa de la membrana de las células miocárdicas, ¿cuál será la alteración celular subsecuente más inminente?",
-    "image": null,
-    "options": [
-      { "text": "Se reducirá drásticamente el potasio extracelular induciendo un estado de despolarización irreversible.", "correct": false },
-      { "text": "La pérdida del gradiente natural del sodio entorpecerá los mecanismos de transporte celular secundario acoplados a él.", "correct": true },
-      { "text": "El núcleo aumentará la expulsión de ADN al exterior para compensar la acumulación de cargas negativas.", "correct": false },
-      { "text": "El agua saldrá masivamente de la célula provocando plasmólisis.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "Si falla la bomba primaria, los gradientes secundarios (como simporte/antiporte) colapsan.",
-    "explanation": "La bomba primaria crea un fuerte gradiente de sodio hacia dentro. Muchos transportadores secundarios (antiporte/simporte) dependen de esta energía potencial. Inhibir la bomba colapsa subsecuentemente estos intercambios.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73IC",
-    "question": "Un medicamento se formula como un 'profármaco' biológicamente inactivo, que requiere biotransformación obligatoria por el citocromo hepático para convertirse en el compuesto activo. Si genéticamente el paciente es un 'metabolizador ultrarrápido' de dicha enzima, ¿qué desenlace es predecible a dosis estándar?",
-    "image": null,
-    "options": [
-      { "text": "Una carencia total de eficacia porque el riñón filtrará el compuesto antes de su activación.", "correct": false },
-      { "text": "Una nula absorción en el tubo digestivo por destrucción estructural pre-sistémica.", "correct": false },
-      { "text": "Una inhibición competitiva de los receptores intracelulares.", "correct": false },
-      { "text": "Una aparición súbita de altas concentraciones de medicamento activo en la sangre, aumentando el riesgo tóxico.", "correct": true }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "El profármaco se activa con el metabolismo. Si es ultrarrápido, se activa mucho y muy rápido.",
-    "explanation": "El metabolismo suele desactivar medicamentos. Pero en un PROFÁRMACO, el metabolismo lo activa. Un metabolismo acelerado transformará de golpe todo el profármaco, inundando la sangre del agente fisiológicamente activo y provocando posible toxicidad.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP73ID",
-    "question": "Se infunde a nivel intravenoso un anestésico general intensamente lipofílico que entra raudo al cerebro produciendo sedación profunda. Sin embargo, el paciente despierta en pocos minutos aunque la eliminación corporal real de este fármaco toma horas. ¿Qué fenómeno explica la pérdida rápida de este efecto nervioso?",
-    "image": null,
-    "options": [
-      { "text": "Redistribución celular desde los tejidos altamente perfundidos (cerebro) hacia la grasa y el músculo sistémicos.", "correct": true },
-      { "text": "Degradación instantánea de la molécula anestésica por proteasas ubicadas en el líquido cefalorraquídeo.", "correct": false },
-      { "text": "Inducción inmediata de transportadores de difusión facilitada que expulsan el gas mediante exocitosis masiva.", "correct": false },
-      { "text": "Metabolismo de primer paso acelerado en los pulmones.", "correct": false }
-    ],
-    "uni_tags": ["👨‍🏫 CLASE", "👨‍⚕️ PREMEDICINA"],
-    "level_tag": ["AVANZADO"],
-    "type_tag": ["TEST"],
-    "hint": "El fármaco se mueve a otros tejidos (grasa/músculo) antes de ser eliminado del cuerpo.",
-    "explanation": "Es el fenómeno clásico de los fármacos lipofílicos de acción central; entran rápido al cerebro (muy irrigado), actúan, pero inmediatamente se desvían o 'redistribuyen' huyendo hacia depósitos adiposos o musculares, perdiendo su efecto central antes de ser excretados del cuerpo.",
+    "hint": "Despeja $y$ para encontrar la pendiente de la recta original.",
+    "explanation": "Despejando: $5y = 7x - 15 \\Rightarrow y = \\frac{7}{5}x - 3$. Su pendiente es $\\frac{7}{5}$. La recta paralela debe tener la misma pendiente.",
     "explanative_video": null,
     "collapsible_text": null
   }
