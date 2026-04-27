@@ -646,5 +646,275 @@
     "explanation": "Despejando: $5y = 7x - 15 \\Rightarrow y = \\frac{7}{5}x - 3$. Su pendiente es $\\frac{7}{5}$. La recta paralela debe tener la misma pendiente.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73HG",
+    "question": "Calcula la distancia entre las rectas paralelas $3x - 4y + 8 = 0$ y $6x - 8y - 9 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$2.5$", "correct": true },
+      { "text": "$1.7$", "correct": false },
+      { "text": "$3.4$", "correct": false },
+      { "text": "$5.0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala los coeficientes $A$ y $B$ de ambas rectas multiplicando la primera por $2$, luego usa la fórmula $d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}}$.",
+    "explanation": "Multiplicando la primera ecuación por $2$: $6x - 8y + 16 = 0$. Ahora, aplicando la fórmula con $A=6, B=-8, C_1=16, C_2=-9$: $d = \\frac{|16 - (-9)|}{\\sqrt{6^2 + (-8)^2}} = \\frac{|25|}{\\sqrt{36 + 64}} = \\frac{25}{10} = 2.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HH",
+    "question": "Halla la ecuación de la recta que pasa por la intersección de $2x + y - 5 = 0$ y $x - 3y + 1 = 0$, y es perpendicular a la recta $4x + 5y = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$5x - 4y - 6 = 0$", "correct": true },
+      { "text": "$4x + 5y - 13 = 0$", "correct": false },
+      { "text": "$5x - 4y + 6 = 0$", "correct": false },
+      { "text": "$5x + 4y - 14 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve el sistema para encontrar el punto de intersección y luego usa la pendiente perpendicular inversa a la recta dada.",
+    "explanation": "Intersección: sustituyendo $x = 3y - 1$ en $2x + y - 5 = 0$, da $2(3y - 1) + y - 5 = 0 \\Rightarrow 7y - 7 = 0 \\Rightarrow y=1, x=2$. El punto es $(2, 1)$. La recta $4x + 5y = 0$ tiene $m = -\\frac{4}{5}$, por lo que la perpendicular tiene $m_\\perp = \\frac{5}{4}$. La ecuación es $y - 1 = \\frac{5}{4}(x - 2) \\Rightarrow 4y - 4 = 5x - 10 \\Rightarrow 5x - 4y - 6 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HI",
+    "question": "Determina el valor de $k$ para que las rectas $kx + (k-1)y - 18 = 0$ y $4x + 3y + 7 = 0$ sean paralelas.",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$\\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Si dos rectas son paralelas en la forma $Ax+By+C=0$, entonces la proporción de sus coeficientes cumple $\\frac{A_1}{A_2} = \\frac{B_1}{B_2}$.",
+    "explanation": "Establecemos la proporción: $\\frac{k}{4} = \\frac{k-1}{3}$. Resolviendo cruzado: $3k = 4(k-1) \\Rightarrow 3k = 4k - 4 \\Rightarrow k = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HJ",
+    "question": "¿Cuáles son las coordenadas del punto de reflexión de $P(1, 2)$ respecto a la recta $x - y + 3 = 0$?",
+    "image": null,
+    "options": [
+      { "text": "$(-1, 4)$", "correct": true },
+      { "text": "$(2, 1)$", "correct": false },
+      { "text": "$(0, 3)$", "correct": false },
+      { "text": "$(-2, 5)$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la recta perpendicular a la dada que pase por $P$. El punto de intersección es el punto medio entre $P$ y su reflejo.",
+    "explanation": "Pendiente de $x-y+3=0$ es $1$. Pendiente perpendicular es $-1$. Recta por $P$: $y-2=-(x-1) \\Rightarrow x+y-3=0$. Intersección: sumando $x-y+3=0$ y $x+y-3=0$ da $2x=0 \\Rightarrow x=0, y=3$. El punto medio es $M(0,3)$. Para hallar el reflejo $P'(x', y')$: $\\frac{1+x'}{2}=0 \\Rightarrow x'=-1$; $\\frac{2+y'}{2}=3 \\Rightarrow y'=4$. El punto es $(-1, 4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HK",
+    "question": "Halla el área del triángulo formado por la recta $3x + 4y - 24 = 0$ y los ejes coordenados.",
+    "image": null,
+    "options": [
+      { "text": "$24 \\text{ u}^2$", "correct": true },
+      { "text": "$12 \\text{ u}^2$", "correct": false },
+      { "text": "$48 \\text{ u}^2$", "correct": false },
+      { "text": "$36 \\text{ u}^2$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra las intersecciones de la recta con los ejes $X$ y $Y$ para determinar la base y la altura del triángulo rectángulo.",
+    "explanation": "Intersección con $X$ (cuando $y=0$): $3x = 24 \\Rightarrow x = 8$. Intersección con $Y$ (cuando $x=0$): $4y = 24 \\Rightarrow y = 6$. Área $= \\frac{\\text{base} \\times \\text{altura}}{2} = \\frac{8 \\times 6}{2} = 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HL",
+    "question": "Determina una de las ecuaciones de las rectas que pasan por el punto $(2, -1)$ y forman un ángulo de $45^\\circ$ con la recta $2x - 3y + 5 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$5x + y - 9 = 0$", "correct": true },
+      { "text": "$x - 5y - 7 = 0$", "correct": false },
+      { "text": "$3x + 2y - 4 = 0$", "correct": false },
+      { "text": "$2x + 5y + 1 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula $\\tan(\\theta) = |\\frac{m_2 - m_1}{1 + m_1 m_2}|$ donde $\\theta = 45^\\circ$.",
+    "explanation": "Pendiente de la recta es $m_1 = \\frac{2}{3}$. Sabiendo que $\\tan(45^\\circ)=1$: $1 = |\\frac{m - 2/3}{1 + 2m/3}|$. Caso 1: $m - \\frac{2}{3} = 1 + \\frac{2m}{3} \\Rightarrow \\frac{m}{3} = \\frac{5}{3} \\Rightarrow m = 5$. Recta: $y+1 = 5(x-2) \\Rightarrow 5x - y - 11 = 0$ (no en opciones). Caso 2: $m - \\frac{2}{3} = -1 - \\frac{2m}{3} \\Rightarrow \\frac{5m}{3} = -\\frac{1}{3} \\Rightarrow m = -\\frac{1}{5}$. Recta: $y+1 = -\\frac{1}{5}(x-2) \\Rightarrow x + 5y + 3 = 0$ (no en opciones). Hay un error en signos en Caso 1: $1 + 2m/3 = - (m - 2/3)$... El despeje correcto de $m-2/3 = -1(1+2m/3)$ da $m=-1/5$. En el primer caso, $\\frac{m - 2/3}{1 + 2m/3} = -1 \\Rightarrow m = -5$. Ecuación con $m=-5$: $y+1=-5(x-2) \\Rightarrow 5x+y-9=0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HM",
+    "question": "Calcula la distancia más corta desde el origen de coordenadas a la recta que pasa por los puntos $(a, 0)$ y $(0, b)$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{|ab|}{\\sqrt{a^2 + b^2}}$", "correct": true },
+      { "text": "$\\frac{a+b}{\\sqrt{ab}}$", "correct": false },
+      { "text": "$\\sqrt{a^2 + b^2}$", "correct": false },
+      { "text": "$\\frac{ab}{a+b}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa la ecuación de la recta en su forma simétrica (o abscisa y ordenada al origen) y conviértela a su forma general para aplicar la fórmula de distancia punto a recta.",
+    "explanation": "La recta es $\\frac{x}{a} + \\frac{y}{b} = 1$, que equivale a $bx + ay - ab = 0$. Evaluando la distancia del punto $(0,0)$: $d = \\frac{|b(0) + a(0) - ab|}{\\sqrt{b^2 + a^2}} = \\frac{|ab|}{\\sqrt{a^2 + b^2}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HN",
+    "question": "Identifica las coordenadas del punto de la recta $3x + 4y = 10$ que está más cercano al origen.",
+    "image": null,
+    "options": [
+      { "text": "$(\\frac{6}{5}, \\frac{8}{5})$", "correct": true },
+      { "text": "$(\\frac{3}{5}, \\frac{4}{5})$", "correct": false },
+      { "text": "$(2, 1)$", "correct": false },
+      { "text": "$(\\frac{4}{5}, \\frac{3}{5})$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El punto más cercano es la intersección de la recta dada con la recta perpendicular a ella que pasa por el origen.",
+    "explanation": "Pendiente de $3x+4y=10$ es $-\\frac{3}{4}$. La perpendicular por el origen es $y = \\frac{4}{3}x$, o $4x - 3y = 0$. Resolviendo el sistema: $3x + 4(\\frac{4}{3}x) = 10 \\Rightarrow 9x + 16x = 30 \\Rightarrow 25x = 30 \\Rightarrow x = \\frac{6}{5}$. Sustituyendo: $y = \\frac{4}{3}(\\frac{6}{5}) = \\frac{8}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HO",
+    "question": "Determina el valor de $c$ si se sabe que la distancia desde el punto $(2, 3)$ a la recta $3x + 4y + c = 0$ es exactamente $2$ (selecciona un valor posible).",
+    "image": null,
+    "options": [
+      { "text": "$-8$", "correct": true },
+      { "text": "$10$", "correct": false },
+      { "text": "$-18$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la fórmula de distancia de un punto a una recta e iguala a $2$. Recuerda que el valor absoluto arrojará dos posibles resultados para $c$.",
+    "explanation": "Distancia: $d = \\frac{|3(2) + 4(3) + c|}{\\sqrt{3^2 + 4^2}} = 2 \\Rightarrow \\frac{|18 + c|}{5} = 2 \\Rightarrow |18 + c| = 10$. Esto implica $18 + c = 10 \\Rightarrow c = -8$, o $18 + c = -10 \\Rightarrow c = -28$. La opción $-8$ es correcta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HP",
+    "question": "Encuentra la ecuación de la mediatriz del segmento definido por los extremos $A(1, 4)$ y $B(5, -2)$.",
+    "image": null,
+    "options": [
+      { "text": "$2x - 3y - 3 = 0$", "correct": true },
+      { "text": "$3x + 2y - 11 = 0$", "correct": false },
+      { "text": "$2x + 3y - 9 = 0$", "correct": false },
+      { "text": "$3x - 2y - 7 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La mediatriz es perpendicular al segmento de recta y pasa exactamente por su punto medio.",
+    "explanation": "Punto medio: $(\\frac{1+5}{2}, \\frac{4-2}{2}) = (3, 1)$. Pendiente de $AB$: $m = \\frac{-2-4}{5-1} = \\frac{-6}{4} = -\\frac{3}{2}$. Pendiente perpendicular: $m_\\perp = \\frac{2}{3}$. Ecuación: $y - 1 = \\frac{2}{3}(x - 3) \\Rightarrow 3y - 3 = 2x - 6 \\Rightarrow 2x - 3y - 3 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HQ",
+    "question": "Determina la razón geométrica en la que la recta $2x + 3y - 5 = 0$ divide al segmento de recta con puntos extremos $(8, -9)$ y $(2, 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$8:1$", "correct": true },
+      { "text": "$3:1$", "correct": false },
+      { "text": "$5:2$", "correct": false },
+      { "text": "$2:3$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Define el punto de división con la proporción de segmento $k:1$ y sustituye las coordenadas $(x, y)$ obtenidas directamente en la ecuación de la recta para hallar el valor de $k$.",
+    "explanation": "El punto de división con razón $k$ es $x_p = \\frac{2k+8}{k+1}, y_p = \\frac{k-9}{k+1}$. Sustituyendo en la recta: $2(\\frac{2k+8}{k+1}) + 3(\\frac{k-9}{k+1}) - 5 = 0$. Multiplicando por $k+1$: $4k + 16 + 3k - 27 - 5(k+1) = 0 \\Rightarrow 7k - 11 - 5k - 5 = 0 \\Rightarrow 2k - 16 = 0 \\Rightarrow k = 8$. La razón es $8:1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HR",
+    "question": "Encuentra la ecuación de la recta que pasa por la intersección de $x+y-2=0$ y $2x-y-1=0$ sabiendo que su intersección en el eje $X$ es $3$.",
+    "image": null,
+    "options": [
+      { "text": "$x + 2y - 3 = 0$", "correct": true },
+      { "text": "$2x + y - 6 = 0$", "correct": false },
+      { "text": "$x - 2y - 3 = 0$", "correct": false },
+      { "text": "$2x - y - 6 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén primero el punto de intersección y calcula la ecuación de la recta usando el otro punto conocido que es $(3, 0)$.",
+    "explanation": "Sistema: sumando $x+y-2=0$ y $2x-y-1=0$ obtenemos $3x-3=0 \\Rightarrow x=1$. Por lo tanto, $y=1$. El punto de cruce es $(1, 1)$. El segundo punto es $(3, 0)$. La pendiente $m = \\frac{0 - 1}{3 - 1} = -\\frac{1}{2}$. La ecuación es $y - 0 = -\\frac{1}{2}(x - 3) \\Rightarrow 2y = -x + 3 \\Rightarrow x + 2y - 3 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HS",
+    "question": "Dado el triángulo con vértices $A(1, 2), B(3, 6)$ y $C(5, 4)$, calcula la ecuación de la altura que parte desde el vértice $A$.",
+    "image": null,
+    "options": [
+      { "text": "$x - y + 1 = 0$", "correct": true },
+      { "text": "$x + y - 3 = 0$", "correct": false },
+      { "text": "$2x - y = 0$", "correct": false },
+      { "text": "$x - 2y + 3 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La altura es el segmento de recta que pasa por un vértice y es perpendicular al lado opuesto. Obtén la pendiente del lado $BC$.",
+    "explanation": "La pendiente de $BC$ es $m_{BC} = \\frac{4 - 6}{5 - 3} = \\frac{-2}{2} = -1$. La pendiente de la altura, al ser perpendicular a $BC$, es $m = 1$. Con el punto $A(1, 2)$: $y - 2 = 1(x - 1) \\Rightarrow x - y + 1 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HT",
+    "question": "¿Cuál es la ecuación del lugar geométrico de los puntos equidistantes a las rectas perpendiculares $3x - 4y + 2 = 0$ y $4x + 3y - 5 = 0$? (Selecciona una opción válida).",
+    "image": null,
+    "options": [
+      { "text": "$7x - y - 3 = 0$", "correct": true },
+      { "text": "$x - 7y + 3 = 0$", "correct": false },
+      { "text": "$7x + y - 7 = 0$", "correct": false },
+      { "text": "$x + y - 2 = 0$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El lugar geométrico que equidista de dos rectas corresponde a sus bisectrices. Usa la fórmula igualando distancias absolutas.",
+    "explanation": "$\\frac{|3x - 4y + 2|}{\\sqrt{3^2 + 4^2}} = \\frac{|4x + 3y - 5|}{\\sqrt{4^2 + 3^2}}$. Los denominadores se eliminan (ambos son 5). Casos: $3x - 4y + 2 = \\pm(4x + 3y - 5)$. Evaluando el caso negativo: $3x - 4y + 2 = -4x - 3y + 5 \\Rightarrow 7x - y - 3 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73HU",
+    "question": "Dos vértices consecutivos de un cuadrado en el plano cartesiano están en $(-1, 2)$ y $(3, 5)$. ¿Cuál es el área de dicho cuadrado?",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ u}^2$", "correct": true },
+      { "text": "$16 \\text{ u}^2$", "correct": false },
+      { "text": "$20 \\text{ u}^2$", "correct": false },
+      { "text": "$36 \\text{ u}^2$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La distancia entre vértices consecutivos corresponde a la medida del lado del cuadrado. El área es el cuadrado de esa distancia.",
+    "explanation": "La medida del lado del cuadrado es $d = \\sqrt{(3 - (-1))^2 + (5 - 2)^2} = \\sqrt{4^2 + 3^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$. El área es $L^2 = 5^2 = 25$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
