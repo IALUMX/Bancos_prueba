@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "CEP23RK",
+    "question": "¿Cuál es la fórmula fundamental para calcular el Interés Simple (I)?",
+    "image": null,
+    "options": [
+      { "text": "$I = C \\cdot i \\cdot t$ (Interés = Capital $\\cdot$ tasa de interés $\\cdot$ tiempo)", "correct": true },
+      { "text": "$I = C + i + t$ (Interés = Capital + tasa de interés + tiempo)", "correct": false },
+      { "text": "$I = \\frac{C \\cdot i}{t}$ (Interés = Capital $\\cdot$ tasa de interés / tiempo)", "correct": false },
+      { "text": "$I = C \\cdot (1 + i \\cdot t)$ (Interés = Capital $\\cdot$ factor de acumulación)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Relaciona de forma proporcional el capital, la tasa y el tiempo.",
+    "explanation": "El interés simple se calcula multiplicando el capital por la tasa de interés y por el tiempo de inversión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RL",
+    "question": "¿Cuál es la fórmula para calcular el Monto (M) sumando sus dos componentes básicos?",
+    "image": null,
+    "options": [
+      { "text": "$M = C + I$ (Monto = Capital + Interés)", "correct": true },
+      { "text": "$M = C - I$ (Monto = Capital - Interés)", "correct": false },
+      { "text": "$M = C \\cdot I$ (Monto = Capital $\\cdot$ Interés)", "correct": false },
+      { "text": "$M = \\frac{C}{I}$ (Monto = Capital / Interés)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El total a pagar suma lo prestado inicialmente más lo cobrado extra.",
+    "explanation": "El monto final es la suma del capital inicial más el interés generado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RM",
+    "question": "¿Cómo se expresa el Monto (M) en función del capital, la tasa y el tiempo en interés simple?",
+    "image": null,
+    "options": [
+      { "text": "$M = C(1 + i \\cdot t)$", "correct": true },
+      { "text": "$M = C(1 - i \\cdot t)$", "correct": false },
+      { "text": "$M = C + i \\cdot t$", "correct": false },
+      { "text": "$M = C(1 + i)^t$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Sustituye la fórmula de I en la fórmula de M y factoriza el capital.",
+    "explanation": "Factorizando C en $M = C + (C \\cdot i \\cdot t)$ obtenemos $M = C(1 + i \\cdot t)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RN",
+    "question": "¿Cuál es la fórmula para despejar el Capital (C) si se conoce el interés, la tasa y el tiempo?",
+    "image": null,
+    "options": [
+      { "text": "$C = \\frac{I}{i \\cdot t}$", "correct": true },
+      { "text": "$C = I \\cdot i \\cdot t$", "correct": false },
+      { "text": "$C = \\frac{i \\cdot t}{I}$", "correct": false },
+      { "text": "$C = I - (i \\cdot t)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aplica la operación inversa a la multiplicación para despejar.",
+    "explanation": "Despejando de $I = C \\cdot i \\cdot t$, se pasa multiplicando la tasa y el tiempo a dividir, obteniendo $C = \\frac{I}{i \\cdot t}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RO",
+    "question": "¿Cuál es la fórmula para despejar la Tasa de Interés (i) en operaciones de interés simple?",
+    "image": null,
+    "options": [
+      { "text": "$i = \\frac{I}{C \\cdot t}$", "correct": true },
+      { "text": "$i = \\frac{C \\cdot t}{I}$", "correct": false },
+      { "text": "$i = I \\cdot C \\cdot t$", "correct": false },
+      { "text": "$i = I - (C \\cdot t)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Despeja la variable aislando los valores del capital y el tiempo.",
+    "explanation": "Despejando de $I = C \\cdot i \\cdot t$, se obtienen el capital y el tiempo como denominadores: $i = \\frac{I}{C \\cdot t}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RP",
+    "question": "¿Cuál es la fórmula para despejar el Tiempo (t) en operaciones de interés simple?",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{I}{C \\cdot i}$", "correct": true },
+      { "text": "$t = \\frac{C \\cdot i}{I}$", "correct": false },
+      { "text": "$t = I \\cdot C \\cdot i$", "correct": false },
+      { "text": "$t = I - (C \\cdot i)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aísla el valor del tiempo trasladando el capital y la tasa.",
+    "explanation": "Despejando de $I = C \\cdot i \\cdot t$, se obtiene que el tiempo es igual al interés dividido por el producto del capital y la tasa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RQ",
+    "question": "¿Cómo se calcula el Capital (C) si se conoce el Monto (M), la tasa de interés y el tiempo?",
+    "image": null,
+    "options": [
+      { "text": "$C = \\frac{M}{1 + i \\cdot t}$", "correct": true },
+      { "text": "$C = M(1 + i \\cdot t)$", "correct": false },
+      { "text": "$C = \\frac{M}{1 - i \\cdot t}$", "correct": false },
+      { "text": "$C = \\frac{1 + i \\cdot t}{M}$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Usa la fórmula completa del monto y despeja la variable inicial.",
+    "explanation": "Pasando el factor de acumulación $(1 + i \\cdot t)$ dividiendo, obtenemos la fórmula del valor presente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RR",
+    "question": "¿Cuál es la fórmula básica del Saldo Insoluto después de realizar un pago?",
+    "image": null,
+    "options": [
+      { "text": "Saldo Insoluto = Saldo Anterior - Amortización de capital", "correct": true },
+      { "text": "Saldo Insoluto = Saldo Anterior + Amortización de capital", "correct": false },
+      { "text": "Saldo Insoluto = Saldo Anterior $\\cdot$ Amortización de capital", "correct": false },
+      { "text": "Saldo Insoluto = Amortización de capital - Saldo Anterior", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El saldo se reduce de manera directa tras efectuar un pago.",
+    "explanation": "El saldo insoluto es la deuda restante, por lo que se calcula restando la porción de capital pagada al saldo previo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RS",
+    "question": "¿Cómo se expresa algebraicamente una Razón Aritmética entre dos cantidades (a y b)?",
+    "image": null,
+    "options": [
+      { "text": "$r = a - b$", "correct": true },
+      { "text": "$r = a + b$", "correct": false },
+      { "text": "$r = \\frac{a}{b}$", "correct": false },
+      { "text": "$r = a \\cdot b$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Determina en cuánto excede una cantidad a otra mediante una diferencia.",
+    "explanation": "La razón aritmética es simplemente la resta o diferencia matemática entre dos números.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RT",
+    "question": "¿Cómo se expresa algebraicamente una Razón Geométrica entre dos cantidades (a y b)?",
+    "image": null,
+    "options": [
+      { "text": "$r = \\frac{a}{b}$", "correct": true },
+      { "text": "$r = a - b$", "correct": false },
+      { "text": "$r = a + b$", "correct": false },
+      { "text": "$r = a \\cdot b$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Establece una proporción dividiendo una cantidad entre otra.",
+    "explanation": "La razón geométrica indica cuántas veces cabe una cantidad en otra a través de un cociente o división.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RU",
+    "question": "¿Cuál es la fórmula del enésimo término (an) de una Sucesión Aritmética?",
+    "image": null,
+    "options": [
+      { "text": "$a_n = a_1 + (n - 1)d$ (donde 'd' es la diferencia)", "correct": true },
+      { "text": "$a_n = a_1 \\cdot r^{n-1}$ (donde 'r' es la razón)", "correct": false },
+      { "text": "$a_n = a_1 + n \\cdot d$ (donde 'd' es la diferencia)", "correct": false },
+      { "text": "$a_n = a_1 - (n - 1)d$ (donde 'd' es la diferencia)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Suma la diferencia constante multiplicada por la cantidad de saltos.",
+    "explanation": "En una sucesión aritmética, se añade una diferencia constante 'd' un número de veces igual a la posición deseada menos uno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RV",
+    "question": "¿Cuál es la fórmula del enésimo término (an) de una Sucesión Geométrica?",
+    "image": null,
+    "options": [
+      { "text": "$a_n = a_1 \\cdot r^{n - 1}$ (donde 'r' es la razón)", "correct": true },
+      { "text": "$a_n = a_1 + (n - 1)r$ (donde 'r' es la razón)", "correct": false },
+      { "text": "$a_n = a_1 \\cdot r^n$ (donde 'r' es la razón)", "correct": false },
+      { "text": "$a_n = \\frac{a_1}{r^{n - 1}}$ (donde 'r' es la razón)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Multiplica usando un factor constante elevado al número de saltos.",
+    "explanation": "En la sucesión geométrica se multiplica el primer término por una razón 'r' de manera exponencial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RW",
+    "question": "¿Cómo se calcula la Diferencia constante (d) en una sucesión aritmética?",
+    "image": null,
+    "options": [
+      { "text": "$d = a_n - a_{n-1}$ (Restando un término menos su inmediato anterior)", "correct": true },
+      { "text": "$d = a_n + a_{n-1}$ (Sumando un término con su inmediato anterior)", "correct": false },
+      { "text": "$d = \\frac{a_n}{a_{n-1}}$ (Dividiendo un término entre su inmediato anterior)", "correct": false },
+      { "text": "$d = a_{n-1} - a_n$ (Restando el término anterior menos el actual)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Realiza una resta entre dos valores consecutivos.",
+    "explanation": "La diferencia 'd' se halla restando a cualquier término de la sucesión el que le precede inmediatamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RX",
+    "question": "¿Cómo se calcula la Razón constante (r) en una sucesión geométrica?",
+    "image": null,
+    "options": [
+      { "text": "$r = \\frac{a_n}{a_{n-1}}$ (Dividiendo un término entre su inmediato anterior)", "correct": true },
+      { "text": "$r = a_n - a_{n-1}$ (Restando un término menos su inmediato anterior)", "correct": false },
+      { "text": "$r = a_n \\cdot a_{n-1}$ (Multiplicando un término por su inmediato anterior)", "correct": false },
+      { "text": "$r = \\frac{a_{n-1}}{a_n}$ (Dividiendo el término anterior entre el actual)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Usa una división entre dos valores consecutivos para encontrar el factor.",
+    "explanation": "La razón 'r' se descubre dividiendo cualquier término de la sucesión entre su predecesor directo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RY",
+    "question": "¿Cuál es la fórmula para calcular el valor equivalente a un Porcentaje (P) de una cantidad inicial (C)?",
+    "image": null,
+    "options": [
+      { "text": "$P = C \\cdot \\left(\\frac{\\text{porcentaje}}{100}\\right)$", "correct": true },
+      { "text": "$P = \\frac{C}{\\text{porcentaje} \\cdot 100}$", "correct": false },
+      { "text": "$P = C \\cdot \\text{porcentaje} \\cdot 100$", "correct": false },
+      { "text": "$P = C + \\left(\\frac{\\text{porcentaje}}{100}\\right)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Convierte el porcentaje a su equivalente decimal antes de multiplicar.",
+    "explanation": "Se divide el valor porcentual entre 100 para pasarlo a decimal y luego se multiplica por la cantidad inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23RZ",
+    "question": "¿Cuál es la fórmula para obtener el Precio Final (Pf) al aplicar un porcentaje de descuento (d) al Precio Inicial (Pi)?",
+    "image": null,
+    "options": [
+      { "text": "$Pf = Pi \\cdot \\left(1 - \\frac{d}{100}\\right)$", "correct": true },
+      { "text": "$Pf = Pi \\cdot \\left(1 + \\frac{d}{100}\\right)$", "correct": false },
+      { "text": "$Pf = Pi - \\frac{d}{100}$", "correct": false },
+      { "text": "$Pf = Pi \\cdot \\left(\\frac{d}{100}\\right)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Considera que tras un descuento terminarás pagando menos del 100%.",
+    "explanation": "Se resta el descuento expresado en forma decimal a la unidad (que representa el 100%) y se multiplica por el precio base.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SA",
+    "question": "¿Cómo se calcula el Valor Final (Vf) tras aplicar un porcentaje de incremento (i) a un Valor Inicial (Vi)?",
+    "image": null,
+    "options": [
+      { "text": "$Vf = Vi \\cdot \\left(1 + \\frac{i}{100}\\right)$", "correct": true },
+      { "text": "$Vf = Vi \\cdot \\left(1 - \\frac{i}{100}\\right)$", "correct": false },
+      { "text": "$Vf = Vi + \\frac{i}{100}$", "correct": false },
+      { "text": "$Vf = Vi \\cdot \\left(\\frac{i}{100}\\right)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El valor final superará el 100% de la cantidad base.",
+    "explanation": "El valor final resulta de sumar el porcentaje de incremento expresado en decimal a la unidad y multiplicarlo por el valor inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SB",
+    "question": "¿Cuál es la fórmula de la Constante de Proporcionalidad Directa (k) entre dos variables (x e y)?",
+    "image": null,
+    "options": [
+      { "text": "$k = \\frac{y}{x}$", "correct": true },
+      { "text": "$k = y \\cdot x$", "correct": false },
+      { "text": "$k = y - x$", "correct": false },
+      { "text": "$k = y + x$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Cuando una variable aumenta la otra también, manteniendo su cociente inalterado.",
+    "explanation": "En una relación de proporcionalidad directa, la división entre las dos variables siempre da como resultado una misma constante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SC",
+    "question": "¿Cuál es la fórmula de la Constante de Proporcionalidad Inversa (k) entre dos variables (x e y)?",
+    "image": null,
+    "options": [
+      { "text": "$k = y \\cdot x$", "correct": true },
+      { "text": "$k = \\frac{y}{x}$", "correct": false },
+      { "text": "$k = y - x$", "correct": false },
+      { "text": "$k = y + x$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Cuando una variable aumenta, la otra disminuye, preservando su producto.",
+    "explanation": "En una proporcionalidad inversa, la constante se determina multiplicando ambas variables entre sí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SD",
+    "question": "¿Cómo se plantea la ecuación para encontrar 'x' en una Regla de Tres Simple Directa (a/b = c/x)?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{b \\cdot c}{a}$", "correct": true },
+      { "text": "$x = \\frac{a \\cdot b}{c}$", "correct": false },
+      { "text": "$x = \\frac{a \\cdot c}{b}$", "correct": false },
+      { "text": "$x = a \\cdot b \\cdot c$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Multiplica los extremos conocidos de forma cruzada y divide entre el restante.",
+    "explanation": "Al resolver $\\frac{a}{b} = \\frac{c}{x}$, despejamos multiplicando cruzado para obtener $x = \\frac{b \\cdot c}{a}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SE",
+    "question": "¿Cómo se plantea la ecuación para encontrar 'x' en una Regla de Tres Simple Inversa?",
+    "image": null,
+    "options": [
+      { "text": "$x = \\frac{a \\cdot b}{c}$", "correct": true },
+      { "text": "$x = \\frac{b \\cdot c}{a}$", "correct": false },
+      { "text": "$x = \\frac{a \\cdot c}{b}$", "correct": false },
+      { "text": "$x = a \\cdot b \\cdot c$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Multiplica los datos correspondientes en línea horizontal y divide entre el restante.",
+    "explanation": "En la regla de tres inversa, el producto de los valores iniciales se iguala al de los finales, despejando como $x = \\frac{a \\cdot b}{c}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SF",
+    "question": "¿Cuál es la fórmula para calcular el Descuento Comercial Simple (D)?",
+    "image": null,
+    "options": [
+      { "text": "$D = M \\cdot d \\cdot t$ (Descuento = Monto nominal $\\cdot$ tasa de descuento $\\cdot$ tiempo)", "correct": true },
+      { "text": "$D = M \\cdot (1 - d \\cdot t)$ (Descuento = Monto nominal $\\cdot$ factor de descuento)", "correct": false },
+      { "text": "$D = \\frac{M \\cdot d}{t}$ (Descuento = Monto nominal $\\cdot$ tasa / tiempo)", "correct": false },
+      { "text": "$D = M + d + t$ (Descuento = Monto nominal + tasa + tiempo)", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Su estructura matemática es paralela a la fórmula del interés, pero aplicando una tasa sobre un valor a futuro.",
+    "explanation": "El descuento comercial se calcula multiplicando directamente el monto o valor nominal por la tasa de descuento y el plazo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SG",
+    "question": "¿Cuál es la fórmula del Valor Efectivo o Actual (C) al aplicar un descuento comercial a un Monto (M)?",
+    "image": null,
+    "options": [
+      { "text": "$C = M(1 - d \\cdot t)$", "correct": true },
+      { "text": "$C = M(1 + d \\cdot t)$", "correct": false },
+      { "text": "$C = M \\cdot d \\cdot t$", "correct": false },
+      { "text": "$C = \\frac{M}{1 - d \\cdot t}$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El valor real de cobro es el monto original restándole el descuento.",
+    "explanation": "Al restar el descuento $(M \\cdot d \\cdot t)$ al monto original $(M)$ y factorizar, se obtiene el valor efectivo $C = M(1 - d \\cdot t)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SH",
+    "question": "¿Cómo se despeja la Tasa de Descuento (d) en la fórmula de descuento comercial?",
+    "image": null,
+    "options": [
+      { "text": "$d = \\frac{D}{M \\cdot t}$", "correct": true },
+      { "text": "$d = \\frac{M \\cdot t}{D}$", "correct": false },
+      { "text": "$d = D \\cdot M \\cdot t$", "correct": false },
+      { "text": "$d = M - (D \\cdot t)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Aísla la tasa pasando el monto y el tiempo como un divisor común.",
+    "explanation": "De la fórmula $D = M \\cdot d \\cdot t$, se pasan el monto nominal y el tiempo dividiendo para despejar la tasa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SI",
+    "question": "¿Cómo se convierte el tiempo (t) expresado en meses para utilizarlo en una fórmula anual?",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{\\text{meses}}{12}$", "correct": true },
+      { "text": "$t = \\text{meses} \\cdot 12$", "correct": false },
+      { "text": "$t = \\frac{\\text{meses}}{360}$", "correct": false },
+      { "text": "$t = \\frac{12}{\\text{meses}}$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Un ciclo anual entero contiene una cantidad exacta de periodos mensuales.",
+    "explanation": "Para homologar la unidad temporal mensual a la anual, se divide la cantidad de meses entre los 12 meses que tiene un año.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SJ",
+    "question": "¿Cómo se convierte el tiempo (t) expresado en días considerando el Año Comercial?",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{\\text{días}}{360}$", "correct": true },
+      { "text": "$t = \\frac{\\text{días}}{365}$", "correct": false },
+      { "text": "$t = \\text{días} \\cdot 360$", "correct": false },
+      { "text": "$t = \\frac{360}{\\text{días}}$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Este modelo simplifica los cálculos asumiendo meses cerrados de 30 días.",
+    "explanation": "El año comercial estandariza los doce meses a 30 días exactos, dando un total de 360 días como base para la división.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SK",
+    "question": "¿Cómo se convierte el tiempo (t) expresado en días considerando el Año Exacto o Civil?",
+    "image": null,
+    "options": [
+      { "text": "$t = \\frac{\\text{días}}{365}$", "correct": true },
+      { "text": "$t = \\frac{\\text{días}}{360}$", "correct": false },
+      { "text": "$t = \\text{días} \\cdot 365$", "correct": false },
+      { "text": "$t = \\frac{365}{\\text{días}}$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Considera la cantidad de días que tiene el calendario gregoriano regular.",
+    "explanation": "El año exacto o civil utiliza los 365 días reales del calendario como base para convertir la fracción de tiempo anual.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SL",
+    "question": "¿Cómo se convierte una tasa de interés porcentual a su forma decimal para su uso en fórmulas?",
+    "image": null,
+    "options": [
+      { "text": "$i_{\\text{decimal}} = \\frac{\\text{tasa porcentual}}{100}$", "correct": true },
+      { "text": "$i_{\\text{decimal}} = \\text{tasa porcentual} \\cdot 100$", "correct": false },
+      { "text": "$i_{\\text{decimal}} = \\frac{100}{\\text{tasa porcentual}}$", "correct": false },
+      { "text": "$i_{\\text{decimal}} = \\text{tasa porcentual} - 100$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Remueve el símbolo de por ciento ajustando las posiciones decimales.",
+    "explanation": "Toda tasa debe expresarse en formato decimal dividiéndola entre 100 para ser matemáticamente operada en las fórmulas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SM",
+    "question": "¿Cuál es la fórmula para sumar los primeros 'n' términos de una Serie Aritmética?",
+    "image": null,
+    "options": [
+      { "text": "$S_n = \\frac{n(a_1 + a_n)}{2}$", "correct": true },
+      { "text": "$S_n = a_1 + (n - 1)d$", "correct": false },
+      { "text": "$S_n = \\frac{a_1(r^n - 1)}{r - 1}$", "correct": false },
+      { "text": "$S_n = n(a_1 + a_n)$", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Calcula un promedio entre el primer y el último término, multiplicándolo por el número de elementos.",
+    "explanation": "La suma total es igual al número de términos multiplicado por el promedio de los valores inicial y final.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SN",
+    "question": "¿Cómo se calcula la Amortización Constante en un periodo determinado?",
+    "image": null,
+    "options": [
+      { "text": "Amortización = Capital Total / Número de pagos", "correct": true },
+      { "text": "Amortización = Capital Total $\\cdot$ Número de pagos", "correct": false },
+      { "text": "Amortización = Capital Total + Número de pagos", "correct": false },
+      { "text": "Amortización = Número de pagos / Capital Total", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Si se desea un pago de principal fijo, se debe repartir la deuda a partes iguales.",
+    "explanation": "Para obtener una cuota de amortización que no cambie en cada periodo, se divide el capital de la deuda entre la cantidad de exhibiciones programadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SO",
+    "question": "Es la cantidad de dinero inicial que se invierte o se presta al comienzo de una operación financiera.",
+    "image": null,
+    "options": [
+      { "text": "Capital (o Valor Presente)", "correct": true },
+      { "text": "Monto (o Valor Futuro)", "correct": false },
+      { "text": "Interés (o Rendimiento)", "correct": false },
+      { "text": "Tasa de Interés Nominal", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Representa la base o raíz sobre la cual se calcularán las ganancias.",
+    "explanation": "El capital es el valor original o inicial de una transacción financiera antes de generar o sumar intereses.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SP",
+    "question": "Es la suma total que se obtiene al final de un plazo, resultante de sumar el capital inicial más los intereses generados.",
+    "image": null,
+    "options": [
+      { "text": "Monto (o Valor Futuro)", "correct": true },
+      { "text": "Capital (o Valor Presente)", "correct": false },
+      { "text": "Saldo Insoluto", "correct": false },
+      { "text": "Amortización Acumulada", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la cifra final englobada de un préstamo o inversión.",
+    "explanation": "El monto es el resultado de la proyección en el tiempo, agregando las ganancias (intereses) a la cantidad prestada original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SQ",
+    "question": "Es el costo o ganancia producida por el uso del dinero de un tercero durante un periodo de tiempo determinado.",
+    "image": null,
+    "options": [
+      { "text": "Interés", "correct": true },
+      { "text": "Descuento Comercial", "correct": false },
+      { "text": "Tasa de Rendimiento", "correct": false },
+      { "text": "Capital Inicial", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el 'alquiler' que se paga o se cobra en términos absolutos por utilizar capital ajeno.",
+    "explanation": "El interés es el importe monetario absoluto generado como retribución por la inversión o el préstamo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SR",
+    "question": "Es el porcentaje que indica la cantidad de dinero que se cobra o se paga por cada unidad de capital en un lapso de tiempo.",
+    "image": null,
+    "options": [
+      { "text": "Tasa de Interés", "correct": true },
+      { "text": "Plazo de Inversión", "correct": false },
+      { "text": "Interés Acumulado", "correct": false },
+      { "text": "Valor Efectivo", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Generalmente se expresa acompañado del símbolo porcentual anual, mensual, etc.",
+    "explanation": "La tasa de interés es el indicador relativo (porcentaje) del costo o ganancia en relación al tiempo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SS",
+    "question": "Es el número de días, meses o años durante los cuales el capital se encuentra prestado o invertido.",
+    "image": null,
+    "options": [
+      { "text": "Plazo (o Tiempo)", "correct": true },
+      { "text": "Frecuencia de Capitalización", "correct": false },
+      { "text": "Tasa de Interés", "correct": false },
+      { "text": "Periodo de Gracia", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la variable temporal dentro de las fórmulas de matemáticas financieras.",
+    "explanation": "El plazo es el periodo de vida útil de la transacción financiera desde su origen hasta su vencimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23ST",
+    "question": "Es el tipo de interés en el que los intereses producidos siempre se calculan sobre el capital original; es decir, los intereses no se reinvierten.",
+    "image": null,
+    "options": [
+      { "text": "Interés Simple", "correct": true },
+      { "text": "Interés Compuesto", "correct": false },
+      { "text": "Descuento Simple", "correct": false },
+      { "text": "Amortización Constante", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es una forma de ganancia no acumulativa, que mantiene linealidad a lo largo del plazo.",
+    "explanation": "En el interés simple, el principal no sufre incrementos periódicos, por lo que las ganancias no generan a su vez nuevas ganancias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SU",
+    "question": "Es la parte de una deuda que aún no ha sido pagada en un momento determinado del plazo.",
+    "image": null,
+    "options": [
+      { "text": "Saldo Insoluto", "correct": true },
+      { "text": "Interés Moratorio", "correct": false },
+      { "text": "Capital Inicial", "correct": false },
+      { "text": "Monto Nominal", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Representa el capital pendiente por cubrir que sigue generando cargos financieros.",
+    "explanation": "El saldo insoluto es el monto restante de una deuda después de restar las amortizaciones efectuadas hasta la fecha.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SV",
+    "question": "Es el proceso mediante el cual se liquida gradualmente una deuda a través de pagos periódicos que cubren capital e intereses.",
+    "image": null,
+    "options": [
+      { "text": "Amortización", "correct": true },
+      { "text": "Depreciación", "correct": false },
+      { "text": "Capitalización", "correct": false },
+      { "text": "Descuento Comercial", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Etimológicamente, es 'dar muerte' lentamente a la obligación financiera.",
+    "explanation": "La amortización es la reducción parcial y sistemática del principal de un préstamo mediante la ejecución de pagos sucesivos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SW",
+    "question": "Es un pago parcial inicial que se entrega al momento de adquirir un bien a crédito, reduciendo el monto que será financiado.",
+    "image": null,
+    "options": [
+      { "text": "Enganche", "correct": true },
+      { "text": "Pago Final", "correct": false },
+      { "text": "Saldo Insoluto", "correct": false },
+      { "text": "Cuota Periódica", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es el desembolso o adelanto requerido en operaciones de compra a meses o hipotecas.",
+    "explanation": "El enganche se resta del valor total del bien de contado, por lo que solo la diferencia o remanente es sometida a financiamiento e intereses.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SX",
+    "question": "Es la asignación de recursos monetarios en instrumentos o bienes con la expectativa de generar un rendimiento económico en el futuro.",
+    "image": null,
+    "options": [
+      { "text": "Inversión", "correct": true },
+      { "text": "Préstamo", "correct": false },
+      { "text": "Financiamiento", "correct": false },
+      { "text": "Amortización", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "A diferencia del gasto, su propósito es multiplicar el capital.",
+    "explanation": "La inversión implica destinar capital al presente con el objetivo de obtener utilidades o retornos positivos a largo plazo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SY",
+    "question": "Es la comparación de dos cantidades para determinar en cuánto excede una a la otra, calculada mediante su diferencia o resta.",
+    "image": null,
+    "options": [
+      { "text": "Razón Aritmética", "correct": true },
+      { "text": "Razón Geométrica", "correct": false },
+      { "text": "Proporción Directa", "correct": false },
+      { "text": "Serie Aritmética", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Nos indica la separación numérica absoluta que hay entre ambos valores empleando el signo menos.",
+    "explanation": "Una razón aritmética se establece operando una resta entre los dos componentes que se busca comparar.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23SZ",
+    "question": "Es la comparación de dos cantidades para determinar cuántas veces cabe una en la otra, calculada mediante un cociente o división.",
+    "image": null,
+    "options": [
+      { "text": "Razón Geométrica", "correct": true },
+      { "text": "Razón Aritmética", "correct": false },
+      { "text": "Proporción Inversa", "correct": false },
+      { "text": "Serie Geométrica", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Nos indica de forma relativa la magnitud de un elemento respecto al otro empleando una fracción.",
+    "explanation": "Una razón geométrica es aquella que relaciona datos dividiéndolos, exponiendo multiplicadores o fracciones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TA",
+    "question": "Es la relación matemática en la que, si al multiplicar o dividir una variable por un factor, la otra variable también se multiplica o divide por el mismo factor.",
+    "image": null,
+    "options": [
+      { "text": "Proporcionalidad Directa", "correct": true },
+      { "text": "Proporcionalidad Inversa", "correct": false },
+      { "text": "Sucesión Aritmética", "correct": false },
+      { "text": "Razón Aritmética Constante", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Ambos valores se mueven simultáneamente en la misma dirección.",
+    "explanation": "En este tipo de proporcionalidad, el aumento de un lado genera sistemáticamente un aumento análogo del otro lado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TB",
+    "question": "Es la relación matemática en la que, si al multiplicar una variable por un factor, la otra se divide entre ese mismo factor.",
+    "image": null,
+    "options": [
+      { "text": "Proporcionalidad Inversa", "correct": true },
+      { "text": "Proporcionalidad Directa", "correct": false },
+      { "text": "Sucesión Geométrica", "correct": false },
+      { "text": "Razón Geométrica Constante", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Los valores se mueven en un efecto de balanza o de comportamiento opuesto.",
+    "explanation": "En esta proporcionalidad el crecimiento de un factor está íntimamente ligado al decrecimiento en la misma medida del factor opuesto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TC",
+    "question": "Es una forma de expresar una fracción con denominador 100, útil para estandarizar y comparar incrementos o disminuciones proporcionales.",
+    "image": null,
+    "options": [
+      { "text": "Porcentaje", "correct": true },
+      { "text": "Fracción Decimal", "correct": false },
+      { "text": "Razón Geométrica", "correct": false },
+      { "text": "Proporción Compuesta", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Se asocia visualmente con el símbolo % y simplifica las medidas relativas.",
+    "explanation": "El porcentaje es una razón geométrica estandarizada donde la unidad de referencia total es siempre equivalente a 100 partes iguales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TD",
+    "question": "Es la disminución aplicada al valor nominal de un documento antes de su vencimiento, calculada con base en dicho valor nominal.",
+    "image": null,
+    "options": [
+      { "text": "Descuento Comercial", "correct": true },
+      { "text": "Descuento Racional", "correct": false },
+      { "text": "Interés Simple", "correct": false },
+      { "text": "Tasa Efectiva", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta técnica financiera deduce los intereses cobrándolos por anticipado respecto a la fecha final.",
+    "explanation": "En operaciones mercantiles, el descuento comercial resta anticipadamente la utilidad pactada del documento antes de ser cobrado al deudor final.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TE",
+    "question": "Es la cantidad de dinero que está explícitamente escrita e impresa en un pagaré o documento mercantil para la fecha de su vencimiento.",
+    "image": null,
+    "options": [
+      { "text": "Valor Nominal", "correct": true },
+      { "text": "Valor Efectivo", "correct": false },
+      { "text": "Valor Presente", "correct": false },
+      { "text": "Saldo Insoluto", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Es la cifra representativa o 'nombrada' directamente en el papel.",
+    "explanation": "El valor nominal es la suma íntegra que el suscriptor está obligado a liquidar cuando se cumpla la fecha de maduración estipulada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TF",
+    "question": "Es la cantidad real de dinero que recibe un deudor tras restarle el descuento al valor nominal del documento.",
+    "image": null,
+    "options": [
+      { "text": "Valor Efectivo (o Actual)", "correct": true },
+      { "text": "Valor Nominal", "correct": false },
+      { "text": "Monto Futuro", "correct": false },
+      { "text": "Capitalización", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Refiere al importe neto cobrado antes del término del plazo de un título de crédito.",
+    "explanation": "El valor efectivo es el líquido resultante entregado a la persona que cede anticipadamente un documento de cobro tras aplicar los cargos del descuento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TG",
+    "question": "Es una lista ordenada de números en la que cada elemento se rige por una regla de correspondencia o patrón matemático.",
+    "image": null,
+    "options": [
+      { "text": "Sucesión", "correct": true },
+      { "text": "Ecuación Lineal", "correct": false },
+      { "text": "Serie Matemática", "correct": false },
+      { "text": "Razón Constante", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta figura matemática consiste en términos encadenados de forma secuencial.",
+    "explanation": "Una sucesión es simplemente una enumeración o secuencia de elementos ordenados con base en una regla predefinida (aritmética, geométrica u otra).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TH",
+    "question": "Es el resultado de la suma de todos los términos que conforman una sucesión.",
+    "image": null,
+    "options": [
+      { "text": "Serie", "correct": true },
+      { "text": "Sucesión", "correct": false },
+      { "text": "Progresión", "correct": false },
+      { "text": "Diferencia", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "A diferencia de un listado simple, este concepto implica una adición acumulativa.",
+    "explanation": "En matemáticas, mientras una sucesión es el conjunto de términos agrupados, la serie es la operación o cálculo de su suma total.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TI",
+    "question": "Es la sucesión en la que la distancia (diferencia) entre cualquier par de términos consecutivos es siempre una constante.",
+    "image": null,
+    "options": [
+      { "text": "Sucesión Aritmética", "correct": true },
+      { "text": "Sucesión Geométrica", "correct": false },
+      { "text": "Serie Convergente", "correct": false },
+      { "text": "Progresión Armónica", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Su estructura crece o decrece mediante una regla de sumas o restas continuas.",
+    "explanation": "Se denomina sucesión aritmética a aquella que avanza agregando una suma idéntica (positiva o negativa) a cada término anterior.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TJ",
+    "question": "Es la sucesión en la que el cociente (razón) entre cualquier término y el anterior es siempre una multiplicación constante.",
+    "image": null,
+    "options": [
+      { "text": "Sucesión Geométrica", "correct": true },
+      { "text": "Sucesión Aritmética", "correct": false },
+      { "text": "Serie Divergente", "correct": false },
+      { "text": "Proporcionalidad Inversa", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Posee un crecimiento proporcional que utiliza factores repetidos.",
+    "explanation": "Una sucesión geométrica emplea un patrón multiplicativo, en donde cada término es un múltiplo del previo, escalando así exponencialmente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TK",
+    "question": "Se refiere a la cantidad absoluta o relativa en la que aumenta el valor original de un activo o monto financiero.",
+    "image": null,
+    "options": [
+      { "text": "Incremento", "correct": true },
+      { "text": "Decremento", "correct": false },
+      { "text": "Descuento Comercial", "correct": false },
+      { "text": "Tasa de Interés", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Implica una suma o expansión favorable a partir de una magnitud base.",
+    "explanation": "El incremento refiere matemáticamente a la porción adicionada o a la ganancia que amplía la valoración inicial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TL",
+    "question": "Se refiere a la cantidad absoluta o relativa en la que disminuye un valor original, como la pérdida de valor o un descuento aplicado.",
+    "image": null,
+    "options": [
+      { "text": "Decremento", "correct": true },
+      { "text": "Incremento", "correct": false },
+      { "text": "Rendimiento", "correct": false },
+      { "text": "Capitalización", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Implica una resta o reducción de la cantidad previamente establecida.",
+    "explanation": "El decremento es el diferencial negativo causado por rebajas, depreciaciones u otras afectaciones que reducen la magnitud financiera original.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TM",
+    "question": "Regla que indica que deben estar expresadas siempre en la misma unidad de medida (ambas mensuales, o ambas anuales, etc.) para que la fórmula financiera funcione.",
+    "image": null,
+    "options": [
+      { "text": "Homologación de unidades (Tasa y Tiempo)", "correct": true },
+      { "text": "Capitalización Continua de Intereses", "correct": false },
+      { "text": "Conversión a Tasa Efectiva", "correct": false },
+      { "text": "Amortización Constante de Capital", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Busca generar un principio de compatibilidad entre las magnitudes para evitar distorsiones del resultado.",
+    "explanation": "Antes de operar cualquier ecuación de interés o descuento, se deben igualar de manera estricta los intervalos en los que se encuentra la tasa de interés y el lapso temporal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TN",
+    "question": "Es un año teórico que considera que todos los meses tienen 30 días, dando un total de 360 días al año.",
+    "image": null,
+    "options": [
+      { "text": "Año Comercial", "correct": true },
+      { "text": "Año Exacto (o Civil)", "correct": false },
+      { "text": "Año Bisiesto", "correct": false },
+      { "text": "Periodo Contable", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Facilita en gran medida el cálculo financiero institucional ignorando los días irregulares.",
+    "explanation": "El año comercial establece un calendario regularizado por convención para que la división mensual siempre sea un estándar de 30 unidades.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TO",
+    "question": "Es la medición de tiempo que toma los días exactos del calendario, es decir, 365 días (o 366 si es bisiesto).",
+    "image": null,
+    "options": [
+      { "text": "Año Exacto (o Civil)", "correct": true },
+      { "text": "Año Comercial", "correct": false },
+      { "text": "Año Fiscal", "correct": false },
+      { "text": "Semestre Natural", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Esta medición acata la distribución fiel en la que orbitamos de forma natural.",
+    "explanation": "El año civil obedece al registro tradicional natural y requiere saber los días reales del transcurso contable estipulado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TP",
+    "question": "Es un título de crédito mediante el cual una persona se compromete a pagar una cantidad de dinero en una fecha futura a un beneficiario.",
+    "image": null,
+    "options": [
+      { "text": "Pagaré", "correct": true },
+      { "text": "Factura", "correct": false },
+      { "text": "Cheque", "correct": false },
+      { "text": "Recibo", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "El propio nombre del documento incluye de forma explícita el verbo de una promesa incondicional.",
+    "explanation": "El pagaré es el documento normativo más común en operaciones de crédito de corto plazo, que obliga a un cumplimiento pactado para el abono de deudas comerciales o préstamos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TQ",
+    "question": "Conceptos que se diferencian en que el primero calcula el rendimiento sobre el capital inicial, mientras que el segundo calcula la rebaja sobre el valor final (nominal).",
+    "image": null,
+    "options": [
+      { "text": "Tasa de interés y Tasa de descuento", "correct": true },
+      { "text": "Interés simple y Compuesto", "correct": false },
+      { "text": "Valor nominal y Valor efectivo", "correct": false },
+      { "text": "Razón aritmética y Geométrica", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Refieren a los dos grandes esquemas métricos de cobro y deducción de porcentaje del monto económico en periodos definidos.",
+    "explanation": "La tasa de interés se proyecta hacia un futuro a partir del presente, mientras que la tasa de descuento aplica una contracción desde un futuro preestablecido al día de hoy.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP23TR",
+    "question": "Disciplina cuyo propósito central es entender cómo cambia el valor del dinero a lo largo del tiempo para tomar decisiones óptimas de inversión, ahorro y financiamiento.",
+    "image": null,
+    "options": [
+      { "text": "Matemáticas Financieras", "correct": true },
+      { "text": "Contabilidad Administrativa", "correct": false },
+      { "text": "Economía Macroeconómica", "correct": false },
+      { "text": "Estadística Inferencial", "correct": false }
+    ],
+    "uni_tags": ["📈 MAT FINANC"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST", "MEMO"],
+    "hint": "Combina principios del álgebra con la dinámica del mercado bancario y de préstamos.",
+    "explanation": "Las matemáticas financieras proveen las herramientas conceptuales para calcular los efectos que las tasas de interés y los plazos provocan en los movimientos de capital de las instituciones o individuos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
