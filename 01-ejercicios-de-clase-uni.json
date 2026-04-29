@@ -3508,5 +3508,545 @@
     "explanation": "Sumando primero las componentes se obtiene el vector resultante: $\\vec{R} = \\vec{A} + \\vec{B} = (5 - 1, -2 + 5) = (4 \\text{ N}, 3 \\text{ N})$. Luego, su magnitud se calcula como $|R| = \\sqrt{4^2 + 3^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5 \\text{ N}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73NJ",
+    "question": "Calcula el valor de la siguiente integral definida: $$\\int_{0}^{2} 3x^2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra la antiderivada de $3x^2$ usando la regla de la potencia $x^n \\rightarrow \\frac{x^{n+1}}{n+1}$ y evalúa desde el límite inferior hasta el superior.",
+    "explanation": "La antiderivada de $3x^2$ es $x^3$. Evaluando mediante el Teorema Fundamental del Cálculo: $[x^3]_0^2 = 2^3 - 0^3 = 8 - 0 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NK",
+    "question": "Determina el resultado de evaluar la integral: $$\\int_{1}^{3} 2x \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La integral de una constante multiplicada por $x$ es esa constante por $\\frac{x^2}{2}$.",
+    "explanation": "La antiderivada de $2x$ es $x^2$. Evaluando los límites de integración obtenemos: $3^2 - 1^2 = 9 - 1 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NL",
+    "question": "Resuelve la siguiente integral definida de una constante: $$\\int_{-1}^{1} 5 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La integral definida de una constante $k$ en el intervalo $[a, b]$ equivale a $k(b - a)$.",
+    "explanation": "La antiderivada de $5$ es $5x$. Al evaluar en los límites: $5(1) - 5(-1) = 5 - (-5) = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NM",
+    "question": "Calcula el valor de la integral del polinomio: $$\\int_{0}^{1} (4x^3 + 1) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Integra término a término. Recuerda que la integral de $1$ con respecto a $x$ es $x$.",
+    "explanation": "La antiderivada es $x^4 + x$. Al evaluar en 1, tenemos $(1^4 + 1) = 2$. La evaluación en 0 resulta en 0. Por lo tanto, $2 - 0 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NN",
+    "question": "Evalúa el área bajo la curva de la función identidad en el intervalo dado: $$\\int_{2}^{4} x \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La antiderivada de $x$ es $\\frac{x^2}{2}$.",
+    "explanation": "Al evaluar $\\left[\\frac{x^2}{2}\\right]_2^4$, obtenemos $\\frac{4^2}{2} - \\frac{2^2}{2} = \\frac{16}{2} - \\frac{4}{2} = 8 - 2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NO",
+    "question": "¿Cuál es el resultado de la siguiente integral simétrica? $$\\int_{-2}^{2} x^3 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "-8", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa los límites de integración. Una función impar integrada en un intervalo de la forma $[-a, a]$ tiene una propiedad especial.",
+    "explanation": "La función $f(x) = x^3$ es impar. Toda función impar integrada en un intervalo simétrico $[-a, a]$ da como resultado $0$. Si integras directamente, $\\left[\\frac{x^4}{4}\\right]_{-2}^2 = \\frac{16}{4} - \\frac{16}{4} = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NP",
+    "question": "Encuentra el valor numérico de: $$\\int_{1}^{2} 6x^2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "18", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero la antiderivada multiplicando la constante por el resultado de la regla de la potencia.",
+    "explanation": "La antiderivada de $6x^2$ es $2x^3$. Evaluando en los límites: $2(2)^3 - 2(1)^3 = 2(8) - 2(1) = 16 - 2 = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NQ",
+    "question": "Calcula el valor de la integral definida: $$\\int_{0}^{3} (2x - 1) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La función a integrar es una recta. Obtén la antiderivada polinomial y evalúa en 3, ya que en 0 se anulan los términos.",
+    "explanation": "La antiderivada es $x^2 - x$. Evaluando de 0 a 3: $(3^2 - 3) - (0^2 - 0) = 9 - 3 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NR",
+    "question": "Resuelve: $$\\int_{1}^{4} 3 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el área de un rectángulo con altura constante de 3 y base en el intervalo $[1, 4]$.",
+    "explanation": "La antiderivada es $3x$. Evaluando: $3(4) - 3(1) = 12 - 3 = 9$. Alternativamente, base por altura: $(4-1) \\times 3 = 3 \\times 3 = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NS",
+    "question": "¿Cuál es el resultado de evaluar la integral $$\\int_{-1}^{2} 4x \\, dx$$?",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Integra $4x$ para obtener la función cuadrática correspondiente y sustituye cuidadosamente el límite inferior negativo.",
+    "explanation": "La antiderivada de $4x$ es $2x^2$. Evaluando en los límites: $2(2)^2 - 2(-1)^2 = 2(4) - 2(1) = 8 - 2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NT",
+    "question": "Evalúa la siguiente integral definida: $$\\int_{0}^{2} (x^2 - 2x) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{4}{3}$", "correct": true },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false },
+      { "text": "$-\\frac{8}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda operar con fracciones en la evaluación del límite superior.",
+    "explanation": "La antiderivada es $\\frac{x^3}{3} - x^2$. Evaluando en 2: $\\frac{2^3}{3} - 2^2 = \\frac{8}{3} - 4$. Convirtiendo enteros a tercios: $\\frac{8}{3} - \\frac{12}{3} = -\\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NU",
+    "question": "Determina el valor de: $$\\int_{-3}^{0} 2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "-6", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La integral de una constante positiva de izquierda a derecha siempre arroja un valor positivo.",
+    "explanation": "La antiderivada es $2x$. Evaluando: $2(0) - 2(-3) = 0 - (-6) = +6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NV",
+    "question": "Calcula el resultado de la integral polinomial: $$\\int_{1}^{2} (3x^2 - 4x + 2) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula la integral término por término y agrupa la evaluación límite por límite.",
+    "explanation": "Antiderivada: $x^3 - 2x^2 + 2x$. Evaluando en el límite superior (2): $8 - 2(4) + 2(2) = 8 - 8 + 4 = 4$. Evaluando en el límite inferior (1): $1 - 2(1) + 2(1) = 1$. Restando ambos: $4 - 1 = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NW",
+    "question": "¿Cuál es el valor de la integral definida de la función potencia $f(x) = x^4$ entre 0 y 1? $$\\int_{0}^{1} x^4 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{5}$", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "$\\frac{1}{4}$", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El incremento del exponente debe estar reflejado también en el denominador.",
+    "explanation": "La integral indefinida de $x^4$ es $\\frac{x^5}{5}$. Evaluando entre 0 y 1 se obtiene $\\frac{1^5}{5} - \\frac{0^5}{5} = \\frac{1}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NX",
+    "question": "Evalúa el área representada por la integral: $$\\int_{2}^{3} (2x + 3) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Halla la función primitiva y resta la evaluación en el límite inferior a la del superior.",
+    "explanation": "La función primitiva es $x^2 + 3x$. Evaluando en 3: $3^2 + 3(3) = 9 + 9 = 18$. Evaluando en 2: $2^2 + 3(2) = 4 + 6 = 10$. Finalmente: $18 - 10 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NY",
+    "question": "Calcula el valor exacto de la integral definida: $$\\int_{1}^{4} \\sqrt{x} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{14}{3}$", "correct": true },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false },
+      { "text": "$\\frac{16}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reescribe la raíz como un exponente fraccionario $x^{1/2}$ antes de aplicar la regla de la potencia para integrales.",
+    "explanation": "La antiderivada de $x^{1/2}$ es $\\frac{x^{3/2}}{3/2} = \\frac{2}{3}x^{3/2}$. Evaluando en los límites: $\\frac{2}{3}(4^{3/2} - 1^{3/2}) = \\frac{2}{3}(8 - 1) = \\frac{2}{3}(7) = \\frac{14}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73NZ",
+    "question": "Evalúa la integral de la función racional: $$\\int_{1}^{2} \\frac{1}{x^2} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2}$", "correct": true },
+      { "text": "$-\\frac{1}{2}$", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa la función como $x^{-2}$ y utiliza la regla de la potencia sumando 1 al exponente.",
+    "explanation": "La integral de $x^{-2}$ es $\\frac{x^{-1}}{-1} = -\\frac{1}{x}$. Evaluando en los límites: $\\left(-\\frac{1}{2}\\right) - \\left(-\\frac{1}{1}\\right) = -\\frac{1}{2} + 1 = \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OA",
+    "question": "Determina el valor numérico de la integral definida: $$\\int_{-1}^{1} (x^4 - x^2) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{4}{15}$", "correct": true },
+      { "text": "$\\frac{4}{15}$", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "$-\\frac{2}{15}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Como es una función par en un intervalo simétrico, puedes duplicar la integral evaluada de $0$ a $1$.",
+    "explanation": "La antiderivada es $\\frac{x^5}{5} - \\frac{x^3}{3}$. Evaluando en 1 obtenemos $\\frac{1}{5} - \\frac{1}{3} = -\\frac{2}{15}$. Evaluando en -1 es $-\\frac{1}{5} + \\frac{1}{3} = \\frac{2}{15}$. La resta es $-\\frac{2}{15} - \\frac{2}{15} = -\\frac{4}{15}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OB",
+    "question": "Un estudiante del CEPREDIX evalúa el comportamiento de la función $f(x) = 3x^2 - 6x$. ¿Cuál es el valor exacto de la integral definida de esta función en el intervalo de $[0, 3]$?",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "27", "correct": false },
+      { "text": "-9", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La integral a evaluar es $\\int_{0}^{3} (3x^2 - 6x) \\, dx$. Obtén la antiderivada y evalúa usando el Teorema Fundamental del Cálculo.",
+    "explanation": "La antiderivada es $x^3 - 3x^2$. Evaluando de 0 a 3 obtenemos en el límite superior: $(3)^3 - 3(3)^2 = 27 - 27 = 0$. El límite inferior aporta 0. El valor de la integral neta es 0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OC",
+    "question": "Encuentra el valor de la integral con límites positivos: $$\\int_{4}^{9} \\frac{1}{\\sqrt{x}} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Reescribe el integrando como $x^{-1/2}$ antes de integrar.",
+    "explanation": "Integrando $x^{-1/2}$ obtenemos $\\frac{x^{1/2}}{1/2} = 2\\sqrt{x}$. Evaluando los límites obtenemos $2\\sqrt{9} - 2\\sqrt{4} = 2(3) - 2(2) = 6 - 4 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OD",
+    "question": "Evalúa la siguiente integral definida que contiene un binomio: $$\\int_{0}^{2} (x - 1)^2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{4}{3}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes desarrollar el binomio al cuadrado antes de integrar, o bien utilizar una sustitución simple de variable $u = x - 1$.",
+    "explanation": "Desarrollando el binomio nos queda $\\int_{0}^{2} (x^2 - 2x + 1) \\, dx$. Su antiderivada es $\\frac{x^3}{3} - x^2 + x$. Evaluando en 2: $\\frac{8}{3} - 4 + 2 = \\frac{8}{3} - 2 = \\frac{2}{3}$. Evaluando en 0 nos da 0.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OE",
+    "question": "Resuelve la integral racional dividiendo los términos algebraicos: $$\\int_{1}^{3} \\frac{x^3 + 1}{x^2} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{14}{3}$", "correct": true },
+      { "text": "$\\frac{10}{3}$", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "$\\frac{8}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide ambos términos del numerador entre el denominador de forma independiente para simplificar la expresión a integrar.",
+    "explanation": "Separando la fracción: $\\int (x + x^{-2}) \\, dx = \\frac{x^2}{2} - \\frac{1}{x}$. Evaluando en 3: $\\frac{9}{2} - \\frac{1}{3} = \\frac{25}{6}$. Evaluando en 1: $\\frac{1}{2} - 1 = -\\frac{1}{2}$. Restando: $\\frac{25}{6} - (-\\frac{1}{2}) = \\frac{25}{6} + \\frac{3}{6} = \\frac{28}{6} = \\frac{14}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OF",
+    "question": "Encuentra el valor exacto de la integral usando el método de sustitución: $$\\int_{0}^{1} x(x^2 + 1)^2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{6}$", "correct": true },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "$\\frac{3}{2}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el cambio de variable $u = x^2 + 1$. No olvides derivar y ajustar los límites de integración correspondientes.",
+    "explanation": "Si $u = x^2 + 1$, entonces $du = 2x \\, dx$ o $x \\, dx = \\frac{du}{2}$. Los límites cambian: si $x=0, u=1$; si $x=1, u=2$. La integral queda como $\\frac{1}{2}\\int_{1}^{2} u^2 \\, du = \\frac{1}{2}\\left[\\frac{u^3}{3}\\right]_1^2 = \\frac{1}{6}(8 - 1) = \\frac{7}{6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OG",
+    "question": "Un estudiante del CEPREDIX debe evaluar el área neta de la región comprendida por la curva de $y = 4 - x^2$ y el eje de las abscisas entre $x = -2$ y $x = 1$. Calcula el valor de la integral definida correspondiente a este cálculo.",
+    "image": null,
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece la integral $\\int_{-2}^{1} (4 - x^2) \\, dx$ y resuelve.",
+    "explanation": "La primitiva es $4x - \\frac{x^3}{3}$. Evaluando en el límite superior (1): $4 - \\frac{1}{3} = \\frac{11}{3}$. Evaluando en el límite inferior (-2): $4(-2) - \\frac{(-2)^3}{3} = -8 + \\frac{8}{3} = -\\frac{16}{3}$. Restando: $\\frac{11}{3} - (-\\frac{16}{3}) = \\frac{27}{3} = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OH",
+    "question": "Calcula el valor del polinomio integrado en el intervalo indicado: $$\\int_{1}^{2} (2x^3 - 3x^2 + 4x - 1) \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{11}{2}$", "correct": true },
+      { "text": "$\\frac{9}{2}$", "correct": false },
+      { "text": "$\\frac{13}{2}$", "correct": false },
+      { "text": "$\\frac{7}{2}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén la antiderivada de cada término, evalúa todos juntos en 2 y réstales la evaluación en 1.",
+    "explanation": "La antiderivada es $\\frac{x^4}{2} - x^3 + 2x^2 - x$. Límite superior: $\\frac{16}{2} - 8 + 2(4) - 2 = 8 - 8 + 8 - 2 = 6$. Límite inferior: $\\frac{1}{2} - 1 + 2 - 1 = \\frac{1}{2}$. El resultado es $6 - \\frac{1}{2} = \\frac{11}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OI",
+    "question": "Determina la evaluación de la siguiente integral con raíz cúbica: $$\\int_{8}^{27} x^{1/3} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{195}{4}$", "correct": true },
+      { "text": "$\\frac{65}{4}$", "correct": false },
+      { "text": "$\\frac{195}{2}$", "correct": false },
+      { "text": "$\\frac{65}{2}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma 1 al exponente fraccionario. Recuerda que $8$ y $27$ son cubos perfectos, lo que te facilitará obtener el resultado final.",
+    "explanation": "La antiderivada es $\\frac{3}{4}x^{4/3}$. Evaluando en 27: $\\frac{3}{4}(27^{1/3})^4 = \\frac{3}{4}(3^4) = \\frac{3}{4}(81)$. Evaluando en 8: $\\frac{3}{4}(8^{1/3})^4 = \\frac{3}{4}(2^4) = \\frac{3}{4}(16)$. Factorizando: $\\frac{3}{4}(81 - 16) = \\frac{3}{4}(65) = \\frac{195}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OJ",
+    "question": "Un físico del CEPREDIX determina que la velocidad de una partícula en movimiento rectilíneo está dada por $v(t) = 3t^2 - 12t + 9$ en $\\text{m/s}$. Calcula el desplazamiento neto de la partícula en el intervalo de $t=0$ a $t=4$ segundos evaluando la integral definida de la velocidad.",
+    "image": null,
+    "options": [
+      { "text": "4 m", "correct": true },
+      { "text": "0 m", "correct": false },
+      { "text": "12 m", "correct": false },
+      { "text": "-4 m", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el desplazamiento, evalúa la integral $\\int_{0}^{4} (3t^2 - 12t + 9) \\, dt$.",
+    "explanation": "La posición en función del tiempo (antiderivada) es $s(t) = t^3 - 6t^2 + 9t$. Evaluando en 4: $(4)^3 - 6(4)^2 + 9(4) = 64 - 96 + 36 = 100 - 96 = 4$. En 0 aporta 0. El resultado es 4.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OK",
+    "question": "Evalúa el resultado de la siguiente integral multivariable en función de $y$: $$\\int_{0}^{2} (y^3 - y^2) \\, dy$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{3}$", "correct": true },
+      { "text": "$\\frac{8}{3}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Integra usando la regla de potencias estándar y unifica términos convirtiendo a una base fraccionaria común (denominador 12).",
+    "explanation": "Antiderivada: $\\frac{y^4}{4} - \\frac{y^3}{3}$. Evaluando en 2: $\\frac{16}{4} - \\frac{8}{3} = 4 - \\frac{8}{3} = \\frac{12}{3} - \\frac{8}{3} = \\frac{4}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OL",
+    "question": "Halla el valor exacto de la integral definida expandiendo el término al cuadrado: $$\\int_{1}^{2} (3x - 1)^2 \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "13", "correct": true },
+      { "text": "26", "correct": false },
+      { "text": "39", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Tienes dos opciones: desarrollar como un binomio perfecto $9x^2 - 6x + 1$ o integrar mediante sustitución $u = 3x - 1$.",
+    "explanation": "Desarrollando el binomio: $\\int_{1}^{2} (9x^2 - 6x + 1) \\, dx$. La antiderivada es $3x^3 - 3x^2 + x$. Evaluando en 2: $3(8) - 3(4) + 2 = 24 - 12 + 2 = 14$. Evaluando en 1: $3(1) - 3(1) + 1 = 1$. Restando: $14 - 1 = 13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OM",
+    "question": "Calcula el resultado de la siguiente integral utilizando una sustitución u-simplificada: $$\\int_{0}^{1} (1 - x)^{10} \\, dx$$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{11}$", "correct": true },
+      { "text": "$\\frac{1}{10}$", "correct": false },
+      { "text": "$-\\frac{1}{11}$", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "🎢 MAT CÁLCULO"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica $u = 1 - x$. No olvides que al derivar $du = -dx$, por lo que debes introducir un signo negativo que afecta los límites.",
+    "explanation": "Con $u = 1 - x$, $du = -dx$. Los límites cambian: si $x=0 \\rightarrow u=1$, si $x=1 \\rightarrow u=0$. La integral es $-\\int_{1}^{0} u^{10} \\, du = \\int_{0}^{1} u^{10} \\, du = \\left[\\frac{u^{11}}{11}\\right]_0^1 = \\frac{1}{11}$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
