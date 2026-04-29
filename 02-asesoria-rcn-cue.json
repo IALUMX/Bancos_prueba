@@ -898,5 +898,905 @@
     "explanation": "Dividiendo el valor $0$ entre $5$, la incógnita permanece nula y por ende toma el valor $x = 0$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00BY",
+    "question": "Traduce al lenguaje algebraico la siguiente expresión: 'El doble de un número más cinco'.",
+    "image": null,
+    "options": [
+      { "text": "$2x + 5$", "correct": true },
+      { "text": "$2(x + 5)$", "correct": false },
+      { "text": "$x^2 + 5$", "correct": false },
+      { "text": "$\\frac{x}{2} + 5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término 'doble' indica una multiplicación por dos, seguido de una adición.",
+    "explanation": "El número desconocido se representa con $x$. El doble es $2x$, y al sumar cinco se obtiene $2x + 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BZ",
+    "question": "Resuelve la siguiente ecuación de dos pasos para encontrar el valor de $x$: $2x + 4 = 10$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$7$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica el despeje aislando el término con $x$ mediante $ax = c - b$, y luego divide.",
+    "explanation": "Restando 4 en ambos lados queda $2x = 6$. Dividiendo entre 2, resulta $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CA",
+    "question": "Un depósito contiene $50 \\text{ litros}$ de agua y se llena a un ritmo de $5 \\text{ litros por minuto}$. ¿Cuánto tiempo tardará en alcanzar exactamente $85 \\text{ litros}$?",
+    "image": null,
+    "options": [
+      { "text": "$7 \\text{ minutos}$", "correct": true },
+      { "text": "$17 \\text{ minutos}$", "correct": false },
+      { "text": "$10 \\text{ minutos}$", "correct": false },
+      { "text": "$5 \\text{ minutos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación $50 + 5t = 85$ y despeja el tiempo $t$.",
+    "explanation": "La cantidad faltante es $85 - 50 = 35 \\text{ litros}$. A un ritmo de $5 \\text{ L/min}$, el tiempo es $35 \\div 5 = 7 \\text{ minutos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CB",
+    "question": "Selecciona la expresión que representa: 'La tercera parte de un número disminuido en cuatro'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{3} - 4$", "correct": true },
+      { "text": "$\\frac{x - 4}{3}$", "correct": false },
+      { "text": "$3x - 4$", "correct": false },
+      { "text": "$\\frac{3}{x} - 4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La frase indica primero una división entre tres, seguida de una resta.",
+    "explanation": "La tercera parte de un número es $x/3$, y disminuir en cuatro equivale a restar 4, resultando en $\\frac{x}{3} - 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CC",
+    "question": "Despeja el valor de $y$ en la ecuación: $3y - 7 = 14$.",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$21$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Pasa el término constante al otro lado sumando, usando el principio $ay = c + b$.",
+    "explanation": "Al sumar 7 a ambos lados se obtiene $3y = 21$. Dividiendo entre 3, el resultado es $y = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CD",
+    "question": "Ana tiene el doble de la edad de su hermano. Si ambas edades suman $30 \\text{ a\\~nos}$, ¿cuál es la edad de Ana?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ a\\~nos}$", "correct": true },
+      { "text": "$10 \\text{ a\\~nos}$", "correct": false },
+      { "text": "$15 \\text{ a\\~nos}$", "correct": false },
+      { "text": "$25 \\text{ a\\~nos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Modela el problema como $2x + x = 30$, donde $x$ es la edad del hermano.",
+    "explanation": "La suma de las edades es $3x = 30$, por lo que el hermano tiene $x = 10 \\text{ a\\~nos}$. Ana, al tener el doble, tiene $20 \\text{ a\\~nos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CE",
+    "question": "Identifica la traducción algebraica correcta para: 'El cuadrado de la suma de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$(a + b)^2$", "correct": true },
+      { "text": "$a^2 + b^2$", "correct": false },
+      { "text": "$2(a + b)$", "correct": false },
+      { "text": "$a^2 + b$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La operación principal (la que se menciona primero) abarca a todo el conjunto.",
+    "explanation": "Primero se realiza la suma de los números $(a + b)$ y posteriormente el resultado global se eleva al cuadrado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CF",
+    "question": "Encuentra el valor de $x$ que satisface la igualdad: $\\frac{x}{2} + 5 = 11$.",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$8$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para despejar, resta el 5 y luego multiplica por el denominador, basándote en $x = (c - b) \\times a$.",
+    "explanation": "Al restar 5 en ambos lados se obtiene $\\frac{x}{2} = 6$. Multiplicando por 2 resulta $x = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CG",
+    "question": "Si compro $3 \\text{ libretas}$ idénticas y pago con un billete de $100 \\text{ pesos}$, me devuelven $25 \\text{ pesos}$ de cambio. Plantea mentalmente la ecuación y determina el precio de cada libreta.",
+    "image": null,
+    "options": [
+      { "text": "$25 \\text{ pesos}$", "correct": true },
+      { "text": "$33 \\text{ pesos}$", "correct": false },
+      { "text": "$20 \\text{ pesos}$", "correct": false },
+      { "text": "$30 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La ecuación que representa la situación es $3x + 25 = 100$.",
+    "explanation": "El costo total de las libretas es $100 - 25 = 75 \\text{ pesos}$. Al dividir entre las 3 libretas, cada una cuesta $25 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CH",
+    "question": "¿Cómo se representa algebraicamente 'la suma de tres números enteros consecutivos'?",
+    "image": null,
+    "options": [
+      { "text": "$x + (x+1) + (x+2)$", "correct": true },
+      { "text": "$x + y + z$", "correct": false },
+      { "text": "$3x + 1$", "correct": false },
+      { "text": "$x(x+1)(x+2)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Los números consecutivos se obtienen sumando uno a la variable anterior iterativamente.",
+    "explanation": "Si el primer número es $x$, su consecutivo es $x+1$, y el siguiente es $x+2$. La suma se expresa como la adición de estos tres términos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Realiza el despeje necesario para hallar el valor de $m$ en: $5m + 10 = 35$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$25$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Transfiere la constante sumando al otro lado como resta, y luego divide entre el coeficiente de la variable.",
+    "explanation": "Restando 10 en ambos lados tenemos $5m = 25$. Dividiendo entre 5, se obtiene que $m = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Un ciclista recorre una distancia de $12 \\text{ km}$ en $2 \\text{ horas}$. Manteniendo su velocidad constante, ¿cuántos kilómetros recorrerá en $5 \\text{ horas}$?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ km}$", "correct": true },
+      { "text": "$24 \\text{ km}$", "correct": false },
+      { "text": "$40 \\text{ km}$", "correct": false },
+      { "text": "$20 \\text{ km}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero la velocidad constante en kilómetros por hora.",
+    "explanation": "La velocidad del ciclista es $12 \\div 2 = 6 \\text{ km/h}$. En 5 horas recorrerá $6 \\times 5 = 30 \\text{ km}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Convierte a lenguaje matemático la oración: 'El cociente de dos números cualesquiera'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x}{y}$", "correct": true },
+      { "text": "$xy$", "correct": false },
+      { "text": "$x - y$", "correct": false },
+      { "text": "$\\sqrt{xy}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'cociente' es el término matemático para el resultado de una división.",
+    "explanation": "Una división entre dos valores genéricos distintos se representa mediante la fracción $\\frac{x}{y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Encuentra el valor exacto de la incógnita $p$ al resolver: $4p - 8 = 12$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Agrupa los valores numéricos mediante la operación contraria de la resta y procede a dividir.",
+    "explanation": "Sumando 8 a ambos lados se obtiene $4p = 20$. Dividiendo el resultado entre 4, $p = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "El largo de un rectángulo es el doble de su ancho. Si su perímetro total es de $30 \\text{ cm}$, determina la medida de su ancho.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ cm}$", "correct": true },
+      { "text": "$10 \\text{ cm}$", "correct": false },
+      { "text": "$15 \\text{ cm}$", "correct": false },
+      { "text": "$3 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El perímetro se formula sumando todos los lados: $P = 2l + 2a$. Sustituye $l = 2a$.",
+    "explanation": "La ecuación es $2(2a) + 2a = 30$, es decir, $6a = 30$. Al despejar, se obtiene que el ancho $a = 5 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "¿Qué expresión algebraica modela correctamente: 'El triple de un número disminuido en su mitad'?",
+    "image": null,
+    "options": [
+      { "text": "$3x - \\frac{x}{2}$", "correct": true },
+      { "text": "$\\frac{3x - x}{2}$", "correct": false },
+      { "text": "$3(x - \\frac{x}{2})$", "correct": false },
+      { "text": "$\\frac{x}{3} - \\frac{x}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El enunciado establece una resta donde el primer término es el triple del número y el segundo es la mitad del mismo.",
+    "explanation": "El triple del número es $3x$, disminuir implica restar, y la mitad del mismo número es $x/2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Soluciona la ecuación mostrada obteniendo el valor de $k$: $6k + 2 = 20$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la regla del balance, eliminando el 2 con una resta y posteriormente dividiendo.",
+    "explanation": "Restamos 2 en ambos lados de la ecuación, obteniendo $6k = 18$. Dividiendo entre 6, el valor de $k$ es 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Se reparten $60 \\text{ dulces}$ entre tres niños. Dos de ellos reciben exactamente la misma cantidad, mientras que el tercero recibe el doble que los otros. ¿Cuántos dulces recibe el niño que tiene la mayor cantidad?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ dulces}$", "correct": true },
+      { "text": "$15 \\text{ dulces}$", "correct": false },
+      { "text": "$20 \\text{ dulces}$", "correct": false },
+      { "text": "$40 \\text{ dulces}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea el modelo matemático usando la ecuación $x + x + 2x = 60$.",
+    "explanation": "Al reducir los términos se obtiene $4x = 60$, de donde $x = 15$. El niño que recibe el doble tiene $2(15) = 30 \\text{ dulces}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Traduce al lenguaje del álgebra: 'La mitad del cubo de un número'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^3}{2}$", "correct": true },
+      { "text": "$\\frac{x}{2}^3$", "correct": false },
+      { "text": "$3x \\div 2$", "correct": false },
+      { "text": "$x^3 - 2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La operación principal (la que rige todo) es la división a la mitad.",
+    "explanation": "El cubo de un número se expresa como $x^3$. La mitad de este valor requiere dividir toda esa expresión entre 2.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Calcula el valor que debe tomar la variable $y$ para que se cumpla la ecuación: $\\frac{y}{3} - 2 = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$18$", "correct": true },
+      { "text": "$6$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero deshazte del término que resta sumándolo al resultado, luego multiplica por el divisor.",
+    "explanation": "Al sumar 2 a ambos lados, obtenemos $\\frac{y}{3} = 6$. Multiplicando por 3 en ambos lados, resulta en $y = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Un kilogramo de manzanas tiene un costo de $22 \\text{ pesos}$. Si decides comprar $3 \\text{ kg}$ y pagas con un billete de $100 \\text{ pesos}$, ¿cuánto dinero deberán devolverte de cambio?",
+    "image": null,
+    "options": [
+      { "text": "$34 \\text{ pesos}$", "correct": true },
+      { "text": "$44 \\text{ pesos}$", "correct": false },
+      { "text": "$66 \\text{ pesos}$", "correct": false },
+      { "text": "$24 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea el gasto total multiplicando el costo unitario por la cantidad, y réstalo al valor del billete.",
+    "explanation": "El gasto total por los 3 kilogramos es de $3 \\times 22 = 66 \\text{ pesos}$. El cambio a recibir es $100 - 66 = 34 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Identifica la opción que traduce correctamente la oración: 'La diferencia de los cuadrados de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - y^2$", "correct": true },
+      { "text": "$(x - y)^2$", "correct": false },
+      { "text": "$2x - 2y$", "correct": false },
+      { "text": "$x^2 - y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra diferencia significa resta. Nota que primero se elevan al cuadrado ambos números por separado.",
+    "explanation": "A diferencia del 'cuadrado de la diferencia', aquí primero se aplican los cuadrados ($x^2$ y $y^2$) y luego se aplica la resta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Aplica los pasos necesarios para determinar el valor de $x$ en la expresión: $2x - 15 = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$10$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$20$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El número 15 negativo debe ser despejado aplicando una suma.",
+    "explanation": "Sumando 15 a ambos lados, obtenemos $2x = 20$. Dividiendo por 2, se concluye que $x = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "En un corral existen $10 \\text{ animales}$ en total, contando únicamente gallinas y vacas. Si logran identificarse exactamente $6 \\text{ vacas}$, ¿cuántas patas correspondientes a gallinas hay en el corral?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ patas}$", "correct": true },
+      { "text": "$4 \\text{ patas}$", "correct": false },
+      { "text": "$12 \\text{ patas}$", "correct": false },
+      { "text": "$2 \\text{ patas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero la cantidad de gallinas totales restando las vacas, y luego determina sus extremidades.",
+    "explanation": "Si de 10 animales 6 son vacas, existen 4 gallinas. Dado que cada gallina tiene 2 patas, el total de patas es $4 \\times 2 = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Expresa en lenguaje algebraico la proposición: 'El producto de un número y su sucesor'.",
+    "image": null,
+    "options": [
+      { "text": "$x(x+1)$", "correct": true },
+      { "text": "$x(x-1)$", "correct": false },
+      { "text": "$2x(x+1)$", "correct": false },
+      { "text": "$x + (x+1)$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El producto es una multiplicación y el sucesor de un número se obtiene sumándole la unidad.",
+    "explanation": "Sea $x$ el número desconocido, su sucesor o consecutivo es $(x+1)$. La multiplicación de ambos es $x(x+1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Halla la raíz (valor de $n$) de la siguiente ecuación de primer grado: $7n + 1 = 22$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea el balance restando 1 de ambos lados y dividiendo la igualdad entre 7.",
+    "explanation": "Al restar 1 a ambos lados se obtiene $7n = 21$. Dividiendo el total entre 7, el resultado es $n = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Si el área de un terreno completamente cuadrado es de $49 \\text{ m}^2$, formula la operación mental requerida e indica cuál es la longitud total de su perímetro.",
+    "image": null,
+    "options": [
+      { "text": "$28 \\text{ m}$", "correct": true },
+      { "text": "$14 \\text{ m}$", "correct": false },
+      { "text": "$49 \\text{ m}$", "correct": false },
+      { "text": "$21 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El área de un cuadrado es $L^2$. Calcula primero un lado extrayendo la raíz cuadrada y luego multiplica por 4.",
+    "explanation": "La raíz cuadrada de 49 indica que cada lado mide $7 \\text{ m}$. El perímetro de un cuadrado se calcula como $4 \\times L$, dando $28 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "¿Cuál es la expresión algebraica equivalente a: 'Un número excedido en cinco unidades'?",
+    "image": null,
+    "options": [
+      { "text": "$x + 5$", "correct": true },
+      { "text": "$5x$", "correct": false },
+      { "text": "$x - 5$", "correct": false },
+      { "text": "$\\frac{x}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La palabra 'excedido' o 'aumentado' es un indicador directo de una suma aritmética.",
+    "explanation": "Si partimos de un valor inicial $x$, excederlo en cinco significa sumarle 5 unidades, es decir, $x + 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Despeja y resuelve la ecuación de dos pasos para la variable $m$: $\\frac{m}{4} + 6 = 10$.",
+    "image": null,
+    "options": [
+      { "text": "$16$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$1$", "correct": false },
+      { "text": "$24$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta primero el valor independiente y luego emplea la multiplicación para cancelar la división.",
+    "explanation": "Restando 6 en ambos lados, obtenemos $\\frac{m}{4} = 4$. Al multiplicar ambos lados por 4, resulta $m = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Un estudiante tiene la meta de leer $15 \\text{ p\\'{a}ginas}$ por día. Bajo este ritmo constante, ¿cuántos días le tomará terminar por completo un libro de $120 \\text{ p\\'{a}ginas}$?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ d\\'ias}$", "correct": true },
+      { "text": "$10 \\text{ d\\'ias}$", "correct": false },
+      { "text": "$7 \\text{ d\\'ias}$", "correct": false },
+      { "text": "$6 \\text{ d\\'ias}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El problema se modela con la ecuación simple $15x = 120$.",
+    "explanation": "Para encontrar la cantidad de días, debes dividir el total de páginas entre el ritmo diario: $120 \\div 15 = 8 \\text{ d\\'ias}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Identifica la estructura correcta en lenguaje algebraico para: 'El quíntuple de la diferencia de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$5(x - y)$", "correct": true },
+      { "text": "$5x - y$", "correct": false },
+      { "text": "$\\frac{x - y}{5}$", "correct": false },
+      { "text": "$x - 5y$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El multiplicador (quíntuple) afecta al resultado completo de la operación de diferencia.",
+    "explanation": "La diferencia de dos números es $(x - y)$. El quíntuple indica que todo ese bloque debe ser multiplicado por cinco, por lo que resulta $5(x - y)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Encuentra la solución algebraica de la ecuación lineal con igualación a cero: $3x + 12 = 0$.",
+    "image": null,
+    "options": [
+      { "text": "$-4$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$9$", "correct": false },
+      { "text": "$-9$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un número positivo pasa al otro lado con signo negativo bajo el principio de inverso aditivo.",
+    "explanation": "Al restar 12 en ambos lados tenemos $3x = -12$. Al dividir entre 3, el resultado conservará el signo negativo, siendo $x = -4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Tres hermanos reciben $300 \\text{ pesos}$ producto de una venta para dividirlos de acuerdo con lo que invirtieron. El hermano mayor toma $150 \\text{ pesos}$ y el segundo toma $90 \\text{ pesos}$. ¿Cuánto dinero recibe exactamente el tercer hermano?",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ pesos}$", "correct": true },
+      { "text": "$50 \\text{ pesos}$", "correct": false },
+      { "text": "$40 \\text{ pesos}$", "correct": false },
+      { "text": "$80 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Representa el problema sumando las porciones dadas e igualándolas al total disponible.",
+    "explanation": "El dinero total tomado por los primeros dos hermanos es $150 + 90 = 240 \\text{ pesos}$. Lo que resta para el tercero es $300 - 240 = 60 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Traduce al lenguaje matemático la siguiente descripción abstracta: 'La suma de las raíces cuadradas de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{x} + \\sqrt{y}$", "correct": true },
+      { "text": "$\\sqrt{x + y}$", "correct": false },
+      { "text": "$\\sqrt{xy}$", "correct": false },
+      { "text": "$x^2 + y^2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La redacción indica que primero debes obtener las raíces de forma individual para luego sumarlas.",
+    "explanation": "A diferencia de la 'raíz de una suma', en este caso se extrae la raíz cuadrada de forma independiente de $x$ y de $y$, y posteriormente se suman los resultados.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Analiza y despeja la ecuación para determinar el valor de la incógnita $x$: $8 - 2x = 4$.",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$-2$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten cuidado con los signos. Al despejar la variable negativa, considera aplicar divisiones entre valores negativos.",
+    "explanation": "Restando 8 en ambos lados queda $-2x = -4$. Al dividir entre $-2$, por la ley de los signos, el resultado es $x = 2$ positivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "La batería de un dispositivo garantiza $100 \\text{ minutos}$ de uso continuo en juegos. Si una partida de tu juego favorito consume siempre $5 \\text{ minutos}$ exactos por nivel, ¿cuántos niveles completos podrás jugar si comienzas con la batería llena?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ niveles}$", "correct": true },
+      { "text": "$15 \\text{ niveles}$", "correct": false },
+      { "text": "$25 \\text{ niveles}$", "correct": false },
+      { "text": "$10 \\text{ niveles}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica cuántas veces cabe el consumo individual dentro del total disponible.",
+    "explanation": "Para resolver este problema divides el tiempo total de la batería entre el consumo individual del nivel: $100 \\div 5 = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "¿Cuál es la forma correcta de expresar algebraicamente 'El antecesor de un número entero'? (suponiendo que dicho número es $n$)",
+    "image": null,
+    "options": [
+      { "text": "$n - 1$", "correct": true },
+      { "text": "$n + 1$", "correct": false },
+      { "text": "$2n - 1$", "correct": false },
+      { "text": "$1 - n$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El antecesor de cualquier número entero se localiza justo una unidad antes en la recta numérica.",
+    "explanation": "Para calcular matemáticamente el número previo inmediato de un valor dado en los números enteros, simplemente se le resta la unidad: $n - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Aplica las reglas de despeje algebraico elementales para encontrar la solución de: $\\frac{2x}{3} = 6$.",
+    "image": null,
+    "options": [
+      { "text": "$9$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para eliminar la fracción, pasa el denominador multiplicando y luego divide entre el numerador.",
+    "explanation": "Multiplicando ambos lados por 3 se obtiene $2x = 18$. Finalmente, dividiendo entre 2, llegamos a $x = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Un grupo de amigos nota que $5 \\text{ boletos}$ idénticos para el cine tienen un costo total de $350 \\text{ pesos}$. Usando una deducción lógica proporcional, ¿cuál debe ser el costo justo para únicamente $2 \\text{ boletos}$?",
+    "image": null,
+    "options": [
+      { "text": "$140 \\text{ pesos}$", "correct": true },
+      { "text": "$150 \\text{ pesos}$", "correct": false },
+      { "text": "$175 \\text{ pesos}$", "correct": false },
+      { "text": "$70 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtén el valor unitario por cada boleto y multiplica dicho valor por la nueva cantidad solicitada.",
+    "explanation": "El costo de un solo boleto se encuentra dividiendo $350 \\div 5 = 70 \\text{ pesos}$. Por lo tanto, 2 boletos costarán $70 \\times 2 = 140 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Traduce textualmente la siguiente proposición al lenguaje algebraico: 'El cuadrado de un número menos el doble del mismo número'.",
+    "image": null,
+    "options": [
+      { "text": "$x^2 - 2x$", "correct": true },
+      { "text": "$(x - 2)^2$", "correct": false },
+      { "text": "$2x - x^2$", "correct": false },
+      { "text": "$\\frac{x^2}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La frase consta de dos términos separados por un operador de resta o diferencia.",
+    "explanation": "El primer término 'el cuadrado de un número' es $x^2$, y el segundo término 'el doble del mismo número' es $2x$. Al unirlos se obtiene $x^2 - 2x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DM",
+    "question": "Efectúa el procedimiento necesario para hallar el valor de $x$ en el siguiente problema: $9x - 5 = 22$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma el término numérico al lado derecho de la ecuación para poder aislar el término con la incógnita.",
+    "explanation": "Al sumar 5 a ambos lados, la ecuación resulta en $9x = 27$. Posteriormente, dividir 27 entre 9 nos da como resultado $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DN",
+    "question": "En la preparación de una receta especial de pastelería, el manual indica que deben agregarse $2 \\text{ tazas}$ de harina por cada taza de azúcar. Si accidentalmente viertes $6 \\text{ tazas}$ de harina, ¿cuántas tazas de azúcar necesitas usar para no alterar el sabor final?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ tazas}$", "correct": true },
+      { "text": "$12 \\text{ tazas}$", "correct": false },
+      { "text": "$4 \\text{ tazas}$", "correct": false },
+      { "text": "$8 \\text{ tazas}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece una proporción directa comparando la cantidad inicial de harina frente a la final.",
+    "explanation": "La relación es de 2 a 1. Si utilizas 6 tazas de harina (lo cual es el triple de 2), deberás usar también el triple de azúcar, es decir, 3 tazas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DO",
+    "question": "Expresa de forma algebraica la siguiente condición matemática: 'La raíz cuadrada del producto de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$\\sqrt{xy}$", "correct": true },
+      { "text": "$\\sqrt{x} \\cdot \\sqrt{y}$", "correct": false },
+      { "text": "$x\\sqrt{y}$", "correct": false },
+      { "text": "$\\frac{\\sqrt{x}}{y}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica qué operador contiene o engloba a la operación descrita.",
+    "explanation": "El producto de dos números se describe como $xy$. Puesto que el enunciado habla de la raíz de todo el conjunto, el radical debe cubrir dicha multiplicación, resultando en $\\sqrt{xy}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DP",
+    "question": "Libera la variable $x$ de la fracción principal resolviendo la siguiente ecuación: $\\frac{x-1}{2} = 5$.",
+    "image": null,
+    "options": [
+      { "text": "$11$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Al ser el número 2 el divisor de todo el conjunto izquierdo, debes pasarlo multiplicando primero.",
+    "explanation": "Al multiplicar ambos lados por 2 se obtiene $x - 1 = 10$. Sumando 1 en ambos extremos, nos da $x = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DQ",
+    "question": "Una persona gasta la mitad exacta de los ahorros que tenía en un juguete y, posteriormente, le presta $10 \\text{ pesos}$ a un compañero. Si tras efectuar estas acciones le quedan $20 \\text{ pesos}$ en el bolsillo, plantea la ecuación correspondiente y determina cuántos ahorros poseía inicialmente.",
+    "image": null,
+    "options": [
+      { "text": "$60 \\text{ pesos}$", "correct": true },
+      { "text": "$30 \\text{ pesos}$", "correct": false },
+      { "text": "$40 \\text{ pesos}$", "correct": false },
+      { "text": "$80 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Retrocede paso a paso aplicando operaciones inversas: primero reintegra lo prestado, luego duplica la cifra.",
+    "explanation": "Planteamos algebraicamente $\\frac{x}{2} - 10 = 20$. Sumamos 10 resultando $\\frac{x}{2} = 30$. Multiplicamos por 2 para encontrar que el monto original $x$ es $60 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DR",
+    "question": "Interpreta y selecciona la correcta representación en lenguaje algebraico del enunciado: 'El cociente de la suma y la diferencia de dos números'.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{a+b}{a-b}$", "correct": true },
+      { "text": "$(a+b) - (a-b)$", "correct": false },
+      { "text": "$\\frac{a-b}{a+b}$", "correct": false },
+      { "text": "$\\frac{ab}{a-b}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El orden cronológico en la frase define quién va en el numerador y quién en el denominador de la fracción (cociente).",
+    "explanation": "La palabra cociente implica una división. En la parte superior (numerador) colocamos la suma $(a+b)$ y en la inferior (denominador) se ubica la diferencia o resta $(a-b)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DS",
+    "question": "Aplica métodos lógicos de transposición de términos para calcular el valor de $x$ en la ecuación: $10 - 3x = 1$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$-3$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$-4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para no manejar coeficientes negativos, resulta prudente mandar la variable $3x$ hacia la derecha y los números a la izquierda.",
+    "explanation": "Agrupando términos, la expresión se ve así: $10 - 1 = 3x$. Esto se simplifica a $9 = 3x$. Dividiendo entre 3, la variable arroja el valor de 3.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DT",
+    "question": "En el mostrador de una tienda, un paquete que contiene $4 \\text{ galletas}$ empaquetadas es valorado en $12 \\text{ pesos}$. Mediante una aproximación lógica de costo por unidad, ¿cuánto deberá costar un paquete promocional que contenga $10 \\text{ galletas}$ similares?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\text{ pesos}$", "correct": true },
+      { "text": "$24 \\text{ pesos}$", "correct": false },
+      { "text": "$40 \\text{ pesos}$", "correct": false },
+      { "text": "$18 \\text{ pesos}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Obtener el costo unitario de las mercancías facilita el cálculo en compras múltiples mediante proporción directa.",
+    "explanation": "Al dividir el valor de $12 \\text{ pesos}$ entre las 4 piezas, resulta que cada galleta cuesta $3 \\text{ pesos}$. Un paquete de 10 unidades costará $10 \\times 3 = 30 \\text{ pesos}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DU",
+    "question": "Escoge la alternativa que representa la sentencia en álgebra: 'El cuádruple de un número sumado con su cuadrado'.",
+    "image": null,
+    "options": [
+      { "text": "$4x + x^2$", "correct": true },
+      { "text": "$4(x + x^2)$", "correct": false },
+      { "text": "$x^4 + 2x$", "correct": false },
+      { "text": "$4x^2 + x$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica los dos componentes que se integran en la suma respetando las palabras exactas de cada operador matemático.",
+    "explanation": "El primer elemento indica multiplicar el número por cuatro ($4x$) y el segundo bloque implica el número multiplicado por sí mismo ($x^2$). Al conjuntarlos, se forma $4x + x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DV",
+    "question": "Emplea la distribución o el despeje fraccionario inicial para solucionar y encontrar $x$ en el caso: $5(x - 2) = 15$.",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$7$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suele ser más fácil pasar a dividir todo el bloque numérico multiplicador antes de deshacer el paréntesis.",
+    "explanation": "Dividiendo ambos extremos entre 5, se obtiene una igualdad simplificada $x - 2 = 3$. Finalmente, sumando 2 obtenemos $x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
