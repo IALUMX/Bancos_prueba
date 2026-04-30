@@ -4588,5 +4588,725 @@
     "explanation": "El cloruro puro y cristalizado conteniendo al metal representativo sodio ($NaCl$) ha sido designado mediante las normas del nomenclador IUPAC como perteneciente a la rama exclusiva de las sales inorgánicas tipo haloideas dada su obvia carencia estructural completa de átomos de la especie del gas oxígeno insertos interinamente en el retículo polarizado macroscópico final y sus características al derivarse del hidrógeno inorgánico y haluros en sistemas acuosos clásicos.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73PR",
+    "question": "Aplica la ley de los exponentes para simplificar la siguiente multiplicación de monomios: $m^4 \\cdot m^7$.",
+    "image": null,
+    "options": [
+      { "text": "$m^{11}$", "correct": true },
+      { "text": "$m^{28}$", "correct": false },
+      { "text": "$m^3$", "correct": false },
+      { "text": "$m^{10}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando se multiplican bases iguales, los exponentes se suman.",
+    "explanation": "De acuerdo con la regla del producto de potencias con la misma base ($x^a \\cdot x^b = x^{a+b}$), sumamos los exponentes: $4 + 7 = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PS",
+    "question": "Al desarrollar la expresión $(4x^3)^2$, se obtiene un coeficiente final de ______ y la literal $x$ queda elevada al exponente ______.",
+    "image": null,
+    "options": [
+      { "text": "$16$ y $6$", "correct": true },
+      { "text": "$8$ y $5$", "correct": false },
+      { "text": "$16$ y $5$", "correct": false },
+      { "text": "$8$ y $6$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva el coeficiente al cuadrado y multiplica el exponente de la variable por la potencia externa.",
+    "explanation": "El exponente exterior afecta a cada factor interno: $4^2 = 16$ y $(x^3)^2 = x^{3 \\cdot 2} = x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PT",
+    "question": "Relaciona cada expresión con su respectiva forma simplificada:\\nI. $\\frac{(x^3 y^2)^2}{x^4 y}$\\nII. $(x^2 y^3)^2 \\cdot x^{-2} y^{-1}$\\n\\nA. $x^2 y^3$\\nB. $x^2 y^5$\\nC. $x^4 y^5$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-C", "correct": false },
+      { "text": "I-C, II-B", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica primero la potencia de una potencia y luego las reglas de multiplicación o división para bases iguales.",
+    "explanation": "Para I: $\\frac{x^6 y^4}{x^4 y} = x^{6-4} y^{4-1} = x^2 y^3$. Para II: $(x^4 y^6) \\cdot x^{-2} y^{-1} = x^{4-2} y^{6-1} = x^2 y^5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PU",
+    "question": "Identifica cuáles de las siguientes expresiones son equivalentes a $a^6$:\\n1. $a^2 \\cdot a^3$\\n2. $(a^2)^3$\\n3. $\\frac{a^{12}}{a^2}$\\n4. $\\frac{a^8}{a^2}$\\n5. $a^3 + a^3$",
+    "image": null,
+    "options": [
+      { "text": "2, 4", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "1, 4", "correct": false },
+      { "text": "2, 3", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Revisa las reglas: producto suma exponentes, potencia multiplica exponentes y cociente resta exponentes.",
+    "explanation": "La expresión 2 es $(a^2)^3 = a^6$. La expresión 4 es $a^8 / a^2 = a^{8-2} = a^6$. Las otras resultan en $a^5$, $a^{10}$ y $2a^3$ respectivamente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PV",
+    "question": "Simplifica la siguiente expresión matemática combinada: $\\frac{y^9}{y^3} \\cdot y^2$.",
+    "image": null,
+    "options": [
+      { "text": "$y^8$", "correct": true },
+      { "text": "$y^{14}$", "correct": false },
+      { "text": "$y^4$", "correct": false },
+      { "text": "$y^6$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero resuelve el cociente restando los exponentes y posteriormente multiplica sumando los exponentes.",
+    "explanation": "La división $\\frac{y^9}{y^3} = y^{9-3} = y^6$. Al multiplicar por $y^2$, se tiene $y^6 \\cdot y^2 = y^{6+2} = y^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PW",
+    "question": "De acuerdo con la ley de los exponentes para el cociente, al simplificar la expresión $\\frac{z^{10}}{z^2}$, el exponente final de la base $z$ es ______.",
+    "image": null,
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la división de bases iguales, el exponente del denominador se le resta al del numerador.",
+    "explanation": "Aplicando la regla $x^a / x^b = x^{a-b}$, tenemos $10 - 2 = 8$. Por lo tanto, el resultado es $z^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PX",
+    "question": "Relaciona correctamente cada operación con su resultado simplificado:\\nI. $(a^3)^4$\\nII. $a^3 \\cdot a^4$\\nIII. $\\frac{a^{12}}{a^3}$\\n\\nA. $a^7$\\nB. $a^{12}$\\nC. $a^9$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda: potencia de potencia multiplica; producto de bases iguales suma; cociente de bases iguales resta.",
+    "explanation": "I es $(a^3)^4 = a^{12}$. II es $a^3 \\cdot a^4 = a^7$. III es $a^{12}/a^3 = a^{12-3} = a^9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PY",
+    "question": "Identifica cuáles de las siguientes expresiones son algebraicamente equivalentes a $2x^4 y^2$:\\n1. $(2x^2 y)^2$\\n2. $\\frac{4x^6 y^5}{2x^2 y^3}$\\n3. $2(x^2 y)^2$\\n4. $x^3 y \\cdot 2xy$",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 2, 4", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla o simplifica cada opción para ver cuál no genera un coeficiente de 2.",
+    "explanation": "La opción 1 resulta en $4x^4 y^2$. La 2 se simplifica a $2x^4 y^2$. La 3 es $2(x^4 y^2)$. La 4 es $2x^{3+1} y^{1+1} = 2x^4 y^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PZ",
+    "question": "Aplica la propiedad del exponente negativo para reescribir la expresión $p^{-3}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{p^3}$", "correct": true },
+      { "text": "$-p^3$", "correct": false },
+      { "text": "$p^{1/3}$", "correct": false },
+      { "text": "$-\\frac{1}{p^3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Un exponente negativo indica el recíproco de la base elevada a ese mismo exponente positivo.",
+    "explanation": "La regla $x^{-n} = \\frac{1}{x^n}$ establece que para cambiar el signo del exponente a positivo, la base debe pasar al denominador.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QA",
+    "question": "Simplifica completamente la expresión $(5w^4)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$125w^{12}$", "correct": true },
+      { "text": "$15w^{12}$", "correct": false },
+      { "text": "$125w^7$", "correct": false },
+      { "text": "$15w^7$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes elevar el coeficiente $5$ a la potencia $3$ y multiplicar el exponente $4$ por $3$.",
+    "explanation": "Aplicando la propiedad distributiva del exponente sobre el producto: $5^3 \\cdot (w^4)^3 = 125 \\cdot w^{4 \\cdot 3} = 125w^{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QB",
+    "question": "En un simulacro del CEPREDIX, se solicita simplificar la expresión $\\left(\\frac{3x^2}{y^3}\\right)^{-2}$ para no dejar exponentes negativos. El coeficiente final (numérico) es ______, el exponente de $x$ en el denominador es ______ y el de $y$ en el numerador es ______.",
+    "image": null,
+    "options": [
+      { "text": "$1/9$, $4$, $6$", "correct": true },
+      { "text": "$-6$, $-4$, $-6$", "correct": false },
+      { "text": "$9$, $4$, $6$", "correct": false },
+      { "text": "$1/6$, $2$, $3$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Invierte la fracción para cambiar el exponente exterior a positivo y luego eleva todo al cuadrado.",
+    "explanation": "Al invertir la fracción el exponente cambia de signo: $\\left(\\frac{y^3}{3x^2}\\right)^2$. Al elevar al cuadrado cada elemento se obtiene $\\frac{y^6}{9x^4}$. El coeficiente es $1/9$, $x$ tiene exponente $4$ abajo y $y$ tiene $6$ arriba.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QC",
+    "question": "Relaciona cada expresión algebraica con su equivalente simplificado:\\nI. $x^0$\\nII. $x^1$\\nIII. $x^{-1}$\\n\\nA. $x$\\nB. $1$\\nC. $1/x$",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier valor diferente de cero elevado a la cero es uno, a la uno es sí mismo, y negativo invierte la base.",
+    "explanation": "$x^0 = 1$ (si $x \\neq 0$). $x^1 = x$. $x^{-1} = \\frac{1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QD",
+    "question": "Identifica cuáles de las siguientes expresiones algebraicas se simplifican correctamente a $m^6$:\\n1. $m^2 \\cdot m^4$\\n2. $(m^3)^2$\\n3. $m^8 - m^2$\\n4. $(m^2)^3$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las leyes de los exponentes aplican a multiplicaciones, divisiones y potencias, no a sumas o restas directas de bases distintas o iguales con distinto exponente.",
+    "explanation": "La opción 1 suma los exponentes ($2+4=6$). La 2 multiplica ($3 \\cdot 2 = 6$). La 4 multiplica ($2 \\cdot 3 = 6$). La 3 es una resta y no se puede simplificar restando los exponentes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QE",
+    "question": "Al aplicar la ley de potencia de una potencia, ¿cuál es el resultado de $(n^5)^4$?",
+    "image": null,
+    "options": [
+      { "text": "$n^{20}$", "correct": true },
+      { "text": "$n^9$", "correct": false },
+      { "text": "$n^{5/4}$", "correct": false },
+      { "text": "$n$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para elevar una potencia a otra potencia, debes multiplicar los exponentes.",
+    "explanation": "La regla establece que $(x^a)^b = x^{a \\cdot b}$, por lo que se multiplica $5 \\cdot 4 = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QF",
+    "question": "Simplifica el producto de monomios: $2a^3 \\cdot 4a^5$.",
+    "image": null,
+    "options": [
+      { "text": "$8a^8$", "correct": true },
+      { "text": "$6a^8$", "correct": false },
+      { "text": "$8a^{15}$", "correct": false },
+      { "text": "$6a^{15}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica los coeficientes numéricos de manera regular y aplica la ley de exponentes para sumar las potencias de la base $a$.",
+    "explanation": "Coeficientes: $2 \\cdot 4 = 8$. Literales: $a^3 \\cdot a^5 = a^{3+5} = a^8$. El resultado completo es $8a^8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QG",
+    "question": "Un estudiante del CEPREDIX debe simplificar la expresión $\\frac{(2x^3 y^{-1})^3}{4x^5 y^2}$. ¿Cuál es el resultado correcto manteniendo exponentes positivos?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2x^4}{y^5}$", "correct": true },
+      { "text": "$\\frac{2x^{14}}{y}$", "correct": false },
+      { "text": "$2x^4 y^5$", "correct": false },
+      { "text": "$\\frac{x^4}{2y^5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Eleva al cubo todos los elementos del numerador primero. Luego simplifica los coeficientes y resta los exponentes del denominador.",
+    "explanation": "El numerador es $2^3 (x^3)^3 (y^{-1})^3 = 8x^9 y^{-3}$. Al dividir entre $4x^5 y^2$: Coeficiente $8/4=2$. En $x$: $9-5=4$. En $y$: $-3-2=-5$. Queda $2x^4 y^{-5}$, que se escribe como $\\frac{2x^4}{y^5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QH",
+    "question": "Identifica cuáles de las siguientes expresiones equivalen exactamente a $1$ (considerando que $x \\neq 0$):\\n1. $x^0$\\n2. $\\frac{x}{x}$\\n3. $x^1$\\n4. $x^2 - x^2$",
+    "image": null,
+    "options": [
+      { "text": "1, 2", "correct": true },
+      { "text": "1, 3", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier valor dividido entre sí mismo es la unidad, y toda base (distinta de cero) a la potencia cero es la unidad.",
+    "explanation": "La opción 1 por definición es $1$. La opción 2 representa un número entre sí mismo, lo cual es $1$. La opción 3 es $x$ y la opción 4 es $0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QI",
+    "question": "Relaciona las siguientes operaciones algebraicas con su respectivo resultado:\\nI. $3x^2 \\cdot 2x^4$\\nII. $(2x^3)^2$\\nIII. $\\frac{12x^8}{2x^2}$\\n\\nA. $6x^6$\\nB. $4x^6$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-A", "correct": true },
+      { "text": "I-B, II-A, III-B", "correct": false },
+      { "text": "I-A, II-A, III-B", "correct": false },
+      { "text": "I-B, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve de forma independiente. Verifica cuidadosamente los coeficientes numéricos en cada caso.",
+    "explanation": "Para I: $3 \\cdot 2 = 6$ y $x^{2+4} = x^6$, resultado $6x^6$. Para II: $2^2 = 4$ y $(x^3)^2 = x^6$, resultado $4x^6$. Para III: $12/2 = 6$ y $x^{8-2} = x^6$, resultado $6x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QJ",
+    "question": "Completa el siguiente enunciado sobre las propiedades de las potencias: 'Todo número o literal diferente de cero elevado al exponente cero es igual a ______.'",
+    "image": null,
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "x", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes deducirlo de $x^a / x^a = x^{a-a} = x^0$. Si divides un número entre sí mismo, ¿qué obtienes?",
+    "explanation": "Por convención y propiedades algebraicas comprobables ($a^n/a^n = 1$ y $a^{n-n} = a^0$), cualquier base distinta de cero a la potencia cero equivale a la unidad ($1$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QK",
+    "question": "Simplifica el siguiente monomio aplicando la distribución del exponente: $(-3a^2 b^4)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$-27a^6 b^{12}$", "correct": true },
+      { "text": "$27a^6 b^{12}$", "correct": false },
+      { "text": "$-9a^5 b^7$", "correct": false },
+      { "text": "$9a^6 b^{12}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuidado con el signo negativo elevado a una potencia impar, debe mantenerse negativo.",
+    "explanation": "Elevamos cada factor al cubo: $(-3)^3 = -27$; $(a^2)^3 = a^6$; $(b^4)^3 = b^{12}$. Resultado total: $-27a^6 b^{12}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QL",
+    "question": "Realiza la división de potencias $\\frac{c^8}{c^8}$ asumiendo que $c \\neq 0$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$0$", "correct": false },
+      { "text": "$c$", "correct": false },
+      { "text": "$c^{16}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Si restas los exponentes, obtendrás $c^0$.",
+    "explanation": "Por regla de exponentes $\\frac{c^8}{c^8} = c^{8-8} = c^0 = 1$. Lógicamente, cualquier cantidad dividida entre sí misma da 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QM",
+    "question": "Realiza el producto algebraico $(-2x^4)(-5x^2)$.",
+    "image": null,
+    "options": [
+      { "text": "$10x^6$", "correct": true },
+      { "text": "$-10x^6$", "correct": false },
+      { "text": "$10x^8$", "correct": false },
+      { "text": "$-10x^8$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica ley de los signos para los coeficientes y suma los exponentes de la literal.",
+    "explanation": "Multiplicando coeficientes: $(-2) \\cdot (-5) = 10$. Multiplicando variables: $x^4 \\cdot x^2 = x^{4+2} = x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QN",
+    "question": "Simplifica la expresión $\\left( \\frac{x^4 y^2}{x^2 y^5} \\right)^{-1}$ eliminando los exponentes negativos en el resultado final.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{y^3}{x^2}$", "correct": true },
+      { "text": "$\\frac{x^2}{y^3}$", "correct": false },
+      { "text": "$x^2 y^3$", "correct": false },
+      { "text": "$\\frac{1}{x^2 y^3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes aplicar el exponente $-1$ invirtiendo la fracción inicial antes de simplificar, o simplificar lo de adentro y luego invertir.",
+    "explanation": "Simplificando el interior: $x^{4-2}y^{2-5} = x^2 y^{-3}$. Aplicando el inverso a $(x^2 y^{-3})^{-1}$, obtenemos $x^{-2} y^3$, que sin exponentes negativos se expresa como $\\frac{y^3}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QO",
+    "question": "Determina el valor simplificado de $b^1$.",
+    "image": null,
+    "options": [
+      { "text": "$b$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$0$", "correct": false },
+      { "text": "$b^2$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier cantidad elevada a la primera potencia mantiene su valor idéntico.",
+    "explanation": "El exponente $1$ significa que la base no se multiplica reiteradamente, se mantiene como está: $b^1 = b$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QP",
+    "question": "Simplifica la expresión $(x^2 y^3)^5$.",
+    "image": null,
+    "options": [
+      { "text": "$x^{10} y^{15}$", "correct": true },
+      { "text": "$x^7 y^8$", "correct": false },
+      { "text": "$x^{32} y^{243}$", "correct": false },
+      { "text": "$x^2 y^{15}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente exterior multiplica a cada uno de los exponentes ubicados dentro del paréntesis.",
+    "explanation": "Aplicando la propiedad distributiva para exponentes en un producto, multiplicamos $2 \\cdot 5 = 10$ y $3 \\cdot 5 = 15$. El resultado es $x^{10} y^{15}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QQ",
+    "question": "Al simplificar completamente la fracción $\\frac{(x^2)^3 \\cdot x^{-2}}{x^5}$, el exponente resultante de la literal $x$ es ______.",
+    "image": null,
+    "options": [
+      { "text": "-1", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve la potencia superior, suma exponentes horizontales en el numerador y, finalmente, resta el exponente del denominador.",
+    "explanation": "Numerador: $(x^2)^3 = x^6$. Multiplicado por $x^{-2}$ da $x^{6-2} = x^4$. Dividiendo por el denominador $x^5$, restamos $4 - 5 = -1$. El resultado es $x^{-1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QR",
+    "question": "Halla la expresión equivalente de $(d^2)^1$.",
+    "image": null,
+    "options": [
+      { "text": "$d^2$", "correct": true },
+      { "text": "$d^3$", "correct": false },
+      { "text": "$d$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el exponente interno por el externo.",
+    "explanation": "Aplicando la ley $(x^a)^b = x^{a \\cdot b}$, obtenemos $2 \\cdot 1 = 2$, por lo que el resultado es $d^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QS",
+    "question": "Identifica cuáles de las siguientes expresiones tienen como resultado simplificado $x^{10}$:\\n1. $(x^2)^5$\\n2. $x^5 \\cdot x^2$\\n3. $\\frac{x^{12}}{x^2}$\\n4. $x^5 + x^5$",
+    "image": null,
+    "options": [
+      { "text": "1, 3", "correct": true },
+      { "text": "1, 2", "correct": false },
+      { "text": "2, 4", "correct": false },
+      { "text": "3, 4", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La opción 4 es una suma, no se aplican directamente las leyes de exponentes sino suma de términos semejantes.",
+    "explanation": "Opción 1: $(x^2)^5 = x^{10}$. Opción 2: $x^{5+2} = x^7$. Opción 3: $x^{12-2} = x^{10}$. Opción 4: suma $2x^5$. Por ende, la 1 y 3 son correctas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QT",
+    "question": "Relaciona cada operación con su resultado correspondiente:\\nI. $\\frac{(2x)^3}{2x}$\\nII. $(2x^2)^2 \\cdot x^{-1}$\\n\\nA. $4x^2$\\nB. $4x^3$\\nC. $2x^2$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B", "correct": true },
+      { "text": "I-B, II-A", "correct": false },
+      { "text": "I-A, II-C", "correct": false },
+      { "text": "I-C, II-B", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el exponente exterior y opera con el coeficiente numérico. Recuerda que en $\\frac{(2x)^3}{2x}$, el denominador tiene exponente 1 implícito.",
+    "explanation": "Para I: $\\frac{8x^3}{2x} = 4x^{3-1} = 4x^2$. Para II: $(4x^4) \\cdot x^{-1} = 4x^{4-1} = 4x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QU",
+    "question": "Resuelve la siguiente multiplicación de potencias: $w^6 \\cdot w$.",
+    "image": null,
+    "options": [
+      { "text": "$w^7$", "correct": true },
+      { "text": "$w^6$", "correct": false },
+      { "text": "$w^5$", "correct": false },
+      { "text": "$w^{12}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier literal sin exponente explícito se asume que tiene exponente 1.",
+    "explanation": "La expresión es equivalente a $w^6 \\cdot w^1$. Al sumar los exponentes obtenemos $w^{6+1} = w^7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QV",
+    "question": "Simplifica el cociente de los monomios $\\frac{15x^7}{3x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$5x^4$", "correct": true },
+      { "text": "$12x^4$", "correct": false },
+      { "text": "$5x^{10}$", "correct": false },
+      { "text": "$18x^4$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide los coeficientes numéricos de manera convencional y aplica la resta de exponentes en la variable $x$.",
+    "explanation": "Dividiendo los coeficientes: $15 / 3 = 5$. Restando exponentes de bases iguales: $7 - 3 = 4$. El resultado es $5x^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QW",
+    "question": "Durante un ejercicio matemático en CEPREDIX, se debe simplificar $\\left( \\frac{4a^3 b^2}{2ab} \\right)^2$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$4a^4 b^2$", "correct": true },
+      { "text": "$2a^4 b^2$", "correct": false },
+      { "text": "$4a^5 b^3$", "correct": false },
+      { "text": "$8a^4 b^2$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Para facilitar el proceso, simplifica primero la fracción dentro del paréntesis y posteriormente eleva al cuadrado el resultado.",
+    "explanation": "Simplificando el interior: $4/2=2$; $a^{3-1}=a^2$; $b^{2-1}=b$. Nos queda $(2a^2 b)^2$. Elevando al cuadrado: $2^2=4$, $(a^2)^2=a^4$, $(b)^2=b^2$. Resultado: $4a^4 b^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QX",
+    "question": "Relaciona de manera correcta cada regla general de los exponentes:\\nI. $x^a \\cdot x^b$\\nII. $(x^a)^b$\\nIII. $\\frac{x^a}{x^b}$\\n\\nA. $x^{a+b}$\\nB. $x^{a \\cdot b}$\\nC. $x^{a-b}$",
+    "image": null,
+    "options": [
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si la operación en la base es una multiplicación (suma arriba), potencia (multiplica arriba) o división (resta arriba).",
+    "explanation": "El producto de potencias suma los exponentes (A). La potencia de potencia los multiplica (B). El cociente de potencias los resta (C).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QY",
+    "question": "Al efectuar el producto de $4x^3$ y $5x^6$, el coeficiente del monomio resultante es ______ y el exponente correspondiente de la variable $x$ es ______.",
+    "image": null,
+    "options": [
+      { "text": "$20$ y $9$", "correct": true },
+      { "text": "$20$ y $18$", "correct": false },
+      { "text": "$9$ y $9$", "correct": false },
+      { "text": "$9$ y $18$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los coeficientes se multiplican de la manera ordinaria mientras que los exponentes se suman.",
+    "explanation": "Multiplicando coeficientes numéricos: $4 \\cdot 5 = 20$. Sumando exponentes de $x$: $3 + 6 = 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73QZ",
+    "question": "Señala cuáles de las siguientes expresiones matemáticas son totalmente equivalentes a $y^{-2}$:\\n1. $\\frac{1}{y^2}$\\n2. $\\frac{y^4}{y^6}$\\n3. $(y^2)^{-1}$\\n4. $y^{-1} \\cdot y^{-1}$",
+    "image": null,
+    "options": [
+      { "text": "1, 2, 3, 4", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica una ley distinta de exponentes a cada una para comprobar si arriban al mismo término.",
+    "explanation": "La 1 aplica exponente negativo directo. La 2 es cociente: $y^{4-6} = y^{-2}$. La 3 es potencia de potencia: $2(-1) = -2$. La 4 es producto: $-1 + (-1) = -2$. Todas son correctas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73RA",
+    "question": "Simplifica la siguiente expresión que involucra múltiples factores de la misma base: $k^4 \\cdot k^2 \\cdot k$.",
+    "image": null,
+    "options": [
+      { "text": "$k^7$", "correct": true },
+      { "text": "$k^6$", "correct": false },
+      { "text": "$k^8$", "correct": false },
+      { "text": "$k^5$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma todos los exponentes y no olvides que la última letra $k$ tiene un exponente no escrito equivalente a 1.",
+    "explanation": "Al sumar los exponentes tenemos $4 + 2 + 1 = 7$. El monomio simplificado es $k^7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73RB",
+    "question": "Determina el resultado de elevar al cuadrado la siguiente expresión algebraica: $(-x^3)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$x^6$", "correct": true },
+      { "text": "$-x^6$", "correct": false },
+      { "text": "$x^5$", "correct": false },
+      { "text": "$-x^5$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cualquier cantidad negativa elevada a una potencia par resulta siempre en un valor positivo.",
+    "explanation": "El signo negativo se eleva al cuadrado, volviéndose positivo ($(-1)^2 = 1$). El exponente multiplica: $(x^3)^2 = x^6$. Queda $x^6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73RC",
+    "question": "Simplifica completamente la fracción $\\frac{ (3x^{-1} y^2)^2 }{ x^{-4} y }$.",
+    "image": null,
+    "options": [
+      { "text": "$9x^2 y^3$", "correct": true },
+      { "text": "$3x^2 y^3$", "correct": false },
+      { "text": "$9x^{-6} y^3$", "correct": false },
+      { "text": "$9x^2 y^5$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Desarrolla primero el numerador distribuyendo el cuadrado. Luego, al dividir, no olvides la ley de signos al restar exponentes negativos.",
+    "explanation": "Numerador: $3^2 (x^{-1})^2 (y^2)^2 = 9x^{-2} y^4$. Dividiendo por el denominador $x^{-4} y^1$: $x^{-2 - (-4)} = x^2$ y $y^{4 - 1} = y^3$. El resultado es $9x^2 y^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73RD",
+    "question": "Encuentra la expresión equivalente luego de dividir el monomio $\\frac{ -20 m^6 n^4 }{ 4 m^2 n^3 }$.",
+    "image": null,
+    "options": [
+      { "text": "$-5 m^4 n$", "correct": true },
+      { "text": "$5 m^4 n$", "correct": false },
+      { "text": "$-5 m^3 n$", "correct": false },
+      { "text": "$-24 m^4 n$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa la división entre coeficientes considerando la ley de los signos y luego resta los exponentes literales.",
+    "explanation": "Coeficientes: $-20 / 4 = -5$. Base $m$: $6 - 2 = 4$. Base $n$: $4 - 3 = 1$. Se estructura el resultado como $-5 m^4 n$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73RE",
+    "question": "Aplica la propiedad distributiva de las potencias sobre cocientes para desarrollar $\\left(\\frac{x}{y}\\right)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{x^3}{y^3}$", "correct": true },
+      { "text": "$\\frac{x^3}{y}$", "correct": false },
+      { "text": "$\\frac{x}{y^3}$", "correct": false },
+      { "text": "$x^3 y^3$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "✖ MAT ALG"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El exponente exterior a la fracción afecta individualmente a cada uno de los elementos de la división.",
+    "explanation": "De acuerdo con la regla $(a/b)^n = a^n / b^n$, el exponente $3$ se coloca sobre la $x$ y también sobre la $y$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
