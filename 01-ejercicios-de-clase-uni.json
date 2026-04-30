@@ -4048,5 +4048,545 @@
     "explanation": "Con $u = 1 - x$, $du = -dx$. Los límites cambian: si $x=0 \\rightarrow u=1$, si $x=1 \\rightarrow u=0$. La integral es $-\\int_{1}^{0} u^{10} \\, du = \\int_{0}^{1} u^{10} \\, du = \\left[\\frac{u^{11}}{11}\\right]_0^1 = \\frac{1}{11}$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73ON",
+    "question": "¿Qué tipo de reacción ocurre cuando varias sustancias (elementos o compuestos) se combinan formando una sustancia más compleja?",
+    "image": null,
+    "options": [
+      { "text": "Reacción de síntesis", "correct": true },
+      { "text": "Reacción de descomposición", "correct": false },
+      { "text": "Reacción de intercambio", "correct": false },
+      { "text": "Reacción de neutralización", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en la creación de algo nuevo y más grande a partir de sus componentes básicos.",
+    "explanation": "Las reacciones de síntesis (o de adición) son aquellas en las que dos o más reactivos se unen químicamente para formar un único producto de mayor complejidad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OO",
+    "question": "Durante una clase en el CEPREDIX, se analiza la siguiente ecuación química: $SO_3 + H_2O \\rightarrow H_2SO_4$. ¿A qué clasificación corresponde esta reacción?",
+    "image": null,
+    "options": [
+      { "text": "Reacción de descomposición", "correct": false },
+      { "text": "Reacción de síntesis", "correct": true },
+      { "text": "Reacción de sustitución", "correct": false },
+      { "text": "Reacción de neutralización", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que hay dos reactivos a la izquierda que se unen para formar un único producto a la derecha.",
+    "explanation": "Es una reacción de síntesis, ya que el trióxido de azufre ($SO_3$) y el agua ($H_2O$) reaccionan combinándose en una sola molécula más compleja, el ácido sulfúrico ($H_2SO_4$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OP",
+    "question": "¿Cómo se llama la reacción química en la que una sustancia compleja se transforma en otras de estructura más simple?",
+    "image": null,
+    "options": [
+      { "text": "Reacción de descomposición", "correct": true },
+      { "text": "Reacción de síntesis", "correct": false },
+      { "text": "Reacción de intercambio doble", "correct": false },
+      { "text": "Reacción de desplazamiento simple", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'des-' indica separación o inversión del proceso de construcción molecular.",
+    "explanation": "En una reacción de descomposición, un compuesto inicial se divide o fractura en dos o más sustancias más simples, a menudo mediante el suministro de calor o energía eléctrica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OQ",
+    "question": "La ecuación química $CuCl_2 \\rightarrow Cl_2 + Cu$ representa un proceso de:",
+    "image": null,
+    "options": [
+      { "text": "Intercambio doble", "correct": false },
+      { "text": "Neutralización", "correct": false },
+      { "text": "Descomposición", "correct": true },
+      { "text": "Síntesis", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Nota que partimos de un solo reactivo para obtener dos productos totalmente distintos.",
+    "explanation": "El cloruro de cobre (II) se separa en sus dos elementos constituyentes puros (cloro diatómico y cobre metálico), un patrón característico de la reacción de descomposición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OR",
+    "question": "¿En qué tipo de reacción un átomo o ion pasa a ocupar el lugar de otro en un compuesto diferente?",
+    "image": null,
+    "options": [
+      { "text": "Sustitución o desplazamiento", "correct": true },
+      { "text": "Descomposición", "correct": false },
+      { "text": "Síntesis molecular", "correct": false },
+      { "text": "Combustión", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Imagina la analogía de una persona cediendo su lugar a otra en un equipo para tomar su posición.",
+    "explanation": "En una reacción de desplazamiento simple (o sustitución), un elemento químicamente más reactivo desaloja y sustituye a otro elemento menos reactivo dentro de una molécula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OS",
+    "question": "Un estudiante del CEPREDIX observa la siguiente reacción en el laboratorio: $CuCl_2 + Zn \\rightarrow ZnCl_2 + Cu$. Este proceso experimental es un claro ejemplo de una reacción de:",
+    "image": null,
+    "options": [
+      { "text": "Sustitución o desplazamiento simple", "correct": true },
+      { "text": "Síntesis catalítica", "correct": false },
+      { "text": "Neutralización ácido-base", "correct": false },
+      { "text": "Doble desplazamiento", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica de qué manera el zinc atómico actúa sobre la molécula de cloruro, forzando la salida del cobre metálico.",
+    "explanation": "El zinc ($Zn$) tiene mayor reactividad que el cobre ($Cu$), por lo que lo desplaza de su sal original ($CuCl_2$), formando así cloruro de zinc y precipitando cobre metálico en solitario.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OT",
+    "question": "Completa la definición química: 'En una reacción de doble ______, dos elementos de compuestos iónicos distintos intercambian sus ______ para formar nuevos ______.'",
+    "image": null,
+    "options": [
+      { "text": "Sustitución, posiciones, compuestos", "correct": true },
+      { "text": "Neutralización, electrones, iones", "correct": false },
+      { "text": "Descomposición, cargas, enlaces", "correct": false },
+      { "text": "Síntesis, átomos, reactivos", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Se trata de un cruce simultáneo entre los componentes de dos moléculas, donde ambos 'cambian de pareja'.",
+    "explanation": "En una reacción de doble sustitución o metátesis, los cationes y aniones de dos compuestos iónicos se cruzan y combinan de forma recíproca, resultando en dos compuestos químicos nuevos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OU",
+    "question": "La ecuación $NaCl + AgNO_3 \\rightarrow NaNO_3 + AgCl \\downarrow$ corresponde a una reacción de:",
+    "image": null,
+    "options": [
+      { "text": "Síntesis inorgánica", "correct": false },
+      { "text": "Intercambio doble", "correct": true },
+      { "text": "Desplazamiento simple", "correct": false },
+      { "text": "Neutralización parcial", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos reactivos iónicos se separan al reaccionar e intercambian a sus respectivos aniones en el proceso.",
+    "explanation": "El sodio y la plata intercambian posiciones con los aniones cloruro y nitrato. Es una reacción típica de intercambio doble donde el cloruro de plata ($AgCl$) forma un precipitado, indicado por la flecha.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OV",
+    "question": "¿Cuál es el proceso químico en el que un compuesto ácido reacciona con un compuesto base para producir de manera general una sal y agua?",
+    "image": null,
+    "options": [
+      { "text": "Reacción de neutralización", "correct": true },
+      { "text": "Reacción de sustitución iónica", "correct": false },
+      { "text": "Reacción de síntesis directa", "correct": false },
+      { "text": "Reacción de precipitación", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La reacción recibe este nombre porque busca anular las propiedades extremas del pH para acercarlas al valor de 7.",
+    "explanation": "La neutralización es un caso particular de la reacción de doble desplazamiento donde los iones $H^+$ del ácido se combinan con los iones $OH^-$ de la base, creando agua ($H_2O$), mientras que el resto forma una sal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OW",
+    "question": "La reacción expresada por la fórmula $HCl + NaOH \\rightarrow NaCl + H_2O$ es el ejemplo clásico de una reacción de:",
+    "image": null,
+    "options": [
+      { "text": "Neutralización", "correct": true },
+      { "text": "Intercambio iónico no acuoso", "correct": false },
+      { "text": "Sustitución directa en medio básico", "correct": false },
+      { "text": "Descomposición y precipitación", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta fórmula muestra la interacción directa entre un ácido fuerte y una base muy fuerte generando productos estables.",
+    "explanation": "Al reaccionar un ácido inorgánico como el clorhídrico ($HCl$) con hidróxido de sodio ($NaOH$), se produce sal común ($NaCl$) y agua, proceso que anula las características cáusticas y ácidas originales.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OX",
+    "question": "En química orgánica, al representar la estructura general de familias de compuestos funcionales, ¿qué significado tiene la letra 'R'?",
+    "image": null,
+    "options": [
+      { "text": "Un átomo de radio libre", "correct": false },
+      { "text": "Una cadena alifática o radical orgánico", "correct": true },
+      { "text": "Una molécula muy reactiva con radicales libres", "correct": false },
+      { "text": "La marca de un enlace doble covalente", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta notación alude a cualquier 'resto' o conjunto de carbonos e hidrógenos variables que se enlazan a la región clave de la molécula.",
+    "explanation": "En esquemas de moléculas complejas, 'R' representa un grupo o radical alquilo (y a veces arilo), lo cual indica que la cadena de carbonos puede variar sin alterar la identidad del grupo funcional principal de la familia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OY",
+    "question": "Identifica las características estructurales y químicas que corresponden exclusivamente a los alcanos en el siguiente listado:\n1. Tienen solo enlaces simples covalentes $C-C$\n2. Contienen al menos un enlace triple $C\\equiv C$\n3. Su fórmula molecular general obedece a $C_nH_{2n+2}$\n4. Son conocidos en la industria petroquímica como parafinas\n5. Son hidrocarburos clasificados como insaturados",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que estos compuestos tienen su capacidad de enlazamiento máxima con átomos de hidrógeno, por ende, carecen de enlaces dobles o triples.",
+    "explanation": "Los alcanos son hidrocarburos de cadena saturada unidos únicamente por enlaces simples y siguen la fórmula matemática general de adición $C_nH_{2n+2}$. Dada su poca reactividad general se les denomina parafinas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73OZ",
+    "question": "Relaciona correctamente el compuesto orgánico particular con su respectiva familia o tipo de hidrocarburo:\nI. Propano\nII. Eteno\nIII. Propino\n\nA. Alcano alifático\nB. Alqueno\nC. Alquino",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La nomenclatura internacional IUPAC usa el sufijo '-ano' para los simples, '-eno' para los dobles y '-ino' para los triples enlaces.",
+    "explanation": "Las reglas sistemáticas dictan que el propano contiene enlaces sencillos (alcano), el eteno presenta un doble enlace en su molécula (alqueno) y el propino cuenta con un triple enlace principal (alquino).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PA",
+    "question": "¿Qué grupo funcional característico en química orgánica tiene como estructura general básica la forma $R-OH$?",
+    "image": null,
+    "options": [
+      { "text": "Éter etílico", "correct": false },
+      { "text": "Ácido carboxílico", "correct": false },
+      { "text": "Alcohol", "correct": true },
+      { "text": "Cetonas cíclicas", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la familia química a la que pertenece el etanol, un compuesto ampliamente utilizado como desinfectante.",
+    "explanation": "El grupo hidroxilo ($-OH$) cuando se une a un átomo de carbono saturado de una cadena alifática (grupo $R$), confiere las características que definen bioquímicamente a los alcoholes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PB",
+    "question": "El dietiléter, con estructura $CH_3-CH_2-O-CH_2-CH_3$, es un compuesto representativo de una familia orgánica caracterizada por ubicar un átomo de oxígeno justo al centro, enlazando dos cadenas de carbono. ¿A qué grupo pertenece?",
+    "image": null,
+    "options": [
+      { "text": "Ésteres", "correct": false },
+      { "text": "Éteres", "correct": true },
+      { "text": "Aldehídos aromáticos", "correct": false },
+      { "text": "Amidas", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La fórmula general que engloba a estas sustancias oxigenadas simples de puente es la forma $R-O-R'$.",
+    "explanation": "Los éteres se identifican estructuralmente por la presencia de un oxígeno que funge como puente en la molécula uniendo a dos radicales o esqueletos alquílicos idénticos o distintos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PC",
+    "question": "Identifica de entre las siguientes opciones la estructura funcional general que describe a un grupo carbonilo dentro de una cetona típica.",
+    "image": null,
+    "options": [
+      { "text": "$R-CO-R'$", "correct": true },
+      { "text": "$R-O-R'$", "correct": false },
+      { "text": "$R-CHO$", "correct": false },
+      { "text": "$R-COOH$", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El carbono enlazado doblemente al oxígeno debe ubicarse en una posición secundaria de la cadena para esta familia de compuestos.",
+    "explanation": "Las cetonas tienen siempre su grupo carbonilo (átomo de carbono con doble enlace hacia el oxígeno) unido estructuralmente a dos radicales de carbono ($R$ y $R'$), a diferencia de los aldehídos, donde el carbonilo va en un extremo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PD",
+    "question": "En los laboratorios del CEPREDIX se utiliza comúnmente la propanona en las tareas de limpieza y purificación de material de vidrio por sus excelentes propiedades como solvente. ¿Con qué nombre comercial y de uso cotidiano se conoce más a este compuesto?",
+    "image": null,
+    "options": [
+      { "text": "Propanal líquido", "correct": false },
+      { "text": "Ácido acético débil", "correct": false },
+      { "text": "Acetona", "correct": true },
+      { "text": "Etanol rebajado", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este es un disolvente orgánico que frecuentemente se usa en las formulaciones cosméticas para retirar el esmalte de las uñas.",
+    "explanation": "La propanona ($CH_3-CO-CH_3$) se distingue como la cetona más simple posible al tener únicamente tres carbonos. Internacionalmente es conocida por su nombre común: la acetona.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PE",
+    "question": "¿Qué importante familia de moléculas orgánicas cuenta como grupo funcional primordial al carboxilo, representado por la estructura general $R-COOH$?",
+    "image": null,
+    "options": [
+      { "text": "Aldehídos puros", "correct": false },
+      { "text": "Ácidos carboxílicos", "correct": true },
+      { "text": "Cetonas alifáticas", "correct": false },
+      { "text": "Ésteres aromáticos", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Este grupo confiere la propiedad de liberar protones en soluciones acuosas originando un carácter ácido a la sustancia.",
+    "explanation": "El grupo funcional en terminación $-COOH$ combina un carbonilo con un hidroxilo en un solo carbono de extremo de cadena; esta particularidad estructural es exclusiva de los ácidos carboxílicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PF",
+    "question": "El ácido acético ($CH_3COOH$), que es el ingrediente fundamental responsable de darle el olor penetrante y sabor agrio al vinagre común, pertenece directamente al grupo de los:",
+    "image": null,
+    "options": [
+      { "text": "Ésteres orgánicos volátiles", "correct": false },
+      { "text": "Alcoholes primarios fuertes", "correct": false },
+      { "text": "Amidas aromáticas", "correct": false },
+      { "text": "Ácidos carboxílicos", "correct": true }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su propio nombre común sugiere directamente la gran familia principal en química orgánica a la cual pertenece su esqueleto molecular.",
+    "explanation": "Al integrar a la molécula el grupo funcional $-COOH$, el ácido acético, también llamado por la IUPAC ácido etanoico, se clasifica como el segundo ácido carboxílico más pequeño, derivando sus propiedades de ahí.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PG",
+    "question": "La estructura general química $R-NH_2$, la cual se forma por la simple sustitución de un átomo de hidrógeno en el amoníaco utilizando un radical orgánico tipo alquilo, corresponde a una:",
+    "image": null,
+    "options": [
+      { "text": "Amina", "correct": true },
+      { "text": "Amida", "correct": false },
+      { "text": "Nitrilo alifático", "correct": false },
+      { "text": "Sal nitrogenada", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La terminación o sufijo es clave aquí, y es un grupo funcional básico de los bloques constructores proteicos.",
+    "explanation": "Las aminas se conciben como compuestos derivados principalmente del amoníaco inorgánico ($NH_3$); cuando se sustituye un único hidrógeno por una cadena $R$, estamos frente a una amina primaria.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PH",
+    "question": "El compuesto etanoato de metilo, de estructura $CH_3COOCH_3$, es conocido por ser el constituyente químico responsable de determinados aromas frutales artificiales. Esta sustancia se clasifica químicamente en la familia de los:",
+    "image": null,
+    "options": [
+      { "text": "Cetonas y aldehídos", "correct": false },
+      { "text": "Ácidos grasos oxigenados", "correct": false },
+      { "text": "Ésteres", "correct": true },
+      { "text": "Éteres primarios", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Este grupo es a menudo producto de una reacción química denominada condensación entre un ácido carboxílico y un alcohol, expulsando agua en el acto.",
+    "explanation": "Los ésteres orgánicos derivan de la reacción de los ácidos carboxílicos donde la parte del grupo hidroxilo es cambiada por un radical originado en un alcohol orgánico; suelen poseer fuertes y agradables esencias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PI",
+    "question": "La fórmula genérica $R-CO-NH-R'$ agrupa de forma simultánea e indivisible a un grupo carbonilo enlazado directamente a un átomo de nitrógeno central en su estructura química. ¿A qué grupo funcional corresponde sin lugar a dudas?",
+    "image": null,
+    "options": [
+      { "text": "Amida", "correct": true },
+      { "text": "Amina secundaria débil", "correct": false },
+      { "text": "Cetona cíclica básica", "correct": false },
+      { "text": "Nitrilo ramificado", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Es precisamente este el enlace estructural fundamental responsable de mantener juntos a los grandes polímeros orgánicos conocidos como proteínas biológicas.",
+    "explanation": "Las amidas muestran como rasgo característico un grupo acilo (el carbonilo, $C=O$) que va acoplado íntegramente a un nitrógeno; por ello, esta estructura en particular es representativa de una amina sustituida al carbonilo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PJ",
+    "question": "Identifica dentro de la siguiente lista cuáles son los tres tipos primordiales de enlaces químicos intramoleculares que actúan uniendo íntimamente a los átomos para constituir toda la materia conocida:",
+    "image": null,
+    "options": [
+      { "text": "Iónico, simple por puente de hidrógeno y doble enlace covalente", "correct": false },
+      { "text": "Metálico, enlace salino mixto y fuerza dispersiva polar", "correct": false },
+      { "text": "Covalente polar estricto, no polar y puente disulfuro de azufre", "correct": false },
+      { "text": "Iónico, covalente y metálico", "correct": true }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en las tres grandes posibilidades electrónicas interatómicas: el dar electrones, compartir de forma pareja o agrupar en un sistema deslocalizado.",
+    "explanation": "Las clasificaciones macro principales de los fuertes enlaces químicos atómicos y moleculares son el enlace de tipo iónico, las variantes del enlace covalente y por último el extenso enlace metálico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PK",
+    "question": "Completa el sentido de la frase: 'El enlace tipo ______ toma su forma definitiva producto de la transferencia sustancial de electrones, yendo de un ______ donador a un ______ aceptor, originando una fuerte red electrostática.'",
+    "image": null,
+    "options": [
+      { "text": "Iónico, metal, no metal", "correct": true },
+      { "text": "Covalente, no metal, metal iónico", "correct": false },
+      { "text": "Metálico, metal reactivo, catión en red", "correct": false },
+      { "text": "Coordinado general, donante no metálico, anión", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Imagina la marcada interacción existente en sustancias como la sal, uniendo átomos con inmensa disparidad en sus valores de electronegatividad relativa.",
+    "explanation": "En el desarrollo de un enlace iónico estricto, un metal entrega o cede definitivamente electrones logrando una carga positiva cationica estable, mientras el no metal los acepta formando un estado negativo o aniónico estable.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PL",
+    "question": "En un experimento de laboratorio riguroso del CEPREDIX, se examina meticulosamente la estructura en estado cristalino del cloruro de sodio ($NaCl$) midiendo sus parámetros termoeléctricos. ¿Qué clase de enlace es dominante dentro del acomodo atómico de este sólido?",
+    "image": null,
+    "options": [
+      { "text": "Fuerzas de Van der Waals", "correct": false },
+      { "text": "Metálico altamente cristalizado", "correct": false },
+      { "text": "Iónico", "correct": true },
+      { "text": "Covalente parcialmente polar", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta red estructural está edificada completamente a partir de un elemento metálico perteneciente a los metales alcalinos enlazado a un halógeno no metálico.",
+    "explanation": "El sodio en estado basal transfiere inmediatamente un único electrón disponible de su última capa o valencia hacia la órbita de un cloro dispuesto, originando una retícula tridimensional iónica inquebrantable de orden regular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PM",
+    "question": "¿Cuál es la característica fenomenológica que define de forma estricta y absoluta el funcionamiento de un enlace de tipo covalente frente a los otros?",
+    "image": null,
+    "options": [
+      { "text": "Formación de grandes nubes estacionarias que se hallan alrededor de iones deslocalizados de metales idénticos.", "correct": false },
+      { "text": "Compartición simétrica o diferencial de electrones de valencia ocurriendo exclusivamente entre dos átomos no metálicos.", "correct": true },
+      { "text": "Transferencia real y final de cargas electrónicas completas entre una pareja atómica formada por metal y no metal.", "correct": false },
+      { "text": "Atracciones fugaces a muy baja energía generadas temporalmente por dipolos moleculares momentáneos al colisionar.", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza semánticamente que la propia raíz de la palabra alude íntimamente a tener una 'valencia cooperativa' buscando un estado estable octeto.",
+    "explanation": "Los enlaces propiamente covalentes requieren de elementos que posean valores altos y a la vez parecidos de potencial electronegativo, resultando en que ninguno arranca al cien por ciento el electrón del otro y por consiguiente los comparten.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PN",
+    "question": "El cloruro de hidrógeno biatómico ($HCl$) es una molécula que se preserva unida íntimamente mediante la fuerza propia de un enlace covalente con carácter polar. Según el orden fundamental, ¿a qué clasificación de la tabla periódica corresponden cada uno de los átomos reactivos implicados?",
+    "image": null,
+    "options": [
+      { "text": "Tanto el hidrógeno como el cloro están clasificados como elementos de carácter no metálico", "correct": true },
+      { "text": "Se trata invariablemente de la conjunción reaccionaria entre un metal activo con un halógeno gaseoso", "correct": false },
+      { "text": "A metales y metaloides por estar localizados geográficamente en extremos muy opuestos en la tabla de los elementos", "correct": false },
+      { "text": "Ambos pertenecen a la familia o bloque estructural global considerado por los químicos como halógenos inorgánicos", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "A pesar de ubicarse en el recuadro superior del grupo 1 junto a metales pesados, el átomo de hidrógeno exhibe en realidad propiedades muy distintas para sus reacciones en comparación con elementos como el litio o el potasio.",
+    "explanation": "Si bien el hidrógeno ocupa posiciones iniciales, carece de las propiedades estructurales de un metal puro en la mayoría de condiciones estándar, por lo cual, al reaccionar con el átomo del cloro, efectúan un enlace enteramente clasificado como no metal – no metal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PO",
+    "question": "Relaciona eficientemente el respectivo tipo de fuerza o enlace atómico primario listado con aquella combinación química que más frecuentemente y de manera sistemática llega a estructurarlo:\nI. Metálico\nII. Covalente\nIII. Iónico\n\nA. Integración entre un elemento del bloque metálico reaccionando junto a otro de origen no metálico\nB. Compartición molecular entre un sistema integrado por únicamente dos elementos sin carácter metálico\nC. Uniones deslocalizadas macroestructurales entre núcleos de elementos que sólo exhiben propiedades de metales",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Un enlace iónico depende de la conjunción de los grandes extremos de la escala de la electronegatividad, mientras el covalente requiere cercanía en esas propiedades, al poseer ambos gran necesidad electrónica para llenar sus órbitas y el metálico excluye fuertemente otras naturalezas químicas.",
+    "explanation": "El enlace atómico de estructura iónica demanda forzosamente la presencia de metales y no metales opuestos polarmente, en tanto que para poder formarse el esquema covalente es imperativo disponer de no metales en la molécula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PP",
+    "question": "Cierta aleación densa elaborada con titanio fundido y partes de hierro puro evidencia un acomodo atómico rígido dentro del cual las cargas orbitantes conforman una especie de 'mar unificado de electrones', logrando proveer resistencia maleable e idónea transmisión térmica a todo el metal resultante. El principio recién enunciado detalla en gran parte a la fuerza del:",
+    "image": null,
+    "options": [
+      { "text": "Mecanismo covalente extendido y reticular tridimensional rígido", "correct": false },
+      { "text": "Enlace metálico puro", "correct": true },
+      { "text": "Patrón iónico deslocalizado y reordenado cristalográficamente", "correct": false },
+      { "text": "Vínculo coordinado electroquímicamente inerte entre las mezclas", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este concepto electrostático que integra un sistema fluido subatómico alrededor de centros rígidos positivos es indispensable y mandatorio para justificar y explicar en forma teórica y visual fenómenos macroscópicos tan familiares a todos como los intensos destellos y reflexiones de la luz incidentemente reflejada por superficies limpias de monedas o sartenes gruesas así como el gran nivel de conducción electromagnética de cables.",
+    "explanation": "Dentro de la ciencia química y bajo la rama experimental estructural orientada a explicar los sólidos complejos modernos este peculiar comportamiento ha sido formulado como el popular modelo del nivel o mar electrónico asimilado exclusivamente al enlace de todos los metales representativos y los de las zonas medias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73PQ",
+    "question": "En una simulación digital del CEPREDIX sobre estructuras tridimensionales, se muestra en detalle cómo un verdadero enlace iónico es completamente inoperante para el ensamblaje de pequeñas agrupaciones moleculares cerradas discretas en un medio natural ambiente, conformando en cambio de manera ineludible extensas macroredes con alternancia de densidades positivas y cargas negativas de geometría exacta. Dentro de la gran química experimental general moderna e inorgánica, una de estas enormes estructuras, el ejemplar del compuesto molecular $NaCl$, ha sido documentado exhaustivamente y calificado sistemáticamente como:",
+    "image": null,
+    "options": [
+      { "text": "Un tipo de compuesto categorizado como óxido metálico simple saturado derivado con densidades altas reactivas", "correct": false },
+      { "text": "El exponente clave de aquellos derivados reaccionales denominados estrictamente sales oxigenadas poliatómicas", "correct": false },
+      { "text": "El representante inorgánico primario dentro de la familia atómica definida y documentada como sal haloidea fundamental", "correct": true },
+      { "text": "Un sistema básico reactivo clasificado ampliamente por los manuales como disolvente fuerte fuertemente electrolítico", "correct": false }
+    ],
+    "uni_tags": ["⚗ QUÍMICA", "👨‍🏫 CLASE"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Toma en consideración elemental al deducir o recordar que la composición empírica o fórmula general de la molécula exhibida carece integralmente del átomo inorgánico oxígeno inserto en la malla geométrica y está confeccionado en laboratorio solo por un metal alcalino altamente polarizable al reaccionar intensamente y un peligroso gas diatómico halogenado.",
+    "explanation": "El cloruro puro y cristalizado conteniendo al metal representativo sodio ($NaCl$) ha sido designado mediante las normas del nomenclador IUPAC como perteneciente a la rama exclusiva de las sales inorgánicas tipo haloideas dada su obvia carencia estructural completa de átomos de la especie del gas oxígeno insertos interinamente en el retículo polarizado macroscópico final y sus características al derivarse del hidrógeno inorgánico y haluros en sistemas acuosos clásicos.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
