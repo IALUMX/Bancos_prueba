@@ -5668,5 +5668,725 @@
     "explanation": "$\\int (x^2-6x)^3 (2x-6) dx = \\int v^3 dv = \\frac{v^4}{4} + C = \\frac{(x^2-6x)^4}{4} + C$",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73RZ",
+    "question": "De acuerdo con el Dogma Central de la Biología Molecular, ¿cuál es la dirección correcta en la que fluye la información genética en una célula?",
+    "image": null,
+    "options": [
+      { "text": "Proteína $\\to$ ARN $\\to$ ADN", "correct": false },
+      { "text": "ARN $\\to$ Proteína $\\to$ ADN", "correct": false },
+      { "text": "ADN $\\to$ ARN $\\to$ Proteína", "correct": true },
+      { "text": "ADN $\\to$ Proteína $\\to$ ARN", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda el orden lógico desde el núcleo hasta el ribosoma para formar el producto final.",
+    "explanation": "La información fluye del ADN al ARN mediante la transcripción, y del ARN a la proteína mediante la traducción.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SA",
+    "question": "¿En qué compartimento de una célula eucariota se lleva a cabo el proceso de transcripción?",
+    "image": null,
+    "options": [
+      { "text": "Citoplasma", "correct": false },
+      { "text": "Ribosomas", "correct": false },
+      { "text": "Mitocondrias", "correct": false },
+      { "text": "Núcleo", "correct": true }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el lugar de la célula donde se almacena y protege el material genético primario.",
+    "explanation": "La transcripción ocurre en el núcleo, donde la ARN polimerasa copia el gen de ADN a ARN mensajero.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SB",
+    "question": "¿Qué consecuencia directa tendría una mutación que impida la correcta unión del ribosoma al ARN mensajero?",
+    "image": null,
+    "options": [
+      { "text": "Fallo en la replicación celular", "correct": false },
+      { "text": "Alteración en la traducción a proteína", "correct": true },
+      { "text": "Detención del empalme ('splicing') de intrones", "correct": false },
+      { "text": "Degradación inmediata del ADN", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los ribosomas son la maquinaria encargada de la lectura del mensaje.",
+    "explanation": "El ribosoma es la maquinaria encargada de la traducción; si no se une al ARNm, la proteína no puede ser sintetizada.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SC",
+    "question": "¿Qué ocurre durante el proceso conocido como empalme o 'splicing' del ARN mensajero?",
+    "image": null,
+    "options": [
+      { "text": "Se eliminan los exones y se unen los intrones", "correct": false },
+      { "text": "Se añaden aminoácidos para formar la proteína", "correct": false },
+      { "text": "Se eliminan los intrones no codificantes y se unen los exones", "correct": true },
+      { "text": "Se copia el ADN para la división celular", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los 'intrones' son secuencias intrusas que deben ser removidas.",
+    "explanation": "El empalme elimina las secuencias que no codifican proteína (intrones) y conserva las que sí lo hacen (exones).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SD",
+    "question": "¿Qué término describe un rasgo o enfermedad que solo se manifiesta si el individuo hereda dos copias del gen mutado?",
+    "image": null,
+    "options": [
+      { "text": "Autosómico recesivo", "correct": true },
+      { "text": "Autosómico dominante", "correct": false },
+      { "text": "Ligado al cromosoma Y", "correct": false },
+      { "text": "Aneuploidía", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Requiere la condición homocigota para que la característica logre expresarse en el fenotipo.",
+    "explanation": "En la herencia recesiva, la presencia de una copia sana enmascara a la mutada. Se necesitan ambas copias mutadas para que se exprese la enfermedad.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SE",
+    "question": "Si basta heredar una sola copia de un gen mutado para desarrollar una enfermedad, el patrón de herencia es:",
+    "image": null,
+    "options": [
+      { "text": "Recesivo", "correct": false },
+      { "text": "Mitocondrial", "correct": false },
+      { "text": "Dominante", "correct": true },
+      { "text": "Poligénico", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el alelo que se expresa incluso en estado heterocigoto.",
+    "explanation": "Las enfermedades autosómicas dominantes se manifiestan incluso cuando el individuo es heterocigoto (una copia normal y una mutada).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SF",
+    "question": "En una enfermedad autosómica recesiva, si ambos padres son portadores sanos, ¿cuál es la probabilidad de que su hijo exprese la enfermedad?",
+    "image": null,
+    "options": [
+      { "text": "$0\\%$", "correct": false },
+      { "text": "$25\\%$", "correct": true },
+      { "text": "$50\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Dibuja un cuadro de Punnett para dos individuos heterocigotos (Aa x Aa) y busca la proporción aa.",
+    "explanation": "Cuando dos portadores se cruzan, hay un $25\\%$ de probabilidad de heredar ambas copias mutadas, un $50\\%$ de que el hijo sea portador y $25\\%$ de que sea totalmente sano.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SG",
+    "question": "En una enfermedad ligada al cromosoma X con patrón recesivo, ¿por qué los varones se ven afectados con mayor frecuencia que las mujeres?",
+    "image": null,
+    "options": [
+      { "text": "Porque los varones no pueden heredar el cromosoma X", "correct": false },
+      { "text": "Porque las hormonas masculinas activan la mutación", "correct": false },
+      { "text": "Porque los varones solo tienen un cromosoma X y no tienen una copia sana de respaldo", "correct": true },
+      { "text": "Porque las mujeres destruyen el cromosoma X mutado", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza la diferencia entre el par de cromosomas sexuales femeninos y el par masculino.",
+    "explanation": "Los hombres son hemicigotos (XY). Si su único cromosoma X tiene la mutación, expresarán la enfermedad inevitablemente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SH",
+    "question": "¿Qué mecanismo biológico es la causa más común del Síndrome de Down (Trisomía 21)?",
+    "image": null,
+    "options": [
+      { "text": "Mutación de cambio de sentido", "correct": false },
+      { "text": "No disyunción meiótica", "correct": true },
+      { "text": "Inversión cromosómica", "correct": false },
+      { "text": "Expansión de tripletes", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se trata de un error durante la separación de los cromosomas en la formación de los gametos.",
+    "explanation": "La no disyunción impide que los cromosomas homólogos se separen, dejando un cromosoma extra en el gameto fecundado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SI",
+    "question": "El Síndrome de Turner afecta a mujeres y se caracteriza por baja estatura e infertilidad. ¿Qué alteración genómica lo define?",
+    "image": null,
+    "options": [
+      { "text": "Monosomía del cromosoma X (45, X0)", "correct": true },
+      { "text": "Trisomía del cromosoma X (47, XXX)", "correct": false },
+      { "text": "Trisomía 18", "correct": false },
+      { "text": "Deleción del cromosoma 5", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la única monosomía compatible con la vida en humanos.",
+    "explanation": "Es causado por la pérdida total o parcial del segundo cromosoma sexual X.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SJ",
+    "question": "Un varón de talla alta, con ginecomastia e infertilidad, presenta un cromosoma X adicional. Esto corresponde al:",
+    "image": null,
+    "options": [
+      { "text": "Síndrome de Edwards", "correct": false },
+      { "text": "Síndrome de Klinefelter", "correct": true },
+      { "text": "Síndrome de Patau", "correct": false },
+      { "text": "Síndrome de Turner", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta condición se caracteriza por el cariotipo 47, XXY.",
+    "explanation": "El Síndrome de Klinefelter se caracteriza por el cariotipo 47, XXY.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SK",
+    "question": "¿Qué alteración numérica caracteriza al Síndrome de Edwards?",
+    "image": null,
+    "options": [
+      { "text": "Trisomía 13", "correct": false },
+      { "text": "Trisomía 18", "correct": true },
+      { "text": "Trisomía 21", "correct": false },
+      { "text": "Monosomía X", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ocurre en un autosoma con un número intermedio entre el síndrome de Patau y el de Down.",
+    "explanation": "El síndrome de Edwards es causado por la presencia de una copia extra del cromosoma 18.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SL",
+    "question": "Paciente pediátrico con infecciones pulmonares recurrentes y heces grasosas por secreciones espesas, derivado de una falla en el transporte de cloro. Este cuadro describe una enfermedad:",
+    "image": null,
+    "options": [
+      { "text": "Ligada al cromosoma Y", "correct": false },
+      { "text": "Autosómica dominante", "correct": false },
+      { "text": "Autosómica recesiva", "correct": true },
+      { "text": "Por aneuploidía numérica", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta patología respiratoria y digestiva exige que se hereden ambas copias defectuosas del gen CFTR.",
+    "explanation": "El cuadro describe la Fibrosis Quística, la cual requiere que ambos padres sean portadores (herencia autosómica recesiva).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SM",
+    "question": "Una enfermedad genética que causa movimientos involuntarios y pérdida de memoria en la adultez, en la cual el defecto molecular es una secuencia repetitiva de nucleótidos que se alarga por generaciones. ¿A qué mecanismo molecular obedece?",
+    "image": null,
+    "options": [
+      { "text": "Mutación silenciosa", "correct": false },
+      { "text": "Expansión de tripletes dinámicos", "correct": true },
+      { "text": "Deleción de un cromosoma", "correct": false },
+      { "text": "No disyunción mitótica", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica el concepto relacionado con la acumulación anormal de bases idénticas sucesivas.",
+    "explanation": "La Enfermedad de Huntington se da por una expansión del triplete CAG que genera proteínas tóxicas agregadas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SN",
+    "question": "En la Anemia Falciforme, el cambio de un solo nucleótido altera un aminoácido de la proteína de hemoglobina, haciéndola rígida. ¿Qué tipo de mutación es?",
+    "image": null,
+    "options": [
+      { "text": "Mutación puntual de cambio de sentido ('missense')", "correct": true },
+      { "text": "Mutación genómica numérica", "correct": false },
+      { "text": "Mutación sin sentido ('nonsense')", "correct": false },
+      { "text": "Deleción cromosómica masiva", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El código se lee alterado produciendo un aminoácido distinto, por lo tanto, cambia el sentido de la secuencia.",
+    "explanation": "Es una mutación génica puntual donde el cambio de nucleótido codifica para un aminoácido diferente (ej. Glu por Val).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SO",
+    "question": "Un lactante es diagnosticado con una incapacidad metabólica para procesar un aminoácido específico, lo que causará acumulación tóxica si no se modifica su dieta. La enfermedad tiene herencia autosómica recesiva. ¿De qué padecimiento se trata?",
+    "image": null,
+    "options": [
+      { "text": "Acondroplasia", "correct": false },
+      { "text": "Hemofilia A", "correct": false },
+      { "text": "Corea de Huntington", "correct": false },
+      { "text": "Fenilcetonuria (PKU)", "correct": true }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre hace referencia al aminoácido acumulado que no puede ser procesado por el hígado.",
+    "explanation": "La Fenilcetonuria es una incapacidad enzimática para procesar la fenilalanina, con un patrón autosómico recesivo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SP",
+    "question": "La Hemofilia A es causada por una falla en la cascada de coagulación. ¿Cuál es su patrón de herencia típico?",
+    "image": null,
+    "options": [
+      { "text": "Recesiva ligada al cromosoma X", "correct": true },
+      { "text": "Autosómica dominante", "correct": false },
+      { "text": "Ligada al cromosoma Y", "correct": false },
+      { "text": "Autosómica recesiva", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta enfermedad se presenta predominantemente en hombres, mientras que las mujeres suelen ser solo portadoras.",
+    "explanation": "Afecta principalmente a varones debido a que su único cromosoma X porta el gen mutado para el factor de coagulación.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SQ",
+    "question": "¿Cómo está conformada estructuralmente la principal barrera de una célula (membrana celular)?",
+    "image": null,
+    "options": [
+      { "text": "Una capa única de carbohidratos con enzimas", "correct": false },
+      { "text": "Una pared rígida de celulosa", "correct": false },
+      { "text": "Una bicapa lipídica con proteínas insertadas", "correct": true },
+      { "text": "Un entramado sólido de colesterol", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un modelo de mosaico fluido compuesto principalmente por grasas especializadas.",
+    "explanation": "La membrana es una bicapa de fosfolípidos que contiene proteínas integrales y periféricas responsables del transporte celular.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SR",
+    "question": "¿Qué tipo de transporte permite el paso directo de gases y moléculas pequeñas liposolubles a través de la bicapa, sin gastar energía?",
+    "image": null,
+    "options": [
+      { "text": "Transporte activo primario", "correct": false },
+      { "text": "Difusión simple", "correct": true },
+      { "text": "Endocitosis", "correct": false },
+      { "text": "Transporte vesicular", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es el mecanismo más pasivo posible, pasando directamente entre los fosfolípidos.",
+    "explanation": "La difusión simple ocurre a favor del gradiente de concentración, directamente a través de los lípidos sin mediadores proteicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SS",
+    "question": "La glucosa necesita entrar a la célula a favor de su gradiente, pero es demasiado grande para pasar por los lípidos, por lo que usa una proteína transportadora. Esto es un ejemplo de:",
+    "image": null,
+    "options": [
+      { "text": "Difusión simple", "correct": false },
+      { "text": "Transporte activo", "correct": false },
+      { "text": "Difusión facilitada", "correct": true },
+      { "text": "Pinocitosis", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El uso de la proteína 'facilita' la entrada sin utilizar ATP.",
+    "explanation": "La difusión facilitada es un transporte pasivo que no usa ATP, pero requiere una proteína para dejar pasar moléculas hidrofilicas o grandes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73ST",
+    "question": "El movimiento específico de agua a través de aquaporinas desde una zona de menor concentración de solutos a una de mayor concentración se denomina:",
+    "image": null,
+    "options": [
+      { "text": "Ósmosis", "correct": true },
+      { "text": "Exocitosis", "correct": false },
+      { "text": "Difusión simple", "correct": false },
+      { "text": "Bomba iónica", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es un término exclusivo para referirse a la difusión pasiva de agua celular.",
+    "explanation": "La ósmosis es el paso pasivo de agua a través de membranas biológicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SU",
+    "question": "¿Qué característica define principalmente al transporte activo?",
+    "image": null,
+    "options": [
+      { "text": "Siempre mueve moléculas a favor del gradiente", "correct": false },
+      { "text": "Ocurre exclusivamente para el agua", "correct": false },
+      { "text": "Requiere gasto de energía (ATP) para mover sustancias", "correct": true },
+      { "text": "No utiliza proteínas membranal", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Imagina intentar empujar una roca hacia arriba de una colina; vas a requerir energía.",
+    "explanation": "El transporte activo requiere ATP porque empuja moléculas en contra de su gradiente de concentración natural.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SV",
+    "question": "En el intestino, la glucosa entra a las células en contra de su gradiente aprovechando la entrada del sodio que se mueve a favor de su gradiente. ¿Cómo se clasifica este mecanismo?",
+    "image": null,
+    "options": [
+      { "text": "Transporte activo primario", "correct": false },
+      { "text": "Transporte activo secundario (cotransporte)", "correct": true },
+      { "text": "Difusión simple", "correct": false },
+      { "text": "Fagocitosis mediada", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al no utilizar la moneda energética (ATP) directamente, sino la energía de otro gradiente generado previamente, recibe otro nivel de clasificación.",
+    "explanation": "El cotransporte (simporte) usa la energía del gradiente generado previamente por una bomba, permitiendo mover dos sustancias juntas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SW",
+    "question": "El proceso mediante el cual los glóbulos blancos ingieren y destruyen bacterias patógenas envolviéndolas en vesículas es:",
+    "image": null,
+    "options": [
+      { "text": "Fagocitosis", "correct": true },
+      { "text": "Pinocitosis", "correct": false },
+      { "text": "Exocitosis", "correct": false },
+      { "text": "Ósmosis", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta palabra tiene la misma raíz griega que significa 'comer'.",
+    "explanation": "La fagocitosis es el transporte en masa (endocitosis) de partículas grandes o microorganismos hacia adentro de la célula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SX",
+    "question": "¿Qué proceso utiliza la neurona para liberar neurotransmisores hacia el espacio extracelular?",
+    "image": null,
+    "options": [
+      { "text": "Endocitosis", "correct": false },
+      { "text": "Difusión simple", "correct": false },
+      { "text": "Transporte activo secundario", "correct": false },
+      { "text": "Exocitosis", "correct": true }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo latino indica salida o movimiento hacia afuera.",
+    "explanation": "La exocitosis es el transporte de sustancias hacia afuera de la célula mediante la fusión de vesículas con la membrana.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SY",
+    "question": "Si un glóbulo rojo se coloca en una solución hipotónica (con menos solutos que el interior celular), el agua entrará provocando:",
+    "image": null,
+    "options": [
+      { "text": "Crenación (arrugamiento)", "correct": false },
+      { "text": "Que la célula mantenga su tamaño normal", "correct": false },
+      { "text": "Turgencia y posible lisis (se hincha y rompe)", "correct": true },
+      { "text": "Absorción activa de iones", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en un globo llenándose de agua sin parar hasta su límite máximo.",
+    "explanation": "En una solución hipotónica el agua viaja por ósmosis hacia adentro, donde hay más solutos, hinchando a la célula.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73SZ",
+    "question": "Grupo de fármacos cuyo objetivo principal es disminuir y controlar la temperatura corporal elevada:",
+    "image": null,
+    "options": [
+      { "text": "Analgésicos", "correct": false },
+      { "text": "Antiinflamatorios", "correct": false },
+      { "text": "Antipiréticos", "correct": true },
+      { "text": "Mucolíticos", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El sufijo se relaciona con la raíz de la palabra que significa fuego o calor ('piro').",
+    "explanation": "Los antipiréticos (como el paracetamol) tienen la función central de disminuir la fiebre.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TA",
+    "question": "Para combatir una infección generada exclusivamente por bacterias en vías respiratorias, se debe recetar un:",
+    "image": null,
+    "options": [
+      { "text": "Antiviral", "correct": false },
+      { "text": "Antimicótico", "correct": false },
+      { "text": "Antibiótico", "correct": true },
+      { "text": "Antiparasitario", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Estos fármacos se crearon inicialmente a partir de hongos naturales (como la penicilina) para atacar bacterias.",
+    "explanation": "Los antibióticos atacan estructural y metabólicamente el crecimiento o supervivencia de las bacterias.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TB",
+    "question": "Un paciente con alergia estacional presenta escurrimiento nasal y picazón. ¿Qué grupo farmacológico contrarresta el compuesto causante de estos síntomas?",
+    "image": null,
+    "options": [
+      { "text": "Antiulcerosos", "correct": false },
+      { "text": "Antihistamínicos", "correct": true },
+      { "text": "Expectorantes", "correct": false },
+      { "text": "Broncodilatadores", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Bloquean a los receptores de la molécula que causa el proceso inflamatorio alérgico.",
+    "explanation": "Los antihistamínicos bloquean los receptores de la histamina, la molécula desencadenante de los síntomas alérgicos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TC",
+    "question": "Los fármacos encargados de favorecer la reducción de secreciones gástricas y la acidez del estómago se denominan:",
+    "image": null,
+    "options": [
+      { "text": "Hipoglicemiantes", "correct": false },
+      { "text": "Mucolíticos", "correct": false },
+      { "text": "Antiulcerosos", "correct": true },
+      { "text": "Diuréticos", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Su nombre alude a su acción para prevenir lesiones crónicas en la mucosa del sistema digestivo.",
+    "explanation": "Los antiulcerosos (o antiácidos/protectores gástricos) reducen la producción de ácido para proteger la mucosa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TD",
+    "question": "Fármacos indicados en pacientes asmáticos para relajar los músculos de las vías respiratorias y facilitar la respiración:",
+    "image": null,
+    "options": [
+      { "text": "Broncodilatadores", "correct": true },
+      { "text": "Expectorantes", "correct": false },
+      { "text": "Antibióticos", "correct": false },
+      { "text": "Analgésicos", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El propio nombre indica que aumentan el diámetro de los conductos pulmonares.",
+    "explanation": "Su acción directa sobre el músculo liso bronquial provoca su dilatación, mejorando el flujo de aire.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TE",
+    "question": "¿Qué grupo de fármacos actúa aumentando la excreción de agua y electrolitos a través de la orina?",
+    "image": null,
+    "options": [
+      { "text": "Antivirales", "correct": false },
+      { "text": "Hipoglicemiantes", "correct": false },
+      { "text": "Diuréticos", "correct": true },
+      { "text": "Antipiréticos", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Trabajan sobre la nefrona renal forzando la expulsión de fluidos acumulados.",
+    "explanation": "Los diuréticos estimulan a los riñones para reducir la acumulación de fluidos en el cuerpo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TF",
+    "question": "¿Qué rama estudia la absorción, distribución, metabolismo y excreción (LADME) de un fármaco en el cuerpo?",
+    "image": null,
+    "options": [
+      { "text": "Farmacología molecular", "correct": false },
+      { "text": "Farmacodinamia", "correct": false },
+      { "text": "Farmacocinética", "correct": true },
+      { "text": "Toxicología", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Incluye el sufijo relacionado con el 'movimiento' a través de los diversos compartimentos corporales.",
+    "explanation": "La farmacocinética responde a 'lo que el cuerpo le hace al fármaco' mientras transita por el organismo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TG",
+    "question": "¿Qué concepto farmacológico se enfoca en 'lo que el fármaco le hace al cuerpo' (su mecanismo de acción en receptores celulares)?",
+    "image": null,
+    "options": [
+      { "text": "Farmacocinética", "correct": false },
+      { "text": "Farmacodinamia", "correct": true },
+      { "text": "Metabolismo de primer paso", "correct": false },
+      { "text": "Biodisponibilidad", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se refiere a las interacciones biológicas directas y los efectos terapéuticos en sí.",
+    "explanation": "La farmacodinamia estudia los efectos bioquímicos del medicamento y cómo interacciona con su diana en el cuerpo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TH",
+    "question": "Un medicamento se une a un receptor celular bloqueándolo e impidiendo que el mediador químico natural del cuerpo actúe. Este fármaco actúa como un:",
+    "image": null,
+    "options": [
+      { "text": "Agonista parcial", "correct": false },
+      { "text": "Antagonista", "correct": true },
+      { "text": "Agonista completo", "correct": false },
+      { "text": "Inductor enzimático", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Su función no es activar la señal, sino más bien oponerse al proceso natural para detenerlo.",
+    "explanation": "Los antagonistas se unen a receptores pero no los activan; su función es obstaculizar a la molécula activadora.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TI",
+    "question": "Una molécula de un fármaco es altamente liposoluble. ¿Cómo se espera que sea su mecanismo para atravesar la membrana plasmática celular?",
+    "image": null,
+    "options": [
+      { "text": "Requerirá forzosamente una bomba impulsada por ATP", "correct": false },
+      { "text": "Pasará fácilmente por difusión simple a través de la bicapa", "correct": true },
+      { "text": "Deberá ser transportada a través de exocitosis", "correct": false },
+      { "text": "Solo pasará si hay proteínas receptoras específicas", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustancias químicas que son afines a los componentes de la membrana no requieren ayuda extra.",
+    "explanation": "La bicapa celular está hecha de lípidos. Las sustancias muy liposolubles cruzan libremente sin necesitar transportadores.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TJ",
+    "question": "Un paciente con dolor intenso después de una cirugía necesita alivio. ¿Qué grupo de medicamentos será el primario para este fin?",
+    "image": null,
+    "options": [
+      { "text": "Analgésicos", "correct": true },
+      { "text": "Antihistamínicos", "correct": false },
+      { "text": "Expectorantes", "correct": false },
+      { "text": "Mucolíticos", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El prefijo 'a' (sin) y la raíz 'algia' (dolor) te indican la naturaleza del fármaco.",
+    "explanation": "Los analgésicos interfieren en las vías del sistema nervioso para inhibir la percepción del dolor.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TK",
+    "question": "Una enfermedad muscular de deterioro progresivo es generada por una mutación en el gen que causa una proteína truncada; solo afecta a los varones de una familia. El patrón es hereditario recesivo. ¿De qué padecimiento se trata?",
+    "image": null,
+    "options": [
+      { "text": "Síndrome de Turner", "correct": false },
+      { "text": "Acondroplasia", "correct": false },
+      { "text": "Distrofia muscular de Duchenne", "correct": true },
+      { "text": "Trisomía 13", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta patología degenerativa está relacionada con la falla de la proteína distrofina en los hombres.",
+    "explanation": "La distrofia muscular afecta un patrón de herencia recesivo ligado al X, con deficiencia de proteína (distrofina).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TL",
+    "question": "¿Cómo se define un paciente que posee una población de células con genotipo sano y al mismo tiempo otra población con genotipo mutado (ejemplo Trisomía 21 parcial)?",
+    "image": null,
+    "options": [
+      { "text": "Fenotipo silente", "correct": false },
+      { "text": "Impronta genómica", "correct": false },
+      { "text": "Mutación de Novo", "correct": false },
+      { "text": "Mosaico genético", "correct": true }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Al igual que una obra de arte creada con piezas distintas, este término refleja variedad celular.",
+    "explanation": "El mosaicismo es la presencia de dos o más líneas celulares con diferente composición genética en un mismo individuo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TM",
+    "question": "La alteración donde un ribosoma lee el ARN mensajero en una fase equivocada debido a que se agregó o quitó un nucleótido se conoce como:",
+    "image": null,
+    "options": [
+      { "text": "Mutación silenciosa", "correct": false },
+      { "text": "Desplazamiento del marco de lectura ('Frameshift')", "correct": true },
+      { "text": "No disyunción", "correct": false },
+      { "text": "Translocación", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE", "👩‍⚕️ SALUD", "👨‍⚕️ PREMEDICINA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Puesto que la lectura es en tripletes, cambiar el número total desacomoda todos los conjuntos siguientes.",
+    "explanation": "Un indel (inserción o deleción) que no sea múltiplo de 3 altera por completo cómo los tripletes o codones se agrupan al traducirse.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
