@@ -2284,5 +2284,653 @@
     "explanation": "La eficiencia mecánica se evalúa como la razón de la potencia (o trabajo) de salida útil dividida por la de entrada suministrada, expresada porcentualmente.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP25IT",
+    "question": "¿Cuál es la magnitud escalar que relaciona la distancia recorrida con el tiempo empleado en recorrerla, sin importar la dirección?",
+    "image": null,
+    "options": [
+      { "text": "Rapidez", "correct": true },
+      { "text": "Velocidad", "correct": false },
+      { "text": "Aceleración", "correct": false },
+      { "text": "Desplazamiento", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se calcula evaluando $t = d/v$, en la cual el vector dirección no interviene.",
+    "explanation": "La rapidez es una magnitud escalar que únicamente posee módulo, a diferencia de la velocidad que es una magnitud vectorial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IU",
+    "question": "Identifica las fuerzas que son consideradas de contacto en el siguiente listado:\n1. Fuerza de gravedad\n2. Fuerza de fricción\n3. Tensión de una cuerda\n4. Fuerza magnética\n5. Fuerza normal",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 5", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Piensa en cuáles requieren interacción física directa entre dos superficies u objetos para poder existir.",
+    "explanation": "La gravedad y el magnetismo actúan a distancia, mientras que la fricción, la tensión y la fuerza normal requieren un contacto físico directo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IV",
+    "question": "Un investigador del CEPREDIX realiza un experimento de calorimetría. Se sabe que durante un cambio de fase, el calor intercambiado no cambia la ______ del sistema, sino que se utiliza para romper o formar enlaces intermoleculares, cantidad que se conoce como calor ______.",
+    "image": null,
+    "options": [
+      { "text": "Temperatura, latente", "correct": true },
+      { "text": "Presión, específico", "correct": false },
+      { "text": "Densidad, sensible", "correct": false },
+      { "text": "Masa, de reacción", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera qué propiedad se mantiene constante en un vaso de agua con hielo mientras este último se está fundiendo a $0 ^{\\circ}\\text{C}$.",
+    "explanation": "Durante un cambio de fase en una sustancia pura, la temperatura permanece constante y la energía absorbida o liberada corresponde al calor latente.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IW",
+    "question": "Relaciona la magnitud física con su unidad de medida en el Sistema Internacional:\nI. Resistencia eléctrica\nII. Corriente eléctrica\nIII. Diferencia de potencial\n\nA. Amperio\nB. Voltio\nC. Ohmio",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda la ley de Ohm, de la cual se puede despejar la resistencia matemática como $R = V/I$.",
+    "explanation": "La resistencia se mide en Ohmios ($\\Omega$), la intensidad de corriente en Amperios ($\\text{A}$) y la diferencia de potencial o voltaje en Voltios ($\\text{V}$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IX",
+    "question": "Si un rayo de luz viaja por el vacío con velocidad $c$ y entra a un medio donde su velocidad es $v = 2 \\times 10^8 \\text{ m/s}$, ¿cuál es el índice de refracción absoluto del medio? (Dato: $c = 3 \\times 10^8 \\text{ m/s}$)",
+    "image": null,
+    "options": [
+      { "text": "$1.5$", "correct": true },
+      { "text": "$0.66$", "correct": false },
+      { "text": "$1.33$", "correct": false },
+      { "text": "$2.0$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza la fórmula donde la velocidad en el medio se despeja como $v = c/n$.",
+    "explanation": "El índice de refracción se define como $n = c/v$. Al dividir $3 \\times 10^8$ entre $2 \\times 10^8$ resulta $1.5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IY",
+    "question": "Un estudiante del CEPREDIX analiza un choque inelástico perfecto entre dos carritos de masas $m_1 = 2 \\text{ kg}$ y $m_2 = 3 \\text{ kg}$. Si $m_1$ se mueve a $5 \\text{ m/s}$ y $m_2$ está en reposo, ¿cuál es la velocidad final del conjunto tras el impacto?",
+    "image": null,
+    "options": [
+      { "text": "$2 \\text{ m/s}$", "correct": true },
+      { "text": "$1 \\text{ m/s}$", "correct": false },
+      { "text": "$2.5 \\text{ m/s}$", "correct": false },
+      { "text": "$5 \\text{ m/s}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Debido a que quedan unidos, despeja la incógnita de la relación de cantidad de movimiento: $m_1v_1 + m_2v_2 = (m_1 + m_2)v_f$.",
+    "explanation": "Aplicando la conservación del momento: $(2)(5) + (3)(0) = (2 + 3)v_f \\Rightarrow 10 = 5v_f \\Rightarrow v_f = 2 \\text{ m/s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25IZ",
+    "question": "Selecciona las ondas que corresponden al espectro electromagnético:\n1. Rayos X\n2. Ondas sonoras\n3. Microondas\n4. Ondas sísmicas\n5. Luz visible",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica exclusivamente aquellas ondas que no requieren un medio material o elástico para poder propagarse.",
+    "explanation": "Los rayos X, microondas y la luz visible son ondas electromagnéticas. Las sonoras y las sísmicas son de naturaleza mecánica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JA",
+    "question": "De acuerdo con el teorema de ______, la velocidad de salida de un líquido por un orificio en la pared de un recipiente abierto es igual a la que adquiriría un objeto que cae libremente desde una altura equivalente a la superficie libre del líquido hasta el ______.",
+    "image": null,
+    "options": [
+      { "text": "Torricelli, orificio", "correct": true },
+      { "text": "Pascal, fondo", "correct": false },
+      { "text": "Arquímedes, centro", "correct": false },
+      { "text": "Bernoulli, borde", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Este postulado es una aplicación particular y práctica del principio de Bernoulli para recipientes expuestos a la atmósfera.",
+    "explanation": "El teorema de Torricelli deduce la velocidad de efluencia de un líquido bajo la acción de la gravedad, resultando en la ecuación $v = \\sqrt{2gh}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JB",
+    "question": "Relaciona las leyes de Kepler con su formulación o consecuencia matemática principal:\nI. Primera Ley\nII. Segunda Ley\nIII. Tercera Ley\n\nA. El vector posición barre áreas iguales en tiempos iguales\nB. Órbitas elípticas con el Sol ubicado en uno de los focos\nC. El cuadrado del período orbital es proporcional al cubo del semieje mayor",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-A, III-C", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-C, III-A", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "La tercera ley establece la relación constante del período orbital usando la ecuación $K = T^2 / r^3$.",
+    "explanation": "La primera ley describe la forma elíptica de las órbitas, la segunda establece la conservación del momento angular a través de las áreas y la tercera vincula periodos con radios.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JC",
+    "question": "¿Qué partícula subatómica es la principal portadora de la carga eléctrica en los conductores metálicos que conforman los circuitos eléctricos?",
+    "image": null,
+    "options": [
+      { "text": "Electrón", "correct": true },
+      { "text": "Protón", "correct": false },
+      { "text": "Neutrón", "correct": false },
+      { "text": "Positrón", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Es la partícula con carga negativa ubicada en los orbitales externos del átomo que posee libertad de movimiento.",
+    "explanation": "En los metales conductores, son los electrones de valencia los que forman la corriente eléctrica debido a que no están fuertemente ligados a sus núcleos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JD",
+    "question": "Si la fuerza gravitacional ejercida sobre un astronauta en la superficie de la Tierra es de $700 \\text{ N}$, ¿cuál será su masa aproximada considerando el valor de $g \\approx 10 \\text{ m/s}^2$?",
+    "image": null,
+    "options": [
+      { "text": "$70 \\text{ kg}$", "correct": true },
+      { "text": "$7 \\text{ kg}$", "correct": false },
+      { "text": "$700 \\text{ kg}$", "correct": false },
+      { "text": "$7000 \\text{ kg}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que la masa se obtiene despejando a partir de la relación lineal de peso mediante $m = W/g$.",
+    "explanation": "El peso se define como $W = mg$. Al despejar la masa, se tiene $m = 700 \\text{ N} / 10 \\text{ m/s}^2 = 70 \\text{ kg}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JE",
+    "question": "Un ingeniero del CEPREDIX diseña un solenoide ideal. Si se duplica la intensidad de la corriente eléctrica y simultáneamente se reduce a la mitad el número de espiras por unidad de longitud, ¿qué ocurre con la magnitud del campo magnético en el interior?",
+    "image": null,
+    "options": [
+      { "text": "Se mantiene igual", "correct": true },
+      { "text": "Se duplica", "correct": false },
+      { "text": "Se cuadruplica", "correct": false },
+      { "text": "Se reduce a la cuarta parte", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza las proporciones en el producto utilizando la ecuación que define al número de espiras por longitud: $n = B / (\\mu_0 I)$.",
+    "explanation": "El campo magnético se determina por $B = \\mu_0 n I$. Si aplicamos los cambios: $B' = \\mu_0 (n/2) (2I) = \\mu_0 n I$, por lo que la magnitud no se altera.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JF",
+    "question": "La energía ______ es aquella que posee un cuerpo por encontrarse a una cierta altura dentro de un campo gravitatorio, mientras que la energía ______ está asociada a la velocidad del objeto.",
+    "image": null,
+    "options": [
+      { "text": "Potencial, cinética", "correct": true },
+      { "text": "Térmica, química", "correct": false },
+      { "text": "Cinética, potencial", "correct": false },
+      { "text": "Elástica, nuclear", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La primera depende exclusivamente del nivel de altura de referencia y la segunda depende del factor de rapidez.",
+    "explanation": "La energía potencial gravitatoria depende directamente de la posición relativa en el eje vertical, y la energía cinética es inherente al estado de movimiento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JG",
+    "question": "Relaciona el mecanismo clásico de transferencia de calor con el entorno o fenómeno físico donde predomina de manera general:\nI. Conducción\nII. Convección\nIII. Radiación\n\nA. Propagación de calor a través del vacío espacial sin un medio material\nB. Transferencia por contacto directo en materiales en estado sólido\nC. Intercambio de temperatura generado por corrientes de fluidos de distinta densidad",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las estrellas calientan a los planetas mediante un método específico que atraviesa la nada del cosmos.",
+    "explanation": "La conducción requiere choque de partículas en sólidos; la convección ocurre mediante el movimiento cíclico de fluidos; y la radiación es transmisión electromagnética que no requiere materia.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JH",
+    "question": "De la siguiente lista de fenómenos físicos, ¿cuáles representan evidencias experimentales comprobables del comportamiento corpuscular (como partículas) de la luz?\n1. Difracción de la luz\n2. Efecto fotoeléctrico\n3. Efecto Compton\n4. Interferencia en la doble rendija\n5. Radiación del cuerpo negro",
+    "image": null,
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Debes excluir del análisis aquellos fenómenos que prueban exclusivamente la naturaleza ondulatoria de propagación clásica.",
+    "explanation": "El efecto fotoeléctrico, el efecto Compton y la interpretación cuántica de Planck sobre la radiación del cuerpo negro requieren admitir que la energía viaja en paquetes discretos o fotones.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JI",
+    "question": "¿Cuál de las siguientes unidades NO pertenece al conjunto de unidades base del Sistema Internacional (SI) para medir magnitudes fundamentales?",
+    "image": null,
+    "options": [
+      { "text": "Gramo", "correct": true },
+      { "text": "Metro", "correct": false },
+      { "text": "Kelvin", "correct": false },
+      { "text": "Amperio", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En el contexto de la mecánica, la magnitud fundamental que mide la inercia incluye un prefijo multiplicador por norma.",
+    "explanation": "En el Sistema Internacional, la unidad fundamental de medición de la masa es el kilogramo ($\\text{kg}$), en lugar del gramo convencional.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JJ",
+    "question": "Si se somete al fuego una barra de hierro cuya longitud inicial es de $L_0 = 10 \\text{ m}$ logrando un incremento térmico de $\\Delta T = 100 ^{\\circ}\\text{C}$, ¿cuál será el valor de su dilatación? Considera un coeficiente de dilatación lineal $\\alpha = 12 \\times 10^{-6} ^{\\circ}\\text{C}^{-1}$.",
+    "image": null,
+    "options": [
+      { "text": "$0.012 \\text{ m}$", "correct": true },
+      { "text": "$0.12 \\text{ m}$", "correct": false },
+      { "text": "$0.0012 \\text{ m}$", "correct": false },
+      { "text": "$1.2 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener el incremento lineal, debes despejar el factor de dilatación usando la formulación $\\Delta T = \\Delta L / (L_0 \\cdot \\alpha)$.",
+    "explanation": "Al multiplicar directamente se tiene $\\Delta L = (10) (12 \\times 10^{-6}) (100) = 12000 \\times 10^{-6} \\text{ m}$, lo cual equivale a $0.012 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JK",
+    "question": "Se proyecta un objeto verticalmente en tiro libre hacia arriba con una velocidad de despegue $v_0 = 20 \\text{ m/s}$. Despreciando cualquier efecto resistivo del aire y utilizando la constante $g = 10 \\text{ m/s}^2$, ¿cuál es la máxima elevación alcanzada?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ m}$", "correct": true },
+      { "text": "$40 \\text{ m}$", "correct": false },
+      { "text": "$10 \\text{ m}$", "correct": false },
+      { "text": "$15 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Ten presente que en la cúspide de la trayectoria la velocidad final es nula. Obtén la altura mediante la relación geométrica $h = (v_0^2 - v_f^2) / (2g)$.",
+    "explanation": "Empleando la ecuación independiente del tiempo $v_f^2 = v_0^2 - 2gh$, se reemplaza $v_f$ con $0$ y se despeja $h = (20)^2 / (2 \\times 10) = 400 / 20 = 20 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JL",
+    "question": "La primera ley dictada por Newton, comúnmente llamada ley de ______, establece que todo cuerpo en el universo conservará su estado base de reposo o bien de movimiento rectilíneo ______ a menos que fuerzas externas actúen alterando dicha condición.",
+    "image": null,
+    "options": [
+      { "text": "Inercia, uniforme", "correct": true },
+      { "text": "Acción, acelerado", "correct": false },
+      { "text": "Gravitación, variado", "correct": false },
+      { "text": "Fuerza, circular", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La reticencia natural de la materia a modificar su estado refleja un comportamiento cinemático desprovisto de aceleración.",
+    "explanation": "La inercia define la resistencia de la masa al cambio en su velocidad, lo que significa que el movimiento inercial es rectilíneo y de ritmo constante o uniforme.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JM",
+    "question": "Relaciona de forma analítica los principales fenómenos ópticos con la situación física que mejor los describe:\nI. Reflexión\nII. Refracción\nIII. Dispersión\n\nA. Separación de un haz de luz blanca conformando la gama de sus colores constituyentes\nB. Cambio abrupto de trayectoria al rebotar en un material, conservando el medio inicial\nC. Alteración de rapidez y vector direccional al cruzar la frontera hacia un medio distinto",
+    "image": null,
+    "options": [
+      { "text": "I-B, II-C, III-A", "correct": true },
+      { "text": "I-C, II-A, III-B", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La maravilla visual que da origen a un arcoíris en el cielo es consecuencia directa del tercer fenómeno expuesto.",
+    "explanation": "La reflexión consiste en el rebote especular, la refracción en un cambio mediático que distorsiona la propagación y la dispersión desglosa las longitudes de onda visibles.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JN",
+    "question": "Si el volumen espacial de una cantidad cerrada de gas ideal se expande hasta triplicarse manteniendo estable la presión externa, ¿qué impacto tendrá en su nivel térmico según dicta la ley de Charles?",
+    "image": null,
+    "options": [
+      { "text": "Se triplica", "correct": true },
+      { "text": "Se reduce a la tercera parte", "correct": false },
+      { "text": "Permanece inalterada", "correct": false },
+      { "text": "Aumenta en 3 grados", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Emplea la proporcionalidad directa de las variables resolviendo desde la condición donde $V_2 = V_1 \\cdot (T_2/T_1)$.",
+    "explanation": "La ley de Charles demuestra que, a nivel isobárico, la temperatura absoluta se multiplica en la misma proporción geométrica que el volumen.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JO",
+    "question": "Un proyecto mecánico escolar del CEPREDIX involucra una prensa hidráulica para triturar materiales sólidos. Si el pistón conductor posee un área $A$ recibiendo una fuerza $F$, y la cámara opuesta tiene un pistón con área de $4A$, ¿qué magnitud de fuerza saliente se ejerce del otro lado?",
+    "image": null,
+    "options": [
+      { "text": "$4F$", "correct": true },
+      { "text": "$F/4$", "correct": false },
+      { "text": "$16F$", "correct": false },
+      { "text": "$2F$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "De acuerdo con el principio hidrostático de Pascal, plantea y despeja la relación de equilibrio dictada por $F_1/A_1 = F_2/A_2$.",
+    "explanation": "La invariabilidad de la presión implica que $F / A = F_{final} / 4A$, por lo que multiplicando se deduce que $F_{final} = 4F$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JP",
+    "question": "En un circuito analítico $RC$ alimentado por un banco de baterías continuo $V_0$, la acumulación de carga matemática en el condensador está dada por $Q(t) = C V_0 (1 - e^{-t/RC})$. Al instante inicial de cerrar el interruptor en $t=0$, ¿cuál de las siguientes opciones describe la corriente circulante?",
+    "image": null,
+    "options": [
+      { "text": "$I_0 = V_0/R$", "correct": true },
+      { "text": "$I_0 = 0$", "correct": false },
+      { "text": "$I_0 = C V_0$", "correct": false },
+      { "text": "$I_0 = R/V_0$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la derivación sobre $Q(t)$ respecto al marco temporal para hallar $I(t)$ y evalúa numéricamente con $t=0$, considerando que $e^0 = 1$.",
+    "explanation": "La intensidad es la derivada de la carga: $I(t) = (C V_0 / RC) e^{-t/RC} = (V_0/R) e^{-t/RC}$. Al reemplazar el tiempo por cero, resulta $I_0 = V_0/R$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JQ",
+    "question": "Dentro del estudio termodinámico, selecciona exclusivamente de la siguiente lista aquellas variables que califican rigurosamente como \"propiedades de estado\" independiente de la trayectoria procedimental:\n1. Calor intercambiado\n2. Energía interna total\n3. Trabajo mecánico ejercido\n4. Entropía del sistema\n5. Temperatura absoluta",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": true },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El desempeño del calor y del factor del trabajo están sujetos íntimamente a la manera puntual en la cual se efectúa físicamente la variación.",
+    "explanation": "La energía interna, la temperatura y la entropía quedan plenamente determinadas conociendo solo la etapa inicial y terminal del ciclo cerrado de trabajo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JR",
+    "question": "A nivel microscópico, los materiales denominados aislantes destacan físicamente por imponer una ______ resistencia al transporte directo de ______, diferenciándose notablemente del comportamiento del cobre metálico.",
+    "image": null,
+    "options": [
+      { "text": "Alta, electrones", "correct": true },
+      { "text": "Baja, protones", "correct": false },
+      { "text": "Nula, corriente", "correct": false },
+      { "text": "Constante, iones", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En esta clase de sustancia, los orbitales atómicos sujetan con fuerza considerable a las partículas de valencia.",
+    "explanation": "Un material aislante genuino posee una resistividad de gran valor, limitando el libre recorrido poblacional de los electrones a través del medio atómico.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JS",
+    "question": "Establece la relación correcta emparejando el tipo de energía con el postulado o fórmula algebraica que la define de manera puntual:\nI. Energía Potencial Elástica\nII. Energía Potencial Gravitatoria\nIII. Energía Cinética\n\nA. Su magnitud se determina calculando $mgh$\nB. Su magnitud se determina calculando $\\frac{1}{2}mv^2$\nC. Su magnitud se determina calculando $\\frac{1}{2}kx^2$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-B, II-C, III-A", "correct": false },
+      { "text": "I-A, II-B, III-C", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La letra clave $k$ figura en el modelo de los resortes que intentan recuperar estructuralmente su posición inicial no alterada.",
+    "explanation": "La elástica es formulada con el muelle ($1/2 kx^2$), la gravitatoria integra a la altura en juego ($mgh$) y la cinética se aboca al vector velocidad ($1/2 mv^2$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JT",
+    "question": "Un investigador del CEPREDIX realiza un ensayo con un bloque denso de masa $m$ que desciende suavemente por una pendiente inclinada en un ángulo $\\theta$ respecto a nivel plano, manteniendo un ritmo constante. ¿Cuál sería el valor exacto de la variable $\\mu_k$ empleada?",
+    "image": null,
+    "options": [
+      { "text": "$\\mu_k = \\tan \\theta$", "correct": true },
+      { "text": "$\\mu_k = \\sin \\theta$", "correct": false },
+      { "text": "$\\mu_k = \\cos \\theta$", "correct": false },
+      { "text": "$\\mu_k = 1$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Con la componente bajante siendo $mg \\sin \\theta$, aísla y despeja usando el concepto algebraico de equilibrio en la igualdad $\\mu_k = (mg \\sin \\theta) / N$.",
+    "explanation": "Al deslizar sin registrar aceleración, se equilibra la ecuación $mg \\sin \\theta = \\mu_k mg \\cos \\theta$. Haciendo el despeje riguroso llegamos a la identidad trigonométrica $\\mu_k = \\sin \\theta / \\cos \\theta = \\tan \\theta$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JU",
+    "question": "Identificando las cualidades armónicas simples, ¿cuál es el cálculo del período cíclico $T$ perteneciente a una vibración rítmica medida en una frecuencia de $50 \\text{ Hz}$?",
+    "image": null,
+    "options": [
+      { "text": "$0.02 \\text{ s}$", "correct": true },
+      { "text": "$0.2 \\text{ s}$", "correct": false },
+      { "text": "$50 \\text{ s}$", "correct": false },
+      { "text": "$2 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica la dependencia que modela inversamente estas variables determinando de manera explícita que $T = 1/f$.",
+    "explanation": "El período se establece inversamente proporcional a la frecuencia del fenómeno vibratorio: evaluando numéricamente se obtiene $T = 1 / 50 = 0.02 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JV",
+    "question": "En el marco fundamental de la bóveda celeste, ¿qué denominación precisa recibe el mecanismo dinámico universal que subordina a los planetas manteniéndolos trazando su órbita en torno a la corona solar?",
+    "image": null,
+    "options": [
+      { "text": "Fuerza gravitacional", "correct": true },
+      { "text": "Fuerza electromagnética", "correct": false },
+      { "text": "Fuerza nuclear fuerte", "correct": false },
+      { "text": "Fuerza centrífuga", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Se trata invariablemente de la misma influencia invisible que somete a toda la masa terrestre causando el desbalance y la precipitación de los cuerpos.",
+    "explanation": "La fuerza interactiva que se origina debido a la masa y es enteramente atractiva determina a gran escala la estructura y permanencia del entorno astronómico completo.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JW",
+    "question": "Una máquina termodinámica ideal fundamentada en el marco de Carnot acciona empleando dos reservas energéticas cuyas temperaturas absolutas están registradas en $600 \\text{ K}$ y $300 \\text{ K}$. ¿Qué porcentaje de eficiencia teórica se alcanza como cota límite?",
+    "image": null,
+    "options": [
+      { "text": "$50\\%$", "correct": true },
+      { "text": "$25\\%$", "correct": false },
+      { "text": "$100\\%$", "correct": false },
+      { "text": "$75\\%$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Lleva a cabo la relación de temperaturas invirtiendo el valor extraído en la operación matemática deducida como $e = 1 - (T_c / T_h)$.",
+    "explanation": "Reemplazando los datos absolutos estandarizados, se genera $\\eta = 1 - (300 / 600) = 1 - 0.5 = 0.5$, monto expresable habitualmente como el cincuenta por ciento.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JX",
+    "question": "La propuesta científica del modelo atómico de Bohr implementó las reglas cuánticas en la estructura atómica. ¿Cuáles de los postulados enunciados a continuación describen su aporte riguroso para el caso singular del átomo de hidrógeno?\n1. Los electrones tienen permitido navegar cualquier contorno elíptico continuo sin restricción.\n2. El momento angular característico permanece estrictamente cuantizado en etapas múltiples del cociente $h/2\\pi$.\n3. La carga electrónica cede de modo paulatino y sostenido su energía debido a su propia velocidad orbital.\n4. La emanación energética mediante un fotón emerge como producto de un decaimiento cuántico desde un nivel alto a uno inferior.\n5. Hay rutas circulares estáticas concretas que transitan sin sufrir de pérdida por irradiación magnética.",
+    "image": null,
+    "options": [
+      { "text": "2, 4, 5", "correct": true },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false },
+      { "text": "1, 3, 5", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Esta concepción revolucionaria mitigó el riesgo natural de colapso eléctrico del paradigma de Rutherford cancelando la libre atenuación radioactiva.",
+    "explanation": "El esquema del físico Niels Bohr planteó firmemente las series cuantizadas, el recambio abrupto de niveles con absorción o exhalación de cuantos de luz y el concepto basal de los peldaños o estados estacionarios fijos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JY",
+    "question": "El célebre principio originado por ______ sustenta el marco por el cual una robusta embarcación de metal es capaz de navegar de forma segura, aclarando analíticamente que la enorme masa fluida apartada brinda un contrapeso ascendente bautizado como fuerza de ______.",
+    "image": null,
+    "options": [
+      { "text": "Arquímedes, empuje", "correct": true },
+      { "text": "Pascal, presión", "correct": false },
+      { "text": "Torricelli, tensión", "correct": false },
+      { "text": "Bernoulli, elevación", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Tal justificación matemática florece directamente al integrar el diferencial de presión hidrostática que impacta a la figura tridimensional inmersa.",
+    "explanation": "Este fundamento físico calcula objetivamente el valor del empuje hidrostático en sentido anti-gravitacional al ponderar exactamente el volumen desplazado en contraste con la densidad mediática.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25JZ",
+    "question": "Organiza e interrelaciona los prefijos numéricos avalados por el Sistema Internacional asociándolos con la métrica de magnitud y su potencia decimal requerida:\nI. Kilo\nII. Mili\nIII. Micro\n\nA. El multiplicador se estandariza con el orden $10^{-3}$\nB. El multiplicador se estandariza con el orden $10^{-6}$\nC. El multiplicador se estandariza con el orden $10^3$",
+    "image": null,
+    "options": [
+      { "text": "I-C, II-A, III-B", "correct": true },
+      { "text": "I-A, II-C, III-B", "correct": false },
+      { "text": "I-C, II-B, III-A", "correct": false },
+      { "text": "I-B, II-A, III-C", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Procura distinguir que una marca milimétrica encarna la minúscula fracción de una milésima frente a la voluminosa congregación que denotan mil elementos integrados.",
+    "explanation": "El grado de ordenamiento ubica a Kilo como milesimo positivo ($10^3$), Mili obedece a la división milésima ($10^{-3}$) y Micro refiere a una separación millonésima exacta ($10^{-6}$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25KA",
+    "question": "Un experimentado docente del CEPREDIX instruye sobre mediciones armando un banco de pruebas empleando tres resistores gemelos valorados en $10 \\, \\Omega$. A modo de ejercicio, si las piezas se empalman inicialmente en estricto ensamble de serie, y seguidamente en una derivación plenamente paralela, ¿qué resultados de consolidación global se extraerán correspondientemente?",
+    "image": null,
+    "options": [
+      { "text": "$30 \\, \\Omega$ y $3.33 \\, \\Omega$", "correct": true },
+      { "text": "$30 \\, \\Omega$ y $10 \\, \\Omega$", "correct": false },
+      { "text": "$10 \\, \\Omega$ y $30 \\, \\Omega$", "correct": false },
+      { "text": "$3.33 \\, \\Omega$ y $30 \\, \\Omega$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa una simple adición aritmética global empleando $R_s = R_1+R_2+R_3$ y acorta el tiempo dividiendo el valor unitario con el recurso analítico simplificado $R_p = R / n$.",
+    "explanation": "El ensamble secuencial o en serie requiere una sumatoria ordinaria dando $30 \\, \\Omega$. La aglomeración dispuesta de ramas idénticas se acorta a la relación $10 / 3 = 3.33 \\, \\Omega$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25KB",
+    "question": "Lleva a cabo la estimación teórica del valor de cuantificación de la energía albergada en un portador de luz cuya extensión de onda sea $\\lambda = 6.626 \\times 10^{-7} \\text{ m}$. Haz el cálculo amparándote en el dato de la constante $h = 6.626 \\times 10^{-34} \\text{ J}\\cdot\\text{s}$ y admitiendo la propagación estándar con cota en $c = 3 \\times 10^8 \\text{ m/s}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\times 10^{-19} \\text{ J}$", "correct": true },
+      { "text": "$3 \\times 10^{-20} \\text{ J}$", "correct": false },
+      { "text": "$6.6 \\times 10^{-19} \\text{ J}$", "correct": false },
+      { "text": "$1.5 \\times 10^{-19} \\text{ J}$", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Enriquece la manipulación despejando el parámetro frecuencial derivado a raíz de la ecuación primaria $f = c/\\lambda$, forjando un planteamiento global del estilo $E = hc/\\lambda$.",
+    "explanation": "Al plantear algebraicamente $E = hc/\\lambda$, el número de Planck facilita la simplificación de numeradores contra el divisor. Obteniendo $(1)(3 \\times 10^8) \\times 10^{-27}$ originado del orden decimal resulta en la cifra de $3 \\times 10^{-19} \\text{ J}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25KC",
+    "question": "Identifica cuáles de las siguientes magnitudes de índole física exhiben una sólida naturaleza matemática vectorial, demandando sin falta la estipulación espacial de dirección y sentido junto a su lectura métrica:\n1. Aceleración local\n2. Paso del tiempo\n3. Fuerza impulsora\n4. Temperatura global\n5. Desplazamiento posicional",
+    "image": null,
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "uni_tags": ["🏀 FÍSICA"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suprime rotundamente del conjunto a aquellos conceptos termodinámicos y temporales cuya identidad queda zanjada y saciada solo expresando un valor puro numérico.",
+    "explanation": "El cómputo de las horas en el reloj y la lectura del termómetro recaen invariablemente dentro del campo de la matemática escalar. Los fenómenos descritos de empuje exterior y de la cinemática traslacional ostentan requerimientos vectoriales insoslayables.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
