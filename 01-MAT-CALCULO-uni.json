@@ -1,7 +1,7 @@
 [
   {
     "id": "CEP20SM",
-    "question": "Derivada de una constante",
+    "question": "¿Cuál es la derivada de una constante $c$ respecto a $x$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(c) = 0$", "correct": true },
@@ -19,7 +19,7 @@
   },
   {
     "id": "CEP20SN",
-    "question": "Derivada de $x^n$",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^n$ respecto a $x$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(x^n) = n x^{n-1}$", "correct": true },
@@ -37,7 +37,7 @@
   },
   {
     "id": "CEP20SO",
-    "question": "Derivada de $e^x$",
+    "question": "¿Cuál es la derivada de la función exponencial $f(x) = e^x$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(e^x) = e^x$", "correct": true },
@@ -55,7 +55,7 @@
   },
   {
     "id": "CEP20SP",
-    "question": "Derivada de $a^x \\ (a > 0)$",
+    "question": "¿Cuál es la derivada de la función $f(x) = a^x$ asumiendo que $a > 0$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(a^x) = a^x \\ln(a)$", "correct": true },
@@ -73,7 +73,7 @@
   },
   {
     "id": "CEP20SQ",
-    "question": "Derivada de $\\ln(x)$",
+    "question": "¿Cuál es la derivada del logaritmo natural $f(x) = \\ln(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$", "correct": true },
@@ -91,7 +91,7 @@
   },
   {
     "id": "CEP20SR",
-    "question": "Derivada de $\\sin(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica $f(x) = \\sin(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\sin x) = \\cos x$", "correct": true },
@@ -109,7 +109,7 @@
   },
   {
     "id": "CEP20SS",
-    "question": "Derivada de $\\cos(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica $f(x) = \\cos(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\cos x) = -\\sin x$", "correct": true },
@@ -127,7 +127,7 @@
   },
   {
     "id": "CEP20ST",
-    "question": "Derivada de $\\tan(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica $f(x) = \\tan(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\tan x) = \\sec^2 x$", "correct": true },
@@ -145,7 +145,7 @@
   },
   {
     "id": "CEP20SU",
-    "question": "Regla de la suma: derivada de $f+g$",
+    "question": "¿Qué expresión matemática define correctamente la regla de la suma para la derivada de $f(x) + g(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x)$", "correct": true },
@@ -163,7 +163,7 @@
   },
   {
     "id": "CEP20SV",
-    "question": "Regla del producto",
+    "question": "¿Qué expresión matemática define la regla del producto para la derivada de $f(x)g(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$", "correct": true },
@@ -181,7 +181,7 @@
   },
   {
     "id": "CEP20SW",
-    "question": "Regla del cociente",
+    "question": "¿Qué expresión matemática corresponde a la regla del cociente para la derivada de $f(x)/g(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$", "correct": true },
@@ -199,7 +199,7 @@
   },
   {
     "id": "CEP20SX",
-    "question": "Regla de la cadena",
+    "question": "¿Qué expresión matemática representa la regla de la cadena para la derivada de $f(g(x))$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$", "correct": true },
@@ -217,7 +217,7 @@
   },
   {
     "id": "CEP20SY",
-    "question": "Integral indefinida de $x^n$ ($n \\neq -1$)",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int x^n dx$ asumiendo que $n \\neq -1$?",
     "image": null,
     "options": [
       { "text": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$", "correct": true },
@@ -235,7 +235,7 @@
   },
   {
     "id": "CEP20SZ",
-    "question": "Integral de $e^x$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int e^x dx$?",
     "image": null,
     "options": [
       { "text": "$\\int e^x dx = e^x + C$", "correct": true },
@@ -253,7 +253,7 @@
   },
   {
     "id": "CEP20TA",
-    "question": "Integral de $a^x$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int a^x dx$?",
     "image": null,
     "options": [
       { "text": "$\\int a^x dx = \\frac{a^x}{\\ln a} + C$", "correct": true },
@@ -271,7 +271,7 @@
   },
   {
     "id": "CEP20TB",
-    "question": "Integral de $1/x$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\frac{1}{x} dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\frac{1}{x} dx = \\ln|x| + C$", "correct": true },
@@ -289,7 +289,7 @@
   },
   {
     "id": "CEP20TC",
-    "question": "Integral de $\\sin(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\sin(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sin x dx = -\\cos x + C$", "correct": true },
@@ -307,7 +307,7 @@
   },
   {
     "id": "CEP20TD",
-    "question": "Integral de $\\cos(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\cos(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\cos x dx = \\sin x + C$", "correct": true },
@@ -325,7 +325,7 @@
   },
   {
     "id": "CEP20TE",
-    "question": "Integral de $\\sec^2(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\sec^2(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sec^2 x dx = \\tan x + C$", "correct": true },
@@ -343,7 +343,7 @@
   },
   {
     "id": "CEP20TF",
-    "question": "Integral de $\\csc^2(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\csc^2(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\csc^2 x dx = -\\cot x + C$", "correct": true },
@@ -361,7 +361,7 @@
   },
   {
     "id": "CEP20TG",
-    "question": "Integral de $\\sec(x)\\tan(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\sec(x)\\tan(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sec x \\tan x dx = \\sec x + C$", "correct": true },
@@ -379,7 +379,7 @@
   },
   {
     "id": "CEP20TH",
-    "question": "Integral de $\\csc(x)\\cot(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\csc(x)\\cot(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\csc x \\cot x dx = -\\csc x + C$", "correct": true },
@@ -397,7 +397,7 @@
   },
   {
     "id": "CEP20TI",
-    "question": "Teorema fundamental del cálculo (derivada de integral)",
+    "question": "¿Qué expresión representa correctamente el Primer Teorema Fundamental del Cálculo al derivar la integral $\\int_a^x f(t) dt$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\int_a^x f(t) dt = f(x)$", "correct": true },
@@ -415,7 +415,7 @@
   },
   {
     "id": "CEP20TJ",
-    "question": "Regla de la constante por una función",
+    "question": "¿Qué expresión define la regla de derivación para el producto de una constante $c$ por una función $f(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}[c f(x)] = c f'(x)$", "correct": true },
@@ -433,7 +433,7 @@
   },
   {
     "id": "CEP20TK",
-    "question": "Linealidad de la integral",
+    "question": "¿Qué expresión matemática demuestra la propiedad de linealidad de la integral indefinida para la suma de funciones?",
     "image": null,
     "options": [
       { "text": "$\\int [a f(x) + b g(x)] dx = a \\int f(x) dx + b \\int g(x) dx$", "correct": true },
@@ -451,7 +451,7 @@
   },
   {
     "id": "CEP20TL",
-    "question": "Derivada de $\\arcsin(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica inversa $f(x) = \\arcsin(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{\\sqrt{1-x^2}}$", "correct": true },
@@ -469,7 +469,7 @@
   },
   {
     "id": "CEP20TM",
-    "question": "Derivada de $\\arctan(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica inversa $f(x) = \\arctan(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\arctan x) = \\frac{1}{1+x^2}$", "correct": true },
@@ -487,7 +487,7 @@
   },
   {
     "id": "CEP20TN",
-    "question": "Derivada de $\\ln|\\sec x + \\tan x|$",
+    "question": "¿Cuál es la derivada de la función compuesta $f(x) = \\ln|\\sec(x) + \\tan(x)|$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\ln|\\sec x + \\tan x| = \\sec x$", "correct": true },
@@ -505,7 +505,7 @@
   },
   {
     "id": "CEP20TO",
-    "question": "Derivada de $x^x$",
+    "question": "¿Cuál es la derivada de la función exponencial $f(x) = x^x$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(x^x) = x^x (1 + \\ln x)$", "correct": true },
@@ -523,7 +523,7 @@
   },
   {
     "id": "CEP20TP",
-    "question": "Derivada de $\\ln(\\ln x)$",
+    "question": "¿Cuál es la derivada de la función compuesta $f(x) = \\ln(\\ln(x))$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\ln(\\ln x) = \\frac{1}{x \\ln x}$", "correct": true },
@@ -541,7 +541,7 @@
   },
   {
     "id": "CEP20TQ",
-    "question": "Derivada de $\\sinh(x)$",
+    "question": "¿Cuál es la derivada de la función hiperbólica $f(x) = \\sinh(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\sinh x) = \\cosh x$", "correct": true },
@@ -559,7 +559,7 @@
   },
   {
     "id": "CEP20TR",
-    "question": "Derivada de $\\tanh(x)$",
+    "question": "¿Cuál es la derivada de la función hiperbólica $f(x) = \\tanh(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx}(\\tanh x) = \\operatorname{sech}^2 x$", "correct": true },
@@ -577,7 +577,7 @@
   },
   {
     "id": "CEP20TS",
-    "question": "Derivada de $\\ln(\\sec x)$",
+    "question": "¿Cuál es la derivada de la función compuesta $f(x) = \\ln(\\sec(x))$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\ln(\\sec x) = \\tan x$", "correct": true },
@@ -595,7 +595,7 @@
   },
   {
     "id": "CEP20TT",
-    "question": "Derivada de $e^{\\sin x}$",
+    "question": "¿Cuál es la derivada de la función exponencial compuesta $f(x) = e^{\\sin(x)}$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} e^{\\sin x} = e^{\\sin x} \\cos x$", "correct": true },
@@ -613,7 +613,7 @@
   },
   {
     "id": "CEP20TU",
-    "question": "Derivada de $\\cos^2(x)$",
+    "question": "¿Cuál es la derivada de la función trigonométrica $f(x) = \\cos^2(x)$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\cos^2 x = -2 \\cos x \\sin x = -\\sin(2x)$", "correct": true },
@@ -631,7 +631,7 @@
   },
   {
     "id": "CEP20TV",
-    "question": "Integral de $\\tan(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\tan(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\tan x dx = -\\ln|\\cos x| + C = \\ln|\\sec x| + C$", "correct": true },
@@ -649,7 +649,7 @@
   },
   {
     "id": "CEP20TW",
-    "question": "Integral de $\\sec(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\sec(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sec x dx = \\ln|\\sec x + \\tan x| + C$", "correct": true },
@@ -667,7 +667,7 @@
   },
   {
     "id": "CEP20TX",
-    "question": "Integral de $\\csc(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\csc(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\csc x dx = -\\ln|\\csc x + \\cot x| + C$", "correct": true },
@@ -685,7 +685,7 @@
   },
   {
     "id": "CEP20TY",
-    "question": "Integral de $\\sin^2(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\sin^2(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sin^2 x dx = \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C$", "correct": true },
@@ -703,7 +703,7 @@
   },
   {
     "id": "CEP20TZ",
-    "question": "Integral de $\\cos^2(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\cos^2(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\cos^2 x dx = \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C$", "correct": true },
@@ -721,7 +721,7 @@
   },
   {
     "id": "CEP20UA",
-    "question": "Integral de $\\frac{1}{a^2 + x^2}$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\frac{1}{a^2 + x^2} dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\frac{1}{a^2 + x^2} dx = \\frac{1}{a} \\arctan\\left(\\frac{x}{a}\\right) + C$", "correct": true },
@@ -739,7 +739,7 @@
   },
   {
     "id": "CEP20UB",
-    "question": "Integral de $\\frac{1}{\\sqrt{a^2 - x^2}}$",
+    "question": "¿Cuál es el resultado de la integral indefinida $\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\arcsin\\left(\\frac{x}{a}\\right) + C$", "correct": true },
@@ -757,7 +757,7 @@
   },
   {
     "id": "CEP20UC",
-    "question": "Integral de $\\sinh x$",
+    "question": "¿Cuál es el resultado de la integral indefinida del seno hiperbólico $\\int \\sinh(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sinh x dx = \\cosh x + C$", "correct": true },
@@ -775,7 +775,7 @@
   },
   {
     "id": "CEP20UD",
-    "question": "Integral de $\\cosh x$",
+    "question": "¿Cuál es el resultado de la integral indefinida del coseno hiperbólico $\\int \\cosh(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\cosh x dx = \\sinh x + C$", "correct": true },
@@ -793,7 +793,7 @@
   },
   {
     "id": "CEP20UE",
-    "question": "Integral de $\\ln x$",
+    "question": "¿Cuál es el resultado de la integral indefinida del logaritmo natural $\\int \\ln(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\ln x dx = x \\ln x - x + C$", "correct": true },
@@ -811,7 +811,7 @@
   },
   {
     "id": "CEP20UF",
-    "question": "Integral de $e^{ax} \\sin(bx)$",
+    "question": "¿Cuál es el resultado de la integral indefinida del producto $\\int e^{ax} \\sin(bx) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int e^{ax} \\sin(bx) dx = \\frac{e^{ax} (a \\sin(bx) - b \\cos(bx))}{a^2 + b^2} + C$", "correct": true },
@@ -829,7 +829,7 @@
   },
   {
     "id": "CEP20UG",
-    "question": "Integral de $x e^{x}$",
+    "question": "¿Cuál es el resultado de la integral indefinida del producto $\\int x e^{x} dx$?",
     "image": null,
     "options": [
       { "text": "$\\int x e^x dx = e^x (x - 1) + C$", "correct": true },
@@ -847,7 +847,7 @@
   },
   {
     "id": "CEP20UH",
-    "question": "Integral de $\\sec^3(x)$",
+    "question": "¿Cuál es el resultado de la integral indefinida de la función $\\int \\sec^3(x) dx$?",
     "image": null,
     "options": [
       { "text": "$\\int \\sec^3 x dx = \\frac{1}{2} \\left( \\sec x \\tan x + \\ln|\\sec x + \\tan x| \\right) + C$", "correct": true },
@@ -865,7 +865,7 @@
   },
   {
     "id": "CEP20UI",
-    "question": "Derivada de $\\arctan(\\ln x)$",
+    "question": "¿Cuál es la derivada de la función compuesta $f(x) = \\arctan(\\ln(x))$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\arctan(\\ln x) = \\frac{1}{x(1 + \\ln^2 x)}$", "correct": true },
@@ -883,7 +883,7 @@
   },
   {
     "id": "CEP20UJ",
-    "question": "Derivada de $f(x)^{g(x)}$ con $f(x)>0$",
+    "question": "¿Cuál es la derivada de la función exponencial generalizada $y = f(x)^{g(x)}$ asumiendo que $f(x) > 0$?",
     "image": null,
     "options": [
       { "text": "$\\frac{d}{dx} \\left[ f(x)^{g(x)} \\right] = f(x)^{g(x)} \\left( g'(x) \\ln f(x) + \\frac{g(x) f'(x)}{f(x)} \\right)$", "correct": true },
@@ -901,7 +901,7 @@
   },
   {
     "id": "CEP20UK",
-    "question": "Encuentra el punto mínimo de la función $f(x) = x^2 - 6x + 10$.",
+    "question": "Determina las coordenadas del punto mínimo de la función $f(x) = x^2 - 6x + 10$.",
     "image": null,
     "options": [
       { "text": "$(3, 1)$", "correct": true },
@@ -919,7 +919,7 @@
   },
   {
     "id": "CEP20UL",
-    "question": "Encuentra el punto máximo de la función $f(x) = -x^2 + 4x + 2$.",
+    "question": "Determina las coordenadas del punto máximo de la función $f(x) = -x^2 + 4x + 2$.",
     "image": null,
     "options": [
       { "text": "$(-2, -10)$", "correct": false },
@@ -937,7 +937,7 @@
   },
   {
     "id": "CEP20UM",
-    "question": "Determina el punto mínimo de la función $f(x) = 2x^2 + 8x - 3$.",
+    "question": "Determina las coordenadas del punto mínimo de la función $f(x) = 2x^2 + 8x - 3$.",
     "image": null,
     "options": [
       { "text": "$(2, 21)$", "correct": false },
@@ -955,7 +955,7 @@
   },
   {
     "id": "CEP20UN",
-    "question": "¿Cuál es el punto máximo de la función $f(x) = -3x^2 + 12x$?",
+    "question": "Determina las coordenadas del punto máximo de la función $f(x) = -3x^2 + 12x$.",
     "image": null,
     "options": [
       { "text": "$(-2, -36)$", "correct": false },
@@ -973,7 +973,7 @@
   },
   {
     "id": "CEP20UO",
-    "question": "Encuentra las coordenadas del punto mínimo de $f(x) = x^2 + 10x$.",
+    "question": "Determina las coordenadas del punto mínimo de la función $f(x) = x^2 + 10x$.",
     "image": null,
     "options": [
       { "text": "$(-5, -25)$", "correct": true },
@@ -991,7 +991,7 @@
   },
   {
     "id": "CEP20UP",
-    "question": "Determina en qué intervalo la función $f(x) = x^2 - 8x + 12$ es creciente.",
+    "question": "¿En qué intervalo la función cuadrática $f(x) = x^2 - 8x + 12$ es estrictamente creciente?",
     "image": null,
     "options": [
       { "text": "$(-\\infty, 4)$", "correct": false },
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "CEP20UQ",
-    "question": "¿En qué intervalo la función $f(x) = -x^2 + 6x$ es decreciente?",
+    "question": "¿En qué intervalo la función cuadrática $f(x) = -x^2 + 6x$ es estrictamente decreciente?",
     "image": null,
     "options": [
       { "text": "$(-\\infty, 3)$", "correct": false },
@@ -1027,7 +1027,7 @@
   },
   {
     "id": "CEP20UR",
-    "question": "La función $f(x) = 3x^2 + 12x + 1$ es creciente en el intervalo:",
+    "question": "¿En qué intervalo la función cuadrática $f(x) = 3x^2 + 12x + 1$ es estrictamente creciente?",
     "image": null,
     "options": [
       { "text": "$(-2, \\infty)$", "correct": true },
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "CEP20US",
-    "question": "Encuentra los valores de $x$ que representan los puntos críticos de la función $f(x) = x^3 - 12x$.",
+    "question": "¿Qué valores de $x$ representan los puntos críticos de la función $f(x) = x^3 - 12x$?",
     "image": null,
     "options": [
       { "text": "$x = 3$ y $x = -3$", "correct": false },
@@ -1063,7 +1063,7 @@
   },
   {
     "id": "CEP20UT",
-    "question": "Determina las coordenadas del punto máximo local de la función $f(x) = -x^3 + 3x$.",
+    "question": "Determina las coordenadas del punto máximo local de la función polinomial $f(x) = -x^3 + 3x$.",
     "image": null,
     "options": [
       { "text": "$(-1, -2)$", "correct": false },
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "CEP20UU",
-    "question": "Encuentra las coordenadas del punto mínimo local de la función $f(x) = x^3 - 3x^2$.",
+    "question": "Determina las coordenadas del punto mínimo local de la función polinomial $f(x) = x^3 - 3x^2$.",
     "image": null,
     "options": [
       { "text": "$(0, 0)$", "correct": false },
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "CEP20UV",
-    "question": "¿Cuáles son las coordenadas del punto mínimo local de $f(x) = 2x^3 - 6x$?",
+    "question": "Determina las coordenadas del punto mínimo local de la función polinomial $f(x) = 2x^3 - 6x$.",
     "image": null,
     "options": [
       { "text": "$(-1, 4)$", "correct": false },
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "CEP20UW",
-    "question": "Determina el intervalo donde la función $f(x) = x^3 - 3x$ es decreciente.",
+    "question": "¿En qué intervalo la función polinomial $f(x) = x^3 - 3x$ es estrictamente decreciente?",
     "image": null,
     "options": [
       { "text": "$(-\\infty, -1) \\cup (1, \\infty)$", "correct": false },
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "CEP20UX",
-    "question": "La función $f(x) = -x^3 + 12x$ es creciente en el intervalo:",
+    "question": "¿En qué intervalo la función polinomial $f(x) = -x^3 + 12x$ es estrictamente creciente?",
     "image": null,
     "options": [
       { "text": "$(-\\infty, -2) \\cup (2, \\infty)$", "correct": false },
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "CEP20UY",
-    "question": "¿En qué intervalos es creciente la función $f(x) = x^3 - 6x^2 + 9x$?",
+    "question": "¿En qué conjunto de intervalos la función $f(x) = x^3 - 6x^2 + 9x$ es estrictamente creciente?",
     "image": null,
     "options": [
       { "text": "$(1, 3)$", "correct": false },
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "CEP20UZ",
-    "question": "Determina el o los intervalos donde $f(x) = 2x^3 - 15x^2 + 36x$ es decreciente.",
+    "question": "¿En qué intervalo la función $f(x) = 2x^3 - 15x^2 + 36x$ es estrictamente decreciente?",
     "image": null,
     "options": [
       { "text": "$(-\\infty, 2) \\cup (3, \\infty)$", "correct": false },
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "CEP20VA",
-    "question": "Encuentra el punto máximo local y el punto mínimo local de $f(x) = \\frac{1}{3}x^3 - 4x$.",
+    "question": "Determina las coordenadas del punto máximo local y del punto mínimo local de la función $f(x) = \\frac{1}{3}x^3 - 4x$.",
     "image": null,
     "options": [
       { "text": "Punto máximo: $(2, -\\frac{16}{3})$, Punto mínimo: $(-2, \\frac{16}{3})$", "correct": false },
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "CEP20VB",
-    "question": "¿En qué conjunto de intervalos es decreciente la función $f(x) = -x^3 - 3x^2 + 9x$?",
+    "question": "¿En qué conjunto de intervalos la función polinomial $f(x) = -x^3 - 3x^2 + 9x$ es estrictamente decreciente?",
     "image": null,
     "options": [
       { "text": "$(-3, 1)$", "correct": false },
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "CEP20VC",
-    "question": "Encuentra el o los intervalos de crecimiento de la función $f(x) = x^3 - 12x^2$.",
+    "question": "¿En qué conjunto de intervalos la función polinomial $f(x) = x^3 - 12x^2$ es estrictamente creciente?",
     "image": null,
     "options": [
       { "text": "$(0, 8)$", "correct": false },
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "CEP20VD",
-    "question": "Determina las coordenadas del punto mínimo local de la función $f(x) = x^3 - 27x + 5$.",
+    "question": "Determina las coordenadas del punto mínimo local de la función polinomial $f(x) = x^3 - 27x + 5$.",
     "image": null,
     "options": [
       { "text": "$(-3, 59)$", "correct": false },
