@@ -6388,5 +6388,545 @@
     "explanation": "Un indel (inserción o deleción) que no sea múltiplo de 3 altera por completo cómo los tripletes o codones se agrupan al traducirse.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP73TN",
+    "question": "Simplifica la siguiente fracción a su mínima expresión descomponiendo en factores primos: $\\frac{24}{36}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra los factores primos de 24 ($2 \\times 2 \\times 2 \\times 3$) y de 36 ($2 \\times 2 \\times 3 \\times 3$).",
+    "explanation": "Expresando en factores primos: $\\frac{2 \\times 2 \\times 2 \\times 3}{2 \\times 2 \\times 3 \\times 3}$. Al cancelar los factores comunes ($2 \\times 2 \\times 3$), obtenemos $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TO",
+    "question": "Reduce la expresión fraccionaria mediante la eliminación de factores comunes: $\\frac{45}{60}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{4}{5}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón ambos números. 45 termina en 5 y 60 termina en 0, ambos son divisibles por 5.",
+    "explanation": "Factorizando obtenemos $\\frac{3 \\times 3 \\times 5}{2 \\times 2 \\times 3 \\times 5}$. Cancelando un 3 y un 5, queda $\\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TP",
+    "question": "¿Cuál es la forma más simple de la fracción $\\frac{56}{64}$ al cancelar sus factores primos?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{7}{8}$", "correct": true },
+      { "text": "$\\frac{6}{7}$", "correct": false },
+      { "text": "$\\frac{8}{9}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos son múltiplos de 8, descompón ambos números hasta sus factores primos.",
+    "explanation": "La factorización es $\\frac{2 \\times 2 \\times 2 \\times 7}{2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2}$. Cancelando tres veces el 2, queda $\\frac{7}{8}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TQ",
+    "question": "Simplifica la fracción extrayendo y eliminando los factores primos: $\\frac{42}{70}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{6}{11}$", "correct": false },
+      { "text": "$\\frac{4}{7}$", "correct": false },
+      { "text": "$\\frac{2}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números son pares y múltiplos de 7.",
+    "explanation": "Expresado en factores primos: $\\frac{2 \\times 3 \\times 7}{2 \\times 5 \\times 7}$. Al cancelar el 2 y el 7, nos queda $\\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TR",
+    "question": "Determina el valor simplificado de la fracción $\\frac{48}{80}$ mediante cancelación.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5}$", "correct": true },
+      { "text": "$\\frac{4}{5}$", "correct": false },
+      { "text": "$\\frac{3}{8}$", "correct": false },
+      { "text": "$\\frac{6}{11}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide ambos términos por sus factores primos comunes hasta que no tengan divisores en común.",
+    "explanation": "48 se descompone como $2 \\times 2 \\times 2 \\times 2 \\times 3$ y 80 como $2 \\times 2 \\times 2 \\times 2 \\times 5$. Al cancelar $2^4$, se obtiene $\\frac{3}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TS",
+    "question": "Realiza la simplificación de la fracción $\\frac{54}{81}$ utilizando factores primos.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{5}{9}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma los dígitos de cada número para verificar si son múltiplos de 3 o de 9.",
+    "explanation": "Factorizando: $54 = 2 \\times 3 \\times 3 \\times 3$ y $81 = 3 \\times 3 \\times 3 \\times 3$. Cancelando tres veces el 3, queda $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TT",
+    "question": "Reduce la siguiente fracción a su mínima expresión: $\\frac{60}{84}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{7}$", "correct": true },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{10}{13}$", "correct": false },
+      { "text": "$\\frac{5}{6}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón en factores primos: $60 = 2 \\times 2 \\times 3 \\times 5$ y $84 = 2 \\times 2 \\times 3 \\times 7$.",
+    "explanation": "Al cancelar los factores comunes ($2 \\times 2 \\times 3$), resulta $\\frac{5}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TU",
+    "question": "Simplifica $\\frac{35}{49}$ cancelando los factores primos correspondientes.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{7}$", "correct": true },
+      { "text": "$\\frac{3}{7}$", "correct": false },
+      { "text": "$\\frac{5}{9}$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Identifica el factor primo común que pertenece a las tablas de multiplicar de ambos números.",
+    "explanation": "Factorizando obtenemos $\\frac{5 \\times 7}{7 \\times 7}$. Cancelando el número 7, queda $\\frac{5}{7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TV",
+    "question": "Encuentra la mínima expresión de $\\frac{90}{120}$ mediante la cancelación de factores.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{9}{11}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{4}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Puedes cancelar primero el factor 10 ($2 \\times 5$) y luego simplificar el resto.",
+    "explanation": "Descomponiendo: $90 = 2 \\times 3 \\times 3 \\times 5$ y $120 = 2 \\times 2 \\times 2 \\times 3 \\times 5$. Cancelando $2 \\times 3 \\times 5$, resulta $\\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TW",
+    "question": "Simplifica la fracción $\\frac{32}{40}$ a su mínima expresión.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4}{5}$", "correct": true },
+      { "text": "$\\frac{8}{11}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{2}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números son potencias o múltiplos de potencias de 2.",
+    "explanation": "Descomponiendo en factores primos: $\\frac{2 \\times 2 \\times 2 \\times 2 \\times 2}{2 \\times 2 \\times 2 \\times 5}$. Al cancelar tres veces el 2 obtenemos $\\frac{4}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TX",
+    "question": "Aplica la cancelación de factores primos para simplificar $\\frac{75}{100}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{4}$", "correct": true },
+      { "text": "$\\frac{15}{22}$", "correct": false },
+      { "text": "$\\frac{2}{3}$", "correct": false },
+      { "text": "$\\frac{4}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa que ambos números terminan en 5 o 0, indicando que son múltiplos de 5.",
+    "explanation": "$75 = 3 \\times 5 \\times 5$ y $100 = 2 \\times 2 \\times 5 \\times 5$. Cancelando $5 \\times 5$, nos queda $\\frac{3}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TY",
+    "question": "Reduce la expresión $\\frac{18}{27}$ eliminando los factores comunes.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{6}{11}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números son múltiplos de 9.",
+    "explanation": "Los factores primos son $\\frac{2 \\times 3 \\times 3}{3 \\times 3 \\times 3}$. Cancelando dos veces el 3, el resultado es $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73TZ",
+    "question": "Determina la fracción equivalente más simple para $\\frac{50}{75}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{10}{13}$", "correct": false },
+      { "text": "$\\frac{1}{2}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor común más grande está relacionado con los múltiplos de 25, descompón en factores primos.",
+    "explanation": "Factorizando: $50 = 2 \\times 5 \\times 5$ y $75 = 3 \\times 5 \\times 5$. Al cancelar los factores comunes ($5 \\times 5$), queda $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UA",
+    "question": "Simplifica la fracción numérica $\\frac{28}{42}$ utilizando el método de factores primos.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3}$", "correct": true },
+      { "text": "$\\frac{5}{7}$", "correct": false },
+      { "text": "$\\frac{3}{4}$", "correct": false },
+      { "text": "$\\frac{4}{7}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Ambos números son pares y también divisibles por 7.",
+    "explanation": "Descomponiendo: $\\frac{2 \\times 2 \\times 7}{2 \\times 3 \\times 7}$. Al cancelar un 2 y el 7, se obtiene $\\frac{2}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UB",
+    "question": "¿Cuál es el resultado de simplificar $\\frac{12}{30}$ mediante cancelación?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{5}$", "correct": true },
+      { "text": "$\\frac{4}{11}$", "correct": false },
+      { "text": "$\\frac{1}{3}$", "correct": false },
+      { "text": "$\\frac{3}{5}$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae la mitad de ambos y luego analiza por qué otro número primo se pueden dividir.",
+    "explanation": "$12 = 2 \\times 2 \\times 3$ y $30 = 2 \\times 3 \\times 5$. Cancelando un 2 y un 3, queda $\\frac{2}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UC",
+    "question": "Simplifica la siguiente expresión algebraica cancelando las variables comunes: $\\frac{14a^2b}{7ab}$",
+    "image": null,
+    "options": [
+      { "text": "$2a$", "correct": true },
+      { "text": "$2ab$", "correct": false },
+      { "text": "$7a$", "correct": false },
+      { "text": "$2b$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Descompón las variables como $a^2 = a \\times a$.",
+    "explanation": "Factorizando obtenemos $\\frac{2 \\times 7 \\times a \\times a \\times b}{7 \\times a \\times b}$. Al cancelar $7$, $a$ y $b$, el resultado es $2a$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UD",
+    "question": "Reduce la expresión algebraica a su mínima forma: $\\frac{15x^2y}{5xy^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3x}{y}$", "correct": true },
+      { "text": "$3xy$", "correct": false },
+      { "text": "$\\frac{3y}{x}$", "correct": false },
+      { "text": "$3x$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Recuerda que las potencias se pueden desarrollar como multiplicaciones iteradas.",
+    "explanation": "Expresando los términos: $\\frac{3 \\times 5 \\times x \\times x \\times y}{5 \\times x \\times y \\times y}$. Cancelando $5$, $x$ e $y$, nos queda $\\frac{3x}{y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UE",
+    "question": "Simplifica el siguiente término algebraico: $\\frac{24m^2n}{8mn}$",
+    "image": null,
+    "options": [
+      { "text": "$3m$", "correct": true },
+      { "text": "$3mn$", "correct": false },
+      { "text": "$4m$", "correct": false },
+      { "text": "$3n$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Divide los coeficientes numéricos y cancela las literales idénticas en numerador y denominador.",
+    "explanation": "Desarrollando: $\\frac{3 \\times 8 \\times m \\times m \\times n}{8 \\times m \\times n}$. Cancelando $8$, $m$ y $n$, se obtiene $3m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UF",
+    "question": "Aplica la cancelación de factores para reducir: $\\frac{36p^2q^2}{9pq}$",
+    "image": null,
+    "options": [
+      { "text": "$4pq$", "correct": true },
+      { "text": "$4p^2q$", "correct": false },
+      { "text": "$9pq$", "correct": false },
+      { "text": "$4p$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera $p^2 = p \\times p$ y $q^2 = q \\times q$.",
+    "explanation": "La expresión es $\\frac{4 \\times 9 \\times p \\times p \\times q \\times q}{9 \\times p \\times q}$. Al cancelar $9$, $p$ y $q$, queda $4pq$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UG",
+    "question": "Determina la forma más simple de la expresión: $\\frac{18x^2}{6x}$",
+    "image": null,
+    "options": [
+      { "text": "$3x$", "correct": true },
+      { "text": "$3x^2$", "correct": false },
+      { "text": "$12x$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Cancela el factor numérico común y una variable $x$.",
+    "explanation": "Expresado como $\\frac{3 \\times 6 \\times x \\times x}{6 \\times x}$. Cancelando el $6$ y una $x$, resulta $3x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UH",
+    "question": "Reduce la fracción algebraica cancelando los factores correspondientes: $\\frac{40a^2bc}{10abc}$",
+    "image": null,
+    "options": [
+      { "text": "$4a$", "correct": true },
+      { "text": "$4ab$", "correct": false },
+      { "text": "$4bc$", "correct": false },
+      { "text": "$4c$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Las variables que tienen exactamente el mismo exponente arriba y abajo se eliminan por completo.",
+    "explanation": "Separando términos: $\\frac{4 \\times 10 \\times a \\times a \\times b \\times c}{10 \\times a \\times b \\times c}$. Cancelando $10$, $a$, $b$ y $c$, queda $4a$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UI",
+    "question": "Simplifica la expresión $\\frac{27u^2v}{9u^2}$ mediante la cancelación de términos.",
+    "image": null,
+    "options": [
+      { "text": "$3v$", "correct": true },
+      { "text": "$3u$", "correct": false },
+      { "text": "$3uv$", "correct": false },
+      { "text": "$18v$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Nota que $u^2$ aparece idéntico tanto en el numerador como en el denominador.",
+    "explanation": "Estructurando: $\\frac{3 \\times 9 \\times u^2 \\times v}{9 \\times u^2}$. Al cancelar $9$ y $u^2$ simultáneamente, obtenemos $3v$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UJ",
+    "question": "¿Cuál es el resultado de simplificar $\\frac{50x^2y^2}{25xy}$?",
+    "image": null,
+    "options": [
+      { "text": "$2xy$", "correct": true },
+      { "text": "$2x^2y$", "correct": false },
+      { "text": "$25xy$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica los números por separado y luego reduce un grado a cada variable.",
+    "explanation": "Descomposición: $\\frac{2 \\times 25 \\times x \\times x \\times y \\times y}{25 \\times x \\times y}$. Cancelando $25$, $x$ e $y$, el resultado es $2xy$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UK",
+    "question": "Encuentra la expresión mínima al simplificar $\\frac{32m^2n^2}{16mn^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$2m$", "correct": true },
+      { "text": "$2n$", "correct": false },
+      { "text": "$2mn$", "correct": false },
+      { "text": "$16m$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La variable $n$ está elevada al cuadrado en ambas partes de la fracción.",
+    "explanation": "Factores: $\\frac{2 \\times 16 \\times m \\times m \\times n^2}{16 \\times m \\times n^2}$. Al cancelar $16$, $m$ y $n^2$, queda únicamente $2m$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UL",
+    "question": "Reduce la siguiente expresión algebraica mediante cancelación: $\\frac{45a^2b^2}{15ab^2}$",
+    "image": null,
+    "options": [
+      { "text": "$3a$", "correct": true },
+      { "text": "$3ab$", "correct": false },
+      { "text": "$3b$", "correct": false },
+      { "text": "$3a^2$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El factor común de los coeficientes es 15, y $b^2$ se encuentra tanto arriba como abajo.",
+    "explanation": "Mostrando factores: $\\frac{3 \\times 15 \\times a \\times a \\times b^2}{15 \\times a \\times b^2}$. Cancelando $15$, $a$ y $b^2$, nos queda $3a$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UM",
+    "question": "Simplifica la expresión $\\frac{12x^2y}{4x^2y}$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$3x$", "correct": false },
+      { "text": "$3xy$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa si todas las literales del numerador son exactamente iguales a las del denominador.",
+    "explanation": "Estructura interna: $\\frac{3 \\times 4 \\times x^2 \\times y}{4 \\times x^2 \\times y}$. Al cancelar todo el bloque literal $x^2y$ y el número $4$, resulta $3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UN",
+    "question": "¿Cuál es la forma simplificada de $\\frac{28p^2q}{7pq^2}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4p}{q}$", "correct": true },
+      { "text": "$4pq$", "correct": false },
+      { "text": "$\\frac{4q}{p}$", "correct": false },
+      { "text": "$4p$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Analiza qué variable tiene un exponente mayor en el denominador.",
+    "explanation": "Desglosando: $\\frac{4 \\times 7 \\times p \\times p \\times q}{7 \\times p \\times q \\times q}$. Cancelando $7$, $p$ y $q$, queda $\\frac{4p}{q}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UO",
+    "question": "Realiza la simplificación de la fracción algebraica: $\\frac{60x^2y}{12xy}$",
+    "image": null,
+    "options": [
+      { "text": "$5x$", "correct": true },
+      { "text": "$5y$", "correct": false },
+      { "text": "$5xy$", "correct": false },
+      { "text": "$48x$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Extrae los factores del coeficiente numérico y desglosa las variables.",
+    "explanation": "Representando: $\\frac{5 \\times 12 \\times x \\times x \\times y}{12 \\times x \\times y}$. Cancelando el factor 12, una $x$ y la $y$, obtenemos $5x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UP",
+    "question": "Simplifica a su mínima expresión cancelando factores: $\\frac{81a^2b}{9ab^2}$",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{9a}{b}$", "correct": true },
+      { "text": "$9ab$", "correct": false },
+      { "text": "$\\frac{9b}{a}$", "correct": false },
+      { "text": "$9a$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Fíjate que en el numerador hay una literal 'a' extra y en el denominador una literal 'b' extra.",
+    "explanation": "Al expandir: $\\frac{9 \\times 9 \\times a \\times a \\times b}{9 \\times a \\times b \\times b}$. Cancelando $9$, $a$ y $b$, queda $\\frac{9a}{b}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP73UQ",
+    "question": "Reduce la siguiente expresión utilizando la cancelación de literales y números: $\\frac{64m^2n^2}{8m^2n}$",
+    "image": null,
+    "options": [
+      { "text": "$8n$", "correct": true },
+      { "text": "$8m$", "correct": false },
+      { "text": "$8mn$", "correct": false },
+      { "text": "$56n$", "correct": false }
+    ],
+    "uni_tags": ["👨‍🏫 CLASE"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El término $m^2$ está presente íntegramente tanto en el dividendo como en el divisor.",
+    "explanation": "Operando: $\\frac{8 \\times 8 \\times m^2 \\times n \\times n}{8 \\times m^2 \\times n}$. Al cancelar el número $8$, el $m^2$ y una $n$, resulta $8n$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
