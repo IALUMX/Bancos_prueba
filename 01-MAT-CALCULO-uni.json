@@ -1258,5 +1258,1085 @@
     "explanation": "$f'(x) = 3x^2 - 27 = 0$, obteniendo $x = 3, -3$. Con $f''(x) = 6x$, el valor $x = 3$ genera un resultado positivo (mínimo). Evaluando: $f(3) = 3^3 - 27(3) + 5 = 27 - 81 + 5 = -49$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP20VE",
+    "question": "¿Cuál es la derivada de la función $f(x) = 8$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = 8$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = k \\implies f'(x) = 0$",
+    "explanation": "La derivada de cualquier constante numérica aislada siempre es igual a cero.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 12$, entonces $f'(x) = 0$."
+  },
+  {
+    "id": "CEP20VF",
+    "question": "¿Cuál es la derivada de la función $f(x) = -5$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -5$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = -1$", "correct": false },
+      { "text": "$f'(x) = x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = k \\implies f'(x) = 0$",
+    "explanation": "La derivada de cualquier constante numérica aislada siempre es igual a cero.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 12$, entonces $f'(x) = 0$."
+  },
+  {
+    "id": "CEP20VG",
+    "question": "¿Cuál es la derivada de la función $f(x) = 3.1416$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = 3.1416$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = k \\implies f'(x) = 0$",
+    "explanation": "La derivada de cualquier constante numérica aislada siempre es igual a cero.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 12$, entonces $f'(x) = 0$."
+  },
+  {
+    "id": "CEP20VH",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{2}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{2}$", "correct": false },
+      { "text": "$f'(x) = 2$", "correct": false },
+      { "text": "$f'(x) = \\frac{x}{2}$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = k \\implies f'(x) = 0$",
+    "explanation": "La derivada de cualquier constante numérica aislada siempre es igual a cero.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 12$, entonces $f'(x) = 0$."
+  },
+  {
+    "id": "CEP20VI",
+    "question": "¿Cuál es la derivada de la función $f(x) = 1000$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 0$", "correct": true },
+      { "text": "$f'(x) = 1000$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = 1000x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = k \\implies f'(x) = 0$",
+    "explanation": "La derivada de cualquier constante numérica aislada siempre es igual a cero.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 12$, entonces $f'(x) = 0$."
+  },
+  {
+    "id": "CEP20VJ",
+    "question": "¿Cuál es la derivada de la función $f(x) = 4x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 4$", "correct": true },
+      { "text": "$f'(x) = 4x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ax \\implies f'(x) = a$",
+    "explanation": "La derivada de una función lineal pura es simplemente el coeficiente que acompaña a la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 9x$, entonces $f'(x) = 9$."
+  },
+  {
+    "id": "CEP20VK",
+    "question": "¿Cuál es la derivada de la función $f(x) = -3x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 3$", "correct": false },
+      { "text": "$f'(x) = -3$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = -3x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ax \\implies f'(x) = a$",
+    "explanation": "La derivada de una función lineal pura es simplemente el coeficiente que acompaña a la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 9x$, entonces $f'(x) = 9$."
+  },
+  {
+    "id": "CEP20VL",
+    "question": "¿Cuál es la derivada de la función $f(x) = 15x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 15x$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = 15$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ax \\implies f'(x) = a$",
+    "explanation": "La derivada de una función lineal pura es simplemente el coeficiente que acompaña a la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 9x$, entonces $f'(x) = 9$."
+  },
+  {
+    "id": "CEP20VM",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{3}{4}x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{3}{4}$", "correct": true },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{4}x$", "correct": false },
+      { "text": "$f'(x) = \\frac{4}{3}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ax \\implies f'(x) = a$",
+    "explanation": "La derivada de una función lineal pura es simplemente el coeficiente que acompaña a la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 9x$, entonces $f'(x) = 9$."
+  },
+  {
+    "id": "CEP20VN",
+    "question": "¿Cuál es la derivada de la función $f(x) = -x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = x$", "correct": false },
+      { "text": "$f'(x) = 0$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = -1$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ax \\implies f'(x) = a$",
+    "explanation": "La derivada de una función lineal pura es simplemente el coeficiente que acompaña a la variable $x$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 9x$, entonces $f'(x) = 9$."
+  },
+  {
+    "id": "CEP20VO",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^4$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 4x^3$", "correct": true },
+      { "text": "$f'(x) = 4x^4$", "correct": false },
+      { "text": "$f'(x) = x^3$", "correct": false },
+      { "text": "$f'(x) = 3x^4$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = x^n \\implies f'(x) = n x^{n-1}$",
+    "explanation": "Baja el exponente multiplicando y réstale uno al exponente original.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = x^6$, entonces $f'(x) = 6x^5$."
+  },
+  {
+    "id": "CEP20VP",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^8$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = x^7$", "correct": false },
+      { "text": "$f'(x) = 8x^7$", "correct": true },
+      { "text": "$f'(x) = 8x^8$", "correct": false },
+      { "text": "$f'(x) = 7x^8$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = x^n \\implies f'(x) = n x^{n-1}$",
+    "explanation": "Baja el exponente multiplicando y réstale uno al exponente original.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = x^6$, entonces $f'(x) = 6x^5$."
+  },
+  {
+    "id": "CEP20VQ",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^{12}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 11x^{12}$", "correct": false },
+      { "text": "$f'(x) = 12x^{12}$", "correct": false },
+      { "text": "$f'(x) = 12x^{11}$", "correct": true },
+      { "text": "$f'(x) = x^{11}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = x^n \\implies f'(x) = n x^{n-1}$",
+    "explanation": "Baja el exponente multiplicando y réstale uno al exponente original.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = x^6$, entonces $f'(x) = 6x^5$."
+  },
+  {
+    "id": "CEP20VR",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^{-3}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -3x^{-2}$", "correct": false },
+      { "text": "$f'(x) = 3x^{-4}$", "correct": false },
+      { "text": "$f'(x) = -2x^{-4}$", "correct": false },
+      { "text": "$f'(x) = -3x^{-4}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = x^n \\implies f'(x) = n x^{n-1}$",
+    "explanation": "Baja el exponente multiplicando y réstale uno al exponente original (nota que $-3 - 1 = -4$).",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = x^6$, entonces $f'(x) = 6x^5$."
+  },
+  {
+    "id": "CEP20VS",
+    "question": "¿Cuál es la derivada de la función $f(x) = x^5$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 5x^4$", "correct": true },
+      { "text": "$f'(x) = 4x^5$", "correct": false },
+      { "text": "$f'(x) = x^4$", "correct": false },
+      { "text": "$f'(x) = 5x^5$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = x^n \\implies f'(x) = n x^{n-1}$",
+    "explanation": "Baja el exponente multiplicando y réstale uno al exponente original.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = x^6$, entonces $f'(x) = 6x^5$."
+  },
+  {
+    "id": "CEP20VT",
+    "question": "¿Cuál es la derivada de la función $f(x) = 5 \\sqrt{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{2 \\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{5}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{10 \\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5 \\sqrt{x}}{2}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sqrt{x} \\implies f'(x) = \\frac{c}{2 \\sqrt{x}}$",
+    "explanation": "La derivada de la raíz cuadrada de $x$ es $\\frac{1}{2\\sqrt{x}}$. Simplemente multiplica el coeficiente constante por esta expresión.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 3 \\sqrt{x}$, entonces $f'(x) = \\frac{3}{2 \\sqrt{x}}$."
+  },
+  {
+    "id": "CEP20VU",
+    "question": "¿Cuál es la derivada de la función $f(x) = 7 \\sqrt{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{14 \\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{7}{2 \\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{7}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = 14 \\sqrt{x}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sqrt{x} \\implies f'(x) = \\frac{c}{2 \\sqrt{x}}$",
+    "explanation": "La derivada de la raíz cuadrada de $x$ es $\\frac{1}{2\\sqrt{x}}$. Simplemente multiplica el coeficiente constante por esta expresión.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 3 \\sqrt{x}$, entonces $f'(x) = \\frac{3}{2 \\sqrt{x}}$."
+  },
+  {
+    "id": "CEP20VV",
+    "question": "¿Cuál es la derivada de la función $f(x) = -2 \\sqrt{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{2}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2}{2 \\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{2}{2 \\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{4 \\sqrt{x}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sqrt{x} \\implies f'(x) = \\frac{c}{2 \\sqrt{x}}$",
+    "explanation": "La derivada de la raíz cuadrada de $x$ es $\\frac{1}{2\\sqrt{x}}$. Simplemente multiplica el coeficiente constante por esta expresión.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 3 \\sqrt{x}$, entonces $f'(x) = \\frac{3}{2 \\sqrt{x}}$."
+  },
+  {
+    "id": "CEP20VW",
+    "question": "¿Cuál es la derivada de la función $f(x) = 10 \\sqrt{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{10}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = 5 \\sqrt{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{20 \\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{10}{2 \\sqrt{x}}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sqrt{x} \\implies f'(x) = \\frac{c}{2 \\sqrt{x}}$",
+    "explanation": "La derivada de la raíz cuadrada de $x$ es $\\frac{1}{2\\sqrt{x}}$. Simplemente multiplica el coeficiente constante por esta expresión.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 3 \\sqrt{x}$, entonces $f'(x) = \\frac{3}{2 \\sqrt{x}}$."
+  },
+  {
+    "id": "CEP20VX",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{2} \\sqrt{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{4 \\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2} \\sqrt{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2}{\\sqrt{x}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sqrt{x} \\implies f'(x) = \\frac{c}{2 \\sqrt{x}}$",
+    "explanation": "La derivada de la raíz cuadrada de $x$ es $\\frac{1}{2\\sqrt{x}}$. Simplemente multiplica el coeficiente constante por esta expresión.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 3 \\sqrt{x}$, entonces $f'(x) = \\frac{3}{2 \\sqrt{x}}$."
+  },
+  {
+    "id": "CEP20VY",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[5]{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{5 \\sqrt[5]{x^4}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{5 \\sqrt[5]{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[5]{x^4}}$", "correct": false },
+      { "text": "$f'(x) = 5 \\sqrt[5]{x^4}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\sqrt[n]{x} \\implies f'(x) = \\frac{1}{n \\sqrt[n]{x^{n-1}}}$",
+    "explanation": "Aplica directamente la fórmula para raíces, donde $n$ representa el índice de la raíz.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\sqrt[4]{x}$, entonces $f'(x) = \\frac{1}{4 \\sqrt[4]{x^3}}$."
+  },
+  {
+    "id": "CEP20VZ",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[6]{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{6 \\sqrt[6]{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{6 \\sqrt[6]{x^5}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{6}{\\sqrt[6]{x^5}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[6]{x^5}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\sqrt[n]{x} \\implies f'(x) = \\frac{1}{n \\sqrt[n]{x^{n-1}}}$",
+    "explanation": "Aplica directamente la fórmula para raíces, donde $n$ representa el índice de la raíz.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\sqrt[4]{x}$, entonces $f'(x) = \\frac{1}{4 \\sqrt[4]{x^3}}$."
+  },
+  {
+    "id": "CEP20WA",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[7]{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{7 \\sqrt[7]{x^7}}$", "correct": false },
+      { "text": "$f'(x) = 7 \\sqrt[7]{x^6}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[7]{x^6}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{7 \\sqrt[7]{x^6}}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\sqrt[n]{x} \\implies f'(x) = \\frac{1}{n \\sqrt[n]{x^{n-1}}}$",
+    "explanation": "Aplica directamente la fórmula para raíces, donde $n$ representa el índice de la raíz.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\sqrt[4]{x}$, entonces $f'(x) = \\frac{1}{4 \\sqrt[4]{x^3}}$."
+  },
+  {
+    "id": "CEP20WB",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[8]{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{8 \\sqrt[8]{x^7}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{8 \\sqrt[8]{x^8}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{8}{\\sqrt[8]{x^7}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[8]{x^7}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\sqrt[n]{x} \\implies f'(x) = \\frac{1}{n \\sqrt[n]{x^{n-1}}}$",
+    "explanation": "Aplica directamente la fórmula para raíces, donde $n$ representa el índice de la raíz.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\sqrt[4]{x}$, entonces $f'(x) = \\frac{1}{4 \\sqrt[4]{x^3}}$."
+  },
+  {
+    "id": "CEP20WC",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\sqrt[10]{x}$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{10 \\sqrt[10]{x}}$", "correct": false },
+      { "text": "$f'(x) = 10 \\sqrt[10]{x^9}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{10 \\sqrt[10]{x^9}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{\\sqrt[10]{x^9}}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\sqrt[n]{x} \\implies f'(x) = \\frac{1}{n \\sqrt[n]{x^{n-1}}}$",
+    "explanation": "Aplica directamente la fórmula para raíces, donde $n$ representa el índice de la raíz.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\sqrt[4]{x}$, entonces $f'(x) = \\frac{1}{4 \\sqrt[4]{x^3}}$."
+  },
+  {
+    "id": "CEP20WD",
+    "question": "¿Cuál es la derivada de la función $f(x) = 2e^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 2e^x$", "correct": true },
+      { "text": "$f'(x) = e^x$", "correct": false },
+      { "text": "$f'(x) = 2xe^{x-1}$", "correct": false },
+      { "text": "$f'(x) = 2e$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ce^x \\implies f'(x) = ce^x$",
+    "explanation": "La derivada de la función exponencial natural $e^x$ es ella misma. Si tiene un coeficiente constante, este se conserva.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 6e^x$, entonces $f'(x) = 6e^x$."
+  },
+  {
+    "id": "CEP20WE",
+    "question": "¿Cuál es la derivada de la función $f(x) = -4e^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -4xe^{x-1}$", "correct": false },
+      { "text": "$f'(x) = -4e^x$", "correct": true },
+      { "text": "$f'(x) = 4e^x$", "correct": false },
+      { "text": "$f'(x) = e^x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ce^x \\implies f'(x) = ce^x$",
+    "explanation": "La derivada de la función exponencial natural $e^x$ es ella misma. Si tiene un coeficiente constante, este se conserva.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 6e^x$, entonces $f'(x) = 6e^x$."
+  },
+  {
+    "id": "CEP20WF",
+    "question": "¿Cuál es la derivada de la función $f(x) = 15e^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = e^x$", "correct": false },
+      { "text": "$f'(x) = 15e$", "correct": false },
+      { "text": "$f'(x) = 15e^x$", "correct": true },
+      { "text": "$f'(x) = 15xe^{x-1}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ce^x \\implies f'(x) = ce^x$",
+    "explanation": "La derivada de la función exponencial natural $e^x$ es ella misma. Si tiene un coeficiente constante, este se conserva.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 6e^x$, entonces $f'(x) = 6e^x$."
+  },
+  {
+    "id": "CEP20WG",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{3}e^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 3e^x$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{3}e^x$", "correct": true },
+      { "text": "$f'(x) = \\frac{e^x}{3x}$", "correct": false },
+      { "text": "$f'(x) = e^x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ce^x \\implies f'(x) = ce^x$",
+    "explanation": "La derivada de la función exponencial natural $e^x$ es ella misma. Si tiene un coeficiente constante, este se conserva.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 6e^x$, entonces $f'(x) = 6e^x$."
+  },
+  {
+    "id": "CEP20WH",
+    "question": "¿Cuál es la derivada de la función $f(x) = 100e^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = e^x$", "correct": false },
+      { "text": "$f'(x) = 100xe^{x-1}$", "correct": false },
+      { "text": "$f'(x) = 100$", "correct": false },
+      { "text": "$f'(x) = 100e^x$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = ce^x \\implies f'(x) = ce^x$",
+    "explanation": "La derivada de la función exponencial natural $e^x$ es ella misma. Si tiene un coeficiente constante, este se conserva.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 6e^x$, entonces $f'(x) = 6e^x$."
+  },
+  {
+    "id": "CEP20WI",
+    "question": "¿Cuál es la derivada de la función $f(x) = 2^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 2^x \\ln(2)$", "correct": true },
+      { "text": "$f'(x) = x2^{x-1}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2^x}{\\ln(2)}$", "correct": false },
+      { "text": "$f'(x) = 2^x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = a^x \\implies f'(x) = a^x \\ln(a)$",
+    "explanation": "Para una función exponencial con base 'a', la derivada es la misma función multiplicada por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5^x$, entonces $f'(x) = 5^x \\ln(5)$."
+  },
+  {
+    "id": "CEP20WJ",
+    "question": "¿Cuál es la derivada de la función $f(x) = 3^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{3^x}{\\ln(3)}$", "correct": false },
+      { "text": "$f'(x) = 3^x \\ln(3)$", "correct": true },
+      { "text": "$f'(x) = x3^{x-1}$", "correct": false },
+      { "text": "$f'(x) = 3^x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = a^x \\implies f'(x) = a^x \\ln(a)$",
+    "explanation": "Para una función exponencial con base 'a', la derivada es la misma función multiplicada por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5^x$, entonces $f'(x) = 5^x \\ln(5)$."
+  },
+  {
+    "id": "CEP20WK",
+    "question": "¿Cuál es la derivada de la función $f(x) = 6^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = x6^{x-1}$", "correct": false },
+      { "text": "$f'(x) = 6^x$", "correct": false },
+      { "text": "$f'(x) = 6^x \\ln(6)$", "correct": true },
+      { "text": "$f'(x) = \\frac{6^x}{\\ln(6)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = a^x \\implies f'(x) = a^x \\ln(a)$",
+    "explanation": "Para una función exponencial con base 'a', la derivada es la misma función multiplicada por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5^x$, entonces $f'(x) = 5^x \\ln(5)$."
+  },
+  {
+    "id": "CEP20WL",
+    "question": "¿Cuál es la derivada de la función $f(x) = 10^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 10^x$", "correct": false },
+      { "text": "$f'(x) = \\frac{10^x}{\\ln(10)}$", "correct": false },
+      { "text": "$f'(x) = x10^{x-1}$", "correct": false },
+      { "text": "$f'(x) = 10^x \\ln(10)$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = a^x \\implies f'(x) = a^x \\ln(a)$",
+    "explanation": "Para una función exponencial con base 'a', la derivada es la misma función multiplicada por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5^x$, entonces $f'(x) = 5^x \\ln(5)$."
+  },
+  {
+    "id": "CEP20WM",
+    "question": "¿Cuál es la derivada de la función $f(x) = 8^x$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 8^x \\ln(8)$", "correct": true },
+      { "text": "$f'(x) = \\frac{8^x}{\\ln(8)}$", "correct": false },
+      { "text": "$f'(x) = 8^x$", "correct": false },
+      { "text": "$f'(x) = x8^{x-1}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = a^x \\implies f'(x) = a^x \\ln(a)$",
+    "explanation": "Para una función exponencial con base 'a', la derivada es la misma función multiplicada por el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5^x$, entonces $f'(x) = 5^x \\ln(5)$."
+  },
+  {
+    "id": "CEP20WN",
+    "question": "¿Cuál es la derivada de la función $f(x) = 2 \\ln(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{2}{x}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{2}{x^2}$", "correct": false },
+      { "text": "$f'(x) = 2x$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\ln(x) \\implies f'(x) = \\frac{c}{x}$",
+    "explanation": "La derivada del logaritmo natural de $x$ es $\\frac{1}{x}$. Si se multiplica por una constante $c$, el resultado es $\\frac{c}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\ln(x)$, entonces $f'(x) = \\frac{4}{x}$."
+  },
+  {
+    "id": "CEP20WO",
+    "question": "¿Cuál es la derivada de la función $f(x) = 7 \\ln(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{7}{x}$", "correct": true },
+      { "text": "$f'(x) = 7x$", "correct": false },
+      { "text": "$f'(x) = -\\frac{7}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\ln(x) \\implies f'(x) = \\frac{c}{x}$",
+    "explanation": "La derivada del logaritmo natural de $x$ es $\\frac{1}{x}$. Si se multiplica por una constante $c$, el resultado es $\\frac{c}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\ln(x)$, entonces $f'(x) = \\frac{4}{x}$."
+  },
+  {
+    "id": "CEP20WP",
+    "question": "¿Cuál es la derivada de la función $f(x) = -3 \\ln(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{3}{x}$", "correct": false },
+      { "text": "$f'(x) = -3x$", "correct": false },
+      { "text": "$f'(x) = -\\frac{3}{x}$", "correct": true },
+      { "text": "$f'(x) = \\frac{3}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\ln(x) \\implies f'(x) = \\frac{c}{x}$",
+    "explanation": "La derivada del logaritmo natural de $x$ es $\\frac{1}{x}$. Si se multiplica por una constante $c$, el resultado es $\\frac{c}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\ln(x)$, entonces $f'(x) = \\frac{4}{x}$."
+  },
+  {
+    "id": "CEP20WQ",
+    "question": "¿Cuál es la derivada de la función $f(x) = 10 \\ln(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 10x$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{10x}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{10}{x^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{10}{x}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\ln(x) \\implies f'(x) = \\frac{c}{x}$",
+    "explanation": "La derivada del logaritmo natural de $x$ es $\\frac{1}{x}$. Si se multiplica por una constante $c$, el resultado es $\\frac{c}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\ln(x)$, entonces $f'(x) = \\frac{4}{x}$."
+  },
+  {
+    "id": "CEP20WR",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{2} \\ln(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{2x}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{x}{2}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\ln(x) \\implies f'(x) = \\frac{c}{x}$",
+    "explanation": "La derivada del logaritmo natural de $x$ es $\\frac{1}{x}$. Si se multiplica por una constante $c$, el resultado es $\\frac{c}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\ln(x)$, entonces $f'(x) = \\frac{4}{x}$."
+  },
+  {
+    "id": "CEP20WS",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\log_2(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x \\ln(2)}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{\\ln(2)}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x \\log_2(x)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\log_a(x) \\implies f'(x) = \\frac{1}{x \\ln(a)}$",
+    "explanation": "Para un logaritmo de base 'a', la derivada es 1 dividido por el producto de $x$ y el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\log_4(x)$, entonces $f'(x) = \\frac{1}{x \\ln(4)}$."
+  },
+  {
+    "id": "CEP20WT",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\log_3(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{\\ln(3)}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x \\ln(3)}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{\\ln(3)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\log_a(x) \\implies f'(x) = \\frac{1}{x \\ln(a)}$",
+    "explanation": "Para un logaritmo de base 'a', la derivada es 1 dividido por el producto de $x$ y el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\log_4(x)$, entonces $f'(x) = \\frac{1}{x \\ln(4)}$."
+  },
+  {
+    "id": "CEP20WU",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\log_6(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{6}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x \\ln(6)}$", "correct": true },
+      { "text": "$f'(x) = \\frac{\\ln(6)}{x}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\log_a(x) \\implies f'(x) = \\frac{1}{x \\ln(a)}$",
+    "explanation": "Para un logaritmo de base 'a', la derivada es 1 dividido por el producto de $x$ y el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\log_4(x)$, entonces $f'(x) = \\frac{1}{x \\ln(4)}$."
+  },
+  {
+    "id": "CEP20WV",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\log_8(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x \\ln(8)}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{\\ln(8)}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{8 \\ln(x)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\log_a(x) \\implies f'(x) = \\frac{1}{x \\ln(a)}$",
+    "explanation": "Para un logaritmo de base 'a', la derivada es 1 dividido por el producto de $x$ y el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\log_4(x)$, entonces $f'(x) = \\frac{1}{x \\ln(4)}$."
+  },
+  {
+    "id": "CEP20WW",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\log_{10}(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{10}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{\\ln(10)}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x \\ln(10)}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = \\log_a(x) \\implies f'(x) = \\frac{1}{x \\ln(a)}$",
+    "explanation": "Para un logaritmo de base 'a', la derivada es 1 dividido por el producto de $x$ y el logaritmo natural de la base.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = \\log_4(x)$, entonces $f'(x) = \\frac{1}{x \\ln(4)}$."
+  },
+  {
+    "id": "CEP20WX",
+    "question": "¿Cuál es la derivada de la función $f(x) = 4 \\sin(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 4 \\cos(x)$", "correct": true },
+      { "text": "$f'(x) = -4 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 4 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -4 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sin(x) \\implies f'(x) = c \\cos(x)$",
+    "explanation": "La derivada del seno es el coseno. Al multiplicarse por una constante, esta se mantiene.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 2 \\sin(x)$, entonces $f'(x) = 2 \\cos(x)$."
+  },
+  {
+    "id": "CEP20WY",
+    "question": "¿Cuál es la derivada de la función $f(x) = 9 \\sin(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -9 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 9 \\cos(x)$", "correct": true },
+      { "text": "$f'(x) = 9 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -9 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sin(x) \\implies f'(x) = c \\cos(x)$",
+    "explanation": "La derivada del seno es el coseno. Al multiplicarse por una constante, esta se mantiene.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 2 \\sin(x)$, entonces $f'(x) = 2 \\cos(x)$."
+  },
+  {
+    "id": "CEP20WZ",
+    "question": "¿Cuál es la derivada de la función $f(x) = -3 \\sin(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 3 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 3 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -3 \\cos(x)$", "correct": true },
+      { "text": "$f'(x) = -3 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sin(x) \\implies f'(x) = c \\cos(x)$",
+    "explanation": "La derivada del seno es el coseno. Al multiplicarse por una constante, esta se mantiene.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 2 \\sin(x)$, entonces $f'(x) = 2 \\cos(x)$."
+  },
+  {
+    "id": "CEP20XA",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{5} \\sin(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{1}{5} \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 5 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{1}{5} \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{5} \\cos(x)$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sin(x) \\implies f'(x) = c \\cos(x)$",
+    "explanation": "La derivada del seno es el coseno. Al multiplicarse por una constante, esta se mantiene.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 2 \\sin(x)$, entonces $f'(x) = 2 \\cos(x)$."
+  },
+  {
+    "id": "CEP20XB",
+    "question": "¿Cuál es la derivada de la función $f(x) = 12 \\sin(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 12 \\cos(x)$", "correct": true },
+      { "text": "$f'(x) = -12 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 12 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -12 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\sin(x) \\implies f'(x) = c \\cos(x)$",
+    "explanation": "La derivada del seno es el coseno. Al multiplicarse por una constante, esta se mantiene.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 2 \\sin(x)$, entonces $f'(x) = 2 \\cos(x)$."
+  },
+  {
+    "id": "CEP20XC",
+    "question": "¿Cuál es la derivada de la función $f(x) = 3 \\cos(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -3 \\sin(x)$", "correct": true },
+      { "text": "$f'(x) = 3 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = 3 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = -3 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\cos(x) \\implies f'(x) = -c \\sin(x)$",
+    "explanation": "La derivada del coseno es menos el seno. Si multiplicamos por un coeficiente, el resultado cambia de signo.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5 \\cos(x)$, entonces $f'(x) = -5 \\sin(x)$."
+  },
+  {
+    "id": "CEP20XD",
+    "question": "¿Cuál es la derivada de la función $f(x) = 7 \\cos(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 7 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -7 \\sin(x)$", "correct": true },
+      { "text": "$f'(x) = -7 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 7 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\cos(x) \\implies f'(x) = -c \\sin(x)$",
+    "explanation": "La derivada del coseno es menos el seno. Si multiplicamos por un coeficiente, el resultado cambia de signo.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5 \\cos(x)$, entonces $f'(x) = -5 \\sin(x)$."
+  },
+  {
+    "id": "CEP20XE",
+    "question": "¿Cuál es la derivada de la función $f(x) = -2 \\cos(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -2 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = 2 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 2 \\sin(x)$", "correct": true },
+      { "text": "$f'(x) = -2 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\cos(x) \\implies f'(x) = -c \\sin(x)$",
+    "explanation": "La derivada del coseno es menos el seno. Menos por menos da más, así que el resultado es positivo.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5 \\cos(x)$, entonces $f'(x) = -5 \\sin(x)$."
+  },
+  {
+    "id": "CEP20XF",
+    "question": "¿Cuál es la derivada de la función $f(x) = 10 \\cos(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 10 \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -10 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = 10 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = -10 \\sin(x)$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\cos(x) \\implies f'(x) = -c \\sin(x)$",
+    "explanation": "La derivada del coseno es menos el seno. Si multiplicamos por un coeficiente, el resultado cambia de signo.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5 \\cos(x)$, entonces $f'(x) = -5 \\sin(x)$."
+  },
+  {
+    "id": "CEP20XG",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{3}{4} \\cos(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{3}{4} \\sin(x)$", "correct": true },
+      { "text": "$f'(x) = \\frac{3}{4} \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{4}{3} \\sin(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{3}{4} \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\cos(x) \\implies f'(x) = -c \\sin(x)$",
+    "explanation": "La derivada del coseno es menos el seno. Si multiplicamos por un coeficiente, el resultado cambia de signo.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 5 \\cos(x)$, entonces $f'(x) = -5 \\sin(x)$."
+  },
+  {
+    "id": "CEP20XH",
+    "question": "¿Cuál es la derivada de la función $f(x) = 2 \\tan(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{2}{\\cos^2(x)}$", "correct": true },
+      { "text": "$f'(x) = 2 \\cos^2(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{2}{\\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = 2 \\sin^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\tan(x) \\implies f'(x) = \\frac{c}{\\cos^2(x)}$",
+    "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
+  },
+  {
+    "id": "CEP20XI",
+    "question": "¿Cuál es la derivada de la función $f(x) = 6 \\tan(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = -\\frac{6}{\\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = \\frac{6}{\\cos^2(x)}$", "correct": true },
+      { "text": "$f'(x) = 6 \\sec(x)$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{6 \\cos^2(x)}$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\tan(x) \\implies f'(x) = \\frac{c}{\\cos^2(x)}$",
+    "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
+  },
+  {
+    "id": "CEP20XJ",
+    "question": "¿Cuál es la derivada de la función $f(x) = -5 \\tan(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{\\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = -5 \\sin^2(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{5}{\\cos^2(x)}$", "correct": true },
+      { "text": "$f'(x) = -5 \\cos^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\tan(x) \\implies f'(x) = \\frac{c}{\\cos^2(x)}$",
+    "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$. El signo se mantiene igual.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
+  },
+  {
+    "id": "CEP20XK",
+    "question": "¿Cuál es la derivada de la función $f(x) = 11 \\tan(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = 11 \\cos^2(x)$", "correct": false },
+      { "text": "$f'(x) = -\\frac{11}{\\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = 11 \\sin^2(x)$", "correct": false },
+      { "text": "$f'(x) = \\frac{11}{\\cos^2(x)}$", "correct": true }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\tan(x) \\implies f'(x) = \\frac{c}{\\cos^2(x)}$",
+    "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
+  },
+  {
+    "id": "CEP20XL",
+    "question": "¿Cuál es la derivada de la función $f(x) = \\frac{1}{2} \\tan(x)$?",
+    "image": "https://raw.githubusercontent.com/IALUMX/imgs_preguntas/refs/heads/main/formulario_derivadas_01.png",
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{2 \\cos^2(x)}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2}{\\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{1}{2 \\cos^2(x)}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2} \\cos^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["🎢 MAT CÁLCULO"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "$f(x) = c \\tan(x) \\implies f'(x) = \\frac{c}{\\cos^2(x)}$",
+    "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$.",
+    "explanative_video": null,
+    "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
   }
 ]
