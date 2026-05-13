@@ -2698,5 +2698,329 @@
     "explanation": "La encrucijada donde la recta de las x entrelaza rumbos e irrumpe atravesando fidedignamente al sendero recto y perpendicular marcado desde arriba por las y se reconoce bajo el alias de origen de plano para fungir desde entonces y para siempre como el inicio o partida desde la nulidad general y global.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP12US",
+    "question": "La suma de un número y su recíproco es $\\frac{26}{5}$. Halla los números.",
+    "image": null,
+    "options": [
+      { "text": "$5$ y $\\frac{1}{5}$", "correct": true },
+      { "text": "$5$ y $-\\frac{1}{5}$", "correct": false },
+      { "text": "$26$ y $5$", "correct": false },
+      { "text": "$\\frac{26}{5}$ y $1$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación $x + \\frac{1}{x} = \\frac{26}{5}$ y resuelve la ecuación cuadrática resultante.",
+    "explanation": "Al multiplicar por $5x$ se obtiene $5x^2 - 26x + 5 = 0$. Factorizando se llega a $(5x - 1)(x - 5) = 0$, por lo que los números son $5$ y $\\frac{1}{5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UT",
+    "question": "La suma de 2 números es $25$ y la suma de sus recíprocos es $\\frac{1}{4}$. Encuentra los números.",
+    "image": null,
+    "options": [
+      { "text": "$20$ y $5$", "correct": true },
+      { "text": "$15$ y $10$", "correct": false },
+      { "text": "$25$ y $4$", "correct": false },
+      { "text": "$100$ y $25$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Utiliza el sistema de ecuaciones $x + y = 25$ y $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{4}$.",
+    "explanation": "De la segunda ecuación se obtiene $\\frac{x+y}{xy} = \\frac{1}{4}$. Sustituyendo $x+y = 25$, resulta $xy = 100$. Los números que sumados dan $25$ y multiplicados $100$ son $20$ y $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UU",
+    "question": "Un agricultor tiene necesidad de cercar $25\\,000 \\text{ m}^2$ de su parcela; dicha propiedad es rectangular y colinda con un río, por lo que no necesita cercar ese lado. ¿Qué dimensiones tiene el terreno si el propietario dispone de $450 \\text{ m}$ de cerca?",
+    "image": null,
+    "options": [
+      { "text": "$100 \\text{ m} \\times 250 \\text{ m}$ o $125 \\text{ m} \\times 200 \\text{ m}$", "correct": true },
+      { "text": "$150 \\text{ m} \\times 200 \\text{ m}$", "correct": false },
+      { "text": "$100 \\text{ m} \\times 125 \\text{ m}$", "correct": false },
+      { "text": "$250 \\text{ m} \\times 450 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que solo se cercan tres lados. Plantea $x + 2y = 450$ y $xy = 25\\,000$.",
+    "explanation": "Sustituyendo $x = 450 - 2y$ en el área se obtiene $y(450 - 2y) = 25\\,000$, lo que simplifica a $y^2 - 225y + 12\\,500 = 0$. Las soluciones para los lados son $100$ y $125$, dando las dimensiones correspondientes.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UV",
+    "question": "La base de un triángulo es $3$ veces su altura. Su área es de $150 \\text{ m}^2$, ¿cuáles son las dimensiones de la base y la altura?",
+    "image": null,
+    "options": [
+      { "text": "Base: $30 \\text{ m}$, Altura: $10 \\text{ m}$", "correct": true },
+      { "text": "Base: $15 \\text{ m}$, Altura: $5 \\text{ m}$", "correct": false },
+      { "text": "Base: $50 \\text{ m}$, Altura: $3 \\text{ m}$", "correct": false },
+      { "text": "Base: $10 \\text{ m}$, Altura: $30 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye la base en la fórmula del área del triángulo $A = \\frac{bh}{2}$.",
+    "explanation": "Sustituyendo $b = 3h$ en el área resulta $\\frac{3h^2}{2} = 150$. Al despejar, $h^2 = 100$, por lo que $h = 10 \\text{ m}$. La base es el triple, $30 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UW",
+    "question": "Encuentra la longitud de los lados de un triángulo rectángulo, cuya superficie es de $6 \\text{ m}^2$, perímetro de $12 \\text{ m}$ e hipotenusa de $5 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ m}$ y $4 \\text{ m}$", "correct": true },
+      { "text": "$2 \\text{ m}$ y $5 \\text{ m}$", "correct": false },
+      { "text": "$6 \\text{ m}$ y $1 \\text{ m}$", "correct": false },
+      { "text": "$4 \\text{ m}$ y $5 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea un sistema con el perímetro $a + b + 5 = 12$ y el área $\\frac{ab}{2} = 6$.",
+    "explanation": "Del perímetro se obtiene $a + b = 7$ y del área $ab = 12$. Los números que sumados dan $7$ y multiplicados $12$ son $3$ y $4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UX",
+    "question": "Se desea construir un recipiente, sin tapa, de fondo cuadrado y lados rectangulares, con una altura de $6 \\text{ m}$, si el material para el fondo cuesta $\\$800$ por metro cuadrado y el de los lados $\\$1\\,200$, ¿cuál es el volumen que se puede obtener con $\\$128\\,000$?",
+    "image": null,
+    "options": [
+      { "text": "$96 \\text{ m}^3$", "correct": true },
+      { "text": "$144 \\text{ m}^3$", "correct": false },
+      { "text": "$64 \\text{ m}^3$", "correct": false },
+      { "text": "$128 \\text{ m}^3$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa el costo total en función del lado de la base cuadrada $x$: $800x^2 + 1\\,200(24x) = 128\\,000$.",
+    "explanation": "Simplificando la ecuación se obtiene $x^2 + 36x - 160 = 0$. Al factorizar $(x+40)(x-4) = 0$, el lado de la base es $4 \\text{ m}$. El volumen es el área de la base por altura: $4^2 \\times 6 = 96 \\text{ m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UY",
+    "question": "Determina las dimensiones de un rectángulo cuya altura es $\\frac{1}{3}$ de su base y su área es de $972 \\text{ cm}^2$.",
+    "image": null,
+    "options": [
+      { "text": "Base: $54 \\text{ cm}$, Altura: $18 \\text{ cm}$", "correct": true },
+      { "text": "Base: $18 \\text{ cm}$, Altura: $54 \\text{ cm}$", "correct": false },
+      { "text": "Base: $81 \\text{ cm}$, Altura: $12 \\text{ cm}$", "correct": false },
+      { "text": "Base: $27 \\text{ cm}$, Altura: $9 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Expresa el área en términos de la base usando la relación $h = \\frac{b}{3}$.",
+    "explanation": "El área es $b \\times \\frac{b}{3} = 972$, por lo que $b^2 = 2\\,916$. Extrayendo la raíz cuadrada, $b = 54 \\text{ cm}$, y su altura es una tercera parte, $18 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12UZ",
+    "question": "Alejandro tiene $4$ años más que Alfredo y el cuadrado de la edad de Alejandro, aumentado en el cuadrado de la edad de Alfredo, equivalen a $80$ años. Encuentra las edades de Alejandro y Alfredo.",
+    "image": null,
+    "options": [
+      { "text": "Alejandro: $8$ años, Alfredo: $4$ años", "correct": true },
+      { "text": "Alejandro: $10$ años, Alfredo: $6$ años", "correct": false },
+      { "text": "Alejandro: $12$ años, Alfredo: $8$ años", "correct": false },
+      { "text": "Alejandro: $4$ años, Alfredo: $8$ años", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación cuadrática $(x+4)^2 + x^2 = 80$, donde $x$ es la edad de Alfredo.",
+    "explanation": "Desarrollando se obtiene $2x^2 + 8x - 64 = 0$, que simplificada es $x^2 + 4x - 32 = 0$. Factorizando $(x+8)(x-4)=0$, la edad de Alfredo es $4$ y la de Alejandro $4+4=8$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VA",
+    "question": "El cuadrado de un número disminuido en $13$ equivale al exceso de $50$ sobre el doble del número. Determina dicho número.",
+    "image": null,
+    "options": [
+      { "text": "$7$ o $-9$", "correct": true },
+      { "text": "$9$ o $-7$", "correct": false },
+      { "text": "$13$ o $50$", "correct": false },
+      { "text": "$5$ o $-11$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Traduce el enunciado a lenguaje algebraico: $x^2 - 13 = 50 - 2x$.",
+    "explanation": "Reordenando la ecuación queda $x^2 + 2x - 63 = 0$. Al factorizar $(x+9)(x-7)=0$, las soluciones son $7$ y $-9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VB",
+    "question": "En cierto parque de la Ciudad de México se desea plantar $195$ árboles, de tal manera que el número de éstos por fila exceda en $2$ al número de filas. Determina la cantidad de filas, así como el número de árboles por fila.",
+    "image": null,
+    "options": [
+      { "text": "$13$ filas, $15$ árboles por fila", "correct": true },
+      { "text": "$15$ filas, $13$ árboles por fila", "correct": false },
+      { "text": "$10$ filas, $19$ árboles por fila", "correct": false },
+      { "text": "$14$ filas, $16$ árboles por fila", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x$ es el número de filas, el total de árboles es $x(x + 2) = 195$.",
+    "explanation": "La ecuación cuadrática es $x^2 + 2x - 195 = 0$. Factorizando $(x+15)(x-13) = 0$, por lo que hay $13$ filas y $15$ árboles por fila.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VC",
+    "question": "Un productor de conservas en almíbar desea envasar su producto en una lata cilíndrica, cuya altura es de $8$ centímetros y su volumen de $128\\pi \\text{ cm}^3$. Encuentra el radio de la lata.",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ cm}$", "correct": true },
+      { "text": "$8 \\text{ cm}$", "correct": false },
+      { "text": "$16 \\text{ cm}$", "correct": false },
+      { "text": "$2 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Sustituye los datos en la fórmula del volumen de un cilindro $V = \\pi r^2 h$.",
+    "explanation": "Al igualar $128\\pi = \\pi r^2 (8)$ y despejar $r^2$, obtenemos $r^2 = 16$. La raíz cuadrada positiva es el radio, $4 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VD",
+    "question": "Mario va a construir una caja sin tapa, cuyo volumen debe ser de $312 \\text{ cm}^3$; utilizará una lámina rectangular en la cual cortará cuadrados de $2$ centímetros por lado en las esquinas. Si él sabe que la superficie total de la hoja al quitar los cuadrados es de $256 \\text{ cm}^2$, ¿cuáles son las dimensiones de dicha hoja?",
+    "image": null,
+    "options": [
+      { "text": "$17 \\text{ cm} \\times 16 \\text{ cm}$", "correct": true },
+      { "text": "$20 \\text{ cm} \\times 13 \\text{ cm}$", "correct": false },
+      { "text": "$34 \\text{ cm} \\times 8 \\text{ cm}$", "correct": false },
+      { "text": "$18 \\text{ cm} \\times 15 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El volumen es $2(L-4)(W-4) = 312$ y el área de la hoja es $LW = 256 + 16$.",
+    "explanation": "Desarrollando las ecuaciones obtenemos el sistema $L+W = 33$ y $LW = 272$. Resolviendo la ecuación $t^2 - 33t + 272 = 0$, las dimensiones de la hoja son $17 \\text{ cm}$ y $16 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VE",
+    "question": "La edad actual de Ricardo son $\\frac{13}{2}$ de la edad de su hijo, el próximo año su edad será igual al cuadrado de la edad de su hijo disminuido en $9$ años. Determina la edad actual de Ricardo.",
+    "image": null,
+    "options": [
+      { "text": "$39$ años", "correct": true },
+      { "text": "$40$ años", "correct": false },
+      { "text": "$26$ años", "correct": false },
+      { "text": "$36$ años", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea el sistema $R = \\frac{13}{2}H$ y $R + 1 = (H + 1)^2 - 9$.",
+    "explanation": "Sustituyendo $R$ en la segunda ecuación obtenemos $2H^2 - 9H - 18 = 0$. Al resolver, la edad del hijo es $H=6$. La edad de Ricardo es $\\frac{13}{2}(6) = 39$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VF",
+    "question": "Un famoso jugador de béisbol lanza una pelota verticalmente hacia arriba, tan fuerte como le es posible. La altura que alcanza la pelota después de $t$ segundos la determina la ecuación $h = 40t - 8t^2$. ¿Cuánto tiempo le llevará a la pelota regresar al suelo?",
+    "image": null,
+    "options": [
+      { "text": "$5$ segundos", "correct": true },
+      { "text": "$8$ segundos", "correct": false },
+      { "text": "$4$ segundos", "correct": false },
+      { "text": "$10$ segundos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuando la pelota regresa al suelo, su altura es $h = 0$.",
+    "explanation": "Igualando la ecuación a cero: $40t - 8t^2 = 0$. Factorizando $8t(5 - t) = 0$, el tiempo transcurrido diferente de cero es $t = 5$ segundos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VG",
+    "question": "En $t$ segundos la altura $h$ en pies, sobre el nivel del suelo, de un proyectil está dada por la ecuación $h = 240t - 16t^2$, ¿cuánto tardará el proyectil en llegar a $900 \\text{ ft}$ sobre el nivel del suelo?",
+    "image": null,
+    "options": [
+      { "text": "$7.5$ segundos", "correct": true },
+      { "text": "$15$ segundos", "correct": false },
+      { "text": "$5$ segundos", "correct": false },
+      { "text": "$10$ segundos", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala la ecuación de la altura a $900$ y resuelve la ecuación cuadrática resultante.",
+    "explanation": "Se obtiene $16t^2 - 240t + 900 = 0$, que se simplifica a $4t^2 - 60t + 225 = 0$. Esta es un trinomio cuadrado perfecto $(2t - 15)^2 = 0$, por lo que $t = 7.5$ segundos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VH",
+    "question": "Dos llaves llenan un depósito en $6$ horas, ¿cuánto tiempo necesitaría cada una, por separado, para llenarlo si una tarda $16 \\text{ h}$ más que la otra?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ h}$ y $24 \\text{ h}$", "correct": true },
+      { "text": "$10 \\text{ h}$ y $26 \\text{ h}$", "correct": false },
+      { "text": "$6 \\text{ h}$ y $22 \\text{ h}$", "correct": false },
+      { "text": "$12 \\text{ h}$ y $28 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Suma las tasas de llenado: $\\frac{1}{x} + \\frac{1}{x+16} = \\frac{1}{6}$.",
+    "explanation": "Resolviendo la ecuación fraccionaria se llega a $x^2 + 4x - 96 = 0$. Al factorizar $(x-8)(x+12) = 0$, el tiempo de la llave más rápida es $8 \\text{ h}$ y la otra tarda $24 \\text{ h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VI",
+    "question": "Una persona gastó $\\$2\\,000$ en regalos, obsequió $30$ a sus familiares y amigos, el resto los vendió y ganó $\\$10$ por regalo. Una vez vendidos todos los obsequios, se dio cuenta de que podía comprar la misma cantidad inicial de regalos y $5$ más. ¿Cuál es el costo de cada presente?",
+    "image": null,
+    "options": [
+      { "text": "$\\$20$", "correct": true },
+      { "text": "$\\$30$", "correct": false },
+      { "text": "$\\$40$", "correct": false },
+      { "text": "$\\$50$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x$ es el precio original, el total de regalos es $\\frac{2\\,000}{x}$. Iguala el ingreso de la venta con el costo de comprar los regalos más cinco.",
+    "explanation": "El ingreso de la venta es $(\\frac{2\\,000}{x} - 30)(x + 10) = 2\\,000 + 5x$. Esto genera la ecuación $7x^2 + 60x - 4\\,000 = 0$, cuya solución positiva es $x = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12VJ",
+    "question": "Encuentra las longitudes de los lados de un triángulo rectángulo, si su perímetro es de $24$ unidades y su área es de $24$ unidades cuadradas.",
+    "image": null,
+    "options": [
+      { "text": "$6, 8, 10$", "correct": true },
+      { "text": "$5, 12, 13$", "correct": false },
+      { "text": "$7, 8, 9$", "correct": false },
+      { "text": "$4, 6, 14$", "correct": false }
+    ],
+    "uni_tags": ["✖ MAT ALG"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa el teorema de Pitágoras $c^2 = a^2 + b^2$, donde $c = 24 - (a+b)$.",
+    "explanation": "Al sustituir el área ($ab=48$) y el perímetro, la hipotenusa es $10$. Los catetos que suman $14$ y multiplican $48$ son $6$ y $8$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
