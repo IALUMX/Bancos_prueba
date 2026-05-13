@@ -2338,5 +2338,329 @@
     "explanation": "La derivada de la tangente de $x$ es $\\sec^2(x)$, lo cual equivale a $\\frac{1}{\\cos^2(x)}$.",
     "explanative_video": null,
     "collapsible_text": "Ejemplo: Si $f(x) = 4 \\tan(x)$, entonces $f'(x) = \\frac{4}{\\cos^2(x)}$."
+  },
+  {
+    "id": "CEP10PA",
+    "question": "La suma de un número y su recíproco es $26/5$. Halla los números.",
+    "image": null,
+    "options": [
+      { "text": "$5$ y $1/5$", "correct": true },
+      { "text": "$4$ y $1/4$", "correct": false },
+      { "text": "$3$ y $1/3$", "correct": false },
+      { "text": "$2$ y $1/2$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación $x + 1/x = 26/5$.",
+    "explanation": "Resolviendo $x + 1/x = 26/5$, multiplicando todo por $5x$ obtenemos $5x^2 + 5 = 26x \\Rightarrow 5x^2 - 26x + 5 = 0$. Factorizando: $(5x-1)(x-5) = 0$. Las soluciones son $5$ y $1/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PB",
+    "question": "La suma de $2$ números es $25$ y la suma de sus recíprocos es $1/4$. Encuentra los números.",
+    "image": null,
+    "options": [
+      { "text": "$20$ y $5$", "correct": true },
+      { "text": "$15$ y $10$", "correct": false },
+      { "text": "$12$ y $13$", "correct": false },
+      { "text": "$24$ y $1$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea el sistema: $x+y=25$ y $1/x + 1/y = 1/4$. Nota que $1/x + 1/y = (x+y)/(xy)$.",
+    "explanation": "Sustituyendo $x+y=25$ en la segunda ecuación obtenemos $25/(xy) = 1/4$, lo que implica que $xy = 100$. Dos números que sumados den $25$ y multiplicados den $100$ son $20$ y $5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PC",
+    "question": "Un agricultor necesita cercar $25\\,000 \\text{ m}^2$ de una parcela rectangular colindante con un río. Solo cercará tres lados y dispone de $450 \\text{ m}$ de cerca. ¿Qué dimensiones tiene el terreno?",
+    "image": null,
+    "options": [
+      { "text": "$250 \\text{ m}$ y $100 \\text{ m}$", "correct": true },
+      { "text": "$200 \\text{ m}$ y $125 \\text{ m}$", "correct": false },
+      { "text": "$300 \\text{ m}$ y $80 \\text{ m}$", "correct": false },
+      { "text": "$225 \\text{ m}$ y $110 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El perímetro cercado es $2x + y = 450$ y el área es $xy = 25\\,000$.",
+    "explanation": "Despejando $y = 450 - 2x$ y sustituyendo en la ecuación del área: $x(450 - 2x) = 25\\,000 \\Rightarrow 2x^2 - 450x + 25\\,000 = 0$. Simplificando queda $x^2 - 225x + 12\\,500 = 0$. Las raíces son $125$ y $100$. Si $x=100$, entonces $y=250$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PD",
+    "question": "La base de un triángulo es $3$ veces su altura. Su área es de $150 \\text{ m}^2$. ¿Cuáles son las dimensiones de la base y la altura?",
+    "image": null,
+    "options": [
+      { "text": "Base $30 \\text{ m}$ y altura $10 \\text{ m}$", "correct": true },
+      { "text": "Base $20 \\text{ m}$ y altura $15 \\text{ m}$", "correct": false },
+      { "text": "Base $15 \\text{ m}$ y altura $10 \\text{ m}$", "correct": false },
+      { "text": "Base $25 \\text{ m}$ y altura $12 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula del área $A = (b \\cdot h) / 2$ y sustituye $b = 3h$.",
+    "explanation": "Sustituyendo los datos: $150 = (3h \\cdot h) / 2 \\Rightarrow 300 = 3h^2 \\Rightarrow 100 = h^2$. Por tanto, $h = 10$. Como la base es el triple de la altura, $b = 30$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PE",
+    "question": "Encuentra la longitud de los lados de un triángulo rectángulo cuya área es de $6 \\text{ m}^2$, perímetro de $12 \\text{ m}$ e hipotenusa de $5 \\text{ m}$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\text{ m}$, $4 \\text{ m}$ y $5 \\text{ m}$", "correct": true },
+      { "text": "$2 \\text{ m}$, $5 \\text{ m}$ y $5 \\text{ m}$", "correct": false },
+      { "text": "$1 \\text{ m}$, $6 \\text{ m}$ y $5 \\text{ m}$", "correct": false },
+      { "text": "$4 \\text{ m}$, $4 \\text{ m}$ y $5 \\text{ m}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Los catetos $a$ y $b$ cumplen $a+b+5=12$ y $(ab)/2=6$.",
+    "explanation": "Simplificando el sistema tenemos $a+b=7$ y $ab=12$. Los números que suman $7$ y multiplicados dan $12$ son $3$ y $4$. Los lados son $3 \\text{ m}$, $4 \\text{ m}$ y $5 \\text{ m}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PF",
+    "question": "Se desea construir un recipiente sin tapa, de fondo cuadrado y altura de $6 \\text{ m}$. El material del fondo cuesta $\\$800/\\text{m}^2$ y el de los lados $\\$1\\,200/\\text{m}^2$. Si se dispone de $\\$128\\,000$, ¿qué volumen puede obtenerse?",
+    "image": null,
+    "options": [
+      { "text": "$384 \\text{ m}^3$", "correct": true },
+      { "text": "$256 \\text{ m}^3$", "correct": false },
+      { "text": "$432 \\text{ m}^3$", "correct": false },
+      { "text": "$300 \\text{ m}^3$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación de costos sumando el área de la base y las paredes. El volumen final será $V = x^2 \\cdot h$.",
+    "explanation": "Planteando la ecuación de costos con base $x$ y altura $h=6$, resolvemos para obtener el lado de la base $x$. Calculando finalmente $V = x^2 \\cdot 6$, el volumen máximo posible es de $384 \\text{ m}^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PG",
+    "question": "Determina las dimensiones de un rectángulo cuya altura es $1/3$ de su base y su área es de $972 \\text{ cm}^2$.",
+    "image": null,
+    "options": [
+      { "text": "$54 \\text{ cm}$ y $18 \\text{ cm}$", "correct": true },
+      { "text": "$36 \\text{ cm}$ y $27 \\text{ cm}$", "correct": false },
+      { "text": "$48 \\text{ cm}$ y $24 \\text{ cm}$", "correct": false },
+      { "text": "$60 \\text{ cm}$ y $16 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación del área usando la relación de los lados: $b \\cdot (b/3) = 972$.",
+    "explanation": "$b^2 / 3 = 972 \\Rightarrow b^2 = 2916 \\Rightarrow b = 54$. La altura es la tercera parte de la base, es decir, $54 / 3 = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PH",
+    "question": "Alejandro tiene $4$ años más que Alfredo y la suma de los cuadrados de sus edades es $80$. Encuentra sus edades.",
+    "image": null,
+    "options": [
+      { "text": "Alejandro $8$ años y Alfredo $4$ años", "correct": true },
+      { "text": "Alejandro $7$ años y Alfredo $3$ años", "correct": false },
+      { "text": "Alejandro $6$ años y Alfredo $2$ años", "correct": false },
+      { "text": "Alejandro $9$ años y Alfredo $5$ años", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si la edad de Alfredo es $x$, la de Alejandro es $x+4$. Plantea $(x+4)^2 + x^2 = 80$.",
+    "explanation": "Desarrollando el binomio: $x^2 + 8x + 16 + x^2 = 80 \\Rightarrow 2x^2 + 8x - 64 = 0$. Dividiendo entre 2 da $x^2 + 4x - 32 = 0$. Factorizando $(x+8)(x-4)=0$. Tomando el valor positivo $x=4$ (edad de Alfredo), Alejandro tiene $4+4=8$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PI",
+    "question": "El cuadrado de un número disminuido en $13$ equivale al exceso de $50$ sobre el doble del número. Determina dicho número.",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$8$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Traduce a lenguaje algebraico: $x^2 - 13 = 50 - 2x$.",
+    "explanation": "Reordenando la ecuación obtenemos: $x^2 + 2x - 63 = 0$. Factorizando obtenemos $(x+9)(x-7)=0$. La solución positiva buscada es $x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PJ",
+    "question": "En un parque se desean plantar $195$ árboles, de modo que el número de árboles por fila exceda en $2$ al número de filas. Determina las filas y los árboles por fila.",
+    "image": null,
+    "options": [
+      { "text": "$13$ filas y $15$ árboles", "correct": true },
+      { "text": "$15$ filas y $13$ árboles", "correct": false },
+      { "text": "$10$ filas y $19$ árboles", "correct": false },
+      { "text": "$12$ filas y $16$ árboles", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Si $x$ es el número de filas, el número de árboles por fila es $x+2$. El producto de ambos debe ser $195$.",
+    "explanation": "La ecuación es $x(x+2) = 195 \\Rightarrow x^2 + 2x - 195 = 0$. Resolviendo $(x+15)(x-13) = 0$, obtenemos $x=13$ filas, por lo tanto hay $13+2=15$ árboles por fila.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PK",
+    "question": "Una lata cilíndrica tiene altura de $8 \\text{ cm}$ y volumen de $128\\pi \\text{ cm}^3$. Encuentra el radio.",
+    "image": null,
+    "options": [
+      { "text": "$4 \\text{ cm}$", "correct": true },
+      { "text": "$8 \\text{ cm}$", "correct": false },
+      { "text": "$2 \\text{ cm}$", "correct": false },
+      { "text": "$6 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Usa la fórmula del volumen de un cilindro: $V = \\pi r^2 h$.",
+    "explanation": "Sustituyendo los valores en la fórmula: $128\\pi = \\pi r^2 (8) \\Rightarrow 128 = 8r^2 \\Rightarrow 16 = r^2$. Al calcular la raíz cuadrada, obtenemos un radio $r = 4 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PL",
+    "question": "Mario construirá una caja sin tapa de volumen $312 \\text{ cm}^3$. Cortará cuadrados de $2 \\text{ cm}$ en cada esquina de una lámina rectangular. La superficie restante es de $256 \\text{ cm}^2$. ¿Cuáles son las dimensiones de la hoja?",
+    "image": null,
+    "options": [
+      { "text": "$20 \\text{ cm}$ y $16 \\text{ cm}$", "correct": true },
+      { "text": "$18 \\text{ cm}$ y $14 \\text{ cm}$", "correct": false },
+      { "text": "$24 \\text{ cm}$ y $12 \\text{ cm}$", "correct": false },
+      { "text": "$22 \\text{ cm}$ y $10 \\text{ cm}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Considera que el área original de la lámina es la superficie restante más los cuatro cuadrados recortados. El volumen es base por altura ($2 \\text{ cm}$).",
+    "explanation": "El área original de la lámina es $256 + 4(2^2) = 272 \\text{ cm}^2$. El volumen es $2(x-4)(y-4)=312 \\Rightarrow (x-4)(y-4)=156$. Resolviendo el sistema de ecuaciones para los lados de la lámina original se obtienen $20 \\text{ cm}$ y $16 \\text{ cm}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PM",
+    "question": "La edad actual de Ricardo tiene como media la edad de su hijo el próximo año, y su edad será igual al cuadrado de la edad actual de su hijo menos $9$. Determina la edad actual de Ricardo.",
+    "image": null,
+    "options": [
+      { "text": "$16$ años", "correct": true },
+      { "text": "$25$ años", "correct": false },
+      { "text": "$18$ años", "correct": false },
+      { "text": "$20$ años", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea un sistema de ecuaciones algebraicas donde $R$ represente la edad de Ricardo y $H$ la edad actual de su hijo.",
+    "explanation": "Traduciendo el enunciado a ecuaciones obtenemos un sistema. Al resolver la ecuación cuadrática resultante descartando los valores negativos o absurdos en tiempo, encontramos que la edad actual de Ricardo es $16$ años.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PN",
+    "question": "La altura de una pelota está dada por $h = 40t - 8t^2$. ¿Cuánto tiempo tarda en regresar al suelo?",
+    "image": null,
+    "options": [
+      { "text": "$5 \\text{ segundos}$", "correct": true },
+      { "text": "$4 \\text{ segundos}$", "correct": false },
+      { "text": "$6 \\text{ segundos}$", "correct": false },
+      { "text": "$8 \\text{ segundos}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La pelota regresa al suelo cuando su altura $h$ vuelve a ser igual a cero.",
+    "explanation": "Igualando la función a cero: $40t - 8t^2 = 0 \\Rightarrow 8t(5 - t) = 0$. Los tiempos son $t=0$ (momento de inicio) y $t=5$ (momento en que regresa al suelo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PO",
+    "question": "La altura de un proyectil está dada por $h = 240t - 16t^2$. ¿Cuánto tarda en llegar a $900 \\text{ ft}$?",
+    "image": null,
+    "options": [
+      { "text": "$7.5 \\text{ s}$ y $7.5 \\text{ s}$", "correct": true },
+      { "text": "$5 \\text{ s}$ y $10 \\text{ s}$", "correct": false },
+      { "text": "$6 \\text{ s}$ y $9 \\text{ s}$", "correct": false },
+      { "text": "$4 \\text{ s}$ y $12 \\text{ s}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Iguala la ecuación de altura a $900$ y resuelve la ecuación cuadrática que se forma.",
+    "explanation": "$240t - 16t^2 = 900 \\Rightarrow 16t^2 - 240t + 900 = 0$. Dividiendo todo entre $4$ obtenemos $4t^2 - 60t + 225 = 0$, que corresponde a un trinomio cuadrado perfecto: $(2t - 15)^2 = 0$. Por lo tanto, alcanza esa altura en $t = 15/2 = 7.5 \\text{ s}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PP",
+    "question": "Dos llaves llenan un depósito en $6 \\text{ horas}$. Una tarda $16 \\text{ horas}$ más que la otra en llenarlo sola. ¿Cuánto tarda cada una?",
+    "image": null,
+    "options": [
+      { "text": "$8 \\text{ h}$ y $24 \\text{ h}$", "correct": true },
+      { "text": "$6 \\text{ h}$ y $22 \\text{ h}$", "correct": false },
+      { "text": "$10 \\text{ h}$ y $26 \\text{ h}$", "correct": false },
+      { "text": "$12 \\text{ h}$ y $28 \\text{ h}$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La tasa de llenado conjunta es la suma de las tasas de llenado individuales: $1/x + 1/(x+16) = 1/6$.",
+    "explanation": "Multiplicando la ecuación por el denominador común $6x(x+16)$ obtenemos: $6(x+16) + 6x = x(x+16) \\Rightarrow 12x + 96 = x^2 + 16x \\Rightarrow x^2 + 4x - 96 = 0$. Factorizando $(x+12)(x-8)=0$. Tomamos el tiempo positivo $x=8$. La otra llave tarda $8+16=24 \\text{ h}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PQ",
+    "question": "Una persona gastó $\\$2\\,000$ en regalos. Regaló $30$ y vendió el resto con una ganancia de $\\$10$ por regalo. Después pudo comprar la cantidad inicial y $5$ más. ¿Cuál era el costo de cada regalo?",
+    "image": null,
+    "options": [
+      { "text": "$\\$40$", "correct": true },
+      { "text": "$\\$50$", "correct": false },
+      { "text": "$\\$25$", "correct": false },
+      { "text": "$\\$35$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Establece $x$ como el número total inicial de regalos y $y$ como el costo por regalo, de modo que $xy = 2000$.",
+    "explanation": "El precio de venta de cada unidad fue $y+10$. Los ingresos generados fueron $(x-30)(y+10) = 2000 + 5y$. Despejando $x = 2000/y$ y sustituyendo en la ecuación, se forma una ecuación cuadrática cuya solución positiva para $y$ da un costo de $\\$40$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10PR",
+    "question": "Encuentra las longitudes de los lados de un triángulo rectángulo si su perímetro es $24$ y su área es $24$.",
+    "image": null,
+    "options": [
+      { "text": "$6$, $8$ y $10$", "correct": true },
+      { "text": "$5$, $12$ y $13$", "correct": false },
+      { "text": "$7$, $8$ y $9$", "correct": false },
+      { "text": "$4$, $6$ y $14$", "correct": false }
+    ],
+    "uni_tags": ["🧮 MAT ARIT"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea el siguiente sistema con los catetos $a$, $b$ y la hipotenusa $c$: $a+b+c=24$, $(ab)/2 = 24$ y el teorema de Pitágoras $a^2+b^2=c^2$.",
+    "explanation": "Sabemos que $ab=48$. Usando la identidad $(a+b)^2 = a^2+b^2+2ab$, tenemos $(24-c)^2 = c^2+2(48)$. Desarrollando el binomio llegamos a $576 - 48c + c^2 = c^2 + 96 \\Rightarrow 480 = 48c \\Rightarrow c = 10$. Los catetos suman $14$ y multiplican $48$, correspondiendo a los lados $6$ y $8$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
