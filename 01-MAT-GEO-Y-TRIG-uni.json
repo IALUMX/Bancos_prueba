@@ -3418,5 +3418,545 @@
     "explanation": "El vértice ocurre en $x = 6/2 = 3$, resultando en $y = (3)^2 - 6(3) + 10 = 9 - 18 + 10 = 1$. Con el parámetro $p = 1/4$, calculamos la directriz: $y = 1 - 1/4 = 3/4$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP15VE",
+    "question": "¿Cuál es la pendiente de la recta descrita por la ecuación $y = 5 - 2x$?",
+    "image": null,
+    "options": [
+      { "text": "$-2$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "En la forma $y = mx + b$, el coeficiente que multiplica a $x$ representa la pendiente.",
+    "explanation": "Al observar la ecuación $y = -2x + 5$, el valor de $m$ (pendiente) es $-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VF",
+    "question": "Determina el valor de la ordenada al origen de la recta $3y = 9x - 12$.",
+    "image": null,
+    "options": [
+      { "text": "$-4$", "correct": true },
+      { "text": "$9$", "correct": false },
+      { "text": "$-12$", "correct": false },
+      { "text": "$3$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la forma explícita, necesitas que la variable $y$ esté completamente despejada (su coeficiente debe ser $1$).",
+    "explanation": "Dividiendo toda la ecuación entre $3$, obtenemos $y = 3x - 4$. La ordenada al origen $b$ es $-4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VG",
+    "question": "Pasa la ecuación punto-pendiente $y + 1 = 4(x - 2)$ a su forma explícita $y = mx + b$.",
+    "image": null,
+    "options": [
+      { "text": "$y = 4x - 9$", "correct": true },
+      { "text": "$y = 4x - 7$", "correct": false },
+      { "text": "$y = 4x - 8$", "correct": false },
+      { "text": "$y = 4x + 7$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica el término de la derecha y luego despeja la variable $y$.",
+    "explanation": "Desarrollando: $y + 1 = 4x - 8$. Al restar $1$ en ambos lados queda $y = 4x - 9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VH",
+    "question": "Transforma la ecuación general $2x - y + 3 = 0$ a su forma explícita.",
+    "image": null,
+    "options": [
+      { "text": "$y = 2x + 3$", "correct": true },
+      { "text": "$y = -2x - 3$", "correct": false },
+      { "text": "$y = -2x + 3$", "correct": false },
+      { "text": "$y = 2x - 3$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "El objetivo de la forma explícita es aislar la letra $y$. Intenta sumar $y$ en ambos lados.",
+    "explanation": "Si sumamos $y$ a ambos lados de la ecuación original, obtenemos directamente $2x + 3 = y$, que es lo mismo que $y = 2x + 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VI",
+    "question": "¿Cuál de las siguientes opciones representa la forma general de la recta $y = -3x + 1$?",
+    "image": null,
+    "options": [
+      { "text": "$3x + y - 1 = 0$", "correct": true },
+      { "text": "$-3x + y - 1 = 0$", "correct": false },
+      { "text": "$3x - y + 1 = 0$", "correct": false },
+      { "text": "$x + 3y - 1 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["TEST"],
+    "hint": "La forma general de la recta sigue la estructura $Ax + By + C = 0$, preferentemente con la variable principal positiva.",
+    "explanation": "Al sumar $3x$ y restar $1$ de ambos lados para igualar a cero, la ecuación se convierte en $3x + y - 1 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VJ",
+    "question": "Un estudiante de CEPREDIX necesita determinar la ecuación de la recta que pasa por los puntos $(-1, 4)$ y $(2, -5)$. Exprésala en su forma explícita.",
+    "image": null,
+    "options": [
+      { "text": "$y = -3x + 1$", "correct": true },
+      { "text": "$y = 3x - 1$", "correct": false },
+      { "text": "$y = -3x - 1$", "correct": false },
+      { "text": "$y = 3x + 1$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Primero calcula el valor usando $m = (y_2 - y_1) / (x_2 - x_1)$ y luego usa la forma punto-pendiente.",
+    "explanation": "La pendiente es $m = (-5 - 4) / (2 - (-1)) = -9 / 3 = -3$. Usando el punto $(-1, 4)$: $y - 4 = -3(x + 1) \\rightarrow y = -3x - 3 + 4 \\rightarrow y = -3x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VK",
+    "question": "Determina la forma explícita de la recta dada por la estructura desordenada $x = \\frac{2}{5}y + 4$.",
+    "image": null,
+    "options": [
+      { "text": "$y = \\frac{5}{2}x - 10$", "correct": true },
+      { "text": "$y = \\frac{2}{5}x + 4$", "correct": false },
+      { "text": "$y = \\frac{5}{2}x - 4$", "correct": false },
+      { "text": "$y = \\frac{2}{5}x - 10$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para obtener la forma explícita, debes aislar por completo la $y$. Multiplicar por el recíproco de su coeficiente será útil al final.",
+    "explanation": "Restando $4$: $x - 4 = \\frac{2}{5}y$. Multiplicando todo por $\\frac{5}{2}$: $y = \\frac{5}{2}(x - 4) = \\frac{5}{2}x - 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VL",
+    "question": "Encuentra la forma general de la recta que tiene una pendiente de $m = -1/2$ y pasa por el punto $(4, -2)$.",
+    "image": null,
+    "options": [
+      { "text": "$x + 2y = 0$", "correct": true },
+      { "text": "$x - 2y - 8 = 0$", "correct": false },
+      { "text": "$x + 2y - 8 = 0$", "correct": false },
+      { "text": "$2x + y = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Plantea la ecuación punto-pendiente $y - y_1 = m(x - x_1)$ y elimina las fracciones antes de igualar a cero.",
+    "explanation": "$y - (-2) = -1/2(x - 4) \\rightarrow y + 2 = -1/2(x - 4)$. Multiplicando por $2$: $2y + 4 = -x + 4$. Acomodando: $x + 2y = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VM",
+    "question": "Calcula el valor de la intersección con el eje de las abscisas de la recta dada por $\\frac{y}{2} = -x + 3$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$x = 6$", "correct": false },
+      { "text": "$x = -3$", "correct": false },
+      { "text": "$x = 2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "La intersección con el eje de las abscisas ocurre cuando la coordenada $y$ equivale a cero.",
+    "explanation": "Sustituyendo $y = 0$: $0/2 = -x + 3 \\rightarrow 0 = -x + 3 \\rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VN",
+    "question": "¿Cuál es la ecuación explícita de la recta que es paralela a $y = 3 - 4x$ y pasa por el origen del plano cartesiano?",
+    "image": null,
+    "options": [
+      { "text": "$y = -4x$", "correct": true },
+      { "text": "$y = 4x$", "correct": false },
+      { "text": "$y = -\\frac{1}{4}x$", "correct": false },
+      { "text": "$y = 3x$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Las rectas paralelas comparten el mismo valor en su pendiente. Si pasa por el origen, su ordenada $b$ debe ser un número en específico.",
+    "explanation": "La pendiente de la recta original es $-4$. Como es paralela, la nueva recta también tiene $m = -4$. Al pasar por $(0,0)$, $b = 0$, resultando en $y = -4x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VO",
+    "question": "Encuentra la ecuación explícita de la recta perpendicular a $2y - x = 8$ que pasa por el punto $(1, -3)$.",
+    "image": null,
+    "options": [
+      { "text": "$y = -2x - 1$", "correct": true },
+      { "text": "$y = 2x - 5$", "correct": false },
+      { "text": "$y = -\\frac{1}{2}x - \\frac{5}{2}$", "correct": false },
+      { "text": "$y = -2x + 1$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $y$ en la ecuación original para encontrar su pendiente. La pendiente perpendicular se calcula con el inverso negativo.",
+    "explanation": "La recta original es $y = \\frac{1}{2}x + 4$, con $m_1 = 1/2$. Su perpendicular tiene $m_2 = -2$. Usando el punto $(1, -3)$: $y + 3 = -2(x - 1) \\rightarrow y = -2x + 2 - 3 \\rightarrow y = -2x - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VP",
+    "question": "En un examen de simulación de CEPREDIX, se pide hallar la forma general de la recta dada por la estructura engañosa $2x = 5 - \\frac{y}{3}$.",
+    "image": null,
+    "options": [
+      { "text": "$6x + y - 15 = 0$", "correct": true },
+      { "text": "$2x + 3y - 5 = 0$", "correct": false },
+      { "text": "$6x - y + 15 = 0$", "correct": false },
+      { "text": "$x + 6y - 15 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Comienza multiplicando toda la ecuación por el denominador presente para trabajar únicamente con números enteros.",
+    "explanation": "Multiplicando por $3$: $6x = 15 - y$. Acomodando los términos del mismo lado para igualar a cero obtenemos $6x + y - 15 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VQ",
+    "question": "Reacomoda la ecuación simétrica $\\frac{x}{3} + \\frac{y}{-2} = 1$ a su forma general con coeficientes enteros positivos para $x$.",
+    "image": null,
+    "options": [
+      { "text": "$2x - 3y - 6 = 0$", "correct": true },
+      { "text": "$2x + 3y + 6 = 0$", "correct": false },
+      { "text": "$3x - 2y - 6 = 0$", "correct": false },
+      { "text": "$2x - 3y + 6 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Encuentra el mínimo común múltiplo de los denominadores y multiplica toda la ecuación por ese número.",
+    "explanation": "El mcm de $3$ y $2$ es $6$. Multiplicando toda la ecuación por $6$: $2x - 3y = 6 \\rightarrow 2x - 3y - 6 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VR",
+    "question": "Dada la ecuación formulada en proporción $\\frac{x - 2}{4} = \\frac{y + 1}{-2}$, ¿cuál es su forma explícita?",
+    "image": null,
+    "options": [
+      { "text": "$y = -\\frac{1}{2}x$", "correct": true },
+      { "text": "$y = -2x$", "correct": false },
+      { "text": "$y = -\\frac{1}{2}x + 2$", "correct": false },
+      { "text": "$y = -2x - 1$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Aplica productos cruzados para eliminar los denominadores y después despeja tu variable dependiente.",
+    "explanation": "Multiplicando cruzado: $-2(x - 2) = 4(y + 1) \\rightarrow -2x + 4 = 4y + 4$. Simplificando: $-2x = 4y \\rightarrow y = -\\frac{2}{4}x \\rightarrow y = -\\frac{1}{2}x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VS",
+    "question": "¿Cuál es la ecuación en su forma punto-pendiente de la recta que pasa por el punto $(-3, 5)$ con una pendiente de $2/3$?",
+    "image": null,
+    "options": [
+      { "text": "$y - 5 = \\frac{2}{3}(x + 3)$", "correct": true },
+      { "text": "$y + 5 = \\frac{2}{3}(x - 3)$", "correct": false },
+      { "text": "$y - 3 = \\frac{2}{3}(x + 5)$", "correct": false },
+      { "text": "$y + 3 = \\frac{2}{3}(x - 5)$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuidado con los signos al sustituir las coordenadas negativas en la expresión $y - y_1 = m(x - x_1)$.",
+    "explanation": "Sustituyendo $x_1 = -3$ y $y_1 = 5$: $y - 5 = \\frac{2}{3}(x - (-3)) \\rightarrow y - 5 = \\frac{2}{3}(x + 3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VT",
+    "question": "Determina la pendiente de la recta cuya ecuación está dada por la expresión $4(x - 1) = 2(3 - y)$.",
+    "image": null,
+    "options": [
+      { "text": "$-2$", "correct": true },
+      { "text": "$2$", "correct": false },
+      { "text": "$-4$", "correct": false },
+      { "text": "$1/2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Efectúa las multiplicaciones indicadas por los paréntesis y aísla la variable $y$ para leer directamente la pendiente.",
+    "explanation": "Desarrollando: $4x - 4 = 6 - 2y$. Despejando $y$: $2y = -4x + 10 \\rightarrow y = -2x + 5$. La pendiente es $-2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VU",
+    "question": "A partir de la ecuación explícita $y = -\\frac{3}{4}x + \\frac{1}{2}$, ¿qué ecuación general equivalente carece por completo de fracciones?",
+    "image": null,
+    "options": [
+      { "text": "$3x + 4y - 2 = 0$", "correct": true },
+      { "text": "$3x - 4y + 2 = 0$", "correct": false },
+      { "text": "$4x + 3y - 2 = 0$", "correct": false },
+      { "text": "$3x + 4y + 2 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Observa los denominadores de los términos fraccionarios y multiplica toda la igualdad por su múltiplo común para eliminarlos.",
+    "explanation": "Multiplicando por $4$: $4y = -3x + 2$. Pasando todos los términos a la izquierda: $3x + 4y - 2 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VV",
+    "question": "Un tutor de CEPREDIX plantea el siguiente reto: Si la recta $kx - 3y + 6 = 0$ tiene una pendiente matemática igual a $4$, ¿cuál debe ser el valor exacto de $k$?",
+    "image": null,
+    "options": [
+      { "text": "$12$", "correct": true },
+      { "text": "$-12$", "correct": false },
+      { "text": "$4/3$", "correct": false },
+      { "text": "$3/4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Despeja $y$ ignorando que $k$ es una letra, de manera que logres formar la estructura de la pendiente en términos de $k$.",
+    "explanation": "Despejando $y$: $-3y = -kx - 6 \\rightarrow y = \\frac{k}{3}x + 2$. Sabemos que la pendiente es $4$, por lo tanto $\\frac{k}{3} = 4 \\rightarrow k = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VW",
+    "question": "Transforma la ecuación general $5x - 2y + 8 = 0$ a su forma explícita.",
+    "image": null,
+    "options": [
+      { "text": "$y = \\frac{5}{2}x + 4$", "correct": true },
+      { "text": "$y = \\frac{5}{2}x - 4$", "correct": false },
+      { "text": "$y = -\\frac{5}{2}x + 4$", "correct": false },
+      { "text": "$y = \\frac{2}{5}x + 4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Mueve el término de $y$ para que sea positivo y después divide todo entre su coeficiente.",
+    "explanation": "$5x + 8 = 2y$. Dividiendo todo entre $2$: $y = \\frac{5}{2}x + \\frac{8}{2} \\rightarrow y = \\frac{5}{2}x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VX",
+    "question": "¿Cuál es la ecuación matemática de la recta horizontal que pasa por el punto coordenado $(-4, -7)$?",
+    "image": null,
+    "options": [
+      { "text": "$y = -7$", "correct": true },
+      { "text": "$x = -4$", "correct": false },
+      { "text": "$y = -4x - 7$", "correct": false },
+      { "text": "$x = -7$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Una recta totalmente horizontal no tiene inclinación (pendiente nula) y su ecuación solo involucra a una de las variables del plano.",
+    "explanation": "Las rectas horizontales tienen una pendiente de $0$ y su formato es $y = b$. Al pasar por $(-4, -7)$, la ecuación debe fijar el valor de $y$ constante en $-7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VY",
+    "question": "Identifica la ecuación de la recta vertical que pasa exactamente por la intersección en $x$ (raíz) de la recta $y = 3x - 9$.",
+    "image": null,
+    "options": [
+      { "text": "$x = 3$", "correct": true },
+      { "text": "$y = 3$", "correct": false },
+      { "text": "$x = -9$", "correct": false },
+      { "text": "$y = -3$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Calcula primero dónde cruza la recta dada al eje horizontal. Recuerda que las rectas verticales se denotan con la otra variable.",
+    "explanation": "La intersección con $x$ se da cuando $y = 0$: $0 = 3x - 9 \\rightarrow 3x = 9 \\rightarrow x = 3$. Una recta vertical en esa coordenada se expresa como $x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15VZ",
+    "question": "Convierte la expresión desordenada $-x = 4 - \\frac{1}{2}y$ a su forma explícita convencional $y = mx + b$.",
+    "image": null,
+    "options": [
+      { "text": "$y = 2x + 8$", "correct": true },
+      { "text": "$y = -2x - 8$", "correct": false },
+      { "text": "$y = \\frac{1}{2}x + 4$", "correct": false },
+      { "text": "$y = 2x - 4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Acomoda los términos de tal forma que el término que contiene $y$ quede de un lado y positivo, para luego despejar.",
+    "explanation": "Sumando $\\frac{1}{2}y$ en ambos lados y sumando $x$: $\\frac{1}{2}y = x + 4$. Multiplicando por $2$: $y = 2(x + 4) \\rightarrow y = 2x + 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WA",
+    "question": "Encuentra la ecuación explícita de la recta cuyas intersecciones con los ejes coordenados se localizan en $x = 2$ e $y = -6$.",
+    "image": null,
+    "options": [
+      { "text": "$y = 3x - 6$", "correct": true },
+      { "text": "$y = -3x - 6$", "correct": false },
+      { "text": "$y = \\frac{1}{3}x - 6$", "correct": false },
+      { "text": "$y = 3x + 2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Cuentas con las coordenadas $(2, 0)$ y $(0, -6)$. Usa esta información para determinar tu pendiente.",
+    "explanation": "Calculando la pendiente con los puntos dados: $m = (-6 - 0) / (0 - 2) = -6 / -2 = 3$. Como sabemos que la intersección en $y$ es $-6$, entonces $b = -6$. Resultando en $y = 3x - 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WB",
+    "question": "Durante una clase intensiva en CEPREDIX, se solicita obtener la forma general de la recta que se describe inicialmente como $y - 2 = \\frac{3}{5}(x + 4)$.",
+    "image": null,
+    "options": [
+      { "text": "$3x - 5y + 22 = 0$", "correct": true },
+      { "text": "$3x + 5y - 22 = 0$", "correct": false },
+      { "text": "$5x - 3y + 22 = 0$", "correct": false },
+      { "text": "$3x - 5y - 2 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Para deshacerte de la fracción pasa el denominador multiplicando al otro lado de la igualdad, antes de distribuir los valores.",
+    "explanation": "$5(y - 2) = 3(x + 4) \\rightarrow 5y - 10 = 3x + 12$. Agrupando todo del lado derecho para que $x$ sea positivo: $0 = 3x - 5y + 12 + 10 \\rightarrow 3x - 5y + 22 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WC",
+    "question": "Despeja la siguiente ecuación engañosa para encontrar su forma explícita: $\\frac{3y - x}{2} = 6$.",
+    "image": null,
+    "options": [
+      { "text": "$y = \\frac{1}{3}x + 4$", "correct": true },
+      { "text": "$y = 3x + 12$", "correct": false },
+      { "text": "$y = \\frac{1}{2}x + 6$", "correct": false },
+      { "text": "$y = -x + 4$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Comienza multiplicando ambos lados de la ecuación por el denominador para facilitar el despeje de la variable dependiente.",
+    "explanation": "Multiplicando por $2$: $3y - x = 12$. Sumando $x$: $3y = x + 12$. Dividiendo entre $3$: $y = \\frac{1}{3}x + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WD",
+    "question": "Encuentra la forma general de la recta que funge como mediatriz del segmento con extremos definidos en $A(-2, 1)$ y $B(4, 5)$.",
+    "image": null,
+    "options": [
+      { "text": "$3x + 2y - 9 = 0$", "correct": true },
+      { "text": "$2x - 3y + 7 = 0$", "correct": false },
+      { "text": "$3x + 2y + 9 = 0$", "correct": false },
+      { "text": "$2x + 3y - 11 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Una mediatriz es una línea perpendicular a un segmento que cruza exactamente por su punto medio.",
+    "explanation": "Punto medio de $AB$: $((-2+4)/2, (1+5)/2) = (1, 3)$. Pendiente de $AB$: $m = (5-1)/(4-(-2)) = 4/6 = 2/3$. La pendiente perpendicular es $-3/2$. Ecuación: $y - 3 = -\\frac{3}{2}(x - 1) \\rightarrow 2y - 6 = -3x + 3 \\rightarrow 3x + 2y - 9 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WE",
+    "question": "Sabiendo que los puntos geométricos $P(1, 2)$, $Q(k, 6)$ y $R(-2, -4)$ son perfectamente colineales, calcula numéricamente el valor de $k$.",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$4$", "correct": false },
+      { "text": "$-3$", "correct": false },
+      { "text": "$2$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Tres puntos son colineales si comparten estrictamente la misma pendiente entre cualquier combinación de pares formados.",
+    "explanation": "Pendiente $PR$: $m = (-4 - 2) / (-2 - 1) = -6 / -3 = 2$. Usando esta pendiente con $P$ y $Q$: $2 = (6 - 2) / (k - 1) \\rightarrow 2(k - 1) = 4 \\rightarrow 2k - 2 = 4 \\rightarrow 2k = 6 \\rightarrow k = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WF",
+    "question": "La recta descrita por la ecuación parametrizada $(c - 1)x + (c + 2)y - 8 = 0$ es paralela a la recta $2x - 3y + 5 = 0$. ¿Cuál es el valor que debe tomar $c$?",
+    "image": null,
+    "options": [
+      { "text": "$-1/5$", "correct": true },
+      { "text": "$1/5$", "correct": false },
+      { "text": "$-5$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Dos rectas paralelas deben igualar sus pendientes. Extrae la expresión de la pendiente de cada ecuación usando la forma explícita e iguala.",
+    "explanation": "La pendiente de la recta $2x - 3y + 5 = 0$ es $2/3$. La pendiente de la primera recta se despeja como $-(c - 1) / (c + 2)$. Igualando: $-(c - 1) / (c + 2) = 2/3 \\rightarrow -3(c - 1) = 2(c + 2) \\rightarrow -3c + 3 = 2c + 4 \\rightarrow -1 = 5c \\rightarrow c = -1/5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WG",
+    "question": "Calcula la ecuación de la recta en su forma explícita que pasa por el punto de intersección del sistema $x + y = 4$ y $2x - y = 5$, si sabes además que tiene una pendiente de $-2$.",
+    "image": null,
+    "options": [
+      { "text": "$y = -2x + 7$", "correct": true },
+      { "text": "$y = -2x + 5$", "correct": false },
+      { "text": "$y = 2x + 1$", "correct": false },
+      { "text": "$y = -2x - 7$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve el sistema de ecuaciones de las dos líneas para encontrar sus coordenadas de cruce $(x, y)$, que luego usarás con tu pendiente.",
+    "explanation": "Sumando las ecuaciones: $(x + y) + (2x - y) = 4 + 5 \\rightarrow 3x = 9 \\rightarrow x = 3$. Sustituyendo para $y$: $3 + y = 4 \\rightarrow y = 1$. Con el punto $(3, 1)$ y $m = -2$: $y - 1 = -2(x - 3) \\rightarrow y = -2x + 6 + 1 \\rightarrow y = -2x + 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15WH",
+    "question": "Como proyecto en CEPREDIX, un estudiante debe modelar una trayectoria. Recibe la ecuación fraccionaria $\\frac{2x}{3} - \\frac{y}{4} = 1$. Si la recta sufre una traslación de $3$ unidades hacia arriba (en el eje $y$), ¿cuál es su nueva ecuación en forma general?",
+    "image": null,
+    "options": [
+      { "text": "$8x - 3y - 3 = 0$", "correct": true },
+      { "text": "$8x - 3y - 15 = 0$", "correct": false },
+      { "text": "$2x - 3y + 9 = 0$", "correct": false },
+      { "text": "$8x + 3y - 3 = 0$", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Modifica la ecuación original a su forma explícita $y = mx + b$. Trasladar $3$ unidades hacia arriba significa sumarle dicho valor a tu constante $b$.",
+    "explanation": "Multiplicando la original por $12$: $8x - 3y = 12 \\rightarrow 3y = 8x - 12 \\rightarrow y = \\frac{8}{3}x - 4$. Trasladar arriba $3$ unidades implica sumar $3$: $y = \\frac{8}{3}x - 4 + 3 \\rightarrow y = \\frac{8}{3}x - 1$. Convertir a general multiplicando por $3$: $3y = 8x - 3 \\rightarrow 8x - 3y - 3 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
