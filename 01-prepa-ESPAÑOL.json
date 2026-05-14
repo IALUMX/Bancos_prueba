@@ -1,1 +1,728 @@
+Aquí está el banco de ejercicios completo adaptado al formato JSON solicitado.
 
+He revisado cada ejercicio, asignado la dificultad según su complejidad para nivel secundaria y seleccionado el tema más representativo del temario proporcionado para cada uno. Los IDs comienzan con `CEP00AA` y son secuenciales.
+
+```json
+[
+  {
+    "id": "CEP00AA",
+    "question": "\"Se fueron corriendo hasta un alto monte\". El circunstancial es: 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "hasta un alto monte", "correct": true },
+      { "text": "corriendo", "correct": false },
+      { "text": "fueron", "correct": false },
+      { "text": "se complemento", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El circunstancial (complemento circunstancial) indica una circunstancia de lugar, tiempo, modo, etc. Pregunta \"¿hacia dónde?\".",
+    "explanation": "\"hasta un alto monte\" es un complemento circunstancial de lugar, ya que responde a la pregunta \"¿hacia dónde se fueron?\".",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "question": "La concordancia entre sujeto y predicado es la correspondencia de ________ entre sus núcleos. 🏷 Tema 2.3.4",
+    "image": null,
+    "options": [
+      { "text": "adjetivos y adverbios", "correct": false },
+      { "text": "género, número y persona", "correct": true },
+      { "text": "sustantivo y verbo", "correct": false },
+      { "text": "conjugación verbal", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La concordancia es una regla gramatical que exige que ciertas palabras coincidan en algunos accidentes gramaticales.",
+    "explanation": "La concordancia entre el núcleo del sujeto (sustantivo o pronombre) y el núcleo del predicado (verbo) se da en número y persona. Técnicamente, el verbo no tiene género, aunque la opción 'género, número y persona' es la respuesta estándar en este nivel.",
+    "explanative_video": null,
+    "collapsible_text": "Técnicamente, el verbo no tiene género. La concordancia estricta entre el núcleo del sujeto y el núcleo del predicado se da únicamente en número y persona."
+  },
+  {
+    "id": "CEP00AC",
+    "question": "\"Un sinnúmero entraron por el templo\". El error de concordancia es de: 🏷 Tema 2.3.4",
+    "image": null,
+    "options": [
+      { "text": "género", "correct": false },
+      { "text": "persona", "correct": false },
+      { "text": "número", "correct": true },
+      { "text": "verbo", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca la discordancia entre la palabra \"sinnúmero\" y el verbo \"entraron\".",
+    "explanation": "\"Sinnúmero\" es un sustantivo singular, por lo que el verbo debería conjugarse en singular: \"entró\". El error es de número (singular/plural).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "question": "\"Carlos estaba enfriando el café y Mirna ponía el pan en la mesa\". El nexo que se utiliza en la oración es: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "disyuntivo", "correct": false },
+      { "text": "adversativo", "correct": false },
+      { "text": "consecutivo", "correct": false },
+      { "text": "copulativo", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Identifica la conjunción que une las dos oraciones. ¿Suma o añade ideas?",
+    "explanation": "El nexo \"y\" es una conjunción copulativa, ya que sirve para unir o sumar dos elementos o ideas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "question": "\"Te ayudaré a pasar el examen, mas no te suplantaré en la prueba\". El nexo utilizado en la oración anterior es: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "copulativo", "correct": false },
+      { "text": "disyuntivo", "correct": false },
+      { "text": "consecutivo", "correct": false },
+      { "text": "adversativo", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El nexo \"mas\" expresa una oposición o contraste.",
+    "explanation": "La palabra \"mas\" (sin tilde) es una conjunción adversativa, equivalente a \"pero\", que indica una oposición o restricción entre dos ideas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "question": "Elige los nexos que concuerden con la redacción del párrafo: \"___ estudió medicina, en aquel entonces, disciplina muy relacionada con la astronomía; ___ realizaba sus primeras observaciones astronómicas. ___ le dio a leer obras que cuestionaban las certezas vigentes con respecto a la estructura del cosmos.\" 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "Siempre, a pesar, Sin embargo", "correct": false },
+      { "text": "A pesar, mientras, Luego", "correct": false },
+      { "text": "Luego, en tanto, A continuación", "correct": true },
+      { "text": "Además, luego, Al final", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca la secuencia temporal y lógica de las acciones en el párrafo.",
+    "explanation": "El primer nexo \"Luego\" inicia la secuencia temporal. \"En tanto\" expresa simultaneidad durante sus observaciones, y \"A continuación\" introduce la siguiente acción, manteniendo la coherencia cronológica.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "question": "\"La imaginación es magnífica y poderosa\". La oración anterior tiene predicado: 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "nominal", "correct": true },
+      { "text": "verbal", "correct": false },
+      { "text": "complementario", "correct": false },
+      { "text": "construido", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Revisa el núcleo del predicado. ¿Es un verbo copulativo (ser, estar, parecer)?",
+    "explanation": "El verbo \"es\" es copulativo y el núcleo del predicado nominal son los adjetivos \"magnífica y poderosa\" (atributo).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "question": "En la oración: \"La tibia brisa del mar rodeaba el cuerpo de aquella hermosa mujer\", ¿cuál es el núcleo del predicado? 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "rodeaba", "correct": true },
+      { "text": "brisa", "correct": false },
+      { "text": "aquella", "correct": false },
+      { "text": "mujer", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El núcleo del predicado es la palabra más importante del predicado y siempre es un verbo conjugado.",
+    "explanation": "El núcleo del predicado es el verbo conjugado \"rodeaba\".",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "question": "En la oración: \"Inventábamos muchas historias de terror en aquellas fiestas de pijama y en las reuniones de tarde comíamos frituras\". ¿Cuántas oraciones simples identificas? 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "tres", "correct": false },
+      { "text": "cuatro", "correct": false },
+      { "text": "dos", "correct": true },
+      { "text": "una", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Cada oración simple tiene un verbo conjugado. La conjunción \"y\" une dos de ellas.",
+    "explanation": "Hay dos verbos conjugados: \"Inventábamos\" y \"comíamos\", unidos por la conjunción \"y\". Cada uno constituye una oración simple dentro de la oración compuesta.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "question": "\"El crecimiento del conocimiento humano alarma a los arraigados y fanáticos religiosos\". ¿Cuántos artículos encuentras en la oración anterior? 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "3", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "Ninguno", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Los artículos son palabras que determinan al sustantivo: el, la, los, las, un, una, unos, unas. Ten cuidado con la contracción 'del'.",
+    "explanation": "La clave marca 2 artículos: 'El' y 'los'. Sin embargo, 'del' es una contracción de la preposición 'de' y el artículo 'el'. Dependiendo del nivel de exigencia, podrían considerarse 3.",
+    "explanative_video": null,
+    "collapsible_text": "La clave marca 2 ('El' y 'los'), sin embargo, 'del' es una contracción de la preposición 'de' y el artículo 'el'. Dependiendo del nivel de exigencia, podrían considerarse 3."
+  },
+  {
+    "id": "CEP00AK",
+    "question": "\"Con muchas botellas recicladas hicimos la estructura\". El adjetivo en la oración anterior es: 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "estructura", "correct": false },
+      { "text": "hicimos", "correct": false },
+      { "text": "recicladas", "correct": true },
+      { "text": "con", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El adjetivo es la palabra que califica o modifica al sustantivo. Pregunta: ¿cómo eran las botellas?",
+    "explanation": "\"Recicladas\" es un adjetivo que califica al sustantivo \"botellas\".",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "question": "Estructura que sigue un cuento o novela: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "introducción, desarrollo y conclusiones", "correct": false },
+      { "text": "índice, introducción y conclusiones", "correct": false },
+      { "text": "planteamiento, nudo y desenlace", "correct": true },
+      { "text": "inicio, nudo y conclusiones", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Piensa en las tres partes clásicas de una historia narrativa.",
+    "explanation": "La estructura clásica de un cuento o novela es: Planteamiento (se presentan personajes y situación inicial), Nudo (se desarrolla el conflicto) y Desenlace (se resuelve el conflicto).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "question": "\"Estábamos sentados en una banca del parque, nunca pensé que ella sería la misma persona que me encontraría al día siguiente\". El párrafo anterior es una: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "narración", "correct": true },
+      { "text": "descripción", "correct": false },
+      { "text": "exposición", "correct": false },
+      { "text": "argumentación", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "¿El texto cuenta una secuencia de hechos en el tiempo o describe cómo son las cosas?",
+    "explanation": "Es una narración porque relata una secuencia de eventos (acciones que suceden en el tiempo) desde la perspectiva del hablante.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "question": "\"Sus ojos eran vacíos, pálidos como la niebla, adornados por diademas rizadas\". El texto anterior es un ejemplo de: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "narración", "correct": false },
+      { "text": "descripción", "correct": true },
+      { "text": "exposición", "correct": false },
+      { "text": "argumentación", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "¿El texto se enfoca en contar las características o cualidades de algo/alguien?",
+    "explanation": "Es una descripción porque se centra en detallar las características y cualidades de la mirada de una persona.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "question": "Adjetivo que denota una cualidad del sustantivo que lo diferencia de los demás sustantivos: 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "epíteto", "correct": false },
+      { "text": "original", "correct": false },
+      { "text": "único", "correct": false },
+      { "text": "calificativo", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Piensa en el adjetivo que usamos para decir cómo es algo, para distinguirlo.",
+    "explanation": "El adjetivo calificativo expresa una cualidad o propiedad que distingue al sustantivo (ej. 'coche rojo', donde 'rojo' lo distingue de otros coches).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "question": "Adjetivo que denota una cualidad abstracta o concreta que tiene de manera natural el sustantivo: 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "calificativo", "correct": false },
+      { "text": "original", "correct": false },
+      { "text": "único", "correct": false },
+      { "text": "epíteto", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Recuerda a 'la blanca nieve' o 'el dulce miel'. El adjetivo destaca una cualidad inherente.",
+    "explanation": "El epíteto es un adjetivo que resalta una cualadad natural o inherente al sustantivo, como 'verde campo' o 'fiero león'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "question": "Frase publicitaria con la que se distingue un producto en específico o una marca: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "nombre corporativo", "correct": false },
+      { "text": "eslogan", "correct": true },
+      { "text": "logo", "correct": false },
+      { "text": "imagen", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Es la frase corta y fácil de recordar que identifica a una marca.",
+    "explanation": "El eslogan es una frase breve y original utilizada en publicidad para identificar una marca o producto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "question": "Son ejemplos de conjunciones copulativas: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "bien, ora", "correct": false },
+      { "text": "pero, sino", "correct": false },
+      { "text": "y, e, ni, que", "correct": true },
+      { "text": "luego, entonces", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Las conjunciones copulativas sirven para unir o sumar elementos.",
+    "explanation": "Las conjunciones copulativas son 'y' (que se convierte en 'e' ante palabra que empieza por 'i'), 'ni', y en algunos contextos 'que'. Estas sirven para unir o añadir elementos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "question": "Son algunos nexos para introducir ejemplos: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "como, es decir", "correct": true },
+      { "text": "mientras tanto, luego", "correct": false },
+      { "text": "así pues, en cuanto", "correct": false },
+      { "text": "a, ante", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Necesitas nexos que signifiquen 'por ejemplo' o 'esto es'.",
+    "explanation": "\"Como\" y \"es decir\" son conectores que sirven para introducir ejemplos o explicaciones más detalladas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "question": "\"Siempre me ha dicho que no, ________ le enseñe el auto y se convenza\". ¿Qué nexo necesita el espacio? 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "en este momento", "correct": false },
+      { "text": "con que", "correct": false },
+      { "text": "hasta que", "correct": true },
+      { "text": "sin embargo", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El nexo debe indicar el límite o el momento final de la negativa.",
+    "explanation": "\"Hasta que\" es una conjunción temporal que marca el fin de una acción o estado, indicando que la negativa se mantendrá mientras no se cumpla la condición.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "question": "Nexos que relacionan temporalmente: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "para concluir, entonces", "correct": false },
+      { "text": "por ejemplo, como", "correct": false },
+      { "text": "desde, tras", "correct": false },
+      { "text": "para comenzar, mientras tanto", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Busca conectores que indiquen orden o progresión en el tiempo.",
+    "explanation": "\"Para comenzar\" indica inicio de una secuencia temporal. \"Mientras tanto\" expresa simultaneidad o el transcurso del tiempo entre dos eventos.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "question": "Son algunos nexos condicionales: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "por lo que, porque", "correct": false },
+      { "text": "si, como", "correct": true },
+      { "text": "aunque, pese a que", "correct": false },
+      { "text": "para concluir, entonces", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Los nexos condicionales introducen una condición necesaria para que ocurra algo.",
+    "explanation": "\"Si\" es el conector condicional por excelencia. \"Como\" puede tener un valor condicional en contextos como 'Como llegues tarde, te castigaré'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "\"Nos fuimos por otro camino, por lo que llegamos separados\". El nexo causal de la oración es: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "no", "correct": false },
+      { "text": "por lo que", "correct": true },
+      { "text": "fuimos", "correct": false },
+      { "text": "otro", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El nexo causal expresa la razón o causa de la acción principal.",
+    "explanation": "\"Por lo que\" es un nexo causal-consecutivo; en esta oración, 'tomar otro camino' es la causa de que 'llegaran separados'.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Recursos lingüísticos que permiten expresar simultaneidad: 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "luego, antes", "correct": false },
+      { "text": "a medida que, en tanto que", "correct": true },
+      { "text": "a causa de, puesto que", "correct": false },
+      { "text": "primero, más tarde", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "¿Qué conectores indican que dos o más acciones ocurren al mismo tiempo?",
+    "explanation": "\"A medida que\" y \"en tanto que\" son locuciones conjuntivas que indican que dos acciones se desarrollan de manera paralela o simultánea.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "\"Entramos por la puerta, justo entonces nos sorprendió la fiesta\". ¿Qué expresa el recurso lingüístico? 🏷 Tema 2.4.4",
+    "image": null,
+    "options": [
+      { "text": "sucesión", "correct": true },
+      { "text": "simultaneidad", "correct": false },
+      { "text": "causalidad", "correct": false },
+      { "text": "atemporalidad", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "\"Justo entonces\" conecta dos eventos en el tiempo. ¿Ocurren a la vez o uno después del otro?",
+    "explanation": "\"Justo entonces\" indica un momento preciso en el que una acción sigue inmediatamente a otra. Expresa sucesión temporal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Signos de puntuación para denotar ironía, frases impropias o vulgares, títulos, apodos o frases célebres: 🏷 Tema 2.4.3",
+    "image": null,
+    "options": [
+      { "text": "admiración", "correct": false },
+      { "text": "puntos suspensivos", "correct": false },
+      { "text": "comillas", "correct": true },
+      { "text": "paréntesis", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Son dos signos (uno de abrir y otro de cerrar) que se usan para enmarcar palabras con un sentido especial.",
+    "explanation": "Las comillas se utilizan para indicar ironía, citar textualmente, señalar títulos de artículos, poemas, canciones, o marcar apodos y palabras vulgares.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Signos utilizados al final de una oración incompleta o cuando se omite una parte conocida de un texto: 🏷 Tema 2.4.3",
+    "image": null,
+    "options": [
+      { "text": "puntos suspensivos", "correct": true },
+      { "text": "admiración", "correct": false },
+      { "text": "comillas", "correct": false },
+      { "text": "paréntesis", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Son tres puntos seguidos que indican que la frase queda incompleta.",
+    "explanation": "Los puntos suspensivos (...) se usan al final de una oración para dejar el sentido en suspenso, indicar una pausa o mostrar que se omite una parte del texto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Son pronombres relativos: 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "con que, porque, ni", "correct": false },
+      { "text": "en, para, salvo", "correct": false },
+      { "text": "a, ante, bajo", "correct": false },
+      { "text": "que, cual, cuyo", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Son palabras que se refieren a un sustantivo mencionado antes (antecedente) para unir dos ideas.",
+    "explanation": "Los pronombres relativos (que, cual, quien, cuyo) se refieren a un sustantivo anterior (antecedente) e introducen una oración subordinada que lo complementa.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "\"Cuando tengo posibilidad, te visito sin falta\". ¿Qué adverbio fue utilizado? 🏷 Tema 2.3.1",
+    "image": null,
+    "options": [
+      { "text": "sin", "correct": false },
+      { "text": "cuando", "correct": true },
+      { "text": "te", "correct": false },
+      { "text": "tengo", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "El adverbio modifica al verbo y puede indicar tiempo, lugar, modo, etc.",
+    "explanation": "\"Cuando\" es un adverbio relativo de tiempo. En esta oración, introduce una subordinada adverbial que indica la condición temporal de la acción principal.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Listas ordenadas de las partes del texto y el número de página que les corresponde: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "título", "correct": false },
+      { "text": "apartado", "correct": false },
+      { "text": "índice", "correct": true },
+      { "text": "contraportada", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Es la sección que te ayuda a encontrar rápidamente un tema en un libro.",
+    "explanation": "El índice es una lista ordenada de los capítulos, secciones o temas de un texto, acompañada del número de página donde comienza cada uno.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Tipografía que comúnmente se utilizan para enumerar los capítulos de un libro: 🏷 Tema 2.1.5",
+    "image": null,
+    "options": [
+      { "text": "arábigos", "correct": false },
+      { "text": "cardinales", "correct": false },
+      { "text": "romanos", "correct": true },
+      { "text": "ordinarios", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Son los números que usaban los antiguos romanos (I, II, III, IV...).",
+    "explanation": "Es común usar números romanos (I, II, III, IV, V, etc.) para numerar los capítulos de un libro, mientras que los números arábigos se usan para las páginas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Las marcas gráficas son: 🏷 Tema 2.4.3",
+    "image": null,
+    "options": [
+      { "text": "señales dentro del texto, como el subrayado", "correct": false },
+      { "text": "números y letras para numerar", "correct": true },
+      { "text": "encerrar palabras", "correct": false },
+      { "text": "anotaciones al pie de página", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Son elementos como las viñetas, números o letras que organizan visualmente una lista.",
+    "explanation": "Las marcas gráficas son signos como números (1, 2, 3) o letras (a, b, c) que se utilizan para enumerar y organizar elementos dentro de un texto, como en listas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Interpretación o traducción de un texto con el fin de reescribirlo y ampliarlo o reducirlo: 🏷 Tema 2.1.1",
+    "image": null,
+    "options": [
+      { "text": "paráfrasis", "correct": true },
+      { "text": "explicaciones", "correct": false },
+      { "text": "repeticiones", "correct": false },
+      { "text": "resumen", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Es decir lo mismo con otras palabras.",
+    "explanation": "La paráfrasis consiste en explicar o reinterpretar un texto usando un lenguaje diferente al original, buscando aclarar o ampliar (o reducir) la información sin cambiar la idea central.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Tipo de paráfrasis cuya finalidad es ampliar el texto original: 🏷 Tema 2.1.1",
+    "image": null,
+    "options": [
+      { "text": "constructiva", "correct": true },
+      { "text": "mecánica", "correct": false },
+      { "text": "amplificadora", "correct": false },
+      { "text": "reductora", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Añade más detalles, ejemplos o explicaciones al texto original.",
+    "explanation": "La paráfrasis constructiva o amplificadora busca enriquecer el texto original añadiendo comentarios, ejemplos o aclaraciones que faciliten su comprensión.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Tipo de paráfrasis cuya finalidad es reducir el texto original: 🏷 Tema 2.1.1",
+    "image": null,
+    "options": [
+      { "text": "constructiva", "correct": false },
+      { "text": "amplificadora", "correct": false },
+      { "text": "reductora", "correct": false },
+      { "text": "mecánica", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Sustituye palabras por sinónimos o frases más cortas, pero sin eliminar información clave.",
+    "explanation": "La paráfrasis mecánica o reductora consiste en sustituir términos o estructuras del texto original por otras más simples o breves, sin cambiar el significado esencial.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "question": "Reducción de un texto conservando únicamente las ideas principales: 🏷 Tema 2.1.1",
+    "image": null,
+    "options": [
+      { "text": "paráfrasis", "correct": false },
+      { "text": "resumen", "correct": true },
+      { "text": "explicaciones", "correct": false },
+      { "text": "repeticiones", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["BÁSICO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Es una versión corta de un texto más largo.",
+    "explanation": "El resumen es una exposición abreviada de un texto, que se limita a expresar las ideas más importantes del autor con las palabras de quien lo resume.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "question": "Análisis de cada una de las partes del texto reunidas en una reescritura: 🏷 Tema 2.1.1",
+    "image": null,
+    "options": [
+      { "text": "resumen", "correct": false },
+      { "text": "paráfrasis", "correct": false },
+      { "text": "síntesis", "correct": true },
+      { "text": "repeticiones", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Implica descomponer el texto en partes y luego integrarlas de forma personal.",
+    "explanation": "La síntesis consiste en leer y analizar un texto, separar sus partes fundamentales y luego reescribirlas de manera personal, mostrando una visión de conjunto.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "question": "\"Siempre estuvo desocupada aquella enorme planicie desértica\". La frase nominal es: 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "Siempre estuvo desocupada", "correct": false },
+      { "text": "aquella enorme planicie desértica", "correct": true },
+      { "text": "aquella", "correct": false },
+      { "text": "planicie", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "La frase nominal es la que funciona como sujeto y tiene como núcleo un sustantivo.",
+    "explanation": "La frase nominal \"aquella enorme planicie desértica\" tiene como núcleo al sustantivo \"planicie\" y funciona como el sujeto de la oración.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "question": "En la oración: \"Llueve mucho\", el sujeto es: 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "indefinido", "correct": true },
+      { "text": "llueve", "correct": false },
+      { "text": "mucho", "correct": false },
+      { "text": "tácito", "correct": false }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "¿Quién o qué realiza la acción de 'llover'?",
+    "explanation": "El término técnico más usual en gramática para verbos meteorológicos que carecen de sujeto es 'oración impersonal'. El examen lo clasifica como sujeto 'indefinido'.",
+    "explanative_video": null,
+    "collapsible_text": "El término técnico más usual en gramática para designar verbos meteorológicos que carecen de sujeto explícito o tácito es oración 'impersonal'. El examen lo clasifica como sujeto 'indefinido'."
+  },
+  {
+    "id": "CEP00BN",
+    "question": "\"El sonreír permite ejercitar varios músculos del rostro\". En esta oración, el sujeto es: 🏷 Tema 2.3.2",
+    "image": null,
+    "options": [
+      { "text": "rostro", "correct": false },
+      { "text": "músculos", "correct": false },
+      { "text": "El", "correct": false },
+      { "text": "Sonreír", "correct": true }
+    ],
+    "uni_tags": ["ECOEMS", "EXANI I", "EDIEMS", "PREPA-BUAP"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["ESPAÑOL"],
+    "hint": "Pregunta: ¿Qué es lo que 'permite ejercitar'?",
+    "explanation": "El sujeto es el sintagma nominal \"El sonreír\". \"Sonreír\" es un verbo que aquí funciona como núcleo del sujeto, es decir, está sustantivado.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
+```
