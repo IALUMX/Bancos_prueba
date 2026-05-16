@@ -1,1 +1,458 @@
-
+[
+  {
+    "id": "CEP20SM",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál de los siguientes conjuntos representa una función?",
+    "options": [
+      { "text": "$\\{(-2, 3), (-1, 3), (-2, 5)\\}$", "correct": false },
+      { "text": "$\\{(1, 3), (1, 4), (1, 5)\\}$", "correct": false },
+      { "text": "$\\{(-2, 3), (-1, 3), (2, 5)\\}$", "correct": true },
+      { "text": "$\\{(1, 7), (2, 8), (2, -9)\\}$", "correct": false }
+    ],
+    "hint": "Recuerda que para que un conjunto de pares ordenados sea una función, ninguna primera componente (valor de x) debe repetirse con diferentes salidas.",
+    "explanation": "En la opción correcta, las primeras componentes son -2, -1 y 2, todas distintas. En las demás opciones, hay valores de 'x' que se repiten con distintos valores de 'y'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SN",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "De los siguientes conjuntos, ¿cuál no representa una función?",
+    "options": [
+      { "text": "$\\{(1, 2), (3, 4), (4, 5)\\}$", "correct": false },
+      { "text": "$\\{(2, 3), (3, 4), (4, -2)\\}$", "correct": false },
+      { "text": "$\\{(1, 2), (-1, 3), (3, -1)\\}$", "correct": false },
+      { "text": "$\\{(-1, 3), (-1, 2), (2, -1)\\}$", "correct": true }
+    ],
+    "hint": "Busca el conjunto donde un mismo elemento de dominio esté asociado a más de un elemento del contradominio.",
+    "explanation": "En la opción correcta, el elemento -1 se repite asociándose con 3 y con 2, por lo tanto, no cumple con la definición de función.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SO",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = \\frac{3x^2 - 1}{2x + 1}$, ¿cuál es el resultado de $f(-2)$?",
+    "options": [
+      { "text": "$-\\frac{11}{3}$", "correct": true },
+      { "text": "$\\frac{11}{3}$", "correct": false },
+      { "text": "$\\frac{7}{3}$", "correct": false },
+      { "text": "$-\\frac{7}{3}$", "correct": false }
+    ],
+    "hint": "Sustituye $x = -2$ en la expresión y respeta la jerarquía de operaciones y la ley de los signos.",
+    "explanation": "Al sustituir: $f(-2) = \\frac{3(-2)^2 - 1}{2(-2) + 1} = \\frac{3(4) - 1}{-4 + 1} = \\frac{12 - 1}{-3} = -\\frac{11}{3}$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SP",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = x^2 - 3x + 2$, el valor de $f(1)$ es:",
+    "options": [
+      { "text": "6", "correct": false },
+      { "text": "0", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "hint": "Cambia todas las variables 'x' por el número 1 y realiza las operaciones indicadas.",
+    "explanation": "Se evalúa la función en x = 1: $f(1) = (1)^2 - 3(1) + 2 = 1 - 3 + 2 = 0$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SQ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si el dominio de la función $f(x) = 3x - 2$ es el conjunto $\\{1, 2, 3\\}$ y su contradominio es el conjunto $\\{1, 4, 7, 10\\}$. ¿Cuál es el rango de la función?",
+    "options": [
+      { "text": "$\\{4, 7, 10\\}$", "correct": false },
+      { "text": "$\\{1, 4, 10\\}$", "correct": false },
+      { "text": "$\\{1, 4, 7, 10\\}$", "correct": false },
+      { "text": "$\\{1, 4, 7\\}$", "correct": true }
+    ],
+    "hint": "Evalúa cada número del dominio dentro de la regla de correspondencia para descubrir qué elementos conforman exactamente el rango.",
+    "explanation": "Evaluando: $f(1) = 3(1) - 2 = 1$; $f(2) = 3(2) - 2 = 4$; $f(3) = 3(3) - 2 = 7$. El conjunto de salida real es $\\{1, 4, 7\\}$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SR",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si el dominio de la función $f(x) = \\frac{1}{x-3}$ es $\\{-2, -1, 0\\}$ y su contradominio $\\{-\\frac{1}{5}, -\\frac{1}{4}, -\\frac{1}{3}, -\\frac{1}{2}, -1\\}$, ¿cuál es el rango?",
+    "options": [
+      { "text": "$\\{-\\frac{1}{5}, -\\frac{1}{4}, -1\\}$", "correct": false },
+      { "text": "$\\{-\\frac{1}{4}, -\\frac{1}{3}, -1\\}$", "correct": false },
+      { "text": "$\\{-\\frac{1}{5}, -\\frac{1}{4}, -\\frac{1}{3}\\}$", "correct": true },
+      { "text": "$\\{-\\frac{1}{3}, -\\frac{1}{2}, -1\\}$", "correct": false }
+    ],
+    "hint": "Sustituye los tres valores permitidos del dominio en la función y observa qué subconjunto del contradominio obtienes.",
+    "explanation": "Evaluando los valores del dominio: $f(-2) = \\frac{1}{-2-3} = -\\frac{1}{5}$; $f(-1) = \\frac{1}{-1-3} = -\\frac{1}{4}$; $f(0) = \\frac{1}{0-3} = -\\frac{1}{3}$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SS",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál de las siguientes funciones es lineal?",
+    "options": [
+      { "text": "$f(x) = x^2 - 2x + 1$", "correct": false },
+      { "text": "$f(x) = \\frac{1}{2x + 1}$", "correct": false },
+      { "text": "$f(x) = 2x + 1$", "correct": true },
+      { "text": "$f(x) = (2x + 1)^2$", "correct": false }
+    ],
+    "hint": "Una función lineal siempre se presenta como un polinomio de primer grado (la variable 'x' no tiene un exponente mayor a 1 ni está en el denominador).",
+    "explanation": "La función lineal tiene la forma $f(x) = mx + b$. La opción correcta es la única que cumple esta estructura estrictamente.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20ST",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Qué expresión representa una función cuadrática?",
+    "options": [
+      { "text": "$f(x) = x^2 - 2x + \\frac{1}{x}$", "correct": false },
+      { "text": "$f(x) = x^3 + 2x - 1$", "correct": false },
+      { "text": "$f(x) = \\frac{1}{x^2 + 2x + 1}$", "correct": false },
+      { "text": "$f(x) = (x - 1)^2$", "correct": true }
+    ],
+    "hint": "Asegúrate de que al desarrollar o simplificar la expresión, el grado máximo del polinomio sea exactamente 2, sin términos racionales extra.",
+    "explanation": "Al desarrollar $(x - 1)^2$ se obtiene $f(x) = x^2 - 2x + 1$, que es un polinomio de segundo grado puro. Las otras opciones tienen grados distintos o son racionales.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SU",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el rango de la función $y = x^2 - 2x - 8$?",
+    "options": [
+      { "text": "$[-9, \\infty)$", "correct": true },
+      { "text": "$(-9, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, -9)$", "correct": false },
+      { "text": "$(-\\infty, -9]$", "correct": false }
+    ],
+    "hint": "Como la parábola abre hacia arriba, el rango comenzará desde la coordenada 'y' de su vértice hacia el infinito.",
+    "explanation": "La coordenada x del vértice es $x = \\frac{-(-2)}{2(1)} = 1$. Sustituyendo x = 1, obtenemos la coordenada y: $y = (1)^2 - 2(1) - 8 = -9$. El rango es $[-9, \\infty)$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SV",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El rango de la función $y = -x^2 + 6x - 11$ es:",
+    "options": [
+      { "text": "$[-2, \\infty)$", "correct": false },
+      { "text": "$(-2, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, -2)$", "correct": false },
+      { "text": "$(-\\infty, -2]$", "correct": true }
+    ],
+    "hint": "Al tener un coeficiente principal negativo, la parábola abre hacia abajo, estableciendo su vértice como un punto máximo.",
+    "explanation": "Calculando el vértice: $x = \\frac{-6}{2(-1)} = 3$. Evaluando: $y = -(3)^2 + 6(3) - 11 = -9 + 18 - 11 = -2$. El rango abarca desde menos infinito hasta este máximo: $(-\\infty, -2]$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SW",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El dominio de la función $f(x) = \\frac{x+1}{x^2-5x-6}$ es:",
+    "options": [
+      { "text": "$D_f = \\{x \\in \\mathbb{R} \\mid x \\neq -1, 6\\}$", "correct": true },
+      { "text": "$D_f = \\{x \\in \\mathbb{R} \\mid x \\neq 1, -6\\}$", "correct": false },
+      { "text": "$D_f = \\{x \\in \\mathbb{R} \\mid x \\neq -3, 2\\}$", "correct": false },
+      { "text": "$D_f = \\{x \\in \\mathbb{R} \\mid x \\neq -2, 3\\}$", "correct": false }
+    ],
+    "hint": "Iguala el polinomio del denominador a cero y resuélvelo factorizando para encontrar los valores que se deben excluir.",
+    "explanation": "El denominador no puede ser cero. Factorizando $x^2 - 5x - 6 = 0$ obtenemos $(x - 6)(x + 1) = 0$, por lo que las restricciones del dominio son $x \\neq 6$ y $x \\neq -1$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SX",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Determina el dominio de la función $f(x) = \\frac{x^2 - 2x - 3}{x + 2}$.",
+    "options": [
+      { "text": "$(-\\infty, 2) \\cup (2, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, -2) \\cup (-2, \\infty)$", "correct": true },
+      { "text": "$(-\\infty, -3) \\cup (-3, \\infty)$", "correct": false },
+      { "text": "$(-\\infty, -1) \\cup (-1, \\infty)$", "correct": false }
+    ],
+    "hint": "La única restricción real en esta función proviene del denominador, el cual no debe anularse.",
+    "explanation": "El denominador no debe ser cero: $x + 2 \\neq 0 \\implies x \\neq -2$. Expresado en intervalos, esto corresponde a todos los reales menos el -2, o sea $(-\\infty, -2) \\cup (-2, \\infty)$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SY",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El valor de x para el cual la función $f(x) = \\frac{2x}{x^2 - 4}$ es discontinua es:",
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "hint": "Una discontinuidad ocurre cuando la función racional se indefine; busca el valor que hace cero al denominador.",
+    "explanation": "La función es discontinua donde el denominador se anula: $x^2 - 4 = 0 \\implies x^2 = 4 \\implies x = \\pm 2$. El valor que aparece en las opciones es el 2.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20SZ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La función $f(x) = \\frac{1}{x(x^2 - 9)}$ es continua en el punto:",
+    "options": [
+      { "text": "x = 0", "correct": false },
+      { "text": "x = 3", "correct": false },
+      { "text": "x = -3", "correct": false },
+      { "text": "x = 1", "correct": true }
+    ],
+    "hint": "Descubre primero los puntos de discontinuidad que indefinen la fracción y descarta esas opciones.",
+    "explanation": "Los puntos de discontinuidad son aquellos que hacen cero al denominador: $x = 0$, $x = 3$ y $x = -3$. Por exclusión, la función es continua en x = 1.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TA",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El dominio de la función $f(x) = \\sqrt{x}$ es:",
+    "options": [
+      { "text": "$(-\\infty, 0)$", "correct": false },
+      { "text": "$(-\\infty, 0]$", "correct": false },
+      { "text": "$(0, \\infty)$", "correct": false },
+      { "text": "$[0, \\infty)$", "correct": true }
+    ],
+    "hint": "Analiza las propiedades de los números reales: no existen raíces reales de números negativos.",
+    "explanation": "Para que la raíz cuadrada esté definida en los números reales, el radicando debe ser mayor o igual a cero: $x \\ge 0$, lo que equivale al intervalo cerrado en cero $[0, \\infty)$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TB",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El rango de la función $f(x) = 3\\text{ sen}\\left(\\frac{x}{2}\\right)$ es:",
+    "options": [
+      { "text": "$(-\\infty, -3) \\cup (3, \\infty)$", "correct": false },
+      { "text": "$[-\\frac{1}{2}, \\frac{1}{2}]$", "correct": false },
+      { "text": "$[-3, 3]$", "correct": true },
+      { "text": "$(-\\infty, -3) \\cup (\\frac{1}{2}, \\infty)$", "correct": false }
+    ],
+    "hint": "La función trigonométrica seno básica tiene un rango de [-1, 1]; considera el factor que multiplica a la función completa.",
+    "explanation": "La función seno oscila de forma estándar entre -1 y 1. Al multiplicarse por una amplitud de 3, los límites del rango se extienden y abarcan el intervalo $[-3, 3]$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TC",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "¿Qué expresión representa una función implícita?",
+    "options": [
+      { "text": "$y = x^2 + 2x + 1$", "correct": false },
+      { "text": "$x^2 + xy - y^2 = 0$", "correct": true },
+      { "text": "$x^2 - x^3 - x^4 = y$", "correct": false },
+      { "text": "$y = \\frac{x - 1}{x^2 - x - 1}$", "correct": false }
+    ],
+    "hint": "En una ecuación explícita la variable dependiente está aislada de un solo lado de la igualdad.",
+    "explanation": "En una función implícita la variable dependiente 'y' no se encuentra despejada explícitamente, sino que está mezclada algebraicamente con la variable 'x'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TD",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La función $f(x) = x^3 - 1$ es una función:",
+    "options": [
+      { "text": "creciente", "correct": true },
+      { "text": "decreciente", "correct": false },
+      { "text": "cuadrática", "correct": false },
+      { "text": "constante", "correct": false }
+    ],
+    "hint": "Evalúa un par de puntos, o considera que las funciones cúbicas puras positivas aumentan su valor siempre hacia la derecha.",
+    "explanation": "Al ser un polinomio cúbico con coeficiente principal positivo, a medida que aumentan los valores de x, aumentan continuamente los valores de y, por lo que es estrictamente creciente.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TE",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "$f(x) = 3\\pi$ representa una función:",
+    "options": [
+      { "text": "creciente", "correct": false },
+      { "text": "constante", "correct": true },
+      { "text": "cuadrática", "correct": false },
+      { "text": "decreciente", "correct": false }
+    ],
+    "hint": "Observa si la regla de correspondencia posee la variable independiente 'x'.",
+    "explanation": "$3\\pi$ es un número real que no depende de ninguna variable de entrada, por lo tanto, el valor de la función se mantiene fijo y sin alteraciones.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TF",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = 2x - 1$ y $g(x) = x^2 - 2x + 3$, el resultado de $f + g$ es:",
+    "options": [
+      { "text": "$x^2 + 2$", "correct": true },
+      { "text": "$x^2 - 2$", "correct": false },
+      { "text": "$x^2 + 4x + 2$", "correct": false },
+      { "text": "$x^2 + 4x - 2$", "correct": false }
+    ],
+    "hint": "Suma algebraicamente ambas reglas de correspondencia agrupando términos semejantes.",
+    "explanation": "Sumamos los términos correspondientes: $(2x - 1) + (x^2 - 2x + 3) = x^2 + (2x - 2x) + (-1 + 3) = x^2 + 2$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TG",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = \\sqrt{1 - x}$ y $g(x) = \\sqrt{1 + x}$, el resultado de $f \\cdot g$ es:",
+    "options": [
+      { "text": "$1 - x^2$", "correct": false },
+      { "text": "$\\sqrt{1 + x^2}$", "correct": false },
+      { "text": "$\\sqrt{1 - x^2}$", "correct": true },
+      { "text": "$1 + x^2$", "correct": false }
+    ],
+    "hint": "Aplica la propiedad del producto de raíces del mismo índice y desarrolla los binomios conjugados resultantes.",
+    "explanation": "Multiplicamos los radicandos por propiedades de los radicales: $\\sqrt{(1 - x)(1 + x)} = \\sqrt{1 - x^2}$ por diferencia de cuadrados.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TH",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(2) = 8$ y $g(2) = 4$, el resultado de $2f(2) - 3g(2)$ es:",
+    "options": [
+      { "text": "0", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "4", "correct": true },
+      { "text": "8", "correct": false }
+    ],
+    "hint": "Sustituye directamente las salidas numéricas proporcionadas en las funciones dentro de la expresión dada.",
+    "explanation": "Sustituyendo los valores directos: $2(8) - 3(4) = 16 - 12 = 4$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TI",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = x - 1$ y $g(x) = x^2 + 1$, el resultado de $f \\circ g$ es:",
+    "options": [
+      { "text": "$x^2$", "correct": true },
+      { "text": "$x^2 - 1$", "correct": false },
+      { "text": "$x^2 + 1$", "correct": false },
+      { "text": "$x^2 - 2$", "correct": false }
+    ],
+    "hint": "Toma toda la función g(x) e insértala en el lugar de la 'x' que posee la función f(x).",
+    "explanation": "Se compone sustituyendo g(x) en f(x): $f(g(x)) = (x^2 + 1) - 1 = x^2$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TJ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "BUAP", "UAM"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si $f(x) = x$ y $g(x) = x^2 - 2x$, el resultado de $\\frac{g}{f}$ es:",
+    "options": [
+      { "text": "$x^3 - 2x^2$", "correct": false },
+      { "text": "$x - 2$", "correct": true },
+      { "text": "$x + 2$", "correct": false },
+      { "text": "$x^2 - 2x$", "correct": false }
+    ],
+    "hint": "Coloca la función g(x) en el numerador y f(x) en el denominador, posteriormente aplica factor común para simplificar.",
+    "explanation": "Dividimos las funciones factorizando x en el numerador: $\\frac{x^2 - 2x}{x} = \\frac{x(x - 2)}{x} = x - 2$.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
