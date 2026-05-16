@@ -1,1 +1,762 @@
-
+[
+  {
+    "id": "CEP10JG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el resultado de la operación matemática $ \\frac{1}{4} + \\frac{2}{4} $?",
+    "options": [
+      { "text": "$ \\frac{3}{4} $", "correct": true },
+      { "text": "$ \\frac{3}{8} $", "correct": false },
+      { "text": "$ \\frac{2}{16} $", "correct": false },
+      { "text": "$ \\frac{1}{2} $", "correct": false }
+    ],
+    "hint": "Cuando los denominadores son iguales, solo se suman los numeradores y el denominador se mantiene.",
+    "explanation": "Al tener el mismo denominador (4), sumamos los numeradores: 1 + 2 = 3. El resultado es $ \\frac{3}{4} $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En la división matemática de 20 entre 4 igual a 5, el número 20 representa el ______ y el número 5 representa el ______.",
+    "options": [
+      { "text": "dividendo, cociente", "correct": true },
+      { "text": "divisor, residuo", "correct": false },
+      { "text": "cociente, dividendo", "correct": false },
+      { "text": "residuo, divisor", "correct": false }
+    ],
+    "hint": "La cantidad que se va a repartir tiene un nombre, y el resultado de esa repartición tiene otro.",
+    "explanation": "El dividendo es la cantidad a dividir (20), el divisor es en cuántas partes se divide (4), y el cociente es el resultado (5).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica cuáles de las siguientes expresiones representan fracciones impropias:\n1. $ \\frac{3}{4} $\n2. $ \\frac{5}{2} $\n3. $ \\frac{8}{8} $\n4. $ \\frac{1}{6} $\n5. $ \\frac{7}{3} $",
+    "options": [
+      { "text": "2, 3, 5", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 3", "correct": false }
+    ],
+    "hint": "Busca aquellas fracciones donde el número superior (numerador) sea mayor o igual al inferior (denominador).",
+    "explanation": "Las fracciones impropias son aquellas cuyo numerador es mayor o igual al denominador, indicando un valor igual o mayor a un entero.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona la propiedad de la suma con su respectiva definición matemática:\nA) Conmutativa\nB) Asociativa\nC) Neutro aditivo\nI. $ a + 0 = a $\nII. $ a + b = b + a $\nIII. $ (a + b) + c = a + (b + c) $",
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "hint": "Conmutar significa cambiar de orden. Asociar significa agrupar de diferente forma. El neutro no altera el valor.",
+    "explanation": "La propiedad conmutativa permite cambiar el orden de los sumandos, la asociativa permite agruparlos distinto, y el cero es el neutro aditivo.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al aplicar la jerarquía de operaciones, ¿cuál es el resultado correcto de la expresión $ 5 + 3 \\times 2 $?",
+    "options": [
+      { "text": "11", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "21", "correct": false }
+    ],
+    "hint": "Recuerda que las multiplicaciones siempre deben resolverse antes que las sumas o restas.",
+    "explanation": "Según la jerarquía, primero se realiza la multiplicación (3 x 2 = 6) y luego la suma (5 + 6 = 11).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al aplicar la regla de los signos en una multiplicación, el producto de dos números con signos ______ siempre resulta en un número ______.",
+    "options": [
+      { "text": "iguales, positivo", "correct": true },
+      { "text": "diferentes, positivo", "correct": false },
+      { "text": "iguales, negativo", "correct": false },
+      { "text": "neutros, negativo", "correct": false }
+    ],
+    "hint": "Multiplicar dos cantidades negativas cancela el signo negativo, de la misma forma que multiplicar dos positivas lo mantiene.",
+    "explanation": "La ley de signos establece que más por más es más, y menos por menos es más; por ende, signos iguales siempre dan un producto positivo.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Selecciona los números que se clasifican como primos dentro del siguiente conjunto:\n1. 2\n2. 9\n3. 13\n4. 15\n5. 19",
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "hint": "Los números primos solo se pueden dividir exactamente entre el número uno y entre ellos mismos.",
+    "explanation": "El 2, 13 y 19 son números primos porque tienen solo dos divisores. El 9 y el 15 son compuestos porque se dividen entre 3 y 5 respectivamente.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona el tipo de número con su respectiva representación matemática:\nA) Entero negativo\nB) Fracción propia\nC) Número mixto\nI. $ 2 \\frac{1}{2} $\nII. $ -8 $\nIII. $ \\frac{3}{5} $",
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "hint": "Los mixtos tienen enteros y fracciones combinados. Las fracciones propias tienen un numerador menor que el denominador.",
+    "explanation": "-8 es un entero negativo. 3/5 es propia porque 3 es menor que 5. 2 1/2 es mixta porque combina un entero con una fracción.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El almacén central de CEPREDIX recibe lotes de cuadernos cada 6 días y lotes de bolígrafos cada 8 días. Si hoy coincidieron ambas entregas, ¿en cuántos días volverán a coincidir simultáneamente?",
+    "options": [
+      { "text": "24 días", "correct": true },
+      { "text": "48 días", "correct": false },
+      { "text": "14 días", "correct": false },
+      { "text": "2 días", "correct": false }
+    ],
+    "hint": "Debes calcular el Mínimo Común Múltiplo (MCM) de los números 6 y 8.",
+    "explanation": "El MCM de 6 y 8 es 24. Esto significa que los múltiplos de ambos números coinciden por primera vez en el valor 24.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Para sumar fracciones que tienen diferente denominador, es necesario encontrar un ______ común, que generalmente se obtiene calculando el ______ de los denominadores.",
+    "options": [
+      { "text": "múltiplo, mínimo común múltiplo", "correct": true },
+      { "text": "divisor, máximo común divisor", "correct": false },
+      { "text": "factor, mínimo común múltiplo", "correct": false },
+      { "text": "residuo, máximo común divisor", "correct": false }
+    ],
+    "hint": "Necesitas un número en la parte inferior que sea divisible entre todos los denominadores originales para poder homogenizarlos.",
+    "explanation": "Las fracciones heterogéneas requieren un común denominador para poder sumarse, el cual corresponde al mínimo común múltiplo (MCM).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica cuáles de los siguientes números funcionan como divisores comunes exactos tanto del 12 como del 18:\n1. 2\n2. 3\n3. 4\n4. 6\n5. 9",
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "hint": "Busca números que al dividir 12 y también al dividir 18 den como resultado un número entero sin residuo.",
+    "explanation": "Los divisores de 12 son 1, 2, 3, 4, 6, 12. Los divisores de 18 son 1, 2, 3, 6, 9, 18. Los comunes en la lista son 2, 3 y 6.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona el porcentaje mostrado con su respectiva fracción simplificada equivalente:\nA) 25%\nB) 50%\nC) 75%\nI. $ \\frac{1}{2} $\nII. $ \\frac{3}{4} $\nIII. $ \\frac{1}{4} $",
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "hint": "El 50% es la mitad exacta, mientras que el 25% representa una cuarta parte de un entero completo.",
+    "explanation": "25% equivale a 25/100 que simplificado es 1/4. El 50% es 1/2. El 75% es 3/4.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un técnico de mantenimiento de CEPREDIX tiene dos cables de red, uno de 120 cm y otro de 80 cm. Desea cortarlos en trozos de la misma longitud y del mayor tamaño posible sin desperdiciar cable. ¿Cuánto debe medir cada trozo?",
+    "options": [
+      { "text": "40 cm", "correct": true },
+      { "text": "20 cm", "correct": false },
+      { "text": "80 cm", "correct": false },
+      { "text": "10 cm", "correct": false }
+    ],
+    "hint": "Este problema se resuelve calculando el Máximo Común Divisor (MCD) de 120 y 80.",
+    "explanation": "El MCD de 120 y 80 es 40. Al cortar tramos de 40 cm se obtienen 3 trozos del cable de 120 cm y 2 trozos del cable de 80 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El valor ______ de un número es la representación de su distancia geométrica al origen (cero) en la recta numérica y, por lo tanto, siempre arroja un valor ______.",
+    "options": [
+      { "text": "absoluto, positivo o nulo", "correct": true },
+      { "text": "relativo, negativo", "correct": false },
+      { "text": "simétrico, fraccionario", "correct": false },
+      { "text": "opuesto, indeterminado", "correct": false }
+    ],
+    "hint": "Las distancias de longitud nunca pueden ser negativas en la geometría básica.",
+    "explanation": "El valor absoluto mide la magnitud de un número sin importar su signo; al ser una distancia, el resultado es cero o mayor que cero.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Selecciona las operaciones matemáticas de la lista cuyo resultado sea estrictamente un número negativo:\n1. $ (-5) + (-3) $\n2. $ (-4) \\times (-2) $\n3. $ 10 \\div (-2) $\n4. $ 8 - 12 $\n5. $ |-7| $",
+    "options": [
+      { "text": "1, 3, 4", "correct": true },
+      { "text": "2, 4, 5", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "hint": "Evalúa el signo de cada respuesta; recuerda que el valor absoluto siempre convierte una cantidad en positiva.",
+    "explanation": "La operación 1 da -8. La 3 da -5. La 4 da -4. Por otro lado, la operación 2 da +8 y la 5 da +7.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona el concepto aritmético con su descripción técnica precisa:\nA) Múltiplo\nB) Divisor\nC) Residuo\nI. Cantidad sobrante al realizar una división que no es exacta.\nII. Número que contiene a otro una cantidad exacta de veces.\nIII. Número que divide exactamente a otra cantidad sin dejar sobrante.",
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "hint": "El múltiplo es como una caja grande que contiene cajas pequeñas, el divisor es la caja pequeña y el residuo es lo que no cupo.",
+    "explanation": "El múltiplo contiene al número de manera exacta (II). El divisor es el que divide exactamente (III). El residuo es lo que sobra (I).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En la tienda en línea de materiales de CEPREDIX, un curso que normalmente costaba $400.00 tiene un descuento del 20%. ¿Cuál es el precio final a pagar tras aplicar el descuento?",
+    "options": [
+      { "text": "$320.00", "correct": true },
+      { "text": "$380.00", "correct": false },
+      { "text": "$80.00", "correct": false },
+      { "text": "$480.00", "correct": false }
+    ],
+    "hint": "Calcula cuánto representa el 20% del precio inicial y réstaselo al valor original.",
+    "explanation": "El 20% de 400 es igual a 80. Al restar el descuento (400 - 80), el monto final a pagar es de $320.00.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Una proporción ______ se presenta cuando al aumentar una cantidad, la otra cantidad disminuye, mientras que en una proporción ______ ambas cantidades aumentan o disminuyen bajo el mismo factor.",
+    "options": [
+      { "text": "inversa, directa", "correct": true },
+      { "text": "directa, inversa", "correct": false },
+      { "text": "compuesta, simple", "correct": false },
+      { "text": "mixta, continua", "correct": false }
+    ],
+    "hint": "En la primera situación actúan en direcciones contrarias, mientras que en la segunda avanzan en la misma dirección.",
+    "explanation": "En una variación proporcional inversa, al subir una variable la otra baja (ej. velocidad y tiempo). En la directa ambas suben (ej. cantidad de productos y costo).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica qué pares de fracciones en el siguiente listado son matemáticamente equivalentes entre sí:\n1. $ \\frac{1}{2} $ y $ \\frac{2}{4} $\n2. $ \\frac{3}{4} $ y $ \\frac{6}{8} $\n3. $ \\frac{1}{3} $ y $ \\frac{3}{6} $\n4. $ \\frac{2}{5} $ y $ \\frac{4}{10} $\n5. $ \\frac{3}{5} $ y $ \\frac{5}{3} $",
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "hint": "Al simplificar la segunda fracción de cada par, debe resultar exactamente la misma fracción que la primera.",
+    "explanation": "Los pares 1, 2 y 4 son equivalentes porque al multiplicar el numerador y el denominador por 2, se obtiene la segunda fracción. El par 3 da 1/2 y el par 5 son recíprocas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10JZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona la representación de números decimales con el tipo correcto de clasificación:\nA) Decimal exacto\nB) Decimal periódico puro\nC) Decimal periódico mixto\nI. $ 0.333... $\nII. $ 0.25 $\nIII. $ 0.1666... $",
+    "options": [
+      { "text": "A-II; B-I; C-III", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false }
+    ],
+    "hint": "Un decimal exacto termina. Un periódico puro repite desde el punto. Un periódico mixto tiene números antes de empezar a repetir.",
+    "explanation": "0.25 es exacto pues termina (II). 0.333... repite el 3 inmediatamente (I). 0.1666... tiene un 1 que no se repite antes de la repetición del 6 (III).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve de forma correcta la siguiente resta aplicando las leyes de los signos con números enteros: $ (-15) - (-8) $",
+    "options": [
+      { "text": "-7", "correct": true },
+      { "text": "-23", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "23", "correct": false }
+    ],
+    "hint": "Restar un número negativo es el equivalente exacto a realizar una suma de un número positivo.",
+    "explanation": "Al restar un negativo el signo se invierte a suma: -15 + 8. La diferencia entre 15 y 8 es 7, y como el -15 tiene mayor valor absoluto, el resultado es -7.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si un equipo de 4 albañiles logra construir un muro perimetral en 6 días, ¿cuántos días tardarán 8 albañiles trabajando al mismo ritmo?",
+    "options": [
+      { "text": "3 días", "correct": true },
+      { "text": "12 días", "correct": false },
+      { "text": "2 días", "correct": false },
+      { "text": "8 días", "correct": false }
+    ],
+    "hint": "Al tener el doble de personal trabajando, el tiempo requerido se reducirá a la mitad.",
+    "explanation": "Es un problema de proporción inversa. Al duplicar el número de trabajadores (de 4 a 8), el tiempo se reduce a la mitad (de 6 a 3 días).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un estudiante universitario camina $ \\frac{3}{4} \\text{ km} $ para llegar a la escuela y luego camina $ \\frac{1}{2} \\text{ km} $ para ir al parque. ¿Cuántos kilómetros caminó en total?",
+    "options": [
+      { "text": "$ \\frac{5}{4} \\text{ km} $", "correct": true },
+      { "text": "$ \\frac{4}{6} \\text{ km} $", "correct": false },
+      { "text": "$ \\frac{2}{4} \\text{ km} $", "correct": false },
+      { "text": "$ 1 \\text{ km} $", "correct": false }
+    ],
+    "hint": "Convierte la fracción de $ \\frac{1}{2} $ a cuartos para poder sumar con el mismo denominador.",
+    "explanation": "Se debe sumar 3/4 + 1/2. Convirtiendo 1/2 a cuartos se obtiene 2/4. Al sumar 3/4 + 2/4 el resultado es 5/4 de kilómetro.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Selecciona las expresiones matemáticas que, al aplicar correctamente la jerarquía de operaciones, den como resultado final el número 14:\n1. $ 2 + 3 \\times 4 $\n2. $ (2 + 3) \\times 4 $\n3. $ 10 + 8 \\div 2 $\n4. $ 20 - 3 \\times 2 $\n5. $ 7 \\times 2 + 0 $",
+    "options": [
+      { "text": "1, 3, 4, 5", "correct": true },
+      { "text": "2, 3, 4, 5", "correct": false },
+      { "text": "1, 2, 3, 4", "correct": false },
+      { "text": "1, 2, 4, 5", "correct": false }
+    ],
+    "hint": "Recuerda que debes multiplicar o dividir antes de realizar cualquier suma o resta, a menos que existan paréntesis.",
+    "explanation": "La operación 1 da 2+12=14. La 3 da 10+4=14. La 4 da 20-6=14. La 5 da 14+0=14. La operación 2 da 5x4=20, por lo que se descarta.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KE",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al redondear el número decimal 3.456 a las centésimas, el resultado correcto es ______, debido a que el dígito de las milésimas es mayor o igual a ______.",
+    "options": [
+      { "text": "3.46, cinco", "correct": true },
+      { "text": "3.45, seis", "correct": false },
+      { "text": "3.40, cinco", "correct": false },
+      { "text": "3.50, cuatro", "correct": false }
+    ],
+    "hint": "La regla del redondeo indica que si el número que descartas es un cinco o superior, sumas uno a la posición anterior.",
+    "explanation": "Para redondear a centésimas, se evalúa el tercer decimal (milésimas). Como es 6, que es mayor o igual a 5, se suma 1 a la centésima, pasando de 5 a 6.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona el nombre con el símbolo matemático de agrupación correspondiente:\nA) Paréntesis\nB) Corchetes\nC) Llaves\nI. $ [\\quad] $\nII. $ \\{\\quad\\} $\nIII. $ (\\quad) $",
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "hint": "En la jerarquía de operaciones, los paréntesis tienen forma curva, los corchetes son rectos y las llaves tienen contornos puntiagudos.",
+    "explanation": "Los símbolos son: paréntesis curvos (III), corchetes angulares (I) y llaves sinuosas (II).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el resultado exacto que se obtiene al calcular la potencia de $ 2^4 $?",
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "32", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "hint": "Debes multiplicar el número dos por sí mismo cuatro veces consecutivas.",
+    "explanation": "El exponente 4 indica cuántas veces se multiplica la base: 2 x 2 x 2 x 2 = 16.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿A qué es equivalente cualquier número real, siempre y cuando sea diferente de cero, que es elevado a la potencia de cero ($ x^0 $)?",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "El mismo número base", "correct": false },
+      { "text": "-1", "correct": false }
+    ],
+    "hint": "Esta es una de las reglas de los exponentes; sin importar lo grande que sea la base, el resultado se reduce a la unidad.",
+    "explanation": "Por convención en las propiedades de los exponentes, cualquier número diferente de cero que se eleva a la potencia 0 siempre dará como resultado 1.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si CEPREDIX dona agua en cajas de 12 botellas y cada botella contiene 0.5 L de agua, ¿cuántos litros de agua hay almacenados en un total de 3 cajas completas?",
+    "options": [
+      { "text": "18 L", "correct": true },
+      { "text": "6 L", "correct": false },
+      { "text": "36 L", "correct": false },
+      { "text": "24 L", "correct": false }
+    ],
+    "hint": "Primero calcula los litros que hay en una sola caja multiplicando las botellas por su capacidad.",
+    "explanation": "Una caja tiene 12 botellas de 0.5 L, por lo que 12 x 0.5 = 6 L por caja. Al ser 3 cajas, se multiplica 6 L x 3 = 18 L.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica cuáles de los siguientes números de la lista son divisibles exactamente entre 3:\n1. 12\n2. 25\n3. 36\n4. 41\n5. 54",
+    "options": [
+      { "text": "1, 3, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false },
+      { "text": "3, 4, 5", "correct": false }
+    ],
+    "hint": "El criterio de divisibilidad del tres dice que la suma de todos los dígitos que componen el número debe resultar en un múltiplo de tres.",
+    "explanation": "Para el 12 (1+2=3), para el 36 (3+6=9) y para el 54 (5+4=9), todos sus sumandos dan múltiplos de 3, por lo tanto, son divisibles.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La fracción matemática de $ \\frac{5}{5} $ es numéricamente igual a ______, lo que indica que representa matemáticamente un ______ completo.",
+    "options": [
+      { "text": "1, entero", "correct": true },
+      { "text": "0, porcentaje", "correct": false },
+      { "text": "10, decímetro", "correct": false },
+      { "text": "5, total", "correct": false }
+    ],
+    "hint": "Cuando tienes todas las partes en las que fue dividido un objeto, posees el objeto en su totalidad.",
+    "explanation": "Toda fracción donde el numerador y el denominador son exactamente iguales (salvo cero) es equivalente a la unidad (1 entero).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona el término correspondiente de la potenciación con su correcto significado matemático:\nA) Base\nB) Exponente\nC) Potencia\nI. Número de veces que se repite el factor.\nII. Resultado final de la operación.\nIII. Número que se multiplica por sí mismo.",
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "hint": "El exponente siempre está ubicado en la parte superior derecha de la base indicando repeticiones.",
+    "explanation": "La base es el número principal a multiplicar (III). El exponente indica las veces de repetición (I). La potencia es el valor que se obtiene al finalizar (II).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Qué número final resulta de resolver correctamente la expresión aritmética $ \\sqrt{81} + 5 $?",
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "13", "correct": false },
+      { "text": "86", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "hint": "Primero encuentra qué número multiplicado exactamente por sí mismo da como resultado ochenta y uno.",
+    "explanation": "Se debe aplicar jerarquía de operaciones: primero calcular la raíz cuadrada de 81 que es igual a 9, y luego sumar el número 5, obteniendo 14.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si el precio de venta de una guía de estudio de CEPREDIX es de $250.00 y se le debe aplicar un impuesto del 16%, ¿de cuánto es el monto adicional del impuesto a pagar?",
+    "options": [
+      { "text": "$40.00", "correct": true },
+      { "text": "$16.00", "correct": false },
+      { "text": "$45.00", "correct": false },
+      { "text": "$290.00", "correct": false }
+    ],
+    "hint": "Solo debes calcular el valor que representa el 16% respecto a 250, multiplicando 250 por 0.16.",
+    "explanation": "Para sacar el impuesto del 16%, se multiplica el monto (250) por el decimal equivalente (0.16). 250 x 0.16 = $40.00.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En una sucesión aritmética sencilla que avanza a un ritmo constante de 4 en 4, si el primer término de la serie es el 3, ¿cuál será el cuarto término de esta sucesión?",
+    "options": [
+      { "text": "15", "correct": true },
+      { "text": "19", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "hint": "Escribe los términos uno por uno sumando 4 cada vez, empezando desde el número 3.",
+    "explanation": "El primer término es 3. El segundo término es 3+4=7. El tercer término es 7+4=11. El cuarto término es 11+4=15.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica en la siguiente lista cuáles son los factores primos en los que se puede descomponer matemáticamente el número 30:\n1. 2\n2. 3\n3. 4\n4. 5\n5. 6",
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 2, 5", "correct": false }
+    ],
+    "hint": "Debes buscar los números que sean primos y que al multiplicarse todos ellos te den como producto el número treinta.",
+    "explanation": "Al descomponer 30 en factores primos obtenemos: 30 = 2 x 15; luego 15 = 3 x 5. Por lo tanto, los factores primos son 2, 3 y 5.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al momento de realizar operaciones matemáticas combinadas, si existen símbolos de agrupación anidados uno dentro del otro, se deben resolver siempre desde los más ______ hacia los más ______.",
+    "options": [
+      { "text": "interiores, exteriores", "correct": true },
+      { "text": "exteriores, interiores", "correct": false },
+      { "text": "grandes, pequeños", "correct": false },
+      { "text": "comunes, extraños", "correct": false }
+    ],
+    "hint": "Imagina abrir una serie de cajas metidas unas dentro de otras; para despejar la más grande, primero debes vaciar la más profunda.",
+    "explanation": "La regla matemática de agrupación indica que las operaciones deben ser resueltas de adentro hacia afuera, iniciando con los paréntesis interiores.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona de manera correcta las siguientes operaciones de números enteros con el signo de su resultado según las leyes de signos:\nA) Multiplicar negativo por positivo\nB) Dividir negativo entre negativo\nC) Sumar dos números negativos\nI. Resultado estrictamente positivo\nII. Resultado estrictamente negativo\nIII. Se conserva el signo negativo tras sumar valores absolutos",
+    "options": [
+      { "text": "A-II; B-I; C-III", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false }
+    ],
+    "hint": "Multiplicar y dividir siguen reglas casi idénticas en relación a si los signos son opuestos o no, mientras que la suma acumula.",
+    "explanation": "Menos por más es menos (II). Menos entre menos es más (I). Sumar deudas resulta en una deuda más grande, se mantiene negativo (III).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si la temperatura reportada en una ciudad desciende constantemente a razón de $ 3^\\circ \\text{C} $ por hora, y actualmente marca en el termómetro un valor de $ 5^\\circ \\text{C} $, ¿cuál será la temperatura exacta después de haber transcurrido 4 horas completas?",
+    "options": [
+      { "text": "$ -7^\\circ \\text{C} $", "correct": true },
+      { "text": "$ 17^\\circ \\text{C} $", "correct": false },
+      { "text": "$ -12^\\circ \\text{C} $", "correct": false },
+      { "text": "$ -2^\\circ \\text{C} $", "correct": false }
+    ],
+    "hint": "Calcula primero la cantidad total de grados que va a descender en ese lapso de horas y luego réstaselo a la medición inicial.",
+    "explanation": "El descenso total será de 3 x 4 = 12 grados. Como la temperatura inicial era 5, restamos los 12 grados del descenso (5 - 12 = -7).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un empleado administrativo de CEPREDIX se encuentra organizando manuales. Si en total tiene 150 manuales en inventario y empaca $ \\frac{1}{3} $ del lote en la primera caja, ¿cuántos manuales le quedan físicamente pendientes por empacar?",
+    "options": [
+      { "text": "100", "correct": true },
+      { "text": "50", "correct": false },
+      { "text": "120", "correct": false },
+      { "text": "130", "correct": false }
+    ],
+    "hint": "Encuentra cuánto representa una tercera parte de la cantidad total, y descuéntasela a esos mismos manuales iniciales.",
+    "explanation": "Un tercio de 150 equivale a 50 manuales (150 / 3). Al restar los manuales empacados a la cantidad inicial (150 - 50), le quedan 100 manuales pendientes.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
