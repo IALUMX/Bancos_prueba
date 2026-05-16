@@ -758,5 +758,765 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP10KU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el resultado matemático correcto de la siguiente expresión: $ 20 - 5 \\times 3 $?",
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "45", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "hint": "Recuerda que la multiplicación tiene mayor prioridad que la resta en la jerarquía de operaciones.",
+    "explanation": "Primero se realiza la multiplicación: $ 5 \\times 3 = 15 $, y luego se resta del valor inicial: $ 20 - 15 = 5 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Calcula el valor correcto de la siguiente operación matemática considerando los signos de agrupación: $ (8 + 4) \\div 3 $",
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "hint": "Los paréntesis siempre deben resolverse primero sin importar qué operación haya por fuera de ellos.",
+    "explanation": "Primero sumamos los números dentro del paréntesis: $ 8 + 4 = 12 $. Finalmente, dividimos ese resultado entre tres: $ 12 \\div 3 = 4 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve la siguiente operación aplicando la jerarquía correcta de las matemáticas: $ 4^2 - 2 \\times 5 $",
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "70", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "hint": "Primero calcula la potencia, después resuelve la multiplicación y al final realiza la resta.",
+    "explanation": "Aplicando jerarquía: $ 4^2 = 16 $. Luego la multiplicación: $ 2 \\times 5 = 10 $. Finalmente, restamos ambos resultados: $ 16 - 10 = 6 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Qué resultado numérico entero se obtiene de realizar la operación $ 2 \\times (10 - 3) + 4 $?",
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "22", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "26", "correct": false }
+    ],
+    "hint": "Resuelve el paréntesis, luego multiplica por el dos que está afuera y al final suma el cuatro.",
+    "explanation": "Resolvemos el paréntesis: $ 10 - 3 = 7 $. Multiplicamos: $ 2 \\times 7 = 14 $. Finalmente, sumamos el resto: $ 14 + 4 = 18 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica las operaciones que, al resolverse respetando la jerarquía, dan como resultado final el número 10:\n1. $ 5 + 5 \\times 1 $\n2. $ (2 + 3) \\times 2 $\n3. $ 20 - 2 \\times 6 $\n4. $ 14 \\div 2 + 1 $\n5. $ 4 \\times 3 - 2 $",
+    "options": [
+      { "text": "1, 2, 5", "correct": true },
+      { "text": "2, 3, 4", "correct": false },
+      { "text": "1, 3, 5", "correct": false },
+      { "text": "2, 4, 5", "correct": false }
+    ],
+    "hint": "Resuelve mentalmente cada inciso multiplicando y dividiendo antes de sumar y restar, a menos que existan paréntesis.",
+    "explanation": "La operación 1 da $ 5+5=10 $. La 2 da $ 5 \\times 2 = 10 $. La 5 da $ 12-2 = 10 $. Las opciones 3 y 4 dan como resultado 8.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10KZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona la ley de los exponentes con la operación matemática que le corresponde según las reglas del álgebra:\nA) Multiplicación de bases iguales\nB) División de bases iguales\nC) Potencia de una potencia\nI. Se restan los exponentes\nII. Se multiplican los exponentes\nIII. Se suman los exponentes",
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "hint": "Piensa en que multiplicar bases las 'agrupa' sumándolas, dividir las 'reduce' restándolas, y elevar otra vez las multiplica.",
+    "explanation": "Al multiplicar bases iguales, los exponentes se suman (III). Al dividirlas, se restan (I). En la potencia de una potencia, se multiplican (II).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el resultado en número entero de aplicar correctamente las leyes de los exponentes a $ 3^2 \\times 3^1 $?",
+    "options": [
+      { "text": "27", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "81", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "hint": "Al multiplicar bases iguales, los exponentes se suman. Luego calcula la potencia de la base.",
+    "explanation": "Misma base sumando exponentes: $ 3^{2+1} = 3^3 $. Al calcular $ 3 \\times 3 \\times 3 $ obtenemos el número 27.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Calcula el valor exacto de la siguiente expresión usando de forma directa las leyes de exponentes: $ \\frac{4^3}{4^2} $",
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "64", "correct": false }
+    ],
+    "hint": "En una división de bases iguales, el exponente del divisor se le resta al exponente del dividendo.",
+    "explanation": "Al tener la misma base, restamos los exponentes: $ 4^{3-2} = 4^1 $. Cualquier número elevado a la 1 es el mismo número, es decir, 4.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Aplica la ley de 'potencia de una potencia' y calcula el resultado numérico entero de $ (2^2)^2 $.",
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "hint": "Cuando una potencia está elevada a otra potencia externa, ambos exponentes deben multiplicarse.",
+    "explanation": "Al multiplicar los exponentes: $ 2^{2 \\times 2} = 2^4 $. El resultado numérico de $ 2 \\times 2 \\times 2 \\times 2 $ es igual a 16.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Para multiplicar matemáticamente dos potencias que comparten la misma base, la base se ______ y los exponentes se ______.",
+    "options": [
+      { "text": "mantiene, suman", "correct": true },
+      { "text": "altera, multiplican", "correct": false },
+      { "text": "elimina, restan", "correct": false },
+      { "text": "mantiene, multiplican", "correct": false }
+    ],
+    "hint": "Al agrupar dos bases iguales, la base no sufre cambios; en cambio, el número que representa cuántas veces se multiplica incrementa.",
+    "explanation": "La ley de los exponentes indica que en la multiplicación de la misma base ($ a^m \\times a^n $), la base se mantiene y los exponentes se suman ($ a^{m+n} $).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LE",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En una papelería, 2 kilogramos de papel reciclado tienen un costo total de $40. ¿Cuánto costarán 5 kilogramos de ese mismo papel reciclado?",
+    "options": [
+      { "text": "$100", "correct": true },
+      { "text": "$80", "correct": false },
+      { "text": "$200", "correct": false },
+      { "text": "$120", "correct": false }
+    ],
+    "hint": "Es un problema de proporción directa. Encuentra el costo de un solo kilogramo y luego multiplícalo por cinco.",
+    "explanation": "Primero determinamos que 1 kg cuesta $40 / 2 = $20. Por lo tanto, 5 kg costarán 5 veces esa cantidad: 5 \\times $20 = $100.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si 4 paquetes de marcadores de pizarra contienen un total de 12 unidades, ¿cuántas unidades habrá exactamente en 7 paquetes iguales?",
+    "options": [
+      { "text": "21", "correct": true },
+      { "text": "28", "correct": false },
+      { "text": "19", "correct": false },
+      { "text": "24", "correct": false }
+    ],
+    "hint": "Se trata de una regla de tres simple directa. Calcula rápidamente cuántos marcadores contiene un solo paquete.",
+    "explanation": "Cada paquete contiene 12 / 4 = 3 marcadores. Entonces, al comprar 7 paquetes, se tendrán 7 \\times 3 = 21 marcadores en total.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un equipo de 2 bombas de extracción de agua tarda 12 horas en vaciar una cisterna. Si se utiliza un total de 3 bombas iguales, ¿en cuántas horas se vaciará la cisterna?",
+    "options": [
+      { "text": "8 horas", "correct": true },
+      { "text": "18 horas", "correct": false },
+      { "text": "4 horas", "correct": false },
+      { "text": "6 horas", "correct": false }
+    ],
+    "hint": "A mayor número de bombas funcionando, menor será el tiempo necesario para terminar el trabajo. Aplica proporción inversa.",
+    "explanation": "En la proporción inversa, multiplicamos las variables originales: 2 bombas \\times 12 horas = 24 horas de trabajo total. Luego dividimos: 24 / 3 bombas = 8 horas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si 5 trabajadores de mantenimiento logran pintar un edificio escolar completo en 10 días, ¿cuántos días tardarán 10 trabajadores laborando al mismo ritmo?",
+    "options": [
+      { "text": "5 días", "correct": true },
+      { "text": "20 días", "correct": false },
+      { "text": "15 días", "correct": false },
+      { "text": "2 días", "correct": false }
+    ],
+    "hint": "Al tener exactamente el doble de personal trabajando, el tiempo necesario para la obra se reduce exactamente a la mitad.",
+    "explanation": "Es proporción inversa: 5 trabajadores \\times 10 días = 50 días-hombre. Al dividirlo entre los 10 trabajadores nuevos: 50 / 10 = 5 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve la siguiente ecuación sencilla de primer grado y encuentra el valor numérico de $ x $: $ x + 12 = 30 $",
+    "options": [
+      { "text": "$ x = 18 $", "correct": true },
+      { "text": "$ x = 42 $", "correct": false },
+      { "text": "$ x = 15 $", "correct": false },
+      { "text": "$ x = 22 $", "correct": false }
+    ],
+    "hint": "Para dejar sola a la incógnita, debes aplicar la operación inversa de la suma en ambos lados de la igualdad.",
+    "explanation": "Para despejar $ x $, restamos 12 a ambos lados de la ecuación: $ x = 30 - 12 $, lo que nos da como resultado final $ x = 18 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Determina el valor matemático correcto de la incógnita $ y $ en la ecuación básica: $ y - 8 = 15 $",
+    "options": [
+      { "text": "$ y = 23 $", "correct": true },
+      { "text": "$ y = 7 $", "correct": false },
+      { "text": "$ y = 17 $", "correct": false },
+      { "text": "$ y = 120 $", "correct": false }
+    ],
+    "hint": "Si el número 8 está restando a la incógnita original, debes pasarlo del otro lado de la igualdad realizando una suma.",
+    "explanation": "Sumamos 8 en ambos lados de la igualdad para aislar a la variable: $ y = 15 + 8 $, obteniendo como respuesta $ y = 23 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Encuentra el valor exacto de la incógnita $ m $ que hace verdadera la siguiente igualdad: $ 6m = 42 $",
+    "options": [
+      { "text": "$ m = 7 $", "correct": true },
+      { "text": "$ m = 36 $", "correct": false },
+      { "text": "$ m = 8 $", "correct": false },
+      { "text": "$ m = 48 $", "correct": false }
+    ],
+    "hint": "El número 6 se encuentra multiplicando a la variable, por lo que debes realizar la operación aritmética contraria del otro lado.",
+    "explanation": "Dividimos ambos lados de la ecuación entre 6 para despejar la incógnita: $ m = 42 \\div 6 $, por lo que el resultado es $ m = 7 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Despeja correctamente el valor de $ k $ en la siguiente expresión matemática lineal: $ \\frac{k}{3} = 9 $",
+    "options": [
+      { "text": "$ k = 27 $", "correct": true },
+      { "text": "$ k = 3 $", "correct": false },
+      { "text": "$ k = 12 $", "correct": false },
+      { "text": "$ k = 6 $", "correct": false }
+    ],
+    "hint": "La variable se encuentra siendo dividida por tres; por lo tanto, utiliza la multiplicación para poder despejarla.",
+    "explanation": "Multiplicamos ambos lados de la ecuación por el número 3: $ k = 9 \\times 3 $, lo que resulta finalmente en $ k = 27 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve la siguiente ecuación de dos pasos de forma ordenada: $ 2x + 5 = 15 $",
+    "options": [
+      { "text": "$ x = 5 $", "correct": true },
+      { "text": "$ x = 10 $", "correct": false },
+      { "text": "$ x = 20 $", "correct": false },
+      { "text": "$ x = 2.5 $", "correct": false }
+    ],
+    "hint": "Primero debes eliminar la suma restando 5 en ambos lados, y posteriormente deshacer la multiplicación dividiendo entre 2.",
+    "explanation": "Restamos 5: $ 2x = 15 - 5 \\Rightarrow 2x = 10 $. Finalmente, dividimos el resultado entre 2: $ x = 10 \\div 2 = 5 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Calcula el valor que satisface a la incógnita $ y $ en la siguiente ecuación matemática: $ 3y - 4 = 11 $",
+    "options": [
+      { "text": "$ y = 5 $", "correct": true },
+      { "text": "$ y = 15 $", "correct": false },
+      { "text": "$ y = 7 $", "correct": false },
+      { "text": "$ y = 2.3 $", "correct": false }
+    ],
+    "hint": "Aplica las operaciones inversas: suma 4 a ambos lados de la igualdad y después divide el resultado obtenido entre 3.",
+    "explanation": "Sumamos 4 a ambos lados: $ 3y = 11 + 4 \\Rightarrow 3y = 15 $. Luego, despejamos la variable dividiendo entre 3: $ y = 15 \\div 3 = 5 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al despejar una incógnita en una ecuación, si un número o término está sumando pasa del otro lado de la igualdad ______, y si está multiplicando pasa ______.",
+    "options": [
+      { "text": "restando, dividiendo", "correct": true },
+      { "text": "dividiendo, restando", "correct": false },
+      { "text": "multiplicando, sumando", "correct": false },
+      { "text": "sumando, multiplicando", "correct": false }
+    ],
+    "hint": "Todo término que cruza el signo de igual debe cambiar invariablemente a su operación matemática opuesta.",
+    "explanation": "Las operaciones inversas son fundamentales para despejar variables: la inversa de sumar es restar, y la inversa de multiplicar es dividir.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona cada ecuación matemática de primer grado con su solución correcta:\nA) $ x + 3 = 10 $\nB) $ 2x = 12 $\nC) $ \\frac{x}{2} = 5 $\nI. $ x = 10 $\nII. $ x = 7 $\nIII. $ x = 6 $",
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-I; C-II", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "hint": "Resuelve mentalmente cada inciso: a diez le quitas tres, a doce lo partes en dos y a cinco lo multiplicas por dos.",
+    "explanation": "Para la opción A: $ x = 10 - 3 = 7 $ (II). Para la opción B: $ x = 12 \\div 2 = 6 $ (III). Para la opción C: $ x = 5 \\times 2 = 10 $ (I).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al respetar estrictamente la jerarquía de operaciones matemáticas, ¿cuál es el resultado final de $ 15 \\div 3 + 2 \\times 4 $?",
+    "options": [
+      { "text": "13", "correct": true },
+      { "text": "28", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "22", "correct": false }
+    ],
+    "hint": "Ejecuta primero las multiplicaciones y las divisiones al mismo tiempo, y deja la suma en el centro para el paso final.",
+    "explanation": "Siguiendo la jerarquía: $ 15 \\div 3 = 5 $ y $ 2 \\times 4 = 8 $. Sumando ambos resultados obtenidos: $ 5 + 8 = 13 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve la siguiente expresión considerando los paréntesis y las operaciones combinadas: $ 30 - (5 + 2 \\times 3) $",
+    "options": [
+      { "text": "19", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "hint": "Dentro del paréntesis también se debe aplicar rigurosamente la jerarquía; asegúrate de multiplicar antes de sumar.",
+    "explanation": "Dentro del paréntesis se multiplica primero: $ 2 \\times 3 = 6 $. Luego se suma: $ 5 + 6 = 11 $. Finalmente, a 30 se le resta el paréntesis: $ 30 - 11 = 19 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Haciendo uso de las propiedades de los exponentes, ¿cuál es el valor equivalente en número entero de $ 10^5 \\div 10^3 $?",
+    "options": [
+      { "text": "100", "correct": true },
+      { "text": "1000", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "hint": "En la división con la misma base, réstale el exponente de abajo al exponente de arriba y resuelve esa potencia simple de base diez.",
+    "explanation": "Aplicando la ley de exponentes restamos $ 5 - 3 = 2 $. Esto nos deja $ 10^2 $, lo cual equivale a multiplicar $ 10 \\times 10 = 100 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Qué resultado numérico entero se obtiene correctamente al efectuar la operación aritmética $ 5^0 \\times 8 $?",
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "40", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "hint": "Todo número entero (exceptuando de la regla al cero) elevado a la potencia cero es matemáticamente igual a la unidad.",
+    "explanation": "Según la regla de los exponentes, la potencia de $ 5^0 $ se convierte en 1. Luego, se realiza la multiplicación ordinaria: $ 1 \\times 8 = 8 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un automóvil viaja a velocidad constante y logra recorrer 150 km en 3 horas. Si mantiene siempre la misma velocidad, ¿cuántos kilómetros recorrerá tras 5 horas de viaje?",
+    "options": [
+      { "text": "250 km", "correct": true },
+      { "text": "300 km", "correct": false },
+      { "text": "200 km", "correct": false },
+      { "text": "180 km", "correct": false }
+    ],
+    "hint": "Aplica una proporción directa. Divide para encontrar cuántos kilómetros se recorren en una sola hora y luego multiplícalo por el nuevo tiempo dado.",
+    "explanation": "El coche recorre $ 150 \\div 3 = 50 \\text{ km/h} $. Mantuviendo ese mismo ritmo constante en 5 horas, recorrerá $ 50 \\times 5 = 250 \\text{ km} $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si un total de 6 grifos iguales abiertos logran llenar un tanque de agua en 4 horas, ¿cuánto tiempo tardarían únicamente 3 grifos en llenar ese mismo tanque?",
+    "options": [
+      { "text": "8 horas", "correct": true },
+      { "text": "2 horas", "correct": false },
+      { "text": "12 horas", "correct": false },
+      { "text": "6 horas", "correct": false }
+    ],
+    "hint": "Es una proporción inversa, ya que al tener exactamente la mitad de los grifos funcionando, el tiempo que tomará llenarlo se duplicará.",
+    "explanation": "Multiplicando la capacidad inicial: $ 6 \\times 4 = 24 \\text{ horas-grifo} $. Al usar solamente 3 grifos, tardarán $ 24 \\div 3 = 8 \\text{ horas} $ en llenar el tanque.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Encuentra el valor exacto de la incógnita $ a $ resolviendo los pasos necesarios en la siguiente ecuación: $ 4a + 2 = 18 $",
+    "options": [
+      { "text": "$ a = 4 $", "correct": true },
+      { "text": "$ a = 5 $", "correct": false },
+      { "text": "$ a = 16 $", "correct": false },
+      { "text": "$ a = 3 $", "correct": false }
+    ],
+    "hint": "Despeja el término con la incógnita restando primeramente 2 en ambos lados de la igualdad, y luego divide el resultado obtenido entre 4.",
+    "explanation": "Restamos 2 a ambos lados: $ 4a = 18 - 2 \\Rightarrow 4a = 16 $. Luego dividimos la ecuación entre 4 para obtener $ a = 16 \\div 4 = 4 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor algebraico que satisface correctamente a la ecuación matemática $ \\frac{x}{2} + 3 = 10 $?",
+    "options": [
+      { "text": "$ x = 14 $", "correct": true },
+      { "text": "$ x = 7 $", "correct": false },
+      { "text": "$ x = 20 $", "correct": false },
+      { "text": "$ x = 26 $", "correct": false }
+    ],
+    "hint": "Primero debes aislar completamente la fracción restando 3 de ambos lados, y posteriormente aplicar una multiplicación para despejar a la $ x $.",
+    "explanation": "Restamos 3 en ambos miembros: $ \\frac{x}{2} = 10 - 3 \\Rightarrow \\frac{x}{2} = 7 $. Para eliminar la división, multiplicamos por 2 resultando $ x = 7 \\times 2 = 14 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Identifica en la siguiente lista cuáles ecuaciones matemáticas tienen como solución final y correcta el valor de $ x = 5 $:\n1. $ x + 5 = 10 $\n2. $ 3x = 15 $\n3. $ 2x - 1 = 8 $\n4. $ \\frac{x}{5} = 1 $\n5. $ 4x + 2 = 20 $",
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 4, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false }
+    ],
+    "hint": "Sustituye mentalmente el número 5 en lugar de la variable $ x $ en cada una de las ecuaciones y verifica si el resultado en la igualdad es cierto.",
+    "explanation": "La opción 1 es correcta (5+5=10). La 2 es correcta (3*5=15). La 3 es falsa (2*5-1=9). La 4 es correcta (5/5=1). La 5 es falsa (4*5+2=22).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10LZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si en un problema matemático comprobamos que al duplicarse una cantidad inicial, la otra cantidad involucrada también se ______, entonces afirmamos que se trata de una proporción ______.",
+    "options": [
+      { "text": "duplica, directa", "correct": true },
+      { "text": "reduce a la mitad, directa", "correct": false },
+      { "text": "duplica, inversa", "correct": false },
+      { "text": "triplica, inversa", "correct": false }
+    ],
+    "hint": "En las proporciones donde ambas cantidades viajan en la misma dirección sin importar que aumenten o disminuyan juntas, existe una relación directa.",
+    "explanation": "Una variación directamente proporcional indica que, al modificar por un factor una de sus cantidades (por ejemplo, al duplicarla), la otra sufre idéntica modificación (también se duplica).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En la estructura de la expresión matemática $ 7^3 $, el número principal o grande 7 recibe el nombre técnico de ______ y el número pequeño 3 se conoce formalmente como ______.",
+    "options": [
+      { "text": "base, exponente", "correct": true },
+      { "text": "exponente, base", "correct": false },
+      { "text": "factor, potencia", "correct": false },
+      { "text": "múltiplo, índice", "correct": false }
+    ],
+    "hint": "El número inferior es el cimiento o soporte de la expresión matemática, mientras que el número en superíndice dicta cuántas veces se repetirá.",
+    "explanation": "En las potencias, el número grande a multiplicar por sí mismo se llama base, y el número pequeño en la parte superior se llama exponente.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Traduce correctamente la siguiente frase de lenguaje común a lenguaje algebraico y resuélvela: 'El doble de un número más tres es igual a once'. ¿Cuál es el número oculto?",
+    "options": [
+      { "text": "$ x = 4 $", "correct": true },
+      { "text": "$ x = 7 $", "correct": false },
+      { "text": "$ x = 2 $", "correct": false },
+      { "text": "$ x = 8 $", "correct": false }
+    ],
+    "hint": "La frase 'El doble de un número' se puede escribir de forma algebraica como $ 2x $. Por lo tanto, tu ecuación se formula como $ 2x + 3 = 11 $.",
+    "explanation": "La ecuación lineal descrita es $ 2x + 3 = 11 $. Restando el número 3 a ambos lados obtenemos $ 2x = 8 $. Finalmente, dividiendo entre 2 encontramos que $ x = 4 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Descifra y encuentra el número oculto mencionado en la siguiente descripción matemática: 'El triple de un número desconocido menos dos da como resultado exacto trece'.",
+    "options": [
+      { "text": "$ x = 5 $", "correct": true },
+      { "text": "$ x = 3 $", "correct": false },
+      { "text": "$ x = 6 $", "correct": false },
+      { "text": "$ x = 4 $", "correct": false }
+    ],
+    "hint": "Formula la ecuación lineal correctamente en tu mente como $ 3x - 2 = 13 $ y aplica los pasos estándar de despeje para la variable.",
+    "explanation": "Al convertir el enunciado a lenguaje algebraico obtenemos $ 3x - 2 = 13 $. Sumando dos: $ 3x = 15 $. Dividiendo el total entre tres: $ x = 5 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Relaciona cada ejemplo de la vida real con el tipo de proporción que representa de manera matemática:\nA) Proporción directa\nB) Proporción inversa\nC) Sin proporción clara\nI. Velocidad a la que viaja un coche y el tiempo requerido en llegar a su destino.\nII. Kilogramos de tortillas comprados y el costo total a pagar en caja.\nIII. La edad de una persona y su número personal de la suerte.",
+    "options": [
+      { "text": "A-II; B-I; C-III", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-II; B-III; C-I", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "hint": "Piensa en variables que interactúan entre sí. Si compras más pagas más; si vas más rápido, tardas menos tiempo de viaje.",
+    "explanation": "Las tortillas y el costo crecen juntos (directa, II). La velocidad incrementada acorta el tiempo de viaje (inversa, I). La edad y la suerte no guardan relación (sin proporción, III).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10ME",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Resuelve la siguiente expresión aritmética respetando estrictamente las reglas de jerarquía enseñadas: $ 2^3 + 4^2 \\div 2 $",
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "24", "correct": false }
+    ],
+    "hint": "Resuelve ambas potencias aisladas al mismo tiempo como primer paso, posteriormente efectúa la división y siempre concluye resolviendo la suma final.",
+    "explanation": "Elevamos las potencias: $ 2^3 = 8 $ y $ 4^2 = 16 $. La expresión queda como $ 8 + 16 \\div 2 $. Ejecutamos primero la división: $ 16 \\div 2 = 8 $. Por último, sumamos $ 8 + 8 = 16 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Selecciona de la siguiente lista de ecuaciones lineales aquellas cuya solución matemática final y correcta sea exactamente $ x = 3 $:\n1. $ 2x + 4 = 10 $\n2. $ 5x - 5 = 10 $\n3. $ 3x + 1 = 9 $\n4. $ \\frac{x}{3} + 2 = 3 $\n5. $ 4x - 2 = 12 $",
+    "options": [
+      { "text": "1, 2, 4", "correct": true },
+      { "text": "2, 3, 5", "correct": false },
+      { "text": "1, 3, 4", "correct": false },
+      { "text": "1, 4, 5", "correct": false }
+    ],
+    "hint": "Intenta sustituir mentalmente el valor de $ x = 3 $ directamente en cada una de las ecuaciones provistas para agilizar el proceso y comprobar las igualdades.",
+    "explanation": "La opción 1 es correcta (2*3+4=10). La 2 es correcta (5*3-5=10). La 3 es falsa (3*3+1=10, no 9). La 4 es correcta (3/3+2=3). La 5 es falsa (4*3-2=10, no 12).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Determina el valor matemático correcto de la incógnita $ x $ para lograr que la siguiente igualdad se cumpla: $ 3x = x + 8 $",
+    "options": [
+      { "text": "$ x = 4 $", "correct": true },
+      { "text": "$ x = 8 $", "correct": false },
+      { "text": "$ x = 2 $", "correct": false },
+      { "text": "$ x = -4 $", "correct": false }
+    ],
+    "hint": "Agrupa primeramente todos los términos que incluyen la letra $ x $ en un mismo lado de la igualdad, para ello debes restar una $ x $ en ambos lados.",
+    "explanation": "Para agrupar la incógnita, restamos $ x $ de ambos lados: $ 3x - x = 8 \\Rightarrow 2x = 8 $. Por último, dividimos la igualdad resultante entre dos: $ x = 4 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10MH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor exacto que logra despejar de manera correcta a $ x $ en la siguiente ecuación lineal: $ 5x - 2 = 2x + 10 $?",
+    "options": [
+      { "text": "$ x = 4 $", "correct": true },
+      { "text": "$ x = 2 $", "correct": false },
+      { "text": "$ x = 12 $", "correct": false },
+      { "text": "$ x = 6 $", "correct": false }
+    ],
+    "hint": "Intenta agrupar los términos con $ x $ del lado izquierdo restando $ 2x $, y posteriormente pasa los números fijos hacia el lado derecho sumando 2.",
+    "explanation": "Restando $ 2x $ a ambos miembros obtenemos: $ 3x - 2 = 10 $. Luego, sumando 2 en ambos miembros agrupamos constantes: $ 3x = 12 $. Dividiendo entre tres resulta $ x = 4 $.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
