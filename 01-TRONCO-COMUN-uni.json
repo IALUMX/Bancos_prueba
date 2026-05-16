@@ -874,24 +874,24 @@
     "collapsible_text": null
   },
   {
-    "id": "CEP70IS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🔰 TRONCO COMÚN"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Calcular el valor de $4x^2 - y^2 + 5xy$ para $x = -2$, $y = -3$.",
-    "options": [
-      { "text": "$-5$", "correct": false },
-      { "text": "$5$", "correct": true },
-      { "text": "$-25$", "correct": false },
-      { "text": "$25$", "correct": false }
-    ],
-    "hint": "Sustituye cuidando los signos.",
-    "explanation": "$4(4) - 9 + 5(-2)(-3) = 16 - 9 + 30 = 37$? Revisar: $4(4)=16$, $(-3)^2=9$, $5(6)=30$, $16-9+30=37$. Opción no listada, se ajusta.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": "Corrección: El resultado correcto es 37, no aparece en opciones originales. Se omite por coherencia."
-  },
+  "id": "CEP70IS",
+  "tag01": ["GENERAL"],
+  "tag02": ["🔰 TRONCO COMÚN"],
+  "tag03": ["INTERMEDIO"],
+  "tag04": ["TEST"],
+  "question": "Calcular el valor de $4x^2 - y^2 + 5xy$ para $x = -2$, $y = -3$.",
+  "options": [
+    { "text": "$7$", "correct": false },
+    { "text": "$37$", "correct": true },
+    { "text": "$-7$", "correct": false },
+    { "text": "$-37$", "correct": false }
+  ],
+  "hint": "Sustituye cada valor respetando los signos.",
+  "explanation": "$4(-2)^2 - (-3)^2 + 5(-2)(-3) = 4(4) - 9 + 30 = 16 - 9 + 30 = 37$.",
+  "image": null,
+  "explanative_video": null,
+  "collapsible_text": null
+},
   {
     "id": "CEP70IT",
     "tag01": ["GENERAL"],
