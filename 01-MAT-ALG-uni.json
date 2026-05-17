@@ -569,517 +569,517 @@
     "explanative_video": null,
     "collapsible_text": null
   },
-{
-"id": "CEP12QC",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Factorizar el siguiente ejercicio: \(2x^2 - 7x + 3\)",
-"options": [
-{ "text": "\(4x^{90} - 5(x^{45} - 3)\)", "correct": false },
-{ "text": "\((x + 2)(x - 3)\)", "correct": false },
-{ "text": "\((2x - 1)(x - 3)\)", "correct": true },
-{ "text": "\((3x - 4)(x + 2)\)", "correct": false }
-],
-"hint": "Buscamos dos números que multiplicados den \(2 \times 3 = 6\) y sumados den \(-7\).",
-"explanation": "Los números son \(-6\) y \(-1\). Reescribiendo: \(2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3)\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QD",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Resolver la siguiente ecuación de segundo grado: \(-x^2 + 7x - 10 = 0\)",
-"options": [
-{ "text": "\(x_1 = 5 \text{ y } x_2 = 2\)", "correct": true },
-{ "text": "\(x_1 = -5 \text{ y } x_2 = -2\)", "correct": false },
-{ "text": "\(x_1 = -5 \text{ y } x_2 = 2\)", "correct": false },
-{ "text": "\(x_1 = 5 \text{ y } x_2 = -2\)", "correct": false }
-],
-"hint": "Multiplica toda la ecuación por \(-1\) para obtener \(x^2 - 7x + 10 = 0\).",
-"explanation": "Factorizando: \((x - 5)(x - 2) = 0\). Por lo tanto, \(x_1 = 5\) y \(x_2 = 2\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QE",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Dados los polinomios \(P(x) = 2x^3 + 5x - 3\) y \(Q(x) = 4x - 3x^2 + 2x^3\), encontrar \(P(x) + Q(x)\)",
-"options": [
-{ "text": "\(6x^3 - 6x^2 + 6x - 3\)", "correct": false },
-{ "text": "\(4x^3 - 3x^2 + 9x - 3\)", "correct": true },
-{ "text": "\(4x^3 - 3x^2 + 6x - 3\)", "correct": false },
-{ "text": "\(2x^3 - x^2 + 3x - 3\)", "correct": false }
-],
-"hint": "Agrupa términos semejantes por su grado.",
-"explanation": "Para \(x^3\): \(2x^3 + 2x^3 = 4x^3\). Para \(x^2\): \(-3x^2\). Para \(x\): \(5x + 4x = 9x\). Término independiente: \(-3\). Resultado: \(4x^3 - 3x^2 + 9x - 3\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QF",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Realizar la operación y reducir el resultado de: \(\frac{\frac{1}{3} + \frac{2}{5} + \frac{1}{30}}{\frac{23}{30}}\)",
-"options": [
-{ "text": "1", "correct": true },
-{ "text": "\(\frac{2}{3}\)", "correct": false },
-{ "text": "\(\frac{3}{5}\)", "correct": false },
-{ "text": "\(\frac{7}{30}\)", "correct": false }
-],
-"hint": "Resuelve la suma del numerador usando el mínimo común múltiplo (30).",
-"explanation": "Numerador: \(\frac{10}{30} + \frac{12}{30} + \frac{1}{30} = \frac{23}{30}\). División: \(\frac{23/30}{23/30} = 1\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QG",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "En un trinomio cuadrado perfecto se sabe que la primera expresión corresponde a:",
-"options": [
-{ "text": "El segundo término al cuadrado", "correct": false },
-{ "text": "Se suma el primer término por el segundo", "correct": false },
-{ "text": "El primer término al cuadrado", "correct": true },
-{ "text": "Se multiplica el primer término por el segundo", "correct": false }
-],
-"hint": "Recuerda la fórmula \((a \pm b)^2 = a^2 \pm 2ab + b^2\).",
-"explanation": "La primera expresión (\(a^2\)) equivale al cuadrado del primer término del binomio.",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QH",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["AVANZADO"],
-"tag04": ["REAL"],
-"question": "Factorizar en dos factores: \(10x^8 + 29x^4 + 10\)",
-"options": [
-{ "text": "\((2x^4 + 5)(5x^4 + 2)\)", "correct": true },
-{ "text": "\((2x^4 - 5)(5x^4 - 2)\)", "correct": false },
-{ "text": "\((2x^4 + 5)(5x^2 + 2)\)", "correct": false },
-{ "text": "\((2x^4 - 5)(5x^2 - 2)\)", "correct": false }
-],
-"hint": "Haz un cambio de variable \(u = x^4\), luego factoriza \(10u^2 + 29u + 10\).",
-"explanation": "\(10u^2 + 29u + 10 = (5u + 2)(2u + 5)\). Sustituyendo de vuelta: \((5x^4 + 2)(2x^4 + 5)\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QI",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Realizar las siguientes sumas de polinomios: \((5a^x - 3a^m - 7a^n) + (-8a^x + 5a^m - 9a^n) + (-11a^x + 5a^m + 16a^n)\)",
-"options": [
-{ "text": "\(-14a^x - 7a^m + 32a^n\)", "correct": false },
-{ "text": "\(-14a^x + 7a^m + 32a^n\)", "correct": false },
-{ "text": "\(-14a^x + 7a^m\)", "correct": true },
-{ "text": "\(-14a^x + 7a^m + a^n\)", "correct": false }
-],
-"hint": "Agrupa términos con los mismos exponentes literales.",
-"explanation": "Para \(a^x\): \(5 - 8 - 11 = -14a^x\). Para \(a^m\): \(-3 + 5 + 5 = 7a^m\). Para \(a^n\): \(-7 - 9 + 16 = 0\). Resultado: \(-14a^x + 7a^m\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QJ",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Dados los polinomios \(P(x) = 2x^3 + 5x - 3\) y \(Q(x) = 4x - 3x^2 + 2x^3\), encontrar \(P(x) * Q(x)\)",
-"options": [
-{ "text": "\(4x^6 - 6x^5 + 18x^4 - 21x^3 + 29x^2 - 12x\)", "correct": true },
-{ "text": "\(4x^6 + 6x^5 + 18x^4 + 21x^3 + 29x^2 + 12x\)", "correct": false },
-{ "text": "\(4x^6 + 6x^5 - 18x^4 + 21x^3 - 29x^2 + 12x\)", "correct": false },
-{ "text": "\(4x^6 - 6x^5 + 18x^4 + 21x^3 + 29x^2 - 12x\)", "correct": false }
-],
-"hint": "Multiplica término a término y suma exponentes de bases iguales.",
-"explanation": "\((2x^3 + 5x - 3)(2x^3 - 3x^2 + 4x) = 4x^6 - 6x^5 + 8x^4 + 10x^4 - 15x^3 + 20x^2 - 6x^3 + 9x^2 - 12x = 4x^6 - 6x^5 + 18x^4 - 21x^3 + 29x^2 - 12x\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QK",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Realizar las siguientes restas de polinomios: \((-5b^2 + 8ab + a^2) - (3a^2 + ab - 6b^2)\)",
-"options": [
-{ "text": "\(-2a^2 + 7ab - b^2\)", "correct": false },
-{ "text": "\(-3a^2 + 7ab + b^2\)", "correct": false },
-{ "text": "\(-2a^2 + 9ab + b^2\)", "correct": false },
-{ "text": "\(-2a^2 + 7ab + b^2\)", "correct": true }
-],
-"hint": "Cambia los signos del segundo polinomio debido al signo negativo externo.",
-"explanation": "\(-5b^2 + 8ab + a^2 - 3a^2 - ab + 6b^2 = -2a^2 + 7ab + b^2\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QL",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Desarrollar \((x - 1)^3\)",
-"options": [
-{ "text": "\(x^3 - 3x^2 + 3x - 1\)", "correct": true },
-{ "text": "\(x^3 - 3x^2 - 3x - 1\)", "correct": false },
-{ "text": "\(x^3 + 3x^2 + 3x + 1\)", "correct": false },
-{ "text": "\(x^3 - 3x^2 + 3x + 1\)", "correct": false }
-],
-"hint": "Aplica la regla del binomio al cubo: \((a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3\).",
-"explanation": "Sustituyendo \(a = x\) y \(b = 1\): \(x^3 - 3x^2 + 3x - 1\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QM",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Al resolver la ecuación \(6 + 3x - 2x^2 = 0\), ¿qué valores \(a\), \(b\) y \(c\) debes sustituir para aplicar la fórmula general?",
-"options": [
-{ "text": "3, -1, 6", "correct": false },
-{ "text": "-2, 3, 6", "correct": true },
-{ "text": "-2, 6, 3", "correct": false },
-{ "text": "6, 3, -2", "correct": false }
-],
-"hint": "Ordena la ecuación en la forma \(ax^2 + bx + c = 0\).",
-"explanation": "Ordenando: \(-2x^2 + 3x + 6 = 0\). Por lo tanto \(a = -2\), \(b = 3\), \(c = 6\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QN",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Expresar con exponentes positivos y simplificar \(\frac{2m^{-5}n^{-7}}{a^2m^3n^{-4}}\)",
-"options": [
-{ "text": "\(\frac{2n^3}{a^2m^8}\)", "correct": false },
-{ "text": "\(\frac{2m^8}{a^2n^3}\)", "correct": false },
-{ "text": "\(\frac{2a^2}{m^8n^3}\)", "correct": false },
-{ "text": "\(\frac{2}{a^2m^8n^3}\)", "correct": true }
-],
-"hint": "Aplica la ley \(\frac{x^p}{x^q} = x^{p-q}\).",
-"explanation": "Para \(m\): \(m^{-5-3} = m^{-8}\). Para \(n\): \(n^{-7-(-4)} = n^{-3}\). Resultado: \(\frac{2}{a^2m^8n^3}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QO",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Dados los polinomios \(P(x) = 2x^3 + 5x - 3\) y \(Q(x) = 4x - 3x^2 + 2x^3\), encontrar \(P(x) - Q(x)\)",
-"options": [
-{ "text": "\(3x^2 + 3x - 3\)", "correct": false },
-{ "text": "\(3x^2 + 6x - 3\)", "correct": false },
-{ "text": "\(3x^2 + 4x - 3\)", "correct": false },
-{ "text": "\(3x^2 + x - 3\)", "correct": true }
-],
-"hint": "Invierte los signos de todos los términos de \(Q(x)\).",
-"explanation": "\(P(x) - Q(x) = (2x^3 + 5x - 3) - (2x^3 - 3x^2 + 4x) = 3x^2 + x - 3\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QP",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Realizar las siguientes restas de polinomios: \((-8a^n + 16a^{n-4} + 15a^{n-2} + a^{n-3}) - (7a^n + 5a^{n-2} + a^{n-3})\)",
-"options": [
-{ "text": "\(-15a^n + 10a^{n-2} - 2a^{n-3} + 16a^{n-4}\)", "correct": false },
-{ "text": "\(-15a^n - 10a^{n-2} + 2a^{n-3} + 16a^{n-4}\)", "correct": false },
-{ "text": "\(-15a^n + 10a^{n-2} + 16a^{n-4}\)", "correct": true },
-{ "text": "\(-15a^n + 10a^{n-2} + 2a^{n-3} - 16a^{n-4}\)", "correct": false }
-],
-"hint": "Invierte los signos del sustraendo y agrupa términos semejantes.",
-"explanation": "Para \(a^n\): \(-8 - 7 = -15a^n\). Para \(a^{n-2}\): \(15 - 5 = 10a^{n-2}\). Para \(a^{n-3}\): \(1 - 1 = 0\). Resultado: \(-15a^n + 10a^{n-2} + 16a^{n-4}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QQ",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "El resultado de la división \(\frac{4x^2 - 4x - 3}{2x - 3}\) es",
-"options": [
-{ "text": "\(2x - 1\)", "correct": false },
-{ "text": "\(2x + 1\)", "correct": true },
-{ "text": "\(2x + 2\)", "correct": false },
-{ "text": "\(2x - 2\)", "correct": false }
-],
-"hint": "Factoriza el numerador.",
-"explanation": "\(4x^2 - 4x - 3 = (2x + 1)(2x - 3)\). Al dividir entre \(2x - 3\) queda \(2x + 1\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QR",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Armando sembró 6 árboles más que su hermano y entre los dos sembraron 18 árboles. ¿Cuántos árboles sembró Armando (A) y cuántos su hermano (h)?",
-"options": [
-{ "text": "A=12, h=6", "correct": true },
-{ "text": "A=6, h=12", "correct": false },
-{ "text": "A=6 cm, h=12 cm", "correct": false },
-{ "text": "A=12 cm, h=6 cm", "correct": false }
-],
-"hint": "Plantea el sistema: \(A + h = 18\) y \(A = h + 6\).",
-"explanation": "Sustituyendo: \((h + 6) + h = 18 \rightarrow 2h = 12 \rightarrow h = 6\), entonces \(A = 12\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QS",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Utilizar las leyes de las potencias para reducir \((x^{\frac{1}{3}})(x^{\frac{5}{9}})\)",
-"options": [
-{ "text": "\(x^{\frac{9}{8}}\)", "correct": false },
-{ "text": "\(x^{\frac{5}{27}}\)", "correct": false },
-{ "text": "\(x^{\frac{8}{9}}\)", "correct": true },
-{ "text": "\(x^{\frac{45}{4}}\)", "correct": false }
-],
-"hint": "En multiplicación de bases iguales, los exponentes se suman.",
-"explanation": "\(\frac{1}{3} + \frac{5}{9} = \frac{3}{9} + \frac{5}{9} = \frac{8}{9}\). Resultado: \(x^{\frac{8}{9}}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QT",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "¿Cuál es la solución del siguiente sistema de ecuaciones?\n\(a + b = 1\)\n\(-4a = -\frac{5}{2} + b\)",
-"options": [
-{ "text": "a=2, b=-1", "correct": false },
-{ "text": "x=1/2, b=1/2", "correct": false },
-{ "text": "a=1/4, b=3/4", "correct": false },
-{ "text": "a=1/2, b=1/2", "correct": true }
-],
-"hint": "Despeja \(b\) de la primera ecuación y sustituye en la segunda.",
-"explanation": "\(b = 1 - a\). Sustituyendo: \(-4a = -\frac{5}{2} + 1 - a \rightarrow -3a = -\frac{3}{2} \rightarrow a = \frac{1}{2}\), entonces \(b = \frac{1}{2}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QU",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Realizar la operación y reducir el resultado de \(\frac{\frac{3}{4} + \frac{5}{6} \times \frac{3}{5}}{\frac{1}{2} - \frac{2}{7} \times \frac{7}{5}}\)",
-"options": [
-{ "text": "\(7 \frac{1}{2}\)", "correct": false },
-{ "text": "\(12 \frac{1}{2}\)", "correct": true },
-{ "text": "\(10 \frac{1}{2}\)", "correct": false },
-{ "text": "\(5 \frac{1}{2}\)", "correct": false }
-],
-"hint": "Primero haz las multiplicaciones, luego sumas y restas, finalmente la división.",
-"explanation": "Numerador: \(\frac{5}{6} \times \frac{3}{5} = \frac{1}{2}\); \(\frac{3}{4} + \frac{1}{2} = \frac{5}{4}\). Denominador: \(\frac{2}{7} \times \frac{7}{5} = \frac{2}{5}\); \(\frac{1}{2} - \frac{2}{5} = \frac{1}{10}\). División: \(\frac{5/4}{1/10} = \frac{50}{4} = \frac{25}{2} = 12\frac{1}{2}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QV",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Factorizar el siguiente ejercicio \(25x^2 - 80xy + 64y^2\)",
-"options": [
-{ "text": "\((5x + 64y)^2\)", "correct": false },
-{ "text": "\((5x^{95} + 8y^{80})^2\)", "correct": false },
-{ "text": "\((5x - 8y)^2\)", "correct": true },
-{ "text": "\((25x + 8y)^2\)", "correct": false }
-],
-"hint": "Verifica si es un trinomio cuadrado perfecto.",
-"explanation": "\(\sqrt{25x^2} = 5x\), \(\sqrt{64y^2} = 8y\), \(2(5x)(8y) = 80xy\). Por lo tanto es \((5x - 8y)^2\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QW",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Simplificar el siguiente radical \(\sqrt{81x^3y^4}\)",
-"options": [
-{ "text": "\(9x\sqrt{x}y^2\)", "correct": true },
-{ "text": "\(9x\sqrt{x}y^4\)", "correct": false },
-{ "text": "\(9xy\)", "correct": false },
-{ "text": "\(9xy^2\)", "correct": false }
-],
-"hint": "Descompón el radical en factores: \(\sqrt{81} \cdot \sqrt{x^3} \cdot \sqrt{y^4}\).",
-"explanation": "\(\sqrt{81}=9\), \(\sqrt{y^4}=y^2\), \(\sqrt{x^3}=x\sqrt{x}\). Resultado: \(9xy^2\sqrt{x}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QX",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Simplificar la siguiente expresión \((8x^2 + 5xy - y) - (3x^2 + 5xy + y)\)",
-"options": [
-{ "text": "\(5x^{80} - 3y^{20} + 8xy\)", "correct": false },
-{ "text": "\(11x^2y - 4xy + 24x\)", "correct": false },
-{ "text": "\(6x^2 + 34xy + 40y^2 - 6x - 24y\)", "correct": false },
-{ "text": "\(5x^2 - 2y\)", "correct": true }
-],
-"hint": "Distribuye el signo negativo y agrupa términos semejantes.",
-"explanation": "\(8x^2 + 5xy - y - 3x^2 - 5xy - y = 5x^2 - 2y\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QY",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "¿Cuál de las siguientes operaciones da como resultado 26 unidades teniendo en cuenta la prioridad de los signos?",
-"options": [
-{ "text": "\((2 \times 4 + 12)(6 - 4)\)", "correct": false },
-{ "text": "\(3 \times 9 + (6 + 5 - 3) - 12 \div 4\)", "correct": false },
-{ "text": "\(27 + 3 \times 5 - 16\)", "correct": true },
-{ "text": "\(27 + 3 - 45 \div 5 + 16\)", "correct": false }
-],
-"hint": "Respeta la jerarquía de operaciones: primero multiplicaciones y divisiones, luego sumas y restas.",
-"explanation": "Opción C: \(27 + 15 - 16 = 26\). Las demás dan 40, 32 y 37 respectivamente.",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP12QZ",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["INTERMEDIO"],
-"tag04": ["REAL"],
-"question": "Descomponer en factores la siguiente expresión algebraica \(x^2 - x - 30\)",
-"options": [
-{ "text": "\((x + 6)(x - 5)\)", "correct": false },
-{ "text": "\((x - 6)(x - 5)\)", "correct": false },
-{ "text": "\((x + 6)(x + 5)\)", "correct": false },
-{ "text": "\((x - 6)(x + 5)\)", "correct": true }
-],
-"hint": "Busca dos números que multiplicados den -30 y sumados den -1.",
-"explanation": "Los números son -6 y 5: \((x - 6)(x + 5)\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP13AA",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["BÁSICO"],
-"tag04": ["REAL"],
-"question": "Expresar con signo radical \(4a^2 b^{\frac{7}{3}} c^{\frac{6}{5}}\)",
-"options": [
-{ "text": "\(4 \sqrt{a^3} \sqrt[3]{b^7} \sqrt[6]{c^5}\)", "correct": false },
-{ "text": "\(4a^2 \sqrt[3]{b^7} \sqrt[5]{c^6}\)", "correct": true },
-{ "text": "\(4 \sqrt{a} \sqrt[3]{b^7} \sqrt[5]{c^6}\)", "correct": false },
-{ "text": "\(4a^2 \sqrt[7]{b^3} \sqrt[5]{c^6}\)", "correct": false }
-],
-"hint": "Aplica \(x^{\frac{m}{n}} = \sqrt[n]{x^m}\).",
-"explanation": "\(4a^2\) se mantiene, \(b^{7/3} = \sqrt[3]{b^7}\), \(c^{6/5} = \sqrt[5]{c^6}\). Resultado: \(4a^2 \sqrt[3]{b^7} \sqrt[5]{c^6}\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP13AB",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["AVANZADO"],
-"tag04": ["REAL"],
-"question": "La simplificación de \(\sqrt[3]{\sqrt{125 \times 125}} + \sqrt{\sqrt{81}} + \sqrt[5]{16\sqrt[3]{8}}\) es:",
-"options": [
-{ "text": "10", "correct": true },
-{ "text": "5", "correct": false },
-{ "text": "30", "correct": false },
-{ "text": "8", "correct": false }
-],
-"hint": "Simplifica cada término de adentro hacia afuera.",
-"explanation": "Primer término: \(\sqrt{125 \times 125}=125\), \(\sqrt[3]{125}=5\). Segundo: \(\sqrt{81}=9\), \(\sqrt{9}=3\). Tercero: \(\sqrt[3]{8}=2\), \(16 \times 2=32\), \(\sqrt[5]{32}=2\). Suma: \(5+3+2=10\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-},
-{
-"id": "CEP13AC",
-"tag01": ["EXANI II", "GENERAL"],
-"tag02": ["✖ MAT ALG"],
-"tag03": ["AVANZADO"],
-"tag04": ["REAL"],
-"question": "Realizar la siguiente resta: \(\left(\frac{2}{11}m^3n + \frac{5}{14}m^2n^2 + \frac{1}{3}mn^3 - 6\right) - \left(-m^4 + \frac{7}{8}m^2n^2 - \frac{2}{9}mn^3\right)\)",
-"options": [
-{ "text": "\(m^4 + \frac{2}{11}m^3n - \frac{29}{56}m^2n^2 + \frac{5}{9}mn^3 - 6\)", "correct": true },
-{ "text": "\(m^4 + \frac{2}{11}m^3n + \frac{29}{56}m^2n^2 + \frac{5}{9}mn^3 - 6\)", "correct": false },
-{ "text": "\(-m^4 + \frac{2}{11}m^3n - \frac{29}{56}m^2n^2 + \frac{5}{9}mn^3 - 6\)", "correct": false },
-{ "text": "\(m^4 + \frac{2}{11}m^3n - \frac{29}{56}m^2n^2 - \frac{5}{9}mn^3 - 6\)", "correct": false }
-],
-"hint": "Cambia los signos del polinomio sustraendo y agrupa términos semejantes.",
-"explanation": "Se cambia el signo: \(+m^4 - \frac{7}{8}m^2n^2 + \frac{2}{9}mn^3\). Para \(m^2n^2\): \(\frac{5}{14} - \frac{7}{8} = -\frac{29}{56}\). Para \(mn^3\): \(\frac{1}{3} + \frac{2}{9} = \frac{5}{9}\). Resultado: \(m^4 + \frac{2}{11}m^3n - \frac{29}{56}m^2n^2 + \frac{5}{9}mn^3 - 6\).",
-"image": "https://i.imgur.com/pT7EObO.png",
-"explanative_video": null,
-"collapsible_text": null
-}
+  {
+    "id": "CEP12QC",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Factorizar el siguiente ejercicio: \\(2x^2 - 7x + 3\\)",
+    "options": [
+      { "text": "\\(4x^{90} - 5(x^{45} - 3)\\)", "correct": false },
+      { "text": "\\((x + 2)(x - 3)\\)", "correct": false },
+      { "text": "\\((2x - 1)(x - 3)\\)", "correct": true },
+      { "text": "\\((3x - 4)(x + 2)\\)", "correct": false }
+    ],
+    "hint": "Buscamos dos números que multiplicados den \\(2 \\times 3 = 6\\) y sumados den \\(-7\\).",
+    "explanation": "Los números son \\(-6\\) y \\(-1\\). Reescribiendo: \\(2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3)\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QD",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Resolver la siguiente ecuación de segundo grado: \\(-x^2 + 7x - 10 = 0\\)",
+    "options": [
+      { "text": "\\(x_1 = 5 \\text{ y } x_2 = 2\\)", "correct": true },
+      { "text": "\\(x_1 = -5 \\text{ y } x_2 = -2\\)", "correct": false },
+      { "text": "\\(x_1 = -5 \\text{ y } x_2 = 2\\)", "correct": false },
+      { "text": "\\(x_1 = 5 \\text{ y } x_2 = -2\\)", "correct": false }
+    ],
+    "hint": "Multiplica toda la ecuación por \\(-1\\) para obtener \\(x^2 - 7x + 10 = 0\\).",
+    "explanation": "Factorizando: \\((x - 5)(x - 2) = 0\\). Por lo tanto, \\(x_1 = 5\\) y \\(x_2 = 2\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QE",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Dados los polinomios \\(P(x) = 2x^3 + 5x - 3\\) y \\(Q(x) = 4x - 3x^2 + 2x^3\\), encontrar \\(P(x) + Q(x)\\)",
+    "options": [
+      { "text": "\\(6x^3 - 6x^2 + 6x - 3\\)", "correct": false },
+      { "text": "\\(4x^3 - 3x^2 + 9x - 3\\)", "correct": true },
+      { "text": "\\(4x^3 - 3x^2 + 6x - 3\\)", "correct": false },
+      { "text": "\\(2x^3 - x^2 + 3x - 3\\)", "correct": false }
+    ],
+    "hint": "Agrupa términos semejantes por su grado.",
+    "explanation": "Para \\(x^3\\): \\(2x^3 + 2x^3 = 4x^3\\). Para \\(x^2\\): \\(-3x^2\\). Para \\(x\\): \\(5x + 4x = 9x\\). Término independiente: \\(-3\\). Resultado: \\(4x^3 - 3x^2 + 9x - 3\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QF",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Realizar la operación y reducir el resultado de: \\(\\frac{\\frac{1}{3} + \\frac{2}{5} + \\frac{1}{30}}{\\frac{23}{30}}\\)",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "\\(\\frac{2}{3}\\)", "correct": false },
+      { "text": "\\(\\frac{3}{5}\\)", "correct": false },
+      { "text": "\\(\\frac{7}{30}\\)", "correct": false }
+    ],
+    "hint": "Resuelve la suma del numerador usando el mínimo común múltiplo (30).",
+    "explanation": "Numerador: \\(\\frac{10}{30} + \\frac{12}{30} + \\frac{1}{30} = \\frac{23}{30}\\). División: \\(\\frac{23/30}{23/30} = 1\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QG",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "En un trinomio cuadrado perfecto se sabe que la primera expresión corresponde a:",
+    "options": [
+      { "text": "El segundo término al cuadrado", "correct": false },
+      { "text": "Se suma el primer término por el segundo", "correct": false },
+      { "text": "El primer término al cuadrado", "correct": true },
+      { "text": "Se multiplica el primer término por el segundo", "correct": false }
+    ],
+    "hint": "Recuerda la fórmula \\((a \\pm b)^2 = a^2 \\pm 2ab + b^2\\).",
+    "explanation": "La primera expresión (\\(a^2\\)) equivale al cuadrado del primer término del binomio.",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QH",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "Factorizar en dos factores: \\(10x^8 + 29x^4 + 10\\)",
+    "options": [
+      { "text": "\\((2x^4 + 5)(5x^4 + 2)\\)", "correct": true },
+      { "text": "\\((2x^4 - 5)(5x^4 - 2)\\)", "correct": false },
+      { "text": "\\((2x^4 + 5)(5x^2 + 2)\\)", "correct": false },
+      { "text": "\\((2x^4 - 5)(5x^2 - 2)\\)", "correct": false }
+    ],
+    "hint": "Haz un cambio de variable \\(u = x^4\\), luego factoriza \\(10u^2 + 29u + 10\\).",
+    "explanation": "\\(10u^2 + 29u + 10 = (5u + 2)(2u + 5)\\). Sustituyendo de vuelta: \\((5x^4 + 2)(2x^4 + 5)\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QI",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Realizar las siguientes sumas de polinomios: \\((5a^x - 3a^m - 7a^n) + (-8a^x + 5a^m - 9a^n) + (-11a^x + 5a^m + 16a^n)\\)",
+    "options": [
+      { "text": "\\(-14a^x - 7a^m + 32a^n\\)", "correct": false },
+      { "text": "\\(-14a^x + 7a^m + 32a^n\\)", "correct": false },
+      { "text": "\\(-14a^x + 7a^m\\)", "correct": true },
+      { "text": "\\(-14a^x + 7a^m + a^n\\)", "correct": false }
+    ],
+    "hint": "Agrupa términos con los mismos exponentes literales.",
+    "explanation": "Para \\(a^x\\): \\(5 - 8 - 11 = -14a^x\\). Para \\(a^m\\): \\(-3 + 5 + 5 = 7a^m\\). Para \\(a^n\\): \\(-7 - 9 + 16 = 0\\). Resultado: \\(-14a^x + 7a^m\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QJ",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Dados los polinomios \\(P(x) = 2x^3 + 5x - 3\\) y \\(Q(x) = 4x - 3x^2 + 2x^3\\), encontrar \\(P(x) * Q(x)\\)",
+    "options": [
+      { "text": "\\(4x^6 - 6x^5 + 18x^4 - 21x^3 + 29x^2 - 12x\\)", "correct": true },
+      { "text": "\\(4x^6 + 6x^5 + 18x^4 + 21x^3 + 29x^2 + 12x\\)", "correct": false },
+      { "text": "\\(4x^6 + 6x^5 - 18x^4 + 21x^3 - 29x^2 + 12x\\)", "correct": false },
+      { "text": "\\(4x^6 - 6x^5 + 18x^4 + 21x^3 + 29x^2 - 12x\\)", "correct": false }
+    ],
+    "hint": "Multiplica término a término y suma exponentes de bases iguales.",
+    "explanation": "\\((2x^3 + 5x - 3)(2x^3 - 3x^2 + 4x) = 4x^6 - 6x^5 + 8x^4 + 10x^4 - 15x^3 + 20x^2 - 6x^3 + 9x^2 - 12x = 4x^6 - 6x^5 + 18x^4 - 21x^3 + 29x^2 - 12x\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QK",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Realizar las siguientes restas de polinomios: \\((-5b^2 + 8ab + a^2) - (3a^2 + ab - 6b^2)\\)",
+    "options": [
+      { "text": "\\(-2a^2 + 7ab - b^2\\)", "correct": false },
+      { "text": "\\(-3a^2 + 7ab + b^2\\)", "correct": false },
+      { "text": "\\(-2a^2 + 9ab + b^2\\)", "correct": false },
+      { "text": "\\(-2a^2 + 7ab + b^2\\)", "correct": true }
+    ],
+    "hint": "Cambia los signos del segundo polinomio debido al signo negativo externo.",
+    "explanation": "\\(-5b^2 + 8ab + a^2 - 3a^2 - ab + 6b^2 = -2a^2 + 7ab + b^2\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QL",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Desarrollar \\((x - 1)^3\\)",
+    "options": [
+      { "text": "\\(x^3 - 3x^2 + 3x - 1\\)", "correct": true },
+      { "text": "\\(x^3 - 3x^2 - 3x - 1\\)", "correct": false },
+      { "text": "\\(x^3 + 3x^2 + 3x + 1\\)", "correct": false },
+      { "text": "\\(x^3 - 3x^2 + 3x + 1\\)", "correct": false }
+    ],
+    "hint": "Aplica la regla del binomio al cubo: \\((a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3\\).",
+    "explanation": "Sustituyendo \\(a = x\\) y \\(b = 1\\): \\(x^3 - 3x^2 + 3x - 1\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QM",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Al resolver la ecuación \\(6 + 3x - 2x^2 = 0\\), ¿qué valores \\(a\\), \\(b\\) y \\(c\\) debes sustituir para aplicar la fórmula general?",
+    "options": [
+      { "text": "3, -1, 6", "correct": false },
+      { "text": "-2, 3, 6", "correct": true },
+      { "text": "-2, 6, 3", "correct": false },
+      { "text": "6, 3, -2", "correct": false }
+    ],
+    "hint": "Ordena la ecuación en la forma \\(ax^2 + bx + c = 0\\).",
+    "explanation": "Ordenando: \\(-2x^2 + 3x + 6 = 0\\). Por lo tanto \\(a = -2\\), \\(b = 3\\), \\(c = 6\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QN",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Expresar con exponentes positivos y simplificar \\(\\frac{2m^{-5}n^{-7}}{a^2m^3n^{-4}}\\)",
+    "options": [
+      { "text": "\\(\\frac{2n^3}{a^2m^8}\\)", "correct": false },
+      { "text": "\\(\\frac{2m^8}{a^2n^3}\\)", "correct": false },
+      { "text": "\\(\\frac{2a^2}{m^8n^3}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{a^2m^8n^3}\\)", "correct": true }
+    ],
+    "hint": "Aplica la ley \\(\\frac{x^p}{x^q} = x^{p-q}\\).",
+    "explanation": "Para \\(m\\): \\(m^{-5-3} = m^{-8}\\). Para \\(n\\): \\(n^{-7-(-4)} = n^{-3}\\). Resultado: \\(\\frac{2}{a^2m^8n^3}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QO",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Dados los polinomios \\(P(x) = 2x^3 + 5x - 3\\) y \\(Q(x) = 4x - 3x^2 + 2x^3\\), encontrar \\(P(x) - Q(x)\\)",
+    "options": [
+      { "text": "\\(3x^2 + 3x - 3\\)", "correct": false },
+      { "text": "\\(3x^2 + 6x - 3\\)", "correct": false },
+      { "text": "\\(3x^2 + 4x - 3\\)", "correct": false },
+      { "text": "\\(3x^2 + x - 3\\)", "correct": true }
+    ],
+    "hint": "Invierte los signos de todos los términos de \\(Q(x)\\).",
+    "explanation": "\\(P(x) - Q(x) = (2x^3 + 5x - 3) - (2x^3 - 3x^2 + 4x) = 3x^2 + x - 3\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QP",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Realizar las siguientes restas de polinomios: \\((-8a^n + 16a^{n-4} + 15a^{n-2} + a^{n-3}) - (7a^n + 5a^{n-2} + a^{n-3})\\)",
+    "options": [
+      { "text": "\\(-15a^n + 10a^{n-2} - 2a^{n-3} + 16a^{n-4}\\)", "correct": false },
+      { "text": "\\(-15a^n - 10a^{n-2} + 2a^{n-3} + 16a^{n-4}\\)", "correct": false },
+      { "text": "\\(-15a^n + 10a^{n-2} + 16a^{n-4}\\)", "correct": true },
+      { "text": "\\(-15a^n + 10a^{n-2} + 2a^{n-3} - 16a^{n-4}\\)", "correct": false }
+    ],
+    "hint": "Invierte los signos del sustraendo y agrupa términos semejantes.",
+    "explanation": "Para \\(a^n\\): \\(-8 - 7 = -15a^n\\). Para \\(a^{n-2}\\): \\(15 - 5 = 10a^{n-2}\\). Para \\(a^{n-3}\\): \\(1 - 1 = 0\\). Resultado: \\(-15a^n + 10a^{n-2} + 16a^{n-4}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QQ",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "El resultado de la división \\(\\frac{4x^2 - 4x - 3}{2x - 3}\\) es",
+    "options": [
+      { "text": "\\(2x - 1\\)", "correct": false },
+      { "text": "\\(2x + 1\\)", "correct": true },
+      { "text": "\\(2x + 2\\)", "correct": false },
+      { "text": "\\(2x - 2\\)", "correct": false }
+    ],
+    "hint": "Factoriza el numerador.",
+    "explanation": "\\(4x^2 - 4x - 3 = (2x + 1)(2x - 3)\\). Al dividir entre \\(2x - 3\\) queda \\(2x + 1\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QR",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Armando sembró 6 árboles más que su hermano y entre los dos sembraron 18 árboles. ¿Cuántos árboles sembró Armando (A) y cuántos su hermano (h)?",
+    "options": [
+      { "text": "A=12, h=6", "correct": true },
+      { "text": "A=6, h=12", "correct": false },
+      { "text": "A=6 cm, h=12 cm", "correct": false },
+      { "text": "A=12 cm, h=6 cm", "correct": false }
+    ],
+    "hint": "Plantea el sistema: \\(A + h = 18\\) y \\(A = h + 6\\).",
+    "explanation": "Sustituyendo: \\((h + 6) + h = 18 \\rightarrow 2h = 12 \\rightarrow h = 6\\), entonces \\(A = 12\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QS",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Utilizar las leyes de las potencias para reducir \\((x^{\\frac{1}{3}})(x^{\\frac{5}{9}})\\)",
+    "options": [
+      { "text": "\\(x^{\\frac{9}{8}}\\)", "correct": false },
+      { "text": "\\(x^{\\frac{5}{27}}\\)", "correct": false },
+      { "text": "\\(x^{\\frac{8}{9}}\\)", "correct": true },
+      { "text": "\\(x^{\\frac{45}{4}}\\)", "correct": false }
+    ],
+    "hint": "En multiplicación de bases iguales, los exponentes se suman.",
+    "explanation": "\\(\\frac{1}{3} + \\frac{5}{9} = \\frac{3}{9} + \\frac{5}{9} = \\frac{8}{9}\\). Resultado: \\(x^{\\frac{8}{9}}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QT",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál es la solución del siguiente sistema de ecuaciones?\n\\(a + b = 1\\)\n\\(-4a = -\\frac{5}{2} + b\\)",
+    "options": [
+      { "text": "a=2, b=-1", "correct": false },
+      { "text": "x=1/2, b=1/2", "correct": false },
+      { "text": "a=1/4, b=3/4", "correct": false },
+      { "text": "a=1/2, b=1/2", "correct": true }
+    ],
+    "hint": "Despeja \\(b\\) de la primera ecuación y sustituye en la segunda.",
+    "explanation": "\\(b = 1 - a\\). Sustituyendo: \\(-4a = -\\frac{5}{2} + 1 - a \\rightarrow -3a = -\\frac{3}{2} \\rightarrow a = \\frac{1}{2}\\), entonces \\(b = \\frac{1}{2}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QU",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Realizar la operación y reducir el resultado de \\(\\frac{\\frac{3}{4} + \\frac{5}{6} \\times \\frac{3}{5}}{\\frac{1}{2} - \\frac{2}{7} \\times \\frac{7}{5}}\\)",
+    "options": [
+      { "text": "\\(7 \\frac{1}{2}\\)", "correct": false },
+      { "text": "\\(12 \\frac{1}{2}\\)", "correct": true },
+      { "text": "\\(10 \\frac{1}{2}\\)", "correct": false },
+      { "text": "\\(5 \\frac{1}{2}\\)", "correct": false }
+    ],
+    "hint": "Primero haz las multiplicaciones, luego sumas y restas, finalmente la división.",
+    "explanation": "Numerador: \\(\\frac{5}{6} \\times \\frac{3}{5} = \\frac{1}{2}\\); \\(\\frac{3}{4} + \\frac{1}{2} = \\frac{5}{4}\\). Denominador: \\(\\frac{2}{7} \\times \\frac{7}{5} = \\frac{2}{5}\\); \\(\\frac{1}{2} - \\frac{2}{5} = \\frac{1}{10}\\). División: \\(\\frac{5/4}{1/10} = \\frac{50}{4} = \\frac{25}{2} = 12\\frac{1}{2}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QV",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Factorizar el siguiente ejercicio \\(25x^2 - 80xy + 64y^2\\)",
+    "options": [
+      { "text": "\\((5x + 64y)^2\\)", "correct": false },
+      { "text": "\\((5x^{95} + 8y^{80})^2\\)", "correct": false },
+      { "text": "\\((5x - 8y)^2\\)", "correct": true },
+      { "text": "\\((25x + 8y)^2\\)", "correct": false }
+    ],
+    "hint": "Verifica si es un trinomio cuadrado perfecto.",
+    "explanation": "\\(\\sqrt{25x^2} = 5x\\), \\(\\sqrt{64y^2} = 8y\\), \\(2(5x)(8y) = 80xy\\). Por lo tanto es \\((5x - 8y)^2\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QW",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Simplificar el siguiente radical \\(\\sqrt{81x^3y^4}\\)",
+    "options": [
+      { "text": "\\(9x\\sqrt{x}y^2\\)", "correct": true },
+      { "text": "\\(9x\\sqrt{x}y^4\\)", "correct": false },
+      { "text": "\\(9xy\\)", "correct": false },
+      { "text": "\\(9xy^2\\)", "correct": false }
+    ],
+    "hint": "Descompón el radical en factores: \\(\\sqrt{81} \\cdot \\sqrt{x^3} \\cdot \\sqrt{y^4}\\).",
+    "explanation": "\\(\\sqrt{81}=9\\), \\(\\sqrt{y^4}=y^2\\), \\(\\sqrt{x^3}=x\\sqrt{x}\\). Resultado: \\(9xy^2\\sqrt{x}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QX",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Simplificar la siguiente expresión \\((8x^2 + 5xy - y) - (3x^2 + 5xy + y)\\)",
+    "options": [
+      { "text": "\\(5x^{80} - 3y^{20} + 8xy\\)", "correct": false },
+      { "text": "\\(11x^2y - 4xy + 24x\\)", "correct": false },
+      { "text": "\\(6x^2 + 34xy + 40y^2 - 6x - 24y\\)", "correct": false },
+      { "text": "\\(5x^2 - 2y\\)", "correct": true }
+    ],
+    "hint": "Distribuye el signo negativo y agrupa términos semejantes.",
+    "explanation": "\\(8x^2 + 5xy - y - 3x^2 - 5xy - y = 5x^2 - 2y\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QY",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes operaciones da como resultado 26 unidades teniendo en cuenta la prioridad de los signos?",
+    "options": [
+      { "text": "\\((2 \\times 4 + 12)(6 - 4)\\)", "correct": false },
+      { "text": "\\(3 \\times 9 + (6 + 5 - 3) - 12 \\div 4\\)", "correct": false },
+      { "text": "\\(27 + 3 \\times 5 - 16\\)", "correct": true },
+      { "text": "\\(27 + 3 - 45 \\div 5 + 16\\)", "correct": false }
+    ],
+    "hint": "Respeta la jerarquía de operaciones: primero multiplicaciones y divisiones, luego sumas y restas.",
+    "explanation": "Opción C: \\(27 + 15 - 16 = 26\\). Las demás dan 40, 32 y 37 respectivamente.",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12QZ",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Descomponer en factores la siguiente expresión algebraica \\(x^2 - x - 30\\)",
+    "options": [
+      { "text": "\\((x + 6)(x - 5)\\)", "correct": false },
+      { "text": "\\((x - 6)(x - 5)\\)", "correct": false },
+      { "text": "\\((x + 6)(x + 5)\\)", "correct": false },
+      { "text": "\\((x - 6)(x + 5)\\)", "correct": true }
+    ],
+    "hint": "Busca dos números que multiplicados den -30 y sumados den -1.",
+    "explanation": "Los números son -6 y 5: \\((x - 6)(x + 5)\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AA",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Expresar con signo radical \\(4a^2 b^{\\frac{7}{3}} c^{\\frac{6}{5}}\\)",
+    "options": [
+      { "text": "\\(4 \\sqrt{a^3} \\sqrt[3]{b^7} \\sqrt[6]{c^5}\\)", "correct": false },
+      { "text": "\\(4a^2 \\sqrt[3]{b^7} \\sqrt[5]{c^6}\\)", "correct": true },
+      { "text": "\\(4 \\sqrt{a} \\sqrt[3]{b^7} \\sqrt[5]{c^6}\\)", "correct": false },
+      { "text": "\\(4a^2 \\sqrt[7]{b^3} \\sqrt[5]{c^6}\\)", "correct": false }
+    ],
+    "hint": "Aplica \\(x^{\\frac{m}{n}} = \\sqrt[n]{x^m}\\).",
+    "explanation": "\\(4a^2\\) se mantiene, \\(b^{7/3} = \\sqrt[3]{b^7}\\), \\(c^{6/5} = \\sqrt[5]{c^6}\\). Resultado: \\(4a^2 \\sqrt[3]{b^7} \\sqrt[5]{c^6}\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AB",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "La simplificación de \\(\\sqrt[3]{\\sqrt{125 \\times 125}} + \\sqrt{\\sqrt{81}} + \\sqrt[5]{16\\sqrt[3]{8}}\\) es:",
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "hint": "Simplifica cada término de adentro hacia afuera.",
+    "explanation": "Primer término: \\(\\sqrt{125 \\times 125}=125\\), \\(\\sqrt[3]{125}=5\\). Segundo: \\(\\sqrt{81}=9\\), \\(\\sqrt{9}=3\\). Tercero: \\(\\sqrt[3]{8}=2\\), \\(16 \\times 2=32\\), \\(\\sqrt[5]{32}=2\\). Suma: \\(5+3+2=10\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AC",
+    "tag01": ["EXANI II", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "Realizar la siguiente resta: \\(\\left(\\frac{2}{11}m^3n + \\frac{5}{14}m^2n^2 + \\frac{1}{3}mn^3 - 6\\right) - \\left(-m^4 + \\frac{7}{8}m^2n^2 - \\frac{2}{9}mn^3\\right)\\)",
+    "options": [
+      { "text": "\\(m^4 + \\frac{2}{11}m^3n - \\frac{29}{56}m^2n^2 + \\frac{5}{9}mn^3 - 6\\)", "correct": true },
+      { "text": "\\(m^4 + \\frac{2}{11}m^3n + \\frac{29}{56}m^2n^2 + \\frac{5}{9}mn^3 - 6\\)", "correct": false },
+      { "text": "\\(-m^4 + \\frac{2}{11}m^3n - \\frac{29}{56}m^2n^2 + \\frac{5}{9}mn^3 - 6\\)", "correct": false },
+      { "text": "\\(m^4 + \\frac{2}{11}m^3n - \\frac{29}{56}m^2n^2 - \\frac{5}{9}mn^3 - 6\\)", "correct": false }
+    ],
+    "hint": "Cambia los signos del polinomio sustraendo y agrupa términos semejantes.",
+    "explanation": "Se cambia el signo: \\(+m^4 - \\frac{7}{8}m^2n^2 + \\frac{2}{9}mn^3\\). Para \\(m^2n^2\\): \\(\\frac{5}{14} - \\frac{7}{8} = -\\frac{29}{56}\\). Para \\(mn^3\\): \\(\\frac{1}{3} + \\frac{2}{9} = \\frac{5}{9}\\). Resultado: \\(m^4 + \\frac{2}{11}m^3n - \\frac{29}{56}m^2n^2 + \\frac{5}{9}mn^3 - 6\\).",
+    "image": "https://i.imgur.com/pT7EObO.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
 ]
