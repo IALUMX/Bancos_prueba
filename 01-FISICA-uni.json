@@ -796,5 +796,366 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP25FM",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "Para una carga \\(Q = 7 \\times 10^{-6}\\) C y a una distancia de 15 cm, el campo eléctrico es:",
+    "options": [
+      { "text": "\\(2.8 \\times 10^3\\) N/C", "correct": false },
+      { "text": "\\(2.8 \\times 10^{-3}\\) N/C", "correct": false },
+      { "text": "\\(2.8 \\times 10^{-6}\\) N/C", "correct": false },
+      { "text": "\\(2.8 \\times 10^6\\) N/C", "correct": true }
+    ],
+    "hint": "Recuerda la fórmula del campo eléctrico. Si necesitas encontrar la carga a partir del campo, la fórmula despejada es \\(Q = \\frac{E r^2}{k}\\).",
+    "explanation": "Usamos la fórmula de la magnitud del campo eléctrico \\(E = k \\frac{|Q|}{r^2}\\). La constante \\(k\\) es \\(9 \\times 10^9\\) N\\(\\cdot\\)m\\(^2\\)/C\\(^2\\) y la distancia \\(r\\) debe estar en metros (0.15 m). Sustituyendo los valores: \\(E = (9 \\times 10^9) \\frac{7 \\times 10^{-6}}{(0.15)^2} = \\frac{63 \\times 10^3}{0.0225} = 2.8 \\times 10^6\\) N/C.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FN",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuántos kgf son 2000 N?",
+    "options": [
+      { "text": "0.49", "correct": false },
+      { "text": "20.4", "correct": false },
+      { "text": "204", "correct": true },
+      { "text": "19600", "correct": false }
+    ],
+    "hint": "Considera el factor de conversión entre Newtons y kilogramos-fuerza. Para despejar la fuerza en Newtons usa la relación: \\(N = kgf \\times 9.8\\).",
+    "explanation": "Sabemos que la equivalencia es aproximadamente 1 kgf = 9.8 N. Para convertir Newtons a kilogramos-fuerza dividimos entre 9.8: \\(2000 / 9.8 \\approx 204.08\\), que se redondea a 204 kgf.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FO",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes unidades es utilizada para medir presión?",
+    "options": [
+      { "text": "Joule", "correct": false },
+      { "text": "Pascal", "correct": true },
+      { "text": "Watt", "correct": false },
+      { "text": "Newton", "correct": false }
+    ],
+    "hint": "La presión es la fuerza aplicada por unidad de área. Su fórmula para despejar fuerza es \\(F = P \\times A\\).",
+    "explanation": "El Pascal (Pa) es la unidad derivada del Sistema Internacional utilizada para medir la presión (1 Pa = 1 N/m\\(^2\\)).",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FP",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "Un elevador es capaz de subir a 8 pasajeros que suman una masa total de 500 kg, a una velocidad de 4 m/s. ¿Cuál es la potencia que desarrolla este elevador?",
+    "options": [
+      { "text": "19.6 watts", "correct": false },
+      { "text": "16 watts", "correct": false },
+      { "text": "19.6 kilowatts", "correct": true },
+      { "text": "16 kilowatts", "correct": false }
+    ],
+    "hint": "La potencia relaciona fuerza y velocidad. Si necesitaras calcular la velocidad a partir de la potencia, el despeje es \\(v = \\frac{P}{F}\\).",
+    "explanation": "Primero calculamos la fuerza necesaria, que equivale al peso: \\(F = mg = 500 \\text{ kg} \\times 9.8 \\text{ m/s}^2 = 4900\\) N. Dado que viaja a velocidad constante, la potencia es \\(P = F \\times v = 4900 \\times 4 = 19600\\) W. Al pasarlo a kilowatts, dividimos entre 1000, obteniendo 19.6 kW.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FQ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes unidades es utilizada para medir fuerza?",
+    "options": [
+      { "text": "Gauss", "correct": false },
+      { "text": "Joule", "correct": false },
+      { "text": "Dina", "correct": true },
+      { "text": "Pascal", "correct": false }
+    ],
+    "hint": "La fuerza produce aceleración en una masa. A partir de la Segunda Ley de Newton, podemos despejar la masa como \\(m = \\frac{F}{a}\\).",
+    "explanation": "La Dina es la unidad de fuerza en el sistema CGS. El Gauss mide campo magnético, el Joule mide energía/trabajo y el Pascal mide presión.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FR",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál es la potencia desarrollada por una grúa que levanta una camioneta de 3 Toneladas hasta una altura de 2 metros, en un tiempo de 5 segundos?",
+    "options": [
+      { "text": "11.76 watts", "correct": false },
+      { "text": "11.76 kilowatts", "correct": true },
+      { "text": "12 kilowatts", "correct": false },
+      { "text": "30 kilowatts", "correct": false }
+    ],
+    "hint": "La potencia es la rapidez con que se realiza un trabajo. Si quieres despejar el tiempo necesario para aplicar cierta potencia, usas \\(t = \\frac{W}{P}\\).",
+    "explanation": "La masa es de 3 Toneladas = 3000 kg. El trabajo mecánico para levantarla es igual al cambio de energía potencial: \\(W = mgh = 3000 \\times 9.8 \\times 2 = 58800\\) J. La potencia es trabajo sobre tiempo: \\(P = \\frac{W}{t} = \\frac{58800}{5} = 11760\\) W, que equivale a 11.76 kW.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FS",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes unidades es utilizada para medir trabajo mecánico?",
+    "options": [
+      { "text": "Newton", "correct": false },
+      { "text": "Pascal", "correct": false },
+      { "text": "Joule", "correct": true },
+      { "text": "Watt", "correct": false }
+    ],
+    "hint": "El trabajo se calcula con fuerza y desplazamiento. Si necesitaras encontrar el desplazamiento, el despeje es \\(d = \\frac{W}{F}\\).",
+    "explanation": "El Joule (J) es la unidad del Sistema Internacional para medir energía, calor y trabajo mecánico.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FT",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "A partir de cierto instante un perro que corre a una velocidad constante de 10 m/s persigue a una liebre que corre a una velocidad de 5 m/s, también constante. Si la liebre aventaja al perro en 1 m, ¿cuánto debe correr este último para alcanzar a la liebre?",
+    "options": [
+      { "text": "1 m", "correct": false },
+      { "text": "2 m", "correct": true },
+      { "text": "3 m", "correct": false },
+      { "text": "5 m", "correct": false }
+    ],
+    "hint": "Utiliza la velocidad relativa para encontrar el tiempo de alcance. Si quisieras despejar la distancia inicial de separación, sería \\(d = t(v_1 - v_2)\\).",
+    "explanation": "La velocidad relativa del perro respecto a la liebre es de \\(10 - 5 = 5\\) m/s (acercamiento). Para cerrar la brecha de 1 metro, tomará un tiempo de \\(t = \\frac{d}{v} = \\frac{1}{5} = 0.2\\) segundos. La distancia total que el perro recorre en ese tiempo es \\(d = v \\times t = 10 \\text{ m/s} \\times 0.2 \\text{ s} = 2\\) metros.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FU",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Una fuerza levanta un objeto que tiene una masa de 1 Tonelada, desde el suelo hasta una altura de 10 metros. ¿Qué trabajo realiza la fuerza?",
+    "options": [
+      { "text": "1000 Joules", "correct": false },
+      { "text": "9800 Joules", "correct": false },
+      { "text": "10000 Joules", "correct": false },
+      { "text": "98000 Joules", "correct": true }
+    ],
+    "hint": "Recuerda que el trabajo vertical cambia la energía potencial. Para despejar la altura a partir del trabajo, usas \\(h = \\frac{W}{mg}\\).",
+    "explanation": "La masa es de 1 Tonelada = 1000 kg. El trabajo mecánico se calcula como \\(W = F \\times d\\), donde la fuerza requerida es el peso del objeto (\\(mg\\)). Por lo tanto, \\(W = mgh = 1000 \\text{ kg} \\times 9.8 \\text{ m/s}^2 \\times 10 \\text{ m} = 98000\\) Joules.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FV",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Es una unidad común tanto en el Sistema Internacional como en el Sistema Inglés:",
+    "options": [
+      { "text": "La unidad de longitud", "correct": false },
+      { "text": "La unidad de peso", "correct": false },
+      { "text": "La unidad de velocidad", "correct": false },
+      { "text": "La unidad de tiempo", "correct": true }
+    ],
+    "hint": "Esta magnitud mide la duración de eventos. Si usas la fórmula de velocidad, puedes despejarla como \\(t = \\frac{d}{v}\\).",
+    "explanation": "El segundo (s) es la unidad base para medir el tiempo y se utiliza de forma estándar tanto en el Sistema Internacional de Unidades (SI) como en el Sistema Inglés.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FW",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Representa la relación entre el desplazamiento total hecho por un móvil y el tiempo en efectuarlo:",
+    "options": [
+      { "text": "Aceleración", "correct": false },
+      { "text": "Velocidad angular", "correct": false },
+      { "text": "Velocidad media", "correct": true },
+      { "text": "Velocidad final", "correct": false }
+    ],
+    "hint": "Se calcula mediante un cociente. Si quisieras despejar el intervalo de tiempo, la fórmula es \\(\\Delta t = \\frac{\\Delta x}{v}\\).",
+    "explanation": "La velocidad media se define como el cociente entre el vector desplazamiento (cambio de posición) y el intervalo de tiempo en el que transcurre dicho desplazamiento (\\(v = \\frac{\\Delta x}{\\Delta t}\\)).",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FX",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "El campo eléctrico en función de la carga \\(Q\\) y la distancia \\(r\\), \\(E(Q,r)\\), cumple que es:",
+    "options": [
+      { "text": "directamente proporcional a \\(r\\)", "correct": false },
+      { "text": "directamente proporcional a \\(r^2\\)", "correct": false },
+      { "text": "inversamente proporcional a \\(r\\)", "correct": false },
+      { "text": "inversamente proporcional a \\(r^2\\)", "correct": true }
+    ],
+    "hint": "Analiza la Ley de Coulomb para el campo eléctrico. Si necesitaras conocer la distancia, el despeje es \\(r = \\sqrt{k \\frac{Q}{E}}\\).",
+    "explanation": "De acuerdo con la ley de Coulomb para el campo eléctrico generado por una carga puntual, \\(E = k\\frac{Q}{r^2}\\). Por lo tanto, la magnitud del campo es inversamente proporcional al cuadrado de la distancia.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FY",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Un automóvil tiene una masa de 900 kg y es elevado a una altura de 2 metros con la ayuda de una grúa. ¿Cuál es la energía potencial de ese automóvil?",
+    "options": [
+      { "text": "1800 Newtons", "correct": false },
+      { "text": "17640 Newtons", "correct": false },
+      { "text": "1800 Joules", "correct": false },
+      { "text": "17640 Joules", "correct": true }
+    ],
+    "hint": "Relaciona masa, gravedad y altura. El despeje de la altura a partir de esta energía es \\(h = \\frac{E_p}{mg}\\).",
+    "explanation": "La energía potencial gravitatoria se calcula con la fórmula \\(E_p = mgh\\). Sustituyendo los valores: \\(E_p = 900 \\text{ kg} \\times 9.8 \\text{ m/s}^2 \\times 2 \\text{ m} = 17640\\) Joules. Las unidades de energía son los Joules, no los Newtons.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25FZ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "Cuando estudiamos el movimiento de un cuerpo físico, resulta útil considerar la masa como un punto material, entonces nos referimos a la consideración de:",
+    "options": [
+      { "text": "Masa inercial", "correct": false },
+      { "text": "Cuerpo rígido", "correct": false },
+      { "text": "Partícula", "correct": true },
+      { "text": "Sistema de referencia", "correct": false }
+    ],
+    "hint": "Es un modelo simplificado donde no se consideran las dimensiones espaciales. En cinemática básica, el uso de la ecuación \\(v = \\frac{d}{t}\\) asume que evaluamos este modelo simplificado.",
+    "explanation": "En física (mecánica clásica), el modelo de 'partícula' o 'punto material' consiste en despreciar las dimensiones espaciales de un cuerpo para simplificar el estudio de su movimiento, asumiendo que toda su masa se concentra en un solo punto geométrico.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GA",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes unidades es utilizada para medir potencia?",
+    "options": [
+      { "text": "Pascal", "correct": false },
+      { "text": "Ergio", "correct": false },
+      { "text": "Joule", "correct": false },
+      { "text": "Watt", "correct": true }
+    ],
+    "hint": "La potencia mide la energía transferida en el tiempo. Si quieres encontrar el trabajo realizado, el despeje es \\(W = P \\times t\\).",
+    "explanation": "El Watt (o vatio, W) es la unidad del Sistema Internacional para medir la potencia, y equivale a la transferencia de un Joule de energía por segundo (1 W = 1 J/s).",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GB",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "Si la energía potencial de un piano de cola que se encuentra suspendido a una altura de 10 metros es de 19600 J, ¿cuál es la masa de dicho piano?",
+    "options": [
+      { "text": "200 kg", "correct": true },
+      { "text": "1960 kg", "correct": false },
+      { "text": "2000 kg", "correct": false },
+      { "text": "19600 kg", "correct": false }
+    ],
+    "hint": "Conoces la energía potencial y la altura. Si necesitaras determinar la aceleración gravitacional local, el despeje sería \\(g = \\frac{E_p}{mh}\\).",
+    "explanation": "Despejando la masa de la fórmula de energía potencial (\\(E_p = mgh\\)), tenemos \\(m = \\frac{E_p}{gh}\\). Sustituyendo: \\(m = \\frac{19600}{9.8 \\times 10} = \\frac{19600}{98} = 200\\) kg.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GC",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuáles son las posibles medidas de una superficie de medio metro cuadrado?",
+    "options": [
+      { "text": "50 centímetros de largo por 100 centímetros de ancho", "correct": true },
+      { "text": "50 centímetros cuadrados", "correct": false },
+      { "text": "Medio metro de largo por medio metro de ancho", "correct": false },
+      { "text": "Un metro de largo por 25 centímetros de ancho", "correct": false }
+    ],
+    "hint": "Recuerda que el área de un rectángulo es base por altura. Si quisieras despejar la base conociendo el área, sería \\(b = \\frac{A}{h}\\).",
+    "explanation": "Medio metro cuadrado equivale a \\(0.5 \\text{ m}^2\\). Convirtiendo las medidas de la opción correcta a metros: \\(0.5 \\text{ m} \\times 1.0 \\text{ m} = 0.5 \\text{ m}^2\\). El distractor 'medio metro por medio metro' resulta en \\(0.25 \\text{ m}^2\\).",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GD",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["REAL"],
+    "question": "Una fuerza levanta un tinaco lleno con 1100 litros de agua potable, desde el suelo hasta una altura de 3 metros. ¿Qué trabajo realiza la fuerza?",
+    "options": [
+      { "text": "3300 Joules", "correct": false },
+      { "text": "3234 Joules", "correct": false },
+      { "text": "33300 Joules", "correct": false },
+      { "text": "32340 Joules", "correct": true }
+    ],
+    "hint": "Un litro de agua tiene una masa de 1 kg. Si conoces el trabajo y quieres despejar la masa que se levantó, usa \\(m = \\frac{W}{gh}\\).",
+    "explanation": "Sabiendo que la densidad del agua es de \\(\\approx 1 \\text{ kg/L}\\), la masa de 1100 litros es de 1100 kg. El trabajo mecánico realizado contra la gravedad equivale al cambio en la energía potencial: \\(W = mgh = 1100 \\text{ kg} \\times 9.8 \\text{ m/s}^2 \\times 3 \\text{ m} = 32340\\) Joules.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GE",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["REAL"],
+    "question": "¿Cuál de las siguientes unidades es utilizada para medir carga eléctrica?",
+    "options": [
+      { "text": "Gauss", "correct": false },
+      { "text": "Coulomb", "correct": true },
+      { "text": "Amper", "correct": false },
+      { "text": "Watt", "correct": false }
+    ],
+    "hint": "La carga se relaciona con la corriente y el tiempo. El despeje para conocer la corriente eléctrica es \\(I = \\frac{q}{t}\\).",
+    "explanation": "El Coulomb (C) es la unidad derivada del Sistema Internacional para la medida de la carga eléctrica. El Amperio mide corriente eléctrica, el Gauss campo magnético y el Watt potencia.",
+    "image": "https://i.imgur.com/E5XGakw.png",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
