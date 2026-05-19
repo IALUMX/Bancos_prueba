@@ -1081,5 +1081,347 @@
     "image": "https://i.imgur.com/pT7EObO.png",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP13AD",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el término que falta en la siguiente sucesión: 10, -2, -14, -26, ___?",
+    "options": [
+      { "text": "-38", "correct": true },
+      { "text": "-36", "correct": false },
+      { "text": "-40", "correct": false },
+      { "text": "-34", "correct": false }
+    ],
+    "hint": "Calcula la diferencia restando el primer término al segundo.",
+    "explanation": "La sucesión disminuye 12 unidades en cada paso. Por lo tanto, -26 - 12 = -38.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AE",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el término que continúa en la serie: 15, 6, -3, -12, ___?",
+    "options": [
+      { "text": "-24", "correct": false },
+      { "text": "-19", "correct": false },
+      { "text": "-21", "correct": true },
+      { "text": "-18", "correct": false }
+    ],
+    "hint": "Encuentra el valor constante que se resta de un término para obtener el siguiente.",
+    "explanation": "Se restan 9 unidades en cada paso. Restando 9 a -12 obtenemos -21.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AF",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Determina el número que continúa en la sucesión: 22, 8, -6, -20, ___.",
+    "options": [
+      { "text": "-30", "correct": false },
+      { "text": "-34", "correct": true },
+      { "text": "-36", "correct": false },
+      { "text": "-28", "correct": false }
+    ],
+    "hint": "Observa cuánto disminuye el valor de un número al siguiente.",
+    "explanation": "La diferencia constante es de -14. Por lo tanto, -20 - 14 = -34.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AG",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Indica el número que continúa en la siguiente sucesión: 8, 7.1, 6.02, 5.003, 4.0004, ___ .",
+    "options": [
+      { "text": "3.0005", "correct": false },
+      { "text": "3.000005", "correct": false },
+      { "text": "4.00005", "correct": false },
+      { "text": "3.00005", "correct": true }
+    ],
+    "hint": "Analiza el comportamiento de los enteros y los decimales por separado.",
+    "explanation": "Los enteros bajan de 1 en 1. En la parte decimal, se agrega un cero más en cada posición y el último dígito aumenta de 1 en 1.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AH",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el número que sigue en esta sucesión: 12, 11.2, 10.04, 9.006, ___ ?",
+    "options": [
+      { "text": "8.0008", "correct": true },
+      { "text": "8.008", "correct": false },
+      { "text": "8.00008", "correct": false },
+      { "text": "7.0008", "correct": false }
+    ],
+    "hint": "Observa la secuencia de los números pares en los decimales y la cantidad de ceros.",
+    "explanation": "Los enteros disminuyen de 1 en 1. Los decimales son pares sucesivos (2, 4, 6, 8) agregando un cero adicional en cada paso.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AI",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Encuentra el término faltante en la sucesión: 5, 4.3, 3.06, 2.009, ___ .",
+    "options": [
+      { "text": "1.0012", "correct": false },
+      { "text": "1.000012", "correct": false },
+      { "text": "1.00012", "correct": true },
+      { "text": "0.00012", "correct": false }
+    ],
+    "hint": "Revisa de cuánto en cuánto aumentan los últimos dígitos de los decimales.",
+    "explanation": "Los enteros disminuyen en 1. En los decimales, el número aumenta de 3 en 3 (3, 6, 9, 12) sumando un cero a la izquierda en cada nivel.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AJ",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Encuentra los términos que faltan en la siguiente sucesión: 5, 12, 16, 8, 27, 4, ___, ___.",
+    "options": [
+      { "text": "38 y 49", "correct": false },
+      { "text": "49 y 0", "correct": false },
+      { "text": "38 y 0", "correct": true },
+      { "text": "49 y 38", "correct": false }
+    ],
+    "hint": "Analiza los números saltando una posición, es decir, separa en dos series intercaladas.",
+    "explanation": "Hay dos secuencias. Las posiciones impares suman 11 (5, 16, 27, 38). Las posiciones pares restan 4 (12, 8, 4, 0).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AK",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Determina los dos números que continúan en la serie: 7, 50, 14, 40, 28, 30, ___, ___.",
+    "options": [
+      { "text": "42 y 20", "correct": false },
+      { "text": "56 y 20", "correct": true },
+      { "text": "56 y 10", "correct": false },
+      { "text": "35 y 20", "correct": false }
+    ],
+    "hint": "Separa la serie en dos patrones distintos alternados uno a uno.",
+    "explanation": "La primera subserie se multiplica por 2 (7, 14, 28, 56). La segunda subserie resta 10 (50, 40, 30, 20).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AL",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuáles son los números faltantes en la sucesión: 3, 20, 8, 15, 13, 10, ___, ___?",
+    "options": [
+      { "text": "18 y 10", "correct": false },
+      { "text": "15 y 5", "correct": false },
+      { "text": "23 y 5", "correct": false },
+      { "text": "18 y 5", "correct": true }
+    ],
+    "hint": "Observa los términos en las posiciones impares y luego los de las posiciones pares de forma independiente.",
+    "explanation": "Las posiciones impares aumentan de 5 en 5 (3, 8, 13, 18). Las posiciones pares disminuyen de 5 en 5 (20, 15, 10, 5).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AM",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Las primeras cuatro figuras de una serie tienen los siguientes números de puntos: 2, 6, 12 y 20. ¿Cuántos puntos tendrá la que ocupa la octava posición?",
+    "options": [
+      { "text": "56", "correct": false },
+      { "text": "72", "correct": true },
+      { "text": "90", "correct": false },
+      { "text": "64", "correct": false }
+    ],
+    "hint": "Multiplica la posición de la figura por el número consecutivo que le sigue.",
+    "explanation": "El patrón corresponde a multiplicar la posición 'n' por 'n+1'. Para la octava posición es 8 x 9 = 72.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AN",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una secuencia de figuras formadas por puntos, la primera figura tiene 2 puntos, la segunda 6, la tercera 12 y la cuarta 20. ¿Cuántos puntos tendrá la figura en la décima posición?",
+    "options": [
+      { "text": "100", "correct": false },
+      { "text": "90", "correct": false },
+      { "text": "110", "correct": true },
+      { "text": "120", "correct": false }
+    ],
+    "hint": "Utiliza la fórmula n(n+1) donde 'n' es la posición.",
+    "explanation": "Aplicando el patrón n(n+1) para la décima posición, multiplicamos 10 x 11 = 110.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AO",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Sabiendo que una secuencia de mosaicos sigue el patrón de 2, 6, 12, 20..., ¿cuántos mosaicos tendrá la figura en la duodécima (12) posición?",
+    "options": [
+      { "text": "144", "correct": false },
+      { "text": "156", "correct": true },
+      { "text": "132", "correct": false },
+      { "text": "168", "correct": false }
+    ],
+    "hint": "Identifica la relación entre la posición y la multiplicación de números enteros consecutivos.",
+    "explanation": "La cantidad de mosaicos se calcula con n(n+1). Para la posición 12, se multiplica 12 x 13 = 156.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AP",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un jardinero tiene que podar un campo de fútbol. Si lo hace a razón de 2/3 por día, ¿en cuántos días terminará?",
+    "options": [
+      { "text": "1 día", "correct": false },
+      { "text": "2 días", "correct": false },
+      { "text": "1.5 días", "correct": true },
+      { "text": "0.6 días", "correct": false }
+    ],
+    "hint": "Expresa el trabajo completo como 1 entero y divídelo entre la fracción que avanza por día.",
+    "explanation": "Utilizando regla de tres, dividimos 1 (campo completo) entre el avance diario (2/3). El resultado es 3/2, lo cual equivale a 1.5 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AQ",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un pintor debe pintar la barda de una escuela. Si avanza a razón de 3/5 de la barda por día, ¿en cuántos días terminará de pintar toda la barda?",
+    "options": [
+      { "text": "3/5 de día", "correct": false },
+      { "text": "5/3 de día", "correct": true },
+      { "text": "2 días", "correct": false },
+      { "text": "6/5 de día", "correct": false }
+    ],
+    "hint": "Recuerda que para encontrar el tiempo total, debes dividir el trabajo total (1) entre el avance por jornada.",
+    "explanation": "Dividiendo 1 barda completa entre 3/5, obtenemos la fracción inversa: 5/3 de día (o 1.66 días).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AR",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un trabajador repara una calle a un ritmo de 4/7 del tramo por jornada. ¿Cuántas jornadas necesita para terminar la calle completa?",
+    "options": [
+      { "text": "4/7 de jornada", "correct": false },
+      { "text": "3/4 de jornada", "correct": false },
+      { "text": "2 jornadas", "correct": false },
+      { "text": "7/4 de jornada", "correct": true }
+    ],
+    "hint": "La cantidad de días es el recíproco de la fracción del trabajo diario.",
+    "explanation": "Al dividir 1 (trabajo total) entre 4/7, el resultado es 7/4 de jornada, es decir, 1.75 jornadas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AS",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Cinco personas ganaron un premio de $6,300 y se repartió de la siguiente manera: al primer ganador se le otorgó el triple de dinero que a los otros cuatro, quienes recibieron cantidades iguales. ¿Cuánto le tocó al primer ganador?",
+    "options": [
+      { "text": "$1,800", "correct": false },
+      { "text": "$2,700", "correct": true },
+      { "text": "$3,600", "correct": false },
+      { "text": "$2,400", "correct": false }
+    ],
+    "hint": "Imagina que el ganador que recibe el triple representa a 3 personas en un reparto equitativo. ¿Entre cuántas partes en total se divide?",
+    "explanation": "El primer ganador equivale a 3 partes. Sumando las 4 partes de los demás, tenemos 7 partes. $6,300 / 7 = $900. El primero recibe el triple: 3 x 900 = $2,700.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AT",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un estudiante del CEPREDIX y tres amigos ganan un premio de $4,800 en una rifa. Deciden que el estudiante reciba el doble que los otros tres, quienes recibirán partes iguales. ¿Cuánto dinero le tocó al estudiante del CEPREDIX?",
+    "options": [
+      { "text": "$960", "correct": false },
+      { "text": "$2,400", "correct": false },
+      { "text": "$1,920", "correct": true },
+      { "text": "$1,200", "correct": false }
+    ],
+    "hint": "Considera que la porción doble del estudiante cuenta como si fueran dos personas al repartir el total equitativamente.",
+    "explanation": "El estudiante vale por 2 partes, más los 3 amigos, son 5 partes totales. $4,800 / 5 = $960. El estudiante recibe el doble: 2 x 960 = $1,920.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AU",
+    "tag01": ["EXANI II", "UNAM", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Seis socios se reparten las utilidades de un mes que ascienden a $18,000. El socio fundador recibe cinco veces lo que recibe cada uno de los otros cinco socios, quienes reciben la misma cantidad. ¿Cuánto dinero recibe el socio fundador?",
+    "options": [
+      { "text": "$3,000", "correct": false },
+      { "text": "$7,500", "correct": false },
+      { "text": "$9,000", "correct": true },
+      { "text": "$6,000", "correct": false }
+    ],
+    "hint": "Suma las partes correspondientes a todos los involucrados, tomando en cuenta la proporción mayor del fundador.",
+    "explanation": "El fundador equivale a 5 partes, más las 5 partes de los otros socios, da 10 partes en total. $18,000 / 10 = $1,800. El fundador recibe 5 veces eso: 5 x 1800 = $9,000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
