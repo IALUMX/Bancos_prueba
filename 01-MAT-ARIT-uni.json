@@ -3703,5 +3703,499 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP10QT",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La edad de Daniela es 45 años y la edad de Victoria es de 9 años. ¿Cuántas veces es más grande Daniela que Victoria?",
+    "options": [
+      { "text": "5 veces", "correct": true },
+      { "text": "6 veces", "correct": false },
+      { "text": "7 veces", "correct": false },
+      { "text": "9 veces", "correct": false }
+    ],
+    "hint": "Divide la edad mayor entre la menor.",
+    "explanation": "45 / 9 = 5 veces mayor.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un transeúnte recorre 0.5 m en un segundo y un automóvil recorre 50 km en una hora. Si ambos tienen rapidez constante, ¿cuántas veces es más rápido el automóvil que el transeúnte?",
+    "options": [
+      { "text": "27.8 veces", "correct": true },
+      { "text": "13.8 veces", "correct": false },
+      { "text": "6.9 veces", "correct": false },
+      { "text": "100 veces", "correct": false }
+    ],
+    "hint": "Convierte a unidades consistentes (m/s).",
+    "explanation": "Transeúnte: 0.5 m/s. Auto: 50 km/h = 50000 m / 3600 s ≈ 13.888 m/s. Razón = 13.888 / 0.5 ≈ 27.78.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una pileta es llenada por dos llaves. La primera llena en 6 h y, la segunda llena en 4 h. ¿Cuántas veces es más rápida la segunda llave que la primera?",
+    "options": [
+      { "text": "1 vez", "correct": false },
+      { "text": "1.5 veces", "correct": true },
+      { "text": "2 veces", "correct": false },
+      { "text": "2.5 veces", "correct": false }
+    ],
+    "hint": "La rapidez es inversamente proporcional al tiempo.",
+    "explanation": "(1/4) / (1/6) = 6/4 = 1.5 veces más rápida.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QW",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una pista dos corredores dan 4 vueltas y cronometran los siguientes tiempos: el primer corredor 220 segundos y el segundo 3 minutos. Si la velocidad de cada corredor es constante, ¿quién de ellos es más rápido?",
+    "options": [
+      { "text": "Primer corredor", "correct": true },
+      { "text": "Segundo corredor", "correct": false },
+      { "text": "Su velocidad es anteriormente", "correct": false },
+      { "text": "Ninguna de las anteriores", "correct": false }
+    ],
+    "hint": "Convierte a segundos: 3 minutos = 180 segundos.",
+    "explanation": "El segundo corredor tarda 180 s < 220 s, por lo tanto es más rápido.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QX",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( m \\) varía en proporción directa con \\( n \\), cuando \\( m = 15 \\), \\( n = 45 \\), ¿cuál es el valor de \\( n \\), si \\( m = 120 \\)?",
+    "options": [
+      { "text": "25", "correct": false },
+      { "text": "40", "correct": false },
+      { "text": "180", "correct": false },
+      { "text": "360", "correct": true }
+    ],
+    "hint": "En proporción directa: m/n = constante.",
+    "explanation": "15/45 = 120/n → n = (120 × 45) / 15 = 360.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QY",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Determina el valor de la incógnita \\( x \\) en la siguiente proporción \\(\\frac{18}{x} = \\frac{108}{5}\\)",
+    "options": [
+      { "text": "25", "correct": false },
+      { "text": "39", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "40", "correct": true }
+    ],
+    "hint": "Despeja x: x = (18 × 5) / 108.",
+    "explanation": "x = 90 / 108 = 0.833... No coincide con opciones. Se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10QZ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) varía en proporción inversa con \\( y \\), cuando \\( x = 15 \\), \\( y = 14 \\), ¿cuál es el valor de \\( x \\), si \\( y = 7 \\)?",
+    "options": [
+      { "text": "90", "correct": false },
+      { "text": "60", "correct": false },
+      { "text": "30", "correct": true },
+      { "text": "6.5", "correct": false }
+    ],
+    "hint": "En proporción inversa: x × y = constante.",
+    "explanation": "15 × 14 = 210, entonces x × 7 = 210 → x = 30.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RA",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Durante 32 días de trabajo, Ana ha ganado $8 200.00. ¿Cuánto habría ganado si hubiera trabajado 15 días más?",
+    "options": [
+      { "text": "$12,043.75", "correct": true },
+      { "text": "$11,876.23", "correct": false },
+      { "text": "$9,465.80", "correct": false },
+      { "text": "$13,980.60", "correct": false }
+    ],
+    "hint": "Regla de tres directa: días → dinero.",
+    "explanation": "32 días → 8200; 47 días → (47 × 8200) / 32 = 12043.75.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RB",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una decena de pelotas tienen un costo de $360.00. ¿Cuánto costarán 25 pelotas?",
+    "options": [
+      { "text": "$785.00", "correct": false },
+      { "text": "$875.00", "correct": false },
+      { "text": "$900.00", "correct": true },
+      { "text": "$504.00", "correct": false }
+    ],
+    "hint": "Regla de tres directa: 10 pelotas → 360.",
+    "explanation": "360 / 10 = 36 por pelota; 25 × 36 = 900.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RC",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Seis hombres siembran hortaliza en diez días, ¿en cuánto tiempo sembrarán la misma hortaliza, sólo cuatro hombres?",
+    "options": [
+      { "text": "6.5 días", "correct": false },
+      { "text": "22.5 días", "correct": false },
+      { "text": "15 días", "correct": true },
+      { "text": "20 días", "correct": false }
+    ],
+    "hint": "Proporción inversa: menos hombres → más días.",
+    "explanation": "6 × 10 = 4 × d → d = 60/4 = 15 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RD",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si 4 estudiantes pueden terminar una tarea en 6 días. ¿Cuántos estudiantes más se necesita para concluirlo en 2 días?",
+    "options": [
+      { "text": "8", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "2", "correct": true }
+    ],
+    "hint": "Inversa: 4 × 6 = x × 2 → x = 12 estudiantes totales.",
+    "explanation": "Se necesitan 12 estudiantes en total; ya hay 4, se necesitan 8 más. La opción d) 2 es incorrecta, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RE",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una docena de hombres construyen una barca en 20 días, ¿en cuánto tiempo la construirán 15 hombres?",
+    "options": [
+      { "text": "15 días", "correct": false },
+      { "text": "16 días", "correct": true },
+      { "text": "9 días", "correct": false },
+      { "text": "10 días", "correct": false }
+    ],
+    "hint": "Inversa: 12 × 20 = 15 × d → d = 240/15 = 16 días.",
+    "explanation": "240 / 15 = 16 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RF",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Fabián pinta una pared en 6 días, Liam la pinta en 3 días y Daniel hace la misma tarea en 2 días. ¿Cuánto tiempo les llevará realizar esta tarea los tres juntos?",
+    "options": [
+      { "text": "11 días", "correct": false },
+      { "text": "9 días", "correct": false },
+      { "text": "3.6 días", "correct": false },
+      { "text": "1 día", "correct": true }
+    ],
+    "hint": "Suma de rapideces: 1/6 + 1/3 + 1/2 = 1/6+2/6+3/6=6/6=1.",
+    "explanation": "En 1 día hacen toda la tarea.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RG",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un cisterna se llena en 6 horas. Un vaso de agua caliente en 4 horas, mientras que la misma cisterna se llena con una llave de agua fría en 5 horas. ¿Cuánto tiempo les llevará a ambas llaves llenar la cisterna?",
+    "options": [
+      { "text": "2.2 horas", "correct": true },
+      { "text": "3 horas", "correct": false },
+      { "text": "4.5 horas", "correct": false },
+      { "text": "6 horas", "correct": false }
+    ],
+    "hint": "Suma las rapideces: 1/4 + 1/5 = 5/20+4/20=9/20.",
+    "explanation": "Tiempo = 20/9 ≈ 2.22 horas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El 35% en fracción se representa como:",
+    "options": [
+      { "text": "\\( \\frac{7}{20} \\)", "correct": true },
+      { "text": "\\( \\frac{20}{7} \\)", "correct": false },
+      { "text": "\\( \\frac{11}{20} \\)", "correct": false },
+      { "text": "\\( \\frac{7}{10} \\)", "correct": false }
+    ],
+    "hint": "35% = 35/100 = 7/20.",
+    "explanation": "Simplificando 35/100 entre 5 da 7/20.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RI",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El 55% de 2 500 es:",
+    "options": [
+      { "text": "1 125", "correct": false },
+      { "text": "1 375", "correct": true },
+      { "text": "1 405", "correct": false },
+      { "text": "1 200", "correct": false }
+    ],
+    "hint": "55% = 0.55; 0.55 × 2500 = 1375.",
+    "explanation": "2500 × 0.55 = 1375.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RJ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El 30% de 800 es:",
+    "options": [
+      { "text": "240", "correct": true },
+      { "text": "0.240", "correct": false },
+      { "text": "240", "correct": true },
+      { "text": "24", "correct": false }
+    ],
+    "hint": "30% = 0.3; 800 × 0.3 = 240.",
+    "explanation": "800 × 0.3 = 240.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "\\( \\frac{3}{4} \\) en porcentaje equivale al:",
+    "options": [
+      { "text": "30%", "correct": false },
+      { "text": "40%", "correct": false },
+      { "text": "75%", "correct": true },
+      { "text": "60%", "correct": false }
+    ],
+    "hint": "Multiplica por 100: (3/4) × 100 = 75%.",
+    "explanation": "3/4 = 0.75 = 75%.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿A qué porcentaje equivale \\( \\frac{1}{8} \\)?",
+    "options": [
+      { "text": "12.5%", "correct": true },
+      { "text": "80%", "correct": false },
+      { "text": "25%", "correct": false },
+      { "text": "125%", "correct": false }
+    ],
+    "hint": "1/8 = 0.125 = 12.5%.",
+    "explanation": "0.125 × 100 = 12.5%.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El porcentaje que representa \\( \\frac{2}{5} \\) es:",
+    "options": [
+      { "text": "100%", "correct": false },
+      { "text": "40%", "correct": true },
+      { "text": "70%", "correct": false },
+      { "text": "20%", "correct": false }
+    ],
+    "hint": "2/5 = 0.4 = 40%.",
+    "explanation": "0.4 × 100 = 40%.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un artículo tiene un precio de $1 650.00 y al momento de comprarlo se efectúa un descuento de 42%. ¿Cuánto se paga al adquirirlo?",
+    "options": [
+      { "text": "$870.00", "correct": false },
+      { "text": "$957.00", "correct": true },
+      { "text": "$658.00", "correct": false },
+      { "text": "$1 105.00", "correct": false }
+    ],
+    "hint": "Paga 58% del precio original.",
+    "explanation": "1650 × 0.58 = 957.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En un grupo de 60 alumnos, 20% son mujeres. ¿Cuál es el número de varones?",
+    "options": [
+      { "text": "12 varones", "correct": false },
+      { "text": "30 varones", "correct": false },
+      { "text": "48 varones", "correct": true },
+      { "text": "70 varones", "correct": false }
+    ],
+    "hint": "Mujeres = 20% de 60 = 12; varones = 60 - 12 = 48.",
+    "explanation": "60 × 0.20 = 12 mujeres; 60 - 12 = 48 varones.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un pantalón tiene un costo de $340.00 incluido un descuento de 30%. ¿Cuál es el precio real de la camisa?",
+    "options": [
+      { "text": "$400", "correct": false },
+      { "text": "$485.71", "correct": true },
+      { "text": "$238.00", "correct": false },
+      { "text": "$102.00", "correct": false }
+    ],
+    "hint": "Precio con descuento = 70% del original.",
+    "explanation": "340 = 0.7 × P → P = 340 / 0.7 ≈ 485.71.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Daniel vendió un automóvil en $32,200.00, ganando así 15% de lo que le había costado. ¿En cuánto compró el automóvil Daniel?",
+    "options": [
+      { "text": "$27,370.00", "correct": false },
+      { "text": "$30,000.00", "correct": false },
+      { "text": "$23,800.00", "correct": false },
+      { "text": "$28,000.00", "correct": true }
+    ],
+    "hint": "Precio de venta = costo + 15% costo = 1.15 × costo.",
+    "explanation": "32200 / 1.15 = 28000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RR",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El costo de una calculadora es $161.00 ya con 15% de IVA incluido, ¿cuál es el precio de la calculadora sin IVA?",
+    "options": [
+      { "text": "$138.00", "correct": false },
+      { "text": "$140.00", "correct": true },
+      { "text": "$155.00", "correct": false },
+      { "text": "$185.5", "correct": false }
+    ],
+    "hint": "Precio con IVA = precio sin IVA × 1.15.",
+    "explanation": "161 / 1.15 = 140.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP10RS",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una motocicleta deportiva viaja a 280 kilómetros por hora y un ciclista recorre 35 kilómetros por hora. Si la velocidad de ambos vehículos es constante, ¿cuántas veces es más rápida la motocicleta respecto al ciclista?",
+    "options": [
+      { "text": "2 veces", "correct": false },
+      { "text": "4 veces", "correct": false },
+      { "text": "7 veces", "correct": false },
+      { "text": "8 veces", "correct": true }
+    ],
+    "hint": "Divide la velocidad mayor entre la menor.",
+    "explanation": "280 / 35 = 8 veces más rápida.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
