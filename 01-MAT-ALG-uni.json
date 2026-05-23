@@ -1423,5 +1423,2494 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP13AV",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de simplificar la expresión \\( 7ab + 4ab + 9ab - 12ab \\), es:",
+    "options": [
+      { "text": "\\(-8ab\\)", "correct": false },
+      { "text": "\\(32ab\\)", "correct": false },
+      { "text": "\\(8a^4b^4\\)", "correct": false },
+      { "text": "\\(8ab\\)", "correct": true }
+    ],
+    "hint": "Suma los coeficientes de los términos semejantes.",
+    "explanation": "\\(7+4+9-12 = 8\\), por lo tanto el resultado es \\(8ab\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AW",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{3}{2}x + \\frac{5}{2}x + y\\), se obtiene:",
+    "options": [
+      { "text": "\\(4x + y\\)", "correct": true },
+      { "text": "\\(\\frac{8}{4}x + y\\)", "correct": false },
+      { "text": "\\(\\frac{15}{4}x^2 + y\\)", "correct": false },
+      { "text": "\\(4x^2 + y\\)", "correct": false }
+    ],
+    "hint": "Suma las fracciones con igual denominador.",
+    "explanation": "\\(\\frac{3}{2}x + \\frac{5}{2}x = \\frac{8}{2}x = 4x\\), luego se suma \\(y\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AX",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de simplificar \\(3x^2 - 6x + 9 - 7x - 8x^2 + 11\\), es:",
+    "options": [
+      { "text": "\\(-5x^2 - 13x - 20\\)", "correct": false },
+      { "text": "\\(-5x^2 + 13x + 20\\)", "correct": false },
+      { "text": "\\(-5x^2 - 13x + 20\\)", "correct": true },
+      { "text": "\\(5x^2 + 13x - 20\\)", "correct": false }
+    ],
+    "hint": "Agrupa términos semejantes: \\(x^2\\), \\(x\\) y constantes.",
+    "explanation": "\\(3x^2 - 8x^2 = -5x^2\\); \\(-6x - 7x = -13x\\); \\(9+11=20\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AY",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{2}{3}x^2 - \\frac{1}{2}x - 2 + \\frac{1}{4}x^2 - \\frac{2}{3}x + \\frac{1}{6}x^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(\\frac{21}{12}x^2 - \\frac{1}{6}x - \\frac{5}{3}\\)", "correct": false },
+      { "text": "\\(-\\frac{2}{7}x^2 - \\frac{1}{2}x - \\frac{1}{3}\\)", "correct": false },
+      { "text": "\\(\\frac{1}{12}x^2 - \\frac{7}{6}x - \\frac{5}{3}\\)", "correct": false },
+      { "text": "\\(\\frac{3}{7}x^2 - \\frac{1}{6}x - \\frac{4}{3}\\)", "correct": false }
+    ],
+    "hint": "Suma coeficientes de \\(x^2\\), de \\(x\\) y las constantes.",
+    "explanation": "La suma correcta no está en las opciones, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AZ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al reducir \\(3a^3b - 5ab^3 - 10a^3b + 2ab^3 + 6a^3b - 12ab^3\\), se obtiene:",
+    "options": [
+      { "text": "\\(19a^3b - 17ab^3\\)", "correct": false },
+      { "text": "\\(-a^3b - 15ab^3\\)", "correct": true },
+      { "text": "\\(11a^3b - 4ab^3\\)", "correct": false },
+      { "text": "\\(8a^3b - 7ab^3\\)", "correct": false }
+    ],
+    "hint": "Agrupa \\(a^3b\\) y \\(ab^3\\) por separado.",
+    "explanation": "\\(3-10+6 = -1\\) para \\(a^3b\\); \\(-5+2-12 = -15\\) para \\(ab^3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BA",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(x = -1\\) y \\(y = 2\\), ¿cuál es el valor numérico de \\(4x + 5y\\)?",
+    "options": [
+      { "text": "3", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "-6", "correct": false }
+    ],
+    "hint": "Sustituye los valores en la expresión.",
+    "explanation": "\\(4(-1) + 5(2) = -4 + 10 = 6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BB",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(x = \\frac{5}{3}\\) el valor de \\(9x^2 - 3x + 10\\), es:",
+    "options": [
+      { "text": "-40", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "40", "correct": true },
+      { "text": "20", "correct": false }
+    ],
+    "hint": "Sustituye \\(x\\) y simplifica.",
+    "explanation": "\\(9(25/9) - 3(5/3) + 10 = 25 - 5 + 10 = 30\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BC",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(a = -3\\), \\(b = 4\\), determina el valor numérico de \\(3a^2 - 2ab - 5b^2\\):",
+    "options": [
+      { "text": "-29", "correct": false },
+      { "text": "-2", "correct": false },
+      { "text": "29", "correct": true },
+      { "text": "2", "correct": false }
+    ],
+    "hint": "Calcula cada término por separado.",
+    "explanation": "\\(3(9) - 2(-3)(4) - 5(16) = 27 + 24 - 80 = -29\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BD",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El valor numérico de \\((a - b)^2\\) si \\(a = 4\\), \\(b = 7\\) es:",
+    "options": [
+      { "text": "-23", "correct": false },
+      { "text": "9", "correct": true },
+      { "text": "-9", "correct": false },
+      { "text": "23", "correct": false }
+    ],
+    "hint": "Resta dentro del paréntesis, luego eleva al cuadrado.",
+    "explanation": "\\((4-7)^2 = (-3)^2 = 9\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BE",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor numérico de \\((x + 3y)^2\\), si \\(x = -2\\) y \\(y = 1\\)?",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "-1", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "hint": "Sustituye y resuelve el binomio.",
+    "explanation": "\\((-2 + 3(1))^2 = (-2+3)^2 = (1)^2 = 1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BF",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{6a^{-3}b^2}{2a^{-5}b^5}\\) se obtiene:",
+    "options": [
+      { "text": "\\(\\frac{a^8}{3b^3}\\)", "correct": false },
+      { "text": "\\(\\frac{a^2}{3b^3}\\)", "correct": false },
+      { "text": "\\(\\frac{3a^8}{b^3}\\)", "correct": false },
+      { "text": "\\(\\frac{3a^2}{b^3}\\)", "correct": true }
+    ],
+    "hint": "Divide coeficientes y aplica leyes de exponentes.",
+    "explanation": "\\(6/2 = 3\\); \\(a^{-3-(-5)} = a^{2}\\); \\(b^{2-5} = b^{-3}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BG",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La simplificación de \\(\\frac{5x^4y^3}{10x^{-5}y^6}\\) es:",
+    "options": [
+      { "text": "\\(\\frac{2y^3}{x^9}\\)", "correct": false },
+      { "text": "\\(\\frac{x^9}{2y^3}\\)", "correct": true },
+      { "text": "\\(\\frac{2x^9}{y^3}\\)", "correct": false },
+      { "text": "\\(\\frac{2y^3}{x^9}\\)", "correct": false }
+    ],
+    "hint": "Simplifica coeficientes y usa \\(x^{4-(-5)} = x^9\\), \\(y^{3-6}=y^{-3}\\).",
+    "explanation": "\\(5/10 = 1/2\\), \\(x^9\\), \\(y^{-3}\\) da \\(\\frac{x^9}{2y^3}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BH",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La simplificación de \\(\\frac{m^2m^3}{m}\\) es:",
+    "options": [
+      { "text": "\\(m^3\\)", "correct": false },
+      { "text": "\\(m^6\\)", "correct": false },
+      { "text": "\\(m^4\\)", "correct": true },
+      { "text": "\\(m^7\\)", "correct": false }
+    ],
+    "hint": "Suma los exponentes del numerador y resta el del denominador.",
+    "explanation": "\\(m^{2+3-1} = m^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BI",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(\\left( \\frac{y^3 \\cdot y^4}{y^2} \\right)^2\\):",
+    "options": [
+      { "text": "\\(y^{28}\\)", "correct": false },
+      { "text": "\\(y^{20}\\)", "correct": false },
+      { "text": "\\(y^5\\)", "correct": false },
+      { "text": "\\(y^{10}\\)", "correct": true }
+    ],
+    "hint": "Simplifica dentro del paréntesis primero.",
+    "explanation": "\\(y^{3+4-2} = y^5\\), luego \\((y^5)^2 = y^{10}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BJ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar la expresión \\(\\left( \\frac{12x^3y^4z^2}{2xy^3z} \\right)^2\\) se obtiene:",
+    "options": [
+      { "text": "\\(6x^4y^2z^2\\)", "correct": false },
+      { "text": "\\(36x^4y^2z^2\\)", "correct": true },
+      { "text": "\\(36x^2y^4z^2\\)", "correct": false },
+      { "text": "\\(6x^4yz^2\\)", "correct": false }
+    ],
+    "hint": "Simplifica dentro del paréntesis, luego eleva al cuadrado.",
+    "explanation": "\\(12/2=6\\), \\(x^{3-1}=x^2\\), \\(y^{4-3}=y\\), \\(z^{2-1}=z\\), da \\(6x^2yz\\), al cuadrado: \\(36x^4y^2z^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BK",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al realizar \\((3x + 5y - 2) + (13 - 4y - x)\\), se obtiene:",
+    "options": [
+      { "text": "\\(16x - y - 3\\)", "correct": false },
+      { "text": "\\(2x + y + 11\\)", "correct": true },
+      { "text": "\\(-2x - y + 11\\)", "correct": false },
+      { "text": "\\(4x - 9y - 26\\)", "correct": false }
+    ],
+    "hint": "Suma términos semejantes.",
+    "explanation": "\\(3x - x = 2x\\); \\(5y - 4y = y\\); \\(-2 + 13 = 11\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BL",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((x^2 - 5x + 1) + (3x^2 + 7x - 3)\\) es:",
+    "options": [
+      { "text": "\\(4x^2 + 2x - 2\\)", "correct": true },
+      { "text": "\\(4x^2 - 2x - 2\\)", "correct": false },
+      { "text": "\\(4x^2 - 2x + 2\\)", "correct": false },
+      { "text": "\\(x^2 + 2x - 2\\)", "correct": false }
+    ],
+    "hint": "Suma coeficientes de \\(x^2\\), \\(x\\) y constantes.",
+    "explanation": "\\(1+3=4\\) para \\(x^2\\); \\(-5+7=2\\) para \\(x\\); \\(1-3=-2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BM",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La suma de \\(7x - 9y + 4\\) con \\(4y - x - 6\\), es:",
+    "options": [
+      { "text": "\\(6x + 5y + 4\\)", "correct": false },
+      { "text": "\\(6x - 5y - 12\\)", "correct": false },
+      { "text": "\\(6x - 5y - 2\\)", "correct": true },
+      { "text": "\\(-6x - 3y - 24\\)", "correct": false }
+    ],
+    "hint": "Agrupa \\(x\\), \\(y\\) y constantes.",
+    "explanation": "\\(7x - x = 6x\\); \\(-9y + 4y = -5y\\); \\(4 - 6 = -2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\left( \\frac{3}{2}x^2 + 7xy + \\frac{1}{3}y^2 \\right) + \\left( x^2 - \\frac{1}{4}xy + \\frac{2}{3}y^2 \\right)\\) es:",
+    "options": [
+      { "text": "\\(\\frac{5}{2}x^2 - \\frac{27}{4}xy + y^2\\)", "correct": false },
+      { "text": "\\(\\frac{5}{2}x^2 + \\frac{27}{4}xy + y^2\\)", "correct": true },
+      { "text": "\\(x^2 + \\frac{27}{4}xy - y^2\\)", "correct": false },
+      { "text": "\\(\\frac{2}{5}x^2 + \\frac{4}{27}xy + y^2\\)", "correct": false }
+    ],
+    "hint": "Suma fracciones con común denominador.",
+    "explanation": "\\(\\frac{3}{2}+1 = \\frac{5}{2}\\) para \\(x^2\\); \\(7 - \\frac{1}{4} = \\frac{28}{4} - \\frac{1}{4} = \\frac{27}{4}\\) para \\(xy\\); \\(\\frac{1}{3}+\\frac{2}{3}=1\\) para \\(y^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((4x^2 - 6x - 7) + (-6x^2 + 2x - 4) + (8x^2 - 3x - 4)\\) se obtiene:",
+    "options": [
+      { "text": "\\(18x^2 - x - 15\\)", "correct": false },
+      { "text": "\\(6x^2 - x - 15\\)", "correct": false },
+      { "text": "\\(18x^2 - 11x - 15\\)", "correct": false },
+      { "text": "\\(6x^2 - 7x - 15\\)", "correct": true }
+    ],
+    "hint": "Suma coeficientes de \\(x^2\\), \\(x\\) y constantes.",
+    "explanation": "\\(4-6+8=6\\) para \\(x^2\\); \\(-6+2-3=-7\\) para \\(x\\); \\(-7-4-4=-15\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al restar \\(5x - 7y + 4\\) de \\(9x - 8y + 6\\), se obtiene:",
+    "options": [
+      { "text": "\\(4x + y - 2\\)", "correct": false },
+      { "text": "\\(4x - y - 2\\)", "correct": false },
+      { "text": "\\(-4x + y - 2\\)", "correct": false },
+      { "text": "\\(4x - y + 2\\)", "correct": true }
+    ],
+    "hint": "Resta término a término: \\((9x-5x) + (-8y - (-7y)) + (6-4)\\).",
+    "explanation": "\\(4x + (-8y+7y) + 2 = 4x - y + 2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si a \\(15x^2 - 2xy + y^2\\) se resta \\(10x^2 + 8xy - 2y^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(5x^2 - 10xy + 3y^2\\)", "correct": true },
+      { "text": "\\(5x^2 + 10xy + y^2\\)", "correct": false },
+      { "text": "\\(5x^2 - 10xy + 3y^2\\)", "correct": true },
+      { "text": "\\(x^2 - 10xy - y^2\\)", "correct": false }
+    ],
+    "hint": "Resta coeficientes: \\(15-10=5\\); \\(-2-8=-10\\); \\(1-(-2)=3\\).",
+    "explanation": "\\(5x^2 - 10xy + 3y^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BR",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al restar \\((4m^3 - 2m^2 - 6m - 10)\\) de \\((2m^3 + 3m + 2)\\), se obtiene:",
+    "options": [
+      { "text": "\\(-2m^3 + 2m^2 + 9m + 12\\)", "correct": true },
+      { "text": "\\(2m^3 - 2m^2 - 9m - 12\\)", "correct": false },
+      { "text": "\\(-m^3 + 2m^2 + m + 12\\)", "correct": false },
+      { "text": "\\(-m^3 - 2m^2 - m - 12\\)", "correct": false }
+    ],
+    "hint": "Resta término a término: \\((2-4)m^3 + (0-(-2))m^2 + (3-(-6))m + (2-(-10))\\).",
+    "explanation": "\\(-2m^3 + 2m^2 + 9m + 12\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BS",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((-6x^2 - x - 1) - (10x^2 + 8x - 9) + (8x^2 - 3x - 4)\\), es:",
+    "options": [
+      { "text": "\\(18x^2 - 4x + 14\\)", "correct": false },
+      { "text": "\\(8x^2 + 12x - 4\\)", "correct": false },
+      { "text": "\\(-18x^2 + 4x - 14\\)", "correct": false },
+      { "text": "\\(-8x^2 - 12x + 4\\)", "correct": true }
+    ],
+    "hint": "Realiza las operaciones en orden.",
+    "explanation": "\\(-6x^2 - 10x^2 + 8x^2 = -8x^2\\); \\(-x - 8x - 3x = -12x\\); \\(-1 + 9 - 4 = 4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BT",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((4y^2 - 7y - 10) - (-4y^2 + 6y - 7) + (2y^2 - y - 1)\\), es:",
+    "options": [
+      { "text": "\\(-2y^2 - 2y + 3\\)", "correct": false },
+      { "text": "\\(-y^2 - 3y - 8\\)", "correct": false },
+      { "text": "\\(10y^2 - 14y - 4\\)", "correct": true },
+      { "text": "\\(y^2 - y + 2\\)", "correct": false }
+    ],
+    "hint": "Aplica signos y suma términos semejantes.",
+    "explanation": "\\(4y^2 +4y^2 +2y^2 = 10y^2\\); \\(-7y-6y - y = -14y\\); \\(-10+7-1 = -4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((-7x^2y^3)(9x^3y^{-2})\\), es:",
+    "options": [
+      { "text": "\\(-63x^5y\\)", "correct": true },
+      { "text": "\\(-63x^6y^{-6}\\)", "correct": false },
+      { "text": "\\(-63x^5y^{-1}\\)", "correct": false },
+      { "text": "\\(-63x^5y^{-6}\\)", "correct": false }
+    ],
+    "hint": "Multiplica coeficientes y suma exponentes.",
+    "explanation": "\\(-7 \\times 9 = -63\\); \\(x^{2+3}=x^5\\); \\(y^{3-2}=y^1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((4a^2b^5) - (5a^6b^3)\\), se obtiene:",
+    "options": [
+      { "text": "\\(20a^8b^8\\)", "correct": false },
+      { "text": "\\(20a^{12}b^{15}\\)", "correct": false },
+      { "text": "\\(-20a^8b^8\\)", "correct": false },
+      { "text": "\\(-20a^{12}b^{15}\\)", "correct": false }
+    ],
+    "hint": "Es una resta, no multiplicación. Se respeta el original.",
+    "explanation": "Ninguna opción es correcta, se mantiene el enunciado original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BW",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((\\frac{2}{3}ab)(-6a^2b^3)\\) se obtiene:",
+    "options": [
+      { "text": "\\(4a^3b^4\\)", "correct": false },
+      { "text": "\\(-4a^2b^3\\)", "correct": false },
+      { "text": "\\(a^8b^8\\)", "correct": false },
+      { "text": "\\(-4a^3b^4\\)", "correct": true }
+    ],
+    "hint": "Multiplica coeficientes: \\(\\frac{2}{3} \\times -6 = -4\\).",
+    "explanation": "Suma exponentes: \\(a^{1+2}=a^3\\), \\(b^{1+3}=b^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BX",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((-2x^4y^5)(4x^6y)(-3x^2y^4)\\) es:",
+    "options": [
+      { "text": "\\(6x^{24}y^{20}\\)", "correct": false },
+      { "text": "\\(24x^{12}y^{10}\\)", "correct": true },
+      { "text": "\\(-24x^{24}y^{20}\\)", "correct": false },
+      { "text": "\\(6x^{12}y^{10}\\)", "correct": false }
+    ],
+    "hint": "Multiplica coeficientes: \\(-2 \\times 4 \\times -3 = 24\\).",
+    "explanation": "Suma exponentes de \\(x\\): \\(4+6+2=12\\); \\(y\\): \\(5+1+4=10\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BY",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\left( \\frac{1}{3}mn^2 \\right)\\left(-4m^2n^3\\right)\\left(\\frac{15}{2}m^3n^4\\right)\\), es:",
+    "options": [
+      { "text": "\\(-10m^6n\\)", "correct": false },
+      { "text": "\\(-10m^6n^9\\)", "correct": true },
+      { "text": "\\(10m^6n^9\\)", "correct": false },
+      { "text": "\\(-10m^9n^6\\)", "correct": false }
+    ],
+    "hint": "Multiplica coeficientes: \\(\\frac{1}{3} \\times -4 \\times \\frac{15}{2} = -10\\).",
+    "explanation": "Suma exponentes: \\(m^{1+2+3}=m^6\\); \\(n^{2+3+4}=n^9\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13BZ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(5ab(a^2b^3 - 2ab^4 + b^5)\\), es:",
+    "options": [
+      { "text": "\\(5a^3b^4 + 10a^2b^5 + 5ab^6\\)", "correct": false },
+      { "text": "\\(-5a^3b^4 - 10a^2b^5 + 5ab^6\\)", "correct": false },
+      { "text": "\\(5a^3b^4 - 10a^2b^5 + 5a^6b^6\\)", "correct": false },
+      { "text": "\\(5a^4b^3 - 10a^5b^2 - 5ab^6\\)", "correct": false }
+    ],
+    "hint": "Aplica distributiva: multiplica \\(5ab\\) por cada término.",
+    "explanation": "Ninguna opción coincide exactamente, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CA",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((3a^2b^4)(6a^4b^2 - 2a^3b^5 - 3ab^2)\\), se obtiene:",
+    "options": [
+      { "text": "\\(9a^8b^3 - 6a^5b^5 + 9ab^8\\)", "correct": false },
+      { "text": "\\(18a^6b^6 - 6a^5b^9 - 9a^3b^6\\)", "correct": true },
+      { "text": "\\(18a^8b^3 - 10ab^4 + 5ab^8\\)", "correct": false },
+      { "text": "\\(18a^6b^6 - 10a^5b^5 + 5ab^6\\)", "correct": false }
+    ],
+    "hint": "Multiplica \\(3a^2b^4\\) por cada término del binomio.",
+    "explanation": "\\(3a^2b^4 \\times 6a^4b^2 = 18a^6b^6\\); \\(3a^2b^4 \\times -2a^3b^5 = -6a^5b^9\\); \\(3a^2b^4 \\times -3ab^2 = -9a^3b^6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CB",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((-4x^5y^2)(4x^3y^4 - 3x^2y + 6xy^4)\\), es:",
+    "options": [
+      { "text": "\\(-16x^8y^6 + 12x^7y^3 - 24x^6y^6\\)", "correct": true },
+      { "text": "\\(-16x^{15}y^8 + 12x^{10}y^3 - 24x^5y^8\\)", "correct": false },
+      { "text": "\\(16x^8y^6 - 12x^7y^3 + 24x^6y^6\\)", "correct": false },
+      { "text": "\\(16x^{15}y^8 - 12x^{10}y^3 + 24x^5y^8\\)", "correct": false }
+    ],
+    "hint": "Multiplica \\(-4x^5y^2\\) por cada término del trinomio.",
+    "explanation": "\\(-4 \\times 4 = -16\\); \\(x^{5+3}=x^8\\); \\(y^{2+4}=y^6\\); luego \\(-4 \\times -3 = 12\\); \\(x^{5+2}=x^7\\); \\(y^{2+1}=y^3\\); último: \\(-4 \\times 6 = -24\\); \\(x^{5+1}=x^6\\); \\(y^{2+4}=y^6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CC",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((3x^3y^2 - 4x^2y^4 - 2xy)(-5x^4y^3)\\), se obtiene:",
+    "options": [
+      { "text": "\\(-15x^{12}y^5 + 20x^8y^{12} + 10x^5y^4\\)", "correct": false },
+      { "text": "\\(-15x^7y^5 + 20x^6y^7 + 10x^5y^4\\)", "correct": true },
+      { "text": "\\(15x^7y^5 - 20x^6y^7 - 10x^5y^4\\)", "correct": false },
+      { "text": "\\(-15x^{12}y^5 + 20x^8y^{12} + 10x^5y^4\\)", "correct": false }
+    ],
+    "hint": "Multiplica \\(-5x^4y^3\\) por cada término.",
+    "explanation": "\\(3 \\times -5 = -15\\), \\(x^{3+4}=x^7\\), \\(y^{2+3}=y^5\\); \\(-4 \\times -5 = 20\\), \\(x^{2+4}=x^6\\), \\(y^{4+3}=y^7\\); \\(-2 \\times -5 = 10\\), \\(x^{1+4}=x^5\\), \\(y^{1+3}=y^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CD",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((2a^4b^2c - 5a^3b^4c^2 - 3ab) \\cdot (-5a^4bc^4)\\), es:",
+    "options": [
+      { "text": "\\(-10a^{16}b^2c^4 + 25a^{12}b^4c^8 + 15a^6bc^4\\)", "correct": false },
+      { "text": "\\(10a^8b^3c^5 - 25a^7b^5c^6 - 15a^5b^2c^4\\)", "correct": false },
+      { "text": "\\(-10a^8b^3c^5 + 25a^7b^5c^6 + 15a^6b^2c^4\\)", "correct": false },
+      { "text": "\\(10a^{16}b^2c^4 - 25a^{12}b^4c^8 - 15a^4bc^4\\)", "correct": false }
+    ],
+    "hint": "Multiplica cada término por \\(-5a^4bc^4\\).",
+    "explanation": "Ninguna opción coincide, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CE",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((3x - 4)(2x + 7)\\), se obtiene:",
+    "options": [
+      { "text": "\\(6x^2 + 28\\)", "correct": false },
+      { "text": "\\(6x^2 + 13x - 28\\)", "correct": true },
+      { "text": "\\(6x^2 + 29x - 28\\)", "correct": false },
+      { "text": "\\(6x^2 - 28\\)", "correct": false }
+    ],
+    "hint": "Aplica el método FOIL (primero, exterior, interior, último).",
+    "explanation": "\\(3x \\cdot 2x = 6x^2\\); \\(3x \\cdot 7 = 21x\\); \\(-4 \\cdot 2x = -8x\\); \\(-4 \\cdot 7 = -28\\); suma \\(21x-8x=13x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CF",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((x - 6)(x + 4)\\), es:",
+    "options": [
+      { "text": "\\(x^2 + 24\\)", "correct": false },
+      { "text": "\\(x^2 - 24\\)", "correct": false },
+      { "text": "\\(x^2 - 10x - 24\\)", "correct": false },
+      { "text": "\\(x^2 - 2x - 24\\)", "correct": true }
+    ],
+    "hint": "Producto de binomios conjugados no, es diferente.",
+    "explanation": "\\(x \\cdot x = x^2\\); \\(x \\cdot 4 = 4x\\); \\(-6 \\cdot x = -6x\\); \\(-6 \\cdot 4 = -24\\); \\(4x - 6x = -2x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CG",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((m - 4)(2m - 3)\\), es:",
+    "options": [
+      { "text": "\\(2m^2 - 11m + 12\\)", "correct": true },
+      { "text": "\\(2m^2 + 12\\)", "correct": false },
+      { "text": "\\(2m^2 - 5m + 12\\)", "correct": false },
+      { "text": "\\(6x^2 - 28\\)", "correct": false }
+    ],
+    "hint": "Multiplica término a término.",
+    "explanation": "\\(m \\cdot 2m = 2m^2\\); \\(m \\cdot -3 = -3m\\); \\(-4 \\cdot 2m = -8m\\); \\(-4 \\cdot -3 = 12\\); suma \\(-3m-8m = -11m\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CH",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((4a^2 - 3a - 5)(2a - 5)\\), es:",
+    "options": [
+      { "text": "\\(8a^3 - 26a^2 + 25\\)", "correct": false },
+      { "text": "\\(8a^3 - 5a + 25\\)", "correct": false },
+      { "text": "\\(8a^3 - 26a^2 + 5a + 25\\)", "correct": true },
+      { "text": "\\(8a^3 - a^2 + 25a + 25\\)", "correct": false }
+    ],
+    "hint": "Multiplica \\((4a^2 - 3a - 5)\\) por \\(2a\\) y luego por \\(-5\\).",
+    "explanation": "\\(4a^2 \\cdot 2a = 8a^3\\); \\(-3a \\cdot 2a = -6a^2\\); \\(-5 \\cdot 2a = -10a\\); luego \\(4a^2 \\cdot -5 = -20a^2\\); \\(-3a \\cdot -5 = 15a\\); \\(-5 \\cdot -5 = 25\\); suma: \\(8a^3\\), \\(-6a^2-20a^2 = -26a^2\\), \\(-10a+15a = 5a\\), constante 25.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CI",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El producto de \\(4x^2 + 2x - 1\\) con \\(x^2 - 1\\), es:",
+    "options": [
+      { "text": "\\(4x^4 + 2x^3 - 2x + 1\\)", "correct": false },
+      { "text": "\\(4x^4 - 2x^3 + 5x^2 + 2x - 1\\)", "correct": false },
+      { "text": "\\(4x^4 + 2x^2 - 5x - 2\\)", "correct": false },
+      { "text": "\\(4x^4 + 2x^3 - 5x^2 - 2x + 1\\)", "correct": true }
+    ],
+    "hint": "Multiplica cada término del primero por \\(x^2\\) y por \\(-1\\).",
+    "explanation": "\\(4x^2 \\cdot x^2 = 4x^4\\); \\(2x \\cdot x^2 = 2x^3\\); \\(-1 \\cdot x^2 = -x^2\\); luego \\(4x^2 \\cdot -1 = -4x^2\\); \\(2x \\cdot -1 = -2x\\); \\(-1 \\cdot -1 = 1\\); suma: \\(4x^4\\), \\(2x^3\\), \\(-x^2 -4x^2 = -5x^2\\), \\(-2x\\), constante 1.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CJ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\frac{15a^2 b^3}{-3ab^2}\\), es:",
+    "options": [
+      { "text": "\\(5ab\\)", "correct": false },
+      { "text": "\\(-5ab\\)", "correct": true },
+      { "text": "\\(-5a^2b\\)", "correct": false },
+      { "text": "\\(5a^2b^2\\)", "correct": false }
+    ],
+    "hint": "Divide coeficientes y resta exponentes.",
+    "explanation": "\\(15 / -3 = -5\\); \\(a^{2-1}=a^1\\); \\(b^{3-2}=b^1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CK",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{-28x^5 y^6}{-4xy^4}\\), se obtiene:",
+    "options": [
+      { "text": "\\(24x^4 y^2\\)", "correct": false },
+      { "text": "\\(-24x^4 y^2\\)", "correct": false },
+      { "text": "\\(-7x^4 y^2\\)", "correct": false },
+      { "text": "\\(7x^4 y^2\\)", "correct": true }
+    ],
+    "hint": "\\(-28 / -4 = 7\\); \\(x^{5-1}=x^4\\); \\(y^{6-4}=y^2\\).",
+    "explanation": "\\(7x^4y^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CL",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\frac{-6a^5b^7}{4a^4b^2}\\), se obtiene:",
+    "options": [
+      { "text": "\\(-\\frac{3}{2}ab^5\\)", "correct": true },
+      { "text": "\\(\\frac{3}{2}ab^5\\)", "correct": false },
+      { "text": "\\(-\\frac{3}{2ab^5}\\)", "correct": false },
+      { "text": "\\(\\frac{3}{2ab^5}\\)", "correct": false }
+    ],
+    "hint": "Simplifica: \\(-6/4 = -3/2\\); \\(a^{5-4}=a\\); \\(b^{7-2}=b^5\\).",
+    "explanation": "\\(-\\frac{3}{2}ab^5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CM",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\frac{30x^6y^2}{45x^4y^2}\\), es:",
+    "options": [
+      { "text": "\\(\\frac{2}{3x^2y}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{3x^2}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{3}x^2\\)", "correct": true },
+      { "text": "\\(\\frac{2}{3}x^2y\\)", "correct": false }
+    ],
+    "hint": "\\(30/45 = 2/3\\); \\(x^{6-4}=x^2\\); \\(y^{2-2}=y^0=1\\).",
+    "explanation": "\\(\\frac{2}{3}x^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{a^2b^3}{-a^2b^3}\\), se obtiene:",
+    "options": [
+      { "text": "0", "correct": false },
+      { "text": "ab", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": true }
+    ],
+    "hint": "Numerador y denominador son iguales, salvo el signo.",
+    "explanation": "\\(\\frac{a^2b^3}{-a^2b^3} = -1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\frac{10x^3 - 12x^2 + 8x}{2x}\\), es:",
+    "options": [
+      { "text": "\\(5x^2 - 6x - 4\\)", "correct": false },
+      { "text": "\\(5x^2 + 6x + 4\\)", "correct": false },
+      { "text": "\\(5x^2 + 6x - 4\\)", "correct": false },
+      { "text": "\\(5x^2 - 6x + 4\\)", "correct": true }
+    ],
+    "hint": "Divide cada término del numerador entre \\(2x\\).",
+    "explanation": "\\(10x^3 / 2x = 5x^2\\); \\(-12x^2 / 2x = -6x\\); \\(8x / 2x = 4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{8x^4 - 3x^3 - x^2}{-x^2}\\), se obtiene:",
+    "options": [
+      { "text": "\\(-8x^2 + 3x + 1\\)", "correct": true },
+      { "text": "\\(-8x^2 + 3x\\)", "correct": false },
+      { "text": "\\(8x^2 - 3x - 1\\)", "correct": false },
+      { "text": "\\(8x^2 + 3x\\)", "correct": false }
+    ],
+    "hint": "Divide cada término entre \\(-x^2\\).",
+    "explanation": "\\(8x^4 / -x^2 = -8x^2\\); \\(-3x^3 / -x^2 = 3x\\); \\(-x^2 / -x^2 = 1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\frac{6a^3 - 5a^2 - 2a}{2a}\\), se obtiene:",
+    "options": [
+      { "text": "\\(3a^2 + \\frac{5}{2}a\\)", "correct": false },
+      { "text": "\\(3a^2 + \\frac{5}{2}a + 1\\)", "correct": false },
+      { "text": "\\(3a^2 - \\frac{5}{2}a - 1\\)", "correct": true },
+      { "text": "\\(3a^2 - \\frac{5}{2}a\\)", "correct": false }
+    ],
+    "hint": "Divide cada término entre \\(2a\\).",
+    "explanation": "\\(6a^3 / 2a = 3a^2\\); \\(-5a^2 / 2a = -\\frac{5}{2}a\\); \\(-2a / 2a = -1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CR",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\frac{18a^6b^5 - 3a^5b^6 - 5ab^7}{-3ab^2}\\), es:",
+    "options": [
+      { "text": "\\(-6a^5b^3 + a^4b^4 + \\frac{5}{3}b^5\\)", "correct": true },
+      { "text": "\\(6a^5b^3 - a^4b^4 - \\frac{5}{3}b^5\\)", "correct": false },
+      { "text": "\\(-15a^5b^3 + a^4b^4 + 2b^5\\)", "correct": false },
+      { "text": "\\(15a^5b^3 - a^4b^4 - 2b^5\\)", "correct": false }
+    ],
+    "hint": "Divide cada término del numerador entre \\(-3ab^2\\).",
+    "explanation": "\\(18a^6b^5 / -3ab^2 = -6a^5b^3\\); \\(-3a^5b^6 / -3ab^2 = a^4b^4\\); \\(-5ab^7 / -3ab^2 = \\frac{5}{3}b^5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CS",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al simplificar \\(\\frac{20a^7b^8 - 36a^5b^4 - 9a^4b^6}{-4a^3b^2}\\), se obtiene:",
+    "options": [
+      { "text": "\\(-16a^4b^6 + 32a^2b^2 - 5ab^4\\)", "correct": false },
+      { "text": "\\(-5a^4b^6 + 9a^2b^2 + \\frac{9}{4}ab^4\\)", "correct": true },
+      { "text": "\\(5a^4b^6 - 9a^2b^2 + \\frac{9}{4}ab^4\\)", "correct": false },
+      { "text": "\\(16a^4b^6 - 32a^2b^2 + 5ab^4\\)", "correct": false }
+    ],
+    "hint": "Divide término a término entre \\(-4a^3b^2\\).",
+    "explanation": "\\(20/-4 = -5\\); \\(a^{7-3}=a^4\\); \\(b^{8-2}=b^6\\); luego \\(-36/-4 = 9\\); \\(a^{5-3}=a^2\\); \\(b^{4-2}=b^2\\); luego \\(-9/-4 = 9/4\\); \\(a^{4-3}=a\\); \\(b^{6-2}=b^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CT",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El cociente de \\(\\frac{x^2 + 2x - 8}{x + 4}\\), es:",
+    "options": [
+      { "text": "\\(x + 1\\)", "correct": false },
+      { "text": "\\(x - 2\\)", "correct": true },
+      { "text": "\\(x + 2\\)", "correct": false },
+      { "text": "\\(x - 1\\)", "correct": false }
+    ],
+    "hint": "Factoriza el numerador: \\((x+4)(x-2)\\).",
+    "explanation": "\\((x+4)(x-2) / (x+4) = x-2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\frac{x^2 - x - 20}{x - 5}\\), se obtiene:",
+    "options": [
+      { "text": "\\(x + 10\\)", "correct": false },
+      { "text": "\\(x - 10\\)", "correct": false },
+      { "text": "\\(x + 4\\)", "correct": true },
+      { "text": "\\(x - 4\\)", "correct": false }
+    ],
+    "hint": "Factoriza: \\((x-5)(x+4)\\).",
+    "explanation": "\\((x-5)(x+4) / (x-5) = x+4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\(\\frac{3a^2 - 11a + 10}{a - 2}\\), es:",
+    "options": [
+      { "text": "\\(3a - 5\\)", "correct": true },
+      { "text": "\\(2a - 8\\)", "correct": false },
+      { "text": "\\(3a + 5\\)", "correct": false },
+      { "text": "\\(2a + 8\\)", "correct": false }
+    ],
+    "hint": "Factoriza el numerador: \\((a-2)(3a-5)\\).",
+    "explanation": "\\((a-2)(3a-5) / (a-2) = 3a-5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CW",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\frac{25m^2 + 5m - 6}{5m - 2}\\), se obtiene:",
+    "options": [
+      { "text": "\\(m + 3\\)", "correct": false },
+      { "text": "\\(m - 3\\)", "correct": false },
+      { "text": "\\(5m - 3\\)", "correct": false },
+      { "text": "\\(5m + 3\\)", "correct": true }
+    ],
+    "hint": "Factoriza el numerador: \\((5m-2)(5m+3)\\).",
+    "explanation": "\\((5m-2)(5m+3) / (5m-2) = 5m+3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CX",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El cociente de \\(\\frac{6x^3 - 7x^2 - 11x + 12}{3x^2 + x - 4}\\), es:",
+    "options": [
+      { "text": "\\(2x - 3\\)", "correct": true },
+      { "text": "\\(2x^2 - 3\\)", "correct": false },
+      { "text": "\\(2x + 3\\)", "correct": false },
+      { "text": "\\(2x^2 - 3x\\)", "correct": false }
+    ],
+    "hint": "Realiza la división larga de polinomios.",
+    "explanation": "\\((6x^3 - 7x^2 - 11x + 12) ÷ (3x^2 + x - 4) = 2x - 3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CY",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((x + 6)^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(x^2 + 36\\)", "correct": false },
+      { "text": "\\(x^2 + 12x + 36\\)", "correct": true },
+      { "text": "\\(x^2 - 12x + 36\\)", "correct": false },
+      { "text": "\\(x^2 - 36\\)", "correct": false }
+    ],
+    "hint": "Binomio al cuadrado: \\((a+b)^2 = a^2 + 2ab + b^2\\).",
+    "explanation": "\\(x^2 + 2(x)(6) + 36 = x^2 + 12x + 36\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13CZ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al desarrollar \\((3a - 4b)^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(9a^2 + 24ab + 16b^2\\)", "correct": false },
+      { "text": "\\(9a^2 - 16b^2\\)", "correct": false },
+      { "text": "\\(9a^2 + 16b^2\\)", "correct": false },
+      { "text": "\\(9a^2 - 24ab + 16b^2\\)", "correct": true }
+    ],
+    "hint": "\\((a-b)^2 = a^2 - 2ab + b^2\\).",
+    "explanation": "\\((3a)^2 - 2(3a)(4b) + (4b)^2 = 9a^2 - 24ab + 16b^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DA",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((m - 8)^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(m^2 + 64\\)", "correct": false },
+      { "text": "\\(m^2 - 64\\)", "correct": false },
+      { "text": "\\(m^2 - 16m + 64\\)", "correct": true },
+      { "text": "\\(m^2 + 16m + 64\\)", "correct": false }
+    ],
+    "hint": "\\((m-8)^2 = m^2 - 2(m)(8) + 64\\).",
+    "explanation": "\\(m^2 - 16m + 64\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DB",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((x + 3y)^2\\), es:",
+    "options": [
+      { "text": "\\(x^2 + 9y^2\\)", "correct": false },
+      { "text": "\\(x^2 + 6xy + 9y^2\\)", "correct": true },
+      { "text": "\\(x^2 - 6xy + 9y^2\\)", "correct": false },
+      { "text": "\\(x^2 - 9y^2\\)", "correct": false }
+    ],
+    "hint": "\\((a+b)^2 = a^2 + 2ab + b^2\\).",
+    "explanation": "\\(x^2 + 2(x)(3y) + (3y)^2 = x^2 + 6xy + 9y^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DC",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al desarrollar \\((3x^4 - 5y^3)^2\\), se obtiene:",
+    "options": [
+      { "text": "\\(9x^8 - 30x^4y^3 + 25y^6\\)", "correct": true },
+      { "text": "\\(9x^8 - 25y^6\\)", "correct": false },
+      { "text": "\\(9x^8 + 25y^6\\)", "correct": false },
+      { "text": "\\(9x^8 + 30x^4y^3 + 25y^6\\)", "correct": false }
+    ],
+    "hint": "\\((3x^4)^2 = 9x^8\\); \\(2(3x^4)(5y^3) = 30x^4y^3\\); \\((5y^3)^2=25y^6\\), con signo negativo.",
+    "explanation": "\\(9x^8 - 30x^4y^3 + 25y^6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DD",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al elevar al cuadrado \\(5x^3 - 3y^4\\) se obtiene como resultado:",
+    "options": [
+      { "text": "\\(25x^6 + 30x^3y^4 + 9y^8\\)", "correct": false },
+      { "text": "\\(9x^8 - 25y^6\\)", "correct": false },
+      { "text": "\\(9x^8 + 25y^6\\)", "correct": false },
+      { "text": "\\(25x^6 - 30x^3y^4 + 9y^8\\)", "correct": true }
+    ],
+    "hint": "\\((5x^3)^2 = 25x^6\\); \\(-2(5x^3)(3y^4) = -30x^3y^4\\); \\((3y^4)^2 = 9y^8\\).",
+    "explanation": "\\(25x^6 - 30x^3y^4 + 9y^8\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DE",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((2x - 5y)(2x - 5y)\\) se obtiene:",
+    "options": [
+      { "text": "\\(4x^2 + 25y^2\\)", "correct": false },
+      { "text": "\\(4x^2 - 25y^2\\)", "correct": false },
+      { "text": "\\(4x^2 - 20xy + 25y^2\\)", "correct": true },
+      { "text": "\\(4x^2 + 20xy + 25y^2\\)", "correct": false }
+    ],
+    "hint": "Es un binomio al cuadrado.",
+    "explanation": "\\((2x)^2 = 4x^2\\); \\(2(2x)(5y) = 20xy\\); \\((5y)^2=25y^2\\), con signo negativo en el término cruzado.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DF",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La expresión \\(a^2 - 2ab + b^2\\) se obtiene al desarrollar:",
+    "options": [
+      { "text": "\\((a - b)^2\\)", "correct": true },
+      { "text": "\\((a + b)^2\\)", "correct": false },
+      { "text": "\\((a + b)(a - b)\\)", "correct": false },
+      { "text": "\\((a - b)(a - b)\\)", "correct": true }
+    ],
+    "hint": "Es un trinomio cuadrado perfecto.",
+    "explanation": "\\(a^2 - 2ab + b^2 = (a-b)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DG",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al elevar al cuadrado la expresión \\(4m + 5n\\) se obtiene:",
+    "options": [
+      { "text": "\\(8m^2 - 10n^2\\)", "correct": false },
+      { "text": "\\(16m^2 + 40mn + 25n^2\\)", "correct": true },
+      { "text": "\\(8m^2 + 40mn + 10n^2\\)", "correct": false },
+      { "text": "\\(16m^2 + 25n^2\\)", "correct": false }
+    ],
+    "hint": "\\((4m)^2 = 16m^2\\); \\(2(4m)(5n) = 40mn\\); \\((5n)^2 = 25n^2\\).",
+    "explanation": "\\(16m^2 + 40mn + 25n^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DH",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de elevar al cuadrado la expresión \\(2x^3 - 5y^2\\) es:",
+    "options": [
+      { "text": "\\(4x^6 - 25y^4\\)", "correct": false },
+      { "text": "\\(4x^6 + 10y^2\\)", "correct": false },
+      { "text": "\\(4x^6 + 20x^3y^2 + 10y^4\\)", "correct": false },
+      { "text": "\\(4x^6 - 20x^3y^2 + 25y^4\\)", "correct": true }
+    ],
+    "hint": "\\((2x^3)^2 = 4x^6\\); \\(-2(2x^3)(5y^2) = -20x^3y^2\\); \\((5y^2)^2 = 25y^4\\).",
+    "explanation": "\\(4x^6 - 20x^3y^2 + 25y^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DI",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((a - 5)(a + 5)\\), se obtiene:",
+    "options": [
+      { "text": "\\(a^2 - 10a + 25\\)", "correct": false },
+      { "text": "\\(a^2 - 10\\)", "correct": false },
+      { "text": "\\(a^2 - 25\\)", "correct": true },
+      { "text": "\\(a^2 - 5a - 25\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados: \\((a-b)(a+b)=a^2-b^2\\).",
+    "explanation": "\\(a^2 - 25\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((m + 6)(m - 6)\\) se obtiene:",
+    "options": [
+      { "text": "\\(m^2 - 12m + 36\\)", "correct": false },
+      { "text": "\\(m^2 - 36\\)", "correct": true },
+      { "text": "\\(m^2 + 36\\)", "correct": false },
+      { "text": "\\(a^2 - 6a + 36\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\(m^2 - 36\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DK",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((4x^4 - 3y^5)(4x^4 + 3y^5)\\), se obtiene:",
+    "options": [
+      { "text": "\\(8x^8 - 6y^{10}\\)", "correct": false },
+      { "text": "\\(16x^8 + 9y^{10}\\)", "correct": false },
+      { "text": "\\(8x^8 - 6y^{10}\\)", "correct": false },
+      { "text": "\\(16x^8 - 9y^{10}\\)", "correct": true }
+    ],
+    "hint": "Diferencia de cuadrados: \\((a-b)(a+b)=a^2-b^2\\).",
+    "explanation": "\\((4x^4)^2 = 16x^8\\); \\((3y^5)^2 = 9y^{10}\\); resta: \\(16x^8 - 9y^{10}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DL",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((3a^6 - 2b^4)(3a^6 + 2b^4)\\), se obtiene:",
+    "options": [
+      { "text": "\\(9a^{12} - 4b^8\\)", "correct": true },
+      { "text": "\\(9a^{12} + 4b^8\\)", "correct": false },
+      { "text": "\\(6a^{12} - 4b^8\\)", "correct": false },
+      { "text": "\\(6a^{12} + 4b^8\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\( (3a^6)^2 = 9a^{12}\\); \\((2b^4)^2 = 4b^8\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DM",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al desarrollar \\((3x^5 + 5y^3)(3x^5 - 5y^3)\\), se obtiene:",
+    "options": [
+      { "text": "\\(6x^{10} - 10y^6\\)", "correct": false },
+      { "text": "\\(9x^{10} - 25y^6\\)", "correct": true },
+      { "text": "\\(9x^{10} + 25y^6\\)", "correct": false },
+      { "text": "\\(6x^{10} + 10y^6\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\((3x^5)^2 = 9x^{10}\\); \\((5y^3)^2 = 25y^6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((a + 10)(a - 3)\\), se obtiene:",
+    "options": [
+      { "text": "\\(a^2 + 7a - 30\\)", "correct": true },
+      { "text": "\\(a^2 + 13a - 30\\)", "correct": false },
+      { "text": "\\(a^2 - 30\\)", "correct": false },
+      { "text": "\\(a^2 + 30\\)", "correct": false }
+    ],
+    "hint": "Multiplica: \\(a \\cdot a = a^2\\); \\(a \\cdot -3 = -3a\\); \\(10 \\cdot a = 10a\\); \\(10 \\cdot -3 = -30\\).",
+    "explanation": "\\(a^2 + 7a - 30\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((a - 7)(a + 6)\\), se obtiene:",
+    "options": [
+      { "text": "\\(a^2 + 42\\)", "correct": false },
+      { "text": "\\(a^2 - 42\\)", "correct": false },
+      { "text": "\\(a^2 - a - 42\\)", "correct": true },
+      { "text": "\\(a^2 - 13a - 42\\)", "correct": false }
+    ],
+    "hint": "Multiplica: \\(a^2 + 6a -7a -42 = a^2 - a -42\\).",
+    "explanation": "\\(a^2 - a - 42\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((x - 6)(x + 4)\\), es:",
+    "options": [
+      { "text": "\\(x^2 - 24\\)", "correct": false },
+      { "text": "\\(x^2 - 2x - 24\\)", "correct": true },
+      { "text": "\\(x^2 - 10x - 24\\)", "correct": false },
+      { "text": "\\(x^2 + 24\\)", "correct": false }
+    ],
+    "hint": "Multiplica: \\(x^2 + 4x -6x -24 = x^2 -2x -24\\).",
+    "explanation": "\\(x^2 - 2x - 24\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\((x - 8)(x + 5)\\), se obtiene:",
+    "options": [
+      { "text": "\\(x^2 + 40\\)", "correct": false },
+      { "text": "\\(x^2 - 40\\)", "correct": false },
+      { "text": "\\(x^2 - 3x - 40\\)", "correct": true },
+      { "text": "\\(x^2 - 13x - 40\\)", "correct": false }
+    ],
+    "hint": "\\(x^2 +5x -8x -40 = x^2 -3x -40\\).",
+    "explanation": "\\(x^2 - 3x - 40\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DR",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El resultado de \\((x + 11)(x - 4)\\), es:",
+    "options": [
+      { "text": "\\(x^2 + 7x - 44\\)", "correct": true },
+      { "text": "\\(x^2 - 7x + 44\\)", "correct": false },
+      { "text": "\\(x^2 - 44\\)", "correct": false },
+      { "text": "\\(x^2 - 7x - 44\\)", "correct": false }
+    ],
+    "hint": "\\(x^2 -4x +11x -44 = x^2 +7x -44\\).",
+    "explanation": "\\(x^2 + 7x - 44\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DS",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(4x^2 - 10x\\), es:",
+    "options": [
+      { "text": "\\(2x(2x + 5)\\)", "correct": false },
+      { "text": "\\(4x(x - 3)\\)", "correct": false },
+      { "text": "\\(2x(2x - 5)\\)", "correct": true },
+      { "text": "\\(2x(x - 5)\\)", "correct": false }
+    ],
+    "hint": "Factoriza el factor común \\(2x\\).",
+    "explanation": "\\(2x(2x - 5) = 4x^2 - 10x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DT",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si se factoriza la expresión \\(5a^4b - 3a^2b^5\\) se obtiene:",
+    "options": [
+      { "text": "\\(a^2b(5a^2 - 3b^4)\\)", "correct": true },
+      { "text": "\\(a^2b^5(5a^2 - 3b^3)\\)", "correct": false },
+      { "text": "\\(a^4b(5a - 3b)\\)", "correct": false },
+      { "text": "\\(ab^5(5a^2 - 3b)\\)", "correct": false }
+    ],
+    "hint": "Factor común \\(a^2b\\).",
+    "explanation": "\\(a^2b(5a^2 - 3b^4)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(8a^5b^3 - 36a^2b^5\\) es:",
+    "options": [
+      { "text": "\\(a^2b(5a^2 - 3b^4)\\)", "correct": false },
+      { "text": "\\(4a^2b^3(2a^3 - 9b^2)\\)", "correct": true },
+      { "text": "\\(a^4b(8a - 36b)\\)", "correct": false },
+      { "text": "\\(8ab^5(a^2 - 3b)\\)", "correct": false }
+    ],
+    "hint": "Factor común \\(4a^2b^3\\).",
+    "explanation": "\\(4a^2b^3(2a^3 - 9b^2)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La factorización de \\(8x^6 - 16x^3 - 4x^2\\) es:",
+    "options": [
+      { "text": "\\(4x(4x^2 - 4x - 1)\\)", "correct": false },
+      { "text": "\\(16x^2(2x^2 - x - 2)\\)", "correct": false },
+      { "text": "\\(8x(x^5 - 2x^3 - 4x)\\)", "correct": false },
+      { "text": "\\(4x^2(2x^4 - 4x - 1)\\)", "correct": true }
+    ],
+    "hint": "Factor común \\(4x^2\\).",
+    "explanation": "\\(4x^2(2x^4 - 4x - 1)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DW",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al factorizar \\(9m - 18n\\), se obtiene:",
+    "options": [
+      { "text": "\\(6(2m - 3n)\\)", "correct": false },
+      { "text": "\\(3(2m - 6n)\\)", "correct": false },
+      { "text": "\\(9(m - 2n)\\)", "correct": true },
+      { "text": "\\(18(2m - n)\\)", "correct": false }
+    ],
+    "hint": "Factor común 9.",
+    "explanation": "\\(9(m - 2n)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DX",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La factorización de \\(x^2 - 36\\) es:",
+    "options": [
+      { "text": "\\((x - 6)^2\\)", "correct": false },
+      { "text": "\\((x + 6)^2\\)", "correct": false },
+      { "text": "\\((x + 6)(x - 6)\\)", "correct": true },
+      { "text": "\\((x - 6)(x - 6)\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\(x^2 - 36 = (x+6)(x-6)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DY",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(4x^2 - 25y^2\\) es:",
+    "options": [
+      { "text": "\\((2x + 5y)(2x - 5y)\\)", "correct": true },
+      { "text": "\\((2x - 5y)^2\\)", "correct": false },
+      { "text": "\\((2x - 5y)(2x - 5y)\\)", "correct": false },
+      { "text": "\\((2x + 5y)^2\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\((2x)^2 - (5y)^2 = (2x+5y)(2x-5y)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13DZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La factorización de \\(36 - 49y^2\\) es:",
+    "options": [
+      { "text": "\\((6 + 7y)(6 + 7y)\\)", "correct": false },
+      { "text": "\\((6 - 7y)(6 + 7y)\\)", "correct": true },
+      { "text": "\\((6 - 7y)^2\\)", "correct": false },
+      { "text": "\\((6 + 7y)^2\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\(6^2 - (7y)^2 = (6-7y)(6+7y)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EA",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al factorizar \\(a^2 - 9b^2\\), se obtiene:",
+    "options": [
+      { "text": "\\((a - 3b)(a - 3b)\\)", "correct": false },
+      { "text": "\\((a + 3b)^2\\)", "correct": false },
+      { "text": "\\((a + 3b)(a - 3b)\\)", "correct": true },
+      { "text": "\\((a - 3b)^2\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\(a^2 - (3b)^2 = (a+3b)(a-3b)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EB",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(\\frac{a^2}{4} - \\frac{9b^2}{16}\\), es:",
+    "options": [
+      { "text": "\\(\\left(\\frac{a}{2} - \\frac{3b}{4}\\right)^2\\)", "correct": false },
+      { "text": "\\(\\left(\\frac{a}{2} - \\frac{3b}{4}\\frac{3b}{4}\\right)\\)", "correct": false },
+      { "text": "\\(\\left(\\frac{a}{4} - \\frac{9b}{4}\\right)\\left(\\frac{a}{4} - \\frac{9b}{4}\\right)\\)", "correct": false },
+      { "text": "\\(\\left(\\frac{a}{2} + \\frac{3b}{4}\\right)^2\\)", "correct": false }
+    ],
+    "hint": "Diferencia de cuadrados.",
+    "explanation": "\\((\\frac{a}{2})^2 - (\\frac{3b}{4})^2 = (\\frac{a}{2} + \\frac{3b}{4})(\\frac{a}{2} - \\frac{3b}{4})\\). Ninguna opción es correcta, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EC",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La factorización de \\(a^2 - 10a + 25\\) es:",
+    "options": [
+      { "text": "\\(a - 5\\)", "correct": false },
+      { "text": "\\((a - 5)(a + 5)\\)", "correct": false },
+      { "text": "\\((a + 5)^2\\)", "correct": false },
+      { "text": "\\((a - 5)^2\\)", "correct": true }
+    ],
+    "hint": "Trinomio cuadrado perfecto.",
+    "explanation": "\\(a^2 - 2(5)a + 25 = (a-5)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13ED",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Al factorizar \\(x^2 + 16x + 64\\), se obtiene:",
+    "options": [
+      { "text": "\\((x + 8)^2\\)", "correct": true },
+      { "text": "\\((x + 32)^2\\)", "correct": false },
+      { "text": "\\(x + 8\\)", "correct": false },
+      { "text": "\\(x + 32\\)", "correct": false }
+    ],
+    "hint": "Trinomio cuadrado perfecto.",
+    "explanation": "\\(x^2 + 2(8)x + 64 = (x+8)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EE",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(25a^2 - 30ab + 9b^2\\), es:",
+    "options": [
+      { "text": "\\(5a^2 - 3b^4\\)", "correct": false },
+      { "text": "\\((5a + 3b)(5a - 3b)\\)", "correct": false },
+      { "text": "\\(5a - 3b\\)", "correct": false },
+      { "text": "\\((5a - 3b)^2\\)", "correct": true }
+    ],
+    "hint": "Trinomio cuadrado perfecto.",
+    "explanation": "\\((5a)^2 - 2(5a)(3b) + (3b)^2 = (5a-3b)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EF",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La expresión \\((x + 7)^2\\) corresponde a la factorización de:",
+    "options": [
+      { "text": "\\(x^2 - 49\\)", "correct": false },
+      { "text": "\\(x^2 + 49\\)", "correct": false },
+      { "text": "\\(x^2 - 14x + 49\\)", "correct": false },
+      { "text": "\\(x^2 + 14x + 49\\)", "correct": true }
+    ],
+    "hint": "Desarrolla el binomio.",
+    "explanation": "\\((x+7)^2 = x^2 + 14x + 49\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EG",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al factorizar \\(9x^2 - 12xy + 4y^2\\), se obtiene:",
+    "options": [
+      { "text": "\\((3x - 2y)^2\\)", "correct": true },
+      { "text": "\\((3x - 2y)(3x + 2y)\\)", "correct": false },
+      { "text": "\\((3x + 2y)(3x + 2y)\\)", "correct": false },
+      { "text": "\\((3x - y)^2\\)", "correct": false }
+    ],
+    "hint": "Trinomio cuadrado perfecto.",
+    "explanation": "\\((3x)^2 - 2(3x)(2y) + (2y)^2 = (3x-2y)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EH",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(x^2 + 6x + 8\\), es:",
+    "options": [
+      { "text": "\\((x + 4)(x - 2)\\)", "correct": false },
+      { "text": "\\((x + 1)(x - 8)\\)", "correct": false },
+      { "text": "\\((x + 6)(x + 2)\\)", "correct": false },
+      { "text": "\\((x + 4)(x + 2)\\)", "correct": true }
+    ],
+    "hint": "Busca dos números que sumen 6 y multipliquen 8.",
+    "explanation": "\\(4+2=6\\), \\(4×2=8\\), entonces \\((x+4)(x+2)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EI",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La factorización de \\(x^2 - 7x + 10\\) es:",
+    "options": [
+      { "text": "\\((x + 10)(x - 3)\\)", "correct": false },
+      { "text": "\\((x - 5)(x - 2)\\)", "correct": true },
+      { "text": "\\((x + 5)(x + 2)\\)", "correct": false },
+      { "text": "\\((x - 10)(x + 3)\\)", "correct": false }
+    ],
+    "hint": "Dos números que sumen -7 y multipliquen 10.",
+    "explanation": "\\(-5 y -2\\): \\(-5-2=-7\\), \\((-5)(-2)=10\\), entonces \\((x-5)(x-2)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EJ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al factorizar \\(m^2 - m - 20\\), se obtiene:",
+    "options": [
+      { "text": "\\((m + 20)(m - 1)\\)", "correct": false },
+      { "text": "\\((m - 20)(m + 1)\\)", "correct": false },
+      { "text": "\\((m - 5)(m + 4)\\)", "correct": true },
+      { "text": "\\((m + 5)(m - 4)\\)", "correct": false }
+    ],
+    "hint": "Números que sumen -1 y multipliquen -20.",
+    "explanation": "\\(-5 y 4\\): \\(-5+4=-1\\), \\(-5×4=-20\\), entonces \\((m-5)(m+4)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EK",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una expresión equivalente a \\(x^2 - 9x + 14\\) es:",
+    "options": [
+      { "text": "\\((x + 7)(x - 2)\\)", "correct": false },
+      { "text": "\\((x - 7)(x - 2)\\)", "correct": true },
+      { "text": "\\((x + 7)(x + 2)\\)", "correct": false },
+      { "text": "\\((x - 7)(x + 3)\\)", "correct": false }
+    ],
+    "hint": "Números que sumen -9 y multipliquen 14.",
+    "explanation": "\\(-7 y -2\\): \\(-7-2=-9\\), \\((-7)(-2)=14\\), entonces \\((x-7)(x-2)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EL",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La expresión \\((x - 8)(x + 3)\\) se obtiene al factorizar:",
+    "options": [
+      { "text": "\\(x^2 - 5x - 24\\)", "correct": true },
+      { "text": "\\(x^2 - 24\\)", "correct": false },
+      { "text": "\\(x^2 - 5x + 24\\)", "correct": false },
+      { "text": "\\(x^2 + 24\\)", "correct": false }
+    ],
+    "hint": "Multiplica los binomios.",
+    "explanation": "\\((x-8)(x+3) = x^2 -8x +3x -24 = x^2 -5x -24\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EM",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(f(x) = x^2 + x\\), el valor de \\(f(2)\\) es igual a:",
+    "options": [
+      { "text": "-6", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "8", "correct": false }
+    ],
+    "hint": "Sustituye \\(x=2\\) en la función.",
+    "explanation": "\\(f(2) = 4 + 2 = 6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor de \\(f(-1)\\), si \\(f(x) = 4x - 8x^2\\)?",
+    "options": [
+      { "text": "4", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "-12", "correct": true }
+    ],
+    "hint": "Sustituye \\(x=-1\\).",
+    "explanation": "\\(4(-1) - 8(1) = -4 -8 = -12\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(f(x) = (2 - x)^2\\), ¿cuál es el valor \\(f(-3)\\)?",
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "25", "correct": true },
+      { "text": "13", "correct": false }
+    ],
+    "hint": "Reemplaza \\(x = -3\\).",
+    "explanation": "\\(f(-3) = (2 - (-3))^2 = (5)^2 = 25\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(y = 2x - 3\\), los valores que faltan en la tabla son:",
+    "options": [
+      { "text": "-5 y 1", "correct": false },
+      { "text": "-1 y 2", "correct": false },
+      { "text": "2 y 3", "correct": false },
+      { "text": "4 y 5", "correct": false }
+    ],
+    "hint": "Evalúa \\(x = -2\\) y \\(x = 1\\) en \\(y = 2x - 3\\).",
+    "explanation": "Para \\(x=-2\\): \\(y=-4-3=-7\\); para \\(x=1\\): \\(y=2-3=-1\\). Ninguna opción coincide, se respeta el original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(y = x^2 - 2\\), los valores que faltan en la tabla son:",
+    "options": [
+      { "text": "-6 y -1", "correct": false },
+      { "text": "6 y 1", "correct": false },
+      { "text": "2 y -1", "correct": true },
+      { "text": "3 y 6", "correct": false }
+    ],
+    "hint": "Evalúa \\(x = -2\\) y \\(x = 1\\) en \\(y = x^2 - 2\\).",
+    "explanation": "Para \\(x=-2\\): \\(y=4-2=2\\); para \\(x=1\\): \\(y=1-2=-1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13ER",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al despejar a de la formula \\( A = B + at \\), se obtiene:",
+    "options": [
+      { "text": "\\(\\frac{B - A}{t}\\)", "correct": false },
+      { "text": "\\(\\frac{A - B}{t}\\)", "correct": true },
+      { "text": "\\(\\frac{A}{B} - t\\)", "correct": false },
+      { "text": "\\(\\frac{A - Bt}{t}\\)", "correct": false }
+    ],
+    "hint": "Resta \\(B\\) a ambos lados y divide entre \\(t\\).",
+    "explanation": "\\(A - B = at \\Rightarrow a = \\frac{A-B}{t}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13ES",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al despejar \\( L \\) de la formula \\( V = L^3 \\) se obtiene:",
+    "options": [
+      { "text": "\\(\\sqrt[3]{V}\\)", "correct": true },
+      { "text": "\\(V^3\\)", "correct": false },
+      { "text": "\\(\\sqrt{V}\\)", "correct": false },
+      { "text": "\\(V^{\\frac{2}{3}}\\)", "correct": false }
+    ],
+    "hint": "La raíz cúbica es la operación inversa del cubo.",
+    "explanation": "\\(L = \\sqrt[3]{V}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13ET",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En la formula \\( a = \\frac{V_f - V_0}{t} \\) el despeje de \\( V_f \\) está dado por:",
+    "options": [
+      { "text": "\\(V_f = aV_0 - t\\)", "correct": false },
+      { "text": "\\(V_f = V_0 - at\\)", "correct": false },
+      { "text": "\\(V_f = at - V_0\\)", "correct": false },
+      { "text": "\\(V_f = at + V_0\\)", "correct": true }
+    ],
+    "hint": "Multiplica por \\(t\\) y suma \\(V_0\\).",
+    "explanation": "\\(at = V_f - V_0 \\Rightarrow V_f = at + V_0\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al despejar \\( r \\) de \\( A = \\pi r^2 \\) se obtiene:",
+    "options": [
+      { "text": "\\( r = \\frac{A}{\\pi} \\)", "correct": false },
+      { "text": "\\( r = \\sqrt{\\frac{A}{\\pi}} \\)", "correct": true },
+      { "text": "\\( r = \\sqrt{\\frac{\\pi}{A}} \\)", "correct": false },
+      { "text": "\\( r = \\frac{\\pi}{A} \\)", "correct": false }
+    ],
+    "hint": "Divide entre \\(\\pi\\) y aplica raíz cuadrada.",
+    "explanation": "\\(r^2 = \\frac{A}{\\pi} \\Rightarrow r = \\sqrt{\\frac{A}{\\pi}}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En la fórmula \\( V = \\pi r^2 h \\) el despeje de \\( h \\) está dado por:",
+    "options": [
+      { "text": "\\( h = \\sqrt{\\frac{V}{\\pi r}} \\)", "correct": false },
+      { "text": "\\( h = \\frac{V}{r^2} \\)", "correct": false },
+      { "text": "\\( h = \\frac{V}{\\pi r^2} \\)", "correct": true },
+      { "text": "\\( h = \\sqrt{\\frac{V}{\\pi r}} \\)", "correct": false }
+    ],
+    "hint": "Divide ambos lados entre \\(\\pi r^2\\).",
+    "explanation": "\\(h = \\frac{V}{\\pi r^2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EW",
+    "tag01": ["GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) que satisface la ecuación \\( 2x + 6 = x + 8 \\) es:",
+    "options": [
+      { "text": "-2", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false }
+    ],
+    "hint": "Resta \\(x\\) y luego resta 6.",
+    "explanation": "\\(2x - x = 8 - 6 \\Rightarrow x = 2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EX",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver la ecuación \\( 3x - 6 + 10x = 7x - 4 \\) se obtiene que:",
+    "options": [
+      { "text": "\\( x = \\frac{1}{3} \\)", "correct": false },
+      { "text": "\\( x = -\\frac{1}{3} \\)", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "hint": "Simplifica: \\(13x - 6 = 7x - 4\\).",
+    "explanation": "\\(13x - 7x = -4 + 6 \\Rightarrow 6x = 2 \\Rightarrow x = 1/3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EY",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La ecuación \\( 5y - 4 - 2y + 6 = 8y + 6 - 4y \\) tiene como valor de \\( y \\):",
+    "options": [
+      { "text": "4", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "-8", "correct": false },
+      { "text": "-4", "correct": false }
+    ],
+    "hint": "Simplifica: \\(3y + 2 = 4y + 6\\).",
+    "explanation": "\\(3y - 4y = 6 - 2 \\Rightarrow -y = 4 \\Rightarrow y = -4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13EZ",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) en la ecuación \\( 12x - 8 - 3x + 6 - x = 5x - 7 + 6x \\) es:",
+    "options": [
+      { "text": "\\( \\frac{3}{2} \\)", "correct": false },
+      { "text": "\\( -\\frac{5}{3} \\)", "correct": false },
+      { "text": "\\( \\frac{5}{3} \\)", "correct": false },
+      { "text": "\\( -\\frac{3}{2} \\)", "correct": false }
+    ],
+    "hint": "Simplifica: \\(8x - 2 = 11x - 7\\).",
+    "explanation": "\\(8x - 11x = -7 + 2 \\Rightarrow -3x = -5 \\Rightarrow x = 5/3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FA",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( y \\) en la ecuación \\( y - 4 - 5y + 8 = 10y - 5 + y \\) es:",
+    "options": [
+      { "text": "\\( \\frac{3}{5} \\)", "correct": false },
+      { "text": "\\( -\\frac{5}{3} \\)", "correct": false },
+      { "text": "\\( \\frac{5}{3} \\)", "correct": false },
+      { "text": "\\( -\\frac{3}{2} \\)", "correct": false }
+    ],
+    "hint": "Simplifica: \\(-4y +4 = 11y -5\\).",
+    "explanation": "\\(-4y -11y = -5 -4 \\Rightarrow -15y = -9 \\Rightarrow y = 9/15 = 3/5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FB",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) que cumple con la igualdad \\( 3(x - 1) + 4 = 7 - 3(3x + 2) \\):",
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "\\( \\frac{7}{12} \\)", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "\\( -\\frac{7}{12} \\)", "correct": false }
+    ],
+    "hint": "Aplica distributiva: \\(3x -3 +4 = 7 -9x -6\\).",
+    "explanation": "\\(3x +1 = 1 -9x \\Rightarrow 3x+9x = 1-1 \\Rightarrow 12x=0 \\Rightarrow x=0\\). Ninguna opción correcta.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FC",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver la ecuación \\( 5(3x - 6) - 2(2x + 3) = 3x - (7x - 5) \\), se obtiene:",
+    "options": [
+      { "text": "\\( \\frac{8}{15} \\)", "correct": false },
+      { "text": "\\( \\frac{41}{15} \\)", "correct": false },
+      { "text": "\\( \\frac{1}{15} \\)", "correct": false },
+      { "text": "\\( -\\frac{7}{12} \\)", "correct": false }
+    ],
+    "hint": "Aplica distributiva: \\(15x-30 -4x -6 = 3x -7x +5\\).",
+    "explanation": "\\(11x -36 = -4x +5 \\Rightarrow 11x+4x = 5+36 \\Rightarrow 15x=41 \\Rightarrow x=41/15\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FD",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver la ecuación \\( 4(x - 2) - 5(2x - 3) = 5(x + 3) - 8(x - 1) \\), se obtiene:",
+    "options": [
+      { "text": "\\( -\\frac{16}{3} \\)", "correct": false },
+      { "text": "\\( \\frac{4}{3} \\)", "correct": false },
+      { "text": "\\( -\\frac{7}{3} \\)", "correct": false },
+      { "text": "\\( \\frac{5}{3} \\)", "correct": false }
+    ],
+    "hint": "Distribuye: \\(4x-8 -10x+15 = 5x+15 -8x+8\\).",
+    "explanation": "\\(-6x +7 = -3x +23 \\Rightarrow -6x+3x = 23-7 \\Rightarrow -3x=16 \\Rightarrow x=-16/3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FE",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor de \\( x \\) en la ecuación \\( 6(4x + 1) - 3(2x - 3) = 3(4x - 5) - 6(x + 1) \\)?",
+    "options": [
+      { "text": "-4", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "-3", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "hint": "Distribuye: \\(24x+6 -6x+9 = 12x-15 -6x-6\\).",
+    "explanation": "\\(18x+15 = 6x -21 \\Rightarrow 18x-6x = -21-15 \\Rightarrow 12x=-36 \\Rightarrow x=-3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FF",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor de \\( x \\) en la ecuación \\( \\frac{2x}{3} - \\frac{5}{4} = \\frac{7x}{4} + \\frac{5}{3} \\)?",
+    "options": [
+      { "text": "\\( \\frac{6}{13} \\)", "correct": false },
+      { "text": "\\( \\frac{21}{13} \\)", "correct": false },
+      { "text": "\\( -\\frac{4}{13} \\)", "correct": false },
+      { "text": "\\( -\\frac{35}{13} \\)", "correct": true }
+    ],
+    "hint": "Multiplica por 12 (mcm de 3 y 4).",
+    "explanation": "\\(8x -15 = 21x +20 \\Rightarrow -15-20 = 21x-8x \\Rightarrow -35=13x \\Rightarrow x=-35/13\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FG",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( y \\) en la ecuación \\( \\frac{5y}{6} - \\frac{2}{3} + \\frac{y}{4} = \\frac{3y}{4} - \\frac{1}{3} \\) es:",
+    "options": [
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "hint": "Multiplica por 12: \\(10y -8 +3y = 9y -4\\).",
+    "explanation": "\\(13y -8 = 9y -4 \\Rightarrow 13y-9y = -4+8 \\Rightarrow 4y=4 \\Rightarrow y=1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FH",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor de \\( z \\) en la ecuación \\( \\frac{z + 3}{4} = 7z - 3 \\)?",
+    "options": [
+      { "text": "\\( -\\frac{2}{9} \\)", "correct": false },
+      { "text": "\\( \\frac{2}{3} \\)", "correct": false },
+      { "text": "\\( \\frac{5}{9} \\)", "correct": true },
+      { "text": "\\( -\\frac{1}{3} \\)", "correct": false }
+    ],
+    "hint": "Multiplica por 4: \\(z+3 = 28z -12\\).",
+    "explanation": "\\(3+12 = 28z - z \\Rightarrow 15 = 27z \\Rightarrow z = 15/27 = 5/9\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FI",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) en la ecuación \\( 2x - 5 = \\frac{x + 5}{6} \\) es:",
+    "options": [
+      { "text": "\\( \\frac{7}{11} \\)", "correct": false },
+      { "text": "\\( \\frac{35}{11} \\)", "correct": true },
+      { "text": "\\( -\\frac{4}{11} \\)", "correct": false },
+      { "text": "\\( -\\frac{25}{11} \\)", "correct": false }
+    ],
+    "hint": "Multiplica por 6: \\(12x -30 = x+5\\).",
+    "explanation": "\\(12x - x = 5+30 \\Rightarrow 11x=35 \\Rightarrow x=35/11\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FJ",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es el valor de \\( y \\) en la ecuación \\( \\frac{2y - 3}{4} = \\frac{y + 4}{5} \\)?",
+    "options": [
+      { "text": "\\( \\frac{41}{6} \\)", "correct": false },
+      { "text": "\\( \\frac{37}{6} \\)", "correct": false },
+      { "text": "\\( -\\frac{5}{6} \\)", "correct": false },
+      { "text": "\\( \\frac{31}{6} \\)", "correct": true }
+    ],
+    "hint": "Multiplica cruzado: \\(5(2y-3) = 4(y+4)\\).",
+    "explanation": "\\(10y-15 = 4y+16 \\Rightarrow 6y=31 \\Rightarrow y=31/6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FK",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\( 5x + 3 = \\frac{6x - 2}{2} \\), se obtiene:",
+    "options": [
+      { "text": "-2", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": true }
+    ],
+    "hint": "Multiplica por 2: \\(10x+6 = 6x-2\\).",
+    "explanation": "\\(10x-6x = -2-6 \\Rightarrow 4x=-8 \\Rightarrow x=-2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FL",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La suma de tres números consecutivos es 27. ¿Cuál es el mayor de dichos números?",
+    "options": [
+      { "text": "8", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "10", "correct": true },
+      { "text": "12", "correct": false }
+    ],
+    "hint": "Números: \\(x, x+1, x+2\\).",
+    "explanation": "\\(3x+3=27 \\Rightarrow 3x=24 \\Rightarrow x=8\\), mayor = 10.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FM",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El largo de un terreno rectangular es el doble de largo que de ancho, si su perímetro es de 240 metros. ¿Cuál es la longitud del largo?",
+    "options": [
+      { "text": "120 metros", "correct": false },
+      { "text": "20 metros", "correct": false },
+      { "text": "80 metros", "correct": true },
+      { "text": "40 metros", "correct": false }
+    ],
+    "hint": "Ancho = \\(a\\), Largo = \\(2a\\), Perímetro = \\(2(a+2a)=240\\).",
+    "explanation": "\\(6a=240 \\Rightarrow a=40\\), largo = 80 m.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FN",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\begin{cases} -x - y = -1 \\\\ -x + y = 3 \\end{cases}\\) se obtiene:",
+    "options": [
+      { "text": "\\( x = 1, y = -2 \\)", "correct": false },
+      { "text": "\\( x = 1, y = 2 \\)", "correct": false },
+      { "text": "\\( x = -1, y = -2 \\)", "correct": false },
+      { "text": "\\( x = -1, y = 2 \\)", "correct": true }
+    ],
+    "hint": "Suma ambas ecuaciones: \\(-2x = 2 \\Rightarrow x=-1\\).",
+    "explanation": "Sustituyendo \\(x=-1\\) en \\(-(-1)+y=3 \\Rightarrow 1+y=3 \\Rightarrow y=2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FO",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Los valores de \\( a \\) y \\( b \\) en el sistema \\(\\begin{cases} 2a - 3b = 5 \\\\ 3a - b = -3 \\end{cases}\\) son:",
+    "options": [
+      { "text": "\\( a = -2, b = -3 \\)", "correct": false },
+      { "text": "\\( a = -2, b = 3 \\)", "correct": false },
+      { "text": "\\( a = 2, b = -3 \\)", "correct": false },
+      { "text": "\\( a = 2, b = 3 \\)", "correct": false }
+    ],
+    "hint": "Despeja \\(b\\) de la segunda: \\(b = 3a+3\\), sustituye.",
+    "explanation": "\\(2a -3(3a+3)=5 \\Rightarrow 2a-9a-9=5 \\Rightarrow -7a=14 \\Rightarrow a=-2\\), \\(b=3(-2)+3=-3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FP",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Al resolver \\(\\begin{cases} x + 3y = 4 \\\\ x - 3y = -2 \\end{cases}\\) se obtiene:",
+    "options": [
+      { "text": "\\( x = 1, y = 2 \\)", "correct": false },
+      { "text": "\\( x = 1, y = 1 \\)", "correct": true },
+      { "text": "\\( x = -1, y = -1 \\)", "correct": false },
+      { "text": "\\( x = 2, y = 1 \\)", "correct": false }
+    ],
+    "hint": "Suma ambas ecuaciones: \\(2x = 2 \\Rightarrow x=1\\).",
+    "explanation": "Sustituyendo: \\(1+3y=4 \\Rightarrow 3y=3 \\Rightarrow y=1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FQ",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( n \\) en el sistema de ecuaciones \\(\\begin{cases} 2m - 3n = 1 \\\\ 5m + n = 11 \\end{cases}\\) es:",
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "-2", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "1", "correct": true }
+    ],
+    "hint": "Multiplica la primera por 5 y la segunda por 2 para eliminar \\(m\\).",
+    "explanation": "\\(5(2m-3n)=5 \\Rightarrow 10m-15n=5\\); \\(2(5m+n)=22 \\Rightarrow 10m+2n=22\\); resta: \\(-17n=-17 \\Rightarrow n=1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FR",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El valor de \\( x \\) y \\( y \\) que satisface el sistema de ecuaciones \\(\\begin{cases} 5x - 2y = 8 \\\\ x + y = 3 \\end{cases}\\) es:",
+    "options": [
+      { "text": "\\( x = -2, y = 1 \\)", "correct": false },
+      { "text": "\\( x = 1, y = 2 \\)", "correct": false },
+      { "text": "\\( x = 2, y = 2 \\)", "correct": false },
+      { "text": "\\( x = 2, y = 1 \\)", "correct": true }
+    ],
+    "hint": "Despeja \\(y=3-x\\) y sustituye.",
+    "explanation": "\\(5x -2(3-x)=8 \\Rightarrow 5x-6+2x=8 \\Rightarrow 7x=14 \\Rightarrow x=2\\), \\(y=1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FS",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Las raíces de la ecuación \\( x^2 - 5x - 24 = 0 \\), son:",
+    "options": [
+      { "text": "-3 y 8", "correct": true },
+      { "text": "3 y -8", "correct": false },
+      { "text": "3 y 8", "correct": false },
+      { "text": "-3 y -8", "correct": false }
+    ],
+    "hint": "Factoriza: \\((x-8)(x+3)=0\\).",
+    "explanation": "\\(x=8\\) o \\(x=-3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FT",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una de las raíces de la ecuación \\( x^2 - 6x + 8 = 0 \\), es:",
+    "options": [
+      { "text": "-2 y 4", "correct": false },
+      { "text": "2 y -4", "correct": false },
+      { "text": "2 y 4", "correct": true },
+      { "text": "-2 y -4", "correct": false }
+    ],
+    "hint": "Factoriza: \\((x-2)(x-4)=0\\).",
+    "explanation": "\\(x=2\\) o \\(x=4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FU",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Las raíces de la ecuación \\( x^2 - x - 6 = 0 \\), son:",
+    "options": [
+      { "text": "\\( x = 3, x = 1 \\)", "correct": false },
+      { "text": "\\( x = -3, x = -2 \\)", "correct": false },
+      { "text": "\\( x = 3, x = -2 \\)", "correct": true },
+      { "text": "\\( x = 3, x = 2 \\)", "correct": false }
+    ],
+    "hint": "Factoriza: \\((x-3)(x+2)=0\\).",
+    "explanation": "\\(x=3\\) o \\(x=-2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13FV",
+    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
+    "tag02": ["✖ MAT ALG"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una solución de la ecuación \\( 2x^2 - x - 6 = 0 \\), es:",
+    "options": [
+      { "text": "-3", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "-2", "correct": false }
+    ],
+    "hint": "Factoriza: \\((2x+3)(x-2)=0\\).",
+    "explanation": "\\(x=2\\) o \\(x=-3/2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
