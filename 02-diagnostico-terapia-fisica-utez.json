@@ -1,0 +1,800 @@
+[
+  {
+    "id": "CEP00AA",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de los siguientes números es un número irracional?",
+    "options": [
+      { "text": "3.14", "correct": false },
+      { "text": "√2", "correct": true },
+      { "text": "0.5", "correct": false },
+      { "text": "-4", "correct": false }
+    ],
+    "hint": "Un número irracional no puede expresarse como una fracción de dos enteros.",
+    "explanation": "√2 es irracional porque no puede escribirse como una fracción exacta, a diferencia de los decimales finitos o periódicos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AB",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un estudiante del CEPREDIX debe calcular el valor de la siguiente expresión respetando la jerarquía de operaciones: 8 + 4 × 2 - 6 ÷ 3. ¿Cuál es el resultado correcto?",
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "hint": "Recuerda el orden: primero multiplicaciones y divisiones, luego sumas y restas.",
+    "explanation": "Primero resolvemos 4 × 2 = 8 y 6 ÷ 3 = 2, luego la expresión queda 8 + 8 - 2 = 14.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AC",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "En un tratamiento de rehabilitación, la cantidad de ejercicios que realiza un paciente aumenta en proporción directa al número de semanas. Si en la semana 3 realiza 15 ejercicios, ¿cuántos ejercicios realizará en la semana 7?",
+    "options": [
+      { "text": "25", "correct": false },
+      { "text": "35", "correct": true },
+      { "text": "30", "correct": false },
+      { "text": "40", "correct": false }
+    ],
+    "hint": "Establece una proporción directa: ejercicios / semanas = constante.",
+    "explanation": "La razón es 15/3 = 5 ejercicios por semana. Para 7 semanas: 7 × 5 = 35 ejercicios.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AD",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Resuelve la siguiente ecuación de segundo grado utilizando la fórmula general: 2x² - 5x + 2 = 0",
+    "options": [
+      { "text": "x = 2, x = 0.5", "correct": true },
+      { "text": "x = -2, x = -0.5", "correct": false },
+      { "text": "x = 1, x = 2", "correct": false },
+      { "text": "x = -1, x = -2", "correct": false }
+    ],
+    "hint": "Usa la fórmula general: x = [-b ± √(b² - 4ac)] / 2a",
+    "explanation": "Sustituyendo a=2, b=-5, c=2: x = [5 ± √(25 - 16)] / 4 = [5 ± 3] / 4. Por lo tanto, x₁ = 2, x₂ = 0.5.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AE",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un fisioterapeuta necesita calcular la hipotenusa de un triángulo rectángulo cuyos catetos miden 6 cm y 8 cm. ¿Cuál es su valor?",
+    "options": [
+      { "text": "14 cm", "correct": false },
+      { "text": "10 cm", "correct": true },
+      { "text": "12 cm", "correct": false },
+      { "text": "16 cm", "correct": false }
+    ],
+    "hint": "Aplica el teorema de Pitágoras: hipotenusa² = cateto₁² + cateto₂².",
+    "explanation": "h² = 6² + 8² = 36 + 64 = 100, entonces h = √100 = 10 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AF",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_MATEMÁTICAS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Factoriza la siguiente expresión algebraica aplicando factor común: 6x² + 9x",
+    "options": [
+      { "text": "3x(2x + 3)", "correct": true },
+      { "text": "x(6x + 9)", "correct": false },
+      { "text": "3(2x² + 3x)", "correct": false },
+      { "text": "3x²(2 + 3/x)", "correct": false }
+    ],
+    "hint": "Busca el máximo factor común entre los coeficientes y la variable.",
+    "explanation": "El factor común de 6x² y 9x es 3x, entonces 6x² + 9x = 3x(2x + 3).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AG",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es la conjugación correcta del verbo 'to be' en presente simple para el pronombre 'she'?",
+    "options": [
+      { "text": "am", "correct": false },
+      { "text": "is", "correct": true },
+      { "text": "are", "correct": false },
+      { "text": "be", "correct": false }
+    ],
+    "hint": "Recuerda la conjugación: I am, you are, he/she/it is.",
+    "explanation": "El verbo 'to be' en presente simple se conjuga como 'is' para la tercera persona del singular (he, she, it).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AH",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Completa la oración con la forma correcta del presente progresivo: 'The patient _______ (wait) for the therapist right now.'",
+    "options": [
+      { "text": "is waiting", "correct": true },
+      { "text": "are waiting", "correct": false },
+      { "text": "waits", "correct": false },
+      { "text": "waiting", "correct": false }
+    ],
+    "hint": "El presente progresivo se forma con verbo to be + verbo con -ing.",
+    "explanation": "El sujeto 'The patient' es tercera persona singular, por lo que se usa 'is' + 'waiting'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AI",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Selecciona la opción que completa correctamente la oración usando 'already' en presente perfecto: 'I _______ finished my homework.'",
+    "options": [
+      { "text": "have already", "correct": true },
+      { "text": "has already", "correct": false },
+      { "text": "already have", "correct": false },
+      { "text": "already has", "correct": false }
+    ],
+    "hint": "El presente perfecto se forma con have/has + participio pasado. 'Already' va entre el auxiliar y el verbo.",
+    "explanation": "'I' requiere 'have' como auxiliar, y 'already' se coloca antes del participio: 'have already finished'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AJ",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Identifica la opción que utiliza correctamente el modal 'should' para dar una recomendación médica.",
+    "options": [
+      { "text": "You should to rest for two days.", "correct": false },
+      { "text": "You should resting for two days.", "correct": false },
+      { "text": "You should rest for two days.", "correct": true },
+      { "text": "You should rested for two days.", "correct": false }
+    ],
+    "hint": "Los verbos modales como 'should' van seguidos del verbo en infinitivo sin 'to'.",
+    "explanation": "'Should' expresa recomendación y se construye como should + verbo base, sin 'to' ni conjugaciones adicionales.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AK",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Completa la oración con el adverbio de frecuencia correcto: 'She _______ arrives late to her therapy sessions, almost never.'",
+    "options": [
+      { "text": "always", "correct": false },
+      { "text": "usually", "correct": false },
+      { "text": "seldom", "correct": true },
+      { "text": "sometimes", "correct": false }
+    ],
+    "hint": "'Almost never' indica una frecuencia muy baja, casi nula.",
+    "explanation": "'Seldom' significa 'rara vez', lo que coincide con la idea de que casi nunca llega tarde.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AL",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_INGLÉS"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Elige el conector secuencial que indica el orden correcto: '_______ , you must wash your hands; _______ , apply the gel; _______ , massage the area.'",
+    "options": [
+      { "text": "First / next / finally", "correct": true },
+      { "text": "Finally / first / next", "correct": false },
+      { "text": "Next / finally / first", "correct": false },
+      { "text": "After that / first / next", "correct": false }
+    ],
+    "hint": "Los conectores secuenciales organizan pasos en orden cronológico.",
+    "explanation": "La secuencia lógica de instrucciones comienza con 'First', continúa con 'next' y termina con 'finally'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AM",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de las siguientes afirmaciones corresponde a la Primera Ley de Newton?",
+    "options": [
+      { "text": "A toda acción corresponde una reacción igual y opuesta.", "correct": false },
+      { "text": "Un cuerpo permanece en reposo o movimiento rectilíneo uniforme a menos que una fuerza externa actúe sobre él.", "correct": true },
+      { "text": "La fuerza es igual a la masa por la aceleración.", "correct": false },
+      { "text": "La energía no se crea ni se destruye, solo se transforma.", "correct": false }
+    ],
+    "hint": "También se conoce como la ley de la inercia.",
+    "explanation": "La Primera Ley de Newton establece que un objeto mantiene su estado de movimiento a menos que una fuerza neta actúe sobre él.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AN",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un estudiante del CEPREDIX aplica una fuerza de 50 N sobre una camilla de rehabilitación para desplazarla 3 metros. ¿Cuál es el trabajo mecánico realizado?",
+    "options": [
+      { "text": "150 J", "correct": true },
+      { "text": "50 J", "correct": false },
+      { "text": "300 J", "correct": false },
+      { "text": "15 J", "correct": false }
+    ],
+    "hint": "El trabajo se calcula como W = F × d, donde F es fuerza en Newtons y d distancia en metros.",
+    "explanation": "Sustituyendo: W = 50 N × 3 m = 150 Joules.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AO",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Si la temperatura de un paciente aumenta de 36°C a 38°C, ¿cuál es el cambio de temperatura en Kelvin?",
+    "options": [
+      { "text": "2 K", "correct": true },
+      { "text": "275 K", "correct": false },
+      { "text": "309 K", "correct": false },
+      { "text": "311 K", "correct": false }
+    ],
+    "hint": "La escala Kelvin tiene la misma magnitud de grado que Celsius. ΔK = Δ°C.",
+    "explanation": "El cambio en Celsius es 38°C - 36°C = 2°C, que equivale a 2 K.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AP",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Se conecta un electrodo de terapia a una fuente de 12 V y circula una corriente de 0.5 A. ¿Cuál es la resistencia del electrodo según la Ley de Ohm?",
+    "options": [
+      { "text": "6 Ω", "correct": false },
+      { "text": "24 Ω", "correct": true },
+      { "text": "12 Ω", "correct": false },
+      { "text": "0.04 Ω", "correct": false }
+    ],
+    "hint": "La Ley de Ohm establece que R = V / I.",
+    "explanation": "Sustituyendo: R = 12 V / 0.5 A = 24 Ω.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AQ",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un ultrasonido terapéutico emite ondas con una frecuencia de 1 MHz y una longitud de onda de 1.5 mm en tejido blando. ¿Cuál es la velocidad de propagación del sonido en ese tejido?",
+    "options": [
+      { "text": "1500 m/s", "correct": true },
+      { "text": "150 m/s", "correct": false },
+      { "text": "15 m/s", "correct": false },
+      { "text": "15000 m/s", "correct": false }
+    ],
+    "hint": "Usa la relación v = f × λ, convirtiendo unidades a metros y Hz.",
+    "explanation": "1 MHz = 1 × 10⁶ Hz; 1.5 mm = 1.5 × 10⁻³ m. Entonces v = (1 × 10⁶) × (1.5 × 10⁻³) = 1500 m/s.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AR",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de las siguientes opciones describe correctamente la Ley de Boyle?",
+    "options": [
+      { "text": "A presión constante, el volumen es directamente proporcional a la temperatura.", "correct": false },
+      { "text": "A temperatura constante, el volumen de un gas es inversamente proporcional a la presión.", "correct": true },
+      { "text": "A volumen constante, la presión es directamente proporcional a la temperatura.", "correct": false },
+      { "text": "La presión y el volumen de un gas no se relacionan.", "correct": false }
+    ],
+    "hint": "Relaciona presión y volumen a temperatura constante.",
+    "explanation": "La Ley de Boyle establece que PV = constante cuando T es constante, por lo que si la presión aumenta, el volumen disminuye.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AS",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Identifica la palabra que está escrita correctamente según las reglas de ortografía.",
+    "options": [
+      { "text": "Haber", "correct": true },
+      { "text": "Aver", "correct": false },
+      { "text": "Haver", "correct": false },
+      { "text": "Averr", "correct": false }
+    ],
+    "hint": "Recuerda que 'haber' es el verbo auxiliar, mientras que 'a ver' son dos palabras.",
+    "explanation": "La forma correcta del verbo auxiliar es 'haber'. 'Aver' no existe en español.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AT",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Lee el siguiente texto breve y responde: 'La terapia física ayuda a recuperar la movilidad. Los pacientes mejoran su calidad de vida.' ¿Cuál es la idea principal del texto?",
+    "options": [
+      { "text": "Los pacientes necesitan medicamentos.", "correct": false },
+      { "text": "La terapia física mejora la movilidad y la calidad de vida.", "correct": true },
+      { "text": "La movilidad no se puede recuperar.", "correct": false },
+      { "text": "Solo los fisioterapeutas se benefician.", "correct": false }
+    ],
+    "hint": "Identifica qué información se repite o es central en ambas oraciones.",
+    "explanation": "El texto destaca que la terapia física permite recuperar la movilidad y mejora la calidad de vida del paciente.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AU",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de las siguientes opciones presenta una estructura de lengua correcta en cuanto a concordancia sujeto-verbo?",
+    "options": [
+      { "text": "Los pacientes realiza ejercicios diariamente.", "correct": false },
+      { "text": "El terapeuta y el paciente asiste a la sesión.", "correct": false },
+      { "text": "Las sesiones de rehabilitación son efectivas.", "correct": true },
+      { "text": "La recuperación dependen del esfuerzo.", "correct": false }
+    ],
+    "hint": "Revisa que el número (singular/plural) del sujeto coincida con el del verbo.",
+    "explanation": "'Las sesiones' es plural, por lo que el verbo debe ser 'son', también plural.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AV",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Identifica la opción que contiene un error de acentuación (tilde).",
+    "options": [
+      { "text": "El fisioterapeuta evaluó la condición del paciente.", "correct": false },
+      { "text": "La movilidad es fundamental para su recuperación.", "correct": false },
+      { "text": "El tratamiento incluyo ejercicios de estiramiento.", "correct": true },
+      { "text": "Todos los días acudía puntualmente a su cita.", "correct": false }
+    ],
+    "hint": "Revisa los verbos en pasado: 'evaluó', 'incluyo', 'acudía'.",
+    "explanation": "'Incluyo' sin tilde es presente de indicativo; el contexto requiere pretérito, que debe llevar tilde: 'incluyó'.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de las siguientes opciones utiliza correctamente el modo subjuntivo para expresar una duda?",
+    "options": [
+      { "text": "Es probable que el paciente se recupera pronto.", "correct": false },
+      { "text": "Dudo que el tratamiento sea efectivo.", "correct": true },
+      { "text": "Quizás el paciente se recuperó rápidamente.", "correct": false },
+      { "text": "Tal vez el terapeuta explicó el ejercicio.", "correct": false }
+    ],
+    "hint": "Expresiones de duda como 'dudo que' requieren el verbo en subjuntivo.",
+    "explanation": "'Dudo que' rige subjuntivo: 'sea' es la forma correcta del verbo 'ser' en presente de subjuntivo.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_ESPAÑOL"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Completa la oración con el signo de puntuación adecuado: 'Se necesitan los siguientes materiales_ vendas, gasas y cinta adhesiva.'",
+    "options": [
+      { "text": "Punto y coma (;)", "correct": false },
+      { "text": "Dos puntos (:)", "correct": true },
+      { "text": "Coma (,)", "correct": false },
+      { "text": "Punto final (.)", "correct": false }
+    ],
+    "hint": "Los dos puntos se usan para introducir una enumeración.",
+    "explanation": "Antes de una lista o enumeración, se colocan dos puntos (':')",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es la unidad básica estructural y funcional de los seres vivos?",
+    "options": [
+      { "text": "El átomo", "correct": false },
+      { "text": "La célula", "correct": true },
+      { "text": "El tejido", "correct": false },
+      { "text": "El órgano", "correct": false }
+    ],
+    "hint": "Todos los organismos vivos están formados por estas estructuras microscópicas.",
+    "explanation": "La teoría celular establece que la célula es la unidad básica de la vida.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Relaciona correctamente los niveles de organización con su ejemplo correspondiente:\n1. Tejido\n2. Órgano\n3. Sistema\nA) Corazón\nB) Muscular\nC) Muscular cardíaco",
+    "options": [
+      { "text": "1-C, 2-A, 3-B", "correct": true },
+      { "text": "1-B, 2-C, 3-A", "correct": false },
+      { "text": "1-A, 2-B, 3-C", "correct": false },
+      { "text": "1-C, 2-B, 3-A", "correct": false }
+    ],
+    "hint": "Identifica cuál es tejido (grupo de células similares), cuál es órgano (estructura con función específica) y cuál es sistema (conjunto de órganos).",
+    "explanation": "El tejido muscular cardíaco está en el corazón (órgano), y el corazón forma parte del sistema muscular.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de los siguientes compuestos orgánicos es el principal responsable del almacenamiento de energía a largo plazo en el cuerpo humano?",
+    "options": [
+      { "text": "Carbohidratos", "correct": false },
+      { "text": "Lípidos", "correct": true },
+      { "text": "Proteínas", "correct": false },
+      { "text": "Ácidos nucleicos", "correct": false }
+    ],
+    "hint": "Piensa en la reserva energética que se acumula en el tejido adiposo.",
+    "explanation": "Los lípidos (grasas) almacenan energía a largo plazo, mientras que los carbohidratos proporcionan energía rápida.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un estudiante del CEPREDIX analiza el transporte celular. ¿Cuál de los siguientes procesos requiere energía (ATP) para mover sustancias a través de la membrana?",
+    "options": [
+      { "text": "Difusión simple", "correct": false },
+      { "text": "Ósmosis", "correct": false },
+      { "text": "Difusión facilitada", "correct": false },
+      { "text": "Bomba de sodio-potasio", "correct": true }
+    ],
+    "hint": "El transporte activo consume energía para mover sustancias en contra de su gradiente de concentración.",
+    "explanation": "La bomba de sodio-potasio es un ejemplo de transporte activo que utiliza ATP para intercambiar iones.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Según las leyes de Mendel, si se cruzan dos plantas heterocigotas (Aa) para una característica de flor color púrpura (dominante) sobre blanco (recesivo), ¿cuál es la proporción fenotípica esperada en la descendencia?",
+    "options": [
+      { "text": "3 púrpura : 1 blanco", "correct": true },
+      { "text": "1 púrpura : 3 blancos", "correct": false },
+      { "text": "1 púrpura : 1 blanco", "correct": false },
+      { "text": "Todos púrpura", "correct": false }
+    ],
+    "hint": "Realiza un cuadro de Punnett con ambos padres Aa.",
+    "explanation": "El cruce Aa × Aa produce genotipos: AA, Aa, Aa, aa. Como A es dominante, tres expresan púrpura y uno blanco.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_BIOLOGÍA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es la función principal de los ácidos nucleicos (ADN y ARN) en los seres vivos?",
+    "options": [
+      { "text": "Almacenar y transmitir información genética", "correct": true },
+      { "text": "Proporcionar energía inmediata", "correct": false },
+      { "text": "Formar estructuras de soporte", "correct": false },
+      { "text": "Regular la temperatura corporal", "correct": false }
+    ],
+    "hint": "Estas moléculas contienen las instrucciones para la síntesis de proteínas.",
+    "explanation": "El ADN almacena la información genética y el ARN la transmite para la síntesis de proteínas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de los siguientes NO es un estado de agregación de la materia?",
+    "options": [
+      { "text": "Sólido", "correct": false },
+      { "text": "Líquido", "correct": false },
+      { "text": "Gas", "correct": false },
+      { "text": "Energía", "correct": true }
+    ],
+    "hint": "Los estados de la materia son sólido, líquido, gaseoso y plasma.",
+    "explanation": "La energía no es un estado de agregación; es una propiedad que puede poseer la materia.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Identifica cuál de las siguientes opciones es una mezcla homogénea.",
+    "options": [
+      { "text": "Agua y aceite", "correct": false },
+      { "text": "Arena y grava", "correct": false },
+      { "text": "Sal disuelta en agua", "correct": true },
+      { "text": "Granito", "correct": false }
+    ],
+    "hint": "En las mezclas homogéneas no se distinguen sus componentes a simple vista.",
+    "explanation": "La sal disuelta en agua forma una solución homogénea (salmuera), donde los componentes no se distinguen.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es la diferencia principal entre un compuesto orgánico y uno inorgánico?",
+    "options": [
+      { "text": "Los orgánicos siempre contienen carbono e hidrógeno; los inorgánicos no necesariamente.", "correct": true },
+      { "text": "Los inorgánicos siempre son tóxicos.", "correct": false },
+      { "text": "Los orgánicos no pueden tener enlaces covalentes.", "correct": false },
+      { "text": "Los inorgánicos siempre provienen de seres vivos.", "correct": false }
+    ],
+    "hint": "Piensa en la composición química básica de los compuestos.",
+    "explanation": "Los compuestos orgánicos se basan en cadenas de carbono unidas a hidrógeno; los inorgánicos pueden carecer de carbono o tenerlo en formas simples como CO₂.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Balancea la siguiente reacción química: ___ Fe + ___ O₂ → ___ Fe₂O₃. ¿Cuáles son los coeficientes estequiométricos correctos?",
+    "options": [
+      { "text": "2, 3, 2", "correct": false },
+      { "text": "4, 3, 2", "correct": true },
+      { "text": "3, 2, 4", "correct": false },
+      { "text": "2, 2, 3", "correct": false }
+    ],
+    "hint": "Asegura que el número de átomos de cada elemento sea igual en reactivos y productos.",
+    "explanation": "4 Fe + 3 O₂ → 2 Fe₂O₃: 4 hierros y 6 oxígenos de cada lado.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Una reacción química absorbe calor del entorno. ¿Cómo se clasifica este tipo de reacción?",
+    "options": [
+      { "text": "Exotérmica", "correct": false },
+      { "text": "Endotérmica", "correct": true },
+      { "text": "Neutra", "correct": false },
+      { "text": "Catalítica", "correct": false }
+    ],
+    "hint": "Revisa los prefijos: 'endo' significa hacia adentro, 'exo' hacia afuera.",
+    "explanation": "Las reacciones endotérmicas requieren o absorben energía en forma de calor.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BJ",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es el nombre correcto del compuesto Fe₂O₃ según las reglas de nomenclatura?",
+    "options": [
+      { "text": "Óxido de hierro (II)", "correct": false },
+      { "text": "Óxido de hierro (III)", "correct": true },
+      { "text": "Dióxido de hierro", "correct": false },
+      { "text": "Hidróxido férrico", "correct": false }
+    ],
+    "hint": "El hierro puede actuar con valencia 2+ o 3+. En Fe₂O₃, la valencia es 3+.",
+    "explanation": "Fe₂O₃ es óxido de hierro (III) porque el oxígeno tiene valencia -2, entonces cada hierro debe tener +3 para compensar.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BK",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es la característica fundamental de un hidrocarburo?",
+    "options": [
+      { "text": "Contiene solo carbono e hidrógeno", "correct": true },
+      { "text": "Siempre contiene oxígeno", "correct": false },
+      { "text": "Es soluble en agua", "correct": false },
+      { "text": "Es de origen inorgánico", "correct": false }
+    ],
+    "hint": "Observa el prefijo 'hidro-' y la raíz 'carbono'.",
+    "explanation": "Los hidrocarburos son compuestos orgánicos formados exclusivamente por átomos de carbono e hidrógeno.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BL",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Identifica el grupo funcional característico de los alcoholes.",
+    "options": [
+      { "text": "-COOH", "correct": false },
+      { "text": "-OH", "correct": true },
+      { "text": "-CHO", "correct": false },
+      { "text": "-CO-", "correct": false }
+    ],
+    "hint": "Recuerda que los alcoholes comunes como el etanol contienen este grupo.",
+    "explanation": "El grupo hidroxilo (-OH) es el grupo funcional de los alcoholes.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BM",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Relaciona correctamente el compuesto con su tipo:\nA) Etanol\nB) Acetona\nC) Ácido acético\n1) Cetona\n2) Alcohol\n3) Ácido carboxílico",
+    "options": [
+      { "text": "A-2, B-1, C-3", "correct": true },
+      { "text": "A-1, B-2, C-3", "correct": false },
+      { "text": "A-3, B-2, C-1", "correct": false },
+      { "text": "A-2, B-3, C-1", "correct": false }
+    ],
+    "hint": "Etanol es alcohol, acetona es cetona, ácido acético es ácido carboxílico.",
+    "explanation": "El etanol contiene -OH (alcohol), la acetona tiene grupo C=O en medio (cetona) y el ácido acético tiene -COOH (ácido carboxílico).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BN",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál es el producto principal de la reacción de esterificación entre un ácido carboxílico y un alcohol?",
+    "options": [
+      { "text": "Éter", "correct": false },
+      { "text": "Éster", "correct": true },
+      { "text": "Aldehído", "correct": false },
+      { "text": "Amina", "correct": false }
+    ],
+    "hint": "Recuerda la reacción que da origen a los aromas frutales.",
+    "explanation": "La esterificación produce un éster y agua como subproducto.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BO",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "Un estudiante del CEPREDIX identifica un compuesto con fórmula CH₃-CH₂-NH₂. ¿A qué familia pertenece?",
+    "options": [
+      { "text": "Alcohol", "correct": false },
+      { "text": "Éter", "correct": false },
+      { "text": "Amina", "correct": true },
+      { "text": "Amida", "correct": false }
+    ],
+    "hint": "Observa el grupo -NH₂ al final de la cadena.",
+    "explanation": "El grupo -NH₂ (amino) caracteriza a las aminas. CH₃-CH₂-NH₂ es etilamina o aminoetano.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BP",
+    "tag01": ["UTEZ"],
+    "tag02": ["TERAPIA FÍSICA_QUÍMICA ORGÁNICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["DIAGNÓSTICO"],
+    "question": "¿Cuál de las siguientes opciones corresponde a un aldehído?",
+    "options": [
+      { "text": "CH₃-CHO", "correct": true },
+      { "text": "CH₃-CO-CH₃", "correct": false },
+      { "text": "CH₃-COOH", "correct": false },
+      { "text": "CH₃-O-CH₃", "correct": false }
+    ],
+    "hint": "El grupo funcional de los aldehídos es -CHO al final de la cadena.",
+    "explanation": "CH₃-CHO es etanal (acetaldehído), un aldehído.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]
