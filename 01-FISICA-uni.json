@@ -1157,5 +1157,526 @@
     "image": "https://i.imgur.com/E5XGakw.png",
     "explanative_video": null,
     "collapsible_text": null
-  }
-]
+  },
+  {
+    "id": "CEP25GF",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un automóvil viaja a una velocidad constante de 25 m/s. ¿Qué distancia recorrerá en 40 segundos?",
+    "options": [
+      { "text": "1000 m", "correct": true },
+      { "text": "625 m", "correct": false },
+      { "text": "1.6 m", "correct": false },
+      { "text": "65 m", "correct": false }
+    ],
+    "hint": "Recuerda la fórmula de velocidad constante: \\(v = d/t\\). Despeja la distancia.",
+    "explanation": "Para velocidad constante, \\(d = v \\times t = 25 \\,\\text{m/s} \\times 40 \\,\\text{s} = 1000 \\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GG",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un objeto en caída libre parte del reposo. ¿Cuál será su velocidad después de 3 segundos? (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "30 m/s", "correct": true },
+      { "text": "10 m/s", "correct": false },
+      { "text": "3 m/s", "correct": false },
+      { "text": "0 m/s", "correct": false }
+    ],
+    "hint": "Usa la ecuación de velocidad en caída libre: \\(v = g \\times t\\).",
+    "explanation": "Partiendo del reposo, \\(v = g t = 10 \\,\\text{m/s}^2 \\times 3 \\,\\text{s} = 30 \\,\\text{m/s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GH",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una piedra se lanza verticalmente hacia arriba con una velocidad inicial de 20 m/s. ¿Cuál es la altura máxima que alcanza? (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "20 m", "correct": true },
+      { "text": "40 m", "correct": false },
+      { "text": "10 m", "correct": false },
+      { "text": "2 m", "correct": false }
+    ],
+    "hint": "En la altura máxima, la velocidad final es cero. Usa \\(v_f^2 = v_i^2 - 2gh\\).",
+    "explanation": "Despejando \\(h = v_i^2 / (2g) = (20 \\,\\text{m/s})^2 / (2 \\times 10 \\,\\text{m/s}^2) = 400 / 20 = 20 \\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GI",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es la aceleración de un vehículo que aumenta su velocidad de 10 m/s a 30 m/s en 5 segundos?",
+    "options": [
+      { "text": "4 m/s²", "correct": true },
+      { "text": "20 m/s²", "correct": false },
+      { "text": "2 m/s²", "correct": false },
+      { "text": "40 m/s²", "correct": false }
+    ],
+    "hint": "La aceleración es el cambio de velocidad dividido entre el tiempo: \\(a = (v_f - v_i)/t\\).",
+    "explanation": "\\(a = (30 - 10) / 5 = 20 / 5 = 4 \\,\\text{m/s}^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GJ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Sobre un cuerpo de 5 kg actúa una fuerza neta de 20 N. ¿Cuál es su aceleración?",
+    "options": [
+      { "text": "4 m/s²", "correct": true },
+      { "text": "100 m/s²", "correct": false },
+      { "text": "0.25 m/s²", "correct": false },
+      { "text": "25 m/s²", "correct": false }
+    ],
+    "hint": "Aplica la segunda ley de Newton: \\(F = m \\times a\\).",
+    "explanation": "Despejando \\(a = F/m = 20 \\,\\text{N} / 5 \\,\\text{kg} = 4 \\,\\text{m/s}^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GK",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un bloque de 8 kg se encuentra sobre una superficie horizontal sin fricción. Se le aplica una fuerza horizontal constante de 24 N. ¿Qué distancia recorrerá en 6 segundos partiendo del reposo?",
+    "options": [
+      { "text": "54 m", "correct": true },
+      { "text": "18 m", "correct": false },
+      { "text": "108 m", "correct": false },
+      { "text": "9 m", "correct": false }
+    ],
+    "hint": "Primero calcula la aceleración con \\(F = ma\\), luego usa \\(d = \\frac{1}{2} a t^2\\).",
+    "explanation": "\\(a = 24/8 = 3 \\,\\text{m/s}^2\\). \\(d = 0.5 \\times 3 \\times 6^2 = 0.5 \\times 3 \\times 36 = 54 \\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GL",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es la energía cinética de un objeto de 2 kg que se mueve a 3 m/s?",
+    "options": [
+      { "text": "9 J", "correct": true },
+      { "text": "6 J", "correct": false },
+      { "text": "18 J", "correct": false },
+      { "text": "3 J", "correct": false }
+    ],
+    "hint": "La energía cinética es \\(E_c = \\frac{1}{2} m v^2\\).",
+    "explanation": "\\(E_c = 0.5 \\times 2 \\times 3^2 = 1 \\times 9 = 9 \\,\\text{J}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GM",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una grúa eleva una masa de 100 kg a una altura de 5 metros. ¿Cuál es el trabajo realizado? (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "5000 J", "correct": true },
+      { "text": "500 J", "correct": false },
+      { "text": "2000 J", "correct": false },
+      { "text": "50 J", "correct": false }
+    ],
+    "hint": "El trabajo contra la gravedad es \\(W = mgh\\).",
+    "explanation": "\\(W = 100 \\,\\text{kg} \\times 10 \\,\\text{m/s}^2 \\times 5 \\,\\text{m} = 5000 \\,\\text{J}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GN",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un proyectil es lanzado horizontalmente desde una altura de 45 m con una velocidad de 20 m/s. ¿Cuánto tiempo tarda en caer al suelo? (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "3 s", "correct": true },
+      { "text": "9 s", "correct": false },
+      { "text": "4.5 s", "correct": false },
+      { "text": "2 s", "correct": false }
+    ],
+    "hint": "El tiempo de caída depende solo de la altura vertical: \\(h = \\frac{1}{2} g t^2\\).",
+    "explanation": "Despejando \\(t = \\sqrt{2h/g} = \\sqrt{2 \\times 45 / 10} = \\sqrt{90/10} = \\sqrt{9} = 3 \\,\\text{s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GO",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un resistor tiene una resistencia de 10 Ω y se le aplica un voltaje de 120 V. ¿Cuál es la corriente que circula?",
+    "options": [
+      { "text": "12 A", "correct": true },
+      { "text": "1200 A", "correct": false },
+      { "text": "0.083 A", "correct": false },
+      { "text": "1.2 A", "correct": false }
+    ],
+    "hint": "Utiliza la ley de Ohm: \\(V = IR\\).",
+    "explanation": "Despejando \\(I = V/R = 120 \\,\\text{V} / 10 \\,\\Omega = 12 \\,\\text{A}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GP",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una onda tiene una frecuencia de 50 Hz y una longitud de onda de 2 m. ¿Cuál es su velocidad de propagación?",
+    "options": [
+      { "text": "100 m/s", "correct": true },
+      { "text": "25 m/s", "correct": false },
+      { "text": "52 m/s", "correct": false },
+      { "text": "0.04 m/s", "correct": false }
+    ],
+    "hint": "Usa la ecuación de ondas: \\(v = \\lambda \\times f\\).",
+    "explanation": "\\(v = 2 \\,\\text{m} \\times 50 \\,\\text{Hz} = 100 \\,\\text{m/s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GQ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un ciclista parte del reposo y acelera uniformemente a 1.5 m/s² durante 10 segundos, luego mantiene velocidad constante durante 20 segundos y finalmente frena uniformemente hasta detenerse en 5 segundos. ¿Qué distancia total recorre?",
+    "options": [
+      { "text": "412.5 m", "correct": true },
+      { "text": "300 m", "correct": false },
+      { "text": "375 m", "correct": false },
+      { "text": "450 m", "correct": false }
+    ],
+    "hint": "Calcula la distancia en cada etapa: aceleración, velocidad constante y desaceleración.",
+    "explanation": "Etapa 1: \\(d_1 = 0.5 \\times 1.5 \\times 10^2 = 75\\,\\text{m}\\), \\(v = 15\\,\\text{m/s}\\). Etapa 2: \\(d_2 = 15 \\times 20 = 300\\,\\text{m}\\). Etapa 3: \\(d_3 = 15 \\times 5 / 2 = 37.5\\,\\text{m}\\). Total = \\(75+300+37.5 = 412.5\\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GR",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "La densidad del agua es 1000 kg/m³. ¿Cuál es la masa de 0.5 m³ de agua?",
+    "options": [
+      { "text": "500 kg", "correct": true },
+      { "text": "2000 kg", "correct": false },
+      { "text": "0.5 kg", "correct": false },
+      { "text": "5000 kg", "correct": false }
+    ],
+    "hint": "La densidad es \\(\\rho = m/V\\), entonces \\(m = \\rho \\times V\\).",
+    "explanation": "\\(m = 1000 \\,\\text{kg/m}^3 \\times 0.5 \\,\\text{m}^3 = 500 \\,\\text{kg}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GS",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcule la presión que ejerce una fuerza de 200 N sobre una superficie de 0.5 m².",
+    "options": [
+      { "text": "400 Pa", "correct": true },
+      { "text": "100 Pa", "correct": false },
+      { "text": "200 Pa", "correct": false },
+      { "text": "800 Pa", "correct": false }
+    ],
+    "hint": "La presión es \\(P = F/A\\).",
+    "explanation": "\\(P = 200 \\,\\text{N} / 0.5 \\,\\text{m}^2 = 400 \\,\\text{Pa}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GT",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un cilindro contiene 2 moles de un gas ideal a 300 K. Si el volumen es constante y se duplica la temperatura absoluta, ¿cómo cambia la presión?",
+    "options": [
+      { "text": "Se duplica", "correct": true },
+      { "text": "Se reduce a la mitad", "correct": false },
+      { "text": "No cambia", "correct": false },
+      { "text": "Se cuadruplica", "correct": false }
+    ],
+    "hint": "Ley de Gay-Lussac: a volumen constante, \\(P_1/T_1 = P_2/T_2\\).",
+    "explanation": "Si \\(T_2 = 2T_1\\), entonces \\(P_2 = P_1 \\times (T_2/T_1) = 2P_1\\). La presión se duplica.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GU",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un péndulo simple tiene una longitud de 1 m. ¿Cuál es su período? (Considere \\(g = 10 \\,\\text{m/s}^2\\) y \\(\\pi = 3.14\\))",
+    "options": [
+      { "text": "1.984 s", "correct": true },
+      { "text": "3.14 s", "correct": false },
+      { "text": "0.628 s", "correct": false },
+      { "text": "6.28 s", "correct": false }
+    ],
+    "hint": "El período de un péndulo es \\(T = 2\\pi \\sqrt{L/g}\\).",
+    "explanation": "\\(T = 2 \\times 3.14 \\times \\sqrt{1/10} = 6.28 \\times \\sqrt{0.1} = 6.28 \\times 0.3162 \\approx 1.984 \\,\\text{s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GV",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un bloque de 3 kg se desliza por un plano inclinado de 30° sin fricción. ¿Cuál es su aceleración? (Considere \\(g = 10 \\,\\text{m/s}^2\\), \\(\\sin 30° = 0.5\\))",
+    "options": [
+      { "text": "5 m/s²", "correct": true },
+      { "text": "8.66 m/s²", "correct": false },
+      { "text": "10 m/s²", "correct": false },
+      { "text": "2.5 m/s²", "correct": false }
+    ],
+    "hint": "La aceleración en un plano inclinado sin fricción es \\(a = g \\sin \\theta\\).",
+    "explanation": "\\(a = 10 \\times 0.5 = 5 \\,\\text{m/s}^2\\). La masa no influye por la segunda ley de Newton.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GW",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Se dispara un proyectil con una velocidad inicial de 40 m/s con un ángulo de 30° sobre la horizontal. ¿Cuál es el alcance máximo? (Considere \\(g = 10 \\,\\text{m/s}^2\\), \\(\\sin 60° = 0.87\\))",
+    "options": [
+      { "text": "139.2 m", "correct": true },
+      { "text": "80 m", "correct": false },
+      { "text": "160 m", "correct": false },
+      { "text": "69.6 m", "correct": false }
+    ],
+    "hint": "El alcance máximo es \\(R = \\frac{v_i^2 \\sin(2\\theta)}{g}\\).",
+    "explanation": "\\(R = (40^2 \\times \\sin 60°) / 10 = (1600 \\times 0.87) / 10 = 1392 / 10 = 139.2 \\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GX",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un altavoz emite sonido con una potencia de 10 W. Si la intensidad a una cierta distancia es \\(10^{-3} \\,\\text{W/m}^2\\), ¿cuál es el área de la esfera a esa distancia?",
+    "options": [
+      { "text": "10000 m²", "correct": true },
+      { "text": "0.01 m²", "correct": false },
+      { "text": "1000 m²", "correct": false },
+      { "text": "10 m²", "correct": false }
+    ],
+    "hint": "La intensidad es \\(I = P/A\\), entonces \\(A = P/I\\).",
+    "explanation": "\\(A = 10 \\,\\text{W} / 10^{-3} \\,\\text{W/m}^2 = 10000 \\,\\text{m}^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GY",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una carga puntual de \\(2 \\,\\mu\\text{C}\\) se coloca en el vacío. ¿Cuál es la magnitud del campo eléctrico a una distancia de 0.3 m? (Considere \\(k = 9 \\times 10^9 \\,\\text{N·m}^2/\\text{C}^2\\))",
+    "options": [
+      { "text": "2 × 10⁵ N/C", "correct": true },
+      { "text": "6 × 10⁴ N/C", "correct": false },
+      { "text": "2 × 10⁴ N/C", "correct": false },
+      { "text": "6 × 10⁵ N/C", "correct": false }
+    ],
+    "hint": "El campo eléctrico es \\(E = k q / r^2\\).",
+    "explanation": "\\(E = (9 \\times 10^9) \\times (2 \\times 10^{-6}) / (0.3^2) = (18000) / 0.09 = 200000 = 2 \\times 10^5 \\,\\text{N/C}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP25GZ",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un cuerpo de 2 kg se mueve en una trayectoria circular de radio 0.5 m con una velocidad de 3 m/s. ¿Cuál es la fuerza centrípeta?",
+    "options": [
+      { "text": "36 N", "correct": true },
+      { "text": "12 N", "correct": false },
+      { "text": "6 N", "correct": false },
+      { "text": "18 N", "correct": false }
+    ],
+    "hint": "La fuerza centrípeta es \\(F_c = m v^2 / r\\).",
+    "explanation": "\\(F_c = 2 \\times (3^2) / 0.5 = 2 \\times 9 / 0.5 = 18 / 0.5 = 36 \\,\\text{N}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AA",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un transformador ideal tiene 100 vueltas en el primario y 200 vueltas en el secundario. Si el voltaje en el primario es de 120 V, ¿cuál es el voltaje en el secundario?",
+    "options": [
+      { "text": "240 V", "correct": true },
+      { "text": "60 V", "correct": false },
+      { "text": "120 V", "correct": false },
+      { "text": "480 V", "correct": false }
+    ],
+    "hint": "En un transformador, \\(V_p / V_s = N_p / N_s\\).",
+    "explanation": "Despejando \\(V_s = V_p \\times (N_s / N_p) = 120 \\times (200/100) = 240 \\,\\text{V}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AB",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcule la energía potencial gravitacional de un objeto de 15 kg colocado a 8 m de altura. (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "1200 J", "correct": true },
+      { "text": "120 J", "correct": false },
+      { "text": "1800 J", "correct": false },
+      { "text": "600 J", "correct": false }
+    ],
+    "hint": "La energía potencial es \\(E_p = mgh\\).",
+    "explanation": "\\(E_p = 15 \\times 10 \\times 8 = 1200 \\,\\text{J}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AC",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Una esfera de 0.5 kg se ata al extremo de una cuerda de 1 m y se hace girar en un círculo vertical. En el punto más bajo, la tensión es de 25 N. ¿Cuál es la velocidad en ese punto? (Considere \\(g = 10 \\,\\text{m/s}^2\\))",
+    "options": [
+      { "text": "5.48 m/s", "correct": true },
+      { "text": "7.07 m/s", "correct": false },
+      { "text": "4.47 m/s", "correct": false },
+      { "text": "3.16 m/s", "correct": false }
+    ],
+    "hint": "En el punto más bajo, \\(T - mg = m v^2 / r\\).",
+    "explanation": "\\(25 - (0.5 \\times 10) = 0.5 \\times v^2 / 1\\), \\(25 - 5 = 0.5 v^2\\), \\(20 = 0.5 v^2\\), \\(v^2 = 40\\), \\(v \\approx 6.32 \\,\\text{m/s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AD",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál es la potencia disipada por un resistor de 20 Ω cuando circula una corriente de 3 A?",
+    "options": [
+      { "text": "180 W", "correct": true },
+      { "text": "60 W", "correct": false },
+      { "text": "6.67 W", "correct": false },
+      { "text": "240 W", "correct": false }
+    ],
+    "hint": "La potencia eléctrica es \\(P = I^2 R\\).",
+    "explanation": "\\(P = 3^2 \\times 20 = 9 \\times 20 = 180 \\,\\text{W}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AE",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un objeto realiza un movimiento armónico simple con una amplitud de 0.2 m y una frecuencia angular de 5 rad/s. ¿Cuál es su velocidad máxima?",
+    "options": [
+      { "text": "1 m/s", "correct": true },
+      { "text": "0.04 m/s", "correct": false },
+      { "text": "25 m/s", "correct": false },
+      { "text": "5 m/s", "correct": false }
+    ],
+    "hint": "La velocidad máxima en MAS es \\(v_{max} = A \\omega\\).",
+    "explanation": "\\(v_{max} = 0.2 \\times 5 = 1 \\,\\text{m/s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AF",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Una partícula de 2 g con carga de 5 µC entra perpendicularmente a un campo magnético de 0.4 T con una velocidad de 1000 m/s. ¿Cuál es el radio de la trayectoria circular?",
+    "options": [
+      { "text": "0.01 m", "correct": true },
+      { "text": "0.1 m", "correct": false },
+      { "text": "1 m", "correct": false },
+      { "text": "0.001 m", "correct": false }
+    ],
+    "hint": "La fuerza magnética es centrípeta: \\(q v B = m v^2 / r\\), entonces \\(r = m v / (q B)\\).",
+    "explanation": "\\(m = 0.002\\,\\text{kg}\\), \\(q = 5\\times10^{-6}\\,\\text{C}\\). \\(r = (0.002 \\times 1000) / (5\\times10^{-6} \\times 0.4) = 2 / (2\\times10^{-6}) = 1\\times10^{6} \\,\\text{m}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP26AG",
+    "tag01": ["UNAM", "IPN", "EXANI II", "UAM", "BUAP"],
+    "tag02": ["🏀 FÍSICA"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Convertir 100°C a Kelvin.",
+    "options": [
+      {
