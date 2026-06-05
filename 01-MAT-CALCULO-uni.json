@@ -454,5 +454,936 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP20TK",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre el siguiente límite: \\(\\lim_{x \\to 1} \\frac{x^2 + 6x - 7}{x - 1}\\)",
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "hint": "Sustituye el valor de \\(x\\) en el denominador. Si obtienes cero, factoriza el numerador.",
+    "explanation": "Al sustituir \\(x=1\\) en el denominador se obtiene 0, por lo que hay que factorizar. \\(x^2 + 6x - 7 = (x+7)(x-1)\\). Simplificando \\(x-1\\) se obtiene \\(\\lim_{x \\to 1} (x+7) = 8\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TL",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule el límite: \\(\\lim_{x \\to \\infty} \\frac{x^2 + 13x + 7}{3x^2 + 6}\\)",
+    "options": [
+      { "text": "\\(\\frac{1}{3}\\)", "correct": true },
+      { "text": "\\(\\infty\\)", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "hint": "Divida numerador y denominador entre \\(x^2\\), el término de mayor grado.",
+    "explanation": "Dividiendo entre \\(x^2\\): \\(\\frac{1 + \\frac{13}{x} + \\frac{7}{x^2}}{3 + \\frac{6}{x^2}} \\to \\frac{1}{3}\\) cuando \\(x \\to \\infty\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TM",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine la derivada por definición de \\(f(x) = 2x^2 + 2x - 1\\). ¿Cuál de las siguientes expresiones corresponde al proceso?",
+    "options": [
+      { "text": "\\(\\lim_{\\Delta x \\to 0} \\frac{2(x+\\Delta x)^2 + 2(x+\\Delta x) - 1 - (2x^2 + 2x - 1)}{\\Delta x}\\)", "correct": true },
+      { "text": "\\(\\lim_{\\Delta x \\to 0} \\frac{2x^2 + 2x - 1 - 2(x+\\Delta x)^2 - 2(x+\\Delta x) + 1}{\\Delta x}\\)", "correct": false },
+      { "text": "\\(\\lim_{\\Delta x \\to 0} \\frac{2(x+\\Delta x)^2 + 2x - 1 - 2x^2 - 2x + 1}{\\Delta x}\\)", "correct": false },
+      { "text": "\\(\\lim_{\\Delta x \\to 0} \\frac{2(x+\\Delta x)^2 + 2(x+\\Delta x) - 1}{\\Delta x}\\)", "correct": false }
+    ],
+    "hint": "Recuerde la definición: \\(f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\\).",
+    "explanation": "La definición correcta es \\(\\lim_{\\Delta x \\to 0} \\frac{f(x+\\Delta x) - f(x)}{\\Delta x}\\), que corresponde a sustituir \\(x+\\Delta x\\) en la función y restar la función original.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TN",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine el valor de la derivada de \\(p(x) = 2^{\\frac{6}{3x^2}}\\) evaluada en \\(x = -1\\).",
+    "options": [
+      { "text": "\\(16 \\ln 2\\)", "correct": true },
+      { "text": "\\(8 \\ln 2\\)", "correct": false },
+      { "text": "\\(4 \\ln 2\\)", "correct": false },
+      { "text": "\\(2 \\ln 2\\)", "correct": false }
+    ],
+    "hint": "Simplifique el exponente: \\(\\frac{6}{3x^2} = \\frac{2}{x^2}\\). Use la fórmula \\(\\frac{d}{dx}[a^u] = a^u \\ln a \\cdot u'\\).",
+    "explanation": "Simplificando: \\(p(x)=2^{2x^{-2}}\\). \\(p'(x)=2^{2x^{-2}} \\ln 2 \\cdot (-4x^{-3})\\). Evaluando en \\(x=-1\\): \\(2^{2} \\ln 2 \\cdot (-4(-1)^{-3}) = 4 \\ln 2 \\cdot 4 = 16 \\ln 2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TO",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la derivada de \\(f(x) = 2(5 - 3x^2)^3\\).",
+    "options": [
+      { "text": "\\(-36x(5 - 3x^2)^2\\)", "correct": true },
+      { "text": "\\(6(5 - 3x^2)^2\\)", "correct": false },
+      { "text": "\\(-18x(5 - 3x^2)^2\\)", "correct": false },
+      { "text": "\\(2(5 - 3x^2)^2 \\cdot (-6x)\\)", "correct": false }
+    ],
+    "hint": "Use la regla de la cadena: \\(\\frac{d}{dx}[u^n] = n u^{n-1} u'\\), donde \\(u = 5 - 3x^2\\).",
+    "explanation": "\\(f'(x) = 2 \\cdot 3(5-3x^2)^2 \\cdot (-6x) = -36x(5-3x^2)^2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TP",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Derive la función: \\(g(x) = \\frac{3x + 2}{x^2}\\).",
+    "options": [
+      { "text": "\\(\\frac{-3x^2 - 4x}{x^4}\\)", "correct": true },
+      { "text": "\\(\\frac{3x^2 + 4x}{x^4}\\)", "correct": false },
+      { "text": "\\(\\frac{3}{2x}\\)", "correct": false },
+      { "text": "\\(\\frac{-3x - 4}{x^3}\\)", "correct": false }
+    ],
+    "hint": "Aplique la regla del cociente: \\(\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}\\).",
+    "explanation": "Sean \\(u=3x+2\\), \\(u'=3\\); \\(v=x^2\\), \\(v'=2x\\). \\(g'(x) = \\frac{3(x^2) - (3x+2)(2x)}{x^4} = \\frac{3x^2 - 6x^2 - 4x}{x^4} = \\frac{-3x^2 - 4x}{x^4}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TQ",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Cuál es la derivada de \\(h(x) = \\sec(2x)\\)?",
+    "options": [
+      { "text": "\\(2 \\sec(2x) \\tan(2x)\\)", "correct": true },
+      { "text": "\\(\\sec(2x) \\tan(2x)\\)", "correct": false },
+      { "text": "\\(2 \\sec^2(2x)\\)", "correct": false },
+      { "text": "\\(2 \\csc(2x) \\cot(2x)\\)", "correct": false }
+    ],
+    "hint": "Recuerde que \\(\\frac{d}{dx}[\\sec u] = \\sec u \\tan u \\cdot u'\\).",
+    "explanation": "Para \\(h(x) = \\sec(2x)\\), \\(u=2x\\), \\(u'=2\\). Por lo tanto, \\(h'(x) = 2 \\sec(2x) \\tan(2x)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TR",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine la ecuación de la recta tangente a la gráfica de \\(f(x) = -3x^2 + 2x + 8\\) en \\(x = -2\\).",
+    "options": [
+      { "text": "\\(y = 14x + 20\\)", "correct": true },
+      { "text": "\\(y = -14x - 20\\)", "correct": false },
+      { "text": "\\(y = 12x + 16\\)", "correct": false },
+      { "text": "\\(y = 14x - 20\\)", "correct": false }
+    ],
+    "hint": "La pendiente de la tangente es \\(m = f'(x)\\) evaluada en el punto. Luego use \\(y - y_1 = m(x - x_1)\\).",
+    "explanation": "\\(f'(x) = -6x + 2\\), \\(f'(-2) = 12 + 2 = 14\\). \\(f(-2) = -3(4) -4 + 8 = -12 -4 + 8 = -8\\). La recta: \\(y + 8 = 14(x + 2) \\to y = 14x + 20\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TS",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "La relación entre la distancia recorrida en metros por un móvil y el tiempo en segundos es \\(s(t) = t(2.5t - 4)\\). ¿Cuál es la velocidad instantánea a los 3 segundos?",
+    "options": [
+      { "text": "\\(11 \\text{ m/s}\\)", "correct": true },
+      { "text": "\\(15 \\text{ m/s}\\)", "correct": false },
+      { "text": "\\(7.5 \\text{ m/s}\\)", "correct": false },
+      { "text": "\\(9 \\text{ m/s}\\)", "correct": false }
+    ],
+    "hint": "La velocidad instantánea es la derivada de la posición: \\(v(t) = s'(t)\\).",
+    "explanation": "Simplificando: \\(s(t) = 2.5t^2 - 4t\\). \\(v(t) = 5t - 4\\). \\(v(3) = 15 - 4 = 11 \\text{ m/s}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TT",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Qué representa geométricamente la derivada de una función en un punto?",
+    "options": [
+      { "text": "La pendiente de la recta tangente a la curva en ese punto", "correct": true },
+      { "text": "El área bajo la curva en ese punto", "correct": false },
+      { "text": "La longitud de la curva", "correct": false },
+      { "text": "La concavidad de la función", "correct": false }
+    ],
+    "hint": "Piense en la interpretación geométrica de la derivada.",
+    "explanation": "La derivada de una función en un punto es igual a la pendiente de la recta tangente a la gráfica de la función en ese punto.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TU",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule el límite: \\(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\)",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "No existe", "correct": false },
+      { "text": "\\(\\infty\\)", "correct": false }
+    ],
+    "hint": "Es un límite trigonométrico fundamental.",
+    "explanation": "El límite \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\) es uno de los límites fundamentales del cálculo.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TV",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Derive la función: \\(f(x) = \\ln(x^2 + 1)\\)",
+    "options": [
+      { "text": "\\(\\frac{2x}{x^2 + 1}\\)", "correct": true },
+      { "text": "\\(\\frac{1}{x^2 + 1}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{x^2 + 1}\\)", "correct": false },
+      { "text": "\\(\\frac{2x}{x^2}\\)", "correct": false }
+    ],
+    "hint": "Use la regla de la cadena: \\(\\frac{d}{dx}[\\ln u] = \\frac{u'}{u}\\).",
+    "explanation": "Sea \\(u = x^2 + 1\\), \\(u' = 2x\\). Entonces \\(f'(x) = \\frac{2x}{x^2 + 1}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TW",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre la derivada de \\(y = e^{3x^2}\\)",
+    "options": [
+      { "text": "\\(6x e^{3x^2}\\)", "correct": true },
+      { "text": "\\(e^{3x^2}\\)", "correct": false },
+      { "text": "\\(3x e^{3x^2}\\)", "correct": false },
+      { "text": "\\(6 e^{3x^2}\\)", "correct": false }
+    ],
+    "hint": "Regla de la cadena: \\(\\frac{d}{dx}[e^u] = e^u u'\\).",
+    "explanation": "Sea \\(u = 3x^2\\), \\(u' = 6x\\). Por lo tanto, \\(y' = e^{3x^2} \\cdot 6x = 6x e^{3x^2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TX",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la derivada de \\(f(x) = \\arctan(\\sqrt{x})\\)",
+    "options": [
+      { "text": "\\(\\frac{1}{2\\sqrt{x}(1+x)}\\)", "correct": true },
+      { "text": "\\(\\frac{1}{2\\sqrt{x}(1+x)}\\)", "correct": false },
+      { "text": "\\(\\frac{1}{1+x}\\)", "correct": false },
+      { "text": "\\(\\frac{1}{2x(1+x)}\\)", "correct": false }
+    ],
+    "hint": "Recuerde que \\(\\frac{d}{dx}[\\arctan u] = \\frac{u'}{1+u^2}\\).",
+    "explanation": "Sea \\(u = \\sqrt{x} = x^{1/2}\\), \\(u' = \\frac{1}{2\\sqrt{x}}\\). Entonces \\(f'(x) = \\frac{1/(2\\sqrt{x})}{1 + (\\sqrt{x})^2} = \\frac{1}{2\\sqrt{x}(1+x)}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TY",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Una partícula se mueve según la función \\(s(t) = t^3 - 6t^2 + 9t\\). ¿En qué instante su velocidad es cero?",
+    "options": [
+      { "text": "t = 1 y t = 3", "correct": true },
+      { "text": "t = 0 y t = 2", "correct": false },
+      { "text": "t = 2 y t = 4", "correct": false },
+      { "text": "t = 1 solamente", "correct": false }
+    ],
+    "hint": "La velocidad es la derivada de la posición. Iguale a cero y resuelva.",
+    "explanation": "\\(v(t) = s'(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t-1)(t-3)=0 \\Rightarrow t=1, t=3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20TZ",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Cuál es la derivada de la función constante \\(f(x) = 7\\)?",
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "hint": "Recuerde que la derivada mide la tasa de cambio.",
+    "explanation": "La derivada de una función constante es siempre 0, ya que no hay cambio.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UA",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre la derivada de \\(f(x) = \\frac{\\ln x}{x}\\)",
+    "options": [
+      { "text": "\\(\\frac{1 - \\ln x}{x^2}\\)", "correct": true },
+      { "text": "\\(\\frac{1 + \\ln x}{x^2}\\)", "correct": false },
+      { "text": "\\(\\frac{1}{x^2}\\)", "correct": false },
+      { "text": "\\(\\frac{\\ln x - 1}{x^2}\\)", "correct": false }
+    ],
+    "hint": "Aplique la regla del cociente: \\(\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}\\).",
+    "explanation": "Sean \\(u = \\ln x\\), \\(u' = 1/x\\); \\(v = x\\), \\(v' = 1\\). \\(f'(x) = \\frac{(1/x)(x) - (\\ln x)(1)}{x^2} = \\frac{1 - \\ln x}{x^2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UB",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Derive implícitamente: \\(x^2 + y^2 = 25\\). Encuentre \\(\\frac{dy}{dx}\\).",
+    "options": [
+      { "text": "\\(-\\frac{x}{y}\\)", "correct": true },
+      { "text": "\\(\\frac{x}{y}\\)", "correct": false },
+      { "text": "\\(-\\frac{y}{x}\\)", "correct": false },
+      { "text": "\\(\\frac{y}{x}\\)", "correct": false }
+    ],
+    "hint": "Derive ambos lados con respecto a \\(x\\), tratando \\(y\\) como función de \\(x\\).",
+    "explanation": "Derivando: \\(2x + 2y y' = 0 \\Rightarrow 2y y' = -2x \\Rightarrow y' = -\\frac{x}{y}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UC",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Cuál es el valor de \\(\\frac{d}{dx}[x^5]\\)?",
+    "options": [
+      { "text": "\\(5x^4\\)", "correct": true },
+      { "text": "\\(x^4\\)", "correct": false },
+      { "text": "\\(5x^5\\)", "correct": false },
+      { "text": "\\(4x^5\\)", "correct": false }
+    ],
+    "hint": "Use la regla de la potencia: \\(\\frac{d}{dx}[x^n] = n x^{n-1}\\).",
+    "explanation": "Aplicando la regla: \\(\\frac{d}{dx}[x^5] = 5x^{5-1} = 5x^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UD",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la integral indefinida: \\(\\int (3x^2 + 2x) dx\\)",
+    "options": [
+      { "text": "\\(x^3 + x^2 + C\\)", "correct": true },
+      { "text": "\\(3x^3 + 2x^2 + C\\)", "correct": false },
+      { "text": "\\(\\frac{3}{2}x^3 + x^2 + C\\)", "correct": false },
+      { "text": "\\(x^3 + 2x^2 + C\\)", "correct": false }
+    ],
+    "hint": "Aplique la regla de la potencia para integrales: \\(\\int x^n dx = \\frac{x^{n+1}}{n+1} + C\\).",
+    "explanation": "\\(\\int 3x^2 dx = 3 \\cdot \\frac{x^3}{3} = x^3\\); \\(\\int 2x dx = 2 \\cdot \\frac{x^2}{2} = x^2\\). Sumando: \\(x^3 + x^2 + C\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UE",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Evalúe la integral definida: \\(\\int_{0}^{1} (4x^3 - 2x) dx\\)",
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "hint": "Encuentre la antiderivada y evalúe en los límites usando el Teorema Fundamental del Cálculo.",
+    "explanation": "Antiderivada: \\(x^4 - x^2\\). Evaluando: \\((1^4 - 1^2) - (0^4 - 0^2) = (1 - 1) - 0 = 0\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UF",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Cuál de las siguientes es la antiderivada de \\(f(x) = \\cos x\\)?",
+    "options": [
+      { "text": "\\(\\sin x + C\\)", "correct": true },
+      { "text": "\\(-\\sin x + C\\)", "correct": false },
+      { "text": "\\(\\cos x + C\\)", "correct": false },
+      { "text": "\\(\\tan x + C\\)", "correct": false }
+    ],
+    "hint": "Recuerde que la derivada del seno es el coseno.",
+    "explanation": "Como \\(\\frac{d}{dx}[\\sin x] = \\cos x\\), entonces \\(\\int \\cos x dx = \\sin x + C\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UG",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Resuelva la integral: \\(\\int \\frac{1}{x} dx\\)",
+    "options": [
+      { "text": "\\(\\ln|x| + C\\)", "correct": true },
+      { "text": "\\(\\ln x + C\\)", "correct": false },
+      { "text": "\\(\\frac{1}{x^2} + C\\)", "correct": false },
+      { "text": "\\(\\ln|2x| + C\\)", "correct": false }
+    ],
+    "hint": "Es una integral básica inmediata.",
+    "explanation": "La integral de \\(\\frac{1}{x}\\) es \\(\\ln|x| + C\\), ya que la derivada de \\(\\ln|x|\\) es \\(\\frac{1}{x}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UH",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule el área bajo la curva \\(f(x) = x^2\\) en el intervalo \\([0, 2]\\).",
+    "options": [
+      { "text": "\\(\\frac{8}{3}\\)", "correct": true },
+      { "text": "\\(\\frac{4}{3}\\)", "correct": false },
+      { "text": "\\(4\\)", "correct": false },
+      { "text": "\\(2\\)", "correct": false }
+    ],
+    "hint": "El área bajo la curva se calcula mediante la integral definida \\(\\int_{0}^{2} x^2 dx\\).",
+    "explanation": "\\(\\int_{0}^{2} x^2 dx = \\left[ \\frac{x^3}{3} \\right]_{0}^{2} = \\frac{8}{3} - 0 = \\frac{8}{3}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UI",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine \\(f'(x)\\) si \\(f(x) = \\sqrt{x}\\).",
+    "options": [
+      { "text": "\\(\\frac{1}{2\\sqrt{x}}\\)", "correct": true },
+      { "text": "\\(\\frac{1}{\\sqrt{x}}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{\\sqrt{x}}\\)", "correct": false },
+      { "text": "\\(\\sqrt{x}\\)", "correct": false }
+    ],
+    "hint": "Escriba \\(\\sqrt{x} = x^{1/2}\\) y use la regla de la potencia.",
+    "explanation": "\\(f'(x) = \\frac{1}{2} x^{-1/2} = \\frac{1}{2\\sqrt{x}}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UJ",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Qué establece el Teorema Fundamental del Cálculo?",
+    "options": [
+      { "text": "La derivación y la integración son operaciones inversas", "correct": true },
+      { "text": "Toda función continua es derivable", "correct": false },
+      { "text": "La integral de una suma es la suma de las integrales", "correct": false },
+      { "text": "El límite de una función en un punto es su derivada", "correct": false }
+    ],
+    "hint": "Relaciona el cálculo diferencial con el integral.",
+    "explanation": "El Teorema Fundamental del Cálculo establece que la derivación y la integración son procesos inversos: \\(\\frac{d}{dx} \\int_a^x f(t) dt = f(x)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UK",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre la derivada de \\(f(x) = \\sin^2(x)\\)",
+    "options": [
+      { "text": "\\(2 \\sin x \\cos x\\)", "correct": true },
+      { "text": "\\(\\sin(2x)\\)", "correct": false },
+      { "text": "\\(2 \\cos x\\)", "correct": false },
+      { "text": "\\(\\cos^2 x\\)", "correct": false }
+    ],
+    "hint": "Aplique la regla de la cadena: \\(\\frac{d}{dx}[u^2] = 2u u'\\), donde \\(u = \\sin x\\).",
+    "explanation": "\\(f'(x) = 2 \\sin x \\cdot \\cos x = 2 \\sin x \\cos x\\), que también es \\(\\sin(2x)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UL",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la derivada de \\(f(x) = \\ln(\\sec x + \\tan x)\\)",
+    "options": [
+      { "text": "\\(\\sec x\\)", "correct": true },
+      { "text": "\\(\\tan x\\)", "correct": false },
+      { "text": "\\(\\csc x\\)", "correct": false },
+      { "text": "\\(\\sec x \\tan x\\)", "correct": false }
+    ],
+    "hint": "Use \\(\\frac{d}{dx}[\\ln u] = \\frac{u'}{u}\\).",
+    "explanation": "Sea \\(u = \\sec x + \\tan x\\), \\(u' = \\sec x \\tan x + \\sec^2 x = \\sec x (\\tan x + \\sec x)\\). \\(f'(x) = \\frac{\\sec x (\\sec x + \\tan x)}{\\sec x + \\tan x} = \\sec x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UM",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Resuelva la integral: \\(\\int e^{2x} dx\\)",
+    "options": [
+      { "text": "\\(\\frac{1}{2} e^{2x} + C\\)", "correct": true },
+      { "text": "\\(e^{2x} + C\\)", "correct": false },
+      { "text": "\\(2e^{2x} + C\\)", "correct": false },
+      { "text": "\\(\\frac{1}{2} e^{x} + C\\)", "correct": false }
+    ],
+    "hint": "Recuerde que \\(\\int e^{kx} dx = \\frac{1}{k} e^{kx} + C\\).",
+    "explanation": "\\(\\int e^{2x} dx = \\frac{1}{2} e^{2x} + C\\), porque la derivada de \\(\\frac{1}{2} e^{2x}\\) es \\(e^{2x}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UN",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Cuál es la derivada de \\(f(x) = \\tan x\\)?",
+    "options": [
+      { "text": "\\(\\sec^2 x\\)", "correct": true },
+      { "text": "\\(\\csc^2 x\\)", "correct": false },
+      { "text": "\\(\\sec x \\tan x\\)", "correct": false },
+      { "text": "\\(\\cos^2 x\\)", "correct": false }
+    ],
+    "hint": "Recuerde la derivada de las funciones trigonométricas.",
+    "explanation": "La derivada de \\(\\tan x\\) es \\(\\sec^2 x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UO",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre la ecuación de la recta normal a \\(f(x) = x^2\\) en \\(x = 1\\).",
+    "options": [
+      { "text": "\\(y - 1 = -\\frac{1}{2}(x - 1)\\)", "correct": true },
+      { "text": "\\(y - 1 = 2(x - 1)\\)", "correct": false },
+      { "text": "\\(y - 1 = \\frac{1}{2}(x - 1)\\)", "correct": false },
+      { "text": "\\(y - 1 = -2(x - 1)\\)", "correct": false }
+    ],
+    "hint": "La pendiente de la recta normal es el recíproco negativo de la pendiente de la tangente.",
+    "explanation": "\\(f'(x) = 2x\\), \\(f'(1) = 2\\). Pendiente normal = \\(-1/2\\). Punto: \\( (1,1) \\). Ecuación: \\(y - 1 = -\\frac{1}{2}(x - 1)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UP",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule \\(\\lim_{x \\to \\infty} \\frac{5x^3 + 2x}{2x^3 - 7}\\)",
+    "options": [
+      { "text": "\\(\\frac{5}{2}\\)", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "\\(\\infty\\)", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "hint": "Divida numerador y denominador entre \\(x^3\\).",
+    "explanation": "\\(\\lim_{x \\to \\infty} \\frac{5 + \\frac{2}{x^2}}{2 - \\frac{7}{x^3}} = \\frac{5}{2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UQ",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Una caja rectangular sin tapa tiene un volumen de \\(32 \\text{ m}^3\\). La base es cuadrada. Encuentre las dimensiones que minimizan la superficie.",
+    "options": [
+      { "text": "Base \\(4 \\text{ m}\\), altura \\(2 \\text{ m}\\)", "correct": true },
+      { "text": "Base \\(2 \\text{ m}\\), altura \\(8 \\text{ m}\\)", "correct": false },
+      { "text": "Base \\(3 \\text{ m}\\), altura \\(\\frac{32}{9} \\text{ m}\\)", "correct": false },
+      { "text": "Base \\(6 \\text{ m}\\), altura \\(\\frac{8}{9} \\text{ m}\\)", "correct": false }
+    ],
+    "hint": "La superficie es \\(S = x^2 + 4xh\\), el volumen es \\(V = x^2h = 32\\). Despeje \\(h\\) y optimice.",
+    "explanation": "De \\(x^2h = 32\\) se tiene \\(h = 32/x^2\\). \\(S(x) = x^2 + 4x(32/x^2) = x^2 + 128/x\\). Derivando: \\(S'(x) = 2x - 128/x^2 = 0 \\Rightarrow 2x^3 = 128 \\Rightarrow x^3 = 64 \\Rightarrow x = 4\\), \\(h = 2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UR",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Qué es una asíntota horizontal?",
+    "options": [
+      { "text": "Una recta \\(y = L\\) tal que \\(\\lim_{x \\to \\pm \\infty} f(x) = L\\)", "correct": true },
+      { "text": "Una recta \\(x = a\\) tal que \\(\\lim_{x \\to a} f(x) = \\infty\\)", "correct": false },
+      { "text": "Una recta que intersecta a la curva en dos puntos", "correct": false },
+      { "text": "La derivada de la función en un punto", "correct": false }
+    ],
+    "hint": "Relacionado con el comportamiento de la función en el infinito.",
+    "explanation": "Una asíntota horizontal es una recta horizontal hacia la cual la gráfica de la función se acerca cuando \\(x\\) tiende a infinito o menos infinito.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20US",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Derive \\(f(x) = \\cot x\\)",
+    "options": [
+      { "text": "\\(-\\csc^2 x\\)", "correct": true },
+      { "text": "\\(\\csc^2 x\\)", "correct": false },
+      { "text": "\\(-\\sec^2 x\\)", "correct": false },
+      { "text": "\\(\\sec^2 x\\)", "correct": false }
+    ],
+    "hint": "Recuerde que \\(\\cot x = \\frac{\\cos x}{\\sin x}\\).",
+    "explanation": "La derivada de \\(\\cot x\\) es \\(-\\csc^2 x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UT",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la integral \\(\\int_0^{\\pi/2} \\sin x dx\\)",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "hint": "La antiderivada de \\(\\sin x\\) es \\(-\\cos x\\).",
+    "explanation": "\\(\\int_0^{\\pi/2} \\sin x dx = [-\\cos x]_0^{\\pi/2} = (-0) - (-1) = 1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UU",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Encuentre el volumen del sólido generado al rotar \\(f(x) = \\sqrt{x}\\) alrededor del eje \\(x\\) en \\([0, 4]\\).",
+    "options": [
+      { "text": "\\(8\\pi\\)", "correct": true },
+      { "text": "\\(4\\pi\\)", "correct": false },
+      { "text": "\\(16\\pi\\)", "correct": false },
+      { "text": "\\(2\\pi\\)", "correct": false }
+    ],
+    "hint": "Use el método de discos: \\(V = \\pi \\int_a^b [f(x)]^2 dx\\).",
+    "explanation": "\\(V = \\pi \\int_0^4 (\\sqrt{x})^2 dx = \\pi \\int_0^4 x dx = \\pi [x^2/2]_0^4 = \\pi (16/2) = 8\\pi\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UV",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "La derivada de \\(f(x) = \\ln x\\) es:",
+    "options": [
+      { "text": "\\(\\frac{1}{x}\\)", "correct": true },
+      { "text": "\\(x\\)", "correct": false },
+      { "text": "\\(e^x\\)", "correct": false },
+      { "text": "\\(\\ln x\\)", "correct": false }
+    ],
+    "hint": "Es una de las derivadas fundamentales.",
+    "explanation": "La derivada de \\(\\ln x\\) es \\(\\frac{1}{x}\\) para \\(x > 0\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UW",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Resuelva la siguiente ecuación diferencial: \\(\\frac{dy}{dx} = 2x\\), con \\(y(0) = 1\\).",
+    "options": [
+      { "text": "\\(y = x^2 + 1\\)", "correct": true },
+      { "text": "\\(y = 2x + 1\\)", "correct": false },
+      { "text": "\\(y = x^2\\)", "correct": false },
+      { "text": "\\(y = x^2 + C\\)", "correct": false }
+    ],
+    "hint": "Integre ambos lados con respecto a \\(x\\) y use la condición inicial.",
+    "explanation": "\\(\\int dy = \\int 2x dx \\Rightarrow y = x^2 + C\\). Con \\(y(0)=1\\): \\(1 = 0 + C \\Rightarrow C=1\\). Por lo tanto, \\(y = x^2 + 1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UX",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Evalúe \\(\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}\\)",
+    "options": [
+      { "text": "\\(\\frac{1}{2}\\)", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "hint": "Use la identidad \\(1 - \\cos x = 2\\sin^2(x/2)\\) o la regla de L'Hôpital.",
+    "explanation": "Aplicando L'Hôpital: \\(\\lim_{x \\to 0} \\frac{\\sin x}{2x} = \\frac{1}{2}\\). O también: \\(\\frac{1-\\cos x}{x^2} = \\frac{2\\sin^2(x/2)}{x^2} = \\frac{1}{2} \\left(\\frac{\\sin(x/2)}{x/2}\\right)^2 \\to \\frac{1}{2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UY",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine los puntos críticos de \\(f(x) = x^3 - 3x^2\\)",
+    "options": [
+      { "text": "\\(x = 0\\) y \\(x = 2\\)", "correct": true },
+      { "text": "\\(x = 0\\) y \\(x = 3\\)", "correct": false },
+      { "text": "\\(x = 1\\) y \\(x = 2\\)", "correct": false },
+      { "text": "\\(x = 1\\) solamente", "correct": false }
+    ],
+    "hint": "Los puntos críticos ocurren donde \\(f'(x) = 0\\) o no existe.",
+    "explanation": "\\(f'(x) = 3x^2 - 6x = 3x(x - 2) = 0 \\Rightarrow x = 0, x = 2\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP20UZ",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Calcule la segunda derivada de \\(f(x) = x^4 - 2x^3 + 5\\)",
+    "options": [
+      { "text": "\\(12x^2 - 12x\\)", "correct": true },
+      { "text": "\\(4x^3 - 6x^2\\)", "correct": false },
+      { "text": "\\(24x - 12\\)", "correct": false },
+      { "text": "\\(12x^2 - 6x\\)", "correct": false }
+    ],
+    "hint": "Primero calcule \\(f'(x)\\), luego derive nuevamente.",
+    "explanation": "\\(f'(x) = 4x^3 - 6x^2\\). \\(f''(x) = 12x^2 - 12x\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AA",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "¿Qué representa la integral definida \\(\\int_a^b f(x) dx\\)?",
+    "options": [
+      { "text": "El área bajo la curva \\(f(x)\\) entre \\(x=a\\) y \\(x=b\\)", "correct": true },
+      { "text": "La pendiente de la recta tangente", "correct": false },
+      { "text": "La derivada de \\(f(x)\\) en \\(a\\)", "correct": false },
+      { "text": "El valor medio de \\(f(x)\\)", "correct": false }
+    ],
+    "hint": "Piense en la interpretación geométrica de la integral.",
+    "explanation": "La integral definida de una función no negativa representa el área bajo su gráfica en el intervalo dado.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AB",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "La velocidad de un objeto es \\(v(t) = 3t^2 - 4t\\). Determine la función posición \\(s(t)\\) si \\(s(0) = 5\\).",
+    "options": [
+      { "text": "\\(s(t) = t^3 - 2t^2 + 5\\)", "correct": true },
+      { "text": "\\(s(t) = 3t^3 - 4t^2 + 5\\)", "correct": false },
+      { "text": "\\(s(t) = t^3 - 2t^2\\)", "correct": false },
+      { "text": "\\(s(t) = 6t - 4\\)", "correct": false }
+    ],
+    "hint": "La posición es la antiderivada de la velocidad. Use la condición inicial.",
+    "explanation": "\\(s(t) = \\int (3t^2 - 4t) dt = t^3 - 2t^2 + C\\). Con \\(s(0)=5\\): \\(C = 5\\). Por lo tanto, \\(s(t) = t^3 - 2t^2 + 5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AC",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Un estudiante del CEPREDIX modela el crecimiento de una bacteria con \\(P(t) = 100e^{0.05t}\\). ¿Cuál es la tasa de crecimiento instantánea cuando \\(t = 10\\)?",
+    "options": [
+      { "text": "\\(5e^{0.5}\\)", "correct": true },
+      { "text": "\\(100e^{0.5}\\)", "correct": false },
+      { "text": "\\(0.05e^{0.5}\\)", "correct": false },
+      { "text": "\\(5e^{0.05}\\)", "correct": false }
+    ],
+    "hint": "La tasa de crecimiento es \\(P'(t)\\). Evalúe en \\(t=10\\).",
+    "explanation": "\\(P'(t) = 100 \\cdot 0.05 e^{0.05t} = 5 e^{0.05t}\\). \\(P'(10) = 5 e^{0.5}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AD",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Resuelva la integral por sustitución: \\(\\int x \\cos(x^2) dx\\)",
+    "options": [
+      { "text": "\\(\\frac{1}{2} \\sin(x^2) + C\\)", "correct": true },
+      { "text": "\\(\\sin(x^2) + C\\)", "correct": false },
+      { "text": "\\(-\\frac{1}{2} \\sin(x^2) + C\\)", "correct": false },
+      { "text": "\\(\\frac{1}{2} \\cos(x^2) + C\\)", "correct": false }
+    ],
+    "hint": "Haga la sustitución \\(u = x^2\\), \\(du = 2x dx\\).",
+    "explanation": "Sea \\(u = x^2\\), \\(du = 2x dx \\Rightarrow x dx = du/2\\). La integral se convierte en \\(\\frac{1}{2} \\int \\cos u du = \\frac{1}{2} \\sin u + C = \\frac{1}{2} \\sin(x^2) + C\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AE",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["SIMULACRO"],
+    "question": "La derivada de una función en un punto es cero. ¿Qué puede concluirse?",
+    "options": [
+      { "text": "Posible punto crítico (máximo, mínimo o punto de inflexión)", "correct": true },
+      { "text": "La función es constante", "correct": false },
+      { "text": "La función tiene una asíntota vertical", "correct": false },
+      { "text": "La función no es continua", "correct": false }
+    ],
+    "hint": "Recuerde la condición necesaria para extremos relativos.",
+    "explanation": "Si \\(f'(c) = 0\\), \\(c\\) es un punto crítico. Puede ser un máximo local, un mínimo local o un punto de inflexión horizontal.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AF",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Use la regla de L'Hôpital para calcular \\(\\lim_{x \\to 0} \\frac{e^x - 1}{x}\\)",
+    "options": [
+      { "text": "1", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "e", "correct": false },
+      { "text": "No existe", "correct": false }
+    ],
+    "hint": "Verifique que el límite es de la forma \\(0/0\\) y derive numerador y denominador.",
+    "explanation": "El límite es de la forma \\(0/0\\). Derivando: \\(\\lim_{x \\to 0} \\frac{e^x}{1} = e^0 = 1\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP21AG",
+    "tag01": ["EXANI II"],
+    "tag02": ["🎢 MAT CÁLCULO"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["SIMULACRO"],
+    "question": "Determine la derivada de \\(f(x) = x^{\\sin x}\\)",
+    "options": [
+      { "text": "\\(x^{\\sin x} \\left( \\cos x \\ln x + \\frac{\\sin x}{x} \\right)\\)", "correct": true },
+      { "text": "\\(\\sin x \\cdot x^{\\sin x - 1}\\)", "correct": false },
+      { "text": "\\(x^{\\sin x} \\cos x \\ln x\\)", "correct": false },
+      { "text": "\\(x^{\\sin x} \\left( \\frac{\\sin x}{x} \\right)\\)", "correct": false }
+    ],
+    "hint": "Use derivación logarítmica: \\(\\ln y = \\sin x \\ln x\\).",
+    "explanation": "Tomando logaritmos: \\(\\ln y = \\sin x \\ln x\\). Derivando: \\(\\frac{y'}{y} = \\cos x \\ln x + \\frac{\\sin x}{x}\\). Por lo tanto, \\(y' = x^{\\sin x} \\left( \\cos x \\ln x + \\frac{\\sin x}{x} \\right)\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
