@@ -2582,5 +2582,575 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP14AQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Dos ciclistas parten juntos de una misma línea de meta. Uno tarda 18 minutos en dar una vuelta y el otro 24 minutos. ¿Después de cuántos minutos volverán a coincidir en la meta?",
+    "options": [
+      { "text": "72 minutos", "correct": true },
+      { "text": "48 minutos", "correct": false },
+      { "text": "36 minutos", "correct": false },
+      { "text": "96 minutos", "correct": false }
+    ],
+    "hint": "Debes encontrar el mínimo común múltiplo de 18 y 24.",
+    "explanation": "mcm(18,24) = 72 minutos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Tres semáforos cambian a verde cada 12, 18 y 24 segundos respectivamente. Si cambian a verde al mismo tiempo, ¿cuántos segundos pasarán para que vuelvan a coincidir?",
+    "options": [
+      { "text": "72", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "48", "correct": false },
+      { "text": "96", "correct": false }
+    ],
+    "hint": "Calcula el mcm de 12, 18 y 24.",
+    "explanation": "mcm(12,18,24) = 72 segundos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Se tienen tres listones de 120 cm, 180 cm y 240 cm. Se quiere cortarlos en pedazos iguales del mayor tamaño posible sin que sobre nada. ¿Cuánto debe medir cada pedazo?",
+    "options": [
+      { "text": "60 cm", "correct": true },
+      { "text": "30 cm", "correct": false },
+      { "text": "120 cm", "correct": false },
+      { "text": "40 cm", "correct": false }
+    ],
+    "hint": "Encuentra el MCD de 120, 180 y 240.",
+    "explanation": "MCD(120,180,240) = 60 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una tienda ofrece un descuento del 15% en un pantalón que cuesta $800. ¿Cuál es el precio con descuento?",
+    "options": [
+      { "text": "$680", "correct": true },
+      { "text": "$720", "correct": false },
+      { "text": "$700", "correct": false },
+      { "text": "$750", "correct": false }
+    ],
+    "hint": "Calcula el 15% de 800 y réstalo.",
+    "explanation": "15% de 800 = 120. 800 - 120 = 680.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una escuela hay 400 estudiantes, de los cuales el 45% son mujeres. ¿Cuántos hombres hay?",
+    "options": [
+      { "text": "220", "correct": true },
+      { "text": "180", "correct": false },
+      { "text": "200", "correct": false },
+      { "text": "240", "correct": false }
+    ],
+    "hint": "Calcula el porcentaje de mujeres, luego resta.",
+    "explanation": "45% de 400 = 180 mujeres. Hombres = 400 - 180 = 220.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un artículo cuesta $2500, pero tiene un impuesto del 16% de IVA. ¿Cuál es el precio final?",
+    "options": [
+      { "text": "$2900", "correct": true },
+      { "text": "$2650", "correct": false },
+      { "text": "$2800", "correct": false },
+      { "text": "$3000", "correct": false }
+    ],
+    "hint": "Calcula el 16% de 2500 y suma.",
+    "explanation": "16% de 2500 = 400. Total = 2500 + 400 = 2900.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si 5 obreros construyen un muro en 12 días, ¿cuántos días tardarán 6 obreros en construir el mismo muro? (Proporcionalidad inversa)",
+    "options": [
+      { "text": "10 días", "correct": true },
+      { "text": "12 días", "correct": false },
+      { "text": "8 días", "correct": false },
+      { "text": "14 días", "correct": false }
+    ],
+    "hint": "Más obreros, menos días. Multiplica los pares.",
+    "explanation": "5 × 12 = 6 × x → x = (5×12)/6 = 10 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una camioneta viaja a velocidad constante y recorre 240 km en 3 horas. ¿Cuántos km recorrerá en 5 horas?",
+    "options": [
+      { "text": "400 km", "correct": true },
+      { "text": "360 km", "correct": false },
+      { "text": "420 km", "correct": false },
+      { "text": "380 km", "correct": false }
+    ],
+    "hint": "Proporción directa: km/h constante.",
+    "explanation": "Velocidad = 240/3 = 80 km/h. En 5 horas: 80×5 = 400 km.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Para hacer 8 pasteles se necesitan 4 kg de harina. ¿Cuántos kg se necesitan para 12 pasteles?",
+    "options": [
+      { "text": "6 kg", "correct": true },
+      { "text": "5 kg", "correct": false },
+      { "text": "7 kg", "correct": false },
+      { "text": "8 kg", "correct": false }
+    ],
+    "hint": "Regla de tres directa.",
+    "explanation": "8 pasteles → 4 kg, 12 pasteles → x. x = (12×4)/8 = 6 kg.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP14AZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una granja, 10 gallinas comen 30 kg de alimento en 6 días. ¿Cuántos kg comerán 15 gallinas en 4 días?",
+    "options": [
+      { "text": "30 kg", "correct": true },
+      { "text": "40 kg", "correct": false },
+      { "text": "25 kg", "correct": false },
+      { "text": "35 kg", "correct": false }
+    ],
+    "hint": "Proporción compuesta: más gallinas = más comida, menos días = menos comida.",
+    "explanation": "Ración diaria por gallina = 30/(10×6)=0.5 kg. 15 gallinas × 4 días × 0.5 = 30 kg.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Se desea envasar 180 litros de aceite en botellas iguales de la mayor capacidad posible, sin que sobre aceite. Si también se quieren envasar 240 litros de vinagre en botellas del mismo tamaño, ¿cuántos litros debe tener cada botella?",
+    "options": [
+      { "text": "60 litros", "correct": true },
+      { "text": "30 litros", "correct": false },
+      { "text": "120 litros", "correct": false },
+      { "text": "90 litros", "correct": false }
+    ],
+    "hint": "Busca el MCD de 180 y 240.",
+    "explanation": "MCD(180,240)=60 litros.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un autobús sale de la terminal cada 20 minutos y otro cada 28 minutos. Si salen juntos a las 8:00 am, ¿a qué hora volverán a salir juntos?",
+    "options": [
+      { "text": "9:20 am", "correct": true },
+      { "text": "9:00 am", "correct": false },
+      { "text": "8:40 am", "correct": false },
+      { "text": "10:00 am", "correct": false }
+    ],
+    "hint": "Calcula el mcm de 20 y 28.",
+    "explanation": "mcm(20,28)=140 minutos = 2 horas 20 minutos. 8:00 + 2:20 = 9:20.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El precio de un celular era de $5000, pero aumentó un 12%. Luego, en una oferta, bajó un 10% del nuevo precio. ¿Cuál es el precio final?",
+    "options": [
+      { "text": "$5040", "correct": true },
+      { "text": "$4900", "correct": false },
+      { "text": "$5100", "correct": false },
+      { "text": "$4950", "correct": false }
+    ],
+    "hint": "Aplica aumento y luego descuento sucesivamente.",
+    "explanation": "Aumento 12%: 5000×1.12=5600. Descuento 10%: 5600×0.9=5040.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Tres pintores tardan 8 horas en pintar una casa. ¿Cuántas horas tardarían 4 pintores?",
+    "options": [
+      { "text": "6 horas", "correct": true },
+      { "text": "5 horas", "correct": false },
+      { "text": "7 horas", "correct": false },
+      { "text": "4 horas", "correct": false }
+    ],
+    "hint": "Proporcionalidad inversa.",
+    "explanation": "3 × 8 = 4 × x → x = 24/4 = 6 horas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AE",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un tren recorre 300 km en 2.5 horas. ¿Cuánto tardará en recorrer 450 km a la misma velocidad?",
+    "options": [
+      { "text": "3.75 horas", "correct": true },
+      { "text": "3.5 horas", "correct": false },
+      { "text": "4 horas", "correct": false },
+      { "text": "3.25 horas", "correct": false }
+    ],
+    "hint": "Proporción directa.",
+    "explanation": "Velocidad = 300/2.5 = 120 km/h. Tiempo = 450/120 = 3.75 h.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una tienda, un producto cuesta $1200. Si se aplica un descuento del 25% y luego un recargo del 10% sobre el precio con descuento, ¿cuánto se paga?",
+    "options": [
+      { "text": "$990", "correct": true },
+      { "text": "$1020", "correct": false },
+      { "text": "$960", "correct": false },
+      { "text": "$1080", "correct": false }
+    ],
+    "hint": "Primero descuento, luego recargo.",
+    "explanation": "1200×0.75=900. 900×1.10=990.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una persona invierte $20000 al 8% de interés anual. ¿Cuánto interés ganará en 3 años?",
+    "options": [
+      { "text": "$4800", "correct": true },
+      { "text": "$4000", "correct": false },
+      { "text": "$5000", "correct": false },
+      { "text": "$5600", "correct": false }
+    ],
+    "hint": "Interés simple = capital × tasa × tiempo.",
+    "explanation": "20000 × 0.08 × 3 = 4800.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Se tienen tres engranajes con 16, 24 y 36 dientes. Si giran al mismo tiempo, ¿cuántas vueltas debe dar el más pequeño para que los tres vuelvan a su posición inicial al mismo tiempo?",
+    "options": [
+      { "text": "9 vueltas", "correct": true },
+      { "text": "6 vueltas", "correct": false },
+      { "text": "12 vueltas", "correct": false },
+      { "text": "18 vueltas", "correct": false }
+    ],
+    "hint": "Calcula el mcm de los dientes, luego divide entre los dientes del pequeño.",
+    "explanation": "mcm(16,24,36)=144. 144/16=9 vueltas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un estudiante obtuvo 72% de respuestas correctas en un examen de 75 preguntas. ¿Cuántas preguntas contestó bien?",
+    "options": [
+      { "text": "54", "correct": true },
+      { "text": "50", "correct": false },
+      { "text": "48", "correct": false },
+      { "text": "60", "correct": false }
+    ],
+    "hint": "Multiplica 75 por 0.72.",
+    "explanation": "75 × 0.72 = 54 preguntas correctas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un rectángulo de 240 cm de largo y 180 cm de ancho se quiere dividir en cuadrados iguales del mayor tamaño posible. ¿Cuánto medirá el lado del cuadrado?",
+    "options": [
+      { "text": "60 cm", "correct": true },
+      { "text": "30 cm", "correct": false },
+      { "text": "40 cm", "correct": false },
+      { "text": "120 cm", "correct": false }
+    ],
+    "hint": "Encuentra el MCD de 240 y 180.",
+    "explanation": "MCD(240,180)=60 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Tres amigos tardan en limpiar un parque 6 horas. ¿Cuántos amigos se necesitan para hacerlo en 4 horas?",
+    "options": [
+      { "text": "5 amigos", "correct": false },
+      { "text": "4.5 amigos", "correct": true },
+      { "text": "4 amigos", "correct": false },
+      { "text": "6 amigos", "correct": false }
+    ],
+    "hint": "Inversa: más personas, menos horas.",
+    "explanation": "3×6 = x×4 → x = 18/4 = 4.5 amigos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si 15 máquinas producen 600 piezas en 8 horas, ¿cuántas piezas producirán 12 máquinas en 10 horas?",
+    "options": [
+      { "text": "600", "correct": true },
+      { "text": "500", "correct": false },
+      { "text": "720", "correct": false },
+      { "text": "480", "correct": false }
+    ],
+    "hint": "Proporción compuesta: piezas por máquina-hora.",
+    "explanation": "Piezas por máquina-hora = 600/(15×8)=5. 12×10×5=600 piezas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un ciclista da 120 pedaladas en 2 minutos. ¿Cuántas pedaladas dará en 7 minutos?",
+    "options": [
+      { "text": "420", "correct": true },
+      { "text": "400", "correct": false },
+      { "text": "350", "correct": false },
+      { "text": "480", "correct": false }
+    ],
+    "hint": "Proporción directa.",
+    "explanation": "120/2 = 60 pedaladas/min. 60×7=420.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "En una caja de ahorro, se paga el 6% anual de interés. Si se depositan $15000 durante 2 años, ¿cuánto interés se obtiene?",
+    "options": [
+      { "text": "$1800", "correct": true },
+      { "text": "$1600", "correct": false },
+      { "text": "$2000", "correct": false },
+      { "text": "$1500", "correct": false }
+    ],
+    "hint": "Interés simple.",
+    "explanation": "15000×0.06×2=1800.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Para pavimentar una calle, 8 trabajadores tardan 15 días. Si se contratan 10 trabajadores, ¿cuántos días tardarán?",
+    "options": [
+      { "text": "12 días", "correct": true },
+      { "text": "10 días", "correct": false },
+      { "text": "13 días", "correct": false },
+      { "text": "14 días", "correct": false }
+    ],
+    "hint": "Proporción inversa.",
+    "explanation": "8×15=10×x → x=120/10=12 días.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si el 30% de un número es 45, ¿cuál es el número?",
+    "options": [
+      { "text": "150", "correct": true },
+      { "text": "120", "correct": false },
+      { "text": "135", "correct": false },
+      { "text": "180", "correct": false }
+    ],
+    "hint": "Divide 45 entre 0.30.",
+    "explanation": "45 ÷ 0.30 = 150.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Tres grifos llenan un depósito en 4, 6 y 8 horas respectivamente si funcionan solos. ¿En cuánto tiempo lo llenarán los tres juntos?",
+    "options": [
+      { "text": "\\(\\frac{24}{13}\\) horas", "correct": true },
+      { "text": "2 horas", "correct": false },
+      { "text": "\\(\\frac{12}{7}\\) horas", "correct": false },
+      { "text": "3 horas", "correct": false }
+    ],
+    "hint": "Suma sus velocidades: 1/4 + 1/6 + 1/8.",
+    "explanation": "Mínimo común: \\(\\frac{6+4+3}{24}=\\frac{13}{24}\\). Tiempo = \\(\\frac{24}{13}\\) h.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Dos números están en relación 5:3. Si el mayor es 75, ¿cuál es el menor?",
+    "options": [
+      { "text": "45", "correct": true },
+      { "text": "40", "correct": false },
+      { "text": "50", "correct": false },
+      { "text": "30", "correct": false }
+    ],
+    "hint": "Proporción directa: 5/3 = 75/x.",
+    "explanation": "x = 75×3/5 = 45.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un mapa está a escala 1:50000. Si dos ciudades están separadas por 8 cm en el mapa, ¿cuál es la distancia real en km?",
+    "options": [
+      { "text": "4 km", "correct": true },
+      { "text": "5 km", "correct": false },
+      { "text": "6 km", "correct": false },
+      { "text": "3 km", "correct": false }
+    ],
+    "hint": "Multiplica 8 cm por 50000, luego convierte a km.",
+    "explanation": "8×50000 = 400000 cm = 4000 m = 4 km.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un agricultor tiene 1200 naranjas y las quiere empacar en cajas de 36 naranjas cada una. ¿Cuántas cajas llenará completamente y cuántas naranjas sobrarán?",
+    "options": [
+      { "text": "33 cajas, sobran 12", "correct": true },
+      { "text": "30 cajas, sobran 0", "correct": false },
+      { "text": "35 cajas, sobran 0", "correct": false },
+      { "text": "40 cajas, sobran 20", "correct": false }
+    ],
+    "hint": "Divide 1200 entre 36. Cociente = cajas, residuo = sobrantes.",
+    "explanation": "1200 ÷ 36 = 33.33, 33×36=1188, sobran 12.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
