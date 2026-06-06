@@ -3152,5 +3152,575 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP15AU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(2^3 \\times 2^4\\)",
+    "options": [
+      { "text": "128", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "256", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "hint": "Suma los exponentes: \\(2^{3+4}=2^7\\).",
+    "explanation": "\\(2^3 \\times 2^4 = 2^{7} = 128\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(\\frac{5^6}{5^3}\\)",
+    "options": [
+      { "text": "125", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "625", "correct": false },
+      { "text": "3125", "correct": false }
+    ],
+    "hint": "Resta los exponentes: \\(5^{6-3}=5^3\\).",
+    "explanation": "\\(5^6 / 5^3 = 5^{3} = 125\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\((3^2)^4\\)",
+    "options": [
+      { "text": "6561", "correct": true },
+      { "text": "729", "correct": false },
+      { "text": "81", "correct": false },
+      { "text": "2187", "correct": false }
+    ],
+    "hint": "Multiplica los exponentes: \\(3^{2\\times4}=3^8\\).",
+    "explanation": "\\((3^2)^4 = 3^{8} = 6561\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\((2 \\times 5)^3\\)",
+    "options": [
+      { "text": "1000", "correct": true },
+      { "text": "250", "correct": false },
+      { "text": "500", "correct": false },
+      { "text": "125", "correct": false }
+    ],
+    "hint": "Primero multiplica dentro del paréntesis, luego eleva.",
+    "explanation": "\\(2 \\times 5 = 10\\), \\(10^3 = 1000\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(4^3 \\div 4^2\\)",
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "64", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "hint": "Resta los exponentes.",
+    "explanation": "\\(4^{3-2}=4^1=4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP15AZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\((\\frac{2}{3})^3\\)",
+    "options": [
+      { "text": "\\(\\frac{8}{27}\\)", "correct": true },
+      { "text": "\\(\\frac{6}{9}\\)", "correct": false },
+      { "text": "\\(\\frac{8}{9}\\)", "correct": false },
+      { "text": "\\(\\frac{2}{27}\\)", "correct": false }
+    ],
+    "hint": "Eleva numerador y denominador.",
+    "explanation": "\\((\\frac{2}{3})^3 = \\frac{2^3}{3^3} = \\frac{8}{27}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Escribe en notación científica: 450000000",
+    "options": [
+      { "text": "\\(4.5 \\times 10^8\\)", "correct": true },
+      { "text": "\\(45 \\times 10^7\\)", "correct": false },
+      { "text": "\\(0.45 \\times 10^9\\)", "correct": false },
+      { "text": "\\(4.5 \\times 10^7\\)", "correct": false }
+    ],
+    "hint": "Mueve el punto decimal hasta dejar un número entre 1 y 10.",
+    "explanation": "450000000 = 4.5 × 10^8.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Escribe en notación científica: 0.000075",
+    "options": [
+      { "text": "\\(7.5 \\times 10^{-5}\\)", "correct": true },
+      { "text": "\\(75 \\times 10^{-6}\\)", "correct": false },
+      { "text": "\\(7.5 \\times 10^{-4}\\)", "correct": false },
+      { "text": "\\(0.75 \\times 10^{-4}\\)", "correct": false }
+    ],
+    "hint": "Mueve el decimal a la derecha.",
+    "explanation": "0.000075 = 7.5 × 10^{-5}.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Suma: \\((3 \\times 10^4) + (2 \\times 10^4)\\)",
+    "options": [
+      { "text": "\\(5 \\times 10^4\\)", "correct": true },
+      { "text": "\\(6 \\times 10^4\\)", "correct": false },
+      { "text": "\\(5 \\times 10^8\\)", "correct": false },
+      { "text": "\\(6 \\times 10^8\\)", "correct": false }
+    ],
+    "hint": "Suma los coeficientes, el exponente es el mismo.",
+    "explanation": "\\(3+2=5\\), exponente 4: \\(5 \\times 10^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Suma: \\((4 \\times 10^5) + (7 \\times 10^4)\\)",
+    "options": [
+      { "text": "\\(4.7 \\times 10^5\\)", "correct": true },
+      { "text": "\\(47 \\times 10^5\\)", "correct": false },
+      { "text": "\\(4.7 \\times 10^4\\)", "correct": false },
+      { "text": "\\(11 \\times 10^5\\)", "correct": false }
+    ],
+    "hint": "Iguala exponentes: \\(7 \\times 10^4 = 0.7 \\times 10^5\\).",
+    "explanation": "\\(4 + 0.7 = 4.7 \\times 10^5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AE",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Multiplica: \\((2 \\times 10^6) \\times (3 \\times 10^4)\\)",
+    "options": [
+      { "text": "\\(6 \\times 10^{10}\\)", "correct": true },
+      { "text": "\\(5 \\times 10^{24}\\)", "correct": false },
+      { "text": "\\(6 \\times 10^{24}\\)", "correct": false },
+      { "text": "\\(5 \\times 10^{10}\\)", "correct": false }
+    ],
+    "hint": "Multiplica coeficientes y suma exponentes.",
+    "explanation": "\\(2 \\times 3 = 6\\), \\(10^6 \\times 10^4 = 10^{10}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Divide: \\((9 \\times 10^8) \\div (3 \\times 10^5)\\)",
+    "options": [
+      { "text": "\\(3 \\times 10^3\\)", "correct": true },
+      { "text": "\\(3 \\times 10^{13}\\)", "correct": false },
+      { "text": "\\(27 \\times 10^3\\)", "correct": false },
+      { "text": "\\(3 \\times 10^{40}\\)", "correct": false }
+    ],
+    "hint": "Divide coeficientes y resta exponentes.",
+    "explanation": "\\(9 \\div 3 = 3\\), \\(10^{8-5} = 10^3\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Simplifica: \\(\\sqrt{144}\\)",
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "hint": "Busca un número que multiplicado por sí mismo dé 144.",
+    "explanation": "\\(12 \\times 12 = 144\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Simplifica: \\(\\sqrt{200}\\)",
+    "options": [
+      { "text": "\\(10\\sqrt{2}\\)", "correct": true },
+      { "text": "\\(20\\sqrt{2}\\)", "correct": false },
+      { "text": "\\(10\\sqrt{20}\\)", "correct": false },
+      { "text": "\\(2\\sqrt{10}\\)", "correct": false }
+    ],
+    "hint": "Factoriza el radicando: 200 = 100 × 2.",
+    "explanation": "\\(\\sqrt{200} = \\sqrt{100 \\times 2} = 10\\sqrt{2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(\\sqrt[3]{27}\\)",
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "27", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "hint": "Busca un número que elevado al cubo dé 27.",
+    "explanation": "\\(3^3 = 27\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Multiplica radicales: \\(\\sqrt{3} \\times \\sqrt{12}\\)",
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "hint": "Multiplica dentro del radical: \\(\\sqrt{3 \\times 12}\\).",
+    "explanation": "\\(\\sqrt{36} = 6\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Divide radicales: \\(\\sqrt{50} \\div \\sqrt{2}\\)",
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "hint": "Divide dentro del radical: \\(\\sqrt{50/2}\\).",
+    "explanation": "\\(\\sqrt{25} = 5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Suma radicales: \\(3\\sqrt{5} + 2\\sqrt{5}\\)",
+    "options": [
+      { "text": "\\(5\\sqrt{5}\\)", "correct": true },
+      { "text": "\\(6\\sqrt{5}\\)", "correct": false },
+      { "text": "\\(\\sqrt{25}\\)", "correct": false },
+      { "text": "\\(5\\sqrt{10}\\)", "correct": false }
+    ],
+    "hint": "Suma los coeficientes, mismo radical.",
+    "explanation": "\\(3+2 = 5\\), resultado \\(5\\sqrt{5}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Simplifica: \\(\\sqrt{18} + \\sqrt{8}\\)",
+    "options": [
+      { "text": "\\(5\\sqrt{2}\\)", "correct": true },
+      { "text": "\\(\\sqrt{26}\\)", "correct": false },
+      { "text": "\\(3\\sqrt{2} + 2\\sqrt{2}\\)", "correct": false },
+      { "text": "\\(10\\sqrt{2}\\)", "correct": false }
+    ],
+    "hint": "Simplifica cada radical: \\(3\\sqrt{2} + 2\\sqrt{2}\\).",
+    "explanation": "\\(\\sqrt{18}=3\\sqrt{2}\\), \\(\\sqrt{8}=2\\sqrt{2}\\), suma = \\(5\\sqrt{2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "La distancia de la Tierra al Sol es aproximadamente 1.5 × 10^8 km. La velocidad de la luz es 3 × 10^5 km/s. ¿Cuánto tiempo tarda la luz en llegar del Sol a la Tierra?",
+    "options": [
+      { "text": "500 s", "correct": true },
+      { "text": "50 s", "correct": false },
+      { "text": "1000 s", "correct": false },
+      { "text": "200 s", "correct": false }
+    ],
+    "hint": "Divide distancia entre velocidad.",
+    "explanation": "\\((1.5 \\times 10^8) \\div (3 \\times 10^5) = 0.5 \\times 10^3 = 500\\) segundos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un glóbulo rojo mide 7.5 × 10^{-6} m. ¿Cuántos glóbulos rojos se necesitan para formar una fila de 1 metro?",
+    "options": [
+      { "text": "1.33 × 10^5", "correct": true },
+      { "text": "1.33 × 10^{-5}", "correct": false },
+      { "text": "7.5 × 10^6", "correct": false },
+      { "text": "1.33 × 10^4", "correct": false }
+    ],
+    "hint": "Divide 1 entre el tamaño.",
+    "explanation": "\\(1 \\div (7.5 \\times 10^{-6}) = 1.333 \\times 10^5\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El área de un terreno cuadrado es 450 m². ¿Cuánto mide su lado? (Simplifica el radical)",
+    "options": [
+      { "text": "\\(15\\sqrt{2}\\) m", "correct": true },
+      { "text": "\\(9\\sqrt{5}\\) m", "correct": false },
+      { "text": "\\(15\\sqrt{3}\\) m", "correct": false },
+      { "text": "\\(\\sqrt{450}\\) m", "correct": false }
+    ],
+    "hint": "Lado = \\(\\sqrt{450} = \\sqrt{225 \\times 2}\\).",
+    "explanation": "\\(\\sqrt{450} = \\sqrt{225 \\times 2} = 15\\sqrt{2}\\) m.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Simplifica: \\(2\\sqrt{27} - 3\\sqrt{12}\\)",
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "6\\sqrt{3}", "correct": false },
+      { "text": "12\\sqrt{3}", "correct": false },
+      { "text": "-6\\sqrt{3}", "correct": false }
+    ],
+    "hint": "Simplifica cada término: \\(2\\sqrt{27}=6\\sqrt{3}\\), \\(3\\sqrt{12}=6\\sqrt{3}\\).",
+    "explanation": "\\(6\\sqrt{3} - 6\\sqrt{3} = 0\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Una bacteria se duplica cada hora. Si empieza con 10^3 bacterias, ¿cuántas habrá después de 5 horas?",
+    "options": [
+      { "text": "3.2 × 10^4", "correct": true },
+      { "text": "5 × 10^3", "correct": false },
+      { "text": "2 × 10^5", "correct": false },
+      { "text": "10^8", "correct": false }
+    ],
+    "hint": "Multiplica por 2 cada hora: \\(10^3 \\times 2^5\\).",
+    "explanation": "\\(10^3 \\times 32 = 32000 = 3.2 \\times 10^4\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El volumen de un cubo es 216 cm³. ¿Cuánto mide su arista?",
+    "options": [
+      { "text": "6 cm", "correct": true },
+      { "text": "9 cm", "correct": false },
+      { "text": "12 cm", "correct": false },
+      { "text": "3 cm", "correct": false }
+    ],
+    "hint": "Arista = \\(\\sqrt[3]{216}\\).",
+    "explanation": "\\(6^3 = 216\\), arista = 6 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Racionaliza: \\(\\frac{5}{\\sqrt{2}}\\)",
+    "options": [
+      { "text": "\\(\\frac{5\\sqrt{2}}{2}\\)", "correct": true },
+      { "text": "\\(5\\sqrt{2}\\)", "correct": false },
+      { "text": "\\(\\frac{\\sqrt{2}}{5}\\)", "correct": false },
+      { "text": "\\(\\frac{5}{2}\\sqrt{2}\\)", "correct": false }
+    ],
+    "hint": "Multiplica numerador y denominador por \\(\\sqrt{2}\\).",
+    "explanation": "\\(\\frac{5}{\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{5\\sqrt{2}}{2}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un átomo tiene un diámetro de 1 × 10^{-10} m. ¿Cuántos átomos caben en 1 mm (1 × 10^{-3} m)?",
+    "options": [
+      { "text": "10^7", "correct": true },
+      { "text": "10^5", "correct": false },
+      { "text": "10^9", "correct": false },
+      { "text": "10^3", "correct": false }
+    ],
+    "hint": "Divide 1 × 10^{-3} entre 1 × 10^{-10}.",
+    "explanation": "\\(10^{-3} \\div 10^{-10} = 10^{7}\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Si \\(a = 2^5\\) y \\(b = 2^3\\), ¿cuánto vale \\(a \\times b\\)?",
+    "options": [
+      { "text": "256", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "128", "correct": false },
+      { "text": "512", "correct": false }
+    ],
+    "hint": "\\(2^{5+3} = 2^8\\).",
+    "explanation": "\\(2^5 \\times 2^3 = 2^8 = 256\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(\\left(\\frac{1}{4}\\right)^{-2}\\)",
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "\\(\\frac{1}{16}\\)", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "hint": "Exponente negativo: invierte la base.",
+    "explanation": "\\((\\frac{1}{4})^{-2} = (4)^2 = 16\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP16AX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Calcula: \\(\\frac{8^2 \\times 8^3}{8^4}\\)",
+    "options": [
+      { "text": "8", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "512", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "hint": "Suma exponentes en numerador y resta denominador.",
+    "explanation": "\\(8^{2+3-4} = 8^1 = 8\\).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
