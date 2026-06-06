@@ -1157,5 +1157,594 @@
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP12AP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Leticia tiene 15 años actualmente, ¿qué edad tendrá dentro de 22 años?",
+    "options": [
+      { "text": "37", "correct": true },
+      { "text": "35", "correct": false },
+      { "text": "40", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "hint": "Suma los años actuales más los que pasarán.",
+    "explanation": "15 + 22 = 37 años.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Uriel estudió: 2 años en preescolar, 6 en primaria, 3 en secundaria, 3 en bachillerato, 5 en licenciatura y 3 en posgrado. ¿Durante cuántos años estudió Uriel?",
+    "options": [
+      { "text": "22", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "18", "correct": false }
+    ],
+    "hint": "Suma todos los años.",
+    "explanation": "2+6+3+3+5+3 = 22 años.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Luis ganó $1500 en febrero, $3500 en marzo, $2800 en abril y $2200 en mayo. ¿Cuánto dinero ganó en total?",
+    "options": [
+      { "text": "$10000", "correct": true },
+      { "text": "$9500", "correct": false },
+      { "text": "$10500", "correct": false },
+      { "text": "$9800", "correct": false }
+    ],
+    "hint": "Suma todas las cantidades.",
+    "explanation": "1500+3500=5000, 5000+2800=7800, 7800+2200=10000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Carlos nació en 1978. A los 26 años se graduó y 2 años después se casó. ¿En qué año se casó?",
+    "options": [
+      { "text": "2006", "correct": true },
+      { "text": "2004", "correct": false },
+      { "text": "2008", "correct": false },
+      { "text": "2005", "correct": false }
+    ],
+    "hint": "Graduación: 1978+26=2004. Casamiento: 2004+2.",
+    "explanation": "1978+26=2004 (graduación). 2004+2=2006 (casamiento).",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un automóvil recorre en tres etapas: 210 km, 180 km y 360 km. ¿Qué distancia total existe entre las ciudades?",
+    "options": [
+      { "text": "750 km", "correct": true },
+      { "text": "740 km", "correct": false },
+      { "text": "760 km", "correct": false },
+      { "text": "730 km", "correct": false }
+    ],
+    "hint": "Suma las tres distancias.",
+    "explanation": "210+180=390, 390+360=750 km.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AU",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Una editorial publica 12000 libros de álgebra, 8000 de geometría y 10700 de cálculo. ¿Cuántos libros publica en total?",
+    "options": [
+      { "text": "30700", "correct": true },
+      { "text": "30000", "correct": false },
+      { "text": "31000", "correct": false },
+      { "text": "30500", "correct": false }
+    ],
+    "hint": "Suma las tres cantidades.",
+    "explanation": "12000+8000=20000, 20000+10700=30700.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AV",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En un colegio hay 800 alumnos, de los cuales 430 son varones. ¿Cuántas mujeres hay?",
+    "options": [
+      { "text": "370", "correct": true },
+      { "text": "380", "correct": false },
+      { "text": "360", "correct": false },
+      { "text": "350", "correct": false }
+    ],
+    "hint": "Resta los varones del total.",
+    "explanation": "800 - 430 = 370 mujeres.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AW",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Ernesto tiene ahorrados $12000 y un auto cuesta $35000. ¿Cuánto dinero le falta?",
+    "options": [
+      { "text": "$23000", "correct": true },
+      { "text": "$22000", "correct": false },
+      { "text": "$24000", "correct": false },
+      { "text": "$21000", "correct": false }
+    ],
+    "hint": "Resta el ahorro del precio.",
+    "explanation": "35000 - 12000 = 23000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AX",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Ángel vendió su casa en $250000 y obtuvo una ganancia de $13000. ¿Cuánto le había costado?",
+    "options": [
+      { "text": "$237000", "correct": true },
+      { "text": "$263000", "correct": false },
+      { "text": "$240000", "correct": false },
+      { "text": "$235000", "correct": false }
+    ],
+    "hint": "Resta la ganancia al precio de venta.",
+    "explanation": "250000 - 13000 = 237000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AY",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un rollo de tela tiene 40 metros. Se vendieron: lunes 3 m, martes 8 m, miércoles 5 m, jueves 6 m. ¿Cuántos metros quedan?",
+    "options": [
+      { "text": "18 m", "correct": true },
+      { "text": "20 m", "correct": false },
+      { "text": "16 m", "correct": false },
+      { "text": "22 m", "correct": false }
+    ],
+    "hint": "Suma lo vendido y resta del total.",
+    "explanation": "3+8+5+6=22 vendidos. 40-22=18 m restantes.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP12AZ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Un atleta debe cubrir 10000 m y ha recorrido 5850 m. ¿Qué distancia le falta?",
+    "options": [
+      { "text": "4150 m", "correct": true },
+      { "text": "4250 m", "correct": false },
+      { "text": "4050 m", "correct": false },
+      { "text": "4000 m", "correct": false }
+    ],
+    "hint": "Resta lo recorrido del total.",
+    "explanation": "10000 - 5850 = 4150 m.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AA",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "En una caja hay 24 refrescos. ¿Cuántos refrescos hay en 9 cajas?",
+    "options": [
+      { "text": "216", "correct": true },
+      { "text": "206", "correct": false },
+      { "text": "226", "correct": false },
+      { "text": "196", "correct": false }
+    ],
+    "hint": "Multiplica 24 × 9.",
+    "explanation": "24 × 9 = 216 refrescos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AB",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuántos libros hay en 12 repisas si cada una contiene 15 textos?",
+    "options": [
+      { "text": "180", "correct": true },
+      { "text": "170", "correct": false },
+      { "text": "190", "correct": false },
+      { "text": "200", "correct": false }
+    ],
+    "hint": "Multiplica 12 × 15.",
+    "explanation": "12 × 15 = 180 libros.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AC",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Juan tiene 3 docenas de canicas, Julio 5 docenas y Daniel 9 canicas. ¿Cuántas canicas tienen en total? (1 docena = 12)",
+    "options": [
+      { "text": "105", "correct": true },
+      { "text": "108", "correct": false },
+      { "text": "102", "correct": false },
+      { "text": "111", "correct": false }
+    ],
+    "hint": "Convierte docenas a unidades y suma.",
+    "explanation": "3×12=36, 5×12=60, 36+60+9=105.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AD",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Se van a sembrar 25 filas con 30 árboles cada una. ¿Cuántos árboles se plantarán en total?",
+    "options": [
+      { "text": "750", "correct": true },
+      { "text": "700", "correct": false },
+      { "text": "800", "correct": false },
+      { "text": "720", "correct": false }
+    ],
+    "hint": "Multiplica 25 × 30.",
+    "explanation": "25 × 30 = 750 árboles.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AE",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Rafael tiene 8 piezas de tela de 12 metros cada una y vende a $10 el metro. ¿Cuánto dinero obtiene por la venta de todas?",
+    "options": [
+      { "text": "$960", "correct": true },
+      { "text": "$800", "correct": false },
+      { "text": "$1000", "correct": false },
+      { "text": "$880", "correct": false }
+    ],
+    "hint": "Primero calcula metros totales, luego multiplica por precio.",
+    "explanation": "8×12=96 metros. 96×10=960 pesos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AF",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuántos minutos hay en una semana? (1 semana = 7 días, 1 día = 24 horas, 1 hora = 60 minutos)",
+    "options": [
+      { "text": "10080", "correct": true },
+      { "text": "10000", "correct": false },
+      { "text": "9600", "correct": false },
+      { "text": "10400", "correct": false }
+    ],
+    "hint": "Multiplica: 7 × 24 × 60.",
+    "explanation": "7×24=168, 168×60=10080 minutos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AG",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Karen recibe $850 semanales y una beca de $1000 mensuales. (1 mes = 4 semanas). ¿Cuánto recibe en un mes?",
+    "options": [
+      { "text": "$4400", "correct": true },
+      { "text": "$4200", "correct": false },
+      { "text": "$4600", "correct": false },
+      { "text": "$4000", "correct": false }
+    ],
+    "hint": "Calcula el salario semanal ×4 y suma la beca.",
+    "explanation": "850×4=3400, 3400+1000=4400.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AH",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Maritza recibe $20 diarios. En un año (365 días) destina $2300 a pasajes. ¿Cuánto le sobra para otros gastos?",
+    "options": [
+      { "text": "$5000", "correct": true },
+      { "text": "$4800", "correct": false },
+      { "text": "$5200", "correct": false },
+      { "text": "$4900", "correct": false }
+    ],
+    "hint": "Calcula ingreso anual, luego resta gasto.",
+    "explanation": "20×365=7300, 7300-2300=5000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AI",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un cuarteto (4 músicos) gana $240 diarios entre semana y $480 diarios los fines de semana. Si la semana tiene 7 días, ¿cuánto percibe cada integrante?",
+    "options": [
+      { "text": "$600", "correct": true },
+      { "text": "$580", "correct": false },
+      { "text": "$620", "correct": false },
+      { "text": "$550", "correct": false }
+    ],
+    "hint": "Calcula pago semanal total, luego divide entre 4.",
+    "explanation": "Entre semana: 5×240=1200. Fin de semana: 2×480=960. Total=2160. 2160÷4=540.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AJ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuántas veces cabe el número 15 en 345?",
+    "options": [
+      { "text": "23", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "22", "correct": false }
+    ],
+    "hint": "Divide 345 entre 15.",
+    "explanation": "345 ÷ 15 = 23.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AK",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "Ciento ochenta y seis mil pesos ahorraron 62 alumnos en partes iguales. ¿Cuánto ahorró cada uno?",
+    "options": [
+      { "text": "$3000", "correct": true },
+      { "text": "$2800", "correct": false },
+      { "text": "$3200", "correct": false },
+      { "text": "$3100", "correct": false }
+    ],
+    "hint": "Divide 186000 entre 62.",
+    "explanation": "186000 ÷ 62 = 3000.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AL",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "El producto de dos números es 137196, uno de ellos es 927. ¿Cuál es el otro número?",
+    "options": [
+      { "text": "148", "correct": true },
+      { "text": "150", "correct": false },
+      { "text": "146", "correct": false },
+      { "text": "152", "correct": false }
+    ],
+    "hint": "Divide 137196 entre 927.",
+    "explanation": "137196 ÷ 927 = 148.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AM",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["BÁSICO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuántas horas hay en 3360 minutos?",
+    "options": [
+      { "text": "56", "correct": true },
+      { "text": "54", "correct": false },
+      { "text": "58", "correct": false },
+      { "text": "60", "correct": false }
+    ],
+    "hint": "Divide los minutos entre 60.",
+    "explanation": "3360 ÷ 60 = 56 horas.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AN",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Se reparten 7200 libros a 4 escuelas con 600 alumnos cada una. ¿Cuántos libros tocan por alumno?",
+    "options": [
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "hint": "Calcula total de alumnos y divide los libros.",
+    "explanation": "Total alumnos: 4×600=2400. 7200÷2400=3 libros por alumno.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AO",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["INTERMEDIO"],
+    "tag04": ["TEST"],
+    "question": "Un reloj se adelanta 3 minutos cada 4 horas. ¿Cuánto se adelantará en 20 horas?",
+    "options": [
+      { "text": "15 minutos", "correct": true },
+      { "text": "12 minutos", "correct": false },
+      { "text": "18 minutos", "correct": false },
+      { "text": "20 minutos", "correct": false }
+    ],
+    "hint": "Calcula cuántos períodos de 4 horas hay en 20.",
+    "explanation": "20÷4=5 períodos. 5×3=15 minutos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AP",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Tres cajas contienen 12 kg de res, 18 kg de cerdo y 24 kg de pollo. Cada caja tiene bolsas iguales del mismo tamaño con la máxima cantidad de carne posible. ¿Cuánto pesa cada bolsa?",
+    "options": [
+      { "text": "6 kg", "correct": true },
+      { "text": "3 kg", "correct": false },
+      { "text": "12 kg", "correct": false },
+      { "text": "4 kg", "correct": false }
+    ],
+    "hint": "Encuentra el máximo común divisor de 12, 18 y 24.",
+    "explanation": "MCD(12,18,24)=6 kg por bolsa.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AQ",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Gerardo enciende focos rojos cada 10 segundos, amarillos cada 6 y verdes cada 15. Si encienden todos juntos, ¿después de cuántos segundos volverán a encender juntos?",
+    "options": [
+      { "text": "30", "correct": true },
+      { "text": "60", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "90", "correct": false }
+    ],
+    "hint": "Encuentra el mínimo común múltiplo de 10, 6 y 15.",
+    "explanation": "mcm(10,6,15)=30 segundos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AR",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un ebanista quiere cortar una plancha de 300 cm de largo y 80 cm de ancho en cuadros lo más grandes posible. ¿Cuál debe ser la longitud de los lados de cada cuadro?",
+    "options": [
+      { "text": "20 cm", "correct": true },
+      { "text": "10 cm", "correct": false },
+      { "text": "40 cm", "correct": false },
+      { "text": "30 cm", "correct": false }
+    ],
+    "hint": "Encuentra el máximo común divisor de 300 y 80.",
+    "explanation": "MCD(300,80)=20 cm.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AS",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Un ciclista da una vuelta en 6 minutos y otro en 4 minutos. Si inician juntos, ¿después de cuánto tiempo volverán a encontrarse?",
+    "options": [
+      { "text": "12 minutos", "correct": true },
+      { "text": "24 minutos", "correct": false },
+      { "text": "8 minutos", "correct": false },
+      { "text": "18 minutos", "correct": false }
+    ],
+    "hint": "Encuentra el mínimo común múltiplo de 6 y 4.",
+    "explanation": "mcm(6,4)=12 minutos.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP13AT",
+    "tag01": ["GENERAL"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Una llave vierte 4 L/min, otra 3 L/min y otra 8 L/min. ¿Cuál es la menor cantidad de litros que puede tener un pozo para llenarse en un número exacto de minutos con cualquier llave?",
+    "options": [
+      { "text": "24 L", "correct": true },
+      { "text": "12 L", "correct": false },
+      { "text": "48 L", "correct": false },
+      { "text": "96 L", "correct": false }
+    ],
+    "hint": "Encuentra el mínimo común múltiplo de 4, 3 y 8.",
+    "explanation": "mcm(4,3,8)=24 litros.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
