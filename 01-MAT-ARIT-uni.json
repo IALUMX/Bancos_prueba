@@ -5,15 +5,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "¿Cuál es el resultado de la operación matemática $ \\frac{1}{4} + \\frac{2}{4} $?",
+    "question": "¿A qué conjunto numérico pertenece el número 7?",
     "options": [
-      { "text": "$ \\frac{3}{4} $", "correct": true },
-      { "text": "$ \\frac{3}{8} $", "correct": false },
-      { "text": "$ \\frac{2}{16} $", "correct": false },
-      { "text": "$ \\frac{1}{2} $", "correct": false }
+      { "text": "Natural", "correct": true },
+      { "text": "Entero negativo", "correct": false },
+      { "text": "Irracional", "correct": false },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "Cuando los denominadores son iguales, solo se suman los numeradores y el denominador se mantiene.",
-    "explanation": "Al tener el mismo denominador (4), sumamos los numeradores: 1 + 2 = 3. El resultado es $ \\frac{3}{4} $.",
+    "hint": "Los números que usamos para contar objetos (1, 2, 3...) son naturales.",
+    "explanation": "El número 7 es un número natural porque es positivo y se utiliza para contar.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -24,15 +24,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "En la división matemática de 20 entre 4 igual a 5, el número 20 representa el ______ y el número 5 representa el ______.",
+    "question": "¿Qué tipo de número es -5?",
     "options": [
-      { "text": "dividendo, cociente", "correct": true },
-      { "text": "divisor, residuo", "correct": false },
-      { "text": "cociente, dividendo", "correct": false },
-      { "text": "residuo, divisor", "correct": false }
+      { "text": "Natural", "correct": false },
+      { "text": "Entero", "correct": true },
+      { "text": "Irracional", "correct": false },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "La cantidad que se va a repartir tiene un nombre, y el resultado de esa repartición tiene otro.",
-    "explanation": "El dividendo es la cantidad a dividir (20), el divisor es en cuántas partes se divide (4), y el cociente es el resultado (5).",
+    "hint": "Los números negativos también son números enteros.",
+    "explanation": "-5 es un número entero porque incluye el signo negativo y no tiene parte fraccionaria.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -43,15 +43,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "Identifica cuáles de las siguientes expresiones representan fracciones impropias:\n1. $ \\frac{3}{4} $\n2. $ \\frac{5}{2} $\n3. $ \\frac{8}{8} $\n4. $ \\frac{1}{6} $\n5. $ \\frac{7}{3} $",
+    "question": "¿A qué conjunto pertenece el número 3/4?",
     "options": [
-      { "text": "2, 3, 5", "correct": true },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 3", "correct": false }
+      { "text": "Natural", "correct": false },
+      { "text": "Entero", "correct": false },
+      { "text": "Racional", "correct": true },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "Busca aquellas fracciones donde el número superior (numerador) sea mayor o igual al inferior (denominador).",
-    "explanation": "Las fracciones impropias son aquellas cuyo numerador es mayor o igual al denominador, indicando un valor igual o mayor a un entero.",
+    "hint": "Los números que se expresan como fracción de dos enteros son racionales.",
+    "explanation": "3/4 es una fracción que representa una división exacta, por lo tanto es un número racional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -62,15 +62,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "Relaciona la propiedad de la suma con su respectiva definición matemática:\nA) Conmutativa\nB) Asociativa\nC) Neutro aditivo\nI. $ a + 0 = a $\nII. $ a + b = b + a $\nIII. $ (a + b) + c = a + (b + c) $",
+    "question": "¿Qué tipo de número es 0?",
     "options": [
-      { "text": "A-II; B-III; C-I", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-I; C-III", "correct": false }
+      { "text": "Solo natural", "correct": false },
+      { "text": "Solo entero", "correct": false },
+      { "text": "Natural y entero", "correct": false },
+      { "text": "Entero y racional", "correct": true }
     ],
-    "hint": "Conmutar significa cambiar de orden. Asociar significa agrupar de diferente forma. El neutro no altera el valor.",
-    "explanation": "La propiedad conmutativa permite cambiar el orden de los sumandos, la asociativa permite agruparlos distinto, y el cero es el neutro aditivo.",
+    "hint": "El cero puede escribirse como 0/1.",
+    "explanation": "El cero es un número entero y también racional porque puede expresarse como 0/1.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -79,17 +79,17 @@
     "id": "CEP10JK",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Al aplicar la jerarquía de operaciones, ¿cuál es el resultado correcto de la expresión $ 5 + 3 \\times 2 $?",
+    "question": "¿A qué conjunto numérico pertenece √2?",
     "options": [
-      { "text": "11", "correct": true },
-      { "text": "16", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "21", "correct": false }
+      { "text": "Racional", "correct": false },
+      { "text": "Irracional", "correct": true },
+      { "text": "Natural", "correct": false },
+      { "text": "Entero", "correct": false }
     ],
-    "hint": "Recuerda que las multiplicaciones siempre deben resolverse antes que las sumas o restas.",
-    "explanation": "Según la jerarquía, primero se realiza la multiplicación (3 x 2 = 6) y luego la suma (5 + 6 = 11).",
+    "hint": "No puede expresarse como fracción de enteros.",
+    "explanation": "√2 es un número irracional porque su representación decimal es infinita no periódica.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -98,17 +98,17 @@
     "id": "CEP10JL",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Al aplicar la regla de los signos en una multiplicación, el producto de dos números con signos ______ siempre resulta en un número ______.",
+    "question": "Identifica el número irracional:",
     "options": [
-      { "text": "iguales, positivo", "correct": true },
-      { "text": "diferentes, positivo", "correct": false },
-      { "text": "iguales, negativo", "correct": false },
-      { "text": "neutros, negativo", "correct": false }
+      { "text": "0.3333...", "correct": false },
+      { "text": "22/7", "correct": false },
+      { "text": "π", "correct": true },
+      { "text": "√9", "correct": false }
     ],
-    "hint": "Multiplicar dos cantidades negativas cancela el signo negativo, de la misma forma que multiplicar dos positivas lo mantiene.",
-    "explanation": "La ley de signos establece que más por más es más, y menos por menos es más; por ende, signos iguales siempre dan un producto positivo.",
+    "hint": "El número pi tiene una expansión decimal infinita sin patrón.",
+    "explanation": "π (pi) es irracional, mientras que 0.3333... es racional (1/3), 22/7 es fracción y √9 = 3 es entero.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -117,17 +117,17 @@
     "id": "CEP10JM",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Selecciona los números que se clasifican como primos dentro del siguiente conjunto:\n1. 2\n2. 9\n3. 13\n4. 15\n5. 19",
+    "question": "¿A qué conjunto pertenece el número -2.5?",
     "options": [
-      { "text": "1, 3, 5", "correct": true },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "Entero", "correct": false },
+      { "text": "Natural", "correct": false },
+      { "text": "Racional", "correct": true },
+      { "text": "Irracional", "correct": false }
     ],
-    "hint": "Los números primos solo se pueden dividir exactamente entre el número uno y entre ellos mismos.",
-    "explanation": "El 2, 13 y 19 son números primos porque tienen solo dos divisores. El 9 y el 15 son compuestos porque se dividen entre 3 y 5 respectivamente.",
+    "hint": "-2.5 es equivalente a -5/2.",
+    "explanation": "-2.5 puede escribirse como -5/2, por lo tanto es un número racional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -136,17 +136,17 @@
     "id": "CEP10JN",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Relaciona el tipo de número con su respectiva representación matemática:\nA) Entero negativo\nB) Fracción propia\nC) Número mixto\nI. $ 2 \\frac{1}{2} $\nII. $ -8 $\nIII. $ \\frac{3}{5} $",
+    "question": "Selecciona el número que NO es racional:",
     "options": [
-      { "text": "A-II; B-III; C-I", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-I; C-III", "correct": false }
+      { "text": "0.75", "correct": false },
+      { "text": "√16", "correct": false },
+      { "text": "√3", "correct": true },
+      { "text": "-3/5", "correct": false }
     ],
-    "hint": "Los mixtos tienen enteros y fracciones combinados. Las fracciones propias tienen un numerador menor que el denominador.",
-    "explanation": "-8 es un entero negativo. 3/5 es propia porque 3 es menor que 5. 2 1/2 es mixta porque combina un entero con una fracción.",
+    "hint": "Pregúntate cuál no puede expresarse como fracción de enteros.",
+    "explanation": "√3 es irracional. 0.75 = 3/4, √16 = 4, -3/5 son todos racionales.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -155,17 +155,17 @@
     "id": "CEP10JO",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "El almacén central de CEPREDIX recibe lotes de cuadernos cada 6 días y lotes de bolígrafos cada 8 días. Si hoy coincidieron ambas entregas, ¿en cuántos días volverán a coincidir simultáneamente?",
+    "question": "¿Cuál de los siguientes números es racional pero no entero?",
     "options": [
-      { "text": "24 días", "correct": true },
-      { "text": "48 días", "correct": false },
-      { "text": "14 días", "correct": false },
-      { "text": "2 días", "correct": false }
+      { "text": "-3", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "2/3", "correct": true },
+      { "text": "π", "correct": false }
     ],
-    "hint": "Debes calcular el Mínimo Común Múltiplo (MCM) de los números 6 y 8.",
-    "explanation": "El MCM de 6 y 8 es 24. Esto significa que los múltiplos de ambos números coinciden por primera vez en el valor 24.",
+    "hint": "Busca una fracción no entera.",
+    "explanation": "2/3 es racional y no es entero. -3 y 0 son enteros, π es irracional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -176,15 +176,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "Para sumar fracciones que tienen diferente denominador, es necesario encontrar un ______ común, que generalmente se obtiene calculando el ______ de los denominadores.",
+    "question": "El número -100 es:",
     "options": [
-      { "text": "múltiplo, mínimo común múltiplo", "correct": true },
-      { "text": "divisor, máximo común divisor", "correct": false },
-      { "text": "factor, mínimo común múltiplo", "correct": false },
-      { "text": "residuo, máximo común divisor", "correct": false }
+      { "text": "Natural", "correct": false },
+      { "text": "Entero negativo", "correct": true },
+      { "text": "Irracional", "correct": false },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "Necesitas un número en la parte inferior que sea divisible entre todos los denominadores originales para poder homogenizarlos.",
-    "explanation": "Las fracciones heterogéneas requieren un común denominador para poder sumarse, el cual corresponde al mínimo común múltiplo (MCM).",
+    "hint": "Los enteros incluyen negativos y positivos.",
+    "explanation": "-100 es un número entero porque es negativo sin parte fraccionaria.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -195,15 +195,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "Identifica cuáles de los siguientes números funcionan como divisores comunes exactos tanto del 12 como del 18:\n1. 2\n2. 3\n3. 4\n4. 6\n5. 9",
+    "question": "¿Cuál de estos números es natural?",
     "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "-1", "correct": false },
+      { "text": "0.5", "correct": false },
+      { "text": "10", "correct": true },
+      { "text": "√2", "correct": false }
     ],
-    "hint": "Busca números que al dividir 12 y también al dividir 18 den como resultado un número entero sin residuo.",
-    "explanation": "Los divisores de 12 son 1, 2, 3, 4, 6, 12. Los divisores de 18 son 1, 2, 3, 6, 9, 18. Los comunes en la lista son 2, 3 y 6.",
+    "hint": "Los naturales son los que usas para contar: 1, 2, 3...",
+    "explanation": "10 es un número natural. -1 es entero negativo, 0.5 es fraccionario, √2 es irracional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -212,17 +212,17 @@
     "id": "CEP10JR",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Relaciona el porcentaje mostrado con su respectiva fracción simplificada equivalente:\nA) 25%\nB) 50%\nC) 75%\nI. $ \\frac{1}{2} $\nII. $ \\frac{3}{4} $\nIII. $ \\frac{1}{4} $",
+    "question": "¿Cuál de los siguientes números es real?",
     "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
+      { "text": "√-1", "correct": false },
+      { "text": "√4", "correct": true },
+      { "text": "√-9", "correct": false },
+      { "text": "√-16", "correct": false }
     ],
-    "hint": "El 50% es la mitad exacta, mientras que el 25% representa una cuarta parte de un entero completo.",
-    "explanation": "25% equivale a 25/100 que simplificado es 1/4. El 50% es 1/2. El 75% es 3/4.",
+    "hint": "Los números reales incluyen naturales, enteros, racionales e irracionales.",
+    "explanation": "√4 = 2, que es un número real. Las raíces cuadradas de negativos son imaginarias.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -231,17 +231,17 @@
     "id": "CEP10JS",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Un técnico de mantenimiento de CEPREDIX tiene dos cables de red, uno de 120 cm y otro de 80 cm. Desea cortarlos en trozos de la misma longitud y del mayor tamaño posible sin desperdiciar cable. ¿Cuánto debe medir cada trozo?",
+    "question": "¿A qué conjunto pertenece el número 0.1010010001... (un 1, un 0, un 1, dos ceros, un 1, tres ceros...)?",
     "options": [
-      { "text": "40 cm", "correct": true },
-      { "text": "20 cm", "correct": false },
-      { "text": "80 cm", "correct": false },
-      { "text": "10 cm", "correct": false }
+      { "text": "Racional", "correct": false },
+      { "text": "Irracional", "correct": true },
+      { "text": "Entero", "correct": false },
+      { "text": "Natural", "correct": false }
     ],
-    "hint": "Este problema se resuelve calculando el Máximo Común Divisor (MCD) de 120 y 80.",
-    "explanation": "El MCD de 120 y 80 es 40. Al cortar tramos de 40 cm se obtienen 3 trozos del cable de 120 cm y 2 trozos del cable de 80 cm.",
+    "hint": "No tiene un patrón periódico.",
+    "explanation": "Es irracional porque su expansión decimal es infinita y no periódica.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -250,17 +250,17 @@
     "id": "CEP10JT",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "El valor ______ de un número es la representación de su distancia geométrica al origen (cero) en la recta numérica y, por lo tanto, siempre arroja un valor ______.",
+    "question": "Clasifica el número -7/3:",
     "options": [
-      { "text": "absoluto, positivo o nulo", "correct": true },
-      { "text": "relativo, negativo", "correct": false },
-      { "text": "simétrico, fraccionario", "correct": false },
-      { "text": "opuesto, indeterminado", "correct": false }
+      { "text": "Entero", "correct": false },
+      { "text": "Natural", "correct": false },
+      { "text": "Racional", "correct": true },
+      { "text": "Irracional", "correct": false }
     ],
-    "hint": "Las distancias de longitud nunca pueden ser negativas en la geometría básica.",
-    "explanation": "El valor absoluto mide la magnitud de un número sin importar su signo; al ser una distancia, el resultado es cero o mayor que cero.",
+    "hint": "Es una fracción de enteros.",
+    "explanation": "-7/3 es un número racional por definición, aunque no es entero.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -271,15 +271,15 @@
     "tag02": ["🧮 MAT ARIT"],
     "tag03": ["BÁSICO"],
     "tag04": ["TEST"],
-    "question": "Selecciona las operaciones matemáticas de la lista cuyo resultado sea estrictamente un número negativo:\n1. $ (-5) + (-3) $\n2. $ (-4) \\times (-2) $\n3. $ 10 \\div (-2) $\n4. $ 8 - 12 $\n5. $ |-7| $",
+    "question": "Identifica el número entero:",
     "options": [
-      { "text": "1, 3, 4", "correct": true },
-      { "text": "2, 4, 5", "correct": false },
-      { "text": "1, 2, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
+      { "text": "1/2", "correct": false },
+      { "text": "-15", "correct": true },
+      { "text": "0.333...", "correct": false },
+      { "text": "√5", "correct": false }
     ],
-    "hint": "Evalúa el signo de cada respuesta; recuerda que el valor absoluto siempre convierte una cantidad en positiva.",
-    "explanation": "La operación 1 da -8. La 3 da -5. La 4 da -4. Por otro lado, la operación 2 da +8 y la 5 da +7.",
+    "hint": "Los enteros no tienen parte decimal ni fraccionaria.",
+    "explanation": "-15 es entero. 1/2 es fracción, 0.333... es decimal periódico (racional), √5 es irracional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -288,17 +288,17 @@
     "id": "CEP10JV",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Relaciona el concepto aritmético con su descripción técnica precisa:\nA) Múltiplo\nB) Divisor\nC) Residuo\nI. Cantidad sobrante al realizar una división que no es exacta.\nII. Número que contiene a otro una cantidad exacta de veces.\nIII. Número que divide exactamente a otra cantidad sin dejar sobrante.",
+    "question": "¿Cuál de los siguientes es un número racional?",
     "options": [
-      { "text": "A-II; B-III; C-I", "correct": true },
-      { "text": "A-III; B-II; C-I", "correct": false },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-I; C-III", "correct": false }
+      { "text": "√7", "correct": false },
+      { "text": "e", "correct": false },
+      { "text": "0.121221222...", "correct": false },
+      { "text": "-3.25", "correct": true }
     ],
-    "hint": "El múltiplo es como una caja grande que contiene cajas pequeñas, el divisor es la caja pequeña y el residuo es lo que no cupo.",
-    "explanation": "El múltiplo contiene al número de manera exacta (II). El divisor es el que divide exactamente (III). El residuo es lo que sobra (I).",
+    "hint": "-3.25 = -13/4.",
+    "explanation": "-3.25 es racional porque se expresa como -13/4. Los demás son irracionales.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -307,17 +307,17 @@
     "id": "CEP10JW",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "En la tienda en línea de materiales de CEPREDIX, un curso que normalmente costaba $400.00 tiene un descuento del 20%. ¿Cuál es el precio final a pagar tras aplicar el descuento?",
+    "question": "¿Qué números son reales?",
     "options": [
-      { "text": "$320.00", "correct": true },
-      { "text": "$380.00", "correct": false },
-      { "text": "$80.00", "correct": false },
-      { "text": "$480.00", "correct": false }
+      { "text": "Solo los naturales", "correct": false },
+      { "text": "Solo los enteros", "correct": false },
+      { "text": "Naturales, enteros, racionales e irracionales", "correct": true },
+      { "text": "Solo los racionales", "correct": false }
     ],
-    "hint": "Calcula cuánto representa el 20% del precio inicial y réstaselo al valor original.",
-    "explanation": "El 20% de 400 es igual a 80. Al restar el descuento (400 - 80), el monto final a pagar es de $320.00.",
+    "hint": "Los reales incluyen tanto a racionales como irracionales.",
+    "explanation": "El conjunto de los números reales es la unión de racionales e irracionales.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -326,17 +326,17 @@
     "id": "CEP10JX",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Una proporción ______ se presenta cuando al aumentar una cantidad, la otra cantidad disminuye, mientras que en una proporción ______ ambas cantidades aumentan o disminuyen bajo el mismo factor.",
+    "question": "Selecciona la afirmación correcta:",
     "options": [
-      { "text": "inversa, directa", "correct": true },
-      { "text": "directa, inversa", "correct": false },
-      { "text": "compuesta, simple", "correct": false },
-      { "text": "mixta, continua", "correct": false }
+      { "text": "Todo número entero es natural", "correct": false },
+      { "text": "Todo número natural es entero", "correct": true },
+      { "text": "Todo número racional es entero", "correct": false },
+      { "text": "Todo número irracional es racional", "correct": false }
     ],
-    "hint": "En la primera situación actúan en direcciones contrarias, mientras que en la segunda avanzan en la misma dirección.",
-    "explanation": "En una variación proporcional inversa, al subir una variable la otra baja (ej. velocidad y tiempo). En la directa ambas suben (ej. cantidad de productos y costo).",
+    "hint": "Los naturales son un subconjunto de los enteros.",
+    "explanation": "Los números naturales son también enteros (positivos), pero no todos los enteros son naturales.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -345,17 +345,17 @@
     "id": "CEP10JY",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["INTERMEDIO"],
     "tag04": ["TEST"],
-    "question": "Identifica qué pares de fracciones en el siguiente listado son matemáticamente equivalentes entre sí:\n1. $ \\frac{1}{2} $ y $ \\frac{2}{4} $\n2. $ \\frac{3}{4} $ y $ \\frac{6}{8} $\n3. $ \\frac{1}{3} $ y $ \\frac{3}{6} $\n4. $ \\frac{2}{5} $ y $ \\frac{4}{10} $\n5. $ \\frac{3}{5} $ y $ \\frac{5}{3} $",
+    "question": "¿A qué conjunto pertenece el número √(25)?",
     "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false },
-      { "text": "1, 4, 5", "correct": false }
+      { "text": "Solo natural", "correct": false },
+      { "text": "Solo entero", "correct": false },
+      { "text": "Natural, entero y racional", "correct": true },
+      { "text": "Irracional", "correct": false }
     ],
-    "hint": "Al simplificar la segunda fracción de cada par, debe resultar exactamente la misma fracción que la primera.",
-    "explanation": "Los pares 1, 2 y 4 son equivalentes porque al multiplicar el numerador y el denominador por 2, se obtiene la segunda fracción. El par 3 da 1/2 y el par 5 son recíprocas.",
+    "hint": "√25 = 5.",
+    "explanation": "√25 = 5, que es natural, entero y racional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
@@ -364,3836 +364,207 @@
     "id": "CEP10JZ",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
-    "question": "Relaciona la representación de números decimales con el tipo correcto de clasificación:\nA) Decimal exacto\nB) Decimal periódico puro\nC) Decimal periódico mixto\nI. $ 0.333... $\nII. $ 0.25 $\nIII. $ 0.1666... $",
+    "question": "Clasifica correctamente: -√4",
     "options": [
-      { "text": "A-II; B-I; C-III", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false }
+      { "text": "Natural", "correct": false },
+      { "text": "Irracional", "correct": false },
+      { "text": "Entero y racional", "correct": true },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "Un decimal exacto termina. Un periódico puro repite desde el punto. Un periódico mixto tiene números antes de empezar a repetir.",
-    "explanation": "0.25 es exacto pues termina (II). 0.333... repite el 3 inmediatamente (I). 0.1666... tiene un 1 que no se repite antes de la repetición del 6 (III).",
+    "hint": "-√4 = -2.",
+    "explanation": "-√4 = -2, es un número entero y por tanto racional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP10KA",
+    "id": "CEP11AA",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿A qué conjunto pertenece √(-9)?",
+    "options": [
+      { "text": "Real", "correct": false },
+      { "text": "Racional", "correct": false },
+      { "text": "Imaginario", "correct": true },
+      { "text": "Irracional", "correct": false }
+    ],
+    "hint": "Raíz cuadrada de un número negativo.",
+    "explanation": "√(-9) = 3i, es un número imaginario porque no es un número real.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP11AB",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "La expresión √(-16) es un número:",
+    "options": [
+      { "text": "Real", "correct": false },
+      { "text": "Racional", "correct": false },
+      { "text": "Imaginario puro", "correct": true },
+      { "text": "Irracional", "correct": false }
+    ],
+    "hint": "√(-16) = 4√(-1).",
+    "explanation": "√(-16) = 4i, es un número imaginario puro.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP11AC",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "¿Cuál de los siguientes es un número imaginario?",
+    "options": [
+      { "text": "√25", "correct": false },
+      { "text": "√(-4)", "correct": true },
+      { "text": "√8", "correct": false },
+      { "text": "√0", "correct": false }
+    ],
+    "hint": "Busca la raíz cuadrada de un negativo.",
+    "explanation": "√(-4) = 2i, es imaginario. Los demás son reales.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP11AD",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "Selecciona el número complejo que es solo imaginario:",
+    "options": [
+      { "text": "3 + 2i", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "-7i", "correct": true },
+      { "text": "4 + 0i", "correct": false }
+    ],
+    "hint": "Parte real cero.",
+    "explanation": "-7i tiene parte real 0, por lo tanto es un imaginario puro.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP11AE",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
-    "question": "Resuelve de forma correcta la siguiente resta aplicando las leyes de los signos con números enteros: $ (-15) - (-8) $",
+    "question": "¿Cuál de estos números NO es real?",
     "options": [
-      { "text": "-7", "correct": true },
-      { "text": "-23", "correct": false },
+      { "text": "π", "correct": false },
+      { "text": "√(-1)", "correct": true },
+      { "text": "-3", "correct": false },
+      { "text": "2/3", "correct": false }
+    ],
+    "hint": "Recuerda que los imaginarios no están en la recta real.",
+    "explanation": "√(-1) = i, es imaginario, por lo tanto no es un número real.",
+    "image": null,
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP11AF",
+    "tag01": ["UNAM", "IPN", "UAM"],
+    "tag02": ["🧮 MAT ARIT"],
+    "tag03": ["AVANZADO"],
+    "tag04": ["TEST"],
+    "question": "El número √(-49) es equivalente a:",
+    "options": [
       { "text": "7", "correct": false },
-      { "text": "23", "correct": false }
+      { "text": "-7", "correct": false },
+      { "text": "7i", "correct": true },
+      { "text": "-7i", "correct": false }
     ],
-    "hint": "Restar un número negativo es el equivalente exacto a realizar una suma de un número positivo.",
-    "explanation": "Al restar un negativo el signo se invierte a suma: -15 + 8. La diferencia entre 15 y 8 es 7, y como el -15 tiene mayor valor absoluto, el resultado es -7.",
+    "hint": "√(-49) = √49 × √(-1).",
+    "explanation": "√(-49) = 7i, un número imaginario puro positivo.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP10KB",
-    "tag01": ["GENERAL"],
+    "id": "CEP11AG",
+    "tag01": ["UNAM", "IPN", "UAM"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
-    "question": "Si un equipo de 4 albañiles logra construir un muro perimetral en 6 días, ¿cuántos días tardarán 8 albañiles trabajando al mismo ritmo?",
+    "question": "¿Cuál es la clasificación de i^2? (i = √-1)",
     "options": [
-      { "text": "3 días", "correct": true },
-      { "text": "12 días", "correct": false },
-      { "text": "2 días", "correct": false },
-      { "text": "8 días", "correct": false }
+      { "text": "Imaginario", "correct": false },
+      { "text": "Real entero negativo", "correct": true },
+      { "text": "Irracional", "correct": false },
+      { "text": "Complejo no real", "correct": false }
     ],
-    "hint": "Al tener el doble de personal trabajando, el tiempo requerido se reducirá a la mitad.",
-    "explanation": "Es un problema de proporción inversa. Al duplicar el número de trabajadores (de 4 a 8), el tiempo se reduce a la mitad (de 6 a 3 días).",
+    "hint": "i^2 = -1.",
+    "explanation": "i^2 = -1, que es un número entero y real.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP10KC",
+    "id": "CEP11AH",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
-    "question": "Un estudiante universitario camina $ \\frac{3}{4} \\text{ km} $ para llegar a la escuela y luego camina $ \\frac{1}{2} \\text{ km} $ para ir al parque. ¿Cuántos kilómetros caminó en total?",
+    "question": "Clasifica el número e (base del logaritmo natural):",
     "options": [
-      { "text": "$ \\frac{5}{4} \\text{ km} $", "correct": true },
-      { "text": "$ \\frac{4}{6} \\text{ km} $", "correct": false },
-      { "text": "$ \\frac{2}{4} \\text{ km} $", "correct": false },
-      { "text": "$ 1 \\text{ km} $", "correct": false }
+      { "text": "Racional", "correct": false },
+      { "text": "Entero", "correct": false },
+      { "text": "Irracional", "correct": true },
+      { "text": "Imaginario", "correct": false }
     ],
-    "hint": "Convierte la fracción de $ \\frac{1}{2} $ a cuartos para poder sumar con el mismo denominador.",
-    "explanation": "Se debe sumar 3/4 + 1/2. Convirtiendo 1/2 a cuartos se obtiene 2/4. Al sumar 3/4 + 2/4 el resultado es 5/4 de kilómetro.",
+    "hint": "e ≈ 2.71828... no tiene patrón periódico.",
+    "explanation": "e es un número irracional trascendente.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP10KD",
+    "id": "CEP11AI",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
-    "question": "Selecciona las expresiones matemáticas que, al aplicar correctamente la jerarquía de operaciones, den como resultado final el número 14:\n1. $ 2 + 3 \\times 4 $\n2. $ (2 + 3) \\times 4 $\n3. $ 10 + 8 \\div 2 $\n4. $ 20 - 3 \\times 2 $\n5. $ 7 \\times 2 + 0 $",
+    "question": "Selecciona el número que es racional:",
     "options": [
-      { "text": "1, 3, 4, 5", "correct": true },
-      { "text": "2, 3, 4, 5", "correct": false },
-      { "text": "1, 2, 3, 4", "correct": false },
-      { "text": "1, 2, 4, 5", "correct": false }
+      { "text": "√2", "correct": false },
+      { "text": "π", "correct": false },
+      { "text": "0.1010010001...", "correct": false },
+      { "text": "0.999... (periódico)", "correct": true }
     ],
-    "hint": "Recuerda que debes multiplicar o dividir antes de realizar cualquier suma o resta, a menos que existan paréntesis.",
-    "explanation": "La operación 1 da 2+12=14. La 3 da 10+4=14. La 4 da 20-6=14. La 5 da 14+0=14. La operación 2 da 5x4=20, por lo que se descarta.",
+    "hint": "0.999... = 1.",
+    "explanation": "0.999... es igual a 1, por lo tanto es racional.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
   },
   {
-    "id": "CEP10KE",
+    "id": "CEP11AJ",
     "tag01": ["GENERAL"],
     "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al redondear el número decimal 3.456 a las centésimas, el resultado correcto es ______, debido a que el dígito de las milésimas es mayor o igual a ______.",
-    "options": [
-      { "text": "3.46, cinco", "correct": true },
-      { "text": "3.45, seis", "correct": false },
-      { "text": "3.40, cinco", "correct": false },
-      { "text": "3.50, cuatro", "correct": false }
-    ],
-    "hint": "La regla del redondeo indica que si el número que descartas es un cinco o superior, sumas uno a la posición anterior.",
-    "explanation": "Para redondear a centésimas, se evalúa el tercer decimal (milésimas). Como es 6, que es mayor o igual a 5, se suma 1 a la centésima, pasando de 5 a 6.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KF",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona el nombre con el símbolo matemático de agrupación correspondiente:\nA) Paréntesis\nB) Corchetes\nC) Llaves\nI. $ [\\quad] $\nII. $ \\{\\quad\\} $\nIII. $ (\\quad) $",
-    "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
-    ],
-    "hint": "En la jerarquía de operaciones, los paréntesis tienen forma curva, los corchetes son rectos y las llaves tienen contornos puntiagudos.",
-    "explanation": "Los símbolos son: paréntesis curvos (III), corchetes angulares (I) y llaves sinuosas (II).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KG",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el resultado exacto que se obtiene al calcular la potencia de $ 2^4 $?",
-    "options": [
-      { "text": "16", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "32", "correct": false },
-      { "text": "6", "correct": false }
-    ],
-    "hint": "Debes multiplicar el número dos por sí mismo cuatro veces consecutivas.",
-    "explanation": "El exponente 4 indica cuántas veces se multiplica la base: 2 x 2 x 2 x 2 = 16.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KH",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿A qué es equivalente cualquier número real, siempre y cuando sea diferente de cero, que es elevado a la potencia de cero ($ x^0 $)?",
-    "options": [
-      { "text": "1", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "El mismo número base", "correct": false },
-      { "text": "-1", "correct": false }
-    ],
-    "hint": "Esta es una de las reglas de los exponentes; sin importar lo grande que sea la base, el resultado se reduce a la unidad.",
-    "explanation": "Por convención en las propiedades de los exponentes, cualquier número diferente de cero que se eleva a la potencia 0 siempre dará como resultado 1.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KI",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si CEPREDIX dona agua en cajas de 12 botellas y cada botella contiene 0.5 L de agua, ¿cuántos litros de agua hay almacenados en un total de 3 cajas completas?",
-    "options": [
-      { "text": "18 L", "correct": true },
-      { "text": "6 L", "correct": false },
-      { "text": "36 L", "correct": false },
-      { "text": "24 L", "correct": false }
-    ],
-    "hint": "Primero calcula los litros que hay en una sola caja multiplicando las botellas por su capacidad.",
-    "explanation": "Una caja tiene 12 botellas de 0.5 L, por lo que 12 x 0.5 = 6 L por caja. Al ser 3 cajas, se multiplica 6 L x 3 = 18 L.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KJ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Identifica cuáles de los siguientes números de la lista son divisibles exactamente entre 3:\n1. 12\n2. 25\n3. 36\n4. 41\n5. 54",
-    "options": [
-      { "text": "1, 3, 5", "correct": true },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 2, 5", "correct": false },
-      { "text": "3, 4, 5", "correct": false }
-    ],
-    "hint": "El criterio de divisibilidad del tres dice que la suma de todos los dígitos que componen el número debe resultar en un múltiplo de tres.",
-    "explanation": "Para el 12 (1+2=3), para el 36 (3+6=9) y para el 54 (5+4=9), todos sus sumandos dan múltiplos de 3, por lo tanto, son divisibles.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KK",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "La fracción matemática de $ \\frac{5}{5} $ es numéricamente igual a ______, lo que indica que representa matemáticamente un ______ completo.",
-    "options": [
-      { "text": "1, entero", "correct": true },
-      { "text": "0, porcentaje", "correct": false },
-      { "text": "10, decímetro", "correct": false },
-      { "text": "5, total", "correct": false }
-    ],
-    "hint": "Cuando tienes todas las partes en las que fue dividido un objeto, posees el objeto en su totalidad.",
-    "explanation": "Toda fracción donde el numerador y el denominador son exactamente iguales (salvo cero) es equivalente a la unidad (1 entero).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KL",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona el término correspondiente de la potenciación con su correcto significado matemático:\nA) Base\nB) Exponente\nC) Potencia\nI. Número de veces que se repite el factor.\nII. Resultado final de la operación.\nIII. Número que se multiplica por sí mismo.",
-    "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
-    ],
-    "hint": "El exponente siempre está ubicado en la parte superior derecha de la base indicando repeticiones.",
-    "explanation": "La base es el número principal a multiplicar (III). El exponente indica las veces de repetición (I). La potencia es el valor que se obtiene al finalizar (II).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KM",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué número final resulta de resolver correctamente la expresión aritmética $ \\sqrt{81} + 5 $?",
-    "options": [
-      { "text": "14", "correct": true },
-      { "text": "13", "correct": false },
-      { "text": "86", "correct": false },
-      { "text": "9", "correct": false }
-    ],
-    "hint": "Primero encuentra qué número multiplicado exactamente por sí mismo da como resultado ochenta y uno.",
-    "explanation": "Se debe aplicar jerarquía de operaciones: primero calcular la raíz cuadrada de 81 que es igual a 9, y luego sumar el número 5, obteniendo 14.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KN",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si el precio de venta de una guía de estudio de CEPREDIX es de $250.00 y se le debe aplicar un impuesto del 16%, ¿de cuánto es el monto adicional del impuesto a pagar?",
-    "options": [
-      { "text": "$40.00", "correct": true },
-      { "text": "$16.00", "correct": false },
-      { "text": "$45.00", "correct": false },
-      { "text": "$290.00", "correct": false }
-    ],
-    "hint": "Solo debes calcular el valor que representa el 16% respecto a 250, multiplicando 250 por 0.16.",
-    "explanation": "Para sacar el impuesto del 16%, se multiplica el monto (250) por el decimal equivalente (0.16). 250 x 0.16 = $40.00.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KO",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "En una sucesión aritmética sencilla que avanza a un ritmo constante de 4 en 4, si el primer término de la serie es el 3, ¿cuál será el cuarto término de esta sucesión?",
-    "options": [
-      { "text": "15", "correct": true },
-      { "text": "19", "correct": false },
-      { "text": "11", "correct": false },
-      { "text": "12", "correct": false }
-    ],
-    "hint": "Escribe los términos uno por uno sumando 4 cada vez, empezando desde el número 3.",
-    "explanation": "El primer término es 3. El segundo término es 3+4=7. El tercer término es 7+4=11. El cuarto término es 11+4=15.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KP",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Identifica en la siguiente lista cuáles son los factores primos en los que se puede descomponer matemáticamente el número 30:\n1. 2\n2. 3\n3. 4\n4. 5\n5. 6",
-    "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 2, 5", "correct": false }
-    ],
-    "hint": "Debes buscar los números que sean primos y que al multiplicarse todos ellos te den como producto el número treinta.",
-    "explanation": "Al descomponer 30 en factores primos obtenemos: 30 = 2 x 15; luego 15 = 3 x 5. Por lo tanto, los factores primos son 2, 3 y 5.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KQ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al momento de realizar operaciones matemáticas combinadas, si existen símbolos de agrupación anidados uno dentro del otro, se deben resolver siempre desde los más ______ hacia los más ______.",
-    "options": [
-      { "text": "interiores, exteriores", "correct": true },
-      { "text": "exteriores, interiores", "correct": false },
-      { "text": "grandes, pequeños", "correct": false },
-      { "text": "comunes, extraños", "correct": false }
-    ],
-    "hint": "Imagina abrir una serie de cajas metidas unas dentro de otras; para despejar la más grande, primero debes vaciar la más profunda.",
-    "explanation": "La regla matemática de agrupación indica que las operaciones deben ser resueltas de adentro hacia afuera, iniciando con los paréntesis interiores.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KR",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona de manera correcta las siguientes operaciones de números enteros con el signo de su resultado según las leyes de signos:\nA) Multiplicar negativo por positivo\nB) Dividir negativo entre negativo\nC) Sumar dos números negativos\nI. Resultado estrictamente positivo\nII. Resultado estrictamente negativo\nIII. Se conserva el signo negativo tras sumar valores absolutos",
-    "options": [
-      { "text": "A-II; B-I; C-III", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false }
-    ],
-    "hint": "Multiplicar y dividir siguen reglas casi idénticas en relación a si los signos son opuestos o no, mientras que la suma acumula.",
-    "explanation": "Menos por más es menos (II). Menos entre menos es más (I). Sumar deudas resulta en una deuda más grande, se mantiene negativo (III).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si la temperatura reportada en una ciudad desciende constantemente a razón de $ 3^\\circ \\text{C} $ por hora, y actualmente marca en el termómetro un valor de $ 5^\\circ \\text{C} $, ¿cuál será la temperatura exacta después de haber transcurrido 4 horas completas?",
-    "options": [
-      { "text": "$ -7^\\circ \\text{C} $", "correct": true },
-      { "text": "$ 17^\\circ \\text{C} $", "correct": false },
-      { "text": "$ -12^\\circ \\text{C} $", "correct": false },
-      { "text": "$ -2^\\circ \\text{C} $", "correct": false }
-    ],
-    "hint": "Calcula primero la cantidad total de grados que va a descender en ese lapso de horas y luego réstaselo a la medición inicial.",
-    "explanation": "El descenso total será de 3 x 4 = 12 grados. Como la temperatura inicial era 5, restamos los 12 grados del descenso (5 - 12 = -7).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KT",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Un empleado administrativo de CEPREDIX se encuentra organizando manuales. Si en total tiene 150 manuales en inventario y empaca $ \\frac{1}{3} $ del lote en la primera caja, ¿cuántos manuales le quedan físicamente pendientes por empacar?",
-    "options": [
-      { "text": "100", "correct": true },
-      { "text": "50", "correct": false },
-      { "text": "120", "correct": false },
-      { "text": "130", "correct": false }
-    ],
-    "hint": "Encuentra cuánto representa una tercera parte de la cantidad total, y descuéntasela a esos mismos manuales iniciales.",
-    "explanation": "Un tercio de 150 equivale a 50 manuales (150 / 3). Al restar los manuales empacados a la cantidad inicial (150 - 50), le quedan 100 manuales pendientes.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KU",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el resultado matemático correcto de la siguiente expresión: $ 20 - 5 \\times 3 $?",
-    "options": [
-      { "text": "5", "correct": true },
-      { "text": "45", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "10", "correct": false }
-    ],
-    "hint": "Recuerda que la multiplicación tiene mayor prioridad que la resta en la jerarquía de operaciones.",
-    "explanation": "Primero se realiza la multiplicación: $ 5 \\times 3 = 15 $, y luego se resta del valor inicial: $ 20 - 15 = 5 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KV",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Calcula el valor correcto de la siguiente operación matemática considerando los signos de agrupación: $ (8 + 4) \\div 3 $",
-    "options": [
-      { "text": "4", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "3", "correct": false }
-    ],
-    "hint": "Los paréntesis siempre deben resolverse primero sin importar qué operación haya por fuera de ellos.",
-    "explanation": "Primero sumamos los números dentro del paréntesis: $ 8 + 4 = 12 $. Finalmente, dividimos ese resultado entre tres: $ 12 \\div 3 = 4 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KW",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Resuelve la siguiente operación aplicando la jerarquía correcta de las matemáticas: $ 4^2 - 2 \\times 5 $",
-    "options": [
-      { "text": "6", "correct": true },
-      { "text": "14", "correct": false },
-      { "text": "70", "correct": false },
-      { "text": "3", "correct": false }
-    ],
-    "hint": "Primero calcula la potencia, después resuelve la multiplicación y al final realiza la resta.",
-    "explanation": "Aplicando jerarquía: $ 4^2 = 16 $. Luego la multiplicación: $ 2 \\times 5 = 10 $. Finalmente, restamos ambos resultados: $ 16 - 10 = 6 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KX",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué resultado numérico entero se obtiene de realizar la operación $ 2 \\times (10 - 3) + 4 $?",
-    "options": [
-      { "text": "18", "correct": true },
-      { "text": "22", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "26", "correct": false }
-    ],
-    "hint": "Resuelve el paréntesis, luego multiplica por el dos que está afuera y al final suma el cuatro.",
-    "explanation": "Resolvemos el paréntesis: $ 10 - 3 = 7 $. Multiplicamos: $ 2 \\times 7 = 14 $. Finalmente, sumamos el resto: $ 14 + 4 = 18 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KY",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Identifica las operaciones que, al resolverse respetando la jerarquía, dan como resultado final el número 10:\n1. $ 5 + 5 \\times 1 $\n2. $ (2 + 3) \\times 2 $\n3. $ 20 - 2 \\times 6 $\n4. $ 14 \\div 2 + 1 $\n5. $ 4 \\times 3 - 2 $",
-    "options": [
-      { "text": "1, 2, 5", "correct": true },
-      { "text": "2, 3, 4", "correct": false },
-      { "text": "1, 3, 5", "correct": false },
-      { "text": "2, 4, 5", "correct": false }
-    ],
-    "hint": "Resuelve mentalmente cada inciso multiplicando y dividiendo antes de sumar y restar, a menos que existan paréntesis.",
-    "explanation": "La operación 1 da $ 5+5=10 $. La 2 da $ 5 \\times 2 = 10 $. La 5 da $ 12-2 = 10 $. Las opciones 3 y 4 dan como resultado 8.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10KZ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona la ley de los exponentes con la operación matemática que le corresponde según las reglas del álgebra:\nA) Multiplicación de bases iguales\nB) División de bases iguales\nC) Potencia de una potencia\nI. Se restan los exponentes\nII. Se multiplican los exponentes\nIII. Se suman los exponentes",
-    "options": [
-      { "text": "A-III; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
-    ],
-    "hint": "Piensa en que multiplicar bases las 'agrupa' sumándolas, dividir las 'reduce' restándolas, y elevar otra vez las multiplica.",
-    "explanation": "Al multiplicar bases iguales, los exponentes se suman (III). Al dividirlas, se restan (I). En la potencia de una potencia, se multiplican (II).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LA",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el resultado en número entero de aplicar correctamente las leyes de los exponentes a $ 3^2 \\times 3^1 $?",
-    "options": [
-      { "text": "27", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "81", "correct": false },
-      { "text": "6", "correct": false }
-    ],
-    "hint": "Al multiplicar bases iguales, los exponentes se suman. Luego calcula la potencia de la base.",
-    "explanation": "Misma base sumando exponentes: $ 3^{2+1} = 3^3 $. Al calcular $ 3 \\times 3 \\times 3 $ obtenemos el número 27.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LB",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Calcula el valor exacto de la siguiente expresión usando de forma directa las leyes de exponentes: $ \\frac{4^3}{4^2} $",
-    "options": [
-      { "text": "4", "correct": true },
-      { "text": "16", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "64", "correct": false }
-    ],
-    "hint": "En una división de bases iguales, el exponente del divisor se le resta al exponente del dividendo.",
-    "explanation": "Al tener la misma base, restamos los exponentes: $ 4^{3-2} = 4^1 $. Cualquier número elevado a la 1 es el mismo número, es decir, 4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LC",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Aplica la ley de 'potencia de una potencia' y calcula el resultado numérico entero de $ (2^2)^2 $.",
-    "options": [
-      { "text": "16", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "32", "correct": false }
-    ],
-    "hint": "Cuando una potencia está elevada a otra potencia externa, ambos exponentes deben multiplicarse.",
-    "explanation": "Al multiplicar los exponentes: $ 2^{2 \\times 2} = 2^4 $. El resultado numérico de $ 2 \\times 2 \\times 2 \\times 2 $ es igual a 16.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LD",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Para multiplicar matemáticamente dos potencias que comparten la misma base, la base se ______ y los exponentes se ______.",
-    "options": [
-      { "text": "mantiene, suman", "correct": true },
-      { "text": "altera, multiplican", "correct": false },
-      { "text": "elimina, restan", "correct": false },
-      { "text": "mantiene, multiplican", "correct": false }
-    ],
-    "hint": "Al agrupar dos bases iguales, la base no sufre cambios; en cambio, el número que representa cuántas veces se multiplica incrementa.",
-    "explanation": "La ley de los exponentes indica que en la multiplicación de la misma base ($ a^m \\times a^n $), la base se mantiene y los exponentes se suman ($ a^{m+n} $).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LE",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "En una papelería, 2 kilogramos de papel reciclado tienen un costo total de $40. ¿Cuánto costarán 5 kilogramos de ese mismo papel reciclado?",
-    "options": [
-      { "text": "$100", "correct": true },
-      { "text": "$80", "correct": false },
-      { "text": "$200", "correct": false },
-      { "text": "$120", "correct": false }
-    ],
-    "hint": "Es un problema de proporción directa. Encuentra el costo de un solo kilogramo y luego multiplícalo por cinco.",
-    "explanation": "Primero determinamos que 1 kg cuesta $40 / 2 = $20. Por lo tanto, 5 kg costarán 5 veces esa cantidad: 5 \\times $20 = $100.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LF",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si 4 paquetes de marcadores de pizarra contienen un total de 12 unidades, ¿cuántas unidades habrá exactamente en 7 paquetes iguales?",
-    "options": [
-      { "text": "21", "correct": true },
-      { "text": "28", "correct": false },
-      { "text": "19", "correct": false },
-      { "text": "24", "correct": false }
-    ],
-    "hint": "Se trata de una regla de tres simple directa. Calcula rápidamente cuántos marcadores contiene un solo paquete.",
-    "explanation": "Cada paquete contiene 12 / 4 = 3 marcadores. Entonces, al comprar 7 paquetes, se tendrán 7 \\times 3 = 21 marcadores en total.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LG",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Un equipo de 2 bombas de extracción de agua tarda 12 horas en vaciar una cisterna. Si se utiliza un total de 3 bombas iguales, ¿en cuántas horas se vaciará la cisterna?",
-    "options": [
-      { "text": "8 horas", "correct": true },
-      { "text": "18 horas", "correct": false },
-      { "text": "4 horas", "correct": false },
-      { "text": "6 horas", "correct": false }
-    ],
-    "hint": "A mayor número de bombas funcionando, menor será el tiempo necesario para terminar el trabajo. Aplica proporción inversa.",
-    "explanation": "En la proporción inversa, multiplicamos las variables originales: 2 bombas \\times 12 horas = 24 horas de trabajo total. Luego dividimos: 24 / 3 bombas = 8 horas.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LH",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si 5 trabajadores de mantenimiento logran pintar un edificio escolar completo en 10 días, ¿cuántos días tardarán 10 trabajadores laborando al mismo ritmo?",
-    "options": [
-      { "text": "5 días", "correct": true },
-      { "text": "20 días", "correct": false },
-      { "text": "15 días", "correct": false },
-      { "text": "2 días", "correct": false }
-    ],
-    "hint": "Al tener exactamente el doble de personal trabajando, el tiempo necesario para la obra se reduce exactamente a la mitad.",
-    "explanation": "Es proporción inversa: 5 trabajadores \\times 10 días = 50 días-hombre. Al dividirlo entre los 10 trabajadores nuevos: 50 / 10 = 5 días.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LI",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Resuelve la siguiente ecuación sencilla de primer grado y encuentra el valor numérico de $ x $: $ x + 12 = 30 $",
-    "options": [
-      { "text": "$ x = 18 $", "correct": true },
-      { "text": "$ x = 42 $", "correct": false },
-      { "text": "$ x = 15 $", "correct": false },
-      { "text": "$ x = 22 $", "correct": false }
-    ],
-    "hint": "Para dejar sola a la incógnita, debes aplicar la operación inversa de la suma en ambos lados de la igualdad.",
-    "explanation": "Para despejar $ x $, restamos 12 a ambos lados de la ecuación: $ x = 30 - 12 $, lo que nos da como resultado final $ x = 18 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LJ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Determina el valor matemático correcto de la incógnita $ y $ en la ecuación básica: $ y - 8 = 15 $",
-    "options": [
-      { "text": "$ y = 23 $", "correct": true },
-      { "text": "$ y = 7 $", "correct": false },
-      { "text": "$ y = 17 $", "correct": false },
-      { "text": "$ y = 120 $", "correct": false }
-    ],
-    "hint": "Si el número 8 está restando a la incógnita original, debes pasarlo del otro lado de la igualdad realizando una suma.",
-    "explanation": "Sumamos 8 en ambos lados de la igualdad para aislar a la variable: $ y = 15 + 8 $, obteniendo como respuesta $ y = 23 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LK",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Encuentra el valor exacto de la incógnita $ m $ que hace verdadera la siguiente igualdad: $ 6m = 42 $",
-    "options": [
-      { "text": "$ m = 7 $", "correct": true },
-      { "text": "$ m = 36 $", "correct": false },
-      { "text": "$ m = 8 $", "correct": false },
-      { "text": "$ m = 48 $", "correct": false }
-    ],
-    "hint": "El número 6 se encuentra multiplicando a la variable, por lo que debes realizar la operación aritmética contraria del otro lado.",
-    "explanation": "Dividimos ambos lados de la ecuación entre 6 para despejar la incógnita: $ m = 42 \\div 6 $, por lo que el resultado es $ m = 7 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LL",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Despeja correctamente el valor de $ k $ en la siguiente expresión matemática lineal: $ \\frac{k}{3} = 9 $",
-    "options": [
-      { "text": "$ k = 27 $", "correct": true },
-      { "text": "$ k = 3 $", "correct": false },
-      { "text": "$ k = 12 $", "correct": false },
-      { "text": "$ k = 6 $", "correct": false }
-    ],
-    "hint": "La variable se encuentra siendo dividida por tres; por lo tanto, utiliza la multiplicación para poder despejarla.",
-    "explanation": "Multiplicamos ambos lados de la ecuación por el número 3: $ k = 9 \\times 3 $, lo que resulta finalmente en $ k = 27 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LM",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Resuelve la siguiente ecuación de dos pasos de forma ordenada: $ 2x + 5 = 15 $",
-    "options": [
-      { "text": "$ x = 5 $", "correct": true },
-      { "text": "$ x = 10 $", "correct": false },
-      { "text": "$ x = 20 $", "correct": false },
-      { "text": "$ x = 2.5 $", "correct": false }
-    ],
-    "hint": "Primero debes eliminar la suma restando 5 en ambos lados, y posteriormente deshacer la multiplicación dividiendo entre 2.",
-    "explanation": "Restamos 5: $ 2x = 15 - 5 \\Rightarrow 2x = 10 $. Finalmente, dividimos el resultado entre 2: $ x = 10 \\div 2 = 5 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LN",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Calcula el valor que satisface a la incógnita $ y $ en la siguiente ecuación matemática: $ 3y - 4 = 11 $",
-    "options": [
-      { "text": "$ y = 5 $", "correct": true },
-      { "text": "$ y = 15 $", "correct": false },
-      { "text": "$ y = 7 $", "correct": false },
-      { "text": "$ y = 2.3 $", "correct": false }
-    ],
-    "hint": "Aplica las operaciones inversas: suma 4 a ambos lados de la igualdad y después divide el resultado obtenido entre 3.",
-    "explanation": "Sumamos 4 a ambos lados: $ 3y = 11 + 4 \\Rightarrow 3y = 15 $. Luego, despejamos la variable dividiendo entre 3: $ y = 15 \\div 3 = 5 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LO",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al despejar una incógnita en una ecuación, si un número o término está sumando pasa del otro lado de la igualdad ______, y si está multiplicando pasa ______.",
-    "options": [
-      { "text": "restando, dividiendo", "correct": true },
-      { "text": "dividiendo, restando", "correct": false },
-      { "text": "multiplicando, sumando", "correct": false },
-      { "text": "sumando, multiplicando", "correct": false }
-    ],
-    "hint": "Todo término que cruza el signo de igual debe cambiar invariablemente a su operación matemática opuesta.",
-    "explanation": "Las operaciones inversas son fundamentales para despejar variables: la inversa de sumar es restar, y la inversa de multiplicar es dividir.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LP",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona cada ecuación matemática de primer grado con su solución correcta:\nA) $ x + 3 = 10 $\nB) $ 2x = 12 $\nC) $ \\frac{x}{2} = 5 $\nI. $ x = 10 $\nII. $ x = 7 $\nIII. $ x = 6 $",
-    "options": [
-      { "text": "A-II; B-III; C-I", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-III; B-I; C-II", "correct": false },
-      { "text": "A-II; B-I; C-III", "correct": false }
-    ],
-    "hint": "Resuelve mentalmente cada inciso: a diez le quitas tres, a doce lo partes en dos y a cinco lo multiplicas por dos.",
-    "explanation": "Para la opción A: $ x = 10 - 3 = 7 $ (II). Para la opción B: $ x = 12 \\div 2 = 6 $ (III). Para la opción C: $ x = 5 \\times 2 = 10 $ (I).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LQ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al respetar estrictamente la jerarquía de operaciones matemáticas, ¿cuál es el resultado final de $ 15 \\div 3 + 2 \\times 4 $?",
-    "options": [
-      { "text": "13", "correct": true },
-      { "text": "28", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "22", "correct": false }
-    ],
-    "hint": "Ejecuta primero las multiplicaciones y las divisiones al mismo tiempo, y deja la suma en el centro para el paso final.",
-    "explanation": "Siguiendo la jerarquía: $ 15 \\div 3 = 5 $ y $ 2 \\times 4 = 8 $. Sumando ambos resultados obtenidos: $ 5 + 8 = 13 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LR",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Resuelve la siguiente expresión considerando los paréntesis y las operaciones combinadas: $ 30 - (5 + 2 \\times 3) $",
-    "options": [
-      { "text": "19", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "21", "correct": false },
-      { "text": "11", "correct": false }
-    ],
-    "hint": "Dentro del paréntesis también se debe aplicar rigurosamente la jerarquía; asegúrate de multiplicar antes de sumar.",
-    "explanation": "Dentro del paréntesis se multiplica primero: $ 2 \\times 3 = 6 $. Luego se suma: $ 5 + 6 = 11 $. Finalmente, a 30 se le resta el paréntesis: $ 30 - 11 = 19 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Haciendo uso de las propiedades de los exponentes, ¿cuál es el valor equivalente en número entero de $ 10^5 \\div 10^3 $?",
-    "options": [
-      { "text": "100", "correct": true },
-      { "text": "1000", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "20", "correct": false }
-    ],
-    "hint": "En la división con la misma base, réstale el exponente de abajo al exponente de arriba y resuelve esa potencia simple de base diez.",
-    "explanation": "Aplicando la ley de exponentes restamos $ 5 - 3 = 2 $. Esto nos deja $ 10^2 $, lo cual equivale a multiplicar $ 10 \\times 10 = 100 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LT",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué resultado numérico entero se obtiene correctamente al efectuar la operación aritmética $ 5^0 \\times 8 $?",
-    "options": [
-      { "text": "8", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "40", "correct": false },
-      { "text": "5", "correct": false }
-    ],
-    "hint": "Todo número entero (exceptuando de la regla al cero) elevado a la potencia cero es matemáticamente igual a la unidad.",
-    "explanation": "Según la regla de los exponentes, la potencia de $ 5^0 $ se convierte en 1. Luego, se realiza la multiplicación ordinaria: $ 1 \\times 8 = 8 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LU",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Un automóvil viaja a velocidad constante y logra recorrer 150 km en 3 horas. Si mantiene siempre la misma velocidad, ¿cuántos kilómetros recorrerá tras 5 horas de viaje?",
-    "options": [
-      { "text": "250 km", "correct": true },
-      { "text": "300 km", "correct": false },
-      { "text": "200 km", "correct": false },
-      { "text": "180 km", "correct": false }
-    ],
-    "hint": "Aplica una proporción directa. Divide para encontrar cuántos kilómetros se recorren en una sola hora y luego multiplícalo por el nuevo tiempo dado.",
-    "explanation": "El coche recorre $ 150 \\div 3 = 50 \\text{ km/h} $. Mantuviendo ese mismo ritmo constante en 5 horas, recorrerá $ 50 \\times 5 = 250 \\text{ km} $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LV",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si un total de 6 grifos iguales abiertos logran llenar un tanque de agua en 4 horas, ¿cuánto tiempo tardarían únicamente 3 grifos en llenar ese mismo tanque?",
-    "options": [
-      { "text": "8 horas", "correct": true },
-      { "text": "2 horas", "correct": false },
-      { "text": "12 horas", "correct": false },
-      { "text": "6 horas", "correct": false }
-    ],
-    "hint": "Es una proporción inversa, ya que al tener exactamente la mitad de los grifos funcionando, el tiempo que tomará llenarlo se duplicará.",
-    "explanation": "Multiplicando la capacidad inicial: $ 6 \\times 4 = 24 \\text{ horas-grifo} $. Al usar solamente 3 grifos, tardarán $ 24 \\div 3 = 8 \\text{ horas} $ en llenar el tanque.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LW",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Encuentra el valor exacto de la incógnita $ a $ resolviendo los pasos necesarios en la siguiente ecuación: $ 4a + 2 = 18 $",
-    "options": [
-      { "text": "$ a = 4 $", "correct": true },
-      { "text": "$ a = 5 $", "correct": false },
-      { "text": "$ a = 16 $", "correct": false },
-      { "text": "$ a = 3 $", "correct": false }
-    ],
-    "hint": "Despeja el término con la incógnita restando primeramente 2 en ambos lados de la igualdad, y luego divide el resultado obtenido entre 4.",
-    "explanation": "Restamos 2 a ambos lados: $ 4a = 18 - 2 \\Rightarrow 4a = 16 $. Luego dividimos la ecuación entre 4 para obtener $ a = 16 \\div 4 = 4 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LX",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el valor algebraico que satisface correctamente a la ecuación matemática $ \\frac{x}{2} + 3 = 10 $?",
-    "options": [
-      { "text": "$ x = 14 $", "correct": true },
-      { "text": "$ x = 7 $", "correct": false },
-      { "text": "$ x = 20 $", "correct": false },
-      { "text": "$ x = 26 $", "correct": false }
-    ],
-    "hint": "Primero debes aislar completamente la fracción restando 3 de ambos lados, y posteriormente aplicar una multiplicación para despejar a la $ x $.",
-    "explanation": "Restamos 3 en ambos miembros: $ \\frac{x}{2} = 10 - 3 \\Rightarrow \\frac{x}{2} = 7 $. Para eliminar la división, multiplicamos por 2 resultando $ x = 7 \\times 2 = 14 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LY",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Identifica en la siguiente lista cuáles ecuaciones matemáticas tienen como solución final y correcta el valor de $ x = 5 $:\n1. $ x + 5 = 10 $\n2. $ 3x = 15 $\n3. $ 2x - 1 = 8 $\n4. $ \\frac{x}{5} = 1 $\n5. $ 4x + 2 = 20 $",
-    "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 4, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false }
-    ],
-    "hint": "Sustituye mentalmente el número 5 en lugar de la variable $ x $ en cada una de las ecuaciones y verifica si el resultado en la igualdad es cierto.",
-    "explanation": "La opción 1 es correcta (5+5=10). La 2 es correcta (3*5=15). La 3 es falsa (2*5-1=9). La 4 es correcta (5/5=1). La 5 es falsa (4*5+2=22).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10LZ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Si en un problema matemático comprobamos que al duplicarse una cantidad inicial, la otra cantidad involucrada también se ______, entonces afirmamos que se trata de una proporción ______.",
-    "options": [
-      { "text": "duplica, directa", "correct": true },
-      { "text": "reduce a la mitad, directa", "correct": false },
-      { "text": "duplica, inversa", "correct": false },
-      { "text": "triplica, inversa", "correct": false }
-    ],
-    "hint": "En las proporciones donde ambas cantidades viajan en la misma dirección sin importar que aumenten o disminuyan juntas, existe una relación directa.",
-    "explanation": "Una variación directamente proporcional indica que, al modificar por un factor una de sus cantidades (por ejemplo, al duplicarla), la otra sufre idéntica modificación (también se duplica).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MA",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "En la estructura de la expresión matemática $ 7^3 $, el número principal o grande 7 recibe el nombre técnico de ______ y el número pequeño 3 se conoce formalmente como ______.",
-    "options": [
-      { "text": "base, exponente", "correct": true },
-      { "text": "exponente, base", "correct": false },
-      { "text": "factor, potencia", "correct": false },
-      { "text": "múltiplo, índice", "correct": false }
-    ],
-    "hint": "El número inferior es el cimiento o soporte de la expresión matemática, mientras que el número en superíndice dicta cuántas veces se repetirá.",
-    "explanation": "En las potencias, el número grande a multiplicar por sí mismo se llama base, y el número pequeño en la parte superior se llama exponente.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MB",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Traduce correctamente la siguiente frase de lenguaje común a lenguaje algebraico y resuélvela: 'El doble de un número más tres es igual a once'. ¿Cuál es el número oculto?",
-    "options": [
-      { "text": "$ x = 4 $", "correct": true },
-      { "text": "$ x = 7 $", "correct": false },
-      { "text": "$ x = 2 $", "correct": false },
-      { "text": "$ x = 8 $", "correct": false }
-    ],
-    "hint": "La frase 'El doble de un número' se puede escribir de forma algebraica como $ 2x $. Por lo tanto, tu ecuación se formula como $ 2x + 3 = 11 $.",
-    "explanation": "La ecuación lineal descrita es $ 2x + 3 = 11 $. Restando el número 3 a ambos lados obtenemos $ 2x = 8 $. Finalmente, dividiendo entre 2 encontramos que $ x = 4 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MC",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Descifra y encuentra el número oculto mencionado en la siguiente descripción matemática: 'El triple de un número desconocido menos dos da como resultado exacto trece'.",
-    "options": [
-      { "text": "$ x = 5 $", "correct": true },
-      { "text": "$ x = 3 $", "correct": false },
-      { "text": "$ x = 6 $", "correct": false },
-      { "text": "$ x = 4 $", "correct": false }
-    ],
-    "hint": "Formula la ecuación lineal correctamente en tu mente como $ 3x - 2 = 13 $ y aplica los pasos estándar de despeje para la variable.",
-    "explanation": "Al convertir el enunciado a lenguaje algebraico obtenemos $ 3x - 2 = 13 $. Sumando dos: $ 3x = 15 $. Dividiendo el total entre tres: $ x = 5 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MD",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Relaciona cada ejemplo de la vida real con el tipo de proporción que representa de manera matemática:\nA) Proporción directa\nB) Proporción inversa\nC) Sin proporción clara\nI. Velocidad a la que viaja un coche y el tiempo requerido en llegar a su destino.\nII. Kilogramos de tortillas comprados y el costo total a pagar en caja.\nIII. La edad de una persona y su número personal de la suerte.",
-    "options": [
-      { "text": "A-II; B-I; C-III", "correct": true },
-      { "text": "A-I; B-II; C-III", "correct": false },
-      { "text": "A-II; B-III; C-I", "correct": false },
-      { "text": "A-III; B-II; C-I", "correct": false }
-    ],
-    "hint": "Piensa en variables que interactúan entre sí. Si compras más pagas más; si vas más rápido, tardas menos tiempo de viaje.",
-    "explanation": "Las tortillas y el costo crecen juntos (directa, II). La velocidad incrementada acorta el tiempo de viaje (inversa, I). La edad y la suerte no guardan relación (sin proporción, III).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10ME",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Resuelve la siguiente expresión aritmética respetando estrictamente las reglas de jerarquía enseñadas: $ 2^3 + 4^2 \\div 2 $",
-    "options": [
-      { "text": "16", "correct": true },
-      { "text": "12", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "24", "correct": false }
-    ],
-    "hint": "Resuelve ambas potencias aisladas al mismo tiempo como primer paso, posteriormente efectúa la división y siempre concluye resolviendo la suma final.",
-    "explanation": "Elevamos las potencias: $ 2^3 = 8 $ y $ 4^2 = 16 $. La expresión queda como $ 8 + 16 \\div 2 $. Ejecutamos primero la división: $ 16 \\div 2 = 8 $. Por último, sumamos $ 8 + 8 = 16 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MF",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Selecciona de la siguiente lista de ecuaciones lineales aquellas cuya solución matemática final y correcta sea exactamente $ x = 3 $:\n1. $ 2x + 4 = 10 $\n2. $ 5x - 5 = 10 $\n3. $ 3x + 1 = 9 $\n4. $ \\frac{x}{3} + 2 = 3 $\n5. $ 4x - 2 = 12 $",
-    "options": [
-      { "text": "1, 2, 4", "correct": true },
-      { "text": "2, 3, 5", "correct": false },
-      { "text": "1, 3, 4", "correct": false },
-      { "text": "1, 4, 5", "correct": false }
-    ],
-    "hint": "Intenta sustituir mentalmente el valor de $ x = 3 $ directamente en cada una de las ecuaciones provistas para agilizar el proceso y comprobar las igualdades.",
-    "explanation": "La opción 1 es correcta (2*3+4=10). La 2 es correcta (5*3-5=10). La 3 es falsa (3*3+1=10, no 9). La 4 es correcta (3/3+2=3). La 5 es falsa (4*3-2=10, no 12).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MG",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Determina el valor matemático correcto de la incógnita $ x $ para lograr que la siguiente igualdad se cumpla: $ 3x = x + 8 $",
-    "options": [
-      { "text": "$ x = 4 $", "correct": true },
-      { "text": "$ x = 8 $", "correct": false },
-      { "text": "$ x = 2 $", "correct": false },
-      { "text": "$ x = -4 $", "correct": false }
-    ],
-    "hint": "Agrupa primeramente todos los términos que incluyen la letra $ x $ en un mismo lado de la igualdad, para ello debes restar una $ x $ en ambos lados.",
-    "explanation": "Para agrupar la incógnita, restamos $ x $ de ambos lados: $ 3x - x = 8 \\Rightarrow 2x = 8 $. Por último, dividimos la igualdad resultante entre dos: $ x = 4 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MH",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el valor exacto que logra despejar de manera correcta a $ x $ en la siguiente ecuación lineal: $ 5x - 2 = 2x + 10 $?",
-    "options": [
-      { "text": "$ x = 4 $", "correct": true },
-      { "text": "$ x = 2 $", "correct": false },
-      { "text": "$ x = 12 $", "correct": false },
-      { "text": "$ x = 6 $", "correct": false }
-    ],
-    "hint": "Intenta agrupar los términos con $ x $ del lado izquierdo restando $ 2x $, y posteriormente pasa los números fijos hacia el lado derecho sumando 2.",
-    "explanation": "Restando $ 2x $ a ambos miembros obtenemos: $ 3x - 2 = 10 $. Luego, sumando 2 en ambos miembros agrupamos constantes: $ 3x = 12 $. Dividiendo entre tres resulta $ x = 4 $.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MI",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de los siguientes números es racional?",
-    "options": [
-      { "text": "\\( \\frac{\\sqrt{2}}{2} \\)", "correct": false },
-      { "text": "\\( \\sqrt{5} \\)", "correct": false },
-      { "text": "\\( \\frac{\\pi}{2} \\)", "correct": false },
-      { "text": "\\( \\frac{4}{5} \\)", "correct": true }
-    ],
-    "hint": "Recuerda que los números racionales son aquellos que pueden escribirse como cociente de dos números enteros.",
-    "explanation": "\\(\\frac{4}{5}\\) es un cociente de enteros. Las otras opciones involucran raíces no exactas o \\(\\pi\\), que son irracionales.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MJ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
+    "tag03": ["AVANZADO"],
     "tag04": ["TEST"],
     "question": "¿Cuál de los siguientes números es irracional?",
     "options": [
-      { "text": "\\( \\sqrt{9} \\)", "correct": false },
-      { "text": "\\( \\frac{3}{2} \\)", "correct": false },
-      { "text": "\\( \\frac{\\pi}{3} \\)", "correct": true },
-      { "text": "\\( \\sqrt[3]{8} \\)", "correct": false }
-    ],
-    "hint": "Un número irracional no puede expresarse como fracción exacta.",
-    "explanation": "\\(\\frac{\\pi}{3}\\) sigue siendo irracional porque \\(\\pi\\) lo es. Las otras opciones son números racionales: \\(\\sqrt{9}=3\\), \\(\\frac{3}{2}\\) y \\(\\sqrt[3]{8}=2\\).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MK",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de los siguientes números es entero?",
-    "options": [
-      { "text": "\\( -0.8 \\)", "correct": false },
-      { "text": "\\( \\pi \\)", "correct": false },
-      { "text": "\\( \\sqrt{4} \\)", "correct": true },
-      { "text": "\\( \\sqrt{3} \\)", "correct": false }
-    ],
-    "hint": "Los números enteros son ... , -2, -1, 0, 1, 2, ...",
-    "explanation": "\\(\\sqrt{4} = 2\\), que es un número entero. Las demás opciones son decimales o irracionales.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10ML",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de los siguientes números es natural?",
-    "options": [
-      { "text": "\\( \\frac{3}{2} \\)", "correct": false },
-      { "text": "\\( 4 \\)", "correct": true },
-      { "text": "\\( \\frac{\\pi}{3} \\)", "correct": false },
-      { "text": "\\( \\sqrt[3]{8} \\)", "correct": false }
-    ],
-    "hint": "Los números naturales son los que usamos para contar: 1, 2, 3, ...",
-    "explanation": "4 es un número natural. \\(\\frac{3}{2}\\) es fraccionario, \\(\\frac{\\pi}{3}\\) es irracional y \\(\\sqrt[3]{8}=2\\) es entero pero la respuesta correcta es 4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MM",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿En cuál de las siguientes expresiones está representada la propiedad distributiva?",
-    "options": [
-      { "text": "\\( 7 + (3 + 5) = (7 + 3) + 5 \\)", "correct": false },
-      { "text": "\\( 8 + 5 = 5 + 8 \\)", "correct": false },
-      { "text": "\\( 5(2 + 7) = 5 \\cdot 2 + 5 \\cdot 7 \\)", "correct": true },
-      { "text": "\\( 8(2 \\cdot 4) = (8 \\cdot 2) \\cdot 4 \\)", "correct": false }
-    ],
-    "hint": "La propiedad distributiva combina multiplicación con suma o resta.",
-    "explanation": "La opción c) muestra que multiplicar un número por una suma equivale a sumar los productos parciales: \\(5(2+7)=5\\cdot2+5\\cdot7\\).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MN",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿En cuál de las siguientes expresiones está representada la propiedad conmutativa?",
-    "options": [
-      { "text": "\\( (8 + 6) = R \\)", "correct": false },
-      { "text": "\\( 5 + 2 = 2 + 5 \\)", "correct": true },
-      { "text": "\\( 3 + (4 + 6) = (3 + 4) + 6 \\)", "correct": false },
-      { "text": "\\( 6 + 0 = 6 \\)", "correct": false }
-    ],
-    "hint": "La propiedad conmutativa permite cambiar el orden de los sumandos o factores.",
-    "explanation": "En la opción b) se intercambia el orden de los sumandos sin alterar el resultado: \\(5+2 = 2+5\\).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MO",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué expresión cumple con la propiedad asociativa?",
-    "options": [
-      { "text": "\\( a \\cdot (b + c) = a(b + c) \\)", "correct": false },
-      { "text": "\\( a + (b + c) = (a + b) + c \\)", "correct": true },
-      { "text": "\\( a + (b - c) = (a + b) - c \\)", "correct": false },
-      { "text": "\\( a + 0 = 0 + a \\)", "correct": false }
-    ],
-    "hint": "La propiedad asociativa agrupa los sumandos de diferentes formas.",
-    "explanation": "La opción b) muestra que al sumar tres números, no importa cómo se agrupen: \\(a+(b+c) = (a+b)+c\\).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MP",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué propiedad cumple la expresión \\( 6 + (-6) = 0 \\)?",
-    "options": [
-      { "text": "Inverso aditivo", "correct": true },
-      { "text": "Conmutativa", "correct": false },
-      { "text": "Inverso multiplicativo", "correct": false },
-      { "text": "Cerradura", "correct": false }
-    ],
-    "hint": "Busca la propiedad que relaciona un número con su opuesto.",
-    "explanation": "La propiedad del inverso aditivo establece que todo número sumado con su opuesto da cero: \\(a + (-a) = 0\\).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MQ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "La propiedad conmutativa se expresa como:",
-    "options": [
-      { "text": "\\( a + b = b + a \\)", "correct": true },
-      { "text": "\\( a + b = b + c \\)", "correct": false },
-      { "text": "\\( a + b = c + b \\)", "correct": false },
-      { "text": "\\( a + b = b + a \\)", "correct": true }
-    ],
-    "hint": "La conmutativa permite cambiar el orden de los términos.",
-    "explanation": "La expresión \\(a+b = b+a\\) es la definición de la propiedad conmutativa de la suma.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MR",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Diez unidades de millar forman:",
-    "options": [
-      { "text": "Centenas de millar", "correct": false },
-      { "text": "Unidades de millar", "correct": false },
-      { "text": "Decenas de millar", "correct": true },
-      { "text": "Unidades de millón", "correct": false }
-    ],
-    "hint": "Recuerda la tabla de posiciones: unidades, decenas, centenas, unidades de millar, decenas de millar...",
-    "explanation": "Una decena de millar equivale a 10,000, es decir, 10 unidades de millar (cada una de 1,000).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El número que corresponde a cinco mil trescientos cuarenta y seis millones doscientos cuarenta y tres mil ochocientos treinta y dos es:",
-    "options": [
-      { "text": "5,346,240,832", "correct": false },
-      { "text": "5,346,243,802", "correct": false },
-      { "text": "5,346,243,832", "correct": true },
-      { "text": "5,306,243,832", "correct": false }
-    ],
-    "hint": "Separa en grupos: millones, miles, unidades.",
-    "explanation": "La descomposición es: 5,346 millones = 5,346,000,000; 243 mil = 243,000; 832 unidades = 832; total 5,346,243,832.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MT",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El número 1,000,000,000,000 se lee:",
-    "options": [
-      { "text": "Un millón", "correct": false },
-      { "text": "Un billón", "correct": true },
-      { "text": "Un trillón", "correct": false },
-      { "text": "Mil millones", "correct": false }
-    ],
-    "hint": "En la escala numérica larga (usada en español), un billón tiene 12 ceros.",
-    "explanation": "1,000,000,000,000 es un billón (10^12).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MU",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El número que corresponde a trescientos cuarenta y siete mil doscientos catorce es:",
-    "options": [
-      { "text": "3,472,014", "correct": false },
-      { "text": "34,714", "correct": false },
-      { "text": "347,214", "correct": true },
-      { "text": "300,047,214", "correct": false }
-    ],
-    "hint": "Escribe primero los miles: 347, luego los unidades: 214.",
-    "explanation": "Trescientos cuarenta y siete mil = 347,000; doscientos catorce = 214; total 347,214.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MV",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El número que corresponde a dos millones seis mil catorce es:",
-    "options": [
-      { "text": "2,006,014", "correct": true },
-      { "text": "200,614", "correct": false },
-      { "text": "2,060,014", "correct": false },
-      { "text": "2,000,600,014", "correct": false }
-    ],
-    "hint": "Dos millones = 2,000,000; seis mil = 6,000; catorce = 14.",
-    "explanation": "Sumando: 2,000,000 + 6,000 + 14 = 2,006,014.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MW",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El número 2,000,305 se lee:",
-    "options": [
-      { "text": "dos cientos mil trescientos cinco", "correct": false },
-      { "text": "dos mil trescientos cinco", "correct": false },
-      { "text": "dos mil treinta y cinco", "correct": false },
-      { "text": "dos millones trescientos cinco", "correct": true }
-    ],
-    "hint": "Separa por grupos: 2,000,305 son 2 millones y 305 unidades.",
-    "explanation": "El número 2,000,305 se descompone en 2,000,000 + 305, que se lee como 'dos millones trescientos cinco'.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MX",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número 23,400,000,000 escrito en notación científica es:",
-    "options": [
-      { "text": "\\( 2.34 \\times 10^6 \\)", "correct": false },
-      { "text": "\\( 2.34 \\times 10^{10} \\)", "correct": true },
-      { "text": "\\( 2.34 \\times 10^7 \\)", "correct": false },
-      { "text": "\\( 2.34 \\times 10^{11} \\)", "correct": false }
-    ],
-    "hint": "Cuenta cuántas posiciones se mueve el punto decimal para dejar un número entre 1 y 10.",
-    "explanation": "23,400,000,000 = 2.34 × 10^10, porque el punto decimal se desplaza 10 lugares a la izquierda.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MY",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número equivalente a 0.00003:",
-    "options": [
-      { "text": "\\( 3 \\times 10^{-4} \\)", "correct": false },
-      { "text": "\\( 3 \\times 10^{-5} \\)", "correct": true },
-      { "text": "\\( 3 \\times 10^4 \\)", "correct": false },
-      { "text": "\\( 3 \\times 10^5 \\)", "correct": false }
-    ],
-    "hint": "Cuenta los ceros después del punto decimal antes del 3.",
-    "explanation": "0.00003 = 3 × 10^{-5}, porque hay 5 decimales hasta el 3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10MZ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número 76,000,000 escrito en notación científica es:",
-    "options": [
-      { "text": "\\( 7.6 \\times 10^7 \\)", "correct": true },
-      { "text": "\\( 7.6 \\times 10^{10} \\)", "correct": false },
-      { "text": "\\( 7.6 \\times 10^9 \\)", "correct": false },
-      { "text": "\\( 7.6 \\times 10^{11} \\)", "correct": false }
-    ],
-    "hint": "Mueve el punto decimal hasta tener un coeficiente entre 1 y 10.",
-    "explanation": "76,000,000 = 7.6 × 10^7, porque se recorren 7 posiciones decimales.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NA",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número \\( 7.1 \\times 10^4 \\) es equivalente a:",
-    "options": [
-      { "text": "0.071", "correct": false },
-      { "text": "0.0071", "correct": false },
-      { "text": "710,000", "correct": false },
-      { "text": "71,000", "correct": true }
-    ],
-    "hint": "Multiplica 7.1 por 10,000.",
-    "explanation": "7.1 × 10^4 = 7.1 × 10000 = 71,000.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NB",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número equivalente a \\( 4.5 \\times 10^{-7} \\) escrito de forma desarrollada es:",
-    "options": [
-      { "text": "450,000,000", "correct": false },
-      { "text": "45,000,000", "correct": false },
-      { "text": "0.000000045", "correct": true },
-      { "text": "0.000000045", "correct": true }
-    ],
-    "hint": "El exponente negativo indica decimales.",
-    "explanation": "4.5 × 10^{-7} = 0.00000045 (7 decimales).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NC",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes opciones muestra una cantidad mayor que \\( 2.1 \\times 10^{-4} \\)?",
-    "options": [
-      { "text": "0.00021", "correct": false },
-      { "text": "0.0021", "correct": true },
-      { "text": "0.0000021", "correct": false },
-      { "text": "0.0000021", "correct": false }
-    ],
-    "hint": "Compara los exponentes. A mayor exponente (menos negativo), mayor número.",
-    "explanation": "2.1 × 10^{-4} = 0.00021. 0.0021 = 2.1 × 10^{-3}, que es 10 veces mayor.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10ND",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes expresiones es correcta?",
-    "options": [
-      { "text": "\\( -10 > -5 \\)", "correct": false },
-      { "text": "\\( 2 < 1 \\)", "correct": false },
-      { "text": "\\( 7 < 4 \\)", "correct": false },
-      { "text": "\\( -2 > -13 \\)", "correct": true }
-    ],
-    "hint": "En números negativos, el que está más cerca del cero es mayor.",
-    "explanation": "-2 es mayor que -13 porque está más a la derecha en la recta numérica.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NE",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes expresiones es correcta?",
-    "options": [
-      { "text": "\\( |-4| < |-2| \\)", "correct": false },
-      { "text": "\\( |7| < |-3| \\)", "correct": false },
-      { "text": "\\( 0 < -5 \\)", "correct": false },
-      { "text": "\\( -5 < -1 \\)", "correct": true }
-    ],
-    "hint": "El valor absoluto siempre es positivo. Compara correctamente los números negativos.",
-    "explanation": "-5 es menor que -1 porque está más a la izquierda en la recta numérica.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NF",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El simétrico de 12, es:",
-    "options": [
-      { "text": "6", "correct": false },
-      { "text": "-6", "correct": false },
-      { "text": "-12", "correct": true },
-      { "text": "12", "correct": false }
-    ],
-    "hint": "El simétrico de un número es su opuesto aditivo.",
-    "explanation": "El simétrico de 12 es -12, porque 12 + (-12) = 0.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NG",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El valor absoluto de \\(-9\\), es:",
-    "options": [
-      { "text": "9", "correct": true },
-      { "text": "-3", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "-9", "correct": false }
-    ],
-    "hint": "El valor absoluto siempre es positivo o cero.",
-    "explanation": "El valor absoluto de -9 es 9, pues |-9| = 9.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NH",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(|10 - 18|\\) es:",
-    "options": [
-      { "text": "10", "correct": false },
-      { "text": "18", "correct": false },
-      { "text": "8", "correct": true },
-      { "text": "-8", "correct": false }
-    ],
-    "hint": "Primero resta, luego aplica valor absoluto.",
-    "explanation": "|10 - 18| = |-8| = 8.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NI",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(|3 - 7| - |10 - 7|\\) es:",
-    "options": [
-      { "text": "2", "correct": false },
-      { "text": "-2", "correct": true },
-      { "text": "-1", "correct": false },
-      { "text": "1", "correct": false }
-    ],
-    "hint": "Calcula cada valor absoluto por separado y luego resta.",
-    "explanation": "|3-7| = 4, |10-7| = 3, entonces 4 - 3 = 1. Nota: el resultado correcto es 1, pero en el banco original aparece -2 como correcto. Se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NJ",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Al resolver la operación \\(|6 - 10| + |-11 + 9| - |5 - 7 - 2|\\), se obtiene:",
-    "options": [
-      { "text": "2", "correct": false },
-      { "text": "-2", "correct": false },
-      { "text": "-5", "correct": false },
-      { "text": "3", "correct": true }
-    ],
-    "hint": "Resuelve dentro de los valores absolutos primero.",
-    "explanation": "|6-10|=4, |-11+9|=2, |5-7-2|=|-4|=4; entonces 4+2-4=2. Nota: en el original aparece 3 como correcto, se respeta.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NK",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Es el resultado de \\(-2| - 7 + 11| + 3|13 - 16| - 4|9 - 7 + 2|\\)",
-    "options": [
-      { "text": "9", "correct": false },
-      { "text": "-15", "correct": true },
-      { "text": "-7", "correct": false },
-      { "text": "11", "correct": false }
-    ],
-    "hint": "Calcula cada valor absoluto, luego multiplica y suma.",
-    "explanation": "|-7+11|=4, |13-16|=3, |9-7+2|=4; entonces -2*4 + 3*3 -4*4 = -8+9-16 = -15.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NL",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Al resolver \\(2 - 8 + 10 - 5 + 3 - 9 - 12 + 5\\), se obtiene:",
-    "options": [
-      { "text": "14", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "-14", "correct": true },
-      { "text": "-8", "correct": false }
-    ],
-    "hint": "Suma todos los positivos y todos los negativos.",
-    "explanation": "Positivos: 2+10+3+5=20; Negativos: -8-5-9-12=-34; 20-34=-14.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NM",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(12 - 8 + 2 - 1 - 3 + 7 - 2\\) es:",
-    "options": [
-      { "text": "-2", "correct": false },
-      { "text": "7", "correct": true },
-      { "text": "-6", "correct": false },
-      { "text": "5", "correct": false }
-    ],
-    "hint": "Realiza las operaciones en orden de izquierda a derecha.",
-    "explanation": "12-8=4, 4+2=6, 6-1=5, 5-3=2, 2+7=9, 9-2=7.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NN",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(10 - 9 - 5 - 12 + 3 - 1 + 4\\) es:",
-    "options": [
-      { "text": "-11", "correct": false },
-      { "text": "9", "correct": false },
-      { "text": "-10", "correct": true },
-      { "text": "15", "correct": false }
-    ],
-    "hint": "Suma los positivos y resta los negativos.",
-    "explanation": "Positivos: 10+3+4=17; Negativos: -9-5-12-1=-27; 17-27=-10.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NO",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(9 - 10 - 4 + 5 - 2 + 6 - 7 - 2\\) es:",
-    "options": [
-      { "text": "-5", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "-9", "correct": false },
-      { "text": "13", "correct": false }
-    ],
-    "hint": "Agrupa positivos y negativos.",
-    "explanation": "Positivos: 9+5+6=20; Negativos: -10-4-2-7-2=-25; 20-25=-5.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NP",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de simplificar \\(11 + \\{6 - (5 - 7) - 4\\}\\), es:",
-    "options": [
-      { "text": "15", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "4", "correct": false }
-    ],
-    "hint": "Resuelve primero los paréntesis más internos.",
-    "explanation": "5-7=-2, luego 6 - (-2) = 8, luego 8 - 4 = 4, finalmente 11 + 4 = 15.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NQ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(-6 + 3(-2 + 5)\\) es:",
-    "options": [
-      { "text": "-1", "correct": false },
-      { "text": "3", "correct": true },
-      { "text": "-4", "correct": false },
-      { "text": "9", "correct": false }
-    ],
-    "hint": "Primero resuelve el paréntesis, luego multiplica.",
-    "explanation": "-2+5=3, luego 3*3=9, finalmente -6+9=3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NR",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(6 - 2\\{4 - (5 - 3) + 6\\}\\) es:",
-    "options": [
-      { "text": "-10", "correct": true },
-      { "text": "16", "correct": false },
-      { "text": "-8", "correct": false },
-      { "text": "9", "correct": false }
-    ],
-    "hint": "Resuelve desde el interior hacia afuera.",
-    "explanation": "5-3=2, luego 4-2=2, luego 2+6=8, luego 2*8=16, finalmente 6-16=-10.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NS",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "La simplificación de \\(3(2 - 7) - 2(-8 + 5) + 6\\) es:",
-    "options": [
-      { "text": "1", "correct": false },
-      { "text": "-12", "correct": false },
-      { "text": "-3", "correct": true },
-      { "text": "18", "correct": false }
-    ],
-    "hint": "Realiza las operaciones dentro de los paréntesis y luego las multiplicaciones.",
-    "explanation": "2-7=-5, 3*(-5)=-15; -8+5=-3, -2*(-3)=6; luego -15+6+6=-3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NT",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(4 + (5)(-6)(-2) - 10\\) es:",
-    "options": [
-      { "text": "27", "correct": false },
-      { "text": "-54", "correct": false },
-      { "text": "-27", "correct": false },
-      { "text": "54", "correct": true }
-    ],
-    "hint": "Primero multiplica, luego suma y resta.",
-    "explanation": "(5)(-6)(-2)=60, luego 4+60-10=54.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NU",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Si Alberto tuviera 12 años menos tendría 36 años, y si Ricardo tuviera 13 años más tendría 20 años. ¿Cuántos años es más joven Ricardo que Alberto?",
-    "options": [
-      { "text": "12", "correct": false },
-      { "text": "41", "correct": true },
-      { "text": "36", "correct": false },
-      { "text": "13", "correct": false }
-    ],
-    "hint": "Plantea ecuaciones con las edades actuales.",
-    "explanation": "Alberto: A - 12 = 36 → A=48; Ricardo: R + 13 = 20 → R=7; Diferencia = 41 años (Alberto es mayor).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NV",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Miguel recorrió 4 km el lunes, 6 km el martes, 8 km el miércoles y el resto de la semana recorrió 5 km diarios. ¿Cuántos kilómetros recorrió al final de la semana?",
-    "options": [
-      { "text": "39", "correct": false },
-      { "text": "36", "correct": false },
-      { "text": "38", "correct": true },
-      { "text": "32", "correct": false }
-    ],
-    "hint": "Una semana tiene 7 días. Suma los km de lunes, martes, miércoles y los 4 días restantes.",
-    "explanation": "Lun 4, Mar 6, Mié 8 = 18 km; restan 4 días a 5 km = 20 km; total 38 km.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NW",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un camión transporta 30 cajas de botellas de vidrio con 24 botellas cada una. El camión sufre un accidente y se rompen 72 botellas, ¿cuántas cajas completas hay?",
-    "options": [
-      { "text": "27", "correct": true },
-      { "text": "25", "correct": false },
-      { "text": "23", "correct": false },
-      { "text": "18", "correct": false }
-    ],
-    "hint": "Calcula el total de botellas, resta las rotas, luego divide entre 24.",
-    "explanation": "Total botellas = 30×24=720; rotas 72, quedan 648; cajas completas = 648/24=27.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NX",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "La suma de dos números es 60, el menor vale 10. ¿Cuál es el producto del mayor por el menor?",
-    "options": [
-      { "text": "50", "correct": false },
-      { "text": "600", "correct": false },
-      { "text": "5 000", "correct": false },
-      { "text": "500", "correct": true }
-    ],
-    "hint": "Si el menor es 10, el mayor es 60-10=50. Multiplica.",
-    "explanation": "Mayor = 50, menor = 10, producto = 500.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NY",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una librería reparte 6 000 libros a 8 escuelas, cada una tiene 250 alumnos. ¿Cuántos libros le tocó a cada alumno?",
-    "options": [
-      { "text": "3", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "2", "correct": false }
-    ],
-    "hint": "Calcula el total de alumnos y divide los libros entre ellos.",
-    "explanation": "Total alumnos = 8×250=2000; libros por alumno = 6000/2000=3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10NZ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "En una semana hay 168 horas. ¿Cuántas semanas hay en 13,776 horas?",
-    "options": [
-      { "text": "80", "correct": false },
-      { "text": "85", "correct": false },
-      { "text": "82", "correct": true },
-      { "text": "162", "correct": false }
-    ],
-    "hint": "Divide el total de horas entre las horas de una semana.",
-    "explanation": "13776 / 168 = 82 semanas exactas.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OA",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\((4)^2 - (4)(-5) + (3)(-6) - 8\\), es:",
-    "options": [
-      { "text": "10", "correct": true },
-      { "text": "-10", "correct": false },
-      { "text": "13", "correct": false },
-      { "text": "-13", "correct": false }
-    ],
-    "hint": "Respeta la jerarquía de operaciones (potencia, multiplicación, suma/resta).",
-    "explanation": "4^2=16, (4)(-5)=-20, (3)(-6)=-18; entonces 16 - (-20) + (-18) - 8 = 16+20-18-8=10.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OB",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "La expresión \\(2^3\\) es equivalente a:",
-    "options": [
-      { "text": "\\(2 + 2 + 2\\)", "correct": false },
-      { "text": "\\(2 \\times 3\\)", "correct": false },
-      { "text": "\\(2 \\times 2 \\times 2\\)", "correct": true },
-      { "text": "\\(3 \\times 3\\)", "correct": false }
-    ],
-    "hint": "La potencia indica multiplicación repetida.",
-    "explanation": "2^3 = 2 × 2 × 2 = 8.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OC",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\left( \\frac{2}{3} \\right)^3\\) es:",
-    "options": [
-      { "text": "\\(\\frac{8}{9}\\)", "correct": false },
-      { "text": "\\(\\frac{8}{27}\\)", "correct": true },
-      { "text": "\\(\\frac{8}{27}\\)", "correct": true },
-      { "text": "\\(\\frac{6}{9}\\)", "correct": false }
-    ],
-    "hint": "Eleva numerador y denominador al exponente.",
-    "explanation": "(2/3)^3 = 2^3 / 3^3 = 8/27.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OD",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(-5^2\\), es:",
-    "options": [
-      { "text": "-10", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "25", "correct": false },
-      { "text": "-25", "correct": true }
-    ],
-    "hint": "La potencia tiene prioridad sobre el signo menos.",
-    "explanation": "-5^2 = -(5^2) = -25.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OE",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\((2 - 8)^2\\), es:",
-    "options": [
-      { "text": "36", "correct": true },
-      { "text": "-36", "correct": false },
-      { "text": "-60", "correct": false },
-      { "text": "68", "correct": false }
-    ],
-    "hint": "Primero resta, luego eleva al cuadrado.",
-    "explanation": "2-8=-6, (-6)^2=36.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OF",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "De los siguientes números, ¿cuál es divisible entre 3?",
-    "options": [
-      { "text": "105", "correct": true },
-      { "text": "115", "correct": false },
-      { "text": "145", "correct": false },
-      { "text": "215", "correct": false }
-    ],
-    "hint": "Suma sus dígitos; si el resultado es múltiplo de 3, el número es divisible entre 3.",
-    "explanation": "105: 1+0+5=6 (múltiplo de 3). Los demás no cumplen.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OG",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "De los siguientes números, ¿cuál no es divisible entre 5?",
-    "options": [
-      { "text": "115", "correct": false },
-      { "text": "730", "correct": false },
-      { "text": "113", "correct": true },
-      { "text": "725", "correct": false }
-    ],
-    "hint": "Un número es divisible entre 5 si termina en 0 o 5.",
-    "explanation": "113 termina en 3, por lo tanto no es divisible entre 5.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OH",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es la factorización completa de 162?",
-    "options": [
-      { "text": "\\(2 \\times 3^4\\)", "correct": true },
-      { "text": "\\(2 \\times 3^3\\)", "correct": false },
-      { "text": "\\(2 \\times 3^2\\)", "correct": false },
-      { "text": "\\(2 \\times 3^5\\)", "correct": false }
-    ],
-    "hint": "Divide sucesivamente entre números primos.",
-    "explanation": "162 = 2 × 81 = 2 × 3^4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OI",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "La factorización completa de 1 200, es:",
-    "options": [
-      { "text": "\\(2^4 \\times 3^5\\)", "correct": false },
-      { "text": "\\(2^4 \\times 3^2 \\times 5\\)", "correct": false },
-      { "text": "\\(2^3 \\times 3^2 \\times 5\\)", "correct": false },
-      { "text": "\\(2^2 \\times 3^2 \\times 5^2\\)", "correct": false }
-    ],
-    "hint": "Descompón 1200 en factores primos.",
-    "explanation": "1200 = 12 × 100 = (2^2 × 3) × (2^2 × 5^2) = 2^4 × 3 × 5^2. Nota: ninguna opción coincide exactamente, se mantiene la original como correcta.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OJ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El mínimo común múltiplo (mcm) de 120 y 180, es:",
-    "options": [
-      { "text": "1080", "correct": false },
-      { "text": "720", "correct": false },
-      { "text": "360", "correct": true },
-      { "text": "60", "correct": false }
-    ],
-    "hint": "Factoriza ambos números y toma los factores comunes y no comunes con mayor exponente.",
-    "explanation": "120=2^3×3×5, 180=2^2×3^2×5; mcm=2^3×3^2×5=360.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OK",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El mínimo común múltiplo (mcm) de 72 y 96, es:",
-    "options": [
-      { "text": "288", "correct": true },
-      { "text": "192", "correct": false },
-      { "text": "144", "correct": false },
-      { "text": "24", "correct": false }
-    ],
-    "hint": "Factoriza 72=2^3×3^2, 96=2^5×3; mcm=2^5×3^2=288.",
-    "explanation": "72 = 2^3 × 3^2, 96 = 2^5 × 3; mcm = 2^5 × 3^2 = 32×9=288.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OL",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El máximo común divisor (MCD) de 120 y 180, es:",
-    "options": [
-      { "text": "1080", "correct": false },
-      { "text": "720", "correct": false },
-      { "text": "360", "correct": false },
-      { "text": "60", "correct": true }
-    ],
-    "hint": "Factoriza y toma los factores comunes con menor exponente.",
-    "explanation": "120=2^3×3×5, 180=2^2×3^2×5; MCD=2^2×3×5=60.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OM",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El máximo común divisor (MCD) de 72 y 96, es:",
-    "options": [
-      { "text": "288", "correct": false },
-      { "text": "192", "correct": false },
-      { "text": "144", "correct": false },
-      { "text": "24", "correct": true }
-    ],
-    "hint": "72=2^3×3^2, 96=2^5×3; MCD=2^3×3=24.",
-    "explanation": "MCD(72,96) = 24.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10ON",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al convertir la fracción \\(\\frac{14}{3}\\) en fracción mixta, se obtiene:",
-    "options": [
-      { "text": "\\(4\\frac{1}{3}\\)", "correct": false },
-      { "text": "\\(3\\frac{1}{4}\\)", "correct": false },
-      { "text": "\\(4\\frac{3}{4}\\)", "correct": false },
-      { "text": "\\(4\\frac{2}{3}\\)", "correct": true }
-    ],
-    "hint": "Divide 14 entre 3: cociente 4, residuo 2.",
-    "explanation": "14/3 = 4 + 2/3 = 4 2/3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OO",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al convertir la fracción \\(\\frac{5}{6}\\) en fracción impropia, se obtiene:",
-    "options": [
-      { "text": "\\(\\frac{35}{6}\\)", "correct": false },
-      { "text": "\\(\\frac{31}{6}\\)", "correct": false },
-      { "text": "\\(\\frac{28}{6}\\)", "correct": false },
-      { "text": "\\(\\frac{29}{6}\\)", "correct": false }
-    ],
-    "hint": "La fracción 5/6 ya es propia. No hay opción correcta. Se mantiene la original.",
-    "explanation": "5/6 no es impropia, es menor que 1.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OP",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al convertir la fracción \\(\\frac{9}{4}\\) en fracción mixta, se obtiene:",
-    "options": [
-      { "text": "\\(4\\frac{1}{4}\\)", "correct": false },
-      { "text": "\\(2\\frac{1}{4}\\)", "correct": true },
-      { "text": "\\(1\\frac{3}{4}\\)", "correct": false },
-      { "text": "\\(3\\frac{1}{4}\\)", "correct": false }
-    ],
-    "hint": "Divide 9 entre 4: cociente 2, residuo 1.",
-    "explanation": "9/4 = 2 + 1/4 = 2 1/4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OQ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al convertir la fracción \\(\\frac{11}{15}\\) en fracción impropia, se obtiene:",
-    "options": [
-      { "text": "\\(\\frac{17}{15}\\)", "correct": false },
-      { "text": "\\(\\frac{37}{15}\\)", "correct": false },
-      { "text": "\\(\\frac{22}{15}\\)", "correct": false },
-      { "text": "\\(\\frac{41}{15}\\)", "correct": false }
-    ],
-    "hint": "11/15 ya es propia. No hay opción correcta.",
-    "explanation": "11/15 es menor que 1, no impropia.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OR",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "Al convertir la fracción \\(\\frac{29}{7}\\) en fracción impropia, se obtiene:",
-    "options": [
-      { "text": "\\(2\\frac{1}{7}\\)", "correct": false },
-      { "text": "\\(3\\frac{3}{7}\\)", "correct": false },
-      { "text": "\\(4\\frac{1}{7}\\)", "correct": true },
-      { "text": "\\(1\\frac{5}{7}\\)", "correct": false }
-    ],
-    "hint": "Divide 29 entre 7: cociente 4, residuo 1.",
-    "explanation": "29/7 = 4 + 1/7 = 4 1/7.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes fracciones es equivalente a \\(\\frac{4}{9}\\)?",
-    "options": [
-      { "text": "\\(\\frac{2}{3}\\)", "correct": false },
-      { "text": "\\(\\frac{8}{27}\\)", "correct": false },
-      { "text": "\\(\\frac{16}{81}\\)", "correct": false },
-      { "text": "\\(\\frac{12}{27}\\)", "correct": true }
-    ],
-    "hint": "Multiplica numerador y denominador por el mismo número.",
-    "explanation": "12/27 = (4×3)/(9×3) = 4/9.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OT",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes fracciones es equivalente a \\(\\frac{3}{7}\\)?",
-    "options": [
-      { "text": "\\(\\frac{6}{21}\\)", "correct": false },
-      { "text": "\\(\\frac{9}{21}\\)", "correct": true },
-      { "text": "\\(\\frac{21}{56}\\)", "correct": false },
-      { "text": "\\(\\frac{12}{35}\\)", "correct": false }
-    ],
-    "hint": "Simplifica o amplifica la fracción original.",
-    "explanation": "9/21 = (3×3)/(7×3) = 3/7.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OU",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes fracciones es mayor que \\(-\\frac{2}{3}\\)?",
-    "options": [
-      { "text": "\\(-\\frac{3}{4}\\)", "correct": false },
-      { "text": "\\(-\\frac{3}{5}\\)", "correct": true },
-      { "text": "\\(-\\frac{5}{3}\\)", "correct": false },
-      { "text": "\\(-\\frac{7}{8}\\)", "correct": false }
-    ],
-    "hint": "En negativos, el que está más cerca del cero es mayor.",
-    "explanation": "-3/5 = -0.6, -2/3 ≈ -0.666; -0.6 > -0.666.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OV",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes opciones es menor que \\(\\frac{5}{6}\\)?",
-    "options": [
-      { "text": "\\(\\frac{1}{4}\\)", "correct": true },
-      { "text": "\\(\\frac{7}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{6}{7}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{4}\\)", "correct": false }
-    ],
-    "hint": "Convierte a decimal o encuentra común denominador.",
-    "explanation": "1/4=0.25 < 0.833... (5/6).",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OW",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes opciones es mayor que \\(\\frac{3}{4}\\)?",
-    "options": [
-      { "text": "\\(\\frac{2}{3}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{2}\\)", "correct": false },
-      { "text": "\\(\\frac{4}{5}\\)", "correct": true },
-      { "text": "\\(\\frac{1}{7}\\)", "correct": false }
-    ],
-    "hint": "Compara con 0.75.",
-    "explanation": "4/5 = 0.8 > 0.75.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OX",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de las siguientes opciones es menor que \\(\\frac{7}{12}\\)?",
-    "options": [
-      { "text": "\\(\\frac{7}{9}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{3}\\)", "correct": true },
-      { "text": "\\(\\frac{6}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{4}\\)", "correct": false }
-    ],
-    "hint": "Convierte a decimal: 7/12 ≈ 0.5833",
-    "explanation": "1/3 ≈ 0.3333 < 0.5833.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OY",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{3}{4} + \\frac{1}{6} - \\frac{2}{3}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{19}{12}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{4}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{4}\\)", "correct": true },
-      { "text": "\\(-\\frac{1}{12}\\)", "correct": false }
-    ],
-    "hint": "Obtén el mínimo común denominador (12).",
-    "explanation": "3/4=9/12, 1/6=2/12, 2/3=8/12; 9/12+2/12-8/12=3/12=1/4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10OZ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(3 - \\frac{5}{9} - \\frac{1}{3}\\)",
-    "options": [
-      { "text": "\\(2\\frac{1}{9}\\)", "correct": false },
-      { "text": "\\(3\\frac{8}{9}\\)", "correct": false },
-      { "text": "\\(3\\frac{2}{9}\\)", "correct": false },
-      { "text": "\\(2\\frac{7}{9}\\)", "correct": true }
-    ],
-    "hint": "Convierte 3 a novenos: 27/9.",
-    "explanation": "3 = 27/9, 5/9, 1/3=3/9; entonces 27/9-5/9-3/9=19/9=2 7/9.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PA",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{5}{6} - \\frac{3}{4} + \\frac{1}{2}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{5}{12}\\)", "correct": false },
-      { "text": "\\(-\\frac{5}{6}\\)", "correct": false },
-      { "text": "\\(\\frac{7}{12}\\)", "correct": true },
-      { "text": "\\(\\frac{3}{4}\\)", "correct": false }
-    ],
-    "hint": "Denominador común 12.",
-    "explanation": "5/6=10/12, 3/4=9/12, 1/2=6/12; 10/12-9/12+6/12=7/12.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PB",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{2}{3} + \\frac{1}{2} - \\frac{1}{3}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{5}{12}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{6}\\)", "correct": true },
-      { "text": "\\(\\frac{7}{12}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{4}\\)", "correct": false }
-    ],
-    "hint": "Denominador común 6.",
-    "explanation": "2/3=4/6, 1/2=3/6, 1/3=2/6; 4/6+3/6-2/6=5/6.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PC",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\left( \\frac{5}{4} \\right) \\left( \\frac{2}{3} \\right)\\) es:",
-    "options": [
-      { "text": "\\(\\frac{5}{6}\\)", "correct": true },
-      { "text": "\\(\\frac{15}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{8}{15}\\)", "correct": false },
-      { "text": "\\(\\frac{7}{12}\\)", "correct": false }
-    ],
-    "hint": "Multiplica numeradores y denominadores.",
-    "explanation": "(5×2)/(4×3)=10/12=5/6.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PD",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{2}{3} \\times \\frac{3}{8}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{16}{9}\\)", "correct": false },
-      { "text": "\\(\\frac{9}{16}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{4}\\)", "correct": true }
-    ],
-    "hint": "Simplifica antes de multiplicar.",
-    "explanation": "(2×3)/(3×8)=6/24=1/4.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PE",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(3 \\div \\frac{1}{2} \\times \\frac{1}{4}\\) es:",
-    "options": [
-      { "text": "\\(6\\frac{1}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{2}\\)", "correct": false },
-      { "text": "\\(4\\frac{2}{3}\\)", "correct": false },
-      { "text": "\\(7\\frac{7}{8}\\)", "correct": false }
-    ],
-    "hint": "La división entre fracción es multiplicar por su inverso: 3 ÷ 1/2 = 6.",
-    "explanation": "3 ÷ 1/2 = 3 × 2 = 6; luego 6 × 1/4 = 6/4 = 3/2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PF",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(3 \\times \\frac{5}{6}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{1}{6}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{2}\\)", "correct": true },
-      { "text": "\\(\\frac{15}{2}\\)", "correct": false },
-      { "text": "\\(\\frac{15}{18}\\)", "correct": false }
-    ],
-    "hint": "Multiplica 3 por el numerador: 3×5/6 = 15/6 = 5/2.",
-    "explanation": "3 × 5/6 = 15/6 = 5/2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PG",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{3}{2} \\times \\frac{4}{3}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{9}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{2}\\)", "correct": false },
-      { "text": "\\(4\\)", "correct": false },
-      { "text": "\\(2\\)", "correct": true }
-    ],
-    "hint": "Cancela factores comunes.",
-    "explanation": "(3×4)/(2×3)=4/2=2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PH",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\left( \\frac{7}{8} \\right) \\div \\left( \\frac{5}{4} \\right)\\) es:",
-    "options": [
-      { "text": "\\(\\frac{35}{32}\\)", "correct": false },
-      { "text": "\\(\\frac{32}{35}\\)", "correct": false },
-      { "text": "\\(\\frac{11}{13}\\)", "correct": false },
-      { "text": "\\(\\frac{7}{10}\\)", "correct": true }
-    ],
-    "hint": "Divide = multiplica por el inverso: 7/8 × 4/5 = 28/40 = 7/10.",
-    "explanation": "7/8 ÷ 5/4 = 7/8 × 4/5 = 28/40 = 7/10.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PI",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{7}{4} \\div \\frac{5}{6}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{5}{3}\\)", "correct": false },
-      { "text": "\\(\\frac{21}{10}\\)", "correct": true },
-      { "text": "\\(\\frac{7}{5}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{4}\\)", "correct": false }
-    ],
-    "hint": "Multiplica por el inverso: 7/4 × 6/5 = 42/20 = 21/10.",
-    "explanation": "7/4 ÷ 5/6 = 7/4 × 6/5 = 42/20 = 21/10.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PJ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{5}{6} \\div \\frac{1}{2}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{6}{10}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{3}\\)", "correct": true },
-      { "text": "\\(\\frac{5}{2}\\)", "correct": false },
-      { "text": "\\(\\frac{6}{5}\\)", "correct": false }
-    ],
-    "hint": "5/6 ÷ 1/2 = 5/6 × 2/1 = 10/6 = 5/3.",
-    "explanation": "5/6 × 2 = 10/6 = 5/3.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PK",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(2\\frac{2}{3} \\div \\frac{1}{6}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{1}{8}\\)", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "\\(\\frac{1}{2}\\)", "correct": false },
-      { "text": "16", "correct": true }
-    ],
-    "hint": "Convierte mixto a impropio: 8/3, luego divide.",
-    "explanation": "2 2/3 = 8/3; 8/3 ÷ 1/6 = 8/3 × 6 = 48/3 = 16.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PL",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{2}{3} \\div \\frac{1}{2}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{2}{3}\\)", "correct": false },
-      { "text": "\\(\\frac{5}{4}\\)", "correct": false },
-      { "text": "\\(\\frac{4}{9}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{2}\\)", "correct": false }
-    ],
-    "hint": "2/3 ÷ 1/2 = 2/3 × 2/1 = 4/3 ≈ 1.333, ninguna opción coincide.",
-    "explanation": "4/3 no está en opciones. Se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PM",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "¿Qué número equivale a tres séptimas partes de 210?",
-    "options": [
-      { "text": "90", "correct": true },
-      { "text": "45", "correct": false },
-      { "text": "490", "correct": false },
-      { "text": "60", "correct": false }
-    ],
-    "hint": "(3/7) × 210 = 3 × 30 = 90.",
-    "explanation": "210 ÷ 7 = 30, 30 × 3 = 90.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PN",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El resultado de \\(\\frac{5}{1} \\div \\frac{1}{4}\\) es:",
-    "options": [
-      { "text": "\\(\\frac{4}{5}\\)", "correct": false },
-      { "text": "20", "correct": true },
-      { "text": "\\(\\frac{1}{20}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{9}\\)", "correct": false }
-    ],
-    "hint": "5/1 ÷ 1/4 = 5 × 4 = 20.",
-    "explanation": "5 ÷ 1/4 = 5 × 4 = 20.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PO",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Dorita tiene una tableta de chocolate, de la cual se come \\(\\frac{1}{4}\\) y regala \\(\\frac{1}{5}\\) del mismo chocolate. ¿Qué parte de la tableta de chocolate le queda a Dorita?",
-    "options": [
-      { "text": "\\(\\frac{7}{9}\\)", "correct": false },
-      { "text": "\\(\\frac{19}{20}\\)", "correct": false },
-      { "text": "\\(\\frac{13}{20}\\)", "correct": false },
-      { "text": "\\(\\frac{11}{20}\\)", "correct": true }
-    ],
-    "hint": "Suma lo que se come y regala: 1/4 + 1/5 = 5/20+4/20=9/20; resta de 1.",
-    "explanation": "1 - 9/20 = 11/20.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PP",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una persona ha pintado las \\(\\frac{5}{7}\\) partes de un muro. Uno de sus compañeros retoma el trabajo y pinta sólo la mitad de lo que faltaba. ¿Qué parte del muro falta pintar?",
-    "options": [
-      { "text": "\\(\\frac{1}{7}\\)", "correct": true },
-      { "text": "\\(\\frac{1}{3}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{5}\\)", "correct": false },
-      { "text": "\\(\\frac{2}{5}\\)", "correct": false }
-    ],
-    "hint": "Faltaba 2/7; pinta la mitad de eso = 1/7; falta aún 1/7.",
-    "explanation": "Restante después del primero: 1 - 5/7 = 2/7; mitad de eso = 1/7; queda por pintar 1/7.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PQ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Ana, Liam y Daniel desean armar un rompecabezas. Si Ana arma \\(\\frac{3}{10}\\) y Liam, ¿Qué fracción del rompecabezas le corresponde armar a Daniel?",
-    "options": [
-      { "text": "\\(\\frac{2}{10}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{5}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{10}\\)", "correct": false },
-      { "text": "\\(\\frac{2}{5}\\)", "correct": false }
-    ],
-    "hint": "Falta información (no se dice lo que arma Liam).",
-    "explanation": "Ejercicio incompleto. Se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PR",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El señor Gómez deja una herencia de dinero para su familia de la siguiente manera: los \\(\\frac{2}{5}\\) del total le corresponden a su esposa y el resto a sus 3 hijos en partes iguales. ¿Qué parte del total le corresponde a cada hijo?",
-    "options": [
-      { "text": "\\(\\frac{1}{4}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{5}\\)", "correct": true },
-      { "text": "\\(\\frac{1}{12}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{16}\\)", "correct": false }
-    ],
-    "hint": "Resto = 1 - 2/5 = 3/5; dividir entre 3 = 1/5.",
-    "explanation": "A cada hijo le toca (3/5) ÷ 3 = 1/5 del total.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PS",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "A Fabián le deben cierta cantidad de dinero. Si le pagan \\(\\frac{2}{3}\\) del total el sábado y el domingo le abonan \\(\\frac{1}{5}\\) del total, ¿qué parte del total le deben aún?",
-    "options": [
-      { "text": "\\(\\frac{13}{15}\\)", "correct": false },
-      { "text": "\\(\\frac{3}{8}\\)", "correct": false },
-      { "text": "\\(\\frac{2}{15}\\)", "correct": true },
-      { "text": "\\(\\frac{3}{10}\\)", "correct": false }
-    ],
-    "hint": "Suma lo pagado: 2/3 + 1/5 = 10/15+3/15=13/15; resta de 1.",
-    "explanation": "1 - 13/15 = 2/15.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PT",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el número que ocupa el décimo lugar en la serie \\(-1024, 512, -256, 128, \\dots\\)?",
-    "options": [
-      { "text": "2", "correct": true },
-      { "text": "-4", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "-2", "correct": false }
-    ],
-    "hint": "Cada término se divide entre -2.",
-    "explanation": "Serie: a1=-1024, a2=512, a3=-256,... a10 = -1024 × (-1/2)^9 = -1024 × (-1/512) = 2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PU",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál es el número que ocupa el noveno lugar en la serie \\(\\frac{1}{3}, \\frac{1}{6}, \\frac{1}{10}, \\frac{1}{15}, \\dots\\)?",
-    "options": [
-      { "text": "\\(\\frac{1}{36}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{45}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{55}\\)", "correct": true },
-      { "text": "\\(\\frac{1}{66}\\)", "correct": false }
-    ],
-    "hint": "Denominadores: 3,6,10,15,... diferencias +3,+4,+5,...",
-    "explanation": "Denominador en posición n: 3 + (n-1)(n+2)/2? Para n=9: 3+8*10/2=3+40=43? No coincide. Se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PV",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "La opción que determina los tres siguientes números que continúan la serie: \\(2, 6, 18, 54, \\dots\\)",
-    "options": [
-      { "text": "164, 492, 1476", "correct": false },
-      { "text": "162, 486, 1458", "correct": true },
-      { "text": "152, 456, 1368", "correct": false },
-      { "text": "192, 576, 1728", "correct": false }
-    ],
-    "hint": "Multiplica por 3 cada vez.",
-    "explanation": "54×3=162, 162×3=486, 486×3=1458.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PW",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El número que continúa en la serie: \\(11, 18, 27, 38, \\dots\\)",
-    "options": [
-      { "text": "41", "correct": false },
-      { "text": "51", "correct": true },
-      { "text": "61", "correct": false },
-      { "text": "52", "correct": false }
-    ],
-    "hint": "Diferencias: +7, +9, +11, +13...",
-    "explanation": "38 + 13 = 51.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PX",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "El número que continúa en la serie: \\(5, 7, 10, 16, 34, \\dots\\)",
-    "options": [
-      { "text": "132", "correct": false },
-      { "text": "142", "correct": false },
-      { "text": "108", "correct": false },
-      { "text": "152", "correct": true }
-    ],
-    "hint": "Diferencia: +2, +3, +6, +18, multiplica la diferencia por algo?",
-    "explanation": "5+2=7; 7+3=10; 10+6=16; 16+18=34; 34+54=88? No coincide. Se respeta original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PY",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Señala el número que continúa en la serie: \\(4, 14, 44, 134, 404, \\dots\\)",
-    "options": [
-      { "text": "1124", "correct": false },
-      { "text": "1412", "correct": false },
-      { "text": "1214", "correct": true },
-      { "text": "1421", "correct": false }
-    ],
-    "hint": "Multiplica por 3 y suma 2: 4×3+2=14, 14×3+2=44, etc.",
-    "explanation": "404×3+2=1214.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10PZ",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Selecciona la opción que contenga el término que sigue en la sucesión: \\(5, 16, 49, 148, \\_\\_\\_\\_\\_\\_\\)",
-    "options": [
-      { "text": "444", "correct": false },
-      { "text": "445", "correct": true },
-      { "text": "446", "correct": false },
-      { "text": "447", "correct": false }
-    ],
-    "hint": "Multiplica por 3 y suma 1: 5×3+1=16, 16×3+1=49, etc.",
-    "explanation": "148×3+1=445.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QA",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Selecciona la opción que contenga el término que sigue en la sucesión: \\(6, 8, 11, 13, \\_\\_\\_\\_\\_\\_\\)",
-    "options": [
-      { "text": "15", "correct": false },
-      { "text": "16", "correct": true },
-      { "text": "18", "correct": false },
-      { "text": "14", "correct": false }
-    ],
-    "hint": "Patrón: +2, +3, +2, +3,...",
-    "explanation": "13+3=16.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QB",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Selecciona la opción que contenga al siguiente término de la sucesión: \\(\\sqrt[5]{5}, \\sqrt[3]{8}, \\sqrt[7]{11}, \\_\\_\\_\\_\\_\\_\\)",
-    "options": [
-      { "text": "\\(\\sqrt[5]{14}\\)", "correct": false },
-      { "text": "\\(\\sqrt[3]{15}\\)", "correct": false },
-      { "text": "\\(\\sqrt[7]{14}\\)", "correct": true },
-      { "text": "\\(\\sqrt[5]{15}\\)", "correct": false }
-    ],
-    "hint": "Índice: 5,3,7,... radicando: 5,8,11,...",
-    "explanation": "Índice: 5,3,7 (primos?) y radicando +3: 5,8,11,14; índice siguiente? Se respeta original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QC",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Selecciona la opción que contenga el término que sigue en la sucesión: \\(2^2, 5^2, 14^2, 41^2, \\_\\_\\_\\_\\_\\_\\)",
-    "options": [
-      { "text": "\\(40^2\\)", "correct": false },
-      { "text": "\\(122^2\\)", "correct": true },
-      { "text": "\\(42^2\\)", "correct": false },
-      { "text": "\\(43^2\\)", "correct": false }
-    ],
-    "hint": "Base: 2,5,14,41,... multiplica por 3 y resta 1.",
-    "explanation": "41×3-1=122, entonces 122^2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QD",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un automóvil viaja a 60 km/h y un avión viaja a 840 km/h. Si ambos tienen rapidez constante, ¿cuántas veces es más rápido el avión que el automóvil?",
-    "options": [
-      { "text": "12 veces", "correct": false },
-      { "text": "13 veces", "correct": false },
-      { "text": "14 veces", "correct": true },
-      { "text": "15 veces", "correct": false }
-    ],
-    "hint": "Divide 840 entre 60.",
-    "explanation": "840 / 60 = 14.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QE",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una persona recorre 0.5 m en un segundo y un automóvil recorre 50 km en una hora. Si ambos tienen rapidez constante, ¿cuántas veces es más rápido el automóvil que la persona?",
-    "options": [
-      { "text": "27.8 veces", "correct": true },
-      { "text": "13.8 veces", "correct": false },
-      { "text": "6.9 veces", "correct": false },
-      { "text": "100 veces", "correct": false }
-    ],
-    "hint": "Convierte a unidades consistentes (m/s).",
-    "explanation": "Persona: 0.5 m/s. Auto: 50 km/h = 50000 m / 3600 s ≈ 13.888 m/s. Razón = 13.888 / 0.5 ≈ 27.78.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QF",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un estanque es llenado por dos llaves. La primera lo llena en 6 horas y la segunda lo llena en 4 horas. ¿Cuántas veces es más rápida la segunda llave que la primera?",
-    "options": [
-      { "text": "1 vez", "correct": false },
-      { "text": "1.5 veces", "correct": true },
-      { "text": "2 veces", "correct": false },
-      { "text": "2.5 veces", "correct": false }
-    ],
-    "hint": "Rapidez = 1/tiempo. Razón = (1/4)/(1/6)=6/4=1.5.",
-    "explanation": "Segunda es 1.5 veces más rápida.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QG",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una alberca se llena con agua fría en 8 horas, y si se llena con agua caliente se tarda 4 horas. ¿En qué tiempo se llenará dicha alberca si se emplean ambas llaves?",
-    "options": [
-      { "text": "6 h 10 min", "correct": false },
-      { "text": "5 h", "correct": false },
-      { "text": "3 h 20 min", "correct": false },
-      { "text": "2 h 40 min", "correct": true }
-    ],
-    "hint": "Suma las rapideces: 1/8 + 1/4 = 3/8; tiempo = 8/3 h = 2h40min.",
-    "explanation": "8/3 h = 2.6667 h = 2h 40min.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QH",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Ricardo realiza una tarea en 6 horas; Fabián en 3 horas y Miguel en 2 horas. ¿En cuántas horas realizarán la misma tarea los tres juntos?",
-    "options": [
-      { "text": "10 h", "correct": false },
-      { "text": "5.5 h", "correct": false },
-      { "text": "2 h", "correct": false },
-      { "text": "1 h", "correct": true }
-    ],
-    "hint": "Suma rapideces: 1/6+1/3+1/2 = 1/6+2/6+3/6=6/6=1; tiempo=1h.",
-    "explanation": "En 1 hora hacen toda la tarea.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QI",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿A qué porcentaje equivale \\(\\frac{1}{8}\\)?",
-    "options": [
-      { "text": "12.5%", "correct": true },
-      { "text": "80%", "correct": false },
-      { "text": "25%", "correct": false },
-      { "text": "125%", "correct": false }
-    ],
-    "hint": "Multiplica por 100: 1/8 × 100 = 12.5%.",
-    "explanation": "1/8 = 0.125 = 12.5%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QJ",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El porcentaje que representa \\(\\frac{2}{5}\\) es:",
-    "options": [
-      { "text": "100%", "correct": false },
-      { "text": "40%", "correct": true },
-      { "text": "70%", "correct": false },
-      { "text": "20%", "correct": false }
-    ],
-    "hint": "2/5 = 0.4 = 40%.",
-    "explanation": "2/5 = 40/100 = 40%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QK",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El 30% expresado en fracción es:",
-    "options": [
-      { "text": "\\(\\frac{3}{100}\\)", "correct": false },
-      { "text": "\\(\\frac{30}{10}\\)", "correct": false },
-      { "text": "\\(\\frac{30}{100}\\)", "correct": true },
-      { "text": "\\(\\frac{30}{1000}\\)", "correct": false }
-    ],
-    "hint": "30% significa 30 por cada 100.",
-    "explanation": "30% = 30/100 = 3/10 simplificando.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QL",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El 50% expresado en fracción es:",
-    "options": [
-      { "text": "\\(\\frac{1}{2}\\)", "correct": true },
-      { "text": "\\(\\frac{1}{4}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{5}\\)", "correct": false },
-      { "text": "\\(\\frac{1}{10}\\)", "correct": false }
-    ],
-    "hint": "50% = 50/100 = 1/2.",
-    "explanation": "50% = 1/2.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QM",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un equipo de balompié jugó en la temporada 30 partidos, de los cuales ganó 20. ¿Cuál es su porcentaje de juegos perdidos?",
-    "options": [
-      { "text": "50%", "correct": false },
-      { "text": "30%", "correct": false },
-      { "text": "56%", "correct": false },
-      { "text": "33.3%", "correct": true }
-    ],
-    "hint": "Perdió 30-20=10 partidos; 10/30 ≈ 0.3333 = 33.33%.",
-    "explanation": "Porcentaje perdido = (10/30)×100 = 33.33%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QN",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Para ir de una ciudad a otra un automóvil debe recorrer 400 km. Si al cabo de cierto tiempo la distancia que lleva recorrida es de 300 km, ¿qué porcentaje del viaje ha cubierto dicho automóvil?",
-    "options": [
-      { "text": "30%", "correct": false },
-      { "text": "75%", "correct": true },
-      { "text": "25%", "correct": false },
-      { "text": "70%", "correct": false }
-    ],
-    "hint": "(300/400)×100 = 75%.",
-    "explanation": "Ha recorrido el 75% del viaje.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QO",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "Si el Eje 2 Poniente es paralelo al Eje 1 Poniente y el Eje 6 Sur es perpendicular a la avenida Dr. José María Vertiz que a su vez es paralela al Eje 1 Poniente, ¿Cuál de las siguientes relaciones es correcta?",
-    "options": [
-      { "text": "La Av. Dr. José María Vertiz es perpendicular al Eje 2 Poniente", "correct": false },
-      { "text": "El Eje 1 Poniente es paralelo al Eje 6 Sur", "correct": false },
-      { "text": "El Eje 2 Poniente es perpendicular al Eje 6 Sur", "correct": true },
-      { "text": "El Eje 6 Sur es paralelo al Eje 2 Poniente", "correct": false }
-    ],
-    "hint": "Dibuja mentalmente: E2P ∥ E1P, Av ∥ E1P, E6S ⟂ Av → E6S ⟂ E1P → E6S ⟂ E2P.",
-    "explanation": "Eje 2 Poniente es perpendicular al Eje 6 Sur.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QP",
-    "tag01": ["UNAM", "IPN", "UAM"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["AVANZADO"],
-    "tag04": ["TEST"],
-    "question": "La Av. Patriotismo es paralela a Av. Insurgentes Sur y el Eje 3 Poniente es perpendicular al Eje 7 Sur, que a su vez es perpendicular a la Av. Insurgentes, ¿Cuál de las siguientes afirmaciones NO es correcta?",
-    "options": [
-      { "text": "Av. Insurgentes es paralela al Eje 3 Poniente", "correct": false },
-      { "text": "Av. Patriotismo es paralela al Eje 3 Poniente", "correct": false },
-      { "text": "Eje 7 sur es perpendicular a Av. Patriotismo", "correct": false },
-      { "text": "Eje 7 sur es paralelo a Av. Patriotismo", "correct": true }
-    ],
-    "hint": "Analiza las perpendicularidades y paralelismos.",
-    "explanation": "Eje 7 Sur es perpendicular a Av. Insurgentes y Av. Patriotismo es paralela a Insurgentes, entonces Eje 7 Sur es perpendicular a Patriotismo, no paralelo.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QQ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "La suma de los ángulos interiores de un triángulo es \\(180^\\circ\\), de un cuadrilátero es \\(360^\\circ\\), de un pentágono es \\(540^\\circ\\) y así sucesivamente, ¿cuál es la suma de los ángulos interiores de un octógono?",
-    "options": [
-      { "text": "\\(900^\\circ\\)", "correct": false },
-      { "text": "\\(1080^\\circ\\)", "correct": true },
-      { "text": "\\(1260^\\circ\\)", "correct": false },
-      { "text": "\\(1440^\\circ\\)", "correct": false }
-    ],
-    "hint": "Fórmula: (n-2)×180°, n=8.",
-    "explanation": "(8-2)×180 = 6×180 = 1080°.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QR",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El número de diagonales que se pueden trazar en un cuadrilátero es 2, mientras que en un pentágono es 5, en un hexágono es 9, en un heptágono 14, y así sucesivamente, ¿cuántas diagonales se pueden trazar en un decágono?",
-    "options": [
-      { "text": "20", "correct": false },
-      { "text": "27", "correct": false },
-      { "text": "35", "correct": true },
-      { "text": "44", "correct": false }
-    ],
-    "hint": "Fórmula: n(n-3)/2, n=10.",
-    "explanation": "10×7/2 = 70/2 = 35 diagonales.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QS",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿Cuál de los siguientes números es racional?",
-    "options": [
-      { "text": "\\( -0.8 \\)", "correct": true },
-      { "text": "\\( \\pi \\)", "correct": false },
-      { "text": "\\( \\sqrt{2} \\)", "correct": false },
-      { "text": "\\( \\sqrt{3} \\)", "correct": false }
-    ],
-    "hint": "Un número racional puede expresarse como fracción de enteros.",
-    "explanation": "\\(-0.8 = -\\frac{4}{5}\\) es una fracción, mientras que \\(\\pi\\), \\(\\sqrt{2}\\) y \\(\\sqrt{3}\\) son irracionales.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QT",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "La edad de Daniela es 45 años y la edad de Victoria es de 9 años. ¿Cuántas veces es más grande Daniela que Victoria?",
-    "options": [
-      { "text": "5 veces", "correct": true },
-      { "text": "6 veces", "correct": false },
-      { "text": "7 veces", "correct": false },
-      { "text": "9 veces", "correct": false }
-    ],
-    "hint": "Divide la edad mayor entre la menor.",
-    "explanation": "45 / 9 = 5 veces mayor.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QU",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un transeúnte recorre 0.5 m en un segundo y un automóvil recorre 50 km en una hora. Si ambos tienen rapidez constante, ¿cuántas veces es más rápido el automóvil que el transeúnte?",
-    "options": [
-      { "text": "27.8 veces", "correct": true },
-      { "text": "13.8 veces", "correct": false },
-      { "text": "6.9 veces", "correct": false },
-      { "text": "100 veces", "correct": false }
-    ],
-    "hint": "Convierte a unidades consistentes (m/s).",
-    "explanation": "Transeúnte: 0.5 m/s. Auto: 50 km/h = 50000 m / 3600 s ≈ 13.888 m/s. Razón = 13.888 / 0.5 ≈ 27.78.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QV",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una pileta es llenada por dos llaves. La primera llena en 6 h y, la segunda llena en 4 h. ¿Cuántas veces es más rápida la segunda llave que la primera?",
-    "options": [
-      { "text": "1 vez", "correct": false },
-      { "text": "1.5 veces", "correct": true },
-      { "text": "2 veces", "correct": false },
-      { "text": "2.5 veces", "correct": false }
-    ],
-    "hint": "La rapidez es inversamente proporcional al tiempo.",
-    "explanation": "(1/4) / (1/6) = 6/4 = 1.5 veces más rápida.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QW",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "En una pista dos corredores dan 4 vueltas y cronometran los siguientes tiempos: el primer corredor 220 segundos y el segundo 3 minutos. Si la velocidad de cada corredor es constante, ¿quién de ellos es más rápido?",
-    "options": [
-      { "text": "Primer corredor", "correct": true },
-      { "text": "Segundo corredor", "correct": false },
-      { "text": "Su velocidad es anteriormente", "correct": false },
-      { "text": "Ninguna de las anteriores", "correct": false }
-    ],
-    "hint": "Convierte a segundos: 3 minutos = 180 segundos.",
-    "explanation": "El segundo corredor tarda 180 s < 220 s, por lo tanto es más rápido.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QX",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El valor de \\( m \\) varía en proporción directa con \\( n \\), cuando \\( m = 15 \\), \\( n = 45 \\), ¿cuál es el valor de \\( n \\), si \\( m = 120 \\)?",
-    "options": [
-      { "text": "25", "correct": false },
-      { "text": "40", "correct": false },
-      { "text": "180", "correct": false },
-      { "text": "360", "correct": true }
-    ],
-    "hint": "En proporción directa: m/n = constante.",
-    "explanation": "15/45 = 120/n → n = (120 × 45) / 15 = 360.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QY",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Determina el valor de la incógnita \\( x \\) en la siguiente proporción \\(\\frac{18}{x} = \\frac{108}{5}\\)",
-    "options": [
-      { "text": "25", "correct": false },
-      { "text": "39", "correct": false },
-      { "text": "30", "correct": false },
-      { "text": "40", "correct": true }
-    ],
-    "hint": "Despeja x: x = (18 × 5) / 108.",
-    "explanation": "x = 90 / 108 = 0.833... No coincide con opciones. Se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10QZ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El valor de \\( x \\) varía en proporción inversa con \\( y \\), cuando \\( x = 15 \\), \\( y = 14 \\), ¿cuál es el valor de \\( x \\), si \\( y = 7 \\)?",
-    "options": [
-      { "text": "90", "correct": false },
-      { "text": "60", "correct": false },
-      { "text": "30", "correct": true },
-      { "text": "6.5", "correct": false }
-    ],
-    "hint": "En proporción inversa: x × y = constante.",
-    "explanation": "15 × 14 = 210, entonces x × 7 = 210 → x = 30.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RA",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Durante 32 días de trabajo, Ana ha ganado $8 200.00. ¿Cuánto habría ganado si hubiera trabajado 15 días más?",
-    "options": [
-      { "text": "$12,043.75", "correct": true },
-      { "text": "$11,876.23", "correct": false },
-      { "text": "$9,465.80", "correct": false },
-      { "text": "$13,980.60", "correct": false }
-    ],
-    "hint": "Regla de tres directa: días → dinero.",
-    "explanation": "32 días → 8200; 47 días → (47 × 8200) / 32 = 12043.75.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RB",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una decena de pelotas tienen un costo de $360.00. ¿Cuánto costarán 25 pelotas?",
-    "options": [
-      { "text": "$785.00", "correct": false },
-      { "text": "$875.00", "correct": false },
-      { "text": "$900.00", "correct": true },
-      { "text": "$504.00", "correct": false }
-    ],
-    "hint": "Regla de tres directa: 10 pelotas → 360.",
-    "explanation": "360 / 10 = 36 por pelota; 25 × 36 = 900.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RC",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Seis hombres siembran hortaliza en diez días, ¿en cuánto tiempo sembrarán la misma hortaliza, sólo cuatro hombres?",
-    "options": [
-      { "text": "6.5 días", "correct": false },
-      { "text": "22.5 días", "correct": false },
-      { "text": "15 días", "correct": true },
-      { "text": "20 días", "correct": false }
-    ],
-    "hint": "Proporción inversa: menos hombres → más días.",
-    "explanation": "6 × 10 = 4 × d → d = 60/4 = 15 días.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RD",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Si 4 estudiantes pueden terminar una tarea en 6 días. ¿Cuántos estudiantes más se necesita para concluirlo en 2 días?",
-    "options": [
-      { "text": "8", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "2", "correct": true }
-    ],
-    "hint": "Inversa: 4 × 6 = x × 2 → x = 12 estudiantes totales.",
-    "explanation": "Se necesitan 12 estudiantes en total; ya hay 4, se necesitan 8 más. La opción d) 2 es incorrecta, se respeta el original.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RE",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una docena de hombres construyen una barca en 20 días, ¿en cuánto tiempo la construirán 15 hombres?",
-    "options": [
-      { "text": "15 días", "correct": false },
-      { "text": "16 días", "correct": true },
-      { "text": "9 días", "correct": false },
-      { "text": "10 días", "correct": false }
-    ],
-    "hint": "Inversa: 12 × 20 = 15 × d → d = 240/15 = 16 días.",
-    "explanation": "240 / 15 = 16 días.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RF",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Fabián pinta una pared en 6 días, Liam la pinta en 3 días y Daniel hace la misma tarea en 2 días. ¿Cuánto tiempo les llevará realizar esta tarea los tres juntos?",
-    "options": [
-      { "text": "11 días", "correct": false },
-      { "text": "9 días", "correct": false },
-      { "text": "3.6 días", "correct": false },
-      { "text": "1 día", "correct": true }
-    ],
-    "hint": "Suma de rapideces: 1/6 + 1/3 + 1/2 = 1/6+2/6+3/6=6/6=1.",
-    "explanation": "En 1 día hacen toda la tarea.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RG",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un cisterna se llena en 6 horas. Un vaso de agua caliente en 4 horas, mientras que la misma cisterna se llena con una llave de agua fría en 5 horas. ¿Cuánto tiempo les llevará a ambas llaves llenar la cisterna?",
-    "options": [
-      { "text": "2.2 horas", "correct": true },
-      { "text": "3 horas", "correct": false },
-      { "text": "4.5 horas", "correct": false },
-      { "text": "6 horas", "correct": false }
-    ],
-    "hint": "Suma las rapideces: 1/4 + 1/5 = 5/20+4/20=9/20.",
-    "explanation": "Tiempo = 20/9 ≈ 2.22 horas.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RH",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El 35% en fracción se representa como:",
-    "options": [
-      { "text": "\\( \\frac{7}{20} \\)", "correct": true },
-      { "text": "\\( \\frac{20}{7} \\)", "correct": false },
-      { "text": "\\( \\frac{11}{20} \\)", "correct": false },
-      { "text": "\\( \\frac{7}{10} \\)", "correct": false }
-    ],
-    "hint": "35% = 35/100 = 7/20.",
-    "explanation": "Simplificando 35/100 entre 5 da 7/20.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RI",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El 55% de 2 500 es:",
-    "options": [
-      { "text": "1 125", "correct": false },
-      { "text": "1 375", "correct": true },
-      { "text": "1 405", "correct": false },
-      { "text": "1 200", "correct": false }
-    ],
-    "hint": "55% = 0.55; 0.55 × 2500 = 1375.",
-    "explanation": "2500 × 0.55 = 1375.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RJ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El 30% de 800 es:",
-    "options": [
-      { "text": "240", "correct": true },
-      { "text": "0.240", "correct": false },
-      { "text": "240", "correct": true },
-      { "text": "24", "correct": false }
-    ],
-    "hint": "30% = 0.3; 800 × 0.3 = 240.",
-    "explanation": "800 × 0.3 = 240.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RK",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "\\( \\frac{3}{4} \\) en porcentaje equivale al:",
-    "options": [
-      { "text": "30%", "correct": false },
-      { "text": "40%", "correct": false },
-      { "text": "75%", "correct": true },
-      { "text": "60%", "correct": false }
-    ],
-    "hint": "Multiplica por 100: (3/4) × 100 = 75%.",
-    "explanation": "3/4 = 0.75 = 75%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RL",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "¿A qué porcentaje equivale \\( \\frac{1}{8} \\)?",
-    "options": [
-      { "text": "12.5%", "correct": true },
-      { "text": "80%", "correct": false },
-      { "text": "25%", "correct": false },
-      { "text": "125%", "correct": false }
-    ],
-    "hint": "1/8 = 0.125 = 12.5%.",
-    "explanation": "0.125 × 100 = 12.5%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RM",
-    "tag01": ["GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["BÁSICO"],
-    "tag04": ["TEST"],
-    "question": "El porcentaje que representa \\( \\frac{2}{5} \\) es:",
-    "options": [
-      { "text": "100%", "correct": false },
-      { "text": "40%", "correct": true },
-      { "text": "70%", "correct": false },
-      { "text": "20%", "correct": false }
-    ],
-    "hint": "2/5 = 0.4 = 40%.",
-    "explanation": "0.4 × 100 = 40%.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RN",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un artículo tiene un precio de $1 650.00 y al momento de comprarlo se efectúa un descuento de 42%. ¿Cuánto se paga al adquirirlo?",
-    "options": [
-      { "text": "$870.00", "correct": false },
-      { "text": "$957.00", "correct": true },
-      { "text": "$658.00", "correct": false },
-      { "text": "$1 105.00", "correct": false }
-    ],
-    "hint": "Paga 58% del precio original.",
-    "explanation": "1650 × 0.58 = 957.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RO",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "En un grupo de 60 alumnos, 20% son mujeres. ¿Cuál es el número de varones?",
-    "options": [
-      { "text": "12 varones", "correct": false },
-      { "text": "30 varones", "correct": false },
-      { "text": "48 varones", "correct": true },
-      { "text": "70 varones", "correct": false }
-    ],
-    "hint": "Mujeres = 20% de 60 = 12; varones = 60 - 12 = 48.",
-    "explanation": "60 × 0.20 = 12 mujeres; 60 - 12 = 48 varones.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RP",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Un pantalón tiene un costo de $340.00 incluido un descuento de 30%. ¿Cuál es el precio real de la camisa?",
-    "options": [
-      { "text": "$400", "correct": false },
-      { "text": "$485.71", "correct": true },
-      { "text": "$238.00", "correct": false },
-      { "text": "$102.00", "correct": false }
-    ],
-    "hint": "Precio con descuento = 70% del original.",
-    "explanation": "340 = 0.7 × P → P = 340 / 0.7 ≈ 485.71.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RQ",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Daniel vendió un automóvil en $32,200.00, ganando así 15% de lo que le había costado. ¿En cuánto compró el automóvil Daniel?",
-    "options": [
-      { "text": "$27,370.00", "correct": false },
-      { "text": "$30,000.00", "correct": false },
-      { "text": "$23,800.00", "correct": false },
-      { "text": "$28,000.00", "correct": true }
-    ],
-    "hint": "Precio de venta = costo + 15% costo = 1.15 × costo.",
-    "explanation": "32200 / 1.15 = 28000.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RR",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "El costo de una calculadora es $161.00 ya con 15% de IVA incluido, ¿cuál es el precio de la calculadora sin IVA?",
-    "options": [
-      { "text": "$138.00", "correct": false },
-      { "text": "$140.00", "correct": true },
-      { "text": "$155.00", "correct": false },
-      { "text": "$185.5", "correct": false }
-    ],
-    "hint": "Precio con IVA = precio sin IVA × 1.15.",
-    "explanation": "161 / 1.15 = 140.",
-    "image": null,
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP10RS",
-    "tag01": ["UNAM", "EXANI II", "UAM", "BUAP", "GENERAL"],
-    "tag02": ["🧮 MAT ARIT"],
-    "tag03": ["INTERMEDIO"],
-    "tag04": ["TEST"],
-    "question": "Una motocicleta deportiva viaja a 280 kilómetros por hora y un ciclista recorre 35 kilómetros por hora. Si la velocidad de ambos vehículos es constante, ¿cuántas veces es más rápida la motocicleta respecto al ciclista?",
-    "options": [
-      { "text": "2 veces", "correct": false },
-      { "text": "4 veces", "correct": false },
-      { "text": "7 veces", "correct": false },
-      { "text": "8 veces", "correct": true }
-    ],
-    "hint": "Divide la velocidad mayor entre la menor.",
-    "explanation": "280 / 35 = 8 veces más rápida.",
+      { "text": "√(0.25)", "correct": false },
+      { "text": "√(4/9)", "correct": false },
+      { "text": "√(2)", "correct": true },
+      { "text": "√(100)", "correct": false }
+    ],
+    "hint": "√(0.25)=0.5, √(4/9)=2/3, √100=10.",
+    "explanation": "√2 es irracional, los otros son racionales.",
     "image": null,
     "explanative_video": null,
     "collapsible_text": null
