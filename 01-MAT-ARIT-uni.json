@@ -1128,10 +1128,10 @@
     "tag04": ["TEST"],
     "question": "Resuelve: 10 × 2 - (8 + 12 ÷ 3) + 4",
     "options": [
-      { "text": "14", "correct": true },
+      { "text": "14", "correct": false },
       { "text": "20", "correct": false },
       { "text": "18", "correct": false },
-      { "text": "12", "correct": false }
+      { "text": "12", "correct": true }
     ],
     "hint": "División dentro del paréntesis primero.",
     "explanation": "12÷3=4, 8+4=12, 10×2=20, 20-12=8, 8+4=12.",
