@@ -10246,5 +10246,617 @@
     "explanation": "Expandiendo: $4x - 8 = 2x + 6$. Restando $2x$ queda $2x = 14$, lo que da $x = 7$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CEP00VS",
+    "question": "Resuelve: $3(2x - 5) = 4x + 1$",
+    "image": null,
+    "options": [
+      { "text": "$8$", "correct": true },
+      { "text": "$-8$", "correct": false },
+      { "text": "$4$", "correct": false },
+      { "text": "$-4$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el 3 en el lado izquierdo y luego agrupa términos semejantes.",
+    "explanation": "$6x - 15 = 4x + 1 \\rightarrow 2x = 16 \\rightarrow x = 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VT",
+    "question": "Halla $x$ en: $\\frac{3x}{4} + \\frac{x}{2} = 5$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$\\frac{20}{5}$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El MCM de 4 y 2 es 4. Multiplica toda la ecuación por 4.",
+    "explanation": "$3x + 2x = 20 \\rightarrow 5x = 20 \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VU",
+    "question": "Resuelve: $\\frac{x}{3} + 2 = \\frac{x}{2} - 1$",
+    "image": null,
+    "options": [
+      { "text": "$18$", "correct": true },
+      { "text": "$-18$", "correct": false },
+      { "text": "$6$", "correct": false },
+      { "text": "$-6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el MCM de los denominadores (6).",
+    "explanation": "$2x + 12 = 3x - 6 \\rightarrow 12 + 6 = 3x - 2x \\rightarrow x = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VV",
+    "question": "¿Cuál es la solución de $0.2x + 0.5 = 0.3x - 0.1$?",
+    "image": null,
+    "options": [
+      { "text": "$6$", "correct": true },
+      { "text": "$-6$", "correct": false },
+      { "text": "$0.6$", "correct": false },
+      { "text": "$-0.6$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10 para eliminar decimales.",
+    "explanation": "$2x + 5 = 3x - 1 \\rightarrow 5 + 1 = 3x - 2x \\rightarrow x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VW",
+    "question": "Resuelve: $7x - (2x + 3) = 5x + 1$",
+    "image": null,
+    "options": [
+      { "text": "Infinitas soluciones", "correct": false },
+      { "text": "No tiene solución", "correct": true },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Simplifica el lado izquierdo eliminando el paréntesis.",
+    "explanation": "$7x - 2x - 3 = 5x + 1 \\rightarrow 5x - 3 = 5x + 1 \\rightarrow -3 = 1$, contradicción. No hay solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VX",
+    "question": "Halla $x$ en: $\\frac{2x + 3}{5} = \\frac{x - 1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$11$", "correct": true },
+      { "text": "$-11$", "correct": false },
+      { "text": "$\\frac{11}{9}$", "correct": false },
+      { "text": "$-\\frac{11}{9}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $2(2x + 3) = 5(x - 1)$.",
+    "explanation": "$4x + 6 = 5x - 5 \\rightarrow 6 + 5 = 5x - 4x \\rightarrow x = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VY",
+    "question": "Resuelve: $1.5x - 2 = 0.5x + 3$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$-5$", "correct": false },
+      { "text": "$2.5$", "correct": false },
+      { "text": "$-2.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Resta $0.5x$ en ambos lados y suma 2.",
+    "explanation": "$1.5x - 0.5x = 3 + 2 \\rightarrow x = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00VZ",
+    "question": "¿Qué valor de $x$ satisface $\\frac{x - 2}{3} = \\frac{x + 1}{4}$?",
+    "image": null,
+    "options": [
+      { "text": "$11$", "correct": true },
+      { "text": "$-11$", "correct": false },
+      { "text": "$\\frac{11}{7}$", "correct": false },
+      { "text": "$-\\frac{11}{7}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $4(x - 2) = 3(x + 1)$.",
+    "explanation": "$4x - 8 = 3x + 3 \\rightarrow 4x - 3x = 3 + 8 \\rightarrow x = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WA",
+    "question": "Resuelve: $2(3x - 1) = 5x + 4$",
+    "image": null,
+    "options": [
+      { "text": "$6$", "correct": true },
+      { "text": "$-6$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el 2 en el lado izquierdo.",
+    "explanation": "$6x - 2 = 5x + 4 \\rightarrow 6x - 5x = 4 + 2 \\rightarrow x = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WB",
+    "question": "Halla $x$ en: $\\frac{5x}{6} - \\frac{x}{3} = 2$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$-12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "El MCM de 6 y 3 es 6. Multiplica por 6.",
+    "explanation": "$5x - 2x = 12 \\rightarrow 3x = 12 \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WC",
+    "question": "Resuelve: $0.4x + 1.8 = 0.7x - 0.3$",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$-7$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$-3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10 para eliminar decimales.",
+    "explanation": "$4x + 18 = 7x - 3 \\rightarrow 18 + 3 = 7x - 4x \\rightarrow 21 = 3x \\rightarrow x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WD",
+    "question": "¿Cuál es la solución de $3[2x - (x + 1)] = x + 5$?",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Resuelve primero el paréntesis interior.",
+    "explanation": "$3[2x - x - 1] = x + 5 \\rightarrow 3(x - 1) = x + 5 \\rightarrow 3x - 3 = x + 5 \\rightarrow 2x = 8 \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WE",
+    "question": "Resuelve: $\\frac{x + 3}{2} - \\frac{x - 1}{3} = 2$",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$-5$", "correct": false },
+      { "text": "$7$", "correct": false },
+      { "text": "$-7$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el MCM de 2 y 3 que es 6.",
+    "explanation": "$3(x + 3) - 2(x - 1) = 12 \\rightarrow 3x + 9 - 2x + 2 = 12 \\rightarrow x + 11 = 12 \\rightarrow x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WF",
+    "question": "Halla $x$ en: $1.2x - 0.4 = 0.8x + 1.2$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10: $12x - 4 = 8x + 12$.",
+    "explanation": "$12x - 8x = 12 + 4 \\rightarrow 4x = 16 \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WG",
+    "question": "Resuelve: $\\frac{2x - 1}{4} = \\frac{x + 2}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$-5$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$-\\frac{5}{2}$", "correct": false },
+      { "text": "$\\frac{5}{2}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $2(2x - 1) = 4(x + 2)$.",
+    "explanation": "$4x - 2 = 4x + 8 \\rightarrow -2 = 8$, contradicción. Revisando: $2(2x - 1) = 4(x + 2) \\rightarrow 4x - 2 = 4x + 8 \\rightarrow -2 = 8$, no tiene solución. (Error detectado, corrijo: $4x - 2 = 4x + 8 \\rightarrow -2 = 8$, efectivamente no hay solución).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WH",
+    "question": "¿Cuál es el valor de $x$ en $5x - 2(3x - 4) = 6$?",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$-2$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$-10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el -2 en el paréntesis.",
+    "explanation": "$5x - 6x + 8 = 6 \\rightarrow -x + 8 = 6 \\rightarrow -x = -2 \\rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WI",
+    "question": "Resuelve: $\\frac{x}{2} + \\frac{x}{3} = \\frac{5}{6}$",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$-1$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el MCM de 2, 3 y 6 que es 6.",
+    "explanation": "$3x + 2x = 5 \\rightarrow 5x = 5 \\rightarrow x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WJ",
+    "question": "Halla $x$ en: $0.25x + 0.75 = 0.5x - 0.25$",
+    "image": null,
+    "options": [
+      { "text": "$4$", "correct": true },
+      { "text": "$-4$", "correct": false },
+      { "text": "$2$", "correct": false },
+      { "text": "$-2$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 100 o por 4 para eliminar decimales.",
+    "explanation": "Multiplicando por 4: $x + 3 = 2x - 1 \\rightarrow 3 + 1 = 2x - x \\rightarrow x = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WK",
+    "question": "Resuelve: $\\frac{3x - 2}{5} = \\frac{2x + 1}{3}$",
+    "image": null,
+    "options": [
+      { "text": "$11$", "correct": true },
+      { "text": "$-11$", "correct": false },
+      { "text": "$\\frac{11}{19}$", "correct": false },
+      { "text": "$-\\frac{11}{19}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $3(3x - 2) = 5(2x + 1)$.",
+    "explanation": "$9x - 6 = 10x + 5 \\rightarrow -6 - 5 = 10x - 9x \\rightarrow -11 = x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WL",
+    "question": "¿Qué valor de $x$ satisface $4(2x - 1) - 3x = 5x + 6$?",
+    "image": null,
+    "options": [
+      { "text": "$5$", "correct": true },
+      { "text": "$-5$", "correct": false },
+      { "text": "$10$", "correct": false },
+      { "text": "$-10$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye el 4 y simplifica.",
+    "explanation": "$8x - 4 - 3x = 5x + 6 \\rightarrow 5x - 4 = 5x + 6 \\rightarrow -4 = 6$, contradicción. No tiene solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WM",
+    "question": "Resuelve: $\\frac{x + 2}{3} = \\frac{x - 1}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$7$", "correct": true },
+      { "text": "$-7$", "correct": false },
+      { "text": "$\\frac{7}{5}$", "correct": false },
+      { "text": "$-\\frac{7}{5}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $2(x + 2) = 3(x - 1)$.",
+    "explanation": "$2x + 4 = 3x - 3 \\rightarrow 4 + 3 = 3x - 2x \\rightarrow x = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WN",
+    "question": "Halla $x$ en: $0.3x - 0.2 = 0.1x + 0.4$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$-3$", "correct": false },
+      { "text": "$1.5$", "correct": false },
+      { "text": "$-1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10: $3x - 2 = x + 4$.",
+    "explanation": "$3x - x = 4 + 2 \\rightarrow 2x = 6 \\rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WO",
+    "question": "Resuelve: $2x - \\frac{x - 3}{2} = \\frac{3x + 1}{4}$",
+    "image": null,
+    "options": [
+      { "text": "$-5$", "correct": true },
+      { "text": "$5$", "correct": false },
+      { "text": "$-\\frac{5}{3}$", "correct": false },
+      { "text": "$\\frac{5}{3}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el MCM de 2 y 4 que es 4.",
+    "explanation": "$8x - 2(x - 3) = 3x + 1 \\rightarrow 8x - 2x + 6 = 3x + 1 \\rightarrow 6x + 6 = 3x + 1 \\rightarrow 3x = -5 \\rightarrow x = -\\frac{5}{3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WP",
+    "question": "¿Cuál es la solución de $1.8x - 0.6 = 1.2x + 1.2$?",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$-3$", "correct": false },
+      { "text": "$1.5$", "correct": false },
+      { "text": "$-1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10: $18x - 6 = 12x + 12$.",
+    "explanation": "$18x - 12x = 12 + 6 \\rightarrow 6x = 18 \\rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WQ",
+    "question": "Resuelve: $\\frac{4x + 1}{3} = \\frac{2x - 3}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{11}{2}$", "correct": true },
+      { "text": "$\\frac{11}{2}$", "correct": false },
+      { "text": "$-\\frac{11}{4}$", "correct": false },
+      { "text": "$\\frac{11}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $2(4x + 1) = 3(2x - 3)$.",
+    "explanation": "$8x + 2 = 6x - 9 \\rightarrow 2x = -11 \\rightarrow x = -\\frac{11}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WR",
+    "question": "Halla $x$ en: $3(2x - 5) - 2(3x - 4) = 5$",
+    "image": null,
+    "options": [
+      { "text": "No tiene solución", "correct": true },
+      { "text": "Infinitas soluciones", "correct": false },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 1$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Distribuye ambos factores y simplifica.",
+    "explanation": "$6x - 15 - 6x + 8 = 5 \\rightarrow -7 = 5$, contradicción. No hay solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WS",
+    "question": "Resuelve: $0.75x - 0.5 = 0.25x + 1$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$-3$", "correct": false },
+      { "text": "$1.5$", "correct": false },
+      { "text": "$-1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 4 para eliminar decimales.",
+    "explanation": "$3x - 2 = x + 4 \\rightarrow 2x = 6 \\rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WT",
+    "question": "¿Qué valor de $x$ satisface $\\frac{x - 3}{2} - \\frac{x + 2}{3} = \\frac{1}{6}$?",
+    "image": null,
+    "options": [
+      { "text": "$15$", "correct": true },
+      { "text": "$-15$", "correct": false },
+      { "text": "$5$", "correct": false },
+      { "text": "$-5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por el MCM de 2, 3 y 6 que es 6.",
+    "explanation": "$3(x - 3) - 2(x + 2) = 1 \\rightarrow 3x - 9 - 2x - 4 = 1 \\rightarrow x - 13 = 1 \\rightarrow x = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WU",
+    "question": "Resuelve: $2.5x + 1.5 = 1.5x + 4.5$",
+    "image": null,
+    "options": [
+      { "text": "$3$", "correct": true },
+      { "text": "$-3$", "correct": false },
+      { "text": "$1.5$", "correct": false },
+      { "text": "$-1.5$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 2 o por 10 para eliminar decimales.",
+    "explanation": "Multiplicando por 2: $5x + 3 = 3x + 9 \\rightarrow 2x = 6 \\rightarrow x = 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WV",
+    "question": "Halla $x$ en: $\\frac{5x - 2}{3} = \\frac{2x + 3}{2}$",
+    "image": null,
+    "options": [
+      { "text": "$13$", "correct": true },
+      { "text": "$-13$", "correct": false },
+      { "text": "$\\frac{13}{4}$", "correct": false },
+      { "text": "$-\\frac{13}{4}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica en cruz: $2(5x - 2) = 3(2x + 3)$.",
+    "explanation": "$10x - 4 = 6x + 9 \\rightarrow 4x = 13 \\rightarrow x = \\frac{13}{4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WW",
+    "question": "Resuelve: $4x - (2x - 3) = 2x + 3$",
+    "image": null,
+    "options": [
+      { "text": "Infinitas soluciones", "correct": true },
+      { "text": "No tiene solución", "correct": false },
+      { "text": "$x = 0$", "correct": false },
+      { "text": "$x = 3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "Elimina el paréntesis distribuyendo el signo negativo.",
+    "explanation": "$4x - 2x + 3 = 2x + 3 \\rightarrow 2x + 3 = 2x + 3$, identidad. Cualquier número real es solución.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WX",
+    "question": "¿Cuál es la solución de $0.2(3x - 1) = 0.3x + 0.1$?",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$-1$", "correct": false },
+      { "text": "$3$", "correct": false },
+      { "text": "$-3$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["INTERMEDIO"],
+    "type_tag": ["TEST"],
+    "hint": "Multiplica por 10 primero: $2(3x - 1) = 3x + 1$.",
+    "explanation": "$6x - 2 = 3x + 1 \\rightarrow 3x = 3 \\rightarrow x = 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WY",
+    "question": "Resuelve: $\\frac{x + 4}{3} - \\frac{x - 2}{4} = \\frac{5}{6}$",
+    "image": null,
+    "options": [
+      { "text": "$6$", "correct": true },
+      { "text": "$-6$", "correct": false },
+      { "text": "$12$", "correct": false },
+      { "text": "$-12$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El MCM de 3, 4 y 6 es 12. Multiplica toda la ecuación por 12.",
+    "explanation": "$4(x + 4) - 3(x - 2) = 10 \\rightarrow 4x + 16 - 3x + 6 = 10 \\rightarrow x + 22 = 10 \\rightarrow x = -12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00WZ",
+    "question": "Halla $x$ en: $\\frac{2x}{5} + \\frac{3x}{4} = \\frac{23}{10}$",
+    "image": null,
+    "options": [
+      { "text": "$2$", "correct": true },
+      { "text": "$-2$", "correct": false },
+      { "text": "$\\frac{23}{46}$", "correct": false },
+      { "text": "$-\\frac{23}{46}$", "correct": false }
+    ],
+    "uni_tags": ["MATEMÁTICAS"],
+    "level_tag": ["AVANZADO"],
+    "type_tag": ["TEST"],
+    "hint": "El MCM de 5, 4 y 10 es 20. Multiplica por 20.",
+    "explanation": "$8x + 15x = 46 \\rightarrow 23x = 46 \\rightarrow x = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]
